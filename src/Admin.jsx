@@ -1,5 +1,7 @@
+```jsx
 import React, { useEffect, useState } from "react";
 import PrintExam from "./PrintExam.jsx";
+import PrintQuestion from "./PrintQuestion.jsx";
 
 
 function Admin({onBack}){
@@ -8,6 +10,8 @@ function Admin({onBack}){
   const [results,setResults] = useState([]);
 
   const [exam,setExam] = useState(null);
+
+  const [questionPrint,setQuestionPrint] = useState(false);
 
 
 
@@ -48,6 +52,35 @@ function Admin({onBack}){
     }
 
 
+    setQuestionPrint(false);
+
+    setExam(JSON.parse(data));
+
+
+  }
+
+
+
+
+
+
+  function loadQuestionPrint(){
+
+
+    const data = localStorage.getItem("lastExam");
+
+
+
+    if(!data){
+
+      alert("출력할 시험 데이터가 없습니다.");
+
+      return;
+
+    }
+
+
+    setQuestionPrint(true);
 
     setExam(JSON.parse(data));
 
@@ -70,18 +103,30 @@ function Admin({onBack}){
 
 
         <h1>
-
           KNDT-CBT 관리자
-
         </h1>
+
+
 
 
 
         <button onClick={loadPrint}>
 
-          시험지 출력
+          답안지 출력
 
         </button>
+
+
+
+
+
+        <button onClick={loadQuestionPrint}>
+
+          문제지 출력
+
+        </button>
+
+
 
 
 
@@ -94,26 +139,23 @@ function Admin({onBack}){
 
 
 
+
         <h2>
-
           응시 결과
-
         </h2>
 
 
 
 
 
-        {
 
+        {
           results.length===0
 
           ?
 
           <p>
-
             저장된 결과가 없습니다.
-
           </p>
 
 
@@ -140,6 +182,7 @@ function Admin({onBack}){
               </tr>
 
             </thead>
+
 
 
 
@@ -200,15 +243,17 @@ function Admin({onBack}){
 
 
 
-        {
 
-          exam &&
+
+        {
+          exam && !questionPrint &&
 
 
           <div>
 
 
             <PrintExam
+
 
               name={exam.name}
 
@@ -224,13 +269,49 @@ function Admin({onBack}){
 
               date={exam.date}
 
+
             />
 
 
           </div>
 
+        }
+
+
+
+
+
+
+
+
+        {
+          questionPrint && exam &&
+
+
+          <div>
+
+
+            <PrintQuestion
+
+
+              name={exam.name}
+
+              level={exam.level}
+
+              method={exam.method}
+
+              subject={exam.subject}
+
+              questions={exam.questions}
+
+
+            />
+
+
+          </div>
 
         }
+
 
 
 
@@ -248,3 +329,4 @@ function Admin({onBack}){
 
 
 export default Admin;
+```
