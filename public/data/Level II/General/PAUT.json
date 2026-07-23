@@ -1,0 +1,665 @@
+[
+  {
+    "id": 1,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "What is the speed-ratio for steel (and aluminum) between longitudinal and transverse waves?",
+    "translation": "강철(및 알루미늄)에서 종파와 횡파 사이의 음속비는 얼마인가?",
+    "options": [
+      "about 1:1",
+      "about 2:1",
+      "about 0.5:1",
+      "about 4:1"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 2,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "Which wave mode is used mostly when testing with 0° sound beam?",
+    "translation": "다음 초음파 모드 중 0°에 주로 사용되는 모드는?",
+    "options": [
+      "surface waves",
+      "transverse waves",
+      "longitudinal waves",
+      "lamb waves"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 3,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "Electronic scanning is?",
+    "translation": "전기적 주사는?",
+    "options": [
+      "Using a robot to automatically scan a component",
+      "Utilizing a linear scan with a defined aperture to increment along an array and scan a component with no mechanical movement",
+      "Is the PA term that equates to PRF in conventional UT",
+      "Is the process of digitizing an analogue signal"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 4,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "What is the type of phased array scan that uses a series of focal laws to sweep through a range of angles from a fixed aperture?",
+    "translation": "고정된 개구에서 다양한 각도를 통과하는 일련의 초점법을 사용하는 위상배열 스캔 유형은?",
+    "options": [
+      "Sectorial",
+      "Linear",
+      "Arc",
+      "Dynamic depth focusing"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 5,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "What is the term for the distance from the start of the first to the end of the last active element of a linear array?",
+    "translation": "선형 배열의 첫 번째 활성 소자 시작점부터 마지막 활성 소자 끝점까지의 거리를 무엇이라 하는가?",
+    "options": [
+      "focal depth",
+      "aperture",
+      "pitch",
+      "x-offset"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 6,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "A 16/128 PA unit is used to perform a focussed inspection, the 1D linear probe has 64 elements, Calculate the maximum limit of the probes focus with no wedge present in the active plane using a 0° compression wave.",
+    "translation": "16/128 PA 장비가 초점 검사를 수행하며, 64개의 진동자를 가진 1D 선형 프로브를 사용한다. 0° 종파를 사용하여 활성 평면에 웨지가 없는 프로브 초점의 최대 한계를 계산하시오.",
+    "condition": {
+      "Frequency": "5MHz",
+      "Element width": "0.9mm",
+      "Gap between elements": "0.1mm",
+      "Vs": "3.24㎜/㎲",
+      "Vc": "5.96㎜/㎲"
+    },
+    "options": [
+      "53.7mm",
+      "98.8mm",
+      "107.4mm",
+      "197.5mm"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 7,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "At what range is the width of a conventional ultrasonic beam smallest?",
+    "translation": "어떤 범위에서 일반적인 초음파 빔 폭이 가장 작은가?",
+    "options": [
+      "It depends on the wedge interface shape",
+      "At the end of the near sound field",
+      "It varies with frequency, crystal size and excitation voltage",
+      "At 3 times the crystal diameter"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 8,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "With which formula is it possible to calculate the near-field length N of an unfocused one-dimensional array? (A = aperture)",
+    "translation": "집속되지 않은 1차원 배열 탐촉자의 근거리 음장 길이 N을 계산할 수 있는 공식은?",
+    "options": [
+      "N = (A²*c)/4f",
+      "N = (A²*f)/4c",
+      "N = (A²*4)/cf",
+      "N = (A*f)/4c"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 9,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "In PA terminology 'Pitch' refers to",
+    "translation": "PA 용어에서 Pitch란?",
+    "options": [
+      "The angle a wedge is machined to",
+      "The protective coating on the face of a transducer",
+      "The distance between adjacent elements centers",
+      "The distance between adjacent elements"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 10,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "How is the scanning with a variable beam in the phased array technique designated?",
+    "translation": "위상 배열 기술에서 가변 빔을 사용한 스캔은 어떻게 지정되는가?",
+    "options": [
+      "Sector scan",
+      "Linear scan",
+      "B scan",
+      "C scan"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 11,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "Which statement is correct concerning phased array probes?",
+    "translation": "다음 중 phased array 탐촉자와 관련하여 옳은 것은?",
+    "options": [
+      "Phased array probes consist of several single transducers, which are acoustically and electrically separated.",
+      "Phased array probes are operating only with transverse waves.",
+      "Phased array probes are operating only with low frequencies (<4 MHz).",
+      "Phased array probes cannot be used in an automatic testing facility."
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 12,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "A focused phased array inspection is limited in path length by.",
+    "translation": "초점형 위상 배열 검사는 무엇에 의해 경로 길이가 제한되는가?",
+    "options": [
+      "The transducers near field",
+      "The frequency of the transducer",
+      "The size of the elements",
+      "The grain structure of the component inspected"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 13,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "Which product is most difficult to test (same wall thickness) because of high sound attenuation and scattering?",
+    "translation": "높은 감쇠와 산란 때문에 동일한 두께에서 검사하기 가장 어려운 제품은?",
+    "options": [
+      "Forged product with heat treatment",
+      "Ferritic steel casting",
+      "Lamellar graphite cast iron",
+      "Aluminum plates"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 14,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "Dynamic Depth Focusing is",
+    "translation": "Dynamic Depth Focusing이란?",
+    "options": [
+      "The ability of equipment to focus at varying depths",
+      "The multi processing of returned signals to focus at varying depths",
+      "The ability to move the focal point by changing the shape of the transducer using piezoelectric properties",
+      "In PA it is equivalent to Time Corrected Gain in conventional UT"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 15,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "What information can be taken from an A-scan presentation?",
+    "translation": "A-scan 표시로부터 얻을 수 있는 정보는?",
+    "options": [
+      "The longitudinal coordinates at a reflector",
+      "The echo amplitude of a reflector",
+      "The echo position",
+      "The answers a) and b) are correct"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 16,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "A phased array linear scan is?",
+    "translation": "PA 선형 스캔은?",
+    "options": [
+      "A straight line scan",
+      "A scan using a fixed focal law but incrementing different groups of elements",
+      "A scan using the whole array to produce an electronic rastering scan",
+      "A scan that inspects with a range of angles to cover a linear volume of material"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 17,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "What is a Focal Law as applied to phased array inspection?",
+    "translation": "위상 배열 검사에서 적용되는 Focal Law란?",
+    "options": [
+      "A basic ultrasonic phenomenon such as Snell's Law",
+      "A rule of thumb used by experienced UT operators",
+      "A law that states which elements to excite, when they are excited, how long for, and which receive ultrasonic echoes",
+      "A law that governs the physics of probe design"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 18,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "A 1D transducer has elements?",
+    "translation": "1D 탐촉자는 어떤 배열을 가지는가?",
+    "options": [
+      "Has only one crystal, typical of conventional UT",
+      "Has an array of elements in the shape of a capital D",
+      "Has multiple elements in one axis and one element in the perpendicular axis",
+      "All the elements are one dimension to eliminate grating lobes"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 19,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "Under what condition is the focal spot of a sound beam symmetrically in the x-y direction of a linear array?",
+    "translation": "Linear array에서 X-Y 방향 초점 크기가 대칭이 되는 조건은?",
+    "options": [
+      "If the aperture is much greater than the array in the passive direction",
+      "If the size of the aperture is equal to the width of the transducers in the passive direction",
+      "If the focal factor is k=1",
+      "If the sound beam is focused"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 20,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "Phased array probes mounted on angled wedges",
+    "translation": "사각 웨지에 장착된 PA 프로브는?",
+    "options": [
+      "Use transverse wave propagation",
+      "Use longitudinal wave propagation",
+      "Use modified shear waves",
+      "Both a) and b) are correct"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 21,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "In PA terminology 'Aperture' refers to",
+    "translation": "PA 용어에서 Aperture란?",
+    "options": [
+      "The area available to site the probe on a component",
+      "The number of elements addressed by a given focal law",
+      "The length of the transducer in the active axis",
+      "The electronic snapshot area along the path length that data is collected"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 22,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "What is the correct definition to describe a Phased Array transducer?",
+    "translation": "PA 탐촉자를 설명하는 올바른 정의는?",
+    "options": [
+      "An ultrasonic probe with natural focusing and scanning abilities",
+      "An ultrasonic probe that generates its own pulses",
+      "Numerous separate ultrasonic probes that can be individually pulsed to offer electronic scanning, focused beams and angled inspections",
+      "An ultrasonic crystal diced into elements that can be individually pulsed to offer electronic scanning, focused beams and angled inspections"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 23,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "What is the wavelength of the ultrasound in Pb with a frequency of 1 MHz? (Sound velocity 2100 m/s)",
+    "translation": "납에서 1MHz 주파수 초음파의 파장은 얼마인가?",
+    "options": [
+      "0.21 cm",
+      "21 cm",
+      "0.48 cm",
+      "0.000048 cm"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 24,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "What ultimately determines the accuracy of the position of a signal in the time gate?",
+    "translation": "시간 게이트에서 신호 위치의 정확도를 궁극적으로 결정하는 것은?",
+    "options": [
+      "The encoder",
+      "The reference target amplitude",
+      "Probe frequency",
+      "Analogue to Digital digitising frequency"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 25,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "What is the effect of long pulses?",
+    "translation": "긴 펄스의 영향은?",
+    "options": [
+      "The UT test shows a low depth resolution",
+      "The UT test shows a high resolution in the far field",
+      "The pulses can be used for determining the half-value width",
+      "Long pulses show a high velocity"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 26,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "What information can be taken from a C-scan presentation?",
+    "translation": "C-scan 방식으로부터 알 수 있는 정보는?",
+    "options": [
+      "The longitudinal coordinates of a reflector",
+      "The transverse coordinates and amplitude of a reflector",
+      "The echo position",
+      "The answers a) and b) are correct"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 27,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "Which of the following defects in a weld (bevel angle of 30°) may be detected best with a 60° linear scan?",
+    "translation": "베벨각 30° 용접부에서 60° 선형 스캔으로 가장 잘 검출되는 결함은?",
+    "options": [
+      "Transverse crack",
+      "Root crack",
+      "Lamination in the base metal",
+      "Lack of side wall fusion"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 28,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "Given a linear phased array probe, what variable available to the operator limits its near field length?",
+    "translation": "Linear PA 프로브에서 작업자가 조정 가능한 변수 중 근거리 음장 길이를 제한하는 것은?",
+    "options": [
+      "Frequency",
+      "Voltage to the pulser",
+      "Pulse duration of the pulser voltage",
+      "Number of elements used"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 29,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "What effects diminish the echo height of a reflector by a great sound beam path?",
+    "translation": "긴 음향 경로에서 반사체 에코 높이를 감소시키는 영향은?",
+    "options": [
+      "Losses due to divergence",
+      "Losses due to reflection",
+      "Losses due to sound attenuation",
+      "Answers a) and c) are correct"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 30,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "What is another name for the S-scan?",
+    "translation": "S-scan의 다른 이름은?",
+    "options": [
+      "Sectorial",
+      "Azimuthal",
+      "Linear",
+      "Both a) and b)"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 31,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "How many amplitude control linearity checks must be run on a Phased-array system prior to use?",
+    "translation": "사용 전에 PA 시스템에서 몇 개의 진폭 제어 직선성 검사를 수행해야 하는가?",
+    "options": [
+      "1",
+      "16",
+      "One for each pulser / receiver in the unit",
+      "One for each element that can be addressed by the system"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 32,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "Phased array UT instrument shall meet the requirement of amplitude control linearity",
+    "translation": "PA UT 장비는 진폭 제어 직선성 요구사항을 만족해야 한다.",
+    "options": [
+      "For each focal law",
+      "For each pulse-receiver circuit",
+      "For each separate element",
+      "All of the above"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 33,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "What is the type of phased array scan that uses a series of focal laws multiplexed to duplicate a raster scan?",
+    "translation": "래스터 스캔을 반복하기 위해 일련의 Focal Law를 사용하는 PA 스캔 유형은?",
+    "options": [
+      "Sectorial",
+      "Linear or electronic",
+      "Azimuthal",
+      "Dynamic depth focusing"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 34,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "Phased array inspection effectively steers ultrasonic beams by",
+    "translation": "PA 검사는 초음파 빔을 어떻게 조향하는가?",
+    "options": [
+      "Novel design of wedge shape and material",
+      "Pulsing adjacent elements to bend beams to the required direction",
+      "Utilizing constructive interference to sum and concentrate energy in the required direction",
+      "Using the piezo-electric effect to mechanically alter the direction of propagation"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 35,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "Why is a radius used to set sensitivity compensation when configuring focal laws for S-scan instead of other targets?",
+    "translation": "S-scan Focal Law 설정 시 다른 표적 대신 반경을 사용하여 감도 보상을 설정하는 이유는?",
+    "options": [
+      "Because it provides a constant soundpath for all focal laws",
+      "Because S-scan cannot detect FBHs reliably",
+      "Because a SDH provides too low an echo response",
+      "Both a and b"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 36,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "The near limit for a PA inspection is",
+    "translation": "PA 검사에서 근거리 한계는?",
+    "options": [
+      "The Dead Zone of the elements",
+      "Approximately 10% of the near field",
+      "There is no practical near limit",
+      "The near limit can be adjusted by focusing the probe"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 37,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "What is the purpose of sensitivity compensation when using a phased-array probe mounted on a wedge?",
+    "translation": "웨지에 장착된 PA 프로브 사용 시 감도 보상의 목적은?",
+    "options": [
+      "To correct for echo-transmittance",
+      "To correct for the varying times in the wedge",
+      "To correct for the attenuation due to varying times in the wedge",
+      "All of the above"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 38,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "A colour-coded depth distribution of flaws on a plan view display is called?",
+    "translation": "결함의 깊이 분포를 색상으로 표시하는 디스플레이는?",
+    "options": [
+      "B-scan",
+      "C-scan",
+      "Depth-encoded C-scan",
+      "P-scan"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 39,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "Phased-array data displays are better used with TCG than with DAC curves. Why?",
+    "translation": "PA 데이터 표시에서 DAC보다 TCG가 더 좋은 이유는?",
+    "options": [
+      "Because evaluation of displays is usually based on amplitude colour-coding",
+      "More TCG points can be used than are available with DAC points",
+      "Accept/reject assessments made using the A-scans",
+      "TCGs provide better dynamic range and avoid saturating signals"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 40,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "How many horizontal linearity checks must be run on a Phased-array system prior to use?",
+    "translation": "사용 전 PA 시스템에서 몇 개의 수평 직선성 검사를 수행해야 하는가?",
+    "options": [
+      "1",
+      "16",
+      "One for each pulser in the unit",
+      "One for each element that can be addressed by the system"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 41,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "subject": "PAUT General - II - A",
+    "question": "For a 7MHz, 16 element probe focused at 25mm, what would be the effect on the ultrasonic beam of an increase in element pitch from 0.5mm to 0.7mm?",
+    "translation": "7MHz, 16 element probe가 25mm에 초점일 때 element pitch가 0.5mm에서 0.7mm로 증가하면 초음파 빔에 미치는 영향은?",
+    "options": [
+      "The near field will decrease",
+      "The focal spot size will increase",
+      "The focal spot size will decrease",
+      "Grating lobes will be induced"
+    ],
+    "answer": "B"
+  }
+]

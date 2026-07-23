@@ -1,0 +1,292 @@
+{
+  "subject": "PT",
+  "level": "Level II",
+  "category": "Specific",
+  "type": "B",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the minimum lighting on the part surface when PT is conducted under the daylight?",
+      "korean": "일광하에서 침투 탐상 시험시 최소 밝기는 얼마인가?",
+      "options": [
+        "350 Lux",
+        "1076 Lux",
+        "200 Lux",
+        "150 Lux"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 2,
+      "question": "1/16\" linear indication found on welds. Is this acceptable?",
+      "korean": "용접부에서 1/16인치의 선형지시가 발견되었다. 이 결함은 합격인가?",
+      "options": [
+        "Accept",
+        "Reject"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 3,
+      "question": "5/16\" round indication found on welds. Is this acceptable?",
+      "korean": "용접부에서 5/16인치 원형지시가 발견되었다. 이것은 합격인가?",
+      "options": [
+        "Accept",
+        "Reject"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 4,
+      "question": "When using solvent removable penetrants, flushing the surface with solvent to remove excess penetrant is prohibited. Why?",
+      "korean": "Solvent removable 침투액 사용 시 과잉 침투액 제거를 위해 솔벤트를 표면에 쏟는 것을 금지하는 이유는?",
+      "options": [
+        "Because penetrant can be removed from the discontinuity",
+        "Because solvent cannot clean the surface",
+        "Because developer is affected",
+        "Because drying time increases"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 5,
+      "question": "How is the penetrant applied?",
+      "korean": "침투액의 적용방법은?",
+      "options": [
+        "Spray immersion",
+        "Brush",
+        "Immersion only",
+        "Wiping"
+      ],
+      "answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 6,
+      "question": "What is the minimum drying time of solvent cleaning?",
+      "korean": "솔벤트 세척의 최소 건조시간은?",
+      "options": [
+        "Not required",
+        "10 sec",
+        "30 sec",
+        "60 sec"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 7,
+      "question": "What is the minimum and maximum time permitted for development prior to final interpretation?",
+      "korean": "최종 판정 전 현상 시간의 최소 및 최대 시간은?",
+      "options": [
+        "10-30 min",
+        "7-30 min",
+        "10-60 min",
+        "5-20 min"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 8,
+      "question": "Which discontinuity would not be detectable by liquid penetrant examination?",
+      "korean": "침투탐상검사로 검출할 수 없는 불연속은?",
+      "options": [
+        "Forging lap",
+        "Seam",
+        "Surface crack",
+        "Subsurface porosity"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 9,
+      "question": "Black light with proper functioning filter used for fluorescent PT can cause permanent damage to:",
+      "korean": "형광침투탐상검사의 자외선등이 영구 손상을 줄 수 있는 것은?",
+      "options": [
+        "Human tissues",
+        "Human eyes",
+        "Human blood cells",
+        "None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 10,
+      "question": "The surface of PSL2 quality grade product is inspected by PT. A round indication of 1/4in.(6mm) appeared. Is it acceptable?",
+      "korean": "PSL2 제품 표면 PT 검사에서 1/4인치(6mm) 원형지시가 나타났다. 합격인가?",
+      "options": [
+        "Accept",
+        "Reject"
+      ],
+      "answer": "B"
+    },
+{
+  "id": 11,
+  "question": "When inspecting quality grade PSL2 products with a weld depth of 3/4 in.(19 mm) by PT, a round indication of 1/4in.(6mm) appeared. Is it acceptable?",
+  "korean": "용접부 깊이가 19mm인 PSL2 제품 PT 검사에서 1/4인치(6mm) 원형지시가 나타났다. 합격인가?",
+  "options": [
+    "Accept",
+    "Reject"
+  ],
+  "answer": "B"
+},
+{
+  "id": 12,
+  "question": "A 2in. thick weld with 2mm outside reinforcement is examined by liquid penetrant method according to ASME Sec.III NB-5000. Which is acceptable indication?",
+  "korean": "두께 2인치, 외부 용접덧살 2mm인 용접부를 ASME Sec.III NB-5000에 따라 PT 검사할 때 합격 가능한 지시는?",
+  "options": [
+    "1/32in. long - crack",
+    "1/4in. dimension - rounded indication",
+    "2/16in. dimension - four rounded indications in a line separated by 1/16in.",
+    "1/32in. dimension - ten rounded indications in a line separated by 1/16in."
+  ],
+  "answer": "D"
+},
+{
+  "id": 13,
+  "question": "This procedure describes the Liquid penetrant testing for ______.",
+  "korean": "본 절차서는 ______을 위한 침투탐상 방법을 기술한다.",
+  "options": [
+    "Pressure vessel welding",
+    "Forging",
+    "Tubular Product",
+    "Casting"
+  ],
+  "answer": "C"
+},
+{
+  "id": 14,
+  "question": "Acceptance standard shall be used ______.",
+  "korean": "합격기준은 ______을 따른다.",
+  "options": [
+    "ASME Sec III NB 2500",
+    "ASME Sec III NB 5000",
+    "ASME Sec V Art.5",
+    "ASME Sec VIII Div.1"
+  ],
+  "answer": "A"
+},
+{
+  "id": 15,
+  "question": "Visible light at the surface of the part should be minimum ______.",
+  "korean": "제품 표면에서 빛의 세기는 최소 ______이다.",
+  "options": [
+    "800 Lux",
+    "1076 Lux",
+    "1500 Lux",
+    "2000 Lux"
+  ],
+  "answer": "B"
+},
+{
+  "id": 16,
+  "question": "The surface to be examined and all adjacent areas within at least ____ shall be dry and free of scale, grease, etc.",
+  "korean": "시험할 표면과 인접 지역은 최소 ____까지 스케일, 그리스 등이 없어야 한다.",
+  "options": [
+    "0 inch",
+    "1 inch",
+    "1.5 inch",
+    "2 inch"
+  ],
+  "answer": "B"
+},
+{
+  "id": 17,
+  "question": "The minimum penetration time shall be ____ for temperature range 10~50℃.",
+  "korean": "온도범위 10~50℃에서 최소 침투 시간은?",
+  "options": [
+    "1 min",
+    "5 min",
+    "10 min",
+    "20 min"
+  ],
+  "answer": "C"
+},
+{
+  "id": 18,
+  "question": "Rounded indications in weld: (3ea) 1/16in., (3ea) 7/64in., and (4ea) 1/8in. indications separated by 1/16in. Is the weld acceptable?",
+  "korean": "용접부에 원형지시가 나타났다. 이 용접부는 합격인가?",
+  "options": [
+    "Accept",
+    "Reject"
+  ],
+  "answer": "B"
+},
+{
+  "id": 19,
+  "question": "A length 1/8in.(3mm) rounded indication is found. Is this indication acceptable?",
+  "korean": "길이 1/8인치(3mm)의 원형지시는 합격인가?",
+  "options": [
+    "Accept",
+    "Reject"
+  ],
+  "answer": "A"
+},
+{
+  "id": 20,
+  "question": "Only 5/32\" rounded indication was found on forgings of which thickness is 1\". Is it acceptable?",
+  "korean": "두께 1인치 단조품에서 5/32인치 원형지시가 발견되었다. 합격인가?",
+  "options": [
+    "Accept",
+    "Reject"
+  ],
+  "answer": "A"
+}
+,
+{
+  "id": 21,
+  "question": "When doing liquid penetrant examination on weld edge preparation, 3/4\" laminar type discontinuities are found. Is this acceptable?",
+  "korean": "용접 개선 부위 PT 검사에서 3/4인치 라미나 형태 불연속이 발견되었다. 합격인가?",
+  "options": [
+    "Accept",
+    "Reject"
+  ],
+  "answer": "A"
+},
+{
+  "id": 22,
+  "question": "In Fig.1, A is acceptable. (Ref.: Sect.III subsect.NB)",
+  "korean": "그림 1에서 결함 A는 합격이다.",
+  "options": [
+    "True",
+    "False"
+  ],
+  "answer": "B"
+},
+{
+  "id": 23,
+  "question": "Which of the following discontinuities could be classified as a servicing discontinuity?",
+  "korean": "다음 불연속 중 가동 중 결함으로 분류할 수 있는 것은?",
+  "options": [
+    "Fatigue crack",
+    "Porosity",
+    "Machining tear",
+    "Lap"
+  ],
+  "answer": "A"
+},
+{
+  "id": 24,
+  "question": "For precleaning, this procedure states;",
+  "korean": "전처리에 대해 올바른 것은?",
+  "options": [
+    "Acetone shall be used",
+    "1 inch adjacent to the area to be examined shall be clean",
+    "1/2 inch adjacent to the area to be examined shall be clean",
+    "A light coating of oil on the test surface is acceptable"
+  ],
+  "answer": "B"
+},
+{
+  "id": 25,
+  "question": "Surface preparation before liquid penetrant examination shot or sand blasting can be used.",
+  "korean": "액체침투탐상 검사 전 표면처리로 숏 또는 샌드 블라스팅을 사용할 수 있다.",
+  "options": [
+    "True",
+    "False"
+  ],
+  "answer": "B"
+}
+  ]
+}

@@ -1,0 +1,414 @@
+{
+  "title": "PAUT SPECIFIC (PAUT Spec-II-A)",
+  "level": "II",
+  "subject": "PAUT",
+  "type": "SPECIFIC",
+  "questions": [
+    {
+      "id": 1,
+      "category": "T",
+      "question_en": "A focused phased array inspection is limited in path length by ______.",
+      "question_ko": "집속 PA 검사는 무엇에 의해 경로의 길이가 제한되는가?",
+      "options": [
+        "The transducers near field",
+        "The frequency of the transducer",
+        "The size of the elements",
+        "The grain structure of the component inspected"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 2,
+      "category": "T",
+      "question_en": "At what range is the width of a conventional ultrasonic beam smallest?",
+      "question_ko": "기존 초음파 빔의 폭이 가장 작은 범위는?",
+      "options": [
+        "It depends on the wedge interface shape.",
+        "At the end of the nearfield",
+        "It varies with frequency, crystal size and excitation voltage.",
+        "At 3 times the crystal diameter."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 3,
+      "category": "E",
+      "question_en": "For a 7MHz, 16 element probe focused at 25mm, what would be the effect on the ultrasonic beam of an increase in element pitch from 0.5mm to 0.7mm?",
+      "question_ko": "7MHz 16 element 25mm 집속 프로브에서 소자 간격 증가(0.5mm→0.7mm)가 초음파 빔에 미치는 영향은?",
+      "options": [
+        "The near field will decrease",
+        "The focal spot size will increase",
+        "The focal spot size will decrease",
+        "Grating lobes will be induced"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 4,
+      "category": "E",
+      "question_en": "A 1D transducer has elements.",
+      "question_ko": "1D 탐촉자가 가진 소자는?",
+      "options": [
+        "Has only one crystal, typical of conventional UT",
+        "Has an array of elements in the shape of a capital D",
+        "Has multiple elements in one axis and one element in the perpendicular axis",
+        "All the elements are one dimension to eliminate grating lobes"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 5,
+      "category": "E",
+      "question_en": "What is a Focal Law as applied to phased array inspection?",
+      "question_ko": "PA 검사에서 적용되는 Focal Law란?",
+      "options": [
+        "A basic ultrasonic phenomenon such as Snell's Law",
+        "A rule of thumb used by experienced UT operators",
+        "A law that states which elements to excite, when they are excited, how long for and which receive echoes",
+        "A law that governs the physics of probe design"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 6,
+      "category": "E",
+      "question_en": "What is the correct definition to describe a Phased Array transducer?",
+      "question_ko": "PA 탐촉자의 정확한 정의는?",
+      "options": [
+        "An ultrasonic probe with natural focusing and scanning abilities",
+        "An ultrasonic probe that generates its own pulses",
+        "Numerous separate ultrasonic probes individually pulsed for electronic scanning, focused beams and angled inspections",
+        "An ultrasonic crystal diced into elements individually pulsed for electronic scanning"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 7,
+      "category": "E",
+      "question_en": "Phased array probes mounted on angled wedges.",
+      "question_ko": "사각 웻지에 장착된 PA 프로브는?",
+      "options": [
+        "Use transverse wave propagation",
+        "Use longitudinal wave propagation",
+        "Use modified shear waves",
+        "A and B are correct"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 8,
+      "category": "T",
+      "question_en": "The near limit for a PA inspection is.",
+      "question_ko": "PA 검사에서 근거리 제한은?",
+      "options": [
+        "The Dead Zone of the elements",
+        "Approximately 10% of the near field",
+        "There is no practical near limit",
+        "The near limit can be adjusted by focussing the probe"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 9,
+      "category": "T",
+      "question_en": "Electronic scanning is.",
+      "question_ko": "전자 주사는?",
+      "options": [
+        "Using a robot to automatically scan a component",
+        "Utilising a linear scan with defined aperture along an array without mechanical movement",
+        "The PA term equivalent to PRF in conventional UT",
+        "The process of digitising an analogue signal"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 10,
+      "category": "T",
+      "question_en": "A phased array linear scan is.",
+      "question_ko": "선형 주사 PA는?",
+      "options": [
+        "A straight line scan",
+        "A scan using a fixed focal law but incrementing different groups of elements",
+        "A scan using whole array to produce electronic rastering scan",
+        "A scan inspecting with range of angles"
+      ],
+      "answer": "B"
+},
+{
+  "id": 11,
+  "category": "E",
+  "question_en": "In PA terminology 'Pitch' refers to.",
+  "question_ko": "PA 용어에서 Pitch의 의미는?",
+  "options": [
+    "The angle a wedge is machined to",
+    "The protective coating on the face of a transducer",
+    "The distance between adjacent elements centres",
+    "The distance between adjacent elements"
+  ],
+  "answer": "C"
+},
+{
+  "id": 12,
+  "category": "T",
+  "question_en": "What is the type of phased array scan that uses a series of focal laws to sweep through a range of angles from a fixed aperture?",
+  "question_ko": "고정 조리개에서 각도 범위를 스윕하기 위해 일련의 Focal Law를 사용하는 PA 주사 유형은?",
+  "options": [
+    "Sectorial",
+    "Linear",
+    "Arc",
+    "Dynamic depth focusing"
+  ],
+  "answer": "A"
+},
+{
+  "id": 13,
+  "category": "T",
+  "question_en": "A phased array UT of 24mm thick single V butt weld is performed using a sectorial scan angle range 40~70°. If Omniscan index offset at 40° is set to 25mm, what is the index offset?",
+  "question_ko": "24mm 두께 Single V 용접부 PAUT 검사에서 40~70° Sectorial Scan 사용 시 40°에서 Index Offset 25mm일 때 Index Offset은?",
+  "options": [
+    "28.3",
+    "30.3",
+    "31.3",
+    "33.6"
+  ],
+  "answer": "C"
+},
+{
+  "id": 14,
+  "category": "E",
+  "question_en": "Phased array inspection effectively steers ultrasonic beams by.",
+  "question_ko": "PA 검사는 무엇에 의해 초음파 빔을 조정하는가?",
+  "options": [
+    "Novel design of wedge shape and material",
+    "Pulsing adjacent elements to bend beams",
+    "Utilising constructive interference to sum and concentrate energy",
+    "Using piezo-electric effect to mechanically alter propagation"
+  ],
+  "answer": "C"
+},
+{
+  "id": 15,
+  "category": "T",
+  "question_en": "Dynamic Depth Focusing is.",
+  "question_ko": "Dynamic Depth Focusing이란?",
+  "options": [
+    "Ability of equipment to focus at varying depths",
+    "Multi processing of returned signals to focus at varying depths",
+    "Ability to move focal point by changing transducer shape",
+    "Equivalent to TCG in conventional UT"
+  ],
+  "answer": "B"
+},
+{
+  "id": 16,
+  "category": "E",
+  "question_en": "In PA terminology 'Aperture' refers to.",
+  "question_ko": "PA 용어에서 Aperture 의미는?",
+  "options": [
+    "Area available to site the probe",
+    "Number of elements addressed by a given focal law",
+    "Length of transducer in active axis",
+    "Electronic snapshot area"
+  ],
+  "answer": "B"
+},
+{
+  "id": 17,
+  "category": "E,T",
+  "question_en": "What is the active aperture when 32 elements are activated in a single focal law? Element width 0.5mm, gap width 0.1mm.",
+  "question_ko": "32개 소자가 하나의 Focal Law에서 활성화될 때 Active Aperture는?",
+  "options": [
+    "19.0",
+    "19.2",
+    "20.6",
+    "22.0"
+  ],
+  "answer": "B"
+},
+{
+  "id": 18,
+  "category": "S",
+  "question_en": "Which is the maximum PAUT data sample spacing according to ASME Sec.V Art.4 for thickness greater than 3in.(75mm)?",
+  "question_ko": "ASME Sec.V Art.4 기준 75mm 초과 두께에서 최대 PAUT 데이터 샘플 간격은?",
+  "options": [
+    "0.5mm",
+    "1mm",
+    "2mm",
+    "4mm"
+  ],
+  "answer": "C"
+},
+{
+  "id": 19,
+  "category": "S",
+  "question_en": "Which of the following is not examination area of weld for PAUT in ASME Sec.VIII Div.2?",
+  "question_ko": "ASME Sec.VIII Div.2 PAUT 용접 검사 영역이 아닌 것은?",
+  "options": [
+    "Weld volume plus 3in on each side for thickness over 200mm",
+    "Weld volume plus lesser of 1in or t for thickness 200mm or less",
+    "Reduced examination volume including HAZ plus 6mm base material",
+    "10 times examination frequency"
+  ],
+  "answer": "D"
+},
+{
+  "id": 20,
+  "category": "A,S",
+  "question_en": "What kind of defect is unacceptable regardless of length in ASME B31.1 Code Case 179 and HIE-NDT-PAUT-P11?",
+  "question_ko": "ASME B31.1 Code Case 179에서 길이에 관계없이 불합격인 결함은?",
+  "options": [
+    "Crack",
+    "Lack of fusion",
+    "Incomplete penetration",
+    "All of above"
+  ],
+  "answer": "D"
+},
+{
+  "id": 21,
+  "category": "S",
+  "question_en": "When performing PAUT for weld according to Mandatory Appendix 5 of ASME Sec.V Art.4, which of the following is not a minimum requirement of examination coverage?",
+  "question_ko": "ASME Sec.V Art.4 Mandatory Appendix 5에 따른 PAUT 검사 범위 최소 요구조건이 아닌 것은?",
+  "options": [
+    "Search unit shall be maintained at fixed distance from weld axis",
+    "Scanning speed shall prevent data dropout more than 2 data lines per inch",
+    "E-scan overlap between adjacent active apertures shall be minimum 50%",
+    "S-scan angular sweep incremental change shall be maximum 2 degrees or assure 50% beam overlap"
+  ],
+  "answer": "D"
+},
+{
+  "id": 22,
+  "category": "E,S,P",
+  "question_en": "Encoder shall be calibrated per manufacturer's recommendations at following intervals.",
+  "question_ko": "엔코더는 제조사 권장사항에 따라 얼마의 주기로 교정되어야 하는가?",
+  "options": [
+    "Not to exceed three months or prior to first use thereafter",
+    "Not to exceed one year or prior to first use thereafter",
+    "Not to exceed one month or prior to first use thereafter",
+    "None of the above"
+  ],
+  "answer": "C"
+},
+{
+  "id": 23,
+  "category": "P,S",
+  "question_en": "According to ASME Code Case 2235-10 when inspecting weld thicknesses in excess of 25.4mm it is recommended to use.",
+  "question_ko": "ASME Code Case 2235-10에 따라 25.4mm 초과 용접부 검사 시 권장되는 것은?",
+  "options": [
+    "Additional sectorial scans can be used",
+    "Additional linear scans and sectorial scans",
+    "Additional conventional UT scans are required",
+    "No additional scans are required"
+  ],
+  "answer": "A"
+},
+{
+  "id": 24,
+  "category": "S",
+  "question_en": "What is the recommended minimum digitization rate for PAUT in Mandatory Appendix V of ASME Sec.V Art.4?",
+  "question_ko": "ASME Sec.V Art.4 Mandatory Appendix V에서 PAUT 최소 디지털화 비율은?",
+  "options": [
+    "3 times the examination frequency",
+    "4 times the examination frequency",
+    "5 times the examination frequency",
+    "10 times the examination frequency"
+  ],
+  "answer": "C"
+},
+{
+  "id": 25,
+  "category": "S,A,P",
+  "question_en": "When inspecting according to ASME B31.3 Code Case 181, on wall thickness 24mm, what is the maximum size of a surface notch used for qualification block?",
+  "question_ko": "ASME B31.3 Code Case 181 기준 벽두께 24mm 인정시험편 표면 노치 최대 크기는?",
+  "options": [
+    "0.087mm high x 6.4mm long",
+    "1.04mm high x 6.4mm long",
+    "2.09mm high x 6.4mm long",
+    "4.18mm high x 6.4mm long"
+  ],
+  "answer": "C"
+},
+{
+  "id": 26,
+  "category": "S,A,P",
+  "question_en": "When inspecting according to ASME B31.3 Code Case 181, on wall thickness 24mm, what is the maximum size of a subsurface notch used for qualification block?",
+  "question_ko": "ASME B31.3 Code Case 181 기준 벽두께 24mm 인정시험편 표면하 노치 최대 크기는?",
+  "options": [
+    "0.143mm high x 6.4mm long",
+    "1.72mm high x 6.4mm long",
+    "3.43mm high x 6.4mm long",
+    "6.86mm high x 6.4mm long"
+  ],
+  "answer": "D"
+},
+{
+  "id": 27,
+  "category": "S,P",
+  "question_en": "Encoder shall be calibrated and confirmed by moving a minimum distance of.",
+  "question_ko": "엔코더 교정 확인 시 최소 이동 거리는?",
+  "options": [
+    "150mm",
+    "400mm",
+    "500mm",
+    "600mm"
+  ],
+  "answer": "C"
+},
+{
+  "id": 28,
+  "category": "S,P",
+  "question_en": "Phased array UT instrument shall meet the requirement of amplitude control linearity.",
+  "question_ko": "PAUT 장비는 증폭 직선성 요구사항을 어디에 만족해야 하는가?",
+  "options": [
+    "For each focal law",
+    "For each pulser-receiver circuit",
+    "For each separate element",
+    "All of above"
+  ],
+  "answer": "B"
+},
+{
+  "id": 29,
+  "category": "S,P",
+  "question_en": "What reference is used for personnel qualification and certification in HIE-NDT-PAUT-P11 according to ASME Code?",
+  "question_ko": "ASME Code에 따른 HIE-NDT-PAUT-P11 인원 자격 및 인증 기준은?",
+  "options": [
+    "EN 473",
+    "ISO 9712",
+    "EN 583-6",
+    "SNT-TC-1A"
+  ],
+  "answer": "D"
+},
+{
+  "id": 30,
+  "category": "P,S",
+  "question_en": "ASME Code Case 2235-10 and Sec.VIII Div.1&2 describes that a qualification block must be used to qualify the PAUT written procedure. The block shall contain.",
+  "question_ko": "PAUT 절차서 인증용 인정시험편은 최소 무엇을 포함해야 하는가?",
+  "options": [
+    "2 OD/ID surface flaws and 1 subsurface flaw when both sides accessible",
+    "2 OD surface flaws and 1 ID surface flaw",
+    "No qualification block needed",
+    "1 OD surface flaw, 1 ID surface flaw and 1 subsurface flaw"
+  ],
+  "answer": "D"
+},
+{
+  "id": 31,
+  "category": "Calculation",
+  "type": "essay",
+  "question_en": "Evaluate acceptance according to ASME Sec.I PW-52 Nonmandatory Appendix E.",
+  "question_ko": "ASME Sec.I PW-52 Nonmandatory Appendix E 적용 시 합격 여부를 판단하시오.",
+  "input": {
+    "thickness": "24mm",
+    "defect_type": "slag",
+    "length": "7mm",
+    "height": "2mm",
+    "tip_depth": "4mm"
+  },
+  "answer": "불합격",
+  "calculation": "a/t = 1/24 = 0.0417, l = 7mm"
+}
+]
+}

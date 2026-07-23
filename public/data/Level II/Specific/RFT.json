@@ -1,0 +1,199 @@
+{
+  "subject": "RFT",
+  "level": "Level II",
+  "category": "Specific",
+  "type": "B",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Nonmetallic solid material entrapped in weld metal or between weld metal and base metal is called.",
+      "korean": "용접금속이나 용접금속과 모재금속 사이에 비금속 고체 물질이 갇혀있는 것을 무엇이라 하는가?",
+      "options": [],
+      "answer": "Slag"
+    },
+    {
+      "id": 2,
+      "question": "Large porosity, pipe and nonmetallic inclusions in slabs or billets are flattened and spread out during the rolling and forging processes. This discontinuity is called.",
+      "korean": "긴 기포로, 압연이나 단조 공정 중 철판이나 빌렛 속의 파이프와 비금속 개재물이 평평해지고 넓혀지게 된 불연속을 무엇이라 하는가?",
+      "options": [],
+      "answer": "Lamination"
+    },
+    {
+      "id": 3,
+      "question": "What kind of corrosion is a form of extremely localized corrosion that leads to the creation of small holes in the metal?",
+      "korean": "국부부식의 일종으로 금속에 작은 구멍을 생성하는 형태의 부식은?",
+      "options": [
+        "Wear",
+        "Dent",
+        "Pitting",
+        "Erosion"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 4,
+      "question": "The critical service-generated defects are:",
+      "korean": "가혹한 운전조건에서 생성되는 결함은?",
+      "options": [
+        "Undercuts",
+        "Fatigue cracks",
+        "Inadequate penetration",
+        "Forging laps"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 5,
+      "question": "What kind of Level step is:",
+      "korean": "Level의 단계는?",
+      "options": [
+        "1step",
+        "2step",
+        "3step",
+        "4step"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 6,
+      "question": "Who shall be evaluation of 'continuing satisfactory performances record'?",
+      "korean": "연속적인 만족스러운 수행 기록의 평가는 누가 하는가?",
+      "options": [],
+      "answer": "Level III"
+    },
+    {
+      "id": 7,
+      "question": "For RFT Level II, minimum number of questions of general & specific examination is:",
+      "korean": "RFT Level II 일반 및 전문 시험의 최소 문항 수는?",
+      "options": [],
+      "answer": "General: 40 / Specific: 20"
+    },
+    {
+      "id": 8,
+      "question": "What kind of vision test?",
+      "korean": "시력 검사의 종류는 무엇인가?",
+      "options": [],
+      "answer": "Near vision acuity, Color vision, Shade of gray"
+    },
+    {
+      "id": 9,
+      "question": "According to ASME Sec. V Art.17, what kinds of items should be included for the installed ferromagnetic heat exchanger tubing RFT written procedure?",
+      "korean": "ASME Sec.V Art.17에 따라 자성체 열교환기 튜브 RFT 절차서에 기록되어야 하는 항목은?",
+      "options": [
+        "Tube material, size and grade",
+        "Probe type",
+        "Both A and B above",
+        "Neither A nor B"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 10,
+      "question": "In ASME Sec. V Art.17, what is not required capable item in RFT equipment?",
+      "korean": "ASME Sec.V Art.17에서 RFT 장비에 필요한 성능이 아닌 것은?",
+      "options": [
+        "Capable of operating in absolute or differential mode",
+        "A format suitable for evaluation and archival storage",
+        "Displaying signals shall be on a Voltage Plane",
+        "Can be set to three or more multi-channel frequency"
+      ],
+      "answer": "D"
+},
+{
+  "id": 11,
+  "question": "In the ASME Sec. V Art.17, what kind of discontinuities in pit reference tube?",
+  "korean": "ASME Sec.V Art.17에서 대비 튜브의 pit reference tube 불연속 종류는?",
+  "options": [
+    "100% through hole",
+    "50% flat bottom hole of tube wall from the OD",
+    "20° circumferential groove of tube wall from the OD",
+    "Both A & B",
+    "All of the above"
+  ],
+  "answer": "D"
+},
+{
+  "id": 12,
+  "question": "In ASME Sec. V Art.17, How much set the phase angle for through hole of reference tube on system setting and calibration?",
+  "korean": "ASME Sec.V Art.17 시스템 설정 및 교정 시 대비시편 관통홀의 위상각은 얼마로 설정하는가?",
+  "options": [
+    "40°",
+    "90°",
+    "180°",
+    "0°"
+  ],
+  "answer": "B"
+},
+{
+  "id": 13,
+  "question": "How much the minimum fill factor by the procedure HIE-NDT-ET-P11?",
+  "korean": "HIE-NDT-ET-P11 절차서에서 최소 충진율은?",
+  "options": [],
+  "answer": "Minimum 75%"
+},
+{
+  "id": 14,
+  "question": "Describe NDE personnel requirements in accordance with the procedure HIE-NDT-ET-P11.",
+  "korean": "HIE-NDT-ET-P11 절차서에 따른 NDE 요원 요구사항이 기술된 문서는?",
+  "options": [],
+  "answer": "HIE-QP-E01"
+},
+{
+  "id": 15,
+  "question": "In the procedure HIE-NDT-ET-P11, what is the nominal probe speed during examination?",
+  "korean": "HIE-NDT-ET-P11 절차서에서 시험 중 일반적인 프로브 속도는?",
+  "options": [],
+  "answer": "100 ~ 500 mm/sec"
+},
+{
+  "id": 16,
+  "question": "In ASME Sec. V Art.17, How much set the phase angle for support plate of reference tube on system setting and calibration?",
+  "korean": "ASME Sec.V Art.17 시스템 설정 및 교정 시 튜브 지지판 대비 위상각은 얼마로 설정하는가?",
+  "options": [
+    "40°",
+    "90°",
+    "180°",
+    "0°"
+  ],
+  "answer": "D"
+},
+{
+  "id": 17,
+  "question": "In ASME Sec. V Art.17, What is not necessarily requirements to be included in the test report?",
+  "korean": "ASME Sec.V Art.17 검사 보고서에 반드시 포함되어야 하는 사항이 아닌 것은?",
+  "options": [
+    "Owner, location, type, serial number, and identification of component examined",
+    "Size, wall thickness, material type, and configuration of installed tubes",
+    "Tube numbering system",
+    "Certificate level and certificate issue date of inspector"
+  ],
+  "answer": "D"
+},
+{
+  "id": 18,
+  "question": "Separate each signal in the following voltage plane display (ASME Sec.V Art.17 Fig. T-1763.1(b)).",
+  "korean": "다음 Voltage Plane Display에서 각 신호를 구분하시오.",
+  "options": [
+    "20% groove / Through hole / TSP",
+    "Through hole / TSP / 20% groove",
+    "TSP / 20% groove / Through hole",
+    "20% groove / TSP / Through hole"
+  ],
+  "answer": "A"
+},
+{
+  "id": 19,
+  "question": "The following figure shows the structure of a typical RFT probe. Fill in the blanks.",
+  "korean": "일반적인 RFT 탐촉자의 구성에서 빈 칸을 채우시오.",
+  "options": [],
+  "answer": "a) Exciter coil / b) Detector coil"
+},
+{
+  "id": 20,
+  "question": "What is the name of the equipment and software used for the RFT in our company?",
+  "korean": "우리 회사에서 RFT 검사에 사용되는 장비와 소프트웨어의 이름은 무엇인가?",
+  "options": [],
+  "answer": "MS-5800-R / Multi-View"
+}
+]
+}

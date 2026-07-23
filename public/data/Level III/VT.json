@@ -1,0 +1,529 @@
+[
+  {
+    "id": 1,
+    "level": "Level III",
+    "method": "VT",
+    "category": "SPECIFIC",
+    "subject": "BPVC Section V",
+    "question": "For direct visual examination, the eye should be placed within:",
+    "question_kr": "직접 육안 검사시 시험체와 눈사이의 간격은 얼마 이내이어야 하는가?",
+    "options": [
+      "36 inches",
+      "12 inches",
+      "4 feet",
+      "24 inches"
+    ],
+    "answer": 4,
+    "explanation": ""
+  },
+  {
+    "id": 2,
+    "level": "Level III",
+    "method": "VT",
+    "category": "SPECIFIC",
+    "subject": "BPVC Section V",
+    "question": "For direct visual examination, the angle of vision from the surface being examined should not be less than:",
+    "question_kr": "직접 육안 검사시 표면에서부터의 관찰 각도는 몇도 이상이어야 하는가?",
+    "options": [
+      "90 degrees",
+      "20 degrees",
+      "45 degrees",
+      "30 degrees"
+    ],
+    "answer": 4,
+    "explanation": ""
+  },
+  {
+    "id": 3,
+    "level": "Level III",
+    "method": "VT",
+    "category": "SPECIFIC",
+    "subject": "BPVC Section V",
+    "question": "Visual examinations may be conducted using a reference standard that is:",
+    "question_kr": "육안검사시 사용하는 대비 표준은 다음 중 어떠한 것이 사용되어야 하는가?",
+    "options": [
+      "equivalent to a 2T penetrameter",
+      "at least 408 lumens",
+      "a fine line 1/32 in. or less in width",
+      "none of the above"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 4,
+    "level": "Level III",
+    "method": "VT",
+    "category": "SPECIFIC",
+    "subject": "BPVC Section V",
+    "question": "Remote visual examination methods shall, if utilized, have a resolution capability at least:",
+    "question_kr": "원격 육안검사시 분해능은 직접 육안검사보다 최소 얼마 이상이어야 하는가?",
+    "options": [
+      "2 times",
+      "5 percent",
+      "2-1/2 times",
+      "equivalent to"
+    ],
+    "answer": 4,
+    "explanation": ""
+  },
+  {
+    "id": 5,
+    "level": "Level III",
+    "method": "VT",
+    "category": "SPECIFIC",
+    "subject": "BPVC Section V",
+    "question": "Which of the following should be noted on the examination report of a surface visual examination?",
+    "question_kr": "육안검사의 시험보고서에 기록해야 하는 사항은?",
+    "options": [
+      "procedure used to perform examination",
+      "equipment used during examination",
+      "examiner's name and level of certification",
+      "all of the above"
+    ],
+    "answer": 4,
+    "explanation": ""
+  },
+  {
+    "id": 6,
+    "level": "Level III",
+    "method": "VT",
+    "category": "SPECIFIC",
+    "subject": "BPVC Section V",
+    "question": "Standard Jaeger J-1 letters are used to:",
+    "question_kr": "표준 Jaeger J-1 문자는 무엇을 확인하기 위해 사용하는가?",
+    "options": [
+      "verify direct visual examination",
+      "assure near distance acuity",
+      "qualify a remote visual equipment",
+      "demonstrate a visual examination procedure"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 7,
+    "level": "Level III",
+    "method": "VT",
+    "category": "SPECIFIC",
+    "subject": "ASME Section III",
+    "question": "Which one of the Code Section has an acceptance standard for visual examination for weld surface integrity?",
+    "question_kr": "용접부 표면 건전성에 대한 육안검사 합격기준은 어느 코드에 나와 있는가?",
+    "options": [
+      "NCA-4300",
+      "NC-5300",
+      "NB-5300",
+      "NG-5300"
+    ],
+    "answer": 4,
+    "explanation": ""
+  },
+  {
+    "id": 8,
+    "level": "Level III",
+    "method": "VT",
+    "category": "SPECIFIC",
+    "subject": "ASME Section III",
+    "question": "In judging acceptance of an undercut, which shall be taken into consideration?",
+    "question_kr": "언더컷 합부 판정시 고려해야 할 사항은?",
+    "options": [
+      "component thickness",
+      "undercut depth",
+      "weld reinforcement",
+      "undercut length"
+    ],
+    "answer": [1,2,4],
+    "explanation": ""
+  },
+  {
+    "id": 9,
+    "level": "Level III",
+    "method": "VT",
+    "category": "SPECIFIC",
+    "subject": "ASME Section III",
+    "question": "The crack whose major surface dimension is ( ) or less is irrelevant for NF.",
+    "question_kr": "주요 표면 치수가 얼마 이하인 크랙은 비관련 지시인가?",
+    "options": [
+      "1/32 inch",
+      "1/8 inch",
+      "1/16 inch",
+      "None of above"
+    ],
+    "answer": 4,
+    "explanation": ""
+  },
+  {
+    "id": 10,
+    "level": "Level III",
+    "method": "VT",
+    "category": "SPECIFIC",
+    "subject": "ASME Section III",
+    "question": "When visual examination is performed in accordance with NF-5200, slag whose major surface dimension is ( ) or less is irrelevant.",
+    "question_kr": "NF-5200에 따라 육안검사를 시행할 경우 주요 표면 치수가 얼마 이하인 슬래그는 비관련인가?",
+    "options": [
+      "1/8 inch",
+      "1/16 inch",
+      "1/32 inch",
+      "1/4 inch"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 11,
+    "level": "Level III",
+    "method": "VT",
+    "category": "SPECIFIC",
+    "subject": "ASME Section III",
+    "question": "Which one of the following would not be rejectable for NG welds?",
+    "question_kr": "NG 용접부에 불합격이 아닌 경우는?",
+    "options": [
+      "A crack of 1/16 inch long",
+      "Two 1/32 inch diameter rounded indications separated by 1/16 inch",
+      "A rounded indication of 1/4 inch diameter",
+      "Weld undercut 1/8 inch deep"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 12,
+    "level": "Level III",
+    "method": "VT",
+    "category": "SPECIFIC",
+    "subject": "Visual Examination Equipment",
+    "question": "A standard commercially available weld fillet gage may be used to verify all the following features except:",
+    "question_kr": "상용 필렛 용접 게이지를 사용하여 확인할 수 없는 것은?",
+    "options": [
+      "Concavity",
+      "Leg size",
+      "Convexity",
+      "Fillet weld width"
+    ],
+    "answer": 4,
+    "explanation": ""
+  },
+  {
+    "id": 13,
+    "level": "Level III",
+    "method": "VT",
+    "category": "SPECIFIC",
+    "subject": "Visual Examination Equipment",
+    "question": "Which of the following statements related to fiberscope is not true?",
+    "question_kr": "파이버스코프와 관련된 설명 중 사실이 아닌 것은?",
+    "options": [
+      "The image guide is a coherent bundle",
+      "The light guide is a coherent bundle",
+      "A diopter is used to adjust difference in eyesight",
+      "The fibers are generally about 30 microns each in diameter"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 14,
+    "level": "Level III",
+    "method": "VT",
+    "category": "SPECIFIC",
+    "subject": "SNT-TC-1A",
+    "question": "All certification shall be automatically terminated:",
+    "question_kr": "모든 자격 인증이 자동 만료되는 경우는?",
+    "options": [
+      "At the end of three years",
+      "When employee becomes qualified in a new NDT method",
+      "If employee has not worked in the method within past six months",
+      "When employee leaves the employer where certified"
+    ],
+    "answer": 4,
+    "explanation": ""
+  },
+  {
+    "id": 15,
+    "level": "Level III",
+    "method": "VT",
+    "category": "SPECIFIC",
+    "subject": "SNT-TC-1A",
+    "question": "The control and administration of NDT personnel training, examination and certification:",
+    "question_kr": "NDT 개인 훈련, 시험, 인증서의 관리와 운영은?",
+    "options": [
+      "Shall reflect the guidelines set forth in SNT-TC-1A para.1 scope",
+      "Shall be prepared by quality control management",
+      "Shall be reproduced verbatim from SNT-TC-1A",
+      "Shall be submitted to ASNT for approval"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 16,
+    "level": "Level III",
+    "method": "VT",
+    "category": "SPECIFIC",
+    "subject": "ANSI/ASNT CP-189",
+    "question": "In qualification of Level III personnel, the employer:",
+    "question_kr": "Level III 인원의 자격인증에서 고용주는?",
+    "options": [
+      "Must give written procedure",
+      "Must give basic and method examination",
+      "May waive examination",
+      "May waive written examination if oral examination is given"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 17,
+    "level": "Level III",
+    "method": "VT",
+    "category": "SPECIFIC",
+    "subject": "ANSI/ASNT CP-189",
+    "question": "Who is responsible for documentation related to certification?",
+    "question_kr": "자격 인증 관련 문서화의 책임자는?",
+    "options": [
+      "Level II",
+      "Level III",
+      "Employer",
+      "QA Manager"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 18,
+    "level": "Level III",
+    "method": "VT",
+    "category": "SPECIFIC",
+    "subject": "ASME B16.34",
+    "question": "Which of the following is not a primary purpose of VT as defined in ASME B16.34?",
+    "question_kr": "ASME B16.34에서 규정하는 VT의 주요 목적이 아닌 것은?",
+    "options": [
+      "Precise measurement of internal grain size",
+      "Verifying roughness and finish of machined surfaces",
+      "Verifying discontinuities on casting surfaces",
+      "Verifying valve body markings"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 19,
+    "level": "Level III",
+    "method": "VT",
+    "category": "SPECIFIC",
+    "subject": "Materials",
+    "question": "Which of the following is most closely related to fatigue failure?",
+    "question_kr": "피로파괴와 가장 밀접한 관련이 있는 것은?",
+    "options": [
+      "Metal embrittlement",
+      "Repeated loading",
+      "Creep",
+      "Overheating"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 20,
+    "level": "Level III",
+    "method": "VT",
+    "category": "SPECIFIC",
+    "subject": "ASME Section XI",
+    "question": "What regulations require that visual inspection VT-2 and VT-3 performers be qualified?",
+    "question_kr": "VT-2 및 VT-3 수행자는 어떤 규정에 따라 자격을 갖추어야 하는가?",
+    "options": [
+      "SNT-TC-1A",
+      "ANSI-N45.2.6",
+      "ASME Section XI",
+      "ASME Section V"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 21,
+    "level": "Level III",
+    "method": "VT",
+    "category": "SPECIFIC",
+    "subject": "Weld Examination",
+    "question": "Weld area examination shall include the weld and adjacent base metal for at least:",
+    "question_kr": "용접부 시험은 용접부와 인접 모재를 포함해야 하며, 인접 모재는 용접부 각 끝단에서 최소 얼마이어야 하는가?",
+    "options": [
+      "one inch",
+      "one wall thickness",
+      "1/2 inch",
+      "one weld bead width"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 22,
+    "level": "Level III",
+    "method": "VT",
+    "category": "SPECIFIC",
+    "subject": "Surface Examination",
+    "question": "Which of the following surface texture features may be felt with the fingernail?",
+    "question_kr": "다음 중 손톱으로 느낄 수 있는 표면 질감 특성은?",
+    "options": [
+      "Roughness",
+      "Surface flaws",
+      "Waviness",
+      "Profile"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 23,
+    "level": "Level III",
+    "method": "VT",
+    "category": "SPECIFIC",
+    "subject": "Materials",
+    "question": "The primary purpose of a backing bar used during the welding process is to:",
+    "question_kr": "용접 공정 중 백킹바의 주 목적은?",
+    "options": [
+      "Eliminate slag",
+      "Assure proper alignment of the weld joint",
+      "Allow a sound root weld to be made",
+      "None of the above"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 24,
+    "level": "Level III",
+    "method": "VT",
+    "category": "SPECIFIC",
+    "subject": "Materials",
+    "question": "The defect pipe is found in which of the following?",
+    "question_kr": "Pipe 결함은 어디에서 발생하는가?",
+    "options": [
+      "A forging",
+      "A pipe weld",
+      "The ingot",
+      "A casting"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 25,
+    "level": "Level III",
+    "method": "VT",
+    "category": "SPECIFIC",
+    "subject": "Materials",
+    "question": "The critical service-generated defects are:",
+    "question_kr": "사용 중 발생하는 주요 결함은?",
+    "options": [
+      "Undercuts",
+      "Fatigue cracks",
+      "Inadequate penetration",
+      "Forging laps"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 26,
+    "level": "Level III",
+    "method": "VT",
+    "category": "SPECIFIC",
+    "subject": "ASME B31.1",
+    "question": "At the completed welds in piping, the maximum acceptable depth of undercut is:",
+    "question_kr": "완성된 배관 용접부에서 최대 허용 언더컷 깊이는?",
+    "options": [
+      "1/32 inch",
+      "1/16 inch",
+      "1/8 inch",
+      "3/16 inch"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 27,
+    "level": "Level III",
+    "method": "VT",
+    "category": "SPECIFIC",
+    "subject": "ASME B31.1",
+    "question": "At 1 inch thickness of girth butt welded piping joint for 200℃ design temperature, the maximum acceptable height of reinforcement is:",
+    "question_kr": "설계온도 200℃인 두께 1인치 원주 맞대기 배관 용접부의 최대 허용 덧살 높이는?",
+    "options": [
+      "1/8 inch",
+      "3/16 inch",
+      "1/4 inch",
+      "5/16 inch"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 28,
+    "level": "Level III",
+    "method": "VT",
+    "category": "SPECIFIC",
+    "subject": "ASTM A514/A517/A709",
+    "question": "Acceptance criteria for ASTM A514 and A517 and A709 grade 100 and 100W steels shall be based on visual inspection performed not less than:",
+    "question_kr": "ASTM A514, A517 및 A709 Grade 100/100W 강재의 육안검사 판정은 용접 완료 후 최소 몇 시간 이후 수행해야 하는가?",
+    "options": [
+      "24 hours",
+      "36 hours",
+      "48 hours",
+      "72 hours"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 29,
+    "level": "Level III",
+    "method": "VT",
+    "category": "SPECIFIC",
+    "subject": "ASME Section VIII Div.2",
+    "question": "For 2 inch thickness of welded joint, the maximum allowable offset in welded joint is:",
+    "question_kr": "두께 2인치 용접부의 최대 허용 치우침은?",
+    "options": [
+      "1/16 inch",
+      "1/8 inch",
+      "3/16 inch",
+      "1/4 inch"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 30,
+    "level": "Level III",
+    "method": "VT",
+    "category": "SPECIFIC",
+    "subject": "ASME Section VIII Div.2",
+    "question": "For 1.5 inch thickness of welded circumferential joint in pipe, the maximum acceptable reinforcement is:",
+    "question_kr": "두께 1.5인치 배관 원주 용접부의 최대 허용 덧살 두께는?",
+    "options": [
+      "1/8 inch",
+      "5/32 inch",
+      "3/16 inch",
+      "1/4 inch"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 31,
+    "level": "Level III",
+    "method": "VT",
+    "category": "SPECIFIC",
+    "subject": "ANSI/ASNT CP-189",
+    "question": "Which parts of Level I and Level II examinations shall be written?",
+    "question_kr": "Level I 및 Level II 시험에서 서면시험으로 실시해야 하는 부분은?",
+    "options": [
+      "The general and specific",
+      "The general and practical",
+      "The general, specific, and practical",
+      "Only the general"
+    ],
+    "answer": 3,
+    "explanation": ""
+  }
+]

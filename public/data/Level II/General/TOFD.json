@@ -1,0 +1,562 @@
+﻿[
+  {
+    "id": 1,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "What is not an advantage of TOFD?\nTOFD의 장점이 아닌 것은?",
+    "options": [
+      "Easy discrimination of defects and geometry\n결함과 형상을 간단히 판별함",
+      "Less sensitive to defect orientation\n방향성 결함의 낮은 감도",
+      "Coupling status\n결합 상태",
+      "Near surface resolution\n표면 근처의 분해능"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 2,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "It is possible to detect any defect using Rayleigh waves?\n표면파를 사용하여 어떤 결함을 검출가능한가?",
+    "options": [
+      "one wavelength below the surface\n표면아래 하나의 파장",
+      "six wavelengths below the surface\n표면아래 여섯 개의 파장",
+      "close to or on the surface\n표면에 가깝거나 표면",
+      "three wavelengths below the surface\n표면아래 세개의 파장"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 3,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "When viewing a TOFD image from a single zone TOFD setup, what would cause the backwall signal to be smaller than the lateral wave?\n하나의 zone TOFD 설정에서 TOFD 이미지를 볼 때, backwall 신호가 lateral wave보다 더 작은 원인은 무엇인가?",
+    "options": [
+      "Use of a beam with refracted angle less than 60°\n굴절각이 60°보다 적은 각도의 빔 사용",
+      "PCS too small\nPCS가 너무 작음",
+      "PCS too large\nPCS가 너무 큼",
+      "Both a and b\na,b 둘 다"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 4,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "What is NOT a recommended requirement of probes used for TOFD?\nTOFD에 사용되는 프로브의 권장 요구 사항이 아닌 것은?",
+    "options": [
+      "Matched size/frequency (and usually angle) for Tx/Rx\n송수신 탐촉자의 크기/주파수(각도)가 일치해야 한다.",
+      "Wide divergence\n넓은 빔퍼짐",
+      "Highly damped (broadband)\n높은 감쇠(광대역)",
+      "Built-in electrical impedance matching circuits\n내장된 전기 임피던스 정합회로"
+    ],
+    "answer": 4
+  },
+  {
+    "id": 5,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "Lamb waves can be used to detect:\n판파를 사용하여 탐지할 수 있는 것은?",
+    "options": [
+      "laminar-type defects near the surface of a thin material\n얇은 소재의 표면 근처에 있는 층상결함",
+      "lack of fusion in the center of a thick weldment\n두꺼운 용접 중심부의 융착불량",
+      "internal voids in diffusion bonds\n분산된 내부의 빈 공간",
+      "thickness changes in heavy plate material\n두꺼운 판 재료로 바뀐 두께"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 6,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "\"Offset\" scans are required for what reason?\n\"Offset\" 스캔이 요구되는 이유는 무엇인가?",
+    "options": [
+      "Inadequate beam divergence to address the HAZ on the far surface\n표면에서 먼 HAZ에 위치한 불충분한 빔 발산",
+      "Inadequate beam divergence on the near surface\n표면 근처에서 불충분한 빔 발산",
+      "Both a and b\na와 b 둘 다",
+      "None of the above, offset scans are not required in TOFD\n상기 모두 아니다, offset 스캔은 TOFD에서 요구되지 않는다"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 7,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "What is the purpose of SAFT DSP on TOFD displays?\nTOFD 화면에서 SAFT DSP의 목적은?",
+    "options": [
+      "A form of TCG\nTCG의 형태",
+      "To determine flaw height\n결함 높이 측정",
+      "To determine flaw length\n결함 길이 측정",
+      "For Sequenced Analysis of Frequency Technique\n순차적 주파수 분석 기술"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 8,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "In order that the user can assess flaw depth in a TOFD output what is used?\nTOFD에서 사용자가 결함 깊이를 평가할 수 있게 사용되는 출력은?",
+    "options": [
+      "Linearised cursors\n선형화된 커서들",
+      "Linearised data displays\n선형화된 데이터 표시",
+      "Either a or b\na 또는 b 둘 중 하나",
+      "None of the above\n상기 모두 아님"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 9,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "When a Lateral wave is suddenly shifted later in time and the backwall is unperturbed. What is likely origin of the signal change?\nlateral wave가 시간축에서 갑자기 위치 이동되고 backwall은 변화가 없을 때 신호 변화의 원인은?",
+    "options": [
+      "IP\n용입불량",
+      "Misalignment\n정렬불량",
+      "Surface breaking flaw\n표면 결함",
+      "Porosity\n기공"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 10,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "What aspect of instrument linearity is carried out on ultrasonic systems used for TOFD?\nTOFD에서 사용되는 초음파 시스템의 직선성은 장비의 어떤 면에서 나타나는가?",
+    "options": [
+      "Amplitude control\n증폭기",
+      "Screen height\n화면 높이",
+      "Timebase\n시간축",
+      "All of the above\n상기 모두"
+    ],
+    "answer": 4
+  },
+  {
+    "id": 11,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "What is used to establish sensitivity when performing a TOFD inspection?\nTOFD를 수행할 때 감도를 설정하는데 무엇이 사용되는가?",
+    "options": [
+      "Machined targets\n가공된 타겟",
+      "Reference signals such as the lateral wave or backwall\nlateral wave 또는 backwall과 같은 대비 신호",
+      "Grain noise\n입자 잡음",
+      "Any of the above may be used if suitable\n상기의 어떤 것도 적절한 경우 사용 가능"
+    ],
+    "answer": 4
+  },
+  {
+    "id": 12,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "The basic setup for a TOFD configuration uses how many probes?\nTOFD 구성에 대한 기본 설정은 몇 개의 프로브를 사용하는가?",
+    "options": [
+      "1개",
+      "2개",
+      "3개",
+      "4개"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 13,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "Probes used in TOFD applications are used as a pair and should have the same what?\nTOFD 적용에서 사용되는 프로브는 쌍으로 사용되며 무엇이 같아야 하는가?",
+    "options": [
+      "Frequency\n주파수",
+      "Dimensions\n치수",
+      "Damping and ring-time\n댐핑과 링타임",
+      "All of the above should be matched\n상기 모든 것이 맞아야 한다"
+    ],
+    "answer": 4
+  },
+  {
+    "id": 14,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "What is the approximate beam spread divergence that is used to estimate the volume coverage by a TOFD probe?\nTOFD 프로브에 의해 체적범위를 추정하는데 이용되는 대략적 빔 확산 각도는?",
+    "options": [
+      "6dB",
+      "12-14dB",
+      "20-24dB",
+      "22° half-angle"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 15,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "When inspecting a heavy wall (100mm thick) section by TOFD, the lateral wave may not be visible on all TOFD scans. Why not?\nTOFD로 100mm 두께 부분을 검사할 때 lateral wave가 모든 스캔에서 보이지 않을 수 있는 이유는?",
+    "options": [
+      "Deeper zones are scanned using smaller angles (e.g. 45°)\n깊은 영역은 작은 각도를 사용하여 스캔",
+      "Deeper zones are scanned using larger PCSs\n깊은 영역은 큰 PCS를 사용",
+      "Both a and b can account for this\na와 b 모두 해당",
+      "None of the above, lateral waves are always seen\n상기 모두 아니다"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 16,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "TOFD is always quoted as having accurate flaw vertical sizing as an advantage. When is this not true?\nTOFD의 정확한 결함 수직 크기 측정 장점이 사실이 아닌 경우는?",
+    "options": [
+      "When the flaw is IP\n결함이 IP인 경우",
+      "When the flaw is LF\n결함이 LF인 경우",
+      "When the upper and lower tip signals are not resolved\n상부와 하부 끝단 신호가 분석되지 않을 때",
+      "Never, TOFD is always the best option\n없음"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 17,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "What is the recommended bandwidth of a TOFD probe?\nTOFD 프로브의 권장 대역폭은?",
+    "options": [
+      "<50%",
+      "50-80%",
+      ">80%",
+      "5MHz"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 18,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "Uncertainties in timing, PCS and sound velocity provide uncertainties in TOFD determination of ( ).\n타이밍, PCS, 음속의 불확실성이 TOFD 판독의 어떤 불확실성을 제공하는가?",
+    "options": [
+      "Indication depth\n결함 깊이",
+      "Indication amplitude\n결함 진폭",
+      "Indication phase\n결함 상",
+      "Refracted angle\n굴절각"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 19,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "As frequency increases in ultrasonic testing, the angle of beam divergence of a given diameter crystal:\n주어진 직경의 결정에서 주파수가 증가하면 빔 발산 각도는?",
+    "options": [
+      "decreases\n감소한다",
+      "remains unchanged\n변하지 않는다",
+      "increases\n증가한다",
+      "varies uniformly through each wavelength\n파장마다 균일하게 변화한다"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 20,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "Hyperbolic curves are used for what purpose in TOFD displays?\n쌍곡선은 TOFD 표시에서 어떤 목적으로 사용되는가?",
+    "options": [
+      "Flaw height sizing\n결함 높이 측정",
+      "Flaw depth determination\n결함 깊이 결정",
+      "Flaw length measurement\n결함 길이 측정",
+      "No reason at all\n특별한 이유 없음"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 21,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "What is the risk of testing a thick weld section with a single zone?\n하나의 zone으로 두꺼운 용접부를 검사할 때의 위험성은?",
+    "options": [
+      "Multiple imaging of a flaw\n결함의 다중 이미지",
+      "Missed flaw due to pronounced dead zones\ndead zone으로 인한 결함 누락",
+      "Missed flaw due to poor divergence\n분산 부족으로 인한 결함 누락",
+      "All of the above\n상기 모두"
+    ],
+    "answer": 4
+  },
+  {
+    "id": 22,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "When available for TOFD, what is amplitude equalization used on?\nTOFD에서 진폭 균등화가 가능한 경우 사용되는 것은?",
+    "options": [
+      "The lateral wave signal\nlateral wave 신호",
+      "The backwall signal\nbackwall 신호",
+      "The amplitude response from side drilled holes at two different depths\n서로 다른 깊이의 측면공 진폭 응답",
+      "The ID and OD Vee notch diffractor signals\nID와 OD Vee notch 회절 신호"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 23,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "When performing a TOFD inspection on the long seam of cylindrical vessel with probes positioned either side of the weld on the OD surface, what correction for depth is required if a flaw is detected?\n원통형 용기의 OD 표면에서 TOFD 검사 시 결함 검출 후 깊이 보정은?",
+    "options": [
+      "The flaw relative to the vessel surface must be decreased by the probe elevations\n프로브 높이에 의해 깊이는 감소되어야 한다",
+      "The flaw relative to the vessel surface must be increased by the probe elevations\n프로브 높이에 의해 깊이는 증가되어야 한다",
+      "The flaw depth calculated is not affected by geometry\n계산된 깊이는 형상의 영향을 받지 않는다",
+      "It is not possible to correct for this geometric effect\n보정 불가능"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 24,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "When performing a TOFD inspection on the long seam of cylindrical vessel with probes positioned either side of the weld on the ID surface, what correction for depth is required if a flaw is detected?\n원통형 용기의 ID 표면에서 TOFD 검사 시 결함 검출 후 깊이 보정은?",
+    "options": [
+      "The flaw relative to the vessel surface must be decreased by the probe elevations\n프로브 높이에 의해 깊이는 감소되어야 한다",
+      "The flaw relative to the vessel surface must be increased by the probe elevations\n프로브 높이에 의해 깊이는 증가되어야 한다",
+      "The flaw depth calculated is not affected by geometry\n계산된 깊이는 형상의 영향을 받지 않는다",
+      "It is not possible to correct for this geometric effect\n보정 불가능"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 25,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "A shift of the backwall arrival time to an earlier arrival would be indicative of.\nBackwall 도착 시간이 이전 시간으로 이동되는 경우 나타나는 결함은?",
+    "options": [
+      "Root erosion\n루트 부식",
+      "IP\n용입불량",
+      "Concave root\n오목 루트",
+      "Any of the above\n상기 모두"
+    ],
+    "answer": 4
+  },
+  {
+    "id": 26,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "What aspect of TOFD incorrect setup would cause the Backwall signal to be distorted?\nTOFD 잘못된 설정 중 Backwall 신호 왜곡 원인은?",
+    "options": [
+      "Use of a beam with refracted angle less than 60°\n굴절각 60° 이하 빔 사용",
+      "PCS too small\nPCS가 너무 작음",
+      "PCS too large\nPCS가 너무 큼",
+      "Testing at temperature of 80℃\n80℃ 검사 온도"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 27,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "Of the following sound wave modes, which one has multiple or varying wave velocities?\n다음 음파 모드 중 다양한 파형 속도를 갖는 것은?",
+    "options": [
+      "Longitudinal waves\n종파",
+      "Shear waves\n전단파",
+      "Transverse waves\n횡파",
+      "Lamb waves\n판파"
+    ],
+    "answer": 4
+  },
+  {
+    "id": 28,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "Calculate the PCS spacing required for a 60° TOFD probe to inspect a 39mm thick plate, if we focus at 2/3t.\n39mm 두께에서 포커스 2/3t인 경우 필요한 PCS는?",
+    "options": [
+      "80mm",
+      "90mm",
+      "95mm",
+      "104mm"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 29,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "When inspecting an 80mm thick steel butt weld, calculate the approximate arrival time of lateral wave.\n80mm 강철 맞대기 용접부에서 lateral wave 도착 시간 계산.",
+    "options": [
+      "33.20μs",
+      "44.23μs",
+      "48.26μs",
+      "50.30μs"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 30,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "Which of the following would be considered application of ultrasonic techniques?\n다음 중 초음파 기술의 응용은?",
+    "options": [
+      "Determination of a material’s elastic modulus\n재료의 탄성 계수 결정",
+      "Study of a material’s metallurgical structure\n재료 금속조직 검토",
+      "Measurement of a material’s size\n재료 크기 측정",
+      "All of the above\n상기 모두"
+    ],
+    "answer": 4
+  },
+  {
+    "id": 31,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "What do Synchronous TOFD systems use to trigger data acquisition?\n동기식 TOFD 시스템이 데이터 수집을 작동시키는 것은?",
+    "options": [
+      "UT instrument’s PRF\nUT 장비 PRF",
+      "Computer clocks\n컴퓨터 시계",
+      "Encoder pulses\n엔코더 펄스",
+      "The lateral wave arrival time\n횡파 도달 시간"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 32,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "A scan parallel to the weld axis in which the beam intersection point is not on the weld center-line is?\n빔 교차점이 용접 중심선에 있지 않은 용접축 평행 검사는?",
+    "options": [
+      "Not required in this procedure\n이 절차에서 요구되지 않음",
+      "Only required in CC2235-9\nCC2235-9에서만 요구됨",
+      "An off-set scan\nOffset scan",
+      "A substitute for a parallel scan\n평행 스캔의 대체"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 33,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "Encoder shall be calibrated per manufacturer's recommendations and confirmed by moving a minimum distance of ____.\n엔코더 교정 확인 시 최소 이동 거리는?",
+    "options": [
+      "150mm",
+      "400mm",
+      "500mm",
+      "600mm"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 34,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "For non amplitude-based technique, which of the following is not true regarding investigation limits of image length?\n비진폭 기반 기법에서 이미지 길이 조사 기준 중 사실이 아닌 것은?",
+    "options": [
+      "For welds ≤38mm thick, images greater than 3.8mm shall be investigated\n38mm 이하 용접부에서 3.8mm 초과 이미지 조사",
+      "For welds >38mm and <100mm thick, images greater than 7.67mm shall be investigated\n38~100mm 용접부에서 7.67mm 초과 이미지 조사",
+      "For welds >100mm thick, images greater than 0.05t or 19mm shall be investigated\n100mm 초과 용접부에서 기준 초과 이미지 조사",
+      "All of the above\n상기 모두"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 35,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "Which is the maximum TOFD data sample spacing in accordance with ASME Sec.V Art.4 for thickness under 2in.(50mm)?\nASME Sec.V Art.4 기준 50mm 미만 두께에서 최대 TOFD 데이터 샘플 간격은?",
+    "options": [
+      "0.5mm",
+      "1mm",
+      "2mm",
+      "4mm"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 36,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "TOFD is suitable for?\nTOFD가 적합한 것은?",
+    "options": [
+      "Partially for Flaw Detection\n부분적으로 결함 검출",
+      "Not for Flaw Detection\n결함 검출 아님",
+      "Flaw Sizing and Flaw Detection\n결함 크기 측정 및 검출",
+      "For Flaw Detection\n결함 검출"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 37,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "The TOFD principle is based on evaluation of the?\nTOFD 원리는 무엇의 평가에 기반하는가?",
+    "options": [
+      "Frequency\n주파수",
+      "Sound attenuation\n음향 감쇠",
+      "Amplitude of echo height\n에코 높이 진폭",
+      "Diffraction signals at crack edges\n균열 끝단 회절 신호"
+    ],
+    "answer": 4
+  },
+  {
+    "id": 38,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "Probes used for TOFD must deliver the performance:\nTOFD 프로브가 제공해야 하는 성능은?",
+    "options": [
+      "Low Frequency\n저주파수",
+      "High Frequency\n고주파수",
+      "Narrow Bandwidth\n좁은 대역폭",
+      "High Bandwidth\n넓은 대역폭"
+    ],
+    "answer": 4
+  },
+  {
+    "id": 39,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "In what area TOFD is uncertain?\nTOFD가 불확실한 영역은?",
+    "options": [
+      "Near surface\n표면 근처",
+      "Far surface\n먼 표면",
+      "Near and Far surface\n근거리 및 원거리 표면",
+      "In the wall center\n벽 중앙"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 40,
+    "level": "Level II",
+    "method": "TOFD",
+    "subject": "General",
+    "question": "The TOFD image is similar to a?\nTOFD 이미지는 무엇과 유사한가?",
+    "options": [
+      "A-SCAN",
+      "B-SCAN",
+      "C-SCAN",
+      "D-SCAN"
+    ],
+    "answer": 2
+  }
+]
