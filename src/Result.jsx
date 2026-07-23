@@ -1,5 +1,5 @@
-import React, { useEffect } from "react";
-import axios from "axios";
+import React, { useEffect, useRef } from "react";
+
 
 function Result({
 
@@ -12,6 +12,10 @@ function Result({
   onBack
 
 }) {
+
+
+  const sent = useRef(false);
+
 
 
   let correct = 0;
@@ -46,28 +50,77 @@ function Result({
 
 
 
+
   useEffect(()=>{
 
+
+    if(sent.current) return;
+
+
+    sent.current = true;
+
+
+
     const data = {
-      name, level, method, subject,
-      total, correct, score, result,
+
+      name,
+
+      level,
+
+      method,
+
+      subject,
+
+      total,
+
+      correct,
+
+      score,
+
+      result,
+
       date: new Date().toLocaleString()
+
     };
 
+
+
+
     fetch(
+
       "https://script.google.com/macros/s/AKfycbxs_whBI5KfBxKaDreav9PL3_rHX847OdwwLtc8uwMIN9fVOAozGHdpzXmQRsa7PO6i/exec",
+
       {
+
         method: "POST",
+
         mode: "no-cors",
+
         body: JSON.stringify(data)
+
       }
-    ).catch(err => console.log("결과 전송 실패:", err));
+
+    )
+
+    .catch(err =>
+
+      console.log("결과 전송 실패:", err)
+
+    );
+
+
+
+
+
+
 
     const old = JSON.parse(
 
       localStorage.getItem("results") || "[]"
 
     );
+
+
 
     old.push(data);
 
@@ -83,7 +136,11 @@ function Result({
 
 
 
+
+
   },[]);
+
+
 
 
 
@@ -93,50 +150,79 @@ function Result({
 
   return (
 
+
     <div className="home-container">
 
 
       <div className="home-box">
 
 
+
         <h1>
+
           시험 결과
+
         </h1>
 
 
 
+
         <h2>
+
           {name} 님
+
         </h2>
+
 
 
 
         <hr/>
 
 
+
+
         <p>
+
           Level : {level}
+
         </p>
 
 
+
+
         <p>
+
           시험 : {method} {subject}
+
         </p>
 
 
+
+
         <h2>
+
           점수 : {score}점
+
         </h2>
+
+
 
 
         <h2>
+
           {result}
+
         </h2>
+
+
 
 
         <p>
+
           정답 : {correct} / {total}
+
         </p>
+
 
 
 
@@ -148,10 +234,12 @@ function Result({
 
 
 
+
       </div>
 
 
     </div>
+
 
   );
 
