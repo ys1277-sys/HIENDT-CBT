@@ -1,7 +1,6 @@
 import React from "react";
 import "./print.css";
 
-
 function PrintExam({
 
   name,
@@ -24,18 +23,11 @@ return (
 <div className="exam-paper">
 
 
-{/* =====================
-    시험 결과표
-===================== */}
-
-
 <div className="cover">
-
 
 <h1>
 KNDT-CBT 시험 결과표
 </h1>
-
 
 
 <table className="result-table">
@@ -47,71 +39,55 @@ KNDT-CBT 시험 결과표
 <td>{name}</td>
 </tr>
 
-
 <tr>
 <td>시험일</td>
 <td>{date || new Date().toLocaleDateString()}</td>
 </tr>
-
 
 <tr>
 <td>Level</td>
 <td>{level}</td>
 </tr>
 
-
 <tr>
 <td>검사방법</td>
 <td>{method}</td>
 </tr>
-
 
 <tr>
 <td>시험종목</td>
 <td>{subject}</td>
 </tr>
 
-
 <tr>
 <td>총 문항</td>
 <td>{total || questions.length}</td>
 </tr>
-
 
 <tr>
 <td>정답</td>
 <td>{correct}</td>
 </tr>
 
-
 <tr>
 <td>점수</td>
 <td>{score} 점</td>
 </tr>
-
 
 <tr>
 <td>결과</td>
 <td>{result}</td>
 </tr>
 
-
 </tbody>
 
 </table>
-
 
 </div>
 
 
 
-
-
 <div className="page-break"></div>
-
-
-
-
 
 
 
@@ -121,42 +97,43 @@ KNDT-CBT 시험지
 
 
 
-
-
 {
 
-(questions || []).map((q,index)=>{
+Array.isArray(questions) && questions.map((q,index)=>{
+
+
+if(!q) return null;
 
 
 const selected =
 answers?.[index];
 
 
+const options = Array.isArray(q.options_ko)
+?
+q.options_ko
+:
+Array.isArray(q.options)
+?
+q.options
+:
+[];
 
-const options =
-q.options_ko || q.options || [];
 
 
-
-return(
-
+return (
 
 <div
-
 className="question-print"
-
 key={index}
-
 >
 
 
 <h3>
 
-{index+1}. {q.question_ko || q.question}
+{index+1}. {q.question_ko || q.question || ""}
 
 </h3>
-
-
 
 
 
@@ -169,25 +146,18 @@ const answer =
 i === q.answer;
 
 
-
 const wrong =
 i === selected &&
 selected !== q.answer;
 
 
 
-
-return(
-
+return (
 
 <div
-
 className="option"
-
 key={i}
-
 >
-
 
 
 <span
@@ -229,12 +199,9 @@ wrong
 </span>
 
 
-
 </div>
 
-
-)
-
+);
 
 
 })
@@ -247,7 +214,7 @@ wrong
 </div>
 
 
-)
+);
 
 
 })
