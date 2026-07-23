@@ -8,8 +8,8 @@ function PrintExam({
   level,
   method,
   subject,
-  questions,
-  answers,
+  questions = [],
+  answers = {},
   score,
   correct,
   total,
@@ -74,7 +74,7 @@ KNDT-CBT 시험 결과표
 
 <tr>
 <td>총 문항</td>
-<td>{total}</td>
+<td>{total || questions.length}</td>
 </tr>
 
 
@@ -114,11 +114,6 @@ KNDT-CBT 시험 결과표
 
 
 
-{/* =====================
-    문제지
-===================== */}
-
-
 
 <h2 className="paper-title">
 KNDT-CBT 시험지
@@ -127,13 +122,19 @@ KNDT-CBT 시험지
 
 
 
+
 {
 
-questions.map((q,index)=>{
+(questions || []).map((q,index)=>{
 
 
 const selected =
 answers?.[index];
+
+
+
+const options =
+q.options_ko || q.options || [];
 
 
 
@@ -151,16 +152,17 @@ key={index}
 
 <h3>
 
-{index+1}. {q.question_ko}
+{index+1}. {q.question_ko || q.question}
 
 </h3>
 
 
 
 
+
 {
 
-q.options_ko.map((item,i)=>{
+options.map((item,i)=>{
 
 
 const answer =
@@ -236,6 +238,7 @@ wrong
 
 
 })
+
 
 }
 
