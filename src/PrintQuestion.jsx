@@ -6,7 +6,7 @@ function PrintQuestion({
   level,
   method,
   subject,
-  questions
+  questions = []
 }) {
 
 
@@ -16,7 +16,6 @@ function PrintQuestion({
 
 
       <div className="cover">
-
 
         <h1>
           KNDT-CBT 문제지
@@ -29,7 +28,7 @@ function PrintQuestion({
 
             <tr>
               <td>성명</td>
-              <td>{name || "　　　　　　　　"}</td>
+              <td>{name || ""}</td>
             </tr>
 
             <tr>
@@ -47,13 +46,12 @@ function PrintQuestion({
               <td>{subject}</td>
             </tr>
 
-
           </tbody>
 
         </table>
 
-
       </div>
+
 
 
 
@@ -68,16 +66,36 @@ function PrintQuestion({
 
 
 
+
+
       {
-         (questions || []).map((q,index)=>{
+        questions.length === 0
+
+        ?
+
+        <p>
+          출력할 문제가 없습니다.
+        </p>
+
+
+        :
+
+
+        questions.map((q,index)=>{
+
+
+          const question =
+            q?.question || "";
 
 
           const split =
-            (q.question || "").split(/\r?\n/);
+            question.split(/\r?\n/);
+
 
 
           const en =
             split[0] || "";
+
 
 
           const ko =
@@ -85,8 +103,13 @@ function PrintQuestion({
 
 
 
-          return (
+          const options =
+            q?.options || [];
 
+
+
+
+          return (
 
             <div
               className="question-print"
@@ -99,24 +122,35 @@ function PrintQuestion({
               </h3>
 
 
+
               {
                 ko &&
+
                 <p>
                   {ko}
                 </p>
+
               }
 
 
 
 
+
               {
-                 (q.options || q.options_ko || []).map((item,i)=>{
+
+                options.length === 0
+
+                ?
+
+                <p>
+                  보기 없음
+                </p>
 
 
-                  const option =
-                    typeof item === "string"
-                    ? item.replace(/^[A-Da-d]\.\s*/,"")
-                    : "";
+                :
+
+
+                options.map((item,i)=>{
 
 
                   return (
@@ -127,19 +161,28 @@ function PrintQuestion({
                     >
 
                       <span className="number">
+
                         {i+1}
+
                       </span>
 
+
                       <span className="text">
-                        {option}
+
+                        {item}
+
                       </span>
+
 
                     </div>
 
                   );
 
+
                 })
+
               }
+
 
 
 
@@ -150,14 +193,16 @@ function PrintQuestion({
 
 
         })
+
       }
+
 
 
 
     </div>
 
-  );
 
+  );
 
 }
 
