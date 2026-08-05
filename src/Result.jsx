@@ -1,4 +1,5 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
+import PrintExam from "./PrintExam.jsx";
 
 
 function Result({
@@ -7,8 +8,8 @@ function Result({
   level,
   method,
   subject,
-  questions,
-  answers,
+  questions = [],
+  answers = {},
   onBack
 
 }) {
@@ -16,18 +17,43 @@ function Result({
 
   const sent = useRef(false);
 
+  const [print,setPrint] = useState(false);
+
 
 
   let correct = 0;
 
 
+
   questions.forEach((q,index)=>{
 
-    if(answers[index] === q.answer){
+
+    const userAnswer =
+      Number(answers[index]);
+
+
+    const correctAnswer =
+      Number(q.answer);
+
+
+
+    console.log(
+      "채점확인",
+      index + 1,
+      "선택:",
+      userAnswer,
+      "정답:",
+      correctAnswer
+    );
+
+
+
+    if(userAnswer === correctAnswer){
 
       correct++;
 
     }
+
 
   });
 
@@ -36,16 +62,35 @@ function Result({
   const total = questions.length;
 
 
-  const score = total === 0
 
-    ? 0
+  const score =
 
-    : Math.round((correct / total) * 100);
+    total === 0
+
+    ?
+
+    0
+
+    :
+
+    Math.round(
+      (correct / total) * 100
+    );
 
 
 
-  const result = score >= 70 ? "합격" : "불합격";
 
+  const result =
+
+    score >= 70
+
+    ?
+
+    "합격"
+
+    :
+
+    "불합격";
 
 
 
@@ -61,7 +106,8 @@ function Result({
 
 
 
-    const data = {
+    const fullData = {
+
 
       name,
 
@@ -71,6 +117,7 @@ function Result({
 
       subject,
 
+
       total,
 
       correct,
@@ -79,32 +126,36 @@ function Result({
 
       result,
 
-      date: new Date().toLocaleString()
+
+      date:
+
+        new Date()
+        .toLocaleString(),
+
+
+
+      questions,
+
+      answers
+
+
 
     };
 
 
 
 
-    fetch(
 
-      "https://script.google.com/macros/s/AKfycbxs_whBI5KfBxKaDreav9PL3_rHX847OdwwLtc8uwMIN9fVOAozGHdpzXmQRsa7PO6i/exec",
+    // ======================
+    // local 저장
+    // ======================
 
-      {
 
-        method: "POST",
+    localStorage.setItem(
 
-        mode: "no-cors",
+      "lastExam",
 
-        body: JSON.stringify(data)
-
-      }
-
-    )
-
-    .catch(err =>
-
-      console.log("결과 전송 실패:", err)
+      JSON.stringify(fullData)
 
     );
 
@@ -112,17 +163,21 @@ function Result({
 
 
 
+    const old =
+
+      JSON.parse(
+
+        localStorage.getItem("results")
+
+        ||
+
+        "[]"
+
+      );
 
 
-    const old = JSON.parse(
 
-      localStorage.getItem("results") || "[]"
-
-    );
-
-
-
-    old.push(data);
+    old.push(fullData);
 
 
 
@@ -138,9 +193,91 @@ function Result({
 
 
 
+
+
+    // ======================
+    // Google Sheet 저장
+    // ======================
+
+
+    fetch(
+
+      "https://script.google.com/macros/s/AKfycbxs_whBI5KfBxKaDreav9PL3_rHX847OdwwLtc8uwMIN9fVOAozGHdpzXmQRsa7PO6i/exec",
+
+      {
+
+        method:"POST",
+
+        body:JSON.stringify(fullData)
+
+      }
+
+    )
+
+
+    .then(res=>res.text())
+
+
+    .then(data=>{
+
+
+      console.log(
+        "Google 저장 완료",
+        data
+      );
+
+
+    })
+
+
+    .catch(err=>{
+
+
+      console.log(
+        "Google 저장 실패",
+        err
+      );
+
+
+    });
+
+
+
+
+
   },[]);
 
 
+
+
+
+
+
+  useEffect(()=>{
+
+
+    if(!print) return;
+
+
+
+    const timer =
+
+      setTimeout(()=>{
+
+
+        window.print();
+
+
+      },300);
+
+
+
+
+    return ()=>clearTimeout(timer);
+
+
+
+  },[print]);
 
 
 
@@ -159,20 +296,14 @@ function Result({
 
 
         <h1>
-
           시험 결과
-
         </h1>
 
 
 
-
         <h2>
-
           {name} 님
-
         </h2>
-
 
 
 
@@ -182,51 +313,57 @@ function Result({
 
 
         <p>
-
           Level : {level}
-
         </p>
 
 
 
-
         <p>
-
           시험 : {method} {subject}
-
         </p>
 
 
 
 
         <h2>
-
           점수 : {score}점
-
         </h2>
 
 
 
 
         <h2>
-
           {result}
-
         </h2>
 
 
 
 
         <p>
-
           정답 : {correct} / {total}
-
         </p>
 
 
 
 
-        <button onClick={onBack}>
+        <button
+
+          onClick={()=>setPrint(true)}
+
+        >
+
+          문제지 출력
+
+        </button>
+
+
+
+
+        <button
+
+          onClick={onBack}
+
+        >
 
           처음 화면
 
@@ -238,6 +375,58 @@ function Result({
       </div>
 
 
+
+
+
+
+      {
+
+
+        print &&
+
+
+        <div className="print-area">
+
+
+          <PrintExam
+
+
+            name={name}
+
+
+            level={level}
+
+
+            method={method}
+
+
+            subject={subject}
+
+
+            questions={questions}
+
+
+            answers={answers}
+
+
+            date={
+
+              new Date()
+              .toLocaleDateString()
+
+            }
+
+
+          />
+
+
+        </div>
+
+
+      }
+
+
+
     </div>
 
 
@@ -245,6 +434,7 @@ function Result({
 
 
 }
+
 
 
 export default Result;

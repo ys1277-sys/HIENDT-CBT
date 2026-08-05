@@ -1,60 +1,83 @@
-```jsx
 import React, { useEffect, useState } from "react";
-import PrintExam from "./PrintExam.jsx";
-import PrintQuestion from "./PrintQuestion.jsx";
+import PrintAdminExam from "./PrintAdminExam.jsx";
 
 
-function Admin({onBack}){
+function Admin({ onBack }) {
 
 
-  const [results,setResults] = useState([]);
+  const [results, setResults] = useState([]);
 
-  const [exam,setExam] = useState(null);
+  const [exam, setExam] = useState(null);
 
-  const [questionPrint,setQuestionPrint] = useState(false);
-
-
-
-
-  useEffect(()=>{
-
-
-    const data = JSON.parse(
-
-      localStorage.getItem("results") || "[]"
-
-    );
-
-
-    setResults(data);
-
-
-  },[]);
+  const [loading, setLoading] = useState(true);
 
 
 
+  useEffect(() => {
+
+
+    fetch(
+      "https://script.google.com/macros/s/AKfycbxs_whBI5KfBxKaDreav9PL3_rHX847OdwwLtc8uwMIN9fVOAozGHdpzXmQRsa7PO6i/exec"
+    )
+
+      .then(res => res.json())
+
+      .then(data => {
+
+        setResults(data);
+
+        setLoading(false);
+
+      })
+
+      .catch(err => {
+
+        console.log(
+          "결과 불러오기 실패",
+          err
+        );
+
+        alert(
+          "결과를 불러오지 못했습니다."
+        );
+
+        setLoading(false);
+
+      });
+
+
+  }, []);
 
 
 
-  function loadPrint(){
+
+  function printExam(r) {
 
 
-    const data = localStorage.getItem("lastExam");
+    if (
+      !r.questions ||
+      r.questions.length === 0
+    ) {
 
-
-
-    if(!data){
-
-      alert("출력할 시험 데이터가 없습니다.");
+      alert(
+        "출력할 시험 데이터가 없습니다."
+      );
 
       return;
 
     }
 
 
-    setQuestionPrint(false);
 
-    setExam(JSON.parse(data));
+    setExam(r);
+
+
+
+    setTimeout(() => {
+
+      window.print();
+
+    }, 500);
 
 
   }
@@ -63,260 +86,197 @@ function Admin({onBack}){
 
 
 
+  return (
 
-  function loadQuestionPrint(){
 
+    <div className="admin-container">
 
-    const data = localStorage.getItem("lastExam");
 
+      <h1>
+        KNDT-CBT 관리자
+      </h1>
 
 
-    if(!data){
 
-      alert("출력할 시험 데이터가 없습니다.");
+      <button onClick={onBack}>
 
-      return;
+        처음 화면으로
 
-    }
+      </button>
 
 
-    setQuestionPrint(true);
 
-    setExam(JSON.parse(data));
 
 
-  }
+      <h2>
+        응시 결과
+      </h2>
 
 
 
 
 
+      {
+        loading &&
 
+        <p>
+          불러오는 중...
+        </p>
 
-  return(
+      }
 
 
-    <div className="home-container">
 
 
-      <div className="home-box">
 
 
-        <h1>
-          KNDT-CBT 관리자
-        </h1>
+      <table className="result-table">
 
 
+        <thead>
 
+          <tr>
 
+            <th>성명</th>
 
-        <button onClick={loadPrint}>
+            <th>Level</th>
 
-          답안지 출력
+            <th>검사</th>
 
-        </button>
+            <th>점수</th>
 
+            <th>결과</th>
 
+            <th>날짜</th>
 
+            <th>출력</th>
 
 
-        <button onClick={loadQuestionPrint}>
+          </tr>
 
-          문제지 출력
+        </thead>
 
-        </button>
 
 
 
 
+        <tbody>
 
-        <button onClick={onBack}>
 
-          돌아가기
+          {
 
-        </button>
+            results.map((r, index) => (
 
 
+              <tr key={index}>
 
 
+                <td>
+                  {r.name}
+                </td>
 
-        <h2>
-          응시 결과
-        </h2>
 
 
+                <td>
+                  {r.level}
+                </td>
 
 
 
+                <td>
+                  {r.method} {r.subject}
+                </td>
 
-        {
-          results.length===0
 
-          ?
 
-          <p>
-            저장된 결과가 없습니다.
-          </p>
+                <td>
+                  {r.score}
+                </td>
 
 
-          :
 
+                <td>
+                  {r.result}
+                </td>
 
-          <table className="result-table">
 
 
-            <thead>
+                <td>
+                  {r.date}
+                </td>
 
-              <tr>
 
-                <th>이름</th>
 
-                <th>Level</th>
 
-                <th>시험</th>
 
-                <th>점수</th>
+                <td>
 
-                <th>결과</th>
+
+                  <button
+
+                    onClick={() => printExam(r)}
+
+                  >
+
+                    정답지 출력
+
+                  </button>
+
+
+                </td>
+
+
+
 
               </tr>
 
-            </thead>
 
+            ))
 
 
+          }
 
-            <tbody>
 
 
-            {
+        </tbody>
 
-              results.map((r,i)=>(
 
 
-                <tr key={i}>
+      </table>
 
 
-                  <td>
-                    {r.name}
-                  </td>
 
 
-                  <td>
-                    {r.level}
-                  </td>
 
 
-                  <td>
-                    {r.method} {r.subject}
-                  </td>
 
+      {
 
-                  <td>
-                    {r.score}
-                  </td>
+        exam &&
 
 
-                  <td>
-                    {r.result}
-                  </td>
+        <div className="print-area">
 
 
-                </tr>
+          <PrintAdminExam
 
 
-              ))
+            questions={exam.questions}
 
-            }
 
+            answers={exam.answers}
 
-            </tbody>
 
+          />
 
-          </table>
 
+        </div>
 
-        }
 
+      }
 
 
 
-
-
-
-
-        {
-          exam && !questionPrint &&
-
-
-          <div>
-
-
-            <PrintExam
-
-
-              name={exam.name}
-
-              level={exam.level}
-
-              method={exam.method}
-
-              subject={exam.subject}
-
-              questions={exam.questions}
-
-              answers={exam.answers}
-
-              date={exam.date}
-
-
-            />
-
-
-          </div>
-
-        }
-
-
-
-
-
-
-
-
-        {
-          questionPrint && exam &&
-
-
-          <div>
-
-
-            <PrintQuestion
-
-
-              name={exam.name}
-
-              level={exam.level}
-
-              method={exam.method}
-
-              subject={exam.subject}
-
-              questions={exam.questions}
-
-
-            />
-
-
-          </div>
-
-        }
-
-
-
-
-
-      </div>
 
 
     </div>
@@ -328,5 +288,5 @@ function Admin({onBack}){
 }
 
 
+
 export default Admin;
-```

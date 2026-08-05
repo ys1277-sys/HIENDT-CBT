@@ -1,105 +1,33 @@
-@page{
+.print-area{
 
-size:A4;
-
-margin:15mm;
-
-}
-
-
-*{
-
-box-sizing:border-box;
+display:none;
 
 }
 
 
 
-body{
+.print-page,
+.exam-paper{
 
-margin:0;
+width:210mm;
+
+min-height:297mm;
+
+padding:15mm;
 
 background:white;
 
-}
+color:black;
 
-
-
-.exam-paper{
-
-width:180mm;
-
-margin:auto;
-
-font-family:"Malgun Gothic",sans-serif;
-
-color:#000;
+font-family:"Noto Sans KR",Arial,sans-serif;
 
 }
 
 
-
-
-
-/* 결과표 */
 
 .cover{
 
-border:2px solid #000;
-
-padding:30px;
-
-height:250mm;
-
-}
-
-
-.cover h1{
-
 text-align:center;
-
-margin-bottom:40px;
-
-}
-
-
-
-.result-table{
-
-width:100%;
-
-border-collapse:collapse;
-
-font-size:16px;
-
-}
-
-
-
-.result-table td{
-
-border:1px solid #999;
-
-padding:12px;
-
-}
-
-
-.result-table td:first-child{
-
-width:35%;
-
-font-weight:bold;
-
-}
-
-
-
-
-
-
-
-.page-break{
 
 page-break-after:always;
 
@@ -107,25 +35,14 @@ page-break-after:always;
 
 
 
-
-
 .paper-title{
 
 text-align:center;
 
-border-bottom:2px solid #000;
-
-padding-bottom:15px;
+margin-bottom:30px;
 
 }
 
-
-
-
-
-
-
-/* 문제 */
 
 
 .question-print{
@@ -140,15 +57,24 @@ page-break-inside:avoid;
 
 .question-print h3{
 
-font-size:16px;
+font-size:15px;
+
+line-height:1.6;
 
 }
 
 
 
+.korean-print{
+
+color:#555;
+
+}
 
 
-/* 보기 */
+
+/* 선택 번호 */
+
 
 .option{
 
@@ -156,22 +82,21 @@ display:flex;
 
 align-items:center;
 
+gap:10px;
+
 margin:8px 0;
 
-font-size:15px;
+position:relative;
 
 }
 
 
 
+.mark{
 
-/* 번호 */
+width:28px;
 
-.number{
-
-width:30px;
-
-height:30px;
+height:28px;
 
 display:flex;
 
@@ -179,60 +104,57 @@ align-items:center;
 
 justify-content:center;
 
-margin-right:10px;
-
-position:relative;
-
 font-weight:bold;
 
 }
 
 
 
+/* 정답 파란 원 */
 
 
-/* 정답 번호 원 */
+.option.correct .mark{
 
-.answer{
+color:blue;
 
 border:3px solid blue;
 
 border-radius:50%;
 
-color:blue;
-
 }
 
 
 
+/* 오답 빨간 X */
 
-/* 오답 번호 위 X */
 
-.wrong::before{
-
-content:"X";
-
-position:absolute;
-
-left:3px;
-
-top:-4px;
-
-font-size:34px;
-
-font-weight:bold;
+.option.wrong .mark{
 
 color:red;
 
+font-size:26px;
+
+font-weight:bold;
+
 }
 
 
 
+.print-option-ko{
+
+font-size:13px;
+
+color:#555;
+
+margin-top:3px;
+
+}
 
 
-.text{
 
-flex:1;
+.page-break{
+
+page-break-before:always;
 
 }
 
@@ -241,10 +163,46 @@ flex:1;
 
 @media print{
 
-button{
 
-display:none;
+body *{
+
+visibility:hidden;
 
 }
+
+
+
+.print-area,
+.print-area *{
+
+visibility:visible;
+
+}
+
+
+
+.print-area{
+
+display:block!important;
+
+position:absolute;
+
+left:0;
+
+top:0;
+
+width:100%;
+
+}
+
+
+
+button{
+
+display:none!important;
+
+}
+
+
 
 }

@@ -2,8 +2,6 @@ import React, { useEffect, useState } from "react";
 import Result from "./Result.jsx";
 import ExamData from "./ExamData.jsx";
 
-console.log("Quiz.jsx 실행됨");
-
 
 function Quiz({
   name,
@@ -14,66 +12,106 @@ function Quiz({
 }) {
 
 
-  const [questions, setQuestions] = useState([]);
-  const [current, setCurrent] = useState(0);
-  const [answers, setAnswers] = useState({});
-  const [showResult, setShowResult] = useState(false);
+  const [questions,setQuestions] = useState([]);
+  const [current,setCurrent] = useState(0);
+  const [answers,setAnswers] = useState({});
+  const [showResult,setShowResult] = useState(false);
 
 
 
   useEffect(()=>{
 
 
-    async function load(){
+    async function loadQuestions(){
 
 
       try{
 
 
         const exam =
-          ExamData[level]?.[subject]?.[method];
+        ExamData?.[level]?.[subject]?.[method];
+
+
+        console.log(
+          "시험 데이터:",
+          exam
+        );
+
 
 
         if(!exam){
 
-          alert("시험 데이터를 찾을 수 없습니다.");
+          alert(
+            "시험 데이터를 찾을 수 없습니다."
+          );
+
           return;
 
         }
 
 
 
-        const res = await fetch(exam.file);
+        const res =
+        await fetch(exam.file);
 
-        const data = await res.json();
+
+
+        const data =
+        await res.json();
+
+
+
+        let list=[];
 
 
 
         if(Array.isArray(data)){
 
-          setQuestions(data);
+          list=data;
 
         }
-
         else if(Array.isArray(data.questions)){
 
-          setQuestions(data.questions);
-
-        }
-
-        else{
-
-          alert("문제 형식이 올바르지 않습니다.");
+          list=data.questions;
 
         }
 
 
 
-      }catch(err){
+        list =
+        list.flat();
 
-        console.log(err);
 
-        alert("문제를 불러오지 못했습니다.");
+
+        list =
+        list.filter(
+          q=>Array.isArray(q.options)
+        );
+
+
+
+        console.log(
+          "문제 수:",
+          list.length
+        );
+
+
+
+        setQuestions(list);
+
+
+
+      }
+      catch(err){
+
+
+        console.error(err);
+
+
+        alert(
+          "문제를 불러오지 못했습니다."
+        );
+
 
       }
 
@@ -82,10 +120,15 @@ function Quiz({
 
 
 
-    load();
+    loadQuestions();
 
 
-  },[level,subject,method]);
+  },[
+    level,
+    subject,
+    method
+  ]);
+
 
 
 
@@ -115,36 +158,35 @@ function Quiz({
   function submitExam(){
 
 
-    localStorage.setItem(
-
-      "lastExam",
-
-      JSON.stringify({
-
-        name,
-
-        level,
-
-        method,
-
-        subject,
-
-        questions,
-
-        answers,
-
-        date:new Date().toLocaleString()
-
-      })
-
+    const unanswered =
+    questions.filter(
+      (_,index)=>
+      answers[index]===undefined
     );
+
+
+
+    if(unanswered.length>0){
+
+
+      alert(
+        "풀지 않은 문제가 있습니다."
+      );
+
+
+      return;
+
+
+    }
+
+
 
 
     setShowResult(true);
 
 
-  }
 
+  }
 
 
 
@@ -212,48 +254,29 @@ function Quiz({
 
 
 
-  const q = questions[current];
+
+  const q =
+  questions[current];
 
 
 
-
-
-  // ==========================
-  // 문제 영어 / 한글 분리
-  // ==========================
-
-
-  const questionSplit =
-
-    (q.question || "").split(/\r?\n/);
+  const question =
+  (q.question || "")
+  .split(/\r?\n/);
 
 
 
   const questionEn =
-
-    questionSplit[0]?.trim() || "";
+  question[0];
 
 
 
   const questionKo =
-
-    questionSplit.slice(1)
-
-    .join(" ")
-
-    .trim();
+  question.slice(1)
+  .join(" ")
+  .trim();
 
 
-
-
-
-
-
-  const options =
-
-    q.options ||
-
-    [];
 
 
 
@@ -272,11 +295,8 @@ function Quiz({
 
 
           <h1>
-
             KNDT-CBT
-
           </h1>
-
 
 
           <div>
@@ -296,15 +316,16 @@ function Quiz({
 
 
 
+
         <main className="cbt-body">
 
 
 
           <div className="question-number">
 
-
-            Question {current+1} / {questions.length}
-
+            Question {current+1}
+            /
+            {questions.length}
 
           </div>
 
@@ -318,18 +339,13 @@ function Quiz({
 
             <div className="english-question">
 
-
               {current+1}. {questionEn}
-
 
             </div>
 
 
 
-
-
             {
-
               questionKo &&
 
               <div className="korean-question">
@@ -341,8 +357,9 @@ function Quiz({
             }
 
 
-
           </div>
+
+
 
 
 
@@ -350,42 +367,14 @@ function Quiz({
 
           <div className="answer-box">
 
-            {options.map((item,index)=>{
 
 
-              // JSON: "영문\n한글" 구조 처리
-
-              const cleanOption =
-
-                typeof item === "string"
-
-                ? item.replace(/^[A-Da-d]\.\s*/,"")
-
-                : "";
+          {
+            q.options.map((item,index)=>{
 
 
-
-              const optionSplit =
-
-                cleanOption.split(/\r?\n/);
-
-
-
-              const optionEn =
-
-                optionSplit[0]?.trim() || "";
-
-
-
-              const optionKo =
-
-                optionSplit.slice(1)
-
-                .join(" ")
-
-                .trim();
-
-
+              const option =
+              item.split(/\r?\n/);
 
 
 
@@ -394,20 +383,15 @@ function Quiz({
 
                 <label
 
-
                   key={index}
 
-
                   className={
-
-                    answers[current] === index
-
-                    ? "answer selected"
-
-                    : "answer"
-
+                    answers[current]===index
+                    ?
+                    "answer selected"
+                    :
+                    "answer"
                   }
-
 
                 >
 
@@ -415,15 +399,13 @@ function Quiz({
 
                   <input
 
-
                     type="radio"
 
-
-                    checked={answers[current] === index}
-
+                    checked={
+                      answers[current]===index
+                    }
 
                     onChange={()=>selectAnswer(index)}
-
 
                   />
 
@@ -431,58 +413,45 @@ function Quiz({
 
 
 
-                  <span className="option-text">
-
+                  <div className="option-text">
 
 
                     <div className="option-en">
 
-
-                      {index + 1}. {optionEn}
-
+                      {index+1}. {option[0]}
 
                     </div>
 
 
 
-
-
                     {
-
-                      optionKo &&
-
+                      option[1] &&
 
                       <div className="option-ko">
 
-
-                        {optionKo}
-
+                        {option[1]}
 
                       </div>
-
 
                     }
 
 
-
-                  </span>
+                  </div>
 
 
 
                 </label>
 
 
-
               );
 
 
-            })}
+            })
+          }
 
 
 
           </div>
-
-
 
 
 
@@ -493,21 +462,17 @@ function Quiz({
           <div className="control">
 
 
-
             <button
-
 
               disabled={current===0}
 
-
-              onClick={()=>setCurrent(current-1)}
-
+              onClick={()=>
+                setCurrent(current-1)
+              }
 
             >
 
-
               이전
-
 
             </button>
 
@@ -517,25 +482,20 @@ function Quiz({
 
 
             {
-
-
-              current < questions.length-1
-
+              current <
+              questions.length-1
 
               ?
 
-
               <button
 
-
-                onClick={()=>setCurrent(current+1)}
-
+                onClick={()=>
+                  setCurrent(current+1)
+                }
 
               >
 
-
                 다음
-
 
               </button>
 
@@ -545,19 +505,13 @@ function Quiz({
 
               <button
 
-
                 onClick={submitExam}
-
 
               >
 
-
                 제출
 
-
               </button>
-
-
 
             }
 
@@ -565,21 +519,19 @@ function Quiz({
 
 
 
+            <button
 
+              onClick={onBack}
 
-            <button onClick={onBack}>
-
+            >
 
               종료
-
 
             </button>
 
 
 
           </div>
-
-
 
 
 
@@ -595,12 +547,10 @@ function Quiz({
 
     </div>
 
-
   );
 
 
 }
-
 
 
 export default Quiz;

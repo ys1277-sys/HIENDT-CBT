@@ -1,6 +1,7 @@
 import React from "react";
 import "./print.css";
 
+
 function PrintExam({
 
   name,
@@ -9,225 +10,241 @@ function PrintExam({
   subject,
   questions = [],
   answers = {},
-  score,
-  correct,
-  total,
-  result,
   date
 
 }) {
 
 
-return (
+  return (
 
-<div className="exam-paper">
+    <div className="print-page">
 
 
-<div className="cover">
+      <div className="cover">
 
-<h1>
-KNDT-CBT 시험 결과표
-</h1>
+        <h1>
+          KNDT-CBT
+        </h1>
 
+        <h2>
+          비파괴검사 자격시험
+        </h2>
 
-<table className="result-table">
+        <p>Level : {level}</p>
+        <p>검사방법 : {method}</p>
+        <p>시험구분 : {subject}</p>
+        <p>응시자 : {name}</p>
+        <p>시험일 : {date}</p>
 
-<tbody>
+      </div>
 
-<tr>
-<td>응시자</td>
-<td>{name}</td>
-</tr>
 
-<tr>
-<td>시험일</td>
-<td>{date || new Date().toLocaleDateString()}</td>
-</tr>
 
-<tr>
-<td>Level</td>
-<td>{level}</td>
-</tr>
+      <div className="page-break"></div>
 
-<tr>
-<td>검사방법</td>
-<td>{method}</td>
-</tr>
 
-<tr>
-<td>시험종목</td>
-<td>{subject}</td>
-</tr>
 
-<tr>
-<td>총 문항</td>
-<td>{total || questions.length}</td>
-</tr>
+      <h2 className="paper-title">
+        문제지
+      </h2>
 
-<tr>
-<td>정답</td>
-<td>{correct}</td>
-</tr>
 
-<tr>
-<td>점수</td>
-<td>{score} 점</td>
-</tr>
 
-<tr>
-<td>결과</td>
-<td>{result}</td>
-</tr>
 
-</tbody>
+      {
+        questions.map((q,index)=>{
 
-</table>
 
-</div>
+          const questionText =
+          (q.question || "")
+          .split(/\r?\n/);
 
 
 
-<div className="page-break"></div>
+          const correctIndex =
+          Number(q.answer);
 
 
 
-<h2 className="paper-title">
-KNDT-CBT 시험지
-</h2>
+          const userIndex =
+          Number(answers[index]);
 
 
 
-{
 
-Array.isArray(questions) && questions.map((q,index)=>{
+          return (
 
+            <div
 
-if(!q) return null;
+              className="print-question"
 
+              key={index}
 
-const selected =
-answers?.[index];
+            >
 
 
-const options = Array.isArray(q.options_ko)
-?
-q.options_ko
-:
-Array.isArray(q.options)
-?
-q.options
-:
-[];
 
+              <h3>
 
+                {index+1}. {questionText[0]}
 
-return (
+              </h3>
 
-<div
-className="question-print"
-key={index}
->
 
 
-<h3>
+              {
+                questionText[1] &&
 
-{index+1}. {q.question_ko || q.question || ""}
+                <p className="korean-print">
 
-</h3>
+                  {questionText[1]}
 
+                </p>
 
+              }
 
-{
 
-options.map((item,i)=>{
 
 
-const answer =
-i === q.answer;
+              {
+                q.options.map((op,i)=>{
 
 
-const wrong =
-i === selected &&
-selected !== q.answer;
+                  const optionText =
+                  op.split(/\r?\n/);
 
 
 
-return (
+                  let className =
+                  "print-option";
 
-<div
-className="option"
-key={i}
->
 
 
-<span
+                  let mark="";
 
-className={
 
-answer
 
-?
+                  // 맞은 답
+                  if(
+                    i === userIndex &&
+                    userIndex === correctIndex
+                  ){
 
-"number answer"
+                    className += " correct";
 
-:
+                    mark="○";
 
-wrong
+                  }
 
-?
 
-"number wrong"
 
-:
+                  // 틀린 답
+                  if(
+                    i === userIndex &&
+                    userIndex !== correctIndex
+                  ){
 
-"number"
+                    className += " wrong";
 
-}
+                    mark="×";
 
->
+                  }
 
-{i+1}
 
-</span>
 
 
+                  return (
 
-<span className="text">
 
-{item}
+                    <div
 
-</span>
+                      key={i}
 
+                      className={className}
 
-</div>
+                    >
 
-);
 
 
-})
+                      <span className="number-box">
 
 
-}
+                        {i+1}
 
 
 
-</div>
+                        {
+                          mark &&
 
+                          <span className="overlay-mark">
 
-);
+                            {mark}
 
+                          </span>
 
-})
+                        }
 
 
-}
+                      </span>
 
 
 
-</div>
 
+                      <span>
 
-);
+
+                        {optionText[0]}
+
+
+
+                        {
+                          optionText[1] &&
+
+
+                          <div className="print-option-ko">
+
+
+                            {optionText[1]}
+
+
+                          </div>
+
+
+                        }
+
+
+                      </span>
+
+
+
+                    </div>
+
+
+                  );
+
+
+                })
+
+              }
+
+
+
+            </div>
+
+
+          );
+
+
+        })
+
+      }
+
+
+
+    </div>
+
+
+  );
 
 
 }

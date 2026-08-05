@@ -1,33 +1,168 @@
 import React, { useState } from "react";
+import PrintExam from "./PrintExam.jsx";
 
 
-function Home({ onStart }) {
+function Home({
+
+  name,
+  setName,
+
+  level,
+  setLevel,
+
+  method,
+  setMethod,
+
+  subject,
+  setSubject,
+
+  onStart,
+  onAdmin
+
+}) {
 
 
-  const [name,setName] = useState("");
+  const [questions,setQuestions] = useState(null);
 
 
 
-  function start(){
+  async function printBank(){
 
 
-    if(!name.trim()){
+    try{
 
-      alert("이름을 입력하세요");
 
-      return;
+      if(
+        !level ||
+        !method ||
+        (level === "Level II" && !subject)
+      ){
+
+        alert(
+          "먼저 Level, 시험종목, 시험구분을 선택하세요."
+        );
+
+        return;
+
+      }
+
+
+
+      let file;
+
+
+
+      if(level === "Level III"){
+
+        file =
+        `/data/${level}/${method}.json`;
+
+      }
+      else{
+
+        file =
+        `/data/${level}/${subject}/${method}.json`;
+
+      }
+
+
+
+      console.log(
+        "문제 파일:",
+        file
+      );
+
+
+
+      const res =
+      await fetch(file);
+
+
+
+      if(!res.ok){
+
+        alert(
+          "문제 파일이 없습니다.\n\n" + file
+        );
+
+        return;
+
+      }
+
+
+
+      const data =
+      await res.json();
+
+
+
+      let list = [];
+
+
+
+      if(Array.isArray(data)){
+
+        list = data;
+
+      }
+      else if(Array.isArray(data.questions)){
+
+        list = data.questions;
+
+      }
+
+
+
+      list =
+      list.filter(
+        q =>
+        Array.isArray(q.options)
+      );
+
+
+
+      if(list.length === 0){
+
+        alert(
+          "문제 데이터가 없습니다."
+        );
+
+        return;
+
+      }
+
+
+
+      setQuestions(list);
+
+
+
+      setTimeout(()=>{
+
+        window.print();
+
+      },500);
+
+
 
     }
+    catch(err){
 
 
-    if(onStart){
+      console.error(err);
 
-      onStart(name);
+
+      alert(
+        "문제 불러오기 실패\n\n" +
+        err.message
+      );
+
 
     }
 
 
   }
+
 
 
 
@@ -40,14 +175,16 @@ function Home({ onStart }) {
       <div className="home-box">
 
 
+
         <h1>
           KNDT-CBT
         </h1>
 
 
         <h2>
-          비파괴검사 CBT 시험
+          비파괴검사 자격시험
         </h2>
+
 
 
 
@@ -67,20 +204,271 @@ function Home({ onStart }) {
 
 
 
-        <button onClick={start}>
 
-          시작
+
+        <h3>
+          Level 선택
+        </h3>
+
+
+
+
+        <button
+
+          className={
+            level==="Level II"
+            ?
+            "active"
+            :
+            ""
+          }
+
+
+          onClick={()=>{
+
+            setLevel("Level II");
+            setMethod("");
+            setSubject("");
+
+          }}
+
+        >
+
+          Level II
 
         </button>
+
+
+
+
+
+        <button
+
+          className={
+            level==="Level III"
+            ?
+            "active"
+            :
+            ""
+          }
+
+
+          onClick={()=>{
+
+            setLevel("Level III");
+            setMethod("");
+            setSubject("");
+
+          }}
+
+        >
+
+          Level III
+
+        </button>
+
+
+
+
+
+
+        <h3>
+          시험종목
+        </h3>
+
+
+
+        <select
+
+          value={method}
+
+          onChange={
+            e=>setMethod(e.target.value)
+          }
+
+        >
+
+
+          <option value="">
+            선택
+          </option>
+
+
+          {
+            [
+              "ECT",
+              "UT",
+              "MT",
+              "PT",
+              "RT",
+              "VT",
+              "PAUT",
+              "RFT",
+              "TOFD"
+            ]
+            .map(item=>(
+
+              <option
+                key={item}
+                value={item}
+              >
+
+                {item}
+
+              </option>
+
+            ))
+          }
+
+
+        </select>
+
+
+
+
+
+
+
+        {
+          level==="Level II" &&
+
+          <>
+
+
+          <h3>
+            시험 구분
+          </h3>
+
+
+
+          <select
+
+            value={subject}
+
+            onChange={
+              e=>setSubject(e.target.value)
+            }
+
+          >
+
+
+            <option value="">
+              선택
+            </option>
+
+
+            <option value="General">
+              General
+            </option>
+
+
+            <option value="Specific">
+              Specific
+            </option>
+
+
+          </select>
+
+
+
+          </>
+
+        }
+
+
+
+
+
+
+        <button
+
+          onClick={onStart}
+
+        >
+
+          시험 시작
+
+        </button>
+
+
+
+
+
+
+        <button
+
+          onClick={printBank}
+
+        >
+
+          문제은행 출력
+
+        </button>
+
+
+
+
+
+
+        <button
+
+          onClick={onAdmin}
+
+        >
+
+          관리자
+
+        </button>
+
 
 
 
       </div>
 
 
+
+
+
+
+      {
+        questions &&
+
+
+        <div className="print-area">
+
+
+          <PrintExam
+
+            name="KNDT-CBT 문제은행"
+
+            level={level}
+
+            method={method}
+
+            subject={subject}
+
+            questions={questions}
+
+            date={
+              new Date()
+              .toLocaleDateString()
+            }
+
+          />
+
+
+        </div>
+
+      }
+
+
+
+
+
     </div>
 
   );
+
 
 }
 
