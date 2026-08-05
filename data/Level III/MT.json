@@ -1,0 +1,512 @@
+[
+  {
+    "id": 1,
+    "level": "Level III",
+    "method": "MT",
+    "category": "SPECIFIC",
+    "subject": "ASME Section VIII / HIE-NDT-MT-P11",
+    "question": "When using the wet method of MT, what is the particle concentration for?",
+    "question_kr": "습식 자분탐상을 할 때 자분 농도는?",
+    "options": [
+      "1.2 ml to 2.4 ml per 100 ml",
+      "",
+      "",
+      ""
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 2,
+    "level": "Level III",
+    "method": "MT",
+    "category": "SPECIFIC",
+    "subject": "ASME Section VIII / HIE-NDT-MT-P11",
+    "question": "How much time is needed to adapt to dark viewing prior to performing fluorescent examination?",
+    "question_kr": "형광 시험을 수행하기 전에 어두움에 적응하기 위해 필요한 시간은?",
+    "options": [
+      "At least 5 minutes",
+      "",
+      "",
+      ""
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 3,
+    "level": "Level III",
+    "method": "MT",
+    "category": "SPECIFIC",
+    "subject": "ASME Section VIII / HIE-NDT-MT-P11",
+    "question": "How much is the minimum visible light strength from the surface of the product to test?",
+    "question_kr": "시험할 제품 표면에서 가시광선 강도 최소값은?",
+    "options": [
+      "500 lux",
+      "800 lux",
+      "1076 lux",
+      "2000 lux"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 4,
+    "level": "Level III",
+    "method": "MT",
+    "category": "SPECIFIC",
+    "subject": "ASME Section VIII / HIE-NDT-MT-P11",
+    "question": "How much is minimum lifting power at the maximum pole spacing that will be used of alternating current electromagnetic yoke?",
+    "question_kr": "교류 전자 요크 사용 시 최대 극간 간격에서 최소 리프팅 파워는?",
+    "options": [
+      "10 lb (4.5 kg)",
+      "",
+      "",
+      ""
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 5,
+    "level": "Level III",
+    "method": "MT",
+    "category": "SPECIFIC",
+    "subject": "ASME Section VIII / HIE-NDT-MT-P11",
+    "question": "How much is a limited range of the temperature when using the wet particle suspension?",
+    "question_kr": "습식 자분 현탁액 사용 시 온도 제한 범위는?",
+    "options": [
+      "Not exceed 135°F (57℃)",
+      "",
+      "",
+      ""
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 6,
+    "level": "Level III",
+    "method": "MT",
+    "category": "SPECIFIC",
+    "subject": "ASME Section VIII / HIE-NDT-MT-P11",
+    "question": "How to prove the strength of the magnetic field, what is appropriate?",
+    "question_kr": "자기장 세기의 적절성을 증명하는 방법은?",
+    "options": [
+      "Pie-Shaped Magnetic Particle Field Indicator",
+      "Artificial Flaw Shims",
+      "Hall-Effect Tangential-Field Probe",
+      "Lifting power block"
+    ],
+    "answer": 1,
+    "explanation": "복수 정답 가능 항목 중 대표 답안 적용"
+  },
+  {
+    "id": 7,
+    "level": "Level III",
+    "method": "MT",
+    "category": "SPECIFIC",
+    "subject": "ASME Section VIII / HIE-NDT-MT-P11",
+    "question": "When using the yoke, how much spacing of Yoke-pole?",
+    "question_kr": "요크를 사용할 때 극간 간격은 얼마인가?",
+    "options": [
+      "Minimum 50 to Maximum 130 mm",
+      "",
+      "",
+      ""
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 8,
+    "level": "Level III",
+    "method": "MT",
+    "category": "SPECIFIC",
+    "subject": "ASME Section VIII / HIE-NDT-MT-P11",
+    "question": "What is the size of relevant indication in case of magnetic particle examination on welds and surface?",
+    "question_kr": "용접부 및 표면 자분탐상 시험에서 관련 지시의 크기는?",
+    "options": [
+      "1/32 in",
+      "1/64 in",
+      "1/16 in",
+      "3/64 in"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 9,
+    "level": "Level III",
+    "method": "MT",
+    "category": "SPECIFIC",
+    "subject": "API 6A / HIE-NDT-MT-P6A",
+    "question": "What is the choice of inspection equipment and magnetic particles when inspecting the welded part of the quality class PSL3 for ferromagnetic material?",
+    "question_kr": "PSL3 품질등급 자성체 용접부 MT 검사 시 장비와 자분 선택은?",
+    "options": [
+      "Yoke with dry magnetic particle",
+      "Prod with wet fluorescent magnetic particle",
+      "Prod with dry magnetic particle",
+      "Yoke with wet fluorescent magnetic particle"
+    ],
+    "answer": 4,
+    "explanation": ""
+  },
+  {
+    "id": 10,
+    "level": "Level III",
+    "method": "MT",
+    "category": "SPECIFIC",
+    "subject": "ASME B16.34",
+    "question": "A 20mm-thick steel casting was tested by magnetic particle inspection and a linear indication was found on the surface. What is the maximum length that can be considered acceptable?",
+    "question_kr": "20mm 두께 주강품에서 선형 지시가 발견된 경우 허용 가능한 최대 길이는?",
+    "options": [
+      "13 mm (0.5 in)",
+      "18 mm (0.7 in)",
+      "1.5 mm (0.06 in)",
+      "8 mm (0.3 in)"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 11,
+    "level": "Level III",
+    "method": "MT",
+    "category": "SPECIFIC",
+    "subject": "Equipment",
+    "question": "Yoke, MP-200 have flexible legs and no input or output current control. The flux density in the metal being magnetized with the yoke:",
+    "question_kr": "요크 MP-200은 유연한 다리를 가지고 입출력 전류 제어가 없다. 자화되는 금속 내 자속 밀도는?",
+    "options": [
+      "depends on whether the poles are making a good contact",
+      "depends on the distance between the poles",
+      "both A and B",
+      "cannot be changed because the yoke always puts out the same amount of flux"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 12,
+    "level": "Level III",
+    "method": "MT",
+    "category": "SPECIFIC",
+    "subject": "Equipment",
+    "question": "Which of the following shall be considered before using Magnaflux P-920 prod?",
+    "question_kr": "Magnaflux P-920 프로드 사용 전에 고려해야 할 사항은?",
+    "options": [
+      "Is the metal heat treated to a high strength condition?",
+      "Would a burn mar the finish?",
+      "Are the prod tips clean and bright?",
+      "All of the above shall be considered"
+    ],
+    "answer": 4,
+    "explanation": ""
+  },
+  {
+    "id": 13,
+    "level": "Level III",
+    "method": "MT",
+    "category": "SPECIFIC",
+    "subject": "Magnetization",
+    "question": "Among the following, the best type of current for detection of fatigue crack is:",
+    "question_kr": "다음 중 피로 균열 검출에 가장 적합한 전류 타입은?",
+    "options": [
+      "Half-wave direct current",
+      "Alternating current",
+      "Direct current",
+      "Half-wave alternating current"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 14,
+    "level": "Level III",
+    "method": "MT",
+    "category": "SPECIFIC",
+    "subject": "Discontinuity",
+    "question": "A surface indication on bar stock is fine and sharp and runs lengthwise. What type of discontinuity is this most likely to represent?",
+    "question_kr": "봉재 표면에 가늘고 선명하며 길이 방향으로 나타나는 지시는 어떤 불연속인가?",
+    "options": [
+      "Fatigue crack",
+      "Burst",
+      "Stringer",
+      "Heat-treat crack"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 15,
+    "level": "Level III",
+    "method": "MT",
+    "category": "SPECIFIC",
+    "subject": "Welding",
+    "question": "Magnetic particle inspection of the first pass in a U groove butt weld showed a large fuzzy indication at short intervals along the center of the weld. Which was most likely detected?",
+    "question_kr": "U groove 맞대기 용접 첫 패스 중앙에 짧은 간격으로 큰 퍼지 지시가 나타났다. 검출된 결함은?",
+    "options": [
+      "Lack of fusion",
+      "Crater crack",
+      "Stringer",
+      "Lack of root penetration"
+    ],
+    "answer": 4,
+    "explanation": ""
+  },
+  {
+    "id": 16,
+    "level": "Level III",
+    "method": "MT",
+    "category": "SPECIFIC",
+    "subject": "Welding",
+    "question": "Multiple indications of a surface-type were detected transversely across a weld. Which were detected?",
+    "question_kr": "용접부를 가로지르는 다중 표면 지시가 검출되었다. 해당 결함은?",
+    "options": [
+      "Flakes",
+      "Heat checks",
+      "Fatigue cracks",
+      "Linear porosity"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 17,
+    "level": "Level III",
+    "method": "MT",
+    "category": "SPECIFIC",
+    "subject": "Equipment Calibration",
+    "question": "The AC ammeter should be checked with what equipment?",
+    "question_kr": "교류 전류계는 어떤 장비로 확인해야 하는가?",
+    "options": [
+      "Shunt and master AC ammeter",
+      "An impedance bridge and oscilloscope",
+      "A master current transformer and a calibrated AC ammeter",
+      "No check is necessary if not damaged"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 18,
+    "level": "Level III",
+    "method": "MT",
+    "category": "SPECIFIC",
+    "subject": "Fluorescent MT",
+    "question": "Fluorescent magnetic particle inspection is used in preference to visible magnetic particles:",
+    "question_kr": "형광 자분 검사가 일반 자분보다 선호되는 경우는?",
+    "options": [
+      "When parts are big and bulky",
+      "To take advantage of fluorescent lights normally used in plants",
+      "If parts are for railroad applications",
+      "To increase speed and reliability of detecting very small defects"
+    ],
+    "answer": 4,
+    "explanation": ""
+  },
+  {
+    "id": 19,
+    "level": "Level III",
+    "method": "MT",
+    "category": "SPECIFIC",
+    "subject": "Demagnetization",
+    "question": "A heat treated bolt was tested for quench cracks and must be demagnetized. Using the bolt as a conductor, the demagnetizing current:",
+    "question_kr": "열처리 볼트를 담금질 균열 검사 후 탈자해야 한다. 볼트를 도체로 사용할 때 탈자 전류는?",
+    "options": [
+      "Should be sufficiently high to magnetically saturate the part",
+      "Need not exceed the magnetizing current",
+      "Should somewhat exceed the original magnetizing current",
+      "Is irrelevant since demagnetization is not necessary"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 20,
+    "level": "Level III",
+    "method": "MT",
+    "category": "SPECIFIC",
+    "subject": "Equipment Application",
+    "question": "The best application for permanent magnet yokes is for the inspection of:",
+    "question_kr": "영구자석 요크의 가장 적합한 적용 대상은?",
+    "options": [
+      "Welds",
+      "Large castings on the foundry floor",
+      "Small localized areas",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 21,
+    "level": "Level III",
+    "method": "MT",
+    "category": "SPECIFIC",
+    "subject": "Fluorescent MT",
+    "question": "When using the fluorescent magnetic particle, how much of black light intensity?",
+    "question_kr": "형광 자분을 사용할 때 자외선등의 세기는?",
+    "options": [
+      "Minimum of 1076 lux",
+      "Minimum of 1000 μW/cm²",
+      "20 lux",
+      "2.4 kAm-1 to 4.8 kAm-1"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 22,
+    "level": "Level III",
+    "method": "MT",
+    "category": "SPECIFIC",
+    "subject": "SNT-TC-1A",
+    "question": "The following are matters related to technical performance evaluation according to SNT-TC-1A. Which is incorrect?",
+    "question_kr": "SNT-TC-1A에 따른 기술 수행 평가 관련 사항 중 잘못된 것은?",
+    "options": [
+      "NDT personnel may be reexamined anytime at the discretion of the employer and have their certificates extended or revoked.",
+      "Periodically, NDT Level II personnel should be reevaluated by the NDT Level III administering a practical examination.",
+      "Technical performance evaluation of Level I personnel can be done through a written examination.",
+      "The practical examination for technical performance evaluation follows Level I or II practical examination requirements."
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 23,
+    "level": "Level III",
+    "method": "MT",
+    "category": "SPECIFIC",
+    "subject": "ANSI/ASNT CP-189",
+    "question": "When attempting to obtain the NDT Level II qualification according to ANSI/ASNT CP-189, which is incorrect?",
+    "question_kr": "ANSI/ASNT CP-189에 따른 Level II 자격 요구사항 중 잘못된 것은?",
+    "options": [
+      "Three levels of qualification are defined in terms of skills and knowledge required.",
+      "Experience requirements for Level III are satisfied by holding current ASNT Level III certificate.",
+      "Training requirements for Level III are satisfied by holding current ASNT Level III certificate.",
+      "Vision examination requires near distance acuity and color vision."
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 24,
+    "level": "Level III",
+    "method": "MT",
+    "category": "SPECIFIC",
+    "subject": "ASME Section III / HIE-NDT-MT-N21",
+    "question": "1.3 mm linear indication was found on weld edge surface by MT yoke method, is it acceptable?",
+    "question_kr": "MT Yoke 방법으로 용접부 끝 표면에서 1.3mm 선형 지시가 발견되었다. 합격인가?",
+    "options": [
+      "Yes",
+      "No",
+      "",
+      ""
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 25,
+    "level": "Level III",
+    "method": "MT",
+    "category": "SPECIFIC",
+    "subject": "ASME Section III",
+    "question": "When using the Yoke Method, what kind of electric current is used?",
+    "question_kr": "요크법 적용 시 사용하는 전류는?",
+    "options": [
+      "Direct Current",
+      "Alternating Current",
+      "Half-wave Direct Current",
+      "All of the above"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 26,
+    "level": "Level III",
+    "method": "MT",
+    "category": "SPECIFIC",
+    "subject": "ASME Section III Div.1 NB",
+    "question": "According to ASME Code Section III Div.1 NB, what examination method is used for category A welded joints in vessels?",
+    "question_kr": "ASME Section III Div.1 NB에 따른 용기의 Category A 용접 이음 검사 방법은?",
+    "options": [
+      "Volumetric test",
+      "Volumetric test and either RT or UT",
+      "Volumetric test and either PT or MT",
+      "PT or MT"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 27,
+    "level": "Level III",
+    "method": "MT",
+    "category": "SPECIFIC",
+    "subject": "ASME Section III",
+    "question": "What is the size of relevant indication in case of magnetic particle examination on welds and surface?",
+    "question_kr": "용접부 및 표면 자분탐상 시험에서 관련 지시의 크기는?",
+    "options": [
+      "1/32 in",
+      "1/64 in",
+      "1/16 in",
+      "3/64 in"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 28,
+    "level": "Level III",
+    "method": "MT",
+    "category": "SPECIFIC",
+    "subject": "ASME Section III",
+    "question": "2 mm round indication was found on weld edge preparation surface by MT yoke method, is it acceptable?",
+    "question_kr": "MT Yoke 장비로 용접부 끝단 준비면에서 2mm 원형 지시가 발견되었다. 합격인가?",
+    "options": [
+      "Yes",
+      "No",
+      "",
+      ""
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 29,
+    "level": "Level III",
+    "method": "MT",
+    "category": "SPECIFIC",
+    "subject": "ASME B31.1",
+    "question": "According to ASME B31.1, Nonrelevant indications?",
+    "question_kr": "ASME B31.1에 따른 비관련 지시는?",
+    "options": [
+      "Shall be reexamined by other NDT methods",
+      "That would mask indication of defects are unacceptable",
+      "Which have any dimension less than 1/16 in",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 30,
+    "level": "Level III",
+    "method": "MT",
+    "category": "SPECIFIC",
+    "subject": "ASME Section I",
+    "question": "A length 1/4 in (6mm) rounded indication is; This indication acceptable?",
+    "question_kr": "길이 1/4인치(6mm) 원형 지시는 합격인가?",
+    "options": [
+      "Accept",
+      "Reject",
+      "",
+      ""
+    ],
+    "answer": 2,
+    "explanation": ""
+  }
+]

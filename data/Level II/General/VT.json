@@ -1,0 +1,610 @@
+[
+  {
+    "id": 1,
+    "question": "Which radiation is the shortest wavelength?",
+    "question_kr": "다음 방사선중 가장 짧은 파장은?",
+    "options": [
+      "A. radio (라디오)",
+      "B. infrared (적외선)",
+      "C. visible light (가시광선)",
+      "D. ultra-violet (자외선)",
+      "E. cosmic rays (우주선)",
+      "F. X-rays (엑스선)"
+    ],
+    "answer": "E",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 2,
+    "question": "The dimension indicated on the sketch of a micrometer is ;",
+    "question_kr": "지시치는?",
+    "options": [
+      "A. 10.11mm",
+      "B. 13.11 mm",
+      "C. 13.51 mm",
+      "D. 13.61 mm"
+    ],
+    "answer": "B",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 3,
+    "question": "What is the range of wavelength that human eye response in brightness, In daylight?",
+    "question_kr": "일광시 사람의 눈이 반응하는 파장의 범위는?",
+    "options": [
+      "A. 390 to 720 nm",
+      "B. 520 to 900 nm",
+      "C. 860 to 950 nm",
+      "D. 50 to 150 nm"
+    ],
+    "answer": "A",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 4,
+    "question": "A device by which it is possible to view objects that are moving rapidly with a periodic motion and see them as if they were at rest is?",
+    "question_kr": "동일주기로 빠르게 움직이는 물체를 정지한 것처럼 관찰할 수 있는 장치는?",
+    "options": [
+      "A. stroboscope (섬광 촬영장치)",
+      "B. telescope (망원경)",
+      "C. endoscope (내시경)",
+      "D. microscope (현미경)"
+    ],
+    "answer": "A",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 5,
+    "question": "Which formula is correct to calculate the focal length of the lens?",
+    "question_kr": "렌즈의 초점길이를 계산하는 올바른 식은?",
+    "options": [
+      "A. 1/a - 1/b = 1/f",
+      "B. 1/a + 1/b = 1/f",
+      "C. 1/a - 1/b = 1/f",
+      "D. 1/a + 1/b = -1/f"
+    ],
+    "answer": "B",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 6,
+    "question": "Which is not correct to describe the borescope?",
+    "question_kr": "다음 중 내시경 설명으로 틀린 것은?",
+    "options": [
+      "A. It is widely used for testing hollow tubes, deep holes.",
+      "B. Relatively large industrial borescopes range from 1/2 in to 1-3/4 in diameter and from 20 in to 72 ft in length.",
+      "C. Most borescopes are equipped with light sources to illuminate the area being inspected.",
+      "D. None of the above."
+    ],
+    "answer": "D",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 7,
+    "question": "Which color is the longest wavelength?",
+    "question_kr": "다음 색상 중 가장 긴 파장은?",
+    "options": [
+      "A. violet (보라색)",
+      "B. yellow (노랑)",
+      "C. red (빨강)",
+      "D. green (녹색)"
+    ],
+    "answer": "C",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 8,
+    "question": "Visual examination is generally used to determine such things as:",
+    "question_kr": "VT에서 확인되는 것은?",
+    "options": [
+      "A. alignment of mating surfaces",
+      "B. surface condition of part",
+      "C. shape",
+      "D. all of the above"
+    ],
+    "answer": "D",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 9,
+    "question": "Which of the following are important considerations in the performance of any visual examination?",
+    "question_kr": "VT에서 중요 요인은?",
+    "options": [
+      "A. lighting",
+      "B. angles of vision",
+      "C. accessibility",
+      "D. all of the above"
+    ],
+    "answer": "D",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 10,
+    "question": "Direct Visual Examination may usually be made when access is sufficient to place the eye within 24 inches of surface to be examined and at an angle not less than?",
+    "question_kr": "Direct VT에서 검사부위와 표면과의 최소 시각각도는?",
+    "options": [
+      "A. 90°",
+      "B. 180°",
+      "C. 45°",
+      "D. 30°"
+    ],
+    "answer": "D",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 11,
+    "question": "Which of the following statements best differentiates between a defect and a discontinuity?",
+    "question_kr": "결함과 불연속 사이의 차이점을 무엇이라 하는가?",
+    "options": [
+      "A. Discontinuities can propagate and become defects.",
+      "B. All discontinuities are defects.",
+      "C. All defects will lead to failure if undetected discontinuities can be harmless.",
+      "D. Discontinuities are external natural boundaries only defects are internal flaws originating from error in processing."
+    ],
+    "answer": "A",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 12,
+    "question": "A vernier measurement permits:",
+    "question_kr": "버니어 측정은 무엇을 가능하게 하는가?",
+    "options": [
+      "A. Accurate interpolation between major divisions on a measuring device.",
+      "B. Measurements to be accurate within 0.001 inch.",
+      "C. Extending the length of a measurement scale by the times.",
+      "D. Measurements to be traced to the National Bureau of Standard."
+    ],
+    "answer": "A",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 13,
+    "question": "Every color has three physical characteristics. Which of the following is not described character of color?",
+    "question_kr": "모든 색상은 세 가지 물리적 특성을 가진다. 다음 중 색의 특성이 아닌 것은?",
+    "options": [
+      "A. hue or tone (빛깔 또는 색조)",
+      "B. brightness or luminosity (휘도 또는 광도)",
+      "C. saturation or purity (채도 또는 순도)",
+      "D. brightness or contrast (휘도 또는 명암도)"
+    ],
+    "answer": "D",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 14,
+    "question": "Measurements are classified as being either:",
+    "question_kr": "측정은 무엇으로 분류하는가?",
+    "options": [
+      "A. Comparative or absolute",
+      "B. Comparative or dimensional",
+      "C. General or specific",
+      "D. Dimensional or angular",
+      "E. Microscopic or macroscopic"
+    ],
+    "answer": "A",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 15,
+    "question": "Frequently, dimensions are permitted to vary within specified limits. These variations are called:",
+    "question_kr": "규격된 제한 내에서 허용되는 치수 변화는 무엇이라 하는가?",
+    "options": [
+      "A. Variances",
+      "B. Fudge factors",
+      "C. Absolute dimensions",
+      "D. Factors of safety",
+      "E. Tolerance"
+    ],
+    "answer": "E",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 16,
+    "question": "Which of the following describes a function of NDT?",
+    "question_kr": "비파괴검사의 기능을 설명한 것은?",
+    "options": [
+      "A. Identification and sorting of material",
+      "B. Identification of material properties",
+      "C. Assuring absence of faults or defects that could cause a part to fail",
+      "D. All of the above"
+    ],
+    "answer": "D",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 17,
+    "question": "Most metals and plastics that are solids and have reasonable strength at room temperature are called?",
+    "question_kr": "고체이고 상온에서 적당한 강도를 가지는 대부분의 금속과 플라스틱을 무엇이라 하는가?",
+    "options": [
+      "A. Composite materials",
+      "B. Manufacturing materials",
+      "C. Raw materials",
+      "D. Allotropic materials",
+      "E. Engineering materials"
+    ],
+    "answer": "E",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 18,
+    "question": "Which of the following may be performed to help prevent corrosion?",
+    "question_kr": "부식 방지를 위해 수행되는 것은?",
+    "options": [
+      "A. Stress relieving",
+      "B. Anodizing",
+      "C. Dipping in molten metal",
+      "D. Electroplating",
+      "E. All of the above"
+    ],
+    "answer": "E",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 19,
+    "question": "What joint fit-up should you insist on?",
+    "question_kr": "Fit-up 검사에서 확인해야 하는 것은?",
+    "options": [
+      "A. Tolerances specified on drawings or specifications.",
+      "B. Tight fit of butt joint, to preserve dimensions of weldment.",
+      "C. Whatever gap comes up, if not obviously too big for welder to span."
+    ],
+    "answer": "A",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 20,
+    "question": "Which of the following materials is typically considered when the application only requires high compressive strength?",
+    "question_kr": "높은 압축강도가 요구될 때 대표적으로 고려되는 재료는?",
+    "options": [
+      "A. Low carbon steel",
+      "B. High carbon steel",
+      "C. Cast iron",
+      "D. Magnesium"
+    ],
+    "answer": "C",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 21,
+    "question": "Even at the early stages of product planning, nondestructive testing should be considered because:",
+    "question_kr": "제품 계획 초기 단계에서도 비파괴검사를 고려해야 하는 이유는?",
+    "options": [
+      "A. It may be required by codes and specifications.",
+      "B. The design of the part should permit easy access to critical areas for later inspections.",
+      "C. The materials selected should be compatible with a NDT technique that can accurately evaluate the product.",
+      "D. All of the above are important."
+    ],
+    "answer": "D",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 22,
+    "question": "What characteristic is always common to the discontinuities of lamination, laminar tears, and seams and laps?",
+    "question_kr": "Lamination, laminar tears, seams 및 laps 결함의 공통점은?",
+    "options": [
+      "A. All are caused by stresses not associated with welding.",
+      "B. All originate in the base metal, not the weld.",
+      "C. All run parallel to the surface."
+    ],
+    "answer": "B",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 23,
+    "question": "What discontinuity would give rise to a series of remelted dots beside a weld, resembling a trail left in striking a match?",
+    "question_kr": "용접부 옆에 성냥불 흔적처럼 재용융된 점 형태로 나타나는 결함은?",
+    "options": [
+      "A. Linear porosity",
+      "B. Aligned microporosity",
+      "C. Arc strikes"
+    ],
+    "answer": "C",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 24,
+    "question": "Direct hardness tests provide a measure of a material's ability to resist:",
+    "question_kr": "직접 경도시험은 재료의 어떤 저항 능력을 측정하는가?",
+    "options": [
+      "A. Bending",
+      "B. Surface and near-surface penetration",
+      "C. Tensile stresses",
+      "D. Elongation"
+    ],
+    "answer": "B",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 25,
+    "question": "What type of discontinuity is this?",
+    "question_kr": "다음 불연속의 명칭은?",
+    "options": [
+      "A. Undercut",
+      "B. Underfill",
+      "C. Inadequate joint penetration"
+    ],
+    "answer": "B",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 26,
+    "question": "What type of discontinuity is this?",
+    "question_kr": "다음 불연속의 명칭은?",
+    "options": [
+      "A. An underbead crack",
+      "B. An crater crack",
+      "C. Porosity"
+    ],
+    "answer": "B",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 27,
+    "question": "What type of discontinuity is this?",
+    "question_kr": "다음 불연속의 명칭은?",
+    "options": [
+      "A. A plate lamination",
+      "B. An underbead crack",
+      "C. An undercut"
+    ],
+    "answer": "A",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 28,
+    "question": "The drawing shows this weld symbol. What weld is desired?",
+    "question_kr": "그림의 용접 기호는 어떤 용접을 의미하는가?",
+    "options": [
+      "A",
+      "B",
+      "C"
+    ],
+    "answer": "B",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 29,
+    "question": "Which of these forms of discontinuity demonstrate incomplete fusion?",
+    "question_kr": "다음 중 융합 불량을 나타내는 불연속은?",
+    "options": [
+      "A. Both A and B",
+      "B. A only",
+      "C. B only",
+      "D. None of the above"
+    ],
+    "answer": "A",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 30,
+    "question": "A written VT Procedure shall contain (circle all correct answer)?",
+    "question_kr": "VT 절차서에 포함되어야 하는 항목은?",
+    "options": [
+      "A. How examination is to be performed",
+      "B. Surface preparation",
+      "C. Step wedge comparison film",
+      "D. Sequence of performing examination",
+      "E. Manufacturer’s specification",
+      "F. Data to be tabulated, if any"
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D",
+      "E",
+      "F"
+    ],
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 31,
+    "question": "Which of the following metal alloys has a density approximately two-thirds that of aluminum?",
+    "question_kr": "밀도가 알루미늄의 약 2/3인 금속 합금은?",
+    "options": [
+      "A. Magnesium (마그네슘)",
+      "B. Beryllium (베리륨)",
+      "C. Copper (구리)",
+      "D. Nickel (니켈)"
+    ],
+    "answer": "A",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 32,
+    "question": "Which of the following discontinuities might appear on the surface of a casting?",
+    "question_kr": "주조품 표면에서 나타날 수 있는 불연속은?",
+    "options": [
+      "A. lap",
+      "B. stringer",
+      "C. lamination",
+      "D. cold shut"
+    ],
+    "answer": "D",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 33,
+    "question": "If accessibility is not available to the back side of a joint, what types of discontinuities are most likely to appear?",
+    "question_kr": "용접부 뒷면 접근이 불가능할 경우 발생 가능성이 높은 결함은?",
+    "options": [
+      "A. Porosity and slag inclusions",
+      "B. Incomplete fusion and melt-thru",
+      "C. Delamination and laminar tears"
+    ],
+    "answer": "B",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 34,
+    "question": "Which of the following metals can typically be used in the as-cast state?",
+    "question_kr": "주조 상태 그대로 사용 가능한 금속은?",
+    "options": [
+      "A. Aluminum (알루미늄)",
+      "B. Zinc (아연)",
+      "C. Steel (강)",
+      "D. Iron (철)",
+      "E. All of the above"
+    ],
+    "answer": "E",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 35,
+    "question": "A casting process used to produce hollow products like large pipes and hollow shafts is:",
+    "question_kr": "큰 파이프나 속이 빈 샤프트 같은 제품을 생산하는 주조 방법은?",
+    "options": [
+      "A. Investment casting",
+      "B. Blow casting",
+      "C. Core casting",
+      "D. Centrifugal casting"
+    ],
+    "answer": "D",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 36,
+    "question": "What type inspection is most effective in elimination discontinuities?",
+    "question_kr": "결함 제거에 가장 효과적인 검사는?",
+    "options": [
+      "A. In-process inspection before the weld is completed",
+      "B. Inspection after the weld is completed",
+      "C. Inspection of the repair process"
+    ],
+    "answer": "B",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 37,
+    "question": "Welds and weldments have been known to develop cracks long after cooling but prior to being used in service. What is the principal cause for such cracks?",
+    "question_kr": "냉각 후 사용 전 용접부에 발생하는 균열의 주요 원인은?",
+    "options": [
+      "A. Accelerated corrosion at high temperature",
+      "B. Scattered porosity in the weld",
+      "C. Improper selection of base material",
+      "D. Excessive residual stresses"
+    ],
+    "answer": "D",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 38,
+    "question": "Most steel pipe is produced by forming and:",
+    "question_kr": "대부분의 강관은 성형과 무엇에 의해 생산되는가?",
+    "options": [
+      "A. Drawing",
+      "B. Welding",
+      "C. Extrusion",
+      "D. Casting",
+      "E. Pressing"
+    ],
+    "answer": "B",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 39,
+    "question": "Risers, feeders, or feed heads in casting serve to provide sources of molten metal to compensate for:",
+    "question_kr": "주조 시 riser, feeder, feed head의 목적은 무엇을 보상하기 위함인가?",
+    "options": [
+      "A. Misruns",
+      "B. Cold shuts",
+      "C. Hot tears",
+      "D. Dendritic grain growth",
+      "E. Shrinkage"
+    ],
+    "answer": "E",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  },
+  {
+    "id": 40,
+    "question": "A nondestructive testing technique best-suited to locating discontinuities caused by inclusions rolled into steel plate is:",
+    "question_kr": "강판 압연 시 혼입된 개재물 결함 위치를 찾는 데 가장 적합한 비파괴검사 방법은?",
+    "options": [
+      "A. Radiographic inspection",
+      "B. Ultrasonic inspection",
+      "C. Visual inspection",
+      "D. Magnetic particle inspection"
+    ],
+    "answer": "B",
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL"
+  }
+]

@@ -1,0 +1,610 @@
+[
+  {
+    "id": 1,
+    "level": "Level III",
+    "method": "UT",
+    "category": "SPECIFIC",
+    "subject": "HIE-NDT-UT-N21",
+    "question": "How much difference to be within a screen height linear for 20% to 80% of the calibration screen height?",
+    "question_kr": "교정 스크린 높이의 20%~80%에 대해 스크린 높이 직선성의 차이는 얼마 이내이어야 하는가?",
+    "options": [
+      "2%",
+      "5%",
+      "10%",
+      "20%"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 2,
+    "level": "Level III",
+    "method": "UT",
+    "category": "SPECIFIC",
+    "subject": "HIE-NDT-UT-N21",
+    "question": "During the scan, check the cycle of inspection equipment?",
+    "question_kr": "검사하는 동안 검사장비의 점검 주기는?",
+    "options": [
+      "Every 4 hr",
+      "Every 8 hr",
+      "Every 1 day",
+      "Every 1 week"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 3,
+    "level": "Level III",
+    "method": "UT",
+    "category": "SPECIFIC",
+    "subject": "HIE-NDT-UT-N21",
+    "question": "How much of the scanning speed must be within the search unit movement?",
+    "question_kr": "탐촉자의 주사 속도는 얼마 이내이어야 하는가?",
+    "options": [
+      "3 in/sec (75 mm/s)",
+      "6 in/sec (150 mm/s)",
+      "9 in/sec (225 mm/s)",
+      "12 in/sec (300 mm/s)"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 4,
+    "level": "Level III",
+    "method": "UT",
+    "category": "SPECIFIC",
+    "subject": "HIE-NDT-UT-N21",
+    "question": "What shall the system calibration check verify?",
+    "question_kr": "시스템 교정 체크는 무엇에 의해 입증되어야 하는가?",
+    "options": [
+      "Distance range point and sensitivity setting",
+      "Probe frequency and angle",
+      "Gain and reject setting only",
+      "Scanning speed only"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 5,
+    "level": "Level III",
+    "method": "UT",
+    "category": "SPECIFIC",
+    "subject": "ASME B16.34",
+    "question": "What are the main reference standards used to evaluate the soundness of steel castings during ultrasonic testing according to ASME B16.34?",
+    "question_kr": "ASME B16.34에 따른 초음파탐상검사 시 주강품의 건전성을 평가하기 위해 참조하는 주요 규격은?",
+    "options": [
+      "ASTM E165",
+      "ASTM E709",
+      "ASTM A609",
+      "ASME Section V Article 4"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 6,
+    "level": "Level III",
+    "method": "UT",
+    "category": "SPECIFIC",
+    "subject": "API 6A",
+    "question": "During inspection of the PSL3 weld, a single indication of 5mm in length exceeded the reference distance amplitude curve. Is it acceptable?",
+    "question_kr": "PSL3 용접부 검사 중 기준 거리진폭곡선을 초과하는 5mm 길이의 단일 지시가 나타났다. 합격인가?",
+    "options": [
+      "Accept",
+      "Reject"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 7,
+    "level": "Level III",
+    "method": "UT",
+    "category": "SPECIFIC",
+    "subject": "API 6A",
+    "question": "During inspection of a 25mm thickness PSL2 weld, a 6mm length of slag inclusion exceeded the reference distance amplitude curve. Is it acceptable?",
+    "question_kr": "25mm 두께 PSL2 용접부 검사 중 6mm 길이의 슬래그가 기준 거리진폭곡선을 초과하였다. 합격인가?",
+    "options": [
+      "Accept",
+      "Reject"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 8,
+    "level": "Level III",
+    "method": "UT",
+    "category": "SPECIFIC",
+    "subject": "ASME Section III NB-5000",
+    "question": "A 0.5in. thick weld with 2mm outside reinforcement is examined by ultrasonic method according to ASME Sec.III NB-5000. Which of the following is wrong?",
+    "question_kr": "두께 0.5인치, 바깥쪽 덧살 2mm인 용접부를 ASME Sec.III NB-5000에 따라 UT 검사할 때 틀린 것은?",
+    "options": [
+      "All imperfections producing response greater than 50% of reference level shall be investigated.",
+      "The indication exceeding reference level amplitude and length of 3/8in. is unacceptable.",
+      "Crack indications are unacceptable regardless of length.",
+      "Lack of fusion indications are unacceptable regardless of length."
+    ],
+    "answer": 4,
+    "explanation": ""
+  },
+  {
+    "id": 9,
+    "level": "Level III",
+    "method": "UT",
+    "category": "SPECIFIC",
+    "subject": "ASME Section III NF-5200",
+    "question": "When performing ultrasonic examination beneath the weld that imposes loads in the through thickness direction of primary members 1in. and greater in thickness, which requirement is wrong?",
+    "question_kr": "두께 1인치 이상의 1차 부재 용접부 아래 모재 UT 검사 요구사항 중 잘못된 것은?",
+    "options": [
+      "Shall be examined over 100% of the reference area.",
+      "A calibration block representative of the primary member shall be used.",
+      "The block for straight beam examination shall have 1/4in. diameter flat-bottomed holes.",
+      "The block shall have two holes at one-fourth and one-half thickness."
+    ],
+    "answer": 4,
+    "explanation": ""
+  },
+  {
+    "id": 10,
+    "level": "Level III",
+    "method": "UT",
+    "category": "SPECIFIC",
+    "subject": "HIE-NDT-UT-P11",
+    "question": "How much is the depth and length for notch in calibration block?",
+    "question_kr": "교정 블록에서 노치의 깊이와 길이는 얼마인가?",
+    "options": [
+      "Depth: 1%T, Length: 1in",
+      "Depth: 2%T, Length: 0.5in",
+      "Depth: 0.5%T, Length: 2in",
+      "Depth: 2%T, Length: 1in"
+    ],
+    "answer": 4,
+    "explanation": ""
+  },
+  {
+    "id": 11,
+    "level": "Level III",
+    "method": "UT",
+    "category": "SPECIFIC",
+    "subject": "HIE-NDT-UT-P11",
+    "question": "This procedure states that all indications, which produce a response greater than ____ % of reference level shall be investigated.",
+    "question_kr": "이 절차서에는 대비기준선의 ____%를 초과하는 지시는 조사되어야 한다고 규정하고 있다.",
+    "options": [
+      "10",
+      "20",
+      "40",
+      "80"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 12,
+    "level": "Level III",
+    "method": "UT",
+    "category": "SPECIFIC",
+    "subject": "HIE-NDT-UT-P11",
+    "question": "What is the maximum acceptable length for linear discontinuity 1 in. thick weld that produces a signal amplitude greater than the reference level?",
+    "question_kr": "대비기준선을 초과하는 지시가 1인치 두께 용접부에서 허용될 수 있는 선형 불연속 길이는?",
+    "options": [
+      "0.3 in.",
+      "0.4 in.",
+      "0.5 in.",
+      "0.6 in."
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 13,
+    "level": "Level III",
+    "method": "UT",
+    "category": "SPECIFIC",
+    "subject": "HIE-NDT-UT-P11",
+    "question": "Where the component material is clad, the calibration block shall be clad by ____.",
+    "question_kr": "제품 재질이 클래드 되어 있는 경우 교정 블록은 어떻게 클래드 되어야 하는가?",
+    "options": [
+      "The same welding procedure as the production part",
+      "The different welding procedure as the production part",
+      "SMAW procedure",
+      "All of the above"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 14,
+    "level": "Level III",
+    "method": "UT",
+    "category": "SPECIFIC",
+    "subject": "ASME Section V SA-388",
+    "question": "Perform the angle beam examination from the circumference of rings and hollow forgings that have an axial length greater than ____ inch and an outside to inside diameter ratio of less than 2.0 to 1.",
+    "question_kr": "축 방향 길이가 ____인치를 초과하고 OD/ID 비율이 2.0:1 미만인 링 및 중공 단조품은 원주 방향에서 각도빔 검사를 수행한다.",
+    "options": [
+      "2 inch",
+      "3 inch",
+      "4 inch",
+      "5 inch"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 15,
+    "level": "Level III",
+    "method": "UT",
+    "category": "SPECIFIC",
+    "subject": "ASME Section V SA-388",
+    "question": "What kind of method shall not be used in straight beam examination?",
+    "question_kr": "수직빔 검사에 사용하지 않는 방법은?",
+    "options": [
+      "Back Reflection technique",
+      "DGS Calibration",
+      "Reference-block calibration",
+      "A1 Block Calibration"
+    ],
+    "answer": 4,
+    "explanation": ""
+  },
+  {
+    "id": 16,
+    "level": "Level III",
+    "method": "UT",
+    "category": "SPECIFIC",
+    "subject": "ASME Section V SA-388",
+    "question": "____ indications are defined as indications whose leading edge moves a distance equivalent to 1 inch or more of metal depth with movement of the search unit.",
+    "question_kr": "탐촉자 이동 시 금속 깊이 1인치 이상 이동하는 지시는 무엇인가?",
+    "options": [
+      "Planar",
+      "Traveling",
+      "Cluster",
+      "All of the above"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 17,
+    "level": "Level III",
+    "method": "UT",
+    "category": "SPECIFIC",
+    "subject": "ASME Section V SA-388",
+    "question": "Cut the notch to ____ % of the nominal thickness or 1/4 inch, whichever is smaller.",
+    "question_kr": "노치 깊이는 공칭 두께의 몇 % 또는 1/4인치 중 작은 값으로 하는가?",
+    "options": [
+      "1%",
+      "2%",
+      "3%",
+      "4%"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 18,
+    "level": "Level III",
+    "method": "UT",
+    "category": "SPECIFIC",
+    "subject": "ASME Section I",
+    "question": "What is the maximum allowed length of indication in a 3in. thick weld? This indication is not interpreted to be a crack, lack of fusion and incomplete penetration.",
+    "question_kr": "두께 3인치 맞대기 용접부에서 균열, 융합불량, 용입부족이 아닌 지시의 최대 허용 길이는?",
+    "options": [
+      "1/4 in.",
+      "2/4 in.",
+      "3/4 in.",
+      "1/3 in."
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 19,
+    "level": "Level III",
+    "method": "UT",
+    "category": "SPECIFIC",
+    "subject": "ASME Section V SA-609",
+    "question": "Reference blocks containing flat bottomed holes shall be used to establish test sensitivity. What diameter shall be used?",
+    "question_kr": "평저공을 포함한 대비블록이 시험 감도 설정에 사용된다. 직경은 얼마인가?",
+    "options": [
+      "4/32",
+      "16/64",
+      "10/32",
+      "32/64"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 20,
+    "level": "Level III",
+    "method": "UT",
+    "category": "SPECIFIC",
+    "subject": "ASME Section V SA-609",
+    "question": "The casting test surface will normally be rougher than that of the test blocks. What kind of method shall be used to compensate the amplitude?",
+    "question_kr": "주조품 시험면이 시험 블록보다 거칠 경우 진폭 보상을 위해 사용하는 방법은?",
+    "options": [
+      "Transfer",
+      "DAC",
+      "100% ARL",
+      "AVG"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 21,
+    "level": "Level III",
+    "method": "UT",
+    "category": "SPECIFIC",
+    "subject": "ASME Section V SA-609",
+    "question": "Which of the following is correct?",
+    "question_kr": "다음 중 올바른 것은?",
+    "options": [
+      "Instrument shall be capable of generating frequencies of at least 1 MHz to 3 MHz",
+      "The area of ultrasonic quality level 2 is 1.5 square inch",
+      "Counter bore of reference block shall be 1/2 inch diameter by 1/4 inch deep",
+      "Opposite ends of reference block shall be flat and parallel within 0.01 inch"
+    ],
+    "answer": 4,
+    "explanation": ""
+  },
+  {
+    "id": 22,
+    "level": "Level III",
+    "method": "UT",
+    "category": "SPECIFIC",
+    "subject": "SNT-TC-1A",
+    "question": "The following are education requirements for obtaining Level III certificate according to SNT-TC-1A. Which is incorrect?",
+    "question_kr": "SNT-TC-1A에 따른 Level III 자격 취득 학력 요구사항 중 틀린 것은?",
+    "options": [
+      "Bachelor degree or higher in science or engineering requires at least 1 year Level II experience",
+      "Doctorate degree in science or engineering can obtain Level III immediately regardless of experience",
+      "Two-year college graduate requires at least 2 years Level II experience",
+      "High school graduate requires at least 4 years Level II experience"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 23,
+    "level": "Level III",
+    "method": "UT",
+    "category": "SPECIFIC",
+    "subject": "ANSI/ASNT CP-189",
+    "question": "When attempting to obtain NDT Level III qualification according to ANSI/ASNT CP-189, which is incorrect?",
+    "question_kr": "ANSI/ASNT CP-189에 따라 NDT Level III 자격 취득 시 잘못된 것은?",
+    "options": [
+      "Experience requirements are satisfied by holding current ASNT Level III certificate",
+      "Training requirements are satisfied by holding current ASNT Level III certificate",
+      "Candidate shall hold current ASNT Level III certificate with valid endorsement",
+      "Vision examination requires far-distance acuity and color vision"
+    ],
+    "answer": 4,
+    "explanation": ""
+  },
+  {
+    "id": 24,
+    "level": "Level III",
+    "method": "UT",
+    "category": "SPECIFIC",
+    "subject": "Ultrasonic Theory",
+    "question": "The near surface resolution power of a standard UT system is determined by what?",
+    "question_kr": "표준 UT 시스템의 표면 근처 분해능은 무엇에 의해 결정되는가?",
+    "options": [
+      "By the UT instrument only",
+      "By the probe only",
+      "By the length of the initial pulse",
+      "By the echo width"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 25,
+    "level": "Level III",
+    "method": "UT",
+    "category": "SPECIFIC",
+    "subject": "Ultrasonic Theory",
+    "question": "An echo of 25% full screen height is shown. If gain is increased by 8 dB, what echo height is expected?",
+    "question_kr": "25% 화면 높이 에코에서 게인을 8dB 증가시키면 예상되는 에코 높이는?",
+    "options": [
+      "50% full screen height",
+      "About 63% full screen height",
+      "Cannot be determined",
+      "100% full screen height"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 26,
+    "level": "Level III",
+    "method": "UT",
+    "category": "SPECIFIC",
+    "subject": "Immersion Technique",
+    "question": "For a 15mm steel plate tested by immersion technique, what should be the minimum water delay path length in perpendicular direction?",
+    "question_kr": "15mm 강판 수침법 검사 시 수직 입사 방향의 최소 물 지연 길이는?",
+    "options": [
+      "2 mm",
+      "4 mm",
+      "15 mm",
+      "60 mm"
+    ],
+    "answer": 4,
+    "explanation": ""
+  },
+  {
+    "id": 27,
+    "level": "Level III",
+    "method": "UT",
+    "category": "SPECIFIC",
+    "subject": "UT Instrument",
+    "question": "Following calibration and during testing the only instrument adjustment permitted is:",
+    "question_kr": "교정 후 시험 중 허용되는 유일한 장비 조정은?",
+    "options": [
+      "Reject control",
+      "Horizontal sweep",
+      "Gain control or attenuator",
+      "No adjustments are allowed"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 28,
+    "level": "Level III",
+    "method": "UT",
+    "category": "SPECIFIC",
+    "subject": "Ultrasonic Theory",
+    "question": "A UT operator increased gain by 12dB. What was the amplification factor change?",
+    "question_kr": "게인을 12dB 증가시켰을 때 증폭 인자의 변화량은?",
+    "options": [
+      "2 times",
+      "4 times",
+      "12 times",
+      "16 times"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 29,
+    "level": "Level III",
+    "method": "UT",
+    "category": "SPECIFIC",
+    "subject": "Austenitic Weld Examination",
+    "question": "How can scattered indications in austenitic welds be reduced?",
+    "question_kr": "오스테나이트 용접부 산란 지시를 어떻게 감소시킬 수 있는가?",
+    "options": [
+      "Using probes with wider sound beam",
+      "Grinding the surface",
+      "Increasing ultrasonic frequency",
+      "Using longitudinal waves instead of transverse waves"
+    ],
+    "answer": 4,
+    "explanation": ""
+  },
+  {
+    "id": 30,
+    "level": "Level III",
+    "method": "UT",
+    "category": "SPECIFIC",
+    "subject": "ASME Section VIII Div.2",
+    "question": "According to ASME Sec.VIII Div.2 para 7.5.5, what type of indication is shown?",
+    "question_kr": "ASME Sec.VIII Div.2 7.5.5항에 따른 지시 분류는?",
+    "options": [
+      "Surface indication",
+      "Subsurface indication categorized as surface flaw",
+      "Reject indication",
+      "Accept indication"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 31,
+    "level": "Level III",
+    "method": "UT",
+    "category": "SPECIFIC",
+    "subject": "ASME B31.1 Appendix O",
+    "question": "A weld of 24 mm thickness was inspected by UT according to Appendix O. If the width of the indication is 1 mm, what is the length of the defect that is acceptable?",
+    "question_kr": "ASME B31.1 Appendix O에 따라 두께 24mm 용접부를 UT 검사하였다. 지시 폭이 1mm일 때 허용 가능한 결함 길이는?",
+    "options": [
+      "4 mm",
+      "6 mm",
+      "All of above are accepted",
+      "All of above are rejected"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 32,
+    "level": "Level III",
+    "method": "UT",
+    "category": "SPECIFIC",
+    "subject": "ASME B31.3 Appendix R",
+    "question": "When inspecting according to ASME B31.3 Appendix R, on wall thickness 24mm, what is the maximum size of a surface notch that can be used for a qualification block?",
+    "question_kr": "ASME B31.3 Appendix R에 따라 두께 24mm 검사 시 인정시험편에 사용할 수 있는 표면 노치 최대 크기는?",
+    "options": [
+      "0.087mm high x 6.4mm long",
+      "1.04mm high x 6.4mm long",
+      "2.09mm high x 6.4mm long",
+      "4.18mm high x 6.4mm long"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 33,
+    "level": "Level III",
+    "method": "UT",
+    "category": "SPECIFIC",
+    "subject": "ASME Section V Article 4 PAUT",
+    "question": "What is the recommended minimum digitization rate for PAUT in Mandatory Appendix V of ASME Sec.V Art.4?",
+    "question_kr": "ASME Sec.V Art.4 Mandatory Appendix V에서 PAUT의 권장 최소 디지털화 속도는?",
+    "options": [
+      "3 times the examination frequency",
+      "4 times the examination frequency",
+      "5 times the examination frequency",
+      "10 times the examination frequency"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 34,
+    "level": "Level III",
+    "method": "UT",
+    "category": "SPECIFIC",
+    "subject": "Weld Defect Identification",
+    "question": "What kind of defect is shown in the figure below?",
+    "question_kr": "아래 그림은 어떤 종류의 결함인가?",
+    "options": [
+      "Lack of root penetration",
+      "Base metal mismatch",
+      "Surface breaking planar flaw",
+      "Porosity"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 35,
+    "level": "Level III",
+    "method": "UT",
+    "category": "SPECIFIC",
+    "subject": "ASME Section VIII Div.2",
+    "question": "The indication length is 20mm and indication height is 10mm for inspection body thickness of 60mm. Choose the correct answer for 60% indicated sensitivity.",
+    "question_kr": "검사체 두께 60mm, 지시 길이 20mm, 지시 높이 10mm일 때 60% 지시 감도 기준의 올바른 판정은?",
+    "options": [
+      "Accept",
+      "Reject",
+      "Indication is not subject to evaluation",
+      "It cannot be evaluated"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 36,
+    "level": "Level III",
+    "method": "UT",
+    "category": "SPECIFIC",
+    "subject": "API 5L",
+    "question": "When ultrasonic testing EW seam welds, a notch is used as a reference indicator. What is the depth of the notch?",
+    "question_kr": "API 5L에 따라 EW seam 용접부 UT 검사 시 대비 반사체로 사용하는 노치 깊이는?",
+    "options": [
+      "12.5% of thickness",
+      "5% of thickness",
+      "10% of thickness",
+      "2% of thickness"
+    ],
+    "answer": 3,
+    "explanation": ""
+  }
+]

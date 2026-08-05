@@ -1,0 +1,256 @@
+{
+  "title": "MT SPECIFIC (MTS-II-B)",
+  "level": "II",
+  "subject": "MT",
+  "type": "SPECIFIC",
+  "questions": [
+    {
+      "id": 1,
+      "question_en": "Examination of welds or surfaces by the magnetic particle method shall be made over an area extending at least ______ inch beyond the area of interest.",
+      "question_ko": "자분 탐상 시험 시 용접부 또는 표면 시험은 시험 대상 부위에서 최소 몇 inch 이상 확장하여 실시해야 하는가?",
+      "options": [
+        "1 inch",
+        "2 inch",
+        "3 inch",
+        "1/2 inch"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 2,
+      "question_en": "Magnetic dry particle examination shall not be done in the surface of part whose temperature exceeds ______.",
+      "question_ko": "건식 자분탐상 검사는 제품 표면 온도가 몇 도를 초과하면 수행할 수 없는가?",
+      "options": [
+        "500°F",
+        "550°F",
+        "600°F",
+        "650°F"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 3,
+      "question_en": "What colored magnetic particles may be used as needed to provide contrast? Answer three colors.",
+      "question_ko": "대비 효과를 높이기 위해 사용할 수 있는 자분의 색상 3가지는 무엇인가?",
+      "answer": "BLACK, RED, GRAY"
+    },
+    {
+      "id": 4,
+      "question_en": "What method is used for fine-finish machined surfaces or after final heat treatment?",
+      "question_ko": "정밀 가공 표면 또는 최종 열처리 후 사용하는 시험 방법은?",
+      "options": [
+        "Yoke",
+        "Prod"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 5,
+      "question_en": "How is the magnetizing force of AC/DC yoke calibrated?",
+      "question_ko": "교류/직류 요크의 자화력 교정 기준은 얼마인가?",
+      "answer": "AC:10lb, DC:40lb"
+    },
+    {
+      "id": 6,
+      "question_en": "What is the choice of inspection equipment and magnetic particles when inspecting the welded part of the quality class PSL3 for ferromagnetic material?",
+      "question_ko": "PSL3 품질등급 자성체 재질 용접부 MT 검사 시 검사 장비와 자분의 선택은?",
+      "options": [
+        "Yoke with dry magnetic particle",
+        "Prod with wet fluorescent magnetic particle",
+        "Prod with dry magnetic particle",
+        "Yoke with wet fluorescent magnetic particle"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 7,
+      "question_en": "What is classified as an acceptable imperfection in the MT inspection of seamless pipes?",
+      "question_ko": "심리스 파이프 MT 검사에서 허용 가능한 결함으로 분류되는 것은?",
+      "options": [
+        "Depth ≤ 0.125t and does not encroach on minimum permissible wall thickness",
+        "Depth > 0.125t and does not encroach on minimum permissible wall thickness",
+        "Imperfection encroaches on minimum permissible wall thickness",
+        "All of above"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 8,
+      "question_en": "A length 1/4in.(6mm) rounded indication is acceptable?",
+      "question_ko": "길이 1/4 inch(6mm)의 원형 지시는 합격인가?",
+      "options": [
+        "Accept",
+        "Reject"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 9,
+      "question_en": "What are linear indications and round indications?",
+      "question_ko": "선형 지시와 원형 지시를 설명하시오.",
+      "answer": "선형지시: L/D가 3 이상, 원형지시: L/D가 3 미만"
+    },
+    {
+      "id": 10,
+      "question_en": "Cleaning for magnetic particle examination shall extend at least ______ inch on each side beyond the area to be examined.",
+      "question_ko": "자분탐상을 위한 세척은 시험 영역 양쪽으로 최소 몇 inch까지 실시해야 하는가?",
+      "options": [
+        "1 inch",
+        "0.5 inch",
+        "2 inch",
+        "3 inch"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 11,
+      "question_en": "2mm crack found on welds by MT method. Is it acceptable? (Ref.: Sect.Ⅷ Div.1)",
+      "question_ko": "MT 검사에 의해 용접부에서 2mm 균열이 발견되었다. 이것은 합격인가?",
+      "answer": "불합격"
+    },
+    {
+      "id": 12,
+      "question_en": "What is the size of relevant indication in case of magnetic particle examination on welds and surface?",
+      "question_ko": "용접부 및 표면 MT 검사에서 관련 지시의 크기는 얼마인가?",
+      "options": [
+        "1/32 inch",
+        "1/64 inch",
+        "1/16 inch",
+        "3/64 inch"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 13,
+      "question_en": "Prod type equipment which is used by HIE's procedure HIE-QP-E08(Rev.8), what kind of electric current is used for output of equipment?",
+      "question_ko": "HIE-QP-E08(Rev.8)에 따라 한국공업엔지니어링에서 사용하는 프로드 타입 장비의 출력 전류는 어떤 종류인가?",
+      "options": [
+        "AC",
+        "DC",
+        "HWDC",
+        "All of current"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 14,
+      "question_en": "1/8 inch round indications in a line separated by 1/16 inch edge found on welds by MT Yoke method. Is it acceptable?",
+      "question_ko": "MT 요크법으로 용접부에서 1/8 inch 원형 지시가 발견되었고 지시 사이 간격이 1/16 inch이다. 합격인가?",
+      "answer": "합격"
+    },
+    {
+      "id": 15,
+      "question_en": "Five rounded indications in a line separated by 1/16 inch edge-to-edge found on welds by MT yoke technique. Is it acceptable?",
+      "question_ko": "MT 요크법으로 용접부에서 5개의 원형 지시가 발견되었으며 지시간 간격이 1/16 inch이다. 합격인가?",
+      "answer": "불합격"
+    },
+    {
+      "id": 16,
+      "question_en": "The magnetizing current shall be passed through the part or through the auxiliary conductor for a minimum of ______ second.",
+      "question_ko": "자화 전류는 최소 몇 초 동안 시험체 또는 보조 도체에 통전되어야 하는가?",
+      "options": [
+        "1",
+        "2",
+        "0.2",
+        "0.5"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 17,
+      "question_en": "What are the minimums and maximums of magnetizing current for use with prods under various spacing of prods and different material thickness?",
+      "question_ko": "프로브 간격과 재료 두께에 따른 프로드 자화 전류의 최소 및 최대값은?",
+      "answer": "두께 3/4 inch 이하: 90~110 Amp/in, 두께 3/4 inch 초과: 100~125 Amp/in"
+    },
+    {
+      "id": 18,
+      "question_en": "The prod will be spaced not less than A inches no more than B inches apart for normal operation.",
+      "question_ko": "정상 작업 시 프로드 간격은 최소 A inch, 최대 B inch이다.",
+      "options": [
+        "A:2, B:5",
+        "A:2, B:6",
+        "A:3, B:9",
+        "A:3, B:6"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 19,
+      "question_en": "What kind of current can be used for prod technique?",
+      "question_ko": "프로드법에서 사용할 수 있는 전류 종류는?",
+      "answer": "AC, DC"
+    },
+    {
+      "id": 20,
+      "question_en": "The bar of which outside diameter is 7 inches, will be magnetized by using Head Shot technique. Determine the appropriate magnetizing current.",
+      "question_ko": "외경 7 inch 봉을 Head Shot 방식으로 자화하려 한다. 적절한 자화 전류는?",
+      "options": [
+        "3500 - 4900 Amp",
+        "1500 - 2100 Amp",
+        "4900 - 6300 Amp",
+        "1400 - 3500 Amp"
+      ],
+      "answer": "A"
+    },
+    {
+  "id": 21,
+  "question_en": "This procedure describes the Magnetic particle testing for ______.",
+  "question_ko": "본 절차서는 ______을 위한 자분탐상 방법을 기술한다.",
+  "options": [
+    "Pressure vessel welding",
+    "Forging",
+    "Fitting",
+    "Casting"
+  ],
+  "answer": "A"
+},
+{
+  "id": 22,
+  "question_en": "Acceptance standard shall be used ______.",
+  "question_ko": "합격 기준은 ______을 따른다.",
+  "options": [
+    "ASME Sec.Ⅲ NB 2500",
+    "ASME Sec.Ⅲ NB 5000",
+    "ASME Sec.Ⅴ Art.5",
+    "ASME Sec.Ⅷ Div.1"
+  ],
+  "answer": "A"
+},
+{
+  "id": 23,
+  "question_en": "Visible light at the surface of the part should be minimum ______.",
+  "question_ko": "제품 표면에서 가시광 조도는 최소 얼마 이상이어야 하는가?",
+  "options": [
+    "800 Lux",
+    "1076 Lux",
+    "1500 Lux",
+    "2000 Lux"
+  ],
+  "answer": "B"
+},
+{
+  "id": 24,
+  "question_en": "The surface to be examined and all adjacent areas within at least ______ shall be dry and free of all scale, grease, etc.",
+  "question_ko": "시험할 표면과 인접 영역은 최소 ______까지 건조하고 스케일, 그리스 등이 없어야 한다.",
+  "options": [
+    "0 inch",
+    "1 inch",
+    "1.5 inch",
+    "2 inch"
+  ],
+  "answer": "B"
+},
+{
+  "id": 25,
+  "question_en": "This procedure describes the Magnetic particle testing method of ______.",
+  "question_ko": "본 절차서는 ______ 자분탐상 방법을 기술한다.",
+  "options": [
+    "AC Yoke",
+    "Prod",
+    "Coil",
+    "Head shot"
+  ],
+  "answer": "A"
+}
+]
+}

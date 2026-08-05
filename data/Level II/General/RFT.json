@@ -1,0 +1,563 @@
+[
+  {
+    "id": 1,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "A test specimen used as a basis for calibrating test equipment or as a comparison when evaluating test results is referred to as a:\n시험장비의 교정을 위해 기본으로 사용되거나 시험결과 평가 시 비교용으로 사용되는 시험 시편은?",
+    "options": [
+      "A. null-balancer (널 밸런서)",
+      "B. phase shifter (위상 변환기)",
+      "C. reference standard (기준 표준 시편)",
+      "D. high pass filter (고역 통과 필터)"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 2,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "Compared to a conventional eddy current probe, a typical RFT probe:\n일반 와전류 탐촉자와 비교하여 일반적인 RFT 탐촉자는?",
+    "options": [
+      "A. has a larger inter-coil spacing (코일 간격이 더 크다)",
+      "B. requires more protection from vibration (진동 보호가 더 필요하다)",
+      "C. generates greater adhesion forces to the tube wall (튜브 벽에 더 큰 부착력을 발생시킨다)",
+      "D. requires a great fill factor (높은 충진율이 필요하다)"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 3,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "Which of the following would normally be considered the best fill factor when testing straight tubing with an RFT coil?\nRFT 코일을 사용하여 직관 튜브 시험 시 가장 좋은 충진율은?",
+    "options": [
+      "A. 85%",
+      "B. 175%",
+      "C. 50%",
+      "D. 25%"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 4,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "The fill factor when a 13mm(0.5 in.) diameter coil is inserted in a 25mm(1 in.) diameter tube is:\n직경 13mm 코일을 직경 25mm 튜브 내부에 위치시킬 때 충진율은?",
+    "options": [
+      "A. 50%",
+      "B. 75%",
+      "C. 100%",
+      "D. 25%"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 5,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "Which of the following could be used to suppress unwanted high-frequency harmonics?\n불필요한 고주파 고조파를 억제하는 데 사용되는 것은?",
+    "options": [
+      "A. low-pass filter (저역 통과 필터)",
+      "B. oscillator (발진기)",
+      "C. phase discriminator (위상 판별기)",
+      "D. high-pass filter (고역 통과 필터)"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 6,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "Which of the following methods may be used to improve the signal-to-noise ratio of a remote field test system?\nRFT 시스템의 신호 대 잡음비(S/N)를 증가시키는 방법은?",
+    "options": [
+      "A. filtering or differentiation (필터링 또는 미분)",
+      "B. phase discrimination (위상 판별)",
+      "C. integration (적분)",
+      "D. all of the above (위 모두)"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 7,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "When testing by the eddy current method, discontinuities will be most easily detected when the eddy currents are:\n와전류 시험에서 불연속은 와전류가 어떠한 상태일 때 가장 쉽게 검출되는가?",
+    "options": [
+      "A. coplanar with the major plane of the discontinuity (불연속의 주 평면과 동일 평면상)",
+      "B. perpendicular to the major plane of the discontinuity (불연속의 주 평면과 수직)",
+      "C. parallel to the major plane of the discontinuity (불연속의 주 평면과 평행)",
+      "D. 90 degrees out of phase with the current in the coil (코일 전류와 90도 위상차)"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 8,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "The inductive reactance of a test coil can be calculated using the formula:\n시험 코일의 유도 리액턴스를 계산하는 공식은?",
+    "options": [
+      "A. XL = 2πL",
+      "B. XL = 0.5πL",
+      "C. XL = 2πfL",
+      "D. XL = IR"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 9,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "Remote Field Testing relies on the principle of:\nRFT에 적용되는 원리는?",
+    "options": [
+      "A. magnetostriction (자기변형)",
+      "B. electromagnetic induction (전자기 유도)",
+      "C. piezoelectric energy conversion (압전 에너지 변환)",
+      "D. magnetomotive force (기자력)"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 10,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "What is the gap between the exciter coil and a receiver coil in the RFT coil?\nRFT 코일에서 여자 코일과 수신 코일 사이의 간격은?",
+    "options": [
+      "A. less than tube OD (튜브 외경 이내)",
+      "B. more than tube OD (튜브 외경 이상)",
+      "C. less than 2 times of tube OD (튜브 외경의 2배 미만)",
+      "D. more than 2 times of tube OD (튜브 외경의 2배 이상)"
+    ],
+    "answer": "D"
+  },
+  [
+  {
+    "id": 11,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "If the characteristic frequency(fg) of a material is 125Hz, the test frequency required to give an f/fg ratio of 10 would be:\n재질의 특성 주파수(fg)가 125Hz일 때 f/fg 비가 10이 되기 위한 시험 주파수는?",
+    "options": [
+      "A. 1.25Hz",
+      "B. 12.5Hz",
+      "C. 1.25kHz",
+      "D. 12.5kHz"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 12,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "A term used to define any change in a sinusoidal signal when the output is not a linear reproduction of the input is:\n입력 신호가 선형적으로 재현되지 않을 때 사인파 신호의 변화를 정의하는 용어는?",
+    "options": [
+      "A. distortion (왜곡)",
+      "B. linearity (직선성)",
+      "C. phase shifting (위상 변화)",
+      "D. dynamic range (동적 범위)"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 13,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "If the test frequency increases while the field strength is held constant, the surface eddy current density:\n자장 강도가 일정한 상태에서 시험 주파수가 증가하면 표면 와전류 밀도는?",
+    "options": [
+      "A. decrease (감소한다)",
+      "B. increase (증가한다)",
+      "C. remains the same (동일하게 유지된다)",
+      "D. could do any of the above (위 어느 것이든 가능하다)"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 14,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "To eliminate any dependence upon the number of turns of a test coil, the inductance values of an impedance diagram are:\n시험 코일의 권선 수에 대한 의존성을 제거하기 위해 임피던스 도표의 인덕턴스 값은?",
+    "options": [
+      "A. disregarded (무시된다)",
+      "B. normalized (정규화된다)",
+      "C. corrected to a value of 1 (1의 값으로 보정된다)",
+      "D. none of the above (해당 없음)"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 15,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "The atoms of a metal showing magnetic characteristics are grouped into regions that are the smallest known permanent magnets. These regions are called:\n자기 특성을 가진 금속 원자들이 모여 있는 가장 작은 영구자석 영역을 무엇이라 하는가?",
+    "options": [
+      "A. lattice structures (격자 구조)",
+      "B. cells (셀)",
+      "C. domains (자구)",
+      "D. planetary spins (행성 회전)"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 16,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "The flux density in a magnetic material is usually designated by the:\n자성체에서 자속 밀도를 나타내는 기호는?",
+    "options": [
+      "A. symbol μ (투자율 기호 μ)",
+      "B. symbol σ (시그마 기호 σ)",
+      "C. letter B (문자 B)",
+      "D. letter H (문자 H)"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 17,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "Which of the following is the wrong description of the factors affecting the position of the Remote Field Zone?\nRemote Field Zone 위치에 영향을 주는 인자 설명 중 틀린 것은?",
+    "options": [
+      "A. Increased when the permeability is increased. (투자율 증가 시 증가한다)",
+      "B. Increased when the thickness is increased. (두께 증가 시 증가한다)",
+      "C. Increased when the frequency is increased. (주파수 증가 시 증가한다)",
+      "D. Increased when the fill factor is increased. (충진율 증가 시 증가한다)"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 18,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "Baffle plate or support plates:\n격판 또는 지지판은?",
+    "options": [
+      "A. are usually nonconducting and nonferromagnetic and do not affect the RFT signal (일반적으로 비전도체 및 비자성체이며 RFT 신호에 영향을 주지 않는다)",
+      "B. have an indication very similar to metal loss (재료 손실과 매우 유사한 지시를 가진다)",
+      "C. cause a deflection in the amplitude trace in the metal loss direction (재료 손실 방향으로 진폭 변화를 발생시킨다)",
+      "D. reduce the through-transmission process dramatically (관통 전달 과정을 크게 감소시킨다)"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 19,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "The thickness of nonconductive coating on a conductive base can be most simply measured by:\n전도체 위의 비전도성 코팅 두께를 가장 간단히 측정하는 방법은?",
+    "options": [
+      "A. observing the lift-off effect caused by the coating (코팅에 의한 리프트 오프 효과 관찰)",
+      "B. testing both sides of the specimen (시험편 양면 검사)",
+      "C. varying the current in the test coil (시험 코일 전류 변화)",
+      "D. varying the test frequency over a given range during the test (시험 중 주파수 변화)"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 20,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "What is a formula that determines the strength of the magnetic field in the tube surface by the RFT?\nRFT에 의해 튜브 표면의 자기장 세기를 결정하는 공식은?",
+    "options": [
+      "A. B = μ0μre-φ",
+      "B. B = φμσB0e-φ",
+      "C. B = φμB0e-φ",
+      "D. B = B0e-φ"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 21,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "A term used to define a surface coil mounted so that the coil can be rotated about the circumference of a test specimen is:\n시험 시편의 원주 방향으로 회전할 수 있도록 장착된 표면 코일을 정의하는 용어는?",
+    "options": [
+      "A. bobbin coil (보빈 코일)",
+      "B. encircling coil (외삽 코일)",
+      "C. spinning coil (회전 코일)",
+      "D. gap coil (갭 코일)"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 22,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "The vector-point, ellipse, and linear time-base methods are subdivision of the:\n벡터-포인트법, 타원법, 선형 시간-기초법은 어떤 시험 방법의 세부 분류인가?",
+    "options": [
+      "A. impedance method of testing (임피던스 시험법)",
+      "B. modulation analysis method of testing (변조 분석 시험법)",
+      "C. phase analysis method of testing (위상 분석 시험법)",
+      "D. none of the above (해당 없음)"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 23,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "An X-Y output display:\nX-Y 출력 표시는?",
+    "options": [
+      "A. show signals that are linearly proportional to wall loss (두께 손실에 선형적으로 비례하는 신호를 보여준다)",
+      "B. can indicate the circumferential extent of discontinuities (불연속의 원주 방향 범위를 나타낼 수 있다)",
+      "C. shows the relationship between discontinuity area and depth clearly (불연속 면적과 깊이의 관계를 명확하게 보여준다)",
+      "D. none of the above (위 어느 것도 아님)"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 24,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "A term used to define the timing relationships involved in alternating current signals is:\n교류 전류 신호에서 시간적 관계를 정의하는 용어는?",
+    "options": [
+      "A. magnitude (크기)",
+      "B. phase (위상)",
+      "C. impedance (임피던스)",
+      "D. reactance (리액턴스)"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 25,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "The inductive reactance of a coil is measured in units of:\n코일의 유도 리액턴스 측정 단위는?",
+    "options": [
+      "A. mhos (모)",
+      "B. ohms (옴)",
+      "C. henrys (헨리)",
+      "D. gauss (가우스)"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 26,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "A term used to define a material having a permeability less than that of a vacuum is:\n진공보다 낮은 투자율을 가진 재료를 정의하는 용어는?",
+    "options": [
+      "A. diamagnetic (반자성체)",
+      "B. ferromagnetic (강자성체)",
+      "C. paramagnetic (상자성체)",
+      "D. magnetic (자성체)"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 27,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "When testing ferrous materials, a small but detectable portion of the magnetic flux in the material will pass outside the metal when a surface discontinuity is encountered. This flux is called:\n자성체를 시험할 때 표면 불연속이 존재하면 재료 내부 자속의 일부가 외부로 새어나오는데, 이 자속을 무엇이라고 하는가?",
+    "options": [
+      "A. air flux (공기 자속)",
+      "B. leakage flux (누설 자속)",
+      "C. induced flux (유도 자속)",
+      "D. none of the above (해당 없음)"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 28,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "In Fig, H represents:\n그림에서 H가 나타내는 것은?",
+    "options": [
+      "A. the coil's magnetizing force (코일의 자화력)",
+      "B. the material's flux density (재료의 자속 밀도)",
+      "C. the material's permeability (재료의 투자율)",
+      "D. the material's conductivity (재료의 전도율)"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 29,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "In Fig, B represents:\n그림에서 B가 나타내는 것은?",
+    "options": [
+      "A. the coil's magnetizing force (코일의 자화력)",
+      "B. the material's flux density (재료의 자속 밀도)",
+      "C. the material's permeability (재료의 투자율)",
+      "D. the material's conductivity (재료의 전도율)"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 30,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "In Fig, the distance represented by A is a measure of the material's:\n그림에서 A로 표시된 거리는 재료의 무엇을 측정하는 것인가?",
+    "options": [
+      "A. permeability (투자율)",
+      "B. conductivity (전도율)",
+      "C. retentivity (보자력)",
+      "D. coercive force (항자력)"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 31,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "In Fig, the distance represented by C is a measure of the material's:\n그림에서 C로 표시된 거리는 재료의 무엇을 측정하는 것인가?",
+    "options": [
+      "A. permeability (투자율)",
+      "B. conductivity (전도율)",
+      "C. residual magnetism (잔류 자기)",
+      "D. coercive force (항자력)"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 32,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "The symbol commonly used to signify impedance is:\n임피던스를 나타내는 데 일반적으로 사용되는 기호는?",
+    "options": [
+      "A. Z",
+      "B. Xξ",
+      "C. R",
+      "D. Xc"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 33,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "The magnetic field generated by eddy currents induced in a test specimen:\n시험편에 유도된 와전류에 의해 생성되는 자기장은?",
+    "options": [
+      "A. opposes the magnetic field that induced the eddy currents (와전류를 유도한 자기장에 반대한다)",
+      "B. reinforces the magnetic field that induced the eddy currents (와전류를 유도한 자기장을 강화한다)",
+      "C. cancels the magnetic field that induced the eddy currents (와전류를 유도한 자기장을 상쇄한다)",
+      "D. has no effect on the magnetic field that induced the eddy currents (와전류를 유도한 자기장에 영향을 주지 않는다)"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 34,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "The impedance of a test coil usually can be represented by the vector sum of:\n시험 코일의 임피던스는 일반적으로 무엇의 벡터 합으로 나타낼 수 있는가?",
+    "options": [
+      "A. inductive reactance and resistance (유도 리액턴스와 저항)",
+      "B. capacitive reactance and resistance (용량 리액턴스와 저항)",
+      "C. inductive reactance and capacitive reactance (유도 리액턴스와 용량 리액턴스)",
+      "D. inductance and capacitance (인덕턴스와 정전용량)"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 35,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "When testing magnetic materials in an AC field, increasing the field strength:\n교류 자장에서 자성 재료를 시험할 때 자장 강도를 증가시키면?",
+    "options": [
+      "A. has no effect (영향이 없다)",
+      "B. increase eddy current penetration (와전류 침투 깊이가 증가한다)",
+      "C. decrease eddy current penetration (와전류 침투 깊이가 감소한다)",
+      "D. decrease eddy current penetration to some minimum value, and then increase it to its maximum value when the specimen becomes magnetically saturated (최소값까지 감소 후 시편이 자기 포화되면 최대값으로 증가한다)"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 36,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "When a bobbin type coil is placed in a tube, the density of eddy currents will be the greatest:\n보빈 타입 코일이 튜브 내부에 위치할 때 와전류 밀도가 가장 큰 곳은?",
+    "options": [
+      "A. at the inside surface (내부 표면)",
+      "B. at the outside surface (외부 표면)",
+      "C. midway between the surface and the center (표면과 중심 사이 중간)",
+      "D. none of the above (해당 없음)"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 37,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "The term fill factor applies to:\n충진율(Fill Factor)이 적용되는 것은?",
+    "options": [
+      "A. a surface coil (표면 코일)",
+      "B. coaxial cable (동축 케이블)",
+      "C. an encircling coil (외삽 코일)",
+      "D. all of the above (위 모두)"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 38,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "Two test coils are often used in a bridge circuit to:\n두 개의 시험 코일은 브리지 회로에서 주로 무엇을 위해 사용되는가?",
+    "options": [
+      "A. eliminate skin effect (표피 효과 제거)",
+      "B. determine the differences between a known standard sample (알려진 표준 시편과의 차이를 결정)",
+      "C. increase the conductivity of the circuit (회로의 전도율 증가)",
+      "D. decrease the system sensitivity (시스템 감도 감소)"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 39,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "What is the signal of the support plate in the following picture?\n다음 그림에서 support plate의 신호는?",
+    "options": [
+      "A. sketch no. a",
+      "B. sketch no. b",
+      "C. sketch no. c",
+      "D. both a and b (a와 b 모두)"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 40,
+    "type": "RFT_GENERAL",
+    "level": "Level II",
+    "category": "General",
+    "question": "What is the take-off speed of the RFT coil during normal RFT?\n일반적인 RFT 검사 시 탐촉자의 인출 속도는 얼마인가?",
+    "options": [
+      "A. over 0.3m/s to less than 0.5m/s (0.3m/s 초과 0.5m/s 미만)",
+      "B. over 0.05m/s to less than 0.15m/s (0.05m/s 초과 0.15m/s 미만)",
+      "C. over 0.15m/s to less than 0.3m/s (0.15m/s 초과 0.3m/s 미만)",
+      "D. Speed is good to slow as possible (속도는 가능한 느릴수록 좋다)"
+    ],
+    "answer": "C"
+  }
+  ]]

@@ -1,0 +1,237 @@
+[
+  {
+    "id": 1,
+    "question": "Nonmetallic solid material entrapped in weld metal or between weld metal and base metal is called:",
+    "question_kr": "용접금속이나 용접금속과 모재 사이에 비금속 고체 물질이 갇혀 있는 것을 무엇이라 하는가?",
+    "options": [],
+    "answer": "Slag",
+    "subject": "ECT",
+    "level": "II",
+    "category": "SPECIFIC"
+  },
+  {
+    "id": 2,
+    "question": "Large porosity, pipe and nonmetallic inclusions in slabs or billets are flattened and spread out during rolling and forging processes. This discontinuity is called:",
+    "question_kr": "압연 및 단조 과정에서 긴 기공, 파이프, 비금속 개재물이 평평하게 퍼진 불연속은 무엇인가?",
+    "options": [],
+    "answer": "Lamination",
+    "subject": "ECT",
+    "level": "II",
+    "category": "SPECIFIC"
+  },
+  {
+    "id": 3,
+    "question": "The defect 'pipe' is found in which of the following?",
+    "question_kr": "'Pipe' 결함은 어디에서 발견되는가?",
+    "options": [
+      "A. A forging",
+      "B. A pipe weld",
+      "C. The ingot",
+      "D. A casting"
+    ],
+    "answer": "C",
+    "subject": "ECT",
+    "level": "II",
+    "category": "SPECIFIC"
+  },
+  {
+    "id": 4,
+    "question": "The critical service-generated defects are:",
+    "question_kr": "가혹한 운전 조건에서 생성되는 주요 결함은?",
+    "options": [
+      "A. Undercuts",
+      "B. Fatigue cracks",
+      "C. Inadequate penetration",
+      "D. Forging laps"
+    ],
+    "answer": "B",
+    "subject": "ECT",
+    "level": "II",
+    "category": "SPECIFIC"
+  },
+  {
+    "id": 5,
+    "question": "What kind of Level step is?",
+    "question_kr": "Level의 단계는?",
+    "options": [
+      "A. 1step",
+      "B. 2step",
+      "C. 3step",
+      "D. 4step"
+    ],
+    "answer": "C",
+    "subject": "ECT",
+    "level": "II",
+    "category": "SPECIFIC"
+  },
+  {
+    "id": 6,
+    "question": "Who shall evaluate the 'continuing satisfactory performances record'?",
+    "question_kr": "'연속적인 만족스러운 수행 기록'의 평가는 누가 하는가?",
+    "options": [],
+    "answer": "Level III",
+    "subject": "ECT",
+    "level": "II",
+    "category": "SPECIFIC"
+  },
+  {
+    "id": 7,
+    "question": "For Level II, minimum number of questions of general examination is:",
+    "question_kr": "Level II 일반시험의 최소 문항 수는?",
+    "options": [],
+    "answer": "40",
+    "subject": "ECT",
+    "level": "II",
+    "category": "SPECIFIC"
+  },
+  {
+    "id": 8,
+    "question": "All level personnel and candidate shall be vision examination by:",
+    "question_kr": "모든 Level 요원과 응시자는 누구에 의해 시력 검사를 받아야 하는가?",
+    "options": [],
+    "answer": "Level III",
+    "subject": "ECT",
+    "level": "II",
+    "category": "SPECIFIC"
+  },
+  {
+    "id": 9,
+    "question": "According to ASME Sec. V, Art. 8, what kinds of items should be included for the installed nonferromagnetic heat exchanger tubing eddy current examination written procedure?",
+    "question_kr": "ASME Sec.V Art.8에 따라 비자성체 열교환기 튜브 와전류 검사 절차서에 포함되어야 하는 항목은?",
+    "options": [
+      "A. Tube material, diameter and wall thickness",
+      "B. Size and type of probe",
+      "C. Both A and B above",
+      "D. Neither A nor B"
+    ],
+    "answer": "C",
+    "subject": "ECT",
+    "level": "II",
+    "category": "SPECIFIC"
+  },
+  {
+    "id": 10,
+    "question": "In ASME Sec. V, Art. 8, when should eddy current examination equipment be checked and calibrated or verified by using reference specimens for tubular products?",
+    "question_kr": "ASME Sec.V Art.8에서 튜브 제품의 대비 시험편을 이용한 장비 점검 및 교정 시기는?",
+    "options": [
+      "A. At the beginning of each product run of a given diameter and thickness of a given material",
+      "B. At the end of each production run",
+      "C. At any time that manufacturing is suspected",
+      "D. All of the above"
+    ],
+    "answer": "D",
+    "subject": "ECT",
+    "level": "II",
+    "category": "SPECIFIC"
+  },
+  {
+    "id": 11,
+    "question": "In the ASME Sec. V, Art. 8, what kind of discontinuities are in reference calibration tube?",
+    "question_kr": "ASME Sec.V Art.8에서 대비 교정 튜브에 포함되는 불연속은?",
+    "options": [
+      "A. 100% through hole",
+      "B. Four flat bottom holes, 20% of tube wall from OD",
+      "C. 360° circumferential groove, 10% from inner tube surface",
+      "D. All of the above"
+    ],
+    "answer": "D",
+    "subject": "ECT",
+    "level": "II",
+    "category": "SPECIFIC"
+  },
+  {
+    "id": 12,
+    "question": "In ASME Sec. V, Art. 8, if the tube OD is 1 inch, size of 100% through hole in reference calibration tube is:",
+    "question_kr": "ASME Sec.V Art.8에서 튜브 외경이 1 inch일 때 대비 교정 튜브의 100% 관통홀 크기는?",
+    "options": [
+      "A. 0.052 inch",
+      "B. 0.067 inch",
+      "C. 1 mm",
+      "D. 2.5 mm"
+    ],
+    "answer": "B",
+    "subject": "ECT",
+    "level": "II",
+    "category": "SPECIFIC"
+  },
+  {
+    "id": 13,
+    "question": "The procedure HIE-NDT-ET-P11 specifies fill factor. Write this (include formula).",
+    "question_kr": "HIE-NDT-ET-P11 절차서에서 규정하는 충진율은? (공식 포함)",
+    "options": [],
+    "answer": "Minimum 80% over (Fill factor formula required)",
+    "subject": "ECT",
+    "level": "II",
+    "category": "SPECIFIC"
+  },
+  {
+    "id": 14,
+    "question": "Describe NDE personnel requirements in accordance with procedure HIE-NDT-ET-P11.",
+    "question_kr": "HIE-NDT-ET-P11 절차서에 따른 NDE 요원의 요구사항은?",
+    "options": [],
+    "answer": "The personnel shall be qualified in accordance with HIE procedure (HIE-QP-E01)",
+    "subject": "ECT",
+    "level": "II",
+    "category": "SPECIFIC"
+  },
+  {
+    "id": 15,
+    "question": "Adjust the ET instrument for a basis frequency chosen so that the phase angle of a signal from the (____) is between (__) deg. and (__) deg. rotated clockwise from the signal of the through-the-wall hole.",
+    "question_kr": "기본 주파수 교정 시 관통홀 신호 기준으로 위상각을 조정하는 기준은?",
+    "options": [],
+    "answer": "Four 20% flat bottom holes, 50°, 120°",
+    "subject": "ECT",
+    "level": "II",
+    "category": "SPECIFIC"
+  },
+  {
+    "id": 16,
+    "question": "The trace display for the (____) holes shall be generated when pulling the probe in the directions: down and to the left first, followed by an upward motion to the right, followed by a downward motion returning to the point of origin.",
+    "question_kr": "프로브 이동 방향에 따른 추적 표시 대상 홀은?",
+    "options": [],
+    "answer": "Four 20% flat bottom holes",
+    "subject": "ECT",
+    "level": "II",
+    "category": "SPECIFIC"
+  },
+  {
+    "id": 17,
+    "question": "The sensitivity shall be adjusted to produce a minimum peak-to-peak signal of (__) V from the four 20% flat bottom holes or (__) V from the four through-wall drilled holes.",
+    "question_kr": "감도 조정 시 평저공 및 관통홀의 최소 Peak-to-Peak 신호 전압은?",
+    "options": [],
+    "answer": "4V, 6V",
+    "subject": "ECT",
+    "level": "II",
+    "category": "SPECIFIC"
+  },
+  {
+    "id": 18,
+    "question": "Adjust the phase or rotation control so that the signal response due to (____) or the (__)% deep circumferential inside diameter groove or both is positioned along the horizontal axis of the display (__) deg.",
+    "question_kr": "위상 조정 시 화면 수평축에 위치시키는 기준 신호는?",
+    "options": [],
+    "answer": "Probe motion, 10%, ±5°",
+    "subject": "ECT",
+    "level": "II",
+    "category": "SPECIFIC"
+  },
+  {
+    "id": 19,
+    "question": "In accordance with HIE-NDT-ET-P11, the defect record tube shall be:",
+    "question_kr": "HIE-NDT-ET-P11에 따른 결함 기록 튜브는?",
+    "options": [],
+    "answer": "Defects are generally recorded when they are 20% or greater. This may be changed by agreement with the customer.",
+    "subject": "ECT",
+    "level": "II",
+    "category": "SPECIFIC"
+  },
+  {
+    "id": 20,
+    "question": "In ASME Sec. V, Art. 8, what is the nominal probe speed during examination?",
+    "question_kr": "ASME Sec.V Art.8에서 검사 중 일반적인 프로브 속도는?",
+    "options": [],
+    "answer": "Not exceed 14 in/sec (356 mm/sec)",
+    "subject": "ECT",
+    "level": "II",
+    "category": "SPECIFIC"
+  }
+]

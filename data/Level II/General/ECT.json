@@ -1,0 +1,478 @@
+﻿[
+{
+"id":1,
+"question":"A test specimen used as a basis for calibrating test equipment or as a comparison when evaluating test results is referred to as a:\n\n시험 장비의 교정을 위해 기본으로 사용되거나 시험 결과 평가 시 비교 기준으로 사용되는 시험 시편은?",
+"options":[
+"null-balancer\n널 밸런서",
+"phase shifter\n위상 변환기",
+"reference standard\n기준 표준 시편",
+"high pass filter\n고역 통과 필터"
+],
+"answer":2
+},
+
+{
+"id":2,
+"question":"IACS is a recognized abbreviation for:\n\nIACS는 다음 중 무엇의 약자인가?",
+"options":[
+"Induced Alternating Current System\n유도 교류 시스템",
+"Inductively-Activated Comparison System\n유도 활성 비교 시스템",
+"Internal Applied Current System\n내부 적용 전류 시스템",
+"International Annealed Copper Standard\n국제 표준 소둔 동 기준"
+],
+"answer":3
+},
+
+{
+"id":3,
+"question":"Which of the following would normally be considered the best fill factor when testing straight tubing with an encircling or feedthrough coil?\n\n내삽코일 또는 외삽코일을 사용하여 직관 튜브 시험 시 일반적으로 가장 좋은 충진율은?",
+"options":[
+"95%\n95%",
+"175%\n175%",
+"50%\n50%",
+"25%\n25%"
+],
+"answer":0
+},
+
+{
+"id":4,
+"question":"The fill factor when a 13mm diameter bar is inserted in a 25mm diameter coil is:\n\n직경 13mm 봉이 직경 25mm 코일 내부에 위치할 때 충진율은?",
+"options":[
+"50%\n50%",
+"75%\n75%",
+"100%\n100%",
+"25%\n25%"
+],
+"answer":3
+},
+
+{
+"id":5,
+"question":"Which of the following could be used to suppress unwanted high-frequency harmonics?\n\n높은 주파수에서 불필요한 고조파를 억제하는 데 사용하는 것은?",
+"options":[
+"low-pass filter\n저역 통과 필터",
+"oscillator\n발진기",
+"phase discriminator\n위상 판별기",
+"high-pass filter\n고역 통과 필터"
+],
+"answer":0
+},
+
+{
+"id":6,
+"question":"Which of the following methods may be used to improve the signal-to-noise ratio of an eddy current test system?\n\n와전류 시험 시스템의 신호 대 잡음비(S/N)를 향상시키는 방법은?",
+"options":[
+"filtering or differentiation\n필터링 또는 미분",
+"phase discrimination\n위상 판별",
+"integration\n적분",
+"all of the above\n위 모두"
+],
+"answer":3
+},
+
+{
+"id":7,
+"question":"When testing by the eddy current method, discontinuities will be most easily detected when the eddy currents are:\n\n와전류 시험에서 불연속은 와전류가 어떠할 때 가장 쉽게 검출되는가?",
+"options":[
+"coplanar with the major plane of the discontinuity\n불연속 주 평면과 동일 평면상",
+"perpendicular to the major plane of the discontinuity\n불연속 주 평면과 수직",
+"parallel to the major plane of the discontinuity\n불연속 주 평면과 평행",
+"90 degrees out of phase with the current in the coil\n코일 전류와 90도 위상차"
+],
+"answer":1
+},
+
+{
+"id":8,
+"question":"The inductive reactance of a test coil can be calculated using the formula:\n\n시험 코일의 유도 리액턴스를 계산하는 공식은?",
+"options":[
+"XL = 2πL\nXL = 2πL",
+"XL = 0.5πL\nXL = 0.5πL",
+"XL = 2πfL\nXL = 2πfL",
+"XL = IR\nXL = IR"
+],
+"answer":2
+},
+
+{
+"id":9,
+"question":"Eddy current testing relies on the principle of:\n\n와전류 시험은 어떤 원리를 이용하는가?",
+"options":[
+"magnetostriction\n자기변형",
+"electromagnetic induction\n전자기 유도",
+"piezoelectric energy conversion\n압전 에너지 변환",
+"magnetomotive force\n기자력"
+],
+"answer":1
+},
+
+{
+"id":10,
+"question":"Double the number of turns on a coil will:\n\n코일 권선 수를 두 배로 하면?",
+"options":[
+"double the inductance\n인덕턴스가 두 배 증가",
+"halve the inductance\n인덕턴스가 절반 감소",
+"decrease the inductance by a factor of four\n인덕턴스가 4배 감소",
+"increase the inductance by a factor of four\n인덕턴스가 4배 증가"
+],
+"answer":3
+},
+{
+"id":11,
+"question":"If the characteristic frequency(fg) of a material is 125Hz, the test frequency required to give an f/fg ratio of 10 would be:\n\n재질의 특성 주파수(fg)가 125Hz이고 f/fg 비가 10일 때 필요한 시험 주파수는?",
+"options":[
+"1.25Hz\n1.25Hz",
+"12.5Hz\n12.5Hz",
+"1.25kHz\n1.25kHz",
+"12.5kHz\n12.5kHz"
+],
+"answer":2
+},
+
+{
+"id":12,
+"question":"A term used to define any change in a sinusoidal signal when the output is not a linear reproduction of the input is:\n\n입력 신호가 출력에서 선형적으로 재현되지 않을 때 발생하는 변화를 정의하는 용어는?",
+"options":[
+"distortion\n왜곡",
+"linearity\n선형성",
+"phase shifting\n위상 변화",
+"dynamic range\n동적 범위"
+],
+"answer":0
+},
+
+{
+"id":13,
+"question":"If the test frequency increases while the field strength is held constant, the surface eddy current density:\n\n자장 강도가 일정한 상태에서 시험 주파수가 증가하면 표면 와전류 밀도는?",
+"options":[
+"decrease\n감소",
+"increase\n증가",
+"remains the same\n동일하게 유지",
+"could do any of the above\n어느 것도 가능"
+],
+"answer":1
+},
+
+{
+"id":14,
+"question":"To eliminate any dependence upon the number of turns of a test coil, the inductance values of an impedance diagram are:\n\n시험 코일 권선 수에 대한 의존성을 제거하기 위해 임피던스 도표의 인덕턴스 값은?",
+"options":[
+"disregarded\n무시된다",
+"normalized\n정규화된다",
+"corrected to a value of 1\n1의 값으로 보정된다",
+"none of the above\n해당 없음"
+],
+"answer":1
+},
+
+{
+"id":15,
+"question":"The atoms of a metal showing magnetic characteristics are grouped into regions that are the smallest known permanent magnets. These regions are called:\n\n자기 특성을 가진 금속 원자들이 모여 있는 가장 작은 영구자석 영역은?",
+"options":[
+"lattice structures\n격자 구조",
+"cells\n셀",
+"domains\n자구",
+"planetary spins\n행성 회전"
+],
+"answer":2
+},
+
+{
+"id":16,
+"question":"The flux density in a magnetic material is usually designated by the:\n\n자성 재료의 자속 밀도를 나타내는 기호는?",
+"options":[
+"symbol μ\n투자율 기호 μ",
+"symbol σ\n기호 σ",
+"letter B\n문자 B",
+"letter H\n문자 H"
+],
+"answer":2
+},
+
+{
+"id":17,
+"question":"The magnetizing force of an eddy current test coil is usually designated by the:\n\n와전류 시험 코일의 자화력을 나타내는 기호는?",
+"options":[
+"symbol μ\n기호 μ",
+"symbol σ\n기호 σ",
+"letter B\n문자 B",
+"letter H\n문자 H"
+],
+"answer":3
+},
+
+{
+"id":18,
+"question":"In eddy current testing, the specimen is coupled to the test coil by:\n\n와전류 시험에서 시험편은 시험 코일과 무엇으로 결합되는가?",
+"options":[
+"core coupling\n코어 결합",
+"magnetic saturation\n자기 포화",
+"the coil's magnetic field\n코일의 자기장",
+"magnetic domains\n자구"
+],
+"answer":2
+},
+
+{
+"id":19,
+"question":"The thickness of nonconductive coating on a conductive base can be most simply measured by:\n\n도전성 기판 위의 비전도성 코팅 두께를 가장 간단히 측정하는 방법은?",
+"options":[
+"observing the lift-off effect caused by the coating\n코팅에 의한 리프트오프 효과 관찰",
+"testing both sides of the specimen\n시험편 양면 검사",
+"varying the current in the test coil\n시험 코일 전류 변화",
+"varying the test frequency\n시험 주파수 변화"
+],
+"answer":0
+},
+
+{
+"id":20,
+"question":"The formula used to calculate the impedance of an eddy current test coil is:\n\n와전류 시험 코일의 임피던스 계산 공식은?",
+"options":[
+"Z = 2πfL\nZ = 2πfL",
+"Z = XL + R\nZ = XL + R",
+"Z = IR\nZ = IR",
+"Z = √(R²+XL²)\nZ = √(R²+XL²)"
+],
+"answer":3
+},
+{
+"id":21,
+"question":"A term used to define a surface coil mounted so that the coil can be rotated about the circumference of a test specimen is:\n\n시험 시편의 원주 방향으로 회전할 수 있도록 장착된 표면 코일을 정의하는 용어는?",
+"options":[
+"bobbin coil\n보빈 코일",
+"encircling coil\n외삽 코일",
+"spinning coil\n스피닝 코일",
+"gap coil\n갭 코일"
+],
+"answer":2
+},
+
+{
+"id":22,
+"question":"The vector-point, ellipse, and linear time-base methods are subdivision of the:\n\n벡터 포인트법, 타원법, 선형 시간축법은 무엇의 세분화 방법인가?",
+"options":[
+"impedance method of testing\n임피던스 시험 방법",
+"modulation analysis method of testing\n변조 분석 시험 방법",
+"phase analysis method of testing\n위상 분석 시험 방법",
+"none of the above\n해당 없음"
+],
+"answer":2
+},
+
+{
+"id":23,
+"question":"When eddy current testing by the linear time-base method, when the specimen and reference standard are the same and balance controls are properly adjusted, the vertical deflection plates receive:\n\n선형 시간축 방식 와전류 시험에서 시험편과 기준 시편이 동일하고 균형 조정이 올바르면 수직 편향판에 적용되는 것은?",
+"options":[
+"a sinusoidal wave in phase with the timing voltage\n타이밍 전압과 위상이 같은 사인파",
+"a sinusoidal wave 90 degree out of phase with the timing voltage\n타이밍 전압과 90도 위상차가 있는 사인파",
+"a sawtooth waveform\n톱니파형",
+"zero net voltage\n순 전압 0"
+],
+"answer":3
+},
+
+{
+"id":24,
+"question":"A term used to define the timing relationships involved in alternating current signals is:\n\n교류 신호에서 시간 관계를 정의하는 용어는?",
+"options":[
+"magnitude\n크기",
+"phase\n위상",
+"impedance\n임피던스",
+"reactance\n리액턴스"
+],
+"answer":1
+},
+
+{
+"id":25,
+"question":"The inductive reactance of a coil is measured in units of:\n\n코일의 유도 리액턴스는 어떤 단위로 측정되는가?",
+"options":[
+"mhos\n모(mho)",
+"ohms\n옴",
+"henrys\n헨리",
+"gauss\n가우스"
+],
+"answer":1
+},
+
+{
+"id":26,
+"question":"A term used to define a material having a permeability less than that of a vacuum is:\n\n진공보다 낮은 투자율을 가진 재료를 정의하는 용어는?",
+"options":[
+"diamagnetic\n반자성",
+"ferromagnetic\n강자성",
+"paramagnetic\n상자성",
+"magnetic\n자성"
+],
+"answer":0
+},
+
+{
+"id":27,
+"question":"When testing ferrous materials, flux that passes outside the metal when a surface discontinuity is encountered is called:\n\n자성체 시험에서 표면 불연속을 만났을 때 금속 외부로 빠져나오는 자속은?",
+"options":[
+"air flux\n공기 자속",
+"leakage flux\n누설 자속",
+"induced flux\n유도 자속",
+"none of the above\n해당 없음"
+],
+"answer":1
+},
+
+{
+"id":28,
+"question":"In Fig, H represents:\n\n그림에서 H가 나타내는 것은?",
+"options":[
+"the coil's magnetizing force\n코일의 자화력",
+"the material's flux density\n재료의 자속 밀도",
+"the material's permeability\n재료의 투자율",
+"the material's conductivity\n재료의 전도율"
+],
+"answer":0
+},
+
+{
+"id":29,
+"question":"In Fig, B represents:\n\n그림에서 B가 나타내는 것은?",
+"options":[
+"the coil's magnetizing force\n코일의 자화력",
+"the material's flux density\n재료의 자속 밀도",
+"the material's permeability\n재료의 투자율",
+"the material's conductivity\n재료의 전도율"
+],
+"answer":1
+},
+
+{
+"id":30,
+"question":"The distance represented by A is a measure of the material's:\n\n그림에서 A로 표시된 거리는 재료의 무엇을 측정하는가?",
+"options":[
+"permeability\n투자율",
+"conductivity\n전도율",
+"retentivity\n보자력",
+"coercive force\n항자력"
+],
+"answer":2
+},
+{
+"id":31,
+"question":"In Fig, the distance represented by C is a measure of the material's:\n\n그림에서 C로 나타나는 거리는 물질의 무엇을 측정한 것인가?",
+"options":[
+"permeability\n투자율",
+"conductivity\n전도율",
+"residual magnetism\n잔류 자기",
+"coercive force\n항자력"
+],
+"answer":3
+},
+
+{
+"id":32,
+"question":"The symbol commonly used to signify impedance is:\n\n임피던스를 의미하는데 일반적으로 사용되는 기호는?",
+"options":[
+"Z\nZ",
+"Xξ\nXξ",
+"R\nR",
+"Xc\nXc"
+],
+"answer":0
+},
+
+{
+"id":33,
+"question":"The magnetic field generated by eddy currents induced in a test specimen:\n\n와전류에 의해 생성된 자기장은 시험편에서 어떻게 되는가?",
+"options":[
+"opposes the magnetic field that induced the eddy currents\n와전류를 유도한 자기장에 대항한다",
+"reinforces the magnetic field that induced the eddy currents\n와전류를 유도한 자기장을 증가시킨다",
+"cancels the magnetic field that induced the eddy currents\n와전류를 유도한 자기장을 상쇄한다",
+"has no effect on the magnetic field that induced the eddy currents\n유도 자기장에 영향을 주지 않는다"
+],
+"answer":0
+},
+
+{
+"id":34,
+"question":"The impedance of a test coil usually can be represented by the vector sum of:\n\n시험 코일의 임피던스는 대체로 어느 것의 벡터합으로 나타낼 수 있는가?",
+"options":[
+"inductive reactance and resistance\n유도 리액턴스와 저항",
+"capacitive reactance and resistance\n용량 리액턴스와 저항",
+"inductive reactance and capacitive reactance\n유도 리액턴스와 용량 리액턴스",
+"inductance and capacitance\n인덕턴스와 정전용량"
+],
+"answer":0
+},
+
+{
+"id":35,
+"question":"When testing magnetic materials in an ac field, increasing the field strength:\n\n교류 자장에서 자성 물질을 시험할 때 자장 강도가 증가하면?",
+"options":[
+"has no effect\n효과 없다",
+"increase eddy current penetration\n와전류 침투 증가",
+"decrease eddy current penetration\n와전류 침투 감소",
+"decrease eddy current penetration to some minimum value, and then increase it to its maximum value when the specimen becomes magnetically saturated\n최소값까지 감소 후 자기 포화 시 최대값으로 증가"
+],
+"answer":3
+},
+
+{
+"id":36,
+"question":"When a rod is placed in an encircling type of coil, the density of eddy currents will be the greatest:\n\n외삽형 코일에서 봉이 위치할 때 와전류 밀도가 가장 큰 곳은?",
+"options":[
+"at the surface\n표면에서",
+"at the center\n중심에서",
+"midway between the surface and the center\n중심과 표면 사이 중간",
+"none of the above\n해당 없음"
+],
+"answer":0
+},
+
+{
+"id":37,
+"question":"The term fill factor applies to:\n\n충진율이 적용되는 것은?",
+"options":[
+"a surface coil\n표면 코일",
+"coaxial cable\n동축 케이블",
+"an encircling coil\n외삽 코일",
+"all of the above\n위 모두"
+],
+"answer":2
+},
+
+{
+"id":38,
+"question":"Two test coils are often used in a bridge circuit to:\n\n두 개의 시험 코일이 브리지 회로에서 사용되는 목적은?",
+"options":[
+"eliminate skin effect\n표피 효과 제거",
+"determine the differences between a known standard sample\n알려진 표준 시편과의 차이를 결정",
+"increase the conductivity of the circuit\n회로 전도율 증가",
+"decrease the system sensitivity\n시스템 감도 감소"
+],
+"answer":1
+},
+
+{
+"id":39,
+"question":"Differential coil system can be of which of the following types?\n\n차동 코일 시스템은 다음 중 어떤 형태가 가능한가?",
+"options":[
+"sketch no. 1\n그림 1",
+"sketch no. 2\n그림 2",
+"sketch no. 3\n그림 3",
+"all of the above\n위 모두"
+],
+"answer":3
+},
+
+{
+"id":40,
+"question":"The sensing element in an eddy current system can be which of the following?\n\n와전류 시스템에서 검출 요소로 가능한 것은?",
+"options":[
+"the secondary winding of a differential coil\n차동 코일의 2차 권선",
+"an absolute coil\n절대 코일",
+"a single winding coil\n단일 권선 코일",
+"all of the above\n위 모두"
+],
+"answer":3
+}
+]

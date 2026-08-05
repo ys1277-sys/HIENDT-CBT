@@ -1,0 +1,397 @@
+[
+  {
+    "id":1,
+    "level":"Level III",
+    "method":"PT",
+    "subject":"Specific",
+    "category":"ASME Sec.VIII",
+    "question":"How far is the aerosol can or sprayer held from the surface to be examined when applying the developer?",
+    "question_kr":"현상액 적용시 시험체 표면으로부터 스프레이 또는 에어로솔은 어느 정도 떨어져야 하는가?",
+    "options":[
+      "5 inch",
+      "10 inch",
+      "15 inch",
+      "20 inch"
+    ],
+    "answer":2,
+    "explanation":""
+  },
+  {
+    "id":2,
+    "level":"Level III",
+    "method":"PT",
+    "subject":"Specific",
+    "category":"ASME Sec.VIII",
+    "question":"How long is minimum penetrant time for temperature 5℃?",
+    "question_kr":"온도 5℃에 대한 최소 침투시간은 어느 정도인가?",
+    "options":[
+      "2 Min",
+      "5 Min",
+      "10 Min",
+      "20 Min"
+    ],
+    "answer":4,
+    "explanation":""
+  },
+  {
+    "id":3,
+    "level":"Level III",
+    "method":"PT",
+    "subject":"Specific",
+    "category":"ASME Sec.VIII",
+    "question":"Explain the meaning of linear and round indications.",
+    "question_kr":"원형지시와 선형지시의 의미를 설명하시오.",
+    "options":[
+      "Linear: L≤3d / Round: L>3d",
+      "Linear: L=d / Round: L>2d",
+      "Linear: L>3d / Round: L≤3d",
+      "No distinction"
+    ],
+    "answer":3,
+    "explanation":""
+  },
+  {
+    "id":4,
+    "level":"Level III",
+    "method":"PT",
+    "subject":"Specific",
+    "category":"ASME Sec.VIII",
+    "question":"Describe the excess penetrant removal methods.",
+    "question_kr":"과잉침투제 제거방법을 기술하시오.",
+    "options":[
+      "Removed by wiping with cloth or absorbent paper",
+      "Removed by grinding",
+      "Removed by heating",
+      "Removed by water only"
+    ],
+    "answer":1,
+    "explanation":""
+  },
+  {
+    "id":5,
+    "level":"Level III",
+    "method":"PT",
+    "subject":"Specific",
+    "category":"ASME Sec.VIII",
+    "question":"Three rounded indications in a line separated by 1/16 inch was found on the surface of the part whose thickness is 10 inch. Is this acceptable?",
+    "question_kr":"1/16인치로 분리된 선상의 3개 원형지시가 10인치 두께 표면에서 발견되었다. 합격인가?",
+    "options":[
+      "Yes",
+      "No"
+    ],
+    "answer":1,
+    "explanation":""
+  },
+  {
+    "id":6,
+    "level":"Level III",
+    "method":"PT",
+    "subject":"Specific",
+    "category":"ASME Sec.VIII",
+    "question":"What kind of technique shall be used in this process specification?",
+    "question_kr":"본 절차서에 사용되어진 기술의 종류는?",
+    "options":[
+      "Water washable fluorescent penetrant",
+      "Solvent removed visible penetrant",
+      "Post emulsification fluorescent penetrant",
+      "None"
+    ],
+    "answer":2,
+    "explanation":""
+  },
+  {
+    "id":7,
+    "level":"Level III",
+    "method":"PT",
+    "subject":"Specific",
+    "category":"ASME Sec.VIII",
+    "question":"What is the size of relevant indication in case of dye penetration examination on welds and surface?",
+    "question_kr":"용접부나 표면에 염색 침투 시험일 경우 관련된 지시의 크기는?",
+    "options":[
+      "1/32 in",
+      "1/64 in",
+      "1/16 in",
+      "3/64 in"
+    ],
+    "answer":3,
+    "explanation":""
+  },
+  {
+    "id":8,
+    "level":"Level III",
+    "method":"PT",
+    "subject":"Specific",
+    "category":"ASME Sec.VIII",
+    "question":"4.5 mm round indication was found on surface which thickness is 51mm. Is this indication acceptable?",
+    "question_kr":"51mm 두께에 4.5mm 원형지시를 찾았다. 이 경우 합격인가?",
+    "options":[
+      "Yes",
+      "No"
+    ],
+    "answer":1,
+    "explanation":""
+  },
+  {
+    "id":9,
+    "level":"Level III",
+    "method":"PT",
+    "subject":"Specific",
+    "category":"ASME Sec.VIII",
+    "question":"What are the maximum allowable temperatures for the part surface and the penetrant?",
+    "question_kr":"제품표면과 침투액에 대한 허용 최대 온도는?",
+    "options":[
+      "10~52℃",
+      "0~100℃",
+      "20~80℃",
+      "5~70℃"
+    ],
+    "answer":1,
+    "explanation":""
+  },
+  {
+    "id":10,
+    "level":"Level III",
+    "method":"PT",
+    "subject":"Specific",
+    "category":"ASME B16.34",
+    "question":"A 18mm linear indication was found during inspection of a 50mm thick casting. What is the pass/fail decision?",
+    "question_kr":"50mm 두께의 주조품 검사시 선형 결함 18mm가 발견되었습니다. 합부는?",
+    "options":[
+      "Accept",
+      "Reject"
+    ],
+    "answer":2,
+    "explanation":""
+  },
+  {
+    "id": 11,
+    "question": "A 15mm linear indication was found during inspection of a 30mm thick forging. What is the pass/fail decision?",
+    "korean": "30mm 두께의 단조품 검사시 선형 결함 15mm가 발견되었습니다. 합부는?",
+    "options": [
+      "Accept",
+      "Reject"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 12,
+    "question": "The following rounded indications are in the weld ; (3ea) 1/16in. indications ; (3ea) 7/64in. indications and (4ea) 1/8in. indications. All are separated by 1/16in. from each other. Is the weld acceptable?",
+    "korean": "용접부에 원형지시가 다음과 같이 나타났다. 1/16인치 3개, 7/64인치 3개, 1/8인치 4개의 지시가 서로 1/16인치 떨어져 있다. 이 용접부는 합격인가?",
+    "options": [
+      "Accept",
+      "Reject"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 13,
+    "question": "A vision test on a Level II person is to be performed according to SNT-TC-1A. Which of the following does not apply?",
+    "korean": "Level II 인원의 시력검사를 SNT-TC-1A에 따라 수행하려고 한다. 해당되지 않는 사항은?",
+    "options": [
+      "Color contrast differentiation shall be verified",
+      "Color contrast examination every five years",
+      "Jaeger No.2 reading at 12 inches",
+      "Near vision examination every five years"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 14,
+    "question": "It intends to acquire Level III qualifications in accordance with ANSI/ASNT CP-189. Which of the following does not apply?",
+    "korean": "ANSI/ASNT CP-189를 적용하여 Level III 자격을 취득하고자 한다. 다음 중 해당되지 않는 사항은?",
+    "options": [
+      "Hold current ASNT Level III certificate",
+      "Candidates shall pass Basic, Method and Specific exams",
+      "At least 30 questions shall be passed in written specific examination",
+      "Candidates shall pass practical examination"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 15,
+    "question": "Which of the following is a discontinuity which might be found in sand casting?",
+    "korean": "주조품 내에서 발견될 수 있는 불연속 지시는?",
+    "options": [
+      "Incomplete penetration",
+      "Shrinkage",
+      "Pipe",
+      "Undercut"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 16,
+    "question": "The water pressure at the wash station shall be controlled by a?",
+    "korean": "수세 장소의 수압은 무엇에 의해 제어되는가?",
+    "options": [
+      "Pressure gauge",
+      "Pressure regulator valve",
+      "Thermometer",
+      "Gauge section"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 17,
+    "question": "The best technique for applying wet developer for the highest sensitivity is?",
+    "korean": "고감도를 위한 습식 현상액 적용 방법은?",
+    "options": [
+      "Dipping and draining",
+      "Spraying",
+      "Flowing the developer onto the part",
+      "All methods provide equal sensitivity"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 18,
+    "question": "What kind of flaws do rounded or point-like PT indications point to?",
+    "korean": "둥글거나 점 형태의 PT 지시는 어떤 결함을 나타내는가?",
+    "options": [
+      "Small hot cracks",
+      "Pore",
+      "Small end crater cracks",
+      "The answers a), b) and c) are correct"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 19,
+    "question": "Which type of penetrant test was developed primarily for castings?",
+    "korean": "주조품 검사에 주로 개발된 침투탐상시험 형태는?",
+    "options": [
+      "Solvent-removed fluorescent penetrant",
+      "Water-washable fluorescent penetrant",
+      "Post-emulsification visible penetrant",
+      "Post-emulsification fluorescent penetrant"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 20,
+    "question": "When conducting PT in accordance with ASME Code Sec.V, 2023 Edition PT indication shall be interpreted not later than after the developer has been applied.",
+    "korean": "ASME Sec.V 2023 Edition에 따른 PT 지시는 현상제 적용 후 몇 분 이내 평가해야 하는가?",
+    "options": [
+      "1 minute",
+      "1~10 minutes",
+      "10~60 minutes",
+      "30~60 minutes"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 21,
+    "question": "The wavelength of ultraviolet light(Model:BD-100) generally used in fluorescent penetrant inspection is:",
+    "korean": "형광 침투탐상 시험시 사용하는 자외선(BD-100)의 파장은?",
+    "options": [
+      "3000 Å",
+      "2650 Å",
+      "3650 Å",
+      "4600 Å"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 22,
+    "question": "When applying of penetrant, it shall be included a minimum (        ) inch beyond the area of interest?",
+    "korean": "침투제를 적용할 관심부위 밖 최소 몇 inch가 포함되어야 하는가?",
+    "options": [
+      "1 inch",
+      "1/2 inch",
+      "2 inch",
+      "3 inch"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 23,
+    "question": "What is the best method to apply the penetrant test on a large number of small pieces of complex shape?",
+    "korean": "복잡한 형태의 작은 부품이 많은 경우 침투시험 적용에 가장 적합한 방법은?",
+    "options": [
+      "Dipping with a basket",
+      "Electrostatic spraying",
+      "Flooding on a grid",
+      "Brushing"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 24,
+    "question": "1/8(3mm) rounded indication and 1/8(3mm) linear indication was found on forgings of which thickness is 2(50mm). Is this acceptable?",
+    "korean": "50mm 두께 단조품에서 3mm 원형지시와 3mm 선형지시가 발견되었다. 합격인가?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 25,
+    "question": "Only 1/8 rounded indication was found on castings of which thickness is 1/2. Is this acceptable?",
+    "korean": "1/2 inch 두께 주조품에서 1/8 inch 원형지시가 발견되었다. 합격인가?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 26,
+    "question": "What is the light intensity at the penetrant testing surface?",
+    "korean": "침투탐상시험 면에서의 빛의 세기는?",
+    "options": [
+      "Minimum of 1076 lux",
+      "Minimum of 1000 μW/cm²",
+      "20 lux",
+      "220V and 250W"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 27,
+    "question": "How long time until the developer applied after the removal of excess penetrant?",
+    "korean": "과잉 침투제 제거 후 현상제 적용까지의 시간은?",
+    "options": [
+      "Within 15 min",
+      "Within 20 min",
+      "As soon as possible after penetrant removal",
+      "All of the above",
+      "A and C"
+    ],
+    "answer": 4
+  },
+  {
+    "id": 28,
+    "question": "Which of the following statements is wrong about applying penetrant after the precleaning for testing surface?",
+    "korean": "표면 전처리 후 침투제 적용에 대한 설명 중 틀린 것은?",
+    "options": [
+      "After cleaning, drying shall be accomplished only by hot air blowing",
+      "Minimum drying time shall be established before penetrant application",
+      "Cleaning solvent drying time shall be minimum 1 min",
+      "Penetrant may be applied by spraying, brushing, or dipping"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 29,
+    "question": "According to ASME Code Section III Div.1 NB, What kind of examination method for category B welded joints in vessels?",
+    "korean": "ASME Section III Div.1 NB에 따라 용기의 B 범주 용접 이음부 검사 방법은?",
+    "options": [
+      "Volumetric test",
+      "Volumetric test and either RT or UT",
+      "Volumetric test and either PT or MT",
+      "PT or MT"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 30,
+    "question": "A length 1/8in.(3mm) rounded indication is; This indication acceptable?",
+    "korean": "3mm 길이의 원형지시는 합격인가?",
+    "options": [
+      "Accept",
+      "Reject"
+    ],
+    "answer": 0
+  }
+]
