@@ -19,7 +19,7 @@ function PrintQuestion({
 
 
       <h1>
-        KNDT-CBT 시험 문제지
+        HIENDT-CBT 시험 문제지
       </h1>
 
 

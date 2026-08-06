@@ -177,7 +177,7 @@ function Home({
 
 
         <h1>
-          KNDT-CBT
+          HIENDT-CBT
         </h1>
 
 
@@ -439,7 +439,7 @@ function Home({
 
           <PrintExam
 
-            name="KNDT-CBT 문제은행"
+            name="HIENDT-CBT 문제은행"
 
             level={level}
 

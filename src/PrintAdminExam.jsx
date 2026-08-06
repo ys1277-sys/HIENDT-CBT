@@ -15,7 +15,7 @@ return (
 
 
 <h2 className="paper-title">
-KNDT-CBT 관리자 정답지
+HIENDT-CBT 관리자 정답지
 </h2>
 
 

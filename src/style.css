@@ -1,4 +1,4 @@
-*{
+﻿*{
   box-sizing:border-box;
 }
 
@@ -121,7 +121,7 @@ button:disabled{
 
   width:100%;
 
-  max-width:1100px;
+  max-width:1200px;
 
   height:96vh;
 
@@ -155,7 +155,21 @@ button:disabled{
 
 
 
+.cbt-content{
+
+  display:flex;
+
+  flex:1;
+
+  overflow:hidden;
+
+}
+
+
+
 .cbt-body{
+
+  flex:1;
 
   padding:20px;
 
@@ -239,17 +253,13 @@ button:disabled{
 
 .control{
 
-  position:fixed;
-
-  bottom:15px;
-
-  left:0;
-
-  width:100%;
-
   display:flex;
 
   justify-content:center;
+
+  gap:10px;
+
+  padding:20px 0;
 
 }
 
@@ -461,5 +471,142 @@ button{
 
 }
 
+
+}
+
+
+
+/* 답안 표기란 (오른쪽 사이드) */
+
+
+.answer-sheet{
+
+  width:220px;
+
+  border-left:1px solid #ddd;
+
+  background:white;
+
+  padding:15px 10px;
+
+  overflow-y:auto;
+
+  flex-shrink:0;
+
+}
+
+
+.answer-sheet-title{
+
+  text-align:center;
+
+  font-weight:bold;
+
+  color:white;
+
+  background:#003b73;
+
+  border-radius:8px;
+
+  padding:8px;
+
+  margin-bottom:10px;
+
+}
+
+
+.answer-sheet-list{
+
+  display:flex;
+
+  flex-direction:column;
+
+}
+
+
+.answer-sheet-row{
+
+  display:flex;
+
+  align-items:center;
+
+  gap:6px;
+
+  padding:6px 4px;
+
+  border-bottom:1px solid #eee;
+
+}
+
+
+.answer-sheet-row.current{
+
+  background:#e7f1ff;
+
+}
+
+
+.row-number{
+
+  width:20px;
+
+  font-weight:bold;
+
+  color:#003b73;
+
+  text-align:center;
+
+  flex-shrink:0;
+
+}
+
+
+.row-options{
+
+  display:flex;
+
+  gap:4px;
+
+}
+
+
+.option-circle{
+
+  width:24px;
+
+  height:24px;
+
+  border-radius:50%;
+
+  border:1px solid #999;
+
+  background:white;
+
+  color:#333;
+
+  font-size:12px;
+
+  padding:0;
+
+  margin:0;
+
+  display:flex;
+
+  align-items:center;
+
+  justify-content:center;
+
+  cursor:pointer;
+
+}
+
+
+.option-circle.selected{
+
+  background:#003b73;
+
+  border-color:#003b73;
+
+  color:white;
 
 }

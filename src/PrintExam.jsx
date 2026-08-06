@@ -23,7 +23,7 @@ function PrintExam({
       <div className="cover">
 
         <h1>
-          KNDT-CBT
+          HIENDT-CBT
         </h1>
 
         <h2>

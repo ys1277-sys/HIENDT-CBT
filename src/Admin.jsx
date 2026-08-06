@@ -93,7 +93,7 @@ function Admin({ onBack }) {
 
 
       <h1>
-        KNDT-CBT 관리자
+        HIENDT-CBT 관리자
       </h1>
 
 

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+﻿import React, { useEffect, useState } from "react";
 import Result from "./Result.jsx";
 import ExamData from "./ExamData.jsx";
 
@@ -30,12 +30,6 @@ function Quiz({
 
         const exam =
         ExamData?.[level]?.[subject]?.[method];
-
-
-        console.log(
-          "시험 데이터:",
-          exam
-        );
 
 
 
@@ -90,13 +84,6 @@ function Quiz({
 
 
 
-        console.log(
-          "문제 수:",
-          list.length
-        );
-
-
-
         setQuestions(list);
 
 
@@ -131,424 +118,252 @@ function Quiz({
 
 
 
-
-
-
-
   function selectAnswer(index){
 
-
     setAnswers(prev=>({
-
       ...prev,
-
       [current]:index
-
     }));
-
 
   }
 
 
+  function selectAnswerFor(qIndex,optIndex){
 
+    setAnswers(prev=>({
+      ...prev,
+      [qIndex]:optIndex
+    }));
 
+    setCurrent(qIndex);
 
+  }
 
 
   function submitExam(){
 
-
     const unanswered =
     questions.filter(
-      (_,index)=>
-      answers[index]===undefined
+      (_,index)=>answers[index]===undefined
     );
-
-
 
     if(unanswered.length>0){
 
-
-      alert(
-        "풀지 않은 문제가 있습니다."
+      const ok = window.confirm(
+        `풀지 않은 문제가 ${unanswered.length}개 있습니다. 그래도 제출하시겠습니까?`
       );
 
-
-      return;
-
+      if(!ok) return;
 
     }
 
-
-
-
     setShowResult(true);
 
-
-
   }
-
-
-
-
 
 
 
   if(questions.length===0){
 
-
     return (
-
       <div className="cbt-page">
-
         <div className="cbt-container">
-
           문제 불러오는 중...
-
         </div>
-
       </div>
-
     );
 
-
   }
-
-
-
-
-
-
 
 
   if(showResult){
 
-
     return (
-
       <Result
-
         name={name}
-
         level={level}
-
         method={method}
-
         subject={subject}
-
         questions={questions}
-
         answers={answers}
-
         onBack={onBack}
-
       />
-
     );
-
 
   }
 
 
+  const q = questions[current];
 
+  const question = (q.question || "").split(/\r?\n/);
 
+  const questionEn = question[0];
 
-
-
-  const q =
-  questions[current];
-
-
-
-  const question =
-  (q.question || "")
-  .split(/\r?\n/);
-
-
-
-  const questionEn =
-  question[0];
-
-
-
-  const questionKo =
-  question.slice(1)
-  .join(" ")
-  .trim();
-
-
-
-
+  const questionKo = question.slice(1).join(" ").trim();
 
 
 
   return (
 
     <div className="cbt-page">
-
-
       <div className="cbt-container">
 
-
-
         <header className="cbt-header">
-
-
-          <h1>
-            KNDT-CBT
-          </h1>
-
-
+          <h1>KNDT-CBT</h1>
           <div>
-
             {name}<br/>
-
             {level}<br/>
-
             {method} {subject}
-
           </div>
-
-
         </header>
 
+        <div className="cbt-content">
 
+          <main className="cbt-body">
 
-
-
-
-        <main className="cbt-body">
-
-
-
-          <div className="question-number">
-
-            Question {current+1}
-            /
-            {questions.length}
-
-          </div>
-
-
-
-
-
-
-          <div className="question-box">
-
-
-            <div className="english-question">
-
-              {current+1}. {questionEn}
-
+            <div className="question-number">
+              Question {current+1} / {questions.length}
             </div>
 
-
-
-            {
-              questionKo &&
-
-              <div className="korean-question">
-
-                {questionKo}
-
+            <div className="question-box">
+              <div className="english-question">
+                {current+1}. {questionEn}
               </div>
+              {
+                questionKo &&
+                <div className="korean-question">
+                  {questionKo}
+                </div>
+              }
+            </div>
 
-            }
+            <div className="answer-box">
+              {
+                q.options.map((item,index)=>{
 
+                  const option = item.split(/\r?\n/);
 
-          </div>
-
-
-
-
-
-
-
-          <div className="answer-box">
-
-
-
-          {
-            q.options.map((item,index)=>{
-
-
-              const option =
-              item.split(/\r?\n/);
-
-
-
-              return (
-
-
-                <label
-
-                  key={index}
-
-                  className={
-                    answers[current]===index
-                    ?
-                    "answer selected"
-                    :
-                    "answer"
-                  }
-
-                >
-
-
-
-                  <input
-
-                    type="radio"
-
-                    checked={
-                      answers[current]===index
-                    }
-
-                    onChange={()=>selectAnswer(index)}
-
-                  />
-
-
-
-
-
-                  <div className="option-text">
-
-
-                    <div className="option-en">
-
-                      {index+1}. {option[0]}
-
-                    </div>
-
-
-
-                    {
-                      option[1] &&
-
-                      <div className="option-ko">
-
-                        {option[1]}
-
+                  return (
+                    <label
+                      key={index}
+                      className={
+                        answers[current]===index
+                        ? "answer selected"
+                        : "answer"
+                      }
+                    >
+                      <input
+                        type="radio"
+                        checked={answers[current]===index}
+                        onChange={()=>selectAnswer(index)}
+                      />
+                      <div className="option-text">
+                        <div className="option-en">
+                          {index+1}. {option[0]}
+                        </div>
+                        {
+                          option[1] &&
+                          <div className="option-ko">
+                            {option[1]}
+                          </div>
+                        }
                       </div>
+                    </label>
+                  );
 
-                    }
+                })
+              }
+            </div>
 
+            <div className="control">
+              <button
+                disabled={current===0}
+                onClick={()=>setCurrent(current-1)}
+              >
+                이전
+              </button>
 
-                  </div>
-
-
-
-                </label>
-
-
-              );
-
-
-            })
-          }
-
-
-
-          </div>
-
-
-
-
-
-
-
-          <div className="control">
-
-
-            <button
-
-              disabled={current===0}
-
-              onClick={()=>
-                setCurrent(current-1)
+              {
+                current < questions.length - 1
+                ?
+                <button onClick={()=>setCurrent(current+1)}>
+                  다음
+                </button>
+                :
+                <button onClick={submitExam}>
+                  제출
+                </button>
               }
 
-            >
-
-              이전
-
-            </button>
-
-
-
-
-
-
-            {
-              current <
-              questions.length-1
-
-              ?
-
-              <button
-
-                onClick={()=>
-                  setCurrent(current+1)
-                }
-
-              >
-
-                다음
-
+              <button onClick={onBack}>
+                종료
               </button>
+            </div>
 
+          </main>
 
-              :
+          <aside className="answer-sheet">
 
+            <div className="answer-sheet-title">
+              답안 표기란
+            </div>
 
-              <button
+            <div className="answer-sheet-list">
+              {
+                questions.map((qItem,qIndex)=>{
 
-                onClick={submitExam}
+                  return (
+                    <div
+                      key={qIndex}
+                      className={
+                        qIndex===current
+                        ? "answer-sheet-row current"
+                        : "answer-sheet-row"
+                      }
+                    >
+                      <span className="row-number">
+                        {qIndex+1}
+                      </span>
 
-              >
+                      <span className="row-options">
+                        {
+                          qItem.options.map((op,i)=>{
 
-                제출
+                            const selected = answers[qIndex]===i;
 
-              </button>
+                            return (
+                              <button
+                                key={i}
+                                type="button"
+                                className={
+                                  selected
+                                  ? "option-circle selected"
+                                  : "option-circle"
+                                }
+                                onClick={()=>selectAnswerFor(qIndex,i)}
+                              >
+                                {i+1}
+                              </button>
+                            );
 
-            }
+                          })
+                        }
+                      </span>
+                    </div>
+                  );
 
+                })
+              }
+            </div>
 
+          </aside>
 
-
-
-            <button
-
-              onClick={onBack}
-
-            >
-
-              종료
-
-            </button>
-
-
-
-          </div>
-
-
-
-
-
-        </main>
-
-
+        </div>
 
       </div>
-
-
-
     </div>
 
   );
-
 
 }
 
