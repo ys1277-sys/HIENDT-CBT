@@ -5,6 +5,9 @@ import PrintAdminExam from "./PrintAdminExam.jsx";
 function Admin({ onBack }) {
 
 
+  console.log("Admin 실행됨");
+
+
   const [results, setResults] = useState([]);
 
   const [exam, setExam] = useState(null);
@@ -13,55 +16,118 @@ function Admin({ onBack }) {
 
 
 
-  useEffect(() => {
+  const [search, setSearch] = useState("");
+
+  const [filterLevel, setFilterLevel] = useState("");
+
+  const [filterMethod, setFilterMethod] = useState("");
+
+  const [sortScore, setSortScore] = useState(false);
+
+
+
+
+
+  useEffect(()=>{
 
 
     fetch(
       "https://script.google.com/macros/s/AKfycbxs_whBI5KfBxKaDreav9PL3_rHX847OdwwLtc8uwMIN9fVOAozGHdpzXmQRsa7PO6i/exec"
     )
 
-      .then(res => res.json())
+    .then(res=>res.json())
 
-      .then(data => {
-
-        setResults(data);
-
-        setLoading(false);
-
-      })
-
-      .catch(err => {
-
-        console.log(
-          "결과 불러오기 실패",
-          err
-        );
-
-        alert(
-          "결과를 불러오지 못했습니다."
-        );
-
-        setLoading(false);
-
-      });
+    .then(data=>{
 
 
-  }, []);
+      console.log(
+        "관리자 데이터:",
+        data
+      );
+
+
+      console.log(
+        "마지막 데이터:",
+        JSON.stringify(
+          data[data.length-1],
+          null,
+          2
+        )
+      );
+
+
+      setResults(
+        Array.isArray(data)
+        ?
+        data
+        :
+        []
+      );
+
+
+      setLoading(false);
+
+
+    })
+
+    .catch(err=>{
+
+
+      console.log(
+        "결과 불러오기 실패",
+        err
+      );
+
+
+      alert(
+        "결과를 불러오지 못했습니다."
+      );
+
+
+      setLoading(false);
+
+
+    });
+
+
+
+  },[]);
 
 
 
 
-  function printExam(r) {
 
 
-    if (
+
+  function printExam(r){
+
+
+
+    console.log(
+      "출력 데이터 확인:",
+      r
+    );
+
+
+
+    console.log(
+      "정답번호 확인:",
+      r.questions?.map(
+        q=>q.answer
+      )
+    );
+
+
+
+    if(
       !r.questions ||
-      r.questions.length === 0
-    ) {
+      r.questions.length===0
+    ){
 
       alert(
         "출력할 시험 데이터가 없습니다."
       );
+
 
       return;
 
@@ -69,15 +135,20 @@ function Admin({ onBack }) {
 
 
 
+
     setExam(r);
 
 
 
-    setTimeout(() => {
+
+    setTimeout(()=>{
+
 
       window.print();
 
-    }, 500);
+
+    },500);
+
 
 
   }
@@ -86,207 +157,427 @@ function Admin({ onBack }) {
 
 
 
-  return (
 
 
-    <div className="admin-container">
+  let filteredResults=[
+    ...results
+  ];
 
 
-      <h1>
-        HIENDT-CBT 관리자
-      </h1>
 
 
+  if(search){
 
-      <button onClick={onBack}>
 
-        처음 화면으로
+    filteredResults =
+    filteredResults.filter(r=>
 
-      </button>
+      String(r.name || "")
+      .includes(search)
 
+    );
 
 
+  }
 
 
-      <h2>
-        응시 결과
-      </h2>
 
 
 
+  if(filterLevel){
 
 
-      {
-        loading &&
+    filteredResults =
+    filteredResults.filter(r=>
 
-        <p>
-          불러오는 중...
-        </p>
+      r.level===filterLevel
 
-      }
+    );
 
 
+  }
 
 
 
 
-      <table className="result-table">
 
 
-        <thead>
+  if(filterMethod){
 
-          <tr>
 
-            <th>성명</th>
+    filteredResults =
+    filteredResults.filter(r=>
 
-            <th>Level</th>
+      r.method===filterMethod
 
-            <th>검사</th>
+    );
 
-            <th>점수</th>
 
-            <th>결과</th>
+  }
 
-            <th>날짜</th>
 
-            <th>출력</th>
 
 
-          </tr>
 
-        </thead>
+  if(sortScore){
 
 
+    filteredResults.sort(
+      (a,b)=>
 
+      Number(b.score||0)
+      -
+      Number(a.score||0)
 
+    );
 
-        <tbody>
 
+  }
 
-          {
 
-            results.map((r, index) => (
 
 
-              <tr key={index}>
 
 
-                <td>
-                  {r.name}
-                </td>
 
 
+return(
 
-                <td>
-                  {r.level}
-                </td>
 
+<div className="admin-container">
 
 
-                <td>
-                  {r.method} {r.subject}
-                </td>
 
+<h1>
+HIENDT-CBT 관리자
+</h1>
 
 
-                <td>
-                  {r.score}
-                </td>
 
+<button onClick={onBack}>
+처음 화면으로
+</button>
 
 
-                <td>
-                  {r.result}
-                </td>
 
 
 
-                <td>
-                  {r.date}
-                </td>
+<h2>
+응시 결과
+</h2>
 
 
 
 
 
-                <td>
+<div className="admin-search">
 
 
-                  <button
 
-                    onClick={() => printExam(r)}
+<input
 
-                  >
+type="text"
 
-                    정답지 출력
+placeholder="응시자 검색"
 
-                  </button>
+value={search}
 
+onChange={
+e=>setSearch(e.target.value)
+}
 
-                </td>
+/>
 
 
 
 
-              </tr>
 
+<select
 
-            ))
+value={filterLevel}
 
+onChange={
+e=>setFilterLevel(e.target.value)
+}
 
-          }
+>
 
+<option value="">
+전체 Level
+</option>
 
 
-        </tbody>
+<option value="Level II">
+Level II
+</option>
 
 
+<option value="Level III">
+Level III
+</option>
 
-      </table>
 
+</select>
 
 
 
 
 
 
-      {
 
-        exam &&
+<select
 
+value={filterMethod}
 
-        <div className="print-area">
+onChange={
+e=>setFilterMethod(e.target.value)
+}
 
+>
 
-          <PrintAdminExam
 
+<option value="">
+전체 검사
+</option>
 
-            questions={exam.questions}
 
+<option value="ECT">
+ECT
+</option>
 
-            answers={exam.answers}
 
+<option value="UT">
+UT
+</option>
 
-          />
 
+<option value="MT">
+MT
+</option>
 
-        </div>
 
+<option value="PT">
+PT
+</option>
 
-      }
 
+<option value="RT">
+RT
+</option>
 
 
+<option value="VT">
+VT
+</option>
 
 
-    </div>
+</select>
 
 
-  );
+
+
+
+<button
+
+onClick={()=>
+setSortScore(!sortScore)
+}
+
+>
+
+{
+sortScore
+?
+"점수순 해제"
+:
+"점수순 정렬"
+}
+
+</button>
+
+
+
+</div>
+
+
+
+
+
+
+
+{
+loading &&
+<p>
+불러오는 중...
+</p>
+}
+
+
+
+
+
+
+
+<table className="result-table">
+
+
+<thead>
+
+<tr>
+
+<th>성명</th>
+
+<th>Level</th>
+
+<th>검사</th>
+
+<th>점수</th>
+
+<th>결과</th>
+
+<th>날짜</th>
+
+<th>출력</th>
+
+</tr>
+
+</thead>
+
+
+
+
+<tbody>
+
+
+{
+
+filteredResults.map((r,index)=>(
+
+
+<tr key={index}>
+
+
+<td>
+{r.name}
+</td>
+
+
+<td>
+{r.level}
+</td>
+
+
+<td>
+{r.method} {r.subject}
+</td>
+
+
+<td>
+{r.score}
+</td>
+
+
+<td>
+
+{
+r.result
+||
+(
+Number(r.score)>=70
+?
+"PASS"
+:
+"FAIL"
+)
+}
+
+</td>
+
+
+<td>
+{r.date}
+</td>
+
+
+
+<td>
+
+
+<button
+
+onClick={()=>
+printExam(r)
+}
+
+>
+
+정답지 출력
+
+</button>
+
+
+</td>
+
+
+
+</tr>
+
+
+))
 
 
 }
 
+
+</tbody>
+
+
+</table>
+
+
+
+
+
+
+
+
+
+{
+
+exam &&
+
+
+<div className="print-area">
+
+
+<PrintAdminExam
+questions={exam.questions}
+answers={exam.answers}
+name={exam.name}
+level={exam.level}
+method={exam.method}
+subject={exam.subject}
+date={exam.date}
+score={exam.score}
+/>
+
+
+</div>
+
+
+}
+
+
+
+
+
+</div>
+
+
+);
+
+
+}
 
 
 export default Admin;

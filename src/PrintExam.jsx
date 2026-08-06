@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import "./print.css";
 
 
@@ -71,6 +71,16 @@ function PrintExam({
 
 
 
+          const answered =
+          !isNaN(userIndex);
+
+
+
+          const isCorrectAnswer =
+          answered && userIndex === correctIndex;
+
+
+
 
           return (
 
@@ -115,38 +125,24 @@ function PrintExam({
 
 
 
-                  let className =
-                  "print-option";
+                  let boxClass = "number-box";
 
 
 
-                  let mark="";
+                  if(answered && i === correctIndex){
 
 
+                    if(isCorrectAnswer){
 
-                  // 맞은 답
-                  if(
-                    i === userIndex &&
-                    userIndex === correctIndex
-                  ){
+                      boxClass += " box-correct";
 
-                    className += " correct";
+                    }
+                    else{
 
-                    mark="○";
+                      boxClass += " box-wrong";
 
-                  }
+                    }
 
-
-
-                  // 틀린 답
-                  if(
-                    i === userIndex &&
-                    userIndex !== correctIndex
-                  ){
-
-                    className += " wrong";
-
-                    mark="×";
 
                   }
 
@@ -160,60 +156,45 @@ function PrintExam({
 
                       key={i}
 
-                      className={className}
+                      className="option"
 
                     >
 
 
 
-                      <span className="number-box">
-
+                      <span className={boxClass}>
 
                         {i+1}
-
-
-
-                        {
-                          mark &&
-
-                          <span className="overlay-mark">
-
-                            {mark}
-
-                          </span>
-
-                        }
-
 
                       </span>
 
 
 
 
-                      <span>
+                      <div className="option-text">
 
 
-                        {optionText[0]}
+                        <div className="option-en">
+
+                          {optionText[0]}
+
+                        </div>
 
 
 
                         {
                           optionText[1] &&
 
-
-                          <div className="print-option-ko">
-
+                          <div className="option-ko">
 
                             {optionText[1]}
 
-
                           </div>
-
 
                         }
 
 
-                      </span>
+                      </div>
 
 
 
@@ -251,3 +232,4 @@ function PrintExam({
 
 
 export default PrintExam;
+

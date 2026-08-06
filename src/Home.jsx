@@ -26,6 +26,39 @@ function Home({
 
 
 
+  const methodList =
+
+  level === "Level III"
+
+  ?
+
+  [
+    "Basic",
+    "MT",
+    "PT",
+    "RT",
+    "UT",
+    "VT"
+  ]
+
+  :
+
+  [
+    "ECT",
+    "UT",
+    "MT",
+    "PT",
+    "RT",
+    "VT",
+    "PAUT",
+    "RFT",
+    "TOFD"
+  ];
+
+
+
+
+
   async function printBank(){
 
 
@@ -35,7 +68,7 @@ function Home({
       if(
         !level ||
         !method ||
-        (level === "Level II" && !subject)
+        (level==="Level II" && !subject)
       ){
 
         alert(
@@ -48,22 +81,28 @@ function Home({
 
 
 
+
       let file;
 
 
 
-      if(level === "Level III"){
+      if(level==="Level II"){
 
         file =
-        `/data/${level}/${method}.json`;
+`data/${level}/${subject}/${method}.json`;
 
       }
-      else{
+
+
+
+      if(level==="Level III"){
 
         file =
-        `/data/${level}/${subject}/${method}.json`;
+`data/${level}/${method}.json`;
 
       }
+
+
 
 
 
@@ -74,15 +113,24 @@ function Home({
 
 
 
+
+
       const res =
-      await fetch(file);
+      await fetch(
+
+        import.meta.env.BASE_URL +
+        file.replace(/^\//,"")
+
+      );
+
+
 
 
 
       if(!res.ok){
 
         alert(
-          "문제 파일이 없습니다.\n\n" + file
+          "문제 파일이 없습니다.\n\n"+file
         );
 
         return;
@@ -91,37 +139,45 @@ function Home({
 
 
 
+
+
       const data =
       await res.json();
 
 
 
-      let list = [];
+
+
+      let list=[];
 
 
 
       if(Array.isArray(data)){
 
-        list = data;
+        list=data;
 
       }
+
       else if(Array.isArray(data.questions)){
 
-        list = data.questions;
+        list=data.questions;
 
       }
+
+
 
 
 
       list =
       list.filter(
-        q =>
-        Array.isArray(q.options)
+        q=>Array.isArray(q.options)
       );
 
 
 
-      if(list.length === 0){
+
+
+      if(list.length===0){
 
         alert(
           "문제 데이터가 없습니다."
@@ -133,7 +189,11 @@ function Home({
 
 
 
+
+
       setQuestions(list);
+
+
 
 
 
@@ -145,6 +205,8 @@ function Home({
 
 
 
+
+
     }
     catch(err){
 
@@ -153,7 +215,7 @@ function Home({
 
 
       alert(
-        "문제 불러오기 실패\n\n" +
+        "문제 불러오기 실패\n\n"+
         err.message
       );
 
@@ -167,13 +229,13 @@ function Home({
 
 
 
+
   return (
 
     <div className="home-container">
 
 
       <div className="home-box">
-
 
 
         <h1>
@@ -184,6 +246,7 @@ function Home({
         <h2>
           비파괴검사 자격시험
         </h2>
+
 
 
 
@@ -213,6 +276,7 @@ function Home({
 
 
 
+
         <button
 
           className={
@@ -227,7 +291,9 @@ function Home({
           onClick={()=>{
 
             setLevel("Level II");
+
             setMethod("");
+
             setSubject("");
 
           }}
@@ -244,6 +310,7 @@ function Home({
 
         <button
 
+
           className={
             level==="Level III"
             ?
@@ -253,13 +320,19 @@ function Home({
           }
 
 
+
           onClick={()=>{
 
+
             setLevel("Level III");
+
             setMethod("");
+
             setSubject("");
 
+
           }}
+
 
         >
 
@@ -271,14 +344,16 @@ function Home({
 
 
 
-
         <h3>
           시험종목
         </h3>
 
 
 
+
         <select
+
+          key={level}
 
           value={method}
 
@@ -294,87 +369,72 @@ function Home({
           </option>
 
 
+
           {
-            [
-              "ECT",
-              "UT",
-              "MT",
-              "PT",
-              "RT",
-              "VT",
-              "PAUT",
-              "RFT",
-              "TOFD"
-            ]
-            .map(item=>(
+
+            methodList.map(item=>(
 
               <option
+
                 key={item}
+
                 value={item}
+
               >
 
                 {item}
 
               </option>
 
+
             ))
+
           }
 
 
         </select>
-
-
-
-
-
-
-
-        {
+                {
           level==="Level II" &&
 
           <>
 
-
-          <h3>
-            시험 구분
-          </h3>
-
+            <h3>
+              시험 구분
+            </h3>
 
 
-          <select
+            <select
 
-            value={subject}
+              value={subject}
 
-            onChange={
-              e=>setSubject(e.target.value)
-            }
+              onChange={
+                e=>setSubject(e.target.value)
+              }
 
-          >
-
-
-            <option value="">
-              선택
-            </option>
+            >
 
 
-            <option value="General">
-              General
-            </option>
+              <option value="">
+                선택
+              </option>
 
 
-            <option value="Specific">
-              Specific
-            </option>
+              <option value="General">
+                General
+              </option>
 
 
-          </select>
+              <option value="Specific">
+                Specific
+              </option>
 
+
+            </select>
 
 
           </>
 
         }
-
 
 
 
@@ -394,7 +454,6 @@ function Home({
 
 
 
-
         <button
 
           onClick={printBank}
@@ -404,7 +463,6 @@ function Home({
           문제은행 출력
 
         </button>
-
 
 
 
@@ -423,6 +481,7 @@ function Home({
 
 
 
+
       </div>
 
 
@@ -430,7 +489,9 @@ function Home({
 
 
 
+
       {
+
         questions &&
 
 
@@ -439,25 +500,36 @@ function Home({
 
           <PrintExam
 
+
             name="HIENDT-CBT 문제은행"
+
 
             level={level}
 
+
             method={method}
+
 
             subject={subject}
 
+
             questions={questions}
 
+
             date={
+
               new Date()
+
               .toLocaleDateString()
+
             }
+
 
           />
 
 
         </div>
+
 
       }
 
@@ -466,6 +538,7 @@ function Home({
 
 
     </div>
+
 
   );
 

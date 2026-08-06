@@ -25,6 +25,8 @@ function ExamFlow(){
 
 
 
+  // 관리자 화면
+
   if(admin){
 
     return (
@@ -45,8 +47,9 @@ function ExamFlow(){
 
 
 
-  if(start){
+  // 시험 화면
 
+  if(start){
 
     return (
 
@@ -81,9 +84,11 @@ function ExamFlow(){
 
     <Home
 
+
       name={name}
 
       setName={setName}
+
 
 
       level={level}
@@ -91,9 +96,11 @@ function ExamFlow(){
       setLevel={setLevel}
 
 
+
       method={method}
 
       setMethod={setMethod}
+
 
 
       subject={subject}
@@ -102,12 +109,44 @@ function ExamFlow(){
 
 
 
+
+
+
+
       onStart={()=>{
 
 
-        if(!name.trim()){
 
-          alert("이름을 입력하세요");
+        // 이름 확인
+
+        if(!level || !method){
+
+ alert("시험 정보를 선택하세요");
+
+ return;
+
+}
+
+
+if(level==="Level II" && !subject){
+
+ alert("시험 구분을 선택하세요");
+
+ return;
+
+}
+
+
+
+
+
+        // Level / 종목 확인
+
+        if(!level || !method){
+
+          alert(
+            "시험 정보를 선택하세요."
+          );
 
           return;
 
@@ -115,20 +154,38 @@ function ExamFlow(){
 
 
 
-        if(!level || !method || !subject){
 
-          alert("시험 정보를 선택하세요");
+
+        // Level II만 시험구분 확인
+
+        if(
+          level === "Level II" &&
+          !subject
+        ){
+
+          alert(
+            "시험 구분을 선택하세요."
+          );
 
           return;
 
         }
+
+
+
+
 
 
 
         setStart(true);
 
 
+
       }}
+
+
+
+
 
 
 
@@ -136,30 +193,41 @@ function ExamFlow(){
       onAdmin={()=>{
 
 
-        const pw = prompt("관리자 비밀번호");
+
+        const pw =
+        prompt(
+          "관리자 비밀번호"
+        );
+
+
+
 
 
         if(
-
           pw === import.meta.env.VITE_ADMIN_PASSWORD
-
         ){
 
           setAdmin(true);
 
         }
-
         else{
 
-          alert("비밀번호가 틀렸습니다.");
+          alert(
+            "비밀번호가 틀렸습니다."
+          );
 
         }
+
 
 
       }}
 
 
+
+
+
     />
+
 
 
   );

@@ -1,208 +1,355 @@
-.print-area{
+﻿/* ===============================
+   HIENDT-CBT PRINT STYLE
+   =============================== */
 
-display:none;
+
+.print-area {
+  display:none;
+}
+
+
+/* A4 */
+
+.exam-paper {
+
+  width:210mm;
+
+  min-height:297mm;
+
+  padding:15mm;
+
+  box-sizing:border-box;
+
+  background:white;
+
+  color:black;
+
+  font-family:
+    "Noto Sans KR",
+    Arial,
+    sans-serif;
 
 }
 
 
 
-.print-page,
-.exam-paper{
+/* ===============================
+   HEADER
+   =============================== */
 
-width:210mm;
 
-min-height:297mm;
+.paper-header {
 
-padding:15mm;
+  margin-bottom:25px;
 
-background:white;
+}
 
-color:black;
 
-font-family:"Noto Sans KR",Arial,sans-serif;
+.paper-header h1 {
+
+  text-align:center;
+
+  font-size:28px;
+
+  margin-bottom:10px;
 
 }
 
 
 
-.cover{
+.paper-header h2 {
 
-text-align:center;
+  text-align:center;
 
-page-break-after:always;
+  font-size:20px;
 
-}
-
-
-
-.paper-title{
-
-text-align:center;
-
-margin-bottom:30px;
+  margin-bottom:25px;
 
 }
 
 
 
-.question-print{
+.exam-info {
 
-margin-bottom:25px;
+  width:100%;
 
-page-break-inside:avoid;
+  border-collapse:collapse;
 
-}
-
-
-
-.question-print h3{
-
-font-size:15px;
-
-line-height:1.6;
+  margin-bottom:30px;
 
 }
 
 
 
-.korean-print{
+.exam-info td {
 
-color:#555;
+  border:1px solid #000;
+
+  padding:8px;
+
+  font-size:13px;
 
 }
 
 
 
-/* 선택 번호 */
+.exam-info td:nth-child(odd){
+
+  width:18%;
+
+  font-weight:bold;
+
+  background:#f5f5f5;
+
+}
+
+
+
+/* ===============================
+   TITLE
+   =============================== */
+
+
+.paper-title {
+
+  text-align:center;
+
+  font-size:22px;
+
+  margin:25px 0 35px 0;
+
+}
+
+
+
+/* ===============================
+   QUESTION
+   =============================== */
+
+
+.question-print {
+
+  margin-bottom:25px;
+
+  page-break-inside:avoid;
+
+}
+
+
+
+.question-print h3 {
+
+  font-size:15px;
+
+  line-height:1.6;
+
+  margin-bottom:8px;
+
+}
+
+
+
+.question-korean {
+
+  font-size:14px;
+
+  color:#555;
+
+  margin-bottom:12px;
+
+}
+
+
+
+/* ===============================
+   OPTION
+   =============================== */
 
 
 .option{
 
-display:flex;
+  display:flex;
 
-align-items:center;
+  align-items:flex-start;
 
-gap:10px;
+  gap:12px;
 
-margin:8px 0;
+  margin:12px 0;
 
-position:relative;
-
-}
-
-
-
-.mark{
-
-width:28px;
-
-height:28px;
-
-display:flex;
-
-align-items:center;
-
-justify-content:center;
-
-font-weight:bold;
+  line-height:1.5;
 
 }
 
 
 
-/* 정답 파란 원 */
+/* 번호 원 (기본) */
 
+.number-box{
 
-.option.correct .mark{
+  width:20px;
 
-color:blue;
+  height: 20px;
 
-border:3px solid blue;
+  min-width: 20px;
 
-border-radius:50%;
+  border-radius:50%;
 
-}
+  display:flex;
 
+  align-items:center;
 
+  justify-content:center;
 
-/* 오답 빨간 X */
+  font-weight:bold;
 
+  font-size: 12px;
 
-.option.wrong .mark{
-
-color:red;
-
-font-size:26px;
-
-font-weight:bold;
+  border:1px solid #999;
 
 }
 
 
 
-.print-option-ko{
+/* 정답 - 파란 배경 */
 
-font-size:13px;
+.number-box.box-correct{
 
-color:#555;
+  background:blue;
 
-margin-top:3px;
+  border:2px solid blue;
 
-}
-
-
-
-.page-break{
-
-page-break-before:always;
+  color:white;
 
 }
 
 
 
+/* 오답 - 빨간 배경 */
 
-@media print{
+.number-box.box-wrong{
 
+  background:red;
 
-body *{
+  border:2px solid red;
 
-visibility:hidden;
-
-}
-
-
-
-.print-area,
-.print-area *{
-
-visibility:visible;
+  color:white;
 
 }
 
 
 
-.print-area{
+/* 보기 글자 */
 
-display:block!important;
+.option-text{
 
-position:absolute;
+  display:flex;
 
-left:0;
-
-top:0;
-
-width:100%;
+  flex-direction:column;
 
 }
 
 
 
-button{
+.option-en{
 
-display:none!important;
+  font-size:14px;
+
+}
+
+
+
+.option-ko{
+
+  font-size:13px;
+
+  color:#555;
+
+  margin-top:3px;
 
 }
 
 
 
+/* ===============================
+   PAGE BREAK
+   =============================== */
+
+
+.page-break {
+
+  page-break-before:always;
+
 }
+
+
+
+/* ===============================
+   PRINT
+   =============================== */
+
+
+@media print {
+
+
+  @page {
+
+    size:A4;
+
+    margin:10mm;
+
+  }
+
+
+
+  body * {
+
+    visibility:hidden;
+
+  }
+
+
+
+  .print-area,
+
+  .print-area * {
+
+    visibility:visible;
+
+  }
+
+
+
+  .print-area {
+
+    display:block !important;
+
+    position:absolute;
+
+    left:0;
+
+    top:0;
+
+    width:100%;
+
+  }
+
+
+
+  button {
+
+    display:none !important;
+
+  }
+
+
+
+  .question-print {
+
+    page-break-inside:avoid;
+
+  }
+
+
+}
+
+
