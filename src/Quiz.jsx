@@ -3,7 +3,6 @@ import Result from "./Result.jsx";
 import ExamData from "./ExamData.jsx";
 import Calculator from "./Calculator.jsx";
 
-
 function Quiz({
   name,
   level,
@@ -12,41 +11,34 @@ function Quiz({
   onBack
 }) {
 
-
-  const [questions,setQuestions] = useState([]);
-  const [current,setCurrent] = useState(0);
-  const [answers,setAnswers] = useState({});
-  const [showResult,setShowResult] = useState(false);
+  const [questions, setQuestions] = useState([]);
+  const [current, setCurrent] = useState(0);
+  const [answers, setAnswers] = useState({});
+  const [showResult, setShowResult] = useState(false);
   const [showCalc, setShowCalc] = useState(false);
 
 
+  useEffect(() => {
 
-  useEffect(()=>{
+    async function loadQuestions() {
 
+      try {
 
-    async function loadQuestions(){
+        let exam;
 
+        if (level === "Level II") {
 
-      try{
+          exam =
+            ExamData?.[level]?.[subject]?.[method];
 
+        }
 
-      let exam;
+        if (level === "Level III") {
 
+          exam =
+            ExamData?.[level]?.[method];
 
-if(level === "Level II"){
-
-  exam =
-  ExamData?.[level]?.[subject]?.[method];
-
-}
-
-
-if(level === "Level III"){
-
-  exam =
-  ExamData?.[level]?.[method];
-
-}
+        }
 
 
         console.log(
@@ -55,8 +47,7 @@ if(level === "Level III"){
         );
 
 
-
-        if(!exam){
+        if (!exam) {
 
           alert(
             "시험 데이터를 찾을 수 없습니다."
@@ -67,55 +58,47 @@ if(level === "Level III"){
         }
 
 
+        const url =
+          import.meta.env.BASE_URL +
+          exam.file.replace(/^\//, "");
+
+        console.log(
+          "JSON URL:",
+          url
+        );
 
 
-const url =
-import.meta.env.BASE_URL +
-exam.file.replace(/^\//,"");
-
-
-console.log(
-  "JSON URL:",
-  url
-);
-
-
-const res =
-await fetch(url);
+        const res =
+          await fetch(url);
 
 
         const data =
-        await res.json();
+          await res.json();
 
 
-
-        let list=[];
-
+        let list = [];
 
 
-        if(Array.isArray(data)){
+        if (Array.isArray(data)) {
 
-          list=data;
+          list = data;
 
         }
-        else if(Array.isArray(data.questions)){
+        else if (Array.isArray(data.questions)) {
 
-          list=data.questions;
+          list = data.questions;
 
         }
 
 
-
         list =
-        list.flat();
-
+          list.flat();
 
 
         list =
-        list.filter(
-          q=>Array.isArray(q.options)
-        );
-
+          list.filter(
+            q => Array.isArray(q.options)
+          );
 
 
         console.log(
@@ -124,128 +107,87 @@ await fetch(url);
         );
 
 
-
         setQuestions(list);
 
 
-
       }
-      catch(err){
-
+      catch (err) {
 
         console.error(err);
-
 
         alert(
           "문제를 불러오지 못했습니다."
         );
 
-
       }
-
 
     }
 
 
-
     loadQuestions();
 
-
-  },[
+  }, [
     level,
     subject,
     method
   ]);
 
 
+  function selectAnswer(index) {
 
-
-
-
-
-  function selectAnswer(index){
-
-
-    setAnswers(prev=>({
+    setAnswers(prev => ({
 
       ...prev,
 
-      [current]:index
+      [current]: index
 
     }));
-
 
   }
 
 
+  function selectAnswerFor(qIndex, optIndex) {
 
-
-
-
-
-  function selectAnswerFor(qIndex,optIndex){
-
-
-    setAnswers(prev=>({
+    setAnswers(prev => ({
 
       ...prev,
 
-      [qIndex]:optIndex
+      [qIndex]: optIndex
 
     }));
 
 
     setCurrent(qIndex);
 
-
   }
 
 
-
-
-
-
-
-  function submitExam(){
-
+  function submitExam() {
 
     const unanswered =
-    questions.filter(
-      (_,index)=>
-      answers[index]===undefined
-    );
+      questions.filter(
+        (_, index) =>
+          answers[index] === undefined
+      );
 
 
-
-    if(unanswered.length>0){
-
+    if (unanswered.length > 0) {
 
       const ok = window.confirm(
         `풀지 않은 문제가 ${unanswered.length}개 있습니다. 그래도 제출하시겠습니까?`
       );
 
-      if(!ok) return;
-
+      if (!ok) return;
 
     }
 
 
-
-
     setShowResult(true);
-
-
 
   }
 
 
-
-
-
-
-
-  if(questions.length===0){
-
+  if (questions.length === 0) {
 
     return (
 
@@ -261,18 +203,10 @@ await fetch(url);
 
     );
 
-
   }
 
 
-
-
-
-
-
-
-  if(showResult){
-
+  if (showResult) {
 
     return (
 
@@ -296,45 +230,31 @@ await fetch(url);
 
     );
 
-
   }
 
 
-
-
-
-
-
   const q =
-  questions[current];
-
+    questions[current];
 
 
   const question =
-  (q.question || "")
-  .split(/\r?\n/);
-
+    (q.question || "")
+      .split(/\r?\n/);
 
 
   const questionEn =
-  question[0];
-
+    question[0];
 
 
   const questionKo =
-  question.slice(1)
-  .join(" ")
-  .trim();
-
+    question
+      .slice(1)
+      .join(" ")
+      .trim();
 
 
   const answeredCount =
-  Object.keys(answers).length;
-
-
-
-
-
+    Object.keys(answers).length;
 
 
   return (
@@ -345,20 +265,19 @@ await fetch(url);
       <div className="cbt-container">
 
 
-
         <header className="cbt-header">
 
 
           <h1>
-            KNDT-CBT
+            HIENDT-CBT
           </h1>
 
 
           <div>
 
-            {name}<br/>
+            {name}<br />
 
-            {level}<br/>
+            {level}<br />
 
             {method} {subject}
 
@@ -368,380 +287,349 @@ await fetch(url);
         </header>
 
 
-
-
-
         <div className="cbt-content">
 
 
-
-        <main className="cbt-body">
-
+          <main className="cbt-body">
 
 
-          <div className="question-number">
+            <div className="question-number">
 
-            Question {current+1}
-            /
-            {questions.length}
+              Question {current + 1}
+              /
+              {questions.length}
 
-          </div>
-
-
-
-
-
-
-          <div className="question-box">
-
-
-            <div className="english-question question-title">
-              <span className="question-num">{current+1}.</span>
-              <span className="question-text-wrap">{questionEn}</span>
             </div>
 
 
+            <div className="question-box">
 
-            {
-              questionKo &&
 
-              <div className="korean-question">
+              <div className="english-question question-title">
 
-                {questionKo}
+                <span className="question-num">
+                  {current + 1}.
+                </span>
+
+                <span className="question-text-wrap">
+                  {questionEn}
+                </span>
 
               </div>
 
-            }
+
+              {
+                questionKo &&
+
+                <div className="korean-question">
+
+                  {questionKo}
+
+                </div>
+              }
 
 
-          </div>
+            </div>
 
 
+            <div className="answer-box">
 
 
+              {
+                q.options.map((item, index) => {
 
 
-
-          <div className="answer-box">
-
-
-
-          {
-            q.options.map((item,index)=>{
+                  const option =
+                    item.split(/\r?\n/);
 
 
-              const option =
-              item.split(/\r?\n/);
+                  return (
+
+                    <label
+
+                      key={index}
+
+                      className={
+                        answers[current] === index
+                          ?
+                          "answer selected"
+                          :
+                          "answer"
+                      }
+
+                    >
 
 
+                      <input
 
-              return (
+                        type="radio"
 
+                        checked={
+                          answers[current] === index
+                        }
 
-                <label
+                        onChange={() =>
+                          selectAnswer(index)
+                        }
 
-                  key={index}
-
-                  className={
-                    answers[current]===index
-                    ?
-                    "answer selected"
-                    :
-                    "answer"
-                  }
-
-                >
+                      />
 
 
-
-                  <input
-
-                    type="radio"
-
-                    checked={
-                      answers[current]===index
-                    }
-
-                    onChange={()=>selectAnswer(index)}
-
-                  />
+                      <div className="option-text">
 
 
+                        <div className="option-en">
+
+                          {index + 1}. {option[0]}
+
+                        </div>
 
 
+                        {
+                          option[1] &&
 
-                  <div className="option-text">
+                          <div className="option-ko">
 
+                            {option[1]}
 
-                    <div className="option-en">
+                          </div>
+                        }
 
-                      {index+1}. {option[0]}
-
-                    </div>
-
-
-
-                    {
-                      option[1] &&
-
-                      <div className="option-ko">
-
-                        {option[1]}
 
                       </div>
 
-                    }
 
+                    </label>
 
-                  </div>
+                  );
 
-
-
-                </label>
-
-
-              );
-
-
-            })
-          }
-
-
-
-          </div>
-
-
-
-
-
-
-
-          <div className="control">
-
-
-            <button
-
-              onClick={() => setShowCalc(true)}
-
-            >
-
-              계산기
-
-            </button>
-
-
-
-            <button
-
-              disabled={current===0}
-
-              onClick={()=>
-                setCurrent(current-1)
+                })
               }
 
-            >
 
-              이전
-
-            </button>
+            </div>
 
 
+            <div className="control">
 
-
-
-
-            {
-              current < questions.length - 1
-
-              ?
 
               <button
 
-                onClick={()=>
-                  setCurrent(current+1)
+                onClick={() =>
+                  setShowCalc(true)
                 }
 
               >
 
-                다음
+                계산기
 
               </button>
-
-
-              :
 
 
               <button
 
-                onClick={submitExam}
+                disabled={current === 0}
+
+                onClick={() =>
+                  setCurrent(current - 1)
+                }
 
               >
 
-                제출
+                이전
 
               </button>
 
-            }
 
+              {
+                current < questions.length - 1
 
+                  ?
 
+                  <button
 
-
-            <button
-
-              onClick={onBack}
-
-            >
-
-              종료
-
-            </button>
-
-
-
-          </div>
-
-
-
-
-
-        </main>
-
-
-
-
-        <aside className="answer-sheet">
-
-
-          <div className="answer-sheet-title">
-
-            답안 표기란
-
-          </div>
-
-
-
-          <div className="answer-sheet-list">
-
-
-            {
-
-              questions.map((qItem,qIndex)=>{
-
-
-                return (
-
-                  <div
-
-                    key={qIndex}
-
-                    className={
-
-                      qIndex===current
-                      ?
-                      "answer-sheet-row current"
-                      :
-                      "answer-sheet-row"
-
+                    onClick={() =>
+                      setCurrent(current + 1)
                     }
 
                   >
 
+                    다음
 
-                    <span className="row-number">
+                  </button>
 
-                      {qIndex+1}
+                  :
 
-                    </span>
+                  <button
 
+                    onClick={submitExam}
 
+                  >
 
-                    <span className="row-options">
+                    제출
 
-
-                      {
-
-                        qItem.options.map((op,i)=>{
-
-
-                          const selected =
-                          answers[qIndex]===i;
+                  </button>
+              }
 
 
-                          return (
+              <button
 
-                            <button
+                onClick={onBack}
 
-                              key={i}
+              >
 
-                              type="button"
+                종료
 
-                              className={
-
-                                selected
-                                ?
-                                "option-circle selected"
-                                :
-                                "option-circle"
-
-                              }
-
-                              onClick={()=>
-                                selectAnswerFor(qIndex,i)
-                              }
-
-                            >
-
-                              {i+1}
-
-                            </button>
-
-                          );
+              </button>
 
 
-                        })
+            </div>
+
+
+          </main>
+
+
+          <aside className="answer-sheet">
+
+
+            <div className="answer-sheet-title">
+
+              답안 표기란
+
+            </div>
+
+
+            <div className="answer-sheet-list">
+
+
+              {
+
+                questions.map((qItem, qIndex) => {
+
+
+                  return (
+
+                    <div
+
+                      key={qIndex}
+
+                      className={
+
+                        qIndex === current
+
+                          ?
+
+                          "answer-sheet-row current"
+
+                          :
+
+                          "answer-sheet-row"
 
                       }
 
-
-                    </span>
-
-
-                  </div>
+                    >
 
 
-                );
+                      <span className="row-number">
+
+                        {qIndex + 1}
+
+                      </span>
 
 
-              })
-
-            }
+                      <span className="row-options">
 
 
-          </div>
+                        {
+
+                          qItem.options.map((op, i) => {
 
 
-        </aside>
+                            const selected =
+                              answers[qIndex] === i;
 
 
+                            return (
+
+                              <button
+
+                                key={i}
+
+                                type="button"
+
+                                className={
+
+                                  selected
+
+                                    ?
+
+                                    "option-circle selected"
+
+                                    :
+
+                                    "option-circle"
+
+                                }
+
+                                onClick={() =>
+                                  selectAnswerFor(
+                                    qIndex,
+                                    i
+                                  )
+                                }
+
+                              >
+
+                                {i + 1}
+
+                              </button>
+
+                            );
+
+                          })
+
+                        }
+
+
+                      </span>
+
+
+                    </div>
+
+                  );
+
+                })
+
+              }
+
+
+            </div>
+
+
+          </aside>
 
 
         </div>
 
 
-
       </div>
 
 
+      {
+        showCalc &&
 
-      {showCalc && <Calculator onClose={() => setShowCalc(false)} />}
+        <Calculator
+          onClose={() =>
+            setShowCalc(false)
+          }
+        />
 
+      }
 
 
     </div>
 
   );
-
 
 }
 
