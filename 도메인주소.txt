@@ -1,12 +1,12 @@
 🚀 확인된 배포 정보
 관리자 페이지(Admin URL):
-https://app.netlify.com/projects/kndt-cbt  
+https://app.netlify.com/projects/HIENDT-CBT  
 → 여기서 배포 기록, 로그, 도메인 설정 등을 관리할 수 있습니다.
 
 프로덕션 주소(URL):
-https://kndt-cbt.netlify.app  
+https://HIENDT-CBT.netlify.app  
 → 이 주소로 접속하면 바로 CBT 시스템을 웹에서 확인할 수 있습니다.
 
 특정 배포 버전 URL:
-https://6a582d6fe1d9e9c253e6bba8--kndt-cbt.netlify.app  
+https://6a582d6fe1d9e9c253e6bba8--HIENDT-CBT.netlify.app  
 → 특정 빌드 버전을 확인할 때 유용합니다.

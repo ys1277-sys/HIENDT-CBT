@@ -1,355 +1,1192 @@
-﻿/* ===============================
-   HIENDT-CBT PRINT STYLE
-   =============================== */
 
+/* =========================================================
+HIENDT-CBT PRINT STYLE
+========================================================= */
 
 .print-area {
-  display:none;
+  display: none;
 }
 
 
-/* A4 */
+/* =========================================================
+A4 PAPER
+========================================================= */
 
-.exam-paper {
+.print-paper {
+  width: 190mm;
+  min-width: 190mm;
+  max-width: 190mm;
 
-  width:210mm;
+  height: 277mm;
+  min-height: 277mm;
+  max-height: 277mm;
 
-  min-height:297mm;
+  box-sizing: border-box;
 
-  padding:15mm;
+  padding: 0;
+  margin: 0;
 
-  box-sizing:border-box;
-
-  background:white;
-
-  color:black;
+  background: #fff;
+  color: #000;
 
   font-family:
     "Noto Sans KR",
     Arial,
     sans-serif;
 
+  overflow: hidden;
+
+  page-break-after: always;
+  break-after: page;
+
+  page-break-inside: avoid;
+  break-inside: avoid;
 }
 
 
+/* =========================================================
+HEADER
+========================================================= */
 
-/* ===============================
-   HEADER
-   =============================== */
+.print-header {
+  width: 190mm;
 
+  margin: 0;
+  padding: 0;
 
-.paper-header {
+  box-sizing: border-box;
 
-  margin-bottom:25px;
-
+  page-break-inside: avoid;
+  break-inside: avoid;
 }
 
 
-.paper-header h1 {
+/* =========================================================
+HEADER TABLE
+========================================================= */
 
-  text-align:center;
+.doc-header-table {
+  width: 190mm;
 
-  font-size:28px;
+  border-collapse: collapse;
+  border-spacing: 0;
 
-  margin-bottom:10px;
+  table-layout: fixed;
 
+  margin: 0;
+  padding: 0;
+
+  color: #000;
+
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.doc-header-table td {
+  border: 1px solid #000;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  vertical-align: middle;
 }
 
 
+/* =========================================================
+상단 1~2행
+HANKUK 50% / Examination Series 50%
+========================================================= */
 
-.paper-header h2 {
+.dh-top-cell {
+  width: 100% !important;
 
-  text-align:center;
+  height: 18mm;
 
-  font-size:20px;
+  padding: 0 !important;
 
-  margin-bottom:25px;
+  border: 0 !important;
+}
 
+.dh-top-table {
+  width: 100%;
+
+  height: 18mm;
+
+  border-collapse: collapse;
+  border-spacing: 0;
+
+  table-layout: fixed;
+
+  margin: 0;
+  padding: 0;
+}
+
+.dh-top-table td {
+  border: 1px solid #000;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  vertical-align: middle;
 }
 
 
+/* =========================================================
+BRAND
+정확히 50%
+========================================================= */
 
-.exam-info {
+.dh-brand {
+  width: 50% !important;
 
-  width:100%;
+  height: 18mm;
 
-  border-collapse:collapse;
+  vertical-align: middle !important;
+}
 
-  margin-bottom:30px;
+.dh-brand-inner {
+  width: 100%;
+  height: 100%;
 
+  display: flex;
+
+  align-items: center;
+  justify-content: flex-start;
+
+  padding-left: 4mm;
+
+  box-sizing: border-box;
 }
 
 
+/* =========================================================
+LOGO
+========================================================= */
 
-.exam-info td {
+.dh-logo-img {
+  width: 15mm;
+  height: 15mm;
 
-  border:1px solid #000;
+  object-fit: contain;
 
-  padding:8px;
+  flex-shrink: 0;
 
-  font-size:13px;
-
+  margin-right: 5mm;
 }
 
 
+/* =========================================================
+HANKUK
+========================================================= */
 
-.exam-info td:nth-child(odd){
+.dh-company {
+  display: flex;
 
-  width:18%;
+  align-items: baseline;
 
-  font-weight:bold;
+  gap: 5px;
 
-  background:#f5f5f5;
+  white-space: nowrap;
 
+  font-size: 22px;
+}
+
+.dh-company-main {
+  display: inline-block;
+
+  font-family:
+    "Times New Roman",
+    Times,
+    serif;
+
+  font-size: 100%;
+
+  font-weight: bold;
+
+  font-style: italic;
+
+  text-decoration: underline;
+
+  letter-spacing: 0.5px;
+
+  line-height: 1;
+}
+
+.dh-company-sub {
+  display: inline-block;
+
+  font-family:
+    Arial,
+    sans-serif;
+
+  font-size: 62%;
+
+  font-weight: normal;
+
+  letter-spacing: 0;
+
+  line-height: 1;
 }
 
 
+/* =========================================================
+EXAMINATION SERIES
+정확히 50%
+========================================================= */
 
-/* ===============================
-   TITLE
-   =============================== */
+.dh-series {
+  width: 50% !important;
 
+  height: 9mm;
 
-.paper-title {
+  padding-left: 5mm !important;
 
-  text-align:center;
+  text-align: left;
 
-  font-size:22px;
-
-  margin:25px 0 35px 0;
-
-}
-
-
-
-/* ===============================
-   QUESTION
-   =============================== */
-
-
-.question-print {
-
-  margin-bottom:25px;
-
-  page-break-inside:avoid;
-
-}
-
-
-
-.question-print h3 {
-
-  font-size:15px;
-
-  line-height:1.6;
-
-  margin-bottom:8px;
-
-}
-
-
-
-.question-korean {
-
-  font-size:14px;
-
-  color:#555;
-
-  margin-bottom:12px;
-
-}
-
-
-
-/* ===============================
-   OPTION
-   =============================== */
-
-
-.option{
-
-  display:flex;
-
-  align-items:flex-start;
-
-  gap:12px;
-
-  margin:12px 0;
-
-  line-height:1.5;
-
-}
-
-
-
-/* 번호 원 (기본) */
-
-.number-box{
-
-  width:20px;
-
-  height: 20px;
-
-  min-width: 20px;
-
-  border-radius:50%;
-
-  display:flex;
-
-  align-items:center;
-
-  justify-content:center;
-
-  font-weight:bold;
+  font-family:
+    "Times New Roman",
+    Times,
+    serif;
 
   font-size: 12px;
 
-  border:1px solid #999;
+  font-weight: normal;
+
+  color: #000;
+
+  line-height: 9mm;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+}
+
+
+/* =========================================================
+두 번째 상단 왼쪽 영역
+========================================================= */
+
+.dh-brand-bottom {
+  width: 50% !important;
+
+  height: 9mm;
+
+  padding: 0 !important;
+}
+
+
+/* =========================================================
+EXAMINATION QUESTIONS
+========================================================= */
+
+.dh-title {
+  width: 50% !important;
+
+  height: 9mm;
+
+  padding-left: 5mm !important;
+
+  text-align: left;
+
+  font-family:
+    "Times New Roman",
+    Times,
+    serif;
+
+  font-size: 12px;
+
+  font-weight: normal;
+
+  color: #000;
+
+  line-height: 9mm;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+}
+
+
+/* =========================================================
+NAME
+기존 58%
+========================================================= */
+
+.dh-name {
+  width: 58% !important;
+
+  height: 9mm !important;
+
+  padding-left: 4mm !important;
+
+  text-align: left;
+
+  vertical-align: middle !important;
+
+  font-family:
+    "Times New Roman",
+    Times,
+    serif;
+
+  font-size: 12px;
+
+  line-height: 9mm;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+}
+
+
+/* =========================================================
+NDE LEVEL
+기존 21%
+========================================================= */
+
+.dh-level-cell {
+  width: 21% !important;
+
+  height: 9mm !important;
+
+  padding: 0 !important;
+
+  text-align: center;
+
+  vertical-align: middle !important;
+
+  font-family:
+    "Times New Roman",
+    Times,
+    serif;
+
+  font-size: 11px;
+
+  line-height: 9mm;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+}
+
+
+/* =========================================================
+PAGE
+기존 21%
+========================================================= */
+
+.dh-page-cell {
+  width: 21% !important;
+
+  height: 9mm !important;
+
+  padding: 0 !important;
+
+  text-align: center;
+
+  vertical-align: middle !important;
+
+  font-family:
+    "Times New Roman",
+    Times,
+    serif;
+
+  font-size: 11px;
+
+  line-height: 9mm;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+}
+
+
+/* =========================================================
+HEADER BOTTOM SPACE
+========================================================= */
+
+.print-header-space {
+  width: 190mm;
+  height: 6mm;
+}
+
+
+/* =========================================================
+COVER
+========================================================= */
+
+.cover {
+  padding:
+    8mm
+    6mm
+    10mm
+    6mm;
+
+  box-sizing: border-box;
+
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.cover h2 {
+  text-align: center;
+
+  font-size: 24px;
+
+  font-weight: bold;
+
+  letter-spacing: 4px;
+
+  margin:
+    18mm
+    0
+    35mm
+    0;
+}
+
+.cover-row {
+  display: flex;
+
+  justify-content: space-between;
+
+  margin: 18px 0;
+
+  font-size: 14px;
+}
+
+.cover-row:nth-of-type(2) {
+  justify-content: flex-end;
+
+  gap: 40px;
+}
+
+
+/* =========================================================
+NOTE
+========================================================= */
+
+.note {
+  margin-top: 50px;
+
+  font-size: 14px;
+
+  line-height: 1.9;
+}
+
+.note b {
+  display: block;
+
+  margin-bottom: 16px;
+
+  font-size: 15px;
+}
+
+.note p {
+  margin:
+    0
+    0
+    20px
+    0;
+
+  padding-left: 24px;
+
+  text-indent: -24px;
+
+  font-size: 14px;
+
+  line-height: 1.9;
+}
+
+
+/* =========================================================
+APPROVED
+========================================================= */
+
+.approved {
+  margin-top: 65px;
+
+  text-align: right;
+
+  font-size: 14px;
+
+  padding-right: 20px;
+
+  line-height: 1.8;
+}
+
+
+/* =========================================================
+QUESTIONS
+========================================================= */
+
+.questions-content {
+  width: 100%;
+
+  box-sizing: border-box;
+
+  padding: 0;
+}
+
+.question-print {
+  display: block;
+
+  width: 100%;
+
+  margin:
+    0
+    0
+    10px
+    0;
+
+  padding: 0;
+
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.question-title {
+  font-size: 14px;
+
+  font-weight: bold;
+
+  line-height: 1.4;
+
+  margin:
+    0
+    0
+    4px
+    0;
+}
+
+.question-ko {
+  font-size: 13px;
+
+  color: #555;
+
+  line-height: 1.4;
+
+  margin:
+    0
+    0
+    6px
+    0;
+}
+
+
+/* =========================================================
+OPTIONS
+========================================================= */
+
+.option {
+  display: flex;
+
+  align-items: flex-start;
+
+  gap: 10px;
+
+  margin:
+    6px
+    0;
+
+  line-height: 1.3;
+
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.option-circle {
+  width: 24px;
+  height: 24px;
+
+  min-width: 24px;
+
+  border-radius: 50%;
+
+  border: 1px solid #777;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+
+  font-size: 13px;
+
+  font-weight: bold;
+
+  line-height: 1;
+}
+
+.option-circle.box-correct {
+  border: 3px solid blue;
+
+  color: blue;
+}
+
+.option-circle.box-wrong {
+  border: 3px solid red;
+
+  color: red;
+}
+
+.option-text {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  min-width: 0;
+
+  flex: 1;
+}
+
+.option-en {
+  font-size: 14px;
+
+  line-height: 1.35;
+}
+
+.option-ko {
+  font-size: 13px;
+
+  color: #555;
+
+  margin-top: 2px;
+
+  line-height: 1.3;
+}
+
+
+/* =========================================================
+LEGACY ANSWER CIRCLES
+========================================================= */
+
+.number-box {
+  width: 22px;
+  height: 22px;
+
+  min-width: 22px;
+
+  border-radius: 50%;
+
+  border: 1px solid #999;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  font-size: 12px;
+
+  font-weight: bold;
+
+  box-sizing: border-box;
+}
+
+.box-correct {
+  border: 3px solid blue;
+
+  color: blue;
+}
+
+.box-wrong {
+  border: 3px solid red;
+
+  color: red;
+}
+
+.answer-circle {
+  width: 26px;
+  height: 26px;
+
+  min-width: 26px;
+
+  border-radius: 50%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+
+  font-size: 14px;
+
+  border: 1px solid #999;
+}
+
+.correct-circle {
+  border: 3px solid blue;
+
+  color: blue;
+}
+
+.wrong-circle {
+  border: 3px solid red;
+
+  color: red;
+}
+
+
+/* =========================================================
+ANSWER SHEET
+========================================================= */
+
+.print-answer-sheet {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 6px 14px;
+}
+
+.print-answer-row {
+  display: flex;
+
+  align-items: center;
+
+  gap: 6px;
+
+  width: 23%;
+
+  font-size: 12px;
+}
+
+.print-row-status {
+  width: 20px;
+
+  text-align: center;
+}
+
+.status-circle {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 20px;
+  height: 20px;
+
+  border-radius: 50%;
+
+  border: 2px solid red;
+
+  color: red;
+
+  font-weight: bold;
+}
+
+.status-x {
+  color: red;
+
+  font-weight: bold;
+
+  font-size: 16px;
+}
+
+.print-row-options {
+  display: flex;
+
+  gap: 3px;
+}
+
+.print-option-circle {
+  position: relative;
+
+  width: 18px;
+  height: 18px;
+
+  border-radius: 50%;
+
+  border: 1px solid #666;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  font-size: 10px;
+
+  color: #333;
+}
+
+.print-option-circle.correct-slot {
+  border: 2px solid blue;
+
+  color: blue;
+}
+
+.pick-check {
+  position: absolute;
+
+  top: -8px;
+  right: -8px;
+
+  color: red;
+
+  font-size: 12px;
+
+  font-weight: bold;
+}
+
+
+/* =========================================================
+MEASURE AREA
+화면 및 인쇄 모두 완전 제외
+========================================================= */
+
+.print-measure-area {
+  position: fixed;
+
+  left: -200000px;
+  top: -200000px;
+
+  width: 190mm;
+
+  height: auto;
+
+  visibility: hidden;
+
+  pointer-events: none;
+
+  overflow: visible;
+
+  z-index: -9999;
+}
+
+.measure-header {
+  width: 190mm;
+}
+
+.measure-questions {
+  width: 190mm;
+}
+
+.measure-question {
+  display: block;
+
+  width: 190mm;
+
+  box-sizing: border-box;
+
+  margin:
+    0
+    0
+    10px
+    0;
+
+  padding: 0;
+
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+
+/* =========================================================
+SCREEN
+========================================================= */
+
+@media screen {
+
+  .print-area {
+    display: none !important;
+  }
+
+  .print-measure-area {
+    display: block;
+    visibility: hidden;
+  }
 
 }
 
 
-
-/* 정답 - 파란 배경 */
-
-.number-box.box-correct{
-
-  background:blue;
-
-  border:2px solid blue;
-
-  color:white;
-
-}
-
-
-
-/* 오답 - 빨간 배경 */
-
-.number-box.box-wrong{
-
-  background:red;
-
-  border:2px solid red;
-
-  color:white;
-
-}
-
-
-
-/* 보기 글자 */
-
-.option-text{
-
-  display:flex;
-
-  flex-direction:column;
-
-}
-
-
-
-.option-en{
-
-  font-size:14px;
-
-}
-
-
-
-.option-ko{
-
-  font-size:13px;
-
-  color:#555;
-
-  margin-top:3px;
-
-}
-
-
-
-/* ===============================
-   PAGE BREAK
-   =============================== */
-
-
-.page-break {
-
-  page-break-before:always;
-
-}
-
-
-
-/* ===============================
-   PRINT
-   =============================== */
-
+/* =========================================================
+PRINT
+========================================================= */
 
 @media print {
 
 
+  /* -----------------------------------------------
+  A4
+  ----------------------------------------------- */
+
   @page {
-
-    size:A4;
-
-    margin:10mm;
-
+    size: A4 portrait;
+    margin: 10mm;
   }
 
 
+  /* -----------------------------------------------
+  BODY
+  ----------------------------------------------- */
 
-  body * {
+  html,
+  body {
+    margin: 0 !important;
+    padding: 0 !important;
 
-    visibility:hidden;
+    width: 190mm !important;
 
+    background: #fff !important;
   }
 
 
+  /* -----------------------------------------------
+  React Root
+  ----------------------------------------------- */
 
-  .print-area,
+  #root {
+    margin: 0 !important;
+    padding: 0 !important;
 
-  .print-area * {
+    width: 190mm !important;
 
-    visibility:visible;
+    min-height: 0 !important;
+    height: auto !important;
 
+    background: #fff !important;
   }
 
 
+  /* -----------------------------------------------
+  측정 영역은 인쇄에서 완전 제거
+  ----------------------------------------------- */
+
+  .print-measure-area {
+    display: none !important;
+
+    visibility: hidden !important;
+
+    position: absolute !important;
+
+    left: -999999px !important;
+    top: -999999px !important;
+
+    width: 0 !important;
+    height: 0 !important;
+
+    min-width: 0 !important;
+    min-height: 0 !important;
+
+    max-width: 0 !important;
+    max-height: 0 !important;
+
+    overflow: hidden !important;
+  }
+
+
+  /* -----------------------------------------------
+  실제 인쇄 영역
+  ----------------------------------------------- */
 
   .print-area {
+    display: block !important;
 
-    display:block !important;
+    position: static !important;
 
-    position:absolute;
+    width: 190mm !important;
 
-    left:0;
+    min-width: 190mm !important;
+    max-width: 190mm !important;
 
-    top:0;
+    height: auto !important;
 
-    width:100%;
+    margin: 0 !important;
+    padding: 0 !important;
 
+    background: #fff !important;
   }
 
 
+  /* -----------------------------------------------
+  모든 일반 화면 요소 제거
+  print-area 자체는 제외
+  ----------------------------------------------- */
 
-  button {
-
-    display:none !important;
-
+  #root > *:not(.print-area) {
+    display: none !important;
   }
 
 
+  /* -----------------------------------------------
+  PAPER
+  ----------------------------------------------- */
+
+  .print-paper {
+    display: block !important;
+
+    width: 190mm !important;
+    min-width: 190mm !important;
+    max-width: 190mm !important;
+
+    height: 277mm !important;
+    min-height: 277mm !important;
+    max-height: 277mm !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    box-sizing: border-box !important;
+
+    overflow: hidden !important;
+
+    background: #fff !important;
+
+    page-break-before: auto !important;
+
+    page-break-after: always !important;
+
+    break-before: auto !important;
+
+    break-after: page !important;
+
+    page-break-inside: avoid !important;
+
+    break-inside: avoid !important;
+  }
+
+
+  /* -----------------------------------------------
+  마지막 PAPER만 다음 페이지 생성 금지
+  ----------------------------------------------- */
+
+  .print-paper:last-child {
+    page-break-after: auto !important;
+
+    break-after: auto !important;
+  }
+
+
+  /* -----------------------------------------------
+  HEADER
+  ----------------------------------------------- */
+
+  .print-header {
+    display: block !important;
+
+    width: 190mm !important;
+
+    height: auto !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    page-break-inside: avoid !important;
+
+    break-inside: avoid !important;
+  }
+
+  .doc-header-table {
+    display: table !important;
+
+    width: 190mm !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    page-break-inside: avoid !important;
+
+    break-inside: avoid !important;
+  }
+
+
+  /* -----------------------------------------------
+  상단 50 / 50
+  ----------------------------------------------- */
+
+  .dh-top-cell {
+    width: 100% !important;
+
+    padding: 0 !important;
+  }
+
+  .dh-top-table {
+    width: 100% !important;
+
+    table-layout: fixed !important;
+  }
+
+  .dh-brand,
+  .dh-series {
+    width: 50% !important;
+  }
+
+  .dh-brand-bottom,
+  .dh-title {
+    width: 50% !important;
+  }
+
+
+  /* -----------------------------------------------
+  HEADER SPACE
+  ----------------------------------------------- */
+
+  .print-header-space {
+    width: 190mm !important;
+
+    height: 6mm !important;
+
+    min-height: 6mm !important;
+  }
+
+
+  /* -----------------------------------------------
+  COVER
+  ----------------------------------------------- */
+
+  .cover-paper {
+    width: 190mm !important;
+
+    height: 277mm !important;
+
+    min-height: 277mm !important;
+    max-height: 277mm !important;
+
+    overflow: hidden !important;
+  }
+
+
+  /* -----------------------------------------------
+  QUESTION PAPER
+  ----------------------------------------------- */
+
+  .question-paper {
+    width: 190mm !important;
+
+    height: 277mm !important;
+
+    min-height: 277mm !important;
+    max-height: 277mm !important;
+
+    overflow: hidden !important;
+  }
+
+
+  /* -----------------------------------------------
+  QUESTIONS
+  ----------------------------------------------- */
+
+  .questions-content {
+    width: 190mm !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+  }
 
   .question-print {
+    page-break-inside: avoid !important;
 
-    page-break-inside:avoid;
-
+    break-inside: avoid !important;
   }
 
+  .option {
+    page-break-inside: avoid !important;
+
+    break-inside: avoid !important;
+  }
 
 }
-
-

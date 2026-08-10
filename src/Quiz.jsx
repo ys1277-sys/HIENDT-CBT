@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Result from "./Result.jsx";
 import ExamData from "./ExamData.jsx";
+import Calculator from "./Calculator.jsx";
 
 
 function Quiz({
@@ -16,6 +17,7 @@ function Quiz({
   const [current,setCurrent] = useState(0);
   const [answers,setAnswers] = useState({});
   const [showResult,setShowResult] = useState(false);
+  const [showCalc, setShowCalc] = useState(false);
 
 
 
@@ -393,10 +395,9 @@ await fetch(url);
           <div className="question-box">
 
 
-            <div className="english-question">
-
-              {current+1}. {questionEn}
-
+            <div className="english-question question-title">
+              <span className="question-num">{current+1}.</span>
+              <span className="question-text-wrap">{questionEn}</span>
             </div>
 
 
@@ -516,6 +517,18 @@ await fetch(url);
 
 
           <div className="control">
+
+
+            <button
+
+              onClick={() => setShowCalc(true)}
+
+            >
+
+              계산기
+
+            </button>
+
 
 
             <button
@@ -718,6 +731,10 @@ await fetch(url);
 
 
       </div>
+
+
+
+      {showCalc && <Calculator onClose={() => setShowCalc(false)} />}
 
 
 

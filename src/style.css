@@ -69,6 +69,12 @@ body{
 }
 
 
+.home-box button.active{
+  background:#e7f1ff;
+  color:#003b73;
+  border:2px solid #003b73;
+  font-weight:bold;
+}
 
 button{
 
@@ -193,11 +199,39 @@ button:disabled{
 
 
 
+/* 문제 번호 + 문장 정렬 (둘째 줄부터 첫 글자 위치에 맞춤) */
+
+.question-box .question-title{
+
+  display:flex;
+
+  gap:8px;
+
+}
+
+
+.question-box .question-num{
+
+  flex-shrink:0;
+
+}
+
+
+.question-box .question-text-wrap{
+
+  flex:1;
+
+}
+
+
+
 .english-question{
 
   font-size:18px;
 
   font-weight:bold;
+
+  white-space:pre-wrap;
 
 }
 
@@ -209,6 +243,7 @@ button:disabled{
 
   color:#555;
 
+  white-space:pre-wrap;
 }
 
 
@@ -242,11 +277,14 @@ button:disabled{
 
 
 .option-ko{
-
   color:#666;
-
   font-size:13px;
+  white-space:pre-wrap;
+  margin-top:6px;
+}
 
+.option-en{
+  white-space:pre-wrap;
 }
 
 
@@ -572,9 +610,9 @@ button{
 
 .option-circle{
 
-  width:24px;
+  width:20px;
 
-  height:24px;
+  height:20px;
 
   border-radius:50%;
 
@@ -584,7 +622,7 @@ button{
 
   color:#333;
 
-  font-size:12px;
+  font-size:11px;
 
   padding:0;
 
@@ -609,4 +647,47 @@ button{
 
   color:white;
 
+}
+.option-mark{
+  width:28px;
+  height:28px;
+  border-radius:50%;
+  border:1px solid #999;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  font-size:13px;
+  font-weight:bold;
+  flex-shrink:0;
+  margin-right:4px;
+}
+
+.answer.selected .option-mark{
+  background:#003b73;
+  border-color:#003b73;
+  color:white;
+}
+.number-box{
+  width:22px;
+  height:22px;
+  min-width:22px;
+  border-radius:50%;
+  border:1px solid #999;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:12px;
+  font-weight:bold;
+  align-self:flex-start;
+  margin-top:1px;
+}
+
+.box-correct{
+  border:3px solid blue;
+  color:blue;
+}
+
+.box-wrong{
+  border:3px solid red;
+  color:red;
 }

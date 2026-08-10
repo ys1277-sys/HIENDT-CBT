@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./print.css";
 
 function PrintQuestion({
 
@@ -64,12 +64,9 @@ function PrintQuestion({
 
 
         const qText =
-
-        typeof q.question === "string"
-
-        ? q.question.split("\n")
-
-        : [];
+typeof q.question === "string"
+? q.question.split("\n").filter(line => line.trim() !== "")
+: [];
 
 
 
@@ -131,12 +128,9 @@ function PrintQuestion({
 
 
             const optionText =
-
-            typeof op === "string"
-
-            ? op.split("\n")
-
-            : op;
+typeof op === "string"
+? op.split("\n").filter(line => line.trim() !== "")
+: op;
 
 
 
