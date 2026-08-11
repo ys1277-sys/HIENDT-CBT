@@ -315,7 +315,7 @@ NAME
 ========================================================= */
 
 .dh-name {
-  width: 58% !important;
+  width: 50% !important;
 
   height: 9mm !important;
 
@@ -346,7 +346,7 @@ NDE LEVEL
 ========================================================= */
 
 .dh-level-cell {
-  width: 21% !important;
+  width: 25% !important;
 
   height: 9mm !important;
 
@@ -377,7 +377,7 @@ PAGE
 ========================================================= */
 
 .dh-page-cell {
-  width: 21% !important;
+  width: 25% !important;
 
   height: 9mm !important;
 
