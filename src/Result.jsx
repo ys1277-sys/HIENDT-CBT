@@ -261,6 +261,22 @@ function Result({
    * PrintExam 내부에서 문제 페이지 분할/렌더링이
    * 실제로 끝난 시점에 onReady 콜백이 호출되어
    * 그 안에서 window.print()가 실행된다.
+   *
+   * =====================================================
+   * 중요 (수정됨)
+   *
+   * PrintExam(.print-area)이 #root의 "직계 자식"이어야
+   * print.css의
+   *   #root > *:not(.print-area) { display: none !important; }
+   * 규칙이 정상 동작한다.
+   *
+   * 기존에는 home-container div 안에 PrintExam이 있어서
+   * #root의 직계 자식은 home-container 하나뿐이었고,
+   * 그 규칙이 home-container 자체를 숨겨버려
+   * 그 안의 print-area까지 같이 사라지는 문제가 있었다.
+   *
+   * 그래서 아래처럼 <> Fragment로 감싸서
+   * home-container와 PrintExam을 형제(sibling)로 분리했다.
    * =====================================================
    */
 
@@ -272,94 +288,97 @@ function Result({
 
   return (
 
-
-    <div className="home-container">
-
-
-      <div className="home-box">
+    <>
 
 
+      <div className="home-container">
 
-        <h1>
-          시험 결과
-        </h1>
+
+        <div className="home-box">
 
 
 
-        <h2>
-          {name} 님
-        </h2>
+          <h1>
+            시험 결과
+          </h1>
 
 
 
-        <hr/>
+          <h2>
+            {name} 님
+          </h2>
 
 
 
-
-        <p>
-          Level : {level}
-        </p>
-
-
-
-        <p>
-          시험 : {method} {subject}
-        </p>
+          <hr/>
 
 
 
 
-        <h2>
-          점수 : {score}점
-        </h2>
+          <p>
+            Level : {level}
+          </p>
+
+
+
+          <p>
+            시험 : {method} {subject}
+          </p>
 
 
 
 
-        <h2>
-          {result}
-        </h2>
+          <h2>
+            점수 : {score}점
+          </h2>
 
 
 
 
-        <p>
-          정답 : {correct} / {total}
-        </p>
+          <h2>
+            {result}
+          </h2>
 
 
 
 
-        <button
-
-          onClick={()=>setPrint(true)}
-
-        >
-
-          문제지 출력
-
-        </button>
+          <p>
+            정답 : {correct} / {total}
+          </p>
 
 
 
 
-        <button
+          <button
 
-          onClick={onBack}
+            onClick={()=>setPrint(true)}
 
-        >
+          >
 
-          처음 화면
+            문제지 출력
 
-        </button>
+          </button>
 
 
+
+
+          <button
+
+            onClick={onBack}
+
+          >
+
+            처음 화면
+
+          </button>
+
+
+
+
+        </div>
 
 
       </div>
-
-
 
 
 
@@ -413,7 +432,7 @@ function Result({
 
 
 
-    </div>
+    </>
 
 
   );

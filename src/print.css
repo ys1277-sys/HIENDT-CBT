@@ -1,30 +1,65 @@
-
 /* =========================================================
-HIENDT-CBT PRINT STYLE
-========================================================= */
+   HIENDT-CBT PRINT STYLE
+   FINAL
+   ========================================================= */
 
 .print-area {
   display: none;
 }
 
+.print-measure-area {
+  position: fixed;
+  left: -200000px;
+  top: -200000px;
+
+  width: 190mm;
+
+  visibility: hidden;
+  pointer-events: none;
+
+  overflow: visible;
+  z-index: -9999;
+}
+
+.measure-questions {
+  width: 190mm;
+}
+
+.measure-question {
+  width: 190mm;
+
+  box-sizing: border-box;
+
+  margin: 0 0 10px 0;
+  padding: 0;
+
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
 
 /* =========================================================
-A4 PAPER
-========================================================= */
+   PAPER
+   ========================================================= */
 
 .print-paper {
   width: 190mm;
   min-width: 190mm;
   max-width: 190mm;
 
-  height: 277mm;
-  min-height: 277mm;
-  max-height: 277mm;
+  /*
+    277mm를 정확히 채우면 브라우저 프린트 엔진의
+    반올림 때문에 빈 페이지가 생길 수 있음.
+    276mm로 안정화.
+  */
+  height: 276mm;
+  min-height: 276mm;
+  max-height: 276mm;
+
+  margin: 0;
+  padding: 0;
 
   box-sizing: border-box;
-
-  padding: 0;
-  margin: 0;
 
   background: #fff;
   color: #000;
@@ -36,17 +71,26 @@ A4 PAPER
 
   overflow: hidden;
 
-  page-break-after: always;
-  break-after: page;
-
   page-break-inside: avoid;
   break-inside: avoid;
 }
 
 
+/*
+  두 번째 PAPER부터 새 페이지 시작.
+
+  page-break-after 방식은 사용하지 않음.
+  마지막 빈 페이지 발생 방지.
+*/
+.print-paper + .print-paper {
+  page-break-before: always;
+  break-before: page;
+}
+
+
 /* =========================================================
-HEADER
-========================================================= */
+   HEADER
+   ========================================================= */
 
 .print-header {
   width: 190mm;
@@ -60,21 +104,16 @@ HEADER
   break-inside: avoid;
 }
 
-
-/* =========================================================
-HEADER TABLE
-========================================================= */
-
 .doc-header-table {
   width: 190mm;
+
+  margin: 0;
+  padding: 0;
 
   border-collapse: collapse;
   border-spacing: 0;
 
   table-layout: fixed;
-
-  margin: 0;
-  padding: 0;
 
   color: #000;
 
@@ -94,114 +133,126 @@ HEADER TABLE
 
 
 /* =========================================================
-상단 1~2행
-HANKUK 50% / Examination Series 50%
-========================================================= */
-
-.dh-top-cell {
-  width: 100% !important;
-
-  height: 18mm;
-
-  padding: 0 !important;
-
-  border: 0 !important;
-}
-
-.dh-top-table {
-  width: 100%;
-
-  height: 18mm;
-
-  border-collapse: collapse;
-  border-spacing: 0;
-
-  table-layout: fixed;
-
-  margin: 0;
-  padding: 0;
-}
-
-.dh-top-table td {
-  border: 1px solid #000;
-
-  padding: 0;
-
-  box-sizing: border-box;
-
-  vertical-align: middle;
-}
-
-
-/* =========================================================
-BRAND
-정확히 50%
-========================================================= */
+   상단
+   50% / 50%
+   ========================================================= */
 
 .dh-brand {
   width: 50% !important;
 
-  height: 18mm;
+  height: 18mm !important;
+
+  padding: 0 !important;
 
   vertical-align: middle !important;
 }
 
-.dh-brand-inner {
-  width: 100%;
-  height: 100%;
+.dh-series {
+  width: 50% !important;
 
-  display: flex;
+  height: 9mm !important;
 
-  align-items: center;
-  justify-content: flex-start;
+  padding: 0 2mm !important;
 
-  padding-left: 4mm;
-
-  box-sizing: border-box;
-}
-
-
-/* =========================================================
-LOGO
-========================================================= */
-
-.dh-logo-img {
-  width: 15mm;
-  height: 15mm;
-
-  object-fit: contain;
-
-  flex-shrink: 0;
-
-  margin-right: 5mm;
-}
-
-
-/* =========================================================
-HANKUK
-========================================================= */
-
-.dh-company {
-  display: flex;
-
-  align-items: baseline;
-
-  gap: 5px;
-
-  white-space: nowrap;
-
-  font-size: 22px;
-}
-
-.dh-company-main {
-  display: inline-block;
+  text-align: center !important;
+  vertical-align: middle !important;
 
   font-family:
     "Times New Roman",
     Times,
     serif;
 
-  font-size: 100%;
+  font-size: 14px !important;
+
+  line-height: 1.1;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+}
+
+.dh-title {
+  width: 50% !important;
+
+  height: 9mm !important;
+
+  padding: 0 2mm !important;
+
+  text-align: center !important;
+  vertical-align: middle !important;
+
+  font-family:
+    "Times New Roman",
+    Times,
+    serif;
+
+  font-size: 14px !important;
+
+  line-height: 1.1;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+}
+
+
+/* =========================================================
+   HANKUK + INDUSTRIAL ENGINEERING
+   ========================================================= */
+
+.dh-brand-inner {
+  width: 100%;
+  height: 18mm;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: flex-start;
+
+  box-sizing: border-box;
+
+  padding-left: 1mm;
+  padding-right: 1mm;
+
+  overflow: hidden;
+}
+
+.dh-logo-img {
+  width: 14mm;
+  height: 14mm;
+
+  object-fit: contain;
+
+  flex-shrink: 0;
+
+  margin-right: 2mm;
+}
+
+.dh-company {
+  display: flex;
+
+  align-items: baseline;
+
+  gap: 3px;
+
+  white-space: nowrap;
+
+  min-width: 0;
+
+  overflow: hidden;
+}
+
+.dh-company-main {
+  display: inline-block;
+
+  flex-shrink: 0;
+
+  font-family:
+    "Times New Roman",
+    Times,
+    serif;
+
+  font-size: 20px;
 
   font-weight: bold;
 
@@ -209,120 +260,69 @@ HANKUK
 
   text-decoration: underline;
 
-  letter-spacing: 0.5px;
-
   line-height: 1;
+
+  white-space: nowrap;
 }
 
 .dh-company-sub {
   display: inline-block;
 
+  flex-shrink: 1;
+
   font-family:
     Arial,
     sans-serif;
 
-  font-size: 62%;
+  font-size: 12px;
 
   font-weight: normal;
-
-  letter-spacing: 0;
 
   line-height: 1;
-}
-
-
-/* =========================================================
-EXAMINATION SERIES
-정확히 50%
-========================================================= */
-
-.dh-series {
-  width: 50% !important;
-
-  height: 9mm;
-
-  padding-left: 5mm !important;
-
-  text-align: left;
-
-  font-family:
-    "Times New Roman",
-    Times,
-    serif;
-
-  font-size: 12px;
-
-  font-weight: normal;
-
-  color: #000;
-
-  line-height: 9mm;
 
   white-space: nowrap;
-
-  overflow: hidden;
 }
 
 
 /* =========================================================
-두 번째 상단 왼쪽 영역
-========================================================= */
+   기존 구조용
+   ========================================================= */
+
+.dh-top-cell {
+  width: 100% !important;
+}
+
+.dh-top-table {
+  width: 100%;
+
+  border-collapse: collapse;
+
+  table-layout: fixed;
+}
 
 .dh-brand-bottom {
-  width: 50% !important;
-
-  height: 9mm;
-
-  padding: 0 !important;
+  display: none !important;
 }
 
 
 /* =========================================================
-EXAMINATION QUESTIONS
-========================================================= */
-
-.dh-title {
-  width: 50% !important;
-
-  height: 9mm;
-
-  padding-left: 5mm !important;
-
-  text-align: left;
-
-  font-family:
-    "Times New Roman",
-    Times,
-    serif;
-
-  font-size: 12px;
-
-  font-weight: normal;
-
-  color: #000;
-
-  line-height: 9mm;
-
-  white-space: nowrap;
-
-  overflow: hidden;
-}
-
-
-/* =========================================================
-NAME
-기존 58%
-========================================================= */
+   NAME / NDE / PAGE
+   정확히 50 / 25 / 25
+   ========================================================= */
 
 .dh-name {
   width: 50% !important;
 
   height: 9mm !important;
 
-  padding-left: 4mm !important;
+  /*
+    NAME : 을 너무 왼쪽에 붙지 않도록
+    기존보다 여백 확보
+  */
+  padding-left: 6mm !important;
+  padding-right: 2mm !important;
 
-  text-align: left;
-
+  text-align: left !important;
   vertical-align: middle !important;
 
   font-family:
@@ -338,12 +338,6 @@ NAME
 
   overflow: hidden;
 }
-
-
-/* =========================================================
-NDE LEVEL
-기존 21%
-========================================================= */
 
 .dh-level-cell {
   width: 25% !important;
@@ -352,8 +346,7 @@ NDE LEVEL
 
   padding: 0 !important;
 
-  text-align: center;
-
+  text-align: center !important;
   vertical-align: middle !important;
 
   font-family:
@@ -361,7 +354,7 @@ NDE LEVEL
     Times,
     serif;
 
-  font-size: 11px;
+  font-size: 12px;
 
   line-height: 9mm;
 
@@ -369,12 +362,6 @@ NDE LEVEL
 
   overflow: hidden;
 }
-
-
-/* =========================================================
-PAGE
-기존 21%
-========================================================= */
 
 .dh-page-cell {
   width: 25% !important;
@@ -383,8 +370,7 @@ PAGE
 
   padding: 0 !important;
 
-  text-align: center;
-
+  text-align: center !important;
   vertical-align: middle !important;
 
   font-family:
@@ -392,7 +378,7 @@ PAGE
     Times,
     serif;
 
-  font-size: 11px;
+  font-size: 12px;
 
   line-height: 9mm;
 
@@ -403,18 +389,32 @@ PAGE
 
 
 /* =========================================================
-HEADER BOTTOM SPACE
-========================================================= */
+   HEADER SPACE
+   ========================================================= */
 
 .print-header-space {
   width: 190mm;
+
   height: 6mm;
+  min-height: 6mm;
+
+  box-sizing: border-box;
 }
 
 
 /* =========================================================
-COVER
-========================================================= */
+   COVER
+   ========================================================= */
+
+.cover-paper {
+  width: 190mm;
+
+  height: 276mm;
+  min-height: 276mm;
+  max-height: 276mm;
+
+  overflow: hidden;
+}
 
 .cover {
   padding:
@@ -424,9 +424,6 @@ COVER
     6mm;
 
   box-sizing: border-box;
-
-  page-break-inside: avoid;
-  break-inside: avoid;
 }
 
 .cover h2 {
@@ -463,8 +460,8 @@ COVER
 
 
 /* =========================================================
-NOTE
-========================================================= */
+   NOTE
+   ========================================================= */
 
 .note {
   margin-top: 50px;
@@ -500,8 +497,8 @@ NOTE
 
 
 /* =========================================================
-APPROVED
-========================================================= */
+   APPROVED
+   ========================================================= */
 
 .approved {
   margin-top: 65px;
@@ -517,14 +514,15 @@ APPROVED
 
 
 /* =========================================================
-QUESTIONS
-========================================================= */
+   QUESTIONS
+   ========================================================= */
 
 .questions-content {
-  width: 100%;
+  width: 190mm;
 
   box-sizing: border-box;
 
+  margin: 0;
   padding: 0;
 }
 
@@ -559,6 +557,14 @@ QUESTIONS
     0;
 }
 
+.question-num {
+  display: inline-block;
+}
+
+.question-text-wrap {
+  display: inline;
+}
+
 .question-ko {
   font-size: 13px;
 
@@ -575,8 +581,8 @@ QUESTIONS
 
 
 /* =========================================================
-OPTIONS
-========================================================= */
+   OPTIONS
+   ========================================================= */
 
 .option {
   display: flex;
@@ -661,8 +667,8 @@ OPTIONS
 
 
 /* =========================================================
-LEGACY ANSWER CIRCLES
-========================================================= */
+   LEGACY
+   ========================================================= */
 
 .number-box {
   width: 22px;
@@ -732,8 +738,8 @@ LEGACY ANSWER CIRCLES
 
 
 /* =========================================================
-ANSWER SHEET
-========================================================= */
+   ANSWER SHEET
+   ========================================================= */
 
 .print-answer-sheet {
   display: flex;
@@ -834,60 +840,8 @@ ANSWER SHEET
 
 
 /* =========================================================
-MEASURE AREA
-화면 및 인쇄 모두 완전 제외
-========================================================= */
-
-.print-measure-area {
-  position: fixed;
-
-  left: -200000px;
-  top: -200000px;
-
-  width: 190mm;
-
-  height: auto;
-
-  visibility: hidden;
-
-  pointer-events: none;
-
-  overflow: visible;
-
-  z-index: -9999;
-}
-
-.measure-header {
-  width: 190mm;
-}
-
-.measure-questions {
-  width: 190mm;
-}
-
-.measure-question {
-  display: block;
-
-  width: 190mm;
-
-  box-sizing: border-box;
-
-  margin:
-    0
-    0
-    10px
-    0;
-
-  padding: 0;
-
-  page-break-inside: avoid;
-  break-inside: avoid;
-}
-
-
-/* =========================================================
-SCREEN
-========================================================= */
+   SCREEN
+   ========================================================= */
 
 @media screen {
 
@@ -897,32 +851,22 @@ SCREEN
 
   .print-measure-area {
     display: block;
+
     visibility: hidden;
   }
-
 }
 
 
 /* =========================================================
-PRINT
-========================================================= */
+   PRINT
+   ========================================================= */
 
 @media print {
-
-
-  /* -----------------------------------------------
-  A4
-  ----------------------------------------------- */
 
   @page {
     size: A4 portrait;
     margin: 10mm;
   }
-
-
-  /* -----------------------------------------------
-  BODY
-  ----------------------------------------------- */
 
   html,
   body {
@@ -934,11 +878,6 @@ PRINT
     background: #fff !important;
   }
 
-
-  /* -----------------------------------------------
-  React Root
-  ----------------------------------------------- */
-
   #root {
     margin: 0 !important;
     padding: 0 !important;
@@ -946,19 +885,36 @@ PRINT
     width: 190mm !important;
 
     min-height: 0 !important;
+
     height: auto !important;
 
     background: #fff !important;
   }
 
 
-  /* -----------------------------------------------
-  측정 영역은 인쇄에서 완전 제거
-  ----------------------------------------------- */
+  /* =======================================================
+     화면에 떠 있던 배경 화면(결과 화면 / 관리자 목록 / 시험
+     화면) 완전히 제거.
+
+     visibility:hidden은 레이아웃 공간을 그대로 차지해서
+     인쇄 시 빈 페이지가 여러 장 생기는 원인이 되므로,
+     반드시 display:none으로 완전히 제거해야 함.
+     ======================================================= */
+
+  .home-container,
+  .admin-controls,
+  .admin-results,
+  .cbt-page {
+    display: none !important;
+  }
+
+
+  /* =======================================================
+     측정 영역 완전 제거
+     ======================================================= */
 
   .print-measure-area {
     display: none !important;
-
     visibility: hidden !important;
 
     position: absolute !important;
@@ -979,9 +935,9 @@ PRINT
   }
 
 
-  /* -----------------------------------------------
-  실제 인쇄 영역
-  ----------------------------------------------- */
+  /* =======================================================
+     실제 출력
+     ======================================================= */
 
   .print-area {
     display: block !important;
@@ -1002,30 +958,27 @@ PRINT
   }
 
 
-  /* -----------------------------------------------
-  모든 일반 화면 요소 제거
-  print-area 자체는 제외
-  ----------------------------------------------- */
-
-  #root > *:not(.print-area) {
-    display: none !important;
-  }
-
-
-  /* -----------------------------------------------
-  PAPER
-  ----------------------------------------------- */
+  /* =======================================================
+     PAPER
+     ======================================================= */
 
   .print-paper {
     display: block !important;
 
     width: 190mm !important;
+
     min-width: 190mm !important;
     max-width: 190mm !important;
 
-    height: 277mm !important;
-    min-height: 277mm !important;
-    max-height: 277mm !important;
+    /*
+      277mm가 아니라 276mm.
+      정확한 페이지 끝에서 발생하는
+      브라우저 반올림 / 빈 페이지 문제 방지.
+    */
+    height: 276mm !important;
+
+    min-height: 276mm !important;
+    max-height: 276mm !important;
 
     margin: 0 !important;
     padding: 0 !important;
@@ -1036,34 +989,29 @@ PRINT
 
     background: #fff !important;
 
-    page-break-before: auto !important;
-
-    page-break-after: always !important;
-
-    break-before: auto !important;
-
-    break-after: page !important;
+    page-break-after: auto !important;
+    break-after: auto !important;
 
     page-break-inside: avoid !important;
-
     break-inside: avoid !important;
   }
 
 
-  /* -----------------------------------------------
-  마지막 PAPER만 다음 페이지 생성 금지
-  ----------------------------------------------- */
+  /*
+    첫 PAPER 뒤가 아니라
+    두 번째 PAPER부터 페이지를 시작.
 
-  .print-paper:last-child {
-    page-break-after: auto !important;
-
-    break-after: auto !important;
+    마지막 PAPER에도 break-after 없음.
+  */
+  .print-area > .print-paper + .print-paper {
+    page-break-before: always !important;
+    break-before: page !important;
   }
 
 
-  /* -----------------------------------------------
-  HEADER
-  ----------------------------------------------- */
+  /* =======================================================
+     HEADER
+     ======================================================= */
 
   .print-header {
     display: block !important;
@@ -1076,7 +1024,6 @@ PRINT
     padding: 0 !important;
 
     page-break-inside: avoid !important;
-
     break-inside: avoid !important;
   }
 
@@ -1088,42 +1035,80 @@ PRINT
     margin: 0 !important;
     padding: 0 !important;
 
-    page-break-inside: avoid !important;
+    table-layout: fixed !important;
 
+    border-collapse: collapse !important;
+    border-spacing: 0 !important;
+
+    page-break-inside: avoid !important;
     break-inside: avoid !important;
   }
 
 
-  /* -----------------------------------------------
-  상단 50 / 50
-  ----------------------------------------------- */
+  /* =======================================================
+     TOP
+     ======================================================= */
 
-  .dh-top-cell {
-    width: 100% !important;
+  .dh-brand {
+    width: 50% !important;
 
-    padding: 0 !important;
+    height: 18mm !important;
   }
 
-  .dh-top-table {
-    width: 100% !important;
-
-    table-layout: fixed !important;
-  }
-
-  .dh-brand,
   .dh-series {
     width: 50% !important;
+
+    height: 9mm !important;
   }
 
-  .dh-brand-bottom,
   .dh-title {
     width: 50% !important;
+
+    height: 9mm !important;
   }
 
 
-  /* -----------------------------------------------
-  HEADER SPACE
-  ----------------------------------------------- */
+  /* =======================================================
+     BOTTOM
+     50 / 25 / 25
+     ======================================================= */
+
+  .dh-name {
+    width: 50% !important;
+
+    height: 9mm !important;
+
+    line-height: 9mm !important;
+
+    padding-left: 6mm !important;
+
+    text-align: left !important;
+  }
+
+  .dh-level-cell {
+    width: 25% !important;
+
+    height: 9mm !important;
+
+    line-height: 9mm !important;
+
+    text-align: center !important;
+  }
+
+  .dh-page-cell {
+    width: 25% !important;
+
+    height: 9mm !important;
+
+    line-height: 9mm !important;
+
+    text-align: center !important;
+  }
+
+
+  /* =======================================================
+     HEADER SPACE
+     ======================================================= */
 
   .print-header-space {
     width: 190mm !important;
@@ -1134,46 +1119,49 @@ PRINT
   }
 
 
-  /* -----------------------------------------------
-  COVER
-  ----------------------------------------------- */
+  /* =======================================================
+     COVER
+     ======================================================= */
 
   .cover-paper {
     width: 190mm !important;
 
-    height: 277mm !important;
+    height: 276mm !important;
 
-    min-height: 277mm !important;
-    max-height: 277mm !important;
+    min-height: 276mm !important;
+
+    max-height: 276mm !important;
 
     overflow: hidden !important;
   }
 
 
-  /* -----------------------------------------------
-  QUESTION PAPER
-  ----------------------------------------------- */
+  /* =======================================================
+     QUESTION PAPER
+     ======================================================= */
 
   .question-paper {
     width: 190mm !important;
 
-    height: 277mm !important;
+    height: 276mm !important;
 
-    min-height: 277mm !important;
-    max-height: 277mm !important;
+    min-height: 276mm !important;
+
+    max-height: 276mm !important;
 
     overflow: hidden !important;
   }
 
 
-  /* -----------------------------------------------
-  QUESTIONS
-  ----------------------------------------------- */
+  /* =======================================================
+     QUESTIONS
+     ======================================================= */
 
   .questions-content {
     width: 190mm !important;
 
     margin: 0 !important;
+
     padding: 0 !important;
   }
 
@@ -1189,4 +1177,13 @@ PRINT
     break-inside: avoid !important;
   }
 
+
+  /* =======================================================
+     NOTE
+     1 / 2 / 3만 표시
+     ======================================================= */
+
+  .note p:nth-of-type(n + 4) {
+    display: none !important;
+  }
 }

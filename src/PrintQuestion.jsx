@@ -1,3 +1,4 @@
+```javascriptreact
 import React from "react";
 import "./print.css";
 
@@ -242,3 +243,4 @@ typeof op === "string"
 
 
 export default PrintQuestion;
+```
