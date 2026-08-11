@@ -5,8 +5,13 @@ import * as math from "mathjs";
 export default function Calculator({ onClose }) {
   const [expr, setExpr] = useState("");
   const [result, setResult] = useState("");
-  const [pos, setPos] = useState({ x: 0, y: 0 }); // 화면 중앙 기준 이동 거리
-  const dragInfo = useRef({ dragging: false, startX: 0, startY: 0 });
+  const [pos, setPos] = useState({ x: 0, y: 0 });
+
+  const dragInfo = useRef({
+    dragging: false,
+    startX: 0,
+    startY: 0,
+  });
 
   const press = (val) => {
     setExpr((prev) => prev + val);
@@ -31,13 +36,34 @@ export default function Calculator({ onClose }) {
   };
 
   const buttons = [
-    "sin(", "cos(", "tan(", "sqrt(",
-    "log(", "ln(", "^", "π",
-    "(", ")", "%", "÷",
-    "7", "8", "9", "×",
-    "4", "5", "6", "-",
-    "1", "2", "3", "+",
-    "0", ".", "C", "=",
+    "sin(",
+    "cos(",
+    "tan(",
+    "sqrt(",
+    "log(",
+    "ln(",
+    "^",
+    "π",
+    "(",
+    ")",
+    "%",
+    "÷",
+    "7",
+    "8",
+    "9",
+    "×",
+    "4",
+    "5",
+    "6",
+    "-",
+    "1",
+    "2",
+    "3",
+    "+",
+    "0",
+    ".",
+    "C",
+    "=",
   ];
 
   const handleClick = (btn) => {
@@ -46,22 +72,25 @@ export default function Calculator({ onClose }) {
     if (btn === "÷") return press("/");
     if (btn === "×") return press("*");
     if (btn === "π") return press("pi");
+
     return press(btn);
   };
 
-  // 헤더를 마우스로 눌러서 끌면 계산기 위치가 이동
+  // 헤더를 마우스로 눌러서 끌면 계산기 위치 이동
   const startDrag = (e) => {
     dragInfo.current = {
       dragging: true,
       startX: e.clientX - pos.x,
       startY: e.clientY - pos.y,
     };
+
     window.addEventListener("mousemove", onDrag);
     window.addEventListener("mouseup", stopDrag);
   };
 
   const onDrag = (e) => {
     if (!dragInfo.current.dragging) return;
+
     setPos({
       x: e.clientX - dragInfo.current.startX,
       y: e.clientY - dragInfo.current.startY,
@@ -70,20 +99,37 @@ export default function Calculator({ onClose }) {
 
   const stopDrag = () => {
     dragInfo.current.dragging = false;
+
     window.removeEventListener("mousemove", onDrag);
     window.removeEventListener("mouseup", stopDrag);
   };
 
   return (
-    <div className="calcw-overlay" onClick={onClose}>
+    <div
+      className="calcw-overlay"
+      onClick={(e) => e.stopPropagation()}
+    >
       <div
         className="calcw-box"
-        style={{ transform: `translate(${pos.x}px, ${pos.y}px)` }}
+        style={{
+          transform: `translate(${pos.x}px, ${pos.y}px)`,
+        }}
         onClick={(e) => e.stopPropagation()}
       >
-        <div className="calcw-header" onMouseDown={startDrag}>
-          <span>🖩 공학용 계산기 (여기를 끌면 이동)</span>
-          <button className="calcw-close" onClick={onClose}>
+        <div
+          className="calcw-header"
+          onMouseDown={startDrag}
+        >
+          <span>
+            🖩 공학용 계산기
+          </span>
+
+          <button
+            type="button"
+            className="calcw-close"
+            onMouseDown={(e) => e.stopPropagation()}
+            onClick={onClose}
+          >
             ✕
           </button>
         </div>
@@ -94,14 +140,21 @@ export default function Calculator({ onClose }) {
           onChange={(e) => setExpr(e.target.value)}
           placeholder="식을 입력하거나 버튼을 누르세요"
         />
-        <div className="calcw-result">{result}</div>
+
+        <div className="calcw-result">
+          {result}
+        </div>
 
         <div className="calcw-grid">
           {buttons.map((btn) => (
             <button
               key={btn}
               type="button"
-              className={btn === "=" ? "calcw-btn calcw-equals" : "calcw-btn"}
+              className={
+                btn === "="
+                  ? "calcw-btn calcw-equals"
+                  : "calcw-btn"
+              }
               onClick={() => handleClick(btn)}
             >
               {btn}
@@ -109,12 +162,15 @@ export default function Calculator({ onClose }) {
           ))}
         </div>
 
-        <button type="button" className="calcw-backspace" onClick={backspace}>
+        <button
+          type="button"
+          className="calcw-backspace"
+          onClick={backspace}
+        >
           ← 지우기
         </button>
       </div>
 
-      {/* 사이트 기존 CSS보다 우선 적용되도록 !important 로 강제 지정 */}
       <style>{`
         .calcw-overlay {
           position: fixed !important;
@@ -122,20 +178,22 @@ export default function Calculator({ onClose }) {
           left: 0 !important;
           width: 100% !important;
           height: 100% !important;
-          background: rgba(0,0,0,0.4) !important;
+          background: rgba(0, 0, 0, 0.4) !important;
           display: flex !important;
           align-items: center !important;
           justify-content: center !important;
           z-index: 9999 !important;
         }
+
         .calcw-box {
           width: 300px !important;
           background: #ffffff !important;
           border-radius: 12px !important;
           padding: 16px !important;
-          box-shadow: 0 8px 24px rgba(0,0,0,0.25) !important;
+          box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25) !important;
           font-family: sans-serif !important;
         }
+
         .calcw-header {
           display: flex !important;
           justify-content: space-between !important;
@@ -147,6 +205,7 @@ export default function Calculator({ onClose }) {
           cursor: move !important;
           user-select: none !important;
         }
+
         .calcw-close {
           border: none !important;
           background: transparent !important;
@@ -155,6 +214,7 @@ export default function Calculator({ onClose }) {
           color: #111111 !important;
           line-height: 1 !important;
         }
+
         .calcw-expr {
           width: 100% !important;
           box-sizing: border-box !important;
@@ -166,6 +226,7 @@ export default function Calculator({ onClose }) {
           color: #111111 !important;
           background: #ffffff !important;
         }
+
         .calcw-result {
           text-align: right !important;
           font-size: 20px !important;
@@ -174,11 +235,13 @@ export default function Calculator({ onClose }) {
           margin-bottom: 10px !important;
           color: #1a56db !important;
         }
+
         .calcw-grid {
           display: grid !important;
           grid-template-columns: repeat(4, 1fr) !important;
           gap: 6px !important;
         }
+
         .calcw-btn {
           padding: 10px 0 !important;
           font-size: 15px !important;
@@ -188,17 +251,21 @@ export default function Calculator({ onClose }) {
           color: #111111 !important;
           cursor: pointer !important;
         }
+
         .calcw-btn:hover {
           background: #e9e9e9 !important;
         }
+
         .calcw-equals {
           border: none !important;
           background: #1a56db !important;
           color: #ffffff !important;
         }
+
         .calcw-equals:hover {
           background: #1544ac !important;
         }
+
         .calcw-backspace {
           width: 100% !important;
           margin-top: 8px !important;

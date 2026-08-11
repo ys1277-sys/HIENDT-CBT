@@ -253,31 +253,16 @@ function Result({
 
 
 
-  useEffect(()=>{
-
-
-    if(!print) return;
-
-
-
-    const timer =
-
-      setTimeout(()=>{
-
-
-        window.print();
-
-
-      },300);
-
-
-
-
-    return ()=>clearTimeout(timer);
-
-
-
-  },[print]);
+  /*
+   * =====================================================
+   * window.print() 는 더 이상 setTimeout으로 호출하지 않는다.
+   *
+   * print 상태가 true가 되면 아래에서 PrintExam이 렌더링되고,
+   * PrintExam 내부에서 문제 페이지 분할/렌더링이
+   * 실제로 끝난 시점에 onReady 콜백이 호출되어
+   * 그 안에서 window.print()가 실행된다.
+   * =====================================================
+   */
 
 
 
@@ -385,42 +370,43 @@ function Result({
         print &&
 
 
-        <div className="print-area">
+        <PrintExam
 
 
-          <PrintExam
+          name={name}
 
 
-            name={name}
+          level={level}
 
 
-            level={level}
+          method={method}
 
 
-            method={method}
+          subject={subject}
 
 
-            subject={subject}
+          questions={questions}
 
 
-            questions={questions}
+          answers={answers}
 
 
-            answers={answers}
+          date={
+
+            new Date()
+            .toLocaleDateString()
+
+          }
 
 
-            date={
+          onReady={
 
-              new Date()
-              .toLocaleDateString()
+            () => window.print()
 
-            }
-
-
-          />
+          }
 
 
-        </div>
+        />
 
 
       }

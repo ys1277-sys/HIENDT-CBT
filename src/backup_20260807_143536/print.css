@@ -1,0 +1,394 @@
+﻿/* ===============================
+   HIENDT-CBT PRINT STYLE
+   =============================== */
+
+
+.print-area {
+  display:none;
+}
+
+
+/* A4 */
+
+.exam-paper {
+
+  width:210mm;
+
+  min-height:297mm;
+
+  padding:15mm;
+
+  box-sizing:border-box;
+
+  background:white;
+
+  color:black;
+
+  font-family:
+    "Noto Sans KR",
+    Arial,
+    sans-serif;
+
+}
+
+
+
+/* ===============================
+   HEADER
+   =============================== */
+
+
+.paper-header {
+
+  margin-bottom:25px;
+
+}
+
+
+.paper-header h1 {
+
+  text-align:center;
+
+  font-size:28px;
+
+  margin-bottom:10px;
+
+}
+
+
+
+.paper-header h2 {
+
+  text-align:center;
+
+  font-size:20px;
+
+  margin-bottom:25px;
+
+}
+
+
+
+.exam-info {
+
+  width:100%;
+
+  border-collapse:collapse;
+
+  margin-bottom:30px;
+
+}
+
+
+
+.exam-info td {
+
+  border:1px solid #000;
+
+  padding:8px;
+
+  font-size:13px;
+
+}
+
+
+
+.exam-info td:nth-child(odd){
+
+  width:18%;
+
+  font-weight:bold;
+
+  background:#f5f5f5;
+
+}
+
+
+
+/* ===============================
+   TITLE
+   =============================== */
+
+
+.paper-title {
+
+  text-align:center;
+
+  font-size:22px;
+
+  margin:25px 0 35px 0;
+
+}
+
+
+
+/* ===============================
+   QUESTION
+   =============================== */
+
+
+.question-print {
+
+  margin-bottom:25px;
+
+  page-break-inside:avoid;
+
+}
+
+
+
+.question-print h3 {
+
+  font-size:15px;
+
+  line-height:1.6;
+
+  margin-bottom:8px;
+
+}
+
+
+
+.question-korean {
+
+  font-size:14px;
+
+  color:#555;
+
+  margin-bottom:12px;
+
+}
+
+
+
+/* ===============================
+   OPTION
+   =============================== */
+
+
+.option{
+
+  display:flex;
+
+  align-items:flex-start;
+
+  gap:12px;
+
+  margin:12px 0;
+
+  line-height:1.5;
+
+}
+
+
+
+/* 번호 원 (기본) */
+
+.number-box{
+
+  width:20px;
+
+  height: 20px;
+
+  min-width: 20px;
+
+  border-radius:50%;
+
+  display:flex;
+
+  align-items:center;
+
+  justify-content:center;
+
+  font-weight:bold;
+
+  font-size: 12px;
+
+  border:1px solid #999;
+
+}
+
+
+
+/* 정답 - 파란 배경 */
+
+.number-box.box-correct{
+
+  background:blue;
+
+  border:2px solid blue;
+
+  color:white;
+
+}
+
+
+
+/* 오답 - 빨간 배경 */
+
+.number-box.box-wrong{
+
+  background:red;
+
+  border:2px solid red;
+
+  color:white;
+
+}
+
+
+
+/* 보기 글자 */
+
+.option-text{
+
+  display:flex;
+
+  flex-direction:column;
+
+}
+
+
+
+.option-en{
+
+  font-size:14px;
+
+}
+
+
+
+.option-ko{
+
+  font-size:13px;
+
+  color:#555;
+
+  margin-top:3px;
+
+}
+
+
+
+/* ===============================
+   PAGE BREAK
+   =============================== */
+
+
+.page-break {
+
+  page-break-before:always;
+
+}
+
+
+
+/* ===============================
+   PRINT
+   =============================== */
+
+
+@media print {
+
+
+  @page {
+
+    size:A4;
+
+    margin:10mm;
+
+  }
+
+
+
+  body * {
+
+    visibility:hidden;
+
+  }
+
+
+
+  .print-area,
+
+  .print-area * {
+
+    visibility:visible;
+
+  }
+
+
+
+  .print-area {
+
+    display:block !important;
+
+    position:absolute;
+
+    left:0;
+
+    top:0;
+
+    width:100%;
+
+  }
+
+
+
+  button {
+
+    display:none !important;
+
+  }
+
+
+
+  .question-print {
+
+    page-break-inside:avoid;
+
+  }
+
+
+}
+
+
+
+/* 상단 문서 헤더 (로고 + 시험 정보) */
+.doc-header-table{
+  width:100%;
+  border-collapse:collapse;
+  margin-bottom:15px;
+}
+.doc-header-table td{
+  border:1px solid #000;
+  padding:6px 10px;
+  font-size:13px;
+  vertical-align:middle;
+}
+.dh-logo{
+  width:220px;
+  text-align:center;
+}
+.dh-logo-img{
+  width:36px;
+  height:36px;
+  vertical-align:middle;
+}
+.dh-company{
+  display:inline-block;
+  font-weight:bold;
+  font-size:15px;
+  letter-spacing:0.5px;
+  vertical-align:middle;
+  margin-left:8px;
+  line-height:1.3;
+}
+.dh-name{
+  width:240px;
+}
+.dh-level,
+.dh-page{
+  text-align:center;
+  width:140px;
+}

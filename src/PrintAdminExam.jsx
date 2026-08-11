@@ -7,7 +7,6 @@
 import "./print.css";
 import logo from "./logo.png";
 
-
 function PrintAdminExam({
 
   questions = [],
@@ -24,7 +23,6 @@ function PrintAdminExam({
 
 }) {
 
-
   const numberCircle = [
     "①",
     "②",
@@ -32,18 +30,14 @@ function PrintAdminExam({
     "④"
   ];
 
-
   const [questionPages, setQuestionPages] =
     useState([]);
-
 
   const measureRef =
     useRef(null);
 
-
   const onReadyRef =
     useRef(onReady);
-
 
   useLayoutEffect(() => {
 
@@ -273,7 +267,6 @@ function PrintAdminExam({
 
     });
 
-
   }, [
     questions,
     answers,
@@ -291,7 +284,7 @@ function PrintAdminExam({
    * 전체 페이지
    *
    * 표지 1페이지
-   * + 문제 페이지
+   * 문제 페이지
    * =====================================================
    */
 
@@ -315,106 +308,131 @@ function PrintAdminExam({
         className="print-header"
       >
 
+
         <table
           className="doc-header-table"
         >
 
-          <colgroup>
-
-            <col
-              style={{
-                width: "58%"
-              }}
-            />
-
-            <col
-              style={{
-                width: "21%"
-              }}
-            />
-
-            <col
-              style={{
-                width: "21%"
-              }}
-            />
-
-          </colgroup>
-
-
           <tbody>
 
+
+            {/* =================================================
+                상단 1~2행
+                HANKUK 50% / Examination Series 50%
+                ================================================= */}
+
             <tr>
 
               <td
-                className="dh-brand"
-                rowSpan="2"
+                className="dh-top-cell"
+                colSpan="3"
               >
 
-                <div
-                  className="dh-brand-inner"
+                <table
+                  className="dh-top-table"
                 >
 
-                  <img
-                    src={logo}
-                    alt="HANKUK"
-                    className="dh-logo-img"
-                  />
+                  <tbody>
+
+                    <tr>
 
 
-                  <div
-                    className="dh-company"
-                  >
+                      {/* =========================================
+                          HANKUK INDUSTRIAL ENGINEERING
+                          정확히 50%
+                          ========================================= */}
 
-                    <span
-                      className="dh-company-main"
-                    >
-                      HANKUK
-                    </span>
+                      <td
+                        className="dh-brand"
+                      >
 
+                        <div
+                          className="dh-brand-inner"
+                        >
 
-                    <span
-                      className="dh-company-sub"
-                    >
-                      INDUSTRIAL ENGINEERING
-                    </span>
-
-                  </div>
-
-                </div>
-
-              </td>
+                          <img
+                            src={logo}
+                            alt="HANKUK"
+                            className="dh-logo-img"
+                          />
 
 
-              <td
-                className="dh-series"
-                colSpan="2"
-              >
+                          <div
+                            className="dh-company"
+                          >
 
-                Examination Series No.{" "}
+                            <span
+                              className="dh-company-main"
+                            >
+                              HANKUK
+                            </span>
 
-                {method || ""}
+
+                            <span
+                              className="dh-company-sub"
+                            >
+                              INDUSTRIAL ENGINEERING
+                            </span>
+
+                          </div>
+
+                        </div>
+
+                      </td>
+
+
+                      {/* =========================================
+                          Examination Series No.
+                          정확히 50%
+                          ========================================= */}
+
+                      <td
+                        className="dh-series"
+                      >
+
+                        Examination Series No.{" "}
+
+                        {method || ""}
+
+                      </td>
+
+                    </tr>
+
+
+                    <tr>
+
+                      <td
+                        className="dh-brand-bottom"
+                      >
+                      </td>
+
+
+                      <td
+                        className="dh-title"
+                      >
+
+                        {method || ""}{" "}
+
+                        {subject || ""} Examination Questions
+
+                      </td>
+
+                    </tr>
+
+                  </tbody>
+
+                </table>
 
               </td>
 
             </tr>
 
 
-            <tr>
-
-              <td
-                className="dh-title"
-                colSpan="2"
-              >
-
-                {method || ""}{" "}
-
-                {subject || ""} Examination Questions
-
-              </td>
-
-            </tr>
-
+            {/* =================================================
+                3행
+                NAME 58% / NDE 21% / PAGE 21%
+                기존 구조 유지
+                ================================================= */}
 
             <tr>
 
@@ -472,7 +490,6 @@ function PrintAdminExam({
     q,
     index
   }) {
-
 
     const correct =
       Number(
@@ -570,7 +587,6 @@ function PrintAdminExam({
               op,
               i
             ) => {
-
 
               const optionLines =
                 String(
@@ -906,7 +922,6 @@ function PrintAdminExam({
               pageIndex
             ) => {
 
-
               const pageNumber =
                 pageIndex + 2;
 
@@ -989,6 +1004,5 @@ function PrintAdminExam({
   );
 
 }
-
 
 export default PrintAdminExam;

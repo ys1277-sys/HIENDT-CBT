@@ -1,315 +1,561 @@
-﻿import React from "react";
-import logo from "./logo.png";
+﻿import React, {
+  useLayoutEffect,
+  useRef,
+  useState
+} from "react";
+
 import "./print.css";
+import logo from "./logo.png";
 
 function PrintExam({
-  name,
-  level,
-  method,
-  subject,
+
   questions = [],
   answers = {},
-  date
+
+  name = "",
+  level = "",
+  method = "",
+  subject = "",
+  date = "",
+
+  onReady
+
 }) {
-  const numberCircle = ["①", "②", "③", "④"];
 
-  const levelText = level
-    ? level.replace("Level ", "")
-    : "";
+  const numberCircle = [
+    "①",
+    "②",
+    "③",
+    "④"
+  ];
 
-  return (
-    <div className="print-area">
+  const [questionPages, setQuestionPages] =
+    useState([]);
 
-      <table className="print-layout">
-        <thead>
-          <tr>
-            <td className="print-header-cell">
+  const measureRef =
+    useRef(null);
 
-              {/* 상단 날짜 / HIENDT-CBT */}
-              <div className="print-top-line">
-                <span className="print-date">
-                  {date || ""}
-                </span>
+  const onReadyRef =
+    useRef(onReady);
 
-                <span className="print-system-title">
-                  HIENDT-CBT
-                </span>
-              </div>
+  useLayoutEffect(() => {
+
+    onReadyRef.current =
+      onReady;
+
+  }, [onReady]);
 
 
-              {/* =========================
-                  시험지 상단 고정 헤더
-                 ========================= */}
-              <table className="doc-header-table">
-                <tbody>
+  /*
+   * =====================================================
+   * 문제 페이지 자동 분할 (PrintAdminExam과 동일 로직)
+   * =====================================================
+   */
 
-                  {/* 1행 */}
-                  <tr>
+  useLayoutEffect(() => {
 
-                    <td
-                      className="dh-brand"
-                      rowSpan="2"
-                    >
-                      <div className="dh-brand-inner">
+    if (
+      !questions ||
+      questions.length === 0
+    ) {
 
-                        <img
-                          src={logo}
-                          alt="HANKUK"
-                          className="dh-logo-img"
-                        />
+      setQuestionPages([]);
 
-                        <div className="dh-company">
-                          <span className="dh-company-main">
-                            HANKUK
-                          </span>
+      requestAnimationFrame(() => {
 
-                          <span className="dh-company-sub">
-                            INDUSTRIAL ENGINEERING
-                          </span>
+        if (onReadyRef.current) {
+
+          onReadyRef.current();
+
+        }
+
+      });
+
+      return;
+
+    }
+
+
+    const container =
+      measureRef.current;
+
+
+    if (!container) {
+
+      return;
+
+    }
+
+
+    const questionElements =
+      Array.from(
+        container.querySelectorAll(
+          ".measure-question"
+        )
+      );
+
+
+    if (questionElements.length === 0) {
+
+      return;
+
+    }
+
+
+    const MM =
+      3.7795275591;
+
+    const PAGE_HEIGHT =
+      277 * MM;
+
+    const HEADER_HEIGHT_MM =
+      33;
+
+    const headerHeight =
+      HEADER_HEIGHT_MM * MM;
+
+    const SAFETY =
+      2 * MM;
+
+    const availableHeight =
+      PAGE_HEIGHT -
+      headerHeight -
+      SAFETY;
+
+
+    const pages = [];
+
+    let currentPage = [];
+
+    let currentHeight = 0;
+
+
+    questionElements.forEach(
+      (element, index) => {
+
+        const height =
+          element.getBoundingClientRect().height;
+
+
+        if (
+          currentPage.length > 0 &&
+          currentHeight + height > availableHeight
+        ) {
+
+          pages.push(currentPage);
+
+          currentPage = [];
+
+          currentHeight = 0;
+
+        }
+
+
+        currentPage.push(index);
+
+        currentHeight += height;
+
+      }
+    );
+
+
+    if (currentPage.length > 0) {
+
+      pages.push(currentPage);
+
+    }
+
+
+    const result =
+      pages.map(
+        page =>
+          page.map(index => questions[index])
+      );
+
+
+    setQuestionPages(result);
+
+
+    requestAnimationFrame(() => {
+
+      requestAnimationFrame(() => {
+
+        if (onReadyRef.current) {
+
+          onReadyRef.current();
+
+        }
+
+      });
+
+    });
+
+  }, [
+    questions,
+    answers,
+    name,
+    level,
+    method,
+    subject,
+    date
+  ]);
+
+
+  const totalPages =
+    questionPages.length + 1;
+
+
+  function Header({ page }) {
+
+    return (
+
+      <div className="print-header">
+
+        <table className="doc-header-table">
+
+          <tbody>
+
+            <tr>
+
+              <td className="dh-top-cell" colSpan="3">
+
+                <table className="dh-top-table">
+
+                  <tbody>
+
+                    <tr>
+
+                      <td className="dh-brand">
+
+                        <div className="dh-brand-inner">
+
+                          <img
+                            src={logo}
+                            alt="HANKUK"
+                            className="dh-logo-img"
+                          />
+
+                          <div className="dh-company">
+
+                            <span className="dh-company-main">
+                              HANKUK
+                            </span>
+
+                            <span className="dh-company-sub">
+                              INDUSTRIAL ENGINEERING
+                            </span>
+
+                          </div>
+
                         </div>
 
-                      </div>
-                    </td>
+                      </td>
+
+                      <td className="dh-series">
+                        Examination Series No. {method || ""}
+                      </td>
+
+                    </tr>
+
+                    <tr>
+
+                      <td className="dh-brand-bottom"></td>
+
+                      <td className="dh-title">
+                        {method || ""} {subject || ""} Examination Questions
+                      </td>
+
+                    </tr>
+
+                  </tbody>
+
+                </table>
+
+              </td>
+
+            </tr>
+
+            <tr>
+
+              <td className="dh-name">
+                NAME : {name || ""}
+              </td>
+
+              <td className="dh-level-cell">
+                NDE {level || ""}
+              </td>
+
+              <td className="dh-page-cell">
+                PAGE {page} OF {totalPages}
+              </td>
+
+            </tr>
+
+          </tbody>
+
+        </table>
+
+        <div className="print-header-space" />
+
+      </div>
+
+    );
+
+  }
 
 
-                    <td
-                      className="dh-series"
-                    >
-                      Examination Series No. {method}
-                    </td>
+  function Question({ q, index }) {
 
-                  </tr>
+    const correct =
+      Number(q && q.answer);
 
+    const rawUserAnswer =
+      answers ? answers[index] : undefined;
 
-                  {/* 2행 */}
-                  <tr>
+    const user =
+      rawUserAnswer === undefined ||
+      rawUserAnswer === null ||
+      rawUserAnswer === ""
+        ? -1
+        : Number(rawUserAnswer);
 
-                    <td className="dh-title">
-                      {method} {subject} Examination Questions
-                    </td>
-
-                  </tr>
-
-
-                  {/* 3행 */}
-                  <tr>
-
-                    <td className="dh-name">
-                      NAME : {name || ""}
-                    </td>
-
-                    <td className="dh-bottom-right">
-
-                      <div className="dh-level">
-                        NDE Level {levelText}
-                      </div>
-
-                      <div className="dh-page">
-                        PAGE 1 OF 7
-                      </div>
-
-                    </td>
-
-                  </tr>
-
-                </tbody>
-              </table>
-
-            </td>
-          </tr>
-        </thead>
+    const questionLines =
+      String(q && q.question ? q.question : "")
+        .split(/\r?\n/)
+        .filter(line => line.trim() !== "");
 
 
-        <tbody>
-          <tr>
-            <td>
+    return (
 
-              {/* =========================
-                  표지
-                 ========================= */}
+      <div className="question-print">
 
-              <div className="cover-content">
+        <div className="question-title">
 
-                <h2 className="cover-title">
-                  {method} {subject ? subject.toUpperCase() : ""}
-                </h2>
+          <span className="question-num">
+            {index + 1}.
+          </span>{" "}
 
+          <span className="question-text-wrap">
+            {questionLines[0] || ""}
+          </span>
 
-                <div className="cover-field-row">
-                  <span>
-                    NAME {name || ""}
-                  </span>
+        </div>
 
-                  <span>
-                    DATE {date || ""}
-                  </span>
+        {questionLines[1] && (
+
+          <div className="question-ko">
+            {questionLines[1]}
+          </div>
+
+        )}
+
+        {Array.isArray(q && q.options) &&
+
+          q.options.map((op, i) => {
+
+            const optionLines =
+              String(op || "")
+                .split(/\r?\n/)
+                .filter(line => line.trim() !== "");
+
+            let circleClass = "option-circle";
+
+            if (i === correct) {
+
+              circleClass += " box-correct";
+
+            }
+
+            if (i === user && i !== correct) {
+
+              circleClass += " box-wrong";
+
+            }
+
+            return (
+
+              <div className="option" key={i}>
+
+                <span className={circleClass}>
+                  {numberCircle[i] || ""}
+                </span>
+
+                <div className="option-text">
+
+                  <div className="option-en">
+                    {optionLines[0] || ""}
+                  </div>
+
+                  {optionLines[1] && (
+
+                    <div className="option-ko">
+                      {optionLines[1]}
+                    </div>
+
+                  )}
+
                 </div>
-
-
-                <div className="cover-field-row">
-                  <span>
-                    Start :
-                  </span>
-
-                  <span>
-                    Finish :
-                  </span>
-                </div>
-
-
-                <div className="cover-field-row">
-                  <span>
-                    SCORE
-                  </span>
-
-                  <span>
-                    EXAMINER
-                  </span>
-                </div>
-
-
-                <div className="cover-note">
-
-                  <p>
-                    NOTE :
-                  </p>
-
-                  <p>
-                    1. This is closed book examination. No reference
-                    material may be used during examination.
-                    <br />
-                    시험도중 서적을 참고할 수 없음
-                  </p>
-
-                  <p>
-                    2. Questions about the intent of examination question
-                    will be answered during the examination.
-                    <br />
-                    문제에 대한 질문에 한해서 답변함
-                  </p>
-
-                  <p>
-                    3. This examination must be completed in ink or
-                    ball-point pen.
-                    <br />
-                    답변은 볼펜 또는 잉크로 기록할 것
-                  </p>
-
-                  <p>
-                    4. Examination administered for qualification shall
-                    result in a composite grade of at least 80%, with no
-                    individual examination having a grade less than 70%.
-                    <br />
-                    과락은 70%이며 합격선은 80%임.
-                  </p>
-
-                </div>
-
-
-                <p className="cover-approved">
-                  Approved by ______________________
-                </p>
-
-                <p className="cover-approved-sub">
-                  NDE Level Ⅲ
-                </p>
 
               </div>
 
+            );
 
-              {/* =========================
-                  문제지
-                 ========================= */}
+          })
+
+        }
+
+      </div>
+
+    );
+
+  }
+
+
+  return (
+
+    <>
+
+      <div
+        ref={measureRef}
+        className="print-measure-area"
+        aria-hidden="true"
+      >
+
+        <div className="measure-questions">
+
+          {questions.map((q, index) => (
+
+            <div className="measure-question" key={"measure-" + index}>
+
+              <Question q={q} index={index} />
+
+            </div>
+
+          ))}
+
+        </div>
+
+      </div>
+
+
+      <div className="print-area">
+
+        <div className="print-paper cover-paper">
+
+          <Header page={1} />
+
+          <div className="cover">
+
+            <h2>
+              {method || ""} {subject ? subject.toUpperCase() : ""}
+            </h2>
+
+            <div className="cover-row">
+              <span>NAME ______________________</span>
+              <span>DATE {date || "______________________"}</span>
+            </div>
+
+            <div className="cover-row">
+              <span>Start : __________</span>
+              <span>Finish : __________</span>
+            </div>
+
+            <div className="cover-row">
+              <span>SCORE ____________________</span>
+              <span>EXAMINER ________________</span>
+            </div>
+
+            <div className="note">
+
+              <b>NOTE :</b>
+
+              <p>
+                1. This is closed book examination.
+                No reference material may be used during examination.
+                <br />
+                시험도중 서적을 참고할 수 없음
+              </p>
+
+              <p>
+                2. Questions about the intent of examination question
+                will be answered during the examination.
+                <br />
+                문제에 대한 질문에 한해서 답변함
+              </p>
+
+              <p>
+                3. This examination must be completed in ink or
+                ball-point pen.
+                <br />
+                답변은 볼펜 또는 잉크로 기록할 것
+              </p>
+
+              <p>
+                4. Examination administered for qualification shall
+                result in a composite grade of at least 80%, with no
+                individual examination having a grade less than 70%.
+                <br />
+                과락은 70%이며 합격선은 80%임.
+              </p>
+
+            </div>
+
+            <div className="approved">
+              Approved by __________________
+              <br />
+              NDE Level Ⅲ
+            </div>
+
+          </div>
+
+        </div>
+
+        {questionPages.map((pageQuestions, pageIndex) => {
+
+          const pageNumber = pageIndex + 2;
+
+          return (
+
+            <div
+              className="print-paper question-paper"
+              key={"question-page-" + pageIndex}
+            >
+
+              <Header page={pageNumber} />
 
               <div className="questions-content">
 
-                {questions.map((q, index) => {
+                {pageQuestions.map((q, questionIndex) => {
 
-                  const questionText = String(
-                    q.question || ""
-                  )
-                    .split(/\r?\n/)
-                    .filter(
-                      (line) => line.trim() !== ""
-                    );
-
+                  const realIndex =
+                    questions.findIndex(item => item === q);
 
                   return (
-                    <div
-                      className="print-question"
-                      key={index}
-                    >
 
-                      <h3>
-                        {index + 1}. {questionText[0]}
-                      </h3>
+                    <Question
+                      key={"question-" + pageIndex + "-" + questionIndex}
+                      q={q}
+                      index={realIndex >= 0 ? realIndex : questionIndex}
+                    />
 
-
-                      {questionText[1] && (
-                        <div className="question-korean">
-                          {questionText[1]}
-                        </div>
-                      )}
-
-
-                      {Array.isArray(q.options) &&
-                        q.options.map((op, i) => {
-
-                          const optionText = String(
-                            op || ""
-                          )
-                            .split(/\r?\n/)
-                            .filter(
-                              (line) => line.trim() !== ""
-                            );
-
-
-                          return (
-                            <div
-                              className="option"
-                              key={i}
-                            >
-
-                              <span className="number-box">
-                                {numberCircle[i]}
-                              </span>
-
-
-                              <div className="option-text">
-
-                                <span className="option-en">
-                                  {optionText[0]}
-                                </span>
-
-
-                                {optionText[1] && (
-                                  <span className="option-ko">
-                                    {optionText[1]}
-                                  </span>
-                                )}
-
-                              </div>
-
-                            </div>
-                          );
-
-                        })}
-
-                    </div>
                   );
 
                 })}
 
               </div>
 
-            </td>
-          </tr>
-        </tbody>
+            </div>
 
-      </table>
+          );
 
-    </div>
+        })}
+
+      </div>
+
+    </>
+
   );
+
 }
 
 export default PrintExam;
