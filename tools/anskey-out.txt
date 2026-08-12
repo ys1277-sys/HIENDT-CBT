@@ -1,0 +1,61 @@
+파일                                            문항  답지  방식    매칭  범위밖
+--------------------------------------------------------------------------------------------
+II/Genernal(40문항)/ECTG-II(B)                     1     1  격자형        1      0  
+II/Genernal(40문항)/MTG-II(A)                     40    40  블록형       40      0  
+II/Genernal(40문항)/MTG-II(B)                     40    40  블록형       40      0  
+II/Genernal(40문항)/PAUT General - A 20200317     40    40  격자형       40      0  
+II/Genernal(40문항)/PAUT General - B 20200317     40    40  격자형       40      0  
+II/Genernal(40문항)/PTG-II(A)                     40    40  블록형       40      0  
+II/Genernal(40문항)/PTG-II(B)                     40    40  블록형       40      0  
+II/Genernal(40문항)/RFTG-II(B)                     1     1  격자형        1      0  
+II/Genernal(40문항)/RTG-II(A)                     40    40  블록형       40      0  
+II/Genernal(40문항)/RTG-II(B)                     40    40  블록형       40      0  
+II/Genernal(40문항)/TOFD General - A 20200317     40    40  격자형       40      0  
+II/Genernal(40문항)/TOFD General - B 20200317     40    40  격자형       40      0  
+II/Genernal(40문항)/UTG-II(A)                     40    40  블록형       40      0  
+II/Genernal(40문항)/UTG-II(B)                     40    40  블록형       40      0  
+II/Genernal(40문항)/VTG-llA(개정판)-2016.10.18       50    50  격자형       50      0  
+II/Specific(25문항)/B16.34(밸브)/MTS-II(2020)(A)    25    25  블록형       25      0  
+II/Specific(25문항)/B16.34(밸브)/MTS-II(2020)(B)    25    25  블록형       25      0  
+II/Specific(25문항)/B16.34(밸브)/PTS-II(2020)(A)    25    25  블록형       25      0  
+II/Specific(25문항)/B16.34(밸브)/PTS-II(2020)(B)    25    25  블록형       25      0  
+II/Specific(25문항)/B16.34(밸브)/RTS-II(2020)(A)    25    25  블록형       25      0  
+II/Specific(25문항)/B16.34(밸브)/RTS-II(2020)(B)    25    25  블록형       25      0  
+II/Specific(25문항)/B16.34(밸브)/UTS-II(2020)(A)    25    25  블록형       25      0  
+II/Specific(25문항)/B16.34(밸브)/UTS-II(2020)(B)    25    25  블록형       25      0  
+II/Specific(25문항)/ECTS-II                        0    20  격자형        0      0  !!
+II/Specific(25문항)/MTS-II(2020)(A)               25    25  블록형       25      0  
+II/Specific(25문항)/MTS-II(2020)(B)               25    25  블록형       25      0  
+II/Specific(25문항)/PAUTSpec-II-A-type(2014)      23    31  자동        23      0  
+II/Specific(25문항)/PAUTSpec-II-B-type(2014)      23    31  자동        23      0  
+II/Specific(25문항)/PTS-II(2020)(A)               25    25  블록형       25      0  
+II/Specific(25문항)/PTS-II(2020)(B)               25    25  블록형       25      0  
+II/Specific(25문항)/RFTS-II                        0    20  격자형        0      0  !!
+II/Specific(25문항)/RTS-II(2020)(A)               25    25  블록형       25      0  
+II/Specific(25문항)/RTS-II(2020)(B)               25    25  블록형       25      0  
+II/Specific(25문항)/TOFDSpec-II-A-type(2014)      28    31  자동        28      0  
+II/Specific(25문항)/TOFDSpec-II-B-type(2014)      28    31  자동        28      0  
+II/Specific(25문항)/UTS-II(2020)(A)               25    25  블록형       25      0  
+II/Specific(25문항)/UTS-II(2020)(B)               25    25  블록형       25      0  
+II/Specific(25문항)/VTS-II(2020)(A)               30    30  격자형       30      0  
+III/basic/B-III                                 70    69  자동        69      0  
+III/Level III(2023년 edition) - B16.34(밸브)/MTS   30    30  격자형       30      0  
+III/Level III(2023년 edition) - B16.34(밸브)/PTS   30    30  격자형       30      0  
+III/Level III(2023년 edition) - B16.34(밸브)/RTS   30    30  격자형       30      0  
+III/Level III(2023년 edition) - B16.34(밸브)/UTS   35    35  격자형       35      0  
+III/Level III(2023년 edition) - B16.34(밸브)/VTS   30    30  격자형       30      0  
+III/문항추가/MTM-III                                75    75  격자형       75      0  
+III/문항추가/PTM-III                                75    74  격자형       74      0  
+III/문항추가/RTM-III-서명첨부                           75    75  격자형       75      0  
+III/문항추가/RTM-III                                75    75  격자형       75      0  
+III/문항추가/UTM-III                                75    75  격자형       75      0  
+--------------------------------------------------------------------------------------------
+완전 47 · 부분 0 · 없음 2 / 전체 49
+
+================================================================================
+확인 필요
+================================================================================
+
+### II/Specific(25문항)/ECTS-II  [격자형]  문항 0 · 답지 20 · 매칭 0 · 범위밖 0
+
+### II/Specific(25문항)/RFTS-II  [격자형]  문항 0 · 답지 20 · 매칭 0 · 범위밖 0
