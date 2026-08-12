@@ -1,4 +1,4 @@
-import React, {
+﻿import React, {
   useLayoutEffect,
   useRef,
   useState
@@ -7,14 +7,16 @@ import React, {
 import "./print.css";
 import logo from "./logo.png";
 
-function PrintQuestion({
+function PrintAdminExam({
   questions = [],
+  answers = {},
 
   name = "",
   level = "",
   method = "",
   subject = "",
   date = "",
+  score = "",
 
   onReady
 }) {
@@ -35,10 +37,6 @@ function PrintQuestion({
   const onReadyRef =
     useRef(onReady);
 
-  const measuredRef =
-    useRef(false);
-
-
   useLayoutEffect(() => {
     onReadyRef.current = onReady;
   }, [onReady]);
@@ -50,13 +48,17 @@ function PrintQuestion({
 
   useLayoutEffect(() => {
 
-    measuredRef.current = false;
-
     if (!questions || questions.length === 0) {
 
       setQuestionPages([]);
 
-      measuredRef.current = true;
+      requestAnimationFrame(() => {
+
+        if (onReadyRef.current) {
+          onReadyRef.current();
+        }
+
+      });
 
       return;
     }
@@ -64,6 +66,7 @@ function PrintQuestion({
 
     const container =
       measureRef.current;
+
 
     if (!container) {
       return;
@@ -83,20 +86,48 @@ function PrintQuestion({
     }
 
 
+    /*
+     * A4
+     *
+     * @page margin = 10mm
+     *
+     * 실제 출력 영역
+     * 190mm x 277mm
+     */
+
     const MM =
       3.7795275591;
 
+
     const PAGE_HEIGHT =
-      276 * MM;
+      277 * MM;
+
+
+    /*
+     * Header
+     *
+     * 상단 2행 = 18mm
+     * NAME 행 = 9mm
+     * 아래 여백 = 6mm
+     *
+     * 총 33mm
+     */
 
     const HEADER_HEIGHT_MM =
       33;
 
+
     const headerHeight =
       HEADER_HEIGHT_MM * MM;
 
+
+    /*
+     * 프린터 출력 오차 방지
+     */
+
     const SAFETY =
       2 * MM;
+
 
     const availableHeight =
       PAGE_HEIGHT -
@@ -146,7 +177,9 @@ function PrintQuestion({
     );
 
 
-    if (currentPage.length > 0) {
+    if (
+      currentPage.length > 0
+    ) {
 
       pages.push(
         currentPage
@@ -154,6 +187,10 @@ function PrintQuestion({
 
     }
 
+
+    /*
+     * index 배열 → 실제 questions
+     */
 
     const result =
       pages.map(
@@ -165,49 +202,21 @@ function PrintQuestion({
       );
 
 
-    setQuestionPages(result);
-
-    measuredRef.current = true;
-
-  }, [
-    questions,
-    name,
-    level,
-    method,
-    subject,
-    date
-  ]);
+    setQuestionPages(
+      result
+    );
 
 
-  /*
-    문제은행출력이 멈추던 원인:
-    기존 PrintQuestion.jsx는 onReady를 아예 받지도,
-    호출하지도 않아서 상위 컴포넌트가 "준비 완료" 신호를
-    영원히 못 받고 멈춰있었음. 아래에서 해결.
-  */
-
-  useLayoutEffect(() => {
-
-    if (!measuredRef.current) {
-      return;
-    }
-
-    if (
-      questions.length > 0 &&
-      questionPages.length === 0
-    ) {
-      return;
-    }
-
+    /*
+     * DOM 반영 후 출력 준비
+     */
 
     requestAnimationFrame(() => {
 
       requestAnimationFrame(() => {
 
         if (onReadyRef.current) {
-
           onReadyRef.current();
-
         }
 
       });
@@ -215,8 +224,14 @@ function PrintQuestion({
     });
 
   }, [
-    questionPages,
-    questions.length
+    questions,
+    answers,
+    name,
+    level,
+    method,
+    subject,
+    date,
+    score
   ]);
 
 
@@ -226,6 +241,19 @@ function PrintQuestion({
 
   /* =====================================================
      HEADER
+     
+     실제 구조
+
+     ┌───────────────────────────────┬───────────────────────┐
+     │                               │ Examination Series    │
+     │  LOGO HANKUK INDUSTRIAL       ├───────────────────────┤
+     │  ENGINEERING                  │ ECT General           │
+     │                               │ Examination Questions │
+     ├───────────────────────────────┼───────────┬───────────┤
+     │ NAME : sdf                    │ NDE II    │ PAGE 1 OF 7│
+     └───────────────────────────────┴───────────┴───────────┘
+                    50%                  25%          25%
+
      ===================================================== */
 
   function Header({
@@ -261,7 +289,22 @@ function PrintQuestion({
 
           <tbody>
 
+
+            {/* =================================================
+                상단 1행
+
+                왼쪽 50%
+                오른쪽 50%
+                ================================================= */}
+
             <tr>
+
+              {/* =================================================
+                  HANKUK
+                  50%
+
+                  두 행을 하나로 병합
+                  ================================================= */}
 
               <td
                 className="dh-brand"
@@ -303,6 +346,13 @@ function PrintQuestion({
               </td>
 
 
+              {/* =================================================
+                  Examination Series
+                  오른쪽 50%
+
+                  25% + 25% 병합
+                  ================================================= */}
+
               <td
                 className="dh-series"
                 colSpan="2"
@@ -316,6 +366,12 @@ function PrintQuestion({
             </tr>
 
 
+            {/* =================================================
+                상단 2행
+
+                오른쪽 50%
+                ================================================= */}
+
             <tr>
 
               <td
@@ -324,12 +380,18 @@ function PrintQuestion({
               >
 
                 {method || ""}{" "}
-                {subject || ""} Question Bank
+                {subject || ""} Examination Questions
 
               </td>
 
             </tr>
 
+
+            {/* =================================================
+                하단
+
+                50% / 25% / 25%
+                ================================================= */}
 
             <tr>
 
@@ -346,7 +408,7 @@ function PrintQuestion({
                 className="dh-level-cell"
               >
 
-                NDE {level || ""}
+                NDE Level {level || ""}
 
               </td>
 
@@ -378,13 +440,34 @@ function PrintQuestion({
 
   /* =====================================================
      QUESTION
-     (문제은행 출력이므로 정답/오답 표시 없이 보기만 표시)
      ===================================================== */
 
   function Question({
     q,
     index
   }) {
+
+    const correct =
+      Number(
+        q && q.answer
+      );
+
+
+    const rawUserAnswer =
+      answers
+        ? answers[index]
+        : undefined;
+
+
+    const user =
+      rawUserAnswer === undefined ||
+      rawUserAnswer === null ||
+      rawUserAnswer === ""
+        ? -1
+        : Number(
+            rawUserAnswer
+          );
+
 
     const questionLines =
       String(
@@ -404,6 +487,11 @@ function PrintQuestion({
       <div
         className="question-print"
       >
+
+
+        {/* =================================================
+            문제
+            ================================================= */}
 
         <div
           className="question-title"
@@ -434,6 +522,10 @@ function PrintQuestion({
         </div>
 
 
+        {/* =================================================
+            한글 문제
+            ================================================= */}
+
         {
           questionLines[1] && (
 
@@ -450,6 +542,10 @@ function PrintQuestion({
           )
         }
 
+
+        {/* =================================================
+            선택지
+            ================================================= */}
 
         {
           Array.isArray(
@@ -473,6 +569,39 @@ function PrintQuestion({
                   );
 
 
+              let circleClass =
+                "option-circle";
+
+
+              /*
+               * 정답
+               */
+
+              if (
+                i === correct
+              ) {
+
+                circleClass +=
+                  " box-correct";
+
+              }
+
+
+              /*
+               * 오답
+               */
+
+              if (
+                i === user &&
+                i !== correct
+              ) {
+
+                circleClass +=
+                  " box-wrong";
+
+              }
+
+
               return (
 
                 <div
@@ -481,7 +610,7 @@ function PrintQuestion({
                 >
 
                   <span
-                    className="option-circle"
+                    className={circleClass}
                   >
 
                     {
@@ -546,6 +675,12 @@ function PrintQuestion({
 
     <>
 
+      {/* =================================================
+          측정 영역
+
+          실제 인쇄에서는 완전히 제거
+          ================================================= */}
+
       <div
         ref={measureRef}
         className="print-measure-area"
@@ -587,9 +722,173 @@ function PrintQuestion({
       </div>
 
 
+      {/* =================================================
+          실제 인쇄 영역
+          ================================================= */}
+
       <div
         className="print-area"
       >
+
+
+        {/* =================================================
+            PAGE 1
+            표지
+            ================================================= */}
+
+        <div
+          className="print-paper cover-paper"
+        >
+
+          <Header
+            page={1}
+          />
+
+
+          <div
+            className="cover"
+          >
+
+            <h2>
+
+              {method || ""}{" "}
+
+              {
+                subject
+                  ? subject.toUpperCase()
+                  : ""
+              }
+
+            </h2>
+
+
+            <div
+              className="cover-row"
+            >
+
+              <span>
+                NAME ______________________
+              </span>
+
+              <span>
+                DATE ______________________
+              </span>
+
+            </div>
+
+
+            <div
+              className="cover-row"
+            >
+
+              <span>
+                Start : __________
+              </span>
+
+              <span>
+                Finish : __________
+              </span>
+
+            </div>
+
+
+            <div
+              className="cover-row"
+            >
+
+              <span>
+                SCORE ____________________
+              </span>
+
+              <span>
+                EXAMINER ________________
+              </span>
+
+            </div>
+
+
+            <div
+              className="note"
+            >
+
+              <b>
+                NOTE :
+              </b>
+
+
+              <p>
+
+                1. This is closed book examination.
+                No reference material may be used during examination.
+
+                <br />
+
+                시험도중 서적을 참고할 수 없음
+
+              </p>
+
+
+              <p>
+
+                2. Questions about the intent of examination question
+                will be answered during the examination.
+
+                <br />
+
+                문제에 대한 질문에 한해서 답변함
+
+              </p>
+
+
+              <p>
+
+                3. This examination must be completed in ink or
+                ball-point pen.
+
+                <br />
+
+                답변은 볼펜 또는 잉크로 기록할 것
+
+              </p>
+
+
+              <p>
+
+                4. Examination administered for qualification shall
+                result in a composite grade of at least 80%, with no
+                individual examination having a grade less than 70%.
+
+                <br />
+
+                과락은 70%이며 합격선은 80%임.
+
+              </p>
+
+            </div>
+
+
+            <div
+              className="approved"
+            >
+
+              Approved by __________________
+
+              <br />
+
+              NDE Level Ⅲ
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        {/* =================================================
+            PAGE 2 ~
+
+            문제 페이지
+            ================================================= */}
 
         {
           questionPages.map(
@@ -599,7 +898,7 @@ function PrintQuestion({
             ) => {
 
               const pageNumber =
-                pageIndex + 1;
+                pageIndex + 2;
 
 
               return (
@@ -652,6 +951,7 @@ function PrintQuestion({
                                   ? realIndex
                                   : questionIndex
                               }
+
                             />
 
                           );
@@ -677,4 +977,4 @@ function PrintQuestion({
   );
 }
 
-export default PrintQuestion;
+export default PrintAdminExam;

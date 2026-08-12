@@ -7,9 +7,11 @@
 import "./print.css";
 import logo from "./logo.png";
 
+const EMPTY_ANSWERS = {};
+
 function PrintAdminExam({
   questions = [],
-  answers = {},
+  answers = EMPTY_ANSWERS,
 
   name = "",
   level = "",
@@ -22,10 +24,10 @@ function PrintAdminExam({
 }) {
 
   const numberCircle = [
-    "①",
-    "②",
-    "③",
-    "④"
+    "1",
+    "2",
+    "3",
+    "4"
   ];
 
   const [questionPages, setQuestionPages] =
@@ -36,6 +38,10 @@ function PrintAdminExam({
 
   const onReadyRef =
     useRef(onReady);
+
+  const measuredRef =
+    useRef(false);
+
 
   useLayoutEffect(() => {
     onReadyRef.current = onReady;
@@ -48,17 +54,13 @@ function PrintAdminExam({
 
   useLayoutEffect(() => {
 
+    measuredRef.current = false;
+
     if (!questions || questions.length === 0) {
 
       setQuestionPages([]);
 
-      requestAnimationFrame(() => {
-
-        if (onReadyRef.current) {
-          onReadyRef.current();
-        }
-
-      });
+      measuredRef.current = true;
 
       return;
     }
@@ -66,7 +68,6 @@ function PrintAdminExam({
 
     const container =
       measureRef.current;
-
 
     if (!container) {
       return;
@@ -86,48 +87,21 @@ function PrintAdminExam({
     }
 
 
-    /*
-     * A4
-     *
-     * @page margin = 10mm
-     *
-     * 실제 출력 영역
-     * 190mm x 277mm
-     */
-
     const MM =
       3.7795275591;
 
 
     const PAGE_HEIGHT =
-      277 * MM;
-
-
-    /*
-     * Header
-     *
-     * 상단 2행 = 18mm
-     * NAME 행 = 9mm
-     * 아래 여백 = 6mm
-     *
-     * 총 33mm
-     */
+      276 * MM;
 
     const HEADER_HEIGHT_MM =
       33;
 
-
     const headerHeight =
       HEADER_HEIGHT_MM * MM;
 
-
-    /*
-     * 프린터 출력 오차 방지
-     */
-
     const SAFETY =
       2 * MM;
-
 
     const availableHeight =
       PAGE_HEIGHT -
@@ -188,12 +162,9 @@ function PrintAdminExam({
     }
 
 
-    /*
-     * index 배열 → 실제 questions
-     */
-
     const result =
       pages.map(
+        
         page =>
           page.map(
             index =>
@@ -202,26 +173,9 @@ function PrintAdminExam({
       );
 
 
-    setQuestionPages(
-      result
-    );
+    setQuestionPages(result);
 
-
-    /*
-     * DOM 반영 후 출력 준비
-     */
-
-    requestAnimationFrame(() => {
-
-      requestAnimationFrame(() => {
-
-        if (onReadyRef.current) {
-          onReadyRef.current();
-        }
-
-      });
-
-    });
+    measuredRef.current = true;
 
   }, [
     questions,
@@ -235,25 +189,48 @@ function PrintAdminExam({
   ]);
 
 
+  useLayoutEffect(() => {
+
+    if (!measuredRef.current) {
+      return;
+    }
+
+    if (
+      questions.length > 0 &&
+      questionPages.length === 0
+    ) {
+      return;
+    }
+
+
+    requestAnimationFrame(() => {
+
+      requestAnimationFrame(() => {
+
+        if (
+          onReadyRef.current
+        ) {
+
+          onReadyRef.current();
+
+        }
+
+      });
+
+    });
+
+  }, [
+    questionPages,
+    questions.length
+  ]);
+
+
   const totalPages =
     questionPages.length + 1;
 
 
   /* =====================================================
      HEADER
-     
-     실제 구조
-
-     ┌───────────────────────────────┬───────────────────────┐
-     │                               │ Examination Series    │
-     │  LOGO HANKUK INDUSTRIAL       ├───────────────────────┤
-     │  ENGINEERING                  │ ECT General           │
-     │                               │ Examination Questions │
-     ├───────────────────────────────┼───────────┬───────────┤
-     │ NAME : sdf                    │ NDE II    │ PAGE 1 OF 7│
-     └───────────────────────────────┴───────────┴───────────┘
-                    50%                  25%          25%
-
      ===================================================== */
 
   function Header({
@@ -289,22 +266,7 @@ function PrintAdminExam({
 
           <tbody>
 
-
-            {/* =================================================
-                상단 1행
-
-                왼쪽 50%
-                오른쪽 50%
-                ================================================= */}
-
             <tr>
-
-              {/* =================================================
-                  HANKUK
-                  50%
-
-                  두 행을 하나로 병합
-                  ================================================= */}
 
               <td
                 className="dh-brand"
@@ -346,13 +308,6 @@ function PrintAdminExam({
               </td>
 
 
-              {/* =================================================
-                  Examination Series
-                  오른쪽 50%
-
-                  25% + 25% 병합
-                  ================================================= */}
-
               <td
                 className="dh-series"
                 colSpan="2"
@@ -365,12 +320,6 @@ function PrintAdminExam({
 
             </tr>
 
-
-            {/* =================================================
-                상단 2행
-
-                오른쪽 50%
-                ================================================= */}
 
             <tr>
 
@@ -387,12 +336,6 @@ function PrintAdminExam({
             </tr>
 
 
-            {/* =================================================
-                하단
-
-                50% / 25% / 25%
-                ================================================= */}
-
             <tr>
 
               <td
@@ -408,7 +351,7 @@ function PrintAdminExam({
                 className="dh-level-cell"
               >
 
-                NDE Level {level || ""}
+                NDE {level || ""}
 
               </td>
 
@@ -488,11 +431,6 @@ function PrintAdminExam({
         className="question-print"
       >
 
-
-        {/* =================================================
-            문제
-            ================================================= */}
-
         <div
           className="question-title"
         >
@@ -522,10 +460,6 @@ function PrintAdminExam({
         </div>
 
 
-        {/* =================================================
-            한글 문제
-            ================================================= */}
-
         {
           questionLines[1] && (
 
@@ -542,10 +476,6 @@ function PrintAdminExam({
           )
         }
 
-
-        {/* =================================================
-            선택지
-            ================================================= */}
 
         {
           Array.isArray(
@@ -573,10 +503,6 @@ function PrintAdminExam({
                 "option-circle";
 
 
-              /*
-               * 정답
-               */
-
               if (
                 i === correct
               ) {
@@ -586,10 +512,6 @@ function PrintAdminExam({
 
               }
 
-
-              /*
-               * 오답
-               */
 
               if (
                 i === user &&
@@ -675,12 +597,6 @@ function PrintAdminExam({
 
     <>
 
-      {/* =================================================
-          측정 영역
-
-          실제 인쇄에서는 완전히 제거
-          ================================================= */}
-
       <div
         ref={measureRef}
         className="print-measure-area"
@@ -722,19 +638,10 @@ function PrintAdminExam({
       </div>
 
 
-      {/* =================================================
-          실제 인쇄 영역
-          ================================================= */}
-
       <div
         className="print-area"
       >
 
-
-        {/* =================================================
-            PAGE 1
-            표지
-            ================================================= */}
 
         <div
           className="print-paper cover-paper"
@@ -767,11 +674,11 @@ function PrintAdminExam({
             >
 
               <span>
-                NAME ______________________
+                NAME : {name || ""}
               </span>
 
               <span>
-                DATE ______________________
+                DATE : {date || ""}
               </span>
 
             </div>
@@ -797,7 +704,7 @@ function PrintAdminExam({
             >
 
               <span>
-                SCORE ____________________
+                SCORE : {score || ""}
               </span>
 
               <span>
@@ -851,19 +758,6 @@ function PrintAdminExam({
 
               </p>
 
-
-              <p>
-
-                4. Examination administered for qualification shall
-                result in a composite grade of at least 80%, with no
-                individual examination having a grade less than 70%.
-
-                <br />
-
-                과락은 70%이며 합격선은 80%임.
-
-              </p>
-
             </div>
 
 
@@ -883,12 +777,6 @@ function PrintAdminExam({
 
         </div>
 
-
-        {/* =================================================
-            PAGE 2 ~
-
-            문제 페이지
-            ================================================= */}
 
         {
           questionPages.map(
@@ -951,7 +839,6 @@ function PrintAdminExam({
                                   ? realIndex
                                   : questionIndex
                               }
-
                             />
 
                           );

@@ -47,6 +47,11 @@
   min-width: 190mm;
   max-width: 190mm;
 
+  /*
+    277mm를 정확히 채우면 브라우저 프린트 엔진의
+    반올림 때문에 빈 페이지가 생길 수 있음.
+    276mm로 안정화.
+  */
   height: 276mm;
   min-height: 276mm;
   max-height: 276mm;
@@ -70,6 +75,13 @@
   break-inside: avoid;
 }
 
+
+/*
+  두 번째 PAPER부터 새 페이지 시작.
+
+  page-break-after 방식은 사용하지 않음.
+  마지막 빈 페이지 발생 방지.
+*/
 .print-paper + .print-paper {
   page-break-before: always;
   break-before: page;
@@ -117,31 +129,6 @@
   box-sizing: border-box;
 
   vertical-align: middle;
-}
-
-
-/* =========================================================
-   COLUMN WIDTH 고정 (신규 추가)
-
-   table-layout:fixed 상태에서 <col>에 너비가 없으면
-   브라우저가 각 행의 td 너비를 기준으로 컬럼폭을 계산하는데,
-   colSpan이 섞인 헤더 구조에서는 이 계산이 브라우저/렌더링
-   타이밍에 따라 불안정해져서 화면마다 비율이 달라지는
-   문제가 있었음 (예: 50/25/25가 33/33/33으로 깨짐).
-
-   <col>에 너비를 직접 고정해서 항상 동일한 비율이 나오도록 함.
-   ========================================================= */
-
-.col-name {
-  width: 50%;
-}
-
-.col-level {
-  width: 25%;
-}
-
-.col-page {
-  width: 25%;
 }
 
 
@@ -328,6 +315,10 @@
 
   height: 9mm !important;
 
+  /*
+    NAME : 을 너무 왼쪽에 붙지 않도록
+    기존보다 여백 확보
+  */
   padding-left: 6mm !important;
   padding-right: 2mm !important;
 
@@ -591,10 +582,6 @@
 
 /* =========================================================
    OPTIONS
-
-   ①②③④ 문자 자체가 이미 원 모양이므로,
-   컨테이너에 별도의 원(border-radius + border)을
-   그리지 않는다. 정답/오답은 글자 색으로만 구분한다.
    ========================================================= */
 
 .option {
@@ -615,16 +602,14 @@
 }
 
 .option-circle {
-  width: 22px;
-  height: 22px;
+  width: 24px;
+  height: 24px;
 
-  min-width: 22px;
+  min-width: 24px;
 
   border-radius: 50%;
 
   border: 1px solid #777;
-
-  background: #fff;
 
   display: flex;
 
@@ -638,24 +623,18 @@
   font-weight: bold;
 
   line-height: 1;
-
-  color: #333;
 }
 
 .option-circle.box-correct {
-  border-color: blue;
+  border: 3px solid blue;
 
-  background: blue;
-
-  color: #fff;
+  color: blue;
 }
 
 .option-circle.box-wrong {
-  border-color: red;
+  border: 3px solid red;
 
-  background: red;
-
-  color: #fff;
+  color: red;
 }
 
 .option-text {
@@ -701,49 +680,37 @@
 
   border: 1px solid #999;
 
-  background: #fff;
-
   display: flex;
 
   align-items: center;
   justify-content: center;
 
-  font-size: 13px;
+  font-size: 12px;
 
   font-weight: bold;
 
   box-sizing: border-box;
-
-  color: #333;
 }
 
 .box-correct {
-  border-color: blue;
+  border: 3px solid blue;
 
-  background: blue;
-
-  color: #fff;
+  color: blue;
 }
 
 .box-wrong {
-  border-color: red;
+  border: 3px solid red;
 
-  background: red;
-
-  color: #fff;
+  color: red;
 }
 
 .answer-circle {
-  width: 22px;
-  height: 22px;
+  width: 26px;
+  height: 26px;
 
-  min-width: 22px;
+  min-width: 26px;
 
   border-radius: 50%;
-
-  border: 1px solid #999;
-
-  background: #fff;
 
   display: flex;
 
@@ -752,27 +719,21 @@
 
   font-weight: bold;
 
-  font-size: 13px;
+  font-size: 14px;
 
-  box-sizing: border-box;
-
-  color: #333;
+  border: 1px solid #999;
 }
 
 .correct-circle {
-  border-color: blue;
+  border: 3px solid blue;
 
-  background: blue;
-
-  color: #fff;
+  color: blue;
 }
 
 .wrong-circle {
-  border-color: red;
+  border: 3px solid red;
 
-  background: red;
-
-  color: #fff;
+  color: red;
 }
 
 
@@ -930,12 +891,27 @@
     background: #fff !important;
   }
 
+
+  /* =======================================================
+     화면에 떠 있던 배경 화면(결과 화면 / 관리자 목록 / 시험
+     화면) 완전히 제거.
+
+     visibility:hidden은 레이아웃 공간을 그대로 차지해서
+     인쇄 시 빈 페이지가 여러 장 생기는 원인이 되므로,
+     반드시 display:none으로 완전히 제거해야 함.
+     ======================================================= */
+
   .home-container,
   .admin-controls,
   .admin-results,
   .cbt-page {
     display: none !important;
   }
+
+
+  /* =======================================================
+     측정 영역 완전 제거
+     ======================================================= */
 
   .print-measure-area {
     display: none !important;
@@ -958,6 +934,11 @@
     overflow: hidden !important;
   }
 
+
+  /* =======================================================
+     실제 출력
+     ======================================================= */
+
   .print-area {
     display: block !important;
 
@@ -976,6 +957,11 @@
     background: #fff !important;
   }
 
+
+  /* =======================================================
+     PAPER
+     ======================================================= */
+
   .print-paper {
     display: block !important;
 
@@ -984,6 +970,11 @@
     min-width: 190mm !important;
     max-width: 190mm !important;
 
+    /*
+      277mm가 아니라 276mm.
+      정확한 페이지 끝에서 발생하는
+      브라우저 반올림 / 빈 페이지 문제 방지.
+    */
     height: 276mm !important;
 
     min-height: 276mm !important;
@@ -1005,10 +996,22 @@
     break-inside: avoid !important;
   }
 
+
+  /*
+    첫 PAPER 뒤가 아니라
+    두 번째 PAPER부터 페이지를 시작.
+
+    마지막 PAPER에도 break-after 없음.
+  */
   .print-area > .print-paper + .print-paper {
     page-break-before: always !important;
     break-before: page !important;
   }
+
+
+  /* =======================================================
+     HEADER
+     ======================================================= */
 
   .print-header {
     display: block !important;
@@ -1041,17 +1044,10 @@
     break-inside: avoid !important;
   }
 
-  .col-name {
-    width: 50% !important;
-  }
 
-  .col-level {
-    width: 25% !important;
-  }
-
-  .col-page {
-    width: 25% !important;
-  }
+  /* =======================================================
+     TOP
+     ======================================================= */
 
   .dh-brand {
     width: 50% !important;
@@ -1070,6 +1066,12 @@
 
     height: 9mm !important;
   }
+
+
+  /* =======================================================
+     BOTTOM
+     50 / 25 / 25
+     ======================================================= */
 
   .dh-name {
     width: 50% !important;
@@ -1103,6 +1105,11 @@
     text-align: center !important;
   }
 
+
+  /* =======================================================
+     HEADER SPACE
+     ======================================================= */
+
   .print-header-space {
     width: 190mm !important;
 
@@ -1110,6 +1117,11 @@
 
     min-height: 6mm !important;
   }
+
+
+  /* =======================================================
+     COVER
+     ======================================================= */
 
   .cover-paper {
     width: 190mm !important;
@@ -1123,6 +1135,11 @@
     overflow: hidden !important;
   }
 
+
+  /* =======================================================
+     QUESTION PAPER
+     ======================================================= */
+
   .question-paper {
     width: 190mm !important;
 
@@ -1134,6 +1151,11 @@
 
     overflow: hidden !important;
   }
+
+
+  /* =======================================================
+     QUESTIONS
+     ======================================================= */
 
   .questions-content {
     width: 190mm !important;
@@ -1154,6 +1176,12 @@
 
     break-inside: avoid !important;
   }
+
+
+  /* =======================================================
+     NOTE
+     1 / 2 / 3만 표시
+     ======================================================= */
 
   .note p:nth-of-type(n + 4) {
     display: none !important;

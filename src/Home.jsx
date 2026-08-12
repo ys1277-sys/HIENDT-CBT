@@ -228,189 +228,136 @@ catch(err){
 
 return (
 
-<div className="home-container">
+  <>
 
 
-  <div className="home-box">
+    <div className="home-container">
 
 
-    <h1>
-      HIENDT-CBT
-    </h1>
+      <div className="home-box">
 
 
-    <h2>
-      비파괴검사 자격시험
-    </h2>
+        <h1>
+          HIENDT-CBT
+        </h1>
 
 
+        <h2>
+          비파괴검사 자격시험
+        </h2>
 
 
 
-    <input
 
-      type="text"
 
-      placeholder="응시자 이름"
+        <input
 
-      value={name}
+          type="text"
 
-      onChange={
-        e=>setName(e.target.value)
-      }
+          placeholder="응시자 이름"
 
-    />
+          value={name}
 
+          onChange={
+            e=>setName(e.target.value)
+          }
 
+        />
 
 
 
-    <h3>
-      Level 선택
-    </h3>
 
-
-
-
-
-    <button
-
-      className={
-        level==="Level II"
-        ?
-        "active"
-        :
-        ""
-      }
-
-
-      onClick={()=>{
-
-        setLevel("Level II");
-
-        setMethod("");
-
-        setSubject("");
-
-      }}
-
-    >
-
-      Level II
-
-    </button>
-
-
-
-
-
-    <button
-
-
-      className={
-        level==="Level III"
-        ?
-        "active"
-        :
-        ""
-      }
-
-
-
-      onClick={()=>{
-
-
-        setLevel("Level III");
-
-        setMethod("");
-
-        setSubject("");
-
-
-      }}
-
-
-    >
-
-      Level III
-
-    </button>
-
-
-
-
-
-    <h3>
-      시험종목
-    </h3>
-
-
-
-
-    <select
-
-      key={level}
-
-      value={method}
-
-      onChange={
-        e=>setMethod(e.target.value)
-      }
-
-    >
-
-
-      <option value="">
-        선택
-      </option>
-
-
-
-      {
-
-        methodList.map(item=>(
-
-          <option
-
-            key={item}
-
-            value={item}
-
-          >
-
-            {item}
-
-          </option>
-
-
-        ))
-
-      }
-
-
-    </select>
-
-
-
-
-
-    {
-
-      level==="Level II" &&
-
-      <>
 
         <h3>
-          시험 구분
+          Level 선택
         </h3>
+
+
+
+
+
+        <button
+
+          className={
+            level==="Level II"
+            ?
+            "active"
+            :
+            ""
+          }
+
+
+          onClick={()=>{
+
+            setLevel("Level II");
+
+            setMethod("");
+
+            setSubject("");
+
+          }}
+
+        >
+
+          Level II
+
+        </button>
+
+
+
+
+
+        <button
+
+
+          className={
+            level==="Level III"
+            ?
+            "active"
+            :
+            ""
+          }
+
+
+
+          onClick={()=>{
+
+
+            setLevel("Level III");
+
+            setMethod("");
+
+            setSubject("");
+
+
+          }}
+
+
+        >
+
+          Level III
+
+        </button>
+
+
+
+
+
+        <h3>
+          시험종목
+        </h3>
+
+
 
 
         <select
 
-          value={subject}
+          key={level}
+
+          value={method}
 
           onChange={
-            e=>setSubject(e.target.value)
+            e=>setMethod(e.target.value)
           }
 
         >
@@ -421,124 +368,177 @@ return (
           </option>
 
 
-          <option value="General">
-            General
-          </option>
+
+          {
+
+            methodList.map(item=>(
+
+              <option
+
+                key={item}
+
+                value={item}
+
+              >
+
+                {item}
+
+              </option>
 
 
-          <option value="Specific">
-            Specific
-          </option>
+            ))
+
+          }
 
 
         </select>
 
 
-      </>
+
+
+
+        {
+
+          level==="Level II" &&
+
+          <>
+
+            <h3>
+              시험 구분
+            </h3>
+
+
+            <select
+
+              value={subject}
+
+              onChange={
+                e=>setSubject(e.target.value)
+              }
+
+            >
+
+
+              <option value="">
+                선택
+              </option>
+
+
+              <option value="General">
+                General
+              </option>
+
+
+              <option value="Specific">
+                Specific
+              </option>
+
+
+            </select>
+
+
+          </>
+
+        }
+
+
+
+
+
+        <button
+
+          onClick={onStart}
+
+        >
+
+          시험 시작
+
+        </button>
+
+
+
+
+
+        <button
+
+          onClick={printBank}
+
+        >
+
+          문제은행 출력
+
+        </button>
+
+
+
+
+
+        <button
+
+          onClick={onAdmin}
+
+        >
+
+          관리자
+
+        </button>
+
+
+
+
+
+      </div>
+
+
+    </div>
+
+
+    {
+
+      questions &&
+
+
+      <PrintExam
+
+
+        name={name}
+
+
+        level={level}
+
+
+        method={method}
+
+
+        subject={subject}
+
+
+        questions={questions}
+
+
+        date={
+
+          new Date()
+
+          .toLocaleDateString()
+
+        }
+
+
+        onReady={
+
+          () => window.print()
+
+        }
+
+
+      />
+
 
     }
 
 
-
-
-
-    <button
-
-      onClick={onStart}
-
-    >
-
-      시험 시작
-
-    </button>
-
-
-
-
-
-    <button
-
-      onClick={printBank}
-
-    >
-
-      문제은행 출력
-
-    </button>
-
-
-
-
-
-    <button
-
-      onClick={onAdmin}
-
-    >
-
-      관리자
-
-    </button>
-
-
-
-
-
-  </div>
-
-
-
-
-
-  {
-
-    questions &&
-
-
-    <PrintExam
-
-
-      name="HIENDT-CBT 문제은행"
-
-
-      level={level}
-
-
-      method={method}
-
-
-      subject={subject}
-
-
-      questions={questions}
-
-
-      date={
-
-        new Date()
-
-        .toLocaleDateString()
-
-      }
-
-
-      onReady={
-
-        () => window.print()
-
-      }
-
-
-    />
-
-
-  }
-
-
-
-
-
-</div>
+  </>
 
 );
 
