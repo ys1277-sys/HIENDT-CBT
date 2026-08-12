@@ -5,7 +5,7 @@
     "method": "MT",
     "category": "SPECIFIC",
     "subject": "ASME Section VIII / HIE-NDT-MT-P11",
-    "question": "When using the wet method of MT, what is the particle concentration for?",
+    "question": "When using the wet method of MT, what is the particle concentration for?\n습식 자분탐상을 할 때 자분 농도는?",
     "question_kr": "습식 자분탐상을 할 때 자분 농도는?",
     "options": [
       "1.2 ml to 2.4 ml per 100 ml",
@@ -22,7 +22,7 @@
     "method": "MT",
     "category": "SPECIFIC",
     "subject": "ASME Section VIII / HIE-NDT-MT-P11",
-    "question": "How much time is needed to adapt to dark viewing prior to performing fluorescent examination?",
+    "question": "How much time is needed to adapt to dark viewing prior to performing fluorescent examination?\n형광 시험을 수행하기 전에 어두움에 적응하기 위해 필요한 시간은?",
     "question_kr": "형광 시험을 수행하기 전에 어두움에 적응하기 위해 필요한 시간은?",
     "options": [
       "At least 5 minutes",
@@ -39,7 +39,7 @@
     "method": "MT",
     "category": "SPECIFIC",
     "subject": "ASME Section VIII / HIE-NDT-MT-P11",
-    "question": "How much is the minimum visible light strength from the surface of the product to test?",
+    "question": "How much is the minimum visible light strength from the surface of the product to test?\n시험할 제품 표면에서 가시광선 강도 최소값은?",
     "question_kr": "시험할 제품 표면에서 가시광선 강도 최소값은?",
     "options": [
       "500 lux",
@@ -56,7 +56,7 @@
     "method": "MT",
     "category": "SPECIFIC",
     "subject": "ASME Section VIII / HIE-NDT-MT-P11",
-    "question": "How much is minimum lifting power at the maximum pole spacing that will be used of alternating current electromagnetic yoke?",
+    "question": "How much is minimum lifting power at the maximum pole spacing that will be used of alternating current electromagnetic yoke?\n교류 전자 요크 사용 시 최대 극간 간격에서 최소 리프팅 파워는?",
     "question_kr": "교류 전자 요크 사용 시 최대 극간 간격에서 최소 리프팅 파워는?",
     "options": [
       "10 lb (4.5 kg)",
@@ -73,7 +73,7 @@
     "method": "MT",
     "category": "SPECIFIC",
     "subject": "ASME Section VIII / HIE-NDT-MT-P11",
-    "question": "How much is a limited range of the temperature when using the wet particle suspension?",
+    "question": "How much is a limited range of the temperature when using the wet particle suspension?\n습식 자분 현탁액 사용 시 온도 제한 범위는?",
     "question_kr": "습식 자분 현탁액 사용 시 온도 제한 범위는?",
     "options": [
       "Not exceed 135°F (57℃)",
@@ -90,7 +90,7 @@
     "method": "MT",
     "category": "SPECIFIC",
     "subject": "ASME Section VIII / HIE-NDT-MT-P11",
-    "question": "How to prove the strength of the magnetic field, what is appropriate?",
+    "question": "How to prove the strength of the magnetic field, what is appropriate?\n자기장 세기의 적절성을 증명하는 방법은?",
     "question_kr": "자기장 세기의 적절성을 증명하는 방법은?",
     "options": [
       "Pie-Shaped Magnetic Particle Field Indicator",
@@ -107,7 +107,7 @@
     "method": "MT",
     "category": "SPECIFIC",
     "subject": "ASME Section VIII / HIE-NDT-MT-P11",
-    "question": "When using the yoke, how much spacing of Yoke-pole?",
+    "question": "When using the yoke, how much spacing of Yoke-pole?\n요크를 사용할 때 극간 간격은 얼마인가?",
     "question_kr": "요크를 사용할 때 극간 간격은 얼마인가?",
     "options": [
       "Minimum 50 to Maximum 130 mm",
@@ -124,7 +124,7 @@
     "method": "MT",
     "category": "SPECIFIC",
     "subject": "ASME Section VIII / HIE-NDT-MT-P11",
-    "question": "What is the size of relevant indication in case of magnetic particle examination on welds and surface?",
+    "question": "What is the size of relevant indication in case of magnetic particle examination on welds and surface?\n용접부 및 표면 자분탐상 시험에서 관련 지시의 크기는?",
     "question_kr": "용접부 및 표면 자분탐상 시험에서 관련 지시의 크기는?",
     "options": [
       "1/32 in",
@@ -141,7 +141,7 @@
     "method": "MT",
     "category": "SPECIFIC",
     "subject": "API 6A / HIE-NDT-MT-P6A",
-    "question": "What is the choice of inspection equipment and magnetic particles when inspecting the welded part of the quality class PSL3 for ferromagnetic material?",
+    "question": "What is the choice of inspection equipment and magnetic particles when inspecting the welded part of the quality class PSL3 for ferromagnetic material?\nPSL3 품질등급 자성체 용접부 MT 검사 시 장비와 자분 선택은?",
     "question_kr": "PSL3 품질등급 자성체 용접부 MT 검사 시 장비와 자분 선택은?",
     "options": [
       "Yoke with dry magnetic particle",
@@ -158,7 +158,7 @@
     "method": "MT",
     "category": "SPECIFIC",
     "subject": "ASME B16.34",
-    "question": "A 20mm-thick steel casting was tested by magnetic particle inspection and a linear indication was found on the surface. What is the maximum length that can be considered acceptable?",
+    "question": "A 20mm-thick steel casting was tested by magnetic particle inspection and a linear indication was found on the surface. What is the maximum length that can be considered acceptable?\n20mm 두께 주강품에서 선형 지시가 발견된 경우 허용 가능한 최대 길이는?",
     "question_kr": "20mm 두께 주강품에서 선형 지시가 발견된 경우 허용 가능한 최대 길이는?",
     "options": [
       "13 mm (0.5 in)",
@@ -175,7 +175,7 @@
     "method": "MT",
     "category": "SPECIFIC",
     "subject": "Equipment",
-    "question": "Yoke, MP-200 have flexible legs and no input or output current control. The flux density in the metal being magnetized with the yoke:",
+    "question": "Yoke, MP-200 have flexible legs and no input or output current control. The flux density in the metal being magnetized with the yoke:\n요크 MP-200은 유연한 다리를 가지고 입출력 전류 제어가 없다. 자화되는 금속 내 자속 밀도는?",
     "question_kr": "요크 MP-200은 유연한 다리를 가지고 입출력 전류 제어가 없다. 자화되는 금속 내 자속 밀도는?",
     "options": [
       "depends on whether the poles are making a good contact",
@@ -192,7 +192,7 @@
     "method": "MT",
     "category": "SPECIFIC",
     "subject": "Equipment",
-    "question": "Which of the following shall be considered before using Magnaflux P-920 prod?",
+    "question": "Which of the following shall be considered before using Magnaflux P-920 prod?\nMagnaflux P-920 프로드 사용 전에 고려해야 할 사항은?",
     "question_kr": "Magnaflux P-920 프로드 사용 전에 고려해야 할 사항은?",
     "options": [
       "Is the metal heat treated to a high strength condition?",
@@ -209,7 +209,7 @@
     "method": "MT",
     "category": "SPECIFIC",
     "subject": "Magnetization",
-    "question": "Among the following, the best type of current for detection of fatigue crack is:",
+    "question": "Among the following, the best type of current for detection of fatigue crack is:\n다음 중 피로 균열 검출에 가장 적합한 전류 타입은?",
     "question_kr": "다음 중 피로 균열 검출에 가장 적합한 전류 타입은?",
     "options": [
       "Half-wave direct current",
@@ -226,7 +226,7 @@
     "method": "MT",
     "category": "SPECIFIC",
     "subject": "Discontinuity",
-    "question": "A surface indication on bar stock is fine and sharp and runs lengthwise. What type of discontinuity is this most likely to represent?",
+    "question": "A surface indication on bar stock is fine and sharp and runs lengthwise. What type of discontinuity is this most likely to represent?\n봉재 표면에 가늘고 선명하며 길이 방향으로 나타나는 지시는 어떤 불연속인가?",
     "question_kr": "봉재 표면에 가늘고 선명하며 길이 방향으로 나타나는 지시는 어떤 불연속인가?",
     "options": [
       "Fatigue crack",
@@ -243,7 +243,7 @@
     "method": "MT",
     "category": "SPECIFIC",
     "subject": "Welding",
-    "question": "Magnetic particle inspection of the first pass in a U groove butt weld showed a large fuzzy indication at short intervals along the center of the weld. Which was most likely detected?",
+    "question": "Magnetic particle inspection of the first pass in a U groove butt weld showed a large fuzzy indication at short intervals along the center of the weld. Which was most likely detected?\nU groove 맞대기 용접 첫 패스 중앙에 짧은 간격으로 큰 퍼지 지시가 나타났다. 검출된 결함은?",
     "question_kr": "U groove 맞대기 용접 첫 패스 중앙에 짧은 간격으로 큰 퍼지 지시가 나타났다. 검출된 결함은?",
     "options": [
       "Lack of fusion",
@@ -260,7 +260,7 @@
     "method": "MT",
     "category": "SPECIFIC",
     "subject": "Welding",
-    "question": "Multiple indications of a surface-type were detected transversely across a weld. Which were detected?",
+    "question": "Multiple indications of a surface-type were detected transversely across a weld. Which were detected?\n용접부를 가로지르는 다중 표면 지시가 검출되었다. 해당 결함은?",
     "question_kr": "용접부를 가로지르는 다중 표면 지시가 검출되었다. 해당 결함은?",
     "options": [
       "Flakes",
@@ -277,7 +277,7 @@
     "method": "MT",
     "category": "SPECIFIC",
     "subject": "Equipment Calibration",
-    "question": "The AC ammeter should be checked with what equipment?",
+    "question": "The AC ammeter should be checked with what equipment?\n교류 전류계는 어떤 장비로 확인해야 하는가?",
     "question_kr": "교류 전류계는 어떤 장비로 확인해야 하는가?",
     "options": [
       "Shunt and master AC ammeter",
@@ -294,7 +294,7 @@
     "method": "MT",
     "category": "SPECIFIC",
     "subject": "Fluorescent MT",
-    "question": "Fluorescent magnetic particle inspection is used in preference to visible magnetic particles:",
+    "question": "Fluorescent magnetic particle inspection is used in preference to visible magnetic particles:\n형광 자분 검사가 일반 자분보다 선호되는 경우는?",
     "question_kr": "형광 자분 검사가 일반 자분보다 선호되는 경우는?",
     "options": [
       "When parts are big and bulky",
@@ -311,7 +311,7 @@
     "method": "MT",
     "category": "SPECIFIC",
     "subject": "Demagnetization",
-    "question": "A heat treated bolt was tested for quench cracks and must be demagnetized. Using the bolt as a conductor, the demagnetizing current:",
+    "question": "A heat treated bolt was tested for quench cracks and must be demagnetized. Using the bolt as a conductor, the demagnetizing current:\n열처리 볼트를 담금질 균열 검사 후 탈자해야 한다. 볼트를 도체로 사용할 때 탈자 전류는?",
     "question_kr": "열처리 볼트를 담금질 균열 검사 후 탈자해야 한다. 볼트를 도체로 사용할 때 탈자 전류는?",
     "options": [
       "Should be sufficiently high to magnetically saturate the part",
@@ -328,7 +328,7 @@
     "method": "MT",
     "category": "SPECIFIC",
     "subject": "Equipment Application",
-    "question": "The best application for permanent magnet yokes is for the inspection of:",
+    "question": "The best application for permanent magnet yokes is for the inspection of:\n영구자석 요크의 가장 적합한 적용 대상은?",
     "question_kr": "영구자석 요크의 가장 적합한 적용 대상은?",
     "options": [
       "Welds",
@@ -345,7 +345,7 @@
     "method": "MT",
     "category": "SPECIFIC",
     "subject": "Fluorescent MT",
-    "question": "When using the fluorescent magnetic particle, how much of black light intensity?",
+    "question": "When using the fluorescent magnetic particle, how much of black light intensity?\n형광 자분을 사용할 때 자외선등의 세기는?",
     "question_kr": "형광 자분을 사용할 때 자외선등의 세기는?",
     "options": [
       "Minimum of 1076 lux",
@@ -362,7 +362,7 @@
     "method": "MT",
     "category": "SPECIFIC",
     "subject": "SNT-TC-1A",
-    "question": "The following are matters related to technical performance evaluation according to SNT-TC-1A. Which is incorrect?",
+    "question": "The following are matters related to technical performance evaluation according to SNT-TC-1A. Which is incorrect?\nSNT-TC-1A에 따른 기술 수행 평가 관련 사항 중 잘못된 것은?",
     "question_kr": "SNT-TC-1A에 따른 기술 수행 평가 관련 사항 중 잘못된 것은?",
     "options": [
       "NDT personnel may be reexamined anytime at the discretion of the employer and have their certificates extended or revoked.",
@@ -379,7 +379,7 @@
     "method": "MT",
     "category": "SPECIFIC",
     "subject": "ANSI/ASNT CP-189",
-    "question": "When attempting to obtain the NDT Level II qualification according to ANSI/ASNT CP-189, which is incorrect?",
+    "question": "When attempting to obtain the NDT Level II qualification according to ANSI/ASNT CP-189, which is incorrect?\nANSI/ASNT CP-189에 따른 Level II 자격 요구사항 중 잘못된 것은?",
     "question_kr": "ANSI/ASNT CP-189에 따른 Level II 자격 요구사항 중 잘못된 것은?",
     "options": [
       "Three levels of qualification are defined in terms of skills and knowledge required.",
@@ -396,7 +396,7 @@
     "method": "MT",
     "category": "SPECIFIC",
     "subject": "ASME Section III / HIE-NDT-MT-N21",
-    "question": "1.3 mm linear indication was found on weld edge surface by MT yoke method, is it acceptable?",
+    "question": "1.3 mm linear indication was found on weld edge surface by MT yoke method, is it acceptable?\nMT Yoke 방법으로 용접부 끝 표면에서 1.3mm 선형 지시가 발견되었다. 합격인가?",
     "question_kr": "MT Yoke 방법으로 용접부 끝 표면에서 1.3mm 선형 지시가 발견되었다. 합격인가?",
     "options": [
       "Yes",
@@ -413,7 +413,7 @@
     "method": "MT",
     "category": "SPECIFIC",
     "subject": "ASME Section III",
-    "question": "When using the Yoke Method, what kind of electric current is used?",
+    "question": "When using the Yoke Method, what kind of electric current is used?\n요크법 적용 시 사용하는 전류는?",
     "question_kr": "요크법 적용 시 사용하는 전류는?",
     "options": [
       "Direct Current",
@@ -430,7 +430,7 @@
     "method": "MT",
     "category": "SPECIFIC",
     "subject": "ASME Section III Div.1 NB",
-    "question": "According to ASME Code Section III Div.1 NB, what examination method is used for category A welded joints in vessels?",
+    "question": "According to ASME Code Section III Div.1 NB, what examination method is used for category A welded joints in vessels?\nASME Section III Div.1 NB에 따른 용기의 Category A 용접 이음 검사 방법은?",
     "question_kr": "ASME Section III Div.1 NB에 따른 용기의 Category A 용접 이음 검사 방법은?",
     "options": [
       "Volumetric test",
@@ -447,7 +447,7 @@
     "method": "MT",
     "category": "SPECIFIC",
     "subject": "ASME Section III",
-    "question": "What is the size of relevant indication in case of magnetic particle examination on welds and surface?",
+    "question": "What is the size of relevant indication in case of magnetic particle examination on welds and surface?\n용접부 및 표면 자분탐상 시험에서 관련 지시의 크기는?",
     "question_kr": "용접부 및 표면 자분탐상 시험에서 관련 지시의 크기는?",
     "options": [
       "1/32 in",
@@ -464,7 +464,7 @@
     "method": "MT",
     "category": "SPECIFIC",
     "subject": "ASME Section III",
-    "question": "2 mm round indication was found on weld edge preparation surface by MT yoke method, is it acceptable?",
+    "question": "2 mm round indication was found on weld edge preparation surface by MT yoke method, is it acceptable?\nMT Yoke 장비로 용접부 끝단 준비면에서 2mm 원형 지시가 발견되었다. 합격인가?",
     "question_kr": "MT Yoke 장비로 용접부 끝단 준비면에서 2mm 원형 지시가 발견되었다. 합격인가?",
     "options": [
       "Yes",
@@ -481,7 +481,7 @@
     "method": "MT",
     "category": "SPECIFIC",
     "subject": "ASME B31.1",
-    "question": "According to ASME B31.1, Nonrelevant indications?",
+    "question": "According to ASME B31.1, Nonrelevant indications?\nASME B31.1에 따른 비관련 지시는?",
     "question_kr": "ASME B31.1에 따른 비관련 지시는?",
     "options": [
       "Shall be reexamined by other NDT methods",
@@ -498,7 +498,7 @@
     "method": "MT",
     "category": "SPECIFIC",
     "subject": "ASME Section I",
-    "question": "A length 1/4 in (6mm) rounded indication is; This indication acceptable?",
+    "question": "A length 1/4 in (6mm) rounded indication is; This indication acceptable?\n길이 1/4인치(6mm) 원형 지시는 합격인가?",
     "question_kr": "길이 1/4인치(6mm) 원형 지시는 합격인가?",
     "options": [
       "Accept",
@@ -515,7 +515,7 @@
     "options": [
       "aligned in fixed positions with directions that cancel out",
       "aligned in fixed positions, predominantly in one direction",
-      "aligned in a random position and may become aligned to attract a magnetic \n\n material",
+      "aligned in a random position and may become aligned to attract a magnetic \n material",
       "aligned in the same direction as the metal's grain structure"
     ],
     "answer": 1,
@@ -555,9 +555,9 @@
     "id": 34,
     "question": "Of the following, which is not a valid reason for demagnetization of parts after magnetic particle testing?",
     "options": [
-      "If the part is to be radiographed after magnetic particle inspection, residual\n\n magnetism may interfere with the electromagnetic radiation spectrum",
-      "Residual magnetism may attract chips or small particles in service, causing \n\n galling or mechanical wear",
-      "Residual magnetism could interfere with the operation or accuracy of instruments \n\n placed on or near the part during service",
+      "If the part is to be radiographed after magnetic particle inspection, residual\n magnetism may interfere with the electromagnetic radiation spectrum",
+      "Residual magnetism may attract chips or small particles in service, causing \n galling or mechanical wear",
+      "Residual magnetism could interfere with the operation or accuracy of instruments \n placed on or near the part during service",
       "Residual magnetism can disturb the welding are path on parts to be welded"
     ],
     "answer": 0,
@@ -738,9 +738,9 @@
     "question": "If the same amperage is passed through a 1 inch and 2 inch diameter bar of the same length, which of the following statements is most applicable relevant to the magnetic field at the surface of the bars?",
     "options": [
       "The strength of the magnetic field at the surfaces will be the same for both bars",
-      "The strength of the magnetic field at the surfaces of the 1 inch bar will be \n\n approximately twice that of the 2 inch bar",
-      "The strength of the magnetic field at the surfaces of the 2 inch bar will be \n\n approximately four times that of the 1 inch bar",
-      "The strength of the magnetic field at the surfaces of the 1 inch bar will be \n\n one-half that of the 1 inch bar"
+      "The strength of the magnetic field at the surfaces of the 1 inch bar will be \n approximately twice that of the 2 inch bar",
+      "The strength of the magnetic field at the surfaces of the 2 inch bar will be \n approximately four times that of the 1 inch bar",
+      "The strength of the magnetic field at the surfaces of the 1 inch bar will be \n one-half that of the 1 inch bar"
     ],
     "answer": 2,
     "level": "Level III",
@@ -751,10 +751,10 @@
     "id": 48,
     "question": "If the same amperage is passed through a 1 inch diameter bar and a 2 inch diameter bar of the same length, which of the following statements is most applicable relevant to the magnetic field at the center of the bars?",
     "options": [
-      "The strength of the magnetic field in the center of the 1 inch bar will be one\n\n -half that of the 2 inch bar",
-      "The strength of the magnetic field at the center of the 2 inch bar will be one\n\n -half that of the 1 inch bar",
+      "The strength of the magnetic field in the center of the 1 inch bar will be one\n -half that of the 2 inch bar",
+      "The strength of the magnetic field at the center of the 2 inch bar will be one\n -half that of the 1 inch bar",
       "The strength of the magnetic field in the center of both bars will be zero",
-      "The strength of the magnetic field in the center of the 1 inch bar will be\n\n approximately one-fourth the value for the 2 inch bar"
+      "The strength of the magnetic field in the center of the 1 inch bar will be\n approximately one-fourth the value for the 2 inch bar"
     ],
     "answer": 1,
     "level": "Level III",
@@ -892,7 +892,7 @@
     "question": "Small parts requiring demagnetization should be:",
     "options": [
       "loaded in baskets and passed through an AC coil",
-      "demagnetized after assembly to assure complete demagnetization of the entire\n\n assembly",
+      "demagnetized after assembly to assure complete demagnetization of the entire\n assembly",
       "processed through a demagnetization cycle one at a time",
       "loaded in a steel basket for better field distribution"
     ],
@@ -922,7 +922,7 @@
       "along one axis using a coil",
       "two shots using a coil at the X and Y axis",
       "two head shots along the X and Y axis",
-      "induced current shots along X, Y and Z axis, rotating 360 degrees during each \n\n shot\n\n* Select the answers to question 31 through 45 relating to application and establishment of techniques and procedures for magnetic test."
+      "induced current shots along X, Y and Z axis, rotating 360 degrees during each \n shot\n* Select the answers to question 31 through 45 relating to application and establishment of techniques and procedures for magnetic test."
     ],
     "answer": 3,
     "level": "Level III",
@@ -936,7 +936,7 @@
       "in the deposition of weld metal",
       "in interpretation and evaluation of indications",
       "in demagnetization",
-      "All of the above\n\n 45,000"
+      "All of the above\n 45,000"
     ],
     "answer": 1,
     "level": "Level III",
@@ -990,7 +990,7 @@
     "question": "Internal splines and holes, drilled parallel to or near test surfaces, will cause:",
     "options": [
       "broad, fuzzy indications directly aligned with the part's internal contours",
-      "sharp, well defined indications directly aligned with the part's internal \n\n contours",
+      "sharp, well defined indications directly aligned with the part's internal \n contours",
       "no indications",
       "both a and b above"
     ],
@@ -1132,7 +1132,7 @@
       "demagnetized then retested",
       "retested after stress relieving",
       "retested in the opposite direction",
-      "remagnetized at a higher amperage\n\n* Select the answers to question 46 through 65 relating to capability for interpreting codes, standards, and specifications relating to the magnetic test."
+      "remagnetized at a higher amperage\n* Select the answers to question 46 through 65 relating to capability for interpreting codes, standards, and specifications relating to the magnetic test."
     ],
     "answer": 1,
     "level": "Level III",
@@ -1413,7 +1413,7 @@
     "options": [
       "1/5 second",
       "1/2 second",
-      "1 second\n\n* The next 6 questions apply to ASME Section Ⅷ Div. 1",
+      "1 second\n* The next 6 questions apply to ASME Section Ⅷ Div. 1",
       "1 minute",
       "None of the above"
     ],

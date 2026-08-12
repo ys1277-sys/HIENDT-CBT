@@ -5,7 +5,7 @@
     "method": "PT",
     "subject": "Specific",
     "category": "ASME Sec.VIII",
-    "question": "How far is the aerosol can or sprayer held from the surface to be examined when applying the developer?",
+    "question": "How far is the aerosol can or sprayer held from the surface to be examined when applying the developer?\n현상액 적용시 시험체 표면으로부터 스프레이 또는 에어로솔은 어느 정도 떨어져야 하는가?",
     "question_kr": "현상액 적용시 시험체 표면으로부터 스프레이 또는 에어로솔은 어느 정도 떨어져야 하는가?",
     "options": [
       "5 inch",
@@ -22,7 +22,7 @@
     "method": "PT",
     "subject": "Specific",
     "category": "ASME Sec.VIII",
-    "question": "How long is minimum penetrant time for temperature 5℃?",
+    "question": "How long is minimum penetrant time for temperature 5℃?\n온도 5℃에 대한 최소 침투시간은 어느 정도인가?",
     "question_kr": "온도 5℃에 대한 최소 침투시간은 어느 정도인가?",
     "options": [
       "2 Min",
@@ -39,7 +39,7 @@
     "method": "PT",
     "subject": "Specific",
     "category": "ASME Sec.VIII",
-    "question": "Explain the meaning of linear and round indications.",
+    "question": "Explain the meaning of linear and round indications.\n원형지시와 선형지시의 의미를 설명하시오.",
     "question_kr": "원형지시와 선형지시의 의미를 설명하시오.",
     "options": [
       "Linear: L≤3d / Round: L>3d",
@@ -56,7 +56,7 @@
     "method": "PT",
     "subject": "Specific",
     "category": "ASME Sec.VIII",
-    "question": "Describe the excess penetrant removal methods.",
+    "question": "Describe the excess penetrant removal methods.\n과잉침투제 제거방법을 기술하시오.",
     "question_kr": "과잉침투제 제거방법을 기술하시오.",
     "options": [
       "Removed by wiping with cloth or absorbent paper",
@@ -73,7 +73,7 @@
     "method": "PT",
     "subject": "Specific",
     "category": "ASME Sec.VIII",
-    "question": "Three rounded indications in a line separated by 1/16 inch was found on the surface of the part whose thickness is 10 inch. Is this acceptable?",
+    "question": "Three rounded indications in a line separated by 1/16 inch was found on the surface of the part whose thickness is 10 inch. Is this acceptable?\n1/16인치로 분리된 선상의 3개 원형지시가 10인치 두께 표면에서 발견되었다. 합격인가?",
     "question_kr": "1/16인치로 분리된 선상의 3개 원형지시가 10인치 두께 표면에서 발견되었다. 합격인가?",
     "options": [
       "Yes",
@@ -88,7 +88,7 @@
     "method": "PT",
     "subject": "Specific",
     "category": "ASME Sec.VIII",
-    "question": "What kind of technique shall be used in this process specification?",
+    "question": "What kind of technique shall be used in this process specification?\n본 절차서에 사용되어진 기술의 종류는?",
     "question_kr": "본 절차서에 사용되어진 기술의 종류는?",
     "options": [
       "Water washable fluorescent penetrant",
@@ -105,7 +105,7 @@
     "method": "PT",
     "subject": "Specific",
     "category": "ASME Sec.VIII",
-    "question": "What is the size of relevant indication in case of dye penetration examination on welds and surface?",
+    "question": "What is the size of relevant indication in case of dye penetration examination on welds and surface?\n용접부나 표면에 염색 침투 시험일 경우 관련된 지시의 크기는?",
     "question_kr": "용접부나 표면에 염색 침투 시험일 경우 관련된 지시의 크기는?",
     "options": [
       "1/32 in",
@@ -122,7 +122,7 @@
     "method": "PT",
     "subject": "Specific",
     "category": "ASME Sec.VIII",
-    "question": "4.5 mm round indication was found on surface which thickness is 51mm. Is this indication acceptable?",
+    "question": "4.5 mm round indication was found on surface which thickness is 51mm. Is this indication acceptable?\n51mm 두께에 4.5mm 원형지시를 찾았다. 이 경우 합격인가?",
     "question_kr": "51mm 두께에 4.5mm 원형지시를 찾았다. 이 경우 합격인가?",
     "options": [
       "Yes",
@@ -137,7 +137,7 @@
     "method": "PT",
     "subject": "Specific",
     "category": "ASME Sec.VIII",
-    "question": "What are the maximum allowable temperatures for the part surface and the penetrant?",
+    "question": "What are the maximum allowable temperatures for the part surface and the penetrant?\n제품표면과 침투액에 대한 허용 최대 온도는?",
     "question_kr": "제품표면과 침투액에 대한 허용 최대 온도는?",
     "options": [
       "10~52℃",
@@ -154,7 +154,7 @@
     "method": "PT",
     "subject": "Specific",
     "category": "ASME B16.34",
-    "question": "A 18mm linear indication was found during inspection of a 50mm thick casting. What is the pass/fail decision?",
+    "question": "A 18mm linear indication was found during inspection of a 50mm thick casting. What is the pass/fail decision?\n50mm 두께의 주조품 검사시 선형 결함 18mm가 발견되었습니다. 합부는?",
     "question_kr": "50mm 두께의 주조품 검사시 선형 결함 18mm가 발견되었습니다. 합부는?",
     "options": [
       "Accept",
@@ -165,7 +165,7 @@
   },
   {
     "id": 11,
-    "question": "A 15mm linear indication was found during inspection of a 30mm thick forging. What is the pass/fail decision?",
+    "question": "A 15mm linear indication was found during inspection of a 30mm thick forging. What is the pass/fail decision?\n30mm 두께의 단조품 검사시 선형 결함 15mm가 발견되었습니다. 합부는?",
     "korean": "30mm 두께의 단조품 검사시 선형 결함 15mm가 발견되었습니다. 합부는?",
     "options": [
       "Accept",
@@ -175,7 +175,7 @@
   },
   {
     "id": 12,
-    "question": "The following rounded indications are in the weld ; (3ea) 1/16in. indications ; (3ea) 7/64in. indications and (4ea) 1/8in. indications. All are separated by 1/16in. from each other. Is the weld acceptable?",
+    "question": "The following rounded indications are in the weld ; (3ea) 1/16in. indications ; (3ea) 7/64in. indications and (4ea) 1/8in. indications. All are separated by 1/16in. from each other. Is the weld acceptable?\n용접부에 원형지시가 다음과 같이 나타났다. 1/16인치 3개, 7/64인치 3개, 1/8인치 4개의 지시가 서로 1/16인치 떨어져 있다. 이 용접부는 합격인가?",
     "korean": "용접부에 원형지시가 다음과 같이 나타났다. 1/16인치 3개, 7/64인치 3개, 1/8인치 4개의 지시가 서로 1/16인치 떨어져 있다. 이 용접부는 합격인가?",
     "options": [
       "Accept",
@@ -185,7 +185,7 @@
   },
   {
     "id": 13,
-    "question": "A vision test on a Level II person is to be performed according to SNT-TC-1A. Which of the following does not apply?",
+    "question": "A vision test on a Level II person is to be performed according to SNT-TC-1A. Which of the following does not apply?\nLevel II 인원의 시력검사를 SNT-TC-1A에 따라 수행하려고 한다. 해당되지 않는 사항은?",
     "korean": "Level II 인원의 시력검사를 SNT-TC-1A에 따라 수행하려고 한다. 해당되지 않는 사항은?",
     "options": [
       "Color contrast differentiation shall be verified",
@@ -197,7 +197,7 @@
   },
   {
     "id": 14,
-    "question": "It intends to acquire Level III qualifications in accordance with ANSI/ASNT CP-189. Which of the following does not apply?",
+    "question": "It intends to acquire Level III qualifications in accordance with ANSI/ASNT CP-189. Which of the following does not apply?\nANSI/ASNT CP-189를 적용하여 Level III 자격을 취득하고자 한다. 다음 중 해당되지 않는 사항은?",
     "korean": "ANSI/ASNT CP-189를 적용하여 Level III 자격을 취득하고자 한다. 다음 중 해당되지 않는 사항은?",
     "options": [
       "Hold current ASNT Level III certificate",
@@ -209,7 +209,7 @@
   },
   {
     "id": 15,
-    "question": "Which of the following is a discontinuity which might be found in sand casting?",
+    "question": "Which of the following is a discontinuity which might be found in sand casting?\n주조품 내에서 발견될 수 있는 불연속 지시는?",
     "korean": "주조품 내에서 발견될 수 있는 불연속 지시는?",
     "options": [
       "Incomplete penetration",
@@ -221,7 +221,7 @@
   },
   {
     "id": 16,
-    "question": "The water pressure at the wash station shall be controlled by a?",
+    "question": "The water pressure at the wash station shall be controlled by a?\n수세 장소의 수압은 무엇에 의해 제어되는가?",
     "korean": "수세 장소의 수압은 무엇에 의해 제어되는가?",
     "options": [
       "Pressure gauge",
@@ -233,7 +233,7 @@
   },
   {
     "id": 17,
-    "question": "The best technique for applying wet developer for the highest sensitivity is?",
+    "question": "The best technique for applying wet developer for the highest sensitivity is?\n고감도를 위한 습식 현상액 적용 방법은?",
     "korean": "고감도를 위한 습식 현상액 적용 방법은?",
     "options": [
       "Dipping and draining",
@@ -245,7 +245,7 @@
   },
   {
     "id": 18,
-    "question": "What kind of flaws do rounded or point-like PT indications point to?",
+    "question": "What kind of flaws do rounded or point-like PT indications point to?\n둥글거나 점 형태의 PT 지시는 어떤 결함을 나타내는가?",
     "korean": "둥글거나 점 형태의 PT 지시는 어떤 결함을 나타내는가?",
     "options": [
       "Small hot cracks",
@@ -257,7 +257,7 @@
   },
   {
     "id": 19,
-    "question": "Which type of penetrant test was developed primarily for castings?",
+    "question": "Which type of penetrant test was developed primarily for castings?\n주조품 검사에 주로 개발된 침투탐상시험 형태는?",
     "korean": "주조품 검사에 주로 개발된 침투탐상시험 형태는?",
     "options": [
       "Solvent-removed fluorescent penetrant",
@@ -269,7 +269,7 @@
   },
   {
     "id": 20,
-    "question": "When conducting PT in accordance with ASME Code Sec.V, 2023 Edition PT indication shall be interpreted not later than after the developer has been applied.",
+    "question": "When conducting PT in accordance with ASME Code Sec.V, 2023 Edition PT indication shall be interpreted not later than after the developer has been applied.\nASME Sec.V 2023 Edition에 따른 PT 지시는 현상제 적용 후 몇 분 이내 평가해야 하는가?",
     "korean": "ASME Sec.V 2023 Edition에 따른 PT 지시는 현상제 적용 후 몇 분 이내 평가해야 하는가?",
     "options": [
       "1 minute",
@@ -281,7 +281,7 @@
   },
   {
     "id": 21,
-    "question": "The wavelength of ultraviolet light(Model:BD-100) generally used in fluorescent penetrant inspection is:",
+    "question": "The wavelength of ultraviolet light(Model:BD-100) generally used in fluorescent penetrant inspection is:\n형광 침투탐상 시험시 사용하는 자외선(BD-100)의 파장은?",
     "korean": "형광 침투탐상 시험시 사용하는 자외선(BD-100)의 파장은?",
     "options": [
       "3000 Å",
@@ -293,7 +293,7 @@
   },
   {
     "id": 22,
-    "question": "When applying of penetrant, it shall be included a minimum (        ) inch beyond the area of interest?",
+    "question": "When applying of penetrant, it shall be included a minimum (        ) inch beyond the area of interest?\n침투제를 적용할 관심부위 밖 최소 몇 inch가 포함되어야 하는가?",
     "korean": "침투제를 적용할 관심부위 밖 최소 몇 inch가 포함되어야 하는가?",
     "options": [
       "1 inch",
@@ -305,7 +305,7 @@
   },
   {
     "id": 23,
-    "question": "What is the best method to apply the penetrant test on a large number of small pieces of complex shape?",
+    "question": "What is the best method to apply the penetrant test on a large number of small pieces of complex shape?\n복잡한 형태의 작은 부품이 많은 경우 침투시험 적용에 가장 적합한 방법은?",
     "korean": "복잡한 형태의 작은 부품이 많은 경우 침투시험 적용에 가장 적합한 방법은?",
     "options": [
       "Dipping with a basket",
@@ -317,7 +317,7 @@
   },
   {
     "id": 24,
-    "question": "1/8(3mm) rounded indication and 1/8(3mm) linear indication was found on forgings of which thickness is 2(50mm). Is this acceptable?",
+    "question": "1/8(3mm) rounded indication and 1/8(3mm) linear indication was found on forgings of which thickness is 2(50mm). Is this acceptable?\n50mm 두께 단조품에서 3mm 원형지시와 3mm 선형지시가 발견되었다. 합격인가?",
     "korean": "50mm 두께 단조품에서 3mm 원형지시와 3mm 선형지시가 발견되었다. 합격인가?",
     "options": [
       "Yes",
@@ -327,7 +327,7 @@
   },
   {
     "id": 25,
-    "question": "Only 1/8 rounded indication was found on castings of which thickness is 1/2. Is this acceptable?",
+    "question": "Only 1/8 rounded indication was found on castings of which thickness is 1/2. Is this acceptable?\n1/2 inch 두께 주조품에서 1/8 inch 원형지시가 발견되었다. 합격인가?",
     "korean": "1/2 inch 두께 주조품에서 1/8 inch 원형지시가 발견되었다. 합격인가?",
     "options": [
       "Yes",
@@ -337,7 +337,7 @@
   },
   {
     "id": 26,
-    "question": "What is the light intensity at the penetrant testing surface?",
+    "question": "What is the light intensity at the penetrant testing surface?\n침투탐상시험 면에서의 빛의 세기는?",
     "korean": "침투탐상시험 면에서의 빛의 세기는?",
     "options": [
       "Minimum of 1076 lux",
@@ -349,7 +349,7 @@
   },
   {
     "id": 27,
-    "question": "How long time until the developer applied after the removal of excess penetrant?",
+    "question": "How long time until the developer applied after the removal of excess penetrant?\n과잉 침투제 제거 후 현상제 적용까지의 시간은?",
     "korean": "과잉 침투제 제거 후 현상제 적용까지의 시간은?",
     "options": [
       "Within 15 min",
@@ -362,7 +362,7 @@
   },
   {
     "id": 28,
-    "question": "Which of the following statements is wrong about applying penetrant after the precleaning for testing surface?",
+    "question": "Which of the following statements is wrong about applying penetrant after the precleaning for testing surface?\n표면 전처리 후 침투제 적용에 대한 설명 중 틀린 것은?",
     "korean": "표면 전처리 후 침투제 적용에 대한 설명 중 틀린 것은?",
     "options": [
       "After cleaning, drying shall be accomplished only by hot air blowing",
@@ -374,7 +374,7 @@
   },
   {
     "id": 29,
-    "question": "According to ASME Code Section III Div.1 NB, What kind of examination method for category B welded joints in vessels?",
+    "question": "According to ASME Code Section III Div.1 NB, What kind of examination method for category B welded joints in vessels?\nASME Section III Div.1 NB에 따라 용기의 B 범주 용접 이음부 검사 방법은?",
     "korean": "ASME Section III Div.1 NB에 따라 용기의 B 범주 용접 이음부 검사 방법은?",
     "options": [
       "Volumetric test",
@@ -386,7 +386,7 @@
   },
   {
     "id": 30,
-    "question": "A length 1/8in.(3mm) rounded indication is; This indication acceptable?",
+    "question": "A length 1/8in.(3mm) rounded indication is; This indication acceptable?\n3mm 길이의 원형지시는 합격인가?",
     "korean": "3mm 길이의 원형지시는 합격인가?",
     "options": [
       "Accept",
@@ -398,10 +398,10 @@
     "id": 31,
     "question": "Which of the following statements apply to liquid penetrant examination?",
     "options": [
-      "Liquid penetrant examination is used to detect internal discontinuities in \n\n castings",
+      "Liquid penetrant examination is used to detect internal discontinuities in \n castings",
       "Liquid penetrant examination will not detect cracks",
       "Liquid penetrant examination will detect both surface and subsurface defects",
-      "Liquid penetrant examination is used to detect surface discontinuities in \n\n both ferrous and nonferrous material"
+      "Liquid penetrant examination is used to detect surface discontinuities in \n both ferrous and nonferrous material"
     ],
     "answer": 3,
     "level": "Level III",
@@ -527,9 +527,9 @@
     "question": "Aluminum alloy test specimens that have bee in examined by the liquid penetrant method should be thoroughly cleaned after examination because:",
     "options": [
       "the acid in the penetrant may cause severe corrosion",
-      "the alkaline content of wet developers and most emulsifiers could result in \n\n surface pitting, particularly in wet atmospheres",
-      "the toxic residue from the test will severely inhibit the application of \n\n paint on aluminum alloys",
-      "a chemical reaction between the penetrant and aluminum could cause a fire \n\n because of internal combustion"
+      "the alkaline content of wet developers and most emulsifiers could result in \n surface pitting, particularly in wet atmospheres",
+      "the toxic residue from the test will severely inhibit the application of \n paint on aluminum alloys",
+      "a chemical reaction between the penetrant and aluminum could cause a fire \n because of internal combustion"
     ],
     "answer": 1,
     "level": "Level III",
@@ -540,9 +540,9 @@
     "id": 41,
     "question": "Why is it difficult to re-examine a part that has been examined using a liquid penetrant (one answer)?",
     "options": [
-      "The indications from the first examination will interfere with the \n\n indications from the second examination",
-      "The penetrant used the second time will not be sufficiently viscous to \n\n perform the examination",
-      "The dried penetrant residue left in discontinuities may not readily dissolve \n\n and the re-examination may be misleading",
+      "The indications from the first examination will interfere with the \n indications from the second examination",
+      "The penetrant used the second time will not be sufficiently viscous to \n perform the examination",
+      "The dried penetrant residue left in discontinuities may not readily dissolve \n and the re-examination may be misleading",
       "The first examination will leave an oily film over the surface"
     ],
     "answer": 2,
@@ -555,9 +555,9 @@
     "question": "Which of the following is not an aid that will help minimize the chances of a good inspector missing a penetrant indication?",
     "options": [
       "A good white light should be provided when visible dye penetrants are used",
-      "When inspecting with a black light and fluorescent penetrant, discontinuity \n\n indications will be easier to see if the inspector wears yellow sun glasses",
+      "When inspecting with a black light and fluorescent penetrant, discontinuity \n indications will be easier to see if the inspector wears yellow sun glasses",
       "The inspector should have an assistant to double check each inspection",
-      "A suitably darkened booth should be provided when nonfluorescent penetrants \n\n are used"
+      "A suitably darkened booth should be provided when nonfluorescent penetrants \n are used"
     ],
     "answer": [
       1,
@@ -572,9 +572,9 @@
     "question": "Which of the following is the best reason why the application of emulsifier by brush is not recommended?",
     "options": [
       "Brushing results in a streaking appearance during inspection",
-      "Brushing does mot always completely coat the part, thereby, leaving a portion of \n\n the part difficult to wash",
-      "The brushing action mixes the emulsifier with the penetrant prematurely and \n\n irregularly, making accurate control of emulsification impossible",
-      "Brushing in itself is not harmful, but many types of brush materials combine with \n\n the emulsifier agents resulting in penetrant and part contamination"
+      "Brushing does mot always completely coat the part, thereby, leaving a portion of \n the part difficult to wash",
+      "The brushing action mixes the emulsifier with the penetrant prematurely and \n irregularly, making accurate control of emulsification impossible",
+      "Brushing in itself is not harmful, but many types of brush materials combine with \n the emulsifier agents resulting in penetrant and part contamination"
     ],
     "answer": 2,
     "level": "Level III",
@@ -641,9 +641,9 @@
     "id": 48,
     "question": "When performing liquid penetrant examination, it is found that the developer is excessively heavy on several areas. Which of the following actions are necessary?",
     "options": [
-      "Disregard the areas that have excess developer and proceed with \n\n interpretation.",
+      "Disregard the areas that have excess developer and proceed with \n interpretation.",
       "Completely reclean the part and perform a complete new examination",
-      "Add a little penetrant to the test surface to compensate for the excess \n\n developer",
+      "Add a little penetrant to the test surface to compensate for the excess \n developer",
       "Remove the excess developer and reapply a lighter coating"
     ],
     "answer": 1,
@@ -655,10 +655,10 @@
     "id": 49,
     "question": "In discussing liquid penetrants, which of the following statements is not true?",
     "options": [
-      "Liquid penetrant examination can be made more sensitive by varying the type \n\n of penetrant used",
-      "Liquid penetrant examination can be used to accurately measure the depth of \n\n discontinuities",
+      "Liquid penetrant examination can be made more sensitive by varying the type \n of penetrant used",
+      "Liquid penetrant examination can be used to accurately measure the depth of \n discontinuities",
       "Liquid penetrant examination can be used on large parts at different locations",
-      "Liquid penetrant examination can be made more sensitive by varying \n\n techniques"
+      "Liquid penetrant examination can be made more sensitive by varying \n techniques"
     ],
     "answer": 1,
     "level": "Level III",
@@ -781,8 +781,8 @@
     "id": 58,
     "question": "If a part is to undergo both pressure testing and penetrant examination:",
     "options": [
-      "the part must be both pressure tested and penetrant examined before it is \n\n rejected",
-      "all discontinuities discovered during the pressure test must be repaired \n\n before the penetrant examination is conducted",
+      "the part must be both pressure tested and penetrant examined before it is \n rejected",
+      "all discontinuities discovered during the pressure test must be repaired \n before the penetrant examination is conducted",
       "the pressure test should be done before the penetrant examination",
       "the penetrant examination should be done before the pressure test"
     ],
@@ -796,9 +796,9 @@
     "question": "It is commonly accepted that the difference between a discontinuity and a defect is :",
     "options": [
       "a discontinuity is always larger than a defect",
-      "a discontinuity interferes with the usefulness of a part while a defect may \n\n or may not interfere",
+      "a discontinuity interferes with the usefulness of a part while a defect may \n or may not interfere",
       "there is no difference in the meaning of the two words",
-      "a defect interferes with the usefulness of the part while all discontinuity \n\n may or may not interfere with the usefulness of a part"
+      "a defect interferes with the usefulness of the part while all discontinuity \n may or may not interfere with the usefulness of a part"
     ],
     "answer": 3,
     "level": "Level III",
@@ -811,7 +811,7 @@
     "options": [
       "Wiping with a soaking wet cloth, then wiping with dry cloths",
       "Spraying solvent over the surface with no more than 40 psi pressure",
-      "Wiping with dry paper wipes, then wiping with all solvent dampened cloth and \n\n finally wiping with a lint-free, dry cloth",
+      "Wiping with dry paper wipes, then wiping with all solvent dampened cloth and \n finally wiping with a lint-free, dry cloth",
       "Wiping with a solvent dampened cloth, then wiping with dry cloths"
     ],
     "answer": 2,
@@ -906,7 +906,7 @@
     "question": "Which of the following is the best reason why excessive drying of developer or excessive development time is not a good practice?",
     "options": [
       "The dried developer may become difficult to remove",
-      "The developer may lose its sensitivity or there may be excessive bleed out \n\n which can cause misinterpretation",
+      "The developer may lose its sensitivity or there may be excessive bleed out \n which can cause misinterpretation",
       "The developer may lose its blotting ability",
       "The penetrant will absorb all of the developer"
     ],
@@ -921,7 +921,7 @@
     "options": [
       "The solvent cleaner must be free of contamination",
       "The solvent cleaner must leave little or no residue after evaporation",
-      "The solvent cleaner must be capable of removing oils and grease that may be \n\n found on the component",
+      "The solvent cleaner must be capable of removing oils and grease that may be \n found on the component",
       "All of the above"
     ],
     "answer": 3,
@@ -933,10 +933,10 @@
     "id": 69,
     "question": "How much penetrant must be removed from the part or component prior to application of the developer?",
     "options": [
-      "Sufficient excess penetrant must be removed to eliminate indications of \n\n surface discontinuities",
+      "Sufficient excess penetrant must be removed to eliminate indications of \n surface discontinuities",
       "All surface penetrant must be removed prior to applying the developer",
-      "No more than 20% of the penetrant may be removed prior to applying the \n\n developer",
-      "Sufficient excess penetrant must be removed to eliminate a confusing \n\n background"
+      "No more than 20% of the penetrant may be removed prior to applying the \n developer",
+      "Sufficient excess penetrant must be removed to eliminate a confusing \n background"
     ],
     "answer": 3,
     "level": "Level III",
@@ -950,7 +950,7 @@
       "Usually, just prior to post examination cleaning",
       "At least 35 minutes after the developer has been applied",
       "Immediately after the developer had been applied",
-      "After the developer has been on to apart for the amount of time specified in \n\n the qualified procedure"
+      "After the developer has been on to apart for the amount of time specified in \n the qualified procedure"
     ],
     "answer": 3,
     "level": "Level III",
@@ -961,10 +961,10 @@
     "id": 71,
     "question": "Which one of the following is a primary limitation of liquid penetrant examination?",
     "options": [
-      "Liquid penetrant examination cannot be used to detect shallow surface \n\n discontinuities",
+      "Liquid penetrant examination cannot be used to detect shallow surface \n discontinuities",
       "Liquid penetrant examination cannot be used on nonferrous materials",
       "Liquid penetrant examination cannot be used on nonmetallic items",
-      "Liquid penetrant examination cannot locate discontinuities closed to the \n\n surface"
+      "Liquid penetrant examination cannot locate discontinuities closed to the \n surface"
     ],
     "answer": 3,
     "level": "Level III",
@@ -989,10 +989,10 @@
     "id": 73,
     "question": "Which of the following is a standard method for qualifying a liquid penetrant procedure to be used for abnormal test conditions?",
     "options": [
-      "Produce the abnormal test conditions in production item to be inspected, \n\n apply the procedure, and compare the results with the results under normal \n\n conditions",
-      "Using a standard comparator block with a known crack pattern divided by \n\n machine groove, apply the normal procedure and conditions to one side of the \n\n groove in the block and apply the abnormal conditions and procedure changes \n\n to the other side of the groove. Visually compare the images of the crack \n\n pattern on both sides of the groove",
-      "Have the penetrant residue analyzed for sulfur and halogens after the \n\n abnormal conditions have been applied to assure they remain within the \n\n limits of the applicable code or standard requirement",
-      "None of the above\n\n* Answers to questions 46 through 65 may use referenced sections of the ASME B & PV \n\n code (Latest Edition)"
+      "Produce the abnormal test conditions in production item to be inspected, \n apply the procedure, and compare the results with the results under normal \n conditions",
+      "Using a standard comparator block with a known crack pattern divided by \n machine groove, apply the normal procedure and conditions to one side of the \n groove in the block and apply the abnormal conditions and procedure changes \n to the other side of the groove. Visually compare the images of the crack \n pattern on both sides of the groove",
+      "Have the penetrant residue analyzed for sulfur and halogens after the \n abnormal conditions have been applied to assure they remain within the \n limits of the applicable code or standard requirement",
+      "None of the above\n* Answers to questions 46 through 65 may use referenced sections of the ASME B & PV \n code (Latest Edition)"
     ],
     "answer": 3,
     "level": "Level III",
@@ -1003,10 +1003,10 @@
     "id": 74,
     "question": "Article 6 of ASME Section Ⅴ states that:",
     "options": [
-      "a water washable penetrant test shall not be applied to a part has been \n\n previously examined using a post-emulsifiable penetrant.",
-      "a color contrast penetrant test shall not be applied to a part that has been \n\n previously examined using a fluorescent penetrant.",
-      "a fluorescent penetrant test shall not be applied to a part that has been \n\n previously examined using a color contrast penetrant.",
-      "a post emulsifiable penetrant test shall not be applied to a part that has \n\n been previously examined using a solvent removable penetrant.",
+      "a water washable penetrant test shall not be applied to a part has been \n previously examined using a post-emulsifiable penetrant.",
+      "a color contrast penetrant test shall not be applied to a part that has been \n previously examined using a fluorescent penetrant.",
+      "a fluorescent penetrant test shall not be applied to a part that has been \n previously examined using a color contrast penetrant.",
+      "a post emulsifiable penetrant test shall not be applied to a part that has \n been previously examined using a solvent removable penetrant.",
       "none of the above."
     ],
     "answer": 2,
@@ -1021,7 +1021,7 @@
       "acetone shall be used.",
       "one inch adjacent to the area to be examined shall be clean.",
       "one-half inch adjacent to the area to be examined shall be clean.",
-      "a light coating of oil on the test surface, that is compatible with the \n\n penetrant is acceptable.",
+      "a light coating of oil on the test surface, that is compatible with the \n penetrant is acceptable.",
       "none of the above."
     ],
     "answer": 1,
@@ -1067,7 +1067,7 @@
       "when a change is made in the type of precleaning materials.",
       "when a change is made in the type of penetrant materials.",
       "when personnel (operators) are changed.",
-      "none of the above.\n\nThe next 3 questions apply to this situation.\n\n A weld that is ½ inch wide and 6 inches long has been liquid penetrant tested \n\nin accordance with ASME Section Ⅲ Div. 1, Subsection NB."
+      "none of the above.\nThe next 3 questions apply to this situation.\n A weld that is ½ inch wide and 6 inches long has been liquid penetrant tested \nin accordance with ASME Section Ⅲ Div. 1, Subsection NB."
     ],
     "answer": [
       1,
@@ -1099,11 +1099,11 @@
     "id": 81,
     "question": "In accordance with Article 6 of ASME Section ⅴ, to qualify, a procedure at temperature outside the 60oF to 125oF range:",
     "options": [
-      "one-half of the liquid penetrant comparator block is processed at the \n\n proposed temperature and the other half processed within the 60oF to 125oF \n\n range.",
-      "two separate liquid penetrant comparator blocks are processed. One at the \n\n proposed temperature and the other within the 60oF to 125oF range.",
-      "using the liquid penetrant comparator blocks is recommended but not \n\n mandatory.",
-      "one liquid penetrant t comparator block is processed at the proposed \n\n temperature and the indications are photographed. The same block is cleaned \n\n and reprocessed within the 60oF to 125oF temperature range. the results are \n\n then compared with the photograph.",
-      "none of the above.\n\nThe next 3 questions apply to this situation.\n\n* A disc shaped casting 2 feet in diameter and 1 inch thick is liquid penetrant \n\ntested in accordance with ASME Section Ⅲ Div. 1, Subsection ND."
+      "one-half of the liquid penetrant comparator block is processed at the \n proposed temperature and the other half processed within the 60oF to 125oF \n range.",
+      "two separate liquid penetrant comparator blocks are processed. One at the \n proposed temperature and the other within the 60oF to 125oF range.",
+      "using the liquid penetrant comparator blocks is recommended but not \n mandatory.",
+      "one liquid penetrant t comparator block is processed at the proposed \n temperature and the indications are photographed. The same block is cleaned \n and reprocessed within the 60oF to 125oF temperature range. the results are \n then compared with the photograph.",
+      "none of the above.\nThe next 3 questions apply to this situation.\n* A disc shaped casting 2 feet in diameter and 1 inch thick is liquid penetrant \ntested in accordance with ASME Section Ⅲ Div. 1, Subsection ND."
     ],
     "answer": 0,
     "level": "Level III",
@@ -1146,7 +1146,7 @@
     "options": [
       "nonrelevant.",
       "nonlinear.",
-      "rejectable.\n\nThe next 6 questions apply to ASME Section Ⅲ Div. 1, Subsection NB.",
+      "rejectable.\nThe next 6 questions apply to ASME Section Ⅲ Div. 1, Subsection NB.",
       "acceptable.",
       "none of the above"
     ],

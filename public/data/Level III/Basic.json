@@ -4,7 +4,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "SNT-TC-1A",
-    "question": "The certifying agency which provides written testimony of the capabilities of persons who are responsible for and carry out nondestructive testing (NDT) is:",
+    "question": "The certifying agency which provides written testimony of the capabilities of persons who are responsible for and carry out nondestructive testing (NDT) is:\n비파괴검사를 수행하고 책임지는 사람의 능력을 서면으로 증명하는 인증 기관은?",
     "question_kr": "비파괴검사를 수행하고 책임지는 사람의 능력을 서면으로 증명하는 인증 기관은?",
     "options": [
       "the American Society for Nondestructive Testing",
@@ -19,7 +19,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "SNT-TC-1A",
-    "question": "The document that outlines the specific training required for NDT certification is:",
+    "question": "The document that outlines the specific training required for NDT certification is:\nNDT 자격 인증에 필요한 특정 교육을 규정하는 문서는?",
     "question_kr": "NDT 자격 인증에 필요한 특정 교육을 규정하는 문서는?",
     "options": [
       "SNT-TC-1A",
@@ -34,7 +34,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "SNT-TC-1A",
-    "question": "If a person is being qualified directly to Level II with no time at Level I, the required experience will be:",
+    "question": "If a person is being qualified directly to Level II with no time at Level I, the required experience will be:\nLevel I 경력 없이 직접 Level II 자격을 취득하는 경우 필요한 경험은?",
     "question_kr": "Level I 경력 없이 직접 Level II 자격을 취득하는 경우 필요한 경험은?",
     "options": [
       "only that experience specified for Level II",
@@ -49,7 +49,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "SNT-TC-1A",
-    "question": "Credit for experience may be gained simultaneously in two or more disciplines; however, the candidate must spend at least ____ percent of his work time in each discipline.",
+    "question": "Credit for experience may be gained simultaneously in two or more disciplines; however, the candidate must spend at least ____ percent of his work time in each discipline.\n두 개 이상의 분야에서 동시에 경력을 인정받기 위해 각 분야에서 최소 근무해야 하는 비율은?",
     "question_kr": "두 개 이상의 분야에서 동시에 경력을 인정받기 위해 각 분야에서 최소 근무해야 하는 비율은?",
     "options": [
       "10%",
@@ -64,7 +64,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "SNT-TC-1A",
-    "question": "If a person is being qualified directly to Level II with no time at Level I, the amount of training required shall be:",
+    "question": "If a person is being qualified directly to Level II with no time at Level I, the amount of training required shall be:\nLevel I 경력 없이 직접 Level II 자격을 취득하는 경우 필요한 교육시간은?",
     "question_kr": "Level I 경력 없이 직접 Level II 자격을 취득하는 경우 필요한 교육시간은?",
     "options": [
       "determined by the candidate's amount of work experience",
@@ -79,7 +79,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "SNT-TC-1A",
-    "question": "Who may conduct and grade examinations for NDT Level I and Level II candidates?",
+    "question": "Who may conduct and grade examinations for NDT Level I and Level II candidates?\nNDT Level I 및 Level II 시험을 시행하고 채점할 수 있는 사람은?",
     "question_kr": "NDT Level I 및 Level II 시험을 시행하고 채점할 수 있는 사람은?",
     "options": [
       "Any qualified physicochemist",
@@ -94,7 +94,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "SNT-TC-1A",
-    "question": "The document which specifies the degree to which basic test principles relative to applicable methods will be tested is:",
+    "question": "The document which specifies the degree to which basic test principles relative to applicable methods will be tested is:\n적용 방법에 대한 기본 원리가 어느 정도 시험되는지를 규정하는 문서는?",
     "question_kr": "적용 방법에 대한 기본 원리가 어느 정도 시험되는지를 규정하는 문서는?",
     "options": [
       "ASNT Level III Certification examination",
@@ -109,7 +109,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "SNT-TC-1A",
-    "question": "The specific examination shall cover the equipment, operating procedures, and test techniques that the applicant may encounter in:",
+    "question": "The specific examination shall cover the equipment, operating procedures, and test techniques that the applicant may encounter in:\n특정 시험은 지원자가 접할 수 있는 장비, 절차 및 시험기술을 어느 범위에서 다루는가?",
     "question_kr": "특정 시험은 지원자가 접할 수 있는 장비, 절차 및 시험기술을 어느 범위에서 다루는가?",
     "options": [
       "A specific work assignment",
@@ -124,7 +124,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "SNT-TC-1A",
-    "question": "The Level II practical examination is:",
+    "question": "The Level II practical examination is:\nLevel II 실기시험은?",
     "question_kr": "Level II 실기시험은?",
     "options": [
       "unconcerned with test variables or procedural requirements",
@@ -139,7 +139,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "SNT-TC-1A",
-    "question": "Recommended maximum recertification intervals are ____ years for all certification levels.",
+    "question": "Recommended maximum recertification intervals are ____ years for all certification levels.\n모든 인증 레벨의 권장 최대 재인증 기간은 몇 년인가?",
     "question_kr": "모든 인증 레벨의 권장 최대 재인증 기간은 몇 년인가?",
     "options": [
       "5",
@@ -154,7 +154,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "SNT-TC-1A",
-    "question": "A Level I, Level II, or Level III whose certification has been terminated may be reinstated to the former NDT level, without a new examination if the employee is being reinstated within ____ months of termination.",
+    "question": "A Level I, Level II, or Level III whose certification has been terminated may be reinstated to the former NDT level, without a new examination if the employee is being reinstated within ____ months of termination.\n인증이 종료된 Level I, II, III 인원이 재시험 없이 이전 자격으로 복귀 가능한 기간은?",
     "question_kr": "인증이 종료된 Level I, II, III 인원이 재시험 없이 이전 자격으로 복귀 가능한 기간은?",
     "options": [
       "5 months",
@@ -169,7 +169,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "SNT-TC-1A",
-    "question": "An NDT Level III representative of the employer is responsible for conducting and grading examination of NDT Level I and Level II personnel:",
+    "question": "An NDT Level III representative of the employer is responsible for conducting and grading examination of NDT Level I and Level II personnel:\n고용주의 NDT Level III 대표자는 Level I 및 Level II 시험 시행 및 채점 책임을:",
     "question_kr": "고용주의 NDT Level III 대표자는 Level I 및 Level II 시험 시행 및 채점 책임을:",
     "options": [
       "must personally perform these functions",
@@ -184,7 +184,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "SNT-TC-1A",
-    "question": "The required composite grade required for NDT Level III qualification is:",
+    "question": "The required composite grade required for NDT Level III qualification is:\nNDT Level III 자격 취득에 필요한 종합 점수는?",
     "question_kr": "NDT Level III 자격 취득에 필요한 종합 점수는?",
     "options": [
       "80 percent",
@@ -199,7 +199,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "SNT-TC-1A",
-    "question": "Evidence of receiving suitable training prior to the NDT Level III examination must be determined by:",
+    "question": "Evidence of receiving suitable training prior to the NDT Level III examination must be determined by:\nNDT Level III 시험 전 적절한 교육 이수 증명은 누가 확인하는가?",
     "question_kr": "NDT Level III 시험 전 적절한 교육 이수 증명은 누가 확인하는가?",
     "options": [
       "The Society for Nondestructive Testing",
@@ -214,7 +214,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "SNT-TC-1A",
-    "question": "The effectiveness of nondestructive testing depends upon:",
+    "question": "The effectiveness of nondestructive testing depends upon:\n비파괴검사의 효과는 무엇에 의존하는가?",
     "question_kr": "비파괴검사의 효과는 무엇에 의존하는가?",
     "options": [
       "strict adherence to the SNT recommended written practice",
@@ -229,7 +229,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "SNT-TC-1A",
-    "question": "The purpose of SNT-TC-1A is to:",
+    "question": "The purpose of SNT-TC-1A is to:\nSNT-TC-1A의 목적은?",
     "question_kr": "SNT-TC-1A의 목적은?",
     "options": [
       "provide a rigid program for qualification and certification",
@@ -244,7 +244,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "SNT-TC-1A",
-    "question": "Because SNT-TC-1A may not be appropriate for certain applications, the employer should review the guidelines and:",
+    "question": "Because SNT-TC-1A may not be appropriate for certain applications, the employer should review the guidelines and:\nSNT-TC-1A가 특정 적용에 적합하지 않을 경우 고용주는:",
     "question_kr": "SNT-TC-1A가 특정 적용에 적합하지 않을 경우 고용주는:",
     "options": [
       "reject them if they are not suitable",
@@ -259,7 +259,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "SNT-TC-1A",
-    "question": "SNT-TC-1A recommends that all certifications shall be automatically terminated:",
+    "question": "SNT-TC-1A recommends that all certifications shall be automatically terminated:\nSNT-TC-1A에서 모든 인증이 자동 종료되는 경우는?",
     "question_kr": "SNT-TC-1A에서 모든 인증이 자동 종료되는 경우는?",
     "options": [
       "at the end of three years",
@@ -274,7 +274,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "SNT-TC-1A",
-    "question": "According to SNT-TC-1A, the employer's written practice for the control and administration of NDT personnel training, examination, and certification:",
+    "question": "According to SNT-TC-1A, the employer's written practice for the control and administration of NDT personnel training, examination, and certification:\nSNT-TC-1A에 따른 고용주의 NDT 인원 교육, 시험 및 인증 관리 절차서는:",
     "question_kr": "SNT-TC-1A에 따른 고용주의 NDT 인원 교육, 시험 및 인증 관리 절차서는:",
     "options": [
       "should reflect the guidelines set forth in SNT-TC-1A, paragraph 1 Scope",
@@ -289,7 +289,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "SNT-TC-1A",
-    "question": "NDT Level III have ____ years experience beyond the Level II requirements in NDT in an assignment at least comparable to that of an NDT Level II.",
+    "question": "NDT Level III have ____ years experience beyond the Level II requirements in NDT in an assignment at least comparable to that of an NDT Level II.\nNDT Level III는 Level II 요구사항 이후 추가 몇 년의 경험이 필요한가?",
     "question_kr": "NDT Level III는 Level II 요구사항 이후 추가 몇 년의 경험이 필요한가?",
     "options": [
       "1",
@@ -304,7 +304,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "Materials",
-    "question": "Metal fatigue is most likely to be found in structures:",
+    "question": "Metal fatigue is most likely to be found in structures:\n금속 피로는 구조물에서 가장 발생하기 쉬운 조건은?",
     "question_kr": "금속 피로는 구조물에서 가장 발생하기 쉬운 조건은?",
     "options": [
       "loaded under constant high stress",
@@ -319,7 +319,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "Materials",
-    "question": "A heat treatment process used to relieve residual stresses in metals is called:",
+    "question": "A heat treatment process used to relieve residual stresses in metals is called:\n금속의 잔류응력을 제거하기 위한 열처리는?",
     "question_kr": "금속의 잔류응력을 제거하기 위한 열처리는?",
     "options": [
       "austenitizing",
@@ -334,7 +334,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "Inspection",
-    "question": "What records must you keep as an inspector?",
+    "question": "What records must you keep as an inspector?\n검사원이 보관해야 하는 기록은?",
     "question_kr": "검사원이 보관해야 하는 기록은?",
     "options": [
       "Copies of reports of all inspections you perform",
@@ -349,7 +349,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "Welding",
-    "question": "What joint fit-up should you insist on?",
+    "question": "What joint fit-up should you insist on?\n검사원이 요구해야 하는 용접부 조립 상태는?",
     "question_kr": "검사원이 요구해야 하는 용접부 조립 상태는?",
     "options": [
       "Tolerances specified on drawings or specifications",
@@ -364,7 +364,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "Materials",
-    "question": "How is residual stress relieved?",
+    "question": "How is residual stress relieved?\n잔류응력은 어떻게 제거되는가?",
     "question_kr": "잔류응력은 어떻게 제거되는가?",
     "options": [
       "By bending the metal back and forth",
@@ -379,7 +379,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "Welding",
-    "question": "For welding purposes, how are protective oxide layers removed from stainless steel, aluminum, and magnesium?",
+    "question": "For welding purposes, how are protective oxide layers removed from stainless steel, aluminum, and magnesium?\n용접 시 스테인리스강, 알루미늄, 마그네슘의 산화층 제거 방법은?",
     "question_kr": "용접 시 스테인리스강, 알루미늄, 마그네슘의 산화층 제거 방법은?",
     "options": [
       "Grinding the surface before welding",
@@ -394,7 +394,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "Welding",
-    "question": "Which substances contain hydrogen?",
+    "question": "Which substances contain hydrogen?\n수소를 포함하는 물질은?",
     "question_kr": "수소를 포함하는 물질은?",
     "options": [
       "Moisture",
@@ -409,7 +409,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "Welding",
-    "question": "In which way does the presence of hydrogen adversely affect the welding process?",
+    "question": "In which way does the presence of hydrogen adversely affect the welding process?\n수소가 용접 과정에 미치는 악영향은?",
     "question_kr": "수소가 용접 과정에 미치는 악영향은?",
     "options": [
       "It causes porosity",
@@ -424,7 +424,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "Welding",
-    "question": "If accessibility is not available to the back side of a joint, what types of discontinuities are most likely to appear?",
+    "question": "If accessibility is not available to the back side of a joint, what types of discontinuities are most likely to appear?\n접합부 뒷면 접근이 불가능할 때 발생하기 쉬운 결함은?",
     "question_kr": "접합부 뒷면 접근이 불가능할 때 발생하기 쉬운 결함은?",
     "options": [
       "Porosity and slag inclusions",
@@ -439,7 +439,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "Discontinuity",
-    "question": "What is the difference between discontinuities and defects?",
+    "question": "What is the difference between discontinuities and defects?\n불연속과 결함의 차이는?",
     "question_kr": "불연속과 결함의 차이는?",
     "options": [
       "A defect is a rejectable discontinuity",
@@ -454,7 +454,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "Discontinuity",
-    "question": "What criteria must an inspector use to judge whether a discontinuity is serious enough to reject the weldment?",
+    "question": "What criteria must an inspector use to judge whether a discontinuity is serious enough to reject the weldment?\n검사자가 불연속을 불합격으로 판단하는 기준은?",
     "question_kr": "검사자가 불연속을 불합격으로 판단하는 기준은?",
     "options": [
       "Nondestructive tests",
@@ -469,7 +469,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "Welding",
-    "question": "Where does the gas which causes porosity come from?",
+    "question": "Where does the gas which causes porosity come from?\n기공을 발생시키는 가스는 어디에서 발생하는가?",
     "question_kr": "기공을 발생시키는 가스는 어디에서 발생하는가?",
     "options": [
       "Gas used in the welding process",
@@ -484,7 +484,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "Welding",
-    "question": "What is the difference between porosity and inclusions?",
+    "question": "What is the difference between porosity and inclusions?\n기공과 개재물의 차이는?",
     "question_kr": "기공과 개재물의 차이는?",
     "options": [
       "Porosity consists of bubbles while inclusions are cracks",
@@ -499,7 +499,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "Materials",
-    "question": "What characteristic is always common to the discontinuities of lamination, lamellar tears, and seams and laps?",
+    "question": "What characteristic is always common to the discontinuities of lamination, lamellar tears, and seams and laps?\n라미네이션, 라멜라 찢김, 심 및 랩 결함의 공통 특징은?",
     "question_kr": "라미네이션, 라멜라 찢김, 심 및 랩 결함의 공통 특징은?",
     "options": [
       "All are caused by stresses not associated with welding",
@@ -514,7 +514,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "Visual Examination",
-    "question": "What type visual inspection is most effective in eliminating discontinuities?",
+    "question": "What type visual inspection is most effective in eliminating discontinuities?\n불연속 제거에 가장 효과적인 육안검사는?",
     "question_kr": "불연속 제거에 가장 효과적인 육안검사는?",
     "options": [
       "Inspection before the weld is completed",
@@ -529,7 +529,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "Discontinuity",
-    "question": "What is difference between a defect and a discontinuity?",
+    "question": "What is difference between a defect and a discontinuity?\n결함과 불연속의 차이는?",
     "question_kr": "결함과 불연속의 차이는?",
     "options": [
       "Discontinuities can propagate and become defects",
@@ -544,7 +544,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "Materials",
-    "question": "How are the material properties as used in design most frequently determined?",
+    "question": "How are the material properties as used in design most frequently determined?\n설계에 사용되는 재료 특성은 주로 어떻게 결정되는가?",
     "question_kr": "설계에 사용되는 재료 특성은 주로 어떻게 결정되는가?",
     "options": [
       "Theoretical analysis",
@@ -559,7 +559,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "Materials",
-    "question": "What will occur normally when stressing most engineering materials a small amount beyond their elastic limit?",
+    "question": "What will occur normally when stressing most engineering materials a small amount beyond their elastic limit?\n대부분의 공학 재료가 탄성한계를 조금 넘는 응력을 받을 때 발생하는 현상은?",
     "question_kr": "대부분의 공학 재료가 탄성한계를 조금 넘는 응력을 받을 때 발생하는 현상은?",
     "options": [
       "Cracking",
@@ -574,7 +574,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "Heat Treatment",
-    "question": "Spheroidizing and normalizing have the effect of:",
+    "question": "Spheroidizing and normalizing have the effect of:\n구상화 및 노멀라이징 열처리 효과는?",
     "question_kr": "구상화 및 노멀라이징 열처리 효과는?",
     "options": [
       "Increasing ductility",
@@ -589,7 +589,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "Materials",
-    "question": "The advantageous effects of recrystallization depend upon:",
+    "question": "The advantageous effects of recrystallization depend upon:\n재결정 효과에 영향을 주는 요소는?",
     "question_kr": "재결정 효과에 영향을 주는 요소는?",
     "options": [
       "The rate of deformation",
@@ -604,7 +604,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "Welding",
-    "question": "Which welding process typically would not use filler metal?",
+    "question": "Which welding process typically would not use filler metal?\n일반적으로 용가재를 사용하지 않는 용접법은?",
     "question_kr": "일반적으로 용가재를 사용하지 않는 용접법은?",
     "options": [
       "Submerged arc welding",
@@ -619,7 +619,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "Welding",
-    "question": "What can unrestrained weldments develop?",
+    "question": "What can unrestrained weldments develop?\n구속되지 않은 용접 구조물에서 발생할 수 있는 것은?",
     "question_kr": "구속되지 않은 용접 구조물에서 발생할 수 있는 것은?",
     "options": [
       "Geometric distortion",
@@ -634,7 +634,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "Welding",
-    "question": "What is the principal purpose of pre-heat treatment in welds?",
+    "question": "What is the principal purpose of pre-heat treatment in welds?\n용접부 예열의 주 목적은?",
     "question_kr": "용접부 예열의 주 목적은?",
     "options": [
       "Reduce porosity",
@@ -649,7 +649,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "Welding",
-    "question": "What provides the shielding in a submerged arc welding process?",
+    "question": "What provides the shielding in a submerged arc welding process?\n서브머지드 아크 용접에서 차폐 역할을 하는 것은?",
     "question_kr": "서브머지드 아크 용접에서 차폐 역할을 하는 것은?",
     "options": [
       "Gases",
@@ -664,7 +664,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "Measurement",
-    "question": "What will strain gauges commonly determine?",
+    "question": "What will strain gauges commonly determine?\n스트레인 게이지가 일반적으로 측정하는 것은?",
     "question_kr": "스트레인 게이지가 일반적으로 측정하는 것은?",
     "options": [
       "Amount of regional compression",
@@ -679,7 +679,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "Radiographic Testing",
-    "question": "Very short wavelength electromagnetic radiation produced when electrons travelling at high speeds collide with matter is called:",
+    "question": "Very short wavelength electromagnetic radiation produced when electrons travelling at high speeds collide with matter is called:\n고속 전자가 물질과 충돌할 때 발생하는 매우 짧은 파장의 전자기 방사선은?",
     "question_kr": "고속 전자가 물질과 충돌할 때 발생하는 매우 짧은 파장의 전자기 방사선은?",
     "options": [
       "X-radiation",
@@ -694,7 +694,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "Magnetic Particle Testing",
-    "question": "In magnetic particle testing, detection of deep lying defects in a one-inch thick weld is:",
+    "question": "In magnetic particle testing, detection of deep lying defects in a one-inch thick weld is:\n자분탐상에서 1인치 두께 용접부 내부 깊은 결함 검출은?",
     "question_kr": "자분탐상에서 1인치 두께 용접부 내부 깊은 결함 검출은?",
     "options": [
       "Very similar to detection of surface cracks",
@@ -709,7 +709,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "Ultrasonic Testing",
-    "question": "Ultrasonic inspection of castings is often difficult because of:",
+    "question": "Ultrasonic inspection of castings is often difficult because of:\n주조품 초음파검사가 어려운 이유는?",
     "question_kr": "주조품 초음파검사가 어려운 이유는?",
     "options": [
       "Extremely fine grain structure",
@@ -724,7 +724,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "Liquid Penetrant Testing",
-    "question": "When penetrant examination is necessary for customer acceptance, the examination should be done:",
+    "question": "When penetrant examination is necessary for customer acceptance, the examination should be done:\n고객 승인을 위한 침투탐상검사는 언제 실시해야 하는가?",
     "question_kr": "고객 승인을 위한 침투탐상검사는 언제 실시해야 하는가?",
     "options": [
       "After completion of all operations which may cause or expose discontinuities",
@@ -739,7 +739,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "Eddy Current Testing",
-    "question": "Which of the following are common applications for eddy current testing?",
+    "question": "Which of the following are common applications for eddy current testing?\n와전류탐상의 일반적인 적용 분야는?",
     "question_kr": "와전류탐상의 일반적인 적용 분야는?",
     "options": [
       "Measurement of conductivity or permeability",
@@ -754,7 +754,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "Radiographic Testing",
-    "question": "Which is the most likely application of neutron radiography?",
+    "question": "Which is the most likely application of neutron radiography?\n중성자 방사선투과검사의 가장 적합한 적용은?",
     "question_kr": "중성자 방사선투과검사의 가장 적합한 적용은?",
     "options": [
       "Inspecting stainless steel pistons for internal cracks",
@@ -769,7 +769,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "Leak Testing",
-    "question": "The best technique for leak testing an on-line low pressure piping system containing liquid refrigerant would be:",
+    "question": "The best technique for leak testing an on-line low pressure piping system containing liquid refrigerant would be:\n액체 냉매가 들어있는 저압 배관의 누설검사 방법은?",
     "question_kr": "액체 냉매가 들어있는 저압 배관의 누설검사 방법은?",
     "options": [
       "Bubble test",
@@ -784,7 +784,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "Ultrasonic Testing",
-    "question": "Which inspection method is most sensitive for locating laminations?",
+    "question": "Which inspection method is most sensitive for locating laminations?\n라미네이션 검출에 가장 민감한 검사법은?",
     "question_kr": "라미네이션 검출에 가장 민감한 검사법은?",
     "options": [
       "Radiography",
@@ -799,7 +799,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "Visual Testing",
-    "question": "What is the major value of visual inspection applied before, during, and after welding?",
+    "question": "What is the major value of visual inspection applied before, during, and after welding?\n용접 전·중·후 육안검사의 주요 장점은?",
     "question_kr": "용접 전·중·후 육안검사의 주요 장점은?",
     "options": [
       "Can eliminate 80-90% of discontinuities",
@@ -814,7 +814,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "Leak Testing",
-    "question": "The nitrogen oxide gas which is relatively safe and used as a tracer gas is:",
+    "question": "The nitrogen oxide gas which is relatively safe and used as a tracer gas is:\n상대적으로 안전하며 누설검사용 추적가스로 사용하는 질소산화물은?",
     "question_kr": "상대적으로 안전하며 누설검사용 추적가스로 사용하는 질소산화물은?",
     "options": [
       "Nitrogen peroxide",
