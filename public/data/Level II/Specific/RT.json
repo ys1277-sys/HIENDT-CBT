@@ -1,346 +1,340 @@
-{
-  "subject": "RT",
-  "level": "Level II",
-  "category": "Specific",
-  "type": "A+B",
-  "questions": [
-    {
-      "id": 1,
-      "question": "What is the meaning of D in the formula Ug = Ft/D?",
-      "korean": "공식 Ug = Ft/D에서 D는 무엇을 의미하는가?",
-      "options": [
-        "Distance from source to weld",
-        "Distance from source to film",
-        "Distance from source to cassette",
-        "Distance from source side to film side of specimen"
-      ],
-      "answer": "D"
-    },
-    {
-      "id": 2,
-      "question": "What is the maximum geometrical unsharpness of radiograph for specimen thickness under 2 inch?",
-      "korean": "2인치 이하 시험물의 최대 기하학적 불선명도는?",
-      "options": [
-        "0.010 inch",
-        "0.015 inch",
-        "0.013 inch",
-        "0.020 inch"
-      ],
-      "answer": "A"
-    },
-    {
-      "id": 3,
-      "question": "What is the essential indication of IQI in radiograph?",
-      "korean": "방사선 사진에서 IQI의 필수 표시사항은?",
-      "options": [
-        "Essential wire of wire IQI",
-        "Specified hole",
-        "Specified hole and thickness",
-        "Penetrameter image"
-      ],
-      "answer": "A"
-    },
-    {
-      "id": 4,
-      "question": "Backing rings or strips of weldments are ______ as part of weld thickness in penetrameter selection.",
-      "korean": "투과도계 선정 시 backing ring은 용접부 두께의 일부로 어떻게 취급하는가?",
-      "options": [
-        "To be considered",
-        "Not to be considered",
-        "Both considered and not considered",
-        "None"
-      ],
-      "answer": "B"
-    },
-    {
-      "id": 5,
-      "question": "The density of the radiograph shall be between minus 15% or plus 30% from the density through the body of penetrameter.",
-      "korean": "방사선 사진 농도 허용 범위는?",
-      "options": [
-        "-30%, +15%",
-        "-15%, +30%",
-        "-15%, +15%",
-        "-30%, +30%"
-      ],
-      "answer": "B"
-    },
-    {
-      "id": 6,
-      "question": "For spherical components with source at center for single exposure, how many IQIs are required?",
-      "korean": "구형 용기 중앙 선원 촬영 시 필요한 IQI 수는?",
-      "options": [
-        "Two IQIs spaced 180°, span 240°",
-        "Four IQIs spaced 90°, span 180°",
-        "Three IQIs spaced 120°, span 180°",
-        "Three IQIs spaced 120°, span 240°"
-      ],
-      "answer": "D"
-    },
-    {
-      "id": 7,
-      "question": "For continuous radiographing with RF-300EGS3 X-ray apparatus, what duty cycle shall be maintained?",
-      "korean": "RF-300EGS3 연속 촬영 시 Duty Cycle 조건은?",
-      "options": [
-        "1:1",
-        "1:2",
-        "1:3",
-        "1:4"
-      ],
-      "answer": "A"
-    },
-    {
-      "id": 8,
-      "question": "For pipe and tubes with outside diameter greater than 3-1/2 inch, radiographic examination shall be performed for ______ wall viewing only.",
-      "korean": "외경 3-1/2 inch 초과 파이프 RT 촬영 방식은?",
-      "options": [
-        "Double wall",
-        "Both wall",
-        "Double and single",
-        "Single wall"
-      ],
-      "answer": "D"
-    },
-    {
-      "id": 9,
-      "question": "Based on ASME Sec.I PW-51, which condition would cause rejection?",
-      "korean": "ASME Sec.I PW-51 기준 불합격 조건은?",
-      "options": [
-        "Aligned indications less than 1/2t in 12t length",
-        "Slag inclusion 1/5 inch in 1/2 inch weld",
-        "Slag inclusion 1/2 inch in 2 inch weld",
-        "All of the above"
-      ],
-      "answer": "C"
-    },
-    {
-      "id": 10,
-      "question": "What is the minimum equivalent sensitivity for PSL2 weld radiographic testing according to API 6A?",
-      "korean": "API 6A PSL2 용접부 RT 최소 등가 감도는?",
-      "options": [
-        "1% and 1-1T quality level",
-        "2% and 2-2T quality level",
-        "4% and 2-2T quality level",
-        "4% and 4-4T quality level"
-      ],
-      "answer": "B"
-    },
-    {
-      "id": 11,
-      "question": "A round indication of 1/4 inch (6mm) appeared on PSL2 weld RT inspection. Is it acceptable?",
-      "korean": "PSL2 용접부 RT 검사에서 6mm 원형지시가 나타났다. 합격인가?",
-      "options": [
-        "Accept",
-        "Reject"
-      ],
-      "answer": "A"
-    },
-    {
-      "id": 12,
-      "question": "The RT film showed a slag inclusion of 2 x 15 mm. Is it acceptable?",
-      "korean": "RT 필름에서 2×15mm 슬래그 개재물이 나타났다. 합격인가?",
-      "options": [
-        "Accept",
-        "Reject"
-      ],
-      "answer": "B"
-    },
-    {
-      "id": 13,
-      "question": "A weld containing 1/16 inch crack shown by radiography is acceptable.",
-      "korean": "RT 검사에서 1/16 inch 균열이 발견된 용접부는 합격이다.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": "B"
-    },
-    {
-      "id": 14,
-      "question": "A 1/3 inch elongated indication is acceptable for 2 inch weld thickness.",
-      "korean": "두께 2 inch 용접부의 1/3 inch 선형지시는 합격인가?",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": "A"
-    },
-    {
-      "id": 15,
-      "question": "A 5/8 inch elongated indication is acceptable for 2-1/4 inch weld thickness.",
-      "korean": "두께 2-1/4 inch 용접부의 5/8 inch 선형지시는 합격인가?",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": "A"
-    },
-        {
-      "id": 16,
-      "question": "What is the recommended guide book for establishing NDE personnel qualification program in ASME B&PV Code Sec.VIII Div.1 & Div.2?",
-      "korean": "ASME Sec.VIII Div.1 & Div.2 NDE 인원 자격 프로그램 수립 지침서는?",
-      "options": [
-        "SNT-TC-1A",
-        "ASME Sec.V",
-        "ASME Sec.VIII",
-        "API 6A"
-      ],
-      "answer": "A"
-    },
-    {
-      "id": 17,
-      "question": "The front and back lead intensifying screen shall be used. The thickness is ______ inch.",
-      "korean": "전후방 연박 증감지 두께는?",
-      "options": [
-        "0.05",
-        "0.127",
-        "0.005",
-        "1.27"
-      ],
-      "answer": "C"
-    },
-    {
-      "id": 18,
-      "question": "A lead symbol B for checking back scattered radiation shall have minimum dimension of height and thickness.",
-      "korean": "후방산란 확인용 납 B 글자의 최소 크기는?",
-      "options": [
-        "1/4 inch, 1/16 inch",
-        "1/2 inch, 1/8 inch",
-        "1/4 inch, 1/8 inch",
-        "7/16 inch, 1/16 inch"
-      ],
-      "answer": "D"
-    },
-    {
-      "id": 19,
-      "question": "In this procedure, radiographs shall be made using:",
-      "korean": "본 절차서에서 방사선 사진은 어떤 필름을 사용하는가?",
-      "options": [
-        "Industrial radiographic film",
-        "Medical radiographic film",
-        "Computed radiographic film",
-        "Direct image plate"
-      ],
-      "answer": "A"
-    },
-    {
-      "id": 20,
-      "question": "The minimum transmitted film density for X-ray and Gamma-ray source shall be:",
-      "korean": "X-ray 및 Gamma-ray 촬영 시 최소 필름 농도는?",
-      "options": [
-        "2.0, 2.0 HD",
-        "1.8, 1.8 HD",
-        "2.0, 1.8 HD",
-        "1.8, 2.0 HD"
-      ],
-      "answer": "D"
-    },
-    {
-      "id": 21,
-      "question": "What part of γ-ray machine is used to move the radiographic isotope to the object?",
-      "korean": "방사성 동위원소를 피사체까지 이동시키는 γ선 장치 부품은?",
-      "options": [
-        "Front guiding",
-        "Connector",
-        "Collimator",
-        "Pig tail"
-      ],
-      "answer": "D"
-    },
-    {
-      "id": 22,
-      "question": "Which part of γ-ray machine generates mechanical force to move the radiographic isotope?",
-      "korean": "방사성 동위원소 이동용 기계적 힘을 발생시키는 부품은?",
-      "options": [
-        "Front guiding",
-        "Connector",
-        "Remote controller",
-        "Pig tail"
-      ],
-      "answer": "C"
-    },
-    {
-      "id": 23,
-      "question": "Which part of γ-ray machine is connected to the isotope container?",
-      "korean": "방사성 동위원소 저장용기에 연결되는 부품은?",
-      "options": [
-        "Front guiding",
-        "Connector",
-        "Remote controller",
-        "Pig tail"
-      ],
-      "answer": "B"
-    },
-    {
-      "id": 24,
-      "question": "What is checked of the pigtail female?",
-      "korean": "피그테일 연결부위는 무엇으로 검사하는가?",
-      "options": [
-        "NO-GO gauge",
-        "Connector",
-        "Pig tail",
-        "Capsule"
-      ],
-      "answer": "A"
-    },
-    {
-      "id": 25,
-      "question": "It is necessary to enclose all radioactive isotopes for ______ reasons.",
-      "korean": "방사성 동위원소를 밀봉하는 이유는?",
-      "options": [
-        "Safety",
-        "Moving",
-        "Working",
-        "Cure"
-      ],
-      "answer": "A"
-    },
-    {
-      "id": 26,
-      "question": "How many exposures are required for complete radiographic coverage of cylindrical girth welds when DWSI technique is allowed?",
-      "korean": "DWSI 방식에서 원주 용접부 전체 촬영에 필요한 노출 수는?",
-      "options": [
-        "Minimum three",
-        "Minimum four",
-        "Minimum five",
-        "Minimum six"
-      ],
-      "answer": "A"
-    },
-    {
-      "id": 27,
-      "question": "In double-wall technique, when both wall images are superimposed, how many exposures are required?",
-      "korean": "이중벽 촬영에서 양쪽 벽 영상이 중첩되는 경우 필요한 노출 수는?",
-      "options": [
-        "Two exposures apart 90°",
-        "Two exposures apart 60°",
-        "Three exposures apart 120°",
-        "Three exposures apart 60°"
-      ],
-      "answer": "D"
-    },
-    {
-      "id": 28,
-      "question": "In double-wall technique, when both wall images are not superimposed, how many exposures are required?",
-      "korean": "이중벽 촬영에서 양쪽 벽 영상이 중첩되지 않는 경우 필요한 노출 수는?",
-      "options": [
-        "Two exposures apart 90°",
-        "Two exposures apart 60°",
-        "Three exposures apart 120°",
-        "Three exposures apart 60°"
-      ],
-      "answer": "A"
-    },
-    {
-      "id": 29,
-      "question": "If IQI image does not appear on one radiograph in double film technique but appears in composite viewing, which interpretation technique is permitted?",
-      "korean": "이중 필름 촬영에서 한 장에는 IQI상이 없고 composite viewing에서 나타나는 경우 허용 판독법은?",
-      "options": [
-        "Double",
-        "Single",
-        "Either double or single",
-        "None"
-      ],
-      "answer": "A"
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "question": "A 1/3 inch elongated indication is acceptable for 2 inch weld thickness.",
+    "korean": "두께 2 inch 용접부의 1/3 inch 선형지시는 합격인가?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 2,
+    "question": "A 5/8 inch elongated indication is acceptable for 2-1/4 inch weld thickness.",
+    "korean": "두께 2-1/4 inch 용접부의 5/8 inch 선형지시는 합격인가?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 3,
+    "question": "What is the recommended guide book for establishing NDE personnel qualification program in ASME B&PV Code Sec.VIII Div.1 & Div.2?",
+    "korean": "ASME Sec.VIII Div.1 & Div.2 NDE 인원 자격 프로그램 수립 지침서는?",
+    "options": [
+      "SNT-TC-1A",
+      "ASME Sec.V",
+      "ASME Sec.VIII",
+      "API 6A"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 4,
+    "question": "The front and back lead intensifying screen shall be used. The thickness is ______ inch.",
+    "korean": "전후방 연박 증감지 두께는?",
+    "options": [
+      "0.05",
+      "0.127",
+      "0.005",
+      "1.27"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 5,
+    "question": "A lead symbol B for checking back scattered radiation shall have minimum dimension of height and thickness.",
+    "korean": "후방산란 확인용 납 B 글자의 최소 크기는?",
+    "options": [
+      "1/4 inch, 1/16 inch",
+      "1/2 inch, 1/8 inch",
+      "1/4 inch, 1/8 inch",
+      "7/16 inch, 1/16 inch"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 6,
+    "question": "In this procedure, radiographs shall be made using:",
+    "korean": "본 절차서에서 방사선 사진은 어떤 필름을 사용하는가?",
+    "options": [
+      "Industrial radiographic film",
+      "Medical radiographic film",
+      "Computed radiographic film",
+      "Direct image plate"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 7,
+    "question": "The minimum transmitted film density for X-ray and Gamma-ray source shall be:",
+    "korean": "X-ray 및 Gamma-ray 촬영 시 최소 필름 농도는?",
+    "options": [
+      "2.0, 2.0 HD",
+      "1.8, 1.8 HD",
+      "2.0, 1.8 HD",
+      "1.8, 2.0 HD"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 8,
+    "question": "What part of γ-ray machine is used to move the radiographic isotope to the object?",
+    "korean": "방사성 동위원소를 피사체까지 이동시키는 γ선 장치 부품은?",
+    "options": [
+      "Front guiding",
+      "Connector",
+      "Collimator",
+      "Pig tail"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 9,
+    "question": "What is the meaning of D in the formula Ug = Ft/D?",
+    "korean": "공식 Ug = Ft/D에서 D는 무엇을 의미하는가?",
+    "options": [
+      "Distance from source to weld",
+      "Distance from source to film",
+      "Distance from source to cassette",
+      "Distance from source side to film side of specimen"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 10,
+    "question": "What is the maximum geometrical unsharpness of radiograph for specimen thickness under 2 inch?",
+    "korean": "2인치 이하 시험물의 최대 기하학적 불선명도는?",
+    "options": [
+      "0.010 inch",
+      "0.015 inch",
+      "0.013 inch",
+      "0.020 inch"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 11,
+    "question": "What is the essential indication of IQI in radiograph?",
+    "korean": "방사선 사진에서 IQI의 필수 표시사항은?",
+    "options": [
+      "Essential wire of wire IQI",
+      "Specified hole",
+      "Specified hole and thickness",
+      "Penetrameter image"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 12,
+    "question": "Backing rings or strips of weldments are ______ as part of weld thickness in penetrameter selection.",
+    "korean": "투과도계 선정 시 backing ring은 용접부 두께의 일부로 어떻게 취급하는가?",
+    "options": [
+      "To be considered",
+      "Not to be considered",
+      "Both considered and not considered",
+      "None"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 13,
+    "question": "The density of the radiograph shall be between minus 15% or plus 30% from the density through the body of penetrameter.",
+    "korean": "방사선 사진 농도 허용 범위는?",
+    "options": [
+      "-30%, +15%",
+      "-15%, +30%",
+      "-15%, +15%",
+      "-30%, +30%"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 14,
+    "question": "For spherical components with source at center for single exposure, how many IQIs are required?",
+    "korean": "구형 용기 중앙 선원 촬영 시 필요한 IQI 수는?",
+    "options": [
+      "Two IQIs spaced 180°, span 240°",
+      "Four IQIs spaced 90°, span 180°",
+      "Three IQIs spaced 120°, span 180°",
+      "Three IQIs spaced 120°, span 240°"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 15,
+    "question": "For continuous radiographing with RF-300EGS3 X-ray apparatus, what duty cycle shall be maintained?",
+    "korean": "RF-300EGS3 연속 촬영 시 Duty Cycle 조건은?",
+    "options": [
+      "1:1",
+      "1:2",
+      "1:3",
+      "1:4"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 16,
+    "question": "For pipe and tubes with outside diameter greater than 3-1/2 inch, radiographic examination shall be performed for ______ wall viewing only.",
+    "korean": "외경 3-1/2 inch 초과 파이프 RT 촬영 방식은?",
+    "options": [
+      "Double wall",
+      "Both wall",
+      "Double and single",
+      "Single wall"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 17,
+    "question": "Based on ASME Sec.I PW-51, which condition would cause rejection?",
+    "korean": "ASME Sec.I PW-51 기준 불합격 조건은?",
+    "options": [
+      "Aligned indications less than 1/2t in 12t length",
+      "Slag inclusion 1/5 inch in 1/2 inch weld",
+      "Slag inclusion 1/2 inch in 2 inch weld",
+      "All of the above"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 18,
+    "question": "What is the minimum equivalent sensitivity for PSL2 weld radiographic testing according to API 6A?",
+    "korean": "API 6A PSL2 용접부 RT 최소 등가 감도는?",
+    "options": [
+      "1% and 1-1T quality level",
+      "2% and 2-2T quality level",
+      "4% and 2-2T quality level",
+      "4% and 4-4T quality level"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 19,
+    "question": "A round indication of 1/4 inch (6mm) appeared on PSL2 weld RT inspection. Is it acceptable?",
+    "korean": "PSL2 용접부 RT 검사에서 6mm 원형지시가 나타났다. 합격인가?",
+    "options": [
+      "Accept",
+      "Reject"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 20,
+    "question": "The RT film showed a slag inclusion of 2 x 15 mm. Is it acceptable?",
+    "korean": "RT 필름에서 2×15mm 슬래그 개재물이 나타났다. 합격인가?",
+    "options": [
+      "Accept",
+      "Reject"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 21,
+    "question": "A weld containing 1/16 inch crack shown by radiography is acceptable.",
+    "korean": "RT 검사에서 1/16 inch 균열이 발견된 용접부는 합격이다.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 22,
+    "question": "Which part of γ-ray machine generates mechanical force to move the radiographic isotope?",
+    "korean": "방사성 동위원소 이동용 기계적 힘을 발생시키는 부품은?",
+    "options": [
+      "Front guiding",
+      "Connector",
+      "Remote controller",
+      "Pig tail"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 23,
+    "question": "Which part of γ-ray machine is connected to the isotope container?",
+    "korean": "방사성 동위원소 저장용기에 연결되는 부품은?",
+    "options": [
+      "Front guiding",
+      "Connector",
+      "Remote controller",
+      "Pig tail"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 24,
+    "question": "What is checked of the pigtail female?",
+    "korean": "피그테일 연결부위는 무엇으로 검사하는가?",
+    "options": [
+      "NO-GO gauge",
+      "Connector",
+      "Pig tail",
+      "Capsule"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 25,
+    "question": "It is necessary to enclose all radioactive isotopes for ______ reasons.",
+    "korean": "방사성 동위원소를 밀봉하는 이유는?",
+    "options": [
+      "Safety",
+      "Moving",
+      "Working",
+      "Cure"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 26,
+    "question": "How many exposures are required for complete radiographic coverage of cylindrical girth welds when DWSI technique is allowed?",
+    "korean": "DWSI 방식에서 원주 용접부 전체 촬영에 필요한 노출 수는?",
+    "options": [
+      "Minimum three",
+      "Minimum four",
+      "Minimum five",
+      "Minimum six"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 27,
+    "question": "In double-wall technique, when both wall images are superimposed, how many exposures are required?",
+    "korean": "이중벽 촬영에서 양쪽 벽 영상이 중첩되는 경우 필요한 노출 수는?",
+    "options": [
+      "Two exposures apart 90°",
+      "Two exposures apart 60°",
+      "Three exposures apart 120°",
+      "Three exposures apart 60°"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 28,
+    "question": "In double-wall technique, when both wall images are not superimposed, how many exposures are required?",
+    "korean": "이중벽 촬영에서 양쪽 벽 영상이 중첩되지 않는 경우 필요한 노출 수는?",
+    "options": [
+      "Two exposures apart 90°",
+      "Two exposures apart 60°",
+      "Three exposures apart 120°",
+      "Three exposures apart 60°"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 29,
+    "question": "If IQI image does not appear on one radiograph in double film technique but appears in composite viewing, which interpretation technique is permitted?",
+    "korean": "이중 필름 촬영에서 한 장에는 IQI상이 없고 composite viewing에서 나타나는 경우 허용 판독법은?",
+    "options": [
+      "Double",
+      "Single",
+      "Either double or single",
+      "None"
+    ],
+    "answer": 0
+  }
+]

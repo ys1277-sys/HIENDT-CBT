@@ -13,7 +13,7 @@
       "",
       ""
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -30,7 +30,7 @@
       "",
       ""
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -47,7 +47,7 @@
       "1076 lux",
       "2000 lux"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": ""
   },
   {
@@ -64,7 +64,7 @@
       "",
       ""
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -81,7 +81,7 @@
       "",
       ""
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -98,7 +98,7 @@
       "Hall-Effect Tangential-Field Probe",
       "Lifting power block"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "복수 정답 가능 항목 중 대표 답안 적용"
   },
   {
@@ -115,7 +115,7 @@
       "",
       ""
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -132,7 +132,7 @@
       "1/16 in",
       "3/64 in"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": ""
   },
   {
@@ -149,7 +149,7 @@
       "Prod with dry magnetic particle",
       "Yoke with wet fluorescent magnetic particle"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": ""
   },
   {
@@ -166,7 +166,7 @@
       "1.5 mm (0.06 in)",
       "8 mm (0.3 in)"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -183,7 +183,7 @@
       "both A and B",
       "cannot be changed because the yoke always puts out the same amount of flux"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": ""
   },
   {
@@ -200,7 +200,7 @@
       "Are the prod tips clean and bright?",
       "All of the above shall be considered"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": ""
   },
   {
@@ -217,7 +217,7 @@
       "Direct current",
       "Half-wave alternating current"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": ""
   },
   {
@@ -234,7 +234,7 @@
       "Stringer",
       "Heat-treat crack"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": ""
   },
   {
@@ -251,7 +251,7 @@
       "Stringer",
       "Lack of root penetration"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": ""
   },
   {
@@ -268,7 +268,7 @@
       "Fatigue cracks",
       "Linear porosity"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": ""
   },
   {
@@ -285,7 +285,7 @@
       "A master current transformer and a calibrated AC ammeter",
       "No check is necessary if not damaged"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": ""
   },
   {
@@ -302,7 +302,7 @@
       "If parts are for railroad applications",
       "To increase speed and reliability of detecting very small defects"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": ""
   },
   {
@@ -319,7 +319,7 @@
       "Should somewhat exceed the original magnetizing current",
       "Is irrelevant since demagnetization is not necessary"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": ""
   },
   {
@@ -336,7 +336,7 @@
       "Small localized areas",
       "All of the above"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": ""
   },
   {
@@ -353,7 +353,7 @@
       "20 lux",
       "2.4 kAm-1 to 4.8 kAm-1"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": ""
   },
   {
@@ -370,7 +370,7 @@
       "Technical performance evaluation of Level I personnel can be done through a written examination.",
       "The practical examination for technical performance evaluation follows Level I or II practical examination requirements."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": ""
   },
   {
@@ -387,7 +387,7 @@
       "Training requirements for Level III are satisfied by holding current ASNT Level III certificate.",
       "Vision examination requires near distance acuity and color vision."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": ""
   },
   {
@@ -404,7 +404,7 @@
       "",
       ""
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -421,7 +421,7 @@
       "Half-wave Direct Current",
       "All of the above"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": ""
   },
   {
@@ -438,7 +438,7 @@
       "Volumetric test and either PT or MT",
       "PT or MT"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": ""
   },
   {
@@ -455,7 +455,7 @@
       "1/16 in",
       "3/64 in"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": ""
   },
   {
@@ -472,7 +472,7 @@
       "",
       ""
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -489,7 +489,7 @@
       "Which have any dimension less than 1/16 in",
       "All of the above"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": ""
   },
   {
@@ -506,7 +506,7 @@
       "",
       ""
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": ""
   }
 ]

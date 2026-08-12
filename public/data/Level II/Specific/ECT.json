@@ -29,7 +29,7 @@
       "C. The ingot",
       "D. A casting"
     ],
-    "answer": "C",
+    "answer": 2,
     "subject": "ECT",
     "level": "II",
     "category": "SPECIFIC"
@@ -44,7 +44,7 @@
       "C. Inadequate penetration",
       "D. Forging laps"
     ],
-    "answer": "B",
+    "answer": 1,
     "subject": "ECT",
     "level": "II",
     "category": "SPECIFIC"
@@ -59,7 +59,7 @@
       "C. 3step",
       "D. 4step"
     ],
-    "answer": "C",
+    "answer": 2,
     "subject": "ECT",
     "level": "II",
     "category": "SPECIFIC"
@@ -104,7 +104,7 @@
       "C. Both A and B above",
       "D. Neither A nor B"
     ],
-    "answer": "C",
+    "answer": 2,
     "subject": "ECT",
     "level": "II",
     "category": "SPECIFIC"
@@ -119,7 +119,7 @@
       "C. At any time that manufacturing is suspected",
       "D. All of the above"
     ],
-    "answer": "D",
+    "answer": 3,
     "subject": "ECT",
     "level": "II",
     "category": "SPECIFIC"
@@ -134,7 +134,7 @@
       "C. 360° circumferential groove, 10% from inner tube surface",
       "D. All of the above"
     ],
-    "answer": "D",
+    "answer": 3,
     "subject": "ECT",
     "level": "II",
     "category": "SPECIFIC"
@@ -149,7 +149,7 @@
       "C. 1 mm",
       "D. 2.5 mm"
     ],
-    "answer": "B",
+    "answer": 1,
     "subject": "ECT",
     "level": "II",
     "category": "SPECIFIC"

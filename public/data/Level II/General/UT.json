@@ -3,480 +3,481 @@
     "id": 1,
     "question": "The search unit shown in Figure is used for:",
     "question_kr": "그림에 보여준 탐촉자는 어떤 검사에 사용되나?",
-    "choices": [
-      { "id": "A", "text": "surface wave testing", "text_kr": "표면파 검사" },
-      { "id": "B", "text": "angle beam wave", "text_kr": "사각빔 검사" },
-      { "id": "C", "text": "immersion testing", "text_kr": "수침법 검사" },
-      { "id": "D", "text": "straight beam testing", "text_kr": "수직빔 검사" }
+    "answer": 3,
+    "options": [
+      "surface wave testing\n표면파 검사",
+      "angle beam wave\n사각빔 검사",
+      "immersion testing\n수침법 검사",
+      "straight beam testing\n수직빔 검사"
     ],
-    "answer": "D"
+    "image": "UT_GENERAL_B_Q6.jpg"
   },
   {
     "id": 2,
     "question": "The simple experiment where a stick in a glass of water appears disjointed at the water surface illustrates the phenomena of:",
     "question_kr": "물이 든 컵에 막대를 넣었을 때 물 표면에서 꺾여 보이는 현상은 무엇을 설명하는가?",
-    "choices": [
-      { "id": "A", "text": "reflection", "text_kr": "반사" },
-      { "id": "B", "text": "magnification", "text_kr": "확대" },
-      { "id": "C", "text": "refraction", "text_kr": "굴절" },
-      { "id": "D", "text": "diffraction", "text_kr": "회절" }
-    ],
-    "answer": "C"
+    "answer": 2,
+    "options": [
+      "reflection\n반사",
+      "magnification\n확대",
+      "refraction\n굴절",
+      "diffraction\n회절"
+    ]
   },
   {
     "id": 3,
     "question": "The crystal thickness & transducer frequency are related. The thinner the crystal:",
     "question_kr": "수정 두께와 탐촉자 주파수는 관계가 있다. 수정이 얇을수록?",
-    "choices": [
-      { "id": "A", "text": "the lower the frequency", "text_kr": "주파수가 낮다" },
-      { "id": "B", "text": "the higher the frequency", "text_kr": "주파수가 높다" },
-      { "id": "C", "text": "there is no appreciable effect", "text_kr": "영향이 없다" },
-      { "id": "D", "text": "none of the above", "text_kr": "모두 아니다" }
-    ],
-    "answer": "B"
+    "answer": 1,
+    "options": [
+      "the lower the frequency\n주파수가 낮다",
+      "the higher the frequency\n주파수가 높다",
+      "there is no appreciable effect\n영향이 없다",
+      "none of the above\n모두 아니다"
+    ]
   },
   {
     "id": 4,
     "question": "The random distribution of crystallographic direction in alloys with large crystalline structure is a factor in determining:",
     "question_kr": "큰 결정립 구조를 가진 합금에서 결정방향의 불규칙성은 무엇에 영향을 주는가?",
-    "choices": [
-      { "id": "A", "text": "acoustic noise levels", "text_kr": "음향 잡음" },
-      { "id": "B", "text": "selection of test frequency", "text_kr": "시험 주파수 선정" },
-      { "id": "C", "text": "scattering of sound", "text_kr": "음의 산란" },
-      { "id": "D", "text": "all of the above", "text_kr": "위 모두" }
-    ],
-    "answer": "C"
+    "answer": 2,
+    "options": [
+      "acoustic noise levels\n음향 잡음",
+      "selection of test frequency\n시험 주파수 선정",
+      "scattering of sound\n음의 산란",
+      "all of the above\n위 모두"
+    ]
   },
   {
     "id": 5,
     "question": "The difference in signals received from identical reflectors at different material distances from a transducer may be caused by:",
     "question_kr": "동일한 반사체라도 탐촉자와의 거리가 다르면 신호 차이가 발생하는 원인은?",
-    "choices": [
-      { "id": "A", "text": "material attenuation", "text_kr": "재료 감쇠" },
-      { "id": "B", "text": "beam divergence", "text_kr": "빔 확산" },
-      { "id": "C", "text": "near field effects", "text_kr": "근거리 음장 효과" },
-      { "id": "D", "text": "all of the above", "text_kr": "위 모두" }
-    ],
-    "answer": "D"
+    "answer": 3,
+    "options": [
+      "material attenuation\n재료 감쇠",
+      "beam divergence\n빔 확산",
+      "near field effects\n근거리 음장 효과",
+      "all of the above\n위 모두"
+    ]
   },
   {
     "id": 6,
     "question": "Of the following sound wave modes, which one has multiple or varying wave velocities?",
     "question_kr": "다음 음파 중 여러 가지 또는 다양한 속도를 가지는 것은?",
-    "choices": [
-      { "id": "A", "text": "Longitudinal wave", "text_kr": "종파" },
-      { "id": "B", "text": "Shear wave", "text_kr": "전단파" },
-      { "id": "C", "text": "Transverse wave", "text_kr": "횡파" },
-      { "id": "D", "text": "Lamb wave", "text_kr": "램파" }
-    ],
-    "answer": "D"
+    "answer": 3,
+    "options": [
+      "Longitudinal wave\n종파",
+      "Shear wave\n전단파",
+      "Transverse wave\n횡파",
+      "Lamb wave\n램파"
+    ]
   },
   {
     "id": 7,
     "question": "Which of the following would be considered application(s) of ultrasonic technique?",
     "question_kr": "초음파 기술의 응용으로 옳은 것은?",
-    "choices": [
-      { "id": "A", "text": "Determination of material's modulus", "text_kr": "재료 탄성계수 측정" },
-      { "id": "B", "text": "Study of metallurgical structure", "text_kr": "금속조직 연구" },
-      { "id": "C", "text": "Measurement of material thickness", "text_kr": "재료 두께 측정" },
-      { "id": "D", "text": "All of the above", "text_kr": "위 모두" }
-    ],
-    "answer": "D"
+    "answer": 3,
+    "options": [
+      "Determination of material's modulus\n재료 탄성계수 측정",
+      "Study of metallurgical structure\n금속조직 연구",
+      "Measurement of material thickness\n재료 두께 측정",
+      "All of the above\n위 모두"
+    ]
   },
   {
     "id": 8,
     "question": "The only significant sound mode that will travel through a liquid is:",
     "question_kr": "액체를 통과할 수 있는 주요 음파는?",
-    "choices": [
-      { "id": "A", "text": "Shear wave", "text_kr": "전단파" },
-      { "id": "B", "text": "Longitudinal wave", "text_kr": "종파" },
-      { "id": "C", "text": "Surface wave", "text_kr": "표면파" },
-      { "id": "D", "text": "Rayleigh wave", "text_kr": "레이리파" }
-    ],
-    "answer": "B"
+    "answer": 1,
+    "options": [
+      "Shear wave\n전단파",
+      "Longitudinal wave\n종파",
+      "Surface wave\n표면파",
+      "Rayleigh wave\n레이리파"
+    ]
   },
   {
     "id": 9,
     "question": "The acoustic impedance of a material is used to:",
     "question_kr": "재료의 음향 임피던스는 무엇을 결정하는 데 사용되는가?",
-    "choices": [
-      { "id": "A", "text": "Determine the angle of refraction", "text_kr": "굴절각 결정" },
-      { "id": "B", "text": "Determine attenuation", "text_kr": "감쇠 결정" },
-      { "id": "C", "text": "Determine reflected/transmitted sound energy", "text_kr": "반사·투과 에너지 결정" },
-      { "id": "D", "text": "Determine beam spread", "text_kr": "빔 확산 결정" }
-    ],
-    "answer": "C"
+    "answer": 2,
+    "options": [
+      "Determine the angle of refraction\n굴절각 결정",
+      "Determine attenuation\n감쇠 결정",
+      "Determine reflected/transmitted sound energy\n반사·투과 에너지 결정",
+      "Determine beam spread\n빔 확산 결정"
+    ]
   },
   {
     "id": 10,
     "question": "When angle beam contact testing a test piece, increasing the incident angle until the second critical angle is reached results in:",
     "question_kr": "사각빔 탐상에서 입사각을 제2임계각까지 증가시키면 어떤 결과가 나타나는가?",
-    "choices": [
-      { "id": "A", "text": "Total reflection of a surface wave", "text_kr": "표면파의 전반사" },
-      { "id": "B", "text": "Total reflection of a shear wave", "text_kr": "전단파의 전반사" },
-      { "id": "C", "text": "Production of a surface wave", "text_kr": "표면파 발생" },
-      { "id": "D", "text": "None of the above", "text_kr": "모두 아니다" }
-    ],
-    "answer": "C"
+    "answer": 2,
+    "options": [
+      "Total reflection of a surface wave\n표면파의 전반사",
+      "Total reflection of a shear wave\n전단파의 전반사",
+      "Production of a surface wave\n표면파 발생",
+      "None of the above\n모두 아니다"
+    ]
   },
   {
     "id": 11,
     "question": "As the radius of curvature of a curved lens is increased, the focal length of the lens will:",
     "question_kr": "곡면 렌즈의 곡률반경이 증가하면 초점거리는 어떻게 되는가?",
-    "choices": [
-      { "id": "A", "text": "Increase", "text_kr": "증가한다" },
-      { "id": "B", "text": "Decrease", "text_kr": "감소한다" },
-      { "id": "C", "text": "Remain the same", "text_kr": "변하지 않는다" },
-      { "id": "D", "text": "Cannot be determined unless frequency is known", "text_kr": "주파수를 알아야 결정할 수 있다" }
-    ],
-    "answer": "A"
+    "answer": 0,
+    "options": [
+      "Increase\n증가한다",
+      "Decrease\n감소한다",
+      "Remain the same\n변하지 않는다",
+      "Cannot be determined unless frequency is known\n주파수를 알아야 결정할 수 있다"
+    ]
   },
   {
     "id": 12,
     "question": "When examining materials for planar flaws oriented parallel to the part surface, what testing method is most often used?",
     "question_kr": "표면과 평행한 평면 결함을 검사할 때 가장 많이 사용하는 방법은?",
-    "choices": [
-      { "id": "A", "text": "Angle beam", "text_kr": "사각빔 검사" },
-      { "id": "B", "text": "Through transmission", "text_kr": "투과법" },
-      { "id": "C", "text": "Straight beam", "text_kr": "수직빔 검사" },
-      { "id": "D", "text": "Dual crystal", "text_kr": "이중진동자 탐촉자" }
-    ],
-    "answer": "C"
+    "answer": 2,
+    "options": [
+      "Angle beam\n사각빔 검사",
+      "Through transmission\n투과법",
+      "Straight beam\n수직빔 검사",
+      "Dual crystal\n이중진동자 탐촉자"
+    ]
   },
   {
     "id": 13,
     "question": "If a contact angle beam transducer produces a 45° shear wave in steel, the angle produced in aluminum would be:",
     "question_kr": "강에서 45° 전단파를 만드는 탐촉자를 알루미늄에 사용하면 굴절각은?",
-    "choices": [
-      { "id": "A", "text": "Less than 45°", "text_kr": "45°보다 작다" },
-      { "id": "B", "text": "Greater than 45°", "text_kr": "45°보다 크다" },
-      { "id": "C", "text": "45°", "text_kr": "45°" },
-      { "id": "D", "text": "Cannot be determined", "text_kr": "결정할 수 없다" }
-    ],
-    "answer": "A"
+    "answer": 0,
+    "options": [
+      "Less than 45°\n45°보다 작다",
+      "Greater than 45°\n45°보다 크다",
+      "45°\n45°",
+      "Cannot be determined\n결정할 수 없다"
+    ]
   },
   {
     "id": 14,
     "question": "The ultrasonic test method in which finger damping is most effective in locating a discontinuity is:",
     "question_kr": "손가락 감쇠(Finger damping)가 결함 탐지에 가장 효과적인 초음파 방식은?",
-    "choices": [
-      { "id": "A", "text": "Shear wave", "text_kr": "전단파" },
-      { "id": "B", "text": "Longitudinal wave", "text_kr": "종파" },
-      { "id": "C", "text": "Surface wave", "text_kr": "표면파" },
-      { "id": "D", "text": "Compressional wave", "text_kr": "압축파" }
-    ],
-    "answer": "C"
+    "answer": 2,
+    "options": [
+      "Shear wave\n전단파",
+      "Longitudinal wave\n종파",
+      "Surface wave\n표면파",
+      "Compressional wave\n압축파"
+    ]
   },
   {
     "id": 15,
     "question": "When a C-scan recording is used, the information displayed is typically:",
     "question_kr": "C-Scan으로 기록할 때 일반적으로 표시되는 정보는?",
-    "choices": [
-      { "id": "A", "text": "Flaw depth and size", "text_kr": "결함 깊이와 크기" },
-      { "id": "B", "text": "Depth, orientation and size", "text_kr": "깊이, 방향 및 크기" },
-      { "id": "C", "text": "Location and depth", "text_kr": "위치와 깊이" },
-      { "id": "D", "text": "Location and plan-view size", "text_kr": "위치와 평면상 크기" }
-    ],
-    "answer": "D"
+    "answer": 3,
+    "options": [
+      "Flaw depth and size\n결함 깊이와 크기",
+      "Depth, orientation and size\n깊이, 방향 및 크기",
+      "Location and depth\n위치와 깊이",
+      "Location and plan-view size\n위치와 평면상 크기"
+    ]
   },
   {
     "id": 16,
     "question": "Rayleigh waves are influenced most by defects located:",
     "question_kr": "레이리파가 가장 민감하게 검출하는 결함 위치는?",
-    "choices": [
-      { "id": "A", "text": "One wavelength below the surface", "text_kr": "표면 아래 1파장" },
-      { "id": "B", "text": "Six wavelengths below the surface", "text_kr": "표면 아래 6파장" },
-      { "id": "C", "text": "Close to or on the surface", "text_kr": "표면 또는 표면 가까이" },
-      { "id": "D", "text": "Three wavelengths below the surface", "text_kr": "표면 아래 3파장" }
-    ],
-    "answer": "C"
+    "answer": 2,
+    "options": [
+      "One wavelength below the surface\n표면 아래 1파장",
+      "Six wavelengths below the surface\n표면 아래 6파장",
+      "Close to or on the surface\n표면 또는 표면 가까이",
+      "Three wavelengths below the surface\n표면 아래 3파장"
+    ]
   },
   {
     "id": 17,
     "question": "Assuming a uniform beam pattern, if the amplitude ratio is 6 dB, the reflected signal amplitudes at A and B are:",
     "question_kr": "빔 패턴이 동일하고 진폭 차가 6dB라면 A와 B의 진폭 관계는?",
-    "choices": [
-      { "id": "A", "text": "12 dB difference", "text_kr": "12 dB 차이" },
-      { "id": "B", "text": "Equal amplitudes", "text_kr": "동일한 진폭" },
-      { "id": "C", "text": "2 to 1", "text_kr": "2 : 1" },
-      { "id": "D", "text": "3 to 1", "text_kr": "3 : 1" }
-    ],
-    "answer": "C"
+    "answer": 2,
+    "options": [
+      "12 dB difference\n12 dB 차이",
+      "Equal amplitudes\n동일한 진폭",
+      "2 to 1\n2 : 1",
+      "3 to 1\n3 : 1"
+    ]
   },
   {
     "id": 18,
     "question": "If beam divergence causes reflection from the side before reaching the back surface, the result may be:",
     "question_kr": "빔이 저면 도달 전 측면에서 반사되면 어떤 현상이 발생하는가?",
-    "choices": [
-      { "id": "A", "text": "Multiple indications before back reflection", "text_kr": "저면반사 전 다중 지시" },
-      { "id": "B", "text": "Multiple surface reflections", "text_kr": "다중 표면반사" },
-      { "id": "C", "text": "Longitudinal-to-shear mode conversion", "text_kr": "종파→전단파 변환" },
-      { "id": "D", "text": "Loss of front surface indication", "text_kr": "전면 지시 상실" }
-    ],
-    "answer": "C"
+    "answer": 2,
+    "options": [
+      "Multiple indications before back reflection\n저면반사 전 다중 지시",
+      "Multiple surface reflections\n다중 표면반사",
+      "Longitudinal-to-shear mode conversion\n종파→전단파 변환",
+      "Loss of front surface indication\n전면 지시 상실"
+    ]
   },
   {
     "id": 19,
     "question": "Where does beam divergence occur?",
     "question_kr": "빔 확산은 어느 영역에서 발생하는가?",
-    "choices": [
-      { "id": "A", "text": "Near field", "text_kr": "근거리 음장" },
-      { "id": "B", "text": "At the crystal", "text_kr": "진동자" },
-      { "id": "C", "text": "Far field", "text_kr": "원거리 음장" },
-      { "id": "D", "text": "None of the above", "text_kr": "모두 아니다" }
-    ],
-    "answer": "C"
+    "answer": 2,
+    "options": [
+      "Near field\n근거리 음장",
+      "At the crystal\n진동자",
+      "Far field\n원거리 음장",
+      "None of the above\n모두 아니다"
+    ]
   },
   {
     "id": 20,
     "question": "As frequency increases in ultrasonic testing, the beam divergence angle of a given crystal:",
     "question_kr": "초음파에서 주파수가 증가하면 동일 진동자의 빔 확산각은?",
-    "choices": [
-      { "id": "A", "text": "Decreases", "text_kr": "감소한다" },
-      { "id": "B", "text": "Remains unchanged", "text_kr": "변하지 않는다" },
-      { "id": "C", "text": "Increases", "text_kr": "증가한다" },
-      { "id": "D", "text": "Varies with wavelength", "text_kr": "파장에 따라 달라진다" }
-    ],
-    "answer": "A"
+    "answer": 0,
+    "options": [
+      "Decreases\n감소한다",
+      "Remains unchanged\n변하지 않는다",
+      "Increases\n증가한다",
+      "Varies with wavelength\n파장에 따라 달라진다"
+    ]
   },
   {
     "id": 21,
     "question": "The ratio of the velocity of sound in water compared to that for aluminum or steel is approximately:",
     "question_kr": "물에서의 음속과 알루미늄 또는 강에서의 음속 비는 대략 얼마인가?",
-    "choices": [
-      { "id": "A", "text": "1 : 4", "text_kr": "1 : 4" },
-      { "id": "B", "text": "1 : 8", "text_kr": "1 : 8" },
-      { "id": "C", "text": "1 : 2", "text_kr": "1 : 2" },
-      { "id": "D", "text": "1 : 3", "text_kr": "1 : 3" }
-    ],
-    "answer": "A"
+    "answer": 0,
+    "options": [
+      "1 : 4\n1 : 4",
+      "1 : 8\n1 : 8",
+      "1 : 2\n1 : 2",
+      "1 : 3\n1 : 3"
+    ]
   },
   {
     "id": 22,
     "question": "Which of the following scanning methods could be classified as an immersion type test?",
     "question_kr": "다음 중 수침탐상법으로 분류되는 것은?",
-    "choices": [
-      { "id": "A", "text": "Tank immersion", "text_kr": "탱크 수침법" },
-      { "id": "B", "text": "Squirter method", "text_kr": "스퀴터 방식" },
-      { "id": "C", "text": "Wheel search unit", "text_kr": "휠 탐촉자 방식" },
-      { "id": "D", "text": "All of the above", "text_kr": "위 모두" }
-    ],
-    "answer": "D"
+    "answer": 3,
+    "options": [
+      "Tank immersion\n탱크 수침법",
+      "Squirter method\n스퀴터 방식",
+      "Wheel search unit\n휠 탐촉자 방식",
+      "All of the above\n위 모두"
+    ]
   },
   {
     "id": 23,
     "question": "What law is used to calculate the angle of refraction for longitudinal and shear waves?",
     "question_kr": "종파와 전단파의 굴절각 계산에 사용하는 법칙은?",
-    "choices": [
-      { "id": "A", "text": "Poisson's Law", "text_kr": "포아송 법칙" },
-      { "id": "B", "text": "Snell's Law", "text_kr": "스넬의 법칙" },
-      { "id": "C", "text": "Fresnel's Law", "text_kr": "프레넬 법칙" },
-      { "id": "D", "text": "Charles' Law", "text_kr": "샤를의 법칙" }
-    ],
-    "answer": "B"
+    "answer": 1,
+    "options": [
+      "Poisson's Law\n포아송 법칙",
+      "Snell's Law\n스넬의 법칙",
+      "Fresnel's Law\n프레넬 법칙",
+      "Charles' Law\n샤를의 법칙"
+    ]
   },
   {
     "id": 24,
     "question": "At an interface between two different materials, an impedance difference results in:",
     "question_kr": "서로 다른 두 재질의 경계면에서 임피던스 차이는 무엇을 발생시키는가?",
-    "choices": [
-      { "id": "A", "text": "Total reflection", "text_kr": "완전 반사" },
-      { "id": "B", "text": "Sound absorption", "text_kr": "음파 흡수" },
-      { "id": "C", "text": "Reflection and transmission", "text_kr": "반사와 투과" },
-      { "id": "D", "text": "None of the above", "text_kr": "위 모두 아님" }
-    ],
-    "answer": "C"
+    "answer": 2,
+    "options": [
+      "Total reflection\n완전 반사",
+      "Sound absorption\n음파 흡수",
+      "Reflection and transmission\n반사와 투과",
+      "None of the above\n위 모두 아님"
+    ]
   },
   {
     "id": 25,
     "question": "When using focused transducers, non-symmetry in the propagated sound beam may be caused by:",
     "question_kr": "집속형 탐촉자 사용 시 음장의 비대칭 원인은?",
-    "choices": [
-      { "id": "A", "text": "Backing material variations", "text_kr": "배면재 변화" },
-      { "id": "B", "text": "Lens misalignment", "text_kr": "렌즈 중심 불일치" },
-      { "id": "C", "text": "Porosity in the lens", "text_kr": "렌즈 기공" },
-      { "id": "D", "text": "All of the above", "text_kr": "위 모두" }
-    ],
-    "answer": "D"
+    "answer": 3,
+    "options": [
+      "Backing material variations\n배면재 변화",
+      "Lens misalignment\n렌즈 중심 불일치",
+      "Porosity in the lens\n렌즈 기공",
+      "All of the above\n위 모두"
+    ]
   },
   {
     "id": 26,
     "question": "In an automatic immersion scanning unit, the bridge or carriage serves to:",
     "question_kr": "자동 수침탐상기의 브리지(캐리지)의 역할은?",
-    "choices": [
-      { "id": "A", "text": "Support and move the manipulator", "text_kr": "조작기를 지지하고 이동시킨다" },
-      { "id": "B", "text": "Control transverse position", "text_kr": "횡방향 위치를 제어한다" },
-      { "id": "C", "text": "Control vertical position", "text_kr": "수직 위치를 제어한다" },
-      { "id": "D", "text": "Raise and lower the transducer", "text_kr": "탐촉자를 상하 이동시킨다" }
-    ],
-    "answer": "A"
+    "answer": 0,
+    "options": [
+      "Support and move the manipulator\n조작기를 지지하고 이동시킨다",
+      "Control transverse position\n횡방향 위치를 제어한다",
+      "Control vertical position\n수직 위치를 제어한다",
+      "Raise and lower the transducer\n탐촉자를 상하 이동시킨다"
+    ]
   },
   {
     "id": 27,
     "question": "As transducer diameter decreases, the beam spread:",
     "question_kr": "탐촉자 직경이 감소하면 빔 확산은?",
-    "choices": [
-      { "id": "A", "text": "Decreases", "text_kr": "감소한다" },
-      { "id": "B", "text": "Remains the same", "text_kr": "변하지 않는다" },
-      { "id": "C", "text": "Increases", "text_kr": "증가한다" },
-      { "id": "D", "text": "Becomes conical", "text_kr": "원추형이 된다" }
-    ],
-    "answer": "C"
+    "answer": 2,
+    "options": [
+      "Decreases\n감소한다",
+      "Remains the same\n변하지 않는다",
+      "Increases\n증가한다",
+      "Becomes conical\n원추형이 된다"
+    ]
   },
   {
     "id": 28,
     "question": "In pulse-echo testing, if a planar flaw is not perpendicular to the sound beam, the result may be:",
     "question_kr": "펄스반사법에서 평면 결함이 음파에 수직이 아니면 어떤 결과가 나타나는가?",
-    "choices": [
-      { "id": "A", "text": "Loss of signal linearity", "text_kr": "지시 선형성 상실" },
-      { "id": "B", "text": "Loss of discontinuity echo", "text_kr": "결함 에코 감소 또는 소실" },
-      { "id": "C", "text": "Beam focusing", "text_kr": "빔 집속" },
-      { "id": "D", "text": "Loss of interference", "text_kr": "간섭 현상 상실" }
-    ],
-    "answer": "B"
+    "answer": 1,
+    "options": [
+      "Loss of signal linearity\n지시 선형성 상실",
+      "Loss of discontinuity echo\n결함 에코 감소 또는 소실",
+      "Beam focusing\n빔 집속",
+      "Loss of interference\n간섭 현상 상실"
+    ]
   },
   {
     "id": 29,
     "question": "During straight beam testing, non-parallel front and back surfaces may cause:",
     "question_kr": "수직빔 검사에서 전면과 후면이 평행하지 않으면?",
-    "choices": [
-      { "id": "A", "text": "Partial or total loss of backwall echo", "text_kr": "저면에코 부분 또는 완전 소실" },
-      { "id": "B", "text": "No change", "text_kr": "변화 없음" },
-      { "id": "C", "text": "Broader backwall echo", "text_kr": "저면에코 확대" },
-      { "id": "D", "text": "Narrower backwall echo", "text_kr": "저면에코 축소" }
-    ],
-    "answer": "A"
+    "answer": 0,
+    "options": [
+      "Partial or total loss of backwall echo\n저면에코 부분 또는 완전 소실",
+      "No change\n변화 없음",
+      "Broader backwall echo\n저면에코 확대",
+      "Narrower backwall echo\n저면에코 축소"
+    ]
   },
   {
     "id": 30,
     "question": "Lamb waves are commonly used to detect:",
     "question_kr": "램파가 주로 사용되는 대상은?",
-    "choices": [
-      { "id": "A", "text": "Laminar defects near the surface of thin materials", "text_kr": "얇은 재료 표면 근처의 층상 결함" },
-      { "id": "B", "text": "Lack of fusion in thick welds", "text_kr": "두꺼운 용접부의 융합불량" },
-      { "id": "C", "text": "Internal voids in diffusion bonds", "text_kr": "확산접합 내부 공극" },
-      { "id": "D", "text": "Thickness changes in heavy plates", "text_kr": "두꺼운 판의 두께 변화" }
-    ],
-    "answer": "A"
+    "answer": 0,
+    "options": [
+      "Laminar defects near the surface of thin materials\n얇은 재료 표면 근처의 층상 결함",
+      "Lack of fusion in thick welds\n두꺼운 용접부의 융합불량",
+      "Internal voids in diffusion bonds\n확산접합 내부 공극",
+      "Thickness changes in heavy plates\n두꺼운 판의 두께 변화"
+    ]
   },
   {
     "id": 31,
     "question": "The total energy losses occurring in all materials is called:",
     "question_kr": "모든 재료에서 발생하는 전체 에너지 손실을 무엇이라 하는가?",
-    "choices": [
-      { "id": "A", "text": "Attenuation", "text_kr": "감쇠" },
-      { "id": "B", "text": "Scattering", "text_kr": "산란" },
-      { "id": "C", "text": "Beam spread", "text_kr": "빔 확산" },
-      { "id": "D", "text": "Interface", "text_kr": "경계면" }
-    ],
-    "answer": "A"
+    "answer": 0,
+    "options": [
+      "Attenuation\n감쇠",
+      "Scattering\n산란",
+      "Beam spread\n빔 확산",
+      "Interface\n경계면"
+    ]
   },
   {
     "id": 32,
     "question": "The angle at which 90° refraction of a longitudinal wave is reached is called:",
     "question_kr": "종파의 굴절각이 90°가 되는 입사각을 무엇이라 하는가?",
-    "choices": [
-      { "id": "A", "text": "Angle of incidence", "text_kr": "입사각" },
-      { "id": "B", "text": "First critical angle", "text_kr": "제1임계각" },
-      { "id": "C", "text": "Maximum reflection angle", "text_kr": "최대 반사각" },
-      { "id": "D", "text": "Second critical angle", "text_kr": "제2임계각" }
-    ],
-    "answer": "B"
+    "answer": 1,
+    "options": [
+      "Angle of incidence\n입사각",
+      "First critical angle\n제1임계각",
+      "Maximum reflection angle\n최대 반사각",
+      "Second critical angle\n제2임계각"
+    ]
   },
   {
     "id": 33,
     "question": "Which circuit controls the voltage supplied to the vertical deflection plates of the CRT in an A-scan UT system?",
     "question_kr": "A-Scan 초음파탐상기에서 CRT 수직편향판 전압을 제어하는 것은?",
-    "choices": [
-      { "id": "A", "text": "Sweep generator", "text_kr": "소인 발생기" },
-      { "id": "B", "text": "Pulser", "text_kr": "펄서" },
-      { "id": "C", "text": "Amplifier circuit", "text_kr": "증폭 회로" },
-      { "id": "D", "text": "Clock timer", "text_kr": "클록 타이머" }
-    ],
-    "answer": "C"
+    "answer": 2,
+    "options": [
+      "Sweep generator\n소인 발생기",
+      "Pulser\n펄서",
+      "Amplifier circuit\n증폭 회로",
+      "Clock timer\n클록 타이머"
+    ]
   },
   {
     "id": 34,
     "question": "Large grains in a metallic test specimen usually result in:",
     "question_kr": "금속 시험편의 결정립이 크면 일반적으로 어떤 결과가 나타나는가?",
-    "choices": [
-      { "id": "A", "text": "Reduced backwall echo", "text_kr": "저면에코 감소" },
-      { "id": "B", "text": "Large noise indications", "text_kr": "큰 잡음 신호" },
-      { "id": "C", "text": "Reduced penetration", "text_kr": "침투력 감소" },
-      { "id": "D", "text": "All of the above", "text_kr": "위 모두" }
-    ],
-    "answer": "D"
+    "answer": 3,
+    "options": [
+      "Reduced backwall echo\n저면에코 감소",
+      "Large noise indications\n큰 잡음 신호",
+      "Reduced penetration\n침투력 감소",
+      "All of the above\n위 모두"
+    ]
   },
   {
     "id": 35,
     "question": "When adjusting the flaw locating rule for shear-wave weld inspection, the zero point shall coincide with the:",
     "question_kr": "횡파 용접검사에서 결함 위치자를 사용할 때 영점은 어디와 일치해야 하는가?",
-    "choices": [
-      { "id": "A", "text": "Beam exit point of the wedge", "text_kr": "웨지의 빔 출사점" },
-      { "id": "B", "text": "Point directly over the flaw", "text_kr": "결함 바로 위" },
-      { "id": "C", "text": "Wheel search unit", "text_kr": "휠 탐촉자" },
-      { "id": "D", "text": "Circular scanner", "text_kr": "원형 스캐너" }
-    ],
-    "answer": "A"
+    "answer": 0,
+    "options": [
+      "Beam exit point of the wedge\n웨지의 빔 출사점",
+      "Point directly over the flaw\n결함 바로 위",
+      "Wheel search unit\n휠 탐촉자",
+      "Circular scanner\n원형 스캐너"
+    ]
   },
   {
     "id": 36,
     "question": "On an A-scan display, what represents the intensity of a reflected beam?",
     "question_kr": "A-Scan에서 반사빔의 강도는 무엇으로 표시되는가?",
-    "choices": [
-      { "id": "A", "text": "Echo pulse width", "text_kr": "에코 폭" },
-      { "id": "B", "text": "Horizontal position", "text_kr": "수평 위치" },
-      { "id": "C", "text": "Signal brightness", "text_kr": "신호 밝기" },
-      { "id": "D", "text": "Signal amplitude", "text_kr": "신호 높이(진폭)" }
-    ],
-    "answer": "D"
+    "answer": 3,
+    "options": [
+      "Echo pulse width\n에코 폭",
+      "Horizontal position\n수평 위치",
+      "Signal brightness\n신호 밝기",
+      "Signal amplitude\n신호 높이(진폭)"
+    ]
   },
   {
     "id": 37,
     "question": "Which scan type produces a recording of flaw areas superimposed on a plan view of the test piece?",
     "question_kr": "시험편 평면도 위에 결함 면적을 표시하는 주사 방식은?",
-    "choices": [
-      { "id": "A", "text": "A-Scan", "text_kr": "A-Scan" },
-      { "id": "B", "text": "B-Scan", "text_kr": "B-Scan" },
-      { "id": "C", "text": "C-Scan", "text_kr": "C-Scan" },
-      { "id": "D", "text": "D-Scan", "text_kr": "D-Scan" }
-    ],
-    "answer": "C"
+    "answer": 2,
+    "options": [
+      "A-Scan\nA-Scan",
+      "B-Scan\nB-Scan",
+      "C-Scan\nC-Scan",
+      "D-Scan\nD-Scan"
+    ]
   },
   {
     "id": 38,
     "question": "In which zone does the amplitude of an indication diminish exponentially as distance increases?",
     "question_kr": "거리가 증가함에 따라 지시의 진폭이 급격히 감소하는 영역은?",
-    "choices": [
-      { "id": "A", "text": "Far field zone", "text_kr": "원거리 음장" },
-      { "id": "B", "text": "Near field zone", "text_kr": "근거리 음장" },
-      { "id": "C", "text": "Dead zone", "text_kr": "불감대" },
-      { "id": "D", "text": "Fresnel zone", "text_kr": "프레넬 영역" }
-    ],
-    "answer": "A"
+    "answer": 0,
+    "options": [
+      "Far field zone\n원거리 음장",
+      "Near field zone\n근거리 음장",
+      "Dead zone\n불감대",
+      "Fresnel zone\n프레넬 영역"
+    ]
   },
   {
     "id": 39,
     "question": "Gas discontinuities are reduced to flat discontinuities parallel to the surface by:",
     "question_kr": "가스성 결함이 표면과 평행한 판상 결함으로 변하는 공정은?",
-    "choices": [
-      { "id": "A", "text": "Rolling", "text_kr": "압연" },
-      { "id": "B", "text": "Machining", "text_kr": "기계가공" },
-      { "id": "C", "text": "Casting", "text_kr": "주조" },
-      { "id": "D", "text": "Welding", "text_kr": "용접" }
-    ],
-    "answer": "A"
+    "answer": 0,
+    "options": [
+      "Rolling\n압연",
+      "Machining\n기계가공",
+      "Casting\n주조",
+      "Welding\n용접"
+    ]
   },
   {
     "id": 40,
     "question": "Compensation for variation in echo height due to discontinuity depth is known as:",
     "question_kr": "결함 깊이에 따른 에코 높이 변화를 보상하는 기능은?",
-    "choices": [
-      { "id": "A", "text": "Transfer", "text_kr": "전이" },
-      { "id": "B", "text": "Attenuation", "text_kr": "감쇠" },
-      { "id": "C", "text": "Distance Amplitude Correction (DAC)", "text_kr": "거리진폭보정(DAC)" },
-      { "id": "D", "text": "Interpretation", "text_kr": "판독" }
-    ],
-    "answer": "C"
+    "answer": 2,
+    "options": [
+      "Transfer\n전이",
+      "Attenuation\n감쇠",
+      "Distance Amplitude Correction (DAC)\n거리진폭보정(DAC)",
+      "Interpretation\n판독"
+    ]
   }
 ]

@@ -13,7 +13,7 @@
       "Hand wiping",
       "Blowing"
     ],
-    "answer": "C"
+    "answer": 2
   },
   {
     "id": 2,
@@ -29,7 +29,7 @@
       "Traces of water",
       "All of the above"
     ],
-    "answer": "D"
+    "answer": 3
   },
   {
     "id": 3,
@@ -45,7 +45,7 @@
       "Fluorescent post-emulsification penetrants are used",
       "Wet developers are used"
     ],
-    "answer": "B"
+    "answer": 1
   },
   {
     "id": 4,
@@ -61,7 +61,7 @@
       "Wet",
       "All developers have approximately the same sensitivity"
     ],
-    "answer": "B"
+    "answer": 1
   },
   {
     "id": 5,
@@ -77,7 +77,7 @@
       "The temperature of the part and/or penetrant",
       "All of the above"
     ],
-    "answer": "D"
+    "answer": 3
   },
   {
     "id": 6,
@@ -93,7 +93,7 @@
       "It will cause temporary total blindness",
       "None of the above"
     ],
-    "answer": "B"
+    "answer": 1
   },
   {
     "id": 7,
@@ -109,7 +109,7 @@
       "Visible dye penetrant method",
       "None of the above require a source of electricity"
     ],
-    "answer": "C"
+    "answer": 2
   },
   {
     "id": 8,
@@ -125,7 +125,7 @@
       "The method is essentially simple in application",
       "There are few limitations on the size and shape of the article that can be tested"
     ],
-    "answer": "A"
+    "answer": 0
   },
   {
     "id": 9,
@@ -141,7 +141,7 @@
       "Liquid solvent",
       "Sand blasting"
     ],
-    "answer": "D"
+    "answer": 3
   },
   {
     "id": 10,
@@ -157,7 +157,7 @@
       "An open seam",
       "Random porosity"
     ],
-    "answer": "A"
+    "answer": 0
   },
   {
     "id": 11,
@@ -173,7 +173,7 @@
       "Wire brushing",
       "Alkaline cleaner"
     ],
-    "answer": "C"
+    "answer": 2
   },
   {
     "id": 12,
@@ -189,7 +189,7 @@
       "Penetration time (Dwell time)",
       "Bleed-in time"
     ],
-    "answer": "C"
+    "answer": 2
   },
   {
     "id": 13,
@@ -205,7 +205,7 @@
       "An oily surface",
       "All of the above"
     ],
-    "answer": "A"
+    "answer": 0
   },
   {
     "id": 14,
@@ -221,7 +221,7 @@
       "Penetrant testing cannot be used on non-metallic surfaces",
       "Penetrant testing cannot locate subsurface discontinuities"
     ],
-    "answer": "D"
+    "answer": 3
   },
   {
     "id": 15,
@@ -237,7 +237,7 @@
       "Detergents from cleaning",
       "Water"
     ],
-    "answer": "D"
+    "answer": 3
   },
   {
     "id": 16,
@@ -253,7 +253,7 @@
       "Human blood cells",
       "None of the above"
     ],
-    "answer": "A"
+    "answer": 0
   },
   {
     "id": 17,
@@ -269,7 +269,7 @@
       "Glass",
       "Copper"
     ],
-    "answer": "C"
+    "answer": 2
   },
   {
     "id": 18,
@@ -285,7 +285,7 @@
       "After removal of the penetrant",
       "Before removal of the emulsifier"
     ],
-    "answer": "C"
+    "answer": 2
   },
   {
     "id": 19,
@@ -301,7 +301,7 @@
       "Infrared light",
       "None of the above"
     ],
-    "answer": "B"
+    "answer": 1
   },
   {
     "id": 20,
@@ -317,7 +317,7 @@
       "Pitting",
       "Cracks"
     ],
-    "answer": "D"
+    "answer": 3
   },
   {
     "id": 21,
@@ -333,7 +333,7 @@
       "It has electrical heating elements introduced into the inspection process",
       "It is a warm air blast system"
     ],
-    "answer": "B"
+    "answer": 1
   },
   {
     "id": 22,
@@ -349,7 +349,7 @@
       "Surface tension of the penetrant increases",
       "Contact angle increases"
     ],
-    "answer": "B"
+    "answer": 1
   },
   {
     "id": 23,
@@ -365,7 +365,7 @@
       "9 to 1",
       "23 to 1"
     ],
-    "answer": "B"
+    "answer": 1
   },
   {
     "id": 24,
@@ -381,7 +381,7 @@
       "Fine linear indication",
       "Faint intermittent line"
     ],
-    "answer": "B"
+    "answer": 1
   },
   {
     "id": 25,
@@ -397,7 +397,7 @@
       "Vacuum and pressure",
       "Vibration"
     ],
-    "answer": "D"
+    "answer": 3
   },
   {
     "id": 26,
@@ -413,7 +413,7 @@
       "The emulsifying time is too long",
       "None of the above"
     ],
-    "answer": "C"
+    "answer": 2
   },
   {
     "id": 27,
@@ -429,7 +429,7 @@
       "With a dry paint brush",
       "By dipping"
     ],
-    "answer": "B"
+    "answer": 1
   },
   {
     "id": 28,
@@ -445,7 +445,7 @@
       "Medium viscosity",
       "Viscosity is not important"
     ],
-    "answer": "B"
+    "answer": 1
   },
   {
     "id": 29,
@@ -461,7 +461,7 @@
       "Visible light from the energy given off by the mercury arc",
       "Fluorescence from the penetrant"
     ],
-    "answer": "C"
+    "answer": 2
   },
   {
     "id": 30,
@@ -477,7 +477,7 @@
       "Discontinue the rinse as soon as the surface penetrant is removed from the part",
       "Rinse only with water hotter than 43℃"
     ],
-    "answer": "C"
+    "answer": 2
   },
   {
     "id": 31,
@@ -493,7 +493,7 @@
       "Machining tear",
       "Lap"
     ],
-    "answer": "A"
+    "answer": 0
   },
   {
     "id": 32,
@@ -509,7 +509,7 @@
       "Oxide",
       "All of the above"
     ],
-    "answer": "D"
+    "answer": 3
   },
   {
     "id": 33,
@@ -525,7 +525,7 @@
       "30 to 50 foot candles",
       "70 to 100 foot candles"
     ],
-    "answer": "C"
+    "answer": 2
   },
   {
     "id": 34,
@@ -541,7 +541,7 @@
       "40°F (4℃)",
       "20°F (-7℃)"
     ],
-    "answer": "B"
+    "answer": 1
   },
   {
     "id": 35,
@@ -557,7 +557,7 @@
       "Wet developer",
       "High viscosity developer"
     ],
-    "answer": "D"
+    "answer": 3
   },
   {
     "id": 36,
@@ -573,7 +573,7 @@
       "Penetrant or part too cold during penetration time",
       "Lint or dirt"
     ],
-    "answer": "D"
+    "answer": 3
   },
   {
     "id": 37,
@@ -589,7 +589,7 @@
       "The penetrant may lose its sensitivity",
       "The excess penetrant may be difficult to remove"
     ],
-    "answer": "C"
+    "answer": 2
   },
   {
     "id": 38,
@@ -605,7 +605,7 @@
       "Temper of the material being tested",
       "All of the above"
     ],
-    "answer": "D"
+    "answer": 3
   },
   {
     "id": 39,
@@ -621,7 +621,7 @@
       "Lamination",
       "Leaks in metal tubing"
     ],
-    "answer": "C"
+    "answer": 2
   },
   {
     "id": 40,
@@ -637,7 +637,7 @@
       "Method used to clean part prior to inspection",
       "All of the above"
     ],
-    "answer": "D"
+    "answer": 3
   },
   {
     "id": 41,
@@ -653,6 +653,6 @@
       "It can detect subsurface defects",
       "It does not require a developer"
     ],
-    "answer": "B"
+    "answer": 1
   }
 ]

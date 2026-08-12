@@ -6,6 +6,13 @@
 
 import "./print.css";
 import logo from "./logo.png";
+import QuestionImage from "./QuestionImage.jsx";
+import {
+  questionType,
+  isCorrectOption,
+  isChosenOption,
+  TEXT
+} from "./grading.js";
 
 const EMPTY_ANSWERS = {};
 
@@ -41,6 +48,14 @@ function PrintAdminExam({
 
   const measuredRef =
     useRef(false);
+
+  /*
+   * 도해 이미지가 아직 로딩 중이면 문항 높이가 0에 가깝게 측정되어
+   * 페이지 분할이 어긋난다. 이미지가 다 뜬 뒤 이 값을 올려
+   * 측정을 다시 돌린다.
+   */
+  const [imagesTick, setImagesTick] =
+    useState(0);
 
 
   useLayoutEffect(() => {
@@ -84,6 +99,45 @@ function PrintAdminExam({
 
     if (questionElements.length === 0) {
       return;
+    }
+
+
+    /* 아직 로딩이 끝나지 않은 도해가 있으면 다 뜰 때까지 측정을 미룬다.
+       complete 인데 깨진 이미지는 load 가 다시 오지 않으므로 기다리지 않는다. */
+    const pending =
+      Array.from(
+        container.querySelectorAll("img")
+      ).filter(
+        img => !img.complete
+      );
+
+
+    if (pending.length > 0) {
+
+      let left = pending.length;
+
+      const onSettled = () => {
+
+        left -= 1;
+
+        if (left <= 0) {
+          setImagesTick(tick => tick + 1);
+        }
+
+      };
+
+      pending.forEach(img => {
+        img.addEventListener("load", onSettled, { once: true });
+        img.addEventListener("error", onSettled, { once: true });
+      });
+
+      return () => {
+        pending.forEach(img => {
+          img.removeEventListener("load", onSettled);
+          img.removeEventListener("error", onSettled);
+        });
+      };
+
     }
 
 
@@ -185,7 +239,8 @@ function PrintAdminExam({
     method,
     subject,
     date,
-    score
+    score,
+    imagesTick
   ]);
 
 
@@ -390,26 +445,14 @@ function PrintAdminExam({
     index
   }) {
 
-    const correct =
-      Number(
-        q && q.answer
-      );
-
-
     const rawUserAnswer =
       answers
         ? answers[index]
         : undefined;
 
 
-    const user =
-      rawUserAnswer === undefined ||
-      rawUserAnswer === null ||
-      rawUserAnswer === ""
-        ? -1
-        : Number(
-            rawUserAnswer
-          );
+    const isText =
+      questionType(q) === TEXT;
 
 
     const questionLines =
@@ -477,6 +520,9 @@ function PrintAdminExam({
         }
 
 
+        <QuestionImage q={q} />
+
+
         {
           Array.isArray(
             q && q.options
@@ -503,9 +549,15 @@ function PrintAdminExam({
                 "option-circle";
 
 
-              if (
-                i === correct
-              ) {
+              /* 정답 표시는 복수정답(배열)도 함께 처리한다 */
+              const optCorrect =
+                isCorrectOption(q, i);
+
+              const optChosen =
+                isChosenOption(rawUserAnswer, i);
+
+
+              if (optCorrect) {
 
                 circleClass +=
                   " box-correct";
@@ -514,8 +566,8 @@ function PrintAdminExam({
 
 
               if (
-                i === user &&
-                i !== correct
+                optChosen &&
+                !optCorrect
               ) {
 
                 circleClass +=
@@ -580,6 +632,37 @@ function PrintAdminExam({
               );
 
             }
+          )
+        }
+
+
+        {
+          /* 주관식 — 응시자가 쓴 답과 정답을 나란히 보여준다 */
+          isText && (
+
+            <div className="answer-written">
+
+              <div className="written-line">
+                <span className="written-label">응시자 답</span>
+                <span className="written-value">
+                  {
+                    typeof rawUserAnswer === "string" &&
+                    rawUserAnswer.trim() !== ""
+                      ? rawUserAnswer
+                      : "-"
+                  }
+                </span>
+              </div>
+
+              <div className="written-line">
+                <span className="written-label">정답</span>
+                <span className="written-value written-correct">
+                  {String(q.answer ?? "-")}
+                </span>
+              </div>
+
+            </div>
+
           )
         }
 

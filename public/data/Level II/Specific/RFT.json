@@ -28,7 +28,7 @@
         "Pitting",
         "Erosion"
       ],
-      "answer": "C"
+      "answer": 2
     },
     {
       "id": 4,
@@ -40,7 +40,7 @@
         "Inadequate penetration",
         "Forging laps"
       ],
-      "answer": "B"
+      "answer": 1
     },
     {
       "id": 5,
@@ -52,7 +52,7 @@
         "3step",
         "4step"
       ],
-      "answer": "C"
+      "answer": 2
     },
     {
       "id": 6,
@@ -85,7 +85,7 @@
         "Both A and B above",
         "Neither A nor B"
       ],
-      "answer": "C"
+      "answer": 2
     },
     {
       "id": 10,
@@ -97,103 +97,103 @@
         "Displaying signals shall be on a Voltage Plane",
         "Can be set to three or more multi-channel frequency"
       ],
-      "answer": "D"
-},
-{
-  "id": 11,
-  "question": "In the ASME Sec. V Art.17, what kind of discontinuities in pit reference tube?",
-  "korean": "ASME Sec.V Art.17에서 대비 튜브의 pit reference tube 불연속 종류는?",
-  "options": [
-    "100% through hole",
-    "50% flat bottom hole of tube wall from the OD",
-    "20° circumferential groove of tube wall from the OD",
-    "Both A & B",
-    "All of the above"
-  ],
-  "answer": "D"
-},
-{
-  "id": 12,
-  "question": "In ASME Sec. V Art.17, How much set the phase angle for through hole of reference tube on system setting and calibration?",
-  "korean": "ASME Sec.V Art.17 시스템 설정 및 교정 시 대비시편 관통홀의 위상각은 얼마로 설정하는가?",
-  "options": [
-    "40°",
-    "90°",
-    "180°",
-    "0°"
-  ],
-  "answer": "B"
-},
-{
-  "id": 13,
-  "question": "How much the minimum fill factor by the procedure HIE-NDT-ET-P11?",
-  "korean": "HIE-NDT-ET-P11 절차서에서 최소 충진율은?",
-  "options": [],
-  "answer": "Minimum 75%"
-},
-{
-  "id": 14,
-  "question": "Describe NDE personnel requirements in accordance with the procedure HIE-NDT-ET-P11.",
-  "korean": "HIE-NDT-ET-P11 절차서에 따른 NDE 요원 요구사항이 기술된 문서는?",
-  "options": [],
-  "answer": "HIE-QP-E01"
-},
-{
-  "id": 15,
-  "question": "In the procedure HIE-NDT-ET-P11, what is the nominal probe speed during examination?",
-  "korean": "HIE-NDT-ET-P11 절차서에서 시험 중 일반적인 프로브 속도는?",
-  "options": [],
-  "answer": "100 ~ 500 mm/sec"
-},
-{
-  "id": 16,
-  "question": "In ASME Sec. V Art.17, How much set the phase angle for support plate of reference tube on system setting and calibration?",
-  "korean": "ASME Sec.V Art.17 시스템 설정 및 교정 시 튜브 지지판 대비 위상각은 얼마로 설정하는가?",
-  "options": [
-    "40°",
-    "90°",
-    "180°",
-    "0°"
-  ],
-  "answer": "D"
-},
-{
-  "id": 17,
-  "question": "In ASME Sec. V Art.17, What is not necessarily requirements to be included in the test report?",
-  "korean": "ASME Sec.V Art.17 검사 보고서에 반드시 포함되어야 하는 사항이 아닌 것은?",
-  "options": [
-    "Owner, location, type, serial number, and identification of component examined",
-    "Size, wall thickness, material type, and configuration of installed tubes",
-    "Tube numbering system",
-    "Certificate level and certificate issue date of inspector"
-  ],
-  "answer": "D"
-},
-{
-  "id": 18,
-  "question": "Separate each signal in the following voltage plane display (ASME Sec.V Art.17 Fig. T-1763.1(b)).",
-  "korean": "다음 Voltage Plane Display에서 각 신호를 구분하시오.",
-  "options": [
-    "20% groove / Through hole / TSP",
-    "Through hole / TSP / 20% groove",
-    "TSP / 20% groove / Through hole",
-    "20% groove / TSP / Through hole"
-  ],
-  "answer": "A"
-},
-{
-  "id": 19,
-  "question": "The following figure shows the structure of a typical RFT probe. Fill in the blanks.",
-  "korean": "일반적인 RFT 탐촉자의 구성에서 빈 칸을 채우시오.",
-  "options": [],
-  "answer": "a) Exciter coil / b) Detector coil"
-},
-{
-  "id": 20,
-  "question": "What is the name of the equipment and software used for the RFT in our company?",
-  "korean": "우리 회사에서 RFT 검사에 사용되는 장비와 소프트웨어의 이름은 무엇인가?",
-  "options": [],
-  "answer": "MS-5800-R / Multi-View"
-}
-]
+      "answer": 3
+    },
+    {
+      "id": 11,
+      "question": "In the ASME Sec. V Art.17, what kind of discontinuities in pit reference tube?",
+      "korean": "ASME Sec.V Art.17에서 대비 튜브의 pit reference tube 불연속 종류는?",
+      "options": [
+        "100% through hole",
+        "50% flat bottom hole of tube wall from the OD",
+        "20° circumferential groove of tube wall from the OD",
+        "Both A & B",
+        "All of the above"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 12,
+      "question": "In ASME Sec. V Art.17, How much set the phase angle for through hole of reference tube on system setting and calibration?",
+      "korean": "ASME Sec.V Art.17 시스템 설정 및 교정 시 대비시편 관통홀의 위상각은 얼마로 설정하는가?",
+      "options": [
+        "40°",
+        "90°",
+        "180°",
+        "0°"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 13,
+      "question": "How much the minimum fill factor by the procedure HIE-NDT-ET-P11?",
+      "korean": "HIE-NDT-ET-P11 절차서에서 최소 충진율은?",
+      "options": [],
+      "answer": "Minimum 75%"
+    },
+    {
+      "id": 14,
+      "question": "Describe NDE personnel requirements in accordance with the procedure HIE-NDT-ET-P11.",
+      "korean": "HIE-NDT-ET-P11 절차서에 따른 NDE 요원 요구사항이 기술된 문서는?",
+      "options": [],
+      "answer": "HIE-QP-E01"
+    },
+    {
+      "id": 15,
+      "question": "In the procedure HIE-NDT-ET-P11, what is the nominal probe speed during examination?",
+      "korean": "HIE-NDT-ET-P11 절차서에서 시험 중 일반적인 프로브 속도는?",
+      "options": [],
+      "answer": "100 ~ 500 mm/sec"
+    },
+    {
+      "id": 16,
+      "question": "In ASME Sec. V Art.17, How much set the phase angle for support plate of reference tube on system setting and calibration?",
+      "korean": "ASME Sec.V Art.17 시스템 설정 및 교정 시 튜브 지지판 대비 위상각은 얼마로 설정하는가?",
+      "options": [
+        "40°",
+        "90°",
+        "180°",
+        "0°"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 17,
+      "question": "In ASME Sec. V Art.17, What is not necessarily requirements to be included in the test report?",
+      "korean": "ASME Sec.V Art.17 검사 보고서에 반드시 포함되어야 하는 사항이 아닌 것은?",
+      "options": [
+        "Owner, location, type, serial number, and identification of component examined",
+        "Size, wall thickness, material type, and configuration of installed tubes",
+        "Tube numbering system",
+        "Certificate level and certificate issue date of inspector"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 18,
+      "question": "Separate each signal in the following voltage plane display (ASME Sec.V Art.17 Fig. T-1763.1(b)).",
+      "korean": "다음 Voltage Plane Display에서 각 신호를 구분하시오.",
+      "options": [
+        "20% groove / Through hole / TSP",
+        "Through hole / TSP / 20% groove",
+        "TSP / 20% groove / Through hole",
+        "20% groove / TSP / Through hole"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 19,
+      "question": "The following figure shows the structure of a typical RFT probe. Fill in the blanks.",
+      "korean": "일반적인 RFT 탐촉자의 구성에서 빈 칸을 채우시오.",
+      "options": [],
+      "answer": "a) Exciter coil / b) Detector coil"
+    },
+    {
+      "id": 20,
+      "question": "What is the name of the equipment and software used for the RFT in our company?",
+      "korean": "우리 회사에서 RFT 검사에 사용되는 장비와 소프트웨어의 이름은 무엇인가?",
+      "options": [],
+      "answer": "MS-5800-R / Multi-View"
+    }
+  ]
 }

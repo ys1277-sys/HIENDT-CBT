@@ -14,7 +14,7 @@
         "200 Lux",
         "150 Lux"
       ],
-      "answer": "B"
+      "answer": 1
     },
     {
       "id": 2,
@@ -24,7 +24,7 @@
         "Accept",
         "Reject"
       ],
-      "answer": "B"
+      "answer": 1
     },
     {
       "id": 3,
@@ -34,7 +34,7 @@
         "Accept",
         "Reject"
       ],
-      "answer": "B"
+      "answer": 1
     },
     {
       "id": 4,
@@ -46,7 +46,7 @@
         "Because developer is affected",
         "Because drying time increases"
       ],
-      "answer": "A"
+      "answer": 0
     },
     {
       "id": 5,
@@ -59,8 +59,8 @@
         "Wiping"
       ],
       "answer": [
-        "A",
-        "B"
+        0,
+        1
       ]
     },
     {
@@ -73,7 +73,7 @@
         "30 sec",
         "60 sec"
       ],
-      "answer": "D"
+      "answer": 3
     },
     {
       "id": 7,
@@ -85,7 +85,7 @@
         "10-60 min",
         "5-20 min"
       ],
-      "answer": "C"
+      "answer": 2
     },
     {
       "id": 8,
@@ -97,7 +97,7 @@
         "Surface crack",
         "Subsurface porosity"
       ],
-      "answer": "D"
+      "answer": 3
     },
     {
       "id": 9,
@@ -109,7 +109,7 @@
         "Human blood cells",
         "None of the above"
       ],
-      "answer": "B"
+      "answer": 1
     },
     {
       "id": 10,
@@ -119,174 +119,173 @@
         "Accept",
         "Reject"
       ],
-      "answer": "B"
+      "answer": 1
     },
-{
-  "id": 11,
-  "question": "When inspecting quality grade PSL2 products with a weld depth of 3/4 in.(19 mm) by PT, a round indication of 1/4in.(6mm) appeared. Is it acceptable?",
-  "korean": "용접부 깊이가 19mm인 PSL2 제품 PT 검사에서 1/4인치(6mm) 원형지시가 나타났다. 합격인가?",
-  "options": [
-    "Accept",
-    "Reject"
-  ],
-  "answer": "B"
-},
-{
-  "id": 12,
-  "question": "A 2in. thick weld with 2mm outside reinforcement is examined by liquid penetrant method according to ASME Sec.III NB-5000. Which is acceptable indication?",
-  "korean": "두께 2인치, 외부 용접덧살 2mm인 용접부를 ASME Sec.III NB-5000에 따라 PT 검사할 때 합격 가능한 지시는?",
-  "options": [
-    "1/32in. long - crack",
-    "1/4in. dimension - rounded indication",
-    "2/16in. dimension - four rounded indications in a line separated by 1/16in.",
-    "1/32in. dimension - ten rounded indications in a line separated by 1/16in."
-  ],
-  "answer": "D"
-},
-{
-  "id": 13,
-  "question": "This procedure describes the Liquid penetrant testing for ______.",
-  "korean": "본 절차서는 ______을 위한 침투탐상 방법을 기술한다.",
-  "options": [
-    "Pressure vessel welding",
-    "Forging",
-    "Tubular Product",
-    "Casting"
-  ],
-  "answer": "C"
-},
-{
-  "id": 14,
-  "question": "Acceptance standard shall be used ______.",
-  "korean": "합격기준은 ______을 따른다.",
-  "options": [
-    "ASME Sec III NB 2500",
-    "ASME Sec III NB 5000",
-    "ASME Sec V Art.5",
-    "ASME Sec VIII Div.1"
-  ],
-  "answer": "A"
-},
-{
-  "id": 15,
-  "question": "Visible light at the surface of the part should be minimum ______.",
-  "korean": "제품 표면에서 빛의 세기는 최소 ______이다.",
-  "options": [
-    "800 Lux",
-    "1076 Lux",
-    "1500 Lux",
-    "2000 Lux"
-  ],
-  "answer": "B"
-},
-{
-  "id": 16,
-  "question": "The surface to be examined and all adjacent areas within at least ____ shall be dry and free of scale, grease, etc.",
-  "korean": "시험할 표면과 인접 지역은 최소 ____까지 스케일, 그리스 등이 없어야 한다.",
-  "options": [
-    "0 inch",
-    "1 inch",
-    "1.5 inch",
-    "2 inch"
-  ],
-  "answer": "B"
-},
-{
-  "id": 17,
-  "question": "The minimum penetration time shall be ____ for temperature range 10~50℃.",
-  "korean": "온도범위 10~50℃에서 최소 침투 시간은?",
-  "options": [
-    "1 min",
-    "5 min",
-    "10 min",
-    "20 min"
-  ],
-  "answer": "C"
-},
-{
-  "id": 18,
-  "question": "Rounded indications in weld: (3ea) 1/16in., (3ea) 7/64in., and (4ea) 1/8in. indications separated by 1/16in. Is the weld acceptable?",
-  "korean": "용접부에 원형지시가 나타났다. 이 용접부는 합격인가?",
-  "options": [
-    "Accept",
-    "Reject"
-  ],
-  "answer": "B"
-},
-{
-  "id": 19,
-  "question": "A length 1/8in.(3mm) rounded indication is found. Is this indication acceptable?",
-  "korean": "길이 1/8인치(3mm)의 원형지시는 합격인가?",
-  "options": [
-    "Accept",
-    "Reject"
-  ],
-  "answer": "A"
-},
-{
-  "id": 20,
-  "question": "Only 5/32\" rounded indication was found on forgings of which thickness is 1\". Is it acceptable?",
-  "korean": "두께 1인치 단조품에서 5/32인치 원형지시가 발견되었다. 합격인가?",
-  "options": [
-    "Accept",
-    "Reject"
-  ],
-  "answer": "A"
-}
-,
-{
-  "id": 21,
-  "question": "When doing liquid penetrant examination on weld edge preparation, 3/4\" laminar type discontinuities are found. Is this acceptable?",
-  "korean": "용접 개선 부위 PT 검사에서 3/4인치 라미나 형태 불연속이 발견되었다. 합격인가?",
-  "options": [
-    "Accept",
-    "Reject"
-  ],
-  "answer": "A"
-},
-{
-  "id": 22,
-  "question": "In Fig.1, A is acceptable. (Ref.: Sect.III subsect.NB)",
-  "korean": "그림 1에서 결함 A는 합격이다.",
-  "options": [
-    "True",
-    "False"
-  ],
-  "answer": "B"
-},
-{
-  "id": 23,
-  "question": "Which of the following discontinuities could be classified as a servicing discontinuity?",
-  "korean": "다음 불연속 중 가동 중 결함으로 분류할 수 있는 것은?",
-  "options": [
-    "Fatigue crack",
-    "Porosity",
-    "Machining tear",
-    "Lap"
-  ],
-  "answer": "A"
-},
-{
-  "id": 24,
-  "question": "For precleaning, this procedure states;",
-  "korean": "전처리에 대해 올바른 것은?",
-  "options": [
-    "Acetone shall be used",
-    "1 inch adjacent to the area to be examined shall be clean",
-    "1/2 inch adjacent to the area to be examined shall be clean",
-    "A light coating of oil on the test surface is acceptable"
-  ],
-  "answer": "B"
-},
-{
-  "id": 25,
-  "question": "Surface preparation before liquid penetrant examination shot or sand blasting can be used.",
-  "korean": "액체침투탐상 검사 전 표면처리로 숏 또는 샌드 블라스팅을 사용할 수 있다.",
-  "options": [
-    "True",
-    "False"
-  ],
-  "answer": "B"
-}
+    {
+      "id": 11,
+      "question": "When inspecting quality grade PSL2 products with a weld depth of 3/4 in.(19 mm) by PT, a round indication of 1/4in.(6mm) appeared. Is it acceptable?",
+      "korean": "용접부 깊이가 19mm인 PSL2 제품 PT 검사에서 1/4인치(6mm) 원형지시가 나타났다. 합격인가?",
+      "options": [
+        "Accept",
+        "Reject"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 12,
+      "question": "A 2in. thick weld with 2mm outside reinforcement is examined by liquid penetrant method according to ASME Sec.III NB-5000. Which is acceptable indication?",
+      "korean": "두께 2인치, 외부 용접덧살 2mm인 용접부를 ASME Sec.III NB-5000에 따라 PT 검사할 때 합격 가능한 지시는?",
+      "options": [
+        "1/32in. long - crack",
+        "1/4in. dimension - rounded indication",
+        "2/16in. dimension - four rounded indications in a line separated by 1/16in.",
+        "1/32in. dimension - ten rounded indications in a line separated by 1/16in."
+      ],
+      "answer": 3
+    },
+    {
+      "id": 13,
+      "question": "This procedure describes the Liquid penetrant testing for ______.",
+      "korean": "본 절차서는 ______을 위한 침투탐상 방법을 기술한다.",
+      "options": [
+        "Pressure vessel welding",
+        "Forging",
+        "Tubular Product",
+        "Casting"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 14,
+      "question": "Acceptance standard shall be used ______.",
+      "korean": "합격기준은 ______을 따른다.",
+      "options": [
+        "ASME Sec III NB 2500",
+        "ASME Sec III NB 5000",
+        "ASME Sec V Art.5",
+        "ASME Sec VIII Div.1"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 15,
+      "question": "Visible light at the surface of the part should be minimum ______.",
+      "korean": "제품 표면에서 빛의 세기는 최소 ______이다.",
+      "options": [
+        "800 Lux",
+        "1076 Lux",
+        "1500 Lux",
+        "2000 Lux"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 16,
+      "question": "The surface to be examined and all adjacent areas within at least ____ shall be dry and free of scale, grease, etc.",
+      "korean": "시험할 표면과 인접 지역은 최소 ____까지 스케일, 그리스 등이 없어야 한다.",
+      "options": [
+        "0 inch",
+        "1 inch",
+        "1.5 inch",
+        "2 inch"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 17,
+      "question": "The minimum penetration time shall be ____ for temperature range 10~50℃.",
+      "korean": "온도범위 10~50℃에서 최소 침투 시간은?",
+      "options": [
+        "1 min",
+        "5 min",
+        "10 min",
+        "20 min"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 18,
+      "question": "Rounded indications in weld: (3ea) 1/16in., (3ea) 7/64in., and (4ea) 1/8in. indications separated by 1/16in. Is the weld acceptable?",
+      "korean": "용접부에 원형지시가 나타났다. 이 용접부는 합격인가?",
+      "options": [
+        "Accept",
+        "Reject"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 19,
+      "question": "A length 1/8in.(3mm) rounded indication is found. Is this indication acceptable?",
+      "korean": "길이 1/8인치(3mm)의 원형지시는 합격인가?",
+      "options": [
+        "Accept",
+        "Reject"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 20,
+      "question": "Only 5/32\" rounded indication was found on forgings of which thickness is 1\". Is it acceptable?",
+      "korean": "두께 1인치 단조품에서 5/32인치 원형지시가 발견되었다. 합격인가?",
+      "options": [
+        "Accept",
+        "Reject"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 21,
+      "question": "When doing liquid penetrant examination on weld edge preparation, 3/4\" laminar type discontinuities are found. Is this acceptable?",
+      "korean": "용접 개선 부위 PT 검사에서 3/4인치 라미나 형태 불연속이 발견되었다. 합격인가?",
+      "options": [
+        "Accept",
+        "Reject"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 22,
+      "question": "In Fig.1, A is acceptable. (Ref.: Sect.III subsect.NB)",
+      "korean": "그림 1에서 결함 A는 합격이다.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 23,
+      "question": "Which of the following discontinuities could be classified as a servicing discontinuity?",
+      "korean": "다음 불연속 중 가동 중 결함으로 분류할 수 있는 것은?",
+      "options": [
+        "Fatigue crack",
+        "Porosity",
+        "Machining tear",
+        "Lap"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 24,
+      "question": "For precleaning, this procedure states;",
+      "korean": "전처리에 대해 올바른 것은?",
+      "options": [
+        "Acetone shall be used",
+        "1 inch adjacent to the area to be examined shall be clean",
+        "1/2 inch adjacent to the area to be examined shall be clean",
+        "A light coating of oil on the test surface is acceptable"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 25,
+      "question": "Surface preparation before liquid penetrant examination shot or sand blasting can be used.",
+      "korean": "액체침투탐상 검사 전 표면처리로 숏 또는 샌드 블라스팅을 사용할 수 있다.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1
+    }
   ]
 }

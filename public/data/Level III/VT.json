@@ -13,7 +13,7 @@
       "4 feet",
       "24 inches"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": ""
   },
   {
@@ -30,7 +30,7 @@
       "45 degrees",
       "30 degrees"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": ""
   },
   {
@@ -47,7 +47,7 @@
       "a fine line 1/32 in. or less in width",
       "none of the above"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": ""
   },
   {
@@ -64,7 +64,7 @@
       "2-1/2 times",
       "equivalent to"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": ""
   },
   {
@@ -81,7 +81,7 @@
       "examiner's name and level of certification",
       "all of the above"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": ""
   },
   {
@@ -98,7 +98,7 @@
       "qualify a remote visual equipment",
       "demonstrate a visual examination procedure"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": ""
   },
   {
@@ -115,7 +115,7 @@
       "NB-5300",
       "NG-5300"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": ""
   },
   {
@@ -132,7 +132,11 @@
       "weld reinforcement",
       "undercut length"
     ],
-    "answer": [1,2,4],
+    "answer": [
+      0,
+      1,
+      3
+    ],
     "explanation": ""
   },
   {
@@ -149,7 +153,7 @@
       "1/16 inch",
       "None of above"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": ""
   },
   {
@@ -166,7 +170,7 @@
       "1/32 inch",
       "1/4 inch"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -183,7 +187,7 @@
       "A rounded indication of 1/4 inch diameter",
       "Weld undercut 1/8 inch deep"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": ""
   },
   {
@@ -200,7 +204,7 @@
       "Convexity",
       "Fillet weld width"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": ""
   },
   {
@@ -217,7 +221,7 @@
       "A diopter is used to adjust difference in eyesight",
       "The fibers are generally about 30 microns each in diameter"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": ""
   },
   {
@@ -234,7 +238,7 @@
       "If employee has not worked in the method within past six months",
       "When employee leaves the employer where certified"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": ""
   },
   {
@@ -251,7 +255,7 @@
       "Shall be reproduced verbatim from SNT-TC-1A",
       "Shall be submitted to ASNT for approval"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -268,7 +272,7 @@
       "May waive examination",
       "May waive written examination if oral examination is given"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -285,7 +289,7 @@
       "Employer",
       "QA Manager"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": ""
   },
   {
@@ -302,7 +306,7 @@
       "Verifying discontinuities on casting surfaces",
       "Verifying valve body markings"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -319,7 +323,7 @@
       "Creep",
       "Overheating"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": ""
   },
   {
@@ -336,7 +340,7 @@
       "ASME Section XI",
       "ASME Section V"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": ""
   },
   {
@@ -353,7 +357,7 @@
       "1/2 inch",
       "one weld bead width"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": ""
   },
   {
@@ -370,7 +374,7 @@
       "Waviness",
       "Profile"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -387,7 +391,7 @@
       "Allow a sound root weld to be made",
       "None of the above"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": ""
   },
   {
@@ -404,7 +408,7 @@
       "The ingot",
       "A casting"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": ""
   },
   {
@@ -421,7 +425,7 @@
       "Inadequate penetration",
       "Forging laps"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": ""
   },
   {
@@ -438,7 +442,7 @@
       "1/8 inch",
       "3/16 inch"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -455,7 +459,7 @@
       "1/4 inch",
       "5/16 inch"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": ""
   },
   {
@@ -472,7 +476,7 @@
       "48 hours",
       "72 hours"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": ""
   },
   {
@@ -489,7 +493,7 @@
       "3/16 inch",
       "1/4 inch"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": ""
   },
   {
@@ -506,7 +510,7 @@
       "3/16 inch",
       "1/4 inch"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": ""
   },
   {
@@ -523,7 +527,7 @@
       "The general, specific, and practical",
       "Only the general"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": ""
   }
 ]

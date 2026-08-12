@@ -248,6 +248,172 @@ button:disabled{
 
 
 
+/* 주관식 입력 */
+
+.answer-text{
+
+  display:flex;
+
+  flex-direction:column;
+
+  gap:8px;
+
+}
+
+
+.answer-text label{
+
+  font-size:14px;
+
+  color:#555;
+
+}
+
+
+.answer-text textarea{
+
+  width:100%;
+
+  padding:12px;
+
+  font-size:16px;
+
+  font-family:inherit;
+
+  line-height:1.5;
+
+  border:1px solid #ccc;
+
+  border-radius:6px;
+
+  resize:vertical;
+
+}
+
+
+.answer-text textarea:focus{
+
+  outline:none;
+
+  border-color:#3a6df0;
+
+  box-shadow:0 0 0 2px rgba(58,109,240,.15);
+
+}
+
+
+/* 복수정답 안내 */
+
+.answer-hint{
+
+  margin-top:12px;
+
+  padding:8px 12px;
+
+  font-size:13px;
+
+  color:#8a5a00;
+
+  background:#fff8e6;
+
+  border:1px solid #f0dca8;
+
+  border-radius:6px;
+
+}
+
+
+/* 답안 표기란의 주관식 표시 */
+
+.option-written{
+
+  padding:2px 10px;
+
+  font-size:12px;
+
+  color:#666;
+
+  background:#fff;
+
+  border:1px solid #ccc;
+
+  border-radius:10px;
+
+  cursor:pointer;
+
+}
+
+
+.option-written.selected{
+
+  color:#fff;
+
+  background:#3a6df0;
+
+  border-color:#3a6df0;
+
+}
+
+
+/* 결과 화면 안내문 */
+
+.result-note{
+
+  margin-top:12px;
+
+  padding:10px 12px;
+
+  font-size:13px;
+
+  color:#8a5a00;
+
+  background:#fff8e6;
+
+  border:1px solid #f0dca8;
+
+  border-radius:6px;
+
+  text-align:left;
+
+}
+
+
+
+/* 문항 도해(그림) — 시험 화면 */
+
+.question-image{
+
+  margin-top:14px;
+
+  text-align:center;
+
+}
+
+
+.question-image img{
+
+  display:block;
+
+  margin:0 auto 8px auto;
+
+  max-width:100%;
+
+  max-height:340px;
+
+  height:auto;
+
+  object-fit:contain;
+
+  background:#fff;
+
+  border:1px solid #e2e4e8;
+
+  border-radius:6px;
+
+}
+
+
+
 .answer{
 
   display:flex;
@@ -339,13 +505,20 @@ button:disabled{
 
 /* PRINT */
 
+/*
+  ===========================================================
+  구 인쇄 스타일(visibility 기반) 제거됨.
 
-.print-area{
+  이 방식은 인쇄 시 .home-container / .admin-wrap / .cbt-page
+  등을 visibility:hidden 으로만 숨겨서 레이아웃 공간을 그대로
+  차지하게 만들었고, 그 결과 실제 인쇄 내용(.print-area) 앞에
+  빈 페이지가 여러 장 생기는 원인이 되었음.
 
-  display:none;
-
-}
-
+  실제 인쇄 처리는 각 컴포넌트가 개별로 import하는
+  print.css (display:none/block 기반 + 배경 화면 컨테이너
+  display:none 처리)가 전담함.
+  ===========================================================
+*/
 
 
 .print-page,
@@ -459,56 +632,6 @@ button:disabled{
   color:#555;
 
   font-size:13px;
-
-}
-
-
-
-/* PRINT */
-
-
-@media print{
-
-
-body *{
-
-  visibility:hidden;
-
-}
-
-
-
-.print-area,
-.print-area *{
-
-  visibility:visible;
-
-}
-
-
-
-.print-area{
-
-  display:block!important;
-
-  position:absolute;
-
-  left:0;
-
-  top:0;
-
-  width:100%;
-
-}
-
-
-
-button{
-
-  display:none!important;
-
-}
-
 
 }
 

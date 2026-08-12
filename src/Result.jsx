@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import PrintExam from "./PrintExam.jsx";
+import { isCorrect, questionType, TEXT } from "./grading.js";
 
 
 function Result({
@@ -28,27 +29,30 @@ function Result({
   questions.forEach((q,index)=>{
 
 
-    const userAnswer =
-      Number(answers[index]);
-
-
-    const correctAnswer =
-      Number(q.answer);
+    /*
+     * 채점 규칙은 grading.js 한 곳에만 둔다.
+     * 단일선택 / 복수선택 / 주관식을 모두 여기서 처리한다.
+     */
+    const ok =
+      isCorrect(q, answers[index]);
 
 
 
     console.log(
       "채점확인",
       index + 1,
+      "유형:",
+      questionType(q),
       "선택:",
-      userAnswer,
+      answers[index],
       "정답:",
-      correctAnswer
+      q.answer,
+      ok ? "O" : "X"
     );
 
 
 
-    if(userAnswer === correctAnswer){
+    if(ok){
 
       correct++;
 
@@ -60,6 +64,12 @@ function Result({
 
 
   const total = questions.length;
+
+
+  const textCount =
+    questions.filter(
+      q => questionType(q) === TEXT
+    ).length;
 
 
 
@@ -345,6 +355,25 @@ function Result({
           <p>
             정답 : {correct} / {total}
           </p>
+
+
+
+          {
+            /*
+             * 주관식은 입력한 글자를 정답과 맞춰 자동 채점한다.
+             * 표현이 조금만 달라도 오답으로 떨어지므로 관리자 확인이 필요하다.
+             */
+            textCount > 0 && (
+
+              <p className="result-note">
+
+                주관식 {textCount}문항이 포함되어 있습니다.
+                자동 채점 결과가 실제와 다를 수 있으니 관리자 확인이 필요합니다.
+
+              </p>
+
+            )
+          }
 
 
 

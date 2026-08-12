@@ -1,379 +1,474 @@
 [
   {
-    "id":1,
-    "level":"Level II",
-    "method":"VT",
-    "subject":"Specific",
-    "type":"A",
-    "question":"What is correct and minimum illuminating requirement for VT in case of general examination?",
-    "korean":"일반적인 검사 경우, 육안 검사의 최소 밝기는?",
-    "options":["1000Lx","1500Lx","500Lx","800Lx"],
-    "answer":"A",
-    "source":"ASME B&PV Code Sec.V 2023"
+    "id": 1,
+    "level": "Level II",
+    "method": "VT",
+    "subject": "Specific",
+    "type": "A",
+    "question": "What is correct and minimum illuminating requirement for VT in case of general examination?",
+    "korean": "일반적인 검사 경우, 육안 검사의 최소 밝기는?",
+    "options": [
+      "1000Lx",
+      "1500Lx",
+      "500Lx",
+      "800Lx"
+    ],
+    "answer": 0,
+    "source": "ASME B&PV Code Sec.V 2023"
   },
   {
-    "id":2,
-    "level":"Level II",
-    "method":"VT",
-    "subject":"Specific",
-    "type":"A",
-    "question":"Visual examination personnel shall have an annual visual examination assure natural or corrected near distance acuity such that they are capable of reading standard ____ letter on standard Jaeger test type charts.",
-    "korean":"육안 검사원은 Jaeger chart 몇 번을 읽을 수 있어야 하는가?",
-    "options":["J-1","J-2","J-3","J-4"],
-    "answer":"A",
-    "source":"ASME B&PV Code Sec.V"
+    "id": 2,
+    "level": "Level II",
+    "method": "VT",
+    "subject": "Specific",
+    "type": "A",
+    "question": "Visual examination personnel shall have an annual visual examination assure natural or corrected near distance acuity such that they are capable of reading standard ____ letter on standard Jaeger test type charts.",
+    "korean": "육안 검사원은 Jaeger chart 몇 번을 읽을 수 있어야 하는가?",
+    "options": [
+      "J-1",
+      "J-2",
+      "J-3",
+      "J-4"
+    ],
+    "answer": 0,
+    "source": "ASME B&PV Code Sec.V"
   },
   {
-    "id":3,
-    "level":"Level II",
-    "method":"VT",
-    "subject":"Specific",
-    "type":"A",
-    "question":"Remote visual examination methods shall have a resolution capability at least ____ that obtained by direct visual methods.",
-    "korean":"원격 육안검사의 분해능력은 직접 육안검사보다 최소 몇 배인가?",
-    "options":["2 times","5 percent","2-1/2 times","Equivalent to"],
-    "answer":"D",
-    "source":"ASME B&PV Code Sec.V"
+    "id": 3,
+    "level": "Level II",
+    "method": "VT",
+    "subject": "Specific",
+    "type": "A",
+    "question": "Remote visual examination methods shall have a resolution capability at least ____ that obtained by direct visual methods.",
+    "korean": "원격 육안검사의 분해능력은 직접 육안검사보다 최소 몇 배인가?",
+    "options": [
+      "2 times",
+      "5 percent",
+      "2-1/2 times",
+      "Equivalent to"
+    ],
+    "answer": 3,
+    "source": "ASME B&PV Code Sec.V"
   },
   {
-    "id":4,
-    "level":"Level II",
-    "method":"VT",
-    "subject":"Specific",
-    "type":"A",
-    "question":"For direct visual examination, the angle of vision from the surface being examined should not be less than:",
-    "korean":"직접 육안검사 시 시선 각도는?",
-    "options":["90 degrees","20 degrees","45 degrees","30 degrees"],
-    "answer":"D"
+    "id": 4,
+    "level": "Level II",
+    "method": "VT",
+    "subject": "Specific",
+    "type": "A",
+    "question": "For direct visual examination, the angle of vision from the surface being examined should not be less than:",
+    "korean": "직접 육안검사 시 시선 각도는?",
+    "options": [
+      "90 degrees",
+      "20 degrees",
+      "45 degrees",
+      "30 degrees"
+    ],
+    "answer": 3
   },
   {
-    "id":5,
-    "level":"Level II",
-    "method":"VT",
-    "subject":"Specific",
-    "type":"A",
-    "question":"For direct visual examination, the eye should be placed within:",
-    "korean":"직접 육안검사 시 눈과 검사면의 거리는?",
-    "options":["36 inches","10 inches","4 feet","24 inches"],
-    "answer":"D"
+    "id": 5,
+    "level": "Level II",
+    "method": "VT",
+    "subject": "Specific",
+    "type": "A",
+    "question": "For direct visual examination, the eye should be placed within:",
+    "korean": "직접 육안검사 시 눈과 검사면의 거리는?",
+    "options": [
+      "36 inches",
+      "10 inches",
+      "4 feet",
+      "24 inches"
+    ],
+    "answer": 3
   },
   {
-    "id":6,
-    "level":"Level II",
-    "method":"VT",
-    "subject":"Specific",
-    "type":"A",
-    "question":"Which of the following should be noted on the examination report of a surface visual examination?",
-    "korean":"표면 육안검사 시험기록에 포함되어야 하는 사항은?",
-    "options":[
+    "id": 6,
+    "level": "Level II",
+    "method": "VT",
+    "subject": "Specific",
+    "type": "A",
+    "question": "Which of the following should be noted on the examination report of a surface visual examination?",
+    "korean": "표면 육안검사 시험기록에 포함되어야 하는 사항은?",
+    "options": [
       "Procedure used",
       "Equipment used",
       "Examiner name and certification level",
       "All of the above"
     ],
-    "answer":"D"
+    "answer": 3
   },
   {
-    "id":7,
-    "level":"Level II",
-    "method":"VT",
-    "subject":"Specific",
-    "type":"A",
-    "question":"Which statement related to fiberscope is not true?",
-    "korean":"파이버스코프와 관계된 내용 중 사실이 아닌 것은?",
-    "options":[
+    "id": 7,
+    "level": "Level II",
+    "method": "VT",
+    "subject": "Specific",
+    "type": "A",
+    "question": "Which statement related to fiberscope is not true?",
+    "korean": "파이버스코프와 관계된 내용 중 사실이 아닌 것은?",
+    "options": [
       "Image guide is a coherent bundle",
       "Light guide is a coherent bundle",
       "A diopter adjusts eyesight difference",
       "Fibers are generally about 30 microns each"
     ],
-    "answer":"B"
+    "answer": 1
   },
   {
-    "id":8,
-    "level":"Level II",
-    "method":"VT",
-    "subject":"Specific",
-    "type":"A",
-    "question":"Which surface texture feature may be felt with the fingernail?",
-    "korean":"손톱으로 느낄 수 있는 표면 조직 특성은?",
-    "options":["Roughness","Surface flaws","Waviness","Profile"],
-    "answer":"A"
+    "id": 8,
+    "level": "Level II",
+    "method": "VT",
+    "subject": "Specific",
+    "type": "A",
+    "question": "Which surface texture feature may be felt with the fingernail?",
+    "korean": "손톱으로 느낄 수 있는 표면 조직 특성은?",
+    "options": [
+      "Roughness",
+      "Surface flaws",
+      "Waviness",
+      "Profile"
+    ],
+    "answer": 0
   },
   {
-    "id":9,
-    "level":"Level II",
-    "method":"VT",
-    "subject":"Specific",
-    "type":"A",
-    "question":"What are proper equipment for remote visual examination?",
-    "korean":"원격 육안검사를 위한 적당한 장비는?",
-    "options":["Mirror","Borescope","Telescopes","All of the above"],
-    "answer":"D"
+    "id": 9,
+    "level": "Level II",
+    "method": "VT",
+    "subject": "Specific",
+    "type": "A",
+    "question": "What are proper equipment for remote visual examination?",
+    "korean": "원격 육안검사를 위한 적당한 장비는?",
+    "options": [
+      "Mirror",
+      "Borescope",
+      "Telescopes",
+      "All of the above"
+    ],
+    "answer": 3
   },
   {
-    "id":10,
-    "level":"Level II",
-    "method":"VT",
-    "subject":"Specific",
-    "type":"A",
-    "question":"A standard commercially available weld fillet gage may be used to verify all the following features except:",
-    "korean":"필렛 용접 게이지로 확인할 수 없는 것은?",
-    "options":["Concavity","Leg size","Convexity","Fillet weld width"],
-    "answer":"C"
+    "id": 10,
+    "level": "Level II",
+    "method": "VT",
+    "subject": "Specific",
+    "type": "A",
+    "question": "A standard commercially available weld fillet gage may be used to verify all the following features except:",
+    "korean": "필렛 용접 게이지로 확인할 수 없는 것은?",
+    "options": [
+      "Concavity",
+      "Leg size",
+      "Convexity",
+      "Fillet weld width"
+    ],
+    "answer": 2
   },
   {
-    "id":11,
-    "level":"Level II",
-    "method":"VT",
-    "subject":"Specific",
-    "type":"A",
-    "question":"Translucent visual examination is a supplement of visual examination.",
-    "korean":"반투명 육안 검사는 어떤 육안 검사의 보조인가?",
-    "options":["Direct","Remote","Nothing in the above","All of the above"],
-    "answer":"D",
-    "source":"ASME B&PV Code Sec.V"
+    "id": 11,
+    "level": "Level II",
+    "method": "VT",
+    "subject": "Specific",
+    "type": "A",
+    "question": "Translucent visual examination is a supplement of visual examination.",
+    "korean": "반투명 육안 검사는 어떤 육안 검사의 보조인가?",
+    "options": [
+      "Direct",
+      "Remote",
+      "Nothing in the above",
+      "All of the above"
+    ],
+    "answer": 3,
+    "source": "ASME B&PV Code Sec.V"
   },
   {
-    "id":12,
-    "level":"Level II",
-    "method":"VT",
-    "subject":"Specific",
-    "type":"A",
-    "question":"The control and administration of NDT personnel training, examination and certification:",
-    "korean":"NDT 개인 훈련, 시험 및 인증 관리 체계는?",
-    "options":[
+    "id": 12,
+    "level": "Level II",
+    "method": "VT",
+    "subject": "Specific",
+    "type": "A",
+    "question": "The control and administration of NDT personnel training, examination and certification:",
+    "korean": "NDT 개인 훈련, 시험 및 인증 관리 체계는?",
+    "options": [
       "Shall reflect guidelines set forth in SNT-TC-1A",
       "Shall be prepared by quality control management",
       "Shall be reproduced verbatim from SNT-TC-1A",
       "Shall be submitted to ASNT for approval"
     ],
-    "answer":"D",
-    "source":"HIE-QP-E01"
+    "answer": 3,
+    "source": "HIE-QP-E01"
   },
   {
-    "id":13,
-    "level":"Level II",
-    "method":"VT",
-    "subject":"Specific",
-    "type":"A",
-    "question":"Which parts of Level I and Level II examinations shall be written?",
-    "korean":"Level I 및 II 시험 중 서면시험 항목은?",
-    "options":[
+    "id": 13,
+    "level": "Level II",
+    "method": "VT",
+    "subject": "Specific",
+    "type": "A",
+    "question": "Which parts of Level I and Level II examinations shall be written?",
+    "korean": "Level I 및 II 시험 중 서면시험 항목은?",
+    "options": [
       "General and specific",
       "General and practical",
       "General, specific and practical",
       "Only general"
     ],
-    "answer":"A",
-    "source":"HIE-QP-E01"
+    "answer": 0,
+    "source": "HIE-QP-E01"
   },
   {
-    "id":14,
-    "level":"Level II",
-    "method":"VT",
-    "subject":"Specific",
-    "type":"A",
-    "question":"All certification shall be automatically terminated:",
-    "korean":"모든 인증서가 자동 종료되는 경우는?",
-    "options":[
+    "id": 14,
+    "level": "Level II",
+    "method": "VT",
+    "subject": "Specific",
+    "type": "A",
+    "question": "All certification shall be automatically terminated:",
+    "korean": "모든 인증서가 자동 종료되는 경우는?",
+    "options": [
       "At the end of five years",
       "When employee becomes qualified in new method",
       "If employee has not worked within six months",
       "When employee leaves employer"
     ],
-    "answer":"D",
-    "source":"HIE-QP-E01"
+    "answer": 3,
+    "source": "HIE-QP-E01"
   },
   {
-    "id":15,
-    "level":"Level II",
-    "method":"VT",
-    "subject":"Specific",
-    "type":"A",
-    "question":"Chevrons may occur in:",
-    "korean":"갈매기 모양 결함이 발생될 수 있는 재료는?",
-    "options":["Plate","Weldments","Bar stock","Valve castings"],
-    "answer":"C"
+    "id": 15,
+    "level": "Level II",
+    "method": "VT",
+    "subject": "Specific",
+    "type": "A",
+    "question": "Chevrons may occur in:",
+    "korean": "갈매기 모양 결함이 발생될 수 있는 재료는?",
+    "options": [
+      "Plate",
+      "Weldments",
+      "Bar stock",
+      "Valve castings"
+    ],
+    "answer": 2
   },
   {
-    "id":16,
-    "level":"Level II",
-    "method":"VT",
-    "subject":"Specific",
-    "type":"A",
-    "question":"_____ is usually at the initiation or completion of welds.",
-    "korean":"용접 시작 또는 끝에서 발생하는 결함은?",
-    "options":["Crater cracks","Blowholes","Crack","Incomplete weld"],
-    "answer":"A"
+    "id": 16,
+    "level": "Level II",
+    "method": "VT",
+    "subject": "Specific",
+    "type": "A",
+    "question": "_____ is usually at the initiation or completion of welds.",
+    "korean": "용접 시작 또는 끝에서 발생하는 결함은?",
+    "options": [
+      "Crater cracks",
+      "Blowholes",
+      "Crack",
+      "Incomplete weld"
+    ],
+    "answer": 0
   },
   {
-    "id":17,
-    "level":"Level II",
-    "method":"VT",
-    "subject":"Specific",
-    "type":"A",
-    "question":"Prior to visual examination, the examiner shall assure that the procedure has already been approved by:",
-    "korean":"육안 검사 전 검사자는 절차서 승인자를 확인해야 한다.",
-    "options":["Level III","Level II","Director","QA Manager"],
-    "answer":"A"
+    "id": 17,
+    "level": "Level II",
+    "method": "VT",
+    "subject": "Specific",
+    "type": "A",
+    "question": "Prior to visual examination, the examiner shall assure that the procedure has already been approved by:",
+    "korean": "육안 검사 전 검사자는 절차서 승인자를 확인해야 한다.",
+    "options": [
+      "Level III",
+      "Level II",
+      "Director",
+      "QA Manager"
+    ],
+    "answer": 0
   },
   {
-    "id":18,
-    "level":"Level II",
-    "method":"VT",
-    "subject":"Specific",
-    "type":"A",
-    "question":"Which is wrong requirement of ASME Sec.III NF-5210 class 1 support welds?",
-    "korean":"ASME Sec.III NF-5210 Class 1 support welds 요구사항 중 틀린 것은?",
-    "options":[
+    "id": 18,
+    "level": "Level II",
+    "method": "VT",
+    "subject": "Specific",
+    "type": "A",
+    "question": "Which is wrong requirement of ASME Sec.III NF-5210 class 1 support welds?",
+    "korean": "ASME Sec.III NF-5210 Class 1 support welds 요구사항 중 틀린 것은?",
+    "options": [
       "Full penetration butt welds examined by RT",
       "Exposed ends examined by PT",
       "All welded joints in secondary members examined by VT",
       "Other than full penetration butt welds examined by PT or MT"
     ],
-    "answer":"B",
-    "source":"ASME Sec.III NF-5210"
+    "answer": 1,
+    "source": "ASME Sec.III NF-5210"
   },
   {
-    "id":19,
-    "level":"Level II",
-    "method":"VT",
-    "subject":"Specific",
-    "type":"A",
-    "question":"Which is wrong requirement for acceptability of undercuts according to ASME Sec.III NF-5000?",
-    "korean":"언더컷 합격기준 중 틀린 것은?",
-    "options":["A","B","C","D"],
-    "answer":"C",
-    "source":"ASME Sec.III NF-5000"
+    "id": 19,
+    "level": "Level II",
+    "method": "VT",
+    "subject": "Specific",
+    "type": "A",
+    "question": "Which is wrong requirement for acceptability of undercuts according to ASME Sec.III NF-5000?",
+    "korean": "언더컷 합격기준 중 틀린 것은?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 2,
+    "source": "ASME Sec.III NF-5000"
   },
   {
-    "id":20,
-    "level":"Level II",
-    "method":"VT",
-    "subject":"Specific",
-    "type":"A",
-    "question":"Which is wrong acceptance standard of visual examination for fillet and groove welds according to ASME Sec.III NF-5000?",
-    "korean":"필렛 및 홈 용접부 육안검사 합격기준 중 틀린 것은?",
-    "options":["A","B","C","D"],
-    "answer":"B",
-    "source":"ASME Sec.III NF-5000"
+    "id": 20,
+    "level": "Level II",
+    "method": "VT",
+    "subject": "Specific",
+    "type": "A",
+    "question": "Which is wrong acceptance standard of visual examination for fillet and groove welds according to ASME Sec.III NF-5000?",
+    "korean": "필렛 및 홈 용접부 육안검사 합격기준 중 틀린 것은?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 1,
+    "source": "ASME Sec.III NF-5000"
   },
   {
-    "id":21,
-    "level":"Level II",
-    "method":"VT",
-    "subject":"Specific",
-    "type":"A",
-    "question":"When visual examination is performed in accordance with ASME Sec.III Div.1 Subsection NF-5200(2023Ed.), slag whose major surface dimension is ( ) in or less is irrelevant.",
-    "korean":"ASME Sec.III NF-5200에 따라 육안검사 시 주요 표면 치수가 ( ) 이하인 슬래그는 무관련 지시이다.",
-    "options":["1/32\"","1/8\"","1/16\"","1/4\""],
-    "answer":"B",
-    "source":"ASME Sec.III NF-5200"
+    "id": 21,
+    "level": "Level II",
+    "method": "VT",
+    "subject": "Specific",
+    "type": "A",
+    "question": "When visual examination is performed in accordance with ASME Sec.III Div.1 Subsection NF-5200(2023Ed.), slag whose major surface dimension is ( ) in or less is irrelevant.",
+    "korean": "ASME Sec.III NF-5200에 따라 육안검사 시 주요 표면 치수가 ( ) 이하인 슬래그는 무관련 지시이다.",
+    "options": [
+      "1/32\"",
+      "1/8\"",
+      "1/16\"",
+      "1/4\""
+    ],
+    "answer": 1,
+    "source": "ASME Sec.III NF-5200"
   },
   {
-    "id":22,
-    "level":"Level II",
-    "method":"VT",
-    "subject":"Specific",
-    "type":"A",
-    "question":"Which one of the following would not be rejectable for B&PV Code Sec.III Subsection NG welds?",
-    "korean":"B&PV Code Sec.III Subsection NG 용접부에서 불합격이 아닌 것은?",
-    "options":[
+    "id": 22,
+    "level": "Level II",
+    "method": "VT",
+    "subject": "Specific",
+    "type": "A",
+    "question": "Which one of the following would not be rejectable for B&PV Code Sec.III Subsection NG welds?",
+    "korean": "B&PV Code Sec.III Subsection NG 용접부에서 불합격이 아닌 것은?",
+    "options": [
       "A crack of 1/16 inch long",
       "Two 1/32 inch rounded indications separated by 1/16 inch",
       "A rounded indication of 1/4 inch diameter",
       "Weld undercut 1/8 inch deep"
     ],
-    "answer":"B",
-    "source":"ASME Sec.III NG"
+    "answer": 1,
+    "source": "ASME Sec.III NG"
   },
   {
-    "id":23,
-    "level":"Level II",
-    "method":"VT",
-    "subject":"Specific",
-    "type":"A",
-    "question":"Weld area examination shall include the weld and adjacent base metal for at least ( ) beyond each edge of the weld.",
-    "korean":"용접부 검사는 용접부 각 가장자리에서 최소 얼마 이상의 모재를 포함해야 하는가?",
-    "options":["One inch","One wall thickness","1/2 inch","One weld bead width"],
-    "answer":"A"
+    "id": 23,
+    "level": "Level II",
+    "method": "VT",
+    "subject": "Specific",
+    "type": "A",
+    "question": "Weld area examination shall include the weld and adjacent base metal for at least ( ) beyond each edge of the weld.",
+    "korean": "용접부 검사는 용접부 각 가장자리에서 최소 얼마 이상의 모재를 포함해야 하는가?",
+    "options": [
+      "One inch",
+      "One wall thickness",
+      "1/2 inch",
+      "One weld bead width"
+    ],
+    "answer": 0
   },
   {
-    "id":24,
-    "level":"Level II",
-    "method":"VT",
-    "subject":"Specific",
-    "type":"A",
-    "question":"The crack whose major surface dimension is ( ) or less is irrelevant.",
-    "korean":"주요 표면 치수가 ( ) 이하인 크랙은 비관련 지시이다.",
-    "options":["1/32 inch","1/8 inch","1/16 inch","None of above"],
-    "answer":"D"
+    "id": 24,
+    "level": "Level II",
+    "method": "VT",
+    "subject": "Specific",
+    "type": "A",
+    "question": "The crack whose major surface dimension is ( ) or less is irrelevant.",
+    "korean": "주요 표면 치수가 ( ) 이하인 크랙은 비관련 지시이다.",
+    "options": [
+      "1/32 inch",
+      "1/8 inch",
+      "1/16 inch",
+      "None of above"
+    ],
+    "answer": 3
   },
   {
-    "id":25,
-    "level":"Level II",
-    "method":"VT",
-    "subject":"Specific",
-    "type":"A",
-    "question":"Handheld magnifiers should fall into which range?",
-    "korean":"휴대용 확대경의 확대 범위는?",
-    "options":["2X to 4X","20X to 30X","10X to 20X","5X to 10X"],
-    "answer":"D"
+    "id": 25,
+    "level": "Level II",
+    "method": "VT",
+    "subject": "Specific",
+    "type": "A",
+    "question": "Handheld magnifiers should fall into which range?",
+    "korean": "휴대용 확대경의 확대 범위는?",
+    "options": [
+      "2X to 4X",
+      "20X to 30X",
+      "10X to 20X",
+      "5X to 10X"
+    ],
+    "answer": 3
   },
   {
-    "id":26,
-    "level":"Level II",
-    "method":"VT",
-    "subject":"Specific",
-    "type":"A",
-    "question":"In-service inspection of nuclear power plants is addressed in:",
-    "korean":"원전 가동중 검사가 지정된 규격은?",
-    "options":["ASME Sec.I","ASME Sec.V","ASME Sec.IX","ASME Sec.XI"],
-    "answer":"D"
+    "id": 26,
+    "level": "Level II",
+    "method": "VT",
+    "subject": "Specific",
+    "type": "A",
+    "question": "In-service inspection of nuclear power plants is addressed in:",
+    "korean": "원전 가동중 검사가 지정된 규격은?",
+    "options": [
+      "ASME Sec.I",
+      "ASME Sec.V",
+      "ASME Sec.IX",
+      "ASME Sec.XI"
+    ],
+    "answer": 3
   },
   {
-    "id":27,
-    "level":"Level II",
-    "method":"VT",
-    "subject":"Specific",
-    "type":"A",
-    "question":"At completed welds in piping, the maximum acceptable depth of undercut is:",
-    "korean":"완료된 배관 용접부의 최대 허용 언더컷 깊이는?",
-    "answer":"1/32 inch",
-    "source":"ASME B31.1 2024"
+    "id": 27,
+    "level": "Level II",
+    "method": "VT",
+    "subject": "Specific",
+    "type": "A",
+    "question": "At completed welds in piping, the maximum acceptable depth of undercut is:",
+    "korean": "완료된 배관 용접부의 최대 허용 언더컷 깊이는?",
+    "answer": "1/32 inch",
+    "source": "ASME B31.1 2024"
   },
   {
-    "id":28,
-    "level":"Level II",
-    "method":"VT",
-    "subject":"Specific",
-    "type":"A",
-    "question":"At 1 inch thickness of girth butt welded piping joint for 200℃ design temperature, the maximum acceptable height of reinforcement is:",
-    "korean":"설계온도 200℃, 두께 1인치 원주 맞대기 용접부 최대 허용 덧살 높이는?",
-    "answer":"3/16 inch",
-    "source":"ASME B31.1 2024"
+    "id": 28,
+    "level": "Level II",
+    "method": "VT",
+    "subject": "Specific",
+    "type": "A",
+    "question": "At 1 inch thickness of girth butt welded piping joint for 200℃ design temperature, the maximum acceptable height of reinforcement is:",
+    "korean": "설계온도 200℃, 두께 1인치 원주 맞대기 용접부 최대 허용 덧살 높이는?",
+    "answer": "3/16 inch",
+    "source": "ASME B31.1 2024"
   },
   {
-    "id":29,
-    "level":"Level II",
-    "method":"VT",
-    "subject":"Specific",
-    "type":"A",
-    "question":"For 2 inch thickness of welded joint, the maximum allowable offset in welded joint is:",
-    "korean":"두께 2인치 용접부 최대 허용 치우침은?",
-    "answer":"1/8 inch",
-    "source":"ASME Sec.VIII Div.2"
+    "id": 29,
+    "level": "Level II",
+    "method": "VT",
+    "subject": "Specific",
+    "type": "A",
+    "question": "For 2 inch thickness of welded joint, the maximum allowable offset in welded joint is:",
+    "korean": "두께 2인치 용접부 최대 허용 치우침은?",
+    "answer": "1/8 inch",
+    "source": "ASME Sec.VIII Div.2"
   },
   {
-    "id":30,
-    "level":"Level II",
-    "method":"VT",
-    "subject":"Specific",
-    "type":"A",
-    "question":"For 1.5 inch thickness of welded circumferential joint in pipe, the maximum acceptable reinforcement is:",
-    "korean":"두께 1.5인치 배관 원주 용접부 최대 허용 덧살 두께는?",
-    "answer":"5/32 inch",
-    "source":"ASME Sec.VIII Div.2"
+    "id": 30,
+    "level": "Level II",
+    "method": "VT",
+    "subject": "Specific",
+    "type": "A",
+    "question": "For 1.5 inch thickness of welded circumferential joint in pipe, the maximum acceptable reinforcement is:",
+    "korean": "두께 1.5인치 배관 원주 용접부 최대 허용 덧살 두께는?",
+    "answer": "5/32 inch",
+    "source": "ASME Sec.VIII Div.2"
   }
 ]

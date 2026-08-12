@@ -11,7 +11,7 @@
       "E. cosmic rays (우주선)",
       "F. X-rays (엑스선)"
     ],
-    "answer": "E",
+    "answer": 4,
     "subject": "VT",
     "level": "II",
     "category": "GENERAL"
@@ -26,10 +26,11 @@
       "C. 13.51 mm",
       "D. 13.61 mm"
     ],
-    "answer": "B",
+    "answer": 1,
     "subject": "VT",
     "level": "II",
-    "category": "GENERAL"
+    "category": "GENERAL",
+    "image": "VT_GENERAL_A_Q2.png"
   },
   {
     "id": 3,
@@ -41,7 +42,7 @@
       "C. 860 to 950 nm",
       "D. 50 to 150 nm"
     ],
-    "answer": "A",
+    "answer": 0,
     "subject": "VT",
     "level": "II",
     "category": "GENERAL"
@@ -56,7 +57,7 @@
       "C. endoscope (내시경)",
       "D. microscope (현미경)"
     ],
-    "answer": "A",
+    "answer": 0,
     "subject": "VT",
     "level": "II",
     "category": "GENERAL"
@@ -71,7 +72,7 @@
       "C. 1/a - 1/b = 1/f",
       "D. 1/a + 1/b = -1/f"
     ],
-    "answer": "B",
+    "answer": 1,
     "subject": "VT",
     "level": "II",
     "category": "GENERAL"
@@ -86,7 +87,7 @@
       "C. Most borescopes are equipped with light sources to illuminate the area being inspected.",
       "D. None of the above."
     ],
-    "answer": "D",
+    "answer": 3,
     "subject": "VT",
     "level": "II",
     "category": "GENERAL"
@@ -101,7 +102,7 @@
       "C. red (빨강)",
       "D. green (녹색)"
     ],
-    "answer": "C",
+    "answer": 2,
     "subject": "VT",
     "level": "II",
     "category": "GENERAL"
@@ -116,7 +117,7 @@
       "C. shape",
       "D. all of the above"
     ],
-    "answer": "D",
+    "answer": 3,
     "subject": "VT",
     "level": "II",
     "category": "GENERAL"
@@ -131,7 +132,7 @@
       "C. accessibility",
       "D. all of the above"
     ],
-    "answer": "D",
+    "answer": 3,
     "subject": "VT",
     "level": "II",
     "category": "GENERAL"
@@ -146,7 +147,7 @@
       "C. 45°",
       "D. 30°"
     ],
-    "answer": "D",
+    "answer": 3,
     "subject": "VT",
     "level": "II",
     "category": "GENERAL"
@@ -161,7 +162,7 @@
       "C. All defects will lead to failure if undetected discontinuities can be harmless.",
       "D. Discontinuities are external natural boundaries only defects are internal flaws originating from error in processing."
     ],
-    "answer": "A",
+    "answer": 0,
     "subject": "VT",
     "level": "II",
     "category": "GENERAL"
@@ -176,7 +177,7 @@
       "C. Extending the length of a measurement scale by the times.",
       "D. Measurements to be traced to the National Bureau of Standard."
     ],
-    "answer": "A",
+    "answer": 0,
     "subject": "VT",
     "level": "II",
     "category": "GENERAL"
@@ -191,7 +192,7 @@
       "C. saturation or purity (채도 또는 순도)",
       "D. brightness or contrast (휘도 또는 명암도)"
     ],
-    "answer": "D",
+    "answer": 3,
     "subject": "VT",
     "level": "II",
     "category": "GENERAL"
@@ -207,7 +208,7 @@
       "D. Dimensional or angular",
       "E. Microscopic or macroscopic"
     ],
-    "answer": "A",
+    "answer": 0,
     "subject": "VT",
     "level": "II",
     "category": "GENERAL"
@@ -223,7 +224,7 @@
       "D. Factors of safety",
       "E. Tolerance"
     ],
-    "answer": "E",
+    "answer": 4,
     "subject": "VT",
     "level": "II",
     "category": "GENERAL"
@@ -238,7 +239,7 @@
       "C. Assuring absence of faults or defects that could cause a part to fail",
       "D. All of the above"
     ],
-    "answer": "D",
+    "answer": 3,
     "subject": "VT",
     "level": "II",
     "category": "GENERAL"
@@ -254,7 +255,7 @@
       "D. Allotropic materials",
       "E. Engineering materials"
     ],
-    "answer": "E",
+    "answer": 4,
     "subject": "VT",
     "level": "II",
     "category": "GENERAL"
@@ -270,7 +271,7 @@
       "D. Electroplating",
       "E. All of the above"
     ],
-    "answer": "E",
+    "answer": 4,
     "subject": "VT",
     "level": "II",
     "category": "GENERAL"
@@ -284,7 +285,7 @@
       "B. Tight fit of butt joint, to preserve dimensions of weldment.",
       "C. Whatever gap comes up, if not obviously too big for welder to span."
     ],
-    "answer": "A",
+    "answer": 0,
     "subject": "VT",
     "level": "II",
     "category": "GENERAL"
@@ -299,7 +300,7 @@
       "C. Cast iron",
       "D. Magnesium"
     ],
-    "answer": "C",
+    "answer": 2,
     "subject": "VT",
     "level": "II",
     "category": "GENERAL"
@@ -314,7 +315,7 @@
       "C. The materials selected should be compatible with a NDT technique that can accurately evaluate the product.",
       "D. All of the above are important."
     ],
-    "answer": "D",
+    "answer": 3,
     "subject": "VT",
     "level": "II",
     "category": "GENERAL"
@@ -328,7 +329,7 @@
       "B. All originate in the base metal, not the weld.",
       "C. All run parallel to the surface."
     ],
-    "answer": "B",
+    "answer": 1,
     "subject": "VT",
     "level": "II",
     "category": "GENERAL"
@@ -342,7 +343,7 @@
       "B. Aligned microporosity",
       "C. Arc strikes"
     ],
-    "answer": "C",
+    "answer": 2,
     "subject": "VT",
     "level": "II",
     "category": "GENERAL"
@@ -357,7 +358,7 @@
       "C. Tensile stresses",
       "D. Elongation"
     ],
-    "answer": "B",
+    "answer": 1,
     "subject": "VT",
     "level": "II",
     "category": "GENERAL"
@@ -371,10 +372,11 @@
       "B. Underfill",
       "C. Inadequate joint penetration"
     ],
-    "answer": "B",
+    "answer": 1,
     "subject": "VT",
     "level": "II",
-    "category": "GENERAL"
+    "category": "GENERAL",
+    "image": "VT_GENERAL_A_Q25.png"
   },
   {
     "id": 26,
@@ -385,7 +387,7 @@
       "B. An crater crack",
       "C. Porosity"
     ],
-    "answer": "B",
+    "answer": 1,
     "subject": "VT",
     "level": "II",
     "category": "GENERAL"
@@ -399,7 +401,7 @@
       "B. An underbead crack",
       "C. An undercut"
     ],
-    "answer": "A",
+    "answer": 0,
     "subject": "VT",
     "level": "II",
     "category": "GENERAL"
@@ -413,10 +415,11 @@
       "B",
       "C"
     ],
-    "answer": "B",
+    "answer": 1,
     "subject": "VT",
     "level": "II",
-    "category": "GENERAL"
+    "category": "GENERAL",
+    "image": "VT_GENERAL_A_Q28.png"
   },
   {
     "id": 29,
@@ -428,10 +431,11 @@
       "C. B only",
       "D. None of the above"
     ],
-    "answer": "A",
+    "answer": 0,
     "subject": "VT",
     "level": "II",
-    "category": "GENERAL"
+    "category": "GENERAL",
+    "image": "VT_GENERAL_A_Q29.png"
   },
   {
     "id": 30,
@@ -446,11 +450,11 @@
       "F. Data to be tabulated, if any"
     ],
     "answer": [
-      "A",
-      "B",
-      "D",
-      "E",
-      "F"
+      0,
+      1,
+      3,
+      4,
+      5
     ],
     "subject": "VT",
     "level": "II",
@@ -466,7 +470,7 @@
       "C. Copper (구리)",
       "D. Nickel (니켈)"
     ],
-    "answer": "A",
+    "answer": 0,
     "subject": "VT",
     "level": "II",
     "category": "GENERAL"
@@ -481,7 +485,7 @@
       "C. lamination",
       "D. cold shut"
     ],
-    "answer": "D",
+    "answer": 3,
     "subject": "VT",
     "level": "II",
     "category": "GENERAL"
@@ -495,7 +499,7 @@
       "B. Incomplete fusion and melt-thru",
       "C. Delamination and laminar tears"
     ],
-    "answer": "B",
+    "answer": 1,
     "subject": "VT",
     "level": "II",
     "category": "GENERAL"
@@ -511,7 +515,7 @@
       "D. Iron (철)",
       "E. All of the above"
     ],
-    "answer": "E",
+    "answer": 4,
     "subject": "VT",
     "level": "II",
     "category": "GENERAL"
@@ -526,7 +530,7 @@
       "C. Core casting",
       "D. Centrifugal casting"
     ],
-    "answer": "D",
+    "answer": 3,
     "subject": "VT",
     "level": "II",
     "category": "GENERAL"
@@ -540,7 +544,7 @@
       "B. Inspection after the weld is completed",
       "C. Inspection of the repair process"
     ],
-    "answer": "B",
+    "answer": 1,
     "subject": "VT",
     "level": "II",
     "category": "GENERAL"
@@ -555,7 +559,7 @@
       "C. Improper selection of base material",
       "D. Excessive residual stresses"
     ],
-    "answer": "D",
+    "answer": 3,
     "subject": "VT",
     "level": "II",
     "category": "GENERAL"
@@ -571,7 +575,7 @@
       "D. Casting",
       "E. Pressing"
     ],
-    "answer": "B",
+    "answer": 1,
     "subject": "VT",
     "level": "II",
     "category": "GENERAL"
@@ -587,7 +591,7 @@
       "D. Dendritic grain growth",
       "E. Shrinkage"
     ],
-    "answer": "E",
+    "answer": 4,
     "subject": "VT",
     "level": "II",
     "category": "GENERAL"
@@ -602,9 +606,173 @@
       "C. Visual inspection",
       "D. Magnetic particle inspection"
     ],
-    "answer": "B",
+    "answer": 1,
     "subject": "VT",
     "level": "II",
     "category": "GENERAL"
+  },
+  {
+    "id": 41,
+    "question": "Soldering, brazing, and braze welding all:",
+    "question_kr": "황동, 청동 용접부 결합은 모두...",
+    "options": [
+      "A. Have the same strength characteristics\n\n (같은 응력 특성을 가진다.)",
+      "B. Utilize a process where only the filler metal is actually melted.\n\n (용가재 금속만 정확히 녹아야 하는 공정에서 사용한다.)",
+      "C. Are fusion-type weldments\n\n (용접 융합형태)",
+      "D. Utilize liquid penetrant inspection to reveal porosity within the joint.\n\n (액체침투탐상을 이용하면 이음매 내에서 기공이 보인다.)"
+    ],
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL",
+    "source": "VTG-llA(개정판)-2016.10.18",
+    "answer": 1
+  },
+  {
+    "id": 42,
+    "question": "In a casting, shrinkage occurs:",
+    "question_kr": "주조내에서 수축발생",
+    "options": [
+      "A. Only after the transformation from liquid to solid.\n\n (오직 액체로부터 고체로 변형후)",
+      "B. Only during the trasnformation from liquid to solid.\n\n (오직 액체로부터 고체로 변형하는 동안)",
+      "C. Before, during and after the transformation from liquid to solid.\n\n (액체로부터 고체로 변형하는 후, 동안, 전)",
+      "D. Only one the metal is in the liquid state\n\n (오직 액체상태에서)"
+    ],
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL",
+    "source": "VTG-llA(개정판)-2016.10.18",
+    "answer": 2
+  },
+  {
+    "id": 43,
+    "question": "Which of the following may cause a discontinuity even though its intended purpose is to prevent shrinkage cavities by absorbing theat from the molten metal in the center of the casting?",
+    "question_kr": "그것의 의도된 목적이 주물의 중심에서 융융금속으로 부터 열을 흡수해 수축공을 방지하는 것이지만 불연속을 일으킬 수도 있는 것은?",
+    "options": [
+      "A. Riser (반도)",
+      "B. Core (자심)",
+      "C. Internal chill (내부냉각)",
+      "D. Chaplet (화관)"
+    ],
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL",
+    "source": "VTG-llA(개정판)-2016.10.18",
+    "answer": 2
+  },
+  {
+    "id": 44,
+    "question": "Of the following, which is not a requirement for fusion bonding?",
+    "question_kr": "융합결합에 대한 요구조건이 아닌것은?",
+    "options": [
+      "A. Melting (녹는)",
+      "B. Atomic closeness (원자 밀폐)",
+      "C. Atomic cleanliness (원자 청결)",
+      "D. Pressure (압력)",
+      "E. Both B and C above (위의 B, C)"
+    ],
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL",
+    "source": "VTG-llA(개정판)-2016.10.18",
+    "answer": 3
+  },
+  {
+    "id": 45,
+    "question": "The principle purpose of pre-heat treatment and post heat treatment in welds is to:",
+    "question_kr": "전 열처리와 후 열처리의 근본적 목적은?",
+    "options": [
+      "A. Reduce the probability of formation of porosity in the weld.\n\n (용접부내에 기공의 형성의 확율감소)",
+      "B. Neutralize residual stresses and geometric distortion.\n\n (기하학적 뒤틀림과 잔여응력을 중화시킨다.)",
+      "C. Create grains in the weld that are the same as those in the base metal.\n\n (용접부내에 모재와 동일한 결정을 만든다.)",
+      "D. Cause the weld ripple and reinforcement to blend into the base metal.\n\n (염기성금속을 중화시키기 위해 잔물결모양과 모강 용접을 한다.)"
+    ],
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL",
+    "source": "VTG-llA(개정판)-2016.10.18",
+    "answer": 1
+  },
+  {
+    "id": 46,
+    "question": "Which of the following product forms is generally selected for high strength and controlled property, directionality:",
+    "question_kr": "높은 응력과 조절된 특성, 방향성을 위해 선택되는 제품 형태는 다음 중 어느것인가?",
+    "options": [
+      "A. Castings (주조)",
+      "B. Extrusions (압축성형)",
+      "C. Hot-rolled flat stock (롤러)",
+      "D. Forgings (단조)",
+      "E. None of the above (답 없음)"
+    ],
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL",
+    "source": "VTG-llA(개정판)-2016.10.18",
+    "answer": 3
+  },
+  {
+    "id": 47,
+    "question": "Most new development in sheet metal forming typically use non-conventional energy sources. What is a common feature of these processes?",
+    "question_kr": "독특한 금속형의 새로운것들은 신에너지 원료로 사용한다. 이들 절차에 공통점은 무엇인가?",
+    "options": [
+      "A. The use of lasers for controlled heat input\n\n (열 입력을 제어하기 위한 레이저 사용)",
+      "B. The use of cryogenics to super-cool the metal prior to forming\n\n (모형에 앞서 금속 과냉화를 위하여 저온화를 사용)",
+      "C. The use of energy sources that release large amounts of energy in a very short time.\n\n (매우 짧은 시간에 광대한 에너지를 투하하는 에너지원을 사용)",
+      "D. The use of large autoclaves that contain both the tooling and the metal being formed.\n\n (큰 고압솥 사용에는 압형과 금속형을 포함한다.)"
+    ],
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL",
+    "source": "VTG-llA(개정판)-2016.10.18",
+    "answer": 2
+  },
+  {
+    "id": 48,
+    "question": "A cutting operation that is commonly used to remove surface defects on castings and forging by \"scarfing\" is called:",
+    "question_kr": "주로 주조품과 단조품의 표면 결함을 “스카핑”으로 제거하는데 사용되는 절단 방법은?",
+    "options": [
+      "A. Friction cutting (마찰 컷팅)",
+      "B. Oxyacetylene cutting (산소와 아세틀린 혼합물 컷팅)",
+      "C. Ultrasonic cutting (초음파 컷팅)",
+      "D. Gas metal are cutting (가스 컷팅)",
+      "E. Plasma are cutting (플라즈마 컷팅)"
+    ],
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL",
+    "source": "VTG-llA(개정판)-2016.10.18",
+    "answer": 1
+  },
+  {
+    "id": 49,
+    "question": "Machines designed to hold a cutting tool and a workpiece and establish a suitable set of motions between them to remove material from the workpiece are called?",
+    "question_kr": "절삭도구와 공작물을 고정하도록 설계되어 있고 그 사이에서 작업편의 금속을 제거하기 위해 일련의 동작을 하는 기계를 무엇이라고 하나?",
+    "options": [
+      "A. Mill-working machines.(제조소의 기계)",
+      "B. Factory machines.(기계공장)",
+      "C. Machine tools.(기계 기구)",
+      "D. Metal-cutting machines.(금속 절삭 기계)"
+    ],
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL",
+    "source": "VTG-llA(개정판)-2016.10.18",
+    "answer": 2
+  },
+  {
+    "id": 50,
+    "question": "The mechanism of adhesion combines mechanical interlocking and:",
+    "question_kr": "부착방법은 기계적 맞붙임과 ( )으로 조합된다.",
+    "options": [
+      "A. Stickiness of the adhesive. (접착제의 끈적거림)",
+      "B. Roughness of the adherences. (접착제의 울퉁불퉁함)",
+      "C. Dynamic mechanical forces. (기계의 동력)",
+      "D. Interatomic forces. (원자간의 힘)",
+      "E. All of the above. (위의 모두)\n\nVT LEVEL Ⅱ(VTG-Ⅱ-A) 시험문제 해답\n\n \n\n번호\n\n해답\n\n번호\n\n해답\n\n번호\n\n해답\n\n1\n\nE\n\n21\n\nD\n\n41\n\nB\n\n2\n\nB\n\n22\n\nB\n\n42\n\nC\n\n3\n\nA\n\n23\n\nC\n\n43\n\nC\n\n4\n\nA\n\n24\n\nB\n\n44\n\nD\n\n5\n\nB\n\n25\n\nB\n\n45\n\nB\n\n6\n\nD\n\n26\n\nB\n\n46\n\nD\n\n7\n\nC\n\n27\n\nA\n\n47\n\nC\n\n8\n\nD\n\n28\n\nB\n\n48\n\nB\n\n9\n\nD\n\n29\n\nA\n\n49\n\nC\n\n10\n\nD\n\n30\n\nA,B,D,\n\nE,F\n\n50\n\nD\n\n11\n\nA\n\n31\n\nA\n\n12\n\nA\n\n32\n\nD\n\n13\n\nD\n\n33\n\nB\n\n14\n\nA\n\n34\n\nE\n\n15\n\nE\n\n35\n\nD\n\n16\n\nD\n\n36\n\nB\n\n17\n\nE\n\n37\n\nD\n\n18\n\nE\n\n38\n\nB\n\n19\n\nA\n\n39\n\nE\n\n20\n\nC\n\n40\n\nB"
+    ],
+    "subject": "VT",
+    "level": "II",
+    "category": "GENERAL",
+    "source": "VTG-llA(개정판)-2016.10.18",
+    "answer": 3
   }
 ]

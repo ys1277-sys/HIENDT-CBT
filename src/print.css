@@ -589,6 +589,95 @@
 }
 
 
+/* =====================================================
+   주관식 문항
+
+   선택지가 없는 서술형(ECT / RFT Specific).
+   빈 시험지로 뽑을 때는 답 쓰는 칸을,
+   채점본에서는 응시자 답과 정답을 같이 찍는다.
+   ===================================================== */
+
+.answer-written {
+  margin: 4px 0 6px 14px;
+
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.written-line {
+  display: flex;
+
+  gap: 8px;
+
+  font-size: 13px;
+
+  line-height: 1.5;
+
+  margin: 0 0 2px 0;
+}
+
+.written-label {
+  flex-shrink: 0;
+
+  width: 52px;
+
+  color: #666;
+}
+
+.written-value {
+  flex: 1;
+
+  overflow-wrap: break-word;
+}
+
+.written-correct {
+  font-weight: bold;
+}
+
+/* 빈 시험지용 답란 */
+.written-blank {
+  height: 14mm;
+
+  border-bottom: 1px solid #999;
+}
+
+
+/* =====================================================
+   문항 도해(그림)
+
+   높이를 묶어두지 않으면 큰 그림 하나가 한 페이지를
+   통째로 넘겨버려 페이지 분할이 무너진다.
+   높이 상한을 두고, 측정과 인쇄에 같은 값을 쓴다.
+   ===================================================== */
+
+.question-image {
+  margin:
+    4px
+    0
+    6px
+    0;
+
+  text-align: center;
+
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.question-image img {
+  display: block;
+
+  margin: 0 auto 4px auto;
+
+  max-width: 150mm;
+  max-height: 60mm;
+
+  width: auto;
+  height: auto;
+
+  object-fit: contain;
+}
+
+
 /* =========================================================
    OPTIONS
 

@@ -1,167 +1,167 @@
 [
   {
-    "id":1,
-    "level":"Level III",
-    "method":"PT",
-    "subject":"Specific",
-    "category":"ASME Sec.VIII",
-    "question":"How far is the aerosol can or sprayer held from the surface to be examined when applying the developer?",
-    "question_kr":"현상액 적용시 시험체 표면으로부터 스프레이 또는 에어로솔은 어느 정도 떨어져야 하는가?",
-    "options":[
+    "id": 1,
+    "level": "Level III",
+    "method": "PT",
+    "subject": "Specific",
+    "category": "ASME Sec.VIII",
+    "question": "How far is the aerosol can or sprayer held from the surface to be examined when applying the developer?",
+    "question_kr": "현상액 적용시 시험체 표면으로부터 스프레이 또는 에어로솔은 어느 정도 떨어져야 하는가?",
+    "options": [
       "5 inch",
       "10 inch",
       "15 inch",
       "20 inch"
     ],
-    "answer":2,
-    "explanation":""
+    "answer": 1,
+    "explanation": ""
   },
   {
-    "id":2,
-    "level":"Level III",
-    "method":"PT",
-    "subject":"Specific",
-    "category":"ASME Sec.VIII",
-    "question":"How long is minimum penetrant time for temperature 5℃?",
-    "question_kr":"온도 5℃에 대한 최소 침투시간은 어느 정도인가?",
-    "options":[
+    "id": 2,
+    "level": "Level III",
+    "method": "PT",
+    "subject": "Specific",
+    "category": "ASME Sec.VIII",
+    "question": "How long is minimum penetrant time for temperature 5℃?",
+    "question_kr": "온도 5℃에 대한 최소 침투시간은 어느 정도인가?",
+    "options": [
       "2 Min",
       "5 Min",
       "10 Min",
       "20 Min"
     ],
-    "answer":4,
-    "explanation":""
+    "answer": 3,
+    "explanation": ""
   },
   {
-    "id":3,
-    "level":"Level III",
-    "method":"PT",
-    "subject":"Specific",
-    "category":"ASME Sec.VIII",
-    "question":"Explain the meaning of linear and round indications.",
-    "question_kr":"원형지시와 선형지시의 의미를 설명하시오.",
-    "options":[
+    "id": 3,
+    "level": "Level III",
+    "method": "PT",
+    "subject": "Specific",
+    "category": "ASME Sec.VIII",
+    "question": "Explain the meaning of linear and round indications.",
+    "question_kr": "원형지시와 선형지시의 의미를 설명하시오.",
+    "options": [
       "Linear: L≤3d / Round: L>3d",
       "Linear: L=d / Round: L>2d",
       "Linear: L>3d / Round: L≤3d",
       "No distinction"
     ],
-    "answer":3,
-    "explanation":""
+    "answer": 2,
+    "explanation": ""
   },
   {
-    "id":4,
-    "level":"Level III",
-    "method":"PT",
-    "subject":"Specific",
-    "category":"ASME Sec.VIII",
-    "question":"Describe the excess penetrant removal methods.",
-    "question_kr":"과잉침투제 제거방법을 기술하시오.",
-    "options":[
+    "id": 4,
+    "level": "Level III",
+    "method": "PT",
+    "subject": "Specific",
+    "category": "ASME Sec.VIII",
+    "question": "Describe the excess penetrant removal methods.",
+    "question_kr": "과잉침투제 제거방법을 기술하시오.",
+    "options": [
       "Removed by wiping with cloth or absorbent paper",
       "Removed by grinding",
       "Removed by heating",
       "Removed by water only"
     ],
-    "answer":1,
-    "explanation":""
+    "answer": 0,
+    "explanation": ""
   },
   {
-    "id":5,
-    "level":"Level III",
-    "method":"PT",
-    "subject":"Specific",
-    "category":"ASME Sec.VIII",
-    "question":"Three rounded indications in a line separated by 1/16 inch was found on the surface of the part whose thickness is 10 inch. Is this acceptable?",
-    "question_kr":"1/16인치로 분리된 선상의 3개 원형지시가 10인치 두께 표면에서 발견되었다. 합격인가?",
-    "options":[
+    "id": 5,
+    "level": "Level III",
+    "method": "PT",
+    "subject": "Specific",
+    "category": "ASME Sec.VIII",
+    "question": "Three rounded indications in a line separated by 1/16 inch was found on the surface of the part whose thickness is 10 inch. Is this acceptable?",
+    "question_kr": "1/16인치로 분리된 선상의 3개 원형지시가 10인치 두께 표면에서 발견되었다. 합격인가?",
+    "options": [
       "Yes",
       "No"
     ],
-    "answer":1,
-    "explanation":""
+    "answer": 0,
+    "explanation": ""
   },
   {
-    "id":6,
-    "level":"Level III",
-    "method":"PT",
-    "subject":"Specific",
-    "category":"ASME Sec.VIII",
-    "question":"What kind of technique shall be used in this process specification?",
-    "question_kr":"본 절차서에 사용되어진 기술의 종류는?",
-    "options":[
+    "id": 6,
+    "level": "Level III",
+    "method": "PT",
+    "subject": "Specific",
+    "category": "ASME Sec.VIII",
+    "question": "What kind of technique shall be used in this process specification?",
+    "question_kr": "본 절차서에 사용되어진 기술의 종류는?",
+    "options": [
       "Water washable fluorescent penetrant",
       "Solvent removed visible penetrant",
       "Post emulsification fluorescent penetrant",
       "None"
     ],
-    "answer":2,
-    "explanation":""
+    "answer": 1,
+    "explanation": ""
   },
   {
-    "id":7,
-    "level":"Level III",
-    "method":"PT",
-    "subject":"Specific",
-    "category":"ASME Sec.VIII",
-    "question":"What is the size of relevant indication in case of dye penetration examination on welds and surface?",
-    "question_kr":"용접부나 표면에 염색 침투 시험일 경우 관련된 지시의 크기는?",
-    "options":[
+    "id": 7,
+    "level": "Level III",
+    "method": "PT",
+    "subject": "Specific",
+    "category": "ASME Sec.VIII",
+    "question": "What is the size of relevant indication in case of dye penetration examination on welds and surface?",
+    "question_kr": "용접부나 표면에 염색 침투 시험일 경우 관련된 지시의 크기는?",
+    "options": [
       "1/32 in",
       "1/64 in",
       "1/16 in",
       "3/64 in"
     ],
-    "answer":3,
-    "explanation":""
+    "answer": 2,
+    "explanation": ""
   },
   {
-    "id":8,
-    "level":"Level III",
-    "method":"PT",
-    "subject":"Specific",
-    "category":"ASME Sec.VIII",
-    "question":"4.5 mm round indication was found on surface which thickness is 51mm. Is this indication acceptable?",
-    "question_kr":"51mm 두께에 4.5mm 원형지시를 찾았다. 이 경우 합격인가?",
-    "options":[
+    "id": 8,
+    "level": "Level III",
+    "method": "PT",
+    "subject": "Specific",
+    "category": "ASME Sec.VIII",
+    "question": "4.5 mm round indication was found on surface which thickness is 51mm. Is this indication acceptable?",
+    "question_kr": "51mm 두께에 4.5mm 원형지시를 찾았다. 이 경우 합격인가?",
+    "options": [
       "Yes",
       "No"
     ],
-    "answer":1,
-    "explanation":""
+    "answer": 0,
+    "explanation": ""
   },
   {
-    "id":9,
-    "level":"Level III",
-    "method":"PT",
-    "subject":"Specific",
-    "category":"ASME Sec.VIII",
-    "question":"What are the maximum allowable temperatures for the part surface and the penetrant?",
-    "question_kr":"제품표면과 침투액에 대한 허용 최대 온도는?",
-    "options":[
+    "id": 9,
+    "level": "Level III",
+    "method": "PT",
+    "subject": "Specific",
+    "category": "ASME Sec.VIII",
+    "question": "What are the maximum allowable temperatures for the part surface and the penetrant?",
+    "question_kr": "제품표면과 침투액에 대한 허용 최대 온도는?",
+    "options": [
       "10~52℃",
       "0~100℃",
       "20~80℃",
       "5~70℃"
     ],
-    "answer":1,
-    "explanation":""
+    "answer": 0,
+    "explanation": ""
   },
   {
-    "id":10,
-    "level":"Level III",
-    "method":"PT",
-    "subject":"Specific",
-    "category":"ASME B16.34",
-    "question":"A 18mm linear indication was found during inspection of a 50mm thick casting. What is the pass/fail decision?",
-    "question_kr":"50mm 두께의 주조품 검사시 선형 결함 18mm가 발견되었습니다. 합부는?",
-    "options":[
+    "id": 10,
+    "level": "Level III",
+    "method": "PT",
+    "subject": "Specific",
+    "category": "ASME B16.34",
+    "question": "A 18mm linear indication was found during inspection of a 50mm thick casting. What is the pass/fail decision?",
+    "question_kr": "50mm 두께의 주조품 검사시 선형 결함 18mm가 발견되었습니다. 합부는?",
+    "options": [
       "Accept",
       "Reject"
     ],
-    "answer":2,
-    "explanation":""
+    "answer": 1,
+    "explanation": ""
   },
   {
     "id": 11,

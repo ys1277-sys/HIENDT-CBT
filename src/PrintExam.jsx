@@ -6,6 +6,13 @@
 
 import "./print.css";
 import logo from "./logo.png";
+import QuestionImage from "./QuestionImage.jsx";
+import {
+  questionType,
+  isCorrectOption,
+  isChosenOption,
+  TEXT
+} from "./grading.js";
 
 const EMPTY_ANSWERS = {};
 
@@ -40,6 +47,14 @@ function PrintExam({
 
   const measuredRef =
     useRef(false);
+
+  /*
+   * 도해 이미지가 아직 로딩 중이면 문항 높이가 0에 가깝게 측정되어
+   * 페이지 분할이 어긋난다. 이미지가 다 뜬 뒤 이 값을 올려
+   * 측정을 다시 돌린다.
+   */
+  const [imagesTick, setImagesTick] =
+    useState(0);
 
 
   useLayoutEffect(() => {
@@ -95,6 +110,47 @@ function PrintExam({
       questionElements.length === 0
     ) {
       return;
+    }
+
+
+    /* 아직 로딩이 끝나지 않은 도해가 있으면 다 뜰 때까지 측정을 미룬다.
+       complete 인데 깨진 이미지는 load 가 다시 오지 않으므로 기다리지 않는다. */
+    const pending =
+      Array.from(
+        container.querySelectorAll("img")
+      ).filter(
+        img => !img.complete
+      );
+
+
+    if (pending.length > 0) {
+
+      let left = pending.length;
+
+      const onSettled = () => {
+
+        left -= 1;
+
+        if (left <= 0) {
+          setImagesTick(
+            tick => tick + 1
+          );
+        }
+
+      };
+
+      pending.forEach(img => {
+        img.addEventListener("load", onSettled, { once: true });
+        img.addEventListener("error", onSettled, { once: true });
+      });
+
+      return () => {
+        pending.forEach(img => {
+          img.removeEventListener("load", onSettled);
+          img.removeEventListener("error", onSettled);
+        });
+      };
+
     }
 
 
@@ -205,7 +261,8 @@ function PrintExam({
     level,
     method,
     subject,
-    date
+    date,
+    imagesTick
   ]);
 
 
@@ -418,26 +475,14 @@ function PrintExam({
     index
   }) {
 
-    const correct =
-      Number(
-        q && q.answer
-      );
-
-
     const rawUserAnswer =
       answers
         ? answers[index]
         : undefined;
 
 
-    const user =
-      rawUserAnswer === undefined ||
-      rawUserAnswer === null ||
-      rawUserAnswer === ""
-        ? -1
-        : Number(
-            rawUserAnswer
-          );
+    const isText =
+      questionType(q) === TEXT;
 
 
     const questionLines =
@@ -505,6 +550,9 @@ function PrintExam({
         }
 
 
+        <QuestionImage q={q} />
+
+
         {
           Array.isArray(
             q && q.options
@@ -527,13 +575,19 @@ function PrintExam({
                   );
 
 
+              /* 정답 표시는 복수정답(배열)도 함께 처리한다 */
+              const optCorrect =
+                isCorrectOption(q, i);
+
+              const optChosen =
+                isChosenOption(rawUserAnswer, i);
+
+
               let circleClass =
                 "option-circle";
 
 
-              if (
-                i === correct
-              ) {
+              if (optCorrect) {
 
                 circleClass +=
                   " box-correct";
@@ -542,8 +596,8 @@ function PrintExam({
 
 
               if (
-                i === user &&
-                i !== correct
+                optChosen &&
+                !optCorrect
               ) {
 
                 circleClass +=
@@ -608,6 +662,52 @@ function PrintExam({
               );
 
             }
+          )
+        }
+
+
+        {
+          /*
+           * 주관식 — 선택지가 없는 문항.
+           * 시험지로 쓸 때는 답 쓰는 칸, 채점본에서는 정답과 응시자 답을 같이 보여준다.
+           */
+          isText && (
+
+            <div className="answer-written">
+
+              {
+                answers && rawUserAnswer !== undefined ? (
+
+                  <>
+                    <div className="written-line">
+                      <span className="written-label">응시자 답</span>
+                      <span className="written-value">
+                        {
+                          typeof rawUserAnswer === "string" &&
+                          rawUserAnswer.trim() !== ""
+                            ? rawUserAnswer
+                            : "-"
+                        }
+                      </span>
+                    </div>
+
+                    <div className="written-line">
+                      <span className="written-label">정답</span>
+                      <span className="written-value written-correct">
+                        {String(q.answer ?? "-")}
+                      </span>
+                    </div>
+                  </>
+
+                ) : (
+
+                  <div className="written-blank" />
+
+                )
+              }
+
+            </div>
+
           )
         }
 

@@ -14,7 +14,7 @@
         "3 inch",
         "1/2 inch"
       ],
-      "answer": "D"
+      "answer": 3
     },
     {
       "id": 2,
@@ -26,7 +26,7 @@
         "600°F",
         "650°F"
       ],
-      "answer": "C"
+      "answer": 2
     },
     {
       "id": 3,
@@ -42,7 +42,7 @@
         "Yoke",
         "Prod"
       ],
-      "answer": "A"
+      "answer": 0
     },
     {
       "id": 5,
@@ -60,7 +60,7 @@
         "Prod with dry magnetic particle",
         "Yoke with wet fluorescent magnetic particle"
       ],
-      "answer": "D"
+      "answer": 3
     },
     {
       "id": 7,
@@ -72,7 +72,7 @@
         "Imperfection encroaches on minimum permissible wall thickness",
         "All of above"
       ],
-      "answer": "A"
+      "answer": 0
     },
     {
       "id": 8,
@@ -82,7 +82,7 @@
         "Accept",
         "Reject"
       ],
-      "answer": "A"
+      "answer": 0
     },
     {
       "id": 9,
@@ -100,7 +100,7 @@
         "2 inch",
         "3 inch"
       ],
-      "answer": "B"
+      "answer": 1
     },
     {
       "id": 11,
@@ -118,7 +118,7 @@
         "1/16 inch",
         "3/64 inch"
       ],
-      "answer": "C"
+      "answer": 2
     },
     {
       "id": 13,
@@ -130,7 +130,7 @@
         "HWDC",
         "All of current"
       ],
-      "answer": "A"
+      "answer": 0
     },
     {
       "id": 14,
@@ -154,7 +154,7 @@
         "0.2",
         "0.5"
       ],
-      "answer": "C"
+      "answer": 2
     },
     {
       "id": 17,
@@ -172,7 +172,7 @@
         "A:3, B:9",
         "A:3, B:6"
       ],
-      "answer": "D"
+      "answer": 3
     },
     {
       "id": 19,
@@ -190,67 +190,67 @@
         "4900 - 6300 Amp",
         "1400 - 3500 Amp"
       ],
-      "answer": "A"
+      "answer": 0
     },
     {
-  "id": 21,
-  "question_en": "This procedure describes the Magnetic particle testing for ______.",
-  "question_ko": "본 절차서는 ______을 위한 자분탐상 방법을 기술한다.",
-  "options": [
-    "Pressure vessel welding",
-    "Forging",
-    "Fitting",
-    "Casting"
-  ],
-  "answer": "A"
-},
-{
-  "id": 22,
-  "question_en": "Acceptance standard shall be used ______.",
-  "question_ko": "합격 기준은 ______을 따른다.",
-  "options": [
-    "ASME Sec.Ⅲ NB 2500",
-    "ASME Sec.Ⅲ NB 5000",
-    "ASME Sec.Ⅴ Art.5",
-    "ASME Sec.Ⅷ Div.1"
-  ],
-  "answer": "A"
-},
-{
-  "id": 23,
-  "question_en": "Visible light at the surface of the part should be minimum ______.",
-  "question_ko": "제품 표면에서 가시광 조도는 최소 얼마 이상이어야 하는가?",
-  "options": [
-    "800 Lux",
-    "1076 Lux",
-    "1500 Lux",
-    "2000 Lux"
-  ],
-  "answer": "B"
-},
-{
-  "id": 24,
-  "question_en": "The surface to be examined and all adjacent areas within at least ______ shall be dry and free of all scale, grease, etc.",
-  "question_ko": "시험할 표면과 인접 영역은 최소 ______까지 건조하고 스케일, 그리스 등이 없어야 한다.",
-  "options": [
-    "0 inch",
-    "1 inch",
-    "1.5 inch",
-    "2 inch"
-  ],
-  "answer": "B"
-},
-{
-  "id": 25,
-  "question_en": "This procedure describes the Magnetic particle testing method of ______.",
-  "question_ko": "본 절차서는 ______ 자분탐상 방법을 기술한다.",
-  "options": [
-    "AC Yoke",
-    "Prod",
-    "Coil",
-    "Head shot"
-  ],
-  "answer": "A"
-}
-]
+      "id": 21,
+      "question_en": "This procedure describes the Magnetic particle testing for ______.",
+      "question_ko": "본 절차서는 ______을 위한 자분탐상 방법을 기술한다.",
+      "options": [
+        "Pressure vessel welding",
+        "Forging",
+        "Fitting",
+        "Casting"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 22,
+      "question_en": "Acceptance standard shall be used ______.",
+      "question_ko": "합격 기준은 ______을 따른다.",
+      "options": [
+        "ASME Sec.Ⅲ NB 2500",
+        "ASME Sec.Ⅲ NB 5000",
+        "ASME Sec.Ⅴ Art.5",
+        "ASME Sec.Ⅷ Div.1"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 23,
+      "question_en": "Visible light at the surface of the part should be minimum ______.",
+      "question_ko": "제품 표면에서 가시광 조도는 최소 얼마 이상이어야 하는가?",
+      "options": [
+        "800 Lux",
+        "1076 Lux",
+        "1500 Lux",
+        "2000 Lux"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 24,
+      "question_en": "The surface to be examined and all adjacent areas within at least ______ shall be dry and free of all scale, grease, etc.",
+      "question_ko": "시험할 표면과 인접 영역은 최소 ______까지 건조하고 스케일, 그리스 등이 없어야 한다.",
+      "options": [
+        "0 inch",
+        "1 inch",
+        "1.5 inch",
+        "2 inch"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 25,
+      "question_en": "This procedure describes the Magnetic particle testing method of ______.",
+      "question_ko": "본 절차서는 ______ 자분탐상 방법을 기술한다.",
+      "options": [
+        "AC Yoke",
+        "Prod",
+        "Coil",
+        "Head shot"
+      ],
+      "answer": 0
+    }
+  ]
 }

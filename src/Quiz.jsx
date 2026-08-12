@@ -2,6 +2,13 @@ import React, { useEffect, useState } from "react";
 import Result from "./Result.jsx";
 import ExamData from "./ExamData.jsx";
 import Calculator from "./Calculator.jsx";
+import QuestionImage from "./QuestionImage.jsx";
+import {
+  questionType,
+  isAnswered,
+  MULTI,
+  TEXT
+} from "./grading.js";
 
 function Quiz({
   name,
@@ -17,6 +24,12 @@ function Quiz({
   const [showResult, setShowResult] = useState(false);
   const [showCalc, setShowCalc] = useState(false);
 
+  const numberCircle = [
+    "①",
+    "②",
+    "③",
+    "④"
+  ];
 
   useEffect(() => {
 
@@ -40,12 +53,10 @@ function Quiz({
 
         }
 
-
         console.log(
           "시험 데이터:",
           exam
         );
-
 
         if (!exam) {
 
@@ -57,7 +68,6 @@ function Quiz({
 
         }
 
-
         const url =
           import.meta.env.BASE_URL +
           exam.file.replace(/^\//, "");
@@ -67,48 +77,42 @@ function Quiz({
           url
         );
 
-
         const res =
           await fetch(url);
-
 
         const data =
           await res.json();
 
-
         let list = [];
-
 
         if (Array.isArray(data)) {
 
           list = data;
 
         }
-        else if (Array.isArray(data.questions)) {
+        else if (
+          Array.isArray(data.questions)
+        ) {
 
           list = data.questions;
 
         }
 
-
         list =
           list.flat();
 
-
         list =
           list.filter(
-            q => Array.isArray(q.options)
+            q =>
+              Array.isArray(q.options)
           );
-
 
         console.log(
           "문제 수:",
           list.length
         );
 
-
         setQuestions(list);
-
 
       }
       catch (err) {
@@ -123,7 +127,6 @@ function Quiz({
 
     }
 
-
     loadQuestions();
 
   }, [
@@ -133,29 +136,55 @@ function Quiz({
   ]);
 
 
-  function selectAnswer(index) {
+  /*
+   * 답 저장 형태는 문항 종류에 따라 다르다.
+   *   단일선택 -> 숫자, 복수선택 -> 숫자 배열, 주관식 -> 문자열
+   */
+  function setAnswerFor(qIndex, value) {
 
     setAnswers(prev => ({
 
       ...prev,
 
-      [current]: index
+      [qIndex]: value
 
     }));
 
   }
 
 
-  function selectAnswerFor(qIndex, optIndex) {
+  // 복수정답 문항: 같은 선택지를 다시 누르면 해제
+  function toggleAnswerFor(qIndex, optIndex) {
 
-    setAnswers(prev => ({
+    setAnswers(prev => {
 
-      ...prev,
+      const cur =
+        Array.isArray(prev[qIndex])
+          ? prev[qIndex]
+          : [];
 
-      [qIndex]: optIndex
+      const next =
+        cur.includes(optIndex)
+          ? cur.filter(v => v !== optIndex)
+          : [...cur, optIndex].sort((a, b) => a - b);
 
-    }));
+      return {
+        ...prev,
+        [qIndex]: next
+      };
 
+    });
+
+  }
+
+
+  // 답안 표기란에서 고를 때는 그 문항으로 이동도 같이 한다
+  function pickFromSheet(qIndex, optIndex) {
+
+    const q = questions[qIndex];
+
+    if (questionType(q) === MULTI) toggleAnswerFor(qIndex, optIndex);
+    else setAnswerFor(qIndex, optIndex);
 
     setCurrent(qIndex);
 
@@ -166,21 +195,20 @@ function Quiz({
 
     const unanswered =
       questions.filter(
-        (_, index) =>
-          answers[index] === undefined
+        (q, index) =>
+          !isAnswered(q, answers[index])
       );
-
 
     if (unanswered.length > 0) {
 
-      const ok = window.confirm(
-        `풀지 않은 문제가 ${unanswered.length}개 있습니다. 그래도 제출하시겠습니까?`
-      );
+      const ok =
+        window.confirm(
+          `풀지 않은 문제가 ${unanswered.length}개 있습니다. 그래도 제출하시겠습니까?`
+        );
 
       if (!ok) return;
 
     }
-
 
     setShowResult(true);
 
@@ -237,41 +265,44 @@ function Quiz({
     questions[current];
 
 
-  const question =
-    (q.question || "")
-      .split(/\r?\n/);
+  const qType = questionType(q);
+
+  const userAnswer = answers[current];
+
+
+  const questionLines =
+    String(
+      q.question || ""
+    )
+      .split(/\r?\n/)
+      .filter(
+        line =>
+          line.trim() !== ""
+      );
 
 
   const questionEn =
-    question[0];
+    questionLines[0] || "";
 
 
   const questionKo =
-    question
+    questionLines
       .slice(1)
       .join(" ")
       .trim();
-
-
-  const answeredCount =
-    Object.keys(answers).length;
 
 
   return (
 
     <div className="cbt-page">
 
-
       <div className="cbt-container">
 
-
         <header className="cbt-header">
-
 
           <h1>
             HIENDT-CBT
           </h1>
-
 
           <div>
 
@@ -283,15 +314,12 @@ function Quiz({
 
           </div>
 
-
         </header>
 
 
         <div className="cbt-content">
 
-
           <main className="cbt-body">
-
 
             <div className="question-number">
 
@@ -304,121 +332,208 @@ function Quiz({
 
             <div className="question-box">
 
-
-              <div className="english-question question-title">
+              <div className="question-title">
 
                 <span className="question-num">
-                  {current + 1}.
+
+                  {numberCircle[0]}
+
                 </span>
 
-                <span className="question-text-wrap">
-                  {questionEn}
-                </span>
+
+                <div className="question-text-wrap">
+
+                  <div className="english-question">
+
+                    {questionEn}
+
+                  </div>
+
+
+                  {
+                    questionKo && (
+
+                      <div className="korean-question">
+
+                        {questionKo}
+
+                      </div>
+
+                    )
+                  }
+
+                </div>
 
               </div>
 
 
-              {
-                questionKo &&
-
-                <div className="korean-question">
-
-                  {questionKo}
-
-                </div>
-              }
-
+              <QuestionImage q={q} />
 
             </div>
 
 
             <div className="answer-box">
 
-
               {
-                q.options.map((item, index) => {
 
+                qType === TEXT ? (
 
-                  const option =
-                    item.split(/\r?\n/);
+                  /* 주관식 — 원본이 서술형인 ECT / RFT Specific 문항 */
+                  <div className="answer-text">
 
-
-                  return (
-
-                    <label
-
-                      key={index}
-
-                      className={
-                        answers[current] === index
-                          ?
-                          "answer selected"
-                          :
-                          "answer"
-                      }
-
-                    >
-
-
-                      <input
-
-                        type="radio"
-
-                        checked={
-                          answers[current] === index
-                        }
-
-                        onChange={() =>
-                          selectAnswer(index)
-                        }
-
-                      />
-
-
-                      <div className="option-text">
-
-
-                        <div className="option-en">
-
-                          {index + 1}. {option[0]}
-
-                        </div>
-
-
-                        {
-                          option[1] &&
-
-                          <div className="option-ko">
-
-                            {option[1]}
-
-                          </div>
-                        }
-
-
-                      </div>
-
-
+                    <label htmlFor="answer-text-input">
+                      답을 입력하세요
                     </label>
 
-                  );
+                    <textarea
 
-                })
+                      id="answer-text-input"
+
+                      rows={3}
+
+                      value={
+                        typeof userAnswer === "string"
+                          ? userAnswer
+                          : ""
+                      }
+
+                      onChange={e =>
+                        setAnswerFor(current, e.target.value)
+                      }
+
+                      placeholder="예) Slag"
+
+                    />
+
+                  </div>
+
+                ) : (
+
+                  q.options.map(
+                    (item, index) => {
+
+                      const optionLines =
+                        String(item || "")
+                          .split(/\r?\n/)
+                          .filter(
+                            line =>
+                              line.trim() !== ""
+                          );
+
+                      const optionEn =
+                        optionLines[0] || "";
+
+                      const optionKo =
+                        optionLines
+                          .slice(1)
+                          .join(" ")
+                          .trim();
+
+
+                      const chosen =
+                        qType === MULTI
+                          ? Array.isArray(userAnswer) &&
+                            userAnswer.includes(index)
+                          : userAnswer === index;
+
+
+                      return (
+
+                        <label
+
+                          key={index}
+
+                          className={
+                            chosen
+                              ? "answer selected"
+                              : "answer"
+                          }
+
+                        >
+
+                          <input
+
+                            type={
+                              qType === MULTI
+                                ? "checkbox"
+                                : "radio"
+                            }
+
+                            checked={chosen}
+
+                            onChange={() =>
+                              qType === MULTI
+                                ? toggleAnswerFor(current, index)
+                                : setAnswerFor(current, index)
+                            }
+
+                          />
+
+
+                          <div className="option-text">
+
+                            <div className="option-en">
+
+                              <span className="option-number">
+
+                                {numberCircle[index] || index + 1}
+
+                              </span>
+
+                              <span>
+                                {optionEn}
+                              </span>
+
+                            </div>
+
+
+                            {
+                              optionKo && (
+
+                                <div className="option-ko">
+
+                                  {optionKo}
+
+                                </div>
+
+                              )
+                            }
+
+                          </div>
+
+                        </label>
+
+                      );
+
+                    }
+                  )
+
+                )
+
               }
 
+
+              {
+                qType === MULTI && (
+
+                  <div className="answer-hint">
+
+                    정답이 여러 개인 문항입니다. 해당하는 것을 모두 고르세요.
+
+                  </div>
+
+                )
+              }
 
             </div>
 
 
             <div className="control">
 
-
               <button
-
                 onClick={() =>
                   setShowCalc(true)
                 }
-
               >
 
                 계산기
@@ -428,10 +543,14 @@ function Quiz({
 
               <button
 
-                disabled={current === 0}
+                disabled={
+                  current === 0
+                }
 
                 onClick={() =>
-                  setCurrent(current - 1)
+                  setCurrent(
+                    current - 1
+                  )
                 }
 
               >
@@ -442,14 +561,17 @@ function Quiz({
 
 
               {
-                current < questions.length - 1
+                current <
+                questions.length - 1
 
                   ?
 
                   <button
 
                     onClick={() =>
-                      setCurrent(current + 1)
+                      setCurrent(
+                        current + 1
+                      )
                     }
 
                   >
@@ -461,9 +583,7 @@ function Quiz({
                   :
 
                   <button
-
                     onClick={submitExam}
-
                   >
 
                     제출
@@ -473,24 +593,19 @@ function Quiz({
 
 
               <button
-
                 onClick={onBack}
-
               >
 
                 종료
 
               </button>
 
-
             </div>
-
 
           </main>
 
 
           <aside className="answer-sheet">
-
 
             <div className="answer-sheet-title">
 
@@ -501,137 +616,154 @@ function Quiz({
 
             <div className="answer-sheet-list">
 
-
               {
+                questions.map(
+                  (
+                    qItem,
+                    qIndex
+                  ) => {
 
-                questions.map((qItem, qIndex) => {
+                    const rowType = questionType(qItem);
 
+                    const rowAnswer = answers[qIndex];
 
-                  return (
+                    return (
 
-                    <div
+                      <div
 
-                      key={qIndex}
+                        key={qIndex}
 
-                      className={
+                        className={
+                          qIndex === current
+                            ? "answer-sheet-row current"
+                            : "answer-sheet-row"
+                        }
 
-                        qIndex === current
+                      >
 
-                          ?
+                        {/* 문항 번호. 예전에는 ①②③④ 배열을 그대로 써서
+                            5번부터 빈칸이 됐다. */}
+                        <span className="row-number">
 
-                          "answer-sheet-row current"
+                          {qIndex + 1}
 
-                          :
-
-                          "answer-sheet-row"
-
-                      }
-
-                    >
-
-
-                      <span className="row-number">
-
-                        {qIndex + 1}
-
-                      </span>
-
-
-                      <span className="row-options">
+                        </span>
 
 
-                        {
+                        <span className="row-options">
 
-                          qItem.options.map((op, i) => {
+                          {
 
-
-                            const selected =
-                              answers[qIndex] === i;
-
-
-                            return (
+                            rowType === TEXT ? (
 
                               <button
-
-                                key={i}
 
                                 type="button"
 
                                 className={
-
-                                  selected
-
-                                    ?
-
-                                    "option-circle selected"
-
-                                    :
-
-                                    "option-circle"
-
+                                  typeof rowAnswer === "string" &&
+                                  rowAnswer.trim() !== ""
+                                    ? "option-written selected"
+                                    : "option-written"
                                 }
 
-                                onClick={() =>
-                                  selectAnswerFor(
-                                    qIndex,
-                                    i
-                                  )
-                                }
+                                onClick={() => setCurrent(qIndex)}
 
                               >
 
-                                {i + 1}
+                                주관식
 
                               </button>
 
-                            );
+                            ) : (
 
-                          })
+                              qItem.options.map(
+                                (
+                                  op,
+                                  i
+                                ) => {
 
-                        }
+                                  const selected =
+                                    rowType === MULTI
+                                      ? Array.isArray(rowAnswer) &&
+                                        rowAnswer.includes(i)
+                                      : rowAnswer === i;
 
+                                  return (
 
-                      </span>
+                                    <button
 
+                                      key={i}
 
-                    </div>
+                                      type="button"
 
-                  );
+                                      className={
+                                        selected
+                                          ? "option-circle selected"
+                                          : "option-circle"
+                                      }
 
-                })
+                                      onClick={() =>
+                                        pickFromSheet(
+                                          qIndex,
+                                          i
+                                        )
+                                      }
 
+                                    >
+
+                                      {
+                                        numberCircle[i] || i + 1
+                                      }
+
+                                    </button>
+
+                                  );
+
+                                }
+                              )
+
+                            )
+
+                          }
+
+                        </span>
+
+                      </div>
+
+                    );
+
+                  }
+                )
               }
-
 
             </div>
 
-
           </aside>
 
-
         </div>
-
 
       </div>
 
 
       {
-        showCalc &&
+        showCalc && (
 
-        <Calculator
-          onClose={() =>
-            setShowCalc(false)
-          }
-        />
+          <Calculator
 
+            onClose={() =>
+              setShowCalc(false)
+            }
+
+          />
+
+        )
       }
-
 
     </div>
 
   );
 
 }
-
 
 export default Quiz;

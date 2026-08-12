@@ -13,7 +13,7 @@
       "10%",
       "20%"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": ""
   },
   {
@@ -30,7 +30,7 @@
       "Every 1 day",
       "Every 1 week"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -47,7 +47,7 @@
       "9 in/sec (225 mm/s)",
       "12 in/sec (300 mm/s)"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": ""
   },
   {
@@ -64,7 +64,7 @@
       "Gain and reject setting only",
       "Scanning speed only"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -81,7 +81,7 @@
       "ASTM A609",
       "ASME Section V Article 4"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": ""
   },
   {
@@ -96,7 +96,7 @@
       "Accept",
       "Reject"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": ""
   },
   {
@@ -111,7 +111,7 @@
       "Accept",
       "Reject"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -128,7 +128,7 @@
       "Crack indications are unacceptable regardless of length.",
       "Lack of fusion indications are unacceptable regardless of length."
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": ""
   },
   {
@@ -145,7 +145,7 @@
       "The block for straight beam examination shall have 1/4in. diameter flat-bottomed holes.",
       "The block shall have two holes at one-fourth and one-half thickness."
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": ""
   },
   {
@@ -162,7 +162,7 @@
       "Depth: 0.5%T, Length: 2in",
       "Depth: 2%T, Length: 1in"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": ""
   },
   {
@@ -179,7 +179,7 @@
       "40",
       "80"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": ""
   },
   {
@@ -196,7 +196,7 @@
       "0.5 in.",
       "0.6 in."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": ""
   },
   {
@@ -213,7 +213,7 @@
       "SMAW procedure",
       "All of the above"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -230,7 +230,7 @@
       "4 inch",
       "5 inch"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": ""
   },
   {
@@ -247,7 +247,7 @@
       "Reference-block calibration",
       "A1 Block Calibration"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": ""
   },
   {
@@ -264,7 +264,7 @@
       "Cluster",
       "All of the above"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": ""
   },
   {
@@ -281,7 +281,7 @@
       "3%",
       "4%"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": ""
   },
   {
@@ -298,7 +298,7 @@
       "3/4 in.",
       "1/3 in."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": ""
   },
   {
@@ -315,7 +315,7 @@
       "10/32",
       "32/64"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": ""
   },
   {
@@ -332,7 +332,7 @@
       "100% ARL",
       "AVG"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -349,7 +349,7 @@
       "Counter bore of reference block shall be 1/2 inch diameter by 1/4 inch deep",
       "Opposite ends of reference block shall be flat and parallel within 0.01 inch"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": ""
   },
   {
@@ -366,7 +366,7 @@
       "Two-year college graduate requires at least 2 years Level II experience",
       "High school graduate requires at least 4 years Level II experience"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": ""
   },
   {
@@ -383,7 +383,7 @@
       "Candidate shall hold current ASNT Level III certificate with valid endorsement",
       "Vision examination requires far-distance acuity and color vision"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": ""
   },
   {
@@ -400,7 +400,7 @@
       "By the length of the initial pulse",
       "By the echo width"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": ""
   },
   {
@@ -417,7 +417,7 @@
       "Cannot be determined",
       "100% full screen height"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": ""
   },
   {
@@ -434,7 +434,7 @@
       "15 mm",
       "60 mm"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": ""
   },
   {
@@ -451,7 +451,7 @@
       "Gain control or attenuator",
       "No adjustments are allowed"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": ""
   },
   {
@@ -468,7 +468,7 @@
       "12 times",
       "16 times"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": ""
   },
   {
@@ -485,7 +485,7 @@
       "Increasing ultrasonic frequency",
       "Using longitudinal waves instead of transverse waves"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": ""
   },
   {
@@ -502,8 +502,9 @@
       "Reject indication",
       "Accept indication"
     ],
-    "answer": 2,
-    "explanation": ""
+    "answer": 1,
+    "explanation": "",
+    "image": "UT_LEVEL3_V_Q30.png"
   },
   {
     "id": 31,
@@ -519,7 +520,7 @@
       "All of above are accepted",
       "All of above are rejected"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": ""
   },
   {
@@ -536,7 +537,7 @@
       "2.09mm high x 6.4mm long",
       "4.18mm high x 6.4mm long"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": ""
   },
   {
@@ -553,7 +554,7 @@
       "5 times the examination frequency",
       "10 times the examination frequency"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": ""
   },
   {
@@ -570,8 +571,9 @@
       "Surface breaking planar flaw",
       "Porosity"
     ],
-    "answer": 3,
-    "explanation": ""
+    "answer": 2,
+    "explanation": "",
+    "image": "UT_LEVEL3_V_Q34.png"
   },
   {
     "id": 35,
@@ -587,8 +589,9 @@
       "Indication is not subject to evaluation",
       "It cannot be evaluated"
     ],
-    "answer": 2,
-    "explanation": ""
+    "answer": 1,
+    "explanation": "",
+    "image": "UT_LEVEL3_V_Q35.png"
   },
   {
     "id": 36,
@@ -604,7 +607,7 @@
       "10% of thickness",
       "2% of thickness"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": ""
   }
 ]

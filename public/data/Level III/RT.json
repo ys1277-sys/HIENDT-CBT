@@ -13,7 +13,7 @@
       "",
       ""
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -30,7 +30,7 @@
       "",
       ""
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -47,7 +47,7 @@
       "",
       ""
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -64,7 +64,7 @@
       "",
       ""
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -81,7 +81,7 @@
       "",
       ""
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -98,7 +98,7 @@
       "",
       ""
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -115,7 +115,7 @@
       "Minimum equivalent sensitivity of 4% and a 2-2T quality level",
       "Minimum equivalent sensitivity of 4% and a 4-4T quality level"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": ""
   },
   {
@@ -132,7 +132,7 @@
       "",
       ""
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -149,7 +149,7 @@
       "ASME Section VIII Div.1 UW-51",
       "ASME B31.3"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": ""
   },
   {
@@ -166,7 +166,7 @@
       "",
       ""
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -183,7 +183,7 @@
       "Film (필름)",
       "In (내부)"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -200,7 +200,7 @@
       "2, source",
       "1, source"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": ""
   },
   {
@@ -217,7 +217,7 @@
       "Either double or single",
       "All of above is not correct"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -234,7 +234,7 @@
       "3-1/2, double",
       "3-1/2, single"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": ""
   },
   {
@@ -251,7 +251,7 @@
       "Three exposure, apart 120°",
       "Three exposure, apart 90°"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": ""
   },
   {
@@ -268,7 +268,7 @@
       "Because the slag inclusion has a higher density than steel.",
       "Because a slag inclusion is always combined with a misalignment."
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": ""
   },
   {
@@ -285,7 +285,7 @@
       "Increasing the source to film distance",
       "Increasing the specimen to film distance"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": ""
   },
   {
@@ -302,7 +302,7 @@
       "1 %",
       "4 %"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": ""
   },
   {
@@ -319,7 +319,7 @@
       "",
       ""
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -336,7 +336,7 @@
       "No image of the scratch",
       "The film may nearly be burned at the surface by the intensive rays."
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": ""
   },
   {
@@ -353,7 +353,7 @@
       "1 : 3",
       "1 : 4"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -370,7 +370,7 @@
       "7 Min",
       "10 Min"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": ""
   },
   {
@@ -387,7 +387,7 @@
       "30,000 cd/㎡",
       "300,000 cd/㎡"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": ""
   },
   {
@@ -404,7 +404,7 @@
       "0.05",
       "0.01"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": ""
   },
   {
@@ -421,7 +421,7 @@
       "Shrinkage groove",
       "Incomplete root penetration"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -438,7 +438,7 @@
       "",
       ""
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -455,7 +455,7 @@
       "Candidates shall pass a Vision examination.",
       "A valid endorsement on an ASNT NDE Level III certificate fulfills Basic and Method examination requirements."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -472,7 +472,7 @@
       "The near distance vision examination shall be administered annually.",
       "The near distance vision acuity requirement is to read Number 2 on Jaeger card at not less than 12 inches."
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": ""
   },
   {
@@ -489,7 +489,7 @@
       "A slag inclusion 1/2 inch in length in a weldment with thickness 2 inch",
       "All of the above are rejectable"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": ""
   },
   {
@@ -506,7 +506,7 @@
       "An elongated indication 1/2 inch in length in a weldment with thickness 3 inch",
       "An elongated indication 2/5 inch in length in a weldment with thickness 1/2 inch"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": ""
   }
 ]

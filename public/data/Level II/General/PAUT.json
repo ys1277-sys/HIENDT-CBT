@@ -13,7 +13,7 @@
       "about 0.5:1",
       "about 4:1"
     ],
-    "answer": "B"
+    "answer": 1
   },
   {
     "id": 2,
@@ -29,7 +29,7 @@
       "longitudinal waves",
       "lamb waves"
     ],
-    "answer": "C"
+    "answer": 2
   },
   {
     "id": 3,
@@ -45,7 +45,7 @@
       "Is the PA term that equates to PRF in conventional UT",
       "Is the process of digitizing an analogue signal"
     ],
-    "answer": "B"
+    "answer": 1
   },
   {
     "id": 4,
@@ -61,7 +61,7 @@
       "Arc",
       "Dynamic depth focusing"
     ],
-    "answer": "A"
+    "answer": 0
   },
   {
     "id": 5,
@@ -77,7 +77,7 @@
       "pitch",
       "x-offset"
     ],
-    "answer": "B"
+    "answer": 1
   },
   {
     "id": 6,
@@ -100,7 +100,7 @@
       "107.4mm",
       "197.5mm"
     ],
-    "answer": "A"
+    "answer": 0
   },
   {
     "id": 7,
@@ -116,7 +116,7 @@
       "It varies with frequency, crystal size and excitation voltage",
       "At 3 times the crystal diameter"
     ],
-    "answer": "B"
+    "answer": 1
   },
   {
     "id": 8,
@@ -132,7 +132,7 @@
       "N = (A²*4)/cf",
       "N = (A*f)/4c"
     ],
-    "answer": "B"
+    "answer": 1
   },
   {
     "id": 9,
@@ -148,7 +148,7 @@
       "The distance between adjacent elements centers",
       "The distance between adjacent elements"
     ],
-    "answer": "C"
+    "answer": 2
   },
   {
     "id": 10,
@@ -164,7 +164,7 @@
       "B scan",
       "C scan"
     ],
-    "answer": "A"
+    "answer": 0
   },
   {
     "id": 11,
@@ -180,7 +180,7 @@
       "Phased array probes are operating only with low frequencies (<4 MHz).",
       "Phased array probes cannot be used in an automatic testing facility."
     ],
-    "answer": "A"
+    "answer": 0
   },
   {
     "id": 12,
@@ -196,7 +196,7 @@
       "The size of the elements",
       "The grain structure of the component inspected"
     ],
-    "answer": "A"
+    "answer": 0
   },
   {
     "id": 13,
@@ -212,7 +212,7 @@
       "Lamellar graphite cast iron",
       "Aluminum plates"
     ],
-    "answer": "C"
+    "answer": 2
   },
   {
     "id": 14,
@@ -228,7 +228,7 @@
       "The ability to move the focal point by changing the shape of the transducer using piezoelectric properties",
       "In PA it is equivalent to Time Corrected Gain in conventional UT"
     ],
-    "answer": "B"
+    "answer": 1
   },
   {
     "id": 15,
@@ -244,7 +244,7 @@
       "The echo position",
       "The answers a) and b) are correct"
     ],
-    "answer": "D"
+    "answer": 3
   },
   {
     "id": 16,
@@ -260,7 +260,7 @@
       "A scan using the whole array to produce an electronic rastering scan",
       "A scan that inspects with a range of angles to cover a linear volume of material"
     ],
-    "answer": "B"
+    "answer": 1
   },
   {
     "id": 17,
@@ -276,7 +276,7 @@
       "A law that states which elements to excite, when they are excited, how long for, and which receive ultrasonic echoes",
       "A law that governs the physics of probe design"
     ],
-    "answer": "C"
+    "answer": 2
   },
   {
     "id": 18,
@@ -292,7 +292,7 @@
       "Has multiple elements in one axis and one element in the perpendicular axis",
       "All the elements are one dimension to eliminate grating lobes"
     ],
-    "answer": "C"
+    "answer": 2
   },
   {
     "id": 19,
@@ -308,7 +308,7 @@
       "If the focal factor is k=1",
       "If the sound beam is focused"
     ],
-    "answer": "B"
+    "answer": 1
   },
   {
     "id": 20,
@@ -324,7 +324,7 @@
       "Use modified shear waves",
       "Both a) and b) are correct"
     ],
-    "answer": "D"
+    "answer": 3
   },
   {
     "id": 21,
@@ -340,7 +340,7 @@
       "The length of the transducer in the active axis",
       "The electronic snapshot area along the path length that data is collected"
     ],
-    "answer": "B"
+    "answer": 1
   },
   {
     "id": 22,
@@ -356,7 +356,7 @@
       "Numerous separate ultrasonic probes that can be individually pulsed to offer electronic scanning, focused beams and angled inspections",
       "An ultrasonic crystal diced into elements that can be individually pulsed to offer electronic scanning, focused beams and angled inspections"
     ],
-    "answer": "D"
+    "answer": 3
   },
   {
     "id": 23,
@@ -372,7 +372,7 @@
       "0.48 cm",
       "0.000048 cm"
     ],
-    "answer": "A"
+    "answer": 0
   },
   {
     "id": 24,
@@ -388,7 +388,7 @@
       "Probe frequency",
       "Analogue to Digital digitising frequency"
     ],
-    "answer": "D"
+    "answer": 3
   },
   {
     "id": 25,
@@ -404,7 +404,7 @@
       "The pulses can be used for determining the half-value width",
       "Long pulses show a high velocity"
     ],
-    "answer": "A"
+    "answer": 0
   },
   {
     "id": 26,
@@ -420,7 +420,7 @@
       "The echo position",
       "The answers a) and b) are correct"
     ],
-    "answer": "D"
+    "answer": 3
   },
   {
     "id": 27,
@@ -436,7 +436,7 @@
       "Lamination in the base metal",
       "Lack of side wall fusion"
     ],
-    "answer": "D"
+    "answer": 3
   },
   {
     "id": 28,
@@ -452,7 +452,7 @@
       "Pulse duration of the pulser voltage",
       "Number of elements used"
     ],
-    "answer": "D"
+    "answer": 3
   },
   {
     "id": 29,
@@ -468,7 +468,7 @@
       "Losses due to sound attenuation",
       "Answers a) and c) are correct"
     ],
-    "answer": "D"
+    "answer": 3
   },
   {
     "id": 30,
@@ -484,7 +484,7 @@
       "Linear",
       "Both a) and b)"
     ],
-    "answer": "D"
+    "answer": 3
   },
   {
     "id": 31,
@@ -500,7 +500,7 @@
       "One for each pulser / receiver in the unit",
       "One for each element that can be addressed by the system"
     ],
-    "answer": "C"
+    "answer": 2
   },
   {
     "id": 32,
@@ -516,7 +516,7 @@
       "For each separate element",
       "All of the above"
     ],
-    "answer": "B"
+    "answer": 1
   },
   {
     "id": 33,
@@ -532,7 +532,7 @@
       "Azimuthal",
       "Dynamic depth focusing"
     ],
-    "answer": "B"
+    "answer": 1
   },
   {
     "id": 34,
@@ -548,7 +548,7 @@
       "Utilizing constructive interference to sum and concentrate energy in the required direction",
       "Using the piezo-electric effect to mechanically alter the direction of propagation"
     ],
-    "answer": "C"
+    "answer": 2
   },
   {
     "id": 35,
@@ -564,7 +564,7 @@
       "Because a SDH provides too low an echo response",
       "Both a and b"
     ],
-    "answer": "A"
+    "answer": 0
   },
   {
     "id": 36,
@@ -580,7 +580,7 @@
       "There is no practical near limit",
       "The near limit can be adjusted by focusing the probe"
     ],
-    "answer": "B"
+    "answer": 1
   },
   {
     "id": 37,
@@ -596,7 +596,7 @@
       "To correct for the attenuation due to varying times in the wedge",
       "All of the above"
     ],
-    "answer": "C"
+    "answer": 2
   },
   {
     "id": 38,
@@ -612,7 +612,7 @@
       "Depth-encoded C-scan",
       "P-scan"
     ],
-    "answer": "B"
+    "answer": 1
   },
   {
     "id": 39,
@@ -628,7 +628,7 @@
       "Accept/reject assessments made using the A-scans",
       "TCGs provide better dynamic range and avoid saturating signals"
     ],
-    "answer": "A"
+    "answer": 0
   },
   {
     "id": 40,
@@ -644,7 +644,7 @@
       "One for each pulser in the unit",
       "One for each element that can be addressed by the system"
     ],
-    "answer": "A"
+    "answer": 0
   },
   {
     "id": 41,
@@ -660,6 +660,6 @@
       "The focal spot size will decrease",
       "Grating lobes will be induced"
     ],
-    "answer": "B"
+    "answer": 1
   }
 ]

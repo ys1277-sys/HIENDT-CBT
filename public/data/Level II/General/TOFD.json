@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": 1,
     "level": "Level II",
@@ -11,7 +11,7 @@
       "Coupling status\n결합 상태",
       "Near surface resolution\n표면 근처의 분해능"
     ],
-    "answer": 3
+    "answer": 2
   },
   {
     "id": 2,
@@ -25,7 +25,7 @@
       "close to or on the surface\n표면에 가깝거나 표면",
       "three wavelengths below the surface\n표면아래 세개의 파장"
     ],
-    "answer": 3
+    "answer": 2
   },
   {
     "id": 3,
@@ -39,7 +39,7 @@
       "PCS too large\nPCS가 너무 큼",
       "Both a and b\na,b 둘 다"
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "id": 4,
@@ -53,7 +53,7 @@
       "Highly damped (broadband)\n높은 감쇠(광대역)",
       "Built-in electrical impedance matching circuits\n내장된 전기 임피던스 정합회로"
     ],
-    "answer": 4
+    "answer": 3
   },
   {
     "id": 5,
@@ -67,7 +67,7 @@
       "internal voids in diffusion bonds\n분산된 내부의 빈 공간",
       "thickness changes in heavy plate material\n두꺼운 판 재료로 바뀐 두께"
     ],
-    "answer": 1
+    "answer": 0
   },
   {
     "id": 6,
@@ -81,7 +81,7 @@
       "Both a and b\na와 b 둘 다",
       "None of the above, offset scans are not required in TOFD\n상기 모두 아니다, offset 스캔은 TOFD에서 요구되지 않는다"
     ],
-    "answer": 1
+    "answer": 0
   },
   {
     "id": 7,
@@ -95,7 +95,7 @@
       "To determine flaw length\n결함 길이 측정",
       "For Sequenced Analysis of Frequency Technique\n순차적 주파수 분석 기술"
     ],
-    "answer": 3
+    "answer": 2
   },
   {
     "id": 8,
@@ -109,7 +109,7 @@
       "Either a or b\na 또는 b 둘 중 하나",
       "None of the above\n상기 모두 아님"
     ],
-    "answer": 3
+    "answer": 2
   },
   {
     "id": 9,
@@ -123,7 +123,7 @@
       "Surface breaking flaw\n표면 결함",
       "Porosity\n기공"
     ],
-    "answer": 3
+    "answer": 2
   },
   {
     "id": 10,
@@ -137,7 +137,7 @@
       "Timebase\n시간축",
       "All of the above\n상기 모두"
     ],
-    "answer": 4
+    "answer": 3
   },
   {
     "id": 11,
@@ -151,7 +151,7 @@
       "Grain noise\n입자 잡음",
       "Any of the above may be used if suitable\n상기의 어떤 것도 적절한 경우 사용 가능"
     ],
-    "answer": 4
+    "answer": 3
   },
   {
     "id": 12,
@@ -165,7 +165,7 @@
       "3개",
       "4개"
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "id": 13,
@@ -179,7 +179,7 @@
       "Damping and ring-time\n댐핑과 링타임",
       "All of the above should be matched\n상기 모든 것이 맞아야 한다"
     ],
-    "answer": 4
+    "answer": 3
   },
   {
     "id": 14,
@@ -193,7 +193,7 @@
       "20-24dB",
       "22° half-angle"
     ],
-    "answer": 3
+    "answer": 2
   },
   {
     "id": 15,
@@ -207,7 +207,7 @@
       "Both a and b can account for this\na와 b 모두 해당",
       "None of the above, lateral waves are always seen\n상기 모두 아니다"
     ],
-    "answer": 3
+    "answer": 2
   },
   {
     "id": 16,
@@ -221,7 +221,7 @@
       "When the upper and lower tip signals are not resolved\n상부와 하부 끝단 신호가 분석되지 않을 때",
       "Never, TOFD is always the best option\n없음"
     ],
-    "answer": 3
+    "answer": 2
   },
   {
     "id": 17,
@@ -235,7 +235,7 @@
       ">80%",
       "5MHz"
     ],
-    "answer": 3
+    "answer": 2
   },
   {
     "id": 18,
@@ -249,7 +249,7 @@
       "Indication phase\n결함 상",
       "Refracted angle\n굴절각"
     ],
-    "answer": 1
+    "answer": 0
   },
   {
     "id": 19,
@@ -263,7 +263,7 @@
       "increases\n증가한다",
       "varies uniformly through each wavelength\n파장마다 균일하게 변화한다"
     ],
-    "answer": 1
+    "answer": 0
   },
   {
     "id": 20,
@@ -277,7 +277,7 @@
       "Flaw length measurement\n결함 길이 측정",
       "No reason at all\n특별한 이유 없음"
     ],
-    "answer": 3
+    "answer": 2
   },
   {
     "id": 21,
@@ -291,7 +291,7 @@
       "Missed flaw due to poor divergence\n분산 부족으로 인한 결함 누락",
       "All of the above\n상기 모두"
     ],
-    "answer": 4
+    "answer": 3
   },
   {
     "id": 22,
@@ -305,7 +305,7 @@
       "The amplitude response from side drilled holes at two different depths\n서로 다른 깊이의 측면공 진폭 응답",
       "The ID and OD Vee notch diffractor signals\nID와 OD Vee notch 회절 신호"
     ],
-    "answer": 1
+    "answer": 0
   },
   {
     "id": 23,
@@ -319,7 +319,7 @@
       "The flaw depth calculated is not affected by geometry\n계산된 깊이는 형상의 영향을 받지 않는다",
       "It is not possible to correct for this geometric effect\n보정 불가능"
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "id": 24,
@@ -333,7 +333,7 @@
       "The flaw depth calculated is not affected by geometry\n계산된 깊이는 형상의 영향을 받지 않는다",
       "It is not possible to correct for this geometric effect\n보정 불가능"
     ],
-    "answer": 1
+    "answer": 0
   },
   {
     "id": 25,
@@ -347,7 +347,7 @@
       "Concave root\n오목 루트",
       "Any of the above\n상기 모두"
     ],
-    "answer": 4
+    "answer": 3
   },
   {
     "id": 26,
@@ -361,7 +361,7 @@
       "PCS too large\nPCS가 너무 큼",
       "Testing at temperature of 80℃\n80℃ 검사 온도"
     ],
-    "answer": 3
+    "answer": 2
   },
   {
     "id": 27,
@@ -375,7 +375,7 @@
       "Transverse waves\n횡파",
       "Lamb waves\n판파"
     ],
-    "answer": 4
+    "answer": 3
   },
   {
     "id": 28,
@@ -389,7 +389,7 @@
       "95mm",
       "104mm"
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "id": 29,
@@ -403,7 +403,7 @@
       "48.26μs",
       "50.30μs"
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "id": 30,
@@ -417,7 +417,7 @@
       "Measurement of a material’s size\n재료 크기 측정",
       "All of the above\n상기 모두"
     ],
-    "answer": 4
+    "answer": 3
   },
   {
     "id": 31,
@@ -431,7 +431,7 @@
       "Encoder pulses\n엔코더 펄스",
       "The lateral wave arrival time\n횡파 도달 시간"
     ],
-    "answer": 3
+    "answer": 2
   },
   {
     "id": 32,
@@ -445,7 +445,7 @@
       "An off-set scan\nOffset scan",
       "A substitute for a parallel scan\n평행 스캔의 대체"
     ],
-    "answer": 3
+    "answer": 2
   },
   {
     "id": 33,
@@ -459,7 +459,7 @@
       "500mm",
       "600mm"
     ],
-    "answer": 3
+    "answer": 2
   },
   {
     "id": 34,
@@ -473,7 +473,7 @@
       "For welds >100mm thick, images greater than 0.05t or 19mm shall be investigated\n100mm 초과 용접부에서 기준 초과 이미지 조사",
       "All of the above\n상기 모두"
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "id": 35,
@@ -487,7 +487,7 @@
       "2mm",
       "4mm"
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "id": 36,
@@ -501,7 +501,7 @@
       "Flaw Sizing and Flaw Detection\n결함 크기 측정 및 검출",
       "For Flaw Detection\n결함 검출"
     ],
-    "answer": 3
+    "answer": 2
   },
   {
     "id": 37,
@@ -515,7 +515,7 @@
       "Amplitude of echo height\n에코 높이 진폭",
       "Diffraction signals at crack edges\n균열 끝단 회절 신호"
     ],
-    "answer": 4
+    "answer": 3
   },
   {
     "id": 38,
@@ -529,7 +529,7 @@
       "Narrow Bandwidth\n좁은 대역폭",
       "High Bandwidth\n넓은 대역폭"
     ],
-    "answer": 4
+    "answer": 3
   },
   {
     "id": 39,
@@ -543,7 +543,7 @@
       "Near and Far surface\n근거리 및 원거리 표면",
       "In the wall center\n벽 중앙"
     ],
-    "answer": 3
+    "answer": 2
   },
   {
     "id": 40,
@@ -557,6 +557,6 @@
       "C-SCAN",
       "D-SCAN"
     ],
-    "answer": 2
+    "answer": 1
   }
 ]

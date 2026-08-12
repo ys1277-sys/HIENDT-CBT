@@ -12,7 +12,7 @@
       "the American Society of Mechanical Engineers",
       "the SNT-TC-1A Interpretation Panel"
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "id": 2,
@@ -27,7 +27,7 @@
       "the employer's written practice",
       "the American National Standard for Nondestructive Testing"
     ],
-    "answer": 3
+    "answer": 2
   },
   {
     "id": 3,
@@ -42,7 +42,7 @@
       "at least some experience in Level III",
       "arbitrarily determined based by examination scores"
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "id": 4,
@@ -57,7 +57,7 @@
       "20%",
       "25%"
     ],
-    "answer": 4
+    "answer": 3
   },
   {
     "id": 5,
@@ -72,7 +72,7 @@
       "the sum of hours of training required for Level I and Level II",
       "an irrelevant factor"
     ],
-    "answer": 3
+    "answer": 2
   },
   {
     "id": 6,
@@ -87,7 +87,7 @@
       "Only an NDT Level III individual",
       "An NDT Level III individual or his selected representative"
     ],
-    "answer": 4
+    "answer": 3
   },
   {
     "id": 7,
@@ -102,7 +102,7 @@
       "ASNT recommended practice",
       "the project contract"
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "id": 8,
@@ -117,7 +117,7 @@
       "Three of four work assignments",
       "The teaching laboratory"
     ],
-    "answer": 1
+    "answer": 0
   },
   {
     "id": 9,
@@ -132,7 +132,7 @@
       "based on procedural requirements only",
       "similar to Level I exam, but more complex"
     ],
-    "answer": 4
+    "answer": 3
   },
   {
     "id": 10,
@@ -147,7 +147,7 @@
       "8",
       "10"
     ],
-    "answer": 1
+    "answer": 0
   },
   {
     "id": 11,
@@ -162,7 +162,7 @@
       "10 months",
       "12 months"
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "id": 12,
@@ -177,7 +177,7 @@
       "will certify that his teaching and testing staff are NDT Level III technicians",
       "may delegate this responsibility to a duly selected and recorded representative"
     ],
-    "answer": 4
+    "answer": 3
   },
   {
     "id": 13,
@@ -192,7 +192,7 @@
       "90 percent",
       "95 percent"
     ],
-    "answer": 1
+    "answer": 0
   },
   {
     "id": 14,
@@ -207,7 +207,7 @@
       "The American Society of Mechanical Engineers",
       "The original test administrator"
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "id": 15,
@@ -222,7 +222,7 @@
       "an inflexible qualification and certification program",
       "the capabilities of the persons who are responsible for and carry out nondestructive testing"
     ],
-    "answer": 4
+    "answer": 3
   },
   {
     "id": 16,
@@ -237,7 +237,7 @@
       "inform NDT personnel of innovative operational methods",
       "create an interest in the American Society for Nondestructive Testing"
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "id": 17,
@@ -252,7 +252,7 @@
       "modify them to meet his particular needs",
       "file the guidelines for application to those programs contained therein"
     ],
-    "answer": 3
+    "answer": 2
   },
   {
     "id": 18,
@@ -267,7 +267,7 @@
       "if an employee has not worked in the method for which certified within the past six months",
       "when an employee leaves the employer where he had been certified"
     ],
-    "answer": 4
+    "answer": 3
   },
   {
     "id": 19,
@@ -282,7 +282,7 @@
       "should be submitted to ASNT for approval",
       "is a mandatory requirement of the U.S. government"
     ],
-    "answer": 1
+    "answer": 0
   },
   {
     "id": 20,
@@ -297,7 +297,7 @@
       "4",
       "5"
     ],
-    "answer": 3
+    "answer": 2
   },
   {
     "id": 21,
@@ -312,7 +312,7 @@
       "subject to cyclic, vibratory, or stress reversal loads",
       "loaded in constant tension"
     ],
-    "answer": 3
+    "answer": 2
   },
   {
     "id": 22,
@@ -327,7 +327,7 @@
       "hardening",
       "annealing"
     ],
-    "answer": 4
+    "answer": 3
   },
   {
     "id": 23,
@@ -342,7 +342,7 @@
       "Both a and b",
       "None of the above"
     ],
-    "answer": 3
+    "answer": 2
   },
   {
     "id": 24,
@@ -357,7 +357,7 @@
       "Whatever gap comes up",
       "Any fit accepted by welder"
     ],
-    "answer": 1
+    "answer": 0
   },
   {
     "id": 25,
@@ -372,7 +372,7 @@
       "By heating and quenching in water",
       "By heating to designated temperature and cooling uniformly"
     ],
-    "answer": 4
+    "answer": 3
   },
   {
     "id": 26,
@@ -387,7 +387,7 @@
       "Applying acid before welding",
       "Heating the surface"
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "id": 27,
@@ -402,7 +402,7 @@
       "Rust",
       "All of the above"
     ],
-    "answer": 4
+    "answer": 3
   },
   {
     "id": 28,
@@ -417,7 +417,7 @@
       "It causes laminations",
       "It causes distortion"
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "id": 29,
@@ -432,7 +432,7 @@
       "Delamination and lamellar tears",
       "Cracks and laps"
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "id": 30,
@@ -447,7 +447,7 @@
       "There should be no distinction between discontinuities and defects",
       "All discontinuities are defects"
     ],
-    "answer": 1
+    "answer": 0
   },
   {
     "id": 31,
@@ -462,7 +462,7 @@
       "Conditions set down in the acceptance standard, code, or specification",
       "Previous inspection results"
     ],
-    "answer": 3
+    "answer": 2
   },
   {
     "id": 32,
@@ -477,7 +477,7 @@
       "Both a and b",
       "Atmospheric oxygen only"
     ],
-    "answer": 3
+    "answer": 2
   },
   {
     "id": 33,
@@ -492,7 +492,7 @@
       "Porosity and inclusions are the same",
       "There is no difference"
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "id": 34,
@@ -507,7 +507,7 @@
       "All run perpendicular to the surface",
       "All occur only in weld metal"
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "id": 35,
@@ -522,7 +522,7 @@
       "Inspection of the repair process",
       "Final inspection only"
     ],
-    "answer": 1
+    "answer": 0
   },
   {
     "id": 36,
@@ -537,7 +537,7 @@
       "All defects will lead to failure",
       "There is no difference"
     ],
-    "answer": 1
+    "answer": 0
   },
   {
     "id": 37,
@@ -552,7 +552,7 @@
       "Fracture mechanics testing",
       "Visual examination"
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "id": 38,
@@ -567,7 +567,7 @@
       "Elastic deformation",
       "Plastic flow"
     ],
-    "answer": 4
+    "answer": 3
   },
   {
     "id": 39,
@@ -582,7 +582,7 @@
       "Reducing the grain size",
       "Increasing residual stress"
     ],
-    "answer": 1
+    "answer": 0
   },
   {
     "id": 40,
@@ -597,7 +597,7 @@
       "The presence of carbon in excess of 2.5%",
       "Both a and b"
     ],
-    "answer": 4
+    "answer": 3
   },
   {
     "id": 41,
@@ -612,7 +612,7 @@
       "Oxy-acetylene welding",
       "Gas-metal arc welding"
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "id": 42,
@@ -627,7 +627,7 @@
       "Cracking after cooling",
       "All of the above"
     ],
-    "answer": 4
+    "answer": 3
   },
   {
     "id": 43,
@@ -642,7 +642,7 @@
       "Create grains identical to base metal",
       "Increase welding speed"
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "id": 44,
@@ -657,7 +657,7 @@
       "Flux-coated welding rod",
       "Shielding gas"
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "id": 45,
@@ -672,7 +672,7 @@
       "Amount of spot toughness",
       "Amount of hardening"
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "id": 46,
@@ -687,7 +687,7 @@
       "Gamma radiation",
       "None of the above"
     ],
-    "answer": 1
+    "answer": 0
   },
   {
     "id": 47,
@@ -702,7 +702,7 @@
       "Simple if defect width can be approximated",
       "More of a problem than surface defects"
     ],
-    "answer": 3
+    "answer": 2
   },
   {
     "id": 48,
@@ -717,7 +717,7 @@
       "Nonuniform flow lines",
       "Nonuniform solidification"
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "id": 49,
@@ -732,7 +732,7 @@
       "After all operations regardless of type",
       "Immediately prior to shipping"
     ],
-    "answer": 1
+    "answer": 0
   },
   {
     "id": 50,
@@ -747,7 +747,7 @@
       "Detection of surface and slightly subsurface discontinuities",
       "All of the above"
     ],
-    "answer": 4
+    "answer": 3
   },
   {
     "id": 51,
@@ -762,7 +762,7 @@
       "Inspecting small stainless steel valve assemblies for rubber O-ring seals",
       "Inspecting aluminum castings for core shift"
     ],
-    "answer": 3
+    "answer": 2
   },
   {
     "id": 52,
@@ -777,7 +777,7 @@
       "Halogen diode detector test",
       "Mass spectrometer test"
     ],
-    "answer": 3
+    "answer": 2
   },
   {
     "id": 53,
@@ -792,7 +792,7 @@
       "Both equally sensitive",
       "Magnetic particle"
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "id": 54,
@@ -807,7 +807,7 @@
       "Most accurate means of detecting all discontinuities",
       "All of the above"
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "id": 55,
@@ -822,6 +822,6 @@
       "Nitrogen dioxide",
       "Nitrous oxide"
     ],
-    "answer": 4
+    "answer": 3
   }
 ]

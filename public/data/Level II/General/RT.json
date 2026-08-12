@@ -11,7 +11,7 @@
       "C. both A and B above (위 A, B 모두)",
       "D. neither A nor B above (위 A, B 모두 아니다)"
     ],
-    "answer": "C"
+    "answer": 2
   },
   {
     "id": 2,
@@ -25,7 +25,7 @@
       "C. 6.4 minutes (6.4분)",
       "D. 8.8 minutes (8.8분)"
     ],
-    "answer": "B"
+    "answer": 1
   },
   {
     "id": 3,
@@ -39,7 +39,7 @@
       "C. static charges caused by friction (마찰에 의한 정전기)",
       "D. inadequate rinsing after fixing (정착 후 불충분한 세척)"
     ],
-    "answer": "C"
+    "answer": 2
   },
   {
     "id": 4,
@@ -53,7 +53,7 @@
       "C. greater amounts of scatter radiation relative to primary beam intensity (일차 빔 대비 산란 방사선 증가)",
       "D. none of the above (해당 없음)"
     ],
-    "answer": "B"
+    "answer": 1
   },
   {
     "id": 5,
@@ -67,7 +67,7 @@
       "C. provide the most readily adjusted means of modifying X-ray intensity (X선 강도 조절 수단 제공)",
       "D. filter out soft radiation to provide a more homogeneous X-ray beam (연한 방사선을 제거하여 균일한 빔 생성)"
     ],
-    "answer": "D"
+    "answer": 3
   },
   {
     "id": 6,
@@ -81,7 +81,7 @@
       "C. 10 mil thick steel (10mil 철)",
       "D. 2 mil strip of any metallic material (2mil 금속 스트립)"
     ],
-    "answer": "C"
+    "answer": 2
   },
   {
     "id": 7,
@@ -95,7 +95,7 @@
       "C. by absorbing backscatter radiation (후방 산란 흡수)",
       "D. by decreasing the intensity of the beam (빔 강도 감소)"
     ],
-    "answer": "A"
+    "answer": 0
   },
   {
     "id": 8,
@@ -109,7 +109,7 @@
       "C. permit the use of higher speed film (고속 필름 사용 가능)",
       "D. decrease graininess in a radiograph (입도 감소)"
     ],
-    "answer": "B"
+    "answer": 1
   },
   {
     "id": 9,
@@ -123,7 +123,7 @@
       "C. latitude of a radiograph (방사선 허용도)",
       "D. definition of a radiograph (선명도)"
     ],
-    "answer": "C"
+    "answer": 2
   },
   {
     "id": 10,
@@ -137,7 +137,7 @@
       "C. Radium (라듐)",
       "D. Thulium-170 (Tm-170)"
     ],
-    "answer": "B"
+    "answer": 1
   },
   {
     "id": 11,
@@ -151,7 +151,7 @@
       "C. 1 roentgen per minute (1R/min)",
       "D. 10 milliroentgens per hour (10mR/h)"
     ],
-    "answer": "A"
+    "answer": 0
   },
   {
     "id": 12,
@@ -165,7 +165,7 @@
       "C. rectifier (정류기)",
       "D. X-ray transformer (X선 변압기)"
     ],
-    "answer": "B"
+    "answer": 1
   },
   {
     "id": 13,
@@ -179,7 +179,7 @@
       "C. 1 roentgen (1R)",
       "D. 1 curie (1Ci)"
     ],
-    "answer": "C"
+    "answer": 2
   },
   {
     "id": 14,
@@ -193,7 +193,7 @@
       "C. Iridium-192 (Ir-192)",
       "D. Cesium-137 (Cs-137)"
     ],
-    "answer": "D"
+    "answer": 3
   },
   {
     "id": 15,
@@ -207,7 +207,7 @@
       "C. short wavelength X-rays (짧은 파장 X선)",
       "D. heat (열)"
     ],
-    "answer": "D"
+    "answer": 3
   },
   {
     "id": 16,
@@ -221,7 +221,7 @@
       "C. high speed (높은 속도)",
       "D. none of the above (해당 없음)"
     ],
-    "answer": "B"
+    "answer": 1
   },
   {
     "id": 17,
@@ -235,7 +235,7 @@
       "C. less contrast (낮은 명암도)",
       "D. greater film density (높은 필름 농도)"
     ],
-    "answer": "B"
+    "answer": 1
   },
   {
     "id": 18,
@@ -249,7 +249,7 @@
       "C. decrease the wavelength of radiation used (사용 방사선 파장 감소)",
       "D. increase development time within recommendations (현상 시간 증가)"
     ],
-    "answer": "C"
+    "answer": 2
   },
   {
     "id": 19,
@@ -263,7 +263,7 @@
       "C. 250,000,000 volts rms voltage (250,000,000V RMS)",
       "D. 250 KV average voltage (250KV 평균 전압)"
     ],
-    "answer": "A"
+    "answer": 0
   },
   {
     "id": 20,
@@ -277,7 +277,7 @@
       "C. 5 mils (0.005 inch)",
       "D. 50 mils (0.05 inch)"
     ],
-    "answer": "D"
+    "answer": 3
   },
   {
     "id": 21,
@@ -291,7 +291,7 @@
       "C. cooling by means of external fanned radiators (외부 방열기)",
       "D. cooling by circulation of water or oil in the anode (양극 내부 물 또는 오일 순환)"
     ],
-    "answer": "D"
+    "answer": 3
   },
   {
     "id": 22,
@@ -305,7 +305,7 @@
       "C. to generate smaller wavelength X-radiation (짧은 파장 X선 생성)",
       "D. to decrease the effect of scattered radiation undercutting the specimen (산란 방사선에 의한 언더컷 감소)"
     ],
-    "answer": "D"
+    "answer": 3
   },
   {
     "id": 23,
@@ -319,7 +319,7 @@
       "C. 15 MeV X-ray betatron (15MeV X선 베타트론)",
       "D. electrons from iridium-192 (Ir-192 전자)"
     ],
-    "answer": "C"
+    "answer": 2
   },
   {
     "id": 24,
@@ -333,7 +333,7 @@
       "C. Beryllium (베릴륨)",
       "D. Lead (납)"
     ],
-    "answer": "B"
+    "answer": 1
   },
   {
     "id": 25,
@@ -347,7 +347,7 @@
       "C. target (표적)",
       "D. cathode (음극)"
     ],
-    "answer": "C"
+    "answer": 2
   },
   {
     "id": 26,
@@ -361,7 +361,7 @@
       "C. Iridium-192 (Ir-192)",
       "D. Cesium-137 (Cs-137)"
     ],
-    "answer": "A"
+    "answer": 0
   },
   {
     "id": 27,
@@ -375,7 +375,7 @@
       "C. 9 inches of steel or equivalent",
       "D. 11 inches of steel or equivalent"
     ],
-    "answer": "C"
+    "answer": 2
   },
   {
     "id": 28,
@@ -389,7 +389,7 @@
       "C. spots (반점)",
       "D. white scum (흰 얼룩)"
     ],
-    "answer": "A"
+    "answer": 0
   },
   {
     "id": 29,
@@ -403,7 +403,7 @@
       "C. About 31 percent longer",
       "D. About 62 to 100 percent longer"
     ],
-    "answer": "C"
+    "answer": 2
   },
   {
     "id": 30,
@@ -417,7 +417,7 @@
       "C. 1 hour and 20 minutes",
       "D. 6 hours"
     ],
-    "answer": "C"
+    "answer": 2
   },
   {
     "id": 31,
@@ -431,7 +431,7 @@
       "C. the size of the focal spot decreases (초점 크기 감소)",
       "D. the thickness of the specimen decreases (시험물 두께 감소)"
     ],
-    "answer": "B"
+    "answer": 1
   },
   {
     "id": 32,
@@ -445,7 +445,7 @@
       "C. the source-to-object distance (선원과 시험물 거리)",
       "D. the material used as a target (표적 재질)"
     ],
-    "answer": "A"
+    "answer": 0
   },
   {
     "id": 33,
@@ -459,7 +459,7 @@
       "C. have higher speeds than those with small grain size (작은 입자보다 속도가 빠르다)",
       "D. will take longer to expose properly (적정 노출 시간이 더 길다)"
     ],
-    "answer": "C"
+    "answer": 2
   },
   {
     "id": 34,
@@ -473,7 +473,7 @@
       "C. radiographic definition increases (방사선 사진 선명도 증가)",
       "D. film speed decreases (필름 속도 감소)"
     ],
-    "answer": "A"
+    "answer": 0
   },
   {
     "id": 35,
@@ -487,7 +487,7 @@
       "C. film should be as far as possible from the object",
       "D. central ray should be as nearly perpendicular to film as possible"
     ],
-    "answer": "D"
+    "answer": 3
   },
   {
     "id": 36,
@@ -501,7 +501,7 @@
       "C. both A and B above (A와 B 모두)",
       "D. neither A nor B (둘 다 아님)"
     ],
-    "answer": "C"
+    "answer": 2
   },
   {
     "id": 37,
@@ -515,7 +515,7 @@
       "C. kilovoltage is decreased (전압 감소)",
       "D. a filter is used (필터 사용)"
     ],
-    "answer": "A"
+    "answer": 0
   },
   {
     "id": 38,
@@ -529,7 +529,7 @@
       "C. used to determine radiographic contrast (방사선 명암 결정)",
       "D. the exposure factor (노출 인자)"
     ],
-    "answer": "D"
+    "answer": 3
   },
   {
     "id": 39,
@@ -543,7 +543,7 @@
       "C. distance from anode to cathode (양극-음극 거리)",
       "D. high-voltage waveform (고전압 파형)"
     ],
-    "answer": "B"
+    "answer": 1
   },
   {
     "id": 40,
@@ -557,6 +557,6 @@
       "C. filter scatter radiation (산란 방사선 여과)",
       "D. soften X-radiation (X선 연화)"
     ],
-    "answer": "A"
+    "answer": 0
   }
 ]

@@ -90,7 +90,6 @@
     ],
     "answer": 2
   },
-
   {
     "id": 8,
     "category": "T",
@@ -104,7 +103,6 @@
     ],
     "answer": 1
   },
-
   {
     "id": 9,
     "category": "T",
@@ -118,7 +116,6 @@
     ],
     "answer": 1
   },
-
   {
     "id": 10,
     "category": "T",
@@ -394,19 +391,6 @@
   },
   {
     "id": 31,
-    "category": "A",
-    "question": "According to ASME Sec.I PW-52 Nonmandatory Appendix E, determine acceptance for the given weld indication.",
-    "question_kr": "ASME Sec.I PW-52 Nonmandatory Appendix E 적용 시 합격 여부?",
-    "options": [
-      "Accept",
-      "Reject",
-      "Re-examination required",
-      "Not applicable"
-    ],
-    "answer": 1
-  },
-  {
-    "id": 32,
     "category": "E",
     "question": "What is the purpose of SAFT DSP on TOFD displays?",
     "question_kr": "TOFD 화면에서 SAFT DSP의 목적은?",
@@ -417,6 +401,19 @@
       "Sequenced Analysis of Frequency Technique"
     ],
     "answer": 2
+  },
+  {
+    "id": 32,
+    "category": "A",
+    "question": "According to ASME Sec.I PW-52 Nonmandatory Appendix E, determine acceptance for the given weld indication.",
+    "question_kr": "ASME Sec.I PW-52 Nonmandatory Appendix E 적용 시 합격 여부?",
+    "options": [
+      "Accept",
+      "Reject",
+      "Re-examination required",
+      "Not applicable"
+    ],
+    "answer": 1
   },
   {
     "id": 33,
@@ -433,32 +430,6 @@
   },
   {
     "id": 34,
-    "category": "T,E",
-    "question": "Hyperbolic curves are used for what purpose in TOFD displays?",
-    "question_kr": "TOFD 표시에서 쌍곡선 커브의 목적은?",
-    "options": [
-      "Flaw height sizing",
-      "Flaw depth determination",
-      "Flaw length measurement",
-      "No reason at all"
-    ],
-    "answer": 2
-  },
-  {
-    "id": 35,
-    "category": "T",
-    "question": "When inspecting the long seam of cylindrical vessel with probes positioned either side of the weld on the OD surface, what correction for depth is required?",
-    "question_kr": "원통형 용기 OD 표면 TOFD 검사 시 깊이 보정은?",
-    "options": [
-      "Decrease flaw depth by probe elevations",
-      "Increase flaw depth by probe elevations",
-      "Calculated depth is not affected",
-      "Geometry correction is impossible"
-    ],
-    "answer": 1
-  },
-  {
-    "id": 36,
     "category": "A,S",
     "question": "What kind of defect is unacceptable regardless of length according to ASME B31.1 Code Case 179 and HIE-NDT-U09?",
     "question_kr": "길이에 관계없이 불합격되는 결함은?",
