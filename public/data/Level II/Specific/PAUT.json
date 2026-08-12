@@ -358,5 +358,18 @@
       "33.6\n*ASME Sec. V Art 4 , ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179를 반영한, PAUT 절차서 HIE-NDT-PAUT-P11(Rev.2)를 이용하여 다음 물음에 답하시오.(question No. 18~30)"
     ],
     "answer": 2
+  },
+  {
+    "id": 25,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "Specific",
+    "source": "PAUTSpec-II-A-type(2014)",
+    "question": "용접부 검사에서 다음과 같은 결과를 얻었다. ASME Sec. I, PW-52의 Nonmandatory Appendix E를 적용할 때, 합격인가 불합격인가? 24mm slag 7mm 2mm 4mm UT2(PAUT) - Specific Answers -한공 ‘A' 1 2 3 4 5 6 7 8 9 10 a b c c c d d b b b 11 12 13 14 15 16 17 18 19 20 c a c c b b b c a d 21 22 23 24 25 26 27 28 29 30 d c a c c d c b d d 31 31) a/t = 1/24 = 0.0417, l = 7mm\n두께 결함종류 결함길이(l) 결함높이(h) 표면에서 결함 상단 tip까지의 길이(a) 불합격 해당 년도 및 Rev. 확인후 사용.",
+    "options": [
+      "합격",
+      "불합격"
+    ],
+    "answer": 1
   }
 ]

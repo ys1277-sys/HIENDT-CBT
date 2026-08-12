@@ -500,5 +500,20 @@
       "1.8, 2.0 HD"
     ],
     "answer": 3
+  },
+  {
+    "level": "Level II",
+    "method": "RT",
+    "category": "Specific",
+    "source": "보류분 객관식화",
+    "question": "What is the recommended guide book for establishing NDE personnel qualification program in case of ASME B & PV Code Sec.Ⅷ Div.1 & Div.2?\nASME Code Sec.Ⅷ Div.1 및 Div.2의 경우 NDE 종사원 자격심사 규정 수립에 권장되는 지침서는?",
+    "options": [
+      "SNT-TC-1A",
+      "CP-189",
+      "ISO 9712",
+      "EN 473"
+    ],
+    "answer": 0,
+    "id": 35
   }
 ]

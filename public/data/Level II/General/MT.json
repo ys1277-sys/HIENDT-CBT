@@ -621,5 +621,20 @@
       "P L.F\nSLAG\nC\nB\nB,C,E\nC\nC\n문제\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n해답\nB,C,D\nC\nD\nB\nB\nC\nC\nB\nC\nD\n문제\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n해답\nA\nD\nC\nA\nD\nD\nC\nC\nB\nC"
     ],
     "answer": 2
+  },
+  {
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "보류분 객관식화",
+    "question": "List four discontinuities found in welds.\n용접물에서 찾을 수 있는 불연속 4가지는?",
+    "options": [
+      "Crack, Porosity, Incomplete penetration / Lack of fusion, Slag\n균열, 기공, 용입부족 / 융합부족, 슬래그",
+      "Lamination, Cold shut, Hot tear, Shrinkage\n라미네이션, 냉간접힘, 열간균열, 수축",
+      "Seam, Lap, Flake, Burst\n심, 겹침, 플레이크, 파열",
+      "Segregation, Inclusion, Pipe, Blowhole\n편석, 개재물, 파이프, 블로홀"
+    ],
+    "answer": 0,
+    "id": 41
   }
 ]

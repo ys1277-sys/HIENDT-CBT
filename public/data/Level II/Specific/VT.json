@@ -388,5 +388,50 @@
       "ASME Sec. Ⅺ \n* Answers to questions 27 through 28 shall use the supplement ASME B31.1(2024 Edition.)"
     ],
     "answer": 3
+  },
+  {
+    "level": "Level II",
+    "method": "VT",
+    "category": "Specific",
+    "source": "보류분 객관식화",
+    "question": "At the completed welds in piping, the maximum acceptable depth of undercut is :\n용접이 완료된 배관에서 최대 허용 언더컷의 깊이는?",
+    "options": [
+      "1/32 in.",
+      "1/16 in.",
+      "3/32 in.",
+      "1/8 in."
+    ],
+    "answer": 0,
+    "id": 27
+  },
+  {
+    "level": "Level II",
+    "method": "VT",
+    "category": "Specific",
+    "source": "보류분 객관식화",
+    "question": "At 1\" thickness of girth butt welded piping joint for 200℃ design temperature, the maximum acceptable height of reinforcement is :\n설계온도 200℃, 두께 1인치 배관 원주 맞대기 용접부의 최대 허용 보강 높이는?",
+    "options": [
+      "1/8 in.",
+      "3/16 in.",
+      "1/4 in.",
+      "5/16 in."
+    ],
+    "answer": 1,
+    "id": 28
+  },
+  {
+    "level": "Level II",
+    "method": "VT",
+    "category": "Specific",
+    "source": "보류분 객관식화",
+    "question": "For 2\" thickness of welded joint, the maximum allowable offset in welded joint is :\n2인치 두께의 용접부에서 최대 허용 치우침은?",
+    "options": [
+      "1/16 in.",
+      "3/32 in.",
+      "1/8 in.",
+      "3/16 in."
+    ],
+    "answer": 2,
+    "id": 29
   }
 ]

@@ -284,5 +284,59 @@
       "none of the above (해당사항 없음)\n* Refer to HIE-NDT-PT-P6A(SKB) written in accordance with API 6A and answer question No.10～11.\n (API 6A에 따라 작성된 HIE-NDT-PT-P6A(SKB)를 참고하여 10～11번 물음에 답하시오.)"
     ],
     "answer": 1
+  },
+  {
+    "level": "Level II",
+    "method": "PT",
+    "category": "Specific",
+    "source": "보류분 객관식화",
+    "question": "Only 5/32\" rounded indication was found on forgings of which thickness is 1\". Is it acceptable? (Ref. : Sec.Ⅲ subsec. NB)\n1인치 두께의 단조물에서 5/32인치의 원형지시가 발견되었다. 이것은 합격인가?",
+    "options": [
+      "Accept\n합격",
+      "Reject\n불합격"
+    ],
+    "answer": 0,
+    "id": 21
+  },
+  {
+    "level": "Level II",
+    "method": "PT",
+    "category": "Specific",
+    "source": "보류분 객관식화",
+    "question": "When doing liquid penetrant examination on weld edge preparation, 3/4\" laminar type discontinuities are found. Is this acceptable? (Ref. : Sec.Ⅲ subsec. NB)\n용접 개선 부위에 침투탐상검사를 하여 3/4인치의 라미나 형태 불연속이 발견되었다. 합격인가?",
+    "options": [
+      "Accept\n합격",
+      "Reject\n불합격"
+    ],
+    "answer": 0,
+    "id": 22
+  },
+  {
+    "level": "Level II",
+    "method": "PT",
+    "category": "Specific",
+    "source": "보류분 객관식화",
+    "question": "Surface preparation before liquid penetrant examination : shot or sand blasting can be used.\n침투탐상검사 전 표면처리로 숏 또는 샌드 블라스팅을 사용할 수 있다.",
+    "options": [
+      "True\n맞다",
+      "False\n틀리다"
+    ],
+    "answer": 1,
+    "id": 23
+  },
+  {
+    "level": "Level II",
+    "method": "PT",
+    "category": "Specific",
+    "source": "보류분 객관식화",
+    "question": "How is the penetrant applied?\n침투액의 적용 방법은?",
+    "options": [
+      "Brushing, spraying or dipping\n솔질, 분무 또는 침적",
+      "Brushing only\n솔질만",
+      "Spraying only\n분무만",
+      "Wiping with cloth only\n천으로 닦기만"
+    ],
+    "answer": 0,
+    "id": 24
   }
 ]

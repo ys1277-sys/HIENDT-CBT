@@ -346,5 +346,48 @@
       "70°"
     ],
     "answer": 1
+  },
+  {
+    "id": 24,
+    "level": "Level II",
+    "method": "UT",
+    "category": "Specific",
+    "source": "UTS-II(2020)(A)",
+    "question": "Discontinuity A is interpreted as slag inclusion with 3mm in height, 6mm in length, 50 reference level in amplitude. Is it acceptable(ref : ASME B31.1)?\n불연속 A는 길이 6mm 높이 3mm 증폭 감도 수준이 제 1차 감도 수준의 50%인 스래그로 판단된다. 이것은 합격이냐?",
+    "options": [
+      "합격",
+      "불합격"
+    ],
+    "answer": 0
+  },
+  {
+    "level": "Level II",
+    "method": "UT",
+    "category": "Specific",
+    "source": "보류분 객관식화",
+    "question": "A ______ hole shall be used as a calibration reflector to establish a primary reference response of the equipment.\n______ 구멍이 제1차 표준 감도 설정을 위해 이용되어야 한다.",
+    "options": [
+      "¼T",
+      "½T",
+      "¾T",
+      "1T"
+    ],
+    "answer": 0,
+    "id": 25
+  },
+  {
+    "level": "Level II",
+    "method": "UT",
+    "category": "Specific",
+    "source": "보류분 객관식화",
+    "question": "In a water immersion test, ultrasonic energy is transmitted into steel at an incident angle of 14°. What is the angle of the refracted shear wave within the material?\n수침법에서 입사각 14°로 강에 초음파가 입사되었다. 재료 내 굴절 횡파의 각도는?",
+    "options": [
+      "28°",
+      "31°",
+      "45°",
+      "60°"
+    ],
+    "answer": 1,
+    "id": 26
   }
 ]

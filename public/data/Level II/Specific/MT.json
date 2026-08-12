@@ -358,5 +358,78 @@
       "3”"
     ],
     "answer": 0
+  },
+  {
+    "id": 25,
+    "level": "Level II",
+    "method": "MT",
+    "category": "Specific",
+    "source": "MTS-II(2020)(A)",
+    "question": "2mm crack found on welds by MT prod method. Is it acceptable (Ref. : Sect.Ⅷ Div.1)\n2mm 균열이 용접물에서 자분 탐상법(요-크)에 의해 발견되었다. 이것은 합격이냐?",
+    "options": [
+      "합격",
+      "불합격"
+    ],
+    "answer": 1
+  },
+  {
+    "level": "Level II",
+    "method": "MT",
+    "category": "Specific",
+    "source": "보류분 객관식화",
+    "question": "What kind of current can be used for prod technique?\n프로드법에서는 어떤 종류의 전류들이 사용되는가?",
+    "options": [
+      "AC, DC / HWDC",
+      "AC only\nAC 만",
+      "DC only\nDC 만",
+      "HWDC only\nHWDC 만"
+    ],
+    "answer": 0,
+    "id": 26
+  },
+  {
+    "level": "Level II",
+    "method": "MT",
+    "category": "Specific",
+    "source": "보류분 객관식화",
+    "question": "What colored magnetic particles may be used as needed to provide contrast? Answer three colors.\n색깔 대조를 좋게 하기 위해 어떤 색깔의 자분들이 사용되어도 좋은가? (세 가지)",
+    "options": [
+      "Black, Red, Gray\n흑색, 적색, 회색",
+      "Black, Blue, White\n흑색, 청색, 백색",
+      "Red, Yellow, Green\n적색, 황색, 녹색",
+      "White, Gray, Yellow\n백색, 회색, 황색"
+    ],
+    "answer": 0,
+    "id": 27
+  },
+  {
+    "level": "Level II",
+    "method": "MT",
+    "category": "Specific",
+    "source": "보류분 객관식화",
+    "question": "How is the magnetizing force of AC/DC yoke calibrated?\n교류/직류 요크의 교정 시 자화력의 세기는 얼마인가?",
+    "options": [
+      "AC : 10 lb, DC : 40 lb",
+      "AC : 40 lb, DC : 10 lb",
+      "AC : 10 lb, DC : 10 lb",
+      "AC : 40 lb, DC : 40 lb"
+    ],
+    "answer": 0,
+    "id": 28
+  },
+  {
+    "level": "Level II",
+    "method": "MT",
+    "category": "Specific",
+    "source": "보류분 객관식화",
+    "question": "What are a linear indication and a rounded indication?\n선형 지시와 원형 지시를 설명하시오.",
+    "options": [
+      "Linear : length is 3 times the width or more / Rounded : length is less than 3 times the width\n선형지시 : 길이가 폭의 3배 이상 / 원형지시 : 길이가 폭의 3배 미만",
+      "Linear : length is 2 times the width or more / Rounded : length is less than 2 times the width\n선형지시 : 길이가 폭의 2배 이상 / 원형지시 : 길이가 폭의 2배 미만",
+      "Linear : length is less than 3 times the width / Rounded : length is 3 times the width or more\n선형지시 : 길이가 폭의 3배 미만 / 원형지시 : 길이가 폭의 3배 이상",
+      "Linear : length is 5 times the width or more / Rounded : length is less than 5 times the width\n선형지시 : 길이가 폭의 5배 이상 / 원형지시 : 길이가 폭의 5배 미만"
+    ],
+    "answer": 0,
+    "id": 29
   }
 ]
