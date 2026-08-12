@@ -508,5 +508,971 @@
     ],
     "answer": 2,
     "explanation": ""
+  },
+  {
+    "id": 31,
+    "question": "The amount of unsharpness or blurring of a radiograph is:",
+    "options": [
+      "directly proportional to the object-to-film distance and inversely proportional\n\n to the size of the focal spot",
+      "directly proportional to the size of the focal spot and inversely proportional\n\n to the source-to object distance",
+      "directly proportional to the object-to-film distance and directly proportional\n\n to the source-to object distance",
+      "inversely proportional to the size of the focal spot and the object-to-film \n\n distance"
+    ],
+    "answer": 1,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 32,
+    "question": "The depth of a discontinuity may be estimated by making two exposures on a single film from two different positions of the x-ray tube. The depth of the discontinuity is computed from the shift in the image of the discontinuity with respect to the tube shift and source-to-film distance. The method is referred to as:",
+    "options": [
+      "stereo-radiography",
+      "zeroradiography",
+      "fluoroscopy",
+      "the parallax method",
+      "none of the above"
+    ],
+    "answer": 3,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 33,
+    "question": "Which of the following items affect subject contrast?",
+    "options": [
+      "thickness differences in specimen",
+      "radiation energy level",
+      "scattered radiation",
+      "density variations in specimen",
+      "type of film used",
+      "source-to-film distance"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 34,
+    "question": "Radiation is absorbed according to which of the following nuclear concepts.",
+    "options": [
+      "Compton effect",
+      "Bremsstrahlung",
+      "Photoelectric effect",
+      "Pair production",
+      "disintegration",
+      "K-capture"
+    ],
+    "answer": [
+      0,
+      2,
+      3
+    ],
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 35,
+    "question": "An unshielded 15 curie radioisotope source is being used 20 feet from a barrier warning against unauthorized entry. The source intensity is 5.9 r/hr/c at 1 ft. What dose rate could be received by personnel at the barrier? Answer_____________________________________________________________________",
+    "options": [],
+    "answer": "221 mR/hr",
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 36,
+    "question": "For an x-ray machine, increasing the KV causes:",
+    "options": [
+      "longer wavelength, less penetrating radiation to be generated",
+      "longer wavelength, more penetrating radiation to be generated",
+      "shorter wavelength, less penetrating radiation to be generated",
+      "shorter wavelength, more penetrating radiation to be generated"
+    ],
+    "answer": 3,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 37,
+    "question": "Lead foil in direct contact with the film for exposures over 120 KV has which of the following significant effects:",
+    "options": [
+      "increases exposure time",
+      "decreases exposure time",
+      "absorbs long wavelength scattered radiation",
+      "absorbs short wavelength scattered radiation",
+      "improves sharpness and definition",
+      "reduces sharpness and definition"
+    ],
+    "answer": [
+      1,
+      2,
+      4
+    ],
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP",
+    "image": "RT_LEVEL3_M_Q7.jpg"
+  },
+  {
+    "id": 38,
+    "question": "Diffraction is most likely to occur:",
+    "options": [
+      "with thick, fine grained specimens",
+      "with thin, fine grained specimens",
+      "with thin, coarse grained specimens",
+      "with thick, coarse grained specimens"
+    ],
+    "answer": 2,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 39,
+    "question": "Up to a reasonable limit, increasing the density of a radiograph:",
+    "options": [
+      "improves contrast",
+      "reduces contrast",
+      "improves sharpness",
+      "reduces sharpness"
+    ],
+    "answer": 0,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 40,
+    "question": "Radiographic sensitivity is defined as:",
+    "options": [
+      "the ratio of variations in density",
+      "the sharpness of outline in the image",
+      "the range of thickness of material that can be recorded on the radiograph \n\n within the useful reading range of film density",
+      "the size of the smallest detail which can be seen on the radiograph"
+    ],
+    "answer": 3,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 41,
+    "question": "To which of the following does the term “reference radiographs”apply?",
+    "options": [
+      "Radiographs used to show the position of each radiographic view",
+      "Radiographs with discontinuity indications that are to be compared with\n\n indications in test object radiographs",
+      "File copies of duplicate radiographs made at the customer's request",
+      "File copies of radiographs of your employer's products"
+    ],
+    "answer": 1,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 42,
+    "question": "Target materials for x-ray tubes must possess which of the following properties?",
+    "options": [
+      "high melting point",
+      "low atomic number",
+      "high thermal conductivity",
+      "high atomic number",
+      "none of the above"
+    ],
+    "answer": [
+      0,
+      2,
+      3
+    ],
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 43,
+    "question": "A radiograph having wide latitude also has, by definition:",
+    "options": [
+      "poor definition",
+      "low contrast",
+      "low speed",
+      "good sensitivity",
+      "none of the above"
+    ],
+    "answer": 1,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 44,
+    "question": "Radiation striking a radiographic film causes:",
+    "options": [
+      "an electrostatic charge in the emulsion",
+      "an image to appear on the film",
+      "a change in the silver bromide emulsion",
+      "an increase in contrast"
+    ],
+    "answer": 2,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 45,
+    "question": "The sharpness of the transition between different densities on the radiograph is know as:",
+    "options": [
+      "radiographic contrast",
+      "radiographic definition",
+      "radiographic resolution",
+      "latitude"
+    ],
+    "answer": 0,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 46,
+    "question": "Which of the following items will reduce radiographic contrast?",
+    "options": [
+      "Increase the distance between the object and the radiation source",
+      "Decrease the distance between the object and the film",
+      "Decrease the wavelength of the radiation",
+      "Use a slower film"
+    ],
+    "answer": 2,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 47,
+    "question": "Sharp, black, bird-foot like tracks appear at random on the radiograph. The most probable cause is:",
+    "options": [
+      "Prolonged development in old developer",
+      "exposure of the film to natural cosmic ray showers during storage",
+      "static charges caused by friction of the film with other objects",
+      "inadequate rinsing after fixing"
+    ],
+    "answer": 2,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 48,
+    "question": "The intensity of x-or gamma radiation is measured in units called:",
+    "options": [
+      "roentgens",
+      "ergs",
+      "H & D units",
+      "roentgens per unit of time"
+    ],
+    "answer": 3,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 49,
+    "question": "In comparison with lower voltage radiographs, high voltage radiographs show:",
+    "options": [
+      "greater latitude",
+      "greater contrast",
+      "greater amounts of scattered radiation relative to primary beam intensity",
+      "none of the above"
+    ],
+    "answer": 0,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 50,
+    "question": "Filters used at the port of the x-ray tube:",
+    "options": [
+      "intensify the x-ray tube beam by contributing secondary radiation intensity",
+      "filter out “soft” radiation to provide a more homogeneous x-ray beam",
+      "filter out short wavelength radiation to provide “softer” radiation",
+      "provide the most readily adjusted means of modifying x-ray intensity"
+    ],
+    "answer": 1,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 51,
+    "question": "In making an isotope exposure in an unshielded area, you find the dose rate at 6\" distance is 1200Mr/hr. What would be the dose rate at 20\"? Answer_____________________________________________________________________",
+    "options": [],
+    "answer": "108 mR/h",
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 52,
+    "question": "If an exposure time of 60 seconds was necessary with a 4\"SFD, what exposure time is necessary if the SFD is changed to 5\"? Answer_____________________________________________________________________",
+    "options": [],
+    "answer": "lin 34 sec",
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 53,
+    "question": "Two film of the same type are often used in the same cassette to:",
+    "options": [
+      "increase the cost of radiography",
+      "send to different interpreters for independent evaluation",
+      "provide an extra film to establish the developing time necessary to obtain an\n\n acceptable density",
+      "compare and verify indications or for reading superimposed film."
+    ],
+    "answer": 3,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 54,
+    "question": "The specific activity of a radioactive source is:",
+    "options": [
+      "the number of curies-per-gram of a source",
+      "the rate of decay(half-life)of a source",
+      "the amount of usage of a source",
+      "the ratio of the number of curies to the physical size of source"
+    ],
+    "answer": 0,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 55,
+    "question": "A radiograph, showing poor sensitivity, is to be retaken. Which of the following would improve the sensitivity?",
+    "options": [
+      "Reduce the source-to-film distance",
+      "Use a slower film",
+      "Reduce the KV of the x-ray machine used",
+      "Increase the KV of the x-ray machine used",
+      "Add shielding for back scatter"
+    ],
+    "answer": [
+      1,
+      2,
+      4
+    ],
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 56,
+    "question": "The penetrating ability of an x-ray beam is governed by:",
+    "options": [
+      "kilovoltage or wavelength",
+      "time",
+      "milliampere",
+      "source-to-film distance"
+    ],
+    "answer": 0,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 57,
+    "question": "Latitude is affected by which of the following items?",
+    "options": [
+      "The type of film used",
+      "The source-to-film distance",
+      "The energy level or quality of the radiation beam",
+      "The effective focal spot size",
+      "The length of the film used"
+    ],
+    "answer": [
+      0,
+      2
+    ],
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 58,
+    "question": "Shrinkage in a casting is not likely to occur:",
+    "options": [
+      "in the center of thick sections",
+      "in areas away from gates or risers",
+      "within a distance, equal to the thickness, from the end of the casting",
+      "in sections of uniform thickness"
+    ],
+    "answer": 2,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 59,
+    "question": "A step wedge consisting of 2 steps is exposed to gamma radiation. The first step is equal to 3 half-value layers and the second step is equal to 4 half-value layers. What is the ratio of the radiation intensity emerging from the two steps? Answer_____________________________________________________________________",
+    "options": [],
+    "answer": "2-1 Ratio",
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 60,
+    "question": "In order to produce x-rays, a system must have which of the following as a minimum?",
+    "options": [
+      "a beryllium window",
+      "a means of accelerating electrons",
+      "a target",
+      "a source of free electrons",
+      "a copper anode"
+    ],
+    "answer": [
+      1,
+      2,
+      3
+    ],
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 61,
+    "question": "A source that has 40x1010 disintegrations per second would be a:",
+    "options": [
+      "5.8 curie source",
+      "10.8 curie source",
+      "15.8 curie source",
+      "20.7 curie source"
+    ],
+    "answer": 1,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 62,
+    "question": "If a specification requires 2-2T sensitivity, what thickness of penetrameter is needed to radiograph a 41/2\" thick weld? Answer_____________________________________________________________________",
+    "options": [],
+    "answer": "0.09",
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 63,
+    "question": "Slag inclusions occur:",
+    "options": [
+      "only in the root pass",
+      "only in the cover pass",
+      "anywhere in the weld",
+      "between the root pass and hot pass"
+    ],
+    "answer": 2,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 64,
+    "question": "Hot tears occur in:",
+    "options": [
+      "castings",
+      "forgings",
+      "welds",
+      "extrusions"
+    ],
+    "answer": 0,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 65,
+    "question": "Sand inclusions in castings appear as:",
+    "options": [
+      "dark, smoothly outlined areas",
+      "spongy like areas, darker than surrounding area",
+      "irregularly shaped areas that are usually not as dark as gas holes",
+      "dark, lacy network of lines"
+    ],
+    "answer": 2,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 66,
+    "question": "An acceptable exposure, using Iridium 192, is obtained on a given test object today with an exposure time of 20 minutes. Five month from now, what exposure time would be required to achieve the same radiographic density under similar conditions using the same source? Answer_____________________________________________________________________",
+    "options": [],
+    "answer": "1 min 20 sec",
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 67,
+    "question": "The energy of gamma rays is expressed by which of the following:",
+    "options": [
+      "curie",
+      "roentgen",
+      "half-life",
+      "kilo-electron volts (KV) or millions or electron volts (mev)"
+    ],
+    "answer": 3,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 68,
+    "question": "In order to increase the range of thicknesses that may be radiographed, at reasonable viewing densities, simultaneously:",
+    "options": [
+      "a fluorescent screen should be employed",
+      "decrease the energy level of radiation used for the exposure",
+      "the cassette may be loaded with two film each of different speeds",
+      "none of the above are practical"
+    ],
+    "answer": 2,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 69,
+    "question": "When viewing a radiograph, an image of the back of the cassette superimposed on the image of the specimen is noted. This is most likely due to:",
+    "options": [
+      "undercut",
+      "overexposure",
+      "x-ray intensity too high",
+      "back scatter"
+    ],
+    "answer": 3,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 70,
+    "question": "A casting is designed so that some portions are highly stressed while other areas are stressed relatively low. When establishing acceptance criteria, one should consider:",
+    "options": [
+      "one quality level for the entire casting",
+      "a median quality level",
+      "zoning the drawing and using different quality levels",
+      "recommending redesign"
+    ],
+    "answer": 2,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 71,
+    "question": "Radiographic film that are left between lead screens too long in a high temperature and a high humidity atmosphere may:",
+    "options": [
+      "show increased speed but decreased quality characteristics",
+      "become fogged",
+      "become matted",
+      "show tree-shaped light areas in the finished radiograph"
+    ],
+    "answer": 1,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 72,
+    "question": "Given the radiographic equivalency factors of 1.4 for Inconel and 1.0 for 304 stainless steel, what is the approximate equivalent thickness of Inconel to produce the same exposure as a 0.5inch thickness of 304 stainless steel?",
+    "options": [
+      "0.50 inch",
+      "0.70 inch",
+      "0.36 inch",
+      "1.40 inch"
+    ],
+    "answer": 2,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 73,
+    "question": "The velocity of electrons striking the target in an x-ray tube is a function of:",
+    "options": [
+      "the atomic number of the cathode material",
+      "the atomic number of the filament material",
+      "the voltage difference between the cathode and anode",
+      "the current flow in the rectifier circuit"
+    ],
+    "answer": 2,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 74,
+    "question": "A good cobalt shot is made on a 3\" steel casting using an exposure time of 10 minutes and a source-to-film distance of 36 inches. If it is necessary to change the source- to-film distance to 24 inches, what exposure time would produce a similar radiograph if all other conditions remain constant? Answer_____________________________________________________________________ * Answer the answers to question 46 through 65 relating to capability for interpreting codes, standards, and specifications relating to the radiographic test.",
+    "options": [],
+    "answer": "4.4 Min",
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 75,
+    "question": "A procedure requires a quality level of 4-4T and the use of penetrameters based on ASTM E142 design. What shape of penetrameter would be used on a 41/2inch thick specimen? Answer_____________________________________________________________________",
+    "options": [],
+    "answer": "circular",
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 76,
+    "question": "Specify weld in which indications are characterized as slag inclusion shall be unacceptable when material wall thickness is 0.250\" based on ASME Sec. I Answer_____________________________________________________________________",
+    "options": [],
+    "answer": "over 1/4 inch",
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 77,
+    "question": "(ASME Sec.I) - There is a single rounded indication of porosity that is one-sixteenth (1/16) inch in diameter. The weld is acceptable. True____________ False____________",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 78,
+    "question": "(ASME Section Ⅲ-NB) - There is a single rounded indication of porosity that is one-sixteenth (1/16) inch in diameter. The weld is acceptable. True____________ False____________",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 79,
+    "question": "(ANSI B31.1) - There is a single rounded indication of porosity that is one- sixteenth (1/16) inch in diameter. The weld is acceptable. True____________ False____________",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 80,
+    "question": "(API-1104) - The maximum acceptable length of elongated slag (single indication) is_________inches",
+    "options": [],
+    "answer": "2",
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 81,
+    "question": "(ASME Section Ⅲ-NB) - The maximum acceptable length of elongated slag (single indication) is_________inches",
+    "options": [],
+    "answer": "0.26",
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 82,
+    "question": "(API-1104) - The radiographs show the following sequence of single indications and sound weld metal. Elongated slag inclusion two(2) inches long, 10inches sound weld metal, incomplete fusion due to cold lap one(1) inch long, 10inches sound weld metal and elongated slag inclusion three-sixteenths (3/16) inch long. The remainder of the weld is sound. The weld is: Acceptable___________ Unacceptable___________",
+    "options": [
+      "Acceptable",
+      "Unacceptable"
+    ],
+    "answer": 0,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 83,
+    "question": "(ASME Section Ⅲ-ND-5321) - The radiographs show the following sequence of single indications and sound weld metal. Elongated slag inclusion one-quarter(1/4) inch long, nine and one-half(91/2)inches of sound weld metal and a gas pocket one-quarter (1/4)inch in diameter. The remainder of the weld is sound. The weld is: Acceptable___________ Unacceptable___________",
+    "options": [
+      "Acceptable",
+      "Unacceptable"
+    ],
+    "answer": 0,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 84,
+    "question": "(ASME Section Ⅷ-UW51) - The radiographs show two(2) indications of slag, each one-quarter (1/4) inch long, and separated by 1.5 inches of sound weld metal. The weld is: Acceptable___________ Unacceptable___________",
+    "options": [
+      "Acceptable",
+      "Unacceptable"
+    ],
+    "answer": 0,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 85,
+    "question": "(ASME Section Ⅲ-NG) - The radiographs show the following sequence of single indications and sound weld metal. One-quarter(1/4) inch of slag, 10inches of sound weld metal, one-quarter(1/4)inch of slag, 10inches of sound weld metal, and onequarter(1/4)inch of slag. The weld is: Acceptable___________ Unacceptable___________",
+    "options": [
+      "Acceptable",
+      "Unacceptable"
+    ],
+    "answer": 0,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 86,
+    "question": "(ASME Section Ⅲ-NB) - There is a single indication of incomplete fusion one- sixteenth(1/16) inch long. The weld is: Acceptable___________ Unacceptable___________",
+    "options": [
+      "Acceptable",
+      "Unacceptable"
+    ],
+    "answer": 1,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 87,
+    "question": "(ASME Section V) - The use of fluorescent intensifying screens is prohibited. True____________ False____________",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 88,
+    "question": "(ANSI B31.1) - When a girth weld performing radiography, it shall be done in accordance with Article 2 of Section V of ASME. True____________ False____________",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 89,
+    "question": "(API-1104) - When reporting the results of radiographic interpretation, all discontinuities observed must be reported. True____________ False____________",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 90,
+    "question": "(API-1104) - A 24 inch O. D. pipe butt weld is radiographed by the double wall exposure, single wall viewing technique using an x-ray machine. When positioned for the exposure, the focal spot of the x-ray tube is three(3) inches above the surface of the pipe. The maximum diagnostic film length (length of acceptable radiograph) is_______inches.",
+    "options": [],
+    "answer": "23.1",
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 91,
+    "question": "(ASME Section V) - A steel weld one-half (1/2)inch thick is to be x-rayed. What is the maximum allowable KV (approximately)? Answer_____________________________________________________________________",
+    "options": [],
+    "answer": "400 KV",
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 92,
+    "question": "(ASME Section V) - When shims are used under penetrameters, the shim material need not be exactly the same as the material being radiographed. It only needs to be radiographically similar. True____________ False____________",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 93,
+    "question": "Carbon steel and stainless steel are radiographically similar. True____________ False____________",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 94,
+    "question": "(ASME Section V) - Film identification, other than location markers, can be accomplished by using flashers or writing the numbers on with an indelible ink. Lead numbers need not be used during the exposure to accomplish identification. True____________ False____________ * Select the answers to question 66 through 75 relating ASME Section Ⅷ.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 95,
+    "question": "(ASME Section Ⅷ-Div.2) - The radiograph shows two(2) indications of slag, each one-quarter (1/4) inch long, and separated by 1.5 inches, in 2 inch thickness of sound weld metal. The weld is: Acceptable___________ Unacceptable___________",
+    "options": [
+      "Acceptable",
+      "Unacceptable"
+    ],
+    "answer": 0,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 96,
+    "question": "(ASME Section Ⅷ-Div.1) - When radiographic examination has been performed on a vessel in accordance with UW-11 and the complete vessel satisfies the spot radiography requirements of UW-11(b), marking _______ shall be applied.",
+    "options": [
+      "RT 1",
+      "RT 2",
+      "RT 3",
+      "RT 4"
+    ],
+    "answer": 2,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 97,
+    "question": "(ASME Section Ⅷ-Div.1) - When radiographic examination has been performed on a vessel in accordance with UW-11 and only part of the complete vessel has satisfied the radiographic requirements of UW-11(a), marking _______ shall be applied.",
+    "options": [
+      "RT 1",
+      "RT 2",
+      "RT 3",
+      "RT 4"
+    ],
+    "answer": 3,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 98,
+    "question": "(ASME Section Ⅷ-Div.1) - Welded joint category ___ is welded joints connecting communicating chambers or nozzles to main shells, to spheres, to transitions in diameter, to heads, or to flat-sided vessels.",
+    "options": [
+      "Category A",
+      "Category B",
+      "Category C",
+      "Category D"
+    ],
+    "answer": 3,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 99,
+    "question": "(ASME Section Ⅷ-Div.1) - When all butt welds in the shell and heads of vessels used to contain lethal substances should be examined radiographicall, they shall be radiographed for their full length in the manner prescribed in UW-51 True____________ False____________",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 100,
+    "question": "(ASME Section Ⅷ-Div.1) - The radiograph shows the aligned rounded indications that the summation of the diameters of the indications is 11 mm in a length of 130 mm, in 12 mm thickness of weld metal. The weld is: Acceptable___________ Unacceptable___________",
+    "options": [
+      "Acceptable",
+      "Unacceptable"
+    ],
+    "answer": 1,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 101,
+    "question": "(ASME Section Ⅷ-Div.1) - The radiograph shows the lack of side wall fusion indications of the 12 mm length in 25 mm thickness of weld metal. The weld is: Acceptable___________ Unacceptable___________",
+    "options": [
+      "Acceptable",
+      "Unacceptable"
+    ],
+    "answer": 1,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 102,
+    "question": "(ASME Section Ⅷ-Div.1) - The rewelded joint, or the weld repaired ares, shall be full radiographically examined at one location in accordance with the foregoing requirements of UW-52. True___________ False___________",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 103,
+    "question": "(ASME Section Ⅷ-Div.2) - The radiograph shows the three clustered indications that the sum of length lengths of them is 35 mm in 140 mm length weld on 30 mm thickness of weld metal. The weld is: Acceptable___________ Unacceptable___________",
+    "options": [
+      "Acceptable",
+      "Unacceptable"
+    ],
+    "answer": 1,
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
+  },
+  {
+    "id": 104,
+    "question": "(ASME Section Ⅷ-Div.2) - For circumferential joints in the pipe that has 12 mm thickness, how much is the maximum reinforcement thickness ? RTM - Ⅲ - B Answers 󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧 1 b 31 b c d 61 23.1 2 d 32 b 62 400 KV 3 a b d 33 0.09 63 T 4 a c d 34 c 64 T 5 221 mR/hr 35 a 65 T 6 d 36 c 66 Acceptable 7 b c e 37 1 min 20 sec 67 c 8 c 38 d 68 d 9 b 39 c 69 d 10 a 40 d 70 True 11 d 41 c 71 Unacceptable 12 b 42 b 72 Unacceptable 13 a c d 43 c 73 False 14 b 44 c 74 Unacceptable 15 c 45 4.4 Min 75 3mm 16 a 46 circular 17 c 47 over 1/4 inch 18 c 48 F 19 d 49 T 20 a 50 T 21 b 51 2 22 108 mR/h 52 0.26 23 lin 34 sec 53 A 24 d 54 A 25 a 55 A 26 b c e 56 A 27 a 57 U 28 a c 58 F 29 c 59 T 30 2-1 Ratio 60 F",
+    "options": [],
+    "answer": "3mm",
+    "level": "Level III",
+    "method": "RT",
+    "source": "RTM-III.HWP"
   }
 ]

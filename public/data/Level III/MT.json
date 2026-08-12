@@ -508,5 +508,1026 @@
     ],
     "answer": 1,
     "explanation": ""
+  },
+  {
+    "id": 31,
+    "question": "The magnetic domains in a permanent magnet are:",
+    "options": [
+      "aligned in fixed positions with directions that cancel out",
+      "aligned in fixed positions, predominantly in one direction",
+      "aligned in a random position and may become aligned to attract a magnetic \n\n material",
+      "aligned in the same direction as the metal's grain structure"
+    ],
+    "answer": 1,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 32,
+    "question": "For which of the following would the wet fluorescent technique be preferred over the dry technique?",
+    "options": [
+      "When the parts are large and bulky",
+      "When increased speed and sensitivity are desired",
+      "When it is desired to use the fluorescent lighting provided in many plants",
+      "When the parts being inspected are to be field welded"
+    ],
+    "answer": 1,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 33,
+    "question": "Gas, misruns, cold laps and sand inclusions are examples of defects resulting from which of the following processes?",
+    "options": [
+      "Forging",
+      "Grinding",
+      "Castings",
+      "Heat treatment"
+    ],
+    "answer": 2,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 34,
+    "question": "Of the following, which is not a valid reason for demagnetization of parts after magnetic particle testing?",
+    "options": [
+      "If the part is to be radiographed after magnetic particle inspection, residual\n\n magnetism may interfere with the electromagnetic radiation spectrum",
+      "Residual magnetism may attract chips or small particles in service, causing \n\n galling or mechanical wear",
+      "Residual magnetism could interfere with the operation or accuracy of instruments \n\n placed on or near the part during service",
+      "Residual magnetism can disturb the welding are path on parts to be welded"
+    ],
+    "answer": 0,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 35,
+    "question": "Subjecting a part to a magnetic field, that is constantly reversing in polarity and gradually diminishing in strength, accomplishes which of the following?",
+    "options": [
+      "Magnetizes the part",
+      "Demagnetizes the part",
+      "Increases the strength of the retained magnetic field",
+      "Helps to locate deep lying defects"
+    ],
+    "answer": 1,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 36,
+    "question": "How is the concentration of the solid content of a suspension of magnetic particles measured?",
+    "options": [
+      "By weighting the suspension",
+      "By soaking the solids in benzol",
+      "By permitting the solids to settle out of suspension",
+      "By measuring the pull on a magnet"
+    ],
+    "answer": 2,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 37,
+    "question": "An important factor that must be considered when selecting a method of magnetization is:",
+    "options": [
+      "location of inspection station",
+      "alloy, shape and condition of the part",
+      "permeability of the part",
+      "b and c above"
+    ],
+    "answer": 3,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 38,
+    "question": "An important factor that must be considered when selecting a method of magnetization is the:",
+    "options": [
+      "type of magnetizing current",
+      "availability of handling equipment",
+      "material's Curie point",
+      "a and b above"
+    ],
+    "answer": 3,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 39,
+    "question": "What happens to a magnetic material when it reaches its Curie temperature?",
+    "options": [
+      "It becomes paramagnetic",
+      "It becomes diamagnetic",
+      "It becomes nonmagnetic",
+      "It becomes radioactive"
+    ],
+    "answer": 2,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 40,
+    "question": "Methods utilized to preserve powder patterns include:",
+    "options": [
+      "photographs",
+      "transparent tape",
+      "transparent lacquer",
+      "all of the above"
+    ],
+    "answer": 3,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 41,
+    "question": "Magnetic particle inspection methods are recognized as superior to liquid penetrant techniques when:",
+    "options": [
+      "inspecting corroded surfaces",
+      "the surface is anodized",
+      "the parts are painted",
+      "a and c above"
+    ],
+    "answer": 3,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 42,
+    "question": "What magnetic property does a paramagnetic material possess?",
+    "options": [
+      "Highly magnetic",
+      "No magnetic property at all",
+      "Slightly magnetic",
+      "A demonstrated lack of electron mobility"
+    ],
+    "answer": 2,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 43,
+    "question": "In what way may we reduce a magnetic field?",
+    "options": [
+      "Reduce the current",
+      "Move the part further away from the coil",
+      "Move the coil further away form the part",
+      "All of the above"
+    ],
+    "answer": 3,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 44,
+    "question": "When is the magnetic field strongest in an object being inspected by the magnetic particle method?",
+    "options": [
+      "Just prior to current reversal when using AC current",
+      "Just after the magnetizing current is shut off",
+      "While the magnetizing current is applied",
+      "When the magnetic particle powder is applied"
+    ],
+    "answer": 2,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 45,
+    "question": "Which of the demagnetization methods listed below is most effective?",
+    "options": [
+      "DC with reversing and step-down control",
+      "Variable voltage AC with step-down control",
+      "Half wave, rectified AC",
+      "Full wave, rectified"
+    ],
+    "answer": 0,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 46,
+    "question": "When a magnetic field is induced in a part with prods spaced 6 inches apart, the field is a:",
+    "options": [
+      "solenoid field",
+      "longitudinal field",
+      "distorted circular field",
+      "residual field"
+    ],
+    "answer": 2,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 47,
+    "question": "If the same amperage is passed through a 1 inch and 2 inch diameter bar of the same length, which of the following statements is most applicable relevant to the magnetic field at the surface of the bars?",
+    "options": [
+      "The strength of the magnetic field at the surfaces will be the same for both bars",
+      "The strength of the magnetic field at the surfaces of the 1 inch bar will be \n\n approximately twice that of the 2 inch bar",
+      "The strength of the magnetic field at the surfaces of the 2 inch bar will be \n\n approximately four times that of the 1 inch bar",
+      "The strength of the magnetic field at the surfaces of the 1 inch bar will be \n\n one-half that of the 1 inch bar"
+    ],
+    "answer": 2,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 48,
+    "question": "If the same amperage is passed through a 1 inch diameter bar and a 2 inch diameter bar of the same length, which of the following statements is most applicable relevant to the magnetic field at the center of the bars?",
+    "options": [
+      "The strength of the magnetic field in the center of the 1 inch bar will be one\n\n -half that of the 2 inch bar",
+      "The strength of the magnetic field at the center of the 2 inch bar will be one\n\n -half that of the 1 inch bar",
+      "The strength of the magnetic field in the center of both bars will be zero",
+      "The strength of the magnetic field in the center of the 1 inch bar will be\n\n approximately one-fourth the value for the 2 inch bar"
+    ],
+    "answer": 1,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 49,
+    "question": "An inspection method in which a high magnetizing force is applied to a part, and the force is then reduced to a lower continuous value which is maintained during application of the inspection medium, is called:",
+    "options": [
+      "the residual method",
+      "The multivector method",
+      "the continuous method",
+      "the surge method"
+    ],
+    "answer": 3,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 50,
+    "question": "When deciding to inspect a part by the residual method, one should consider the strength of the residual field in the part. Factors which affect this field include:",
+    "options": [
+      "the strength of the magnetizing force",
+      "the retentivity of the test part",
+      "the material alloy",
+      "all of the above"
+    ],
+    "answer": 3,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 51,
+    "question": "Factors which must be considered when interpreting an indication are:",
+    "options": [
+      "the direction of the magnetic field",
+      "the strength of the leakage field at the indication",
+      "the orientation and shape of the indication",
+      "all of the above"
+    ],
+    "answer": 3,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 52,
+    "question": "When using DC, an indication is detected. What is the next logical step to determine if the indication results from a surface or subsurface condition?",
+    "options": [
+      "Reinspect using the surge method",
+      "Demagnetize and apply powder",
+      "Reinspect at higher amperage",
+      "Reinspect using AC"
+    ],
+    "answer": 3,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 53,
+    "question": "When withdrawing a part from the field around a coil and without changing the direction of current, which of the following has the least effect on demagnetizing the part?",
+    "options": [
+      "Alternating current",
+      "Direct current",
+      "Half wave, rectified, alternating current",
+      "Full wave, rectified current"
+    ],
+    "answer": 1,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 54,
+    "question": "An important factor that should be considered when selecting a method of magnetization is:",
+    "options": [
+      "field strength value",
+      "available equipment",
+      "configuration of the part",
+      "all of the above"
+    ],
+    "answer": 3,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 55,
+    "question": "If an indication is formed when using the residual method as well as the continuous method, it is most likely:",
+    "options": [
+      "very deep and tight",
+      "very shallow and open to the surface",
+      "a relevant indication",
+      "a nonrelevant indication"
+    ],
+    "answer": 2,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 56,
+    "question": "The magnetic lines of flux or flux in a permanent magnet:",
+    "options": [
+      "flow from the north pole the magnet to the south pole",
+      "change direction sixty times a second with the magnetizing current",
+      "enter the south pole and leave the north pole",
+      "in all cases produce a longitudinal field"
+    ],
+    "answer": 2,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 57,
+    "question": "Which of the following magnetization techniques is not recommended for magnetic particle testing?",
+    "options": [
+      "Longitudinal magnetization",
+      "Circular magnetization",
+      "Vector magnetization",
+      "Parallel magnetization"
+    ],
+    "answer": 3,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 58,
+    "question": "Small parts requiring demagnetization should be:",
+    "options": [
+      "loaded in baskets and passed through an AC coil",
+      "demagnetized after assembly to assure complete demagnetization of the entire\n\n assembly",
+      "processed through a demagnetization cycle one at a time",
+      "loaded in a steel basket for better field distribution"
+    ],
+    "answer": 2,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 59,
+    "question": "The best shape for magnetic particles used in the dry powder method is:",
+    "options": [
+      "flat",
+      "globular",
+      "long and slender",
+      "a mixture of b and c"
+    ],
+    "answer": 3,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 60,
+    "question": "The best method for testing ball bearings is:",
+    "options": [
+      "along one axis using a coil",
+      "two shots using a coil at the X and Y axis",
+      "two head shots along the X and Y axis",
+      "induced current shots along X, Y and Z axis, rotating 360 degrees during each \n\n shot\n\n* Select the answers to question 31 through 45 relating to application and establishment of techniques and procedures for magnetic test."
+    ],
+    "answer": 3,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 61,
+    "question": "Residual magnetism may be beneficial as an aid:",
+    "options": [
+      "in the deposition of weld metal",
+      "in interpretation and evaluation of indications",
+      "in demagnetization",
+      "All of the above\n\n 45,000"
+    ],
+    "answer": 1,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 62,
+    "question": "What type of magnetization uses the formula: Amper-turns = 󰠏󰠏󰠏󰠏󰠏󰠏󰠏 ? L/D",
+    "options": [
+      "Circular",
+      "Longitudinal",
+      "Parallel",
+      "Vectored"
+    ],
+    "answer": 1,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 63,
+    "question": "A gear with case-hardened, ground teeth and hub ends is MT tested. Individual indications are detected on five of the teeth and on the one end surface of the hub. Although the indications are very sharp and distinct, they do not break over the edges of the part. What is the probable identity of the indication?",
+    "options": [
+      "Grinding cracks",
+      "Inclusions",
+      "Porosity",
+      "Quench cracks"
+    ],
+    "answer": 0,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 64,
+    "question": "When testing for fine shallow surface cracks, the preferred MT method should be:",
+    "options": [
+      "dry AC",
+      "dry DC",
+      "wet AC",
+      "wet DC"
+    ],
+    "answer": 2,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 65,
+    "question": "Internal splines and holes, drilled parallel to or near test surfaces, will cause:",
+    "options": [
+      "broad, fuzzy indications directly aligned with the part's internal contours",
+      "sharp, well defined indications directly aligned with the part's internal \n\n contours",
+      "no indications",
+      "both a and b above"
+    ],
+    "answer": 0,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 66,
+    "question": "The term used to refer to the total opposition to flow of current represented by the combined effect of resistance, inductance and capacitance of a circuit is:",
+    "options": [
+      "inductive reactance",
+      "impedance",
+      "reluctance",
+      "decay"
+    ],
+    "answer": 1,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 67,
+    "question": "A desirable property of magnetic particles, used for the inspection medium for either the dry or wet method, is that they:",
+    "options": [
+      "be nontoxic",
+      "possess high permeability",
+      "possess low retentivity",
+      "have all of the above characteristics"
+    ],
+    "answer": 3,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 68,
+    "question": "A rough forging discontinuity has the following characteristics: it can occur on the surface or internally; it is associated with processing at too low a temperature; it is often caused by excessive working; and it crests straight or irregular cavities varying in size. How would it be identified or classified?",
+    "options": [
+      "Burst",
+      "Shrinkage",
+      "Pipe",
+      "Lamination"
+    ],
+    "answer": 0,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 69,
+    "question": "The accumulation of particles at a site on the part surface, collected at and held to the site by the magnetic leakage field, is called:",
+    "options": [
+      "a discontinuity",
+      "a defect",
+      "an indication",
+      "magnetic witing"
+    ],
+    "answer": 2,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 70,
+    "question": "Which of the following is not an acceptable technique for removing a thin film o oil or grease prior to magnetic particle testing?",
+    "options": [
+      "Wash with a solvent",
+      "Degrease using a vapor degreasing method",
+      "Dust the surface with chalk or talc then wipe with dry, clean cloth",
+      "Brush the surface with power, wire brush"
+    ],
+    "answer": 3,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 71,
+    "question": "Which one of the following is not a discontinuity common to forged products?",
+    "options": [
+      "Laps",
+      "Shrinkage",
+      "Bursts",
+      "Flakes"
+    ],
+    "answer": 1,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 72,
+    "question": "Of the following discontinuity categories, which one is considered most detrimental to the service life of an item?",
+    "options": [
+      "Subsurface inclusion",
+      "Subsurface porosity and voids",
+      "Cracks open to the surface",
+      "All of the above"
+    ],
+    "answer": 2,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 73,
+    "question": "If one inch and two inch diameter bars were magnetized by passing the same current through them, the magnetic fields would be:",
+    "options": [
+      "the same for both",
+      "stronger in the two inch diameter bar",
+      "weaker in the one inch diameter bar",
+      "stronger in the one inch diameter bar"
+    ],
+    "answer": 3,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 74,
+    "question": "The most common failure mechanism associated with sharp fillets, notches, undercuts and seams is:",
+    "options": [
+      "fatigue cracking",
+      "crystallization",
+      "shrinkage",
+      "decarburization"
+    ],
+    "answer": 0,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 75,
+    "question": "Cold working indications will not reappear if the part is:",
+    "options": [
+      "demagnetized then retested",
+      "retested after stress relieving",
+      "retested in the opposite direction",
+      "remagnetized at a higher amperage\n\n* Select the answers to question 46 through 65 relating to capability for interpreting codes, standards, and specifications relating to the magnetic test."
+    ],
+    "answer": 1,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 76,
+    "question": "Dry and wet particles and suspension vehicles should be in accordance with ____ (ASME Sec. V).",
+    "options": [
+      "SE-746",
+      "SE-703",
+      "SE-747",
+      "SE-709"
+    ],
+    "answer": 3,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 77,
+    "question": "Magnetic particle examination shall be performed in accordance with a written procedure, which shall as a minimum, contain the requirements of a magnetic particle examination. Which one of the following is not a Essential Variable?(ASME Sec. V)",
+    "options": [
+      "Magnetizing technique",
+      "Surface preparation",
+      "Personnel qualification requirements",
+      "Minimum light intensity"
+    ],
+    "answer": 2,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 78,
+    "question": "Magnetic particle examination shall be performed in accordance with a written procedure, which shall as a minimum, contain the requirements of a magnetic particle examination. Which one of the following is a Essential Variable?(ASME Sec. V)",
+    "options": [
+      "Shape or size of the examination object",
+      "Demagnetizing technique",
+      "Method of excess particle removal",
+      "Post-examination cleaning technique"
+    ],
+    "answer": 2,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 79,
+    "question": "Prior to magnetic particle examination, the surface to be examined and all adjacent areas within at least ____ in. shall be dry and free of all dirt, grease, lint, scale, welding flux and spatter, oil, or other extraneous matter that could interfere with the examination.(ASME Sec. V)",
+    "options": [
+      "1",
+      "1.5",
+      "0.5",
+      "2"
+    ],
+    "answer": 0,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 80,
+    "question": "Prod spacing shall not exceed A in.. Shorter spacing may be used to accommodate the geometric limitations of the area being examined or to increase the sensitivity, but prod spacings of less than B in. are usually not practical due to banding of the particles around the prods.(ASME Sec. V)",
+    "options": [
+      "A: 8, B: 1",
+      "A: 5, B: 3",
+      "A: 8, B: 3",
+      "A: 3, B: 3"
+    ],
+    "answer": 2,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 81,
+    "question": "Accumulation of excess dry particles in examinations shall be removed with ____. (ASME Sec. V)",
+    "options": [
+      "Water stream",
+      "Light air stream",
+      "Grinding",
+      "Shaking"
+    ],
+    "answer": 1,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 82,
+    "question": "With Visible (Color Contrast) Magnetic Particles are used , A minimum light intensity of ____ Lx is required on the surface to be examined to ensure adequate sensitivity during the examination and evaluation of indications.(ASME Sec. V)",
+    "options": [
+      "500",
+      "750",
+      "1000",
+      "2000"
+    ],
+    "answer": 2,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 83,
+    "question": "With Fluorescent Magnetic Particles, Black lights shall achieve a minimum of ____ μW/cm2 on the surface of the part being examined throughout the examination. (ASME Sec. V)",
+    "options": [
+      "500",
+      "1000",
+      "1500",
+      "2000"
+    ],
+    "answer": 1,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 84,
+    "question": "Yoke Technique shall only be applied to detect discontinuities that are ____. (ASME Sec. V)",
+    "options": [
+      "open to the surface of the part",
+      "close to the surface of the part",
+      "embedded in the materials.",
+      "pores."
+    ],
+    "answer": 0,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 85,
+    "question": "Which of the following information shall be recorded for each examination? (ASME Sec. V)",
+    "options": [
+      "magnetic particle equipment and type of current",
+      "recoding criteria",
+      "reference to the procedure qualification records",
+      "method of measuring coating thickness"
+    ],
+    "answer": 0,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 86,
+    "question": "The manufacturer shall certify that each magnetic particle examiner meets t he requirements that he/she has vision, with correction if necessary, to enable him/her to read ____ at a distance of not less than 12 in.",
+    "options": [
+      "a Jaeger Type No. 2 Standard Chart",
+      "a Alphabet Chart",
+      "a Strip Chart",
+      "a Pie Chart"
+    ],
+    "answer": 0,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 87,
+    "question": "The size of the imperfection's indication is the basis for acceptance evaluation. Only indications which have any dimension greater than ____ in. shall be consider relevant.",
+    "options": [
+      "1/2",
+      "1/4",
+      "1/8",
+      "1/16"
+    ],
+    "answer": 3,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 88,
+    "question": "A linear indication is one having a length greater than ____ times the width.",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 1,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 89,
+    "question": "A rounded indication is one of circular or elliptical shape with a length equal ot or less than ____ times its width.",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 2,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 90,
+    "question": "All surfaces to be examined shall be free of ____",
+    "options": [
+      "irrelevant linear indications",
+      "relevant linear indications greater than 4/16 in.",
+      "four or more relevant rounded indications in a line separated by 1/16 or less",
+      "two or more relevant rounded indications in a line separated by 1/16 or less"
+    ],
+    "answer": 2,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 91,
+    "question": "Any indication which is believed to be nonrelevant shall be regarded as ____ unless it is shown by reexamination by the same method or by the use of other nondestructive methods.",
+    "options": [
+      "an imperfection",
+      "a defect",
+      "a irrelevant indication",
+      "a flaw"
+    ],
+    "answer": 0,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 92,
+    "question": "According to SE-709, what amperage should be used with a prod spacing of 4 to 6 inches where the section thickness is 1 inch?",
+    "options": [
+      "200 to 300",
+      "300 to 400",
+      "400 to 600",
+      "600 to 800"
+    ],
+    "answer": 2,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 93,
+    "question": "SE-709(without appendices) describes the requirements for the following method(s) of magnetization.",
+    "options": [
+      "Prod method",
+      "Coil method",
+      "Yoke method",
+      "Residual method",
+      "None of the above"
+    ],
+    "answer": 0,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 94,
+    "question": "SE-709 recommends that the concentration of wet fluorescent particles (or paste) be:",
+    "options": [
+      "1 to 4 ml per 100 ml",
+      "1.2 to 2.4 ml per 100 ml",
+      "2 to 3 ml per 100 ml",
+      "0.1 to 0.4 ml per 100 ml",
+      "none of the above"
+    ],
+    "answer": 3,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 95,
+    "question": "For the continuous method of examination, SE-709 recommends that the magnetizing current be on for a minimum of:",
+    "options": [
+      "1/5 second",
+      "1/2 second",
+      "1 second\n\n* The next 6 questions apply to ASME Section Ⅷ Div. 1",
+      "1 minute",
+      "None of the above"
+    ],
+    "answer": 1,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 96,
+    "question": "Each magnetic particle examiner has vision, with correction if necessary, to enable him to read a Jeager Type No. 2 Standard Chart at a distance of not less than ________.",
+    "options": [],
+    "answer": "12 in.",
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 97,
+    "question": "Which of the followings is \"Correct\" ?",
+    "options": [
+      "All indications are necessarily imperfections.",
+      "For evaluation of indications, the size of the indication is not important.",
+      "A Indication of 2 mm length is not relevant indication.",
+      "Doubtful indications shall be reexamined to determine whether or not they are relevant."
+    ],
+    "answer": 3,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 98,
+    "question": "For steel casting, surface indications determined by MT shall be compared with those indicated in ________(Reference Photographs for Magnetic Particle Indications on Ferrous Castings). a. ASTM E 150b. ASTM E 125 c. ASTM E 446 d. ASTM E 179",
+    "options": [],
+    "answer": "b",
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 99,
+    "question": "For steel casting, Which of the following indication shall be removed? TypeDegree",
+    "options": [
+      "Shrinkage 2",
+      "Inclusion 2",
+      "Porosity 1",
+      "Hot tears 1"
+    ],
+    "answer": 3,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 100,
+    "question": "What is the minimum size of indication that shall be considered relevant?",
+    "options": [],
+    "answer": "1/16 in. (1.5 mm)",
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 101,
+    "question": "What is the acceptable maximum size of rounded indications? * The next 4 questions apply to ASME Section Ⅷ Div. 2",
+    "options": [],
+    "answer": "3/16 in. (5 mm)",
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 102,
+    "question": "What level personnel shall evaluate magnetic particle examination?",
+    "options": [],
+    "answer": "MT LEVEL Ⅱ,Ⅲ",
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 103,
+    "question": "Which of the following indication is acceptable?",
+    "options": [
+      "linear indication of 2 mm length",
+      "rounded indication of 5 mm length",
+      "five rounded indications of length 2 mm length in a line separated by 1.5 mm",
+      "crack of 2 mm length"
+    ],
+    "answer": 1,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 104,
+    "question": "Which of NDT method shall be used to examine on all surface of the castings(nonmagnetic material)?",
+    "options": [],
+    "answer": "LPT",
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
+  },
+  {
+    "id": 105,
+    "question": "For steel forgings, all accessible surface of forgings shall be examined by the magnetic particle method in accordance with Test Method ________. a. A 275b. A 578 c. E 250d. E 125 MTM - Ⅲ - B ANSWER SHEET 󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧 1 b 31 b 61 a 2 b 32 b 62 c 3 c 33 a 63 a 4 a 34 c 64 d 5 b 35 a 65 b 6 c 36 b 66 12 in. 7 d 37 d 67 d 8 d 38 a 68 b 9 c 39 c 69 d 10 d 40 d 70 1/16 in. (1.5 mm) 11 d 41 b 71 3/16 in. (5 mm) 12 c 42 c 72 MT LEVEL Ⅱ,Ⅲ 13 d 43 d 73 b 14 c 44 a 74 LPT 15 A 45 b 75 a 16 C 46 d 17 C 47 c 18 b 48 c 19 d 49 a 20 d 50 c 21 d 51 b 22 d 52 c 23 b 53 b 24 d 54 a 25 c 55 a 26 c 56 a 27 d 57 d 28 c 58 b 29 d 59 c 30 d 60 c",
+    "options": [
+      "Acceptable",
+      "Unacceptable"
+    ],
+    "answer": 0,
+    "level": "Level III",
+    "method": "MT",
+    "source": "MTM-III.HWP"
   }
 ]

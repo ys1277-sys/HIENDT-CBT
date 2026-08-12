@@ -2,10 +2,39 @@ import { useState, useRef } from "react";
 import * as math from "mathjs";
 
 // 시험 화면에서 버튼으로 열고 닫는 공학용 계산기 팝업
+const DEG = Math.PI / 180;
+
+/*
+ * mathjs 기본 동작을 시험용으로 바꾼다.
+ *
+ *  - 삼각함수가 라디안 기준이라 sin(30) 이 0.5 가 아니라 -0.988 이 나왔다.
+ *    스넬의 법칙이나 굴절각 계산이 전부 틀리는 값이었다.
+ *  - log 가 자연로그였다. dB = 20·log₁₀(A₁/A₂) 계산이 조용히 틀렸다.
+ *  - ln 함수는 mathjs 에 아예 없어서 버튼을 누르면 무조건 오류였다.
+ */
+function buildScope(degMode) {
+  const scope = {
+    log: (x) => Math.log10(x),
+    ln: (x) => Math.log(x),
+  };
+
+  if (degMode) {
+    scope.sin = (x) => Math.sin(x * DEG);
+    scope.cos = (x) => Math.cos(x * DEG);
+    scope.tan = (x) => Math.tan(x * DEG);
+    scope.asin = (x) => Math.asin(x) / DEG;
+    scope.acos = (x) => Math.acos(x) / DEG;
+    scope.atan = (x) => Math.atan(x) / DEG;
+  }
+
+  return scope;
+}
+
 export default function Calculator({ onClose }) {
   const [expr, setExpr] = useState("");
   const [result, setResult] = useState("");
   const [pos, setPos] = useState({ x: 0, y: 0 });
+  const [degMode, setDegMode] = useState(true);
 
   const dragInfo = useRef({
     dragging: false,
@@ -19,7 +48,8 @@ export default function Calculator({ onClose }) {
 
   const calculate = () => {
     try {
-      const value = math.evaluate(expr);
+      // evaluate 는 스코프를 수정하므로 매번 새로 만든다
+      const value = math.evaluate(expr, buildScope(degMode));
       setResult(String(value));
     } catch (e) {
       setResult("오류");
@@ -124,14 +154,27 @@ export default function Calculator({ onClose }) {
             🖩 공학용 계산기
           </span>
 
-          <button
-            type="button"
-            className="calcw-close"
-            onMouseDown={(e) => e.stopPropagation()}
-            onClick={onClose}
-          >
-            ✕
-          </button>
+          <span className="calcw-header-right">
+            {/* 각도 단위. NDT 계산은 도(°) 기준이 기본이다 */}
+            <button
+              type="button"
+              className="calcw-mode"
+              onMouseDown={(e) => e.stopPropagation()}
+              onClick={() => setDegMode((v) => !v)}
+              title="삼각함수 각도 단위"
+            >
+              {degMode ? "DEG" : "RAD"}
+            </button>
+
+            <button
+              type="button"
+              className="calcw-close"
+              onMouseDown={(e) => e.stopPropagation()}
+              onClick={onClose}
+            >
+              ✕
+            </button>
+          </span>
         </div>
 
         <input
@@ -204,6 +247,24 @@ export default function Calculator({ onClose }) {
           color: #111111 !important;
           cursor: move !important;
           user-select: none !important;
+        }
+
+        .calcw-header-right {
+          display: flex !important;
+          align-items: center !important;
+          gap: 8px !important;
+        }
+
+        .calcw-mode {
+          border: 1px solid #1a56db !important;
+          background: #ffffff !important;
+          color: #1a56db !important;
+          font-size: 11px !important;
+          font-weight: bold !important;
+          padding: 3px 8px !important;
+          border-radius: 4px !important;
+          cursor: pointer !important;
+          line-height: 1 !important;
         }
 
         .calcw-close {
