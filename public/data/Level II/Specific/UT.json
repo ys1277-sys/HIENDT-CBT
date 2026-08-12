@@ -1,35 +1,41 @@
 [
   {
     "id": 1,
-    "category": "P",
-    "question": "This procedure describes the ultrasonic method for ______.",
-    "question_kr": "본 절차서는 ______을 위한 초음파 탐상방법을 기술한다.",
+    "level": "Level II",
+    "method": "UT",
+    "category": "Specific",
+    "source": "UTS-II(2020)(A)",
+    "question": "This procedure describes the ultrasonic methode for .\n본 절차서는 을 위한 초음파 탐상방법을 기술한다.",
     "options": [
-      "Pressure vessel welding",
+      "pressure vessel welding",
       "Forging",
       "Fitting",
       "Casting"
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "id": 2,
-    "category": "S",
-    "question": "Acceptance standard shall be used ______.",
-    "question_kr": "합격기준은 ______을 따른다.",
+    "level": "Level II",
+    "method": "UT",
+    "category": "Specific",
+    "source": "UTS-II(2020)(A)",
+    "question": "Acceptance standard shall be used .\n합격기준은 을 따른다",
     "options": [
-      "ASME Sec III NB 2500",
-      "ASME Sec III NB 5000",
-      "ASME Sec V Art.5",
-      "ASME Sec VIII Div.1"
+      "ASME Sec Ⅲ. NB 2500",
+      "ASME Sec Ⅲ. NB 5000",
+      "ASME Sec Ⅴ. Art.5",
+      "ASME Sec Ⅷ. Div.1"
     ],
     "answer": 0
   },
   {
     "id": 3,
-    "category": "E",
-    "question": "Search unit shall be ______ angle beam probe.",
-    "question_kr": "탐촉자는 몇 도 사각 탐촉자를 사용해야 하는가?",
+    "level": "Level II",
+    "method": "UT",
+    "category": "Specific",
+    "source": "UTS-II(2020)(A)",
+    "question": "Serch unit shall be angle beam probe.\n탐촉자는 도 사각 탐촉자를 사용해야 한다.",
     "options": [
       "0°",
       "45°",
@@ -42,12 +48,11 @@
     "id": 4,
     "level": "Level II",
     "method": "UT",
-    "subject": "Specific",
-    "type": "B",
-    "question": "Calibration reflector for steel plate with angle beam probe shall be used ______.",
-    "korean": "강판 검사를 위한 교정 반사체는?",
+    "category": "Specific",
+    "source": "UTS-II(2020)(A)",
+    "question": "Calibration reflector for steel plate with angle beam probe, shall be used .\n강판 검사를 위한 교정반사체는 ?",
     "options": [
-      "Side drill hole",
+      "side drill hole",
       "Flat bottom hole",
       "Notch",
       "STB-A3"
@@ -56,14 +61,16 @@
   },
   {
     "id": 5,
-    "category": "P",
-    "question": "The rate of search unit movement for examination shall not exceed ______.",
-    "question_kr": "탐촉자 이동속도는 초과하지 않아야 한다.",
+    "level": "Level II",
+    "method": "UT",
+    "category": "Specific",
+    "source": "UTS-II(2020)(A)",
+    "question": "The rate of search unit movement for examination shall not exceed .",
     "options": [
       "150 mm/s",
-      "200 mm/s",
+      "200mm/s",
       "10 in/s",
-      "15 in/s"
+      "15 in/s\n * The following questions (6-13) refer to HIE procedure, HIE-NDT-UT-P11 (Rev.1) for ultrasonic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅷ Div.1 2021 Edition. (다음 문제 (6-13)은 HIE 절차서에 언급된다. ASME B & PV 규격에 따른 압력용기 제작의 초음파 시험에 대한 절차서(HIE-NDT-UT-P11,Rev.1)"
     ],
     "answer": 0
   },
@@ -71,58 +78,39 @@
     "id": 6,
     "level": "Level II",
     "method": "UT",
-    "subject": "Specific",
-    "type": "B",
-    "question": "For both manual and automated examination, recording of indications shall be carried out with gain setting at ______ level.",
-    "korean": "수동이나 자동탐상시 지시를 기록할 때 이득은 ______ 수준에 맞추어야 한다.",
+    "category": "Specific",
+    "source": "UTS-II(2020)(A)",
+    "question": "For both manual and automated examination, recording of indications shall be carried out with gain setting at level.\n수동이나 자동탐상시 지시를 기록할 때 이득은 수준에 맞추어야 한다.",
     "options": [
-      "reference",
-      "scanning",
-      "all of above",
-      "none of above"
+      "reference\n참고",
+      "scanning\n탐상",
+      "all of above\n위 모두",
+      "none of above\n해당사항 없음"
     ],
-    "answer": 0,
-    "source": "HIE-NDT-UT-P11 Rev.2"
+    "answer": 0
   },
   {
     "id": 7,
     "level": "Level II",
     "method": "UT",
-    "subject": "Specific",
-    "type": "B",
-    "question": "Straight beam shall be performed using a longitudinal wave search unit having a ceramic transducer with a nominal frequency of A MHz and a size of B mm.",
-    "korean": "수직빔 탐상시 공칭주파수와 탐촉자 크기는?",
+    "category": "Specific",
+    "source": "UTS-II(2020)(A)",
+    "question": "Straight beam shall be performed using a longitudinal wave search unit having a ceramic transducer with a nominal frequency of A MHz and a size of B mm.\n수직빔 탐상시 공칭주파수는 A 이고 직경이 B mm와 C mm 사이의 것을 이용해야만 한다.",
     "options": [
-      "A:2 or 4MHz / 8×9 or 20×22",
-      "A:2.5 or 5MHz / 10×10 or 22×24",
-      "A:4MHz / 3.5×10",
-      "A:2 or 4MHz / φ10 or φ24"
+      "A:2 or 4 B:8×9 or 20×22",
+      "A:2.5 or 5 B:10×10 or 22×24",
+      "A:4 B:3.5X10",
+      "A:2 or 4 B:φ10 or φ24"
     ],
-    "answer": 3,
-    "source": "HIE-NDT-UT-P11 Rev.2"
+    "answer": 3
   },
   {
     "id": 8,
     "level": "Level II",
     "method": "UT",
-    "subject": "Specific",
-    "type": "B",
-    "question": "Angle beam shall be performed using search unit with a nominal frequency and size.",
-    "korean": "사각빔 탐상시 사용하는 탐촉자의 주파수와 크기는?",
-    "options": [
-      "A:2 or 4MHz / 8×9 or 20×22",
-      "A:2.5 or 5MHz / 10×10 or 22×24",
-      "A:4MHz / 3.5×10",
-      "A:2 or 4MHz / φ10 or φ24"
-    ],
-    "answer": 0,
-    "source": "HIE-NDT-UT-P11 Rev.2"
-  },
-  {
-    "id": 9,
-    "category": "E",
-    "question": "What calibration block is used to adjust distance range calibration?",
-    "question_kr": "측정범위 조정을 위해 사용하는 교정블록은?",
+    "category": "Specific",
+    "source": "UTS-II(2020)(A)",
+    "question": "What is the calibration block used to adjust the distance range calibration?\n측정범위 조정을 위해 사용하는 교정 블록은 무엇인가?",
     "options": [
       "IIW Block",
       "RB-4",
@@ -132,142 +120,164 @@
     "answer": 0
   },
   {
-    "id": 10,
+    "id": 9,
     "level": "Level II",
     "method": "UT",
-    "subject": "Specific",
-    "type": "B",
-    "question": "Indication length is 6mm and echo height is 1/2 DAC. Is this indication acceptable?",
-    "korean": "20mm 두께 용접부에서 길이 6mm, 에코 높이 1/2 DAC 지시는 합격인가?",
+    "category": "Specific",
+    "source": "UTS-II(2020)(A)",
+    "question": "Ultrasonic indication show on the screen with echo dynamic pattern as follow(weldment thickness:20mm). Indication length is 6mm and echo height is 1/2 DAC. Is this indication acceptable?\n20mm두께의 용접부를 UT 탐상하였더니 다음과 같은 에코 패턴이 나타났다. 지시의 길이는 6mm이고, 에코의 높이는 1/2 DAC선에 위치하였다. 합격인가?",
     "options": [
       "Retest indication",
       "Accept",
       "Reject",
       "Non-relevant indication"
     ],
-    "answer": 2,
-    "image": "UT_SPECIFIC_B_Q5.jpg"
+    "answer": 2
+  },
+  {
+    "id": 10,
+    "level": "Level II",
+    "method": "UT",
+    "category": "Specific",
+    "source": "UTS-II(2020)(A)",
+    "question": "Where the component material is clad, the calibration block shall be clad by .\n만약 제품이 크래드 되어 있으면 교정 블록은 어떻게 Clad 되어져야 하는가?",
+    "options": [
+      "the same welding procedure as the production part.\n (제품 크래드시 이용한 것과 동일한 방법)",
+      "the different welding procedure as the production part.\n (제품 크래드시 이용한 것과 다른 방법)",
+      "SMAW Procedure\nSMAW 방법",
+      "all of the above\n위 1, 2,C 모두"
+    ],
+    "answer": 0
   },
   {
     "id": 11,
     "level": "Level II",
     "method": "UT",
-    "subject": "Specific",
-    "type": "B",
-    "question": "A ____ hole shall be used as a calibration reflector to establish a primary reference response of the equipment.",
-    "korean": "제1차 표준 감도 설정을 위해 사용되는 구멍은 무엇인가?",
-    "answer": "¼T",
-    "source": "HIE-NDT-UT-P11 Rev.2"
+    "category": "Specific",
+    "source": "UTS-II(2020)(A)",
+    "question": "What kind of hole in calibration block shall be used to verify the soundness of screen height linearity in instruments?\n어떤 종류의 구멍이 장비의 스크린 높이 직선상의 건전성을 증명하기 위해서 사용되어야 할까?",
+    "options": [
+      "1/2T, 3/4T, Side drilled hole",
+      "1/2T, 1/4T, Side drilled hole",
+      "1/4T, 3/4T, Side drilled hole",
+      "1/4T, 1/8T, Side drilled hole \n* Following questions(No.14) are prepared according to ASME Code Sec.I.\n (14번은 ASME 규격 Sec.I에 의해 준비되었다.)"
+    ],
+    "answer": 0
   },
   {
     "id": 12,
-    "category": "S",
-    "question": "Where component material is clad, calibration block shall be clad by ______.",
-    "question_kr": "제품이 클래드일 경우 교정블록 클래드는?",
+    "level": "Level II",
+    "method": "UT",
+    "category": "Specific",
+    "source": "UTS-II(2020)(A)",
+    "question": "What is the maximum allowed length of indication in a 3in. thick weld? (This indication is not interpreted to be a crack, lack of fusion and incompleted penetration.)\n두께 3인치 맞대기 용접부에서의 최대허용지시의 길이는? 이 지시는 균열, 용입부족 및 융합불량으로 판정되지 않는다.",
     "options": [
-      "Same welding procedure as production part",
-      "Different welding procedure",
-      "SMAW procedure",
-      "All above"
+      "1/4in.",
+      "2/4in.",
+      "3/4in.",
+      "1/3in"
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "id": 13,
     "level": "Level II",
     "method": "UT",
-    "subject": "Specific",
-    "type": "B",
-    "question": "What kind of hole in calibration block shall be used to verify the soundness of screen height linearity in instruments?",
-    "korean": "장비의 Screen height linearity 확인을 위해 사용하는 구멍은?",
+    "category": "Specific",
+    "source": "UTS-II(2020)(A)",
+    "question": "When performing ultrasonic testing (UT) on special-grade valve castings according to ASME B16.34, which of the following is the correct standard notch depth for the calibration block? ASME B16.34에 따라 특수 등급(Special Class) 밸브 주강품에 대해 초음파탐상검사(UT)를 수행할 때, 보정용 시험편(Calibration Block)에 가공하는 표준 노치(Notch)의 깊이 기준으로 옳은 것은?",
     "options": [
-      "1/2T, 3/4T, Side drilled hole",
-      "1/2T, 1/4T, Side drilled hole",
-      "1/4T, 3/4T, Side drilled hole",
-      "1/4T, 1/8T, Side drilled hole"
+      "1.6 mm, regardless of wall thickness.\n벽 두께와 상관없이 일괄적으로 1.6mm",
+      "3% of the wall thickness.\n벽 두께의 3%",
+      "5% of the wall thickness\n벽 두께의 5%",
+      "10% of the wall thickness)(벽 두께의 10%)\n* The following questions No.16～17 refer to API 6A\n API 6A를 참조하여 16～17번 물음에 답하시오."
     ],
-    "answer": 0,
-    "source": "HIE-NDT-UT-P11 Rev.2"
+    "answer": 2
   },
   {
     "id": 14,
     "level": "Level II",
     "method": "UT",
-    "subject": "Specific",
-    "type": "B",
-    "question": "What is the maximum allowed length of indication in a 3in. thick weld?",
-    "korean": "두께 3인치 맞대기 용접부의 최대 허용 지시 길이는?",
+    "category": "Specific",
+    "source": "UTS-II(2020)(A)",
+    "question": "During inspection of the PSL3 weld, a single indication of 5mm in length exceeded the reference distance amplitude curve. Is it acceptable?\nPSL3 용접부를 검사하는 동안, 기준 거리진폭곡선을 초과하는 5mm길이의 단일 지시가 나타났다. 합격인가?",
     "options": [
-      "1/4in.",
-      "2/4in.",
-      "3/4in.",
-      "1/3in."
+      "Accept 합격",
+      "Reject 불합격"
     ],
-    "answer": 2,
-    "source": "ASME Code Sec.I"
+    "answer": 1
   },
   {
     "id": 15,
-    "category": "S",
-    "question": "When ultrasonic testing EW seam welds, what is the depth of notch used as reference indicator?",
-    "question_kr": "EW seam 용접부 UT 검사 시 대비 노치 깊이는?",
+    "level": "Level II",
+    "method": "UT",
+    "category": "Specific",
+    "source": "UTS-II(2020)(A)",
+    "question": "During inspection of a 25mm thickness PSL2 weld, a 6mm length of slag inclusion exceeded the reference distance amplitude curve. Is it acceptable?\n25mm두께의 PSL2 용접부를 검사하는 동안, 6mm길이의 슬래그가 기준 거리진폭곡선을 초과하여 나타났다. 합격인가?",
     "options": [
-      "12.5% of thickness",
-      "5% of thickness",
-      "10% of thickness",
-      "2% of thickness"
+      "Accept 합격",
+      "Reject 불합격"
     ],
-    "answer": 2
+    "answer": 0
   },
   {
     "id": 16,
     "level": "Level II",
     "method": "UT",
-    "subject": "Specific",
-    "type": "B",
-    "question": "During inspection of the PSL3 weld, a single indication of 5mm in length exceeded the reference distance amplitude curve. Is it acceptable?",
-    "korean": "PSL3 용접부에서 DAC를 초과하는 5mm 단일 지시는 합격인가?",
+    "category": "Specific",
+    "source": "UTS-II(2020)(A)",
+    "question": "In order to examine ultrasonically for the specimen in Fig. 1. Which is proper thickness of reference calibration block?\n그림 #1의 시편을 초음파탐상 시험하기 위한 적당한 교정시편의 두께는?",
     "options": [
-      "Accept",
-      "Reject"
+      "1 1/2 in",
+      "3\"",
+      "1\"",
+      "none of the above"
     ],
-    "answer": 1,
-    "source": "API 6A"
+    "answer": 3,
+    "image": "UT_SPECIFIC_VQ23.png"
   },
   {
     "id": 17,
     "level": "Level II",
     "method": "UT",
-    "subject": "Specific",
-    "type": "B",
-    "question": "During inspection of a 25mm thickness PSL2 weld, a 6mm length of slag inclusion exceeded the reference distance amplitude curve. Is it acceptable?",
-    "korean": "25mm PSL2 용접부에서 DAC 초과 슬래그 길이 6mm는 합격인가?",
+    "category": "Specific",
+    "source": "UTS-II(2020)(A)",
+    "question": "Which of the following is (are) ultrasonic instrument calibration?\n다음 중 어느 것이 초음파탐상 장비의 교정을 의미하는 것인가?",
     "options": [
-      "Accept",
-      "Reject"
+      "screen height linearity\n수직 방향 직선성",
+      "amplitude control linearity\n증폭 조절 직선성",
+      "beam spread measurement\n빔 확산 측정",
+      "all of the above\n위의 것 모두 해당 사항임",
+      "none of the above\n위에 해당 사항 없음"
     ],
-    "answer": 0,
-    "source": "API 6A"
+    "answer": 2
   },
   {
     "id": 18,
-    "category": "A",
-    "question": "Discontinuity interpreted as slag inclusion: height 3mm, length 6mm, amplitude 50% reference level. Acceptable?",
-    "question_kr": "Slag inclusion(높이3mm, 길이6mm, 50% 기준감도)은 합격인가?",
+    "level": "Level II",
+    "method": "UT",
+    "category": "Specific",
+    "source": "UTS-II(2020)(B)",
+    "question": "The ultrasonic instrument shall utilize an amplitude control, accurate over its useful range to % of the nominal amplitude ratio, to allow measurement of indications beyond the linear range of vertical display on the screen.\n초음파 탐상장비는 평균 증폭비의 % 범위 이내로 증폭 조절 직선성을 지니고 있어야 스크린 수직방향 지시측정이 가능하다.",
     "options": [
-      "Accept",
-      "Reject"
+      "10%",
+      "5%",
+      "20% C. none of the above (위에 해당 사항 없음)\n E. all of the above (위의 모두 해당 사항임)\n* The following questions (21-25) refer to HIE procedure, HIE-NDT-UT-N21 (Rev.2) for ultrasonic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec Ⅲ. 2023 Edition.\n (다음 문제 (21-25)은 HIE 절차서에 언급된다. ASME B & PV 규격에 따른 압력용기 제작의 초음파 시험에 대한 절차서HIE-NDT-UT-N21 (Rev.2)"
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "id": 19,
-    "category": "A",
-    "question": "Discontinuity interpreted as lack of fusion: width 1mm, height 3mm, length 4mm, amplitude 25%. Acceptable?",
-    "question_kr": "융합불량(폭1mm, 높이3mm, 길이4mm, 25%)은?",
+    "level": "Level II",
+    "method": "UT",
+    "category": "Specific",
+    "source": "UTS-II(2020)(B)",
+    "question": "Search unit shall be angle beam probe.\n탐촉자는 도 사각 탐촉자를 사용해야 한다.",
     "options": [
-      "Accept",
-      "Reject"
+      "0°",
+      "45°",
+      "60°",
+      "70°"
     ],
     "answer": 1
   },
@@ -275,111 +285,63 @@
     "id": 20,
     "level": "Level II",
     "method": "UT",
-    "subject": "Specific",
-    "type": "B",
-    "question": "In a water immersion test, ultrasonic energy is transmitted into steel at an incident angle of 14°. What is the angle of the refracted shear wave within the material?",
-    "korean": "수침법 탐상시 물에서 강재로 초음파가 14°의 각도로 전달될 때 강재 내 굴절각은?",
-    "given": {
-      "Vs": "3.2×10^5 cm/s",
-      "Vw": "1.5×10^5 cm/s"
-    },
-    "formula": "Snell's Law",
-    "answer": "31°"
+    "category": "Specific",
+    "source": "UTS-II(2020)(B)",
+    "question": "The rate of search unit movement for examination shall not exceed .",
+    "options": [
+      "150 mm/s B. 200mm/s",
+      "10 in/s D. 15 in/s\n SPECIFIC(B-TYPE)\n \n문제\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n해답\nA\nD\nA\nA\nC\n¼T\nA\nA\nC\nC\n문제\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n해답\nB\nA\n합격\n불합격\n#1\n#2\nSNT-TC-1A\nA \nD\nC\n문제\n21\n22\n23\n24\n25\n해답\nC\nA\nB\nC\nA\n #1 \n , \n \n θ = 31°\n #2\n d = 2t - WF cos θ\n = 2․40-100․cos 45°\n = 9.3 ㎜\n10. Which of the followings is primary reference level of angle beam calibration with notch for pipe?\n (다음 중 노치를 이용한 배관에 대한 사각탐상의 주기준 감도는?) B",
+      "50% ± 5% B. 80% ± 5%",
+      "50% + 6dB D. 80% + 6dB\n11. When possible, scanning shall be performed at a minimum gain setting of A times or B dB or reference level sensitivity in case of angle beam examination.\n (가능하면 탐상 감도는 제 1차 감도 수준의 최소 A 회 혹은 B dB를 증가시켜서 실시되어야 한다.) C",
+      "A:10 TIMES, B:20dB B. A:4 TIMES, B:12dB",
+      "A:2 TIMES, B: 6dB D. none of the above\n12. All indication which produce a response greater than A % of reference level shall be investigated to the extent that the operator can determine the shape etc.\n What is proper word in column A? \n (제1차 감도수준의 A %를 초과하는 불연속 지시는 검사자가 필히 형상등을 결정할 수 있을 정도로 검사를 해야 한다. A칸에 들어갈 말은 무엇인가?)\n ====> 20%\n* Following questions(No.15) are prepared according toAPI 5L\n (15번은 API 5L에 의거 준비되었다.\n10. When ultrasonic testing EW seam welds, use a notch as a reference indicators. What is the depth of the notch?\n (EW seam 용접부를 UT검사할 때, 대비반사체는 노치를 사용하려 한다. 노치의 깊이는 얼마인가?)",
+      "12.5% of thickness B. 5% of thickness",
+      "10% of thickness D. 2% of thickness"
+    ],
+    "answer": 0
   },
   {
     "id": 21,
     "level": "Level II",
     "method": "UT",
-    "subject": "Specific",
-    "type": "B",
-    "question": "Calculate the depth (x) of discontinuity A in Fig. (Metal path:100mm)",
-    "korean": "결함 A의 깊이 x를 계산하시오.",
-    "answer": "#2",
-    "image": "UT_SPECIFIC_B_Q16.png"
+    "category": "Specific",
+    "source": "UTS-II(2020)(A)",
+    "question": "Serch unit shall be angle beam probe.\n탐촉자는 도 사각 탐촉자를 사용해야 한다.",
+    "options": [
+      "0°",
+      "45°",
+      "60°",
+      "70°"
+    ],
+    "answer": 1
   },
   {
     "id": 22,
-    "category": "S",
-    "question": "What document is recommended practice for establishing HIE NDE qualification program HIE-QP-E01 Rev.7?",
-    "question_kr": "HIE 비파괴검사원 자격부여 프로그램 설립 문서는?",
+    "level": "Level II",
+    "method": "UT",
+    "category": "Specific",
+    "source": "UTS-II(2020)(A)",
+    "question": "When ultrasonic testing EW seam welds, use a notch as a reference indicators. What is the depth of the notch?\nEW seam 용접부를 UT검사할 때, 대비반사체는 노치를 사용하려 한다. 노치의 깊이는 얼마인가?",
     "options": [
-      "ISO 9712",
-      "SNT-TC-1A",
-      "EN 473",
-      "EN 583-6"
+      "12.5% of thickness",
+      "5% of thickness",
+      "10% of thickness",
+      "2% of thickness\n* The following questions No.16～17 refer to API 6A\n API 6A를 참조하여 16～17번 물음에 답하시오."
     ],
-    "answer": 1
+    "answer": 2
   },
   {
     "id": 23,
     "level": "Level II",
     "method": "UT",
-    "subject": "Specific",
-    "type": "B",
-    "question": "Which is proper thickness of reference calibration block for ultrasonic examination of specimen in Fig.1?",
-    "korean": "그림 1의 시편 검사에 적합한 교정시험편 두께는?",
+    "category": "Specific",
+    "source": "UTS-II(2020)(B)",
+    "question": "Serch unit shall be angle beam probe.\n탐촉자는 도 사각 탐촉자를 사용해야 한다.",
     "options": [
-      "1 1/2 in",
-      "3 in",
-      "1 in",
-      "None of the above"
-    ],
-    "answer": 0,
-    "image": "UT_SPECIFIC_VA_Q23.png"
-  },
-  {
-    "id": 24,
-    "category": "E",
-    "question": "Which following is ultrasonic instrument calibration?",
-    "question_kr": "초음파 탐상 장비 교정 항목은?",
-    "options": [
-      "Screen height linearity",
-      "Amplitude control linearity",
-      "Beam spread measurement",
-      "All of above"
-    ],
-    "answer": 3
-  },
-  {
-    "id": 25,
-    "level": "Level II",
-    "method": "UT",
-    "subject": "Specific",
-    "type": "B",
-    "question": "The ultrasonic instrument shall utilize an amplitude control accurate over its useful range to ____% of nominal amplitude ratio.",
-    "korean": "초음파 탐상장비 증폭 조절 직선성 허용 범위는?",
-    "options": [
-      "10%",
-      "5%",
-      "20%",
-      "None of the above",
-      "All of the above"
-    ],
-    "answer": 2
-  },
-  {
-    "id": 26,
-    "category": "P",
-    "question": "When possible, angle beam scanning shall be performed at minimum gain setting of ____.",
-    "question_kr": "사각 탐상 시 최소 탐상 감도는?",
-    "options": [
-      "10 times or 20dB",
-      "4 times or 12dB",
-      "2 times or 6dB",
-      "None"
-    ],
-    "answer": 2
-  },
-  {
-    "id": 27,
-    "category": "P",
-    "question": "All indications greater than ____ % of reference level shall be investigated.",
-    "question_kr": "기준감도의 몇 % 초과 지시는 조사해야 하는가?",
-    "options": [
-      "10%",
-      "20%",
-      "50%",
-      "80%"
+      "0°",
+      "45°",
+      "60°",
+      "70°"
     ],
     "answer": 1
   }

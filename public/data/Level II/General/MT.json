@@ -1,180 +1,240 @@
 [
   {
     "id": 1,
-    "question": "For a given current through a conductor, doubling the diameter of the conductor will ___ the field strength at the surface.\n\n도체의 직경이 두 배로 되면 표면에서의 자장의 강도는?",
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "For a given current through a conductor, doubling the diameter of the conductor will the field strength at the surface.\n센트랄 콘덕터를 사용하였을 때 콘덕터의 직경이 두배로 되면 표면에서의 자장의 강도는 것이다.",
     "options": [
-      "increase",
-      "decrease",
-      "double",
-      "quadruple"
+      "increase\n증가할",
+      "decrease\n감소할",
+      "double\n두배가 될",
+      "quadruple\n4배가 될"
     ],
     "answer": 1
   },
   {
     "id": 2,
-    "question": "For maximum sensitivity in the inspection of rough welds:\n\n거친 용접부의 검사에서 최대 감도를 위해서는?",
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "For maximum sensitivity in the inspection of rough welds:\n거친 용접부의 검사에서 최대의 감도를 위해서는?",
     "options": [
-      "wire brush the weld to remove scale and slag",
-      "use standard test weldments for comparison",
-      "coat weld bead with lacquer",
-      "grind bead flush on plate surfaces"
+      "wire brush the weld to remove scale and slag\n철솔로 스케일과 슬랙을 제거한다.",
+      "use standard test weldments for comparison\n비교를 위해 표준 시험 용접시편을 사용한다.",
+      "coat weld bead with lacquer\n용접 비이드를 락카로 칠한다.",
+      "grind bead flush on plate surfaces\n용접 비드를 그라인드 하여 편평하게 한다."
     ],
     "answer": 3
   },
   {
     "id": 3,
-    "question": "For the most efficient use of magnetic particle inspection:\n\n자분 탐상 시험의 가장 효과적인 이용을 위해서는?",
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "For the most efficient use of magnetic particle inspection:\n자분 탐상 시험의 가장 효과적인 이용을 위해서는?",
     "options": [
-      "all discontinuities should be detected",
-      "all surface faults should be detected",
-      "all discontinuities important to the function of a part should be detected",
-      "trouble points should be avoided"
+      "all discontinuities should be detected\n모든 불연속이 탐지되어야 한다.",
+      "all surface faults should be detected\n모든 표면의 흠이 탐지되어야 한다.",
+      "all discontinuities important to the function of a part should be detected\n (제품의 기능에 영향을 주는 모든 중요한 불연속은 탐지되어야 한다.)",
+      "trouble points should be avoided\n문제가 될 만한 점을 피해야 한다."
     ],
     "answer": 2
   },
   {
     "id": 4,
-    "question": "The strength of the magnetic field within a coil is determined by:\n\n코일 내의 자장의 강도는 무엇에 따라 결정되는가?",
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "The strength of the magnetic field within a coil is determined by:\n코일 내의 자장의 강도는 무엇에 따라 결정되는가?",
     "options": [
-      "the current in the coil",
-      "the number of turns in the coil",
-      "the diameter of the coil",
-      "all of the above"
+      "the current in the coil\n코일 내의 전류",
+      "the number of turns in the coil\n코일의 감은 수",
+      "the diameter of the coil\n코일의 직경",
+      "all of the above\n위의 모두"
     ],
     "answer": 1
   },
   {
     "id": 5,
-    "question": "List four discontinuities found in welds.\n\n용접물에서 찾을 수 있는 불연속 4개",
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "Inspecting a part by magnetizing then applying the medium is called:\n자화 시킨 후 자분을 도포 하는 검사법은?",
     "options": [
-      "Crack",
-      "Porosity",
-      "Incomplete penetration / Lack of fusion",
-      "Slag inclusion"
-    ],
-    "answer": 0
-  },
-  {
-    "id": 6,
-    "question": "Inspecting a part by magnetizing then applying the medium is called:\n\n자화 시킨 후 자분을 도포하는 검사법은?",
-    "options": [
-      "continuous method",
-      "wet method",
-      "residual method",
-      "dry method"
+      "continuous method\n연속법",
+      "wet method\n습식법",
+      "residual method\n잔류 자화법",
+      "dry method\n건식법"
     ],
     "answer": 2
   },
   {
-    "id": 7,
-    "question": "The gauss is the unit of measurement of the magnetic field strength. What is the term which is used in this regard?\n\n가우스는 자장의 강도를 측정하는 단어이다. 어느 용어를 나타내는가?",
+    "id": 6,
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "The gauss is the unit of measurement of the magnetic field strength. What is the term which is used in this regard?\n가우스는 자장의 강도를 측정하는 단어이다. 다음의 어느 용어를 나타내는데 사용되는가?",
     "options": [
-      "current",
-      "flux density",
-      "lines of force",
-      "residual field"
+      "current\n전류",
+      "flux density\n자속밀도",
+      "lines of force\n자력선",
+      "residual field\n잔류자장"
     ],
     "answer": 1
+  },
+  {
+    "id": 7,
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "What are three causes of nonrelevant indications?\n부적절한 지시를 나타내는 3가지 이유를 골라라",
+    "options": [
+      "Lack of fusion\n융합 불량",
+      "Change in section\n단면의 변화",
+      "drilled holes near test surface\n시험 표면 근처의 구멍",
+      "Grinding cracks\n그라인딩 크랙",
+      "Blow holes\n브러홀"
+    ],
+    "answer": [
+      1,
+      2,
+      4
+    ]
   },
   {
     "id": 8,
-    "question": "What are three causes of nonrelevant indications?\n\n부적절한 지시를 나타내는 3가지 이유",
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "When using the wet continuous method, the flow of suspension from the hose should be shut off :\n습식 연속법에서 호오스로부터 현탁액의 공급을 언제 중단해야 하는가?",
     "options": [
-      "Lack of fusion",
-      "Change in section",
-      "Drilled holes near test surface",
-      "Grinding cracks",
-      "Blow holes"
+      "immediately after applying current\n전류를 통한 후 즉시",
+      "immediately before applying current\n전류를 통하기 바로 직전",
+      "while current if flowing\n전류가 흐르고 있는 동안",
+      "30 seconds before applying current\n전류를 통하기 30초전"
     ],
-    "answer": 1
+    "answer": 2
   },
   {
     "id": 9,
-    "question": "When using the wet continuous method, the flow of suspension from the hose should be shut off:\n\n습식 연속법에서 현탁액 공급을 언제 중단해야 하는가?",
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "Parts should be demagnetized magnetic particle Examination\n제품은 자분탐상 시험 에 탈자되어야 한다.",
     "options": [
-      "immediately after applying current",
-      "immediately before applying current",
-      "while current is flowing",
-      "30 seconds before applying current"
+      "before\n전",
+      "before and after\n전후",
+      "after\n후"
     ],
     "answer": 2
   },
   {
     "id": 10,
-    "question": "Parts should be demagnetized ___ magnetic particle examination.\n\n제품은 자분탐상 시험 ___ 탈자되어야 한다.",
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "Why are low carbon steels most favorable for deep defect detection?\n저탄소강은 왜 깊은 곳의 결함도 탐지하는 것이 용이한가?",
     "options": [
-      "before",
-      "before and after",
-      "after"
+      "low permeability\n낮은 투자성",
+      "high permeability\n높은 투자성",
+      "high coercive force\n높은 항자력",
+      "corrosive\n부식성"
     ],
     "answer": 1
   },
   {
     "id": 11,
-    "question": "Why are low carbon steels most favorable for deep defect detection?\n\n저탄소강은 왜 깊은 곳의 결함 탐지가 용이한가?",
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "The accumulation of particles as a site on the part surface, collected at and held to the site by a magnetic leakage field is called:\n저장에 의해 제품의 표면에 자분이 모인 것을 무엇이라고 하는가?",
     "options": [
-      "low permeability",
-      "high permeability",
-      "high coercive force",
-      "corrosive"
-    ],
-    "answer": 1
-  },
-  {
-    "id": 12,
-    "question": "The accumulation of particles at a site on the part surface, collected at and held to the site by a magnetic leakage field is called:\n\n자속 누설에 의해 제품 표면에 자분이 모인 것을 무엇이라 하는가?",
-    "options": [
-      "discontinuity",
-      "defect",
-      "indication",
-      "crack"
+      "discontinuity\n불연속",
+      "defect\n결함",
+      "indication\n지시",
+      "crack\n갈라짐"
     ],
     "answer": 2
   },
   {
-    "id": 13,
-    "question": "Select type of metals that may be magnetic particle inspected. (check three)\n\n자분탐상검사가 가능한 금속 3개 선택",
+    "id": 12,
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "Select type of metals that may be magnetic particle inspected from the following : (check three)\n다음에서 자분 탐상 시험을 해도 좋은 금속은: (3개 선택",
     "options": [
-      "ferro-magnetic metals",
-      "low carbon steel",
-      "aluminum",
-      "austenitic steels",
-      "copper",
-      "bronze",
-      "lead",
-      "magnesium",
-      "titanium",
-      "nickel"
+      "ferro-magnetic metals\n강자성 금속",
+      "low carbon steel\n저 탄소강",
+      "aluminum\n알루미늄",
+      "austenitic steels\n오스테나이트 강",
+      "copper\n구리",
+      "bronze\n청동",
+      "lead\n납",
+      "magnesium\n마그네슘",
+      "titanium\n티탄",
+      "nickel\n니켈"
+    ],
+    "answer": [
+      0,
+      1,
+      9
+    ]
+  },
+  {
+    "id": 13,
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "Check those discontinuities which may not be found in castings?\n주조물에서 찾아보기 힘든 불연속은?",
+    "options": [
+      "seams\n이음부",
+      "hot tear\n열간 균열",
+      "gas pocket\n공기 주머니",
+      "shrink\n수축"
     ],
     "answer": 0
   },
   {
     "id": 14,
-    "question": "Check those discontinuities which may not be found in castings.\n\n주조물에서 찾아보기 힘든 불연속은?",
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "Check those discontinuities which may not be found in forgings. (check two)\n(단조물에서 찾아보기 힘든 불연속은?) 2개 선택",
     "options": [
-      "seams",
-      "hot tear",
-      "gas pocket",
-      "shrink"
+      "shrink\n수축",
+      "laps\n겹침",
+      "flash line cracks\n균일선",
+      "flakes\n엷은 조각",
+      "lack of fusion\n용융부족",
+      "cracks or bursts\n균열이나 파열"
     ],
-    "answer": 0
+    "answer": [
+      0,
+      4
+    ]
   },
   {
     "id": 15,
-    "question": "Check those discontinuities which may not be found in forgings. (check two)\n\n단조물에서 찾아보기 힘든 불연속 2개",
-    "options": [
-      "shrink",
-      "laps",
-      "flash line cracks",
-      "flakes",
-      "lack of fusion",
-      "cracks or bursts"
-    ],
-    "answer": 0
-  },
-  {
-    "id": 16,
-    "question": "A solid round bar is magnetized in a coil. Length is 10 inches, diameter is 3 inches and coil has 5 turns. How many amperes will you use?\n\n길이 10인치, 직경 3인치, 5회 코일에서 필요한 전류는?",
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "You will magnetize a solid round bar in a coil. The bar is 10 inches in length and 3 inches in diameter. The coil has 5 turns. How many amperes will you use? 45,000 The formula : Ampere turns = 󰠏󰠏󰠏󰠏󰠏󰠏󰠏󰠏󰠏 L/D\n코일 속에서 환붕을 자화시키고 있다. 봉의 길이는 10인치이고 직경은 3인치이다. 코일의 회수 (감은수) 가 5번이라면 얼마의 전류가 필요한가?",
     "options": [
       "14000 amp",
       "1500 amp",
@@ -184,74 +244,102 @@
     "answer": 2
   },
   {
-    "id": 17,
-    "question": "Seams in rolled bars are best detected in magnetic particle inspection with:\n\n봉재의 Seam 검출에 가장 효과적인 자화법은?",
+    "id": 16,
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "Seams in rolled bars are best detected in magnetic particle inspection with : (check one)\n봉재에서의 seam은 자분 탐상 시험법중 어느 방법이 가장 효과적인가?",
     "options": [
-      "longitudinal magnetization",
-      "circular magnetization",
-      "prod magnetization",
-      "cable magnetization"
+      "longitudinal magnetization\n종축 자화",
+      "circular magnetization\n원형 자화",
+      "prod magnetization\n프로드 자화",
+      "cable magnetization\n케이블 자화"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 17,
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "Fine surface defects such as fatigue cracks on smoothly machined parts which have been in service are best detected with magnetic particle inspection by use of:\n가동 중에 완만하게 기계 가동된 제품상의 피로크렉과 같은 미세한 표면 결함은 자분 탐상 시험법 중 다음의 어느 방법이 가장 효과적인가?",
+    "options": [
+      "dry magnetic particles with direct current magnetization\n직류 자화에 건식 자분",
+      "wet magnetic particles with alternating current magnetization\n교류 자화에 습식 자분",
+      "dry magnetic particles with half wave rectified current\n반파정류에 건식 자분",
+      "wet magnetic particles with half wave rectified current\n반파정류에 습식 자분"
     ],
     "answer": 1
   },
   {
     "id": 18,
-    "question": "Fine surface defects such as fatigue cracks on smoothly machined parts are best detected by use of:\n\n가공된 제품의 미세 표면 결함 검출에 가장 적합한 방법은?",
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "An example of non-relevant indication that would be classed as a magnetic anomaly rather than an actual discontinuity is a :\n실제 결함이 아닌 무관련 지시로 인정되는 것은?",
     "options": [
-      "dry magnetic particles with direct current magnetization",
-      "wet magnetic particles with alternating current magnetization",
-      "dry magnetic particles with half wave rectified current",
-      "wet magnetic particles with half wave rectified current"
+      "slag pocket\n슬랙",
+      "grinding crack\n그라인딩 크랙",
+      "abrupt change in hardness of part\n제품의 강도의 급격한 변화",
+      "none of the above\n해당 무"
     ],
-    "answer": 1
+    "answer": 2
   },
   {
     "id": 19,
-    "question": "An example of non-relevant indication that would be classed as a magnetic anomaly rather than an actual discontinuity is a:\n\n실제 결함이 아닌 자기 이상에 의한 무관련 지시는?",
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "Having located all the discontinuities on a part:\n제품상에 불연속이 있을 때",
     "options": [
-      "slag pocket",
-      "grinding crack",
-      "abrupt change in hardness of part",
-      "none of the above"
+      "the part should be rejected\n제품을 불합격시켜야 한다.",
+      "the part should be salvaged by removing discontinuities \n (불연속을 제거함으로써 구제해야 한다.)",
+      "the discontinuities should be evaluated to the requirements of the applicable acceptance standard\n불연속은 해당 허용 기준에 맞춰 평가되어야 한다.",
+      "a file should be made to determine the depth of the crack\n (크랙의 깊이를 알기 위해 줄로 잘라야 한다.)"
     ],
     "answer": 2
   },
   {
     "id": 20,
-    "question": "Having located all the discontinuities on a part:\n\n제품상의 모든 불연속을 찾은 후 해야 하는 것은?",
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "The input current requirements for MT equipment depend in part upon the :\nMT장비에 요구되는 입력 전기는 무엇에 의존하는가?",
     "options": [
-      "part should be rejected",
-      "part should be salvaged by removing discontinuities",
-      "discontinuities should be evaluated to applicable acceptance standard",
-      "file should be made to determine crack depth"
-    ],
-    "answer": 2
-  },
-  {
-    "id": 21,
-    "question": "The input current requirements for MT equipment depend in part upon the:\n\nMT 장비에 요구되는 입력 전류는 무엇에 의존하는가?",
-    "options": [
-      "duty cycle required",
-      "shop electrical service",
-      "prod spacing required on average production part types",
-      "size of current cables"
+      "duty cycle required\n요구되는 휴지시간",
+      "shop electrical service\n공장에서 제공되는 전기",
+      "prod spacing required on average production part types\n평균 프로드 간격",
+      "size of current cabels\n전류 케이블의 크기"
     ],
     "answer": 0
   },
   {
-    "id": 22,
-    "question": "A magnetic discontinuity, which is a break in the magnetic uniformity of a part, is related to a sudden change in:\n\n제품의 균일한 자장이 깨지는 자장 불연속은 무엇의 갑작스런 변화와 관련되는가?",
+    "id": 21,
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "A magnetic discontinuity, which is a break in the magnetic uniformity of a part, is related to a sudden change in :\n제품의 균일한 자장이 깨지는 자장불연속은 무엇의 갑작스런 변화와 연관되어 있나?",
     "options": [
-      "inductance",
-      "resistivity",
-      "capacitance",
-      "permeability"
+      "inductance\n인덕턴스",
+      "resistivity\n고유저항",
+      "capacitance\n정전용량",
+      "permeability\n투자율"
     ],
     "answer": 3
   },
   {
-    "id": 23,
-    "question": "A large forging is repaired by welding. Magnetic particle inspection reveals an irregular indication running parallel with weld passes. It is located in the center of the bead and starts and ends by turning off slightly from axial direction. This indication is indicative of:\n\n대형 단조품 용접 보수부에서 용접 패스와 평행한 불규칙 지시는 무엇인가?",
+    "id": 22,
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "A large forging is repaired by welding. Mamgetic particle inspection of the repair weld reveals an irregular indication running parallel with the weld passes. It is located in the center of the bead and stars and ends by turning off slightly from the axial direction. This indication is indicative of:\n큰 단조품은 용접으로 수정한다. 이 단조품에서 자분탐상검사시 용접 패스와 평행하게 불규칙적 지시가 나타나며, 비드 중앙에 나타나고, 별 모양이고, 축 방향으로부터 가늘게 사라지는 끝단을 갖는 결함은?",
     "options": [
       "inclusions",
       "crater cracks",
@@ -261,19 +349,27 @@
     "answer": 2
   },
   {
-    "id": 24,
-    "question": "Plated parts can be reliably tested using magnetic particle method if the plating is less than:\n\n도금 부품이 자분탐상으로 신뢰성 있게 검사되려면 도금 두께는?",
+    "id": 23,
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "Plated parts can be reliably tested using the magnetic particle method if the plating is less than:\n자분탐상검사에서 도금부위가 신뢰성 있게 검사되려면 어느 두께 보다 적어야 하는가?",
     "options": [
-      "0.1 mm",
-      "0.2 mm",
-      "0.8 mm",
-      "1 mm"
+      "0.1 mm(0.004in.) thick",
+      "0.2 mm(0.008in.) thick",
+      "0.8 mm(0.03in.) thick",
+      "1mm (0.04in.) thick"
     ],
     "answer": 0
   },
   {
-    "id": 25,
-    "question": "The best shape for magnetic particles used in the dry powder method is:\n\n건식 자분법에서 가장 좋은 자분 형태는?",
+    "id": 24,
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "The best shape for magnetic particles used in the dry powder method is:\n건식 자분을 사용할 때 자분의 좋은 형태는?",
     "options": [
       "flat",
       "globular",
@@ -283,52 +379,72 @@
     "answer": 3
   },
   {
-    "id": 26,
-    "question": "The best method for testing ball bearing is:\n\n볼 베어링 검사에 가장 좋은 방법은?",
+    "id": 25,
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "The best method for testing ball bearing is:\n볼 베어링 검사에 가장 종은 방법은?",
     "options": [
-      "along one axis using a coil",
-      "two shots using a coil at X and Y axis",
-      "two head shots along X, Y and Z axis",
-      "induced current shots along X, Y and Z axis rotating 360 degree during each shot"
+      "along one axis using a coil\n코일로 한 축을 따라",
+      "two shots using a coil at the X and Y axis\n코일로 X축과 Y측에서 2번 시도",
+      "two head shots along the X and Y, and Z axis\nX, Y, Z축을 따라 두 번의 head shot법",
+      "induced current shots along X, Y and Z axis rotating 360 degree during each-shot\n (360도 회전하는 동안 X, Y, Z축을 따라 각각 유도전류를 발사)\n ※ Following question 27 ～ 30"
     ],
     "answer": 3
   },
   {
-    "id": 27,
-    "question": "Which statement is most appropriate concerning material I and II represented by hysteresis curves?\n\n자기이력곡선으로 표현된 재질 I, II에 대한 적합한 설명은?",
+    "id": 26,
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "Which of the statements made below is most appropriate concerning material Ⅰ and Ⅱ represented by the hysteresis curves shown in Figure 1?\n아래 항목 중 그림 1에 보여진 자기이력곡선에 의해 묘사된 재질Ⅰ과 Ⅱ에 관해 가장 적합한 내용인가?",
     "options": [
-      "material I is not good for magnetic particle inspection",
-      "material I could be used for dry powder magnetic particles",
-      "material II could be used for dry powder magnetic particles",
-      "material II is paramagnetic"
+      "material Ⅰ is not a good subject for magnetic particle inspection\n (재질Ⅰ은 자분탐상검사에 적당하지 못하다)",
+      "material Ⅰ could be used for dry powder magnetic particles\n (재질Ⅰ은 건식자분을 사용할 수 있다.)",
+      "material Ⅱ could be used for dry powder magnetic particles\n (재질 Ⅱ은 건식자분을 사용할 수 있다.)",
+      "material Ⅱ is paramagnetic\n재질 Ⅱ는 상자성체이다."
+    ],
+    "answer": 2
+  },
+  {
+    "id": 27,
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "The curve shown in Figure 1 for material Ⅱ indicates that it:\n그림 1의 재질Ⅱ의 곡선은 무엇을 뜻하나?",
+    "options": [
+      "has a high coercive force\n높은 항자력",
+      "has a high retentivity\n높은 보자력",
+      "has a high permeability\n높은 투자율",
+      "would make an excellent permanent magnet\n우수한 영구자석 제작"
     ],
     "answer": 2
   },
   {
     "id": 28,
-    "question": "The curve shown for material II indicates that it:\n\n재질 II의 자기이력곡선은 무엇을 의미하는가?",
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "Point B on the hysteresis curve for material Ⅰ shown in Figure 1:\n그림 1의 재질Ⅰ의 자기이력 곡선의 B점은 무엇을 뜻하나?",
     "options": [
-      "has a high coercive force",
-      "has a high retentivity",
-      "has a high permeability",
-      "would make an excellent permanent magnet"
-    ],
-    "answer": 2
-  },
-  {
-    "id": 29,
-    "question": "Point B on the hysteresis curve for material I represents:\n\n재질 I의 자기이력곡선 B점은 무엇인가?",
-    "options": [
-      "mid-point of rectified AC current applied",
-      "material's magnetic saturation point",
-      "point at which residual magnetic value remains",
-      "limit of coercive force"
+      "represents the mid-point of the rectified AC current applied\n (정류된 교류전류가 적용된 중앙 점을 나타냄)",
+      "is the material's magnetic saturation point\n재질의 자기포화점",
+      "represents the point at which the residual magnetic value will remain when the magnetic",
+      "is the limit of coercive force\n항자력의 제한"
     ],
     "answer": 1
   },
   {
-    "id": 30,
-    "question": "Which point on the hysteresis curve represents the residual field value?\n\n자기이력곡선에서 잔류 자장을 나타내는 점은?",
+    "id": 29,
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "Which point on the hysteresis curve shown in Figure 1 represents the residual field value?\n그림 1의 자기이력곡선에서 잔류자장의 값을 나타내는 점은?",
     "options": [
       "A",
       "B",
@@ -338,41 +454,61 @@
     "answer": 2
   },
   {
-    "id": 31,
-    "question": "Why are parts demagnetized? (check correct answers)\n\n탈자는 왜 필요한가?",
+    "id": 30,
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "Why are parts demagnetized (check correct answer (s))?\n(탈자는 왜 필요한가?) 다수 선택",
     "options": [
-      "so that parts can be handled easier",
-      "to assure removal of residual magnetism",
-      "to assist in cleaning of parts",
-      "if not done, subsequent machining operations may be more difficult"
+      "so that parts can be handled easier\n제품을 더 쉽게 취급할 수 있도록 하기 위해",
+      "to assure removal of residual magnetism\n잔류 자기를 없애기 위해",
+      "to assist in cleaning of parts\n제품의 세척을 돕기 위해",
+      "if not done, subsequent machining operations may be more difficult to accomplish satisfactorily \n (탈자를 하지 않으면, 이어서 실시되는 기계 가공 작업을 하는데 어려움을 줄지도 모르므로)"
     ],
-    "answer": 1
+    "answer": [
+      1,
+      2,
+      3
+    ]
   },
   {
-    "id": 32,
-    "question": "Why should parts be cleaned after demagnetization?\n\n탈자 후 제품은 왜 세척하는가?",
+    "id": 31,
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "Why should be parts cleaned after demagnetization?\n탈자후 제품은 왜 세척을 실시해야 하는가?",
     "options": [
-      "to assure that magnetic particles are removed",
-      "to prevent corrosive action",
-      "to save the solids of the suspension",
-      "to prevent cracking during heat treatment"
+      "to assure that magnetic particles are removed\n자분을 제거하기 위해",
+      "to prevent corrosive action\n부식 작용을 방지하기 위해",
+      "to save the solids of the suspension\n현탁액의 고형화를 방지하기 위해",
+      "to prevent cracking during heat treatment\n열처리시 균열이 생기는 것을 방지하기 위해"
     ],
     "answer": 2
   },
   {
-    "id": 33,
-    "question": "When demagnetizing with the prod method the initial magnetizing force used to demagnetize must:\n\n프로드 방법으로 탈자할 때 최초 자력은?",
+    "id": 32,
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "When demagnetizing with the prod method the initial magnetizing force used to demagnetize must :\n프로드 방법으로 탈지할 때 탈자에 사용되는 최초의 자력선은?",
     "options": [
-      "higher than that used to magnetize the part",
-      "lower than that used to magnetize the part",
-      "the same as that used to magnetize the part",
-      "doesn't matter"
+      "higher than that used to magnetize the part \n (제품을 자화시키는 데 사용된 것보다 높아야 한다.)",
+      "lower than that used to magnetize the part\n (제품을 자화시키는데 사용된 것보다 낮아야 한다.)",
+      "the same as that used to magnetize the part\n (제품을 자화시키는데 사용된 것과 같아야 한다.)",
+      "doesn't matter\n문제 될 것 없다"
     ],
     "answer": 3
   },
   {
-    "id": 34,
-    "question": "The approximate amperage used to circularly magnetize a 1/2 inch diameter bolt is:\n\n직경 1/2인치 볼트 원형자화 시 필요한 전류는?",
+    "id": 33,
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "The approximate amperage used to circularly magnetize a 1/2 inch diameter bolt is:\n직경 1/2 인치인 볼트를 원형자화 시키는 데 사용되는 전류의 근사치는?",
     "options": [
       "100",
       "500",
@@ -382,8 +518,12 @@
     "answer": 1
   },
   {
-    "id": 35,
-    "question": "What amperages may be used with the prods spaced 6 inches apart in thickness 3/4 inch?\n\n3/4인치 두께 제품에서 프로드 간격 6인치일 때 사용 전류는?",
+    "id": 34,
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "What amperages may be used with the prods spaced 6inched apart in thickness 3/4\"?\n6인치 간격의 프로드를 사용할 때 제품 두께가 3/4인치일 때 몇 암페어가 좋은가?",
     "options": [
       "200 to 300 amps",
       "300 to 400 amps",
@@ -393,56 +533,91 @@
     "answer": 1
   },
   {
-    "id": 36,
-    "question": "If an overall pattern (sometimes circular lines) appears on the test surface, one should:\n\n시험 표면에 전체적인 패턴(원형선)이 나타나면?",
+    "id": 35,
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "If an overall pattern (sometimes circular lines) appears on the test surface, one should:\n시험 표면상에 전반적인 형태 (때로는 원형 곡선)의 지시가 나타나면",
     "options": [
-      "retest at higher amperage",
-      "retest in the opposite direction",
-      "retest at lower amperage",
-      "reject the part"
+      "retest at higher\n더 높은 암페어로 재시험한다",
+      "retest in the opposite direction\n반대 방향에서 재시험한다.",
+      "retest at lower amperage\n더 낮은 암페어로 재시험한다.",
+      "reject the part\n제품을 불합격시킨다."
+    ],
+    "answer": 2
+  },
+  {
+    "id": 36,
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "The nearer a discontinuity is to the surface\n불연속이 표면에 가까우면 가까울수록",
+    "options": [
+      "the more diffuse becomes the powder pattern\n (자분의 형태를 더 확산시킨다.)",
+      "the less serious it is as a source of fatigue crack\n (피로크랙의 원인이 되기에 더 어렵다)",
+      "the more distinct becomes the powder pattern\n (자분의 형태로 더 뚜렷하게 해준다)",
+      "the less sharp becomes the flux leakage field\n (자속 누설 자장을 더 둔화시킨다.)"
     ],
     "answer": 2
   },
   {
     "id": 37,
-    "question": "The nearer a discontinuity is to the surface:\n\n불연속이 표면에 가까울수록?",
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "Detects in brass parts can be detected with wet fluorescent magnetic particle inspection.\n습식 형광 자분 시험으로 황동 내의 결함을 찾을 수 있다.",
     "options": [
-      "the more diffuse becomes the powder pattern",
-      "the less serious it is as a source of fatigue crack",
-      "the more distinct becomes the powder pattern",
-      "the less sharp becomes the flux leakage field"
-    ],
-    "answer": 2
-  },
-  {
-    "id": 38,
-    "question": "Defects in brass parts can be detected with wet fluorescent magnetic particle inspection.\n\n황동 내 결함은 습식 형광 자분검사로 검출할 수 있다.",
-    "options": [
-      "True",
-      "False"
+      "True\n맞다",
+      "False\n틀리다"
     ],
     "answer": 1
   },
   {
-    "id": 39,
-    "question": "The field in a section of pipe being magnetized by means of a control conductor is stronger at:\n\n센트럴 콘덕터로 자화된 파이프에서 자장이 가장 강한 곳은?",
+    "id": 38,
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "The field in a section of pipe being magnetized by means of a control conductor is stronger at:\n센트랄 콘덕터를 사용하여 자화된 파이프 단면에서 자장이 가장 강한 곳은?",
     "options": [
-      "the ends of the pipe",
-      "the outer surface of the pipe",
-      "the inside surface of the pipe",
-      "the middle of the pipe wall"
+      "the ends of the pipe\n파이프의 끝부분",
+      "the outer surface of the pipe\n파이프의 외부표면",
+      "the inside surface of the pipe\n파이프의 내부표면",
+      "the middle of the pipe wall\n파이프의 벽의 중간"
     ],
     "answer": 2
   },
   {
-    "id": 40,
-    "question": "An important factor that should be considered when selecting a method of magnetization is:\n\n자화 방법 선택 시 가장 중요한 고려사항은?",
+    "id": 39,
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(A)",
+    "question": "An important factor that should be considered when selecting a method of magnetization is:\n자화방법의 선택시 가장 중요시 되는 사항은?",
     "options": [
-      "field strength value",
-      "available equipment",
-      "configuration of the part",
-      "all of the above"
+      "field strength value\n자장의 세기",
+      "available equipment\n이용 장비",
+      "configuration of the part\n제품의 구성",
+      "all of the above(위 모두)\n \nGENERAL(A-TYPE)\n \n문제\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n해답\nB\nD\nC\nB\nCRACK\nPOROSITY\nI.P L.F\nSLAG\nC\nB\nB,C,E\nC\nC\n문제\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n해답\nB\nC\nA,B,J\nA\nA,E\nC\nB\nB\nC\nC\n문제\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n해답\nA\nD\nC\nA\nD\nD\nC\nC\nB\nC\n문제\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n해답\nB,C,D\nC\nD\nB\nB\nC\nC\nB\nC\nD"
     ],
     "answer": 3
+  },
+  {
+    "id": 40,
+    "level": "Level II",
+    "method": "MT",
+    "category": "General",
+    "source": "MTG-II(B)",
+    "question": "Which point on the hysteresis curve shown in Figure 1 represents the residual field value?\n그림 1의 자기이력곡선에서 잔류자장의 값을 나타내는 점은?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D\n GENERAL(B-TYPE)\n \n문제\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n해답\nB\nC\nA,B,J\nA\nA,E\nC\nB\nB\nC\nC\n문제\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n해답\nB\nD\nC\nB\nCRACK\nPOROSITY\nI.P L.F\nSLAG\nC\nB\nB,C,E\nC\nC\n문제\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n해답\nB,C,D\nC\nD\nB\nB\nC\nC\nB\nC\nD\n문제\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n해답\nA\nD\nC\nA\nD\nD\nC\nC\nB\nC"
+    ],
+    "answer": 2
   }
 ]

@@ -1,256 +1,343 @@
-{
-  "title": "MT SPECIFIC (MTS-II-B)",
-  "level": "II",
-  "subject": "MT",
-  "type": "SPECIFIC",
-  "questions": [
-    {
-      "id": 1,
-      "question_en": "Examination of welds or surfaces by the magnetic particle method shall be made over an area extending at least ______ inch beyond the area of interest.",
-      "question_ko": "자분 탐상 시험 시 용접부 또는 표면 시험은 시험 대상 부위에서 최소 몇 inch 이상 확장하여 실시해야 하는가?",
-      "options": [
-        "1 inch",
-        "2 inch",
-        "3 inch",
-        "1/2 inch"
-      ],
-      "answer": 3
-    },
-    {
-      "id": 2,
-      "question_en": "Magnetic dry particle examination shall not be done in the surface of part whose temperature exceeds ______.",
-      "question_ko": "건식 자분탐상 검사는 제품 표면 온도가 몇 도를 초과하면 수행할 수 없는가?",
-      "options": [
-        "500°F",
-        "550°F",
-        "600°F",
-        "650°F"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 3,
-      "question_en": "What colored magnetic particles may be used as needed to provide contrast? Answer three colors.",
-      "question_ko": "대비 효과를 높이기 위해 사용할 수 있는 자분의 색상 3가지는 무엇인가?",
-      "answer": "BLACK, RED, GRAY"
-    },
-    {
-      "id": 4,
-      "question_en": "What method is used for fine-finish machined surfaces or after final heat treatment?",
-      "question_ko": "정밀 가공 표면 또는 최종 열처리 후 사용하는 시험 방법은?",
-      "options": [
-        "Yoke",
-        "Prod"
-      ],
-      "answer": 0
-    },
-    {
-      "id": 5,
-      "question_en": "How is the magnetizing force of AC/DC yoke calibrated?",
-      "question_ko": "교류/직류 요크의 자화력 교정 기준은 얼마인가?",
-      "answer": "AC:10lb, DC:40lb"
-    },
-    {
-      "id": 6,
-      "question_en": "What is the choice of inspection equipment and magnetic particles when inspecting the welded part of the quality class PSL3 for ferromagnetic material?",
-      "question_ko": "PSL3 품질등급 자성체 재질 용접부 MT 검사 시 검사 장비와 자분의 선택은?",
-      "options": [
-        "Yoke with dry magnetic particle",
-        "Prod with wet fluorescent magnetic particle",
-        "Prod with dry magnetic particle",
-        "Yoke with wet fluorescent magnetic particle"
-      ],
-      "answer": 3
-    },
-    {
-      "id": 7,
-      "question_en": "What is classified as an acceptable imperfection in the MT inspection of seamless pipes?",
-      "question_ko": "심리스 파이프 MT 검사에서 허용 가능한 결함으로 분류되는 것은?",
-      "options": [
-        "Depth ≤ 0.125t and does not encroach on minimum permissible wall thickness",
-        "Depth > 0.125t and does not encroach on minimum permissible wall thickness",
-        "Imperfection encroaches on minimum permissible wall thickness",
-        "All of above"
-      ],
-      "answer": 0
-    },
-    {
-      "id": 8,
-      "question_en": "A length 1/4in.(6mm) rounded indication is acceptable?",
-      "question_ko": "길이 1/4 inch(6mm)의 원형 지시는 합격인가?",
-      "options": [
-        "Accept",
-        "Reject"
-      ],
-      "answer": 0
-    },
-    {
-      "id": 9,
-      "question_en": "What are linear indications and round indications?",
-      "question_ko": "선형 지시와 원형 지시를 설명하시오.",
-      "answer": "선형지시: L/D가 3 이상, 원형지시: L/D가 3 미만"
-    },
-    {
-      "id": 10,
-      "question_en": "Cleaning for magnetic particle examination shall extend at least ______ inch on each side beyond the area to be examined.",
-      "question_ko": "자분탐상을 위한 세척은 시험 영역 양쪽으로 최소 몇 inch까지 실시해야 하는가?",
-      "options": [
-        "1 inch",
-        "0.5 inch",
-        "2 inch",
-        "3 inch"
-      ],
-      "answer": 1
-    },
-    {
-      "id": 11,
-      "question_en": "2mm crack found on welds by MT method. Is it acceptable? (Ref.: Sect.Ⅷ Div.1)",
-      "question_ko": "MT 검사에 의해 용접부에서 2mm 균열이 발견되었다. 이것은 합격인가?",
-      "answer": "불합격"
-    },
-    {
-      "id": 12,
-      "question_en": "What is the size of relevant indication in case of magnetic particle examination on welds and surface?",
-      "question_ko": "용접부 및 표면 MT 검사에서 관련 지시의 크기는 얼마인가?",
-      "options": [
-        "1/32 inch",
-        "1/64 inch",
-        "1/16 inch",
-        "3/64 inch"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 13,
-      "question_en": "Prod type equipment which is used by HIE's procedure HIE-QP-E08(Rev.8), what kind of electric current is used for output of equipment?",
-      "question_ko": "HIE-QP-E08(Rev.8)에 따라 한국공업엔지니어링에서 사용하는 프로드 타입 장비의 출력 전류는 어떤 종류인가?",
-      "options": [
-        "AC",
-        "DC",
-        "HWDC",
-        "All of current"
-      ],
-      "answer": 0
-    },
-    {
-      "id": 14,
-      "question_en": "1/8 inch round indications in a line separated by 1/16 inch edge found on welds by MT Yoke method. Is it acceptable?",
-      "question_ko": "MT 요크법으로 용접부에서 1/8 inch 원형 지시가 발견되었고 지시 사이 간격이 1/16 inch이다. 합격인가?",
-      "answer": "합격"
-    },
-    {
-      "id": 15,
-      "question_en": "Five rounded indications in a line separated by 1/16 inch edge-to-edge found on welds by MT yoke technique. Is it acceptable?",
-      "question_ko": "MT 요크법으로 용접부에서 5개의 원형 지시가 발견되었으며 지시간 간격이 1/16 inch이다. 합격인가?",
-      "answer": "불합격"
-    },
-    {
-      "id": 16,
-      "question_en": "The magnetizing current shall be passed through the part or through the auxiliary conductor for a minimum of ______ second.",
-      "question_ko": "자화 전류는 최소 몇 초 동안 시험체 또는 보조 도체에 통전되어야 하는가?",
-      "options": [
-        "1",
-        "2",
-        "0.2",
-        "0.5"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 17,
-      "question_en": "What are the minimums and maximums of magnetizing current for use with prods under various spacing of prods and different material thickness?",
-      "question_ko": "프로브 간격과 재료 두께에 따른 프로드 자화 전류의 최소 및 최대값은?",
-      "answer": "두께 3/4 inch 이하: 90~110 Amp/in, 두께 3/4 inch 초과: 100~125 Amp/in"
-    },
-    {
-      "id": 18,
-      "question_en": "The prod will be spaced not less than A inches no more than B inches apart for normal operation.",
-      "question_ko": "정상 작업 시 프로드 간격은 최소 A inch, 최대 B inch이다.",
-      "options": [
-        "A:2, B:5",
-        "A:2, B:6",
-        "A:3, B:9",
-        "A:3, B:6"
-      ],
-      "answer": 3
-    },
-    {
-      "id": 19,
-      "question_en": "What kind of current can be used for prod technique?",
-      "question_ko": "프로드법에서 사용할 수 있는 전류 종류는?",
-      "answer": "AC, DC"
-    },
-    {
-      "id": 20,
-      "question_en": "The bar of which outside diameter is 7 inches, will be magnetized by using Head Shot technique. Determine the appropriate magnetizing current.",
-      "question_ko": "외경 7 inch 봉을 Head Shot 방식으로 자화하려 한다. 적절한 자화 전류는?",
-      "options": [
-        "3500 - 4900 Amp",
-        "1500 - 2100 Amp",
-        "4900 - 6300 Amp",
-        "1400 - 3500 Amp"
-      ],
-      "answer": 0
-    },
-    {
-      "id": 21,
-      "question_en": "This procedure describes the Magnetic particle testing for ______.",
-      "question_ko": "본 절차서는 ______을 위한 자분탐상 방법을 기술한다.",
-      "options": [
-        "Pressure vessel welding",
-        "Forging",
-        "Fitting",
-        "Casting"
-      ],
-      "answer": 0
-    },
-    {
-      "id": 22,
-      "question_en": "Acceptance standard shall be used ______.",
-      "question_ko": "합격 기준은 ______을 따른다.",
-      "options": [
-        "ASME Sec.Ⅲ NB 2500",
-        "ASME Sec.Ⅲ NB 5000",
-        "ASME Sec.Ⅴ Art.5",
-        "ASME Sec.Ⅷ Div.1"
-      ],
-      "answer": 0
-    },
-    {
-      "id": 23,
-      "question_en": "Visible light at the surface of the part should be minimum ______.",
-      "question_ko": "제품 표면에서 가시광 조도는 최소 얼마 이상이어야 하는가?",
-      "options": [
-        "800 Lux",
-        "1076 Lux",
-        "1500 Lux",
-        "2000 Lux"
-      ],
-      "answer": 1
-    },
-    {
-      "id": 24,
-      "question_en": "The surface to be examined and all adjacent areas within at least ______ shall be dry and free of all scale, grease, etc.",
-      "question_ko": "시험할 표면과 인접 영역은 최소 ______까지 건조하고 스케일, 그리스 등이 없어야 한다.",
-      "options": [
-        "0 inch",
-        "1 inch",
-        "1.5 inch",
-        "2 inch"
-      ],
-      "answer": 1
-    },
-    {
-      "id": 25,
-      "question_en": "This procedure describes the Magnetic particle testing method of ______.",
-      "question_ko": "본 절차서는 ______ 자분탐상 방법을 기술한다.",
-      "options": [
-        "AC Yoke",
-        "Prod",
-        "Coil",
-        "Head shot"
-      ],
-      "answer": 0
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "level": "Level II",
+    "method": "MT",
+    "category": "Specific",
+    "source": "MTS-II(2020)(A)",
+    "question": "The magnetizing current shall be passed through the part or through the auxiliary conductor for a minimum of _________ second.\n자화 전류는 최소 ________ 초간 통전되어야 한다.",
+    "options": [
+      "1",
+      "2",
+      "0.2",
+      "0.5"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 2,
+    "level": "Level II",
+    "method": "MT",
+    "category": "Specific",
+    "source": "MTS-II(2020)(A)",
+    "question": "The prod will be spaced not less than A inches no more than B inches apart for normal operation.\n프로드 간격은 정상 작업 시에는 최소 A 인치에서 최대 B 인치까지이다.",
+    "options": [
+      "A : 2, B : 5",
+      "A : 2, B : 6",
+      "A : 3, B : 9",
+      "A : 3, B : 6"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 3,
+    "level": "Level II",
+    "method": "MT",
+    "category": "Specific",
+    "source": "MTS-II(2020)(A)",
+    "question": "The bar of which outside diameter is 7 inches, will be magnetized by using Head Shot technique. Determine the appropriate magnetizing current.\n7 인치 외경의 봉을 해드-샷법으로 자화하려 한다. 자화 전류의 크기를 결정하라.",
+    "options": [
+      "3500 - 4900 Amp.",
+      "1500 - 2100 Amp.",
+      "4900 - 6300 Amp.",
+      "1400 - 3500 Amp.\n* The following questions (6-10) refer to HIE procedure, HIE-NDT-MT-N21 (Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec Ⅲ. 2023 Edition.\n (다음 문제 (21-25)은 HIE 절차서에 언급된다. ASME B & PV 규격에 따른 압력용기 제작의 자분탐상 시험에 대한 절차서(HIE-NDT-MT-N21,Rev.2)"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 4,
+    "level": "Level II",
+    "method": "MT",
+    "category": "Specific",
+    "source": "MTS-II(2020)(A)",
+    "question": "This procedure describes the Magnetic particle testing for .\n본 절차서는 을 위한 자분 탐상방법을 기술한다.",
+    "options": [
+      "pressure vessel welding",
+      "Forging",
+      "Fitting",
+      "Casting"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5,
+    "level": "Level II",
+    "method": "MT",
+    "category": "Specific",
+    "source": "MTS-II(2020)(A)",
+    "question": "Acceptance standard shall be used .\n합격기준은 을 따른다",
+    "options": [
+      "ASME Sec Ⅲ. NB 2500",
+      "ASME Sec Ⅲ. NB 5000",
+      "ASME Sec Ⅴ. Art.5",
+      "ASME Sec Ⅷ. Div.1"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 6,
+    "level": "Level II",
+    "method": "MT",
+    "category": "Specific",
+    "source": "MTS-II(2020)(A)",
+    "question": "Visible light at the surface of the part should be minimum .\n제품 표면에서 빛의 세기는 최소 이다.",
+    "options": [
+      "800 Lux",
+      "1076 Lux",
+      "1,500 Lux",
+      "2,000 Lux"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 7,
+    "level": "Level II",
+    "method": "MT",
+    "category": "Specific",
+    "source": "MTS-II(2020)(A)",
+    "question": "The surface to be examined and all adjacent areas within at least \" shall be dry and free of all scale, grease, etc.\n시험할 표면과 인접 지역은 최소 까지 스케일, 그리스 등이 없어야 하고, 건조되어야 한다.",
+    "options": [
+      "0 inch",
+      "1 inch",
+      "1.5 inch",
+      "2inch"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 8,
+    "level": "Level II",
+    "method": "MT",
+    "category": "Specific",
+    "source": "MTS-II(2020)(A)",
+    "question": "This procedure describes the Magnetic particle testing methode of .\n본 절차서는 을 위한 자분 탐상방법을 기술한다.",
+    "options": [
+      "AC Yoke",
+      "Prod",
+      "Coil",
+      "Head shot\n * The following questions (11-16) refer to HIE procedure, HIE-NDT-MT-P11 (Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅷ Div.1 & Div.2(2023 Edition).(문제 11-16은 HIE절차서에 따라 언급한다.)"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 9,
+    "level": "Level II",
+    "method": "MT",
+    "category": "Specific",
+    "source": "MTS-II(2020)(A)",
+    "question": "Examination of welds or surfaces by the magnetic particle method shall be made over an area extending at least ________inch beyond the area of interest.\n자분 탐상 시험시 용접부나 표면의 시험은 시험대상 지역외에 적어도 몇 인치까지 실시해야 하는가?",
+    "options": [
+      "1 inch",
+      "2 inch",
+      "3 inch",
+      "1/2 inch"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 10,
+    "level": "Level II",
+    "method": "MT",
+    "category": "Specific",
+    "source": "MTS-II(2020)(A)",
+    "question": "Magnetic dry particle examination shall not be done in the surface of part whose temperature exceeds __________.\n제품의 온도가 초과시 건식 자분탐상검사를 수행할 수 없다.",
+    "options": [
+      "500 ˚F",
+      "550 ˚F",
+      "600 ˚F",
+      "650 ˚F"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 11,
+    "level": "Level II",
+    "method": "MT",
+    "category": "Specific",
+    "source": "MTS-II(2020)(A)",
+    "question": "What method is used for fine-finish machined surfaces or after final heat treatment?\n연삭된 표면 또는 최종 열처리, 최종기계 가공이나 수압시험 후에 사용되는 시험 방법은",
+    "options": [
+      "Yoke",
+      "Prod"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 12,
+    "level": "Level II",
+    "method": "MT",
+    "category": "Specific",
+    "source": "MTS-II(2020)(A)",
+    "question": "What is the choice of inspection equipment and magnetic particles when inspecting the welded part of the quality class PSL3 for ferromagnetic material?\n품질등급 PSL3의 자성체 재질의 용접부를 MT검사할 때 검사장비와 자분의 선택은?",
+    "options": [
+      "Yoke with dry magnetic particle\n건식자분을 사용한 요크",
+      "Prod with wet fluorescent magnetic particle\n습식형광자분을 사용한 프로드",
+      "Prod with dry magnetic particle(건식자분을 사용한 프로드",
+      "Yoke with wet fluorescent magnetic particle\n습식형광자분을 사용한 요크"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 13,
+    "level": "Level II",
+    "method": "MT",
+    "category": "Specific",
+    "source": "MTS-II(2020)(A)",
+    "question": "A length 1/4in.(6mm) rounded indication is; This indication acceptable?\n길이 1/4(6mm)인치의 원형지시는? 이 지시는 합격인가?",
+    "options": [
+      "Accept 합격",
+      "Reject 불합격"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 14,
+    "level": "Level II",
+    "method": "MT",
+    "category": "Specific",
+    "source": "MTS-II(2020)(A)",
+    "question": "Cleaning for magnetic particle examination shall extend at least ________ inch on each side beyond the area to be examined.\n자분탐상을 위한 세척은 시험될 표면의 양쪽으로 적어도 몇 인치까지 실시해야 하는가?",
+    "options": [
+      "1“",
+      "0.5”",
+      "2“",
+      "3”"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 15,
+    "level": "Level II",
+    "method": "MT",
+    "category": "Specific",
+    "source": "MTS-II(2020)(A)",
+    "question": "What is the size of relevant indication in case of magnetic particle exanimation on welds and surface?\n다음 중 용접물의 MT 검사에서 관련 지시는?) (Ref. : Sec.Ⅲ Subsection.NB",
+    "options": [
+      "1/32in.",
+      "1/64in.",
+      "1/16in.",
+      "3/64in."
+    ],
+    "answer": 2
+  },
+  {
+    "id": 16,
+    "level": "Level II",
+    "method": "MT",
+    "category": "Specific",
+    "source": "MTS-II(2020)(A)",
+    "question": "Prod type equipment which is used by HIE'S, procedure HIE-QP-E08(Rev.5) what kind of electric current are used for output of equipment?\n한국공업엔지니어링에서 사용하고 있는 절차서 번호 HIE-QP-E08(Rev.5)에 의한 자분탐상기는 어떤 종류의 전류를 출력으로 사용하는가?",
+    "options": [
+      "AC",
+      "DC",
+      "HWDC",
+      "All of current"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 17,
+    "level": "Level II",
+    "method": "MT",
+    "category": "Specific",
+    "source": "MTS-II(2020)(B)",
+    "question": "Cleaning for magnetic particle examination shall extend at least ________ inch on each side beyond the area to be examined.\n자분탐상을 위한 세척은 시험될 표면의 양쪽으로 적어도 몇 인치까지 실시해야 하는가?",
+    "options": [
+      "1“",
+      "0.5”",
+      "2“",
+      "3”"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 18,
+    "level": "Level II",
+    "method": "MT",
+    "category": "Specific",
+    "source": "MTS-II(2020)(B)",
+    "question": "This procedure describes the Magnetic particle testing methode of .\n본 절차서는 을 위한 자분 탐상방법을 기술한다.",
+    "options": [
+      "AC Yoke",
+      "Prod",
+      "Coil",
+      "Head shot\n \n SPECIFIC(B-TYPE)\n \n문제\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n해답\nD\nC\nBLACK, RED, GRAY\nA\nAC:10lb\nDC:40lb\nD\nA\nB\n#1\nA\n문제\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n해답\n불합격\nC \nA\n합격\n불합격\nC\n#2\nD\nAC, DC\nHWDC\nA\n문제\n21\n22\n23\n24\n25\n해답\nA\nA\nB\nB\nA\n#1\n 선형지시 : 결함의 길이(L)이 결함의 지름(D)에 3배이상일 경우\n 원형지시 : 결함의 길이(L)이 결함의 지름(D)에 3배미만일 경우 \n \n#2 \n 제품의 두께가 ¾＂이하일 경우 : 90 ～ 110Amp/in\n 제품의 두께가 ¾＂초과일 경우 : 100 ～ 125Amp/in\n6. The area to be tested by MT shall be adequately illuminated for proper evaluation of indication. what is the minimum intensity require?\n (MT 검사부위는 적당히 조명되어져야 한다. 최소 조명강도는 얼마인가?) D\n A. 350 Lux B. 500 Lux \n C. 800 Lux D. 1000 Lux\n7. Why does the code require two separate examination when using yoke technique?\n (요오크를 사용할 때 코오드에서는 왜 두 방향으로 시험하도록 요구하고 있는가?) A\n A. All discontinuity (surface or subsurface) with multi-direction can be detectable.\n (모든 방향의 불연속이 감지되게 하기 위함.)\n B. to demagnetize easily (쉽게 탈자하기 위함.)\n C. to magnetize easily (쉽게 자화하기 위함.)\n D. to prevent harmful effect to component (시험제에 나쁜 영향을 없애기 위함.)\n \n8. Name two (b) method of magnetizing a tube for MT examination without having current pass through the tube.\n (튜브 재료에 직접 전류를 통하지 않고 자분탐상 시험하는 방법 2가지를 써라.)\n \n A. 자속관통\n B. 전류관통\n* Refer to HIE-NDT-MT-AP5L written in accordance with API 5L and answer question No.7.\n (API 5L에 따라 작성된 HIE-NDT-MT-AP5L를 참고하여 7번 물음에 답하시오.) \n7. What is classified as an acceptable imperfections in the MT inspection of seamless pipes?\n (심리스파이프의 MT 검사시 허용가능 결함으로 분류하는 것은? )\n A. Imperfections that have a depth ≤ 0.125 t and do not encroach on the minimum permissible wall thickness (깊이가 0.125 t 이하이고 최소 허용 파이프 두께를 침범하지 않는 결점)\n B. Imperfections that have a depth > 0.125 t and do not encroach on the minimum permissible wall thickness (깊이가 0.125 t를 초과하고 최소 허용 파이프 두께를 침범하지 않는 결점)\n C. Imperfections that encroach on the minimum permissible wall thickness \n (최소 허용 파이프 두께를 침범하는 결점)\n D. All of the above(위 모두)"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 19,
+    "level": "Level II",
+    "method": "MT",
+    "category": "Specific",
+    "source": "MTS-II(2020)(A)",
+    "question": "The magnetizing current shall be passed through the part or through the auxiliary conductor for a minimum of _________ second.\n자화 전류는 최소 ________ 초간 통전되어야 한다.",
+    "options": [
+      "1",
+      "2",
+      "0.2",
+      "0.5"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 20,
+    "level": "Level II",
+    "method": "MT",
+    "category": "Specific",
+    "source": "MTS-II(2020)(A)",
+    "question": "The prod will be spaced not less than A inches no more than B inches apart for normal operation.\n프로드 간격은 정상 작업 시에는 최소 A 인치에서 최대 B 인치까지이다.",
+    "options": [
+      "A : 2, B : 5",
+      "A : 2, B : 6",
+      "A : 3, B : 9",
+      "A : 3, B : 6"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 21,
+    "level": "Level II",
+    "method": "MT",
+    "category": "Specific",
+    "source": "MTS-II(2020)(A)",
+    "question": "What is classified as an acceptable imperfections in the MT inspection of seamless pipes?\n심리스파이프의 MT 검사시 허용가능 결함으로 분류하는 것은?",
+    "options": [
+      "Imperfections that have a depth ≤ 0.125 t and do not encroach on the minimum permissible wall thickness \n (깊이가 0.125 t 이하이고 최소 허용 파이프 두께를 침범하지 않는 결점)",
+      "Imperfections that have a depth > 0.125 t and do not encroach on the minimum permissible wall thickness \n (깊이가 0.125 t를 초과하고 최소 허용 파이프 두께를 침범하지 않는 결점)",
+      "Imperfections that encroach on the minimum permissible wall thickness \n (최소 허용 파이프 두께를 침범하는 결점)",
+      "All of the above(위 모두)\n* The following questions No.25 refer to ASME Code Section. I \n ASME Sec. I.에 따라 18번 물음에 답하시오."
+    ],
+    "answer": 0
+  },
+  {
+    "id": 22,
+    "level": "Level II",
+    "method": "MT",
+    "category": "Specific",
+    "source": "MTS-II(2020)(A)",
+    "question": "Cleaning for magnetic particle examination shall extend at least ________ inch on each side beyond the area to be examined.\n자분탐상을 위한 세척은 시험될 표면의 양쪽으로 적어도 몇 인치까지 실시해야 하는가?",
+    "options": [
+      "1“",
+      "0.5”",
+      "2“",
+      "3”"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 23,
+    "level": "Level II",
+    "method": "MT",
+    "category": "Specific",
+    "source": "MTS-II(2020)(B)",
+    "question": "Cleaning for magnetic particle examination shall extend at least ________ inch on each side beyond the area to be examined.\n자분탐상을 위한 세척은 시험될 표면의 양쪽으로 적어도 몇 인치까지 실시해야 하는가?",
+    "options": [
+      "1“",
+      "0.5”",
+      "2“",
+      "3”"
+    ],
+    "answer": 0
+  }
+]
