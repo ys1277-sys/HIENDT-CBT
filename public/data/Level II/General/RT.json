@@ -1,561 +1,600 @@
 [
   {
     "id": 1,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
+    "source": "RTG-II(A)",
     "question": "The kilovoltage applied to an X-ray tube affects:\n엑스선관에 적용한 전압은 무엇에 영향을 주는가?",
     "options": [
-      "A. the quality of the beam (빔의 질)",
-      "B. the intensity of the beam (빔의 강도)",
-      "C. both A and B above (위 A, B 모두)",
-      "D. neither A nor B above (위 A, B 모두 아니다)"
+      "the quality of the beam\n빔의 질",
+      "the intensity of the beam\n빔의 강도",
+      "both 1 and 2 above\n위 1, 2 모두",
+      "neither 1 nor 2 above\n위 1, 2 모두 아니다"
     ],
     "answer": 2
   },
   {
     "id": 2,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
-    "question": "A good cobalt-60 radiograph is made on a 3 inch steel casting using an exposure time of 10 minutes and a source to film distance of 36 inches. If it is necessary to change the source to film distance to 24 inches, what exposure time would produce a similar radiograph if all other conditions remain the same?\nCo-60 선원으로 36인치 거리에서 10분 노출한 경우, 거리를 24인치로 변경했을 때 동일한 사진을 얻기 위한 노출 시간은?",
+    "source": "RTG-II(A)",
+    "question": "A good cobalt-60 radiograph is made on a 3 inch steel casting using an exposure time of 10 minutes and a source to film distance of 36 inches. If it is necessary to change the source to film distance to 24 inches, what exposure time would produce a similar radiograph if all other conditions remain the same?\nCo 60 선원으로 노출시간 10분, 선원-필름간 거리 36인치로, 3인치 주조품을 촬영하여 좋은 사진을 얻었다. 이때 같은 조건에서 선원-필름간의 거리를 24인치로 했을 때 노출 시간은 얼마로 해야 하는가?",
     "options": [
-      "A. 1.6 minutes (1.6분)",
-      "B. 4.4 minutes (4.4분)",
-      "C. 6.4 minutes (6.4분)",
-      "D. 8.8 minutes (8.8분)"
+      "1.6 minutes\n1.6분",
+      "4.4 minutes\n4.4분",
+      "6.4 minutes\n6.4분",
+      "8.8 minutes\n8.8분"
     ],
     "answer": 1
   },
   {
     "id": 3,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
-    "question": "When sharp black bird-foot shaped marks which are known not to correspond with any discontinuities appear at random on radiographs, they are probably caused by:\n불연속과 관계없는 날카롭고 검은 새 발가락 모양의 표시가 방사선 사진에 무질서하게 나타나는 원인은?",
+    "source": "RTG-II(A)",
+    "question": "When sharp black bird-foot shaped marks which are known not to correspond with any discontinuities appear at random on radiographs, they are probably caused by:\n불연속과 관계없는 날카롭고, 검고 새 발가락 모양의 표시가 방사선 사진에 무질서하게 나타났다. 이것은 무슨 원인으로 나타난 것인가?",
     "options": [
-      "A. prolonged development in old developer (오래된 현상액에서 장시간 현상)",
-      "B. exposure of the film by natural cosmic ray showers during storage (보관 중 자연 우주선 노출)",
-      "C. static charges caused by friction (마찰에 의한 정전기)",
-      "D. inadequate rinsing after fixing (정착 후 불충분한 세척)"
+      "prolonged development in old developer.\n오래된 현상액으로 긴 시간의 현상",
+      "exposure of the film by natural cosmic ray showers during storage \n (저장시 자연 우주선에 의한 노출)",
+      "static charges caused by friction\n마찰로 인한 정전기",
+      "inadequate rinsing after fixing\n정착후 부당한 세척"
     ],
     "answer": 2
   },
   {
     "id": 4,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
-    "question": "In comparison with lower-voltage radiography, high-energy radiography show:\n낮은 전압 방사선 사진과 비교하여 고에너지 방사선 사진은?",
+    "source": "RTG-II(A)",
+    "question": "In comparison with lower-voltage radiography, high-energy radiography show:\n낮은 전압의 방사선 사진에 비해서 높은 에너지의 방사선 사진은?",
     "options": [
-      "A. greater contrast (높은 명암도)",
-      "B. greater latitude (높은 허용도)",
-      "C. greater amounts of scatter radiation relative to primary beam intensity (일차 빔 대비 산란 방사선 증가)",
-      "D. none of the above (해당 없음)"
+      "greater contrast\n높은 명암도",
+      "greater latitude\n높은 허용도",
+      "greater amounts of scatter radiation relative to primary beam intensity\n (최초의 빔 강도에 비해 산란 방사선이 많다)",
+      "none of the above\n위 모두 아니다"
     ],
     "answer": 1
   },
   {
     "id": 5,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
+    "source": "RTG-II(A)",
     "question": "Filters used at the port of the X-ray tube:\n엑스선관의 필터는?",
     "options": [
-      "A. intensity the X-ray beam by contributing secondary radiation (2차 방사선으로 빔 강도를 증가)",
-      "B. filter short wavelength X-ray beams to provide softer radiation (짧은 파장을 제거하여 연한 방사선 생성)",
-      "C. provide the most readily adjusted means of modifying X-ray intensity (X선 강도 조절 수단 제공)",
-      "D. filter out soft radiation to provide a more homogeneous X-ray beam (연한 방사선을 제거하여 균일한 빔 생성)"
+      "intensity the X-ray beam by contributing secondary radiation\n (2차 방사선을 강하게 함으로 엑스선 빔의 강도를 증가시킨다.)",
+      "filter short wavelength X-ray beams to provide \"softer\" radiation\n (짧은 파장의 엑스선 빔을 제거하여 긴 파장의 방사선을 얻는다)",
+      "provide the most readily adjusted means of modifying X-ray intensity\n (엑스선의 강도를 조절할 수 있는 가장 편리한 방법을 제공한다.)",
+      "filter out \"soft\" radiation to provide a more homogeneous X-ray beam.\n (보다 균일한 엑스선 빔을 얻기 위해 긴 파장을 흡수한다.)"
     ],
     "answer": 3
   },
   {
     "id": 6,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
-    "question": "An ACME Pentameter for use when inspecting a one-half inch thick steel plate to the 2-2T quality level using a 15inch source-to-film distance would be made of:\n15인치 선원-필름 거리에서 1/2인치 철판을 2-2T 품질 수준으로 검사할 때 투과도계 재질은?",
+    "source": "RTG-II(A)",
+    "question": "An ACME Pentameter for use when inspecting a one-half inch thick steel plate to the 2-2T quality level using a 15inch source-to-film distance would be made of:\n선원과 필름간의 거리가 15인치, 2-2T로 2분의 1인치 철판을 검사할 때 투과도 계는 무엇으로 만드는가?",
     "options": [
-      "A. 5 mil thick aluminum (5mil 알루미늄)",
-      "B. 50 mil thick aluminum or steel (50mil 알루미늄 또는 철)",
-      "C. 10 mil thick steel (10mil 철)",
-      "D. 2 mil strip of any metallic material (2mil 금속 스트립)"
+      "5 mil thick aluminum\n5mil 두께의 알루미늄",
+      "50 mil thatch aluminum or steel\n50mil 두께의 알루미늄이나 철",
+      "10 mil thick steel\n10mil 두께의 철",
+      "2 mil strip of any metallic material\n2mil Strip 어로 된 모든 금속제"
     ],
     "answer": 2
   },
   {
     "id": 7,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
-    "question": "Filters placed between the X-ray tube and specimen tend to reduce scatter radiation:\n엑스선관과 시험물 사이의 필터는 산란 방사선을 어떻게 감소시키는가?",
+    "source": "RTG-II(A)",
+    "question": "Filters placed between the X-ray tube and specimen tend to reduce scatter radiation\n엑스선과 시험물 사이에 있는 필터는 후방 산란을 어떻게 해서 감소시키는가?",
     "options": [
-      "A. by absorbing the longer wavelength components of the primary beam (일차 빔의 긴 파장 성분 흡수)",
-      "B. by absorbing the shorter wavelength components of the primary beam (일차 빔의 짧은 파장 성분 흡수)",
-      "C. by absorbing backscatter radiation (후방 산란 흡수)",
-      "D. by decreasing the intensity of the beam (빔 강도 감소)"
+      "by absorbing the longer wavelength components of the primary beam.\n (일차 방사선의 긴 파장 부분을 흡수함으로)",
+      "by absorbing the shorter wavelength components of the primary beam\n (일차 방사선의 짧은 파장 부분을 흡수함으로)",
+      "by absorbing backsettler radiation\n (후방 산란 방사선을 흡수함으로)",
+      "by decreasing the intensity of the beam\n (빔의 강도를 약하게 하므로)"
     ],
     "answer": 0
   },
   {
     "id": 8,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
-    "question": "Besides serving as a filter, screens of high atomic number such as lead and lead antimony also:\n납과 같은 높은 원자번호 스크린은 필터 기능 외에 무엇을 하는가?",
+    "source": "RTG-II(A)",
+    "question": "Besides servings as a filter, screens of high atomic number such as lead and lead antimony, also:\n납과 같은 높은 원자 번호의 스크린은 필터로서 기능을 하며 또한 무엇을 하는가?",
     "options": [
-      "A. decrease the source to-film distance needed for proper radiography (필요 거리 감소)",
-      "B. provide some image intensifying action (상 감도 증가)",
-      "C. permit the use of higher speed film (고속 필름 사용 가능)",
-      "D. decrease graininess in a radiograph (입도 감소)"
+      "decrease the source to-film distance needed for a proper radiography\n (적당한 방사선 사진을 위해서 필요한 선원과 필름간의 거리를 감소시킨다.)",
+      "provide some image intensifying action\n상의 감도를 증가시킨다",
+      "permit the use of higher speed film \n (보다 빠른 속도의 필름을 사용할 수 있도록 한다.)",
+      "decrease the graininess in a radiograph\n방사선 사진의 입도를 감소시킨다."
     ],
     "answer": 1
   },
   {
     "id": 9,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
-    "question": "The range of thickness over which densities are obtained that are satisfactory for interpretation is a measure of the:\n해석 가능한 만족스러운 농도를 얻는 두께 범위는 무엇의 측정인가?",
+    "source": "RTG-II(A)",
+    "question": "The range of thickness over which densities are obtained that are satisfactory for interpretation is a measure of the :\n해석하기에 만족스러운 밀도를 얻을 수 있도록 두께 이상의 범위는?",
     "options": [
-      "A. subject contrast of a radiograph (시험물 명암도)",
-      "B. sensitivity of a radiograph (방사선 감도)",
-      "C. latitude of a radiograph (방사선 허용도)",
-      "D. definition of a radiograph (선명도)"
+      "a subject contrast of a radiograph\n방사선 사진의 시험물 명암도",
+      "sensitivity of a radiograph\n방사선 사진의 감도",
+      "latitude of a radiograph\n방사선 사진의 허용도",
+      "definition of a radiograph\n방사선 사진의 선명도"
     ],
     "answer": 2
   },
   {
     "id": 10,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
-    "question": "Gamma ray source used mainly in NDT is:\nNDT에서 주로 사용하는 감마선원은?",
+    "source": "RTG-II(A)",
+    "question": "Gamma rays source what is used mainly in NDT?\nNDT에서 주로 사용되는 감마선 선원은?",
     "options": [
-      "A. natural isotopes (천연 동위원소)",
-      "B. Iridium-192 or cobalt-60 (Ir-192 또는 Co-60)",
-      "C. Radium (라듐)",
-      "D. Thulium-170 (Tm-170)"
+      "natural isotopes\n천연 동위원소",
+      "Iridium-192 or cobalt-60 (Ir 192 or Co 60)",
+      "Radium (Ra)",
+      "Thulium-170 (Tm 170)"
     ],
     "answer": 1
   },
   {
     "id": 11,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
-    "question": "The gamma-ray intensity at one foot from a one curie source of radioactive cobalt-60 is nearest:\n1Ci Co-60 선원으로부터 1피트 거리에서 감마선 강도는?",
+    "source": "RTG-II(A)",
+    "question": "The gamma-ray intensity at one foot from a one curie source of radioactive cobalt-60 is nearest:\n1Ci의 Co60으로부터 1피트의 떨어진 점에서 감마선의 강도는?",
     "options": [
-      "A. 15 roentgens per hour (15R/h)",
-      "B. 1000 roentgens per hour (1000R/h)",
-      "C. 1 roentgen per minute (1R/min)",
-      "D. 10 milliroentgens per hour (10mR/h)"
+      "15 roentgens per hour (15R/h)",
+      "1000 roentgens per hour (1000R/h)",
+      "1 roentgens per hour (1R/Min) C. 10 milliroentgens per hour (10mR/d)"
     ],
     "answer": 0
   },
   {
     "id": 12,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
+    "source": "RTG-II(A)",
     "question": "In an X-ray tube, the filament and focusing cup are the two essential parts of the:\nX선관에서 필라멘트와 포커싱 컵은 무엇의 주요 부분인가?",
     "options": [
-      "A. anode (양극)",
-      "B. cathode (음극)",
-      "C. rectifier (정류기)",
-      "D. X-ray transformer (X선 변압기)"
+      "anode\n양극",
+      "cathode\n음극",
+      "rectifier\n정류기",
+      "X-ray transformer\nX선 변압기"
     ],
     "answer": 1
   },
   {
     "id": 13,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
-    "question": "The quantity of radiation which will produce, by means of ionization one electrostatic unit of electricity in 0.001293 grams of dry air is known as:\n0.001293g의 건조 공기에서 이온화로 1 정전 단위의 전기를 만드는 방사선량은?",
+    "source": "RTG-II(A)",
+    "question": "The quantity of radiation which will produce, by means of ionization one electrostatic unit of electricity in 0.001293 grams of dry air in known as:\n이온화 효과에 의해 공기 0.001293속에 만들어지는 전하량이 1 정전단위 일 때 선량을 얼마로 정하는가?",
     "options": [
-      "A. 1 millicurie (1mCi)",
-      "B. 1 gamma (1γ)",
-      "C. 1 roentgen (1R)",
-      "D. 1 curie (1Ci)"
+      "1 millicurie\n1 미리큐리",
+      "1 gamma\n1 감마",
+      "1 roentgen\n1 렌트겐",
+      "1 curie\n1 큐리"
     ],
     "answer": 2
   },
   {
     "id": 14,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
-    "question": "Which of the following isotopes has the longest half-life?\n다음 동위원소 중 반감기가 가장 긴 것은?",
+    "source": "RTG-II(A)",
+    "question": "Which of the following isotopes has the longest half-life?\n다음 동위원소중 반감기가 가장 긴 것은?",
     "options": [
-      "A. Thulium-170 (Tm-170)",
-      "B. Cobalt-60 (Co-60)",
-      "C. Iridium-192 (Ir-192)",
-      "D. Cesium-137 (Cs-137)"
+      "Thulium-170 (Tm-170)",
+      "Cobalt-60 (Co 60)",
+      "Iridium-192 (Ir 192)",
+      "Cesium-137 (Cs 137)"
     ],
     "answer": 3
   },
   {
     "id": 15,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
-    "question": "The primary form of energy conversion when electrons strike a target in an X-ray tube results in the production of:\n전자가 X선관 표적에 충돌할 때 최초 에너지 변환 결과는?",
+    "source": "RTG-II(A)",
+    "question": "The primary form of energy conversion when electrons strike a target in an X-ray tube results in the production of:\n전자가 엑스선관내의 표적에 충돌할 때 에너지의 최초의 변환은?",
     "options": [
-      "A. primary X-ray (1차 X선)",
-      "B. secondary X-rays (2차 X선)",
-      "C. short wavelength X-rays (짧은 파장 X선)",
-      "D. heat (열)"
+      "primary X-ray\n1차 엑스선",
+      "secondary X-rays\n2차 엑스선",
+      "short wavelength X-rays\n짧은 파장의 엑스선",
+      "heat\n열"
     ],
     "answer": 3
   },
   {
     "id": 16,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
-    "question": "An X-ray film having wide latitude also has, by definition:\n허용도가 넓은 X선 필름은 정의상 무엇을 가지는가?",
+    "source": "RTG-II(A)",
+    "question": "An X-ray film having wide latitude also has, by definition:\n엑스선 필름이 허용도가 넓다는 것은 무엇을 의미하는가?",
     "options": [
-      "A. poor definition (낮은 선명도)",
-      "B. low contrast (낮은 명암도)",
-      "C. high speed (높은 속도)",
-      "D. none of the above (해당 없음)"
+      "poor definition\n낮은 선명도",
+      "low contrast\n낮은 명암도",
+      "high speed\n높은 속도",
+      "none of the above\n해당 없음"
     ],
     "answer": 1
   },
   {
     "id": 17,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
-    "question": "An X-ray tube with small focal spot is considered better than one with a large focal spot when it is desired to obtain:\n작은 초점 X선관이 큰 초점보다 유리한 경우는?",
+    "source": "RTG-II(A)",
+    "question": "An X-ray tube with small focal spot is considered better than one with a large focal spot when it is desired to obtain:\n적은 초점을 가진 엑스선관은 큰 초점을 가진 것보다 무엇을 얻기에 바람직한가?",
     "options": [
-      "A. greater penetrating power (높은 투과력)",
-      "B. better definition (좋은 선명도)",
-      "C. less contrast (낮은 명암도)",
-      "D. greater film density (높은 필름 농도)"
+      "greater penetrating power\n큰 투과력",
+      "better definition\n좋은 선명도",
+      "less contrast\n낮은 선명도",
+      "greater film density\n필름의 높은 밀도"
     ],
     "answer": 1
   },
   {
     "id": 18,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
-    "question": "One method of reducing radiographic contrast is to:\n방사선 사진의 명암도를 감소시키는 방법은?",
+    "source": "RTG-II(A)",
+    "question": "One method of reducing radiographic contrast is to:\n방사선 사진의 명암도를 감소시키는 한 방법은?",
     "options": [
-      "A. increase the distance between radiation source and object (선원과 시험물 거리 증가)",
-      "B. decrease the distance between object and film (시험물과 필름 거리 감소)",
-      "C. decrease the wavelength of radiation used (사용 방사선 파장 감소)",
-      "D. increase development time within recommendations (현상 시간 증가)"
+      "increase the distance between the radiation source and the object\n (선원과 시험물 사이의 거리를 증가한다.)",
+      "decrease the distance between the object and the film\n (시험물과 필름사이의 거리를 감소한다.)",
+      "decrease the wavelength of the radiation used \n (사용하는 선원의 파장을 감소한다.)",
+      "increase development time within manufacturer's recommendations.\n (제작자의 지시 범위 내에서 현상 시간을 증가한다.)"
     ],
     "answer": 2
   },
   {
     "id": 19,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
-    "question": "An X-ray tube is rated for a maximum of 250 KVP. This tube may be operated at a maximum of:\n최대 250KVP로 정격된 X선관의 최대 작동 전압은?",
+    "source": "RTG-II(A)",
+    "question": "An X-ray tube is rated for a maximum of 250 KVP. This tube may be operated at a maximum of:\n어떤 엑스선관의 최대 250 KVP로 정격 되어 있다. 이관이 최대로 작동할 수 있는 전압은?",
     "options": [
-      "A. 250,000 volts peak voltage (250,000V 피크 전압)",
-      "B. 250 KV effective voltage (250KV 유효 전압)",
-      "C. 250,000,000 volts rms voltage (250,000,000V RMS)",
-      "D. 250 KV average voltage (250KV 평균 전압)"
+      "250,000 volts peak voltage\n250,000V의 피이크 전압",
+      "250 KV effective voltage\n250KV의 유효전압",
+      "250,000,000 Volts rms voltage\n250,000,000 V rms 전압",
+      "250 KV average voltage\n250KV의 평균 전압"
     ],
     "answer": 0
   },
   {
     "id": 20,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
-    "question": "When radiographing to the 2-2T quality level an ASME penetrameter for 2.5 inch steel has a thickness of:\nASME 2-2T 기준에서 2.5인치 철판용 투과도계 두께는?",
+    "source": "RTG-II(A)",
+    "question": "When radiographing to the 2-2T quality level an ASME penetrameter FOR 2.5 inch steel has a thickness of:\nASME 2-2T로 방사선 사진을 찍을 때 2.5 인치의 철에 대한 투과도계의 두께는?",
     "options": [
-      "A. one half inch (1/2 inch)",
-      "B. 2.5 mils (0.0025 inch)",
-      "C. 5 mils (0.005 inch)",
-      "D. 50 mils (0.05 inch)"
+      "one half inch\n1/2 인치",
+      "2.5 mils\n0.0025 인치",
+      "5 mils\n0.005 인치",
+      "50 mils\n0.05 인치"
     ],
     "answer": 3
   },
   {
     "id": 21,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
-    "question": "The most common way of cooling the anode of a high-power X-ray tube is:\n고출력 X선관의 양극을 냉각시키는 가장 일반적인 방법은?",
+    "source": "RTG-II(A)",
+    "question": "The most common way of cooling the anode of a highpower X-ray tube is:\n고출력 엑스선 관의 양극을 냉각시키는 가장 일반적인 방법은?",
     "options": [
-      "A. cooling by radiation (열 복사 냉각)",
-      "B. cooling by means of circulating cooled air (순환 냉각 공기)",
-      "C. cooling by means of external fanned radiators (외부 방열기)",
-      "D. cooling by circulation of water or oil in the anode (양극 내부 물 또는 오일 순환)"
+      "cooling by radiation, in which a solid tungsten anode attains such high temperatures that it radiates an appreciable amount of heat\n (열 복사로)",
+      "cooling by means of circulating cooled air\n순환 냉각 공기로",
+      "cooling by means of external fanned radiators\n외부 방열기로",
+      "cooling by circulation of water or oil in the anode \n (양극 내에 순환하는 물 또는 오일로)"
     ],
     "answer": 3
   },
   {
     "id": 22,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
-    "question": "In certain cases, it may be advantageous to pack lead shot around a specimen. The purpose for doing this is:\n시험물 주위에 납 입자를 채우는 목적은?",
+    "source": "RTG-II(A)",
+    "question": "In certain cases, it may be advantageous to pack lead shot around a specimen. The purpose for doing this is:\n어떤 경우에는 시험물을 납으로 둘러싸는데 그 목적은?",
     "options": [
-      "A. to prevent movement of the specimen (시험물 이동 방지)",
-      "B. to increase the subject contrast (시험물 명암도 증가)",
-      "C. to generate smaller wavelength X-radiation (짧은 파장 X선 생성)",
-      "D. to decrease the effect of scattered radiation undercutting the specimen (산란 방사선에 의한 언더컷 감소)"
+      "to prevent movement of the specimen\n시험물의 흔들림 방지",
+      "to increase the subject contrast\n시험물의 명암도를 증가",
+      "to generate smaller wavelength X-radiation\n짧은 파장의 엑스선을 얻기 위해",
+      "to decrease the effect of scattered radiation undercutting the specimen\n (산란 방사선에 의한 언더컷을 감쇄시키는 효과를 위해)"
     ],
     "answer": 3
   },
   {
     "id": 23,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
-    "question": "Of the following, the source providing the most penetrating radiation is:\n다음 중 가장 높은 투과력을 가진 방사선원은?",
+    "source": "RTG-II(A)",
+    "question": "Of the following, the source providing the most penetrating radiation is:\n다음 중 투과력이 가장 큰 선원은?",
     "options": [
-      "A. Cobalt-60 (Co-60)",
-      "B. 220 KVP X-ray tube (220KVP X선 발생장치)",
-      "C. 15 MeV X-ray betatron (15MeV X선 베타트론)",
-      "D. electrons from iridium-192 (Ir-192 전자)"
+      "Cobalt-60 (Co 60)",
+      "220 KVP X-ray tube\n220KVP X선 발생장치",
+      "15 Mev X-ray betatron\n15 Mev X선 베타트론",
+      "electrons from iridium-192\nIr 192부터 나오는 전자"
     ],
     "answer": 2
   },
   {
     "id": 24,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
-    "question": "Low voltage X-ray tubes are generally fitted with windows made of:\n저전압 X선관의 창 재질은?",
+    "source": "RTG-II(A)",
+    "question": "Low voltage X-ray tubes are generally fitted with windows made of:\n저 전압 엑스선 발생 장치의 창으로서 적합한 재질은?",
     "options": [
-      "A. Plastic (플라스틱)",
-      "B. Glass (유리)",
-      "C. Beryllium (베릴륨)",
-      "D. Lead (납)"
+      "Plastic\n플라스틱",
+      "Glass\n유리",
+      "Beryllium\n베리리움",
+      "Lead\n납"
     ],
     "answer": 1
   },
   {
     "id": 25,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
-    "question": "The general method of producing X-rays involves the sudden deceleration of high velocity electrons in a solid body called a:\n고속 전자가 고체 물질에서 급격히 감속될 때 X선을 발생시키는 부분은?",
+    "source": "RTG-II(A)",
+    "question": "The general method of producing X-rays involves the sudden deceleration of high velocity electrons in a solid body called a:\n고속도의 전자를 감속시키므로 해서 엑스선을 발생시키는 기능을 가진 것은?",
     "options": [
-      "A. focus cup (포커스 컵)",
-      "B. filament (필라멘트)",
-      "C. target (표적)",
-      "D. cathode (음극)"
+      "focus cup\n포커스 컵",
+      "filament\n필라멘트",
+      "target\n표적",
+      "cathode\n음극"
     ],
     "answer": 2
   },
   {
     "id": 26,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
-    "question": "If it were necessary to radiograph a 7 inch thick steel product which gamma-ray source would likely be used?\n7인치 두께 철 제품 촬영 시 적합한 감마선원은?",
+    "source": "RTG-II(A)",
+    "question": "If it were necessary to radiograph a 7 inch thick steel product which of the following gamma - ray sources would likely be used?\n7인치 두께의 물체에 대하여 방사선 사진을 찍을 때 가장 적합한 감마선원은?",
     "options": [
-      "A. Cobalt-60 (Co-60)",
-      "B. Thulium-170 (Tm-170)",
-      "C. Iridium-192 (Ir-192)",
-      "D. Cesium-137 (Cs-137)"
+      "Cobalt-60 (Co 60)",
+      "Thulium-170 (Tm 170)",
+      "Iridium-192 (Ir 192)",
+      "Cesium-137 (Cs 137)"
     ],
     "answer": 0
   },
   {
     "id": 27,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
-    "question": "A cobalt-60 gamma-ray source has an approximate practical thickness limit of:\nCo-60 감마선원의 실제 사용 가능한 두께 한계는?",
+    "source": "RTG-II(A)",
+    "question": "A cobalt-60 gamma-ray source has an approximate practical thickness limit of:\nCo 60 감마선원의 실용적인 시험물 두께의 한계는?",
     "options": [
-      "A. 2 1/2 inches of steel or equivalent",
-      "B. 4 inches of steel or equivalent",
-      "C. 9 inches of steel or equivalent",
-      "D. 11 inches of steel or equivalent"
+      "2 ½ inches of steel or its equivalent\n2 ½“ 두께의 철",
+      "4 inches of steel or its equivalent\n4“ 두께의 철",
+      "9 inches of steel or its equivalent\n9“ 두께의 철",
+      "11 inches of steel or its equivalent\n11“ 두께의 철"
     ],
     "answer": 2
   },
   {
     "id": 28,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
-    "question": "The uneven distribution of developed grains within the emulsion of a processed X-ray film causes the subjective impression of:\n현상된 X선 필름 유제 내 불균일한 입자 분포로 발생하는 현상은?",
+    "source": "RTG-II(A)",
+    "question": "The uneven distribution of developed grains within the emulsion of a processed X-ray film causes the subjective impression of:\n현상된 엑스선 필름의 감광유제 내에 현상제의 불 균일한 분포는 어떤 영향을 가져오는가?",
     "options": [
-      "A. graininess (입도)",
-      "B. streaks (줄무늬)",
-      "C. spots (반점)",
-      "D. white scum (흰 얼룩)"
+      "graininess\n입도",
+      "streaks\n줄무늬",
+      "spots\n반점",
+      "white scum\n흰 얼룩"
     ],
     "answer": 0
   },
   {
     "id": 29,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
-    "question": "Cobalt-60 has a half-life of 5.3 years. By how much should exposure time be increased when the source is two years old?",
+    "source": "RTG-II(A)",
+    "question": "Cobalt-60 is reported to have a half-life of 5.3 years. By how much should exposure time be increased (over that used initially to produce excellent rediographs when the cobalt-60 source was new) when the source is two years old?\nCo 60 반감기는 5.3년이다. Co-60 선원을 2년이 지난 후에는 노출시간을 처음으로 사용할 때보다 얼마만큼 증가시켜 사용하여야 하는가?",
     "options": [
-      "A. No change in exposure time is needed",
-      "B. About 11 percent longer",
-      "C. About 31 percent longer",
-      "D. About 62 to 100 percent longer"
+      "No change in exposure time is needed\n노출시간의 변화는 필요 없다",
+      "Exposure time should be about 11 percent longer\n약 11% 길게 해야 한다.",
+      "Exposure time should be about 31 percent longer\n약 31% 길게 해야 한다.",
+      "Exposure time should be about 62 to 100 percent longer\n62-100% 길게 해야 한다."
     ],
     "answer": 2
   },
   {
     "id": 30,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
-    "question": "An Iridium-192 source with a half-life of 75 days provides an optimum exposure of 20 minutes today. Five months later, what exposure time would be required?",
+    "source": "RTG-II(A)",
+    "question": "A source of iridium-192, whose half - life is 75 day, provides an optimum exposure of a given test object today in a period of 20 minutes. Five months from mow, what exposure time would be required for the same radiographic density, under similar exposure condition?\nIr 192 반감기는 75일 이다. 어떤 시험물에 20분 노출시간으로 최적의 방사선 사진을 얻었다. 지금부터 5개월 후에 같은 조건하에서 똑같은 방사선 사진을 얻기 위해 노출 시간을 얼마로 해야 하나?",
     "options": [
-      "A. 10 minutes",
-      "B. 20 minutes",
-      "C. 1 hour and 20 minutes",
-      "D. 6 hours"
+      "10 minutes\n10분",
+      "20 minutes\n20분",
+      "1 hour and 20 minutes\n1시간 20분",
+      "6 hours\n6시간"
     ],
     "answer": 2
   },
   {
     "id": 31,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
-    "question": "Images of discontinuities close to the source side of the specimen become less clearly defined as:\n시험물의 선원쪽 표면에 있는 불연속 영상의 선명도가 감소하는 경우는?",
+    "source": "RTG-II(A)",
+    "question": "Images of discontinuities close to the source side of the specimen become less clearly\n시험물의 선원쪽 표면에 있는 불연속의 상은 무엇에 따라 선명도가 줄어드는가?",
     "options": [
-      "A. source to object distance increases (선원과 시험물 거리 증가)",
-      "B. the thickness of the specimen increases (시험물 두께 증가)",
-      "C. the size of the focal spot decreases (초점 크기 감소)",
-      "D. the thickness of the specimen decreases (시험물 두께 감소)"
+      "source to-object distance increase\n선원과 시험물의 거리 증가",
+      "the thickness of the specimen increase\n시험물 두께의 증가",
+      "the size of the focal spot decrease\n선원의 크기가 감소",
+      "the thickness of the specimen decrease\n시험물 두께의 감소"
     ],
     "answer": 1
   },
   {
     "id": 32,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
-    "question": "The inherent filtration of an X-ray tube is a function of:\nX선관의 고유 여과는 무엇의 함수인가?",
+    "source": "RTG-II(A)",
+    "question": "The inherent filtration of an X-ray tube is a function of:\n엑스선관의 고유 여과 작용은 무엇의 기능인가?",
     "options": [
-      "A. the thickness and composition of the X-ray tube port (X선관 창의 두께와 재질)",
-      "B. the voltage setting of the instrument (장비 전압 설정)",
-      "C. the source-to-object distance (선원과 시험물 거리)",
-      "D. the material used as a target (표적 재질)"
+      "the thickness and composition of the X-ray tube port\n (엑스선관의 창의 두께와 성질)",
+      "the voltage setting of the instrument\n엑스선 발생 장치의 전원 부",
+      "the source-to-object distance\n선원과 시험물의 거리",
+      "the material used as a target\n표적으로 사용되는 물질"
     ],
     "answer": 0
   },
   {
     "id": 33,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
-    "question": "X-ray films with large grain size:\n큰 입자를 가진 X선 필름은?",
+    "source": "RTG-II(A)",
+    "question": "X-ray films with large grain size:\n큰 입도를 가진 엑스선 필름은?",
     "options": [
-      "A. will produce radiographs better definition than small grain film (작은 입자 필름보다 선명도가 좋다)",
-      "B. have slower speeds than those with small grain size (작은 입자보다 속도가 느리다)",
-      "C. have higher speeds than those with small grain size (작은 입자보다 속도가 빠르다)",
-      "D. will take longer to expose properly (적정 노출 시간이 더 길다)"
+      "will produce radiographs better definition than film with small grain size.\n (작은 입도 필름보다 선명도가 좋은 방사선 사진을 얻는다.)",
+      "have slower speeds than those with a relatively small grain size.\n (작은 입도 필름보다 속도가 늦다.)",
+      "have higher speeds than those with a relatively small grain size.\n (작은 입도 필름보다 속도가 빠르다.)",
+      "will take longer to expose properly than film with relatively small grain size\n (작은 입도 필름보다 노출 시간이 많이 걸린다.)"
     ],
     "answer": 2
   },
   {
     "id": 34,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
-    "question": "As the effective energy of the radiation increases up to about 250KV:\n방사선 유효 에너지가 약 250KV까지 증가하면?",
+    "source": "RTG-II(A)",
+    "question": "As the effective energy of the radiation increases upto about 250KV:\n방사선 유효 에너지가 250KV까지 증가함에 따라",
     "options": [
-      "A. film graininess increases (필름 입도 증가)",
-      "B. film graininess decreases (필름 입도 감소)",
-      "C. radiographic definition increases (방사선 사진 선명도 증가)",
-      "D. film speed decreases (필름 속도 감소)"
+      "film graininess increases\n필름 입도는 증가한다.",
+      "film graininess decreases\n필름 입도는 감소한다.",
+      "radiographic definition increases\n방사선 사진의 선명도는 증가한다.",
+      "film speed decreases\n필름 속도는 감소한다."
     ],
     "answer": 0
   },
   {
     "id": 35,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
-    "question": "A general rule governing the application of geometric principles of shadow formation states that:\n그림자 형성 기하학 원리의 일반적인 법칙은?",
+    "source": "RTG-II(A)",
+    "question": "A general rule governing the application of the geometric principles of shadow formation states that:\n그림자 형성의 기하학적 원리를 적용하는데 일반적 법칙은 무엇인가?",
     "options": [
-      "A. X-ray should proceed from as large a focal spot as possible",
-      "B. distance between radiation source and material should be as small as practical",
-      "C. film should be as far as possible from the object",
-      "D. central ray should be as nearly perpendicular to film as possible"
+      "the X-ray should proceed from as large a focal spot as other consideration will allow\n (엑스선은 가능한 한 큰 선원으로부터 나와야 한다.)",
+      "the distance between the radiation source and the material examined should be as small as practical\n (선원과 시험물의 거리는 작게 해야 한다.)",
+      "the film should be as far as possible from the object being radiographed.\n (필름은 가능한 한 시험 물에서 떨어져 있어야 한다.)",
+      "the central ray should be as nearly perpendicular to the film as possible, to preserve spatial relationships.\n (방사선의 중앙선은 필름과 거의 수직을 이루어야 한다.)"
     ],
     "answer": 3
   },
   {
     "id": 36,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
-    "question": "The X-ray absorption of a specimen depends on:\n시험물의 X선 흡수는 무엇에 의존하는가?",
+    "source": "RTG-II(A)",
+    "question": "The X-ray absorption of a specimen depends on:\n시험물의 엑스선 흡수는 무엇에 의존하는가?",
     "options": [
-      "A. thickness and density of material (재질의 두께와 밀도)",
-      "B. atomic number of material (재질의 원자번호)",
-      "C. both A and B above (A와 B 모두)",
-      "D. neither A nor B (둘 다 아님)"
+      "the thickness and density of the material\n물체의 두께와 밀도",
+      "the atomic number of the material\n물체의 원자 번호",
+      "both 1 and 2 above\n위 1, 2 모두",
+      "neither 1 nor 2\nA, B 모두 아니다."
     ],
     "answer": 2
   },
   {
     "id": 37,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
-    "question": "The radiographic absorption of a material will tend to become less dependent upon composition when:\n재료의 방사선 흡수가 조성에 덜 의존하는 경우는?",
+    "source": "RTG-II(A)",
+    "question": "The radiographic absorption of a material will tend to become less dependent upon the composition of the material when:\n물질의 방사선 사진의 흡수는 언제 물질의 혼합에 덜 의존되는가?",
     "options": [
-      "A. the kilovoltage is increased (전압 증가)",
-      "B. source-to-film distance is decreased (선원-필름 거리 감소)",
-      "C. kilovoltage is decreased (전압 감소)",
-      "D. a filter is used (필터 사용)"
+      "the kilovoltage is increased\n전압이 증가할 때",
+      "the source-to-film distance is decreased\n선원과 필름간의 거리가 감소될 때",
+      "the kilovoltage is decreased\n전압이 감소될 때",
+      "a filter is used\n필터가 사용될 때"
     ],
     "answer": 0
   },
   {
     "id": 38,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
-    "question": "The formula (milliampere × time) ÷ distance² is:\n(M × T) / D² 공식은?",
+    "source": "RTG-II(A)",
+    "question": "The formula (milliamperes X time) ÷ distance2 is: M × T D2\n󰠏󰠏󰠏󰠏󰠏󰠏󰠏󰠏󰠏󰠏 공식은?",
     "options": [
-      "A. used to calculate film gradient (필름 기울기 계산)",
-      "B. the reciprocity law (상호 법칙)",
-      "C. used to determine radiographic contrast (방사선 명암 결정)",
-      "D. the exposure factor (노출 인자)"
+      "used to calculate film gradient\n필름의 명암도 계산에 사용된다.",
+      "the reciprocity law\n역수 법칙",
+      "used to determine radiographic contrast\n방사선 사진의 명암도 결정하는데 사용",
+      "the exposure factor\n노출 인자"
     ],
     "answer": 3
   },
   {
     "id": 39,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
-    "question": "The load that can be handled by an X-ray tube focal spot is governed by:\nX선관 초점이 처리 가능한 부하는 무엇에 의해 결정되는가?",
+    "source": "RTG-II(A)",
+    "question": "The load that can be handled by an X-ray tube focal spot is governed by:\n엑스선과 초점에 의해 조절될 수 있는 부하는?",
     "options": [
-      "A. composition of the cathode (음극 재질)",
-      "B. size of focal spot and efficiency of anode cooling system (초점 크기와 양극 냉각 효율)",
-      "C. distance from anode to cathode (양극-음극 거리)",
-      "D. high-voltage waveform (고전압 파형)"
+      "the composition of the cathode\n음극의 조성",
+      "the size of the focal spot and the efficiency of the cooling system of the anode.\n (초점의 크기와 양극의 냉각 계통의 효율)",
+      "the distance from the anode to the cathode\n양극과 음극간의 거리",
+      "the high-voltage waveform\n고전압 파형"
     ],
     "answer": 1
   },
   {
     "id": 40,
-    "type": "RT_GENERAL",
     "level": "Level II",
+    "method": "RT",
     "category": "General",
-    "question": "A lead sheet containing a pinhole may be placed halfway between the X-ray tube and film in order to:\n핀홀이 있는 납판을 X선관과 필름 중앙에 설치하는 목적은?",
+    "source": "RTG-II(A)",
+    "question": "A lead sheet containing a pinhole may be placed halfway between the X-ray tube and the film in order to:\n핀홀을 가진 납판은 무엇을 위해 선원과 필름의 중앙에 위치하는가?",
     "options": [
-      "A. determine the approximate size of the focal spot (초점 크기 결정)",
-      "B. measure intensity of central ray (중앙선 강도 측정)",
-      "C. filter scatter radiation (산란 방사선 여과)",
-      "D. soften X-radiation (X선 연화)"
+      "determine the approximate size of the focal spot\n선원의 대략적인 크기를 결정",
+      "measure the intensity of the central ray\n중앙선의 강도를 측정",
+      "filter scatter radiation\n산란 방사선을 여과",
+      "soften the X-radiation (엑스선을 부드럽게 하기 위해) \n GENERAL(A-TYPE)\n \n문제\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n해답\nC\nB\nC\nB\nD\nC\nA\nB\nC\nB\n문제\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n해답\nA\nB\nC\nD\nD\nB\nB\nC\nA\nD\n문제\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n해답\nD \nD \nC \nB \nC \nA \nC \nA \nC \nC \n문제\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n해답\nB \nA \nC \nA \nD \nC \nA \nD \nB \nA"
     ],
     "answer": 0
   }

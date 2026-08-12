@@ -1,483 +1,617 @@
 [
   {
     "id": 1,
-    "question": "The search unit shown in Figure is used for:",
-    "question_kr": "그림에 보여준 탐촉자는 어떤 검사에 사용되나?",
-    "answer": 3,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "The search unit shown in Figure is used for:\n그림에 보여준 탐촉자는 어떤 검사에 사용되나?",
     "options": [
-      "surface wave testing\n표면파 검사",
-      "angle beam wave\n사각빔 검사",
-      "immersion testing\n수침법 검사",
-      "straight beam testing\n수직빔 검사"
+      "surface wave testing",
+      "angle beam wave",
+      "immersion testing",
+      "straight beam testing"
     ],
-    "image": "UT_GENERAL_B_Q6.jpg"
+    "answer": 3
   },
   {
     "id": 2,
-    "question": "The simple experiment where a stick in a glass of water appears disjointed at the water surface illustrates the phenomena of:",
-    "question_kr": "물이 든 컵에 막대를 넣었을 때 물 표면에서 꺾여 보이는 현상은 무엇을 설명하는가?",
-    "answer": 2,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "The simple experiment where a stick in a glass of water appears disjointed at the water surface illustrates the phenomena of:\n물이 든 컵에 막대를 넣어 물의 표면에서의 분리되는 현상으로 설명하는 간단한 실험으로 알 수 있는 것은?",
     "options": [
       "reflection\n반사",
       "magnification\n확대",
       "refraction\n굴절",
       "diffraction\n회절"
-    ]
+    ],
+    "answer": 2
   },
   {
     "id": 3,
-    "question": "The crystal thickness & transducer frequency are related. The thinner the crystal:",
-    "question_kr": "수정 두께와 탐촉자 주파수는 관계가 있다. 수정이 얇을수록?",
-    "answer": 1,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "The crystal thickness & transducer frequency are related. The thinner the crystal:\n수정 두께와 탐촉자의 주파수와는 관계가 있다. 얇은 수정인 경우는?",
     "options": [
-      "the lower the frequency\n주파수가 낮다",
-      "the higher the frequency\n주파수가 높다",
+      "the lower the frequency\n낮은 주파수",
+      "the higher the frequency\n높은 주파수",
       "there is no appreciable effect\n영향이 없다",
-      "none of the above\n모두 아니다"
-    ]
+      "none of the above\n정답이 없음"
+    ],
+    "answer": 1
   },
   {
     "id": 4,
-    "question": "The random distribution of crystallographic direction in alloys with large crystalline structure is a factor in determining:",
-    "question_kr": "큰 결정립 구조를 가진 합금에서 결정방향의 불규칙성은 무엇에 영향을 주는가?",
-    "answer": 2,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "The random distribution of crystallographic direction in alloys with large crystalline structure is a factor in determining:\n합금에서 큰 결정구조에서 결정학적 방위의 불규칙한 요인은 다음 중 어떤 것에 영향을 주나?",
     "options": [
-      "acoustic noise levels\n음향 잡음",
+      "acoustic noise levels\n잡음의 크기",
       "selection of test frequency\n시험 주파수 선정",
       "scattering of sound\n음의 산란",
-      "all of the above\n위 모두"
-    ]
+      "all of the above\n위 사항 전부"
+    ],
+    "answer": 2
   },
   {
     "id": 5,
-    "question": "The difference in signals received from identical reflectors at different material distances from a transducer may be caused by:",
-    "question_kr": "동일한 반사체라도 탐촉자와의 거리가 다르면 신호 차이가 발생하는 원인은?",
-    "answer": 3,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "The difference in signals received from identical reflectors at different material distances from a transducer amy be caused by:\n재료와 탐촉자의 거리가 다른 곳의 비슷한 크기가 반사체에서 수신이 다르게 나타났다면?",
     "options": [
       "material attenuation\n재료 감쇠",
-      "beam divergence\n빔 확산",
-      "near field effects\n근거리 음장 효과",
-      "all of the above\n위 모두"
-    ]
+      "beam divergence\n빔의 분리",
+      "near field effects\n근접장 효과",
+      "all of the above\n위 전부"
+    ],
+    "answer": 3
   },
   {
     "id": 6,
-    "question": "Of the following sound wave modes, which one has multiple or varying wave velocities?",
-    "question_kr": "다음 음파 중 여러 가지 또는 다양한 속도를 가지는 것은?",
-    "answer": 3,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "Of the following sound wave modes, which one has multiple or varying wave velocities?\n다음 중 음파 중에서 복합적이거나 속도가 변하는 것을 하나 고르시오",
     "options": [
-      "Longitudinal wave\n종파",
+      "Longitudinal\n종파",
       "Shear wave\n전단파",
-      "Transverse wave\n횡파",
-      "Lamb wave\n램파"
-    ]
+      "transverse wave\n횡파",
+      "Lamb wave\n판파"
+    ],
+    "answer": 3
   },
   {
     "id": 7,
-    "question": "Which of the following would be considered application(s) of ultrasonic technique?",
-    "question_kr": "초음파 기술의 응용으로 옳은 것은?",
-    "answer": 3,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "Which of the following would be considered application (s) of ultrasonic technique?\n초음파 검사시 숙고할 기술적 사항은?",
     "options": [
-      "Determination of material's modulus\n재료 탄성계수 측정",
-      "Study of metallurgical structure\n금속조직 연구",
-      "Measurement of material thickness\n재료 두께 측정",
+      "Determination of material's modules\n재료 개수의 측정",
+      "Study of a material's metallurgical structure\n재료의 금속 조직의 지식",
+      "Measurement of a material's thickness\n재료 두께 측정",
       "All of the above\n위 모두"
-    ]
+    ],
+    "answer": 3
   },
   {
     "id": 8,
-    "question": "The only significant sound mode that will travel through a liquid is:",
-    "question_kr": "액체를 통과할 수 있는 주요 음파는?",
-    "answer": 1,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "The only significant sound mode that will travel through a liquid is:\n오직 액체를 통과할 수 있는 음파는?",
     "options": [
-      "Shear wave\n전단파",
-      "Longitudinal wave\n종파",
-      "Surface wave\n표면파",
-      "Rayleigh wave\n레이리파"
-    ]
+      "shear\n횡파",
+      "longitudinal\n종파",
+      "surface\n표면파",
+      "Rayleigh\n레이레이"
+    ],
+    "answer": 1
   },
   {
     "id": 9,
-    "question": "The acoustic impedance of a material is used to:",
-    "question_kr": "재료의 음향 임피던스는 무엇을 결정하는 데 사용되는가?",
-    "answer": 2,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "The acoustic impedance of a material is used to:\n재료에 따른 음향계수는 어디에 쓸 수 있나?",
     "options": [
-      "Determine the angle of refraction\n굴절각 결정",
-      "Determine attenuation\n감쇠 결정",
-      "Determine reflected/transmitted sound energy\n반사·투과 에너지 결정",
-      "Determine beam spread\n빔 확산 결정"
-    ]
+      "determine the angle of refraction at an interface\n굴절각의 측정",
+      "determine the attenuation within the material\n재료에 따른 감소의 측정",
+      "determine the relative amount of sound energy coupled through & reflected at an interface\n경계에서 반사 혹은 입사되는 음압 에너지의 상대적인 크기 계산",
+      "determine the beam spread within material\n재료에 따른 빔 확산 측정"
+    ],
+    "answer": 2
   },
   {
     "id": 10,
-    "question": "When angle beam contact testing a test piece, increasing the incident angle until the second critical angle is reached results in:",
-    "question_kr": "사각빔 탐상에서 입사각을 제2임계각까지 증가시키면 어떤 결과가 나타나는가?",
-    "answer": 2,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "When angle beam contact testing a test piece, increasing the incident angle until the second critical angle is reached result in:\n사각빔 탐상에서 입사각이 커져서 2차 임계 각도까지 가면 어떤 결과에 도달하는가?",
     "options": [
-      "Total reflection of a surface wave\n표면파의 전반사",
-      "Total reflection of a shear wave\n전단파의 전반사",
-      "Production of a surface wave\n표면파 발생",
-      "None of the above\n모두 아니다"
-    ]
+      "total reflection of a surface wave\n표면파의 전부 반사",
+      "total reflection of a shear wave\n횡파의 45도 반사",
+      "production of a surface wave\n표면파를 만든다.",
+      "none of a above\n정답 없음"
+    ],
+    "answer": 2
   },
   {
     "id": 11,
-    "question": "As the radius of curvature of a curved lens is increased, the focal length of the lens will:",
-    "question_kr": "곡면 렌즈의 곡률반경이 증가하면 초점거리는 어떻게 되는가?",
-    "answer": 0,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "As the radius of curvature of a curved lens in increased, the focal length of the lens will:\n굽은 모양의 렌즈의 곡률 반경이 증가하면 렌즈의 초점거리는 어떻게 되나?",
     "options": [
-      "Increase\n증가한다",
-      "Decrease\n감소한다",
-      "Remain the same\n변하지 않는다",
-      "Cannot be determined unless frequency is known\n주파수를 알아야 결정할 수 있다"
-    ]
+      "increase\n증가",
+      "decrease\n감소",
+      "remain the same\n같다",
+      "be indeterminate unless the frequency is known\n만약 주파수를 모르면 불확실하다"
+    ],
+    "answer": 0
   },
   {
     "id": 12,
-    "question": "When examining materials for planar flaws oriented parallel to the part surface, what testing method is most often used?",
-    "question_kr": "표면과 평행한 평면 결함을 검사할 때 가장 많이 사용하는 방법은?",
-    "answer": 2,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "When examining materials for planer flaws oriented parallel to the part surface, what testing method is most often used?\n표면과 평형으로 큰 결함을 재료의 표면에서 검사할 시 가장 많이 쓰는 방법은?",
     "options": [
-      "Angle beam\n사각빔 검사",
-      "Through transmission\n투과법",
-      "Straight beam\n수직빔 검사",
-      "Dual crystal\n이중진동자 탐촉자"
-    ]
+      "angle beam\n사각빔",
+      "through - transmission\n통과법",
+      "straight beam\n수직빔",
+      "dual crystal\n2중 수정"
+    ],
+    "answer": 2
   },
   {
     "id": 13,
-    "question": "If a contact angle beam transducer produces a 45° shear wave in steel, the angle produced in aluminum would be:",
-    "question_kr": "강에서 45° 전단파를 만드는 탐촉자를 알루미늄에 사용하면 굴절각은?",
-    "answer": 0,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "If a contact angle beam transducer produces a 45。 shear wave in steel, the angle produced by the same transducer in an aluminum specimen would be: (Vs steel=0.323m/μsec:Vs AL=0.310 Cm/μsec) (접촉 사각빔 탐상시 “철”에서는 45도 각도를 만드는 탐촉자라면 “알루미늄”시편에서는 어떻게 될까?)\n단 Vs steel=0.323m/μsec:Vs AL=0.310 Cm/μsec",
     "options": [
-      "Less than 45°\n45°보다 작다",
-      "Greater than 45°\n45°보다 크다",
-      "45°\n45°",
-      "Cannot be determined\n결정할 수 없다"
-    ]
+      "Less than 45。\n45。 미만",
+      "Greater than 45。\n45。 보다 크다",
+      "45。",
+      "Dual crystal\n많은 조건이 필요하다."
+    ],
+    "answer": 0
   },
   {
     "id": 14,
-    "question": "The ultrasonic test method in which finger damping is most effective in locating a discontinuity is:",
-    "question_kr": "손가락 감쇠(Finger damping)가 결함 탐지에 가장 효과적인 초음파 방식은?",
-    "answer": 2,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "The ultrasonic test method in which finger damping is most effective in locating a discontinuity is:\n초음파 탐상법 중 불연속을 찾는데 손가락을 이용하여 가장 잘 감지되는 것은?",
     "options": [
-      "Shear wave\n전단파",
-      "Longitudinal wave\n종파",
-      "Surface wave\n표면파",
-      "Compressional wave\n압축파"
-    ]
+      "shear wave\n횡파",
+      "longitudinal wave\n종파",
+      "surface save\n표면파",
+      "compressional wave\n압축파"
+    ],
+    "answer": 2
   },
   {
     "id": 15,
-    "question": "When a C-scan recording is used, the information displayed is typically:",
-    "question_kr": "C-Scan으로 기록할 때 일반적으로 표시되는 정보는?",
-    "answer": 3,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "When a C-scan recording is used to produce a permanent record of an ultrasonic test, the information displayed is typically the:\nC-scan 법이 초음파 검사의 영구적인 기록을 위해 사용될 때 얻어지는 정보는 주로 무엇인가?",
     "options": [
-      "Flaw depth and size\n결함 깊이와 크기",
-      "Depth, orientation and size\n깊이, 방향 및 크기",
-      "Location and depth\n위치와 깊이",
-      "Location and plan-view size\n위치와 평면상 크기"
-    ]
+      "a discontinuity depth and size\n불연속의 깊이와 크기",
+      "discontinuity depth, orientation, and size\n불연속의 깊이, 방향, 크기",
+      "discontinuity location and depth\n불연속의 위치와 깊이",
+      "discontinuity location and size (plan view)\n불연속의 위치 및 평면상 결함 상태"
+    ],
+    "answer": 3
   },
   {
     "id": 16,
-    "question": "Rayleigh waves are influenced most by defects located:",
-    "question_kr": "레이리파가 가장 민감하게 검출하는 결함 위치는?",
-    "answer": 2,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "Rayleigh waves are influenced most by defects located:\n표면파가 가장 잘 감지할 수 있는 결함의 위치는?",
     "options": [
-      "One wavelength below the surface\n표면 아래 1파장",
-      "Six wavelengths below the surface\n표면 아래 6파장",
-      "Close to or on the surface\n표면 또는 표면 가까이",
-      "Three wavelengths below the surface\n표면 아래 3파장"
-    ]
+      "one wavelength below the surface\n표면하 한 파장 밑",
+      "six wavelength below the surface\n표면하 파장의 6배 길이 밑",
+      "close to or on the surface\n표면이나 가까운 곳",
+      "three wavelength below the surface\n표면하 파장의 3배 길이 밑"
+    ],
+    "answer": 2
   },
   {
     "id": 17,
-    "question": "Assuming a uniform beam pattern, if the amplitude ratio is 6 dB, the reflected signal amplitudes at A and B are:",
-    "question_kr": "빔 패턴이 동일하고 진폭 차가 6dB라면 A와 B의 진폭 관계는?",
-    "answer": 2,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "Assuming a uniform beam pattern, if the ratio of amplitude is 6 dB, What relationship would you expect to exist between the amplitudes of the reflected laminar signals at position A and B?\n빔의 종류가 같고,증폭의 비가 6dB 라고 가정하면 A 와 B의 위치에서 반사파의 진폭은 서로 어떤 관계가 있나?",
     "options": [
-      "12 dB difference\n12 dB 차이",
-      "Equal amplitudes\n동일한 진폭",
-      "2 to 1\n2 : 1",
-      "3 to 1\n3 : 1"
-    ]
+      "12dB difference\n12 데시벨 다르다",
+      "Equal amplitudes\n같은 진폭",
+      "2 to 1 (2 : 1)",
+      "3 to 1 (3 : 1)"
+    ],
+    "answer": 2
   },
   {
     "id": 18,
-    "question": "If beam divergence causes reflection from the side before reaching the back surface, the result may be:",
-    "question_kr": "빔이 저면 도달 전 측면에서 반사되면 어떤 현상이 발생하는가?",
-    "answer": 2,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "Which of the following may result in a long narrow rod if the beam divergence results in a reflection from a side of the test piece before the sound wave reaches the back surface?\n길고 가는 막대에서 만약 음파가 후면에 도달하기 전에 확산 반사가 되었다면 무슨 결과인가?",
     "options": [
-      "Multiple indications before back reflection\n저면반사 전 다중 지시",
-      "Multiple surface reflections\n다중 표면반사",
-      "Longitudinal-to-shear mode conversion\n종파→전단파 변환",
-      "Loss of front surface indication\n전면 지시 상실"
-    ]
+      "Multiple indications before the first back reflection \n (첫 후면 반사면 여러 가지 지시)",
+      "Indication from multiple surface reflection\n (다각의 표면 반사로부터 지시)",
+      "Conversion from the longitudinal mode to shear mode\n (종파에서 횡파로 변환)",
+      "Loss of front surface indications \n (전면 표면 지시의 상실)"
+    ],
+    "answer": 2
   },
   {
     "id": 19,
-    "question": "Where does beam divergence occur?",
-    "question_kr": "빔 확산은 어느 영역에서 발생하는가?",
-    "answer": 2,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "Where does beam divergence occur?\n어디서 빔의 분리가 일어나나?",
     "options": [
-      "Near field\n근거리 음장",
-      "At the crystal\n진동자",
-      "Far field\n원거리 음장",
-      "None of the above\n모두 아니다"
-    ]
+      "Near field\n근 거리 음장",
+      "At the crystal\n결정체에서",
+      "Far field\n원 거리 음장",
+      "None of the above\n정답 없음"
+    ],
+    "answer": 2
   },
   {
     "id": 20,
-    "question": "As frequency increases in ultrasonic testing, the beam divergence angle of a given crystal:",
-    "question_kr": "초음파에서 주파수가 증가하면 동일 진동자의 빔 확산각은?",
-    "answer": 0,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "As frequency increase in ultrasonic testing, the angle of beam divergence of a given diameter crystal:\n초음파 탐상시 주파수가 증가하면 주어진 진동자의 사각빔의 확산은 어떻게 변화되나?",
     "options": [
-      "Decreases\n감소한다",
-      "Remains unchanged\n변하지 않는다",
-      "Increases\n증가한다",
-      "Varies with wavelength\n파장에 따라 달라진다"
-    ]
+      "decreases\n감소한다",
+      "remains unchanged\n변하지 않음",
+      "increases\n증가한다",
+      "varies uniformly through each wavelength\n각 파장의 길이에 따라 일정하지 않게 변화한다."
+    ],
+    "answer": 0
   },
   {
     "id": 21,
-    "question": "The ratio of the velocity of sound in water compared to that for aluminum or steel is approximately:",
-    "question_kr": "물에서의 음속과 알루미늄 또는 강에서의 음속 비는 대략 얼마인가?",
-    "answer": 0,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "The ratio of the velocity of sound in water compared to that for aluminum or steel is approximately:\n물에서와 알루미늄이나 철에서의 초음파 속도의 비는 대략 얼마인가?",
     "options": [
-      "1 : 4\n1 : 4",
-      "1 : 8\n1 : 8",
-      "1 : 2\n1 : 2",
-      "1 : 3\n1 : 3"
-    ]
+      "1 : 4",
+      "1 : 8",
+      "1 : 2",
+      "1 : 3"
+    ],
+    "answer": 0
   },
   {
     "id": 22,
-    "question": "Which of the following scanning methods could be classified as an immersion type test?",
-    "question_kr": "다음 중 수침탐상법으로 분류되는 것은?",
-    "answer": 3,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "Which of the following scanning methods could be classified as an immersion type test?\n다음 중 수침법의 검사로 인정될 수 있는 것은?",
     "options": [
-      "Tank immersion\n탱크 수침법",
-      "Squirter method\n스퀴터 방식",
-      "Wheel search unit\n휠 탐촉자 방식",
+      "Tank in which the search unit and test piece are immersed\n (탐상기와 시편이 잠긴 탱크)",
+      "Squirter bubble method in which the sound is transmitted in a column of flowing water.\n (유수관에 음파가 전달하는 기표주사법)",
+      "Scanning with a wheel-type search unit with the transducer inside a liquid filled tire.\n (물로 채워진 타이어 속에 탐촉자가 있는 바퀴모양의 탐상기)",
       "All of the above\n위 모두"
-    ]
+    ],
+    "answer": 3
   },
   {
     "id": 23,
-    "question": "What law is used to calculate the angle of refraction for longitudinal and shear waves?",
-    "question_kr": "종파와 전단파의 굴절각 계산에 사용하는 법칙은?",
-    "answer": 1,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "What law can be used to calculate the angle of refraction within a metal for both longitudinal and shear wave?\n금속 내에 종파와 횡파의 굴절각을 계산하는데 사용하는 법칙은?",
     "options": [
-      "Poisson's Law\n포아송 법칙",
+      "Poisson's Ratio Law\n포아손의 비례 법칙",
       "Snell's Law\n스넬의 법칙",
-      "Fresnel's Law\n프레넬 법칙",
+      "Fresnel's Field Law\n프리스넬장의 법칙",
       "Charles' Law\n샤를의 법칙"
-    ]
+    ],
+    "answer": 1
   },
   {
     "id": 24,
-    "question": "At an interface between two different materials, an impedance difference results in:",
-    "question_kr": "서로 다른 두 재질의 경계면에서 임피던스 차이는 무엇을 발생시키는가?",
-    "answer": 2,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "At an interface between two different materials, an impedance difference results in :\n(서로 다른 매질의 경계에서 임피던스의 차는 어떤 결과를 가져오는가?",
     "options": [
-      "Total reflection\n완전 반사",
-      "Sound absorption\n음파 흡수",
-      "Reflection and transmission\n반사와 투과",
-      "None of the above\n위 모두 아님"
-    ]
+      "reflection of the entire incident energy at the interface\n (경계면에서 입사 에너지의 전면 반사)",
+      "absorption of sound\n음파의 흡수",
+      "division of sound energy into transmitted and reflected modes.\n (투과 및 반사되는 음파 에너지의 정도)",
+      "none of the above\n정답 없음"
+    ],
+    "answer": 2
   },
   {
     "id": 25,
-    "question": "When using focused transducers, non-symmetry in the propagated sound beam may be caused by:",
-    "question_kr": "집속형 탐촉자 사용 시 음장의 비대칭 원인은?",
-    "answer": 3,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "When using focused transducers, non-symmetry in a propagated sound beam may be caused by:\n초점을 가진 탐촉자를 사용할 때 전파되는 초음파의 비대칭은 왜 생기는가?",
     "options": [
-      "Backing material variations\n배면재 변화",
-      "Lens misalignment\n렌즈 중심 불일치",
-      "Porosity in the lens\n렌즈 기공",
-      "All of the above\n위 모두"
-    ]
+      "backing material variations\n배면 물질의 기복",
+      "lens centering or misalignment\n렌즈의 중심이 잘 조정되어 있지 않게 부착",
+      "porosity in lenses\n렌즈의 기공",
+      "all of the above\n위 모두"
+    ],
+    "answer": 3
   },
   {
     "id": 26,
-    "question": "In an automatic immersion scanning unit, the bridge or carriage serves to:",
-    "question_kr": "자동 수침탐상기의 브리지(캐리지)의 역할은?",
-    "answer": 0,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "In an automatic scanning immersion unit, the bridge or carriage serves to :\n수침 자동 탐상기의 다리 또는 이동자는 어떤 역할을 하는가?",
     "options": [
-      "Support and move the manipulator\n조작기를 지지하고 이동시킨다",
-      "Control transverse position\n횡방향 위치를 제어한다",
-      "Control vertical position\n수직 위치를 제어한다",
-      "Raise and lower the transducer\n탐촉자를 상하 이동시킨다"
-    ]
+      "support the manipulator and scanner tube and to move it about transversely and longitudinally.\n (조종자와 주사 튜브를 지지하고 종횡으로 움직인다.)",
+      "control the angular and transverse positioning of the scanner tube\n (주사튜브의 각도와 횡방향의 위치를 조절)",
+      "control the vertical and angular positioning of the scanner tube\n (수직 방향 및 각도를 조절)",
+      "raise and lower the transducer\n탐촉자를 상하로 이동시킨다."
+    ],
+    "answer": 0
   },
   {
     "id": 27,
-    "question": "As transducer diameter decreases, the beam spread:",
-    "question_kr": "탐촉자 직경이 감소하면 빔 확산은?",
-    "answer": 2,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "As transducer diameter decreases, the beam spread:\n탐촉자의 직경이 감소하면 빔 확산은?",
     "options": [
-      "Decreases\n감소한다",
-      "Remains the same\n변하지 않는다",
-      "Increases\n증가한다",
-      "Becomes conical\n원추형이 된다"
-    ]
+      "decreases\n감소한다",
+      "remains the same\n변하지 않는다.",
+      "increases\n증가한다",
+      "becomes conical in shape\n원추형으로 된다"
+    ],
+    "answer": 2
   },
   {
     "id": 28,
-    "question": "In pulse-echo testing, if a planar flaw is not perpendicular to the sound beam, the result may be:",
-    "question_kr": "펄스반사법에서 평면 결함이 음파에 수직이 아니면 어떤 결과가 나타나는가?",
-    "answer": 1,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "Using a pulse-echo technique, if the major plane of a flat discontinuity is oriented at some angle other than perpendicular to the direction of sound propagation, the result may be:\n펄스 반사 기법을 사용할 때 평면 결함이 초음파 빔에 수직이 아니라면 그 결과는 어떻게 되는가?",
     "options": [
-      "Loss of signal linearity\n지시 선형성 상실",
-      "Loss of discontinuity echo\n결함 에코 감소 또는 소실",
-      "Beam focusing\n빔 집속",
-      "Loss of interference\n간섭 현상 상실"
-    ]
+      "lose of signal linearity\n지시의 선형이 깨진다",
+      "loss or lack of a received discontinuity echo \n (수신된 결함 반사파의 약화 또는 상실)",
+      "focusing of the sound beam\n초음파의 초점화",
+      "loss of interference phenomena\n간섭 현상의 상실"
+    ],
+    "answer": 1
   },
   {
     "id": 29,
-    "question": "During straight beam testing, non-parallel front and back surfaces may cause:",
-    "question_kr": "수직빔 검사에서 전면과 후면이 평행하지 않으면?",
-    "answer": 0,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "During straight beam testing, test specimens with non-parallel front and back surfaces can cause:\n수직빔 탐상시 전면과 후면이 평행하지 않는 시험편은 무엇을 초래하는가?",
     "options": [
-      "Partial or total loss of backwall echo\n저면에코 부분 또는 완전 소실",
-      "No change\n변화 없음",
-      "Broader backwall echo\n저면에코 확대",
-      "Narrower backwall echo\n저면에코 축소"
-    ]
+      "partial or total loss of back reflection\n저면 반사의 부분 또는 완전 소멸",
+      "no loss in back reflection\n저면 반사의 감소는 없다",
+      "a widened (broad) back reflection indication\n저면 반사폭의 확대를 가져온다.",
+      "a focused (narrow) back reflection indication\n저면 반사폭의 축소를 가져온다."
+    ],
+    "answer": 0
   },
   {
     "id": 30,
-    "question": "Lamb waves are commonly used to detect:",
-    "question_kr": "램파가 주로 사용되는 대상은?",
-    "answer": 0,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "Lamb waves can be used to detect:\n“램”파는 무엇을 찾기 위해 사용되는가?",
     "options": [
-      "Laminar defects near the surface of thin materials\n얇은 재료 표면 근처의 층상 결함",
-      "Lack of fusion in thick welds\n두꺼운 용접부의 융합불량",
-      "Internal voids in diffusion bonds\n확산접합 내부 공극",
-      "Thickness changes in heavy plates\n두꺼운 판의 두께 변화"
-    ]
+      "laminar-type defects near the surface of a thin material \n (얇은 물체의 표면 근처에 있는 얇은 판상 결함)",
+      "lack of fusion in the center of a thick weldment.\n (두꺼운 용접물의 중심에 있는 용융 부족)",
+      "internal voids in diffusion bonds.\n확산 접합에서 내부 공백",
+      "thickness changes in heavy plate material.\n중금속 판재의 두께차"
+    ],
+    "answer": 0
   },
   {
     "id": 31,
-    "question": "The total energy losses occurring in all materials is called:",
-    "question_kr": "모든 재료에서 발생하는 전체 에너지 손실을 무엇이라 하는가?",
-    "answer": 0,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "The total energy losses occurring in all materials is called :\n모든 물질에서 일어나는 전에너지 감소를 무엇이라 하는가?",
     "options": [
-      "Attenuation\n감쇠",
-      "Scattering\n산란",
-      "Beam spread\n빔 확산",
-      "Interface\n경계면"
-    ]
+      "attenuation\n감쇠",
+      "scatter\n산란",
+      "beam spread\n빔 확산",
+      "interface\n경계면"
+    ],
+    "answer": 0
   },
   {
     "id": 32,
-    "question": "The angle at which 90° refraction of a longitudinal wave is reached is called:",
-    "question_kr": "종파의 굴절각이 90°가 되는 입사각을 무엇이라 하는가?",
-    "answer": 1,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "The angle at which 90° refraction of a longitudinal sound wave is reached is called:\n종파의 굴절각이 90도가 될 때 입사각을 무엇이라 하는가?",
     "options": [
-      "Angle of incidence\n입사각",
-      "First critical angle\n제1임계각",
-      "Maximum reflection angle\n최대 반사각",
-      "Second critical angle\n제2임계각"
-    ]
+      "the angle of incidence\n입사각",
+      "the first critical angel\n제일차 임계각",
+      "the angle of maximum reflection\n최대 반사각",
+      "the second critical angle\n제이차 임계각"
+    ],
+    "answer": 1
   },
   {
     "id": 33,
-    "question": "Which circuit controls the voltage supplied to the vertical deflection plates of the CRT in an A-scan UT system?",
-    "question_kr": "A-Scan 초음파탐상기에서 CRT 수직편향판 전압을 제어하는 것은?",
-    "answer": 2,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "Which of the following controls the voltage supplied to the vertical deflection plates of the CRT in an A-scan UT setup?\nA-scan의 초음파탐상검사에서 CRT의 수직 편향에 전원공급을 통제하는 것은?",
     "options": [
-      "Sweep generator\n소인 발생기",
-      "Pulser\n펄서",
-      "Amplifier circuit\n증폭 회로",
-      "Clock timer\n클록 타이머"
-    ]
+      "sweep generator\n소인 발생기",
+      "Pulser\n펄스",
+      "Amplifier circuit\n진폭 회로",
+      "Clock timer\n시간 기록계"
+    ],
+    "answer": 2
   },
   {
     "id": 34,
-    "question": "Large grains in a metallic test specimen usually result in:",
-    "question_kr": "금속 시험편의 결정립이 크면 일반적으로 어떤 결과가 나타나는가?",
-    "answer": 3,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "Large grains in a metallic test specimen usually result in:\n금속 시험편에 있는 큰 불순물은 어떤 결과를 가져오나?",
     "options": [
-      "Reduced backwall echo\n저면에코 감소",
-      "Large noise indications\n큰 잡음 신호",
-      "Reduced penetration\n침투력 감소",
-      "All of the above\n위 모두"
-    ]
+      "decrease of loss of back surface reflection\n저면 반사를 감소시킨다",
+      "large \"hash\" or noise indication\n큰 잡음의 지시",
+      "decrease in penetration\n침투력 감소",
+      "all of the above\n위 모두"
+    ],
+    "answer": 3
   },
   {
     "id": 35,
-    "question": "When adjusting the flaw locating rule for shear-wave weld inspection, the zero point shall coincide with the:",
-    "question_kr": "횡파 용접검사에서 결함 위치자를 사용할 때 영점은 어디와 일치해야 하는가?",
-    "answer": 0,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "When adjusting the flaw locating rule for a shear wave weld inspection, the zero point on the rule must coincide with the:\n횡파에 의한 용접 검사에서 결함 위치를 조정할 때 영점을 어디에 두어야 하나?",
     "options": [
-      "Beam exit point of the wedge\n웨지의 빔 출사점",
-      "Point directly over the flaw\n결함 바로 위",
-      "Wheel search unit\n휠 탐촉자",
-      "Circular scanner\n원형 스캐너"
-    ]
+      "sound beam exit point-of the wedge\n음파의 출구점",
+      "point directly over the flaw\n결함의 바로위",
+      "wheel search unit\n회전 탐상기",
+      "circular scanner\n원형 주사기"
+    ],
+    "answer": 0
   },
   {
     "id": 36,
-    "question": "On an A-scan display, what represents the intensity of a reflected beam?",
-    "question_kr": "A-Scan에서 반사빔의 강도는 무엇으로 표시되는가?",
-    "answer": 3,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "On an A-scan display, what represents the intensity of a reflected beam?\nA-scan법에서 반사된 빔의 강도를 나타내는 것은?",
     "options": [
-      "Echo pulse width\n에코 폭",
-      "Horizontal position\n수평 위치",
-      "Signal brightness\n신호 밝기",
-      "Signal amplitude\n신호 높이(진폭)"
-    ]
+      "Echo pules width\n에코펄스의 폭",
+      "Horizontal screen location\n펄스의 수평축의 위치",
+      "Signal brightness\n지시의 밝기",
+      "Signal amplitude\n지시의 높이"
+    ],
+    "answer": 3
   },
   {
     "id": 37,
-    "question": "Which scan type produces a recording of flaw areas superimposed on a plan view of the test piece?",
-    "question_kr": "시험편 평면도 위에 결함 면적을 표시하는 주사 방식은?",
-    "answer": 2,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "Of the following scan types, which one can be used to produce a recording of flaw areas superimposed over a plan view of the test piece?\n다음 주사 방법 중 시험편의 평면상에 결함의 넓이를 투영한 크기를 얻을 수 있는 주사방법은 어느 것인가?",
     "options": [
-      "A-Scan\nA-Scan",
-      "B-Scan\nB-Scan",
-      "C-Scan\nC-Scan",
-      "D-Scan\nD-Scan"
-    ]
+      "A-Scan",
+      "B-Scan",
+      "C-Scan",
+      "D-Scan"
+    ],
+    "answer": 2
   },
   {
     "id": 38,
-    "question": "In which zone does the amplitude of an indication diminish exponentially as distance increases?",
-    "question_kr": "거리가 증가함에 따라 지시의 진폭이 급격히 감소하는 영역은?",
-    "answer": 0,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "In which zone does the amplitude of an indication from a given discontinuity diminish exponentially as the distance increase?\n불연속으로 나온 지시의 높이가 거리의 증가에 따라 기하급수적으로 감소하는 지역은?",
     "options": [
-      "Far field zone\n원거리 음장",
-      "Near field zone\n근거리 음장",
-      "Dead zone\n불감대",
-      "Fresnel zone\n프레넬 영역"
-    ]
+      "Far field zone\n먼 거리의 음장",
+      "New field zone\n근거리 음장",
+      "Dead zone\n불 감대",
+      "Fresnel zone\n프레스넬의 지역"
+    ],
+    "answer": 0
   },
   {
     "id": 39,
-    "question": "Gas discontinuities are reduced to flat discontinuities parallel to the surface by:",
-    "question_kr": "가스성 결함이 표면과 평행한 판상 결함으로 변하는 공정은?",
-    "answer": 0,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "Gas discontinuities are reduced to flat discontinuities or other shapes parallel to the surface by:\n가스 불연속은 어떠한 공정으로 표면에 평행한 형태로 만들어 지는가?",
     "options": [
-      "Rolling\n압연",
-      "Machining\n기계가공",
-      "Casting\n주조",
-      "Welding\n용접"
-    ]
+      "rolling\n압연",
+      "machining\n기계가공",
+      "casting\n주소",
+      "welding\n용접"
+    ],
+    "answer": 0
   },
   {
     "id": 40,
-    "question": "Compensation for variation in echo height due to discontinuity depth is known as:",
-    "question_kr": "결함 깊이에 따른 에코 높이 변화를 보상하는 기능은?",
-    "answer": 2,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(A)",
+    "question": "Compensation for the variation in echo height related to variations in discontinuity depth in the test material is known as :\n시험물의 불연속 깊이에 따른 에코 높이의 변화에 대한 보상을 무엇이라 하는가?",
     "options": [
-      "Transfer\n전이",
-      "Attenuation\n감쇠",
-      "Distance Amplitude Correction (DAC)\n거리진폭보정(DAC)",
-      "Interpretation\n판독"
-    ]
+      "transfer\n전이",
+      "attenuation\n감쇠",
+      "distance amplitude correction\n거리 진폭 보상",
+      "interpretation (판독)\n GENERAL(A-TYPE)\n \n문제\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n해답\nD\nC\nB\nC\nD\nD\nD\nB\nC\nC\n문제\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n해답\nA\nC\nA\nC\nD\nC\nC\nC\nC\nA\n문제\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n해답\nA \nD \nB \nC \nD \nA \nC \nB \nA \nA \n문제\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n해답\nA \nB \nC \nD \nA \nD \nC \nA \nA \nC"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 41,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "source": "UTG-II(B)",
+    "question": "The ratio of the velocity of sound in water compared to that for aluminum or steel is approximately:\n물에서와 알루미늄이나 철에서의 초음파 속도의 비는 대략 얼마인가?",
+    "options": [
+      "1 : 4",
+      "1 : 8",
+      "1 : 2",
+      "1 : 3"
+    ],
+    "answer": 0
   }
 ]

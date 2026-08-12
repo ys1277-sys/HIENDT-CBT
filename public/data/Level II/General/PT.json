@@ -4,14 +4,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "Which of the following is the most-commonly used method for removing non-water-washable penetrant from the surface of a test specimen?",
-    "translation": "시험편의 표면으로부터 비수세성 침투액을 제거하기 위한 일반적으로 사용되는 방법은?",
+    "source": "PTG-II(A)",
+    "question": "Which of the following is the most-commonly used method for removing non-water-washable penetrant from the surface of a test specimen?\n시험편의 표면으로부터 비수세성 세척을 위한 일반적으로 사용되는 방법은?",
     "options": [
-      "Dipping in a solvent",
-      "Spraying",
-      "Hand wiping",
-      "Blowing"
+      "Dipping in a solvent\n솔벤트 속에 집어넣는다",
+      "Spraying\n분사식",
+      "Hand wiping\n걸레로 닦는다",
+      "Blowing\n불어 낸다"
     ],
     "answer": 2
   },
@@ -20,14 +19,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "Before conducting a liquid penetrant test, it is important to ensure the part is free of:",
-    "translation": "침투탐상시험 전에 제품에서 제거되어야 하는 물질은?",
+    "source": "PTG-II(A)",
+    "question": "Before conducting a liquid penetrant test, it is important to ensure of the part is free of:\n침투 탐상 시험전에 다음의 어느 물질들을 없애야 하는가?",
     "options": [
-      "Oil or grease",
-      "Acids or chromates",
-      "Traces of water",
-      "All of the above"
+      "Oil or grease\n기름이나 구리스",
+      "Acids or chromates\n산염이나 크롬산염",
+      "Traces of water\n물자국",
+      "All of the above\n위 모두"
     ],
     "answer": 3
   },
@@ -36,14 +34,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "A red against white background discontinuity image is most likely to be seen when:",
-    "translation": "백색 바탕에 적색 불연속 지시는 언제 가장 쉽게 볼 수 있는가?",
+    "source": "PTG-II(A)",
+    "question": "A red against white background discontinuity image is most likely to be seen when:\n언제 백색 바탕에 적색의 불연속성 상은 언제 가장 쉽게 볼 수 있는가?",
     "options": [
-      "Dry developers are used",
-      "Visible dye penetrants are used",
-      "Fluorescent post-emulsification penetrants are used",
-      "Wet developers are used"
+      "Dry developers are used\n건식 현상액이 사용될 때",
+      "Visible dye penetrants are used\n육안 염색침투액이 사용될 때",
+      "fluorescent post-emulsification penetrantes are used\n형광 후 유화성 침투액이 사용될 때",
+      "Wet developers are used\n습식 현상액이 사용될 때"
     ],
     "answer": 1
   },
@@ -52,14 +49,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "Which of the developers listed below is rated highest in sensitivity?",
-    "translation": "다음 현상액 중 감도가 가장 높은 것은?",
+    "source": "PTG-II(A)",
+    "question": "Which of the developers listed below is rated highest in sensitivity?\n다음 현상액 중 감도가 가장 높은 것은?",
     "options": [
-      "Dry",
-      "Non-aqueous",
-      "Wet",
-      "All developers have approximately the same sensitivity"
+      "Dry\n건식",
+      "Non-aqueous\n유성",
+      "Wet\n습식",
+      "All developers have approximately the same sensitivity\n (모든 현상액이 거의 같은 감도를 가진다.)"
     ],
     "answer": 1
   },
@@ -68,14 +64,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "Which of the following factors will affect penetrant indications?",
-    "translation": "다음 중 침투시험 지시에 영향을 주는 것은?",
+    "source": "PTG-II(A)",
+    "question": "Which of the following factors will affect penetrant indications?\n다음 중에서 침투시험의 지시에 영향을 주는 것은?",
     "options": [
-      "The sensitivity of the penetrant materials used",
-      "The surface condition of the part",
-      "The temperature of the part and/or penetrant",
-      "All of the above"
+      "The sensitivity of the penetrant materials used\n사용된 침투 재료의 감도",
+      "The surface condition of the part\n부품의 표면 조건",
+      "The temperature of the part and / or penetrant\n부품 또는 침투액의 온도",
+      "All of the above\n위의 모두"
     ],
     "answer": 3
   },
@@ -84,14 +79,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "Why is it not advisable to look directly into a black light?",
-    "translation": "왜 흑광을 직접 바라보면 안 되는가?",
+    "source": "PTG-II(A)",
+    "question": "Why is it not advisable to look directly into a black light?\n왜 흑광을 직접 바라보는 것은 좋지 못한가?",
     "options": [
-      "It will cause permanent damage to the eyes",
-      "It will possibly cloud the vision of the person looking into the light for a short period of time",
-      "It will cause temporary total blindness",
-      "None of the above"
+      "It will cause permanent damage to the eyes\n눈에 영구적이 손상을 주므로",
+      "It will possibly could the vision of the person looking into the light for a short period of time \n (잠시나마 시력을 흐리게 할 가능성이 있으므로)",
+      "It will cause temporary total blindness\n일시적으로 완전 시력 장애를 유발하므로",
+      "None of the above\n해당 무"
     ],
     "answer": 1
   },
@@ -100,14 +94,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "Which of the following penetrant methods does not require a source of electricity to properly conduct a test?",
-    "translation": "다음 침투탐상 방법 중 시험 수행 시 전원이 필요하지 않은 것은?",
+    "source": "PTG-II(A)",
+    "question": "Which of the following penetrant methods does not require a source of electricity to properly conduct a test?\n다음의 침투 탐상시험 방법 중에서 전원이 필요 없는 것은?",
     "options": [
-      "Water-washable fluorescent penetrant method",
-      "Post-emulsification fluorescent penetrant method",
-      "Visible dye penetrant method",
-      "None of the above require a source of electricity"
+      "Water-washable fluorescent penetrant method\n수성 형광 침투법",
+      "Post-emulsification fluorescent penetrant method\n후 유화성 형광 침투법",
+      "Visible dye penetrant method\n육안 염색 침투법",
+      "None of the above require a source of electricity\n위의 어느 것도 전원이 필요치 않다."
     ],
     "answer": 2
   },
@@ -116,14 +109,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "Which of the items listed below is not an advantage of the liquid penetrant test method?",
-    "translation": "다음 중 침투탐상시험의 장점이 아닌 것은?",
+    "source": "PTG-II(A)",
+    "question": "Which of the items listed below is not an advantage of the liquid penetrant test method?\n다음 중에서 침투 탐상 시험 방법의 장점이 아닌 것은?",
     "options": [
-      "The method can find all types of discontinuities",
-      "The method is simple in principle and relatively easy to understand",
-      "The method is essentially simple in application",
-      "There are few limitations on the size and shape of the article that can be tested"
+      "The method can find all types of discontinuities\n모든 형태의 불연속을 찾을 수 있다.",
+      "The method is simple in principle and relatively easy to understand\n (이론적으로 간단하고 상대적으로 이해하기 쉽다.)",
+      "The method is essentially simple in application\n실제로 응용하기에 간단하다.",
+      "There are few limitations on the size and shape of the article that can be tested by this method.\n (이 방법으로 시험될 수 있는 제품의 크기와 모양에 커다란 구애를 받지 않는다.)"
     ],
     "answer": 0
   },
@@ -132,14 +124,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "Which of the following is not a recommended method for cleaning a surface prior to a liquid penetrant test?",
-    "translation": "침투탐상시험 전 표면 세척 방법으로 적절하지 않은 것은?",
+    "source": "PTG-II(A)",
+    "question": "Which of the following is not a recommended method for cleaning a surface prior to a liquid penetrant test?\n침투 탐상 시험 전에 표면의 세척 방법으로 적절치 못한 것은?",
     "options": [
-      "Detergent",
-      "Vapor degreasing",
-      "Liquid solvent",
-      "Sand blasting"
+      "Detergent\n청정제",
+      "Vapor degreasing\n수증기 세척",
+      "Liquid solvent\n액체 솔벤트",
+      "Sand blasting\n샌드 브라스팅"
     ],
     "answer": 3
   },
@@ -148,14 +139,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "Which of the following discontinuities could produce penetrant indication consisting of a series of aligned dots?",
-    "translation": "다음 불연속 중 일직선 형태의 점으로 나타나는 것은?",
+    "source": "PTG-II(A)",
+    "question": "Which of the following discontinuities could produce penetrant indication consisting of a series of aligued dots?\n다음의 불연속 중에서 일직선 형태의 점들로 나타나는 것은?",
     "options": [
-      "A tight crack",
-      "A wide or gross crack",
-      "An open seam",
-      "Random porosity"
+      "A tight crack\n밀착된 균열",
+      "A wide or gross crack\n넓거나 큰 균열",
+      "An open seam\n외부 심",
+      "Random porosity\n아무렇게나 배열된 기공"
     ],
     "answer": 0
   },
@@ -164,14 +154,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "Which of the following is not a generally-accepted method for cleaning parts prior to penetrant testing?",
-    "translation": "다음 중 침투탐상시험 전 부품 세척 방법으로 일반적으로 인정되지 않는 것은?",
+    "source": "PTG-II(A)",
+    "question": "Which of the following is not a generally-accepted method for cleaning parts prior to penetrant testing?\n다음 중 침투 탐상시험 전의 세척방법으로 좋지 못한 것은?",
     "options": [
-      "Vapor degreasing",
-      "Liquid solvent",
-      "Wire brushing",
-      "Alkaline cleaner"
+      "Vapor degreasing\n수증기 세척",
+      "Liquid solvent\n용제 세척",
+      "Wire brushing\n철 솔질",
+      "Alkaline cleaner\n알칼리 용제세척"
     ],
     "answer": 2
   },
@@ -180,14 +169,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "The term used to define the period of time in which the test part is covered with penetrant is:",
-    "translation": "시험 부품에 침투액이 도포되어 있는 시간을 정의하는 용어는?",
+    "source": "PTG-II(A)",
+    "question": "The term used to define the period of time in which the test part is covered with penetrant is:\n침투액의 도포 시간을 정의하는 용어는?",
     "options": [
-      "Waiting time",
-      "Soak time",
-      "Penetration time (Dwell time)",
-      "Bleed-in time"
+      "Waiting time\n대기시간",
+      "soak time (drain time)\n흡수 시간",
+      "Penetration time (dwell time)\n침투 시간",
+      "Bleed-in time\n염색 시간"
     ],
     "answer": 2
   },
@@ -196,14 +184,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "Which of the following surface conditions could have a detrimental affect on a liquid penetrant test?",
-    "translation": "다음 표면 조건 중 침투탐상시험에 악영향을 주는 것은?",
+    "source": "PTG-II(A)",
+    "question": "Which of the following surface conditions could have a detrimental affect on a liquid penetrant test?\n다음의 표면의 조건 중 침투 탐상 시험을 방해하는 것은?",
     "options": [
-      "A wet surface",
-      "A rough weld",
-      "An oily surface",
-      "All of the above"
+      "A wet surface\n젖은 표면",
+      "a rough weld\n거칠은 용접부",
+      "An oily surface\n기름이 붙은 표면",
+      "All of the above\n위의 모두"
     ],
     "answer": 0
   },
@@ -212,14 +199,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "Which of the following is the primary limitation of liquid penetrant testing?",
-    "translation": "침투탐상시험의 주요 제한사항은?",
+    "source": "PTG-II(A)",
+    "question": "Which of the following is the primary limitation of liquid penetrant testing?\n다음 중 침투 탐상 시험의 일차적인 한계는?",
     "options": [
-      "Penetrant testing cannot be used on ferromagnetic material",
-      "Penetrant testing cannot locate shallow surface discontinuities",
-      "Penetrant testing cannot be used on non-metallic surfaces",
-      "Penetrant testing cannot locate subsurface discontinuities"
+      "Penetrant testing cannot be used on ferromagnetic material\n (강자성 자재에는 사용할 수 없다.)",
+      "Penetrant testing cannot locate shallow surface discontinuities\n (입구가 큰 표면 불연속에는 실시 할 수 없다.)",
+      "Penetrant testing cannot be used on non-metallic surfaces\n (비금속 자재의 표면에는 사용할 수 없다.)",
+      "Penetrant testing cannot locate subsurface discontinuities\n (내부 불연속의 감지가 불가능하다.)"
     ],
     "answer": 3
   },
@@ -228,14 +214,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "The most common type of contamination found in fluorescent penetrant fluid is:",
-    "translation": "형광 침투액에서 가장 일반적으로 발생하는 오염은?",
+    "source": "PTG-II(A)",
+    "question": "The most common type of contamination found in fluorescent penetrant fluid is :\n형광 침투액에서 일어나는 가장 일반적인 오염 요인은?",
     "options": [
-      "Metal filings",
-      "Oil",
-      "Detergents from cleaning",
-      "Water"
+      "Metal filings\n금속 가루",
+      "Oil\n기름",
+      "Detergents (from cleaning)\n청정제",
+      "Water\n물"
     ],
     "answer": 3
   },
@@ -244,14 +229,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "Black light used for fluorescent penetrant inspection can cause permanent damage to:",
-    "translation": "형광 침투검사에 사용되는 흑광은 어느 부위에 영구적인 손상을 줄 수 있는가?",
+    "source": "PTG-II(A)",
+    "question": "Black light used for fluorescent penetrant inspection can cause permanent damage to :\n형광 침투 시험에 사용되는 흑광은 다음의 어느 부위에 영구적인 손상을 주는가?",
     "options": [
-      "Human tissues",
-      "Human eyes",
-      "Human blood cells",
-      "None of the above"
+      "Human tissues\n피부",
+      "Human eyes\n눈",
+      "Human blood cells\n혈액",
+      "None of the above\n해당 없음"
     ],
     "answer": 0
   },
@@ -260,14 +244,12 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "Which of the materials listed below is not normally tested by the liquid penetrant test method?",
-    "translation": "다음 재질 중 침투탐상시험으로 일반적으로 검사하지 않는 것은?",
+    "source": "PTG-II(A)",
+    "question": "Which of the materials listed below is not normally tested by the liquid penetrant test method?\n다음 재질중 침투 탐상 시험을 할 수 없는 것은?",
     "options": [
-      "Rubber",
-      "Aluminum",
-      "Glass",
-      "Copper"
+      "Rubber\n고무",
+      "aluminum\n알루미늄",
+      "Glass (유리) C. Copper\n구리"
     ],
     "answer": 2
   },
@@ -276,14 +258,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "When conducting a water washable liquid penetrant test, the developer is applied:",
-    "translation": "수세성 침투탐상시험에서 현상액은 언제 도포하는가?",
+    "source": "PTG-II(A)",
+    "question": "When conducting a water washable liquid penetrant test, the developer is applied :\n수성 침투 시험시 현상액은 언제 도포하는가?",
     "options": [
-      "Immediately after the penetrant has been applied",
-      "Immediately before the penetrant is applied",
-      "After removal of the penetrant",
-      "Before removal of the emulsifier"
+      "Immediately after the penetrant has been applied\n침투액 도포후 즉시",
+      "Immedicately before the penetrant is applied\n침투액 도포 바로 직전",
+      "After removal of the penetrant\n침투액 제거후",
+      "Before removal of the emulsifier\n유화제 제거전"
     ],
     "answer": 2
   },
@@ -292,14 +273,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "A black light lamp should not be used with a cracked filter or without the filter in place because of the harmful effects to the human eyes caused by ______ emitted from such a lamp.",
-    "translation": "흑광 램프를 깨진 필터 또는 필터 없이 사용하면 안 되는 이유는 램프에서 방출되는 무엇 때문인가?",
+    "source": "PTG-II(A)",
+    "question": "A black light lamp should not be used with a cracked filter or without the filter in place because of the harmful effects to the human eyes casued by ______ emitted from such a lamp.\n흑광은 금이간 필터나 필터 없이 사용하면 안된다. 왜냐하면 램프로부터 ______ 을 방출하여 눈에 해를 미치기 때문이다.",
     "options": [
-      "Black light",
-      "Ultraviolet light",
-      "Infrared light",
-      "None of the above"
+      "black light\n흑광",
+      "Ultraviolet light\n자외선",
+      "Infrared light\n적외선",
+      "None of the above\n해당 없음"
     ],
     "answer": 1
   },
@@ -308,14 +288,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "A continuous linear indication can be caused by which of the following discontinuities?",
-    "translation": "연속적인 선형 지시는 다음 중 어떤 불연속에 의해 발생하는가?",
+    "source": "PTG-II(A)",
+    "question": "A continuous linear indication can be caused by which of the following discontinuities?\n연속적인 선형표시는 다음 불연속중 어느 것에 의한 것인가?",
     "options": [
-      "Porosity",
-      "Slag inclusions",
-      "Pitting",
-      "Cracks"
+      "Porosity\n기공",
+      "Slag inclusions\n슬래그",
+      "Pitting\n구멍",
+      "Cracks\n크랙"
     ],
     "answer": 3
   },
@@ -324,14 +303,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "Which of the following is a criterion for a good dryer?",
-    "translation": "좋은 건조기의 기준은?",
+    "source": "PTG-II(A)",
+    "question": "Which of the following is a criterion for a good dryer?\n좋은 건조기의 표준은?",
     "options": [
-      "It has the ability to dry the surface slowly",
-      "It has the ability to heat the part to an optimum temperature in a minimum of time so that the part is both dry and warm as promptly as possible",
-      "It has electrical heating elements introduced into the inspection process",
-      "It is a warm air blast system"
+      "it has the ability to dry the surface slowly\n천천히 표면이 건조되는 능력",
+      "it has the anility to heat the part to an optimum temperature in a minimum of time so that the part is both dry and warm as promptly as possible\n가능한 빨리 제품을 최단시간에 건조시키고 따듯하도록 최적의 온도로 가열할 수 있는 능력",
+      "it has the electrical heating elements can be introduced into the inspection process\n (전기적 가열 소자는 검사절차에 소개될 수 있다)",
+      "it is a warm air blast system\n온풍 시스템"
     ],
     "answer": 1
   },
@@ -340,14 +318,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "If the surface temperature of the test part is excessively hot, the:",
-    "translation": "시험 부위 표면 온도가 지나치게 높으면?",
+    "source": "PTG-II(A)",
+    "question": "If the surface temperature of the test part is excessively hot, the:\n시험부위의 표면온도가 과도하게 뜨거우면?",
     "options": [
-      "Viscosity of the penetrant may be too high",
-      "Penetrant may lose some of its more volatile materials",
-      "Surface tension of the penetrant increases",
-      "Contact angle increases"
+      "viscosity of the penetrant may be too high\n침투제의 점도가 너무 높아진다",
+      "penetrant may lose some of its more volatile materials\n (침투제의 휘발성 재료 몇몇을 잃을 수 있다)",
+      "surface tension of the penetrant increase\n침투제의 표면장력이 증가된다",
+      "contact angle increases\n접촉 각을 증가된다"
     ],
     "answer": 1
   },
@@ -356,9 +333,8 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "The contrast ratio of a red dry penetrant to a white developer is normally about:",
-    "translation": "붉은 침투액과 흰색 현상액의 색 대비율은 일반적으로 얼마인가?",
+    "source": "PTG-II(A)",
+    "question": "The contrast ratio of a red dry penetrant to a white developer is normally about:\n붉은 건식 침투제와 흰색 현상제의 색 대비 율은 보통 얼마인가?",
     "options": [
       "33 to 1",
       "6 to 1",
@@ -372,14 +348,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "A deep crater crack will frequently appear as a:",
-    "translation": "깊은 크레이터 균열은 자주 어떻게 나타나는가?",
+    "source": "PTG-II(A)",
+    "question": "A deep crater crack will frequently appear as a:\n깊은 크레이터 균열은 어떻게 종종 나타나는가?",
     "options": [
-      "Small tight crack",
-      "Rounded indication",
-      "Fine linear indication",
-      "Faint intermittent line"
+      "small tight crack\n작고 tight한 크랙",
+      "rounded indication\n둥근 지시",
+      "fine liner indication\n미세한 선형 지시",
+      "faint intermittent line\n희미한 간헐적인 선"
     ],
     "answer": 1
   },
@@ -388,14 +363,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "Which of the following techniques has been found to be effective for aiding penetration in certain instances in commercial application?",
-    "translation": "상업적 적용에서 침투를 돕는 효과적인 방법은?",
+    "source": "PTG-II(A)",
+    "question": "Which of the following techniques has been found to be effective for aiding penetration in certain instances in commercial application?\n다음 목록중 효과적인 침투를 더해 주기 위해 상업적 적용의 실 예는?",
     "options": [
-      "Heating the penetrant",
-      "Ultrasonic pumping",
-      "Vacuum and pressure",
-      "Vibration"
+      "heating the penetrant\n침투제 가열",
+      "ultrasonic pumping\n초음파 펌프",
+      "vacuum and pressure\n진공과 압력",
+      "vibration\n진동"
     ],
     "answer": 3
   },
@@ -404,14 +378,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "Which of the following is most likely to render the post-emulsification test ineffective?",
-    "translation": "후유화성 침투시험을 효과 없게 만드는 것은?",
+    "source": "PTG-II(A)",
+    "question": "Which of the following is most likely to render the post-emulsification test ineffective?\n후유화 시험의 효과가 없게 하는 것은?",
     "options": [
-      "The penetrant time is too long",
-      "The developing time is too long",
-      "The emulsifying time is too long",
-      "None of the above"
+      "the penetrant time is too long\n침투시간이 너무 김",
+      "the developing time is too long\n현상시간이 너무 김",
+      "the emulsifying time is too long\n유화시간이 너무 김",
+      "none of the above\n위 모두 아님"
     ],
     "answer": 2
   },
@@ -420,14 +393,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "Dry developer should be applied:",
-    "translation": "건식 현상제는 어떻게 적용해야 하는가?",
+    "source": "PTG-II(A)",
+    "question": "Dry developer should be applied:\n건식 현상제의 적용은?",
     "options": [
-      "So that a heavy coat of developer covers all surfaces",
-      "So that a light dusting covers all surfaces to be inspected",
-      "With a dry paint brush",
-      "By dipping"
+      "so that a heavy coat of developer cover all surfaces\n모든 표면에 현상제를 두껍게 도포",
+      "so that a light dusting covers all surfaces to be inspected\n (모든 표면을 면밀히 조사할 수 있게 엷게 가루를 도포)",
+      "with a dry paint brush\n마른 붓을 사용",
+      "by dipping\n담궈서"
     ],
     "answer": 1
   },
@@ -436,14 +408,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "When removing penetrant from the surface by spray water wash, penetrant in a crack would be harder to remove if it has:",
-    "translation": "물 분사 세척으로 침투액을 제거할 때 균열 내부 침투액이 제거되기 어려운 조건은?",
+    "source": "PTG-II(A)",
+    "question": "When removing penetrant from the surface by spray water wash, penetrant in a crack would be harder to remove if it has:\n물 분사 세척으로 표면의 침투액을 제거할 때, crack에 있는 침투액이 제거되기 어려운 것은?",
     "options": [
-      "Low viscosity",
-      "High viscosity",
-      "Medium viscosity",
-      "Viscosity is not important"
+      "low viscosity\n낮은 점성",
+      "high viscosity\n높은 점성",
+      "medium viscosity\n중간 점성",
+      "viscosity is not important\n점성은 중요치 않음"
     ],
     "answer": 1
   },
@@ -452,14 +423,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "Filters for black lights effectively remove:",
-    "translation": "흑광 필터가 효과적으로 제거하는 것은?",
+    "source": "PTG-II(A)",
+    "question": "Filters for black lights effectively remove:\nblack light 필터가 효과적으로 제거하는 것은?",
     "options": [
-      "Natural white light",
-      "Radiation of a wavelength above 300nm units",
-      "Visible light from the energy given off by the mercury arc",
-      "Fluorescence from the penetrant"
+      "natural while light\n자연백색광",
+      "radiation of a wavelength above 300nm(3000Å) units\n파장이 300nm이상의 복사열",
+      "visible light from the energy given off by the mercury arc\n (수은등 아크에서 발산되는 열 에너지로 부터의 가시광선)",
+      "fluorescence from the penetrant\n침투액으로 부터의 형광"
     ],
     "answer": 2
   },
@@ -468,14 +438,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "When utilizing the fluorescent post-emulsifiable penetrant method and performing the rinse cycle, which of the following will prevent over-rinsing?",
-    "translation": "형광 후유화 침투법에서 세척 과정 중 과세척을 방지하는 방법은?",
+    "source": "PTG-II(A)",
+    "question": "When utilizing the fluorescent post-emulsifiable penetrant method and performing the rinse cycle, which of the following will prevent over-rinsing?\n형광 후유화 침투 방법을 이용하여 씻어내는 작업을 수행할 때, 다음 어느 것이 과세척을 막을 수 있나?",
     "options": [
-      "Rinse before the penetrant is completely emulsified",
-      "Rinse after the penetrant is completely emulsified",
-      "Discontinue the rinse as soon as the surface penetrant is removed from the part",
-      "Rinse only with water hotter than 43℃"
+      "rinse before the penetrant is completely emulsified\n침투 전에 세척은 완전히 유화 된다.",
+      "rinse after the penetrant is completely emulsified\n침투 후에 세척은 완전히 유화 된다.",
+      "discontinue the rinse as soon as the surface penetrant is removed from the part\n (부품의 표면 침투 액이 제거 되자마자 그만둔다)",
+      "rinse only with water hotter than 43℃(110℉)\n세척은 43℃이상 뜨거운 물로"
     ],
     "answer": 2
   },
@@ -484,14 +453,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "Which of the following discontinuities could be classified as a servicing discontinuity?",
-    "translation": "다음 중 가동 중 결함으로 분류할 수 있는 것은?",
+    "source": "PTG-II(A)",
+    "question": "Which of the following discontinuities could be classified as a servicing discontinuity?\n다음의 불연속 중에서 가동중의 결함으로 분류 할 수 있는 것은?",
     "options": [
-      "Fatigue crack",
-      "Porosity",
-      "Machining tear",
-      "Lap"
+      "Fatigue crack\n피로 균열",
+      "Porosity\n기공",
+      "Machining tear\n기계 가공 균열",
+      "Lap\n랩"
     ],
     "answer": 0
   },
@@ -500,14 +468,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "Which of the following are typical of foreign matter which might block the openings of discontinuities if the surface of a test specimen is not cleaned properly?",
-    "translation": "시험편 표면이 적절히 세척되지 않았을 때 불연속 입구를 막을 수 있는 외부 물질은?",
+    "source": "PTG-II(A)",
+    "question": "Which of the following are typical of foreign matter which might block the openings of discontinuities if the surface of a test specimen is not cleaned properly?\n다음 중 불연속의 입구를 막을지도 모르는 외부물질은?",
     "options": [
-      "Water",
-      "Carbon",
-      "Oxide",
-      "All of the above"
+      "Water\n물",
+      "Carbon\n탄소",
+      "Oxide\n산",
+      "All of the above\n위의 모두"
     ],
     "answer": 3
   },
@@ -516,14 +483,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "When conducting a visible dye penetrant test for gross voids, where discontinuity indications will be large, the brightness level of the white light on the part in the inspection area should not be less than:",
-    "translation": "큰 불연속 지시를 확인하는 육안 염색 침투검사에서 검사 구역의 백색광 밝기는 최소 얼마 이상이어야 하는가?",
+    "source": "PTG-II(A)",
+    "question": "When conducting a visible dye penetrant test for gross voids, where discontinuity indications will be large, the brightness level of the white light on the part in the inspection area should not be less than:\n불연속의 지시가 큰 경우, 검사시의 일광의 밝기는 다음의 어느 것보다 적어서는 안 되는가?",
     "options": [
-      "3 to 5 foot candles",
-      "10 to 20 foot candles",
-      "30 to 50 foot candles",
-      "70 to 100 foot candles"
+      "3 to 5 foot candles\n32-53 룩스",
+      "10 to 20 foot candles\n107-215 룩스",
+      "30 to 50 foot candles\n323-530 룩스",
+      "70 to 100 foot candles\n754-1077 룩스"
     ],
     "answer": 2
   },
@@ -532,9 +498,8 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "If a penetrant test is to be conducted using visible dye penetrant in pressurized spray cans, the temperature of the test area should not be lower than:",
-    "translation": "가압 스프레이 캔을 이용한 육안 염색 침투시험 시 시험 부위 온도는 얼마보다 낮으면 안 되는가?",
+    "source": "PTG-II(A)",
+    "question": "If a penetrant test is to be conducted using visible dye penetrant in pressurized spray cans, the temperature of the test area should not be lower than:\n육안 염색 침투액을 사용하여 시험할 때 시험 부위의 온도는 얼마보다 적지 않아야 하는가?",
     "options": [
       "125°F (52℃)",
       "50°F (10℃)",
@@ -548,14 +513,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "Which of the following is not a form in which penetrant developer is commonly available?",
-    "translation": "다음 중 일반적으로 사용되는 현상액 형태가 아닌 것은?",
+    "source": "PTG-II(A)",
+    "question": "Which of the following is not a form in which penetrant developer is commonly available?\n다음 중에서 일반적으로 사용되는 현상액이 아닌 것은?",
     "options": [
-      "Dry developer",
-      "Non-aqueous developer",
-      "Wet developer",
-      "High viscosity developer"
+      "Dry developer\n건식 현상액",
+      "Non-aqueous developer\n유성 현상액",
+      "Wet developer\n습식 현상액",
+      "High viscosity developer\n높은 점성의 현상액"
     ],
     "answer": 3
   },
@@ -564,14 +528,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "Which of the following is a possible cause for false penetrant indications?",
-    "translation": "다음 중 잘못된 침투 지시를 발생시키는 원인은?",
+    "source": "PTG-II(A)",
+    "question": "Which of the following is a possible cause for false penetrant indications?\n다음 중 그릇된 지시를 유발할 가능성이 있는 것은?",
     "options": [
-      "Excessive washing",
-      "Inadequate application of developers",
-      "Penetrant or part too cold during penetration time",
-      "Lint or dirt"
+      "Excessive washing\n과도한 세척",
+      "Inadequate application of developers\n현상액의 부적절한 도포",
+      "Penetrant or part too cold during penetration time \n (침투 시간동안 너무 차가운 침투액이나 부품)",
+      "Lint or dirt\n린트나 먼지"
     ],
     "answer": 3
   },
@@ -580,14 +543,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "Which of the following is the best reason why excessive drying of a part is not desirable?",
-    "translation": "제품을 과도하게 건조시키면 안 되는 가장 좋은 이유는?",
+    "source": "PTG-II(A)",
+    "question": "Which of the following is the best reason why excessive drying of a part is not described?\n다음 중 제품의 과도한 건조를 하지 말라는 것에 대한 가장 좋은 이유는?",
     "options": [
-      "The extra time required is wasted",
-      "The developer may lose its blotting ability",
-      "The penetrant may lose its sensitivity",
-      "The excess penetrant may be difficult to remove"
+      "The extra time required is wasted\n쓸데없이 시간을 낭비하게 된다",
+      "The developer may lose its blotting ability\n현상액이 번지는 성질을 상실할지도 모른다.",
+      "The penetrant may lose its sensitivity\n침투액이 감도를 상실할지도 모른다",
+      "The excess penetrant may be difficult to remove \n (과도한 침투액을 제거하기 어려울지도 모른다.)"
     ],
     "answer": 2
   },
@@ -596,14 +558,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "Developer time depends on the:",
-    "translation": "현상 시간은 무엇에 의존하는가?",
+    "source": "PTG-II(A)",
+    "question": "Developer time depends on the :\n현상 시간은 다음의 어디에 의존하는가?",
     "options": [
-      "Type of precleaner used",
-      "Type of developer used and type of discontinuity to be detected",
-      "Temper of the material being tested",
-      "All of the above"
+      "Type of precleaner used\n사용된 세척제의 타입",
+      "Type of developer used and type of discontinuity to be detected\n (사용된 현상제의 타입과 검출할 불연속의 형태)",
+      "Temper of the material being tested\n시험되는 자재의 성질",
+      "All of the above\n위의 모두"
     ],
     "answer": 3
   },
@@ -612,14 +573,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "Which of the following discontinuities are not normally found by the penetrant test method?",
-    "translation": "다음 불연속 중 침투탐상시험으로 일반적으로 검출하지 않는 것은?",
+    "source": "PTG-II(A)",
+    "question": "Which of the following discontinuities are not normally found by the penetrant test method?\n다음의 불연속중 보통 침투탐상 시험법으로 찾지 않는 것은?",
     "options": [
-      "Surface porosity",
-      "Surface cracks",
-      "Lamination",
-      "Leaks in metal tubing"
+      "Surface porosity\n표면 기공",
+      "Surface cracks\n표면 균열",
+      "Lamination\n라미네이션",
+      "Leaks in metal tubing\n금속튜브의 누설"
     ],
     "answer": 2
   },
@@ -628,14 +588,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - A",
-    "question": "Which of the following is information an inspector needs to have for proper interpretation of penetrant indications?",
-    "translation": "침투탐상 지시를 적절히 해석하기 위해 검사원이 알아야 하는 정보는?",
+    "source": "PTG-II(A)",
+    "question": "Which of the following is information an inspector needs to have for proper interpretation of penetrant indications?\n다음 중 침투탐상 시험 지시의 적절한 해석을 위해 검사원이 알아야 할 정보는?",
     "options": [
-      "Previous manufacturing processes performed on the part",
-      "Technique used in applying and removing the penetrant",
-      "Method used to clean part prior to inspection",
-      "All of the above"
+      "Previous manufacturing processes performed on the part\n (제품에 사용된 그 이전의 제작 공정)",
+      "Technique used in applying and removing the penetrant\n (침투액 도포 및 제거에 사용된 기술)",
+      "Method used to clean part prior to inspection \n (검사전에 제품을 세척하는데 사용된 방법)",
+      "All of the above (위의 모두)\n \n GENERAL(A-TYPE)\n \n문제\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n해답\nC\nD\nB\nB\nD\nB\nC\nA\nD\nA\n문제\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n해답\nC\nC\nA\nD\nD\nA\nC\nC\nB\nD\n문제\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n해답\nB\nB\nB\nB\nD\nC\nB\nB\nC\nC\n문제\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n해답\nA\nD\nC\nB\nD\nD\nC\nD\nC\nD"
     ],
     "answer": 3
   },
@@ -644,14 +603,13 @@
     "level": "Level II",
     "method": "PT",
     "category": "General",
-    "subject": "PT General - II - B",
-    "question": "Which of the following is a major advantage of fluorescent penetrant inspection over visible dye penetrant inspection?",
-    "translation": "형광 침투탐상검사가 육안 염색 침투탐상검사보다 가지는 주요 장점은?",
+    "source": "PTG-II(B)",
+    "question": "The contrast ratio of a red dry penetrant to a white developer is normally about:\n붉은 건식 침투제와 흰색 현상제의 색 대비 율은 보통 얼마인가?",
     "options": [
-      "It requires less surface preparation",
-      "It provides greater sensitivity",
-      "It can detect subsurface defects",
-      "It does not require a developer"
+      "33 to 1",
+      "6 to 1",
+      "9 to 1",
+      "23 to 1"
     ],
     "answer": 1
   }
