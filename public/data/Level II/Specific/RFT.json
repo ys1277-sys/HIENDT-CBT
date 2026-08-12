@@ -1,260 +1,323 @@
-{
-  "subject": "RFT",
-  "level": "Level II",
-  "category": "Specific",
-  "type": "B",
-  "questions": [
-    {
-      "id": 1,
-      "question": "Nonmetallic solid material entrapped in weld metal or between weld metal and base metal is called.",
-      "korean": "용접금속이나 용접금속과 모재금속 사이에 비금속 고체 물질이 갇혀있는 것을 무엇이라 하는가?",
-      "options": [
-        "Slag",
-        "Porosity",
-        "Lamination",
-        "Undercut"
-      ],
-      "answer": 0,
-      "answer_text_original": "Slag"
-    },
-    {
-      "id": 2,
-      "question": "Large porosity, pipe and nonmetallic inclusions in slabs or billets are flattened and spread out during the rolling and forging processes. This discontinuity is called.",
-      "korean": "긴 기포로, 압연이나 단조 공정 중 철판이나 빌렛 속의 파이프와 비금속 개재물이 평평해지고 넓혀지게 된 불연속을 무엇이라 하는가?",
-      "options": [
-        "Slag inclusion",
-        "Lamination",
-        "Cold shut",
-        "Hot tear"
-      ],
-      "answer": 1,
-      "answer_text_original": "Lamination"
-    },
-    {
-      "id": 3,
-      "question": "What kind of corrosion is a form of extremely localized corrosion that leads to the creation of small holes in the metal?",
-      "korean": "국부부식의 일종으로 금속에 작은 구멍을 생성하는 형태의 부식은?",
-      "options": [
-        "Wear",
-        "Dent",
-        "Pitting",
-        "Erosion"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 4,
-      "question": "The critical service-generated defects are:",
-      "korean": "가혹한 운전조건에서 생성되는 결함은?",
-      "options": [
-        "Undercuts",
-        "Fatigue cracks",
-        "Inadequate penetration",
-        "Forging laps"
-      ],
-      "answer": 1
-    },
-    {
-      "id": 5,
-      "question": "What kind of Level step is:",
-      "korean": "Level의 단계는?",
-      "options": [
-        "1step",
-        "2step",
-        "3step",
-        "4step"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 6,
-      "question": "Who shall be evaluation of 'continuing satisfactory performances record'?",
-      "korean": "연속적인 만족스러운 수행 기록의 평가는 누가 하는가?",
-      "options": [
-        "Level I",
-        "Level II",
-        "Level III",
-        "The customer"
-      ],
-      "answer": 2,
-      "answer_text_original": "Level III"
-    },
-    {
-      "id": 7,
-      "question": "For RFT Level II, minimum number of questions of general & specific examination is:",
-      "korean": "RFT Level II 일반 및 전문 시험의 최소 문항 수는?",
-      "options": [
-        "General: 30 / Specific: 15",
-        "General: 40 / Specific: 20",
-        "General: 40 / Specific: 30",
-        "General: 50 / Specific: 25"
-      ],
-      "answer": 1,
-      "answer_text_original": "General: 40 / Specific: 20"
-    },
-    {
-      "id": 8,
-      "question": "What kind of vision test?",
-      "korean": "시력 검사의 종류는 무엇인가?",
-      "options": [
-        "Near vision acuity only",
-        "Near vision acuity and color vision",
-        "Near vision acuity, color vision, shade of gray",
-        "Far vision acuity and color vision"
-      ],
-      "answer": 2,
-      "answer_text_original": "Near vision acuity, Color vision, Shade of gray"
-    },
-    {
-      "id": 9,
-      "question": "According to ASME Sec. V Art.17, what kinds of items should be included for the installed ferromagnetic heat exchanger tubing RFT written procedure?",
-      "korean": "ASME Sec.V Art.17에 따라 자성체 열교환기 튜브 RFT 절차서에 기록되어야 하는 항목은?",
-      "options": [
-        "Tube material, size and grade",
-        "Probe type",
-        "Both A and B above",
-        "Neither A nor B"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 10,
-      "question": "In ASME Sec. V Art.17, what is not required capable item in RFT equipment?",
-      "korean": "ASME Sec.V Art.17에서 RFT 장비에 필요한 성능이 아닌 것은?",
-      "options": [
-        "Capable of operating in absolute or differential mode",
-        "A format suitable for evaluation and archival storage",
-        "Displaying signals shall be on a Voltage Plane",
-        "Can be set to three or more multi-channel frequency"
-      ],
-      "answer": 3
-    },
-    {
-      "id": 11,
-      "question": "In the ASME Sec. V Art.17, what kind of discontinuities in pit reference tube?",
-      "korean": "ASME Sec.V Art.17에서 대비 튜브의 pit reference tube 불연속 종류는?",
-      "options": [
-        "100% through hole",
-        "50% flat bottom hole of tube wall from the OD",
-        "20° circumferential groove of tube wall from the OD",
-        "Both A & B",
-        "All of the above"
-      ],
-      "answer": 3
-    },
-    {
-      "id": 12,
-      "question": "In ASME Sec. V Art.17, How much set the phase angle for through hole of reference tube on system setting and calibration?",
-      "korean": "ASME Sec.V Art.17 시스템 설정 및 교정 시 대비시편 관통홀의 위상각은 얼마로 설정하는가?",
-      "options": [
-        "40°",
-        "90°",
-        "180°",
-        "0°"
-      ],
-      "answer": 1
-    },
-    {
-      "id": 13,
-      "question": "How much the minimum fill factor by the procedure HIE-NDT-ET-P11?",
-      "korean": "HIE-NDT-ET-P11 절차서에서 최소 충진율은?",
-      "options": [
-        "Minimum 65%",
-        "Minimum 70%",
-        "Minimum 75%",
-        "Minimum 80%"
-      ],
-      "answer": 2,
-      "answer_text_original": "Minimum 75%"
-    },
-    {
-      "id": 14,
-      "question": "Describe NDE personnel requirements in accordance with the procedure HIE-NDT-ET-P11.",
-      "korean": "HIE-NDT-ET-P11 절차서에 따른 NDE 요원 요구사항이 기술된 문서는?",
-      "options": [
-        "HIE-QP-E01",
-        "HIE-NDT-ET-P11",
-        "SNT-TC-1A",
-        "CP-189"
-      ],
-      "answer": 0,
-      "answer_text_original": "HIE-QP-E01"
-    },
-    {
-      "id": 15,
-      "question": "In the procedure HIE-NDT-ET-P11, what is the nominal probe speed during examination?",
-      "korean": "HIE-NDT-ET-P11 절차서에서 시험 중 일반적인 프로브 속도는?",
-      "options": [
-        "50 ~ 250 mm/sec",
-        "100 ~ 500 mm/sec",
-        "200 ~ 700 mm/sec",
-        "300 ~ 1000 mm/sec"
-      ],
-      "answer": 1,
-      "answer_text_original": "100 ~ 500 mm/sec"
-    },
-    {
-      "id": 16,
-      "question": "In ASME Sec. V Art.17, How much set the phase angle for support plate of reference tube on system setting and calibration?",
-      "korean": "ASME Sec.V Art.17 시스템 설정 및 교정 시 튜브 지지판 대비 위상각은 얼마로 설정하는가?",
-      "options": [
-        "40°",
-        "90°",
-        "180°",
-        "0°"
-      ],
-      "answer": 3
-    },
-    {
-      "id": 17,
-      "question": "In ASME Sec. V Art.17, What is not necessarily requirements to be included in the test report?",
-      "korean": "ASME Sec.V Art.17 검사 보고서에 반드시 포함되어야 하는 사항이 아닌 것은?",
-      "options": [
-        "Owner, location, type, serial number, and identification of component examined",
-        "Size, wall thickness, material type, and configuration of installed tubes",
-        "Tube numbering system",
-        "Certificate level and certificate issue date of inspector"
-      ],
-      "answer": 3
-    },
-    {
-      "id": 18,
-      "question": "Separate each signal in the following voltage plane display (ASME Sec.V Art.17 Fig. T-1763.1(b)).",
-      "korean": "다음 Voltage Plane Display에서 각 신호를 구분하시오.",
-      "options": [
-        "20% groove / Through hole / TSP",
-        "Through hole / TSP / 20% groove",
-        "TSP / 20% groove / Through hole",
-        "20% groove / TSP / Through hole"
-      ],
-      "answer": 0
-    },
-    {
-      "id": 19,
-      "question": "The following figure shows the structure of a typical RFT probe. Fill in the blanks.",
-      "korean": "일반적인 RFT 탐촉자의 구성에서 빈 칸을 채우시오.",
-      "options": [
-        "a) Exciter coil / b) Detector coil",
-        "a) Detector coil / b) Exciter coil",
-        "a) Primary coil / b) Shield coil",
-        "a) Drive coil / b) Reference coil"
-      ],
-      "answer": 0,
-      "answer_text_original": "a) Exciter coil / b) Detector coil",
-      "image": "RFT_SPECIFIC_Q19.svg"
-    },
-    {
-      "id": 20,
-      "question": "What is the name of the equipment and software used for the RFT in our company?",
-      "korean": "우리 회사에서 RFT 검사에 사용되는 장비와 소프트웨어의 이름은 무엇인가?",
-      "options": [
-        "MS-5800-E / Magnifi",
-        "MS-5800-R / Multi-View",
-        "OmniScan MX / TomoView",
-        "Nortec 600 / ES Beam"
-      ],
-      "answer": 1,
-      "answer_text_original": "MS-5800-R / Multi-View"
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "level": "Level II",
+    "method": "RFT",
+    "category": "Specific",
+    "source": "RFTS-II.hwp",
+    "question": "Nonmetallic solid material entrapped in weld metal or between weld metal and base metal is called\n용접금속이나 용접금속과 모재금속 사이에 비금속 고체 물질이 갇혀있는 것을 무엇이라 하는가?",
+    "options": [
+      "Slag\n슬래그",
+      "Porosity\n기공",
+      "Lamination\n라미네이션",
+      "Undercut\n언더컷"
+    ],
+    "answer": 0,
+    "groupNote": "※ Answers to questions 1 through 4 for the materials.\n(1번부터 4번까지는 재질에 관한 문제로 답하시오.)"
+  },
+  {
+    "id": 2,
+    "level": "Level II",
+    "method": "RFT",
+    "category": "Specific",
+    "source": "RFTS-II.hwp",
+    "question": "Large porosity, pipe and nonmetallic inclusions in slabs or billets are flattened and spread out during the rolling and forging processes. This discontinuity is called\n긴 기포로, 압연이나 단조 공정 중에 철판이나 빌렛 속에서 파이프와 비금속 개재물이 평평해지고 넓혀지게 된 것, 이 불연속을 무엇이라 하는가?",
+    "options": [
+      "Slag inclusion\n슬래그 개재물",
+      "Lamination\n라미네이션",
+      "Cold shut\n냉간 접힘",
+      "Hot tear\n열간 균열"
+    ],
+    "answer": 1,
+    "groupNote": "※ Answers to questions 1 through 4 for the materials.\n(1번부터 4번까지는 재질에 관한 문제로 답하시오.)"
+  },
+  {
+    "id": 3,
+    "level": "Level II",
+    "method": "RFT",
+    "category": "Specific",
+    "source": "RFTS-II.hwp",
+    "question": "What kind of corrosion is a form of extremely localized corrosion that leads to the creation of small holes in the metal?\n국부부식의 일종으로 부식이 착공성 또는 소공상태로 진행하는 현상을 무엇이라 하는가?",
+    "options": [
+      "Wear\n마식",
+      "Dent\n찌그러짐",
+      "Pitting\n공식",
+      "Erosion\n침식"
+    ],
+    "answer": 2,
+    "groupNote": "※ Answers to questions 1 through 4 for the materials.\n(1번부터 4번까지는 재질에 관한 문제로 답하시오.)"
+  },
+  {
+    "id": 4,
+    "level": "Level II",
+    "method": "RFT",
+    "category": "Specific",
+    "source": "RFTS-II.hwp",
+    "question": "The critical service-generated defects are :\n가혹한 운전조건에서 생성되는 결함은?",
+    "options": [
+      "Undercuts\n언더컷",
+      "Fatigue cracks\n피로 균열",
+      "Inadequate penetration\n용입 부족",
+      "Forging laps\n단조 겹침"
+    ],
+    "answer": 1,
+    "groupNote": "※ Answers to questions 1 through 4 for the materials.\n(1번부터 4번까지는 재질에 관한 문제로 답하시오.)"
+  },
+  {
+    "id": 5,
+    "level": "Level II",
+    "method": "RFT",
+    "category": "Specific",
+    "source": "RFTS-II.hwp",
+    "question": "What kind of Level step is :\nLevel의 단계는?",
+    "options": [
+      "1step\n1단계",
+      "2step\n2단계",
+      "3step\n3단계",
+      "4step\n4단계"
+    ],
+    "answer": 2,
+    "groupNote": "* Answers to questions 5 through 8 may use the supplement QM Procedure (HIE-QP-E01)\n(5번부터 8번까지 품질경영 절차서 중 HIE-QP-E01에 관한 질문이다.)"
+  },
+  {
+    "id": 6,
+    "level": "Level II",
+    "method": "RFT",
+    "category": "Specific",
+    "source": "RFTS-II.hwp",
+    "question": "Who shall be evaluation of \"continuing satisfactory performances record\"?\n\"연속적인 만족스런 수행 기록\"의 평가는 누가 하는가?",
+    "options": [
+      "Level I",
+      "Level II",
+      "Level III",
+      "The customer\n발주처"
+    ],
+    "answer": 2,
+    "groupNote": "* Answers to questions 5 through 8 may use the supplement QM Procedure (HIE-QP-E01)\n(5번부터 8번까지 품질경영 절차서 중 HIE-QP-E01에 관한 질문이다.)"
+  },
+  {
+    "id": 7,
+    "level": "Level II",
+    "method": "RFT",
+    "category": "Specific",
+    "source": "RFTS-II.hwp",
+    "question": "For RFT Level II, minimum number of questions of general & specific examination is :\nRFT Level II에 대해, 일반 및 전문 시험의 최소 문항 수는?",
+    "options": [
+      "general : 30, specific : 15",
+      "general : 40, specific : 20",
+      "general : 40, specific : 30",
+      "general : 50, specific : 25"
+    ],
+    "answer": 1,
+    "groupNote": "* Answers to questions 5 through 8 may use the supplement QM Procedure (HIE-QP-E01)\n(5번부터 8번까지 품질경영 절차서 중 HIE-QP-E01에 관한 질문이다.)"
+  },
+  {
+    "id": 8,
+    "level": "Level II",
+    "method": "RFT",
+    "category": "Specific",
+    "source": "RFTS-II.hwp",
+    "question": "What kind of vision test?\n시력 검사의 종류는 무엇인가?",
+    "options": [
+      "Near vision acuity only\n근거리시력만",
+      "Near vision acuity, Color vision\n근거리시력, 색맹",
+      "Near vision acuity, Color vision, shade of gray\n근거리시력, 색맹, 회색음영 구분",
+      "Far vision acuity, Color vision\n원거리시력, 색맹"
+    ],
+    "answer": 2,
+    "groupNote": "* Answers to questions 5 through 8 may use the supplement QM Procedure (HIE-QP-E01)\n(5번부터 8번까지 품질경영 절차서 중 HIE-QP-E01에 관한 질문이다.)"
+  },
+  {
+    "id": 9,
+    "level": "Level II",
+    "method": "RFT",
+    "category": "Specific",
+    "source": "RFTS-II.hwp",
+    "question": "According to the ASME Sec. V, Art.17, what kinds of items should be included for the installed ferromagnetic heat exchanger tubing RFT written procedure?\nASME Sec. V, Art.17에 의거, 자성체 열교환기 튜브 원격장 시험의 절차서에 기록되어야 하는 항목의 종류는?",
+    "options": [
+      "tube material, size and grade\n튜브 재질, 크기 및 등급",
+      "probe type\n탐촉자 형태",
+      "both 1 and 2 above\n위의 1, 2 모두",
+      "neither 1 nor 2\n위 1, 2 모두 아님"
+    ],
+    "answer": 2,
+    "groupNote": "※ The following questions (9-17) refer to HIE procedure, HIE-NDT-ET-P11(Rev.2) for Remote Field Test of heat exchanger tube in accordance with ASME Sec. V Code, 2023 Edition.\n(문제 9-17은 ASME Sec. V 규격 2023 Edition에 따른 열교환기 튜브의 원격장 시험 절차서 HIE-NDT-ET-P11(Rev.2)에 관한 것이다.)"
+  },
+  {
+    "id": 10,
+    "level": "Level II",
+    "method": "RFT",
+    "category": "Specific",
+    "source": "RFTS-II.hwp",
+    "question": "In the ASME Sec. V, Art. 17, what is not a required capability in RFT equipment?\nASME Sec. V, Art.17에서, RFT 장비에 필요한 성능이 아닌 것은?",
+    "options": [
+      "capable of operating in the absolute or differential mode\n절대모드 또는 차동모드에서 운용 능력",
+      "a format suitable for evaluation and archival storage\n데이터 평가 및 저장에 적절한 형태로 기록하는 장치",
+      "displaying signals shall be on a Voltage Plane\n신호 표시는 전압평면으로 해야 한다",
+      "can be set to three or more multi-channel frequency\n3채널 이상의 다중주파수 설정 가능"
+    ],
+    "answer": 3,
+    "groupNote": "※ The following questions (9-17) refer to HIE procedure, HIE-NDT-ET-P11(Rev.2) for Remote Field Test of heat exchanger tube in accordance with ASME Sec. V Code, 2023 Edition.\n(문제 9-17은 ASME Sec. V 규격 2023 Edition에 따른 열교환기 튜브의 원격장 시험 절차서 HIE-NDT-ET-P11(Rev.2)에 관한 것이다.)"
+  },
+  {
+    "id": 11,
+    "level": "Level II",
+    "method": "RFT",
+    "category": "Specific",
+    "source": "RFTS-II.hwp",
+    "question": "In the ASME Sec. V, Art.17, what kind of discontinuities in pit reference tube?\nASME Sec. V, Art.17에서, 대비시편 튜브의 불연속 종류는?",
+    "options": [
+      "100% through hole\n100% 관통 구멍",
+      "50% flat bottom hole of tube wall from the OD\n외경으로부터 튜브 두께의 50%에 해당하는 평저공",
+      "20% circumferential groove of tube wall from the OD\n외경으로부터 튜브 두께의 20%의 원주가공 홈",
+      "Both 1 & 2\n1과 2",
+      "all of the above\n위의 것 모두"
+    ],
+    "answer": 3,
+    "groupNote": "※ The following questions (9-17) refer to HIE procedure, HIE-NDT-ET-P11(Rev.2) for Remote Field Test of heat exchanger tube in accordance with ASME Sec. V Code, 2023 Edition.\n(문제 9-17은 ASME Sec. V 규격 2023 Edition에 따른 열교환기 튜브의 원격장 시험 절차서 HIE-NDT-ET-P11(Rev.2)에 관한 것이다.)"
+  },
+  {
+    "id": 12,
+    "level": "Level II",
+    "method": "RFT",
+    "category": "Specific",
+    "source": "RFTS-II.hwp",
+    "question": "In the ASME Sec. V, Art. 17, how much set the phase angle for through hole of reference tube on system setting and calibration?\n시스템 설정 및 교정 시 대비시편의 관통홀에 대한 위상각은 얼마로 설정하는가?",
+    "options": [
+      "40°",
+      "90°",
+      "180°",
+      "0°"
+    ],
+    "answer": 1,
+    "groupNote": "※ The following questions (9-17) refer to HIE procedure, HIE-NDT-ET-P11(Rev.2) for Remote Field Test of heat exchanger tube in accordance with ASME Sec. V Code, 2023 Edition.\n(문제 9-17은 ASME Sec. V 규격 2023 Edition에 따른 열교환기 튜브의 원격장 시험 절차서 HIE-NDT-ET-P11(Rev.2)에 관한 것이다.)"
+  },
+  {
+    "id": 13,
+    "level": "Level II",
+    "method": "RFT",
+    "category": "Specific",
+    "source": "RFTS-II.hwp",
+    "question": "How much the minimum fill factor by the procedure HIE-NDT-ET-P11?\n절차서 HIE-NDT-ET-P11에서 최소 충진율은?",
+    "options": [
+      "minimum 65%",
+      "minimum 70%",
+      "minimum 75%",
+      "minimum 80%"
+    ],
+    "answer": 2,
+    "groupNote": "※ The following questions (9-17) refer to HIE procedure, HIE-NDT-ET-P11(Rev.2) for Remote Field Test of heat exchanger tube in accordance with ASME Sec. V Code, 2023 Edition.\n(문제 9-17은 ASME Sec. V 규격 2023 Edition에 따른 열교환기 튜브의 원격장 시험 절차서 HIE-NDT-ET-P11(Rev.2)에 관한 것이다.)"
+  },
+  {
+    "id": 14,
+    "level": "Level II",
+    "method": "RFT",
+    "category": "Specific",
+    "source": "RFTS-II.hwp",
+    "question": "In accordance with the procedure HIE-NDT-ET-P11, NDE personnel shall be qualified in accordance with :\n절차서 HIE-NDT-ET-P11에 의거 NDE 요원의 요구사항이 기술된 문서는?",
+    "options": [
+      "HIE-QP-E01",
+      "HIE-NDT-ET-P11",
+      "SNT-TC-1A",
+      "ASME Sec. V, Art.17"
+    ],
+    "answer": 0,
+    "groupNote": "※ The following questions (9-17) refer to HIE procedure, HIE-NDT-ET-P11(Rev.2) for Remote Field Test of heat exchanger tube in accordance with ASME Sec. V Code, 2023 Edition.\n(문제 9-17은 ASME Sec. V 규격 2023 Edition에 따른 열교환기 튜브의 원격장 시험 절차서 HIE-NDT-ET-P11(Rev.2)에 관한 것이다.)",
+    "question_original": "Describe NDE personnel requirements in accordance with the procedure HIE-NDT-ET-P11."
+  },
+  {
+    "id": 15,
+    "level": "Level II",
+    "method": "RFT",
+    "category": "Specific",
+    "source": "RFTS-II.hwp",
+    "question": "In the procedure HIE-NDT-ET-P11, what is the nominal probe speed during examination?\nHIE-NDT-ET-P11 절차서에서, 일반적으로 시험하는 동안 프로브 속도는?",
+    "options": [
+      "50 ～ 250 mm/sec",
+      "100 ～ 500 mm/sec",
+      "200 ～ 700 mm/sec",
+      "300 ～ 1000 mm/sec"
+    ],
+    "answer": 1,
+    "groupNote": "※ The following questions (9-17) refer to HIE procedure, HIE-NDT-ET-P11(Rev.2) for Remote Field Test of heat exchanger tube in accordance with ASME Sec. V Code, 2023 Edition.\n(문제 9-17은 ASME Sec. V 규격 2023 Edition에 따른 열교환기 튜브의 원격장 시험 절차서 HIE-NDT-ET-P11(Rev.2)에 관한 것이다.)"
+  },
+  {
+    "id": 16,
+    "level": "Level II",
+    "method": "RFT",
+    "category": "Specific",
+    "source": "RFTS-II.hwp",
+    "question": "In the ASME Sec. V, Art. 17, how much set the phase angle for support plate of reference tube on system setting and calibration?\n시스템 설정 및 교정 시 튜브 지지판에 대한 위상각은 얼마로 설정하는가?",
+    "options": [
+      "40°",
+      "90°",
+      "180°",
+      "0°"
+    ],
+    "answer": 3,
+    "groupNote": "※ The following questions (9-17) refer to HIE procedure, HIE-NDT-ET-P11(Rev.2) for Remote Field Test of heat exchanger tube in accordance with ASME Sec. V Code, 2023 Edition.\n(문제 9-17은 ASME Sec. V 규격 2023 Edition에 따른 열교환기 튜브의 원격장 시험 절차서 HIE-NDT-ET-P11(Rev.2)에 관한 것이다.)"
+  },
+  {
+    "id": 17,
+    "level": "Level II",
+    "method": "RFT",
+    "category": "Specific",
+    "source": "RFTS-II.hwp",
+    "question": "In the ASME Sec. V, Art.17, what is not necessarily required to be included in the test report?\n검사 보고서에 반드시 포함되어야 할 사항이 아닌 것은?",
+    "options": [
+      "owner, location, type, serial number, and identification of component examined\n검사대상 기기의 소유자, 위치, 형태, 일련번호 및 식별정보",
+      "size, wall thickness, material type, and configuration of installed tubes\n튜브의 크기, 두께, 재료형태 및 구성",
+      "tube numbering system\n튜브번호 부여 체계",
+      "certificate level and certificate issue date of inspector\n검사자의 자격 및 자격 취득일"
+    ],
+    "answer": 3,
+    "groupNote": "※ The following questions (9-17) refer to HIE procedure, HIE-NDT-ET-P11(Rev.2) for Remote Field Test of heat exchanger tube in accordance with ASME Sec. V Code, 2023 Edition.\n(문제 9-17은 ASME Sec. V 규격 2023 Edition에 따른 열교환기 튜브의 원격장 시험 절차서 HIE-NDT-ET-P11(Rev.2)에 관한 것이다.)"
+  },
+  {
+    "id": 18,
+    "level": "Level II",
+    "method": "RFT",
+    "category": "Specific",
+    "source": "RFTS-II.hwp",
+    "question": "Separate each signal in the following voltage plane display (ASME Sec. V, Art.17, Fig. T-1763.1(b))\n다음 전압평면 표시에서 각 신호를 구분하시오.",
+    "options": [
+      "① 20% groove  ② through hole  ③ TSP",
+      "① through hole  ② TSP  ③ 20% groove",
+      "① TSP  ② 20% groove  ③ through hole",
+      "① 20% groove  ② TSP  ③ through hole"
+    ],
+    "answer": 0,
+    "image": "RFT_SPECIFIC_Q18.svg"
+  },
+  {
+    "id": 19,
+    "level": "Level II",
+    "method": "RFT",
+    "category": "Specific",
+    "source": "RFTS-II.hwp",
+    "question": "The following figure shows the structure of a typical RFT probe. Fill in the blanks.\n다음 그림은 일반적인 RFT 탐촉자의 구성이다. 빈 칸을 채우시오.",
+    "options": [
+      "a) Exciter coil / b) Detector coil\na) 여자 코일 / b) 검출 코일",
+      "a) Detector coil / b) Exciter coil\na) 검출 코일 / b) 여자 코일",
+      "a) Primary coil / b) Shield coil\na) 1차 코일 / b) 차폐 코일",
+      "a) Drive coil / b) Reference coil\na) 구동 코일 / b) 기준 코일"
+    ],
+    "answer": 0,
+    "image": "RFT_SPECIFIC_Q19.svg"
+  },
+  {
+    "id": 20,
+    "level": "Level II",
+    "method": "RFT",
+    "category": "Specific",
+    "source": "RFTS-II.hwp",
+    "question": "What is the name of the equipment and software used for the RFT in our company?\n우리 회사에서 RFT 검사에 사용되는 장비와 소프트웨어의 이름은 무엇인가?",
+    "options": [
+      "MS-5800-E / Magnifi",
+      "MS-5800-R / Multi-View",
+      "OmniScan MX / TomoView",
+      "Nortec 600 / ES Beam"
+    ],
+    "answer": 1
+  }
+]

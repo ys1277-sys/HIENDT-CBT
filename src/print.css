@@ -590,6 +590,39 @@
 
 
 /* =====================================================
+   묶음 지시문
+
+   여러 문항에 걸치는 조건. 종이 시험지는 묶음 앞에 한 번만
+   적지만, 문항별로 나눠 인쇄하므로 각 문항에 함께 찍는다.
+   ===================================================== */
+
+.group-note {
+  margin: 0 0 5px 0;
+
+  padding: 4px 6px;
+
+  border-left: 2px solid #666;
+
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.group-note-en {
+  font-size: 11px;
+
+  line-height: 1.4;
+}
+
+.group-note-ko {
+  font-size: 10px;
+
+  line-height: 1.4;
+
+  color: #555;
+}
+
+
+/* =====================================================
    주관식 문항
 
    선택지가 없는 서술형(ECT / RFT Specific).

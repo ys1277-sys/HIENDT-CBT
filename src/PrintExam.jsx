@@ -7,6 +7,7 @@
 import "./print.css";
 import logo from "./logo.png";
 import QuestionImage from "./QuestionImage.jsx";
+import GroupNote from "./GroupNote.jsx";
 import {
   questionType,
   isCorrectOption,
@@ -503,6 +504,9 @@ function PrintExam({
       <div
         className="question-print"
       >
+
+        <GroupNote q={q} />
+
 
         <div
           className="question-title"

@@ -1,101 +1,107 @@
 [
   {
     "id": 1,
-    "question": "Nonmetallic solid material entrapped in weld metal or between weld metal and base metal is called:",
-    "question_kr": "용접금속이나 용접금속과 모재 사이에 비금속 고체 물질이 갇혀 있는 것을 무엇이라 하는가?",
+    "level": "Level II",
+    "method": "ECT",
+    "category": "Specific",
+    "source": "ECTS-II.hwp",
+    "question": "Nonmetallic solid material entrapped in weld metal or between weld metal and base metal is called\n용접금속이나 용접금속과 모재금속 사이에 비금속 고체 물질이 갇혀있는 것을 무엇이라 하는가?",
     "options": [
-      "Slag",
-      "Porosity",
-      "Lamination",
-      "Undercut"
+      "Slag\n슬래그",
+      "Porosity\n기공",
+      "Lamination\n라미네이션",
+      "Undercut\n언더컷"
     ],
     "answer": 0,
-    "subject": "ECT",
-    "level": "II",
-    "category": "SPECIFIC",
-    "answer_text_original": "Slag"
+    "groupNote": "※ Answers to questions 1 through 4 for the materials.\n(1번부터 4번까지는 재질에 관한 문제로 답하시오.)"
   },
   {
     "id": 2,
-    "question": "Large porosity, pipe and nonmetallic inclusions in slabs or billets are flattened and spread out during rolling and forging processes. This discontinuity is called:",
-    "question_kr": "압연 및 단조 과정에서 긴 기공, 파이프, 비금속 개재물이 평평하게 퍼진 불연속은 무엇인가?",
+    "level": "Level II",
+    "method": "ECT",
+    "category": "Specific",
+    "source": "ECTS-II.hwp",
+    "question": "Large porosity, pipe and nonmetallic inclusions in slabs or billets are flattened and spread out during the rolling and forging processes. This discontinuity is called\n긴 기포로, 압연이나 단조 공정 중에 철판이나 빌렛 속에서 파이프와 비금속 개재물이 평평해지고 넓혀지게 된 것, 이 불연속을 무엇이라 하는가?",
     "options": [
-      "Slag inclusion",
-      "Lamination",
-      "Cold shut",
-      "Hot tear"
+      "Slag inclusion\n슬래그 개재물",
+      "Lamination\n라미네이션",
+      "Cold shut\n냉간 접힘",
+      "Hot tear\n열간 균열"
     ],
     "answer": 1,
-    "subject": "ECT",
-    "level": "II",
-    "category": "SPECIFIC",
-    "answer_text_original": "Lamination"
+    "groupNote": "※ Answers to questions 1 through 4 for the materials.\n(1번부터 4번까지는 재질에 관한 문제로 답하시오.)"
   },
   {
     "id": 3,
-    "question": "The defect 'pipe' is found in which of the following?",
-    "question_kr": "'Pipe' 결함은 어디에서 발견되는가?",
+    "level": "Level II",
+    "method": "ECT",
+    "category": "Specific",
+    "source": "ECTS-II.hwp",
+    "question": "The defect \"pipe\" is found in which of the following?\n\"파이프\" 결함이 발견되는 것은?",
     "options": [
-      "A. A forging",
-      "B. A pipe weld",
-      "C. The ingot",
-      "D. A casting"
+      "A forging\n단조",
+      "A pipe weld\n파이프 용접",
+      "The ingot\n주괴",
+      "A casting\n주물"
     ],
     "answer": 2,
-    "subject": "ECT",
-    "level": "II",
-    "category": "SPECIFIC"
+    "groupNote": "※ Answers to questions 1 through 4 for the materials.\n(1번부터 4번까지는 재질에 관한 문제로 답하시오.)"
   },
   {
     "id": 4,
-    "question": "The critical service-generated defects are:",
-    "question_kr": "가혹한 운전 조건에서 생성되는 주요 결함은?",
+    "level": "Level II",
+    "method": "ECT",
+    "category": "Specific",
+    "source": "ECTS-II.hwp",
+    "question": "The critical service-generated defects are :\n가혹한 운전조건에서 생성되는 결함은?",
     "options": [
-      "A. Undercuts",
-      "B. Fatigue cracks",
-      "C. Inadequate penetration",
-      "D. Forging laps"
+      "Undercuts\n언더컷",
+      "Fatigue cracks\n피로 균열",
+      "Inadequate penetration\n용입 부족",
+      "Forging laps\n단조 겹침"
     ],
     "answer": 1,
-    "subject": "ECT",
-    "level": "II",
-    "category": "SPECIFIC"
+    "groupNote": "※ Answers to questions 1 through 4 for the materials.\n(1번부터 4번까지는 재질에 관한 문제로 답하시오.)"
   },
   {
     "id": 5,
-    "question": "What kind of Level step is?",
-    "question_kr": "Level의 단계는?",
+    "level": "Level II",
+    "method": "ECT",
+    "category": "Specific",
+    "source": "ECTS-II.hwp",
+    "question": "What kind of Level step is :\nLevel의 단계는?",
     "options": [
-      "A. 1step",
-      "B. 2step",
-      "C. 3step",
-      "D. 4step"
+      "1step\n1단계",
+      "2step\n2단계",
+      "3step\n3단계",
+      "4step\n4단계"
     ],
     "answer": 2,
-    "subject": "ECT",
-    "level": "II",
-    "category": "SPECIFIC"
+    "groupNote": "* Answers to questions 5 through 8 may use the supplement QM Procedure (HIE-QP-E01)\n(5번부터 8번까지 품질경영 절차서 중 HIE-QP-E01에 관한 질문이다.)"
   },
   {
     "id": 6,
-    "question": "Who shall evaluate the 'continuing satisfactory performances record'?",
-    "question_kr": "'연속적인 만족스러운 수행 기록'의 평가는 누가 하는가?",
+    "level": "Level II",
+    "method": "ECT",
+    "category": "Specific",
+    "source": "ECTS-II.hwp",
+    "question": "Who shall be evaluation of \"continuing satisfactory performances record\"?\n\"연속적인 만족스런 수행 기록\"의 평가는 누가 하는가?",
     "options": [
       "Level I",
       "Level II",
       "Level III",
-      "The customer"
+      "The customer\n발주처"
     ],
     "answer": 2,
-    "subject": "ECT",
-    "level": "II",
-    "category": "SPECIFIC",
-    "answer_text_original": "Level III"
+    "groupNote": "* Answers to questions 5 through 8 may use the supplement QM Procedure (HIE-QP-E01)\n(5번부터 8번까지 품질경영 절차서 중 HIE-QP-E01에 관한 질문이다.)"
   },
   {
     "id": 7,
-    "question": "For Level II, minimum number of questions of general examination is:",
-    "question_kr": "Level II 일반시험의 최소 문항 수는?",
+    "level": "Level II",
+    "method": "ECT",
+    "category": "Specific",
+    "source": "ECTS-II.hwp",
+    "question": "For Level II, minimum number of questions of general examination is :\nLevel II에 대해, 일반 시험의 최소 문항 수는?",
     "options": [
       "20",
       "30",
@@ -103,157 +109,161 @@
       "50"
     ],
     "answer": 2,
-    "subject": "ECT",
-    "level": "II",
-    "category": "SPECIFIC",
-    "answer_text_original": "40"
+    "groupNote": "* Answers to questions 5 through 8 may use the supplement QM Procedure (HIE-QP-E01)\n(5번부터 8번까지 품질경영 절차서 중 HIE-QP-E01에 관한 질문이다.)"
   },
   {
     "id": 8,
-    "question": "All level personnel and candidate shall be vision examination by:",
-    "question_kr": "모든 Level 요원과 응시자는 누구에 의해 시력 검사를 받아야 하는가?",
+    "level": "Level II",
+    "method": "ECT",
+    "category": "Specific",
+    "source": "ECTS-II.hwp",
+    "question": "All level personnel and candidate shall be vision examination by ;\n모든 level 요원과 응시자는 누구에 의해 시력 검사해야 하는가?",
     "options": [
       "Level I",
       "Level II",
       "Level III",
-      "An outside medical institution"
+      "An outside medical institution\n외부 의료기관"
     ],
     "answer": 2,
-    "subject": "ECT",
-    "level": "II",
-    "category": "SPECIFIC",
-    "answer_text_original": "Level III"
+    "groupNote": "* Answers to questions 5 through 8 may use the supplement QM Procedure (HIE-QP-E01)\n(5번부터 8번까지 품질경영 절차서 중 HIE-QP-E01에 관한 질문이다.)"
   },
   {
     "id": 9,
-    "question": "According to ASME Sec. V, Art. 8, what kinds of items should be included for the installed nonferromagnetic heat exchanger tubing eddy current examination written procedure?",
-    "question_kr": "ASME Sec.V Art.8에 따라 비자성체 열교환기 튜브 와전류 검사 절차서에 포함되어야 하는 항목은?",
+    "level": "Level II",
+    "method": "ECT",
+    "category": "Specific",
+    "source": "ECTS-II.hwp",
+    "question": "According to the ASME Sec. V, Art. 8, what kinds of items should be included for the installed nonferromagnetic heat exchanger tubing eddy current examination written procedure?\nASME Sec. V, Art. 8에 의거, 비자성체 열교환기 튜브 와전류 시험의 절차서에 기록되어야 하는 항목의 종류는?",
     "options": [
-      "A. Tube material, diameter and wall thickness",
-      "B. Size and type of probe",
-      "C. Both A and B above",
-      "D. Neither A nor B"
+      "tube material, diameter and wall thickness\n튜브 재질, 직경, 두께",
+      "size and type of probe\n탐촉자의 크기와 형태",
+      "both 1 and 2 above\n위의 1, 2 모두",
+      "neither 1 nor 2\n위 1, 2 모두 아님"
     ],
     "answer": 2,
-    "subject": "ECT",
-    "level": "II",
-    "category": "SPECIFIC"
+    "groupNote": "※ The following questions (9-20) refer to HIE procedure, HIE-NDT-ET-P11(Rev.2) for Eddy current examination of heat exchanger & condenser tube in accordance with ASME Sec. V Code, 2023 Edition.\n(문제 9-20은 ASME Sec. V 규격 2023 Edition에 따른 열교환기 및 콘덴서 튜브의 와전류탐상 시험 절차서 HIE-NDT-ET-P11(Rev.2)에 관한 것이다.)"
   },
   {
     "id": 10,
-    "question": "In ASME Sec. V, Art. 8, when should eddy current examination equipment be checked and calibrated or verified by using reference specimens for tubular products?",
-    "question_kr": "ASME Sec.V Art.8에서 튜브 제품의 대비 시험편을 이용한 장비 점검 및 교정 시기는?",
+    "level": "Level II",
+    "method": "ECT",
+    "category": "Specific",
+    "source": "ECTS-II.hwp",
+    "question": "In the ASME Sec. V, Art. 8, when the eddy current examination equipment should be checked and calibrated or verified by the use of the reference specimens at tubular products?\nASME Sec. V, Art. 8에서, 튜브제품 생산에서 대비 시편의 사용에 의해 와전류 탐상 장비가 점검되고 교정되는 시기는?",
     "options": [
-      "A. At the beginning of each product run of a given diameter and thickness of a given material",
-      "B. At the end of each production run",
-      "C. At any time that manufacturing is suspected",
-      "D. All of the above"
+      "at the beginning of each product run of a given diameter and thickness of a given material\n주어진 재질의 두께와 직경으로 각 생산 운영 시작 시",
+      "at the end of each production run\n각 생산 운영 종료 시",
+      "at any time that manufacturing is suspected\n제작에 의문점이 있으면 언제나",
+      "all of the above\n위의 것 모두"
     ],
     "answer": 3,
-    "subject": "ECT",
-    "level": "II",
-    "category": "SPECIFIC"
+    "groupNote": "※ The following questions (9-20) refer to HIE procedure, HIE-NDT-ET-P11(Rev.2) for Eddy current examination of heat exchanger & condenser tube in accordance with ASME Sec. V Code, 2023 Edition.\n(문제 9-20은 ASME Sec. V 규격 2023 Edition에 따른 열교환기 및 콘덴서 튜브의 와전류탐상 시험 절차서 HIE-NDT-ET-P11(Rev.2)에 관한 것이다.)"
   },
   {
     "id": 11,
-    "question": "In the ASME Sec. V, Art. 8, what kind of discontinuities are in reference calibration tube?",
-    "question_kr": "ASME Sec.V Art.8에서 대비 교정 튜브에 포함되는 불연속은?",
+    "level": "Level II",
+    "method": "ECT",
+    "category": "Specific",
+    "source": "ECTS-II.hwp",
+    "question": "In the ASME Sec. V, Art. 8, what kind of discontinuities in reference calibration tube?\nASME Sec. V, Art. 8에서, 대비 교정 튜브의 불연속 종류는?",
     "options": [
-      "A. 100% through hole",
-      "B. Four flat bottom holes, 20% of tube wall from OD",
-      "C. 360° circumferential groove, 10% from inner tube surface",
-      "D. All of the above"
+      "100% through hole\n100% 관통 구멍",
+      "four flat bottom holes, 20% the tube wall from the OD\n외경으로부터 튜브 두께의 20%에 해당하는 4개의 평저공",
+      "360° circumferential groove, 10% from the inner tube surface\n튜브 내 표면에서 10%의 360° 원주가공 홈",
+      "all of the above\n위의 것 모두"
     ],
     "answer": 3,
-    "subject": "ECT",
-    "level": "II",
-    "category": "SPECIFIC"
+    "groupNote": "※ The following questions (9-20) refer to HIE procedure, HIE-NDT-ET-P11(Rev.2) for Eddy current examination of heat exchanger & condenser tube in accordance with ASME Sec. V Code, 2023 Edition.\n(문제 9-20은 ASME Sec. V 규격 2023 Edition에 따른 열교환기 및 콘덴서 튜브의 와전류탐상 시험 절차서 HIE-NDT-ET-P11(Rev.2)에 관한 것이다.)"
   },
   {
     "id": 12,
-    "question": "In ASME Sec. V, Art. 8, if the tube OD is 1 inch, size of 100% through hole in reference calibration tube is:",
-    "question_kr": "ASME Sec.V Art.8에서 튜브 외경이 1 inch일 때 대비 교정 튜브의 100% 관통홀 크기는?",
+    "level": "Level II",
+    "method": "ECT",
+    "category": "Specific",
+    "source": "ECTS-II.hwp",
+    "question": "In the ASME Sec. V, Art. 8, if the tube OD is 1\", size of 100% through hole in reference calibration tube is :\nASME Sec. V, Art. 8에서, 튜브 외경이 1\"일 때 대비 교정 튜브의 100% 관통 구멍 크기는?",
     "options": [
-      "A. 0.052 inch",
-      "B. 0.067 inch",
-      "C. 1 mm",
-      "D. 2.5 mm"
+      "0.052\"",
+      "0.067\"",
+      "1mm",
+      "2.5mm"
     ],
     "answer": 1,
-    "subject": "ECT",
-    "level": "II",
-    "category": "SPECIFIC"
+    "groupNote": "※ The following questions (9-20) refer to HIE procedure, HIE-NDT-ET-P11(Rev.2) for Eddy current examination of heat exchanger & condenser tube in accordance with ASME Sec. V Code, 2023 Edition.\n(문제 9-20은 ASME Sec. V 규격 2023 Edition에 따른 열교환기 및 콘덴서 튜브의 와전류탐상 시험 절차서 HIE-NDT-ET-P11(Rev.2)에 관한 것이다.)"
   },
   {
     "id": 13,
-    "question": "What is the minimum fill factor specified in procedure HIE-NDT-ET-P11?",
-    "question_kr": "HIE-NDT-ET-P11 절차서에서 규정하는 충진율은? (공식 포함)",
+    "level": "Level II",
+    "method": "ECT",
+    "category": "Specific",
+    "source": "ECTS-II.hwp",
+    "question": "What is the minimum fill factor specified in the procedure HIE-NDT-ET-P11?\n절차서 HIE-NDT-ET-P11에서 규정하는 최소 충진율은?",
     "options": [
-      "Minimum 70%",
-      "Minimum 75%",
-      "Minimum 80%",
-      "Minimum 85%"
+      "minimum 70% over",
+      "minimum 75% over",
+      "minimum 80% over",
+      "minimum 85% over"
     ],
     "answer": 2,
-    "subject": "ECT",
-    "level": "II",
-    "category": "SPECIFIC",
-    "question_original": "The procedure HIE-NDT-ET-P11 specifies fill factor. Write this (include formula).",
-    "answer_text_original": "Minimum 80% over (Fill factor formula required)"
+    "groupNote": "※ The following questions (9-20) refer to HIE procedure, HIE-NDT-ET-P11(Rev.2) for Eddy current examination of heat exchanger & condenser tube in accordance with ASME Sec. V Code, 2023 Edition.\n(문제 9-20은 ASME Sec. V 규격 2023 Edition에 따른 열교환기 및 콘덴서 튜브의 와전류탐상 시험 절차서 HIE-NDT-ET-P11(Rev.2)에 관한 것이다.)",
+    "question_original": "The procedure HIE-NDT-ET-P11 specifies fill factor. Write this (include formula)"
   },
   {
     "id": 14,
-    "question": "In accordance with procedure HIE-NDT-ET-P11, NDE personnel shall be qualified in accordance with:",
-    "question_kr": "HIE-NDT-ET-P11 절차서에 따른 NDE 요원의 요구사항은?",
+    "level": "Level II",
+    "method": "ECT",
+    "category": "Specific",
+    "source": "ECTS-II.hwp",
+    "question": "In accordance with the procedure HIE-NDT-ET-P11, NDE personnel shall be qualified in accordance with :\n절차서 HIE-NDT-ET-P11에 의거 NDE 요원의 요구사항이 기술된 문서는?",
     "options": [
       "HIE-QP-E01",
       "HIE-NDT-ET-P11",
-      "SNT-TC-1A only",
-      "ASME Sec.V Art.8"
+      "SNT-TC-1A",
+      "ASME Sec. V, Art. 8"
     ],
     "answer": 0,
-    "subject": "ECT",
-    "level": "II",
-    "category": "SPECIFIC",
-    "question_original": "Describe NDE personnel requirements in accordance with procedure HIE-NDT-ET-P11.",
-    "answer_text_original": "The personnel shall be qualified in accordance with HIE procedure (HIE-QP-E01)"
+    "groupNote": "※ The following questions (9-20) refer to HIE procedure, HIE-NDT-ET-P11(Rev.2) for Eddy current examination of heat exchanger & condenser tube in accordance with ASME Sec. V Code, 2023 Edition.\n(문제 9-20은 ASME Sec. V 규격 2023 Edition에 따른 열교환기 및 콘덴서 튜브의 와전류탐상 시험 절차서 HIE-NDT-ET-P11(Rev.2)에 관한 것이다.)",
+    "question_original": "Describe NDE personnel requirements in accordance with the procedure HIE-NDT-ET-P11."
   },
   {
     "id": 15,
-    "question": "Adjust the ET instrument for a basis frequency chosen so that the phase angle of a signal from the (____) is between (__) deg. and (__) deg. rotated clockwise from the signal of the through-the-wall hole.",
-    "question_kr": "기본 주파수 교정 시 관통홀 신호 기준으로 위상각을 조정하는 기준은?",
+    "level": "Level II",
+    "method": "ECT",
+    "category": "Specific",
+    "source": "ECTS-II.hwp",
+    "question": "Adjust the ET instrument for a basis frequency chosen so that the phase angle of a signal from the (____) is between (__) deg. and (__) deg. rotated clockwise from the signal of the through-the-wall hole.\n와류 탐상장치를 선정한 기본주파수로 맞추어 (____)으로부터 신호의 위상각이 벽 관통구멍의 신호로부터 시계방향으로 (__)에서 (__) 사이가 되도록 조절한다.",
     "options": [
-      "Four 20% flat bottom holes, 50°, 120°",
-      "Four through-wall drilled holes, 30°, 90°",
-      "Four 20% flat bottom holes, 30°, 90°",
-      "Four through-wall drilled holes, 50°, 120°"
+      "four 20% flat bottom holes, 50°, 120°",
+      "four through-wall drilled holes, 30°, 90°",
+      "four 20% flat bottom holes, 30°, 90°",
+      "four through-wall drilled holes, 50°, 120°"
     ],
     "answer": 0,
-    "subject": "ECT",
-    "level": "II",
-    "category": "SPECIFIC",
-    "answer_text_original": "Four 20% flat bottom holes, 50°, 120°"
+    "groupNote": "* In the procedure HIE-NDT-ET-P11, the examination system shall be calibrated utilizing the reference standard described in 6.5. Complete the following basis frequency calibration procedure using differential bobbin coil technique. (Questions 15 through 18)\n(절차서 HIE-NDT-ET-P11의 6.5항 대비 기준으로 시험 시스템을 교정한다. 차동 내삽 코일 기법을 사용한 기본 주파수 교정 절차를 완성하시오. 15~18번)"
   },
   {
     "id": 16,
-    "question": "The trace display for the (____) holes shall be generated when pulling the probe in the directions: down and to the left first, followed by an upward motion to the right, followed by a downward motion returning to the point of origin.",
-    "question_kr": "프로브 이동 방향에 따른 추적 표시 대상 홀은?",
+    "level": "Level II",
+    "method": "ECT",
+    "category": "Specific",
+    "source": "ECTS-II.hwp",
+    "question": "The trace display for the (____) holes shall be generated when pulling the probe in the directions : down and to the left first, followed by an upward motion to the right, followed by a downward motion returning to the point of origin.\n프로브를 당길 때 (____)에 대한 추적 표시는 처음에는 왼쪽 하향으로, 다음에는 오른쪽 상향으로, 마지막에 하향으로 이동하여 원래 지점으로 되돌아간다.",
     "options": [
-      "Four 20% flat bottom",
-      "Four through-wall drilled",
-      "The 10% deep ID groove",
-      "The 20% deep OD groove"
+      "four 20% flat bottom\n20% 평저공 4개",
+      "four through-wall drilled\n관통홀 4개",
+      "10% deep inside diameter groove\n10% 깊이 내경 홈",
+      "20% deep outside diameter groove\n20% 깊이 외경 홈"
     ],
     "answer": 0,
-    "subject": "ECT",
-    "level": "II",
-    "category": "SPECIFIC",
-    "answer_text_original": "Four 20% flat bottom holes"
+    "groupNote": "* In the procedure HIE-NDT-ET-P11, the examination system shall be calibrated utilizing the reference standard described in 6.5. Complete the following basis frequency calibration procedure using differential bobbin coil technique. (Questions 15 through 18)\n(절차서 HIE-NDT-ET-P11의 6.5항 대비 기준으로 시험 시스템을 교정한다. 차동 내삽 코일 기법을 사용한 기본 주파수 교정 절차를 완성하시오. 15~18번)"
   },
   {
     "id": 17,
-    "question": "The sensitivity shall be adjusted to produce a minimum peak-to-peak signal of (__) V from the four 20% flat bottom holes or (__) V from the four through-wall drilled holes.",
-    "question_kr": "감도 조정 시 평저공 및 관통홀의 최소 Peak-to-Peak 신호 전압은?",
+    "level": "Level II",
+    "method": "ECT",
+    "category": "Specific",
+    "source": "ECTS-II.hwp",
+    "question": "The sensitivity shall be adjusted to produce a minimum peak-to-peak signal of (__)V from the four 20% flat bottom holes or (__)V from the four through-wall drilled holes.\n감도는 4개의 평저공에서 (__)V의 최소 피크-피크 신호, 또는 4개의 관통홀에서 (__)V가 되도록 조정해야 한다.",
     "options": [
       "2V, 4V",
       "4V, 6V",
@@ -261,57 +271,54 @@
       "5V, 10V"
     ],
     "answer": 1,
-    "subject": "ECT",
-    "level": "II",
-    "category": "SPECIFIC",
-    "answer_text_original": "4V, 6V"
+    "groupNote": "* In the procedure HIE-NDT-ET-P11, the examination system shall be calibrated utilizing the reference standard described in 6.5. Complete the following basis frequency calibration procedure using differential bobbin coil technique. (Questions 15 through 18)\n(절차서 HIE-NDT-ET-P11의 6.5항 대비 기준으로 시험 시스템을 교정한다. 차동 내삽 코일 기법을 사용한 기본 주파수 교정 절차를 완성하시오. 15~18번)"
   },
   {
     "id": 18,
-    "question": "Adjust the phase or rotation control so that the signal response due to (____) or the (__)% deep circumferential inside diameter groove or both is positioned along the horizontal axis of the display (__) deg.",
-    "question_kr": "위상 조정 시 화면 수평축에 위치시키는 기준 신호는?",
+    "level": "Level II",
+    "method": "ECT",
+    "category": "Specific",
+    "source": "ECTS-II.hwp",
+    "question": "Adjust the phase or rotation control so that the signal response due to (____) or the (__)% deep circumferential inside diameter groove or both is positioned along the horizontal axis of the display (__) deg.\n위상 또는 회전 조정기를 조정하여 (____) 또는 (__)% 깊이의 원주방향 안지름 홈 혹은 둘 다로 인한 신호응답이 화면의 수평축을 따라 (__)°에 위치하도록 한다.",
     "options": [
-      "Probe motion, 10%, ±5°",
-      "Probe motion, 20%, ±10°",
-      "Through-wall hole, 10%, ±5°",
-      "Through-wall hole, 20%, ±10°"
+      "probe motion, 10%, ±5°\n탐촉자 움직임, 10%, ±5°",
+      "probe motion, 20%, ±10°\n탐촉자 움직임, 20%, ±10°",
+      "through-wall hole, 10%, ±5°\n관통홀, 10%, ±5°",
+      "through-wall hole, 20%, ±10°\n관통홀, 20%, ±10°"
     ],
     "answer": 0,
-    "subject": "ECT",
-    "level": "II",
-    "category": "SPECIFIC",
-    "answer_text_original": "Probe motion, 10%, ±5°"
+    "groupNote": "* In the procedure HIE-NDT-ET-P11, the examination system shall be calibrated utilizing the reference standard described in 6.5. Complete the following basis frequency calibration procedure using differential bobbin coil technique. (Questions 15 through 18)\n(절차서 HIE-NDT-ET-P11의 6.5항 대비 기준으로 시험 시스템을 교정한다. 차동 내삽 코일 기법을 사용한 기본 주파수 교정 절차를 완성하시오. 15~18번)"
   },
   {
     "id": 19,
-    "question": "In accordance with HIE-NDT-ET-P11, the defect record tube shall be:",
-    "question_kr": "HIE-NDT-ET-P11에 따른 결함 기록 튜브는?",
+    "level": "Level II",
+    "method": "ECT",
+    "category": "Specific",
+    "source": "ECTS-II.hwp",
+    "question": "In accordance with HIE-NDT-ET-P11, the defect record tube shall be :\n절차서 HIE-NDT-ET-P11에 의거, 결함 기록 튜브는?",
     "options": [
-      "Defects are recorded when they are 10% or greater",
-      "Defects are recorded when they are 20% or greater",
-      "Defects are recorded when they are 30% or greater",
-      "All defects shall be recorded regardless of depth"
+      "Defects of 10% or greater are recorded\n10% 이상의 결함을 기록한다",
+      "Defects of 20% or greater are recorded; this may be changed by agreement with the customer\n20% 이상의 결함만 기록하며, 주문주와 협의하여 변경할 수 있다",
+      "Defects of 30% or greater are recorded\n30% 이상의 결함을 기록한다",
+      "All defects are recorded regardless of depth\n깊이와 무관하게 모든 결함을 기록한다"
     ],
     "answer": 1,
-    "subject": "ECT",
-    "level": "II",
-    "category": "SPECIFIC",
-    "answer_text_original": "Defects are generally recorded when they are 20% or greater. This may be changed by agreement with the customer."
+    "groupNote": "※ The following questions (9-20) refer to HIE procedure, HIE-NDT-ET-P11(Rev.2) for Eddy current examination of heat exchanger & condenser tube in accordance with ASME Sec. V Code, 2023 Edition.\n(문제 9-20은 ASME Sec. V 규격 2023 Edition에 따른 열교환기 및 콘덴서 튜브의 와전류탐상 시험 절차서 HIE-NDT-ET-P11(Rev.2)에 관한 것이다.)"
   },
   {
     "id": 20,
-    "question": "In ASME Sec. V, Art. 8, what is the nominal probe speed during examination?",
-    "question_kr": "ASME Sec.V Art.8에서 검사 중 일반적인 프로브 속도는?",
+    "level": "Level II",
+    "method": "ECT",
+    "category": "Specific",
+    "source": "ECTS-II.hwp",
+    "question": "In the ASME Sec. V, Art. 8, what is the nominal probe speed during examination?\nASME Sec. V, Art. 8에서, 일반적으로 시험하는 동안 프로브 속도는?",
     "options": [
-      "Not exceed 10 in/sec (254 mm/sec)",
-      "Not exceed 12 in/sec (305 mm/sec)",
-      "Not exceed 14 in/sec (356 mm/sec)",
-      "Not exceed 16 in/sec (406 mm/sec)"
+      "not exceed 10\"/sec (254mm/s)\n초당 10\"를 초과하면 안 됨",
+      "not exceed 12\"/sec (305mm/s)\n초당 12\"를 초과하면 안 됨",
+      "not exceed 14\"/sec (356mm/s)\n초당 14\"를 초과하면 안 됨",
+      "not exceed 16\"/sec (406mm/s)\n초당 16\"를 초과하면 안 됨"
     ],
     "answer": 2,
-    "subject": "ECT",
-    "level": "II",
-    "category": "SPECIFIC",
-    "answer_text_original": "Not exceed 14 in/sec (356 mm/sec)"
+    "groupNote": "※ The following questions (9-20) refer to HIE procedure, HIE-NDT-ET-P11(Rev.2) for Eddy current examination of heat exchanger & condenser tube in accordance with ASME Sec. V Code, 2023 Edition.\n(문제 9-20은 ASME Sec. V 규격 2023 Edition에 따른 열교환기 및 콘덴서 튜브의 와전류탐상 시험 절차서 HIE-NDT-ET-P11(Rev.2)에 관한 것이다.)"
   }
 ]

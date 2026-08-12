@@ -3,6 +3,7 @@ import Result from "./Result.jsx";
 import ExamData, { questionCount } from "./ExamData.jsx";
 import Calculator from "./Calculator.jsx";
 import QuestionImage from "./QuestionImage.jsx";
+import GroupNote from "./GroupNote.jsx";
 import {
   questionType,
   isAnswered,
@@ -475,6 +476,9 @@ function Quiz({
               {questions.length}
 
             </div>
+
+
+            <GroupNote q={q} />
 
 
             <div className="question-box">
