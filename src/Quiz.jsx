@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Result from "./Result.jsx";
-import ExamData from "./ExamData.jsx";
+import ExamData, { questionCount } from "./ExamData.jsx";
 import Calculator from "./Calculator.jsx";
 import QuestionImage from "./QuestionImage.jsx";
 import {
@@ -9,6 +9,32 @@ import {
   MULTI,
   TEXT
 } from "./grading.js";
+
+/*
+ * 출제 목록 만들기
+ *
+ * JSON 은 문제은행이라 실제 출제 수보다 많이 들어 있고, A형/B형 문항이
+ * 한 과목 파일에 섞여 있다. 출제할 때는 은행에서 무작위로 뽑고
+ * 순서도 매번 섞는다. 같은 과목을 다시 쳐도 같은 시험지가 나오지 않는다.
+ *
+ * count 가 null 이거나 은행이 그보다 적으면 있는 문항을 전부 출제한다.
+ */
+function drawQuestions(bank, count) {
+
+  const shuffled = [...bank];
+
+  // Fisher-Yates
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+
+  return count && count < shuffled.length
+    ? shuffled.slice(0, count)
+    : shuffled;
+
+}
+
 
 function Quiz({
   name,
@@ -146,7 +172,25 @@ function Quiz({
 
         }
 
-        setQuestions(list);
+        const want = questionCount(level, subject);
+
+        const drawn = drawQuestions(list, want);
+
+        console.log(
+          "출제:",
+          `${drawn.length}문항`,
+          want ? `(기준 ${want}, 은행 ${list.length})` : `(은행 전체 ${list.length})`
+        );
+
+        if (want && list.length < want) {
+
+          console.warn(
+            `문제은행이 기준보다 적습니다. ${list.length}/${want}`
+          );
+
+        }
+
+        setQuestions(drawn);
         setCurrent(0);
 
       }
