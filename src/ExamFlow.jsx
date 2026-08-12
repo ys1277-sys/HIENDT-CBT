@@ -97,23 +97,30 @@ return (
   onStart={()=>{
 
 
+    /*
+     * 응시자 이름
+     *
+     * 예전에는 "// 이름 확인" 주석만 있고 실제 검사가 없어서,
+     * 이름을 비운 채로 시험을 볼 수 있었다. 그러면 결과가 빈 이름으로
+     * 저장되어 관리자가 누구 것인지 알 수 없다.
+     */
+    if(!name || !name.trim()){
 
-    // 이름 확인
+      alert(
+        "응시자 이름을 입력하세요."
+      );
+
+      return;
+
+    }
+
+
+    // Level / 종목
 
     if(!level || !method){
 
       alert(
-        "시험 정보를 선택하세요"
-      );
-
-      return;
-
-    }
-
-    if(level==="Level II" && !subject){
-
-      alert(
-        "시험 구분을 선택하세요"
+        "Level 과 시험종목을 선택하세요."
       );
 
       return;
@@ -121,29 +128,9 @@ return (
     }
 
 
+    // Level II 만 시험구분(General / Specific)을 고른다
 
-    // Level / 종목 확인
-
-    if(!level || !method){
-
-      alert(
-        "시험 정보를 선택하세요."
-      );
-
-      return;
-
-    }
-
-
-
-
-
-    // Level II만 시험구분 확인
-
-    if(
-      level === "Level II" &&
-      !subject
-    ){
+    if(level === "Level II" && !subject){
 
       alert(
         "시험 구분을 선택하세요."
@@ -154,11 +141,7 @@ return (
     }
 
 
-
-
-
     setStart(true);
-
 
 
   }}

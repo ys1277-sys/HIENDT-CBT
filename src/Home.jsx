@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import PrintExam from "./PrintExam.jsx";
+import ExamData from "./ExamData.jsx";
 
 function Home({
 
@@ -77,30 +78,29 @@ try{
 
 
 
-  let file;
+  /*
+   * 파일 경로는 ExamData 한 곳에만 둔다.
+   * 예전에는 여기서 경로를 직접 조립해서, ExamData 를 고쳐도
+   * 문제은행 출력만 옛 경로를 가리키는 일이 생길 수 있었다.
+   */
+  const exam =
+    level === "Level II"
+      ? ExamData?.[level]?.[subject]?.[method]
+      : ExamData?.[level]?.[method];
 
 
+  if(!exam){
 
+    alert(
+      `시험 데이터를 찾을 수 없습니다.\n\n${level} / ${method} ${subject || ""}`
+    );
 
-  if(level==="Level II"){
-
-    file =
-      `data/${level}/${subject}/${method}.json`;
+    return;
 
   }
 
 
-
-
-  if(level==="Level III"){
-
-    file =
-      `data/${level}/${method}.json`;
-
-  }
-
-
-
+  const file = exam.file;
 
 
   console.log(
