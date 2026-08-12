@@ -5,12 +5,13 @@
     "method": "TOFD",
     "category": "Specific",
     "source": "TOFDSpec-II-A-type(2014)",
-    "question": "(T,E) When available for TOFD, what is amplitude equalization used on? TOFD가 가능한 경우, 진폭 균등화에 사용되는 것은?",
+    "question": "(T",
     "options": [
       "The lateral wave signal\n lateral wave 신호",
       "The backwall signal\n backwall 신호",
       "The amplitude response from side drilled holes at two different depths\n 두 개의 다른 깊이의 측면 공으로 부터의 진폭 응답",
-      "The ID and OD Vee notch diffractor signals\n ID와 OD Vee 노치 회절 신호"
+      "The ID and OD Vee notch diffractor signals\n ID와 OD Vee 노치 회절 신호",
+      "When available for TOFD, what is amplitude equalization used on?\n TOFD가 가능한 경우, 진폭 균등화에 사용되는 것은?"
     ],
     "answer": 0
   },
@@ -423,6 +424,22 @@
   },
   {
     "id": 29,
+    "level": "Level II",
+    "method": "TOFD",
+    "category": "Specific",
+    "source": "TOFDSpec-II-B-type(2014)",
+    "question": "(T",
+    "options": [
+      "The lateral wave signal\n lateral wave 신호",
+      "The backwall signal\n backwall 신호",
+      "The amplitude response from side drilled holes at two different depths\n 두 개의 다른 깊이의 측면 공으로 부터의 진폭 응답",
+      "The ID and OD Vee notch diffractor signals\n ID와 OD Vee 노치 회절 신호",
+      "When available for TOFD, what is amplitude equalization used on?\n TOFD가 가능한 경우, 진폭 균등화에 사용되는 것은?"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 30,
     "level": "Level II",
     "method": "TOFD",
     "category": "Specific",

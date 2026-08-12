@@ -183,6 +183,22 @@
     "method": "MT",
     "category": "Specific",
     "source": "MTS-II(2020)(A)",
+    "question": "A 20mm-thick steel casting was tested by magnetic particle inspection (MT) according to ASME B16.34, and a linear indication was found on the surface. What is the maximum length that can be considered acceptable? 20mm 두께의 주강품을 ASME B16.34 기준에 따라 자분탐상검사(MT)를 수행한 결과, 표면에서 선형 결함(Linear Indication)이 발견되었습니다. 합격으로 간주될 수 있는 최대 길이는 얼마입니까?",
+    "options": [
+      "13 mm (0..5 in.",
+      "18 mm (0.7 in.)",
+      "1.5 mm (0.06 in.",
+      "8 mm (0.3 in.)\n* The following questions No.25 refer to ASME Code Section. I \n ASME Sec.",
+      "에 따라 18번 물음에 답하시오."
+    ],
+    "answer": 0
+  },
+  {
+    "id": 14,
+    "level": "Level II",
+    "method": "MT",
+    "category": "Specific",
+    "source": "MTS-II(2020)(A)",
     "question": "A length 1/4in.(6mm) rounded indication is; This indication acceptable?\n길이 1/4(6mm)인치의 원형지시는? 이 지시는 합격인가?",
     "options": [
       "Accept 합격",
@@ -191,7 +207,7 @@
     "answer": 1
   },
   {
-    "id": 14,
+    "id": 15,
     "level": "Level II",
     "method": "MT",
     "category": "Specific",
@@ -206,7 +222,7 @@
     "answer": 0
   },
   {
-    "id": 15,
+    "id": 16,
     "level": "Level II",
     "method": "MT",
     "category": "Specific",
@@ -221,7 +237,7 @@
     "answer": 2
   },
   {
-    "id": 16,
+    "id": 17,
     "level": "Level II",
     "method": "MT",
     "category": "Specific",
@@ -236,7 +252,7 @@
     "answer": 0
   },
   {
-    "id": 17,
+    "id": 18,
     "level": "Level II",
     "method": "MT",
     "category": "Specific",
@@ -251,7 +267,7 @@
     "answer": 0
   },
   {
-    "id": 18,
+    "id": 19,
     "level": "Level II",
     "method": "MT",
     "category": "Specific",
@@ -261,12 +277,14 @@
       "AC Yoke",
       "Prod",
       "Coil",
-      "Head shot\n \n SPECIFIC(B-TYPE)\n \n문제\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n해답\nD\nC\nBLACK, RED, GRAY\nA\nAC:10lb\nDC:40lb\nD\nA\nB\n#1\nA\n문제\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n해답\n불합격\nC \nA\n합격\n불합격\nC\n#2\nD\nAC, DC\nHWDC\nA\n문제\n21\n22\n23\n24\n25\n해답\nA\nA\nB\nB\nA\n#1\n 선형지시 : 결함의 길이(L)이 결함의 지름(D)에 3배이상일 경우\n 원형지시 : 결함의 길이(L)이 결함의 지름(D)에 3배미만일 경우 \n \n#2 \n 제품의 두께가 ¾＂이하일 경우 : 90 ～ 110Amp/in\n 제품의 두께가 ¾＂초과일 경우 : 100 ～ 125Amp/in\n6. The area to be tested by MT shall be adequately illuminated for proper evaluation of indication. what is the minimum intensity require?\n (MT 검사부위는 적당히 조명되어져야 한다. 최소 조명강도는 얼마인가?) D\n A. 350 Lux B. 500 Lux \n C. 800 Lux D. 1000 Lux\n7. Why does the code require two separate examination when using yoke technique?\n (요오크를 사용할 때 코오드에서는 왜 두 방향으로 시험하도록 요구하고 있는가?) A\n A. All discontinuity (surface or subsurface) with multi-direction can be detectable.\n (모든 방향의 불연속이 감지되게 하기 위함.)\n B. to demagnetize easily (쉽게 탈자하기 위함.)\n C. to magnetize easily (쉽게 자화하기 위함.)\n D. to prevent harmful effect to component (시험제에 나쁜 영향을 없애기 위함.)\n \n8. Name two (b) method of magnetizing a tube for MT examination without having current pass through the tube.\n (튜브 재료에 직접 전류를 통하지 않고 자분탐상 시험하는 방법 2가지를 써라.)\n \n A. 자속관통\n B. 전류관통\n* Refer to HIE-NDT-MT-AP5L written in accordance with API 5L and answer question No.7.\n (API 5L에 따라 작성된 HIE-NDT-MT-AP5L를 참고하여 7번 물음에 답하시오.) \n7. What is classified as an acceptable imperfections in the MT inspection of seamless pipes?\n (심리스파이프의 MT 검사시 허용가능 결함으로 분류하는 것은? )\n A. Imperfections that have a depth ≤ 0.125 t and do not encroach on the minimum permissible wall thickness (깊이가 0.125 t 이하이고 최소 허용 파이프 두께를 침범하지 않는 결점)\n B. Imperfections that have a depth > 0.125 t and do not encroach on the minimum permissible wall thickness (깊이가 0.125 t를 초과하고 최소 허용 파이프 두께를 침범하지 않는 결점)\n C. Imperfections that encroach on the minimum permissible wall thickness \n (최소 허용 파이프 두께를 침범하는 결점)\n D. All of the above(위 모두)"
+      "Head shot\n \n SPECIFIC(B-TYPE)\n \n문제\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n해답\nD\nC\nBLACK, RED, GRAY\nA\nAC:10lb\nDC:40lb\nD\nA\nB\n#1\nA\n문제\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n해답\n불합격\nC \nA\n합격\n불합격\nC\n#2\nD\nAC, DC\nHWDC\nA\n문제\n21\n22\n23\n24\n25\n해답\nA\nA\nB\nB\nA\n#1\n 선형지시 : 결함의 길이(L)이 결함의 지름",
+      "에 3배이상일 경우\n 원형지시 : 결함의 길이(L)이 결함의 지름",
+      "에 3배미만일 경우 \n \n#2 \n 제품의 두께가 ¾＂이하일 경우 : 90 ～ 110Amp/in\n 제품의 두께가 ¾＂초과일 경우 : 100 ～ 125Amp/in\n6. The area to be tested by MT shall be adequately illuminated for proper evaluation of indication. what is the minimum intensity require?\n (MT 검사부위는 적당히 조명되어져야 한다. 최소 조명강도는 얼마인가?) D\n A. 350 Lux B. 500 Lux \n C. 800 Lux D. 1000 Lux\n7. Why does the code require two separate examination when using yoke technique?\n (요오크를 사용할 때 코오드에서는 왜 두 방향으로 시험하도록 요구하고 있는가?) A\n A. All discontinuity (surface or subsurface) with multi-direction can be detectable.\n (모든 방향의 불연속이 감지되게 하기 위함.)\n B. to demagnetize easily (쉽게 탈자하기 위함.)\n C. to magnetize easily (쉽게 자화하기 위함.)\n D. to prevent harmful effect to component (시험제에 나쁜 영향을 없애기 위함.)\n \n8. Name two (b) method of magnetizing a tube for MT examination without having current pass through the tube.\n (튜브 재료에 직접 전류를 통하지 않고 자분탐상 시험하는 방법 2가지를 써라.)\n \n A. 자속관통\n B. 전류관통\n* Refer to HIE-NDT-MT-AP5L written in accordance with API 5L and answer question No.7.\n (API 5L에 따라 작성된 HIE-NDT-MT-AP5L를 참고하여 7번 물음에 답하시오.) \n7. What is classified as an acceptable imperfections in the MT inspection of seamless pipes?\n (심리스파이프의 MT 검사시 허용가능 결함으로 분류하는 것은? )\n A. Imperfections that have a depth ≤ 0.125 t and do not encroach on the minimum permissible wall thickness (깊이가 0.125 t 이하이고 최소 허용 파이프 두께를 침범하지 않는 결점)\n B. Imperfections that have a depth > 0.125 t and do not encroach on the minimum permissible wall thickness (깊이가 0.125 t를 초과하고 최소 허용 파이프 두께를 침범하지 않는 결점)\n C. Imperfections that encroach on the minimum permissible wall thickness \n (최소 허용 파이프 두께를 침범하는 결점)\n D. All of the above(위 모두)"
     ],
     "answer": 0
   },
   {
-    "id": 19,
+    "id": 20,
     "level": "Level II",
     "method": "MT",
     "category": "Specific",
@@ -281,7 +299,7 @@
     "answer": 2
   },
   {
-    "id": 20,
+    "id": 21,
     "level": "Level II",
     "method": "MT",
     "category": "Specific",
@@ -296,7 +314,7 @@
     "answer": 3
   },
   {
-    "id": 21,
+    "id": 22,
     "level": "Level II",
     "method": "MT",
     "category": "Specific",
@@ -306,12 +324,13 @@
       "Imperfections that have a depth ≤ 0.125 t and do not encroach on the minimum permissible wall thickness \n (깊이가 0.125 t 이하이고 최소 허용 파이프 두께를 침범하지 않는 결점)",
       "Imperfections that have a depth > 0.125 t and do not encroach on the minimum permissible wall thickness \n (깊이가 0.125 t를 초과하고 최소 허용 파이프 두께를 침범하지 않는 결점)",
       "Imperfections that encroach on the minimum permissible wall thickness \n (최소 허용 파이프 두께를 침범하는 결점)",
-      "All of the above(위 모두)\n* The following questions No.25 refer to ASME Code Section. I \n ASME Sec. I.에 따라 18번 물음에 답하시오."
+      "All of the above(위 모두)\n* The following questions No.25 refer to ASME Code Section. I \n ASME Sec.",
+      "에 따라 18번 물음에 답하시오."
     ],
     "answer": 0
   },
   {
-    "id": 22,
+    "id": 23,
     "level": "Level II",
     "method": "MT",
     "category": "Specific",
@@ -326,7 +345,7 @@
     "answer": 0
   },
   {
-    "id": 23,
+    "id": 24,
     "level": "Level II",
     "method": "MT",
     "category": "Specific",

@@ -350,6 +350,21 @@
     "method": "VT",
     "category": "Specific",
     "source": "VTS-II(2020)(A)",
+    "question": "The crack whose major surface dimension is ( ) is or less is irrelevant.\n주요 표면 치수가 ( ) 이하인 크랙은 비관련 지시이다.",
+    "options": [
+      "1/32",
+      "1/8\"",
+      "1/16",
+      "None of above"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 25,
+    "level": "Level II",
+    "method": "VT",
+    "category": "Specific",
+    "source": "VTS-II(2020)(A)",
     "question": "Handheld magnifiers shoul fall into which of the following ranges?\n확대경의 측정범위는 얼마인가?",
     "options": [
       "2X to 4X",
@@ -360,7 +375,7 @@
     "answer": 3
   },
   {
-    "id": 25,
+    "id": 26,
     "level": "Level II",
     "method": "VT",
     "category": "Specific",

@@ -262,7 +262,9 @@
     "options": [
       "10%",
       "5%",
-      "20% C. none of the above (위에 해당 사항 없음)\n E. all of the above (위의 모두 해당 사항임)\n* The following questions (21-25) refer to HIE procedure, HIE-NDT-UT-N21 (Rev.2) for ultrasonic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec Ⅲ. 2023 Edition.\n (다음 문제 (21-25)은 HIE 절차서에 언급된다. ASME B & PV 규격에 따른 압력용기 제작의 초음파 시험에 대한 절차서HIE-NDT-UT-N21 (Rev.2)"
+      "20%",
+      "none of the above\n위에 해당 사항 없음",
+      "all of the above (위의 모두 해당 사항임)\n* The following questions (21-25) refer to HIE procedure, HIE-NDT-UT-N21 (Rev.2) for ultrasonic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec Ⅲ. 2023 Edition.\n (다음 문제 (21-25)은 HIE 절차서에 언급된다. ASME B & PV 규격에 따른 압력용기 제작의 초음파 시험에 대한 절차서HIE-NDT-UT-N21 (Rev.2)"
     ],
     "answer": 2
   },
