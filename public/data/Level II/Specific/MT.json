@@ -373,6 +373,19 @@
     "answer": 1
   },
   {
+    "id": 26,
+    "level": "Level II",
+    "method": "MT",
+    "category": "Specific",
+    "source": "MTS-II(2020)(A)",
+    "question": "1/8 in. round indications in a line separated by 1/16\" edge found on welds by MT Yoke method Is it acceptable? (Ref. : ASME B 31.1)\n1/8 in. 크기의 원형지시가 자분탐상법 (요크)에 의해 용접물에서 발견되었다. 이것은 합격이냐?",
+    "options": [
+      "합격",
+      "불합격"
+    ],
+    "answer": 0
+  },
+  {
     "level": "Level II",
     "method": "MT",
     "category": "Specific",
@@ -385,7 +398,7 @@
       "HWDC only\nHWDC 만"
     ],
     "answer": 0,
-    "id": 26
+    "id": 27
   },
   {
     "level": "Level II",
@@ -400,7 +413,7 @@
       "White, Gray, Yellow\n백색, 회색, 황색"
     ],
     "answer": 0,
-    "id": 27
+    "id": 28
   },
   {
     "level": "Level II",
@@ -415,7 +428,7 @@
       "AC : 40 lb, DC : 40 lb"
     ],
     "answer": 0,
-    "id": 28
+    "id": 29
   },
   {
     "level": "Level II",
@@ -430,6 +443,6 @@
       "Linear : length is 5 times the width or more / Rounded : length is less than 5 times the width\n선형지시 : 길이가 폭의 5배 이상 / 원형지시 : 길이가 폭의 5배 미만"
     ],
     "answer": 0,
-    "id": 29
+    "id": 30
   }
 ]

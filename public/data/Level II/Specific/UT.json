@@ -233,7 +233,7 @@
       "1\"",
       "none of the above"
     ],
-    "answer": 3,
+    "answer": 0,
     "image": "UT_SPECIFIC_VQ23.png"
   },
   {
@@ -250,10 +250,26 @@
       "all of the above\n위의 것 모두 해당 사항임",
       "none of the above\n위에 해당 사항 없음"
     ],
-    "answer": 2
+    "answer": 3
   },
   {
     "id": 18,
+    "level": "Level II",
+    "method": "UT",
+    "category": "Specific",
+    "source": "UTS-II(2020)(A)",
+    "question": "The ultrasonic instrument shall utilize an amplitude control, accurate over its useful range to % of the nominal amplitude ratio, to allow measurement of indications beyond the linear range of vertical display on the screen.\n초음파 탐상장비는 평균 증폭비의 % 범위 이내로 증폭 조절 직선성을 지니고 있어야 스크린 수직방향 지시측정이 가능하다.",
+    "options": [
+      "10%",
+      "5%",
+      "20% C. none of the above\n위에 해당 사항 없음",
+      "80% + 6dB\n16. When possible, scanning shall be performed at a minimum gain setting of A times or B dB or reference level sensitivity in case of angle beam examination.\n (가능하면 탐상 감도는 제 1차 감도 수준의 최소 A 회 혹은 B dB를 증가시켜서 실시되어야 한다.) C\n A. A:10 TIMES, B:20dB B. A:4 TIMES, B:12dB\n C. A:2 TIMES, B: 6dB D. none of the above\n17. All indication which produce a response greater than A % of reference level shall be investigated to the extent that the operator can determine the shape etc.\n What is proper word in column A?\n (제1차 감도수준의 A %를 초과하는 불연속 지시는 검사자가 필히 형상등을 결정할 수 있을 정도로 검사를 해야 한다. A칸에 들어갈 말은 무엇인가?) \n ===> 20%\n \n14. Which of the followings is (are) acceptance tolerance of screen height linearity in instrument? A\n (다음 중 어느 것이 장비의 스크린 높이 직선상의 허용 오차인가?)\n A. ±5% of full screen height (스크린 전체 크기의 ±5%)\n B. ±7% of full seen height (스크린 전체 크기의 ±7%)\n C. ±10% of full screen height (스크린 전체 크기의 ±10%)\n D. none of the above (위에 해당사항 없음)\n* Following questions(No.15) are prepared according toAPI 5L\n (15번은 API 5L에 의거 준비되었다.\n15. When ultrasonic testing EW seam welds, use a notch as a reference indicators. What is the depth of the notch?\n (EW seam 용접부를 UT검사할 때, 대비반사체는 노치를 사용하려 한다. 노치의 깊이는 얼마인가?)\n A. 12.5% of thickness B. 5% of thickness\n C. 10% of thickness D. 2% of thickness",
+      "all of the above (위의 모두 해당 사항임)\n SPECIFIC(A-TYPE)\n \n문제\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n해답\nC\nA\nB\nC\nA\nA\nD\nA\nA\nC\n문제\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n해답\n¼T\nA\nA\nC\nC\nB\nA\n합격\n불합격\n#1\n문제\n21\n22\n23\n24\n25\n해답\n#2\nSNT-TC-1A\nA \nD\nC\n #1 \n , \n \n θ = 31°\n #2\n d = 2t - WF cos θ\n = 2․40-100․cos 45°\n = 9.3 ㎜\n15. Which of the followings is primary reference level of angle beam calibration with notch for pipe?\n (다음 중 노치를 이용한 배관에 대한 사각탐상의 주기준 감도는?) B \n A. 50% ± 5% B. 80% ± 5%\n C. 50% + 6dB"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 19,
     "level": "Level II",
     "method": "UT",
     "category": "Specific",
@@ -269,7 +285,7 @@
     "answer": 2
   },
   {
-    "id": 19,
+    "id": 20,
     "level": "Level II",
     "method": "UT",
     "category": "Specific",
@@ -284,7 +300,7 @@
     "answer": 1
   },
   {
-    "id": 20,
+    "id": 21,
     "level": "Level II",
     "method": "UT",
     "category": "Specific",
@@ -303,7 +319,7 @@
     "answer": 0
   },
   {
-    "id": 21,
+    "id": 22,
     "level": "Level II",
     "method": "UT",
     "category": "Specific",
@@ -318,7 +334,7 @@
     "answer": 1
   },
   {
-    "id": 22,
+    "id": 23,
     "level": "Level II",
     "method": "UT",
     "category": "Specific",
@@ -333,7 +349,7 @@
     "answer": 2
   },
   {
-    "id": 23,
+    "id": 24,
     "level": "Level II",
     "method": "UT",
     "category": "Specific",
@@ -348,7 +364,7 @@
     "answer": 1
   },
   {
-    "id": 24,
+    "id": 25,
     "level": "Level II",
     "method": "UT",
     "category": "Specific",
@@ -373,7 +389,7 @@
       "1T"
     ],
     "answer": 0,
-    "id": 25
+    "id": 26
   },
   {
     "level": "Level II",
@@ -388,6 +404,6 @@
       "60°"
     ],
     "answer": 1,
-    "id": 26
+    "id": 27
   }
 ]
