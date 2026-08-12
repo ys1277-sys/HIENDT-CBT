@@ -32,6 +32,15 @@ jobs:
 
       - name: Build
         run: npm run build
+        env:
+          # 이 값이 없으면 빌드 결과에서 import.meta.env.VITE_ADMIN_PASSWORD 가
+          # undefined 가 되어 관리자 화면에 아예 들어갈 수 없다.
+          # 저장소 Settings > Secrets and variables > Actions 에 등록해야 한다.
+          #
+          # 주의: Vite 의 VITE_ 변수는 번들에 평문으로 박힌다.
+          #       공개 사이트에 그대로 노출되므로 임시 방편이다.
+          #       제대로 하려면 관리자 인증을 서버(Apps Script)로 옮겨야 한다.
+          VITE_ADMIN_PASSWORD: ${{ secrets.VITE_ADMIN_PASSWORD }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
