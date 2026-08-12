@@ -106,11 +106,20 @@ function Admin({ onBack }) {
   // =====================================================
   // 정렬 (기본: 최신순 / 토글 시: 점수순)
   // =====================================================
-  filteredResults.sort((a, b) => {
-    const dateA = new Date(a.date || a.timestamp || 0).getTime();
-    const dateB = new Date(b.date || b.timestamp || 0).getTime();
-    return dateB - dateA; // 최신이 위로
-  });
+  /*
+   * date 는 "2026. 8. 12. 오후 3:04:12" 같은 로케일 문자열이라 new Date() 로
+   * 되파싱되지 않는다(Invalid Date -> NaN). 예전에는 이걸 먼저 보는 바람에
+   * 비교값이 늘 NaN 이 되어 최신순 정렬이 전혀 동작하지 않았다.
+   * ISO 형식인 timestamp 를 우선한다.
+   */
+  const timeOf = (r) => {
+    const t = new Date(r.timestamp || 0).getTime();
+    if (Number.isFinite(t) && t > 0) return t;
+    const d = new Date(r.date || 0).getTime();
+    return Number.isFinite(d) ? d : 0;
+  };
+
+  filteredResults.sort((a, b) => timeOf(b) - timeOf(a)); // 최신이 위로
 
   if (sortScore) {
     filteredResults.sort(

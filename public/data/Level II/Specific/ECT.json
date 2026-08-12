@@ -3,21 +3,33 @@
     "id": 1,
     "question": "Nonmetallic solid material entrapped in weld metal or between weld metal and base metal is called:",
     "question_kr": "용접금속이나 용접금속과 모재 사이에 비금속 고체 물질이 갇혀 있는 것을 무엇이라 하는가?",
-    "options": [],
-    "answer": "Slag",
+    "options": [
+      "Slag",
+      "Porosity",
+      "Lamination",
+      "Undercut"
+    ],
+    "answer": 0,
     "subject": "ECT",
     "level": "II",
-    "category": "SPECIFIC"
+    "category": "SPECIFIC",
+    "answer_text_original": "Slag"
   },
   {
     "id": 2,
     "question": "Large porosity, pipe and nonmetallic inclusions in slabs or billets are flattened and spread out during rolling and forging processes. This discontinuity is called:",
     "question_kr": "압연 및 단조 과정에서 긴 기공, 파이프, 비금속 개재물이 평평하게 퍼진 불연속은 무엇인가?",
-    "options": [],
-    "answer": "Lamination",
+    "options": [
+      "Slag inclusion",
+      "Lamination",
+      "Cold shut",
+      "Hot tear"
+    ],
+    "answer": 1,
     "subject": "ECT",
     "level": "II",
-    "category": "SPECIFIC"
+    "category": "SPECIFIC",
+    "answer_text_original": "Lamination"
   },
   {
     "id": 3,
@@ -68,31 +80,49 @@
     "id": 6,
     "question": "Who shall evaluate the 'continuing satisfactory performances record'?",
     "question_kr": "'연속적인 만족스러운 수행 기록'의 평가는 누가 하는가?",
-    "options": [],
-    "answer": "Level III",
+    "options": [
+      "Level I",
+      "Level II",
+      "Level III",
+      "The customer"
+    ],
+    "answer": 2,
     "subject": "ECT",
     "level": "II",
-    "category": "SPECIFIC"
+    "category": "SPECIFIC",
+    "answer_text_original": "Level III"
   },
   {
     "id": 7,
     "question": "For Level II, minimum number of questions of general examination is:",
     "question_kr": "Level II 일반시험의 최소 문항 수는?",
-    "options": [],
-    "answer": "40",
+    "options": [
+      "20",
+      "30",
+      "40",
+      "50"
+    ],
+    "answer": 2,
     "subject": "ECT",
     "level": "II",
-    "category": "SPECIFIC"
+    "category": "SPECIFIC",
+    "answer_text_original": "40"
   },
   {
     "id": 8,
     "question": "All level personnel and candidate shall be vision examination by:",
     "question_kr": "모든 Level 요원과 응시자는 누구에 의해 시력 검사를 받아야 하는가?",
-    "options": [],
-    "answer": "Level III",
+    "options": [
+      "Level I",
+      "Level II",
+      "Level III",
+      "An outside medical institution"
+    ],
+    "answer": 2,
     "subject": "ECT",
     "level": "II",
-    "category": "SPECIFIC"
+    "category": "SPECIFIC",
+    "answer_text_original": "Level III"
   },
   {
     "id": 9,
@@ -156,82 +186,132 @@
   },
   {
     "id": 13,
-    "question": "The procedure HIE-NDT-ET-P11 specifies fill factor. Write this (include formula).",
+    "question": "What is the minimum fill factor specified in procedure HIE-NDT-ET-P11?",
     "question_kr": "HIE-NDT-ET-P11 절차서에서 규정하는 충진율은? (공식 포함)",
-    "options": [],
-    "answer": "Minimum 80% over (Fill factor formula required)",
+    "options": [
+      "Minimum 70%",
+      "Minimum 75%",
+      "Minimum 80%",
+      "Minimum 85%"
+    ],
+    "answer": 2,
     "subject": "ECT",
     "level": "II",
-    "category": "SPECIFIC"
+    "category": "SPECIFIC",
+    "question_original": "The procedure HIE-NDT-ET-P11 specifies fill factor. Write this (include formula).",
+    "answer_text_original": "Minimum 80% over (Fill factor formula required)"
   },
   {
     "id": 14,
-    "question": "Describe NDE personnel requirements in accordance with procedure HIE-NDT-ET-P11.",
+    "question": "In accordance with procedure HIE-NDT-ET-P11, NDE personnel shall be qualified in accordance with:",
     "question_kr": "HIE-NDT-ET-P11 절차서에 따른 NDE 요원의 요구사항은?",
-    "options": [],
-    "answer": "The personnel shall be qualified in accordance with HIE procedure (HIE-QP-E01)",
+    "options": [
+      "HIE-QP-E01",
+      "HIE-NDT-ET-P11",
+      "SNT-TC-1A only",
+      "ASME Sec.V Art.8"
+    ],
+    "answer": 0,
     "subject": "ECT",
     "level": "II",
-    "category": "SPECIFIC"
+    "category": "SPECIFIC",
+    "question_original": "Describe NDE personnel requirements in accordance with procedure HIE-NDT-ET-P11.",
+    "answer_text_original": "The personnel shall be qualified in accordance with HIE procedure (HIE-QP-E01)"
   },
   {
     "id": 15,
     "question": "Adjust the ET instrument for a basis frequency chosen so that the phase angle of a signal from the (____) is between (__) deg. and (__) deg. rotated clockwise from the signal of the through-the-wall hole.",
     "question_kr": "기본 주파수 교정 시 관통홀 신호 기준으로 위상각을 조정하는 기준은?",
-    "options": [],
-    "answer": "Four 20% flat bottom holes, 50°, 120°",
+    "options": [
+      "Four 20% flat bottom holes, 50°, 120°",
+      "Four through-wall drilled holes, 30°, 90°",
+      "Four 20% flat bottom holes, 30°, 90°",
+      "Four through-wall drilled holes, 50°, 120°"
+    ],
+    "answer": 0,
     "subject": "ECT",
     "level": "II",
-    "category": "SPECIFIC"
+    "category": "SPECIFIC",
+    "answer_text_original": "Four 20% flat bottom holes, 50°, 120°"
   },
   {
     "id": 16,
     "question": "The trace display for the (____) holes shall be generated when pulling the probe in the directions: down and to the left first, followed by an upward motion to the right, followed by a downward motion returning to the point of origin.",
     "question_kr": "프로브 이동 방향에 따른 추적 표시 대상 홀은?",
-    "options": [],
-    "answer": "Four 20% flat bottom holes",
+    "options": [
+      "Four 20% flat bottom",
+      "Four through-wall drilled",
+      "The 10% deep ID groove",
+      "The 20% deep OD groove"
+    ],
+    "answer": 0,
     "subject": "ECT",
     "level": "II",
-    "category": "SPECIFIC"
+    "category": "SPECIFIC",
+    "answer_text_original": "Four 20% flat bottom holes"
   },
   {
     "id": 17,
     "question": "The sensitivity shall be adjusted to produce a minimum peak-to-peak signal of (__) V from the four 20% flat bottom holes or (__) V from the four through-wall drilled holes.",
     "question_kr": "감도 조정 시 평저공 및 관통홀의 최소 Peak-to-Peak 신호 전압은?",
-    "options": [],
-    "answer": "4V, 6V",
+    "options": [
+      "2V, 4V",
+      "4V, 6V",
+      "6V, 8V",
+      "5V, 10V"
+    ],
+    "answer": 1,
     "subject": "ECT",
     "level": "II",
-    "category": "SPECIFIC"
+    "category": "SPECIFIC",
+    "answer_text_original": "4V, 6V"
   },
   {
     "id": 18,
     "question": "Adjust the phase or rotation control so that the signal response due to (____) or the (__)% deep circumferential inside diameter groove or both is positioned along the horizontal axis of the display (__) deg.",
     "question_kr": "위상 조정 시 화면 수평축에 위치시키는 기준 신호는?",
-    "options": [],
-    "answer": "Probe motion, 10%, ±5°",
+    "options": [
+      "Probe motion, 10%, ±5°",
+      "Probe motion, 20%, ±10°",
+      "Through-wall hole, 10%, ±5°",
+      "Through-wall hole, 20%, ±10°"
+    ],
+    "answer": 0,
     "subject": "ECT",
     "level": "II",
-    "category": "SPECIFIC"
+    "category": "SPECIFIC",
+    "answer_text_original": "Probe motion, 10%, ±5°"
   },
   {
     "id": 19,
     "question": "In accordance with HIE-NDT-ET-P11, the defect record tube shall be:",
     "question_kr": "HIE-NDT-ET-P11에 따른 결함 기록 튜브는?",
-    "options": [],
-    "answer": "Defects are generally recorded when they are 20% or greater. This may be changed by agreement with the customer.",
+    "options": [
+      "Defects are recorded when they are 10% or greater",
+      "Defects are recorded when they are 20% or greater",
+      "Defects are recorded when they are 30% or greater",
+      "All defects shall be recorded regardless of depth"
+    ],
+    "answer": 1,
     "subject": "ECT",
     "level": "II",
-    "category": "SPECIFIC"
+    "category": "SPECIFIC",
+    "answer_text_original": "Defects are generally recorded when they are 20% or greater. This may be changed by agreement with the customer."
   },
   {
     "id": 20,
     "question": "In ASME Sec. V, Art. 8, what is the nominal probe speed during examination?",
     "question_kr": "ASME Sec.V Art.8에서 검사 중 일반적인 프로브 속도는?",
-    "options": [],
-    "answer": "Not exceed 14 in/sec (356 mm/sec)",
+    "options": [
+      "Not exceed 10 in/sec (254 mm/sec)",
+      "Not exceed 12 in/sec (305 mm/sec)",
+      "Not exceed 14 in/sec (356 mm/sec)",
+      "Not exceed 16 in/sec (406 mm/sec)"
+    ],
+    "answer": 2,
     "subject": "ECT",
     "level": "II",
-    "category": "SPECIFIC"
+    "category": "SPECIFIC",
+    "answer_text_original": "Not exceed 14 in/sec (356 mm/sec)"
   }
 ]

@@ -20,6 +20,14 @@ function Result({
 
   const [print,setPrint] = useState(false);
 
+  /*
+   * 결과 전송 상태.
+   * 예전에는 실패해도 콘솔에만 찍혀서, 응시자는 정상 제출된 줄 알고 나가고
+   * 관리자 화면에는 그 기록이 없었다. 화면에 드러내고 재전송할 수 있게 한다.
+   */
+  const [sendState,setSendState] = useState("sending");   // sending | ok | failed
+  const [sendError,setSendError] = useState("");
+
 
 
   let correct = 0;
@@ -106,18 +114,15 @@ function Result({
 
 
 
-  useEffect(()=>{
+  const SHEET_URL =
+    "https://script.google.com/macros/s/AKfycbxs_whBI5KfBxKaDreav9PL3_rHX847OdwwLtc8uwMIN9fVOAozGHdpzXmQRsa7PO6i/exec";
 
 
-    if(sent.current) return;
+  function buildRecord() {
 
+    const now = new Date();
 
-    sent.current = true;
-
-
-
-    const fullData = {
-
+    return {
 
       name,
 
@@ -137,122 +142,111 @@ function Result({
       result,
 
 
-      date:
+      /*
+       * date 는 사람이 읽는 값이라 로케일 문자열이지만,
+       * "2026. 8. 12. 오후 3:04:12" 는 new Date() 로 되파싱되지 않는다.
+       * 관리자 화면의 최신순 정렬이 이것 때문에 동작하지 않았으므로
+       * 정렬용 timestamp 를 따로 넣는다.
+       */
+      date: now.toLocaleString(),
 
-        new Date()
-        .toLocaleString(),
-
+      timestamp: now.toISOString(),
 
 
       questions,
 
       answers
 
-
-
     };
 
+  }
 
 
+  // 로컬 보관. 전송이 실패해도 기록이 남아 있도록 한다.
+  function saveLocally(record) {
+
+    try {
+
+      localStorage.setItem("lastExam", JSON.stringify(record));
+
+      const old =
+        JSON.parse(localStorage.getItem("results") || "[]");
+
+      old.push(record);
+
+      // 무한히 쌓이면 저장 한도에 걸린다. 최근 것만 남긴다.
+      const trimmed = old.slice(-30);
+
+      localStorage.setItem("results", JSON.stringify(trimmed));
+
+    }
+    catch (err) {
+
+      // 저장 한도 초과 등. 서버 전송까지 막지는 않는다.
+      console.warn("로컬 저장 실패", err);
+
+    }
+
+  }
 
 
-    // ======================
-    // local 저장
-    // ======================
+  function sendToSheet(record) {
 
+    setSendState("sending");
+    setSendError("");
 
-    localStorage.setItem(
+    return fetch(SHEET_URL, {
 
-      "lastExam",
+      method: "POST",
 
-      JSON.stringify(fullData)
-
-    );
-
-
-
-
-
-    const old =
-
-      JSON.parse(
-
-        localStorage.getItem("results")
-
-        ||
-
-        "[]"
-
-      );
-
-
-
-    old.push(fullData);
-
-
-
-    localStorage.setItem(
-
-      "results",
-
-      JSON.stringify(old)
-
-    );
-
-
-
-
-
-
-
-    // ======================
-    // Google Sheet 저장
-    // ======================
-
-
-    fetch(
-
-      "https://script.google.com/macros/s/AKfycbxs_whBI5KfBxKaDreav9PL3_rHX847OdwwLtc8uwMIN9fVOAozGHdpzXmQRsa7PO6i/exec",
-
-      {
-
-        method:"POST",
-
-        body:JSON.stringify(fullData)
-
-      }
-
-    )
-
-
-    .then(res=>res.text())
-
-
-    .then(data=>{
-
-
-      console.log(
-        "Google 저장 완료",
-        data
-      );
-
+      body: JSON.stringify(record)
 
     })
+      .then(res => {
+
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+        return res.text();
+
+      })
+      .then(data => {
+
+        console.log("Google 저장 완료", data);
+
+        setSendState("ok");
+
+      })
+      .catch(err => {
+
+        console.error("Google 저장 실패", err);
+
+        setSendState("failed");
+        setSendError(err.message || String(err));
+
+      });
+
+  }
 
 
-    .catch(err=>{
+  useEffect(()=>{
 
 
-      console.log(
-        "Google 저장 실패",
-        err
-      );
+    if(sent.current) return;
 
 
-    });
+    sent.current = true;
 
 
 
+    const fullData = buildRecord();
+
+
+
+
+
+    saveLocally(fullData);
+
+    sendToSheet(fullData);
 
 
   },[]);
@@ -350,6 +344,14 @@ function Result({
           </h2>
 
 
+          {/* 시험지 규정: 과락 70%, 자격 취득은 종합 80% 이상 */}
+          <p className="result-criteria">
+
+            과락 기준 70% (자격 취득에는 전 과목 종합 80% 이상이 필요합니다)
+
+          </p>
+
+
 
 
           <p>
@@ -371,6 +373,44 @@ function Result({
                 자동 채점 결과가 실제와 다를 수 있으니 관리자 확인이 필요합니다.
 
               </p>
+
+            )
+          }
+
+
+
+
+          {/* 결과 전송 상태 — 실패를 응시자·감독자가 바로 알 수 있어야 한다 */}
+          {
+            sendState === "sending" && (
+              <p className="send-status sending">결과 저장 중...</p>
+            )
+          }
+
+          {
+            sendState === "ok" && (
+              <p className="send-status ok">결과가 저장되었습니다.</p>
+            )
+          }
+
+          {
+            sendState === "failed" && (
+
+              <div className="send-status failed">
+
+                <p>
+                  결과 저장에 실패했습니다. ({sendError})
+                  <br />
+                  이 화면을 닫기 전에 다시 시도해 주세요.
+                </p>
+
+                <button
+                  onClick={() => sendToSheet(buildRecord())}
+                >
+                  다시 저장
+                </button>
+
+              </div>
 
             )
           }

@@ -8,15 +8,27 @@
       "id": 1,
       "question": "Nonmetallic solid material entrapped in weld metal or between weld metal and base metal is called.",
       "korean": "용접금속이나 용접금속과 모재금속 사이에 비금속 고체 물질이 갇혀있는 것을 무엇이라 하는가?",
-      "options": [],
-      "answer": "Slag"
+      "options": [
+        "Slag",
+        "Porosity",
+        "Lamination",
+        "Undercut"
+      ],
+      "answer": 0,
+      "answer_text_original": "Slag"
     },
     {
       "id": 2,
       "question": "Large porosity, pipe and nonmetallic inclusions in slabs or billets are flattened and spread out during the rolling and forging processes. This discontinuity is called.",
       "korean": "긴 기포로, 압연이나 단조 공정 중 철판이나 빌렛 속의 파이프와 비금속 개재물이 평평해지고 넓혀지게 된 불연속을 무엇이라 하는가?",
-      "options": [],
-      "answer": "Lamination"
+      "options": [
+        "Slag inclusion",
+        "Lamination",
+        "Cold shut",
+        "Hot tear"
+      ],
+      "answer": 1,
+      "answer_text_original": "Lamination"
     },
     {
       "id": 3,
@@ -58,22 +70,40 @@
       "id": 6,
       "question": "Who shall be evaluation of 'continuing satisfactory performances record'?",
       "korean": "연속적인 만족스러운 수행 기록의 평가는 누가 하는가?",
-      "options": [],
-      "answer": "Level III"
+      "options": [
+        "Level I",
+        "Level II",
+        "Level III",
+        "The customer"
+      ],
+      "answer": 2,
+      "answer_text_original": "Level III"
     },
     {
       "id": 7,
       "question": "For RFT Level II, minimum number of questions of general & specific examination is:",
       "korean": "RFT Level II 일반 및 전문 시험의 최소 문항 수는?",
-      "options": [],
-      "answer": "General: 40 / Specific: 20"
+      "options": [
+        "General: 30 / Specific: 15",
+        "General: 40 / Specific: 20",
+        "General: 40 / Specific: 30",
+        "General: 50 / Specific: 25"
+      ],
+      "answer": 1,
+      "answer_text_original": "General: 40 / Specific: 20"
     },
     {
       "id": 8,
       "question": "What kind of vision test?",
       "korean": "시력 검사의 종류는 무엇인가?",
-      "options": [],
-      "answer": "Near vision acuity, Color vision, Shade of gray"
+      "options": [
+        "Near vision acuity only",
+        "Near vision acuity and color vision",
+        "Near vision acuity, color vision, shade of gray",
+        "Far vision acuity and color vision"
+      ],
+      "answer": 2,
+      "answer_text_original": "Near vision acuity, Color vision, Shade of gray"
     },
     {
       "id": 9,
@@ -128,22 +158,40 @@
       "id": 13,
       "question": "How much the minimum fill factor by the procedure HIE-NDT-ET-P11?",
       "korean": "HIE-NDT-ET-P11 절차서에서 최소 충진율은?",
-      "options": [],
-      "answer": "Minimum 75%"
+      "options": [
+        "Minimum 65%",
+        "Minimum 70%",
+        "Minimum 75%",
+        "Minimum 80%"
+      ],
+      "answer": 2,
+      "answer_text_original": "Minimum 75%"
     },
     {
       "id": 14,
       "question": "Describe NDE personnel requirements in accordance with the procedure HIE-NDT-ET-P11.",
       "korean": "HIE-NDT-ET-P11 절차서에 따른 NDE 요원 요구사항이 기술된 문서는?",
-      "options": [],
-      "answer": "HIE-QP-E01"
+      "options": [
+        "HIE-QP-E01",
+        "HIE-NDT-ET-P11",
+        "SNT-TC-1A",
+        "CP-189"
+      ],
+      "answer": 0,
+      "answer_text_original": "HIE-QP-E01"
     },
     {
       "id": 15,
       "question": "In the procedure HIE-NDT-ET-P11, what is the nominal probe speed during examination?",
       "korean": "HIE-NDT-ET-P11 절차서에서 시험 중 일반적인 프로브 속도는?",
-      "options": [],
-      "answer": "100 ~ 500 mm/sec"
+      "options": [
+        "50 ~ 250 mm/sec",
+        "100 ~ 500 mm/sec",
+        "200 ~ 700 mm/sec",
+        "300 ~ 1000 mm/sec"
+      ],
+      "answer": 1,
+      "answer_text_original": "100 ~ 500 mm/sec"
     },
     {
       "id": 16,
@@ -185,15 +233,28 @@
       "id": 19,
       "question": "The following figure shows the structure of a typical RFT probe. Fill in the blanks.",
       "korean": "일반적인 RFT 탐촉자의 구성에서 빈 칸을 채우시오.",
-      "options": [],
-      "answer": "a) Exciter coil / b) Detector coil"
+      "options": [
+        "a) Exciter coil / b) Detector coil",
+        "a) Detector coil / b) Exciter coil",
+        "a) Primary coil / b) Shield coil",
+        "a) Drive coil / b) Reference coil"
+      ],
+      "answer": 0,
+      "answer_text_original": "a) Exciter coil / b) Detector coil",
+      "image": "RFT_SPECIFIC_Q19.svg"
     },
     {
       "id": 20,
       "question": "What is the name of the equipment and software used for the RFT in our company?",
       "korean": "우리 회사에서 RFT 검사에 사용되는 장비와 소프트웨어의 이름은 무엇인가?",
-      "options": [],
-      "answer": "MS-5800-R / Multi-View"
+      "options": [
+        "MS-5800-E / Magnifi",
+        "MS-5800-R / Multi-View",
+        "OmniScan MX / TomoView",
+        "Nortec 600 / ES Beam"
+      ],
+      "answer": 1,
+      "answer_text_original": "MS-5800-R / Multi-View"
     }
   ]
 }

@@ -24,6 +24,14 @@ function Quiz({
   const [showResult, setShowResult] = useState(false);
   const [showCalc, setShowCalc] = useState(false);
 
+  /*
+   * "불러오는 중" 과 "못 불러옴" 을 구분한다.
+   * 예전에는 questions.length === 0 하나로 두 상태를 같이 표현해서,
+   * 불러오기에 실패하면 로딩 화면에 갇혀 새로고침 말고는 방법이 없었다.
+   */
+  const [loading, setLoading] = useState(true);
+  const [loadError, setLoadError] = useState("");
+
   const numberCircle = [
     "①",
     "②",
@@ -33,7 +41,12 @@ function Quiz({
 
   useEffect(() => {
 
+    let cancelled = false;
+
     async function loadQuestions() {
+
+      setLoading(true);
+      setLoadError("");
 
       try {
 
@@ -60,11 +73,9 @@ function Quiz({
 
         if (!exam) {
 
-          alert(
-            "시험 데이터를 찾을 수 없습니다."
+          throw new Error(
+            `시험 데이터를 찾을 수 없습니다. (${level} / ${method} ${subject})`
           );
-
-          return;
 
         }
 
@@ -79,6 +90,19 @@ function Quiz({
 
         const res =
           await fetch(url);
+
+        /*
+         * fetch 는 404 에 예외를 던지지 않는다.
+         * GitHub Pages 는 없는 파일에 404 HTML 을 주기 때문에
+         * 이 검사가 없으면 res.json() 이 깨지면서 원인을 알 수 없게 된다.
+         */
+        if (!res.ok) {
+
+          throw new Error(
+            `문제 파일을 불러오지 못했습니다. (HTTP ${res.status})\n${exam.file}`
+          );
+
+        }
 
         const data =
           await res.json();
@@ -112,22 +136,42 @@ function Quiz({
           list.length
         );
 
+        if (cancelled) return;
+
+        if (list.length === 0) {
+
+          throw new Error(
+            `출제할 문제가 없습니다.\n${exam.file}`
+          );
+
+        }
+
         setQuestions(list);
+        setCurrent(0);
 
       }
       catch (err) {
 
         console.error(err);
 
-        alert(
-          "문제를 불러오지 못했습니다."
-        );
+        if (!cancelled) {
+          setQuestions([]);
+          setLoadError(err.message || "문제를 불러오지 못했습니다.");
+        }
+
+      }
+      finally {
+
+        if (!cancelled) setLoading(false);
 
       }
 
     }
 
     loadQuestions();
+
+    // 시험 종목이 바뀌면 먼저 시작한 요청의 결과는 버린다
+    return () => { cancelled = true; };
 
   }, [
     level,
@@ -191,6 +235,30 @@ function Quiz({
   }
 
 
+  // 종료하면 입력한 답이 모두 사라지므로 한 번 확인한다
+  function exitExam() {
+
+    const answered =
+      questions.filter(
+        (q, index) => isAnswered(q, answers[index])
+      ).length;
+
+    if (answered > 0) {
+
+      const ok =
+        window.confirm(
+          `입력한 답 ${answered}개가 사라집니다. 시험을 종료할까요?`
+        );
+
+      if (!ok) return;
+
+    }
+
+    onBack();
+
+  }
+
+
   function submitExam() {
 
     const unanswered =
@@ -215,7 +283,7 @@ function Quiz({
   }
 
 
-  if (questions.length === 0) {
+  if (loading) {
 
     return (
 
@@ -224,6 +292,37 @@ function Quiz({
         <div className="cbt-container">
 
           문제 불러오는 중...
+
+        </div>
+
+      </div>
+
+    );
+
+  }
+
+
+  if (loadError || questions.length === 0) {
+
+    return (
+
+      <div className="cbt-page">
+
+        <div className="cbt-container">
+
+          <div className="load-error">
+
+            <h2>문제를 불러오지 못했습니다</h2>
+
+            <p>{loadError || "출제할 문제가 없습니다."}</p>
+
+            <button onClick={onBack}>
+
+              처음 화면으로
+
+            </button>
+
+          </div>
 
         </div>
 
@@ -261,8 +360,12 @@ function Quiz({
   }
 
 
+  /*
+   * current 가 범위를 벗어나면 q 가 undefined 가 되어 바로 아래에서 크래시한다.
+   * 문제 목록이 바뀌는 순간을 방어한다.
+   */
   const q =
-    questions[current];
+    questions[current] || questions[0];
 
 
   const qType = questionType(q);
@@ -334,9 +437,10 @@ function Quiz({
 
               <div className="question-title">
 
+                {/* 예전에는 numberCircle[0] 이 박혀 있어 몇 번 문항이든 ① 로 보였다 */}
                 <span className="question-num">
 
-                  {numberCircle[0]}
+                  {current + 1}.
 
                 </span>
 
@@ -593,7 +697,7 @@ function Quiz({
 
 
               <button
-                onClick={onBack}
+                onClick={exitExam}
               >
 
                 종료
