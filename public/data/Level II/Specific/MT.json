@@ -370,10 +370,10 @@
     "id": 31,
     "question": "What are the minimum and maximum magnetizing currents for use with prods, according to material thickness?\n프로드법에서 재료 두께에 따른 자화전류의 최소·최대값은?",
     "options": [
-      "두께 ¾in. 이하 : 90~110 A/in.,  ¾in. 초과 : 100~125 A/in.",
-      "두께 ¾in. 이하 : 100~125 A/in.,  ¾in. 초과 : 90~110 A/in.",
-      "두께와 무관하게 90~110 A/in.",
-      "두께 ¾in. 이하 : 70~90 A/in.,  ¾in. 초과 : 90~110 A/in."
+      "Under ¾ in. thick : 90–110 A/in.,  ¾ in. and over : 100–125 A/in.\n두께 ¾in. 미만 : 90~110 A/in.,  ¾in. 이상 : 100~125 A/in.",
+      "Under ¾ in. thick : 100–125 A/in.,  ¾ in. and over : 90–110 A/in.\n두께 ¾in. 미만 : 100~125 A/in.,  ¾in. 이상 : 90~110 A/in.",
+      "90–110 A/in. regardless of thickness\n두께와 무관하게 90~110 A/in.",
+      "Under ¾ in. thick : 70–90 A/in.,  ¾ in. and over : 90–110 A/in.\n두께 ¾in. 미만 : 70~90 A/in.,  ¾in. 이상 : 90~110 A/in."
     ],
     "answer": 0
   },
