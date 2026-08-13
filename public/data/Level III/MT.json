@@ -922,7 +922,7 @@
       "along one axis using a coil",
       "two shots using a coil at the X and Y axis",
       "two head shots along the X and Y axis",
-      "induced current shots along X, Y and Z axis, rotating 360 degrees during each \n shot\n* Select the answers to question 31 through 45 relating to application and establishment of techniques and procedures for magnetic test."
+      "induced current shots along X, Y and Z axis, rotating 360 degrees during each \n shot"
     ],
     "answer": 3,
     "level": "Level III",
@@ -1132,7 +1132,7 @@
       "demagnetized then retested",
       "retested after stress relieving",
       "retested in the opposite direction",
-      "remagnetized at a higher amperage\n* Select the answers to question 46 through 65 relating to capability for interpreting codes, standards, and specifications relating to the magnetic test."
+      "remagnetized at a higher amperage"
     ],
     "answer": 1,
     "level": "Level III",
@@ -1413,7 +1413,7 @@
     "options": [
       "1/5 second",
       "1/2 second",
-      "1 second\n* The next 6 questions apply to ASME Section Ⅷ Div. 1",
+      "1 second",
       "1 minute",
       "None of the above"
     ],
@@ -1424,12 +1424,18 @@
   },
   {
     "id": 96,
-    "question": "Each magnetic particle examiner has vision, with correction if necessary, to enable him to read a Jeager Type No. 2 Standard Chart at a distance of not less than ________.",
-    "options": [],
-    "answer": "12 in.",
+    "question": "Each magnetic particle examiner has vision, with correction if necessary, to enable him to read a Jeager Type No. 2 Standard Chart at a distance of not less than ________.\n자분탐상 검사자는 필요시 교정시력으로 Jaeger Type No. 2 표준 시력표를 최소 얼마의 거리에서 읽을 수 있어야 하는가?",
+    "options": [
+      "6 in. (150 mm)",
+      "12 in. (300 mm)",
+      "18 in. (450 mm)",
+      "24 in. (600 mm)"
+    ],
+    "answer": 1,
     "level": "Level III",
     "method": "MT",
-    "source": "MTM-III.HWP"
+    "source": "MTM-III.HWP",
+    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다."
   },
   {
     "id": 97,
@@ -1443,16 +1449,23 @@
     "answer": 3,
     "level": "Level III",
     "method": "MT",
-    "source": "MTM-III.HWP"
+    "source": "MTM-III.HWP",
+    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다."
   },
   {
     "id": 98,
-    "question": "For steel casting, surface indications determined by MT shall be compared with those indicated in ________(Reference Photographs for Magnetic Particle Indications on Ferrous Castings). a. ASTM E 150b. ASTM E 125 c. ASTM E 446 d. ASTM E 179",
-    "options": [],
-    "answer": "b",
+    "question": "For steel casting, surface indications determined by MT shall be compared with those indicated in ________(Reference Photographs for Magnetic Particle Indications on Ferrous Castings).\n주강품에서 자분탐상으로 판정한 표면 지시는 무엇에 제시된 것과 비교해야 하는가? (주철 자분지시 참조사진)",
+    "options": [
+      "ASTM E 150",
+      "ASTM E 125",
+      "ASTM E 446",
+      "ASTM E 179"
+    ],
+    "answer": 1,
     "level": "Level III",
     "method": "MT",
-    "source": "MTM-III.HWP"
+    "source": "MTM-III.HWP",
+    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다."
   },
   {
     "id": 99,
@@ -1466,34 +1479,53 @@
     "answer": 3,
     "level": "Level III",
     "method": "MT",
-    "source": "MTM-III.HWP"
+    "source": "MTM-III.HWP",
+    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다."
   },
   {
     "id": 100,
-    "question": "What is the minimum size of indication that shall be considered relevant?",
-    "options": [],
-    "answer": "1/16 in. (1.5 mm)",
+    "question": "What is the minimum size of indication that shall be considered relevant?\n관련 지시로 간주해야 하는 지시의 최소 크기는?",
+    "options": [
+      "1/32 in. (0.8 mm)",
+      "1/16 in. (1.5 mm)",
+      "1/8 in. (3 mm)",
+      "3/16 in. (5 mm)"
+    ],
+    "answer": 1,
     "level": "Level III",
     "method": "MT",
-    "source": "MTM-III.HWP"
+    "source": "MTM-III.HWP",
+    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다."
   },
   {
     "id": 101,
-    "question": "What is the acceptable maximum size of rounded indications? * The next 4 questions apply to ASME Section Ⅷ Div. 2",
-    "options": [],
-    "answer": "3/16 in. (5 mm)",
+    "question": "What is the acceptable maximum size of rounded indications?\n원형 지시의 허용 최대 크기는?",
+    "options": [
+      "1/16 in. (1.5 mm)",
+      "1/8 in. (3 mm)",
+      "3/16 in. (5 mm)",
+      "1/4 in. (6 mm)"
+    ],
+    "answer": 2,
     "level": "Level III",
     "method": "MT",
-    "source": "MTM-III.HWP"
+    "source": "MTM-III.HWP",
+    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다."
   },
   {
     "id": 102,
-    "question": "What level personnel shall evaluate magnetic particle examination?",
-    "options": [],
-    "answer": "MT LEVEL Ⅱ,Ⅲ",
+    "question": "What level personnel shall evaluate magnetic particle examination?\n자분탐상검사의 평가는 어느 등급의 요원이 수행해야 하는가?",
+    "options": [
+      "MT Level Ⅰ만",
+      "MT Level Ⅰ, Ⅱ",
+      "MT Level Ⅱ, Ⅲ",
+      "MT Level Ⅲ만"
+    ],
+    "answer": 2,
     "level": "Level III",
     "method": "MT",
-    "source": "MTM-III.HWP"
+    "source": "MTM-III.HWP",
+    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 2.\n다음 문항은 ASME Section Ⅷ Div. 2 기준입니다."
   },
   {
     "id": 103,
@@ -1507,27 +1539,37 @@
     "answer": 1,
     "level": "Level III",
     "method": "MT",
-    "source": "MTM-III.HWP"
+    "source": "MTM-III.HWP",
+    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 2.\n다음 문항은 ASME Section Ⅷ Div. 2 기준입니다."
   },
   {
     "id": 104,
-    "question": "Which of NDT method shall be used to examine on all surface of the castings(nonmagnetic material)?",
-    "options": [],
-    "answer": "LPT",
+    "question": "Which of NDT method shall be used to examine on all surface of the castings(nonmagnetic material)?\n비자성 재료인 주조품의 전 표면을 검사할 때 사용해야 하는 비파괴검사법은?",
+    "options": [
+      "Magnetic particle testing (MT)",
+      "Liquid penetrant testing (PT)",
+      "Radiographic testing (RT)",
+      "Ultrasonic testing (UT)"
+    ],
+    "answer": 1,
     "level": "Level III",
     "method": "MT",
-    "source": "MTM-III.HWP"
+    "source": "MTM-III.HWP",
+    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 2.\n다음 문항은 ASME Section Ⅷ Div. 2 기준입니다."
   },
   {
     "id": 105,
-    "question": "For steel forgings, all accessible surface of forgings shall be examined by the magnetic particle method in accordance with Test Method ________. a. A 275b. A 578 c. E 250d. E 125 MTM - Ⅲ - B ANSWER SHEET 󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧 1 b 31 b 61 a 2 b 32 b 62 c 3 c 33 a 63 a 4 a 34 c 64 d 5 b 35 a 65 b 6 c 36 b 66 12 in. 7 d 37 d 67 d 8 d 38 a 68 b 9 c 39 c 69 d 10 d 40 d 70 1/16 in. (1.5 mm) 11 d 41 b 71 3/16 in. (5 mm) 12 c 42 c 72 MT LEVEL Ⅱ,Ⅲ 13 d 43 d 73 b 14 c 44 a 74 LPT 15 A 45 b 75 a 16 C 46 d 17 C 47 c 18 b 48 c 19 d 49 a 20 d 50 c 21 d 51 b 22 d 52 c 23 b 53 b 24 d 54 a 25 c 55 a 26 c 56 a 27 d 57 d 28 c 58 b 29 d 59 c 30 d 60 c",
+    "question": "For steel forgings, all accessible surface of forgings shall be examined by the magnetic particle method in accordance with Test Method ________.\n강 단조품에서 접근 가능한 모든 표면은 어떤 시험방법에 따라 자분탐상으로 검사해야 하는가?",
     "options": [
-      "Acceptable",
-      "Unacceptable"
+      "A 275",
+      "A 578",
+      "E 250",
+      "E 125"
     ],
     "answer": 0,
     "level": "Level III",
     "method": "MT",
-    "source": "MTM-III.HWP"
+    "source": "MTM-III.HWP",
+    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 2.\n다음 문항은 ASME Section Ⅷ Div. 2 기준입니다."
   }
 ]

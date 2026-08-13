@@ -992,7 +992,7 @@
       "Produce the abnormal test conditions in production item to be inspected, \n apply the procedure, and compare the results with the results under normal \n conditions",
       "Using a standard comparator block with a known crack pattern divided by \n machine groove, apply the normal procedure and conditions to one side of the \n groove in the block and apply the abnormal conditions and procedure changes \n to the other side of the groove. Visually compare the images of the crack \n pattern on both sides of the groove",
       "Have the penetrant residue analyzed for sulfur and halogens after the \n abnormal conditions have been applied to assure they remain within the \n limits of the applicable code or standard requirement",
-      "None of the above\n* Answers to questions 46 through 65 may use referenced sections of the ASME B & PV \n code (Latest Edition)"
+      "None of the above\n* Answers to"
     ],
     "answer": 3,
     "level": "Level III",
@@ -1067,7 +1067,7 @@
       "when a change is made in the type of precleaning materials.",
       "when a change is made in the type of penetrant materials.",
       "when personnel (operators) are changed.",
-      "none of the above.\nThe next 3 questions apply to this situation.\n A weld that is ½ inch wide and 6 inches long has been liquid penetrant tested \nin accordance with ASME Section Ⅲ Div. 1, Subsection NB."
+      "none of the above."
     ],
     "answer": [
       1,
@@ -1079,21 +1079,33 @@
   },
   {
     "id": 79,
-    "question": "What is the maximum acceptable number of relevant rounded indications in the weld? Answer",
-    "options": [],
-    "answer": "9",
+    "question": "What is the maximum acceptable number of relevant rounded indications in the weld?\n이 용접부에서 허용되는 관련 원형 지시의 최대 개수는?",
+    "options": [
+      "6",
+      "9",
+      "12",
+      "18"
+    ],
+    "answer": 1,
     "level": "Level III",
     "method": "PT",
-    "source": "PTM-III.HWP"
+    "source": "PTM-III.HWP",
+    "groupNote": "A weld that is ½ inch wide and 6 inches long has been liquid penetrant tested in accordance with ASME Section Ⅲ Div. 1, Subsection NB.\n폭 ½인치, 길이 6인치인 용접부를 ASME Section Ⅲ Div. 1, Subsection NB에 따라 침투탐상한 상황입니다."
   },
   {
     "id": 80,
-    "question": "What is the maximum acceptable size of a rounded indication in the weld? Answer",
-    "options": [],
-    "answer": "3/14\"",
+    "question": "What is the maximum acceptable size of a rounded indication in the weld?\n이 용접부에서 허용되는 원형 지시의 최대 크기는?",
+    "options": [
+      "1/16 in.",
+      "1/8 in.",
+      "3/16 in.",
+      "1/4 in."
+    ],
+    "answer": 2,
     "level": "Level III",
     "method": "PT",
-    "source": "PTM-III.HWP"
+    "source": "PTM-III.HWP",
+    "groupNote": "A weld that is ½ inch wide and 6 inches long has been liquid penetrant tested in accordance with ASME Section Ⅲ Div. 1, Subsection NB.\n폭 ½인치, 길이 6인치인 용접부를 ASME Section Ⅲ Div. 1, Subsection NB에 따라 침투탐상한 상황입니다."
   },
   {
     "id": 81,
@@ -1103,7 +1115,7 @@
       "two separate liquid penetrant comparator blocks are processed. One at the \n proposed temperature and the other within the 60oF to 125oF range.",
       "using the liquid penetrant comparator blocks is recommended but not \n mandatory.",
       "one liquid penetrant t comparator block is processed at the proposed \n temperature and the indications are photographed. The same block is cleaned \n and reprocessed within the 60oF to 125oF temperature range. the results are \n then compared with the photograph.",
-      "none of the above.\nThe next 3 questions apply to this situation.\n* A disc shaped casting 2 feet in diameter and 1 inch thick is liquid penetrant \ntested in accordance with ASME Section Ⅲ Div. 1, Subsection ND."
+      "none of the above."
     ],
     "answer": 0,
     "level": "Level III",
@@ -1112,21 +1124,33 @@
   },
   {
     "id": 82,
-    "question": "What is the maximum size of an acceptable linear indication? Answer",
-    "options": [],
-    "answer": "1/8\"",
+    "question": "What is the maximum size of an acceptable linear indication?\n허용되는 선형 지시의 최대 크기는?",
+    "options": [
+      "1/16 in.",
+      "1/8 in.",
+      "3/16 in.",
+      "1/4 in."
+    ],
+    "answer": 1,
     "level": "Level III",
     "method": "PT",
-    "source": "PTM-III.HWP"
+    "source": "PTM-III.HWP",
+    "groupNote": "A disc shaped casting 2 feet in diameter and 1 inch thick is liquid penetrant tested in accordance with ASME Section Ⅲ Div. 1, Subsection ND.\n지름 2피트, 두께 1인치인 원판형 주조품을 ASME Section Ⅲ Div. 1, Subsection ND에 따라 침투탐상한 상황입니다."
   },
   {
     "id": 83,
-    "question": "What is the maximum size of an acceptable rounded indication? Answer",
-    "options": [],
-    "answer": "3/16\"",
+    "question": "What is the maximum size of an acceptable rounded indication?\n허용되는 원형 지시의 최대 크기는?",
+    "options": [
+      "1/16 in.",
+      "1/8 in.",
+      "3/16 in.",
+      "1/4 in."
+    ],
+    "answer": 2,
     "level": "Level III",
     "method": "PT",
-    "source": "PTM-III.HWP"
+    "source": "PTM-III.HWP",
+    "groupNote": "A disc shaped casting 2 feet in diameter and 1 inch thick is liquid penetrant tested in accordance with ASME Section Ⅲ Div. 1, Subsection ND.\n지름 2피트, 두께 1인치인 원판형 주조품을 ASME Section Ⅲ Div. 1, Subsection ND에 따라 침투탐상한 상황입니다."
   },
   {
     "id": 84,
@@ -1138,7 +1162,8 @@
     "answer": 0,
     "level": "Level III",
     "method": "PT",
-    "source": "PTM-III.HWP"
+    "source": "PTM-III.HWP",
+    "groupNote": "A disc shaped casting 2 feet in diameter and 1 inch thick is liquid penetrant tested in accordance with ASME Section Ⅲ Div. 1, Subsection ND.\n지름 2피트, 두께 1인치인 원판형 주조품을 ASME Section Ⅲ Div. 1, Subsection ND에 따라 침투탐상한 상황입니다."
   },
   {
     "id": 85,
@@ -1146,7 +1171,7 @@
     "options": [
       "nonrelevant.",
       "nonlinear.",
-      "rejectable.\nThe next 6 questions apply to ASME Section Ⅲ Div. 1, Subsection NB.",
+      "rejectable.",
       "acceptable.",
       "none of the above"
     ],
@@ -1157,30 +1182,48 @@
   },
   {
     "id": 86,
-    "question": "For weld edge preparation surfaces on material 2½\" thick, what is the maximum acceptable length of a crack indication. Answer",
-    "options": [],
-    "answer": "1\"",
+    "question": "For weld edge preparation surfaces on material 2½\" thick, what is the maximum acceptable length of a crack indication.\n두께 2½인치 재료의 용접 개선면에서 균열 지시의 허용 최대 길이는?",
+    "options": [
+      "1/4 in.",
+      "1/2 in.",
+      "1 in.",
+      "2 in."
+    ],
+    "answer": 2,
     "level": "Level III",
     "method": "PT",
-    "source": "PTM-III.HWP"
+    "source": "PTM-III.HWP",
+    "groupNote": "The following questions apply to ASME Section Ⅲ Div. 1, Subsection NB.\n다음 문항은 ASME Section Ⅲ Div. 1, Subsection NB 기준입니다."
   },
   {
     "id": 87,
-    "question": "For the situation described in question 19, what is the maximum acceptable size of a rounded indication. Answer",
-    "options": [],
-    "answer": "3/16\"",
+    "question": "For weld edge preparation surfaces on material 2½ in. thick, what is the maximum acceptable size of a rounded indication?\n두께 2½인치 재료의 용접 개선면에서 원형 지시의 허용 최대 크기는?",
+    "options": [
+      "1/16 in.",
+      "1/8 in.",
+      "3/16 in.",
+      "1/4 in."
+    ],
+    "answer": 2,
     "level": "Level III",
     "method": "PT",
-    "source": "PTM-III.HWP"
+    "source": "PTM-III.HWP",
+    "groupNote": "The following questions apply to ASME Section Ⅲ Div. 1, Subsection NB.\n다음 문항은 ASME Section Ⅲ Div. 1, Subsection NB 기준입니다."
   },
   {
     "id": 88,
-    "question": "For the situation described in question 19, what is the maximum required depth of repair on unacceptable laminar discontinuities? Answer",
-    "options": [],
-    "answer": "3/8\"",
+    "question": "For weld edge preparation surfaces on material 2½ in. thick, what is the maximum required depth of repair on unacceptable laminar discontinuities?\n두께 2½인치 재료의 용접 개선면에서 불합격 라미나 불연속에 대해 요구되는 최대 보수 깊이는?",
+    "options": [
+      "1/8 in.",
+      "1/4 in.",
+      "3/8 in.",
+      "1/2 in."
+    ],
+    "answer": 2,
     "level": "Level III",
     "method": "PT",
-    "source": "PTM-III.HWP"
+    "source": "PTM-III.HWP",
+    "groupNote": "The following questions apply to ASME Section Ⅲ Div. 1, Subsection NB.\n다음 문항은 ASME Section Ⅲ Div. 1, Subsection NB 기준입니다."
   },
   {
     "id": 89,
@@ -1195,7 +1238,8 @@
     "answer": 0,
     "level": "Level III",
     "method": "PT",
-    "source": "PTM-III.HWP"
+    "source": "PTM-III.HWP",
+    "groupNote": "The following questions apply to ASME Section Ⅲ Div. 1, Subsection NB.\n다음 문항은 ASME Section Ⅲ Div. 1, Subsection NB 기준입니다."
   },
   {
     "id": 90,
@@ -1207,11 +1251,12 @@
     "answer": 0,
     "level": "Level III",
     "method": "PT",
-    "source": "PTM-III.HWP"
+    "source": "PTM-III.HWP",
+    "groupNote": "The following questions apply to ASME Section Ⅲ Div. 1, Subsection NB.\n다음 문항은 ASME Section Ⅲ Div. 1, Subsection NB 기준입니다."
   },
   {
     "id": 91,
-    "question": "Liquid penetrant examination of weld reveals a 1/8\" long linear indication. Is this indication acceptable? Answer * The next 6 questions apply to ASME Section Ⅷ Div. 1",
+    "question": "Liquid penetrant examination of weld reveals a 1/8\" long linear indication. Is this indication acceptable? Answer",
     "options": [
       "Yes",
       "No"
@@ -1219,47 +1264,72 @@
     "answer": 1,
     "level": "Level III",
     "method": "PT",
-    "source": "PTM-III.HWP"
+    "source": "PTM-III.HWP",
+    "groupNote": "The following questions apply to ASME Section Ⅲ Div. 1, Subsection NB.\n다음 문항은 ASME Section Ⅲ Div. 1, Subsection NB 기준입니다."
   },
   {
     "id": 92,
-    "question": "For the examination of steel castings, what are the surface indications determined by liquid penetrant that are unacceptable regardless of the length?",
-    "options": [],
-    "answer": "crack, hot tear",
+    "question": "For the examination of steel castings, what are the surface indications determined by liquid penetrant that are unacceptable regardless of the length?\n주강품 검사에서 길이와 관계없이 불합격인 침투탐상 표면 지시는?",
+    "options": [
+      "Cracks and hot tears",
+      "Gas porosity and shrinkage",
+      "Sand and slag inclusions",
+      "Chills and chaplets"
+    ],
+    "answer": 0,
     "level": "Level III",
     "method": "PT",
-    "source": "PTM-III.HWP"
+    "source": "PTM-III.HWP",
+    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다."
   },
   {
     "id": 93,
-    "question": "Liquid penetrant examiner shall have vision, with correction if necessary, to enable him to read ______________ at a distance of not less than 12 in, and is capable of distinguishing and differentiating contrast between colors used.",
-    "options": [],
-    "answer": "a Jaeger Type No. 2 Standard Chart",
+    "question": "Liquid penetrant examiner shall have vision, with correction if necessary, to enable him to read ______________ at a distance of not less than 12 in, and is capable of distinguishing and differentiating contrast between colors used.\n침투탐상 검사자는 필요시 교정시력으로 최소 12인치 거리에서 무엇을 읽을 수 있어야 하며, 사용된 색상의 대비를 구별할 수 있어야 하는가?",
+    "options": [
+      "a Jaeger Type No. 1 Standard Chart",
+      "a Jaeger Type No. 2 Standard Chart",
+      "a Snellen eye chart",
+      "an Ishihara color plate"
+    ],
+    "answer": 1,
     "level": "Level III",
     "method": "PT",
-    "source": "PTM-III.HWP"
+    "source": "PTM-III.HWP",
+    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다."
   },
   {
     "id": 94,
-    "question": "What is the minimum size of indication that shall be considered relevant?",
-    "options": [],
-    "answer": "1/16 in(1.5 mm)",
+    "question": "What is the minimum size of indication that shall be considered relevant?\n관련 지시로 간주해야 하는 지시의 최소 크기는?",
+    "options": [
+      "1/32 in. (0.8 mm)",
+      "1/16 in. (1.5 mm)",
+      "1/8 in. (3 mm)",
+      "3/16 in. (5 mm)"
+    ],
+    "answer": 1,
     "level": "Level III",
     "method": "PT",
-    "source": "PTM-III.HWP"
+    "source": "PTM-III.HWP",
+    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다."
   },
   {
     "id": 95,
-    "question": "What is the minimum size of the relevant rounded indication that shall be free of?",
-    "options": [],
-    "answer": "3/16 in(5 mm)",
+    "question": "The examined surface shall be free of relevant rounded indications larger than what size?\n검사면에는 어느 크기를 넘는 관련 원형 지시가 없어야 하는가?",
+    "options": [
+      "1/16 in. (1.5 mm)",
+      "1/8 in. (3 mm)",
+      "3/16 in. (5 mm)",
+      "1/4 in. (6 mm)"
+    ],
+    "answer": 2,
     "level": "Level III",
     "method": "PT",
-    "source": "PTM-III.HWP"
+    "source": "PTM-III.HWP",
+    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다."
   },
   {
     "id": 96,
-    "question": "We found three rounded indications of 3 mm length in a line separated by 1.5 mm. Are they Acceptable or Unacceptable? Acceptable________Unacceptable________ * The next 4 questions apply to ASME Section Ⅷ Div. 2",
+    "question": "We found three rounded indications of 3 mm length in a line separated by 1.5 mm. Are they Acceptable or Unacceptable? Acceptable________Unacceptable________",
     "options": [
       "Acceptable",
       "Unacceptable"
@@ -1267,25 +1337,38 @@
     "answer": 0,
     "level": "Level III",
     "method": "PT",
-    "source": "PTM-III.HWP"
+    "source": "PTM-III.HWP",
+    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다."
   },
   {
     "id": 97,
-    "question": "What may be used as a guideline for employers to establish written practice?",
-    "options": [],
-    "answer": "SNT-TC-1A, CP-189",
+    "question": "What may be used as a guideline for employers to establish written practice?\n사업주가 절차서(written practice)를 수립할 때 지침으로 사용할 수 있는 것은?",
+    "options": [
+      "SNT-TC-1A and CP-189",
+      "ISO 9712 and EN 473",
+      "ASME Section Ⅴ, Article 6",
+      "ASTM E165 and E1417"
+    ],
+    "answer": 0,
     "level": "Level III",
     "method": "PT",
-    "source": "PTM-III.HWP"
+    "source": "PTM-III.HWP",
+    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 2.\n다음 문항은 ASME Section Ⅷ Div. 2 기준입니다."
   },
   {
     "id": 98,
-    "question": "Who shall perform the evaluation of liquid penetrant examination?",
-    "options": [],
-    "answer": "PT Level Ⅱ,Ⅲ",
+    "question": "Who shall perform the evaluation of liquid penetrant examination?\n침투탐상검사의 평가는 누가 수행해야 하는가?",
+    "options": [
+      "PT Level Ⅰ만",
+      "PT Level Ⅰ, Ⅱ",
+      "PT Level Ⅱ, Ⅲ",
+      "자격 여부와 무관하게 모든 검사원"
+    ],
+    "answer": 2,
     "level": "Level III",
     "method": "PT",
-    "source": "PTM-III.HWP"
+    "source": "PTM-III.HWP",
+    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 2.\n다음 문항은 ASME Section Ⅷ Div. 2 기준입니다."
   },
   {
     "id": 99,
@@ -1297,6 +1380,41 @@
     "answer": 0,
     "level": "Level III",
     "method": "PT",
-    "source": "PTM-III.HWP"
+    "source": "PTM-III.HWP",
+    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 2.\n다음 문항은 ASME Section Ⅷ Div. 2 기준입니다."
+  },
+  {
+    "id": 100,
+    "groupNote": "A weld that is ½ inch wide and 6 inches long has been liquid penetrant tested in accordance with ASME Section Ⅲ Div. 1, Subsection NB.\n폭 ½인치, 길이 6인치인 용접부를 ASME Section Ⅲ Div. 1, Subsection NB에 따라 침투탐상한 상황입니다.",
+    "question": "The following rounded indications are in the weld: (2) 1/16 in. indications, (4) 1/32 in. indications and (2) 1/8 in. indications. All are separated by 1/16 in. from each other. Is the weld acceptable?\n이 용접부에 다음과 같은 원형 지시가 있다. 1/16인치 2개, 1/32인치 4개, 1/8인치 2개이며 모두 서로 1/16인치씩 떨어져 있다. 이 용접부는 합격인가?",
+    "options": [
+      "Yes / 합격",
+      "No / 불합격"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 101,
+    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다.",
+    "question": "For steel castings, what are the seven imperfection categories?\n주강품의 7가지 결함 분류는 무엇인가?",
+    "options": [
+      "Gas porosity, sand and slag inclusions, shrinkage, cracks, hot tears, inserts, chills and chaplets",
+      "Gas porosity, undercut, overlap, cracks, laminations, segregation, arc strikes",
+      "Shrinkage, lack of fusion, incomplete penetration, slag, porosity, cracks, undercut",
+      "Cracks, hot tears, laminations, inclusions, burn-through, spatter, misalignment"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 102,
+    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 2.\n다음 문항은 ASME Section Ⅷ Div. 2 기준입니다.",
+    "question": "Which of the following is correct?\n다음 중 옳은 것은?",
+    "options": [
+      "An indication of an imperfection may be smaller than the imperfection that causes it.",
+      "Only indications with major dimensions greater than 2 mm shall be considered relevant.",
+      "A linear indication is one having a length greater than four times its width.",
+      "Relevant rounded indications greater than 5 mm are unacceptable."
+    ],
+    "answer": 3
   }
 ]

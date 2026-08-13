@@ -580,9 +580,14 @@
   },
   {
     "id": 35,
-    "question": "An unshielded 15 curie radioisotope source is being used 20 feet from a barrier warning against unauthorized entry. The source intensity is 5.9 r/hr/c at 1 ft. What dose rate could be received by personnel at the barrier? Answer_____________________________________________________________________",
-    "options": [],
-    "answer": "221 mR/hr",
+    "question": "An unshielded 15 curie radioisotope source is being used 20 feet from a barrier warning against unauthorized entry. The source intensity is 5.9 r/hr/c at 1 ft. What dose rate could be received by personnel at the barrier?\n차폐되지 않은 15퀴리 방사성동위원소 선원을 무단출입 경고 방벽에서 20피트 떨어져 사용하고 있다. 선원 강도는 1피트에서 5.9 R/hr/Ci이다. 방벽에 있는 인원이 받을 수 있는 선량률은?",
+    "options": [
+      "88.5 mR/hr",
+      "221 mR/hr",
+      "442 mR/hr",
+      "4,425 mR/hr"
+    ],
+    "answer": 1,
     "level": "Level III",
     "method": "RT",
     "source": "RTM-III.HWP"
@@ -812,18 +817,28 @@
   },
   {
     "id": 51,
-    "question": "In making an isotope exposure in an unshielded area, you find the dose rate at 6\" distance is 1200Mr/hr. What would be the dose rate at 20\"? Answer_____________________________________________________________________",
-    "options": [],
-    "answer": "108 mR/h",
+    "question": "In making an isotope exposure in an unshielded area, you find the dose rate at 6\" distance is 1200Mr/hr. What would be the dose rate at 20\"?\n차폐되지 않은 구역에서 동위원소 촬영을 할 때 6인치 거리의 선량률이 1,200 mR/hr였다. 20인치에서의 선량률은?",
+    "options": [
+      "108 mR/hr",
+      "360 mR/hr",
+      "3,600 mR/hr",
+      "13,333 mR/hr"
+    ],
+    "answer": 0,
     "level": "Level III",
     "method": "RT",
     "source": "RTM-III.HWP"
   },
   {
     "id": 52,
-    "question": "If an exposure time of 60 seconds was necessary with a 4\"SFD, what exposure time is necessary if the SFD is changed to 5\"? Answer_____________________________________________________________________",
-    "options": [],
-    "answer": "lin 34 sec",
+    "question": "If an exposure time of 60 seconds was necessary with a 4\"SFD, what exposure time is necessary if the SFD is changed to 5\"?\nSFD 4인치에서 노출시간 60초가 필요했다면, SFD를 5인치로 바꿨을 때 필요한 노출시간은?",
+    "options": [
+      "38 sec",
+      "48 sec",
+      "1 min 15 sec",
+      "1 min 34 sec"
+    ],
+    "answer": 3,
     "level": "Level III",
     "method": "RT",
     "source": "RTM-III.HWP"
@@ -923,9 +938,14 @@
   },
   {
     "id": 59,
-    "question": "A step wedge consisting of 2 steps is exposed to gamma radiation. The first step is equal to 3 half-value layers and the second step is equal to 4 half-value layers. What is the ratio of the radiation intensity emerging from the two steps? Answer_____________________________________________________________________",
-    "options": [],
-    "answer": "2-1 Ratio",
+    "question": "A step wedge consisting of 2 steps is exposed to gamma radiation. The first step is equal to 3 half-value layers and the second step is equal to 4 half-value layers. What is the ratio of the radiation intensity emerging from the two steps?\n2단으로 된 계단시험편에 감마선을 조사한다. 첫 단은 반가층 3개, 둘째 단은 반가층 4개에 해당한다. 두 단을 투과해 나오는 방사선 강도의 비는?",
+    "options": [
+      "1 : 1",
+      "2 : 1",
+      "4 : 1",
+      "8 : 1"
+    ],
+    "answer": 1,
     "level": "Level III",
     "method": "RT",
     "source": "RTM-III.HWP"
@@ -965,9 +985,14 @@
   },
   {
     "id": 62,
-    "question": "If a specification requires 2-2T sensitivity, what thickness of penetrameter is needed to radiograph a 41/2\" thick weld? Answer_____________________________________________________________________",
-    "options": [],
-    "answer": "0.09",
+    "question": "If a specification requires 2-2T sensitivity, what thickness of penetrameter is needed to radiograph a 41/2\" thick weld?\n시방서가 2-2T 감도를 요구할 때, 두께 4½인치 용접부를 촬영하는 데 필요한 투과도계 두께는?",
+    "options": [
+      "0.045 in.",
+      "0.09 in.",
+      "0.18 in.",
+      "0.225 in."
+    ],
+    "answer": 1,
     "level": "Level III",
     "method": "RT",
     "source": "RTM-III.HWP"
@@ -1016,9 +1041,14 @@
   },
   {
     "id": 66,
-    "question": "An acceptable exposure, using Iridium 192, is obtained on a given test object today with an exposure time of 20 minutes. Five month from now, what exposure time would be required to achieve the same radiographic density under similar conditions using the same source? Answer_____________________________________________________________________",
-    "options": [],
-    "answer": "1 min 20 sec",
+    "question": "An acceptable exposure, using Iridium 192, is obtained on a given test object today with an exposure time of 20 minutes. Five month from now, what exposure time would be required to achieve the same radiographic density under similar conditions using the same source?\nIridium 192를 사용해 오늘 어떤 시험체에 노출시간 20분으로 적절한 촬영을 얻었다. 같은 선원으로 유사한 조건에서 5개월 후 같은 사진농도를 얻으려면 얼마의 노출시간이 필요한가?",
+    "options": [
+      "40 min",
+      "1 hr 20 min",
+      "2 hr 40 min",
+      "5 hr 20 min"
+    ],
+    "answer": 1,
     "level": "Level III",
     "method": "RT",
     "source": "RTM-III.HWP"
@@ -1123,27 +1153,42 @@
   },
   {
     "id": 74,
-    "question": "A good cobalt shot is made on a 3\" steel casting using an exposure time of 10 minutes and a source-to-film distance of 36 inches. If it is necessary to change the source- to-film distance to 24 inches, what exposure time would produce a similar radiograph if all other conditions remain constant? Answer_____________________________________________________________________ * Answer the answers to question 46 through 65 relating to capability for interpreting codes, standards, and specifications relating to the radiographic test.",
-    "options": [],
-    "answer": "4.4 Min",
+    "question": "A good cobalt shot is made on a 3\" steel casting using an exposure time of 10 minutes and a source-to-film distance of 36 inches. If it is necessary to change the source- to-film distance to 24 inches, what exposure time would produce a similar radiograph if all other conditions remain constant?\n두께 3인치 강 주조품을 노출시간 10분, 선원-필름 거리 36인치로 코발트 촬영해 양호한 결과를 얻었다. 다른 조건이 같을 때 선원-필름 거리를 24인치로 바꾸면 유사한 사진을 얻는 데 필요한 노출시간은?",
+    "options": [
+      "4.4 min",
+      "6.7 min",
+      "15 min",
+      "22.5 min"
+    ],
+    "answer": 0,
     "level": "Level III",
     "method": "RT",
     "source": "RTM-III.HWP"
   },
   {
     "id": 75,
-    "question": "A procedure requires a quality level of 4-4T and the use of penetrameters based on ASTM E142 design. What shape of penetrameter would be used on a 41/2inch thick specimen? Answer_____________________________________________________________________",
-    "options": [],
-    "answer": "circular",
+    "question": "A procedure requires a quality level of 4-4T and the use of penetrameters based on ASTM E142 design. What shape of penetrameter would be used on a 41/2inch thick specimen?\n절차서가 4-4T 품질수준과 ASTM E142 설계 투과도계 사용을 요구한다. 두께 4½인치 시험체에는 어떤 형상의 투과도계를 사용해야 하는가?",
+    "options": [
+      "Circular",
+      "Rectangular",
+      "Wire type",
+      "Step type"
+    ],
+    "answer": 0,
     "level": "Level III",
     "method": "RT",
     "source": "RTM-III.HWP"
   },
   {
     "id": 76,
-    "question": "Specify weld in which indications are characterized as slag inclusion shall be unacceptable when material wall thickness is 0.250\" based on ASME Sec. I Answer_____________________________________________________________________",
-    "options": [],
-    "answer": "over 1/4 inch",
+    "question": "Specify weld in which indications are characterized as slag inclusion shall be unacceptable when material wall thickness is 0.250\" based on ASME Sec. I\nASME Sec. I 기준으로, 재료 두께가 0.250인치일 때 슬래그 개재물로 판정된 지시가 불합격이 되는 길이는?",
+    "options": [
+      "Over 1/8 in.",
+      "Over 3/16 in.",
+      "Over 1/4 in.",
+      "Over 3/8 in."
+    ],
+    "answer": 2,
     "level": "Level III",
     "method": "RT",
     "source": "RTM-III.HWP"
@@ -1186,18 +1231,28 @@
   },
   {
     "id": 80,
-    "question": "(API-1104) - The maximum acceptable length of elongated slag (single indication) is_________inches",
-    "options": [],
-    "answer": "2",
+    "question": "(API-1104) - The maximum acceptable length of elongated slag (single indication) is_________inches\n(API-1104) 가늘고 긴 슬래그(단일 지시)의 허용 최대 길이는 몇 인치인가?",
+    "options": [
+      "1/2",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": 2,
     "level": "Level III",
     "method": "RT",
     "source": "RTM-III.HWP"
   },
   {
     "id": 81,
-    "question": "(ASME Section Ⅲ-NB) - The maximum acceptable length of elongated slag (single indication) is_________inches",
-    "options": [],
-    "answer": "0.26",
+    "question": "(ASME Section Ⅲ-NB) - The maximum acceptable length of elongated slag (single indication) is_________inches\n(ASME Section Ⅲ-NB) 가늘고 긴 슬래그(단일 지시)의 허용 최대 길이는 몇 인치인가?",
+    "options": [
+      "0.13",
+      "0.26",
+      "0.38",
+      "0.50"
+    ],
+    "answer": 1,
     "level": "Level III",
     "method": "RT",
     "source": "RTM-III.HWP"
@@ -1300,18 +1355,28 @@
   },
   {
     "id": 90,
-    "question": "(API-1104) - A 24 inch O. D. pipe butt weld is radiographed by the double wall exposure, single wall viewing technique using an x-ray machine. When positioned for the exposure, the focal spot of the x-ray tube is three(3) inches above the surface of the pipe. The maximum diagnostic film length (length of acceptable radiograph) is_______inches.",
-    "options": [],
-    "answer": "23.1",
+    "question": "(API-1104) - A 24 inch O. D. pipe butt weld is radiographed by the double wall exposure, single wall viewing technique using an x-ray machine. When positioned for the exposure, the focal spot of the x-ray tube is three(3) inches above the surface of the pipe. The maximum diagnostic film length (length of acceptable radiograph) is_______inches.\n(API-1104) 외경 24인치 배관 맞대기 용접부를 X선 장치로 이중벽 투과 단일벽 관찰법으로 촬영한다. 촬영 위치에서 X선관의 초점은 배관 표면 위 3인치에 있다. 최대 유효 필름 길이(합격 가능한 방사선사진의 길이)는 몇 인치인가?",
+    "options": [
+      "12.6",
+      "18.8",
+      "23.1",
+      "31.4"
+    ],
+    "answer": 2,
     "level": "Level III",
     "method": "RT",
     "source": "RTM-III.HWP"
   },
   {
     "id": 91,
-    "question": "(ASME Section V) - A steel weld one-half (1/2)inch thick is to be x-rayed. What is the maximum allowable KV (approximately)? Answer_____________________________________________________________________",
-    "options": [],
-    "answer": "400 KV",
+    "question": "(ASME Section V) - A steel weld one-half (1/2)inch thick is to be x-rayed. What is the maximum allowable KV (approximately)?\n(ASME Section V) 두께 ½인치 강 용접부를 X선 촬영하려 한다. 허용되는 최대 관전압(개략값)은?",
+    "options": [
+      "150 kV",
+      "250 kV",
+      "400 kV",
+      "1,000 kV"
+    ],
+    "answer": 2,
     "level": "Level III",
     "method": "RT",
     "source": "RTM-III.HWP"
@@ -1342,7 +1407,7 @@
   },
   {
     "id": 94,
-    "question": "(ASME Section V) - Film identification, other than location markers, can be accomplished by using flashers or writing the numbers on with an indelible ink. Lead numbers need not be used during the exposure to accomplish identification. True____________ False____________ * Select the answers to question 66 through 75 relating ASME Section Ⅷ.",
+    "question": "(ASME Section V) - Film identification, other than location markers, can be accomplished by using flashers or writing the numbers on with an indelible ink. Lead numbers need not be used during the exposure to accomplish identification. True____________ False____________",
     "options": [
       "True",
       "False"
@@ -1468,9 +1533,14 @@
   },
   {
     "id": 104,
-    "question": "(ASME Section Ⅷ-Div.2) - For circumferential joints in the pipe that has 12 mm thickness, how much is the maximum reinforcement thickness ? RTM - Ⅲ - B Answers 󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧󰠧 1 b 31 b c d 61 23.1 2 d 32 b 62 400 KV 3 a b d 33 0.09 63 T 4 a c d 34 c 64 T 5 221 mR/hr 35 a 65 T 6 d 36 c 66 Acceptable 7 b c e 37 1 min 20 sec 67 c 8 c 38 d 68 d 9 b 39 c 69 d 10 a 40 d 70 True 11 d 41 c 71 Unacceptable 12 b 42 b 72 Unacceptable 13 a c d 43 c 73 False 14 b 44 c 74 Unacceptable 15 c 45 4.4 Min 75 3mm 16 a 46 circular 17 c 47 over 1/4 inch 18 c 48 F 19 d 49 T 20 a 50 T 21 b 51 2 22 108 mR/h 52 0.26 23 lin 34 sec 53 A 24 d 54 A 25 a 55 A 26 b c e 56 A 27 a 57 U 28 a c 58 F 29 c 59 T 30 2-1 Ratio 60 F",
-    "options": [],
-    "answer": "3mm",
+    "question": "(ASME Section Ⅷ-Div.2) - For circumferential joints in the pipe that has 12 mm thickness, how much is the maximum reinforcement thickness ?\n(ASME Section Ⅷ-Div.2) 두께 12mm 배관의 원주 이음부에서 최대 덧살 두께는 얼마인가?",
+    "options": [
+      "1.5 mm",
+      "2.5 mm",
+      "3 mm",
+      "4 mm"
+    ],
+    "answer": 2,
     "level": "Level III",
     "method": "RT",
     "source": "RTM-III.HWP"
