@@ -46,10 +46,62 @@ export function availableProcedures(manifest, q) {
 }
 
 /*
+ * 덩이 하나를 그린다.
+ *
+ * 원본 hwp 의 표·그림 차례를 그대로 옮긴 것이라 표 안에 또 덩이가 들어 있다.
+ * 스스로를 다시 부른다.
+ */
+function Block({ b }) {
+  if (b.t === "h") {
+    return <h4 className={b.level === 3 ? "procw-h3" : "procw-h2"}>{b.s}</h4>;
+  }
+
+  if (b.t === "img") {
+    return (
+      <img className="procw-fig" src={pageSrc(b.src)} alt="" loading="lazy" />
+    );
+  }
+
+  if (b.t === "table") {
+    return (
+      <div className="procw-tablewrap">
+        <table className="procw-table">
+          <tbody>
+            {b.grid.map((row, r) => (
+              <tr key={r}>
+                {row.map((c, q) =>
+                  !c || c === "covered" ? (
+                    c === "covered" ? null : <td key={q} />
+                  ) : (
+                    <td
+                      key={q}
+                      colSpan={c.colSpan > 1 ? c.colSpan : undefined}
+                      rowSpan={c.rowSpan > 1 ? c.rowSpan : undefined}
+                    >
+                      {c.blocks.map((inner, i) => (
+                        <Block key={i} b={inner} />
+                      ))}
+                    </td>
+                  )
+                )}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    );
+  }
+
+  return <p>{b.s}</p>;
+}
+
+/*
  * 본문 문서.
  *
- * hwp 에서 뽑은 글이라 원본 쪽 모양은 아니다. 대신 찾기 칸으로
- * 바로 짚을 수 있어 시험 중에는 이 편이 낫다.
+ * 원본 hwp 를 표·그림까지 그대로 옮긴 것이다. 원본 본문은 1줄 2칸 표에
+ * 왼쪽 영문, 오른쪽 한글로 담겨 있어 그대로 두면 영문을 다 읽은 뒤에야
+ * 한글이 나온다. 빌드 때 항목 번호로 갈라 1.0 영문 다음 1.0 한글 순으로
+ * 엮어 뒀다.
  */
 function ProcedureDoc({ file }) {
   const [doc, setDoc] = useState(null);
@@ -66,16 +118,28 @@ function ProcedureDoc({ file }) {
     };
   }, [file]);
 
+  /*
+   * 찾기는 표 안까지 본다. 합격기준이 표에 들어 있어 표를 빼면
+   * 정작 찾고 싶은 값이 안 걸린다.
+   */
   const blocks = useMemo(() => {
     const all = (doc && doc.blocks) || [];
     const key = find.trim().toLowerCase();
     if (!key) return all;
-    return all.filter((b) => String(b.s).toLowerCase().includes(key));
+
+    const hasText = (b) => {
+      if (b.t === "table") {
+        return b.grid.some((row) =>
+          row.some((c) => c && c !== "covered" && c.blocks.some(hasText))
+        );
+      }
+      return String(b.s || "").toLowerCase().includes(key);
+    };
+
+    return all.filter(hasText);
   }, [doc, find]);
 
   if (!doc) return <div className="procw-loading">절차서를 읽는 중…</div>;
-
-  const figures = doc.figures || [];
 
   return (
     <>
@@ -93,38 +157,12 @@ function ProcedureDoc({ file }) {
       </div>
 
       <div className="procw-doc">
-        {blocks.map((b, i) =>
-          b.t === "h" ? (
-            <h4
-              key={i}
-              className={b.level === 3 ? "procw-h3" : "procw-h2"}
-            >
-              {b.s}
-            </h4>
-          ) : (
-            <p key={i}>{b.s}</p>
-          )
-        )}
+        {blocks.map((b, i) => (
+          <Block key={i} b={b} />
+        ))}
 
         {!blocks.length ? (
           <p className="procw-empty">찾는 말이 없습니다.</p>
-        ) : null}
-
-        {/*
-          그림은 본문 어느 자리에 붙는지 원본에서 알아낼 수 없어
-          (표도 같은 마커를 쓴다) 끝에 차례대로 모아 둔다.
-        */}
-        {!find.trim() && figures.length ? (
-          <div className="procw-figures">
-            <h4 className="procw-h2">그림 / Figures</h4>
-
-            {figures.map((f, i) => (
-              <figure key={f}>
-                <img src={pageSrc(f)} alt={`그림 ${i + 1}`} loading="lazy" />
-                <figcaption>그림 {i + 1}</figcaption>
-              </figure>
-            ))}
-          </div>
         ) : null}
       </div>
     </>

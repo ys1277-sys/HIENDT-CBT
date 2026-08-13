@@ -1,29 +1,26 @@
-﻿/*
+/*
  * 절차서 hwp 를 앱이 읽을 수 있는 꼴로 바꾼다.
  *
  * D:/Visual Studio Code/절차서/*.hwp 를 읽어
  * public/data/procedures/ 에 문서 json 과 그림을 쓰고 index.json 을 갱신한다.
  *
- * 왜 그림이 아니라 글인가
- * ----------------------
- * hwp 를 쪽 그림으로 뜨려면 한글 프로그램이 있어야 한다. 대신 본문 글을
- * 그대로 뽑아 문서로 만든다. 응시자가 절차서에서 찾는 것은 수치와
- * 기준이라 글이 핵심이고, 글이면 화면에서 찾기도 훨씬 낫다.
+ * 원본 그대로 옮긴다
+ * ------------------
+ * 표는 표로, 그림은 문서에 놓인 차례대로 싣는다. 글만 뽑으면
+ * 개정이력·결재란이 "2" "2024.01.02" "H. H. KIM" 같은 조각으로 흩어지고
+ * 합격기준 표도 못 읽는다.
  *
- * 그림 자리
- * ---------
- * 본문의 [[OBJ]] 마커에는 표도 섞여 있어(OBJ 수 > 그림 수) 몇 번째
- * 마커가 몇 번째 그림인지 못 가린다. 자리를 억지로 맞추면 엉뚱한 데
- * 붙으니, 그림은 문서 끝에 차례대로 모아 둔다.
+ * 영문 다음 한글
+ * --------------
+ * 원본 본문은 1줄 2칸 표다. 왼쪽 칸이 영문 전체, 오른쪽 칸이 한글 전체다.
+ * 그대로 두면 영문을 다 읽은 뒤에야 한글이 나오고, 2.0 REFERENCES 같은
+ * 항목이 두 번 나오는 것처럼 보인다.
  *
- * 표지와 결재란
- * -------------
- * 앞쪽 표지·개정이력·결재란은 칸이 하나씩 줄로 떨어져 나와 읽기 어렵다.
- * 본문(1.0 SCOPE)부터 싣고, 표지에서 뽑은 문서번호·개정·제목만 머리에 둔다.
+ * 항목 번호로 갈라 1.0 영문 다음 1.0 한글, 2.0 영문 다음 2.0 한글로 엮는다.
  */
 import fs from "node:fs";
 import path from "node:path";
-import { readHwp } from "./hwplib.mjs";
+import { readRich } from "./hwprich.mjs";
 import { bmpToPng } from "./bmp2png.mjs";
 
 const SRC = "D:/Visual Studio Code/절차서";
@@ -31,7 +28,7 @@ const OUT = "D:/Visual Studio Code/HIENDT-CBT/public/data/procedures";
 
 /*
  * 문항이 가리키는 이름과 절차서 문서번호가 다른 것이 있다.
- * 여기서 손으로 이어 준다. 왼쪽이 문항이 쓰는 이름이다.
+ * 왼쪽이 실제 문서번호, 오른쪽이 문항이 부르는 이름이다.
  *
  *  HIE-NDT-P11  TOFD 문항이 이 이름으로 부른다. 실제 문서는 TOFD-U09 다.
  */
@@ -43,67 +40,139 @@ const ALIAS = {
 const DRAWABLE = new Set(["jpg", "png", "gif", "bmp"]);
 const EXT = { jpg: "jpg", png: "png", gif: "gif", bmp: "bmp" };
 
-const clean = (s) =>
-  String(s).replace(/\[\[OBJ\]\]/g, " ").replace(/\u0000/g, "").replace(/\s+/g, " ").trim();
+const HANGUL = /[가-힣]/;
+const LATIN = /[A-Za-z]/;
 
-/* "HIE - NDT - MT - P11" -> "HIE-NDT-MT-P11" */
-const tightCode = (s) => clean(s).replace(/\s*-\s*/g, "-").toUpperCase();
+/* 항목 번호. "1.0 SCOPE" "4.2.1 Application" */
+const SECTION = /^(\d{1,2}\.\d{1,2}(?:\.\d{1,2})?)[\s.]/;
 
-/* 표지에서 문서번호·개정·제목을 읽는다 */
+/* ---- 표지에서 문서 정보 읽기 ---- */
+
+/* 덩이 나무를 글로 눌러 본다. 표지 읽기에만 쓴다 */
+function flatten(blocks, out = []) {
+  for (const b of blocks) {
+    if (b.t === "p") out.push(b.s);
+    else if (b.t === "table") {
+      for (const row of b.grid) {
+        for (const c of row) {
+          if (c && c !== "covered") flatten(c.blocks, out);
+        }
+      }
+    }
+  }
+  return out;
+}
+
 function readCover(lines) {
   const out = { code: "", rev: "", date: "", subject: "" };
 
-  for (let i = 0; i < Math.min(lines.length, 60); i++) {
-    const l = clean(lines[i]);
-    if (!l) continue;
+  for (let i = 0; i < Math.min(lines.length, 80); i++) {
+    const l = lines[i];
 
     if (!out.code && /^Document\s*No\.?$/i.test(l)) {
-      const next = lines.slice(i + 1, i + 4).map(clean).find(Boolean);
-      if (next && /HIE/i.test(next)) out.code = tightCode(next);
+      const next = lines.slice(i + 1, i + 4).find((s) => /HIE/i.test(s));
+      if (next) out.code = next.replace(/\s*-\s*/g, "-").replace(/\s+/g, "").toUpperCase();
     }
-    if (!out.rev && /^Revision\s*No\.?/i.test(l)) {
-      const m = l.match(/Revision\s*No\.?\s*(\d+)/i);
+    if (!out.rev) {
+      const m = l.match(/^Revision\s*No\.?\s*(\d+)/i);
       if (m) out.rev = `Rev.${m[1]}`;
-      else {
-        const next = lines.slice(i + 1, i + 4).map(clean).find(Boolean);
-        if (next && /^\d+$/.test(next)) out.rev = `Rev.${next}`;
+      else if (/^Revision\s*No\.?$/i.test(l)) {
+        const next = lines.slice(i + 1, i + 4).find((s) => /^\d+$/.test(s));
+        if (next) out.rev = `Rev.${next}`;
       }
     }
-    if (!out.date && /^Revision\s*Date$/i.test(l)) {
-      const next = lines.slice(i + 1, i + 4).map(clean).find(Boolean);
-      if (next && /\d{4}/.test(next)) out.date = next;
+    if (!out.date && /^Revision\s*Date/i.test(l)) {
+      const m = l.match(/(\d{4}\s*[.\-]\s*\d{1,2}\s*[.\-]\s*\d{1,2})/);
+      if (m) out.date = m[1];
+      else {
+        const next = lines.slice(i + 1, i + 4).find((s) => /\d{4}\s*[.\-]/.test(s));
+        if (next) out.date = next;
+      }
     }
     if (!out.subject && /^Subject$/i.test(l)) {
-      const next = lines.slice(i + 1, i + 4).map(clean).find(Boolean);
+      const next = lines.slice(i + 1, i + 4).find(Boolean);
       if (next) out.subject = next;
     }
   }
   return out;
 }
 
-/* 본문 시작 자리. "1.0 SCOPE" 또는 "1.0 개요" */
-function bodyStart(lines) {
-  for (let i = 0; i < lines.length; i++) {
-    if (/^\s*1\.0\s+(SCOPE|개요)/i.test(clean(lines[i]))) return i;
+/* ---- 영문 다음 한글로 엮기 ---- */
+
+function splitSections(blocks) {
+  const out = [];
+  let cur = { key: "", blocks: [] };
+  out.push(cur);
+
+  for (const b of blocks) {
+    const m = b.t === "p" && b.s.match(SECTION);
+    if (m) {
+      cur = { key: m[1], blocks: [] };
+      out.push(cur);
+    }
+    cur.blocks.push(b);
   }
-  return 0;
+  return out.filter((s) => s.blocks.length);
 }
 
-/* 제목 줄인지. "1.0 SCOPE" "4.1.1 Wet Particles" */
-const isHeading = (l) => /^\d{1,2}\.\d{1,2}(\.\d{1,2})?\s+\S/.test(l) && l.length < 90;
+const glyphCount = (blocks, re) =>
+  flatten(blocks).join(" ").split("").filter((c) => re.test(c)).length;
 
-function toBlocks(lines) {
-  const blocks = [];
+/*
+ * 1줄 2칸 표에서 왼쪽이 영문, 오른쪽이 한글이면 항목별로 엮는다.
+ * 짝이 안 맞는 항목은 있는 대로 이어 붙인다.
+ */
+function weave(table) {
+  if (table.rows !== 1 || table.cols !== 2) return null;
 
-  for (const raw of lines) {
-    const l = clean(raw);
-    if (!l) continue;
-    if (/^HIE Form No\./i.test(l)) continue;
+  const left = table.grid[0][0];
+  const right = table.grid[0][1];
+  if (!left || left === "covered" || !right || right === "covered") return null;
 
-    const level = isHeading(l) ? (l.match(/^\d{1,2}\.\d{1,2}\.\d{1,2}/) ? 3 : 2) : 0;
-    blocks.push(level ? { t: "h", level, s: l } : { t: "p", s: l });
+  const en = left.blocks;
+  const ko = right.blocks;
+  if (en.length < 3 || ko.length < 3) return null;
+
+  /* 왼쪽은 영문이 많고 오른쪽은 한글이 많아야 한다 */
+  if (glyphCount(en, LATIN) < glyphCount(en, HANGUL)) return null;
+  if (glyphCount(ko, HANGUL) < glyphCount(ko, LATIN)) return null;
+
+  const enSec = splitSections(en);
+  const koSec = splitSections(ko);
+  if (enSec.length < 2) return null;
+
+  const koBy = new Map();
+  for (const s of koSec) if (s.key && !koBy.has(s.key)) koBy.set(s.key, s);
+
+  const out = [];
+  const used = new Set();
+
+  for (const s of enSec) {
+    out.push(...s.blocks);
+    const k = koBy.get(s.key);
+    if (k && !used.has(s.key)) {
+      used.add(s.key);
+      out.push(...k.blocks);
+    }
   }
-  return blocks;
+
+  /* 짝을 못 찾은 한글 항목은 뒤에 붙인다 */
+  for (const s of koSec) {
+    if (s.key && used.has(s.key)) continue;
+    if (!s.key && out.length) continue;
+    out.push(...s.blocks);
+  }
+  return out;
+}
+
+/* 제목 줄에 표시를 단다 */
+function markHeadings(blocks) {
+  return blocks.map((b) => {
+    if (b.t !== "p") return b;
+    const m = b.s.match(SECTION);
+    if (!m || b.s.length > 100) return b;
+    return { t: "h", level: m[1].split(".").length >= 3 ? 3 : 2, s: b.s };
+  });
 }
 
 /* ---- 굽기 ---- */
@@ -120,22 +189,19 @@ for (const name of fs.readdirSync(SRC).filter((f) => /\.hwp$/i.test(f))) {
 
   let doc;
   try {
-    doc = readHwp(file);
+    doc = readRich(file);
   } catch (e) {
     report.push(`${name}: 읽기 실패 — ${e.message}`);
     continue;
   }
 
-  const lines = doc.text.split("\n");
-  const cover = readCover(lines);
+  const cover = readCover(flatten(doc.blocks));
   const code = cover.code || path.parse(name).name.toUpperCase();
 
-  const start = bodyStart(lines);
-  const blocks = toBlocks(lines.slice(start));
-
-  /* 그림을 내보낸다 */
+  /* 그림을 내보낸다. 파일 이름은 BinData 번호로 건다 */
   const figures = [];
-  let n = 0;
+  const srcOf = new Map();
+
   for (const im of doc.images) {
     if (!DRAWABLE.has(im.kind)) continue;
 
@@ -144,8 +210,7 @@ for (const name of fs.readdirSync(SRC).filter((f) => /\.hwp$/i.test(f))) {
 
     /*
      * hwp 안의 BMP 는 압축이 하나도 안 돼 있다. 절차서 9편에서
-     * 79장이 80MB 였다. 그대로 두면 절차서를 열 때마다 그만큼
-     * 내려받는다. PNG 로 바꾼다.
+     * 79장이 80MB 였다. PNG 로 바꾼다.
      */
     if (im.kind === "bmp") {
       const png = bmpToPng(im.data);
@@ -154,15 +219,56 @@ for (const name of fs.readdirSync(SRC).filter((f) => /\.hwp$/i.test(f))) {
         data = png;
         ext = "png";
       } else {
-        failed.push(`${code} 그림 ${n + 1}: BMP 를 못 바꿈 (그대로 둠)`);
+        failed.push(`${code} binId ${im.binId}: BMP 를 못 바꿈 (그대로 둠)`);
       }
     }
 
-    n++;
-    const fname = `${code}_fig${n}.${ext}`;
+    const fname = `${code}_${im.binId}.${ext}`;
     fs.writeFileSync(path.join(OUT, fname), data);
+    srcOf.set(im.binId, fname);
     figures.push(fname);
   }
+
+  /* 덩이를 다듬는다 */
+  let woven = 0;
+
+  function convert(blocks) {
+    const out = [];
+
+    for (const b of blocks) {
+      if (b.t === "p") { out.push(b); continue; }
+
+      if (b.t === "img") {
+        const src = srcOf.get(b.binId);
+        if (src) out.push({ t: "img", src });
+        continue;
+      }
+
+      if (b.t !== "table") continue;
+
+      /* 본문이 담긴 2칸 표는 항목별로 엮어 편다 */
+      const w = weave(b);
+      if (w) {
+        woven++;
+        out.push(...markHeadings(convert(w)));
+        continue;
+      }
+
+      out.push({
+        t: "table",
+        rows: b.rows,
+        cols: b.cols,
+        grid: b.grid.map((row) =>
+          row.map((c) =>
+            !c || c === "covered" ? c : { colSpan: c.colSpan, rowSpan: c.rowSpan, blocks: convert(c.blocks) }
+          )
+        ),
+      });
+    }
+    return out;
+  }
+
+  const blocks = markHeadings(convert(doc.blocks));
 
   const payload = {
     code,
@@ -171,32 +277,25 @@ for (const name of fs.readdirSync(SRC).filter((f) => /\.hwp$/i.test(f))) {
     date: cover.date,
     source: name,
     blocks,
-    figures,
   };
 
-  fs.writeFileSync(
-    path.join(OUT, `${code}.json`),
-    JSON.stringify(payload, null, 2) + "\n",
-    "utf8"
-  );
+  fs.writeFileSync(path.join(OUT, `${code}.json`), JSON.stringify(payload) + "\n", "utf8");
 
-  const entry = {
-    title: cover.subject || code,
-    rev: cover.rev,
-    doc: `${code}.json`,
-  };
-
+  const entry = { title: cover.subject || code, rev: cover.rev, doc: `${code}.json` };
   table[code] = entry;
   for (const alias of ALIAS[code] || []) table[alias] = { ...entry };
 
+  const tables = blocks.filter((b) => b.t === "table").length;
+  const imgs = blocks.filter((b) => b.t === "img").length;
+
   report.push(
     `${name.padEnd(16)} -> ${code.padEnd(20)} ${(cover.rev || "").padEnd(6)}` +
-      ` 본문 ${String(blocks.length).padStart(4)}덩이  그림 ${String(figures.length).padStart(2)}장` +
+      ` 덩이 ${String(blocks.length).padStart(4)}  표 ${String(tables).padStart(2)}` +
+      `  그림 ${String(imgs).padStart(2)}/${String(figures.length).padStart(2)}  엮음 ${woven}` +
       ((ALIAS[code] || []).length ? `  (별칭: ${ALIAS[code].join(", ")})` : "")
   );
 }
 
-/* index.json 을 다시 쓴다 */
 const manifest = {
   _읽어보기:
     "tools/build-procedures.mjs 가 만든 파일입니다. 손으로 고치지 말고 절차서 hwp 를 고친 뒤 다시 돌리세요.",

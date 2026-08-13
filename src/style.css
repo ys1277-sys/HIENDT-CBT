@@ -1315,3 +1315,58 @@ button:disabled{
   color: #6b7280;
   font-size: 12px;
 }
+
+/* 절차서 안의 표 — 원본 짜임 그대로 */
+.procw-tablewrap {
+  margin: 10px 0 14px;
+  overflow-x: auto;
+}
+
+.procw-table {
+  border-collapse: collapse;
+  width: 100%;
+
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.procw-table td {
+  padding: 4px 6px;
+
+  border: 1px solid #b9bfc7;
+  vertical-align: top;
+}
+
+.procw-table td p {
+  margin: 0 0 3px;
+}
+
+.procw-table td :last-child {
+  margin-bottom: 0;
+}
+
+.procw-table .procw-h2,
+.procw-table .procw-h3 {
+  margin: 4px 0 3px;
+  padding: 0;
+
+  border: 0;
+  font-size: 12px;
+}
+
+/* 표가 통째로 본문을 담고 있으면 테두리가 오히려 방해된다 */
+.procw-table td > .procw-tablewrap {
+  margin: 4px 0;
+}
+
+.procw-fig {
+  display: block;
+
+  max-width: 100%;
+  height: auto;
+
+  margin: 8px 0;
+
+  border: 1px solid #dfe3e8;
+  background: #fff;
+}
