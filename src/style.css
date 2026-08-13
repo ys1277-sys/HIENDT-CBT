@@ -645,10 +645,21 @@ button:disabled{
   white-space:pre-wrap;
 }
 
-/* "① 95%" 처럼 번호와 본문을 띄운다 */
+/*
+ * 보기 번호.
+ * .answer 의 gap 이 번호와 본문 사이를 띄우므로 여백을 따로 주지 않는다.
+ * 번호가 본문 밖에 있어야 한글 줄이 영문 줄 아래에 맞춰 들어간다.
+ *     ① permeability
+ *       투자율
+ */
 .option-number{
-  margin-right:7px;
   font-weight:600;
+  flex-shrink:0;
+}
+
+.option-text{
+  flex:1;
+  min-width:0;
 }
 
 

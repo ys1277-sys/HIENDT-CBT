@@ -692,19 +692,24 @@ function Quiz({
                           />
 
 
+                          {/*
+                            번호는 본문 밖에 둔다.
+                            안에 넣으면 한글 줄이 번호 자리까지 왼쪽으로 밀려
+                            "① permeability / 투자율" 이 세로로 어긋나 보인다.
+                            인쇄 화면도 번호를 밖에 두고 있어 모양이 같아진다.
+                          */}
+                          <span className="option-number">
+
+                            {numberCircle[index] || index + 1}
+
+                          </span>
+
+
                           <div className="option-text">
 
                             <div className="option-en">
 
-                              <span className="option-number">
-
-                                {numberCircle[index] || index + 1}
-
-                              </span>
-
-                              <span>
-                                {optionEn}
-                              </span>
+                              {optionEn}
 
                             </div>
 
