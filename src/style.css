@@ -916,6 +916,12 @@ button:disabled{
 }
 
 
+/*
+ * 문항 번호.
+ * 가운데 정렬이면 한 자리 수(4)가 칸 한가운데 놓여 오른쪽에 빈 공간이 남고,
+ * 두 자리 수(10)와 보기 사이 간격이 달라 보인다. 오른쪽에 붙여 자릿수와
+ * 상관없이 간격을 일정하게 한다.
+ */
 .row-number{
 
   width:20px;
@@ -924,7 +930,9 @@ button:disabled{
 
   color:#003b73;
 
-  text-align:center;
+  text-align:right;
+
+  font-variant-numeric:tabular-nums;
 
   flex-shrink:0;
 
@@ -953,7 +961,8 @@ button:disabled{
 
   border:0;
 
-  border-radius:4px;
+  /* 글자 ①②③④ 가 동그라미라 칠도 동그랗게 해야 모양이 맞는다 */
+  border-radius:50%;
 
   background:transparent;
 
