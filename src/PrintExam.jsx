@@ -30,12 +30,11 @@ function PrintExam({
   onReady
 }) {
 
-  const numberCircle = [
-    "1",
-    "2",
-    "3",
-    "4"
-  ];
+  /*
+   * 넷까지만 두고 나머지를 "" 로 처리하고 있어, 보기가 다섯 이상인 문항은
+   * 5·6번 번호가 빈 동그라미로 인쇄됐다. (VT General 에 그런 문항이 있다)
+   */
+  const optionNumber = (i) => String(i + 1);
 
   const [questionPages, setQuestionPages] =
     useState([]);
@@ -622,7 +621,7 @@ function PrintExam({
                   >
 
                     {
-                      numberCircle[i] || ""
+                      optionNumber(i)
                     }
 
                   </span>

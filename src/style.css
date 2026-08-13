@@ -577,7 +577,16 @@ button:disabled{
 
 
 
+/*
+ * 보기 한 줄.
+ *
+ * 예전에는 라디오 동그라미와 ①②③④ 가 나란히 붙어 표시가 둘로 겹쳤다.
+ * 동그라미는 화면에서 가리고 번호만 남긴다. 키보드로 고를 수 있어야 하므로
+ * 요소를 지우지는 않는다.
+ */
 .answer{
+
+  position:relative;
 
   display:flex;
 
@@ -605,6 +614,26 @@ button:disabled{
 
 
 
+/* 화면에서만 가린다 — 탭 이동과 화면낭독기에는 그대로 남는다 */
+.answer input{
+  position:absolute;
+  width:1px;
+  height:1px;
+  margin:-1px;
+  padding:0;
+  border:0;
+  overflow:hidden;
+  clip-path:inset(50%);
+  white-space:nowrap;
+}
+
+/* 동그라미를 가렸으니 키보드 초점은 보기 줄 전체에 표시한다 */
+.answer:focus-within{
+  outline:2px solid #3a6df0;
+  outline-offset:2px;
+}
+
+
 .option-ko{
   color:#666;
   font-size:13px;
@@ -614,6 +643,12 @@ button:disabled{
 
 .option-en{
   white-space:pre-wrap;
+}
+
+/* "① 95%" 처럼 번호와 본문을 띄운다 */
+.option-number{
+  margin-right:7px;
+  font-weight:600;
 }
 
 
@@ -894,21 +929,28 @@ button:disabled{
 }
 
 
+/*
+ * 답안 표기란의 보기 번호.
+ * 예전에는 여기에 동그란 테두리를 그렸는데, 글자 자체가 ①②③④ 라
+ * 원 안에 원이 또 그려져 이중으로 보였다. 테두리를 빼고 글자만 남긴다.
+ */
 .option-circle{
 
   width:20px;
 
   height:20px;
 
-  border-radius:50%;
+  border:0;
 
-  border:1px solid #999;
+  border-radius:4px;
 
-  background:white;
+  background:transparent;
 
-  color:#333;
+  color:#555;
 
-  font-size:11px;
+  font-size:15px;
+
+  line-height:1;
 
   padding:0;
 
@@ -925,11 +967,16 @@ button:disabled{
 }
 
 
+.option-circle:hover{
+
+  background:#eef3fa;
+
+}
+
+
 .option-circle.selected{
 
   background:#003b73;
-
-  border-color:#003b73;
 
   color:white;
 

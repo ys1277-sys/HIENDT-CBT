@@ -120,11 +120,20 @@ function Quiz({
   const [loading, setLoading] = useState(true);
   const [loadError, setLoadError] = useState("");
 
+  /*
+   * 보기 번호.
+   * 넷까지만 두면 다섯 번째부터 "① ② ③ ④ 5" 처럼 모양이 어긋난다.
+   * VT 처럼 보기가 다섯·여섯인 문항이 있어 여덟까지 채워 둔다.
+   */
   const numberCircle = [
     "①",
     "②",
     "③",
-    "④"
+    "④",
+    "⑤",
+    "⑥",
+    "⑦",
+    "⑧"
   ];
 
   useEffect(() => {
