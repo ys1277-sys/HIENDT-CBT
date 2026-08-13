@@ -19,13 +19,9 @@ function PrintQuestion({
   onReady
 }) {
 
-  /*
-   * 인쇄물은 print.css 의 .option-circle 이 동그라미를 직접 그린다.
-   * 여기에 ①②③④ 를 넣으면 원 안에 원이 또 그려져 이중으로 보였다.
-   * 그리고 넷까지만 두고 나머지를 "" 로 처리해, 보기가 다섯 이상인 문항은
-   * 5·6번 번호가 빈 동그라미로 인쇄됐다. 그냥 숫자를 쓴다.
-   */
-  const optionNumber = (i) => String(i + 1);
+  /* 보기 번호 — PrintExam 과 같다 */
+  const CIRCLED = ["①", "②", "③", "④", "⑤", "⑥", "⑦", "⑧"];
+  const optionNumber = (i) => CIRCLED[i] || String(i + 1);
 
   const [questionPages, setQuestionPages] =
     useState([]);

@@ -310,8 +310,7 @@
       "The area available to site the probe on an component.\n 구성 요소의 프로브를 현장에 배치할 수 있는 영역.",
       "The number of elements addressed by a given focal law\n 주어진 초점 법칙에 의해 처리된 진동자의 수",
       "The length of the transducer in the ‘active’ axis\n 활성 축의 변환기 길이",
-      "The electronic ‘snapshot’\n전자적 스냅샷",
-      "the area along the path length that data is collected.\n 전기적 정보 예. 데이터가 수집되는 경로 길이를 따르는 영역."
+      "The electronic ‘snapshot’, i.e. the area along the path length that data is collected.\n전자적 스냅샷, 즉 데이터가 수집되는 경로 길이를 따르는 영역"
     ],
     "answer": 1
   },

@@ -40,10 +40,14 @@ function PrintExam({
 }) {
 
   /*
-   * 넷까지만 두고 나머지를 "" 로 처리하고 있어, 보기가 다섯 이상인 문항은
-   * 5·6번 번호가 빈 동그라미로 인쇄됐다. (VT General 에 그런 문항이 있다)
+   * 보기 번호. 시험 화면과 같은 ①②③④ 를 쓴다.
+   *
+   * 예전에는 넷까지만 두고 나머지를 "" 로 처리해, 보기가 다섯 이상인 문항은
+   * 5·6번 번호가 빈칸으로 인쇄됐다. (VT General 에 그런 문항이 있다)
+   * 여덟까지 채우고 그보다 많으면 숫자로 떨어뜨린다.
    */
-  const optionNumber = (i) => String(i + 1);
+  const CIRCLED = ["①", "②", "③", "④", "⑤", "⑥", "⑦", "⑧"];
+  const optionNumber = (i) => CIRCLED[i] || String(i + 1);
 
   const [questionPages, setQuestionPages] =
     useState([]);

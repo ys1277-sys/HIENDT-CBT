@@ -769,48 +769,36 @@
   break-inside: avoid;
 }
 
+/*
+ * 보기 번호.
+ *
+ * 예전에는 여기에 동그란 테두리를 그리고 안에 1234 를 넣었다.
+ * 시험 화면은 ①②③④ 글자를 쓰는데 인쇄물만 모양이 달랐다.
+ * 글자 자체가 원이므로 테두리를 빼고 글자만 남겨 화면과 맞춘다.
+ * 정답·오답은 글자 색으로만 구분한다.
+ */
 .option-circle {
-  width: 22px;
-  height: 22px;
+  min-width: 16px;
 
-  min-width: 22px;
+  flex-shrink: 0;
 
-  border-radius: 50%;
+  font-size: 15px;
 
-  border: 1px solid #777;
-
-  background: #fff;
-
-  display: flex;
-
-  align-items: center;
-  justify-content: center;
-
-  box-sizing: border-box;
-
-  font-size: 13px;
-
-  font-weight: bold;
-
-  line-height: 1;
+  line-height: 1.35;
 
   color: #333;
 }
 
 .option-circle.box-correct {
-  border-color: blue;
+  color: blue;
 
-  background: blue;
-
-  color: #fff;
+  font-weight: bold;
 }
 
 .option-circle.box-wrong {
-  border-color: red;
+  color: red;
 
-  background: red;
-
-  color: #fff;
+  font-weight: bold;
 }
 
 .option-text {
