@@ -1,4 +1,4 @@
-/*
+﻿/*
  * 규칙 11: 문항과 선택지 모두 영문 아래 줄에 한글이 있어야 한다.
  * 한글이 없는 선택지가 몇 개인지 파일별로 센다.
  *
@@ -11,7 +11,7 @@ const PUB = "D:/Visual Studio Code/HIENDT-CBT/public/data";
 const walk = (d) =>
   fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => {
     const p = path.join(d, e.name);
-    return e.isDirectory() ? (e.name === "images" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
+    return e.isDirectory() ? (e.name === "images" || e.name === "procedures" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
   });
 
 const hasKo = (s) => /[가-힣]/.test(String(s));

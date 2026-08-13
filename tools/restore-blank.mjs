@@ -1,4 +1,4 @@
-/*
+﻿/*
  * 빈칸 표시를 되살린다.
  *
  * 원본은 빈칸을 밑줄이나 긴 공백으로 찍는다.
@@ -33,7 +33,7 @@ const HOLE = "\u0001";
 const walk = (d, ext) =>
   fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => {
     const p = path.join(d, e.name);
-    if (e.isDirectory()) return e.name === "images" ? [] : walk(p, ext);
+    if (e.isDirectory()) return e.name === "images" || e.name === "procedures" ? [] : walk(p, ext);
     return ext.test(e.name) ? [p] : [];
   });
 

@@ -1,4 +1,4 @@
-/* 한글 번역이 없는 문제를 과목별로 뽑는다 */
+﻿/* 한글 번역이 없는 문제를 과목별로 뽑는다 */
 import fs from "node:fs";
 import path from "node:path";
 
@@ -6,7 +6,7 @@ const PUB = "D:/Visual Studio Code/HIENDT-CBT/public/data";
 const walk = (d) =>
   fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => {
     const p = path.join(d, e.name);
-    return e.isDirectory() ? (e.name === "images" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
+    return e.isDirectory() ? (e.name === "images" || e.name === "procedures" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
   });
 
 const hasKo = (s) => /[가-힣]/.test(String(s || ""));

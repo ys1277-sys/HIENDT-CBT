@@ -1,4 +1,4 @@
-/*
+﻿/*
  * 보기가 통째로 한글만인 문항을 찾는다. (규칙 11)
  *
  * opt-mixed 는 한 문항 안에서 보기끼리 구성이 다른 경우만 잡는다.
@@ -14,7 +14,7 @@ const PUB = "D:/Visual Studio Code/HIENDT-CBT/public/data";
 const walk = (d) =>
   fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => {
     const p = path.join(d, e.name);
-    return e.isDirectory() ? (e.name === "images" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
+    return e.isDirectory() ? (e.name === "images" || e.name === "procedures" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
   });
 
 const HANGUL = /[가-힣]/;

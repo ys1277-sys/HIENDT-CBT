@@ -1,4 +1,4 @@
-/*
+﻿/*
  * 규칙 5로 선택지를 1.2.3.4 로 바꿨는데, 선택지 본문이 아직 a)/b)/B/C 를
  * 가리키는 것이 남아 있는지 찾는다.  ("Both a) and b)", "a mixture of B and C")
  * 이런 건 응시자가 어느 보기를 말하는지 알 수 없다.
@@ -10,7 +10,7 @@ const PUB = "D:/Visual Studio Code/HIENDT-CBT/public/data";
 const walk = (d) =>
   fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => {
     const p = path.join(d, e.name);
-    return e.isDirectory() ? (e.name === "images" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
+    return e.isDirectory() ? (e.name === "images" || e.name === "procedures" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
   });
 
 const REF = [

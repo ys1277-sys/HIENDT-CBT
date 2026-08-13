@@ -11,6 +11,14 @@ import React, { useEffect, useState } from "react";
 import { loadProcedures, pickProcedures, pageSrc } from "./procedures.js";
 
 /*
+ * 문제은행·관리자 출력에 절차서를 부록으로 붙일지.
+ *
+ * 지금은 보류다. 절차서 파일을 갖춘 뒤 true 로 바꾸면 그때부터 붙는다.
+ * 화면의 절차서 창은 이 값과 상관없이 그대로 동작한다.
+ */
+export const PRINT_APPENDIX = false;
+
+/*
  * 뽑힌 문항이 가리키는 절차서를 읽어 온다.
  *
  * 돌려주는 값
@@ -24,6 +32,13 @@ export function useProcedures(questions) {
   const [loaded, setLoaded] = useState(0);
 
   useEffect(() => {
+    /* 보류 중이면 읽지도 않는다. 인쇄가 절차서를 기다리지 않게 한다 */
+    if (!PRINT_APPENDIX) {
+      setProcs([]);
+      setLoaded(0);
+      return;
+    }
+
     let alive = true;
 
     setProcs(null);

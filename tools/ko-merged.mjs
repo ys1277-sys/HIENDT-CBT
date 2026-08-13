@@ -1,4 +1,4 @@
-/*
+﻿/*
  * 선택지 한글이 옆 칸과 섞인 것을 찾는다.
  *
  * 원본 시험지가 2단 편집이라(a·b는 왼쪽, c·d는 오른쪽) 파서가 짝을 잘못 맞춰
@@ -20,7 +20,7 @@ const PUB = "D:/Visual Studio Code/HIENDT-CBT/public/data";
 const walk = (d) =>
   fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => {
     const p = path.join(d, e.name);
-    return e.isDirectory() ? (e.name === "images" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
+    return e.isDirectory() ? (e.name === "images" || e.name === "procedures" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
   });
 
 /* 한 줄 안에 두 글자 이상 영어 낱말이 이만큼 있으면서 한글도 있으면 의심 */

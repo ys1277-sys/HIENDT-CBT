@@ -1,4 +1,4 @@
-/*
+﻿/*
  * 원본에서 보기별 한글을 다시 뽑아 짝을 맞춘다. (규칙 11)
  *
  * 원본 시험지는 보기를 2단으로 찍는다.
@@ -34,7 +34,7 @@ const SRC = ["D:/Visual Studio Code/Level II 문제", "D:/Visual Studio Code/Lev
 const walkJson = (d) =>
   fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => {
     const p = path.join(d, e.name);
-    return e.isDirectory() ? (e.name === "images" ? [] : walkJson(p)) : p.endsWith(".json") ? [p] : [];
+    return e.isDirectory() ? (e.name === "images" || e.name === "procedures" ? [] : walkJson(p)) : p.endsWith(".json") ? [p] : [];
   });
 const walkHwp = (d) =>
   fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => {

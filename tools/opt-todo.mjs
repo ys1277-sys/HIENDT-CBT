@@ -1,4 +1,4 @@
-/*
+﻿/*
  * 한 문항 안에서 한글이 빠진 보기만 뽑는다. (규칙 11)
  *
  * 같은 문항의 다른 보기에는 한글이 있는데 이 보기만 없는 경우다.
@@ -13,7 +13,7 @@ const PUB = "D:/Visual Studio Code/HIENDT-CBT/public/data";
 const walk = (d) =>
   fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => {
     const p = path.join(d, e.name);
-    return e.isDirectory() ? (e.name === "images" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
+    return e.isDirectory() ? (e.name === "images" || e.name === "procedures" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
   });
 
 const HANGUL = /[가-힣]/;

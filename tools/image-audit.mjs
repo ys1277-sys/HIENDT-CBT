@@ -1,4 +1,4 @@
-/*
+﻿/*
  * 규칙 7 점검 — 그림을 참조하는 문항에 실제로 그림이 붙어 있는가.
  *
  *   A. 본문이 그림을 가리키는데 image/images 가 없는 문항
@@ -14,7 +14,7 @@ const IMG = path.join(PUB, "images");
 const walk = (d) =>
   fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => {
     const p = path.join(d, e.name);
-    return e.isDirectory() ? (e.name === "images" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
+    return e.isDirectory() ? (e.name === "images" || e.name === "procedures" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
   });
 
 /*

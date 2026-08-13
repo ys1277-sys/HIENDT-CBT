@@ -1,4 +1,4 @@
-/*
+﻿/*
  * 파싱이 무너진 문항을 찾는다.
  *   A. 선택지가 비정상적으로 긴 것  (뒤 문항이나 답지가 통째로 흡수됨)
  *   B. 본문이 비정상적으로 짧은 것  (본문이 날아가고 껍데기만 남음)
@@ -12,7 +12,7 @@ const PUB = "D:/Visual Studio Code/HIENDT-CBT/public/data";
 const walk = (d) =>
   fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => {
     const p = path.join(d, e.name);
-    return e.isDirectory() ? (e.name === "images" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
+    return e.isDirectory() ? (e.name === "images" || e.name === "procedures" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
   });
 
 const JUNK = /해\s*답|ANSWER\s*SHEET|SPECIFIC\s*\(|GENERAL\s*\(|^\s*\d{1,2}\.\s+[A-Z].{40,}\?/im;

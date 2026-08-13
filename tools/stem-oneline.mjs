@@ -1,4 +1,4 @@
-/*
+﻿/*
  * 발문의 영문과 한글이 한 줄에 붙어 있는 문항을 찾는다. (규칙 11)
  *
  *   "What is used to ...? TOFD를 수행할 때, ...?"
@@ -14,7 +14,7 @@ const PUB = "D:/Visual Studio Code/HIENDT-CBT/public/data";
 const walk = (d) =>
   fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => {
     const p = path.join(d, e.name);
-    return e.isDirectory() ? (e.name === "images" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
+    return e.isDirectory() ? (e.name === "images" || e.name === "procedures" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
   });
 
 const HANGUL = /[가-힣]/;

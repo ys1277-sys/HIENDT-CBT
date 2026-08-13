@@ -1,4 +1,4 @@
-/*
+﻿/*
  * "영문 / 한글" 처럼 한 줄에 슬래시로 붙여 놓은 선택지를 두 줄로 나눈다. (규칙 11)
  *
  * 복구·변환하면서 만든 문항 일부가 줄바꿈 대신 " / " 를 썼다.
@@ -14,7 +14,7 @@ const PUB = "D:/Visual Studio Code/HIENDT-CBT/public/data";
 const walk = (d) =>
   fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => {
     const p = path.join(d, e.name);
-    return e.isDirectory() ? (e.name === "images" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
+    return e.isDirectory() ? (e.name === "images" || e.name === "procedures" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
   });
 
 const HANGUL = /[가-힣]/;

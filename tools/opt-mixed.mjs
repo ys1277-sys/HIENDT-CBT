@@ -1,4 +1,4 @@
-/*
+﻿/*
  * 한 문항 안에서 보기마다 언어 구성이 다른 것을 찾는다. (규칙 11)
  *
  *   ① 시험편 양쪽에서 접근 가능한 경우 ...        <- 한글만
@@ -14,7 +14,7 @@ const PUB = "D:/Visual Studio Code/HIENDT-CBT/public/data";
 const walk = (d) =>
   fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => {
     const p = path.join(d, e.name);
-    return e.isDirectory() ? (e.name === "images" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
+    return e.isDirectory() ? (e.name === "images" || e.name === "procedures" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
   });
 
 const HANGUL = /[가-힣]/;

@@ -1,4 +1,4 @@
-/*
+﻿/*
  * 별도 키에 들어 있는 한글 번역을 question 에 합친다.
  *
  * 앱은 q.question 만 읽고 줄바꿈으로 영문/한글을 나눈다.
@@ -16,7 +16,7 @@ const PUB = "D:/Visual Studio Code/HIENDT-CBT/public/data";
 const walk = (d) =>
   fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => {
     const p = path.join(d, e.name);
-    return e.isDirectory() ? (e.name === "images" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
+    return e.isDirectory() ? (e.name === "images" || e.name === "procedures" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
   });
 
 const KO_KEYS = ["question_kr", "korean", "question_ko", "translation"];

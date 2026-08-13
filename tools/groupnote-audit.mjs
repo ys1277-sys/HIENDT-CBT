@@ -1,4 +1,4 @@
-/*
+﻿/*
  * 원본의 묶음 지시문이 은행에 붙었는지 본다. (규칙 13)
  *
  * 원본은 묶음 문항 앞에 이런 줄을 둔다.
@@ -19,7 +19,7 @@ const SRC = ["D:/Visual Studio Code/Level II 문제", "D:/Visual Studio Code/Lev
 const walk = (d, ext) =>
   fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => {
     const p = path.join(d, e.name);
-    if (e.isDirectory()) return e.name === "images" ? [] : walk(p, ext);
+    if (e.isDirectory()) return e.name === "images" || e.name === "procedures" ? [] : walk(p, ext);
     return ext.test(e.name) ? [p] : [];
   });
 

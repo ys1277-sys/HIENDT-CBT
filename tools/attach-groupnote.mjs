@@ -1,4 +1,4 @@
-/*
+﻿/*
  * 원본의 묶음 지시문을 문항에 도로 붙인다. (규칙 13)
  *
  * 원본은 묶음 앞에 한 줄만 두고, 아래 문항들은 그 줄을 전제로 한다.
@@ -39,7 +39,7 @@ const SRC = ["D:/Visual Studio Code/Level II 문제", "D:/Visual Studio Code/Lev
 const walk = (d, ext) =>
   fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => {
     const p = path.join(d, e.name);
-    if (e.isDirectory()) return e.name === "images" ? [] : walk(p, ext);
+    if (e.isDirectory()) return e.name === "images" || e.name === "procedures" ? [] : walk(p, ext);
     return ext.test(e.name) ? [p] : [];
   });
 

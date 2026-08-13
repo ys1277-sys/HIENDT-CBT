@@ -1,4 +1,5 @@
 ﻿import React, {
+  useMemo,
   useLayoutEffect,
   useRef,
   useState
@@ -9,6 +10,7 @@ import logo from "./logo.png";
 import QuestionImage, { questionImages } from "./QuestionImage.jsx";
 import GroupNote from "./GroupNote.jsx";
 import ProcedureAppendix, { useProcedures } from "./ProcedureAppendix.jsx";
+import { groupRanges } from "./groupRange.js";
 import {
   questionType,
   isCorrectOption,
@@ -42,6 +44,13 @@ function PrintAdminExam({
   /* 문항이 가리키는 절차서 — PrintExam 과 같다 */
   const appendix =
     useProcedures(questions);
+
+  /* 묶음 지시문에 넣을 문항 번호 — 이 시험지에서 실제로 몇 번인지다 */
+  const ranges =
+    useMemo(
+      () => groupRanges(questions),
+      [questions]
+    );
 
   const measureRef =
     useRef(null);
@@ -507,7 +516,8 @@ function PrintAdminExam({
         className="question-print"
       >
 
-        <GroupNote q={q} />
+        {/* 번호는 이 시험지에서 실제로 몇 번인지를 넣는다 */}
+        <GroupNote q={q} range={ranges.get(q)} />
 
 
         <div

@@ -1,4 +1,4 @@
-/*
+﻿/*
  * 선택지 꼬리에 흘러든 답지표·후속문항을 잘라낸다.
  *
  * 파서가 마지막 선택지에서 멈추지 못해, 그 뒤에 오는 답지표와
@@ -15,7 +15,7 @@ const PUB = "D:/Visual Studio Code/HIENDT-CBT/public/data";
 const walk = (d) =>
   fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => {
     const p = path.join(d, e.name);
-    return e.isDirectory() ? (e.name === "images" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
+    return e.isDirectory() ? (e.name === "images" || e.name === "procedures" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
   });
 
 /*

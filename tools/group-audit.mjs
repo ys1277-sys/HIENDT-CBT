@@ -1,4 +1,4 @@
-/*
+﻿/*
  * 원본 시험지의 "조건문(group instruction)" 이 JSON 문항에 제대로 붙었는지 감사한다.
  *
  * 원본에서 조건문은 이런 꼴로 나온다.
@@ -15,7 +15,7 @@ const PUB = "D:/Visual Studio Code/HIENDT-CBT/public/data";
 const walk = (d) =>
   fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => {
     const p = path.join(d, e.name);
-    return e.isDirectory() ? (e.name === "images" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
+    return e.isDirectory() ? (e.name === "images" || e.name === "procedures" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
   });
 
 /* 본문 안에 조건문 문구가 그대로 섞여 있는 경우 = 분리 실패 */

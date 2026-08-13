@@ -1,4 +1,4 @@
-/*
+﻿/*
  * 한글 번역이 영문과 어긋나는 곳을 찾는다. (규칙 3)
  *
  * 오역을 기계로 다 잡을 수는 없다. 대신 "뜻이 뒤집히는" 세 가지만 본다.
@@ -16,7 +16,7 @@ const PUB = "D:/Visual Studio Code/HIENDT-CBT/public/data";
 const walk = (d) =>
   fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => {
     const p = path.join(d, e.name);
-    return e.isDirectory() ? (e.name === "images" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
+    return e.isDirectory() ? (e.name === "images" || e.name === "procedures" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
   });
 
 const HANGUL = /[가-힣]/;

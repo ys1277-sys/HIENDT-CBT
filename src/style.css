@@ -1045,116 +1045,134 @@ button:disabled{
   color:red;
 }
 
+
 /* =========================================================
    절차서 보기
 
-   문항이 "HIE-NDT-MT-N21 절차서를 보고 풀라" 고 할 때 여는 창이다.
-   시험장 인쇄물을 대신하므로 문항을 가리면 안 된다.
-   오른쪽 절반에 붙이고 왼쪽에서 문항을 계속 볼 수 있게 둔다.
+   문항 지시문에 적힌 절차서 이름을 누르면 뜨는 창이다.
+   계산기와 같은 꼴이라 머리를 끌어 옮길 수 있다.
    ========================================================= */
 
-.procedure-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
+/* 지시문 속 절차서 이름 — 눌러서 여는 자리 */
+.procedure-link {
+  padding: 0 2px;
+  margin: 0;
 
-  margin-top: 10px;
-}
+  border: 0;
+  border-bottom: 1px dashed currentColor;
 
-.procedure-open {
-  padding: 6px 12px;
-
-  border: 1px solid #1f3864;
-  border-radius: 4px;
-
-  background: #fff;
+  background: none;
   color: #1f3864;
 
-  font-size: 13px;
-  font-weight: 600;
+  font: inherit;
+  font-weight: 700;
 
   cursor: pointer;
 }
 
-.procedure-open:hover {
+.procedure-link:hover,
+.procedure-link:focus-visible {
   background: #1f3864;
   color: #fff;
+
+  border-bottom-color: transparent;
+  border-radius: 3px;
 }
 
-.procedure-viewer {
+.procw-box {
   position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
+  top: 72px;
+  right: 24px;
 
-  z-index: 50;
+  z-index: 60;
 
   display: flex;
   flex-direction: column;
 
-  width: min(50vw, 720px);
+  width: min(46vw, 640px);
+  max-height: calc(100vh - 120px);
 
   background: #fff;
-  border-left: 1px solid #c9ced6;
-  box-shadow: -4px 0 16px rgba(0, 0, 0, 0.18);
+  border: 1px solid #b7bdc6;
+  border-radius: 8px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.28);
+
+  overflow: hidden;
 }
 
-.procedure-viewer-bar {
+.procw-header {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
 
-  padding: 10px 12px;
+  padding: 8px 10px;
 
-  border-bottom: 1px solid #dfe3e8;
-  background: #f4f6f8;
+  background: #1f3864;
+  color: #fff;
+
+  cursor: move;
+  user-select: none;
 }
 
-.procedure-viewer-name {
+.procw-name {
   flex: 1;
 
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
-  color: #1f3864;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-.procedure-viewer-pager {
+.procw-header-right {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 4px;
+
+  flex-shrink: 0;
 }
 
-.procedure-viewer-pager button,
-.procedure-viewer-close {
-  padding: 3px 9px;
+.procw-header-right button {
+  min-width: 26px;
+  padding: 2px 7px;
 
-  border: 1px solid #c9ced6;
+  border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 4px;
 
-  background: #fff;
+  background: transparent;
+  color: #fff;
+
+  font-size: 12px;
   cursor: pointer;
 }
 
-.procedure-viewer-pager button:disabled {
-  opacity: 0.4;
+.procw-header-right button:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.procw-header-right button:disabled {
+  opacity: 0.35;
   cursor: default;
 }
 
-.procedure-viewer-count {
-  font-size: 13px;
+.procw-count {
+  padding: 0 2px;
+
+  font-size: 12px;
   font-variant-numeric: tabular-nums;
 }
 
-.procedure-viewer-body {
+.procw-body {
   flex: 1;
 
-  padding: 12px;
+  padding: 10px;
   overflow: auto;
 
   background: #e9ecef;
 }
 
-.procedure-viewer-body img {
+.procw-body img {
   display: block;
 
   width: 100%;
@@ -1166,15 +1184,27 @@ button:disabled{
 
 /* 좁은 화면에서는 창을 다 덮는다 */
 @media (max-width: 900px) {
-  .procedure-viewer {
-    width: 100vw;
+  .procw-box {
+    top: 0;
+    right: 0;
+    left: 0;
+
+    width: auto;
+    max-height: 100vh;
+
+    border-radius: 0;
   }
 }
 
-/* 인쇄물에는 절차서가 부록으로 붙으므로 단추와 창은 뺀다 */
+/* 인쇄물에는 창이 없다. 절차서 이름은 글자로만 나온다 */
 @media print {
-  .procedure-buttons,
-  .procedure-viewer {
+  .procw-box {
     display: none !important;
+  }
+
+  .procedure-link {
+    border: 0;
+    background: none;
+    color: inherit;
   }
 }

@@ -1,4 +1,4 @@
-/*
+﻿/*
  * 한글 발문이 영문에 비해 지나치게 짧은 문항을 찾는다. (규칙 3)
  *
  * VT General 31 처럼 영문의 전제("뒷면에 접근할 수 없을 때")가 번역에서
@@ -12,7 +12,7 @@ const PUB = "D:/Visual Studio Code/HIENDT-CBT/public/data";
 const walk = (d) =>
   fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => {
     const p = path.join(d, e.name);
-    return e.isDirectory() ? (e.name === "images" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
+    return e.isDirectory() ? (e.name === "images" || e.name === "procedures" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
   });
 
 const HANGUL = /[가-힣]/;

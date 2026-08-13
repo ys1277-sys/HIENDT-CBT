@@ -1,4 +1,4 @@
-/*
+﻿/*
  * 출제 추첨 검증
  *
  * Quiz.jsx 의 drawQuestions 와 같은 규칙으로 여러 번 뽑아 보고
@@ -62,7 +62,7 @@ function drawQuestions(bank, count) {
 const walk = (d) =>
   fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => {
     const p = path.join(d, e.name);
-    return e.isDirectory() ? (e.name === "images" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
+    return e.isDirectory() ? (e.name === "images" || e.name === "procedures" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
   });
 
 let log = "파일".padEnd(26) + "은행  요구  출제(최소~최대)  묶음쪼갬  중복시험지\n" + "-".repeat(78) + "\n";

@@ -1,4 +1,4 @@
-/*
+﻿/*
  * 문항이 "이 문서를 보고 풀라" 고 가리키는 자료 목록.
  *
  * 이 중 HIE 절차서는 원본 시험지 폴더에 파일이 없다.
@@ -11,7 +11,7 @@ const PUB = "D:/Visual Studio Code/HIENDT-CBT/public/data";
 const walk = (d) =>
   fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => {
     const p = path.join(d, e.name);
-    return e.isDirectory() ? (e.name === "images" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
+    return e.isDirectory() ? (e.name === "images" || e.name === "procedures" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
   });
 
 /* 지시문에서 자료 이름을 뽑는다 */

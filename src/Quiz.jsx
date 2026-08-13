@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import Result from "./Result.jsx";
 import ExamData, { questionCount } from "./ExamData.jsx";
 import Calculator from "./Calculator.jsx";
 import QuestionImage from "./QuestionImage.jsx";
 import GroupNote from "./GroupNote.jsx";
+import { groupRanges } from "./groupRange.js";
 import {
   questionType,
   isAnswered,
@@ -135,6 +136,18 @@ function Quiz({
     "⑦",
     "⑧"
   ];
+
+  /*
+   * 묶음 지시문에 넣을 문항 번호. 이번 시험지에서 실제로 몇 번인지다.
+   *
+   * 아래에 loading·loadError·showResult 로 일찍 돌아가는 자리가 있다.
+   * 훅은 그보다 위에 있어야 순서가 안 어긋난다.
+   */
+  const ranges =
+    useMemo(
+      () => groupRanges(questions),
+      [questions]
+    );
 
   useEffect(() => {
 
@@ -556,8 +569,12 @@ function Quiz({
             </div>
 
 
-            {/* 절차서를 넣어 뒀으면 여는 단추가 같이 나온다 */}
-            <GroupNote q={q} showProcedure />
+            {/* 지시문의 절차서 이름을 누르면 절차서 창이 뜬다 */}
+            <GroupNote
+              q={q}
+              range={ranges.get(q)}
+              showProcedure
+            />
 
 
             <div className="question-box">

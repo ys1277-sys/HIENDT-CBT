@@ -1,4 +1,4 @@
-/*
+﻿/*
  * A형/B형을 합치면서 그대로 남은 중복 문항을 제거한다. (규칙 8)
  * 지금은 같은 문항이 한 은행에 최대 4번까지 들어 있어,
  * 25문항을 뽑으면 같은 문제가 여러 번 나온다.
@@ -17,7 +17,7 @@ const PUB = "D:/Visual Studio Code/HIENDT-CBT/public/data";
 const walk = (d) =>
   fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => {
     const p = path.join(d, e.name);
-    return e.isDirectory() ? (e.name === "images" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
+    return e.isDirectory() ? (e.name === "images" || e.name === "procedures" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
   });
 
 const JUNK = /해\s*답|ANSWER\s*SHEET|SPECIFIC\s*\(|GENERAL\s*\(/i;

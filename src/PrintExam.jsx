@@ -1,5 +1,6 @@
 ﻿import React, {
   useEffect,
+  useMemo,
   useLayoutEffect,
   useRef,
   useState
@@ -10,6 +11,7 @@ import logo from "./logo.png";
 import QuestionImage, { questionImages } from "./QuestionImage.jsx";
 import GroupNote from "./GroupNote.jsx";
 import ProcedureAppendix, { useProcedures } from "./ProcedureAppendix.jsx";
+import { groupRanges } from "./groupRange.js";
 import {
   questionType,
   isCorrectOption,
@@ -56,10 +58,19 @@ function PrintExam({
 
   /*
    * 뽑힌 문항이 가리키는 절차서. 문제지 뒤에 부록으로 붙는다.
+   *
+   * 종이 시험지에는 절차서 창이 없으니 자동으로 따라 붙어야 한다.
    * 절차서를 안 넣어 뒀으면 빈 목록이라 아무것도 안 붙는다.
    */
   const appendix =
     useProcedures(questions);
+
+  /* 묶음 지시문에 넣을 문항 번호 — 이 시험지에서 실제로 몇 번인지다 */
+  const ranges =
+    useMemo(
+      () => groupRanges(questions),
+      [questions]
+    );
 
   const measureRef =
     useRef(null);
@@ -574,7 +585,8 @@ function PrintExam({
         className="question-print"
       >
 
-        <GroupNote q={q} />
+        {/* 번호는 이 시험지에서 실제로 몇 번인지를 넣는다 */}
+        <GroupNote q={q} range={ranges.get(q)} />
 
 
         <div
@@ -1131,3 +1143,4 @@ function PrintExam({
 }
 
 export default PrintExam;
+

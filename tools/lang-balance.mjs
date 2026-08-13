@@ -1,4 +1,4 @@
-/*
+﻿/*
  * 영문과 한글이 짝을 이루지 않는 곳을 찾는다. (규칙 11)
  *
  *   A. 영문만 있고 한글이 없는 것
@@ -13,7 +13,7 @@ const PUB = "D:/Visual Studio Code/HIENDT-CBT/public/data";
 const walk = (d) =>
   fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => {
     const p = path.join(d, e.name);
-    return e.isDirectory() ? (e.name === "images" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
+    return e.isDirectory() ? (e.name === "images" || e.name === "procedures" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
   });
 
 const HANGUL = /[가-힣]/;

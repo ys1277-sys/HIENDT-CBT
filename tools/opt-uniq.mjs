@@ -1,4 +1,4 @@
-/* 번역이 필요한 선택지를 고유 문구별로 빈도순으로 뽑는다.  node opt-uniq.mjs "Level III/VT" */
+﻿/* 번역이 필요한 선택지를 고유 문구별로 빈도순으로 뽑는다.  node opt-uniq.mjs "Level III/VT" */
 import fs from "node:fs";
 import path from "node:path";
 
@@ -8,7 +8,7 @@ const only = process.argv[2];
 const walk = (d) =>
   fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => {
     const p = path.join(d, e.name);
-    return e.isDirectory() ? (e.name === "images" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
+    return e.isDirectory() ? (e.name === "images" || e.name === "procedures" ? [] : walk(p)) : p.endsWith(".json") ? [p] : [];
   });
 
 const needsKo = (s) => {
