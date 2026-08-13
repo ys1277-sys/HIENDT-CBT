@@ -323,5 +323,36 @@
     ],
     "answer": 0,
     "id": 24
+  },
+  {
+    "id": 25,
+    "question": "What is the minimum lighting on the part surface when PT is conducted under white light?\n백색광 아래에서 침투탐상을 수행할 때 시험면의 최소 조도는?",
+    "options": [
+      "350 Lux",
+      "1,076 Lux",
+      "200 Lux",
+      "150 Lux"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 26,
+    "question": "A 5/16 in. rounded indication was found on a weld. Is this acceptable? (Ref.: ASME Sec. Ⅷ Div. 2)\n용접부에서 5/16인치 원형 지시가 발견되었다. 합격인가? (ASME Sec. Ⅷ Div. 2 기준)",
+    "options": [
+      "Acceptable / 합격",
+      "Unacceptable / 불합격"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 27,
+    "question": "When using solvent removable penetrants, flushing the surface with solvent to remove excess penetrant is prohibited. Why?\n용제제거성 침투액을 쓸 때 잉여 침투액 제거를 위해 표면에 용제를 뿌려 씻어내는 것이 금지되는 이유는?",
+    "options": [
+      "It washes the penetrant out of the discontinuities, so indications are lost / 불연속 안의 침투액까지 씻겨나가 지시가 사라지기 때문",
+      "It leaves a residue that fluoresces under black light / 자외선등 아래에서 형광을 내는 잔류물이 남기 때문",
+      "The solvent evaporates too slowly to allow development / 용제가 너무 늦게 증발해 현상이 되지 않기 때문",
+      "It raises the surface temperature above the allowable range / 표면 온도를 허용 범위 위로 올리기 때문"
+    ],
+    "answer": 0
   }
 ]

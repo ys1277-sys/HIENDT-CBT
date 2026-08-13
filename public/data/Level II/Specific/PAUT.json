@@ -371,5 +371,27 @@
       "불합격"
     ],
     "answer": 1
+  },
+  {
+    "id": 26,
+    "question": "According to ASME Code Case 2235-9, when inspecting weld thicknesses in excess of 25.4 mm it is recommended to use:\nASME Code Case 2235-9에 따라 두께 25.4mm를 초과하는 용접부를 검사할 때 권장되는 것은?",
+    "options": [
+      "Additional sectorial scans can be used / 추가적인 섹토리얼 주사를 사용할 수 있다",
+      "Additional linear scans and sectorial scans / 추가적인 선형주사와 섹토리얼 주사",
+      "Additional conventional UT scans are required / 추가적인 기존 UT 주사가 요구된다",
+      "No additional scans are required / 추가적인 주사가 필요하지 않다"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 27,
+    "question": "ASME Code Case 2235-9 and Sec. Ⅷ Div. 1 & 2 describe that a qualification block must be used to qualify the PAUT written procedure for weld inspection. As a minimum, the block shall contain:\nASME Code Case 2235-9와 Sec. Ⅷ Div. 1 & 2는 용접부 검사용 PAUT 절차서 인증에 인정시험편을 쓰도록 규정한다. 시험편이 최소한 포함해야 하는 것은?",
+    "options": [
+      "시험편 양쪽에서 접근 가능한 경우 OD 또는 ID 표면의 결함 2개와 표면하 결함 1개",
+      "OD 표면의 결함 2개와 ID 표면의 결함 1개",
+      "장비가 정확히 교정되어 있으면 인정시험편은 필요 없다",
+      "OD 표면의 결함 1개, ID 표면의 결함 1개, 표면하 결함 1개"
+    ],
+    "answer": 3
   }
 ]

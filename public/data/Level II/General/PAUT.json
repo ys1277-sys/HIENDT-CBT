@@ -569,5 +569,16 @@
       "TCGs provide better dynamic range and avoid saturating signals\n TCG가 활성 범위가 더 넓고 포화 신호를 피할 수 있기 때문이다."
     ],
     "answer": 0
+  },
+  {
+    "id": 39,
+    "question": "What information can be taken from a C-scan presentation?\nC-scan 표시로부터 얻을 수 있는 정보는?",
+    "options": [
+      "The longitudinal coordinates of a reflector / 반사체의 길이방향 좌표",
+      "The transverse coordinates of a reflector / 반사체의 횡방향 좌표",
+      "The echo position / 에코 위치",
+      "Both 1 and 2 are correct / 1과 2가 모두 맞다"
+    ],
+    "answer": 3
   }
 ]

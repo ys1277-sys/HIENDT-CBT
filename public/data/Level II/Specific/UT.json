@@ -375,5 +375,47 @@
     ],
     "answer": 1,
     "id": 27
+  },
+  {
+    "id": 28,
+    "question": "Angle beam examination shall be performed using a search unit with a nominal frequency of A MHz and a size of B mm. What are A and B?\n사각탐상은 공칭 주파수 A MHz, 크기 B mm인 탐촉자로 수행해야 한다. A와 B는?",
+    "options": [
+      "A: 2 or 4,  B: 8×9 or 20×22",
+      "A: 2.5 or 5,  B: 10×10 or 22×24",
+      "A: 4,  B: 3.5×10",
+      "A: 2 or 4,  B: φ10 or φ24"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 29,
+    "question": "A side-drilled hole shall be used as a calibration reflector to establish the primary reference response of the equipment. At what depth shall the hole be located?\n장비의 1차 기준감도를 설정하기 위한 대비반사체로 측면 구멍을 사용한다. 이 구멍의 깊이 위치는?",
+    "options": [
+      "¼T",
+      "½T",
+      "¾T",
+      "T"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 30,
+    "question": "Discontinuity \"A\" is interpreted as lack of fusion with 1 mm in width, 3 mm in height, 4 mm in length, and 25% of reference level in amplitude. Is it acceptable? (Ref.: ASME B31.1)\n불연속 \"A\"는 폭 1mm, 높이 3mm, 길이 4mm, 진폭은 기준레벨의 25%인 융합불량으로 판정되었다. 합격인가? (ASME B31.1 기준)",
+    "options": [
+      "Acceptable / 합격",
+      "Unacceptable / 불합격"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 31,
+    "question": "What kind of document is the recommended practice for establishing the HIE NDE qualification program HIE-QP-E01?\nHIE의 비파괴검사 자격 프로그램 HIE-QP-E01을 수립하는 근거가 되는 권장 지침 문서는?",
+    "options": [
+      "SNT-TC-1A",
+      "ASME Section Ⅴ",
+      "ISO 9712",
+      "ASTM E1316"
+    ],
+    "answer": 0
   }
 ]

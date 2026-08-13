@@ -583,5 +583,16 @@
       "soften the X-radiation (엑스선을 부드럽게 하기 위해)"
     ],
     "answer": 0
+  },
+  {
+    "id": 40,
+    "question": "The gamma-ray intensity at one foot from a one curie source of radioactive cobalt-60 is nearest:\n코발트-60 1퀴리 선원에서 1피트 떨어진 곳의 감마선 강도에 가장 가까운 값은?",
+    "options": [
+      "15 roentgens per hour (15 R/hr)",
+      "1,000 roentgens per hour (1,000 R/hr)",
+      "1 roentgen per hour (1 R/hr)",
+      "10 milliroentgens per hour (10 mR/hr)"
+    ],
+    "answer": 0
   }
 ]
