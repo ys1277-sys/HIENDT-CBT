@@ -406,7 +406,8 @@
       "material Ⅱ could be used for dry powder magnetic particles\n (재질 Ⅱ은 건식자분을 사용할 수 있다.)",
       "material Ⅱ is paramagnetic\n재질 Ⅱ는 상자성체이다."
     ],
-    "answer": 2
+    "answer": 2,
+    "image": "MT_GENERAL_FIG1.jpg"
   },
   {
     "id": 27,
@@ -421,7 +422,8 @@
       "has a high permeability\n높은 투자율",
       "would make an excellent permanent magnet\n우수한 영구자석 제작"
     ],
-    "answer": 2
+    "answer": 2,
+    "image": "MT_GENERAL_FIG1.jpg"
   },
   {
     "id": 28,
@@ -436,7 +438,8 @@
       "represents the point at which the residual magnetic value will remain when the magnetizing current is removed\n자장의 흐름을 제거했을 때 남아 있는 잔류자장의 값을 나타냄",
       "is the limit of coercive force\n항자력의 제한"
     ],
-    "answer": 1
+    "answer": 1,
+    "image": "MT_GENERAL_FIG1.jpg"
   },
   {
     "id": 29,
@@ -451,7 +454,8 @@
       "C",
       "D"
     ],
-    "answer": 2
+    "answer": 2,
+    "image": "MT_GENERAL_FIG1.jpg"
   },
   {
     "id": 30,
@@ -620,7 +624,8 @@
       "D",
       "P L.F\nSLAG\nC\nB\nB,C,E\nC\nC"
     ],
-    "answer": 2
+    "answer": 2,
+    "image": "MT_GENERAL_FIG1.jpg"
   },
   {
     "level": "Level II",
