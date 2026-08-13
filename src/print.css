@@ -92,8 +92,15 @@
   break-inside: avoid;
 }
 
+/*
+ * 머리말 표
+ *
+ * 폭을 종이(190mm)와 똑같이 두면, border-collapse 로 합쳐진 바깥 테두리의
+ * 오른쪽 절반이 종이 밖으로 나가 .print-paper 의 overflow:hidden 에 잘린다.
+ * 그래서 표 오른쪽 끝 세로선이 사라져 보였다. 1px 줄여 안쪽으로 들인다.
+ */
 .doc-header-table {
-  width: 190mm;
+  width: calc(190mm - 1px);
 
   margin: 0;
   padding: 0;
@@ -1175,7 +1182,8 @@
   .doc-header-table {
     display: table !important;
 
-    width: 190mm !important;
+    /* 화면 규칙과 같은 이유로 1px 들인다 (오른쪽 세로선 잘림 방지) */
+    width: calc(190mm - 1px) !important;
 
     margin: 0 !important;
     padding: 0 !important;
