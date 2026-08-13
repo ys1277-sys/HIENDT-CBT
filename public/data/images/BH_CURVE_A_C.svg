@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 170" width="280" height="170"
+     font-family="serif" font-size="13" font-style="italic">
+  <rect width="280" height="170" fill="#ffffff"/>
+
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#000"/>
+    </marker>
+    <marker id="ah2" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#000"/>
+    </marker>
+  </defs>
+
+  <!-- 좌표축 : 가로 H, 세로 B -->
+  <line x1="18" y1="88" x2="262" y2="88" stroke="#000" stroke-width="1.6"
+        marker-start="url(#ah)" marker-end="url(#ah)"/>
+  <line x1="140" y1="152" x2="140" y2="14" stroke="#000" stroke-width="1.6"
+        marker-start="url(#ah)" marker-end="url(#ah)"/>
+
+  <text x="140" y="12" text-anchor="middle">B</text>
+  <text x="140" y="166" text-anchor="middle">B'</text>
+  <text x="12" y="84" text-anchor="middle">H</text>
+  <text x="270" y="84" text-anchor="middle">H'</text>
+
+  <!-- 자기이력 곡선 : 원점을 지나는 좁고 기울어진 고리 -->
+  <path d="M 92,132 C 112,132 122,120 130,100
+           C 138,80 148,58 176,48
+           C 196,41 214,40 232,42"
+        fill="none" stroke="#000" stroke-width="1.4"/>
+  <path d="M 232,42 C 214,44 198,46 186,54
+           C 158,72 148,96 140,112
+           C 130,132 116,140 92,132"
+        fill="none" stroke="#000" stroke-width="1.4"/>
+
+  <!-- 잔류자기 눈금선 : B 축에서 왼쪽으로 그은 가로선 -->
+  <line x1="60" y1="62" x2="140" y2="62" stroke="#000" stroke-width="1.2"/>
+
+  <!-- A : 가로선과 H 축 사이의 세로 거리 -->
+  <line x1="96" y1="63" x2="96" y2="87" stroke="#000" stroke-width="1.2"
+        marker-start="url(#ah2)" marker-end="url(#ah2)"/>
+  <text x="86" y="79" text-anchor="middle" font-style="italic">A</text>
+
+  <!-- C : 원점 바로 아래의 짧은 세로 거리 -->
+  <line x1="140" y1="90" x2="140" y2="112" stroke="#000" stroke-width="1.2"
+        marker-start="url(#ah2)" marker-end="url(#ah2)"/>
+  <text x="132" y="122" text-anchor="middle" font-style="italic">C</text>
+</svg>

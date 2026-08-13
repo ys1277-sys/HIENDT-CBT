@@ -51,14 +51,24 @@ const RFT_NAME = "RFT_GENERAL_SUPPORT_PLATE.png";
 }
 
 /* ---------- 2) 문항에 붙이기 ---------- */
-const LINKS = {
-  "Level II/General/MT": { ids: [26, 27, 28, 29, 40], image: MT_NAME },
-  "Level II/General/UT": { ids: [1], image: "UT_GENERAL_B_Q6.jpg" },
-  "Level II/General/RFT": { ids: [39], image: RFT_NAME },
-};
+/*
+ * BH_CURVE_A_C.svg 와 RFT_GENERAL_Q39.svg 는 원본 HWP 에 비트맵으로
+ * 들어 있지 않아(도형으로 그려져 있어) 사용자가 보내준 화면을 보고 다시 그린 것이다.
+ * RFT 39 는 추출한 비트맵 위에 a·b·c 라벨만 얹었다.
+ */
+/* 한 파일에 묶음이 여럿일 수 있어 목록으로 둔다 */
+const LINKS = [
+  { rel: "Level II/General/MT", ids: [26, 27, 28, 29, 40], image: MT_NAME },
+  { rel: "Level II/General/UT", ids: [1], image: "UT_GENERAL_B_Q6.jpg" },
+  { rel: "Level II/General/RFT", ids: [39], image: "RFT_GENERAL_Q39.svg" },
+  /* ECT 28~31 과 RFT 28~31 은 문항이 글자 그대로 같아 같은 그림을 쓴다 */
+  { rel: "Level II/General/ECT", ids: [28, 29, 30, 31], image: "BH_CURVE_A_C.svg" },
+  { rel: "Level II/General/RFT", ids: [28, 29, 30, 31], image: "BH_CURVE_A_C.svg" },
+  { rel: "Level II/Specific/PT", ids: [8], image: "PT_SPECIFIC_Q8_FIG1.svg" },
+];
 
-for (const [rel, spec] of Object.entries(LINKS)) {
-  const p = `${PUB}/${rel}.json`;
+for (const spec of LINKS) {
+  const p = `${PUB}/${spec.rel}.json`;
   const raw = fs.readFileSync(p, "utf8");
   const items = JSON.parse(raw.charCodeAt(0) === 0xfeff ? raw.slice(1) : raw);
   let n = 0;
@@ -67,9 +77,9 @@ for (const [rel, spec] of Object.entries(LINKS)) {
     if (!spec.ids.includes(q.id)) continue;
     q.image = spec.image;
     n++;
-    log += `  ${rel} id ${q.id} <- ${spec.image}\n`;
+    log += `  ${spec.rel} id ${q.id} <- ${spec.image}\n`;
   }
-  if (n !== spec.ids.length) log += `** ${rel}: ${spec.ids.length}개 중 ${n}개만 연결됨\n`;
+  if (n !== spec.ids.length) log += `** ${spec.rel}: ${spec.ids.length}개 중 ${n}개만 연결됨\n`;
   if (APPLY) fs.writeFileSync(p, JSON.stringify(items, null, 2) + "\n", "utf8");
 }
 

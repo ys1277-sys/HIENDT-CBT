@@ -132,7 +132,8 @@
       "Reject",
       "Non-relevant indication\n비관련 지시"
     ],
-    "answer": 2
+    "answer": 2,
+    "image": "UT_SPECIFIC_B_Q5.jpg"
   },
   {
     "id": 10,
@@ -396,6 +397,18 @@
       "ASME Section Ⅴ",
       "ISO 9712",
       "ASTM E1316"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 32,
+    "image": "UT_SPECIFIC_B_Q16.png",
+    "question": "Calculate the depth (x) of discontinuity \"A\" in the figure. (Metal path : 100 mm)\n그림에서 불연속 \"A\"의 깊이 x를 계산하시오. (빔 진행거리 100mm)",
+    "options": [
+      "9.3 mm",
+      "19.3 mm",
+      "29.3 mm",
+      "70.7 mm"
     ],
     "answer": 0
   }

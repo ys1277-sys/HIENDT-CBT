@@ -111,7 +111,8 @@
       "True\n맞다",
       "False (틀리다)\n \nA\n 4/16“\n 2/16“"
     ],
-    "answer": 1
+    "answer": 1,
+    "image": "PT_SPECIFIC_Q8_FIG1.svg"
   },
   {
     "id": 9,

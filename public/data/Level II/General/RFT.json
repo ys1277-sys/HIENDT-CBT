@@ -390,7 +390,8 @@
         "the material's permeability\n재료의 투자율",
         "the material's conductivity\n재료의 전도율"
       ],
-      "answer": 0
+      "answer": 0,
+      "image": "BH_CURVE_A_C.svg"
     },
     {
       "id": 29,
@@ -404,7 +405,8 @@
         "the material's permeability\n재료의 투자율",
         "the material's conductivity\n재료의 전도율"
       ],
-      "answer": 1
+      "answer": 1,
+      "image": "BH_CURVE_A_C.svg"
     },
     {
       "id": 30,
@@ -418,7 +420,8 @@
         "retentivity\n보자력",
         "coercive force\n항자력"
       ],
-      "answer": 2
+      "answer": 2,
+      "image": "BH_CURVE_A_C.svg"
     },
     {
       "id": 31,
@@ -432,7 +435,8 @@
         "residual magnetism\n잔류 자기",
         "coercive force\n항자력"
       ],
-      "answer": 3
+      "answer": 3,
+      "image": "BH_CURVE_A_C.svg"
     },
     {
       "id": 32,
@@ -545,7 +549,7 @@
         "Both sketch a and sketch b\n스케치 a와 b 모두"
       ],
       "answer": 2,
-      "image": "RFT_GENERAL_SUPPORT_PLATE.png"
+      "image": "RFT_GENERAL_Q39.svg"
     },
     {
       "id": 40,
