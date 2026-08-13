@@ -1,4 +1,5 @@
 ﻿import React, {
+  useEffect,
   useLayoutEffect,
   useRef,
   useState
@@ -8,6 +9,7 @@ import "./print.css";
 import logo from "./logo.png";
 import QuestionImage, { questionImages } from "./QuestionImage.jsx";
 import GroupNote from "./GroupNote.jsx";
+import ProcedureAppendix, { useProcedures } from "./ProcedureAppendix.jsx";
 import {
   questionType,
   isCorrectOption,
@@ -51,6 +53,13 @@ function PrintExam({
 
   const [questionPages, setQuestionPages] =
     useState([]);
+
+  /*
+   * 뽑힌 문항이 가리키는 절차서. 문제지 뒤에 부록으로 붙는다.
+   * 절차서를 안 넣어 뒀으면 빈 목록이라 아무것도 안 붙는다.
+   */
+  const appendix =
+    useProcedures(questions);
 
   const measureRef =
     useRef(null);
@@ -320,6 +329,16 @@ function PrintExam({
 
 
     /*
+     * 절차서 부록을 다 읽기 전에 인쇄창이 뜨면 부록이 빈 종이로 나간다.
+     */
+    if (
+      !appendix.ready
+    ) {
+      return;
+    }
+
+
+    /*
      * onReady 는 한 번만 부른다.
      *
      * 예전에는 questionPages 가 다시 계산될 때마다 불렸다. 문제은행
@@ -354,12 +373,15 @@ function PrintExam({
 
   }, [
     questionPages,
-    questions.length
+    questions.length,
+    appendix.ready
   ]);
 
 
   const totalPages =
-    questionPages.length + 1;
+    questionPages.length +
+    1 +
+    appendix.procs.reduce((n, p) => n + p.pages.length, 0);
 
 
   /* =========================================================
@@ -1086,6 +1108,20 @@ function PrintExam({
             }
           )
         }
+
+
+        {/* ===================================================
+            절차서 부록
+            문항이 가리키는 절차서를 문제지 뒤에 붙인다.
+            절차서를 안 넣어 뒀으면 아무것도 안 나온다.
+            =================================================== */}
+
+        <ProcedureAppendix
+          procs={appendix.procs}
+          onPageSettled={appendix.onPageSettled}
+          startPage={questionPages.length + 2}
+          header={Header}
+        />
 
       </div>
 

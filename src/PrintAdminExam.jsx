@@ -8,6 +8,7 @@ import "./print.css";
 import logo from "./logo.png";
 import QuestionImage, { questionImages } from "./QuestionImage.jsx";
 import GroupNote from "./GroupNote.jsx";
+import ProcedureAppendix, { useProcedures } from "./ProcedureAppendix.jsx";
 import {
   questionType,
   isCorrectOption,
@@ -37,6 +38,10 @@ function PrintAdminExam({
 
   const [questionPages, setQuestionPages] =
     useState([]);
+
+  /* 문항이 가리키는 절차서 — PrintExam 과 같다 */
+  const appendix =
+    useProcedures(questions);
 
   const measureRef =
     useRef(null);
@@ -269,6 +274,12 @@ function PrintAdminExam({
     }
 
 
+    /* 절차서 부록을 다 읽기 전에 인쇄하면 부록이 빈 종이로 나간다 */
+    if (!appendix.ready) {
+      return;
+    }
+
+
     /* onReady 는 한 번만 부른다 — PrintExam 과 같은 이유다 */
     if (firedRef.current) {
       return;
@@ -295,12 +306,15 @@ function PrintAdminExam({
 
   }, [
     questionPages,
-    questions.length
+    questions.length,
+    appendix.ready
   ]);
 
 
   const totalPages =
-    questionPages.length + 1;
+    questionPages.length +
+    1 +
+    appendix.procs.reduce((n, p) => n + p.pages.length, 0);
 
 
   /* =====================================================
@@ -981,6 +995,16 @@ function PrintAdminExam({
             }
           )
         }
+
+
+        {/* 절차서 부록 — PrintExam 과 같다 */}
+
+        <ProcedureAppendix
+          procs={appendix.procs}
+          onPageSettled={appendix.onPageSettled}
+          startPage={questionPages.length + 2}
+          header={Header}
+        />
 
       </div>
 

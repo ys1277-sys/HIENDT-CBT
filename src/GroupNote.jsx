@@ -1,4 +1,5 @@
 import React from "react";
+import { ProcedureButtons } from "./ProcedureViewer.jsx";
 
 /*
  * 묶음 지시문
@@ -11,8 +12,12 @@ import React from "react";
  * 해당 문항마다 함께 나와야 응시자가 조건을 알 수 있다.
  *
  * 본문과 같은 "영문\n한글" 형식을 쓴다.
+ *
+ * 지시문이 가리키는 절차서를 넣어 뒀으면 여는 단추도 같이 나온다.
+ * 인쇄물에는 단추 대신 절차서가 부록으로 붙으므로(ProcedureAppendix)
+ * showProcedure 를 꺼서 뺀다.
  */
-function GroupNote({ q, className = "group-note" }) {
+function GroupNote({ q, className = "group-note", showProcedure = false }) {
   const raw = q && q.groupNote;
 
   if (!raw) return null;
@@ -36,6 +41,8 @@ function GroupNote({ q, className = "group-note" }) {
           </div>
         ))
       }
+
+      {showProcedure ? <ProcedureButtons q={q} /> : null}
     </div>
   );
 }

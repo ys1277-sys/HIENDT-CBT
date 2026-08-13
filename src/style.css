@@ -1044,3 +1044,137 @@ button:disabled{
   border:3px solid red;
   color:red;
 }
+
+/* =========================================================
+   절차서 보기
+
+   문항이 "HIE-NDT-MT-N21 절차서를 보고 풀라" 고 할 때 여는 창이다.
+   시험장 인쇄물을 대신하므로 문항을 가리면 안 된다.
+   오른쪽 절반에 붙이고 왼쪽에서 문항을 계속 볼 수 있게 둔다.
+   ========================================================= */
+
+.procedure-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  margin-top: 10px;
+}
+
+.procedure-open {
+  padding: 6px 12px;
+
+  border: 1px solid #1f3864;
+  border-radius: 4px;
+
+  background: #fff;
+  color: #1f3864;
+
+  font-size: 13px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.procedure-open:hover {
+  background: #1f3864;
+  color: #fff;
+}
+
+.procedure-viewer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+
+  z-index: 50;
+
+  display: flex;
+  flex-direction: column;
+
+  width: min(50vw, 720px);
+
+  background: #fff;
+  border-left: 1px solid #c9ced6;
+  box-shadow: -4px 0 16px rgba(0, 0, 0, 0.18);
+}
+
+.procedure-viewer-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  padding: 10px 12px;
+
+  border-bottom: 1px solid #dfe3e8;
+  background: #f4f6f8;
+}
+
+.procedure-viewer-name {
+  flex: 1;
+
+  font-size: 14px;
+  font-weight: 700;
+  color: #1f3864;
+}
+
+.procedure-viewer-pager {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.procedure-viewer-pager button,
+.procedure-viewer-close {
+  padding: 3px 9px;
+
+  border: 1px solid #c9ced6;
+  border-radius: 4px;
+
+  background: #fff;
+  cursor: pointer;
+}
+
+.procedure-viewer-pager button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.procedure-viewer-count {
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+}
+
+.procedure-viewer-body {
+  flex: 1;
+
+  padding: 12px;
+  overflow: auto;
+
+  background: #e9ecef;
+}
+
+.procedure-viewer-body img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+
+  background: #fff;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* 좁은 화면에서는 창을 다 덮는다 */
+@media (max-width: 900px) {
+  .procedure-viewer {
+    width: 100vw;
+  }
+}
+
+/* 인쇄물에는 절차서가 부록으로 붙으므로 단추와 창은 뺀다 */
+@media print {
+  .procedure-buttons,
+  .procedure-viewer {
+    display: none !important;
+  }
+}

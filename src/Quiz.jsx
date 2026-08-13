@@ -556,7 +556,8 @@ function Quiz({
             </div>
 
 
-            <GroupNote q={q} />
+            {/* 절차서를 넣어 뒀으면 여는 단추가 같이 나온다 */}
+            <GroupNote q={q} showProcedure />
 
 
             <div className="question-box">
