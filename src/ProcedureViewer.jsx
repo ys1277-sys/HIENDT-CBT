@@ -46,6 +46,27 @@ export function availableProcedures(manifest, q) {
 }
 
 /*
+ * 절차서 도해.
+ *
+ * 원본에 2573x1819 짜리 스캔본이 들어 있다. 그대로 두면 한 장이 창을
+ * 다 덮어 앞뒤 글이 안 보인다. 높이를 묶어 두고 누르면 키운다.
+ */
+function Figure({ src }) {
+  const [zoom, setZoom] = useState(false);
+
+  return (
+    <img
+      className={zoom ? "procw-fig zoomed" : "procw-fig"}
+      src={pageSrc(src)}
+      alt=""
+      loading="lazy"
+      title={zoom ? "눌러서 줄이기" : "눌러서 키우기"}
+      onClick={() => setZoom((v) => !v)}
+    />
+  );
+}
+
+/*
  * 덩이 하나를 그린다.
  *
  * 원본 hwp 의 표·그림 차례를 그대로 옮긴 것이라 표 안에 또 덩이가 들어 있다.
@@ -56,11 +77,7 @@ function Block({ b }) {
     return <h4 className={b.level === 3 ? "procw-h3" : "procw-h2"}>{b.s}</h4>;
   }
 
-  if (b.t === "img") {
-    return (
-      <img className="procw-fig" src={pageSrc(b.src)} alt="" loading="lazy" />
-    );
-  }
+  if (b.t === "img") return <Figure src={b.src} />;
 
   if (b.t === "table") {
     return (

@@ -1359,16 +1359,35 @@ button:disabled{
   margin: 4px 0;
 }
 
+/*
+ * 절차서 도해.
+ *
+ * 원본에 2573x1819 짜리 스캔본이 들어 있다. 그대로 두면 한 장이
+ * 창을 다 덮어 앞뒤 글이 안 보인다. 높이를 창의 절반으로 묶고,
+ * 자세히 볼 때는 눌러서 키운다.
+ */
 .procw-fig {
   display: block;
 
   max-width: 100%;
+  max-height: 46vh;
+  width: auto;
   height: auto;
 
   margin: 8px 0;
 
   border: 1px solid #dfe3e8;
   background: #fff;
+
+  object-fit: contain;
+  cursor: zoom-in;
+}
+
+.procw-fig.zoomed {
+  max-height: none;
+  width: 100%;
+
+  cursor: zoom-out;
 }
 
 /* 실제로 열린 문서번호. 문항이 부른 이름과 다를 수 있다 */

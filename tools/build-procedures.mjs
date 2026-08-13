@@ -1,4 +1,4 @@
-/*
+﻿/*
  * 절차서 hwp 를 앱이 읽을 수 있는 꼴로 바꾼다.
  *
  * D:/Visual Studio Code/절차서/*.hwp 를 읽어
@@ -42,6 +42,34 @@ const ALIAS = {
 /* 브라우저가 못 그리는 형식은 뺀다. pcx 는 못 그리고 bin 은 정체 불명이다 */
 const DRAWABLE = new Set(["jpg", "png", "gif", "bmp"]);
 const EXT = { jpg: "jpg", png: "png", gif: "gif", bmp: "bmp" };
+
+/*
+ * 너무 작은 그림은 뺀다.
+ *
+ * 글머리표나 서명 도장 조각이 15x22 같은 크기로 들어 있다. 본문에 끼면
+ * 뜻 없는 얼룩으로만 보인다. 도해는 이보다 훨씬 크다.
+ */
+const MIN_SIDE = 40;
+
+/* PNG·JPG 머리에서 크기를 읽는다 */
+function pixelSize(buf) {
+  if (buf.length > 24 && buf[0] === 0x89 && buf[1] === 0x50) {
+    return [buf.readUInt32BE(16), buf.readUInt32BE(20)];
+  }
+  if (buf.length > 4 && buf[0] === 0xff && buf[1] === 0xd8) {
+    for (let i = 2; i + 9 < buf.length;) {
+      if (buf[i] !== 0xff) { i++; continue; }
+      const m = buf[i + 1];
+      if (m >= 0xc0 && m <= 0xcf && m !== 0xc4 && m !== 0xc8 && m !== 0xcc) {
+        return [buf.readUInt16BE(i + 7), buf.readUInt16BE(i + 5)];
+      }
+      const len = buf.readUInt16BE(i + 2);
+      if (len < 2) break;
+      i += 2 + len;
+    }
+  }
+  return [0, 0];
+}
 
 const HANGUL = /[가-힣]/;
 const LATIN = /[A-Za-z]/;
@@ -212,6 +240,7 @@ const table = {};
 const report = [];
 const failed = [];
 let shrunk = 0;
+let tiny = 0;
 
 for (const name of fs.readdirSync(SRC).filter((f) => /\.hwp$/i.test(f))) {
   const file = path.join(SRC, name);
@@ -250,6 +279,13 @@ for (const name of fs.readdirSync(SRC).filter((f) => /\.hwp$/i.test(f))) {
       } else {
         failed.push(`${code} binId ${im.binId}: BMP 를 못 바꿈 (그대로 둠)`);
       }
+    }
+
+    /* 글머리표·도장 조각은 본문에 얼룩으로만 보인다 */
+    const [w, h] = pixelSize(data);
+    if (w && h && (w < MIN_SIDE || h < MIN_SIDE)) {
+      tiny++;
+      continue;
     }
 
     const fname = `${code}_${im.binId}.${ext}`;
@@ -336,4 +372,6 @@ fs.writeFileSync(path.join(OUT, "index.json"), JSON.stringify(manifest, null, 2)
 console.log(report.join("\n"));
 console.log(`\n등록한 이름 ${Object.keys(table).length}개`);
 if (shrunk) console.log(`BMP 를 PNG 로 바꿔 ${(shrunk / 1048576).toFixed(1)} MB 를 줄였다`);
+if (tiny) console.log(`너무 작아 뺀 그림 ${tiny}장 (글머리표·도장 조각)`);
+if (tiny) console.log(`너무 작아 뺀 그림 ${tiny}장 (글머리표·도장 조각)`);
 if (failed.length) console.log("\n" + failed.join("\n"));
