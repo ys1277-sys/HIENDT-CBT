@@ -1,4 +1,4 @@
-/*
+﻿/*
  * 절차서 부록이 갖춰졌는지 본다.
  *
  * 문항 지시문은 "HIE-NDT-MT-N21 (Rev.2) 절차서를 보고 풀라" 고만 하고,
@@ -71,11 +71,18 @@ for (const [code, v] of [...need.entries()].sort((a, b) => b[1].n - a[1].n)) {
     continue;
   }
 
-  const pages = (table[key] && table[key].pages) || [];
-  const gone = pages.filter((p) => !fs.existsSync(path.join(DIR, p)));
+  const item = table[key] || {};
 
-  if (!pages.length || gone.length) broken.push({ code, key, pages, gone, ...v });
-  else ready.push({ code, key, pages, ...v });
+  /*
+   * 절차서는 두 가지로 들어온다.
+   *   doc    hwp 에서 뽑은 본문 문서 (tools/build-procedures.mjs)
+   *   pages  쪽마다 뜬 그림
+   */
+  const files = item.doc ? [item.doc] : item.pages || [];
+  const gone = files.filter((p) => !fs.existsSync(path.join(DIR, p)));
+
+  if (!files.length || gone.length) broken.push({ code, key, files, gone, ...v });
+  else ready.push({ code, key, files, kind: item.doc ? "본문" : "그림", ...v });
 }
 
 const unused = Object.keys(table).filter(
@@ -84,20 +91,20 @@ const unused = Object.keys(table).filter(
 
 let out = "";
 out += `문항이 가리키는 절차서 ${need.size}종\n`;
-out += `  부록으로 나감  ${ready.length}종\n`;
+out += `  볼 수 있음     ${ready.length}종\n`;
 out += `  아직 안 들어옴 ${missing.length}종\n`;
 out += `  등록했는데 그림이 없음 ${broken.length}종\n\n`;
 
 if (ready.length) {
-  out += "=== 부록으로 나가는 절차서 ===\n";
-  for (const r of ready) out += `  ${r.code.padEnd(22)} ${r.pages.length}쪽  (${r.n}문항)\n`;
+  out += "=== 응시자가 볼 수 있는 절차서 ===\n";
+  for (const r of ready) out += `  ${r.code.padEnd(22)} ${r.kind}  (${r.n}문항)\n`;
   out += "\n";
 }
 
 if (broken.length) {
   out += "=== 등록했는데 그림 파일이 없다 ===\n";
   for (const b of broken) {
-    out += `  ${b.code.padEnd(22)} ${b.pages.length ? `없는 파일: ${b.gone.join(", ")}` : "pages 가 비어 있음"}\n`;
+    out += `  ${b.code.padEnd(22)} ${b.files.length ? `없는 파일: ${b.gone.join(", ")}` : "doc 도 pages 도 없음"}\n`;
   }
   out += "\n";
 }

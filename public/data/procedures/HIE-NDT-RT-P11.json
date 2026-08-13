@@ -1,0 +1,4019 @@
+{
+  "code": "HIE-NDT-RT-P11",
+  "title": "RADIOGRAPHIC EXAMINATION PROCEDURE",
+  "rev": "Rev.2",
+  "date": "2024. 01. 02",
+  "source": "P11-2-RT.hwp",
+  "blocks": [
+    {
+      "t": "h",
+      "level": 2,
+      "s": "1.0 SCOPE(개요)"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "2.0 REFERENCES(참고문헌)"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "3.0 PERSONNEL(검사요원)"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "4.0 GENERAL(일반사항)"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "5.0 IQI(상질계)"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "6.0 LOCATION MARKERS(위치마커)"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "7.0 RADIOGRAPHIC TECHNIQUE(방사선투과 기법)"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "8.0 ACCEPTANCE STANDARDS(합격기준)"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "9.0 EVALUATION(평가)"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "10.0 DOCUMENTATION(검사기록)"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "11.0 ATTACHED(첨부)"
+    },
+    {
+      "t": "p",
+      "s": "■ 관리본 □ 비관리본"
+    },
+    {
+      "t": "p",
+      "s": "Controlled Copy For Reference"
+    },
+    {
+      "t": "p",
+      "s": "관리 번호 :"
+    },
+    {
+      "t": "p",
+      "s": "2"
+    },
+    {
+      "t": "p",
+      "s": "2024.01.02"
+    },
+    {
+      "t": "p",
+      "s": "ASME 2023 Edition"
+    },
+    {
+      "t": "p",
+      "s": "& ASME B31.1"
+    },
+    {
+      "t": "p",
+      "s": "2022 Edition"
+    },
+    {
+      "t": "p",
+      "s": "H. H. KIM"
+    },
+    {
+      "t": "p",
+      "s": "검사자 (기사)"
+    },
+    {
+      "t": "p",
+      "s": "NDE Level II"
+    },
+    {
+      "t": "p",
+      "s": "Y. H. SEO"
+    },
+    {
+      "t": "p",
+      "s": "책임자(기사)"
+    },
+    {
+      "t": "p",
+      "s": "QA Manager"
+    },
+    {
+      "t": "p",
+      "s": "Y. H. SEO"
+    },
+    {
+      "t": "p",
+      "s": "책임자(기사)"
+    },
+    {
+      "t": "p",
+      "s": "QA Manager"
+    },
+    {
+      "t": "p",
+      "s": "1"
+    },
+    {
+      "t": "p",
+      "s": "2021.08.05"
+    },
+    {
+      "t": "p",
+      "s": "ASME 2021 Edition"
+    },
+    {
+      "t": "p",
+      "s": "& ASME B31.1&B31.3"
+    },
+    {
+      "t": "p",
+      "s": "2020 Edition"
+    },
+    {
+      "t": "p",
+      "s": "H. H. KIM"
+    },
+    {
+      "t": "p",
+      "s": "검사자 (기사)"
+    },
+    {
+      "t": "p",
+      "s": "NDE Level II"
+    },
+    {
+      "t": "p",
+      "s": "Y. H. SEO"
+    },
+    {
+      "t": "p",
+      "s": "책임자(기사)"
+    },
+    {
+      "t": "p",
+      "s": "QA Manager"
+    },
+    {
+      "t": "p",
+      "s": "Y. H. SEO"
+    },
+    {
+      "t": "p",
+      "s": "책임자(기사)"
+    },
+    {
+      "t": "p",
+      "s": "NDE Level III"
+    },
+    {
+      "t": "p",
+      "s": "0"
+    },
+    {
+      "t": "p",
+      "s": "2020.01.08"
+    },
+    {
+      "t": "p",
+      "s": "First Issue"
+    },
+    {
+      "t": "p",
+      "s": "H. H. KIM"
+    },
+    {
+      "t": "p",
+      "s": "검사자 (기사)"
+    },
+    {
+      "t": "p",
+      "s": "NDE Level II"
+    },
+    {
+      "t": "p",
+      "s": "Y. H. SEO"
+    },
+    {
+      "t": "p",
+      "s": "책임자(기사)"
+    },
+    {
+      "t": "p",
+      "s": "QA Manager"
+    },
+    {
+      "t": "p",
+      "s": "Y. H. SEO"
+    },
+    {
+      "t": "p",
+      "s": "책임자(기사)"
+    },
+    {
+      "t": "p",
+      "s": "NDE Level III"
+    },
+    {
+      "t": "p",
+      "s": "개정번호"
+    },
+    {
+      "t": "p",
+      "s": "Rev. No."
+    },
+    {
+      "t": "p",
+      "s": "개정일자"
+    },
+    {
+      "t": "p",
+      "s": "Rev. Date"
+    },
+    {
+      "t": "p",
+      "s": "개정사유"
+    },
+    {
+      "t": "p",
+      "s": "Rev. Description"
+    },
+    {
+      "t": "p",
+      "s": "작 성 자"
+    },
+    {
+      "t": "p",
+      "s": "Prepared by"
+    },
+    {
+      "t": "p",
+      "s": "검 토 자"
+    },
+    {
+      "t": "p",
+      "s": "Reviewed by"
+    },
+    {
+      "t": "p",
+      "s": "승 인 자"
+    },
+    {
+      "t": "p",
+      "s": "Approved by"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "1.0 SCOPE(개요)"
+    },
+    {
+      "t": "p",
+      "s": "1.1 This procedure defines the requirements of radiographic examination of welds and materials in carbon or low alloy, high alloy and nonferrous materials thickness from 1/8 in(3mm) up to 4 in(100mm) manufactured to ASME Boiler & Pressure Vessel Code and applicable contract specification."
+    },
+    {
+      "t": "p",
+      "s": "1.2 This procedure will also define the acceptance criteria requirement of RT to qualify welder and welding operator in accordance with ASME Code Section Ⅸ."
+    },
+    {
+      "t": "p",
+      "s": "1.3 Radiographic examination shall be performed in accordance with this procedure which shall, as a minimum, contain the requirements listed in Attached 1. (Requirements of a radiographic examination procedure)."
+    },
+    {
+      "t": "p",
+      "s": "1.4 Procedure demonstration - Demonstration of the density and image quality indicator (IQI) image requirements of this procedure on production or technique radiographs shall be considered satisfactory evidence of compliance with this procedure."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "2.0 REFERENCES"
+    },
+    {
+      "t": "p",
+      "s": "ASME Sec. I 2023 Edition"
+    },
+    {
+      "t": "p",
+      "s": "ASME Sec. Ⅷ Div.12023 Edition"
+    },
+    {
+      "t": "p",
+      "s": "ASME Sec. Ⅴ Art.22023 Edition"
+    },
+    {
+      "t": "p",
+      "s": "ASME Sec. Ⅸ 2023 Edition"
+    },
+    {
+      "t": "p",
+      "s": "ASME B 31.1 2022 Edition"
+    },
+    {
+      "t": "p",
+      "s": "SNT-TC-1A 2020 Edition"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "1.0 개요"
+    },
+    {
+      "t": "p",
+      "s": "1.1 본 절차서는 ASME 보일러, 압력용기 코드 및 관련 시방에 따라 제작되는 3에서 100mm 두께의 강 또는 그 합금강 및 비철금속 재질과 그의 용접부를 방사선투과검사하는 요구사항에 대하여 기술한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "1.2 이절차서는 또한 ASME Code Section Ⅸ에 따른 용접사 기량시험의 방사선투과검사 합격기준도 기술한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "1.3 방사선투과검사는 최소한 첨부1(방사선투과시험 절차서의 요구사항)에 나열된 요구사항을 포함한 본 절차서에 따라 수행되어야 한다."
+    },
+    {
+      "t": "p",
+      "s": "1.4 절차서 실증 - 제품용 또는 기법확인용 방사선투과사진에서 문서화된 절차서의 필름농도 및 상질계 상(IQI image) 요건에 대한 실증은 해당 절차서에 따라 실증되었음을 나타내야 한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "2.0 참고문헌"
+    },
+    {
+      "t": "p",
+      "s": "ASME Sec. I 2023 Edition"
+    },
+    {
+      "t": "p",
+      "s": "ASME Sec. Ⅷ Div.12023 Edition"
+    },
+    {
+      "t": "p",
+      "s": "ASME Sec. Ⅴ Art.22023 Edition"
+    },
+    {
+      "t": "p",
+      "s": "ASME Sec. Ⅸ 2023 Edition"
+    },
+    {
+      "t": "p",
+      "s": "ASME B 31.1 2022 Edition"
+    },
+    {
+      "t": "p",
+      "s": "SNT-TC-1A 2020 Edition"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "3.0 PERSONNEL"
+    },
+    {
+      "t": "p",
+      "s": "3.1 Personnel perform this examination shall be satisfied both requirement of \"NDT Development Regulation\" and written procedure HIE-QP-E01 for NDE Personnel Qualification and Certification program which meets the requirements of ASNT Recommended practice No. SNT-TC-1A."
+    },
+    {
+      "t": "p",
+      "s": "3.2 Only RT Level Ⅱ or Level Ⅲ personnel shall interpret test results determine acceptability."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "4.0 GENERAL"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "4.1 Radiation Energy"
+    },
+    {
+      "t": "p",
+      "s": "The radiation energy employed for any radiographic technique shall achieve the density and IQI image requirements of this procedure."
+    },
+    {
+      "t": "p",
+      "s": "4.1.1 The maximum source size (effective focal spot size) and source to film distance shall be recorded in the report. D(distance from source to object) and d(distance from source side of object to the film) shall be meet the requirements of geometric unsharpness.(Refer to paragraph 4.8)"
+    },
+    {
+      "t": "p",
+      "s": "4.1.2 AMERSHAM Gamma Ray Projector with Ir-192 nominal maximum strength 100 curies, maximum source dimension 3.0×3.0 ㎜."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "4.2 Radiographic film"
+    },
+    {
+      "t": "p",
+      "s": "Film selection shall be made using industrial radiographic film. Normally, following brand of film will be used."
+    },
+    {
+      "t": "p",
+      "s": "- Carestream : AA400, T200 or MX125 or Equivalent"
+    },
+    {
+      "t": "p",
+      "s": "- KODAK : 7125, 7200 or 7400 or Equivalent"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "3.0 검사요원"
+    },
+    {
+      "t": "p",
+      "s": "3.1 본 검사를 수행하는 검사원은 “비파괴검사기술의 진흥 및 관리에 관한 법률” 요건과 SNT-TC-1A를 만족하는 (주)한국공업엔지니어링의 비파괴검사원 자격인증절차서[HIE-QP-E01]에 따라 능력인정 및 자격인증이 되어야 한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "3.2 자격 인증된 RT-Level II 또는 RT-level III 자격 소지자만이 합부판정을 할 수 있다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "4.0 일반사항"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "4.1 방사선 에너지 - 방사선투과촬영 기법에 사용된 방사선 에너지는 본 절차서의 농도 및 투과도계 상의 요건을 만족해야 한다."
+    },
+    {
+      "t": "p",
+      "s": "4.1.1 최대 초점크기와 선원 필름간 거리가 보고서에 기록되어야 한다. D(선원-제품간거리)와 d(선원쪽 제품-필름간거리)는 기하학적 불선명도의 요구사항을 만족해야한다(4.8항 참조)"
+    },
+    {
+      "t": "p",
+      "s": "4.1.2 방사성동위원소 (Iridium-192 최대 100 Ci, 최대 초점 크기는 3.0X3.0㎜)을 포함한 AMERSHAM Gamma Ray Projector를 사용한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "4.2 방사선투과 필름"
+    },
+    {
+      "t": "p",
+      "s": "방사선투과사진은 공업용 방사선투과필름을 사용하여야 한다. 보통 아래의 필름이 사용된다."
+    },
+    {
+      "t": "p",
+      "s": "- Carestream : AA400, T200 or MX125 or Equivalent"
+    },
+    {
+      "t": "p",
+      "s": "- KODAK : 7125, 7200 or 7400 or Equivalent"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "4.3 Intensifying Screen"
+    },
+    {
+      "t": "p",
+      "s": "Lead intensifying screen may be used, however fluorescent shall not be permitted. The minimum thickness of the front and back screen shall be 0.005in(0.127mm) for Iridium-192."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "4.4 Scattered Radiation"
+    },
+    {
+      "t": "p",
+      "s": "4.4.1 To reduce back scattered radiation, back lead screen or back lead plate shall be placed in the film holder or behind the film holder during exposure."
+    },
+    {
+      "t": "p",
+      "s": "4.4.2 As a check on back scattered radiation, a lead symbol \"B\" with minimum dimensions of 7/16 in. (11 mm) in height and 1/16 in. (1.5 mm) in thickness, shall be in direct contact with the back of each film holder or cassette during each exposure to determine if backscatter radiation is exposing the film."
+    },
+    {
+      "t": "p",
+      "s": "4.4.3 If a light image of the \"B\", specified in para. 4.4.2, appears on a darker background of the radiography, protection form backscatter is insufficient and the radiography shall be considered unacceptable. Dark image of the \"B\" on a lighter background is not cause for rejection."
+    },
+    {
+      "t": "p",
+      "s": "4.4.4 The lead symbol “B” shall be placed in a location so that it would appear within an area on the radiograph that meets the requirements of para.4.7, as applicable."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "4.5 Identification Markers."
+    },
+    {
+      "t": "p",
+      "s": "4.5.1 A system shall be used to produce on each radiograph an identification that is traceable to the item being radiographed and that is permanent for the required retention period of the radiograph. This information shall include the contract, component, weld number, or part number, as appropriate. In addition, the Manufacturer’s symbol or name and the date of the radiograph shall be included with the identification information on each radiograph. An NDE subcontractor’s name or symbol may also be used together with that of the Manufacturer. In any case, this information shall not obscure the area of interest."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "4.5.2 Repair radiographs shall be identified by R1, R2, etc., as applicable."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "4.6 Densitometer"
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "4.6.1 Densitometers shall be calibrated at least every 3 months during use as follows:"
+    },
+    {
+      "t": "p",
+      "s": "1) A national standard step tablet or a step wedge calibration film, traceable to a national standard step tablet and having at least five steps with neutral densities from at least 1.0 through 4.0, shall be used. The step wedge calibration film shall have been verified within the last year by comparison with a national standard step tablet unless, prior to first use, it was maintained in the original light-tight and waterproof sealed package as supplied by the manufacturer. Step wedge calibration films may be used without verification for one year upon opening, provided it is within the manufacturer's stated shelf life."
+    },
+    {
+      "t": "p",
+      "s": "2) The densitometer manufacturer's step - by-step instructions for the operation of the densitometer shall be followed."
+    },
+    {
+      "t": "p",
+      "s": "3) The density steps closest to 1.0, 2.0, 3.0, and 4.0 on the national standard step tablet or step wedge calibration film shall be read."
+    },
+    {
+      "t": "p",
+      "s": "4) The densitometer is acceptable if the density readings do not vary by more than ±0.05 density units from the actual density stated on the national standard step tablet or step wedge calibration film."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "4.6.2 Densitometer Periodic Verification"
+    },
+    {
+      "t": "p",
+      "s": "Periodic calibration verification checks shall be performed as described in para 4.6.1 (ASME SEC.Ⅴ. ART.2. T-262.1) at the beginning of each shift, after 8 hours of continuous use, or after change of apertures, whichever comes first."
+    },
+    {
+      "t": "p",
+      "s": "4.6.3 Step Wedge Comparison Films. Verification checks shall be performed annually per ASME SEC.Ⅴ. ART.2. T-262.2."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "4.7 Radiographic Density"
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "4.7.1 Density Limitation"
+    },
+    {
+      "t": "p",
+      "s": "1) The transmitted film density through the radiographic of the body of the appropriate hole type IQI adjacent to the essential hole or adjacent to the essential wire of a wire IQI and the area of interest shall be 2.0 minimum for radiographs made with a gamma ray source."
+    },
+    {
+      "t": "p",
+      "s": "2) For composite viewing of multiple film exposures, each film of the composite set shall have a minimum density of 1.3."
+    },
+    {
+      "t": "p",
+      "s": "3) The maximum density shall be 4.0 for either single or composite viewing."
+    },
+    {
+      "t": "p",
+      "s": "4) A tolerance of 0.05 in density is allowed for variations between densitometer readings."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "4.7.2 Density Variation"
+    },
+    {
+      "t": "p",
+      "s": "1) The density of the radiograph anywhere through the area of interest shall not"
+    },
+    {
+      "t": "p",
+      "s": "(a) vary by more than minus 15% or plus 30% from the density adjacent to the essential wire of a wire-type IQI, and"
+    },
+    {
+      "t": "p",
+      "s": "(b) exceed the minimum/maximum allowable density rages specified in para 4.7.1."
+    },
+    {
+      "t": "p",
+      "s": "When calculating the allowable variation in density, the calculation may be rounded to the nearest 0.1 within the range specified in para 4.7.1."
+    },
+    {
+      "t": "p",
+      "s": "2) when the requirements of 4.7.2.1) above are not met, then an additional IQI shall be used for each exceptional area or areas and the radiograph retaken."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "4.8 Sharpness of Radiographic image"
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "4.8.1 Geometric unsharpness of the radiograph shall not exceed the following:"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "4.3 증감지"
+    },
+    {
+      "t": "p",
+      "s": "연박스크린을 사용할 수 있으나, 형광스크린은 허용되지 않는다. Iridium-192 사용 시, 앞뒷면 스크린의 최소 두께는 0.005in(0.127mm) 이다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "4.4 산란 방사선"
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "4.4.1 후방 산란방사선을 줄이기 위하여, 후방납스크린 또는 후방 납판을 감광되는 동안 필름 홀더 또는 그 후방에 놓는다."
+    },
+    {
+      "t": "p",
+      "s": "4.4.2 후방 산란방사선 확인 - 후방 산란방사선이 필름에 노출되는 것을 확인하기 위해 최소치수가 길이 11mm, 두께 1.5mm인 납 글자 “B\"를 촬영할 때마다 각 필름 홀더(film holder) 또는 카세트 뒷명에 직접 부착해야 한다."
+    },
+    {
+      "t": "p",
+      "s": "4.4.3 방사선투과사진에서 4.4.2항에 따른 납 글자 “B\"가 어두운 배경에 비해 밝게 나타나는 경우, 후방산란의 차단이 불충분한 것으로서 그 방사선투과사진은 불합격으로 간주해야 한다. 보다 밝은 배경위의 납 글자 ”B\"의 어두운 상은 불학격의 원인이 아니다."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "4.4.4 납글자 \"B\"는 적용 가능한 경우, 4.7 항의 요구 사항을 만족하는 방사선 사진상의 영역 내에 나타나도록 배치되어야한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "4.5 식별 표시"
+    },
+    {
+      "t": "p",
+      "s": "4.5.1 방사선투과사진의 필수 보존 기간 동안 영구적인 상으로 촬영되는 품목을 추적할 수 있는 시스템을 각 방사선투과사진에 생성되도록 사용되어야 한다. 이 정보에는 계약, 구성요소, 용접 번호 또는 부품 번호가 적절하게 포함되어야 한다. 부가적으로, 각각의 방사선 사진에는 식별정보와 함께 제조자의 기호 또는 명칭 및 방사선투과일자를 포함하여야 한다. NDE 하청 업체의 이름 또는 기호를 제조업체의 이름 또는 기호와 함께 사용할 수도 있다. 어떤 경우든 이 정보가 판독영역을 가려서는 안 된다."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "4.5.2 보수 후 촬영된 방사선투과사진에는 적용된다면, R1, R2, 등과 같은 식별표시가 되어야 한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "4.6 농도계"
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "4.6.1 농도계는 사용중에 적어도 매 3개월마다 다음과 같이 교정해야 한다."
+    },
+    {
+      "t": "p",
+      "s": "1) 국가표준 스텝웨지 필름을 사용하거나, 또는 국가표준 스텝웨지 필름과의 추적성이 있으며 중간농도가 최소한 1.0부터 4.0까지 범위의 균등간격인 5단계 이상의 농도를 가진 스텝웨지 교정 필름을 사용하여야 하나. 스텝웨지 교정필름은 최초 사용 전에, 제조자에 의해 제공된 방광(light-tight) 및 방수로 밀봉된 원래의 상태가 훼손되었다면 국가표준 스텝웨지 필름과 비교하여 전년도 이내에 검증된 것이어야 한다. 스텝웨지 교정필름이 제작자의 일정한 유효기간이내에 해당되면 개봉 후 일년간 검증 없이 사용할 수 있다."
+    },
+    {
+      "t": "p",
+      "s": "2) 농도계 사용에 있어서는 농도계 제조자의 단계별 지시서를 따라야 한다."
+    },
+    {
+      "t": "p",
+      "s": "3) 국가표준 스텝웨지 필름이나 스텝웨지 교정 필름상에서 1.0, 2.0, 3.0, 4.0에 가장 근접한 농도를 가진 스텝을 판독해야 한다."
+    },
+    {
+      "t": "p",
+      "s": "4) 농도계는 농도 판독값이 국가표준 스텝웨지 필름이나 스텝웨지 교정 필름의 실제농도로부터 농도단위로 ±0.05를 벗어나지 않는다면 합격이다."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "4.6.2 농도계 주기적 확인"
+    },
+    {
+      "t": "p",
+      "s": "주기적인 교정확인 점검은 매 판독시작 시점, 8시간 연속사용 후 또는 렌즈구경 변경 후 등 어느 것이든지 처음 도래하는 것에 대해 4.6.1항(ASME SEC.Ⅴ. ART.2. T-261.1)에서 설명한대로 실시해야 한다."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "4.6.3 스텝웨지 비교필름 - 확인 점검은 ASME SEC.Ⅴ. ART.2. T-262.2에 따라 매년 실시해야 한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "4.7 방사선투과사진 농도"
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "4.7.1 농도제한"
+    },
+    {
+      "t": "p",
+      "s": "1) 적절한 선형 상질계의 지정된 선의 인접부 및 판독범위에 대한 방사선투과사진 상을 통한 투과필름의 농도는 γ-선원으로 만든 방사선투과사진의 경우는 최소 2.0 이어야 한다."
+    },
+    {
+      "t": "p",
+      "s": "2) 복수 필름으로 촬영한 것을 조합하여 관찰하는 경우, 조합된 세트의 각 필름은 최소 농도가 1.3이 되어야 한다."
+    },
+    {
+      "t": "p",
+      "s": "3) 한 장 또는 중첩관찰 시 최대 농도는 4.0이어야 한다."
+    },
+    {
+      "t": "p",
+      "s": "4) 농도계서 읽은 값의 판독오차의 허용 값은 0.05 이내이다."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "4.7.2 농도 변화"
+    },
+    {
+      "t": "p",
+      "s": "1) 관심지역의 방사선투과사진의 농도는 다음사항을 넘지 말아야 한다."
+    },
+    {
+      "t": "p",
+      "s": "(a) 선형 상질계의 지정된 선의 인접부에 대한 농도보다 -15% 또는 +30% 이상으로 변화하는 경우와,"
+    },
+    {
+      "t": "p",
+      "s": "(b) 방사선투과사진의 농도가 4.7.1항에 규정된 최소/최대 허용농도 범위를 초과하는 경우."
+    },
+    {
+      "t": "p",
+      "s": "농도의 허용 변화값을 계산할 경우, 4.7.1항에 규정된 범위 내에서 계산 값은 0.1 단위까지 반올림할 수 있다."
+    },
+    {
+      "t": "p",
+      "s": "2) 4.7.2.1)의 요구사항을 만족하지 못하는 경우, 투과도계를 추가로 배치하거나 방사선투과사진을 재촬영하여야 한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "4.8 방사선투과사진 상의 선명도"
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "4.8.1 기하학적 불선명도에 대한 최대 값은 다음과 같다."
+    },
+    {
+      "t": "p",
+      "s": "Material thickness,in.(mm)"
+    },
+    {
+      "t": "p",
+      "s": "재료 두께 ,in.(mm)"
+    },
+    {
+      "t": "p",
+      "s": "Ug Maximum,in.(mm)"
+    },
+    {
+      "t": "p",
+      "s": "Ug의 최대값 ,in.(mm)"
+    },
+    {
+      "t": "p",
+      "s": "Under 2(50)"
+    },
+    {
+      "t": "p",
+      "s": "2 through 3(50~75)"
+    },
+    {
+      "t": "p",
+      "s": "Over 3 through 4(75~100)"
+    },
+    {
+      "t": "p",
+      "s": "Greater than 4(100)"
+    },
+    {
+      "t": "p",
+      "s": "0.020(0.51)"
+    },
+    {
+      "t": "p",
+      "s": "0.030(0.76)"
+    },
+    {
+      "t": "p",
+      "s": "0.040(1.02)"
+    },
+    {
+      "t": "p",
+      "s": "0.070(1.78)"
+    },
+    {
+      "t": "p",
+      "s": "Note : Material thickness is the thickness on which the IQI is based."
+    },
+    {
+      "t": "p",
+      "s": "비고 : 재료 두께는 상질계 선정의 근거가 되는 두께이다."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "4.8.2 Geometric unsharpness of the radiography shall be determined in accordance with :"
+    },
+    {
+      "t": "p",
+      "s": "Ug = Fd/D"
+    },
+    {
+      "t": "p",
+      "s": "where Ug = geometric unsharpness"
+    },
+    {
+      "t": "p",
+      "s": "F = source size : the maximum projected dimension of the radiating source(or effective focal spot) in the plane perpendicular to the distance D from the weld or object being radiographed"
+    },
+    {
+      "t": "p",
+      "s": "D = distance from source of radiation to weld or object being radiographed"
+    },
+    {
+      "t": "p",
+      "s": "d = distance from source side of weld or object being radiographed to the film"
+    },
+    {
+      "t": "p",
+      "s": "D and d shall be determined to the approximate center of the area of interest."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "4.9 Surface Preparation"
+    },
+    {
+      "t": "p",
+      "s": "The weld ripples or weld surface irregularities on both the inside (where accessible) and outside shall be removed by any suitable process to such a degree that the image of surface irregularities cannot mask or be confused with the image of any discontinuity on the resulting radiograph. The finished surface of all butt-welded joints may be flush with the base material or may have reasonably uniform crowns, with reinforcement not to exceed that specified in the referencing Code Section.(ASME SEC.Ⅷ Div.1 UW-35, ASME SEC.Ⅰ PW-35)"
+    },
+    {
+      "t": "p",
+      "s": "4.10 Film Processing - Standard guide for controlling the quality of industrial radiographic film processing, ASME Sec. V Art. 22 SE-999, or para. 23 through 26 of standard guide for radiographic examination Using Industrial Radiographic Film, ASME Sec. V Art. 22 SE-94/94M may be used as a guide for processing film."
+    },
+    {
+      "t": "p",
+      "s": "4.11 Facility for Viewing of radiographs - Viewing facility shall provide subdued background lighting of an intensity that will not cause reflection, shadows, or glare on the radiograph that interfere with the interpretation process."
+    },
+    {
+      "t": "p",
+      "s": "The viewing conditions shall be such that light from around the outer edge of the radiograph or coming though low-density portion of the radiograph dose not interfere with interpretation."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "4.8.2 기하학적 불선명도 계산 - 방사선투과사진의 기하학적 불선명도는 다음과 같이 구해야 한다."
+    },
+    {
+      "t": "p",
+      "s": "Ug = Fd/D"
+    },
+    {
+      "t": "p",
+      "s": "여기서 Ug = 기하학적 불선명도"
+    },
+    {
+      "t": "p",
+      "s": "F = 선원의 크기 : 촬영할 용접부 또는 시험체으로부터 거리 D에 수직한 평면의 방사선원(또 는 유효 초점)에 대한 최대 투영치수, mm"
+    },
+    {
+      "t": "p",
+      "s": "D = 방사선원에서 촬영할 용접부 또는 시험체까지의 거리, mm"
+    },
+    {
+      "t": "p",
+      "s": "d = 촬영할 용접부 또는 시험체의 선원측에서 필름까지의 거리, mm"
+    },
+    {
+      "t": "p",
+      "s": "D 및 d는 판독범위의 거의 중심에서 측정해야 한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "4.9 표면준비"
+    },
+    {
+      "t": "p",
+      "s": "외면과 접근 가능한 내면의 용접결 또는 용접 표면 요철은 방사선투과사진 상의 어떤 불연속 상을 가리거나 불연속 상으로 혼동되지 않도록 적절한 방법으로 제거되어야 한다. 모든 맞대기 용접이음의 마무리표면은 모재와 평면을 이루어야 하고 적용기술기준(ASME SEC.Ⅷ Div.1 UW-35, ASME SEC.Ⅰ PW-35)에 규정한 높이를 초과하지 않는 균일한 크라운이어야 한다."
+    },
+    {
+      "t": "p",
+      "s": "4.10 필름 현상 - 공업용 방사선 필름 현상의 품질을 관리하기위한 표준 지침인 ASME Sec.V Art.22 SE-999, 또는 산업용 방사선투과필름에 사용하는 방사선 투과 검사의 표준 지침인 ASME Sec.V Art.22 SE-94/94M의 23항에서 26항을 필름현상에 대한 지침으로 사용해야 한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "4.11 방사선 투과사진 판독 시설 - 판독 시설은 해석과정을 간섭하는 섬광, 그림자, 반사체 등의 원인을 차단하고 배경조명보다 부드러운 빛을 제공해야한다."
+    },
+    {
+      "t": "p",
+      "s": "판독 조건은 방사선 투과사진 가장자리에서 나오는 빛 또는 방사선 투과사진의 저밀도 부분이 해석에 간섭하지 않아야 한다."
+    },
+    {
+      "t": "p",
+      "s": "ASME SEC.Ⅷ Div.1 UW-35"
+    },
+    {
+      "t": "p",
+      "s": "Material Nominal Thickness, in(mm)"
+    },
+    {
+      "t": "p",
+      "s": "공칭 재료 두께, in(mm)"
+    },
+    {
+      "t": "p",
+      "s": "Maximum Reinforcement, in(mm)"
+    },
+    {
+      "t": "p",
+      "s": "최대 허용 덧살, in(mm)"
+    },
+    {
+      "t": "p",
+      "s": "Category B & C"
+    },
+    {
+      "t": "p",
+      "s": "Butt Welds"
+    },
+    {
+      "t": "p",
+      "s": "Other Welds"
+    },
+    {
+      "t": "p",
+      "s": "기타 용접부"
+    },
+    {
+      "t": "p",
+      "s": "Less than 3/32(2.5)"
+    },
+    {
+      "t": "p",
+      "s": "3/32(2.4) to 3/16(4.8), incl."
+    },
+    {
+      "t": "p",
+      "s": "Over 3/16(4.8) to 1/2(13), incl."
+    },
+    {
+      "t": "p",
+      "s": "Over 1/2(13) to 1(25), incl."
+    },
+    {
+      "t": "p",
+      "s": "Over 1(25) to 2(51), incl."
+    },
+    {
+      "t": "p",
+      "s": "Over 2(51) to 3(76), incl."
+    },
+    {
+      "t": "p",
+      "s": "Over 3(76) to 4(102), incl."
+    },
+    {
+      "t": "p",
+      "s": "Over 4(102) to 5(127), incl."
+    },
+    {
+      "t": "p",
+      "s": "Over 5(127)"
+    },
+    {
+      "t": "p",
+      "s": "3/32(2.5)"
+    },
+    {
+      "t": "p",
+      "s": "1/8(3)"
+    },
+    {
+      "t": "p",
+      "s": "5/32(4)"
+    },
+    {
+      "t": "p",
+      "s": "3/16(5)"
+    },
+    {
+      "t": "p",
+      "s": "1/4(6)"
+    },
+    {
+      "t": "p",
+      "s": "1/4(6)"
+    },
+    {
+      "t": "p",
+      "s": "1/4(6)"
+    },
+    {
+      "t": "p",
+      "s": "1/4(6)"
+    },
+    {
+      "t": "p",
+      "s": "5/16(8)"
+    },
+    {
+      "t": "p",
+      "s": "1/32(0.8)"
+    },
+    {
+      "t": "p",
+      "s": "1/16(1.5)"
+    },
+    {
+      "t": "p",
+      "s": "3/32(2.5)"
+    },
+    {
+      "t": "p",
+      "s": "3/32(2.5)"
+    },
+    {
+      "t": "p",
+      "s": "1/8(3)"
+    },
+    {
+      "t": "p",
+      "s": "5/32(4)"
+    },
+    {
+      "t": "p",
+      "s": "7/32(5.5)"
+    },
+    {
+      "t": "p",
+      "s": "1/4(6)"
+    },
+    {
+      "t": "p",
+      "s": "5/16(8)"
+    },
+    {
+      "t": "p",
+      "s": "ASME SEC.Ⅰ PW-35"
+    },
+    {
+      "t": "p",
+      "s": "Material Nominal Thickness, in(mm)"
+    },
+    {
+      "t": "p",
+      "s": "공칭 재료 두께, mm"
+    },
+    {
+      "t": "p",
+      "s": "Maximum Reinforcement, in(mm)"
+    },
+    {
+      "t": "p",
+      "s": "최대 허용 덧살, in(mm)"
+    },
+    {
+      "t": "p",
+      "s": "Circumferential Joints"
+    },
+    {
+      "t": "p",
+      "s": "in Pipe and Tubing"
+    },
+    {
+      "t": "p",
+      "s": "파이프와 튜브에서 원주이음"
+    },
+    {
+      "t": "p",
+      "s": "Other Welds"
+    },
+    {
+      "t": "p",
+      "s": "기타 용접부"
+    },
+    {
+      "t": "p",
+      "s": "Up to 1/8(3)"
+    },
+    {
+      "t": "p",
+      "s": "Over 1/8(3) to 3/16(5), incl."
+    },
+    {
+      "t": "p",
+      "s": "Over 3/16(5) to 1/2(13), incl."
+    },
+    {
+      "t": "p",
+      "s": "Over 1/2(13) to 1(25), incl."
+    },
+    {
+      "t": "p",
+      "s": "Over 1(25) to 2(50), incl."
+    },
+    {
+      "t": "p",
+      "s": "Over 2(50) to 3(75), incl."
+    },
+    {
+      "t": "p",
+      "s": "Over 3(75) to 4(100), incl."
+    },
+    {
+      "t": "p",
+      "s": "Over 4(100) to 5(125), incl."
+    },
+    {
+      "t": "p",
+      "s": "Over 5(125)"
+    },
+    {
+      "t": "p",
+      "s": "3/32(2.5)"
+    },
+    {
+      "t": "p",
+      "s": "1/8(3.0)"
+    },
+    {
+      "t": "p",
+      "s": "5/32(4.0)"
+    },
+    {
+      "t": "p",
+      "s": "3/16(5.0)"
+    },
+    {
+      "t": "p",
+      "s": "1/4(6.0)"
+    },
+    {
+      "t": "p",
+      "s": "[Note (1)]"
+    },
+    {
+      "t": "p",
+      "s": "[Note (1)]"
+    },
+    {
+      "t": "p",
+      "s": "[Note (1)]"
+    },
+    {
+      "t": "p",
+      "s": "[Note (1)]"
+    },
+    {
+      "t": "p",
+      "s": "3/32(2.5)"
+    },
+    {
+      "t": "p",
+      "s": "3/32(2.5)"
+    },
+    {
+      "t": "p",
+      "s": "3/32(2.5)"
+    },
+    {
+      "t": "p",
+      "s": "3/32(2.5)"
+    },
+    {
+      "t": "p",
+      "s": "1/8(3.0)"
+    },
+    {
+      "t": "p",
+      "s": "5/32(4.0)"
+    },
+    {
+      "t": "p",
+      "s": "7/32(5.5)"
+    },
+    {
+      "t": "p",
+      "s": "1/4(6.0)"
+    },
+    {
+      "t": "p",
+      "s": "5/16(8.0)"
+    },
+    {
+      "t": "p",
+      "s": "Note : (1) The greater of 1/4in.(6mm) or 1/8times the width of the weld in inches(mm)."
+    },
+    {
+      "t": "p",
+      "s": "주 : (1) 용접의 너비가 1 / 4in (6mm) 또는 용접 너비의 1 / 8배 보다 큰 것."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "5.0 IQI(Image Quality Indicator)"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "5.1 IQI Design"
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "5.1.1 Standard IQI Design"
+    },
+    {
+      "t": "p",
+      "s": "IQIs shall be used the wire type. Wire type IQIs shall be manufactured and identified in accordance with the requirements or alternates allowed in SE-747, except that the largest wire number or the identity number may be omitted. ASME standard IQIs shall consist of those in Table 1 for wire type."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "5.0 IQI(상질계)"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "5.1 상질계 형태"
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "5.1.1 표준 상질계의 형태"
+    },
+    {
+      "t": "p",
+      "s": "상질계는 선형이어야 한다. 선형 상질계는 최대 선의 수 또는 식별번호가 생략될 수 있는 것을 제외하고는 SE-747에서 허용하는 요건 또는 대체요건에 따라 제조되고 식별되어야 한다. 표준 상질계는 선형의 경우 표 1의 것으로 구성해야 한다."
+    },
+    {
+      "t": "p",
+      "s": "Table 1 Wire IQI Designation, Wire Diameter, and Wire Identity"
+    },
+    {
+      "t": "p",
+      "s": "선형 상질계의 조(Set), 선의 지름 및 선의 식별번호"
+    },
+    {
+      "t": "p",
+      "s": "Set A"
+    },
+    {
+      "t": "p",
+      "s": "Set B"
+    },
+    {
+      "t": "p",
+      "s": "Wire"
+    },
+    {
+      "t": "p",
+      "s": "Diameter, in.(mm)"
+    },
+    {
+      "t": "p",
+      "s": "Wire"
+    },
+    {
+      "t": "p",
+      "s": "Identity"
+    },
+    {
+      "t": "p",
+      "s": "Wire"
+    },
+    {
+      "t": "p",
+      "s": "Diameter, in.(mm)"
+    },
+    {
+      "t": "p",
+      "s": "Wire"
+    },
+    {
+      "t": "p",
+      "s": "Identity"
+    },
+    {
+      "t": "p",
+      "s": "0.0032(0.08)"
+    },
+    {
+      "t": "p",
+      "s": "1"
+    },
+    {
+      "t": "p",
+      "s": "0.010(0.25)"
+    },
+    {
+      "t": "p",
+      "s": "6"
+    },
+    {
+      "t": "p",
+      "s": "0.004(0.10)"
+    },
+    {
+      "t": "p",
+      "s": "2"
+    },
+    {
+      "t": "p",
+      "s": "0.013(0.33)"
+    },
+    {
+      "t": "p",
+      "s": "7"
+    },
+    {
+      "t": "p",
+      "s": "0.005(0.13)"
+    },
+    {
+      "t": "p",
+      "s": "3"
+    },
+    {
+      "t": "p",
+      "s": "0.016(0.41)"
+    },
+    {
+      "t": "p",
+      "s": "8"
+    },
+    {
+      "t": "p",
+      "s": "0.0063(0.16)"
+    },
+    {
+      "t": "p",
+      "s": "4"
+    },
+    {
+      "t": "p",
+      "s": "0.020(0.51)"
+    },
+    {
+      "t": "p",
+      "s": "9"
+    },
+    {
+      "t": "p",
+      "s": "0.008(0.20)"
+    },
+    {
+      "t": "p",
+      "s": "5"
+    },
+    {
+      "t": "p",
+      "s": "0.025(0.64)"
+    },
+    {
+      "t": "p",
+      "s": "10"
+    },
+    {
+      "t": "p",
+      "s": "0.010(0.25)"
+    },
+    {
+      "t": "p",
+      "s": "6"
+    },
+    {
+      "t": "p",
+      "s": "0.032(0.81)"
+    },
+    {
+      "t": "p",
+      "s": "11"
+    },
+    {
+      "t": "p",
+      "s": "Set C"
+    },
+    {
+      "t": "p",
+      "s": "Set D"
+    },
+    {
+      "t": "p",
+      "s": "Wire"
+    },
+    {
+      "t": "p",
+      "s": "Diameter, in.(mm)"
+    },
+    {
+      "t": "p",
+      "s": "Wire"
+    },
+    {
+      "t": "p",
+      "s": "Identity"
+    },
+    {
+      "t": "p",
+      "s": "Wire"
+    },
+    {
+      "t": "p",
+      "s": "Diameter, in.(mm)"
+    },
+    {
+      "t": "p",
+      "s": "Wire"
+    },
+    {
+      "t": "p",
+      "s": "Identity"
+    },
+    {
+      "t": "p",
+      "s": "0.032(0.81)"
+    },
+    {
+      "t": "p",
+      "s": "11"
+    },
+    {
+      "t": "p",
+      "s": "0.100(2.54)"
+    },
+    {
+      "t": "p",
+      "s": "16"
+    },
+    {
+      "t": "p",
+      "s": "0.040(1.02)"
+    },
+    {
+      "t": "p",
+      "s": "12"
+    },
+    {
+      "t": "p",
+      "s": "0.126(3.20)"
+    },
+    {
+      "t": "p",
+      "s": "17"
+    },
+    {
+      "t": "p",
+      "s": "0.050(1.27)"
+    },
+    {
+      "t": "p",
+      "s": "13"
+    },
+    {
+      "t": "p",
+      "s": "0.160(4.06)"
+    },
+    {
+      "t": "p",
+      "s": "18"
+    },
+    {
+      "t": "p",
+      "s": "0.063(1.60)"
+    },
+    {
+      "t": "p",
+      "s": "14"
+    },
+    {
+      "t": "p",
+      "s": "0.200(5.08)"
+    },
+    {
+      "t": "p",
+      "s": "19"
+    },
+    {
+      "t": "p",
+      "s": "0.080(2.03)"
+    },
+    {
+      "t": "p",
+      "s": "15"
+    },
+    {
+      "t": "p",
+      "s": "0.250(6.35)"
+    },
+    {
+      "t": "p",
+      "s": "20"
+    },
+    {
+      "t": "p",
+      "s": "0.100(2.54)"
+    },
+    {
+      "t": "p",
+      "s": "16"
+    },
+    {
+      "t": "p",
+      "s": "0.320(8.13)"
+    },
+    {
+      "t": "p",
+      "s": "21"
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "5.1.2 Wire type IQI Design"
+    },
+    {
+      "t": "p",
+      "s": "IQIs designed and manufactured in accordance with other national or international standards may be used provided the requirements of (a) below, and the material requirements of 5.2 are met."
+    },
+    {
+      "t": "p",
+      "s": "(a) Wire Type IQIs. The alternative wire IQI essential wire diameter is equal to or less than the required standard IQI essential wire."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "5.2 Material"
+    },
+    {
+      "t": "p",
+      "s": "IQIs shall be selected from either the same alloy material group or grade as identified in SE-747 for wire type, as applicable, or from an alloy material group or grade with less radiation absorption than the material being radiographed."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "5.3 Size"
+    },
+    {
+      "t": "p",
+      "s": "The essential wire shall be as specified in Table 2. For wire-type IQIs, a smaller-diameter wire may be substituted for the essential wire required for any section thickness listed in Table T-276."
+    },
+    {
+      "t": "p",
+      "s": "(a) Welds With Reinforcements. The thickness on which the IQI is based is the nominal single-wall material thickness plus the weld reinforcement thickness estimated to be present on both sides of the weld (I.D. and O.D.). The values used for the estimated weld reinforcement thicknesses shall be representative of the weld conditions shall not exceed the maximums permitted by the referencing Code Section. Physical measurement of the actual weld reinforcements is not required."
+    },
+    {
+      "t": "p",
+      "s": "(b) Welds Without Reinforcements. The thickness on which the IQI is based is the nominal single-wall material thickness. Backing rings or strips shall not be considered as part of the weld thickness in IQI selection."
+    },
+    {
+      "t": "p",
+      "s": "(c) Actual Values. With regard to a) and b) above, when the actual material/weld thickness is measured, IQI selection may be based on these known values."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "5.4 Welds Joining Dissimilar Materials or Welds With Dissimilar Filler Metal."
+    },
+    {
+      "t": "p",
+      "s": "When the weld metal is of an alloy group or grade that has a radiation attenuation that differs from the base metal, the IQI material selection shall be based on the weld metal and be in accordance with 5.2."
+    },
+    {
+      "t": "p",
+      "s": "When the density limits of 4.7.2 cannot be met with one IQI, and the exceptional density area(s) is at the interface of the weld metal and the base metal, the material selection for the additional IQIs shall be based on the base material and be in accordance with 5.2."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "5.5 IQI Selection"
+    },
+    {
+      "t": "p",
+      "s": "The designated wire type IQI shall be used as specified in Table 2. for ASME SEC.Ⅷ & Ⅰ and qualification of welder and welding operator."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "5.6 IQI Sensitivity"
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "5.6.1 Required Sensitivity"
+    },
+    {
+      "t": "p",
+      "s": "Radiography shall be performed with a technique of sufficient sensitivity to display the essential wire of a wire-type IQI. The radiographs shall also display the IQI identifying numbers and letters. If the essential wire of a wire-type IQI, do not show on any film in a multiple film technique, but do show in composite film viewing, interpretation shall be permitted only by composite film viewing."
+    },
+    {
+      "t": "p",
+      "s": "For wire-type IQIs, the essential wire shall be visible within the area of interest representing the thickness used for determining the essential wire, inclusive of the allowable density variations described in para. 4.7.2."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "5.1.2 선형 상질계"
+    },
+    {
+      "t": "p",
+      "s": "다른 국가 또는 국제 표준에 따라 설계 및 제조된 상질계를 사용할 수 있다. 단, 아래 (a)의 요건을 만족해야 하며, 5.2의 재료 요건을 만족해야 한다."
+    },
+    {
+      "t": "p",
+      "s": "(a) 선형 상질계 : 대체 선형 상질계의 필수선 지름은 요구되는 표준 상질계 필수선지름과 동등이하 이어야 한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "5.2 재질"
+    },
+    {
+      "t": "p",
+      "s": "재료 - 선형인 상질계는 적용 가능한 경우 SE-747에서 규정한 동일한 합금재료 그룹 또는 등급이거나 촬영되는 재료보다 방사선 흡수가 적은 합금재료 그룹 또는 등급 중에서 선택해야 한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "5.3 크기"
+    },
+    {
+      "t": "p",
+      "s": "필수 선은 표 2의 규정에 따라야 한다. 선형 상질계의 경우, 표 2에 나열된 단면 두께에 필요한 필수 선을 더 작은 직경의 선으로 대체할 수도 있다."
+    },
+    {
+      "t": "p",
+      "s": "(a) 덧살이 있는 용접부 - 상질계 선택의 근거가 되는 두께는 공칭 단일 벽두께와 용접부 양측면(I.D.와 O.D)에 존재할 것으로 예상되는 용접 덧살 두께를 합한 것이다. 예상되는 용접 덧살 두께는 용접 조건을 대표해야 하고 참조규격에서 허용한 최대 값을 초과해서는 안 된다. 용접 덧살의 물리적 측정은 요구되지 않는다."
+    },
+    {
+      "t": "p",
+      "s": "(b) 덧살이 없는 용접부 - 상질계 선택의 근거가 되는 두께는 공칭 단일 재료 벽두께이다. 받침링 또는 받침쇠는 상질계 선택에서 두께 부분으로 고려해서는 안 된다."
+    },
+    {
+      "t": "p",
+      "s": "(c) 실제 값. 상기 a)와 b)를 제외하고 실제 재료/용접 두께를 측정할 때, 상질계 선택은 알려진 값을 기반으로 한다."
+    },
+    {
+      "t": "p",
+      "s": "5.4 이종 재료를 연결하는 용접부 또는 이종 용가재를 이용한 용접부 - 용접금속이 모재와 다른 방사선 감쇠를 갖는 합금 그룹 또는 등급일 경우, 상질계 재료의 선정은 용접금속을 근거로 해야 하고, 5.2항에 따라야 한다."
+    },
+    {
+      "t": "p",
+      "s": "4.7.2항의 농도 제한을 1개의 상질계로 만족할 수 없고, 예외적인 농도범위가 용접금속 및 모재의 경계에 있을 경우, 추가되는 상질계의 재료 선택은 모재를 근거로 해야 하고, 5.2항에 따라야 한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "5.5 상질계 선택"
+    },
+    {
+      "t": "p",
+      "s": "ASME SEC.Ⅷ과 I 및 용접사 기량 시험을 위한 상질계의 지정 필수 선은 표2에서 규정한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "5.6 상질계 감도"
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "5.6.1 요구 감도"
+    },
+    {
+      "t": "p",
+      "s": "방사선투과촬영 기법은 선형 상질계의 필수 선을 나타내기에 감도가 충분한 기법으로 실시해야 한다. 방사선투과사진은 상질계의 식별번호 및 글자를 나타내어야 한다. 다중필름기법에서 선형 상질계의 필수 선이 어떤 필름에서도 단독으로 나타나지는 않지만, 조합된 필름 관찰시에 나타나는 경우, 판독은 조합된 필름 관찰에 의해서만 인정되어야 한다."
+    },
+    {
+      "t": "p",
+      "s": "wire-type IQIs 경우, 필수 wire는, 필수 wire를 결정하는 데 사용되는 두께를 나타내는 관심 영역 내에서 볼 수 있어야 한다. 이는 4.7.2항에 묘사된 허용 density variations에 있어야 한다."
+    },
+    {
+      "t": "p",
+      "s": "Table 2 IQI SELECTION(상질계 선택)"
+    },
+    {
+      "t": "p",
+      "s": "Nominal Single-Wall Material Thickness Range, in.(mm)"
+    },
+    {
+      "t": "p",
+      "s": "호칭 단일벽 재료 두께범위 , in.(mm)"
+    },
+    {
+      "t": "p",
+      "s": "IQI"
+    },
+    {
+      "t": "p",
+      "s": "Source Side(선원측)"
+    },
+    {
+      "t": "p",
+      "s": "Film Side(필름측)"
+    },
+    {
+      "t": "p",
+      "s": "Wire-Type Essential Wire"
+    },
+    {
+      "t": "p",
+      "s": "선형 필수선"
+    },
+    {
+      "t": "p",
+      "s": "Wire-Type Essential Wire"
+    },
+    {
+      "t": "p",
+      "s": "선형 필수선"
+    },
+    {
+      "t": "p",
+      "s": "Up to 0.25(6.4) incl."
+    },
+    {
+      "t": "p",
+      "s": "5"
+    },
+    {
+      "t": "p",
+      "s": "4"
+    },
+    {
+      "t": "p",
+      "s": "Over 0.25(6.4) through 0.375(9.5)"
+    },
+    {
+      "t": "p",
+      "s": "6"
+    },
+    {
+      "t": "p",
+      "s": "5"
+    },
+    {
+      "t": "p",
+      "s": "Over 0.375(9.5) through 0.50(12.7)"
+    },
+    {
+      "t": "p",
+      "s": "7"
+    },
+    {
+      "t": "p",
+      "s": "6"
+    },
+    {
+      "t": "p",
+      "s": "Over 0.50(12.7) through 0.75(19.0)"
+    },
+    {
+      "t": "p",
+      "s": "8"
+    },
+    {
+      "t": "p",
+      "s": "7"
+    },
+    {
+      "t": "p",
+      "s": "Over 0.75(19.0) through 1.00(25.4)"
+    },
+    {
+      "t": "p",
+      "s": "9"
+    },
+    {
+      "t": "p",
+      "s": "8"
+    },
+    {
+      "t": "p",
+      "s": "Over 1.00(25.4) through 1.50(38.1)"
+    },
+    {
+      "t": "p",
+      "s": "10"
+    },
+    {
+      "t": "p",
+      "s": "9"
+    },
+    {
+      "t": "p",
+      "s": "Over 1.50(38.1) through 2.00(50.8)"
+    },
+    {
+      "t": "p",
+      "s": "11"
+    },
+    {
+      "t": "p",
+      "s": "10"
+    },
+    {
+      "t": "p",
+      "s": "Over 2.00(50.8) through 2.50(63.5)"
+    },
+    {
+      "t": "p",
+      "s": "12"
+    },
+    {
+      "t": "p",
+      "s": "11"
+    },
+    {
+      "t": "p",
+      "s": "Over 2.50(63.5) through 4.00(101.6)"
+    },
+    {
+      "t": "p",
+      "s": "13"
+    },
+    {
+      "t": "p",
+      "s": "12"
+    },
+    {
+      "t": "p",
+      "s": "GENERAL NOTE: It is recognized that the required hole-type designation or wire-type essential wire in this table may not achieve an IQI sensitivity level of 2–.2T. This is intentional."
+    },
+    {
+      "t": "p",
+      "s": "일반 참고사항 : 이 표에서 요구된 홀형 또는 선형 필수선이 2-2T의 IQI 민감도 수준을 달성하지 못할 수 있다. 이는 의도적인 것이다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "5.7 Placement of IQIs"
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "5.7.1 Source Side IQI(s)"
+    },
+    {
+      "t": "p",
+      "s": "The IQI(s) shall be placed on the source side of the part being examined, except for the condition described in 5.7.2."
+    },
+    {
+      "t": "p",
+      "s": "When, due to part or weld configuration or size, it is not practical to place the IQI(s) on the part or weld, the IQI(s) may be placed on a separate block. Separate blocks shall be made of the same or radiographically similar materials(as defined in SE-747) and may be used to facilitate IQI positioning. There is no restriction on the separate block thickness, provided the IQI/area-of-interest density tolerance requirements of 4.7.2 are met."
+    },
+    {
+      "t": "p",
+      "s": "(1) The IQI on the source side of the separate block shall be placed no closer to the film than the source side of the part being radiographed."
+    },
+    {
+      "t": "p",
+      "s": "(2) The separate block shall be placed as close as possible to the part being radiographed."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "5.7.2 Film Side IQI(s)"
+    },
+    {
+      "t": "p",
+      "s": "Where inaccessibility prevents hand placing the IQI(s) on the source side, the IQI(s) shall be placed on the film side in contact with the part being examined. A lead letter \"F\" shall be placed adjacent to or on the IQI(s)."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "5.7.3 IQI Placement for Welds - Wire IQIs"
+    },
+    {
+      "t": "p",
+      "s": "The IQI(s) shall be placed on the weld so that the length of the wires are transverse to the longitudinal axis of the weld. It is not required for the essential wire to span the full width of the weld. However, the essential wire shall span at least that portion of the weld representing the nominal singlewall material thickness and reinforcement for which the IQI essential wire was selected. The density requirements of T-292 and the sensitivity requirements of T-283 shall also be met. The identification number and, when used, the lead letter \"F\" shall not be in the area of interest, except when geometric configuration makes it impractical."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "5.7.4 IQI Placement for Materials other than Welds"
+    },
+    {
+      "t": "p",
+      "s": "The IQI(s) with the IQI identification number(s), and, when used, the lead letter \"F\", may be placed in the area of interest."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "5.8 Number of IQIs"
+    },
+    {
+      "t": "p",
+      "s": "When one or more film holders are used for an exposure, at least one IQI image shall appear on each radiograph except as outlined in 5.8.2 below."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "5.8.1 Multiple IQIs."
+    },
+    {
+      "t": "p",
+      "s": "If the requirements of paragraph 4.7 are met by using more than one IQI, one shall be representative of the lightest area of interest and the other the darkest area of interest; the intervening densities on the radiograph shall be considered as having acceptable density."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "5.8.2 Special Case"
+    },
+    {
+      "t": "p",
+      "s": "1) For cylindrical components where the source is placed on the axis of the component for a single exposure, at least three IQIs, spaced approximately 120 deg. apart, are required under the following conditions"
+    },
+    {
+      "t": "p",
+      "s": "(a) When the complete circumference is radiographed using one or more film holders, or;"
+    },
+    {
+      "t": "p",
+      "s": "(b) When a section or sections of the circumference, Where the length between the ends of the outermost sections span 240 or more deg., is radiographed using one or more film holders. Additional film locations may be required to obtain necessary IQI spacing."
+    },
+    {
+      "t": "p",
+      "s": "2) For cylindrical components where the source is placed on the axis of the component for a single exposure, at least three IQIs, with one placed at each end of the span of the circumference radiographed and one in the approximate center of the span, are required under the following condition."
+    },
+    {
+      "t": "p",
+      "s": "(a) When a section of the circumference, the length of which is greater than 120deg. and less than 240deg., is radiographed using just one film holder, or;"
+    },
+    {
+      "t": "p",
+      "s": "(b) When a section or sections of the circumference, Where the length between the ends of the outermost sections span less than 240deg., is radiographed using more than one film holder."
+    },
+    {
+      "t": "p",
+      "s": "3) In 1) and 2) above, where sections of longitudinal welds adjoining the circumferential weld are radiographed simultaneously with the circumferential weld, an additional IQI shall be placed on each longitudinal weld at the end of the section most remote from the junction with the circumferential weld being radiographed."
+    },
+    {
+      "t": "p",
+      "s": "4) For spherical components where the source is placed at the center of the components for a single exposure, at least three IQIs, spaced approximately 120 deg. apart, are required under the following conditions. The rules of para. 5.8.2.1) (a),(b) apply."
+    },
+    {
+      "t": "p",
+      "s": "5) For spherical components where the source is placed at the center of the components for a single exposure, at least three IQIs, with one placed at each end of the span of the circumference radiographed and one in the approximate center of the span, are required under the following conditions. The rule of para. 5.8.2.2) (a),(b) apply."
+    },
+    {
+      "t": "p",
+      "s": "6) In 4) and 5) above, where other welds are radiographed simultaneously with the circumferential weld, one additional IQI shall be placed on each other weld."
+    },
+    {
+      "t": "p",
+      "s": "7) For segments of a flat or curved(i.e., ellipsoidal, torispherical, toriconical, elliptical, etc.) component where the source is placed perpendicular to the center of a length of weld for a single exposure when using more than three film holders, at least three IQIs, one placed at each end of the radiographed span and one in the approximate center of the span, are required."
+    },
+    {
+      "t": "p",
+      "s": "8) When an array of components in a circle is radiographed, at least one IQI shall on each component image."
+    },
+    {
+      "t": "p",
+      "s": "9) In order to maintain the continuity of records involving subsequent exposure, all radiographs exhibiting IQIs that quality the techniques permitted in accordance with 1) through 7) above shall be retained."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "6.0 LOCATION MARKERS"
+    },
+    {
+      "t": "p",
+      "s": "Location markers, (see Fig A2-1) which shall appear as radiographic images on the radiograph, shall be placed on the part, not on the exposure holder/ cassette."
+    },
+    {
+      "t": "p",
+      "s": "Their locations shall be permanently marked on the surface of the part being radiographed when permitted, or on a map, in a manner permitting the area on a radiograph to be accurately traceable to its location on the part, for the required retention period of the radiograph. In addition, their locations do not limit the area of interest or the area to be interpreted. Evidence shall also be provided on the radiograph that the required coverage of the region being examined has been obtained. Location marker shall be placed as follows."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "6.1 Single-Wall Viewing"
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.1.1 Source Side Markers"
+    },
+    {
+      "t": "p",
+      "s": "Location markers shall be placed on the source side when radiographing the following ;"
+    },
+    {
+      "t": "p",
+      "s": "(a) Flat components or longitudinal joints in cylindrical or conical components ;"
+    },
+    {
+      "t": "p",
+      "s": "(b) Curved or spherical components whose concave side is toward the source and when the \"source-to-material\" distance is less than the inside radius of the component ;"
+    },
+    {
+      "t": "p",
+      "s": "(c) Curved or spherical components whose convex side is toward the source."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.1.2 Film Side Markers"
+    },
+    {
+      "t": "p",
+      "s": "(a) Location markers shall be placed on the film side when radiographing either curved or spherical components whose concave side is toward the source and when the \"source-to-material\" distance is greater than the inside radius."
+    },
+    {
+      "t": "p",
+      "s": "(b) As an alternative to source-side placement in paragraph 6.1.1 (a), location markers may be placed on the film side when the radiograph shows coverage beyond the location markers to the extent demonstrated by Fig. A2-1, sketch (e), and when this alternate is documented in accordance with ASME Sec.Ⅴ Art.2 T-291."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.1.3 Either Side Markers"
+    },
+    {
+      "t": "p",
+      "s": "Location markers may be placed on either the source side or film side when radiographing either curved or spherical components whose concave side is toward the source and the \"source-to-material\" distance equals the inside radius of the component."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "6.2 Double-Wall Viewing"
+    },
+    {
+      "t": "p",
+      "s": "For double-wall viewing, at least one location marker shall be placed adjacent to the weld (or on the material in the area of interest) for each radiograph."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "6.3 Mapping the Placement of Location Markers."
+    },
+    {
+      "t": "p",
+      "s": "When inaccessibility or other limitations prevent the placement of markers as stipulated in para. 6.1 and 6.2, a dimensioned map of the actual marker placement shall accompany the radiographs to show that full coverage has been obtained."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "7.0 RADIOGRAPHIC TECHNIQUE"
+    },
+    {
+      "t": "p",
+      "s": "A single-wall exposure technique shall be used for radiography whenever practical. When it is not practical to use a single-wall technique, a double-wall technique shall be used. An adequate number of exposures shall be made to demonstrate that the required coverage has been obtained."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "7.1 Single-Wall Technique"
+    },
+    {
+      "t": "p",
+      "s": "In the single-wall technique, the radiation passes through only one wall of the weld (material), which is viewed for acceptance on the radiograph."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "7.2 Double-Wall Technique"
+    },
+    {
+      "t": "p",
+      "s": "When it is not practical to use a single-wall technique, one of the following double-wall techniques shall be used."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "7.2.1 Single-Wall Viewing"
+    },
+    {
+      "t": "p",
+      "s": "For materials and for welds in components, a technique may be used in which the radiation passes through two walls and only the weld (material) on the film-side wall is viewed for acceptance on the radiogragh. When complete coverage is required for circumferential welds(materials), a minimum of three exposures taken 120 deg. to each other shall be made."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "7.2.2 Double-Wall Viewing"
+    },
+    {
+      "t": "p",
+      "s": "For materials and for welds in components 3½ in.(89mm) or less in nominal outside diameter, a technique may be used in which the radiation passes through two walls and the weld(material) in both walls is viewed for acceptance on the same radiograph."
+    },
+    {
+      "t": "p",
+      "s": "For double-wall viewing, only a source side IQI shall be used. Care should be exercised to ensure that the required geometric unsharpness is not exceeded. If the geometric unsharpness requirement cannot be met, then single-wall viewing shall be used."
+    },
+    {
+      "t": "p",
+      "s": "(a) For welds, the radiation beam may be offset from the plane of the weld at an angle sufficient to separate the images of the source-side and film-side portions of the weld so that there is no overlap of the areas to be interpreted. When complete coverage is required, a minimum of two exposures taken 90 deg. to each other shall be made for each joint."
+    },
+    {
+      "t": "p",
+      "s": "(b) As an alternative, the weld may be radiographed with the radiation beam positioned so that the images of both walls are superimposed. When complete coverage is required, a minimum of three exposures taken at either 60 deg, or 120 deg, to each other shall be made for each joint."
+    },
+    {
+      "t": "p",
+      "s": "(c) Additional exposures shall be made if the required radiographic coverage cannot be obtained using the minimum number of exposures indicated in 7.2.2(b) or 7.2.2(c) above."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "8.0 ACCEPTANCE STANDARDS"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "8.1 ASME Section VIII, Div.1, UW-51(b)"
+    },
+    {
+      "t": "p",
+      "s": "- Full Radiography of welds."
+    },
+    {
+      "t": "p",
+      "s": "Indications shown on the radiographs of welds and characterized as imperfections are unacceptable under the following conditions."
+    },
+    {
+      "t": "p",
+      "s": "a) Any indication characterized as a crack or zone of incomplete fusion or penetration."
+    },
+    {
+      "t": "p",
+      "s": "b) Any other elongated indication on the radiograph which has length greater than ;"
+    },
+    {
+      "t": "p",
+      "s": "ⅰ) 1/4 in.(6 mm) for t up to 3/4 in.(19 mm)"
+    },
+    {
+      "t": "p",
+      "s": "ⅱ) 1/3t for t from 3/4 in.(19 mm) to 2 1/4 in.(57 mm)"
+    },
+    {
+      "t": "p",
+      "s": "ⅲ) 3/4 in.(19 mm) for t over 2 1/4 in.(57 mm)"
+    },
+    {
+      "t": "p",
+      "s": "where t is the thickness of the weld excluding any allowable reinforcement. For a butt weld joining two members having different thickness at the weld, t is the thinner of these two thickness. If a full penetration weld includes a fillet weld, the thickness of the throat of the fillet shall be included in t."
+    },
+    {
+      "t": "p",
+      "s": "c) Any group of aligned indications that have an aggregate length greater than t in a length of 12t, except when the distance between the successive imperfections exceeds 6L where L is the length of the longest imperfection in the group."
+    },
+    {
+      "t": "p",
+      "s": "d) Round indications in excess of that specified by the acceptance standards given in this procedure attached 3."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "8.2 ASME Section VIII, Division 1, Part UW-52(C) - Spot Radiography of welds."
+    },
+    {
+      "t": "p",
+      "s": "The acceptability of welds examined by spot radiography shall be judged by the following standards."
+    },
+    {
+      "t": "p",
+      "s": "a) Welds in which indications are characterized as crack or zones of incomplete fusion or penetration shall be unacceptable."
+    },
+    {
+      "t": "p",
+      "s": "b) Welds in which indications are characterized as slag inclusions or cavities shall be unacceptable if the length of any such indication is greater than 2/3t where t is the thickness of the weld excluding any allowable reinforcement."
+    },
+    {
+      "t": "p",
+      "s": "For a butt weld joining two members having different thickness at the weld, t is the thinner of these two thickness."
+    },
+    {
+      "t": "p",
+      "s": "If a full penetration weld includes a fillet weld, the thickness of the throat of the fillet shall be included in t. If several indications within the above limitations exist in line, the welds shall be judged acceptable if the sum of the longest dimensions of all such indications is not more than t in a length of 6t (or proportionately for radiographs shorter than 6t) and if the longest indications considered are separated by at least 3L of acceptable weld metal where L is the length of the longest indication. The maximum length of acceptable indications shall be 3/4 in.(19 mm). Any such indications shorter than ¼ in.(6 mm) shall be acceptable for any plate thickness."
+    },
+    {
+      "t": "p",
+      "s": "c) Rounded indications are not a factor in the acceptability of welds not required to be fully radiographed."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "8.3 ASME Section Ⅰ Part PW-51 - Radiographic examination"
+    },
+    {
+      "t": "p",
+      "s": "Acceptance standards equal to paragraph 8.1 above, except below."
+    },
+    {
+      "t": "p",
+      "s": "Round indications in excess of that specified by the acceptance standards given in this procedure attached 3."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "8.4 ASME B 31.1 Para.136.4.5"
+    },
+    {
+      "t": "p",
+      "s": "Acceptance standards equal to paragraph 8.1 above. except a), b) below"
+    },
+    {
+      "t": "p",
+      "s": "a) Round indications in excess of that specified by the acceptance standards given in this procedure attached 3."
+    },
+    {
+      "t": "p",
+      "s": "b) For circumferential groove welds, undercutting adjacent to the cover pass (EU) or undercutting adjacent to the root pass (IU) shall be considered unacceptable should either of the following conditions exist:"
+    },
+    {
+      "t": "p",
+      "s": "(-a) the aggregate length of EU and IU, in any combination, in any continuous 12 in. (300 mm) length of weld exceeds 2 in. (50 mm)"
+    },
+    {
+      "t": "p",
+      "s": "(-b) the aggregate length of EU and IU, in any combination, exceeds one-sixth of the weld length"
+    },
+    {
+      "t": "p",
+      "s": "c) undercut on the outside (O.D) or inside (I.D.) surface of longitudinal butt welds is unacceptable"
+    },
+    {
+      "t": "p",
+      "s": "d) Root concavity when the density or brightness of the root image is darker than the density through the adjacent base metal."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "8.5 For Qualification of Welder and Welding Operator : ASME Section Ⅸ, QW-191.1"
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "8.5.1 The following definitions shall apply to interpretation and evaluation."
+    },
+    {
+      "t": "p",
+      "s": "(a) Linear Indications - Cracks, incomplete fusion, inadequate penetration, and slag are represented on the radiograph as linear indications in which the length is more than three times the width."
+    },
+    {
+      "t": "p",
+      "s": "(b) Rounded Indications - Porosity and inclusions such as slag or tungsten are represented on the radiograph as rounded indications with a length three times the width or less. These indications may be circular, elliptical, or irregular in shape ; may have tails ; and may vary in density."
+    },
+    {
+      "t": "p",
+      "s": "(c) Thickness. The term \"thickness\" refers to the thickness of the weld excluding any allowable reinforcement. For a groove weld joining two members having different thicknesses at the weld, thickness is the thinner of these two materials being joined."
+    },
+    {
+      "t": "p",
+      "s": "8.5.2 Welder and welding operator performance tests by radiography of welds in test assemblies shall be judged unacceptable when the radiography exhibits any imperfections in excess of the limits specified below."
+    },
+    {
+      "t": "p",
+      "s": "(a) Linear Indications"
+    },
+    {
+      "t": "p",
+      "s": "(1) Any type of crack or zone of incomplete fusion or penetration"
+    },
+    {
+      "t": "p",
+      "s": "(2) Any elongated slag inclusion which has a length greater than;"
+    },
+    {
+      "t": "p",
+      "s": "a) ⅛ in.(3 mm) for thickness up to ⅜ in.(10 mm), inclusive"
+    },
+    {
+      "t": "p",
+      "s": "b) ⅓t the thickness when the thickness is greater than ⅜ in.(10 mm) to 2¼ in.(57 mm), inclusive"
+    },
+    {
+      "t": "p",
+      "s": "c) ¾ in.(19 mm) for thickness greater than over 2¼ in.(57 mm)"
+    },
+    {
+      "t": "p",
+      "s": "(3) Any group of slag inclusions in line that have an aggregate length greater than thickness in a length of 12 times that thickness, except when the distance between the successive imperfections exceeds 6L where L is the length of the longest imperfection in the group."
+    },
+    {
+      "t": "p",
+      "s": "(b) Rounded Indications"
+    },
+    {
+      "t": "p",
+      "s": "(1) The maximum permissible dimension for rounded indications shall be 20% of thickness or ⅛ in.(3 mm), whichever is smaller."
+    },
+    {
+      "t": "p",
+      "s": "(2) For welds in material less than ⅛ in.(3 mm) in thickness, the maximum number of acceptable rounded indications shall not exceed 12 in a 6 in. (150 mm) length of weld, A proportionately fewer number of rounded indications shall be permitted in welds less than 6 in. (150 mm) in length."
+    },
+    {
+      "t": "p",
+      "s": "(3) For welds in material ⅛ in.(3 mm) or greater in thickness, the charts in QW-191.1.2.2 (b)(4) of ASME Sec.IX (this procedure attached 5. Fig A5-1) represent the maximum acceptable types of rounded indications illustrated in typically clustered, assorted, and randomly dispersed configurations. Rounded indications less than 1/32 in.(0.8mm) in maximum diameter shall not be considered in the radiographic acceptance tests of welders and welding operators in these ranges of material thicknesses."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "9.0 EVALUATION"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "9.1 Quality of Radiographs"
+    },
+    {
+      "t": "p",
+      "s": "All radiographs shall be free from mechanical, chemical, or other blemishes to the extent that they do not mask and are not confused with the image of any discontinuity in the area of interest of the object being radiographed. Such blemishes include, but are not limited to :"
+    },
+    {
+      "t": "p",
+      "s": "a) fogging ;"
+    },
+    {
+      "t": "p",
+      "s": "b) processing defects such as streaks, watermarks, or chemical stains ;"
+    },
+    {
+      "t": "p",
+      "s": "c) scratches, finger marks, crimps, dirtiness, static marks, smudges, or tears ;"
+    },
+    {
+      "t": "p",
+      "s": "d) false indications due to defective screens."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "9.2 Evaluation by Manufacturer"
+    },
+    {
+      "t": "p",
+      "s": "The Manufacturer shall be responsible for the review, interpretation, evaluation, and acceptance of the completed radiographs to assure compliance with the requirements of ASME Sec. Ⅴ Art. 2 and the reference Code Section. As an aid to the review and evaluation, the radiographic technique documentation required by Para. 10.1 shall be completed prior to the evaluation. The radiograph review form required by Para. 10.2 shall be completed during the evaluation. The radiographic technique details and the radiograph review form documentation shall accompany the radiographs. Acceptance shall be completed prior to presentation of the radiographs and accompanying documentation to the Inspector."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "10.0 DOCUMENTATIONS"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "10.1 Radiographic technique documentation details"
+    },
+    {
+      "t": "p",
+      "s": "The organization shall prepare and document the radiographic technique details. As a minimum, the following information shall be provided."
+    },
+    {
+      "t": "p",
+      "s": "a) the requirements of ASME Sec.V Article 1, T-190(a) ;"
+    },
+    {
+      "t": "p",
+      "s": "- date of the examination"
+    },
+    {
+      "t": "p",
+      "s": "- name and/or identity and certification level (if applicable) for personnel performing the examination"
+    },
+    {
+      "t": "p",
+      "s": "- identification of the weld, part, or component examined including weld number, serial number, or other identifier"
+    },
+    {
+      "t": "p",
+      "s": "- examination method, technique, procedure Identification, and revision"
+    },
+    {
+      "t": "p",
+      "s": "- results of the examination"
+    },
+    {
+      "t": "p",
+      "s": "b) identification as required by Para. 4.5.1"
+    },
+    {
+      "t": "p",
+      "s": "c) the dimensional map(if used) of marker placement"
+    },
+    {
+      "t": "p",
+      "s": "d) number of radiographs (exposures)"
+    },
+    {
+      "t": "p",
+      "s": "e) X-ray voltage or isotope type used"
+    },
+    {
+      "t": "p",
+      "s": "f) source size (F in Para. 4.8.2)"
+    },
+    {
+      "t": "p",
+      "s": "g) base material type and thickness, weld thickness, weld reinforcement thickness, as applicable"
+    },
+    {
+      "t": "p",
+      "s": "h) source-to-object distance (D in Para. 4.8.2)"
+    },
+    {
+      "t": "p",
+      "s": "i) distance from source side of object to film (d in Para. 4.8.2)"
+    },
+    {
+      "t": "p",
+      "s": "j) film manufacturer and Manufacturer's type/designation"
+    },
+    {
+      "t": "p",
+      "s": "k) number of film in each film holder/cassette"
+    },
+    {
+      "t": "p",
+      "s": "l) single-or double-wall exposure"
+    },
+    {
+      "t": "p",
+      "s": "m) single-or double-wall viewing"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "10.2 Radiographic review form"
+    },
+    {
+      "t": "p",
+      "s": "The manufacturer shall be responsible for the preparation of a radiograph review form. As a minimum, the following information shall be provided."
+    },
+    {
+      "t": "p",
+      "s": "a) a listing of each radiograph location"
+    },
+    {
+      "t": "p",
+      "s": "b) the information required in Para. 10.1, by inclusion of the information of on the review form or by reference to an attached radiographic technique details sheet"
+    },
+    {
+      "t": "p",
+      "s": "c) evaluation and disposition of the material(s) or weld(s) examined"
+    },
+    {
+      "t": "p",
+      "s": "d) identification (name) of the Manufacturer's representative who performed the final acceptance of the radiographs"
+    },
+    {
+      "t": "p",
+      "s": "e) date of Manufacturer's evaluation"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "11.0 ATTACHED"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "11.1 Attached 1."
+    },
+    {
+      "t": "p",
+      "s": ": Requirements of a radiographic examination procedure"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "11.2 Attached 2."
+    },
+    {
+      "t": "p",
+      "s": ": FIG. A2-1 Location Marker Sketches"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "11.3 Attached 3."
+    },
+    {
+      "t": "p",
+      "s": ": ROUNDED INDICATIONS CHARTS ACCEPTANCE STANDARD FOR RADIOGRAPHICALLY DETERMINED ROUNDED INDICATIONS IN WELDS(ASME Sec. I, VIII, B31.1)"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "11.4 Attached 4."
+    },
+    {
+      "t": "p",
+      "s": ": ROUNDED INDICATIONS CHARTS Fig A4-1~ A4-8(ASME Sec. I, VIII, B31.1)"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "11.5 Attached 5."
+    },
+    {
+      "t": "p",
+      "s": ": ROUNDED INDICATIONS CHARTS Fig A5-1(ASME Sec. IX)"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "11.6 Attached 6."
+    },
+    {
+      "t": "p",
+      "s": ": REPORT OF RADIOGRAPHIC EXAMINATION"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "5.7 상질계의 배치"
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "5.7.1 선원측 상질계"
+    },
+    {
+      "t": "p",
+      "s": "5.7.2항에 기술된 조건을 제외하고, 상질계는 시험하는 부품의 선원측에 놓아야 한다. 부품이나 용접부의 형상 또는 크기 때문에 상질계를 부품 또는 용접부에 위치하기 어려운 경우, 상질계는 별도의 블록(block)위에 놓을 수 있다. 별도 블록은 부품과 같거나 방사선적으로 유사한 재료(SE-747 정의)로 만들어야 하고, 상질계 배치를 용이하게 활용할 수 있다. 4.7.2항의 상질계/판독범위 농도 허용 오차 요건이 만족된다면, 별도 블록의 두께에 대한 제한은 없다."
+    },
+    {
+      "t": "p",
+      "s": "(1) 별도 블럭의 선원측 상질계는 촬영할 부품의 선원측보다 필름측에 더 가깝게 놓아서는 않된다."
+    },
+    {
+      "t": "p",
+      "s": "(2) 별도 블록은 촬영할 부품에 가능한 한 가깝게 놓아야 한다."
+    },
+    {
+      "t": "p",
+      "s": "5.7.2 선원측에 상질계를 놓을 수 없는 경우, 상질계는 시험하는 부품에 접촉시켜 필름측에 놓아야 한다. 납 글자 “F\"는 상질계의 인접부위 또는 상질계 위에 놓아야 한다."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "5.7.3 용접부에 대한 상질계 배치 -선형 상질계"
+    },
+    {
+      "t": "p",
+      "s": "상질계는 선의 길이방향이 용접부의 횡방향으로 길게 용접부 위에 놓아야 한다. 필수선이 용접부의 전체 폭에 걸쳐 있어야 하는 것은 아니다. 단, 필수선은 IQI 필수선이 선택된 공칭 단일 벽 재료 두께 및 보강재를 나타내는 용접부의 적어도 해당 부분에 걸쳐 있어야 한다. 4.7항의 농도 요건과 5.6항의 감도 요건도 충족해야 한다. 기하학적 형상 대문에 배치가 불가능한 경우를 제외하고, 식별번호 및 납 글자(사용되는 경우) “F\"는 판독범위 내에 있어서는 안 된다."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "5.7.4 용접부 이외의 재료에 대한 상질계 배치"
+    },
+    {
+      "t": "p",
+      "s": "상질계의 식별번호 및 납 글자(사용되는 경우) “F\"는 판독범위 내에 놓을 수도 있다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "5.8 상질계 수량"
+    },
+    {
+      "t": "p",
+      "s": "한번 촬영에 1개 이상의 필름 홀더가 사용되는 경우, 아래의 5.8.2항에 설명한 것을 제외하고, 1개 이상의 상질계 상이 각각의 방사선투과사진에 나타나야 한다."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "5.8.1 복수 상질계"
+    },
+    {
+      "t": "p",
+      "s": "4.7항의 요건이 2개 이상의 상질계를 사용하여 만족되는 경우, 하나는 가장 밝은 판독범위를 나타내고, 다른 하나는 가장 어두운 판독범위를 나타내야 한다. 방사선투과사진에서 중간범위의 농도는 허용농도를 가지는 것으로 간주해야 한다."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "5.8.2 특별한 경우"
+    },
+    {
+      "t": "p",
+      "s": "1) 원통형 시험체에서 선원을 시험체의 축 위에 놓고 한번의 노출로 촬영하는 경우. 다음의 경우 3개 이상의 상질계를 약 120° 간격으로 배치한다."
+    },
+    {
+      "t": "p",
+      "s": "(a) 원주 전체가 1개 이상의 필름홀더를 사용하여 촬영되는 경우, 또는"
+    },
+    {
+      "t": "p",
+      "s": "(b) 가장 바깥쪽 부분의 끝 부분 사이의 길이가 240° 이상인 큰 원주부분이 1개 이상의 필름 홀더를 사용하여 촬영하는 경우, 필름 위치는 필요한 상질계 간격을 유지하기 위해 필름을 추가로 더 놓을 수 있다."
+    },
+    {
+      "t": "p",
+      "s": "2) 원통형 시험체에서 선원을 시험체의 축 위에 놓고 한 번의 노출로 촬영하는 경우. 다음의 경우 3개의 상질계 중 1개는 촬영부위의 중앙에 배치하고, 다른 2개의 상질계는 양 끝에 각각 배치한다."
+    },
+    {
+      "t": "p",
+      "s": "(a) 길이가 120°초과 240° 미만인 원주부분이 1개의 필름 홀더를 사용하여 촬영되는 경우, 또는"
+    },
+    {
+      "t": "p",
+      "s": "(b) 가장 바깥쪽 부분의 끝 부분 사이의 길이가 240° 미만인 작은 원주부분이 1개 이상의 필름 홀더를 사용하여 촬영되는 경우."
+    },
+    {
+      "t": "p",
+      "s": "3) 위의 1) 및 2)에서, 원주방향 용접부와 연결된 길이방향 용접부의 부분이 원주방향 용접부와 동시에 촬영하는 경우, 추가 상질계는 촬영할 원주방향 용접부로부터 가장 멀리 떨어진 각 길이방향 용접부의 끝 부분에 배치한다."
+    },
+    {
+      "t": "p",
+      "s": "4) 구형 시험체에서 선원을 시험체의 축 위에 놓고 한번의 노출로 촬영하는 경우. 위에 5.8.2.1)항 (a),(b)의 경우 3개 이상의 상질계를 약 120° 간격으로 배치한다."
+    },
+    {
+      "t": "p",
+      "s": "5) 원구형 시험체에서 선원을 시험체의 축 위에 놓고 한 번의 노출로 촬영하는 경우. 위에 5.8.2.2)항 (a),(b)의 경우 3개의 상질계 중 1개는 촬영부위의 중앙에 배치하고, 다른 2개의 상질계는 양 끝에 각각 배치한다."
+    },
+    {
+      "t": "p",
+      "s": "6) 위의 4) 및 5)에서, 기타 용접부가 원주방향 용접부와 동시에 촬영되는 경우, 한 개의 추가 상질계를 각 기타 용접부에 배치한다."
+    },
+    {
+      "t": "p",
+      "s": "7) 3개보다 많은 필름 홀더를 사용할 때 선원이 단일벽 촬영으로 용접 길이의 중심과 수직으로 놓인 평 경판 또는 곡면(즉, 반타원형, 접시형, 접시원추형, 타원형 등) 구성품 일부의 경우, 방사선투과사진 폭의 각 끝에 하나씩과 그 폭의 거의 중심부에 하나를 놓아서 최소한 3개의 상질계가 필요하다."
+    },
+    {
+      "t": "p",
+      "s": "8) 한 원주 내에 배열된 시험체가 촬영되는 경우, 최소한 1개의 상질계가 각 시험체의 상에 나타나야 한다."
+    },
+    {
+      "t": "p",
+      "s": "9) 이 후에 촬영되는 것을 포함한 기록의 연속성을 유지하기 위하여, 위의 1)~7)에 따라 허용된 기법을 인정하는 상질계를 보여주는 모든 방사선투과사진은 보관해야 한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "6.0 위치마커"
+    },
+    {
+      "t": "p",
+      "s": "위치마커(그림 A2-1 참조) - 방사선투과에 방사선투과사진 상으로 나타나야만 하는 위치마커는 노출 홀더/카세트가 아닌 부품위에 놓아야 한다."
+    },
+    {
+      "t": "p",
+      "s": "이들 위치는 방사선투과사진에 요구되는 보관기간 동안 촬영할 부품의 표면에 영구적으로 표시하거나, 허용된다면 방사선투과사진의 판독범위에 부품의 그 위치를 정확하게 추적할 수 있는 인정된 방법으로 배치도면에 영구적으로 표시해야 한다. 또한, 이들의 위치는 관심영역 또는 판독 영역을 제한하지는 않는다. 시험되는 부위의 요구범위가 포함되었다는 것을 방사선투과사진상에 증거로 제시해야 한다. 위치마커는 다음과 같이 놓아야 한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "6.1 단일벽 관찰"
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.1.1 선원측 위치마커"
+    },
+    {
+      "t": "p",
+      "s": "다음과 같이 방사선투과촬영의 경우, 위치마커는 선원측에 놓아야 한다."
+    },
+    {
+      "t": "p",
+      "s": "(a) 편평한 시험체나 원통형 또는 원추형 시험체의 길이 이음부."
+    },
+    {
+      "t": "p",
+      "s": "(b) 오목한 면이 선원 측으로 향해 있고 선원-재료간의 거리가 시험체의 안쪽 반지름보다 작은 곡선형 또는 구형인 시험체."
+    },
+    {
+      "t": "p",
+      "s": "(c) 볼록한 면이 선원 측으로 향해 있는 곡선형 또는 구형인 시험체."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.1.2 필름측 위치 마커"
+    },
+    {
+      "t": "p",
+      "s": "(a) 오목한 면이 선원 측으로 향해 있고, 선원-재료간의 거리가 시험체의 안쪽 반지름 보다 큰 곡선형 또는 구형인 시험체를 방사선투과촬영하는 경우, 위치마커는 필름측에 놓아야 한다."
+    },
+    {
+      "t": "p",
+      "s": "(b) 6.1.1(a)항의 선원측에 배치하는 것 대신, 방사선투과사진이 그림 A2-1 (e)와 같이 위치마커를 초과한 범위를 나타내는 경우와 이 대안이 ASME Sec.Ⅴ Art.2 T-291에 따라 기록되는 경우, 위치마커는 필름측에 놓을 수 있다."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.1.3 양쪽에 놓는 위치마커"
+    },
+    {
+      "t": "p",
+      "s": "오목한 면이 선원 측으로 향해 있고, 선원-재료간의 거리가 시험체의 안쪽 반지름과 같은 곡선형 또는 구형인 시험체를 방사선투과촬영하는 경우, 위치마커는 선원측 또는 필름측에 놓을 수 있다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "6.2 이중벽 관찰"
+    },
+    {
+      "t": "p",
+      "s": "이중벽 관찰의 경우, 각 방사선투과사진에 대해 최소한 한 개의 위치마커가 용접부(또는 판독범위내의 재료 상에)와 인접한 곳에 놓아야 한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "6.3 위치마커의 배치도 작성"
+    },
+    {
+      "t": "p",
+      "s": "접근이 불가능하거나, 다른 제한사항이 6.1항(T-275.1) 및 6.2항(T-275.2)의 규정에 따라 위치마커를 배치할 수 없는 경우, 실제 위치마커 배치의 치수가 표시된 배치도는 전구간 범위가 포함되었다는 것을 나타내기 위해 방사선투과사진에 첨부해야 한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "7.0 방사선투과촬영 기법"
+    },
+    {
+      "t": "p",
+      "s": "방사선투과촬영 기법에서는 가능한 한 단일벽 촬영기법이 사용되어야 한다. 단일벽 촬영기법을 사용하기가 실제로 곤란할 경우에는, 이중벽 촬영기법이 사용되어야 한다. 요구되는 촬영범위가 포함되는 것을 실증할 수 있도록 적절한 촬영 횟수로 실시해야 한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "7.1 단일벽 촬영기법"
+    },
+    {
+      "t": "p",
+      "s": "단일벽 촬영기법에서, 방사선은 용접부(재료)의 한쪽 벽만을 투과하며, 방사선투과사진에서 그 부분만이 합부판정을 위해 관찰된다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "7.2 이중벽 촬영기법"
+    },
+    {
+      "t": "p",
+      "s": "단일벽 촬영기법을 사용하는 것이 곤란할 때는, 다음의 이중벽 촬영기법 중 하나가 사용되어야 한다."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "7.2.1 단일벽 관찰"
+    },
+    {
+      "t": "p",
+      "s": "시험체 내의 재료 및 용접부의 경우, 방사선이 두 벽을 투과하고, 필름측 벽의 용접부(재료)만이 방사선투과사진의 합부판정을 위해 관찰되는 촬영기법이 사용될 수 있다. 원주 용접부(재료)에서 전구간 촬영범위가 요구되는 경우, 각각에 대해 120° 간격으로 최소 3회 촬영이 실시되어야 한다."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "7.2.2 이중벽 관찰"
+    },
+    {
+      "t": "p",
+      "s": "공칭 바깥지름 89mm 이하인 시험체 내의 재료 및 용접부의 경우, 방사선이 두 벽을 투과하고 양쪽 벽의 용접부(재료)가 동일한 방사선투과사진에서 합부판정을 위해 관찰되는 촬영기법이 사용될 수 있다. 이중벽 관찰의 경우, 상질계는 선원측에만 사용되어야 한다. 요구되는 기하학적 불선명도를 초과하지 않도록 주의하는 것이 좋다. 기하학적 불선명도 요건이 만족되지 않는 경우, 단일벽 관찰이 사용되어야 한다."
+    },
+    {
+      "t": "p",
+      "s": "(a) 용접부의 경우, 방사선 빔은 판독될 부위가 겹치지 않도록 용접부의 필름측 및 선원측 부분의 상을 분리하기 충분한 각도로 용접부 면으로부터 경사지게 할 수 있다. 전구간 촬영이 원주 용접부에서 요구되는 경우, 각각에 대해 90도 간격으로 최소한 2회의 촬영이 각 이음부에 대해 실시되어야한다"
+    },
+    {
+      "t": "p",
+      "s": "."
+    },
+    {
+      "t": "p",
+      "s": "(b) 다른 방법으로서, 용접부는 두벽의 상이 겹치도록 놓은 방사선 빔으로 방사선투과 시험을 할 수 있다. 전구간 촬영이 원주 용접부에서 요구되는 경우, 각각에 대해 60도 또는 120도 간격으로 최소한 3회의 촬영이 각 이음부에 대해 실시되어야한다."
+    },
+    {
+      "t": "p",
+      "s": "(c) 요구되는 방사선투과사진 촬영범위가 위 7.2.2(b) 또는 7.2.2(c)항에 나타난 최소 촬영 횟수로 포함시킬 수 없는 경우에는 추가 촬영을 실시해야 한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "8.0 합격 기준"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "8.1 ASME Section VIII, Div.1, Part UW-51(b)"
+    },
+    {
+      "t": "p",
+      "s": "- 용접부 전체 촬영."
+    },
+    {
+      "t": "p",
+      "s": "다음 조건에 해당되는 결함이 방사선투과사진에 나타나면 그 용접부는 불합격이다."
+    },
+    {
+      "t": "p",
+      "s": "a) 융합불량, 용입부족, 또는 크랙으로 판정된 지시"
+    },
+    {
+      "t": "p",
+      "s": "b) 방사선투과사진에 나타난 선형지시 중에서 다음의 길이보다 긴 지시"
+    },
+    {
+      "t": "p",
+      "s": "ⅰ) t가 3/4 in.(19 mm) 이하인 경우에는 1/4 in.(6 mm)"
+    },
+    {
+      "t": "p",
+      "s": "ⅱ) t가 3/4 in.(19 mm)를 초과하고 2 1/4 in.(57 mm) 이하인 경우 1/3t"
+    },
+    {
+      "t": "p",
+      "s": "ⅲ) 3/4 in.(19 mm) for t over 2 1/4 in.(57 mm)"
+    },
+    {
+      "t": "p",
+      "s": "t가 2 ¼ in.(57 mm)를 초과하는 경우 3/4 in.(19 mm)"
+    },
+    {
+      "t": "p",
+      "s": "여기서 t 는 허용된 용접덧살을 제외한 용접부의 두께. 맞대기용접부에서 두께가 서로 다른 경우에는 t 를 이 두개의 두께 중 얇은 쪽을 택하여야 한다. 완전용입 용접에 필릿용접이 포함되어 있는 경우에는 필릿의 목두께를 t 에 포함시켜야 한다."
+    },
+    {
+      "t": "p",
+      "s": "c) 인접한 결함사이의 거리가 6L을 초과하는 경우를 제외하고는 12t 범위 내의 결함합계 길이가 t보다 긴 선상지시의 집합. 여기서 L은 집합 중에서 가장 긴 결함의 길이이다."
+    },
+    {
+      "t": "p",
+      "s": "d) 본 절차서 첨부 3에 주어진 판정규정을 초과하는 원형의 지시"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "8.2 ASME Section VIII, Division 1, Part UW-52(C) - 용접부 부분 촬영."
+    },
+    {
+      "t": "p",
+      "s": "부분 방사선투과검사에 의한 합격여부는 다음과 같다."
+    },
+    {
+      "t": "p",
+      "s": "a) 크랙, 용합불량, 또는 용입부족으로 판정되는 지시가 있는 용접은 불합격이다."
+    },
+    {
+      "t": "p",
+      "s": "b) 슬래그가 있거나 동공(cavity)으로 판정되는 지시가 있는 용접부는 그러한 지시의 길이가 2/3t 보다 큰 경우 불합격으로 처리하여야 한다. 여기서 t 는 허용된 용접덧살을 제외한 용접부의 두께. 맞대기용접부에서 두께가 서로 다른 경우에는 t 를 이 두개의 두께 중 얇은 쪽을 택하여야 한다. 완전용입 용접에 필릿용접이 포함되어 있는 경우에는 필릿의 목두께를 t 에 포함시켜야 한다."
+    },
+    {
+      "t": "p",
+      "s": "위의 제한범위에 복수의 지시가 일직선상으로 존재하는 경우 6t의 길이 범위에 있는 이러한 복수지시 각각의 최대치수(각 지시마다 가장 긴쪽의 치수)의 합계가 t 미만이고(6t보다 짧은 방사선투과검사에 대하여는 비율을 적용한다), 또한 주목할 만한 각각의 최대지시가 허용 할 수 있는 용접금속 길이의 최소한 3L의 간격으로 떨어져 있는 경우에는 그 용접부를 합격으로 판정하여야 한다. 여기서 L은 최대지시(지시 중에서 가장 큰 지시)의 길이이다. 허용할 수 있는 지시의 최대 길이는 3/4in.(19mm)이다. 길이가 1/4in.(6mm) 미만인 지시는 판 두께에 상관없이 합격으로 판정하여야 한다."
+    },
+    {
+      "t": "p",
+      "s": "c) 전길이 방사선투과검사(fully radiography)가 요구되지 않는 용접부에서 원형지시는 합격여부를 좌우하는 요소가 되지 못한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "8.3 ASME Section Ⅰ Part PW-51 - 방사선투과검사"
+    },
+    {
+      "t": "p",
+      "s": "합격기준은 아래를 제외하고 위 8.1항과 같다."
+    },
+    {
+      "t": "p",
+      "s": "본 절차서 첨부 3.에 주어진 판정규정을 초과하는 원형의 지시"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "8.4 ASME B 31.1 Para.136.4.5"
+    },
+    {
+      "t": "p",
+      "s": "합격기준은 아래의 a),b)를 제외하고 위 8.1항과 같다."
+    },
+    {
+      "t": "p",
+      "s": "a) 본 절차서 첨부 3.에 주어진 판정규정을 초과하는 원형의 지시"
+    },
+    {
+      "t": "p",
+      "s": "b) 원주방향 홈 용접의 경우, 커버 패스에 인접한 언더컷팅(EU) 또는 루트 패스에 인접한 언더컷팅(IU)은 다음 조건 중 하나가 존재할 경우 불합격으로 간주되어야 한다."
+    },
+    {
+      "t": "p",
+      "s": "(-a) 연속 12인치(300mm) 길이의 용접부에서 EU와 IU의 총 길이(어떠한 조합이든)가 2인치(50mm)를 초과하는 경우,"
+    },
+    {
+      "t": "p",
+      "s": "(-b) EU와 IU의 총 길이(어떠한 조합이든)가 용접 길이의 6분의 1을 초과할 경우,"
+    },
+    {
+      "t": "p",
+      "s": "c) 길이방향 맞대기 용접부의 외면(OD) 또는 내면(ID)의 언더컷은 불합격이다."
+    },
+    {
+      "t": "p",
+      "s": "d) 루트 상의 농도 또는 밝기가 갑자기 변할 때 루트 오목은 인접한 모재부부터의 농도보다 어둡다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "8.5 용접 및 용접사의 인증 : ASME Section Ⅸ, QW-191.1"
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "8.5.1 다음과 같은 지시는 평가되고 판정되어야 한다."
+    },
+    {
+      "t": "p",
+      "s": "(a) 선형지시 - 폭보다 3배를 초과하는 길이로 방사선투과사진에 나타난 크랙, 용합불량, 용입부족 및 슬래그"
+    },
+    {
+      "t": "p",
+      "s": "(b) 원형지시 - 폭보다 3배 이하의 길이로 방사선투과사진에 나타난 기공과 슬래그와 같은 개재물. 이들 지시는 원형, 타원형 또는 불규칙한 모양일수 있고, 꼬리를 같거나, 높은 농도 일수 있다."
+    },
+    {
+      "t": "p",
+      "s": "(c) 두께. \"두께\"란 허용 덧살을 제외한 용접부의 두께를 말한다. 홈 용접부의 두께가 서로 다른 경우 용접되는 두 재료 중 두께가 더 얇은 쪽을 두께로 한다."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "8.5.2 방사선투과검사로 용접사 기량시험을 수행하는 경우 아래의 제한을 초과하는 불연속부가 방사선투과사진에 나타나면 경우 불합격이다."
+    },
+    {
+      "t": "p",
+      "s": "(a) 선형지시"
+    },
+    {
+      "t": "p",
+      "s": "(1) 어떠한 형태의 크랙, 용합불량, 용입부족"
+    },
+    {
+      "t": "p",
+      "s": "(2) 선형 슬래그 중에서 다음의 길이보다 긴 지시"
+    },
+    {
+      "t": "p",
+      "s": "a) 두께가 ⅜ in.(10 mm)까지인 경우에는 ⅛ in.(3 mm)"
+    },
+    {
+      "t": "p",
+      "s": "b) 두께가 3⅜ in.(10 mm)보다 크고 2 ¼ in.(57 mm)까지인 경우 1/3t"
+    },
+    {
+      "t": "p",
+      "s": "c) 두께가 2 ¼ in.(57 mm)보다 큰 경우 3/4 in.(19 mm)"
+    },
+    {
+      "t": "p",
+      "s": "(3) 연속된 결함 사이의 거리가 6L를 초과하는 경우를 제외하고 두께의 12배 이상의 합계 길이를 갖는 슬래그 지시 그룹. 단, L은 집합에서 가장 긴 결함의 길이이다."
+    },
+    {
+      "t": "p",
+      "s": "(b) 원형지시"
+    },
+    {
+      "t": "p",
+      "s": "(1) 최대허용 크기는 두께의 20% 또는 ⅛ in.(3 mm) 중 작은 쪽이다."
+    },
+    {
+      "t": "p",
+      "s": "(2) 모재두께가 ⅛ in.(3 mm)보다 작은 경우, 용접부 길이 6 in.(150 mm)범위에서 최대허용개수는 12개이다. 용접부 길이가 6 in.(150 mm) 보다 작은 경우 최대허용개수는 비례적으로 줄어든다."
+    },
+    {
+      "t": "p",
+      "s": "(3) 모재두께가 ⅛ in.(3 mm) 이상인 경우, ASME Sec. Ⅸ QW-191.1.2.2 (b)(4) 차트(본 절차서 첨부 5.그림 A5-1.)에 각 타입별(군집, 분산, 독립) 최대허용 크기가 나타나있다. 최대 직경이 1/32 in.(0.8mm)보다 작은 원형지시는 합부판정에 고려하지 않는다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "9.0 평가"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "9.1 방사선투과사진 상질"
+    },
+    {
+      "t": "p",
+      "s": "모든 방사선투과사진은 촬영하는 시험체의 판독범위에서 어떤 불연속부를 가리거나 혼동되지 않도록 그 판독범위에 기계적, 화학적 또는 기타 손상이 없어야 한다. 이러한 손상에는 다음과 같은 것들이 있으나, 그것으로만 한정되는 것은 아니다."
+    },
+    {
+      "t": "p",
+      "s": "a) 뿌염(fogging)"
+    },
+    {
+      "t": "p",
+      "s": "b) 줄무늬, 물마크(water mark) 또는 화학적 얼룩과 같은 현상처리 결함"
+    },
+    {
+      "t": "p",
+      "s": "c) 긁힘, 지문, 주름, 오물, 정전기 마크, 얼룩 또는 찢어짐"
+    },
+    {
+      "t": "p",
+      "s": "d) 불량 스크린으로 인한 의사지시."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "9.2 제조자에 의한 평가"
+    },
+    {
+      "t": "p",
+      "s": "제조자는 ASME Sec. Ⅴ Art. 2 및 관련 코드 요건에 일치하는지를 확인하기 위해 완성된 방사선투과사진의 관찰, 판독, 평가 및 합부판정에 대한 책임이 있다. 관찰 및 평가를 돕기 위해, 평가 전에 10.1항에서 요구되는 방사선투과촬영 기법의 문서를 작성해야 한다."
+    },
+    {
+      "t": "p",
+      "s": "10.2항에서 요구되는 방사선투과사진의 관찰 서식은 평가 도중에 작성해야 한다. 방사선투과촬영 기법의 세부사항 및 방사선투과사진 관찰의 서식 문서에 방사선투과사진을 첨부해야 한다. 검사원에게 방사선투과사진 및 첨부문서를 제출하기 전에 합부판정이 완료되어야 한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "10.0 DOCUMENTATIONS(검사 기록)"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "10.1 방사선투과 촬영 기법의 문서 세부사항"
+    },
+    {
+      "t": "p",
+      "s": "제조자는 방사선투과촬영 기법의 세부사항을 작성하고 기록해야 한다. 최소한 다음의 정보가 제 공되어야 한다."
+    },
+    {
+      "t": "p",
+      "s": "a) ASME Sec.V Article 1의 요구사항, T-190(a) ;"
+    },
+    {
+      "t": "p",
+      "s": "- 시험 날짜"
+    },
+    {
+      "t": "p",
+      "s": "- 시험을 수행하는 요원의 자격 등급, 성명 또는/그리고 동일한 것"
+    },
+    {
+      "t": "p",
+      "s": "- 용접부 식별, 부분, 또는 용접 번호를 포함하는 시험된 구성품, 일련 번호, 또는 다른 식별"
+    },
+    {
+      "t": "p",
+      "s": "- 시험 방법, 기법, 절차 확인과 수정"
+    },
+    {
+      "t": "p",
+      "s": "- 시험의 결과"
+    },
+    {
+      "t": "p",
+      "s": "b) 4.5.1항에서 요구되는 식별표시"
+    },
+    {
+      "t": "p",
+      "s": "c) 위치마커 배치의 배치도(사용되는 경우)"
+    },
+    {
+      "t": "p",
+      "s": "d) 방사선투과사진의 촬영횟수."
+    },
+    {
+      "t": "p",
+      "s": "e) X-선 장비의 전압 또는 사용한 동위원소의 종류."
+    },
+    {
+      "t": "p",
+      "s": "f) 선원 크기(4.8.2항의 F)"
+    },
+    {
+      "t": "p",
+      "s": "g) 모재 종류 및 두께, 용접부 두께, 용접부 덧살 두께(해당되는 경우)"
+    },
+    {
+      "t": "p",
+      "s": "h) 선원-시험체 간 거리(4.8.2항의 D)"
+    },
+    {
+      "t": "p",
+      "s": "i) 시험체의 선원측 면에서 필름까지의 거리(4.8.2항의 d)"
+    },
+    {
+      "t": "p",
+      "s": "j) 필름 제조자 및 제조자의 상표/명칭"
+    },
+    {
+      "t": "p",
+      "s": "k) 각 필름 홀더/카세트당 필름의 수"
+    },
+    {
+      "t": "p",
+      "s": "l) 단일벽 또는 이중벽 촬영"
+    },
+    {
+      "t": "p",
+      "s": "m) 단일벽 또는 이중벽 관찰"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "10.2 방사선투과사진의 관찰 서식"
+    },
+    {
+      "t": "p",
+      "s": "제조자는 방사선투과사진의 관찰 서식을 작성해야 할 책임이 있다. 최소한 다음의 정보가 제공되어야 한다."
+    },
+    {
+      "t": "p",
+      "s": "a) 각 방사선투과사진 위치의 목록"
+    },
+    {
+      "t": "p",
+      "s": "b) 10.1항에서 요구한 정보(관찰 서식의 정보를 포함하거나 첨부된 방사선투과사진 기법 세부 명세를 참조하여)"
+    },
+    {
+      "t": "p",
+      "s": "c) 검사된 재료 또는 용접부의 평가 및 정리"
+    },
+    {
+      "t": "p",
+      "s": "d) 방사선투과사진의 최종 합부판정을 수행하는 제조자의 대표자 표시(성명)"
+    },
+    {
+      "t": "p",
+      "s": "e) 제조자의 평가일자"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "11.0 첨부"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "11.1 첨부 1."
+    },
+    {
+      "t": "p",
+      "s": ": 방사선투과검사 절차서의 요구사항"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "11.2 첨부 2."
+    },
+    {
+      "t": "p",
+      "s": ": FIG. A1-1 위치 마커 스케치"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "11.3 첨부 3."
+    },
+    {
+      "t": "p",
+      "s": ": 용접부의 방사선투과검사로 나타난 원형지시에 대한 합격기준(ASME Sec. I, VIII, B31.1)"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "11.4 첨부 4."
+    },
+    {
+      "t": "p",
+      "s": ": ROUNDED INDICATIONS CHARTS Fig A4-1~ A4-8(ASME Sec. I, VIII, B31.1)"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "11.5 첨부 5."
+    },
+    {
+      "t": "p",
+      "s": ": ROUNDED INDICATIONS CHARTS Fig A5-1(ASME Sec. IX)"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "11.6 첨부 6. : 방사선투과검사의 보고서"
+    },
+    {
+      "t": "p",
+      "s": "(Attached 1.)"
+    },
+    {
+      "t": "p",
+      "s": "(첨부 1.)"
+    },
+    {
+      "t": "p",
+      "s": "*Requirements of a Radiographic Examination Procedure"
+    },
+    {
+      "t": "p",
+      "s": "* 방사선투과검사 절차서의 요구사항"
+    },
+    {
+      "t": "p",
+      "s": "Requirement (요구사항)"
+    },
+    {
+      "t": "p",
+      "s": "Number of paragraph"
+    },
+    {
+      "t": "p",
+      "s": "(항의 순서)"
+    },
+    {
+      "t": "p",
+      "s": "Material type and thickness range"
+    },
+    {
+      "t": "p",
+      "s": "(재료적 형태 와 두께 범위)"
+    },
+    {
+      "t": "p",
+      "s": "(1.1)"
+    },
+    {
+      "t": "p",
+      "s": "Isotope or maximum X-ray voltage used"
+    },
+    {
+      "t": "p",
+      "s": "(동위원소 및 X-RAY 최대 전압 사용치)"
+    },
+    {
+      "t": "p",
+      "s": "(4.1)"
+    },
+    {
+      "t": "p",
+      "s": "source-to-object distance"
+    },
+    {
+      "t": "p",
+      "s": "(선원-제품의 거리)"
+    },
+    {
+      "t": "p",
+      "s": "(4.8)"
+    },
+    {
+      "t": "p",
+      "s": "Distance from source side of object to film"
+    },
+    {
+      "t": "p",
+      "s": "(선원쪽 제품-필름간거리)"
+    },
+    {
+      "t": "p",
+      "s": "(4.8.2 & 4.9)"
+    },
+    {
+      "t": "p",
+      "s": "Source size"
+    },
+    {
+      "t": "p",
+      "s": "(선원 크기)"
+    },
+    {
+      "t": "p",
+      "s": "(4.1.1 , 4.1.3)"
+    },
+    {
+      "t": "p",
+      "s": "Film brand and designation"
+    },
+    {
+      "t": "p",
+      "s": "(필름 상표와 명칭)"
+    },
+    {
+      "t": "p",
+      "s": "(4.2)"
+    },
+    {
+      "t": "p",
+      "s": "Screens used"
+    },
+    {
+      "t": "p",
+      "s": "(사용 스크린)"
+    },
+    {
+      "t": "p",
+      "s": "(4.3)"
+    },
+    {
+      "t": "p",
+      "s": "(Attached 2.)"
+    },
+    {
+      "t": "p",
+      "s": "Fig. A2-1. Location Marker Sketches"
+    },
+    {
+      "t": "p",
+      "s": "위치 마커 스케치"
+    },
+    {
+      "t": "p",
+      "s": "(Attached 3.)"
+    },
+    {
+      "t": "p",
+      "s": "ROUNDED INDICATIONS CHARTS ACCEPTANCE STANDARD FOR RADIOGRAPHICALLY DETERMINED ROUNDED INDICATIONS IN WELDS"
+    },
+    {
+      "t": "p",
+      "s": "1. APPLICABILITY OF THESE STANDARDS"
+    },
+    {
+      "t": "p",
+      "s": "These standards are applicable to ferritic, austenitic, and nonferrous material."
+    },
+    {
+      "t": "p",
+      "s": "2. TERMINOLOGY"
+    },
+    {
+      "t": "p",
+      "s": "(a) Rounded Indications"
+    },
+    {
+      "t": "p",
+      "s": "Indications with a maximum length of three times the width or less on the radiography are defined as rounded indications. These indications may be circular, elliptical, conical, or irregular in shape and may have tails. When evaluating the size of an indication, the tail shall be include. The indication may be from any source in the weld, such as porosity, slag, or tungsten."
+    },
+    {
+      "t": "p",
+      "s": "(b) Aligned Indications."
+    },
+    {
+      "t": "p",
+      "s": "A sequence of four or more rounded indications shall be considered to be aligned when they touch a line parallel to the length of the weld drawn through the center of the two outer rounded indications."
+    },
+    {
+      "t": "p",
+      "s": "(c) Thickness t."
+    },
+    {
+      "t": "p",
+      "s": "t is the thickness of the weld, of the pressure retaining material, or of the thinner of the sections being joined, whichever is least. If a full penetration weld includes a fillet weld, the thickness of the fillet weld throat shall be included in t."
+    },
+    {
+      "t": "p",
+      "s": "3. ACCEPTANCE CRITERIA"
+    },
+    {
+      "t": "p",
+      "s": "(a) Image Density."
+    },
+    {
+      "t": "p",
+      "s": "Density within the image of the indication may vary and is not a criterion for acceptance or rejection."
+    },
+    {
+      "t": "p",
+      "s": "(b) Relevant Indications. (See Table A3-1 for examples.)"
+    },
+    {
+      "t": "p",
+      "s": "Only those rounded indications which exceed the following dimensions shall be considered relevant :"
+    },
+    {
+      "t": "p",
+      "s": "a) 1/10 t for t less than ⅛ in.(3 mm)"
+    },
+    {
+      "t": "p",
+      "s": "b) 1/64 in.(0.4 mm) for t from ⅛ in. to ¼in. (3 mm to 6 mm), incl."
+    },
+    {
+      "t": "p",
+      "s": "c) 1/32 in.(0.8 mm) for t greater than ¼ in. to 2 in.(6 mm to 50 mm), incl."
+    },
+    {
+      "t": "p",
+      "s": "d) 1/16 in.(1.5 mm) for t greater than 2 in.(50 mm)"
+    },
+    {
+      "t": "p",
+      "s": "(c) Maximum Size of Rounded Indications. (See Table A3-1 for examples.)"
+    },
+    {
+      "t": "p",
+      "s": "The maximum permissible size of any indications shall be ¼t, or 5/32 in.(4 mm), whichever is less. except that an isolated indication separated from an adjacent indications by 1 in.(25 mm) or more may be ⅓ t or ¼ in.(6 mm), whichever is less. For t greater than 2 in.(50 mm), the maximum permissible size of an isolated indication shall be increased to ⅜ in.(10 mm)"
+    },
+    {
+      "t": "p",
+      "s": "(d) Aligned Rounded Indications"
+    },
+    {
+      "t": "p",
+      "s": "Aligned rounded indications are acceptable when the summation of the diameters of the indications is less than t in a length of 12t (see attached 4. Fig. A4-1). The length of groups of aligned rounded indications and the spacing between the groups shall meet the requirements of this procedure attached 4. Fig. A4-2."
+    },
+    {
+      "t": "p",
+      "s": "(e) Spacing"
+    },
+    {
+      "t": "p",
+      "s": "The distance between adjacent rounded indications is not a factor in determining acceptance or rejection, except as required for isolated indications of groups of aligned indication."
+    },
+    {
+      "t": "p",
+      "s": "용접부의 방사선투과검사로 나타난 원형지시에 대한 합격기준"
+    },
+    {
+      "t": "p",
+      "s": "1. 적용범위"
+    },
+    {
+      "t": "p",
+      "s": "이 부속서는 페라이트계, 오스테나이트계 및 비철금속 재료에 적용한다."
+    },
+    {
+      "t": "p",
+      "s": "2. 용어의 정의"
+    },
+    {
+      "t": "p",
+      "s": "(a) 원형지시"
+    },
+    {
+      "t": "p",
+      "s": "방사선투과사진에서 최대 길이가 폭의 3배 이하인 지시를 원형지시라 한다. 이지시는 원형, 타원형 또는 불규칙한 형상일 수도 있고, 또한 꼬리를 가질 수 있다. 지시의 크기를 평가할 경우에는 꼬리부분도 포함시켜야 한다. 이지시는 기공, 슬래그 또는 텅스텐과 같이 용접부의 여러 가지 불완전부로부터 나타난다."
+    },
+    {
+      "t": "p",
+      "s": "(b) 선상지시"
+    },
+    {
+      "t": "p",
+      "s": "연속해서 4개 이상의 원형지시가 있는 것으로, 이들 지시들의 바깥 양쪽의 원형지시 중심을 통과하여 용접부의 길이에 평행한 선에 접촉해 있는 경우에는 선상지시로 간주하여야 한다."
+    },
+    {
+      "t": "p",
+      "s": "(c) 두께"
+    },
+    {
+      "t": "p",
+      "s": "두께 t는 허용 용접 덧살을 제외한 용접부의 두께를 말한다. 맞대기용접부에서 두께가 서로 다른 경우에는 t 를 이 두개의 두께 중 얇은 쪽을 택하여야 한다. 완전용입 용접에 필릿용접이 포함되어 있는 경우에는 필릿의 목두께를 t 에 포함시켜야 한다."
+    },
+    {
+      "t": "p",
+      "s": "3. 합격기준"
+    },
+    {
+      "t": "p",
+      "s": "(a) 상 농도"
+    },
+    {
+      "t": "p",
+      "s": "지시의 상 농도는 변할 수 있고 이 농도가 협격 또는 불합격에 대한 기준은 아니다."
+    },
+    {
+      "t": "p",
+      "s": "(b) 관련지시 (예, Table A3-1 참조)"
+    },
+    {
+      "t": "p",
+      "s": "다음의 치수를 초과하는 원형지시만을 관련지시로 간주한다."
+    },
+    {
+      "t": "p",
+      "s": "a) t가 ⅛ in.(3 mm) 미만인 경우에는 t/10"
+    },
+    {
+      "t": "p",
+      "s": "b) t가 ⅛ in.(3 mm) 이상이고 ¼ in.(6 mm) 이하인 경우 1/64 in.(0.4mm)"
+    },
+    {
+      "t": "p",
+      "s": "c) t가 ¼ in.(6 mm)를 초과하고 2 in.(50 mm) 이하인 경우 1/32 in.(0.8mm)"
+    },
+    {
+      "t": "p",
+      "s": "d) t가 2 in.(50 mm)를 초과하는 경우 1/16 in.(1.5 mm)"
+    },
+    {
+      "t": "p",
+      "s": "(c) 원형지시의 최대크기(예, Table A3-1 참조)"
+    },
+    {
+      "t": "p",
+      "s": "지시의 최대 허용크기는 인접한 지시로부터 1 in.(25mm) 이상 떨어진 독립지시가 t/3 또는 1/4in.(6mm) 중에서 작은 값인 경우를 제외하고, t/4 또는 5/32in.(4mm) 중에서 작은 값이어야 한다. 두께 t가 2in.(50mm)를 초과하는 경우 독립지시의 최대크기는 3/8in.(10mm)까지 허용된다."
+    },
+    {
+      "t": "p",
+      "s": "(d) 선상 원형지시"
+    },
+    {
+      "t": "p",
+      "s": "선상원형지시는 각지시의 지름이 합계가 12t 길이범위에서 t 미만인 경우에는 합격이다(본 절차서 첨부 4. Fig. A4-1 참조). 선상원형지시의 집단 길이 및 집단사이의 간격은 본 절차서 첨부 4. 그림 A4-2의 요건을 만족하여야 한다."
+    },
+    {
+      "t": "p",
+      "s": "(e) 간격"
+    },
+    {
+      "t": "p",
+      "s": "인접한 원형지시 사이의 거리는 독립지시 또는 선상지시의 집단에 대해서 요구되는 경우를 제외하고는 합격 불합격을 결정하는 조건은 아니다."
+    },
+    {
+      "t": "p",
+      "s": "Table A3-1 Maximum Size of Nonrelevant Indications and Acceptable Round Indications"
+    },
+    {
+      "t": "p",
+      "s": "무관련지시의 최대크기 및 허용되는 최대원형지시 – 예시로서"
+    },
+    {
+      "t": "p",
+      "s": "-Examples Only(ASME Sec.I App. A A-250, Sec.Ⅷ Div. 1 App. 4, B31.1)"
+    },
+    {
+      "t": "p",
+      "s": "Thickness t."
+    },
+    {
+      "t": "p",
+      "s": "mm"
+    },
+    {
+      "t": "p",
+      "s": "두께, t"
+    },
+    {
+      "t": "p",
+      "s": "Maximum Size of Acceptable"
+    },
+    {
+      "t": "p",
+      "s": "Rounded Indication, mm"
+    },
+    {
+      "t": "p",
+      "s": "허용되는 원형지시의 최대크기"
+    },
+    {
+      "t": "p",
+      "s": "Maximum Size"
+    },
+    {
+      "t": "p",
+      "s": "of Nonrelevant"
+    },
+    {
+      "t": "p",
+      "s": "Indication. mm"
+    },
+    {
+      "t": "p",
+      "s": "무관련지시의 최대크기"
+    },
+    {
+      "t": "p",
+      "s": "분산(Random)"
+    },
+    {
+      "t": "p",
+      "s": "독립(Isolated)"
+    },
+    {
+      "t": "p",
+      "s": "Less than 3"
+    },
+    {
+      "t": "p",
+      "s": "3"
+    },
+    {
+      "t": "p",
+      "s": "5"
+    },
+    {
+      "t": "p",
+      "s": "6"
+    },
+    {
+      "t": "p",
+      "s": "8"
+    },
+    {
+      "t": "p",
+      "s": "10"
+    },
+    {
+      "t": "p",
+      "s": "11"
+    },
+    {
+      "t": "p",
+      "s": "13"
+    },
+    {
+      "t": "p",
+      "s": "14"
+    },
+    {
+      "t": "p",
+      "s": "16"
+    },
+    {
+      "t": "p",
+      "s": "17"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "19.0 to 50, incl."
+    },
+    {
+      "t": "p",
+      "s": "over 50"
+    },
+    {
+      "t": "p",
+      "s": "¼t"
+    },
+    {
+      "t": "p",
+      "s": "0.79"
+    },
+    {
+      "t": "p",
+      "s": "1.19"
+    },
+    {
+      "t": "p",
+      "s": "1.60"
+    },
+    {
+      "t": "p",
+      "s": "1.98"
+    },
+    {
+      "t": "p",
+      "s": "2.31"
+    },
+    {
+      "t": "p",
+      "s": "2.77"
+    },
+    {
+      "t": "p",
+      "s": "3.18"
+    },
+    {
+      "t": "p",
+      "s": "3.61"
+    },
+    {
+      "t": "p",
+      "s": "3.96"
+    },
+    {
+      "t": "p",
+      "s": "3.96"
+    },
+    {
+      "t": "p",
+      "s": "3.96"
+    },
+    {
+      "t": "p",
+      "s": "3.96"
+    },
+    {
+      "t": "p",
+      "s": "⅓t"
+    },
+    {
+      "t": "p",
+      "s": "1.07"
+    },
+    {
+      "t": "p",
+      "s": "1.60"
+    },
+    {
+      "t": "p",
+      "s": "2.11"
+    },
+    {
+      "t": "p",
+      "s": "2.64"
+    },
+    {
+      "t": "p",
+      "s": "3.18"
+    },
+    {
+      "t": "p",
+      "s": "3.71"
+    },
+    {
+      "t": "p",
+      "s": "4.27"
+    },
+    {
+      "t": "p",
+      "s": "4.78"
+    },
+    {
+      "t": "p",
+      "s": "5.33"
+    },
+    {
+      "t": "p",
+      "s": "5.84"
+    },
+    {
+      "t": "p",
+      "s": "6.35"
+    },
+    {
+      "t": "p",
+      "s": "9.53"
+    },
+    {
+      "t": "p",
+      "s": "1/10t"
+    },
+    {
+      "t": "p",
+      "s": "0.38"
+    },
+    {
+      "t": "p",
+      "s": "0.38"
+    },
+    {
+      "t": "p",
+      "s": "0.38"
+    },
+    {
+      "t": "p",
+      "s": "0.79"
+    },
+    {
+      "t": "p",
+      "s": "0.79"
+    },
+    {
+      "t": "p",
+      "s": "0.79"
+    },
+    {
+      "t": "p",
+      "s": "0.79"
+    },
+    {
+      "t": "p",
+      "s": "0.79"
+    },
+    {
+      "t": "p",
+      "s": "0.79"
+    },
+    {
+      "t": "p",
+      "s": "0.79"
+    },
+    {
+      "t": "p",
+      "s": "0.79"
+    },
+    {
+      "t": "p",
+      "s": "1.60"
+    },
+    {
+      "t": "p",
+      "s": "(f) Rounded Indication Charts."
+    },
+    {
+      "t": "p",
+      "s": "The rounded indications as determined from the radiographic film shall not exceed that shown in the charts. The charts in this procedure attached 4. Figs. A4-3 though A4-8 illustrate various types of assorted, randomly dispersed and clustered rounded indications for different weld thickness greater than ⅛ in.(3 mm). These charts represent the maximum acceptable concentration limits for rounded indications. The charts for each thickness range represents full scale 6 in.(150 mm) radiographs, and shall not be enlarged or reduced. The distributions shown are not necessarily the patterns that may appear on the radiography, but are typical of the concentration and size of indications permitted."
+    },
+    {
+      "t": "p",
+      "s": "(g) Weld Thickness t less than ⅛ in.(3 mm)"
+    },
+    {
+      "t": "p",
+      "s": "For t less than 1/8 in.(3 mm) the maximum number of rounded indications shall not exceed 12 in. a 6 in.(150 mm) length of weld. A proportionally fewer number of indications shall be permitted in welds less than 6 in.(150 mm) in length."
+    },
+    {
+      "t": "p",
+      "s": "(h) Clustered Indications"
+    },
+    {
+      "t": "p",
+      "s": "The illustrations for clustered indications show up to four times as many indications in a local area, as that shown in the illustrations for random indication. The length of an acceptable cluster shall not exceed the lesser of 1 in.(25 mm) or 2t. Where more than one cluster is present, the sum of the lengths of the clusters shall not exceed 1 in.(25mm) in a 6 in.(150mm) length of weld."
+    },
+    {
+      "t": "p",
+      "s": "(f) 원형지시 차트"
+    },
+    {
+      "t": "p",
+      "s": "불완전부로서의 특성을 갖는 원형지시는 차트에 나타낸 것 이하여야 한다. 본 절차서 첨부 4. 그림 4-3 ~ 4-8 차트는 두께가 1/8in.(3mm)를 초과하는 용접부에서의 여러 가지 분류형태, 임의의 분산원형지시 및 군집원형지시를 보여주고 있다. 이들 차트는 원형지시에 대한 최대허용 밀집정도를 나타낸 것이다. 각 두께범위에 대한 차트는 실물크기 6in.(150mm)의 방사선투과사진을 나타내고 있고, 확대 또는 축소해서는 안된다. 그림에 나타난 분포상태는 방사선투과사진에 나타나는 모양과 반드시 일치하지는 않지만 허용되는 지시의 밀집 및 지시의 크기를 대표하는 것이다."
+    },
+    {
+      "t": "p",
+      "s": "(g) 용접부 두께가 ⅛ in.(3mm) 미만인 경우"
+    },
+    {
+      "t": "p",
+      "s": "용접부 두께가 ⅛ in.(3mm) 미만인 경우, 용접부 길이 6 in.(150mm)범위에서 최대허용 원형지시의 개수는 12개이다. 용접부 길이가 6 in.(150mm) 보다 작은 경우 최대허용개수는 비례적으로 줄어든다."
+    },
+    {
+      "t": "p",
+      "s": "(h) 군집지시(Clustered Indications)"
+    },
+    {
+      "t": "p",
+      "s": "군집지시에대한 그림은 분산지시에 대한 그림에서 보여진 것처럼 국부적인 면적 내에서 4배까지 많은 지시를 보이고 있다. 허용 군집지시의 길이는 1in.(25mm) 또는 2t 중 작은 값 이하여야 한다. 하나 이상의 군집지시가 존재하는 경우 군집지시의 길이의 합은 용접부 길이 6 in.(150 mm)범위에서 1in.(25mm) 이하여야 한다."
+    },
+    {
+      "t": "p",
+      "s": "(Attached 4.)"
+    },
+    {
+      "t": "p",
+      "s": "Its size is just for reference. The actual dimension are each ASME Code."
+    },
+    {
+      "t": "p",
+      "s": "ASME Sec. I App. A Fig. A250.3.4-1, -2 & A250.3.6-1 to -6 (include ASME B31.1)"
+    },
+    {
+      "t": "p",
+      "s": "ASME Sec. VIII Div. 1 App. 4 Fig. 4.1 to 4.8"
+    },
+    {
+      "t": "p",
+      "s": "Fig. A4-1. Aligned Rounded Indication Fig. A4-2. Groups of Aligned Rounded Indication"
+    },
+    {
+      "t": "p",
+      "s": "Fig. A4-3."
+    },
+    {
+      "t": "p",
+      "s": "Fig. A4-4."
+    },
+    {
+      "t": "p",
+      "s": "Fig. A4-5."
+    },
+    {
+      "t": "p",
+      "s": "Fig. A4-6."
+    },
+    {
+      "t": "p",
+      "s": "Fig. A4-7."
+    },
+    {
+      "t": "p",
+      "s": "Fig. A4-8."
+    },
+    {
+      "t": "p",
+      "s": "(Attached 5.)"
+    },
+    {
+      "t": "p",
+      "s": "Its size is just for reference. The actual dimension are ASME Sec. IX Fig. QW-191.1.2.2(b)(4)."
+    },
+    {
+      "t": "p",
+      "s": "Fig A5-1. Rounded Indication Charts(ASME Sec. IX QW-191.1.2.2)"
+    },
+    {
+      "t": "p",
+      "s": "(Attached 6.)"
+    },
+    {
+      "t": "p",
+      "s": "Film 추가"
+    },
+    {
+      "t": "p",
+      "s": "2019Ed. 13mm -> 11mm"
+    },
+    {
+      "t": "p",
+      "s": "2021Ed. 어구변경"
+    },
+    {
+      "t": "p",
+      "s": "2019Ed. 어구추가"
+    },
+    {
+      "t": "p",
+      "s": "2019Ed. 90days -> 3 months"
+    },
+    {
+      "t": "p",
+      "s": "2023Ed. 어구추가"
+    },
+    {
+      "t": "p",
+      "s": "2021Ed. 추가"
+    },
+    {
+      "t": "p",
+      "s": "2021Ed. 추가"
+    },
+    {
+      "t": "p",
+      "s": "2021Ed. 어구추가"
+    },
+    {
+      "t": "p",
+      "s": "2019Ed. actual 삭제"
+    },
+    {
+      "t": "p",
+      "s": "2019Ed. 어구추가"
+    },
+    {
+      "t": "p",
+      "s": "2019Ed. 추가"
+    },
+    {
+      "t": "p",
+      "s": "2021Ed. SE-1025 -> SE-747 변경됨."
+    },
+    {
+      "t": "p",
+      "s": "2019Ed. is across the length of the weld.에서 변경"
+    },
+    {
+      "t": "p",
+      "s": "2021Ed. of interest 삭제"
+    },
+    {
+      "t": "p",
+      "s": "2021Ed. 어구추가"
+    },
+    {
+      "t": "p",
+      "s": "2020Ed. 추가 및 변경"
+    },
+    {
+      "t": "p",
+      "s": "2021Ed. 변경"
+    },
+    {
+      "t": "p",
+      "s": "2021Ed. 변경 t -> thickness"
+    },
+    {
+      "t": "p",
+      "s": "2021Ed. 변경 t -> thickness"
+    },
+    {
+      "t": "p",
+      "s": "2023Ed. 어구추가"
+    }
+  ],
+  "figures": [
+    "HIE-NDT-RT-P11_fig1.jpg",
+    "HIE-NDT-RT-P11_fig2.jpg",
+    "HIE-NDT-RT-P11_fig3.jpg",
+    "HIE-NDT-RT-P11_fig4.jpg",
+    "HIE-NDT-RT-P11_fig5.jpg",
+    "HIE-NDT-RT-P11_fig6.png",
+    "HIE-NDT-RT-P11_fig7.png",
+    "HIE-NDT-RT-P11_fig8.png",
+    "HIE-NDT-RT-P11_fig9.png",
+    "HIE-NDT-RT-P11_fig10.png",
+    "HIE-NDT-RT-P11_fig11.png",
+    "HIE-NDT-RT-P11_fig12.jpg",
+    "HIE-NDT-RT-P11_fig13.jpg",
+    "HIE-NDT-RT-P11_fig14.png"
+  ]
+}

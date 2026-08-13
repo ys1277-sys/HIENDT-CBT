@@ -14,8 +14,8 @@
  * public/data/procedures/ 에 절차서를 안 넣어 뒀으면 이름이 그냥
  * 글자로만 나오고 눌리지 않는다.
  */
-import React, { useEffect, useRef, useState } from "react";
-import { loadProcedures, pickProcedures, pageSrc } from "./procedures.js";
+import React, { useEffect, useMemo, useRef, useState } from "react";
+import { loadProcedures, pickProcedures, pageSrc, loadDoc } from "./procedures.js";
 
 /* 절차서 목록은 한 번만 읽고 돌려 쓴다 */
 let cache = null;
@@ -45,6 +45,92 @@ export function availableProcedures(manifest, q) {
   return manifest ? pickProcedures(manifest, [q]) : [];
 }
 
+/*
+ * 본문 문서.
+ *
+ * hwp 에서 뽑은 글이라 원본 쪽 모양은 아니다. 대신 찾기 칸으로
+ * 바로 짚을 수 있어 시험 중에는 이 편이 낫다.
+ */
+function ProcedureDoc({ file }) {
+  const [doc, setDoc] = useState(null);
+  const [find, setFind] = useState("");
+
+  useEffect(() => {
+    let alive = true;
+    setDoc(null);
+    loadDoc(file).then((d) => {
+      if (alive) setDoc(d || { blocks: [], figures: [] });
+    });
+    return () => {
+      alive = false;
+    };
+  }, [file]);
+
+  const blocks = useMemo(() => {
+    const all = (doc && doc.blocks) || [];
+    const key = find.trim().toLowerCase();
+    if (!key) return all;
+    return all.filter((b) => String(b.s).toLowerCase().includes(key));
+  }, [doc, find]);
+
+  if (!doc) return <div className="procw-loading">절차서를 읽는 중…</div>;
+
+  const figures = doc.figures || [];
+
+  return (
+    <>
+      <div className="procw-find">
+        <input
+          type="search"
+          value={find}
+          placeholder="절차서 안에서 찾기"
+          onChange={(e) => setFind(e.target.value)}
+        />
+
+        {find.trim() ? (
+          <span className="procw-found">{blocks.length}군데</span>
+        ) : null}
+      </div>
+
+      <div className="procw-doc">
+        {blocks.map((b, i) =>
+          b.t === "h" ? (
+            <h4
+              key={i}
+              className={b.level === 3 ? "procw-h3" : "procw-h2"}
+            >
+              {b.s}
+            </h4>
+          ) : (
+            <p key={i}>{b.s}</p>
+          )
+        )}
+
+        {!blocks.length ? (
+          <p className="procw-empty">찾는 말이 없습니다.</p>
+        ) : null}
+
+        {/*
+          그림은 본문 어느 자리에 붙는지 원본에서 알아낼 수 없어
+          (표도 같은 마커를 쓴다) 끝에 차례대로 모아 둔다.
+        */}
+        {!find.trim() && figures.length ? (
+          <div className="procw-figures">
+            <h4 className="procw-h2">그림 / Figures</h4>
+
+            {figures.map((f, i) => (
+              <figure key={f}>
+                <img src={pageSrc(f)} alt={`그림 ${i + 1}`} loading="lazy" />
+                <figcaption>그림 {i + 1}</figcaption>
+              </figure>
+            ))}
+          </div>
+        ) : null}
+      </div>
+    </>
+  );
+}
+
 function ProcedureViewer({ proc, onClose }) {
   const [page, setPage] = useState(0);
   const [pos, setPos] = useState({ x: 0, y: 0 });
@@ -55,7 +141,13 @@ function ProcedureViewer({ proc, onClose }) {
   /* 시험 중에도 손이 자판에 있다. Esc 로 닫고 화살표로 넘긴다 */
   useEffect(() => {
     function onKey(e) {
+      /* 찾기 칸에 글자를 치는 중이면 가로채면 안 된다 */
+      const typing =
+        e.target &&
+        (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA");
+
       if (e.key === "Escape") onClose();
+      else if (typing) return;
       else if (e.key === "ArrowRight") setPage((p) => Math.min(p + 1, last));
       else if (e.key === "ArrowLeft") setPage((p) => Math.max(p - 1, 0));
       else return;
@@ -100,7 +192,7 @@ function ProcedureViewer({ proc, onClose }) {
         </span>
 
         <span className="procw-header-right">
-          {proc.pages.length > 1 ? (
+          {!proc.doc && proc.pages.length > 1 ? (
             <>
               <button
                 type="button"
@@ -140,11 +232,15 @@ function ProcedureViewer({ proc, onClose }) {
         </span>
       </div>
 
-      <div className="procw-body">
-        <img
-          src={pageSrc(proc.pages[page])}
-          alt={proc.code + " " + (page + 1) + "쪽"}
-        />
+      <div className={proc.doc ? "procw-body is-doc" : "procw-body"}>
+        {proc.doc ? (
+          <ProcedureDoc file={proc.doc} />
+        ) : (
+          <img
+            src={pageSrc(proc.pages[page])}
+            alt={proc.code + " " + (page + 1) + "쪽"}
+          />
+        )}
       </div>
     </div>
   );

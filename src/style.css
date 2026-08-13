@@ -1208,3 +1208,110 @@ button:disabled{
     color: inherit;
   }
 }
+
+/* 절차서 본문 문서 (hwp 에서 뽑은 글) */
+.procw-body.is-doc {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0;
+  background: #fff;
+}
+
+.procw-loading,
+.procw-empty {
+  padding: 20px;
+
+  color: #6b7280;
+  font-size: 13px;
+  text-align: center;
+}
+
+.procw-find {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 8px 10px;
+
+  border-bottom: 1px solid #e3e6ea;
+  background: #f7f8fa;
+}
+
+.procw-find input {
+  flex: 1;
+
+  padding: 5px 9px;
+
+  border: 1px solid #c9ced6;
+  border-radius: 4px;
+
+  font-size: 13px;
+}
+
+.procw-found {
+  flex-shrink: 0;
+
+  color: #6b7280;
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+
+.procw-doc {
+  flex: 1;
+
+  padding: 14px 16px 28px;
+  overflow: auto;
+
+  font-size: 13px;
+  line-height: 1.62;
+  color: #1a1d21;
+}
+
+.procw-doc p {
+  margin: 0 0 8px;
+}
+
+.procw-h2,
+.procw-h3 {
+  margin: 16px 0 6px;
+
+  color: #1f3864;
+  font-weight: 700;
+}
+
+.procw-h2 {
+  padding-bottom: 3px;
+  border-bottom: 1px solid #dfe3e8;
+
+  font-size: 14px;
+}
+
+.procw-h3 {
+  font-size: 13px;
+}
+
+.procw-doc :first-child {
+  margin-top: 0;
+}
+
+.procw-figures figure {
+  margin: 0 0 14px;
+}
+
+.procw-figures img {
+  display: block;
+
+  max-width: 100%;
+  height: auto;
+
+  border: 1px solid #dfe3e8;
+  background: #fff;
+}
+
+.procw-figures figcaption {
+  margin-top: 4px;
+
+  color: #6b7280;
+  font-size: 12px;
+}

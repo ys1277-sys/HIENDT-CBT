@@ -54,20 +54,45 @@ export function pickProcedures(manifest, questions) {
 
     if (!key) continue;
 
-    const item = table[key];
-    const pages = (item && item.pages) || [];
-    if (!pages.length) continue;
+    const item = table[key] || {};
+    const pages = item.pages || [];
+
+    /*
+     * 절차서는 두 가지로 들어온다.
+     *   doc    hwp 에서 뽑은 본문 문서 (tools/build-procedures.mjs)
+     *   pages  쪽마다 뜬 그림
+     * 둘 다 없으면 보여 줄 것이 없다.
+     */
+    if (!item.doc && !pages.length) continue;
     if (picked.some((p) => p.key === key)) continue;
 
     picked.push({
       key,
       code,
-      title: (item && item.title) || key,
-      rev: (item && item.rev) || "",
+      title: item.title || key,
+      rev: item.rev || "",
+      doc: item.doc || "",
       pages,
     });
   }
   return picked;
+}
+
+/* 본문 문서를 읽는다 */
+export async function loadDoc(file) {
+  try {
+    const res = await fetch(
+      import.meta.env.BASE_URL +
+        "data/procedures/" +
+        String(file).replace(/^\//, "") +
+        "?v=" +
+        __BUILD_ID__
+    );
+    if (!res.ok) return null;
+    return await res.json();
+  } catch {
+    return null;
+  }
 }
 
 /*

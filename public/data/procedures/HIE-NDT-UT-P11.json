@@ -1,0 +1,3540 @@
+{
+  "code": "HIE-NDT-UT-P11",
+  "title": "ULTRASONIC EXAMINATION PROCEDURE",
+  "rev": "Rev.2",
+  "date": "2024. 01. 02",
+  "source": "P11-2-UT.hwp",
+  "blocks": [
+    {
+      "t": "h",
+      "level": 2,
+      "s": "1.0 SCOPE (개요)"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "2.0 GENERAL(일반사항)"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "3.0 REFERENCES(참고문헌)"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "4.0 PERSONNEL(검사요원)"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "5.0 EQUIPMENT AND SUPPLIES(자재 및 장비)"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "6.0 PROCESS(시험절차)"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "7.0 ACCEPTANCE STANDARDS(합격기준)"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "8.0 POST CLEANING(후처리)"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "9.0 REPORTS(보고서)"
+    },
+    {
+      "t": "p",
+      "s": "■ 관리본 □ 비관리본"
+    },
+    {
+      "t": "p",
+      "s": "Controlled Copy For Reference"
+    },
+    {
+      "t": "p",
+      "s": "관리 번호 :"
+    },
+    {
+      "t": "p",
+      "s": "2"
+    },
+    {
+      "t": "p",
+      "s": "2024.01.02"
+    },
+    {
+      "t": "p",
+      "s": "ASME 2023 Edition"
+    },
+    {
+      "t": "p",
+      "s": "& ASME B31.1"
+    },
+    {
+      "t": "p",
+      "s": "2022 Edition"
+    },
+    {
+      "t": "p",
+      "s": "H. H. KIM"
+    },
+    {
+      "t": "p",
+      "s": "검사자 (기사)"
+    },
+    {
+      "t": "p",
+      "s": "NDE Level II"
+    },
+    {
+      "t": "p",
+      "s": "Y. H. SEO"
+    },
+    {
+      "t": "p",
+      "s": "책임자(기사)"
+    },
+    {
+      "t": "p",
+      "s": "QA Manager"
+    },
+    {
+      "t": "p",
+      "s": "Y. H. SEO"
+    },
+    {
+      "t": "p",
+      "s": "책임자(기사)"
+    },
+    {
+      "t": "p",
+      "s": "QA Manager"
+    },
+    {
+      "t": "p",
+      "s": "1"
+    },
+    {
+      "t": "p",
+      "s": "2021.08.05"
+    },
+    {
+      "t": "p",
+      "s": "ASME 2021 Edition"
+    },
+    {
+      "t": "p",
+      "s": "& ASME B31.1&B31.3"
+    },
+    {
+      "t": "p",
+      "s": "2020 Edition"
+    },
+    {
+      "t": "p",
+      "s": "H. H. KIM"
+    },
+    {
+      "t": "p",
+      "s": "검사자 (기사)"
+    },
+    {
+      "t": "p",
+      "s": "NDE Level II"
+    },
+    {
+      "t": "p",
+      "s": "Y. H. SEO"
+    },
+    {
+      "t": "p",
+      "s": "책임자(기사)"
+    },
+    {
+      "t": "p",
+      "s": "QA Manager"
+    },
+    {
+      "t": "p",
+      "s": "Y. H. SEO"
+    },
+    {
+      "t": "p",
+      "s": "책임자(기사)"
+    },
+    {
+      "t": "p",
+      "s": "NDE Level III"
+    },
+    {
+      "t": "p",
+      "s": "0"
+    },
+    {
+      "t": "p",
+      "s": "2020.01.08"
+    },
+    {
+      "t": "p",
+      "s": "First Issue"
+    },
+    {
+      "t": "p",
+      "s": "H. H. KIM"
+    },
+    {
+      "t": "p",
+      "s": "검사자 (기사)"
+    },
+    {
+      "t": "p",
+      "s": "NDE Level II"
+    },
+    {
+      "t": "p",
+      "s": "Y. H. SEO"
+    },
+    {
+      "t": "p",
+      "s": "책임자(기사)"
+    },
+    {
+      "t": "p",
+      "s": "QA Manager"
+    },
+    {
+      "t": "p",
+      "s": "Y. H. SEO"
+    },
+    {
+      "t": "p",
+      "s": "책임자(기사)"
+    },
+    {
+      "t": "p",
+      "s": "NDE Level III"
+    },
+    {
+      "t": "p",
+      "s": "개정번호"
+    },
+    {
+      "t": "p",
+      "s": "Rev. No."
+    },
+    {
+      "t": "p",
+      "s": "개정일자"
+    },
+    {
+      "t": "p",
+      "s": "Rev. Date"
+    },
+    {
+      "t": "p",
+      "s": "개정사유"
+    },
+    {
+      "t": "p",
+      "s": "Rev. Description"
+    },
+    {
+      "t": "p",
+      "s": "작 성 자"
+    },
+    {
+      "t": "p",
+      "s": "Prepared by"
+    },
+    {
+      "t": "p",
+      "s": "검 토 자"
+    },
+    {
+      "t": "p",
+      "s": "Reviewed by"
+    },
+    {
+      "t": "p",
+      "s": "승 인 자"
+    },
+    {
+      "t": "p",
+      "s": "Approved by"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "1.0 SCOPE"
+    },
+    {
+      "t": "p",
+      "s": "1.1 This procedure describes the ultrasonic detection, location, and evaluation of ultrasonic reflectors within the welds, heat affected zone and adjacent material."
+    },
+    {
+      "t": "p",
+      "s": "1.2 This procedure meets the requirement of ultrasonic examination(angle / straight beam, contact, manual scanning method) of welds (Butt, Corner, T joint) and materials in carbon or low alloy(duplex steel), high alloy and nonferrous materials thickness from 1/4in (6mm) up to 4in (100mm) manufactured to ASME Boiler & Pressure Vessel Code and applicable contract specification."
+    },
+    {
+      "t": "p",
+      "s": "1.3 Detail description of material types (Plate, Pipe) and configurations to be examined, including thickness dimensions of the plates and welding are referred in manufacturing drawing."
+    },
+    {
+      "t": "p",
+      "s": "1.4 Ultrasonic examination shall be performed in accordance with this procedure which shall, as a minimum, contain the requirements listed in table 1.(Requirements of a ultrasonic examination procedure). This procedure shall establish a single value, or range of values, for each requirement."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "2.0 GENERAL"
+    },
+    {
+      "t": "p",
+      "s": "2.1 In order to perform ultrasonic examination of welds to this procedure, Additional Information shall be necessary as follows."
+    },
+    {
+      "t": "p",
+      "s": "2.1.1 Identity of the welds and/or material types and configurations to be examined. This information should include the project or contract designation, the component or piecemark the weld joint with respect to location on the component or piece, thickness dimensions and product form."
+    },
+    {
+      "t": "p",
+      "s": "(a) Weld locations. Weld locations and their identification shall be recorded on a weld map or in an identification plan."
+    },
+    {
+      "t": "p",
+      "s": "(b) Marking. If welds are to be permanently marked, low stress stamps and/or vibratooling may be used. Markings applied after final stress relief of the component shall not be any deeper than 3/64in. (1.2mm)."
+    },
+    {
+      "t": "p",
+      "s": "(c) Reference system. Each weld shall be located and identified by a system of reference points. The system shall permit identification of each weld center line and designation of regular intervals along the length of the weld. A general system for layout of vessel welds is described in ASME Sec.Ⅴ Art. 4 Nonmandatory Appendix A ; however, a different system may be utilized provided it meets the above requirements."
+    },
+    {
+      "t": "p",
+      "s": "2.1.2 Designate the extent of examination. This shall include the stage of welding process during which the examination is to be performed and whether complete or spot examination is to be performed."
+    },
+    {
+      "t": "p",
+      "s": "2.1.2.1 Complete examination shall mean 100% coverage of the designated weld and the heat affected zone for the entire length of the weld."
+    },
+    {
+      "t": "p",
+      "s": "2.1.2.2 When spot examination is designated, the number, location and size of spot will be clearly specified by the client. Spot examination shall mean 100% coverage of the designated weld and the heat affected zones for the length of the spot."
+    },
+    {
+      "t": "p",
+      "s": "2.1.3 The welding procedure including the weld joint configuration with respect to fusion areas, root areas, thickness of metal, type of joint, types of materials joined and the welding process."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "2.2 Castings shall be examined in accordance with ASTM A-609."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "3.0 REFERENCES"
+    },
+    {
+      "t": "p",
+      "s": "ASME Sec. I 2023 Edition"
+    },
+    {
+      "t": "p",
+      "s": "ASME Sec. Ⅷ Div.1 2023 Edition"
+    },
+    {
+      "t": "p",
+      "s": "ASME Sec. Ⅴ Art.4 2023 Edition"
+    },
+    {
+      "t": "p",
+      "s": "ASME B 31.1 2022 Edition"
+    },
+    {
+      "t": "p",
+      "s": "ASME B 31.3 2022 Edition"
+    },
+    {
+      "t": "p",
+      "s": "SA 609(ASTM A 609)"
+    },
+    {
+      "t": "p",
+      "s": "SNT-TC-1A 2020 Edition"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "1.0 개요"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "1.1 본 절차서는 용접부, 열영형부 및 인접 재료내의 초음파반사체의 검출, 위치 및 평가하는 것에 대해 기술한다."
+    },
+    {
+      "t": "p",
+      "s": "1.2 이 절차는 용접 (버트, 코너, T 조인트) 및 탄소 또는 저 합금 (듀플렉스 강) 소재, 고 합금 및 비철 소재 두께의 초음파 검사 (앵글 / 직선 빔, 접촉, 수동 스캐닝 방법)의 요구 사항을 충족합니다. ASME 보일러 및 압력 용기 코드 및 해당 계약 사양에 따라 제조 된 1 / 4in (6mm) ~ 4in (100mm)."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "1.3 판재 및 용접부의 두께 치수를 포함하여 검사할 재료 형태(판재, 배관) 및 구성에 대한 자세한 사항은 제조도면을 참조한다."
+    },
+    {
+      "t": "p",
+      "s": "1.4 초음파탐상검사는 최소한 표 1에 나열된 요구 사항을 포함하여 이 절차에 따라 수행되어야한다. (초음파탐상검사 절차 요구사항). 이 절차는 각각의 요구 사항에 대한 단일 값, 또는 범위 값 또는 각 요건을 수립해야한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "2.0 일반사항"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "2.1 본 절차서에 따라 용접부를 초음파탐상 검사할 경우, 아래와 같은 정보가 추가적으로 필요하다."
+    },
+    {
+      "t": "p",
+      "s": "2.1.1 검사하고자 하는 시험체의 형상, 재질 등의 정보. 이 정보에는 Project 또는 계약자 명, 부품 및 용접부 번호, 용접부 위치, 용접형태 및 두께 등이 포함된다."
+    },
+    {
+      "t": "p",
+      "s": "(a) 용접부 위치 : 용접부 위치 및 그들의 식별표시는 weld map 또는 identification plan (식별 계획도)에 기록되어야 한다."
+    },
+    {
+      "t": "p",
+      "s": "(b) 마킹 : 만약 용접부에 영구적인 마크를 할 경우, low stress stamps 또는 진동기가 사용될 수 있다. 부품의 최종 열처리(응력 제거) 후에 마킹할 때는 그 깊이가 1.2mm 이상 깊으면 안 된다."
+    },
+    {
+      "t": "p",
+      "s": "(c) 대비점(마킹) 시스템 : 각 용접부는 대비점 포인트에 의하여 위치지정 및 식별 표시가 되어야 한다. 이 시스템은 각 용접부 중심선의 식별과 용접부 길이 방향을 따라 일정간격으로 표시되어야 한다. 압력용기 용접부의 일반적인 대비 시스템이 ASME Sec.Ⅴ Art. 4 비강제 조항 부속서 A에 규정되나, 위의 조건을 만족하면 다른 시스템이 적용될 수 있다."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "2.1.2 검사범위의 지정. 여기에는 용접과정 중 검사, 전수 또는 부분 검사 등이 포함되어야 한다."
+    },
+    {
+      "t": "p",
+      "s": "2.1.2.1 전수 검사는 지정된 용접부의 전체 길이 용접부 및 열영향부를 100% 검사하는 것을 말한다."
+    },
+    {
+      "t": "p",
+      "s": "2.1.2.2 부분 검사로 지정 된 경우, 계약자는 부분 지정된 위치 개소 식별표시 등을 명확히 표시해야한다. 부분 검사는 지정된 용접부 및 열영향부를 100% 검사하는 것을 말한다."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "2.1.3 용접 절차서에는 용접 개선 형태, 용융부, 루트부, 두께, 용접형태, 재질 및 용접방법이 포함되어야한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "2.2 주조품은 ASTM A-609에 따라 검사한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "3.0 참고문헌"
+    },
+    {
+      "t": "p",
+      "s": "ASME Sec. I 2023 Edition"
+    },
+    {
+      "t": "p",
+      "s": "ASME Sec. Ⅷ Div.1 2023 Edition"
+    },
+    {
+      "t": "p",
+      "s": "ASME Sec. Ⅴ Art.4 2023 Edition"
+    },
+    {
+      "t": "p",
+      "s": "ASME B 31.1 2022 Edition"
+    },
+    {
+      "t": "p",
+      "s": "ASME B 31.3 2022 Edition"
+    },
+    {
+      "t": "p",
+      "s": "SA 609(ASTM A 609)"
+    },
+    {
+      "t": "p",
+      "s": "SNT-TC-1A 2020 Edition"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "4.0 PERSONNEL"
+    },
+    {
+      "t": "p",
+      "s": "4.1 Personnel perform this examination shall be satisfied both requirement of \"NDT Development Regulation\" and written procedure HIE-QP-E01 for NDE Personnel Qualification and Certification program which meets the requirements of ASNT Recommended practice No. SNT-TC-1A."
+    },
+    {
+      "t": "p",
+      "s": "4.2 Only qualified and certified UT-Level II or UT-level III personnel shall interpret examination results to determine acceptability."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "5.0 EQUIPMENT AND SUPPLIES"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "5.1 Instrument Requirement"
+    },
+    {
+      "t": "p",
+      "s": "A pulse echo type of ultrasonic instrument shall be used. The instrument shall be capable of operation at frequencies over the range of at least 1MHz to 5MHz and shall be equipped with a stepped gain control in units of 2.0dB or less. If the instrument has a damping control, it may be used if it does not reduce the sensitivity of the examination. The reject control shall be in the \"off\" position for all examinations, unless it can be demonstrated that it does not affect the linearity of the examination."
+    },
+    {
+      "t": "p",
+      "s": "The instrument, when required because of the technique being used, shall have both send and receive jacks for operation of dual search units or a single search unit with send and receive transducers. The requirements of Para. 5.2, 5.3 shall be met at intervals not to exceed three months for analog type instruments and one year for digital type instruments, or prior to first use thereafter."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "5.2 Screen Height Linearity"
+    },
+    {
+      "t": "p",
+      "s": "The ultrasonic instrument shall provide linear vertical presentation within ±5% of the full screen height for 20% to 80% of the calibration screen height [base line to maximum calibrated screen point(s)]. The procedure for evaluating screen height linearity shall be performed at the beginning of each period of extended use."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "5.3 Amplitude Control Linearity"
+    },
+    {
+      "t": "p",
+      "s": "The ultrasonic instrument shall utilize an amplitude control accurate within the specified indication limits of below table, to allow measurement of indications beyond the linear range of the vertical display on the screen. The procedure for evaluating amplitude control linearity shall be performed at the beginning of each period of extended use."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "4.0 검사요원"
+    },
+    {
+      "t": "p",
+      "s": "4.1 본 검사를 수행하는 검사원은 “비파괴검사기술의 진흥 및 관리에 관한 법률” 요건과 SNT-TC-1A를 만족하는 (주)한국공업엔지니어링의 비파괴검사원 자격인증절차서[HIE-QP-E01]에 따라 능력인정 및 자격인증이 되어야 한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "4.2 자격 인증된 UT-Level II 또는 UT-level III 자격 소지자만이 합부판정을 할 수 있다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "5.0 장비 및 자재"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "5.1 장비 요구사항"
+    },
+    {
+      "t": "p",
+      "s": "펄스 에코방식의 초음파탐상장치를 사용해야 한다. 장치는 최소한 1MHz~5MHz 범위의 주파수에서 작동할 수 있어야 하며, 2.0dB 이하의 단위로 단계별로 조절되는 이득 조정기가 내장되어야 한다. 장치에 댐핑 조정기가 있는 경우, 시험의 감도를 떨어뜨리지 않는다면 사용해도 된다."
+    },
+    {
+      "t": "p",
+      "s": "리젝트 조정기는 시험의 선형성에 영향을 주지 않는다는 것을 시연 하지 않으면, 모든 검사를 위해 “OFF\"위치에 놓아야 한다. 장비는 사용되는 기법의 이유로 요구되는 경우, 단일 또는 두 개의 송/수신 진동자의 조작을 위한 송/수신 잭을 양쪽으로 가져야 한다. 최초 사용 후부터 아날로그장비의 경우 3개월 이내 및 디지털장비의 경우는 1년 이내에 5.2, 5.3의 요구사항을 만족해야 한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "5.2 스크린 높이 직선성"
+    },
+    {
+      "t": "p",
+      "s": "초음파탐상 장치는 교정 스크린 높이의 20%~80%에서 전 스크린의 ±5% 이내의 스크린 높이 직선성을 가져야 한다. 스크린 높이 직선성 절차는 장기간 후 처음 사용하기 전에 수행되어야 한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "5.3 진폭 조정기 직선성"
+    },
+    {
+      "t": "p",
+      "s": "초음파탐상 장치는 스크린에 수직으로 표현되는 사용 범위에서 아래표의 특정된 지시 한계의 진폭 조정 직선성을 가져야 한다. 진폭 조정 직선성 절차는 장기간 후 처음 사용하기 전에 수행되어야 한다."
+    },
+    {
+      "t": "p",
+      "s": "Indication Set at"
+    },
+    {
+      "t": "p",
+      "s": "% of Full Screen"
+    },
+    {
+      "t": "p",
+      "s": "dB Control"
+    },
+    {
+      "t": "p",
+      "s": "Change"
+    },
+    {
+      "t": "p",
+      "s": "Indication Limits"
+    },
+    {
+      "t": "p",
+      "s": "% of Full Screen"
+    },
+    {
+      "t": "p",
+      "s": "80%"
+    },
+    {
+      "t": "p",
+      "s": "-6 dB"
+    },
+    {
+      "t": "p",
+      "s": "35 to 45%"
+    },
+    {
+      "t": "p",
+      "s": "80%"
+    },
+    {
+      "t": "p",
+      "s": "-12 dB"
+    },
+    {
+      "t": "p",
+      "s": "16 to 24%"
+    },
+    {
+      "t": "p",
+      "s": "40%"
+    },
+    {
+      "t": "p",
+      "s": "+6 dB"
+    },
+    {
+      "t": "p",
+      "s": "65 to 95%"
+    },
+    {
+      "t": "p",
+      "s": "20%"
+    },
+    {
+      "t": "p",
+      "s": "+12 dB"
+    },
+    {
+      "t": "p",
+      "s": "65 to 95%"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "5.4 Search Units"
+    },
+    {
+      "t": "p",
+      "s": "5.4.1 Search Units may contain either single of dual transducer elements. Search units with contoured contact wedges may be used to aid ultrasonic coupling. Calibration shall be done with the contact wedges used during the examination."
+    },
+    {
+      "t": "p",
+      "s": "In austenitic-type weld deposit, search units may be used single or dual element longitudinal wave transducers. The nominal frequency shall be from 1MHz to 5MHz unless variables, such as production material grain structure, require the use of other frequencies to assure adequate penetration or better resolution."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "5.4.2 Contact Wedges."
+    },
+    {
+      "t": "p",
+      "s": "As required by (a) and (b) below, examinations performed on a curved component having a diameter less than 14 in. (350 mm) (at the examination surface) shall be performed using a contoured wedge, to ensure sufficient ultrasonic coupling is achieved and to limit any potential rocking of the search unit as it is moved along the circumference of the component."
+    },
+    {
+      "t": "p",
+      "s": "(a) Search units shall be contoured as required by the following equation:"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "5.4 탐촉자"
+    },
+    {
+      "t": "p",
+      "s": "5.4.1 각각 하나 또는 두개의 진동자가 포함된 탐촉자를 사용한다. 초음파 접촉을 좋게 하기 위하여 외형에 맞는 쐐기를 부착한 탐촉자를 사용할 수 있다. 검사에 쐐기를 사용하면, 교정도 쐐기를 부착하고 시행해야한다. 오스테나이트계 용접부는 일 또는 이 진동자의 종파 탐촉자를 사용할 수 있다. 검사대상체 재질의 입자구조와 같은 변수로 인해 투과력이나 보다나은 분해능을 확보하기위한 다른 주파수의 사용이 요구되지 않는 한, 공칭주파수는 1MHz~5MHz 범위로 해야 한다."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "5.4.2 접촉 웨지"
+    },
+    {
+      "t": "p",
+      "s": "아래 (1)와 (2)에서 요구하는 바와 같이, 직경이 14 in. (350 ㎜) 미만인 (시험 표면에서) 곡률 부품에 대해서는 충분한 초음파 커플링이 이루어지도록 보장하고 탐촉자가 제품의 원주를 따라 움직일 때 탐촉자의 잠재적인 흔들림을 제한할 수 있도록 윤곽에 맞게 가공된 쐐기를 사용하여 검사가 수행되어야 한다."
+    },
+    {
+      "t": "p",
+      "s": "(a) 탐촉자는 다음 방정식에 의거 필요에 따라 윤곽가공이 요구된다."
+    },
+    {
+      "t": "p",
+      "s": "A = length of search unit footprint during circumferential scanning or the width when scanning in the axial direction, in. (mm)"
+    },
+    {
+      "t": "p",
+      "s": "D = the component diameter at inspection surface (I.D./O.D.), in. (mm)"
+    },
+    {
+      "t": "p",
+      "s": "The footprint is defined as the physical dimension of the search unit in the curved direction of the component."
+    },
+    {
+      "t": "p",
+      "s": "(b) The search unit contoured dimension shall be selected from the tables in (1) and (2) below, and shall be determined using the same component dimension from which the examination is being performed (I.D. or O.D.)."
+    },
+    {
+      "t": "p",
+      "s": "(1) Maximum contour for examinations performed from O.D."
+    },
+    {
+      "t": "p",
+      "s": "(2) Minimum contour for examinations performed from I.D."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "5.5 Couplant"
+    },
+    {
+      "t": "p",
+      "s": "Couplants shall be used CMC or equivalent. Couplants may not be comparable to one another and the same type couplant shall be used for calibration and examination."
+    },
+    {
+      "t": "p",
+      "s": "The couplant, including additives, shall not be detrimental to the material being examined."
+    },
+    {
+      "t": "p",
+      "s": "(a) Couplants used on nickel base alloys shall not contain more than 250 ppm of sulfur."
+    },
+    {
+      "t": "p",
+      "s": "(b) Couplants used on austenitic stainless steel or titanium shall not contain more than 250 ppm of halides (chlorides plus fluorides)."
+    },
+    {
+      "t": "p",
+      "s": "A = 원주 주사 중 탐촉자 풋 프린트의 길이 또는 축 방향으로 스캔 할 때의 폭 (㎜)"
+    },
+    {
+      "t": "p",
+      "s": "D = 검사면의 부품 직경 (I.D./O.D.), in. (㎜)"
+    },
+    {
+      "t": "p",
+      "s": "풋 프린트는 제품의 곡선 방향에서 탐촉자의 물리적 치수로 정의된다."
+    },
+    {
+      "t": "p",
+      "s": "(b) 탐촉자 윤곽 치수는 아래 1) 및 2)의 표에서 선택되어야 하며 검사가 수행되는 것과 동일한 구성 요소 치수 (I.D 또는 O.D)를 사용하여 결정되어야 한다."
+    },
+    {
+      "t": "p",
+      "s": "(1) O.D에서 수행 된 검사의 최대 윤곽"
+    },
+    {
+      "t": "p",
+      "s": "(2) I.D에서 수행 한 시험의 최소 윤곽"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "5.5 접촉매질"
+    },
+    {
+      "t": "p",
+      "s": "접촉매질은 CMC 또는 동등한 재료가 사용되어야 한다. 접촉매질은 혼용되어서는 안 되며, 교정할 때와 검사할 때는 같은 종류의 접촉매질을 사용해야 한다. 첨가물이 포함된 접촉매질은 검사되는 재질에 해로워서는 안 된다."
+    },
+    {
+      "t": "p",
+      "s": "(a) 니켈 합금에 사용되는 접촉매질은 황 함량이 250 ppm을 초과해서는 안 된다."
+    },
+    {
+      "t": "p",
+      "s": "(b) 오스테나이트계 스테인리스강 또는 티타늄에 사용되는 접촉매질은 할로겐화합물(염화물과 불화물의 혼합물) 함량이 250 ppm을 초과해서는 안 된다."
+    },
+    {
+      "t": "p",
+      "s": "Band Name"
+    },
+    {
+      "t": "p",
+      "s": "Maker"
+    },
+    {
+      "t": "p",
+      "s": "CMC"
+    },
+    {
+      "t": "p",
+      "s": "Cellugen"
+    },
+    {
+      "t": "p",
+      "s": "Glicelin"
+    },
+    {
+      "t": "p",
+      "s": "ELOGLYN R940"
+    },
+    {
+      "t": "p",
+      "s": "LG H&H"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "5.6 Calibration Block"
+    },
+    {
+      "t": "p",
+      "s": "5.6.1 Basic Calibration Block(s) - The basic calibration reflectors shall be used to establish a primary reference response of the equipment. The basic calibration reflectors any be located either in the component material or in a basic calibration block."
+    },
+    {
+      "t": "p",
+      "s": "a) Non-Piping Calibration Blocks"
+    },
+    {
+      "t": "p",
+      "s": "- Basic Calibration Block(s) : The basic calibration block configuration and reflectors shall be as shown in Fig.1. The block size and reflector locations shall be adequate to perform calibrations for the beam angles and distance range to be used."
+    },
+    {
+      "t": "p",
+      "s": "- In case such as single sided access welds (see para. 6.6.4), the calibration block detailed in Fig.1 may not provide the necessary sound path distances to the reference reflectors to provide distance- amplitude correction(DAC) that will fully cover the area of interest for the straight beam technique. In these cases, a second calibration block is required whose thickness (T) and reference reflector locations are based on the sound path distance that provides for coverage of the area of interest."
+    },
+    {
+      "t": "p",
+      "s": "- Block Curvature. The block curvature shall be in accordance with para. 5.6.5."
+    },
+    {
+      "t": "p",
+      "s": "b) Piping Calibration Blocks"
+    },
+    {
+      "t": "p",
+      "s": "The basic calibration block configuration and reflectors shall be as shown in Fig.2-1 or the alternate provided in Fig.2-2 where curvature and /or wall thickness permits. The basic block calibration block curvature shall be in accordance with paragraph 5.6.6. Thickness, T, shall be ±25% of the nominal thickness of the component to be examined. The block size and reflector locations shall be adequate to perform calibrations for the beam angles and distance range to be used."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "5.6.2 Basic Calibration Block Material"
+    },
+    {
+      "t": "p",
+      "s": "a) Similar metal welds : The material from which the block is fabricated shall be of the same product from, and material specification or equivalent P-number grouping as one of the materials being examined. For the purposes of this paragraph, P-Nos.1, 3, 4, 5A~5C and 15A~15F materials are considered equivalent."
+    },
+    {
+      "t": "p",
+      "s": "b) Dissimilar metal welds : The material selection shall be bases on the material on the side of the weld from which the examination will be conducted, if the examination will be conducted from both sides, calibration reflectors shall be provided in both materials."
+    },
+    {
+      "t": "p",
+      "s": "c) Heat Treatment - The calibration block shall receive at least the minimum tempering treatment required by the material specification for the type and grade. If the calibration block contains welds other than cladding, and the component weld at the time of the examination has been treated, the block shall receive the same heat treatment."
+    },
+    {
+      "t": "p",
+      "s": "d) Surface Finish - The finish on the scanning surfaces of the block shall be representative of the scanning surface finishes on the component to be examined."
+    },
+    {
+      "t": "p",
+      "s": "e) Block Quality - The calibration block material shall be completely examined with a straight beam search unit. Areas that contain an indication exceeding the remaining back reflection shall be excluded from the beam paths required to reach the various calibration reflectors."
+    },
+    {
+      "t": "p",
+      "s": "5.6.3 Basic Calibration Reflectors - the calibration reflectors are specified in para. 5.6.1 Fig.1(for excluding pipe welds) and para. 6.3 Fig.2-1 or Fig.2-2(for pipe welds)"
+    },
+    {
+      "t": "p",
+      "s": "5.6.4 Additional Reflectors - Additional reflectors may be installed ; these reflectors shall not interfere with establishing the primary reference."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "5.6.5 Block Curvature"
+    },
+    {
+      "t": "p",
+      "s": "a) Materials With Diameters Greater Than 20 in.(500 mm) - For examinations in materials where the examination surface diameter is greater than 20 in., block of essentially the same curvature, or alternatively, a flat basic calibration block, shall be used."
+    },
+    {
+      "t": "p",
+      "s": "b) Materials with Diameters 20 in.(500 mm) and Less. - For examinations in materials where the examination surface diameters is equal to or less than 20 in.(500 mm), a curved block shall be used. Except where otherwise stated in this procedure, a single curved basic calibration block may be used to calibrate the examination on surfaces in the range of curvature from 0.9 to 1.5 time the basic calibration block diameter. For example, an 8 in. diameter curved block may be used to calibrate the examination on surfaces in the range of curvature from 7.2 in. to 12 in. diameter."
+    },
+    {
+      "t": "p",
+      "s": "The curvature range from 0.94 in. to 20 in. The diameter requires 6 block curvatures as indicated in Fig.3 for any thickness range."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "5.6.6 Transfer Correction."
+    },
+    {
+      "t": "p",
+      "s": "When the block material is not of the same product form or has not received the same heat treatment, it may be used provided it meets all other block requirements and a transfer correction for acoustical property differences is used. ASME Sec.V Nonmandatory Appendices S and U (as applicable) may be used. Transfer correction shall be determined by noting the difference between the signal response, using the same transducers and wedges to be used in the examination, received from either of the following"
+    },
+    {
+      "t": "p",
+      "s": "(1) the corresponding reference reflector (same type and dimensions) in the basic calibration block and in the component to be examined"
+    },
+    {
+      "t": "p",
+      "s": "(2) two search units positioned in the same orientation on the basic calibration block and component to be examined."
+    },
+    {
+      "t": "p",
+      "s": "The examination sensitivity shall be adjusted for the difference."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "6.0 PROCESS"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "6.1 Equipment Selection"
+    },
+    {
+      "t": "p",
+      "s": "6.1.1 The ultrasonic examination instrument shall be used SS-150SL(Maker : SONATEST) or equivalent."
+    },
+    {
+      "t": "p",
+      "s": "6.1.2 Search Units - In addition to meeting the requirements of Paragraph 5.4. Search units may have a nominal frequency of 2MHz or 4MHz unless variables such as grain structures, material thickness, etc.,require the use of other frequencies."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "5.6 교정 시험편"
+    },
+    {
+      "t": "p",
+      "s": "5.6.1 기본 교정시험편 - 기본 교정 반사체는 장치의 주 대비 응답을 설정하기 위해 사용된다. 기본 교정 반사체는 제품의 재질 또는 기본 교정시험편에 위치한다."
+    },
+    {
+      "t": "p",
+      "s": "a) 배관외의 교정 시험편"
+    },
+    {
+      "t": "p",
+      "s": "- 기본 교정 시험편 : 기본 교정 시험편의 형상과 반사체는 그림 1에 있는 것으로 준비되어야 한다. 시험편의 크기와 반사체 위치는 빔 각도와 사용할 거리 범위에 대해 교정을 하기에 적합해야 한다."
+    },
+    {
+      "t": "p",
+      "s": "- 한쪽 면에서만 접근 가능한 용접부(6.6.4 항 참조)의 경우, 그림 1의 교정 시험편이 DAC(수직탐상 기법으로 관심부위를 충분히 검사하기 위한)를 작성하기 위해 기준 반사체까지의 필요한 음장거리를 제공하지 못할 수 있다. 이러한 경우 관심영역을 탐상할 수 있는 음장거리를 기반으로 해서 두께T와 대비 반사체의 위치를 고려해서 제작된 두번째 교정 시험편이 필요하다."
+    },
+    {
+      "t": "p",
+      "s": "- 블록 곡률. 블록 곡률은 5.6.5항에 따라야 한다."
+    },
+    {
+      "t": "p",
+      "s": "b) 배관교정 시험편"
+    },
+    {
+      "t": "p",
+      "s": "기본 교정 시험편의 형상과 반사체는 그림 2-1, 혹은 대안으로 곡률과 두께가 허용되는 경우에 그림 2-2에 있는 것으로 준비되어야 한다. 기본 교정시험편의 곡률은 5.6.6항을 따라야 한다. 두께 T는 시험할 제품의 공칭두께의 ±25% 이내이어야 한다. 교정 시험편의 크기 및 반사체의 위치는 사용될 빔 각도와 사용할 거리 범위에 대해 교정하기에 적합해야 한다."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "5.6.2 기본 교정시험편 재질"
+    },
+    {
+      "t": "p",
+      "s": "a) 유사한 금속 용접부 : 교정시험편의 재질은 검사하는 재료와 동일한 제품생산 형태이고, 동일한 재질규격 또는 동등한 P-No. 그룹으로 제작되어야한다. P-No. 1, 3, 4, 5A~5C번 및 15A~15F의 재질은 동일한 것으로 간주한다."
+    },
+    {
+      "t": "p",
+      "s": "b) 다른 금속 용접부 : 이종 재질간의 용접부인 경우, 교정시험편의 재질은 용접부에 검사를 수행하는 한쪽면의 재질에 따르며, 만약 양쪽면에서 검사를 수행할 경우 교정시험편의 재질은 두 재질에 맞게 선택한다."
+    },
+    {
+      "t": "p",
+      "s": "c) 열처리 - 교정시험편은 종류 및 등급에 따라 최소한 재질규격에서 요구되는 최저 템퍼링 처리를 해야 한다. 교정시험편이 클래딩 이외의 용접부를 포함하고, 검사 시점에서 구성품의 용접부를 열처리한다면, 교정시험편은 동일한 열처리를 실시해야 한다."
+    },
+    {
+      "t": "p",
+      "s": "d) 표면 처리 - 교정시험편의 주사면 마무리는 검사할 대상품의 주사면 마무리와 유사해야 한다."
+    },
+    {
+      "t": "p",
+      "s": "e) 시험편 품질 - 교정시험편 재료는 수직 탐촉자를 사용하여 전체적으로 시험해야 한다. 저면 반사를 초과하는 지시를 포함하는 부위는 여러 교정 반사체에 도달하는데 필요한 경로에서 제외시켜야 한다."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "5.6.3 기본 교정 반사체 - 교정 반사체는 5.6.1항 그림 1(배관 용접부 제외) 및 6.3항 그림 2-1 혹은 그림 2-2(배관 용접부)에 규정한다."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "5.6.4 추가 반사체 - 반사체를 추가로 설치할 수 있다. 이들 반사체는 1차 대비 감도를 설정하는데 방해가 되어서는 안 된다."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "5.6.5 시험편 곡률"
+    },
+    {
+      "t": "p",
+      "s": "a) 외경이 500mm를 초과하는 재료 : 검사 대상의 외경이 500mm를 초과하는 경우, 기본적으로는 같은 곡률의 교정시험편을 사용하나, 대안으로 편평한 기본 교정 시험편을 사용해도 된다."
+    },
+    {
+      "t": "p",
+      "s": "b) 외경이 500mm 이하인 재료 : 검사 대상의 외경이 500mm 이하인 경우, 곡면의 교정시험편을 사용한다. 본 절차서에서 달리 언급된 경우를 제외하고는, 하나의 곡면 기본 교정 시험편을 그 기본 교정 시험편 지름의 0.9~1.5 배인 곡률 범위의 검사대상을 위해 사용할 수 있다. 예를 들어 지름이 8인치 (200mm)인 곡률을 갖는 교정시험편은 지름이 7.2인치 (180mm) ~ 12인치 (300mm)인 곡률 범위의 검사대상에 교정하는데 사용될 수 있다. 지름이 0.94인치 (24mm) ~ 20인치 (500mm)인 곡률범위는 각 두께범위에 대해 그림 3에서 나타난 6개의 곡률진 교정시험편이 요구된다."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "5.6.7 전이 보상"
+    },
+    {
+      "t": "p",
+      "s": "시험편 재료가 동일한 제품 형태가 아니거나 동일한 열처리를 받지 않은 경우 다른 모든 시험편 요구 사항을 충족하고 음향 특성 차이에 대한 전달 보정이 사용되는 경우 사용할 수 있다. ASME Sec.V 필수 부록 S 및 U(해당되는 경우)를 사용할 수 있다. 전이 보상은 아래와 같은 검사 둘 중 하나에 사용되는 동일한 탐촉자와 웻지를 사용하여 신호 응답 간의 차이를 확인하여 결정해야한다."
+    },
+    {
+      "t": "p",
+      "s": "(1) 기본 교정 시험편과 검사 할 제품에서 해당 대비 반사체(동일한 유형 및 치수) 또는"
+    },
+    {
+      "t": "p",
+      "s": "(2) 검사 할 기본 교정 시험편 및 구성 요소에서 동일한 방향에 위치한 두 개의 탐촉자."
+    },
+    {
+      "t": "p",
+      "s": "검사감도는 차이에 대해 조정되어야한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "6.0 시험절차"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "6.1 장치의 선정"
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.1.1 초음파 탐상 장치는 SS-150SL(Maker : SONATEST)또는 동등의 것이어야 한다."
+    },
+    {
+      "t": "p",
+      "s": "6.1.2 탐촉자 -검사대상체 재질의 입자구조, 두께와 같은 변수로 인해 다른 주파수의 사용이 요구되지 않는 한, 5.4항의 요구사항에 추가로 공칭주파수 2MHz 또는 4MHz를 갖는 탐촉자를 사용한다."
+    },
+    {
+      "t": "p",
+      "s": "Angle"
+    },
+    {
+      "t": "p",
+      "s": "Frequency"
+    },
+    {
+      "t": "p",
+      "s": "size"
+    },
+    {
+      "t": "p",
+      "s": "Mode"
+    },
+    {
+      "t": "p",
+      "s": "Remark"
+    },
+    {
+      "t": "p",
+      "s": "0°"
+    },
+    {
+      "t": "p",
+      "s": "2㎒, 4㎒"
+    },
+    {
+      "t": "p",
+      "s": "Φ24, Φ10"
+    },
+    {
+      "t": "p",
+      "s": "Longitudinal Wave"
+    },
+    {
+      "t": "p",
+      "s": "45°, 60°, 70°"
+    },
+    {
+      "t": "p",
+      "s": "2㎒, 4㎒"
+    },
+    {
+      "t": "p",
+      "s": "20×22, 8×9"
+    },
+    {
+      "t": "p",
+      "s": "Shear Wave"
+    },
+    {
+      "t": "p",
+      "s": "6.1.3 Couplant - In addition to meeting the requirements of Paragraphs 5.5, the couplant shall perform properly at the temperature of the test part at the time of the examination."
+    },
+    {
+      "t": "p",
+      "s": "6.1.4 Calibration Blocks - Standards for distance calibration shall be the calibration blocks specified in paragraph 5.6 and IIW(International Institute of Welding) Type 1 (or 2) standards block or equivalent."
+    },
+    {
+      "t": "p",
+      "s": "Standards for sensitivity calibration and establishing Distance Amplitude correction (DAC) shall be the calibration block specified in Paragraph 5.6."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "6.2 Calibration Procedure(system)"
+    },
+    {
+      "t": "p",
+      "s": "6.2.1 All calibrations and tests shall be made with the reject (clipping or suppression) control turned off. For contact examination, the temperature differential between the calibration block and examination surfaces shall be within 25℉(14℃)."
+    },
+    {
+      "t": "p",
+      "s": "6.2.2 System Change - When any part of the examination system is changed, a calibration check shall be made on the basic calibration block to verify satisfy the requirements of paragraph 6.4"
+    },
+    {
+      "t": "p",
+      "s": "6.2.3 Periodic Examination Checks - A calibration check on at least one of the reflectors in the basic calibration block or a check using a simulator shall be performed at the completion of each examination or series of similar examinations and when examination personnel(except for auto-mated equipment) are changed. The distance range and sensitivity values recorded shall satisfy the requirements paragraph 6.4."
+    },
+    {
+      "t": "p",
+      "s": "6.2.4 Calibration Measurements - Each calibration shall be performed from the surface corresponding to the surface of the component from which the examination will be performed."
+    },
+    {
+      "t": "p",
+      "s": "6.2.5 Technique - ASME SEC.Ⅴ ART.4. APP. B and C, gives general techniques for both angle beam and straight beam calibrations. Other techniques may be used."
+    },
+    {
+      "t": "p",
+      "s": "The angle beam shall be directed toward the calibration reflector that yields the maximum response in the area of interest. The gain control shall be set so that this response is 80%±5% of full screen height. This shall be the primary reference level. The search unit shall then be manipulated, without changing instrument setting, to obtain the maximum responses from the other calibration reflectors at their beam paths to generate the distance amplitude correction (DAC) curve. These calibration shall establish both the distance range calibration and the distance amplitude correction."
+    },
+    {
+      "t": "p",
+      "s": "6.2.6 Angle Beam Calibration - As applicable, the calibration shall provide the following measurements(Article 4,Appendix B and M in the ASME Section V contains a general technique) ;"
+    },
+    {
+      "t": "p",
+      "s": "6.2.6.1 distance range calibration(see Fig.4) ;"
+    },
+    {
+      "t": "p",
+      "s": "- Side drilled hole"
+    },
+    {
+      "t": "p",
+      "s": "a) Delay control adjustment : Position the search unit for the maximum first indication from the 1/4T side-drilled hole(SDH). Adjust the left edge of this indication to line 2 on the screen with the delay control."
+    },
+    {
+      "t": "p",
+      "s": "b) Range control adjustment : Position the search unit for the maximum first indication from the 3/4T SDH. Adjust the left edge of this indication to line 6 on the screen with the range control."
+    },
+    {
+      "t": "p",
+      "s": "c) Repeat adjustment : Repeat delay and range control adjustments until the 1/4T and 3/4T SDH indications start at sweep lines 2 and 6."
+    },
+    {
+      "t": "p",
+      "s": "d) Notch Indication : Position the search unit for maximum response from the square notch on the opposite surface. The indication will appear near sweep line 8."
+    },
+    {
+      "t": "p",
+      "s": "e) Sweep readings : Two divisions on the sweep now equal 1/4T"
+    },
+    {
+      "t": "p",
+      "s": "- IIW Block"
+    },
+    {
+      "t": "p",
+      "s": "a) Search unit adjustment : Position the search unit for the maximum indication from the 4 in. (100mm) radius while rotating it side to side to also maximize the second reflector indication."
+    },
+    {
+      "t": "p",
+      "s": "b) Delay and range control adjustment : Without moving the search unit, adjust the range and delay controls so that the indications start at their respective metal path distance."
+    },
+    {
+      "t": "p",
+      "s": "c) Repeat adjustment : Repeat delay and range control adjustments until the two indications are at their proper metal path on the screen."
+    },
+    {
+      "t": "p",
+      "s": "d) Sweep readings : Two divisions on the sweep now equal 1/5 of the screen range selected."
+    },
+    {
+      "t": "p",
+      "s": "6.2.6.2 distance-amplitude correction(see Fig.5) ;"
+    },
+    {
+      "t": "p",
+      "s": "a) Position the search unit for maximum response from the SDH, which gives the highest amplitude."
+    },
+    {
+      "t": "p",
+      "s": "b) Adjust the sensitivity(gain) control to provide an indication of 80%(±5%) of full screen height(FSH). Mark the peak of the indication on the screen."
+    },
+    {
+      "t": "p",
+      "s": "c) Position the search unit for maximum response from another SDH."
+    },
+    {
+      "t": "p",
+      "s": "d) Mark the peak of the indication on the screen."
+    },
+    {
+      "t": "p",
+      "s": "e) Position the search unit for maximum amplitude from the third SDH and mark the peak on the screen."
+    },
+    {
+      "t": "p",
+      "s": "f) Position the search unit for maximum amplitude from the 3/4T SDH after the beam bas bounced from the opposite surface. The indication should appear near sweep line 10. Mark the peak on the screen for the 3/4T position."
+    },
+    {
+      "t": "p",
+      "s": "g) Connect the screen marks for the SDHs to provide the distance-amplitude correction (DAC) curve."
+    },
+    {
+      "t": "p",
+      "s": "h) For calibration correction for perpendicular reflectors at the opposite surface, refer to ASME Sec.Ⅴ Article 4. B-465."
+    },
+    {
+      "t": "p",
+      "s": "6.2.6.3 Echo amplitude measurement from the surface notch in the basic calibration block."
+    },
+    {
+      "t": "p",
+      "s": "6.2.6.4 When an electronic distance-amplitude correction device is used, the primary reference responses from the basic calibration block shall be equalized over the distance range to be employed in the examination. The response equalization line shall be at a screen height of 40% to 80% of full screen height."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.2.7 Alternative angle beam calibration"
+    },
+    {
+      "t": "p",
+      "s": "When a vessel or other component is made with a thickness of 1/2 in.(13mm) or less and a diameter equal to or less than 20 in.(500mm), the angle beam system calibrations for distance-amplitude techniques may be performed using the requirements of para. 6.3.1, 6.3.2 and 6.3.3."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.2.8 Straight Beam Calibration"
+    },
+    {
+      "t": "p",
+      "s": "- The calibration shall provide the following measurements (Article 4, Appendix C in the ASME Section V contains a general technique) ;"
+    },
+    {
+      "t": "p",
+      "s": "6.2.8.1 Distance range calibration, and ;"
+    },
+    {
+      "t": "p",
+      "s": "6.2.8.2 Distance-amplitude correction in the area of interest."
+    },
+    {
+      "t": "p",
+      "s": "6.2.8.3 When an electronic distance- amplitude correction device is used, the primary reference responses from the basic calibration block shall be equalized over the distance range to be employed in the examination. The response equalization line shall be at a screen height of 40% to 80% of full screen height."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.2.9 Distance-Amplitude Correction (DAC)"
+    },
+    {
+      "t": "p",
+      "s": "No point on the DAC curve shall be less than 20% of full screen height (FSH). When any portion of the DAC curve will fall below 20% FSH, a split DAC shall be used. The first calibration reflector on the second DAC shall start at 80% ± 5% FSH. When reflector signal-to-noise ratio precludes effective indication evaluation and characterization, a split DAC should not be used. (Art.4, App.Q in the ASME Sec.V provides an example.)"
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.1.3 접촉매질 - 5.5항의 요구사항에 추가로, 접촉매질은 검사 시점에서의 대상체 온도에서 올바르게 수행 되어야 한다."
+    },
+    {
+      "t": "p",
+      "s": "6.1.4 교정 시험편 - 거리 보정을 위해 5.6항 과 IIW(International Institute of Welding) Type 1 (or 2) 또는 동등한 것을 사용한다."
+    },
+    {
+      "t": "p",
+      "s": "감도 보정과 거리진폭특성곡선(DAC)을 설정하기 위하여 5.6항에 규정한 교정시험편을 사용한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "6.2 교정 절차(시스템)"
+    },
+    {
+      "t": "p",
+      "s": "6.2.1 모든 교정과 검사는 리젝센(clipping or suppression) 조정기를 꺼져있는 상태에서 수행되어야 한다. 직접 접촉법이 경우, 교정시험편 표면과 검사대상 표면 사이의 온도차는 14℃ 이내이어야 한다."
+    },
+    {
+      "t": "p",
+      "s": "6.2.2 교정 시스템의 변경 - 검사 시스템의 어느 한 부분이 변경되는 경우, 6.4항의 요건을 만족하는 지를 확인하기위하여 기본 교정시험편에 대한 교정 점검을 실시해야 한다."
+    },
+    {
+      "t": "p",
+      "s": "6.2.3 주기 점검 시험 - 기본 교정시험편에서 최소한 한 개의 기본 반사체에서의 교정점검 또는 시뮬레이터를 이용한 점검을 각 검사 또는 일련의 유사한 검사 종료 시, 그리고 검사원을 교체할 때에(자동검사 제외) 수행해야 한다. 기록된 거리 범위와 감도 설정 값은 6.4항 요건을 만족해야 한다."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.2.4 교정 측정(표면) -교정은 검사가 실시될 대상물의 표면에 해당하는 표면에서 실시해야 한다."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.2.5 기법 - ASME SEC.Ⅴ ART.4. 부속서 B와 C는 사각 빔과 수직빔 교정에 대한 일반적인 기법을 제공하며, 다른 기법을 사용해도 된다."
+    },
+    {
+      "t": "p",
+      "s": "사각빔은 판독범위에서 최대 응답이 나타나는 교정 반사체를 향하여 빔의 방향을 맞추어야 한다. 이득 조정은 반사체로부터의 응답이 전 스크린 높이의 80%±5%가 되도록 설정해야 하며, 이것을 주대비수준(primary reference level)으로 한다. 그 후 장치의 설정을 변동시키지 않은 상태에서 거리-진폭 특성 곡선을 만들기 위해 그 빔 경로에서 다른 교정반사체로부터 최대 응답신호를 얻도록 탐촉자를 움직인다. 거리 범위 교정 및 거리-진폭 특성 교정 모두에 대해 이러한 교정을 실시해야 한다."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.2.6 사각 빔 교정 - 교정은 아래 중 해당되는 측정을 실시해야 한다. (ASME SEC.Ⅴ ART.4. 부속서 B의 일반적 기법을 포함한다)"
+    },
+    {
+      "t": "p",
+      "s": "6.2.6.1 거리범위(소인범위) 교정(그림 4 참조) ;"
+    },
+    {
+      "t": "p",
+      "s": "- 측면공"
+    },
+    {
+      "t": "p",
+      "s": "a) 지연 조정기 조절(Delay control) : 1/4T 측면 드릴 구멍(SDH)으로부터 최대 처음 지시에 탐촉자를 위치시킨다. 스크린의 2번 눈금 소인선(수평선)에 이지시의 왼쪽 가장자리를 지연 조정기로 조절한다."
+    },
+    {
+      "t": "p",
+      "s": "b) 범위 조정기 조절(Ranage control) : 3/4T 측면 드릴 구멍(SDH)으로부터 최대 처음 지시에 탐촉자를 위치시킨다. 스크린의 6번 눈금 소인선에 이지시의 왼쪽 가장자리를 범위 조정기로 조절한다."
+    },
+    {
+      "t": "p",
+      "s": "c) 반복 조절 : 1/4T 및 3/4T 측면 드릴 구멍이 2번 및 6번 눈금 소인선에서 시작할 때까지 소인 및 범위 조정기 조절을 반복한다."
+    },
+    {
+      "t": "p",
+      "s": "d) 노치 지시 : 반대면의 사각 노치로부터 최대응답을 얻기 위해 탐촉자를 위치시킨다. 이 지시는 소인선의 8번 눈금 가까이에 나타날 것이다."
+    },
+    {
+      "t": "p",
+      "s": "e) 소인 눈금 값(Sweep readings) : 소인(수평선)상의 2번 눈금은 현재의 1/4T와 같다."
+    },
+    {
+      "t": "p",
+      "s": "- IIW 시혐편"
+    },
+    {
+      "t": "p",
+      "s": "a) 탐촉자 조절 : 두 번째 지시를 최대로 하기위해 반지름 4in.(100mm)의 측면을 따라 회전 시키며 탐촉자를 최대 위치에 위치시킨다."
+    },
+    {
+      "t": "p",
+      "s": "b) 지연 및 범위 조정기 조절 : 탐촉자를 이동하지 않고, 지시가 그 대표 빔 경로 거리에 서 시작하도록 지연 및 범위 조정기를 조절한다."
+    },
+    {
+      "t": "p",
+      "s": "c) 반복 조절 : 두 개의 지시가 화면에 적당한 경로에 있을 때까지 소인 및 범위 조정기 조 절을 반복한다."
+    },
+    {
+      "t": "p",
+      "s": "d) 소인 눈금 값 : 2번 눈금은 선택한 화면 범위의 1/5과 같다."
+    },
+    {
+      "t": "p",
+      "s": "6.2.6.2 거리-진폭 교정(그림 5 참조) ;"
+    },
+    {
+      "t": "p",
+      "s": "a) 최대 진폭을 나타내는 측면 드릴구멍으로부터 최대 응답을 나타내는 곳에 탐촉자를 위치시킨다."
+    },
+    {
+      "t": "p",
+      "s": "b) 지시가 전 스크린 높이의 80%(±5%)가 되도록 감도(gain) 조정기를 조절한다. 스크린에 지시의 피크점을 표시한다."
+    },
+    {
+      "t": "p",
+      "s": "c) 또 다른 측면 드릴구멍으로부터 최대 응답을 나타내는 곳에 탐촉자를 위치시킨다."
+    },
+    {
+      "t": "p",
+      "s": "d) 스크린에 지시의 피크점을 표시한다."
+    },
+    {
+      "t": "p",
+      "s": "e) 세번째 측면 드릴구멍으로부터 최대 응답을 나타내는 곳에 탐촉자를 위치시키고 스크린에 지시의 피크점을 표시한다."
+    },
+    {
+      "t": "p",
+      "s": "f) 초음파 빔이 반대면으로부터 반사된후에, 3/4T 측면 드릴 구멍으로부터 최대 응답을 나타내 곳에 탐촉자를 위치시킨다. 이 지시는 소인선의 10번 눈금 가까이에 나타나는 것이 바람직하다. 스크린에 3/4T 위치 지시의 피크점을 표시한다."
+    },
+    {
+      "t": "p",
+      "s": "g) 거리-진폭 교정(DAC) 곡선을 만들기 위해 측면 드릴 구멍에 대한 화면 표시들을 연결한다."
+    },
+    {
+      "t": "p",
+      "s": "h) 반대표면에 수직인 반사체에 대한 교정 보정은 ASME Sec.Ⅴ Article 4. 부속서 B-465를 참조한다."
+    },
+    {
+      "t": "p",
+      "s": "6.2.6.3 기본 교정시험편의 표면 노치로부터 에코진폭 측정"
+    },
+    {
+      "t": "p",
+      "s": "6.2.6.4 만약 전자적인 거리-진폭 교정 장비가 사용되면, 기본 교정시험편으로부터의 주 기준 응답은 검사에 적용할 거리 범위 전체에 걸쳐서 동등하도록 하여야 한다. 응답의 등고선은 전 스크린 높이의 40%에서 80%높이에 있어야 한다."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.2.7 대체 사각빔 교정"
+    },
+    {
+      "t": "p",
+      "s": "용기 또는 다른 기기의 두께가 13 mm (1/2인치) 이하이고 직경이 500 mm (20인치) 이하로 제작된 경우, 거리-진폭 기법을 위한 사각빔 시스템 교정은 para. 6.3.1, 6.3.2, 6.3.3요건을 사용하여 수행될 수 있다."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.2.8 수직빔 교정"
+    },
+    {
+      "t": "p",
+      "s": "-교정은 아래의 측정값을 제공해야 한다.(일반적인 기법에 대해서는 Article 4, Appendix C in the ASME Section V에 포함되어 있다.)"
+    },
+    {
+      "t": "p",
+      "s": "6.2.8.1 거리 범위 교정"
+    },
+    {
+      "t": "p",
+      "s": "6.2.8.2 관심 부위에서 거리-진폭 교정"
+    },
+    {
+      "t": "p",
+      "s": "6.2.8.3 만약 전자적인 거리-진폭 교정 장치가 사용되면, 기본 교정시험편으로부터의 주 기준 응답은 검사에 적용할 거리 범위 전체에 동등하도록 하여야 한다. 응답의 등고선은 전 스크린 높이의 40%에서 80%높이에 있어야 한다."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.2.9 DAC(거리-진폭 보정)"
+    },
+    {
+      "t": "p",
+      "s": "DAC에 없는 점은 전체 스크린 높이(FSH)의 20% 미만인 것이다. DAC곡선의 어떤 점이 20% 미만으로 떨어질 경우, DAC를 분할(분리)하여 사용해야 한다. 두 번째 DAC에 첫 번째 교정 반사체는 전체 스크린 높이(FSH) 의 80% ± 5%로 시작해야 한다. 효과적인 지시의 평가와 특성 묘사에 배제된 S/N 비 반사체는, 분할된 DAC가 사용될 수 없다. (ASME Sec.V의 Art.4, App.Q에 예시가 제공되어 있다.)"
+    },
+    {
+      "t": "p",
+      "s": "(a) FIRST DAC"
+    },
+    {
+      "t": "p",
+      "s": "Create a DAC curve as normal until a side-drilled hole (SDH) indication peak signal falls below 20% of FSH."
+    },
+    {
+      "t": "p",
+      "s": "(a) 첫 번째 DAC"
+    },
+    {
+      "t": "p",
+      "s": "20% 아래로 떨어지는 측면 드릴 구멍(SDH) 지시 까지를 표준(법선)으로서 DAC 곡선을 만듭니다."
+    },
+    {
+      "t": "p",
+      "s": "(b) SECOND DAC"
+    },
+    {
+      "t": "p",
+      "s": "Starting with a SDH position prior to the reflector response that falls below 20% of FSH, set the gain so that this response is 80% ± 5% of FSH. Record the reference level gain setting for this second portion of the DAC curve. Mark the peaks of the remaining SDH indications on the screen and connect the points to form the second DAC curve."
+    },
+    {
+      "t": "p",
+      "s": "(b) 두 번째 DAC"
+    },
+    {
+      "t": "p",
+      "s": "전체 스크린 높이의 20% 아래로 떨어지는 반사체 응답 전에 측면 드릴 구멍(SDH)의 위치에서 시작하고, 전체 스크린 높이(FSH)의 80% ± 5%로 응답하는 이득(게인) 설정 값이다. DAC 곡선의 두 번째 분할(분리) 곡선에 대한 기준 레벨 이득 설정 값을 기록한다. 스크린에 유지되는 측면 드릴 홀(SDH) 지시의 점을 표시하고, 두 번째 DAC 곡선을 형성하는 점을 연결한다."
+    },
+    {
+      "t": "p",
+      "s": "(c) NOTCH REFLECTORS"
+    },
+    {
+      "t": "p",
+      "s": "This technique can also be used for notch reflectors."
+    },
+    {
+      "t": "p",
+      "s": "(c) 노치 반사체"
+    },
+    {
+      "t": "p",
+      "s": "이 기법은 또한 노치 반사체가 사용될 수 있다."
+    },
+    {
+      "t": "p",
+      "s": "6.2.10 Calibration Check on Basic Calibration Block - When any part of the examination system is changed, a calibration check shall be made on the basic calibration block to verify that ¼T, ½T, and 3/4T points on the sweep and distance amplitude correction values recorded satisfy the requirements of Paragraph 6.4."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.2.11 Calibration Check on Basic Calibration Block or Simulator Check"
+    },
+    {
+      "t": "p",
+      "s": "- A calibration check on at least one of the basic reflectors in the basic calibration block or a check using a simulator shall be made at the finish of each examination or series of similar examinations, every 4hr during the examination, and when examination personnel (except for automated equipment) are changed. The sweep and distance amplitude correction values recorded shall satisfy the requirement of Paragraph 6.4."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "6.3 Ferritic welds in Ferritic Pipe"
+    },
+    {
+      "t": "p",
+      "s": "6.3.1 Basic Calibration Block (See Fig.2-1).The basic calibration block for weldments shall be a section of pipe of the same nominal size, schedule, heat treatment, and material specification or equivalent P-Number grouping as one of the materials being examined."
+    },
+    {
+      "t": "p",
+      "s": "For the purposes of this paragraph, P-Nos.1,3,4 5A~5C and 15A~15F materials are considered equivalent. The block size and reflector locations shall be adequate to perform calibration for the beam angles used. The surface finish of the calibration block shall be representative of the surface finish of the piping."
+    },
+    {
+      "t": "p",
+      "s": "6.3.2 Basic Calibration Reflectors. The basic calibration reflectors shall be longitudinal and with circumferential notches on both the inner and outer surfaces or side-drilled holes. The sizes and locations of the calibration reflectors are shown in Fig.2-1 and Fig.2-2."
+    },
+    {
+      "t": "p",
+      "s": "6.3.3 Angle Beam Calibration with notches (Fig 2-1). The angle beam shall be directed toward the calibration reflector that yields the maximum response. The gain control shall be set so that this response is 80%±5% of full screen height. This shall be the primary reference level."
+    },
+    {
+      "t": "p",
+      "s": "The search unit shall then be manipulated, without changing instrument settings, to obtain the maximum responses from the calibration reflectors at the distance increments necessary to generate a three-point distance amplitude correction (DAC) curve. Separate calibrations shall be established for both the axial and circumferential notches. The calibrations shall establish both the distance range calibration and the distance amplitude correction."
+    },
+    {
+      "t": "p",
+      "s": "6.3.4 Calibration with side-drilled holes(Fig. 2-2). The angle beam shall be directed toward the side-drilled hole that yields the maximum response. The gain control shall be set so that this response is 80% ±5% of full screen height. This shall be the primary reference level. The search unit shall then be manipulated, without changing the instrument settings, to obtain the maximum responses from the calibration reflectors at the distance increments necessary to generate up to a 3T distance-amplitude correction (DAC) curve, where T is the thickness of the calibration block. Next, position the search unit for the maximum response for the surface notch positions and mark the peaks on the screen for consideration when evaluating surface reflectors. Separate calibrations shall be established for both the axial and circumferential scans. These calibrations shall establish both the distance range calibration and the distance-amplitude correction."
+    },
+    {
+      "t": "p",
+      "s": "6.3.5 Straight Beam Calibration. When required, straight beam calibrations shall be performed to the requirements of App. C (ASME Sec.Ⅴ Art. 4) using the side drilled hole alternate calibration reflectors of ASME Sec. Ⅴ Art. 4 T-464.1.3. This calibration shall establish both the distance range calibration and the distance amplitude correction."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "6.4 Calibration Confirmation"
+    },
+    {
+      "t": "p",
+      "s": "Calibration shall be performed prior to use of the system in the thickness range under examination. A calibration check shall verify the distance range and sensitivity values."
+    },
+    {
+      "t": "p",
+      "s": "6.4.1 Distance Range Points - If any distance range point has moved on the sweep line by more than 10% of the distance reading or 5% of full sweep, whichever is greater, correct the distance range calibration and note the correction in the examination record. All recorded indications since the last valid calibration or calibration check shall be reexamined and their values shall be changed on the data sheets or re-recorded."
+    },
+    {
+      "t": "p",
+      "s": "6.4.2 Sensitivity Setting - If any sensitivity setting has changed by more than 20% or 2 dB of its amplitude, correct the sensitivity calibration and note the correction in the examination record. If the sensitivity setting has decreased, all data sheets since the last valid calibration check shall be marked void and the area covered by the voided data shall be reexamined. If the sensitivity setting has increased, all recorded indications since the last valid calibration or calibration check shall be reexamined and their values shall be changed on the data sheets or re-recorded."
+    },
+    {
+      "t": "p",
+      "s": "6.2.10 기본 교정블록으로 교정확인 - 검사시스템의 어떠한 부분이라도 변경되었을 때, 교정확인은 거리 범위 표시점상의 ¼T, ½T, and 3/4T 지점이 기본 교정시험편상에서 확인되어야하고 거리진폭 교정값은 6.4항의 요구사항을 만족하는지 기록되어야 한다."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.2.11 기본 교정 시험편으로 교정확인과 모의장치 확인"
+    },
+    {
+      "t": "p",
+      "s": "- 기본 교정시험편에서 최소한 한 개의 기본 반사체에서 교정점검 또는 시뮬레이터를 이용한 점검을 각 검사의 종료시 또는 일련의 유사한 검사, 그 시험을 수행하는 매 4시간 마다, 그리고 검사원을 교체할 때에(자동검사 제외) 수행해야 한다. 기록된 거리 범위와 거리진폭 교정값은 6.4항의 요구사항을 만족해야 한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "6.3 배관의 강 용접부"
+    },
+    {
+      "t": "p",
+      "s": "6.3.1 기본 교정 시험편(그림 2-1 참조) - 기본 교정 시험편은 동일한 공칭크기, 스케줄, 열처리, 및 동일한 재질규격 또는 동등한 P-No. 그룹을 가진 파이프의 일부로 제작되어야 한다. P-Nos.1,3,4 5A~5C 및 15A~15F번 재질은 동일한 것으로 간주한다. 교정 시험편의 크기와 반사체의 위치는 사용된 빔 각도로 교정을 실시하기에 적당해야 한다. 교정시험편의 표면 마무리는 검사할 대상 배관의 표면 마무리와 유사해야 한다."
+    },
+    {
+      "t": "p",
+      "s": "6.3.2 교정 반사체 - 기본 교정 시험편의 반사체는 배관 내외면에 모두 위치한 축방향 및 원주 방향의 노치 혹은 측면 드릴 구멍이다. 이들의 크기 및 위치는 그림 2-1, 그림 2-2에 표현된다. (교정을 위하여 측면 드릴 구멍이 사용된 경우, 교정시험편은 그림 1에 따른다) 측면 드릴 구멍 교정이 노치 교정보다 동등이상의 감도를 얻는다는 것을 실증할 수 있다면 측면 드릴 구멍이 사용될 수 있다."
+    },
+    {
+      "t": "p",
+      "s": "6.3.3 노치를 이용한 사각 빔 교정(그림 2-1) - 사각빔은 판독범위에서 최대 응답이 나타나는 교정 반사체를 향하여 빔의 방향을 맞추어야 한다. 이득 조정은 반사체로부터의 응답이 전 스크린 높이의 80%±5%가 되도록 설정해야 하며, 이것을 주대비수준(primary reference level)으로 한다. 그 후 장치의 설정을 변동시키지 않은 상태에서 거리-진폭 특성 곡선의 세 점을 만드는데 필요한 거리 증가분에서 교정반사체로부터 최대 응답신호를 얻도록 탐촉자를 움직인다. 축방향 및 원주방향의 노치 모두에 대해 별도로 교정을 실시해야 한다. 거리 범위 교정 및 거리-진폭 특성 교정 모두에 대해 이러한 교정을 실시해야 한다."
+    },
+    {
+      "t": "p",
+      "s": "6.3.4 측면 드릴 구멍을 이용한 교정(그림 2-2 참조). 최대에코가 발생하도록 사각 빔을 측면 드릴 구멍으로 향하게 한다. 게인 설정을 하여 에코 높이가 전체 화면 높이에서 80% ± 5%가 되도록 한다. 이것이 주대비수준이다. 장비 설정을 변경하지 않고 탐촉자를 조작하여 3T DAC 곡선을 작성하기 위해 필요한 거리를 증가시키면서 각각의 교정 반사체로 부터 최대 신호가 나오도록 조작한다. 여기서 T는 교정 시험편의 두께를 말한다. 다음으로 표면 반사체를 분석할때 사용하기 위해 표면 노치 위치에서 신호가 가장 크게 나오도록 탐촉자를 위치시키고 화면상에 피크점을 표시한다. 축방향과 원주방향 탐상을 위해 각각의 교정이 실시되어야 한다. 이들 교정은 거리 교정과 DAC 작성 둘 다를 말한다."
+    },
+    {
+      "t": "p",
+      "s": "6.3.5 수직 빔 교정 - 요구되는 경우, 수직 빔 교정은 ASME Sec. Ⅴ Art. 4 T-464.1.3의 측면 드릴 구멍을 사용하여 ASME SEC.Ⅴ ART.4. 부속서 C의 요건에 따라 실시되어야 한다. 거리 범위 교정 및 거리-진폭 특성 교정 모두에 대해 이러한 교정을 실시해야함."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "6.4 교정 확인"
+    },
+    {
+      "t": "p",
+      "s": "교정은 검사 중인 두께범위에서 시스템을 사용하기 전에 수행되어야 한다. 교정확인은 거리범위와 감도 값을 확인해야 한다."
+    },
+    {
+      "t": "p",
+      "s": "6.4.1 거리 범위 표시점 - 거리범위를 나타내는 점이 소인(수평) 선상에서 거리 읽은 값(소인 눈금값)의 10%이상 또는 전체 소인 범위의 5% 이상 중 큰 값 이상으로 변한다면, 거리범위 교정을 수정하고 시험기록에 수정사항을 기록한다. 최종 유효교정이나 교정점검 이후에 기록된 모든 지시는 재검사를 실시해야 하고, 자료 기록서에 그 교정 값을 수정하거나 다시 기록한다."
+    },
+    {
+      "t": "p",
+      "s": "6.4.2 감도 설정 - 어떤 감소 설정이 그 진폭의 20% 또는 2dB 이상 변한다면, 감도 교정을 수정하고 시험기록에 수정사항을 기록한다. 감도 설정이 감소하면, 최종 유효교정이나 교정점검 이후의 모든 자료 기록서는 무효로 표시하고, 무효자료로 실시한 부분은 재검사를 실시해야한다. 감도 설정이 증가하면, 최종 유효교정이나 교정점검 이후에 기록된 모든 지시는 재검사를 실시해야하고, 자료 기록서에 그 교정 값을 수정하거나 다시 기록한다."
+    },
+    {
+      "t": "p",
+      "s": "<calibration check list>"
+    },
+    {
+      "t": "p",
+      "s": "<교정 점검 리스트>"
+    },
+    {
+      "t": "p",
+      "s": "Check Item"
+    },
+    {
+      "t": "p",
+      "s": "Time"
+    },
+    {
+      "t": "p",
+      "s": "Distance range change(%)"
+    },
+    {
+      "t": "p",
+      "s": "거리에 따른 범위변화"
+    },
+    {
+      "t": "p",
+      "s": "Sensitivity"
+    },
+    {
+      "t": "p",
+      "s": "change(dB)"
+    },
+    {
+      "t": "p",
+      "s": "감도변화"
+    },
+    {
+      "t": "p",
+      "s": "1/4T"
+    },
+    {
+      "t": "p",
+      "s": "1/2T"
+    },
+    {
+      "t": "p",
+      "s": "3/4T"
+    },
+    {
+      "t": "p",
+      "s": "start"
+    },
+    {
+      "t": "p",
+      "s": ":"
+    },
+    {
+      "t": "p",
+      "s": "1"
+    },
+    {
+      "t": "p",
+      "s": ":"
+    },
+    {
+      "t": "p",
+      "s": "2"
+    },
+    {
+      "t": "p",
+      "s": ":"
+    },
+    {
+      "t": "p",
+      "s": "3"
+    },
+    {
+      "t": "p",
+      "s": ":"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "6.5 Surface Preparation"
+    },
+    {
+      "t": "p",
+      "s": "6.5.1 The client shall provide for the weld surface to be sufficiently finished so as to prevent non-relevant or false indications from masking or interfering with the interpretation of discontinuities."
+    },
+    {
+      "t": "p",
+      "s": "6.5.2 Base Metal - The base metal on each side of the weld shall be free of weld spatter, surface irregularities, or foreign matter that might interfere with the examination."
+    },
+    {
+      "t": "p",
+      "s": "6.5.3 Weld Metal - Where the weld surface interferes with the examination, the weld shall be prepared as needed to permit examination."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "6.6 Scanning"
+    },
+    {
+      "t": "p",
+      "s": "In addition to the weld volume the amount of adjacent base material to be examined shall be 1/2-inch or 1/2T, whichever is greater."
+    },
+    {
+      "t": "p",
+      "s": "6.6.1 Straight Beam - The scanning of the adjacent base metal shall be performed to detect reflectors that might affect interpretation of angle beam results, and is not to be used as an acceptance - rejection examination. Locations and areas of such reflectors shall be recorded. The weld and base metal shall be scanned, where required by the referencing Code Section to the extent possible with the straight beam search unit. The scanning shall be performed at a gain setting of at least two times the primary reference level. Evaluation shall be performed with respect to the primary reference level."
+    },
+    {
+      "t": "p",
+      "s": "6.6.2 Angle Beam Scanning for Reflectors Oriented Parallel to the Weld (Refer to Movements A, B, and C in below figure) - The angle beam shall be directed at approximate right angles to the weld axis from two directions where possible. The search unit shall be manipulated so that the ultrasonic energy passes through the required volumes of weld and adjacent base metal. The scanning shall be performed at a gain setting at least two times the primary reference level. Evaluation shall be performed with respect to the primary reference level."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "6.5 표면 준비"
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.5.1 계약자는 결함 판독을 방해하거나 제한함으로서 거짓지시 또는 비관련지시를 방지하기 위하여 용접부 표면을 충분히 처리해야 한다."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.5.2 모재 - 용접부의 양쪽 면의 모재는 검사를 방해하는 용접 스페터, 표면 요철, 이물질 등으로부터 깨끗해야 한다."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.5.3 용접물 - 검사를 방해하는 용접표면은 시험이 가능하도록 표면 처리 되어야 한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "6.6 주사"
+    },
+    {
+      "t": "p",
+      "s": "용접부 및 인접 모재부는 1/2인치 또는 두께의 1/2 중 큰 값만큼 검사되어야 한다."
+    },
+    {
+      "t": "p",
+      "s": "6.6.1 수직 빔 - 수직 빔 주사는 사각 빔 판독에 영향을 미치는 반사체를 검출하기위하여 모재부분을 주사하며 합격 불합격 판정으로는 사용하지 않는다. 어떤 반사체도 그 위치와 면적이 기록되어야한다. 관련 코드에서 요구 될 경우, 용접부 및 모재부분을 주사해야 한다. 주사 감도는 주대비감도의 2배 감도로 수행한다. 평가는 주대비감도로 실행한다."
+    },
+    {
+      "t": "p",
+      "s": "6.6.2 용접부 시임에 평행한 반사체 - 사각 빔은 가능한 한 동일한 표면에서 용접부의 양쪽으로부터 용접부 축과 거의 수직방향이 되도록 해야 한다. 탐촉자는 초음파 에너지가 용접부 및 인접 모재의 정해진 체적을 통과하도록 조절해야 한다. 주사 감도는 주대비감도의 2배 감도로 수행한다. 평가는 주대비감도로 한다."
+    },
+    {
+      "t": "p",
+      "s": "6.6.3 Angle Beam Scanning for Reflectors Oriented Transverse to the Weld (Refer to Movements E and D in below figure) - The angle beam shall be directed essentially parallel to the weld axis. The search unit shall be manipulated so that the ultrasonic energy passes through the required volumes of weld and adjacent base metal. The search unit shall be rotated 180 deg. and the examination repeated. If the weld cap is not machined or ground flat, the examination shall be performed from the base metal on both sides of the weld cap in both weld axis directions."
+    },
+    {
+      "t": "p",
+      "s": "6.6.3 용접부 시임에 횡 방향의 반사체 - 사각빔은 용접부 축과 평행한 방향이 되도록 해야 한다. 탐촉자는 초음파 에너지가 용접부 및 인접 모재의 정해진 체적을 통과하도록 조절해야 한다. 탐촉자는 180‘로 회전해야 하고, 반복해서 시험해야 한다, 용접 캡(덧살 cap)이 기계가공이나 연마된 평판이 아닌 경우, 초음파탐상시험은 양쪽 용접축 방향에서 용접 캡 양면의 모재로부터 실시해야 한다."
+    },
+    {
+      "t": "p",
+      "s": "* Scanning for Reflectors Oriented Parallel to the Weld"
+    },
+    {
+      "t": "p",
+      "s": "Movement A; rotation angle a= 10°"
+    },
+    {
+      "t": "p",
+      "s": "Movement B; scanning distance B shall be such that the section of weld being examined is covered."
+    },
+    {
+      "t": "p",
+      "s": "Movement C; progression distance C shall be approximately one-half the transducer width."
+    },
+    {
+      "t": "p",
+      "s": "Note movements A, B, and C may be combined into one scanning pattern."
+    },
+    {
+      "t": "p",
+      "s": "* Scanning for Reflectors Oriented Transverse to the Weld"
+    },
+    {
+      "t": "p",
+      "s": "Ground welds; scanning pattern D shall be used when welds are ground flush."
+    },
+    {
+      "t": "p",
+      "s": "Unground welds; scanning pattern E shall be used when the weld reinforcement is not ground flush. scanning angle e = 15° max."
+    },
+    {
+      "t": "p",
+      "s": "6.6.3.1 Scanning with weld reinforcement - If the weld cap is not machined or ground flat, the examination shall be performed from the base material on both sides of the weld cap. While scanning parallel to the weld axis, the angle beam shall be directed from 0 deg to 60 deg with respect to the weld axis in both axial directions, with the angle beam passing through the required examination volume."
+    },
+    {
+      "t": "p",
+      "s": "6.6.3.2 Scanning without weld reinforcement - If the weld cap is machined or ground flat, the examination shall be performed on the weld. While scanning, the angle beam shall be directed essentially parallel to the weld axis in both axial directions. The search unit shall be manipulated so that the angle beam passes through the required examination volume."
+    },
+    {
+      "t": "p",
+      "s": "6.6.4 Angle Beam for single-sided access welds - Welds that cannot be fully examined from two directions per para. 6.7.2 using the angle beam technique shall be also be examined to the maximum extent possible with a straight beam technique applied from an adjacent base material surface. This may be applicable to vessel corner and tee joints, nozzle and manway neck to shell or head joints, pipe to fittings, or branch connections. The area(s) of single-sided access and, if applicable, the extent of the limit coverage shall be noted in the examination report. (Refer to below figure)."
+    },
+    {
+      "t": "p",
+      "s": "6.6.3.1 용접 비드가 있을 때의 탐상 - 용접 비드가 평평하게 가공되거나 그라인드 되지 않았으면, 검사는 용접 비드 양쪽에서 모재로 부터 검사를 수행해야 한다. 용접부 방향과 평행하게 탐상하는 동안 사각빔이 두 축방향에서 용접부 방향의 0도에서 60도까지 이루어지도록 해야 한다. 이 때 사각빔은 요구되는 검사 체적을 통과해야 한다."
+    },
+    {
+      "t": "p",
+      "s": "6.6.3.2 용접비드가 평평하게 가공되었거나 그라인드 되었으면, 검사를 용접부 위에서 수행해야 한다. 탐상하는 동안 사각빔을 양 축방향에서 용접부에 완전히 평행하게 행하게 해야 한다. 요구되는 검사 체적을 사각빔이 통과하도록 탐촉자를 조작해야 한다."
+    },
+    {
+      "t": "p",
+      "s": "6.6.4 한쪽 면에서만 접근 가능한 용접부의 사각 탐상 - 6.7.2항에 따라 사각빔 기법을 이용하여 양 방향에서 완전히 검사할 수 없는 용접부는 인접한 모재 표면에서 수직 빔 기법을 적용하여 최대한 가능한 범위까지 검사를 해야 한다. 이것은 용기의 코너, T 용접부, 쉘 혹은 헤드 노즐과 맨웨이 넥에서 쉘 혹은 헤드 용접부, 파이프와 피팅류의 연결부, 혹은 분기형 연결부등이 있다. 한 방향에서만 접근 가능한 부위와 가능하다면 제한된 범위의 정도를 보고서 상에 표기해야 한다."
+    },
+    {
+      "t": "p",
+      "s": "6.6.5 Angle Beam for Inaccessible Welds - Welds that cannot be examined from at least one side(edge) using the angle beam technique shall be noted in the examination report. For flange welds, the weld may be examined with a straight beam or low angle longitudinal waves from the flange face provided the examination volume can be covered."
+    },
+    {
+      "t": "p",
+      "s": "6.6.6 Overlap - Each pass of the search unit shall overlap a minimum of 10% of the transducer(piezoelectric element) dimension parallel to the direction of scan indexing. As an alternative, if the sound beam dimension parallel to the direction of the scan indexing is measured in accordance with App B, B-466, (ASME Sec. Ⅴ Art.4) Beam Spread measurement rules, each pass of the search unit may provide overlap of the minimum beam dimension determined."
+    },
+    {
+      "t": "p",
+      "s": "Oscillation of the search unit is permitted if it can be demonstrated that overlapping coverage is provided."
+    },
+    {
+      "t": "p",
+      "s": "6.6.7 Pulse Repetition Rate - The pulse repetition rate shall be small enough to assure that a signal from a reflector located at the maximum distance in the examination volume will arrive back at the search unit before the next pulse is placed on the transducer."
+    },
+    {
+      "t": "p",
+      "s": "6.6.8 Rate of Scanning - The rate of search unit movement for examination shall not exceed 6 in./sec(150 mm/s) unless :"
+    },
+    {
+      "t": "p",
+      "s": "(a) the ultrasonic instrument pulse repetition rate is sufficient to pulse the search unit at least six times within the time necessary to move one-half the transducer dimension parallel to the direction of the scan at maximum scanning speed ; or,"
+    },
+    {
+      "t": "p",
+      "s": "(b) a dynamic calibration is performed on multiple reflectors, which are within ±2dB of a static calibration and the pulse repetition rate meets the requirements of Para. 6.6.7."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.6.9 Scanning Sensitivity Level"
+    },
+    {
+      "t": "p",
+      "s": "6.6.9.1 Distance-Amplitude Techniques."
+    },
+    {
+      "t": "p",
+      "s": "The scanning sensitivity level shall be set a minimum of 6 dB higher than the reference level gain setting or, when a semi-automatic or automatic technique is used, it may be set at the reference level."
+    },
+    {
+      "t": "p",
+      "s": "6.6.9.2 Nondistance-Amplitude Techniques."
+    },
+    {
+      "t": "p",
+      "s": "The level of gain used for scanning shall be appropriate for the configuration being examined and shall be capable of detecting the calibration reflectors at the maximum scanning speed."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "6.7 Discriminating geometric from flaw indications"
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.7.1 Point reflector --------------Fig.6"
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.7.2 Fairly smooth extended defect(IP,LF) ------------------------ Fig.7"
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.7.3 Large irregular reflector near normal incidence ---------------- Fig.8"
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.7.4 Large irregular reflector at oblique incidence --------------- Fig.9"
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.7.5 Multiple imperfection ------- Fig.10"
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.7.6 Curved surface on the A-scan response from a planar reflector ------- Fig.11"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "6.8 Evaluation"
+    },
+    {
+      "t": "p",
+      "s": "It is recognized that not all ultrasonic reflectors indicate flaws, since certain metallurgical discontinuities and geometric conditions may produce indications that are not relevant. Included in this category are plate segregates in the heat-affected zone that become reflective after fabrication. Under straight beam examination, these may appear as spot or line indications. Under angle beam examination, indications that are determined to originate from surface conditions (such as. weld root geometry) or variations in metallurgical structure in austenitic materials (such as the automatic-to-manual. weld clad interface) may be classified as geometric indications. The identity, maximum amplitude, location, and extent of reflector causing a geometric indication shall be recorded. [For example : internal attachment, 200%DAC, 1in.(25mm) above weld center line, on the inside surface, from 90deg to 95deg. The following steps shall be taken to classify an indication as geometric ;"
+    },
+    {
+      "t": "p",
+      "s": "(a) Interpret the area containing the reflector in accordance with the applicable examination procedure."
+    },
+    {
+      "t": "p",
+      "s": "(b) Plot and verify the reflector coordinates. Prepare a cross-sectional sketch showing the reflector position and surface discontinuities such as root and counterbore."
+    },
+    {
+      "t": "p",
+      "s": "(c) Review fabrication or weld preparation drawings. Other ultrasonic techniques or nondestructive examination methods may be helpful in determining a reflector's true position, size, and orientation."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "6.9 Evaluation level"
+    },
+    {
+      "t": "p",
+      "s": "(a) Distance Amplitude Technique - All indications greater than 20% of the reference level shall be investigated to the extent that they can be evaluated in terms of the acceptance standards of this procedure."
+    },
+    {
+      "t": "p",
+      "s": "(b) Non Distance Amplitude Technique - All indications longer than 40% of the rejectable flaw size shall be investigated to the extent that they can be evaluated in terms of the acceptance standards of this procedure."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "6.10 Evaluation of laminar reflectors"
+    },
+    {
+      "t": "p",
+      "s": "Reflectors evaluated as laminar reflectors in base material which interfere with the scanning of examination volumes shall require the angle beam examination technique to be modified such that the maximum feasible volume is examined, and shall be noted in the record of the examination."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "6.11 Method for sizing indication"
+    },
+    {
+      "t": "p",
+      "s": ": The following reflector data shall be"
+    },
+    {
+      "t": "p",
+      "s": "recorded when a reflector exceeds 20%"
+    },
+    {
+      "t": "p",
+      "s": "DAC."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.11.1 Method for sizing indication by Angle beam examination"
+    },
+    {
+      "t": "p",
+      "s": ": The following reflector data shall be recorded when a reflector exceeds 20% DAC."
+    },
+    {
+      "t": "p",
+      "s": "6.11.1.1 The position of reflectors with indication amplitudes greater than 20% of DAC or reference level."
+    },
+    {
+      "t": "p",
+      "s": "When the referencing code section requires the identification of all relevant reflector indications that produce reflector responses greater than 20% of DAC or reference level, position the search unit to give the maximum amplitude from the reflector."
+    },
+    {
+      "t": "p",
+      "s": "a) Determine and record the maximum amplitude in percent of DAC or reference level."
+    },
+    {
+      "t": "p",
+      "s": "b) Determine and record the sweep reading sound path to the reflector (at the left side of the indication on the sweep)"
+    },
+    {
+      "t": "p",
+      "s": "c) Determine and record the search unit location(X) with respect to the 0 point."
+    },
+    {
+      "t": "p",
+      "s": "d) Determine and record the search unit location(Y) with respect to the weld axis."
+    },
+    {
+      "t": "p",
+      "s": "e) Record the search unit beam angle and beam direction."
+    },
+    {
+      "t": "p",
+      "s": "6.11.1.2 The length of reflectors with indication amplitudes greater than the DAC curve or reference level."
+    },
+    {
+      "t": "p",
+      "s": "When the referencing code section requires a length measurement of all relevant reflector indications that produce reflector responses greater than the DAC or reference level whose length is based on the DAC or reference level, do the recording in accordance with paragraph 6.13.1.1 and the following additional measurement."
+    },
+    {
+      "t": "p",
+      "s": "a) Fist move the search unit parallel to the weld axis to the right of the maximum amplitude position until the indication amplitude drop to 100% DAC or reference level."
+    },
+    {
+      "t": "p",
+      "s": "b) Determine and record the sound path to the reflector (at the left side of the indication on the sweep)"
+    },
+    {
+      "t": "p",
+      "s": "c) Determine and record the search unit location(X) with respect to the 0 point."
+    },
+    {
+      "t": "p",
+      "s": "d) Determine and record the search unit location(Y) with respect to the weld axis."
+    },
+    {
+      "t": "p",
+      "s": "e) Next move the search unit parallel to the weld axis to the left passing the maximum amplitude position until the indication amplitude drop to 100% DAC or reference level."
+    },
+    {
+      "t": "p",
+      "s": "f) Determine and record the sound path to the reflector (at the left side of the indication on the sweep)"
+    },
+    {
+      "t": "p",
+      "s": "g) Determine and record the search unit location(X) with respect to the 0 point."
+    },
+    {
+      "t": "p",
+      "s": "h) Determine and record the search unit location(Y) with respect to the weld axis."
+    },
+    {
+      "t": "p",
+      "s": "i) Record the search unit beam angle and beam direction."
+    },
+    {
+      "t": "p",
+      "s": "j) Measured the difference between right end location (c) and left end location(g). This is the length of reflector indication."
+    },
+    {
+      "t": "p",
+      "s": "6.11.1.3 The through-wall dimension of Reflectors with indication amplitudes greater than the DAC curve or reference level."
+    },
+    {
+      "t": "p",
+      "s": "When the referencing code section requires that all relevant reflector indication length and through-wall dimensions be measured by a technique that is qualified and demonstrated to the requirements of that code section, the measurements of paragraph 6.13.1.1 and 6.13.1.2 are made with the additional measurements for the through-wall dimension as listed below. The measurements in this section are to be done at amplitudes that have been qualified for the length and through-wall measurement. A 20% DAC or 20% of reference level has been assumed qualified for the purpose of this illustration instead of the 100% DAC or reference level used in paragraph 6.13.1.2. Both length and through-wall determinations are illustrated at 20% DAC or 20% of reference level. The reflector is located in the fist leg of the sound path (fist half vee path)."
+    },
+    {
+      "t": "p",
+      "s": "a) Fist move the search unit toward the reflector and scan the top of the reflector to determine the location and position where it is closest to the sound beam entry surface (minimum depth) and where amplitude faills to 20% DAC or 20% of the reference level."
+    },
+    {
+      "t": "p",
+      "s": "b) Determine and record the sound path to the reflector (at the left side of the indication on the sweep)"
+    },
+    {
+      "t": "p",
+      "s": "c) Determine and record the search unit location(X) with respect to the 0 point."
+    },
+    {
+      "t": "p",
+      "s": "d) Determine and record the search unit location(Y) with respect to the weld axis."
+    },
+    {
+      "t": "p",
+      "s": "e) Next move the search unit away from the reflector and scan the bottom of the reflector to determine the location and position where it is closest to the opposite surface (maximum depth) and where amplitude falls to 20% DAC or 20% of reference level."
+    },
+    {
+      "t": "p",
+      "s": "f) Determine and record the sound path to the reflector (at the left side of the indication on the sweep)"
+    },
+    {
+      "t": "p",
+      "s": "g) Determine and record the search unit location(X) with respect to the 0 point."
+    },
+    {
+      "t": "p",
+      "s": "h) Determine and record the search unit location(Y) with respect to the weld axis."
+    },
+    {
+      "t": "p",
+      "s": "i) Record the search unit beam angle and beam direction."
+    },
+    {
+      "t": "p",
+      "s": "j) Measured the difference between minimum depth and maximum depth. This is the through-wall determination of reflector indication."
+    },
+    {
+      "t": "p",
+      "s": "k) Measured the difference between right end location and left end location (the maximum amplitude position until the indication amplitude drop to 20% DAC or 20% of reference level). This is the length of reflector indication"
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.11.2 Straight beam for planar reflector"
+    },
+    {
+      "t": "p",
+      "s": "6.11.2.1 Overlap : Obtain data from successive scans at increments no greater than nine-tenths of the transducer dimension measured parallel to the scan increment change(10% overlap). Record data for the end points as determined by 50% of DAC"
+    },
+    {
+      "t": "p",
+      "s": "6.11.2.2 Record all reflectors that produce a response equal to or greater than 50% of the distance-amplitude correction(DAC). However, clad interface and back wall reflections need not be recorded. Record all search unit position and location dimensions to the nearest tenth of an inch."
+    },
+    {
+      "t": "p",
+      "s": "6.12 Examination of Repairs - shall be done using the same procedure used to detect and evaluate the discontinuities. The reports of the test of repaired areas shall be indicated by placing the letter \"R\" next to I.D. of repaired area or writing \"repaired\" on the report."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "6.13 Recording of Ultrasonic Data"
+    },
+    {
+      "t": "p",
+      "s": "The ultrasonic data for the semi-automatic and automatic techniques shall be recorded in an unprocessed form with no thresholding. Gating of the data solely for the recording of the examination volume is permitted, provided a scan plan is utilized to determine the gate settings to be used."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "7.0 ACCEPTANCE STANDARDS"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "7.1 ASME Sec. VIII. Div.1 App.12, ASME Sec.Ⅰ PW-52, ASME B 31.1 Para. 136.4.6"
+    },
+    {
+      "t": "p",
+      "s": "Imperfections which produce a response greater than 20% of the reference level shall be investigated to the extent that the operator can determine the shape, identity, and location of all such imperfections and evaluate them in terms of the acceptance standards given in (a) and (b) below."
+    },
+    {
+      "t": "p",
+      "s": "(a) Indications characterized as cracks, lack of fusion, or incomplete penetration are unacceptable regardless of length."
+    },
+    {
+      "t": "p",
+      "s": "(b) Other imperfections are unacceptable if the indication exceed the reference level amplitude and have length which exceed:"
+    },
+    {
+      "t": "p",
+      "s": "1) ¼ in.(6㎜) for t less than ¾ in.(19㎜) ;"
+    },
+    {
+      "t": "p",
+      "s": "2) ⅓t for t from ¾ in. to 2¼ in. (19㎜ to 57㎜) ;"
+    },
+    {
+      "t": "p",
+      "s": "3) ¾in.(19㎜) for t over 2¼ in.(57㎜) ;"
+    },
+    {
+      "t": "p",
+      "s": "where t is the thickness of the weld excluding any allowable reinforcement. For a butt weld joining two members having different thickness at the weld, t is the thinner of these two thickness. If a full penetration weld includes a filler weld, the thickness of the throat of the fillet shall be included in t."
+    },
+    {
+      "t": "p",
+      "s": "The manufacturer shall also maintain a record of all reflections from uncorrected areas having responses that exceed 50% of the reference level."
+    },
+    {
+      "t": "p",
+      "s": "This record shall locate each area, the response level, the dimensions, the depth below the surface, and the classification."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "7.2 ASME Section I (Reference PW 52)"
+    },
+    {
+      "t": "p",
+      "s": "- Acceptance Standard equal to paragraph 7.1 above."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "7.3 ASME B 31.1 (Reference 136.4.6) - Acceptance Standard equal to paragraph 7.1 above."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "7.4 ASME B 31.3 (Reference 344.6.2)"
+    },
+    {
+      "t": "p",
+      "s": "Acceptance criteria shall be as stated in the engineering design and shall at least meet the applicable requirements stated below"
+    },
+    {
+      "t": "p",
+      "s": "Linear-type discontinuities are unacceptable if the amplitude of the indication exceeds the reference level and its length exceed the following"
+    },
+    {
+      "t": "p",
+      "s": "1) ¼ in.(6㎜) for Tw〈 ¾ in.(19㎜);"
+    },
+    {
+      "t": "p",
+      "s": "2) Tw/3 for ¾in.(19㎜)〈 Tw〈 2¼in.(57㎜);"
+    },
+    {
+      "t": "p",
+      "s": "3) ¾ in.(19㎜) for Tw 〉2 ¼ in.(57㎜)"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "8.0 Post Cleaning"
+    },
+    {
+      "t": "p",
+      "s": "8.1 Post cleaning as necessary in those cases where residual couplant could interfere with subsequent processing or with service requirement."
+    },
+    {
+      "t": "p",
+      "s": "8.2 If post removal is necessary, the couplant should be completely removed by wiping or washing with remover or spirits."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "9.0 REPORTS"
+    },
+    {
+      "t": "p",
+      "s": "9.1 A standard ultrasonic examination report form will be used unless otherwise requested by the client."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "9.2 For each ultrasonic examination, the following information shall be recorded :"
+    },
+    {
+      "t": "p",
+      "s": "(a) date of the examination"
+    },
+    {
+      "t": "p",
+      "s": "(b) name and/or identity and certification level (if applicable) for personnel performing the examination"
+    },
+    {
+      "t": "p",
+      "s": "(c) identification of the weld, part, or component examined including weld number, serial number, or other identifier"
+    },
+    {
+      "t": "p",
+      "s": "(d) examination method, technique, procedure identification, and revision"
+    },
+    {
+      "t": "p",
+      "s": "(e) results of the examination"
+    },
+    {
+      "t": "p",
+      "s": "(f) ultrasonic instrument identification (including manufacturer’s serial number);"
+    },
+    {
+      "t": "p",
+      "s": "(g) search unit(s) identification (including manufacturer’s serial number, frequency, and size);"
+    },
+    {
+      "t": "p",
+      "s": "(h) beam angle(s) used;"
+    },
+    {
+      "t": "p",
+      "s": "(i) couplant used, brand name or type;"
+    },
+    {
+      "t": "p",
+      "s": "(j) search unit cable(s) used, type and length;"
+    },
+    {
+      "t": "p",
+      "s": "(k) special equipment when used (search units, wedges, shoes, automatic scanning equipment, recording equipment, etc.);"
+    },
+    {
+      "t": "p",
+      "s": "(l) computerized program identification and revision when used;"
+    },
+    {
+      "t": "p",
+      "s": "(m) calibration block identification;"
+    },
+    {
+      "t": "p",
+      "s": "(n) simulation block(s) and electronic simulator(s) identification when used;"
+    },
+    {
+      "t": "p",
+      "s": "(o) instrument reference level gain and, if used, damping and reject setting(s);"
+    },
+    {
+      "t": "p",
+      "s": "(p) calibration data [including reference reflector(s), indication amplitude(s), and distance reading(s)];"
+    },
+    {
+      "t": "p",
+      "s": "(q) data correlating simulation block(s) and electronic simulator(s), when used, with initial calibration;"
+    },
+    {
+      "t": "p",
+      "s": "(r) identification and location of weld or volume scanned;"
+    },
+    {
+      "t": "p",
+      "s": "(s) surface(s) from which examination was conducted, including surface condition;"
+    },
+    {
+      "t": "p",
+      "s": "(t) map or record of rejectable indications detected or areas cleared;"
+    },
+    {
+      "t": "p",
+      "s": "(u) areas of restricted access or inaccessible welds;"
+    },
+    {
+      "t": "p",
+      "s": "Items (f) through (o) may be included in a separate calibration record provided the calibration record identification is included in the examination record."
+    },
+    {
+      "t": "p",
+      "s": "9.3 In addition, a record of repaired areas shall be noted as well as the results of the reexamination of the repaired areas."
+    },
+    {
+      "t": "p",
+      "s": "6.6.5 접근이 불가능한 용접부의 사각빔 - 사각법을 이용하여 최소한 한 쪽(가장자리)에서도 시험할 수 없는 용접부는 시험 보고서에 기록되어야 한다. 플랜지 용접부의 경우, 시험체적이 포함될 수 있다면 플랜지 면으로부터 수직 빔 또는 각도가 낮은 종파를 이용하여 용접부를 시도해도 된다."
+    },
+    {
+      "t": "p",
+      "s": "6.6.6 중첩 - 탐촉자의 각 주사 경로는 주사지수 방향과 평행하게 진동자(압전소자) 치수의 최소 10% 이상 중첩시켜야 한다. 대안으로, 주사지수 방향과 평행한 초음파 빔 치수가 ASME Sec. V Art,4 비강제 부록 B, B-466에 따라 측정되는 경우, 탐촉자가 각 패스(pass)는 측정한 최소 빔 치수를 중첩시켜도 된다."
+    },
+    {
+      "t": "p",
+      "s": "중첩 범의가 제시된 것을 검증할 수 있다면, 탐촉자의 목돌림 주사가 허용 된다."
+    },
+    {
+      "t": "p",
+      "s": "6.6.7 펄스 반복률 - 펄스 반복률은 시험체적의 최대 거리에 위치한 반사체로부터의 신호가 다음 펄스가 진동자에 위치하기 전에 탐촉자에 되돌아오는 것을 확인할 수 있도록 충분히 짧아야 한다."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.6.8 탐촉자 이동속도 - 탐촉자 이동속도(주사속도)는 다음 경우를 제외하고 150mm/s를 초과해서는 안 된다."
+    },
+    {
+      "t": "p",
+      "s": "(a) 초음파탐상장치의 펄스 반복률은 최대 주사속도에서 주사 방향과 평행하게 진동자(압전소자)치수의 1/2를 이동하는데 필요한 시간 내에 탐촉자가 최소한 6번의 펄스를 발생하기에 충분해야 한다."
+    },
+    {
+      "t": "p",
+      "s": "(b) 동적 교정은 정적 교정의 ±2dB 이내인 다중 반사체에서 실시하고, 펄스 반복률은 6.6.7항의 요건을 만족해야 한다."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.6.9 주사 감도 레벨"
+    },
+    {
+      "t": "p",
+      "s": "6.6.9.1 거리-진폭교정 기법"
+    },
+    {
+      "t": "p",
+      "s": "주사 감도 수준은 기준 감도 이득 설정보다 최소한 6 dB 이상 높게 설정해야 한다. 또한 자동 또는 반자동에도 사용 되고, 그것은 대비 수준으로 설정할 수 있다."
+    },
+    {
+      "t": "p",
+      "s": "6.6.9.2 거리-진폭 교정을 사용하지 않는 기법"
+    },
+    {
+      "t": "p",
+      "s": "주사에 사용되는 이득 수준은 검사할 형상에 적합해야 하며 교정 반사체를 최대 주사속도에서 검출 할 수 있어야 한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "6.7 결함 지시로부터 기하학적 식별"
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.7.1 점 반사체 -----------------그림 6"
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.7.2 상당히 매끄럽게 펼쳐진 결함(IP,LF) -------------------------그림 7"
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.7.3 입사각에 거의 수직이고 불규칙한 모양의 큰 반사체 ----------------- 그림 8"
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.7.4 입사각에 비스듬하고 불규칙한 모양의 큰 반사체 ------------------- 그림 9"
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.7.5 여러개의 반사체 ----------- 그림 10"
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.7.6 곡면 표면에서 판형반사체의 A-스캔 응답에코------------------- 그림 11"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "6.8 평가"
+    },
+    {
+      "t": "p",
+      "s": "어떤 금속학적 불연속부 및 기하학적 조건이 무관련지시를 만들 수도 있기 때문에, 모든 초음파의 반사체가 결함에 의해 나타내는 것이 아니라는 것을 알아야 한다. 이러한 분류에 포함되는 것은 제작 후 열영향부의 판 모양의 편석(segregation)이 반사되는 것이다, 수직빔 시험에서 이것은 점(spot) 지시 또는 선형지시로 나타날 수 있다. 사각 빔 시험에서 표면상태(용접루트의 형상과 같이) 또는 스테인리스 강재의 금속학적 조긱 변화(자동-수동용접 클래드 경계면과 같이)로 인해 발생하는 것으로 판명된 지시는 기하학적 지시로 분류할 수 있다. 기하학적 지시를 발생시키는 반사체의 식별, 최대진폭, 위치 및 범휘는 기록되어야 한다(예를 들어,내부 부착물, 200% DAC, 용접부 중심선 위 25mm, 안쪽표면 위, 90도 ~ 95도 방향). 지시가 기하학적인 것인지를 분류하기 위해서는 다음 단계를 거쳐야 한다."
+    },
+    {
+      "t": "p",
+      "s": "(a) 해당 시험절차에 따라 반사체가 존재하는 부위를 판독한다."
+    },
+    {
+      "t": "p",
+      "s": "(b) 반사체의 좌표를 기입하고 확인한다. 반사체의 위치 및 루트와 카운트보어(counterbore)와 같은 표면 불연속부를 나타내는 스케치를 작성한다."
+    },
+    {
+      "t": "p",
+      "s": "(c) 제작도면 또는 용접 도면을 검토한다. 반사체의 실제 위치, 크기 및 방향을 결정하는데 있어서 다른 초음파탐상기법 또는 비파괴시험 방법이 도움을 줄 수 있다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "6.9 평가 레벨"
+    },
+    {
+      "t": "p",
+      "s": "(a) 거리 진폭기법 - 대비 수준의 20%를 초과하는 모든 지시는 본 절차서의 합격 기준에 따라 평가 가능한 정도까지 조사되어야 한다."
+    },
+    {
+      "t": "p",
+      "s": "(b) 거리 진폭기법 이외의 기법 - 불합격 결함 크기의 40%보다 긴 모든 지시는 본 절차서의 합격기준에 따라 평가 가능한 정도까지 조사되어야 한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "6.10 라미나 반사체의 평가"
+    },
+    {
+      "t": "p",
+      "s": "시험 체적의 주사를 방해하는 모재 내의 라미나 반사체로 평가되는 반사체는 사각 빔 시험 기법을 가능한 최대 체적을 시험할 수 있도록 하는 수정을 필요로 하며, 이를 시험기록에 나타내어야 한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "6.11 지시 크기 평가 방법"
+    },
+    {
+      "t": "p",
+      "s": ": 대비 수준의 20%를 초과할 때 반사체의"
+    },
+    {
+      "t": "p",
+      "s": "정보를 기록해야 한다."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.11.1 사각빔 시험에 의한 지시 크기 측정 방법"
+    },
+    {
+      "t": "p",
+      "s": ": 대비 수준의 20%를 초과하는 지시는 다음의 반사체 정보가 기록되어야 한다."
+    },
+    {
+      "t": "p",
+      "s": "6.11.1.1 DAC의 20% 혹은 대비기준을 초과하는 지시의 반사체 위치"
+    },
+    {
+      "t": "p",
+      "s": "DAC의 20%를 초과하는 모든 관련지시의 분류는 관련 코드 섹션에서 요구할 때, 반사체로부터 최대 진폭을 갖는 탐촉자의 위치를 기록한다."
+    },
+    {
+      "t": "p",
+      "s": "a) 대비기준이나 DAC의 퍼센트에서 최대 응답을 결정하고 기록한다."
+    },
+    {
+      "t": "p",
+      "s": "b) 반사체의 사운드패스 값(시간축상의 지시의 왼쪽시작점)을 결정하고 기록한다."
+    },
+    {
+      "t": "p",
+      "s": "c) 기준점 “0”으로부터 탐촉자의 거리(X축)을 결정하고 기록한다."
+    },
+    {
+      "t": "p",
+      "s": "d) 용접축으로부터 탐촉자의 거리(Y축)을 결정하고 기록한다."
+    },
+    {
+      "t": "p",
+      "s": "e) 탐촉자 빔 각도 및 주사방향을 기록한다."
+    },
+    {
+      "t": "p",
+      "s": "6.11.1.2 DAC 곡선이나 대비기준을 초과하는 지시의 반사체의 길이"
+    },
+    {
+      "t": "p",
+      "s": "관련 코드섹션에서 DAC나 대비기준을 초과하는 응답을 갖는 모든 관련 반사체의 길이 측정을 요구할 때 길이는 DAC나 대비기준을 근거로 하고, 6.13.1.1 및 다음사항을 추가로 측정한다."
+    },
+    {
+      "t": "p",
+      "s": "a) 우선 100% DAC나 대비기준까지 최대 진폭이 떨어질 때까지 탐촉자를 용접축에 평행하게 오른쪽으로 조종한다."
+    },
+    {
+      "t": "p",
+      "s": "b) 반사체의 사운드패스 값(시간축상의 지시의 왼쪽시작점)을 결정하고 기록한다."
+    },
+    {
+      "t": "p",
+      "s": "c) 기준점 “0”으로부터 탐촉자의 거리(X축)을 결정하고 기록한다."
+    },
+    {
+      "t": "p",
+      "s": "d) 용접축으로부터 탐촉자의 거리(Y축)을 결정하고 기록한다."
+    },
+    {
+      "t": "p",
+      "s": "e) 다음으로 100% DAC나 대비기준까지 최대 진폭이 떨어질 때까지 탐촉자를 용접축에 평행하게 왼쪽으로 조종한다."
+    },
+    {
+      "t": "p",
+      "s": "f) 반사체의 사운드패스 값(시간축상의 지시의 왼쪽시작점)을 결정하고 기록한다."
+    },
+    {
+      "t": "p",
+      "s": "g) 기준점 “0”으로부터 탐촉자의 거리(X축)을 결정하고 기록한다."
+    },
+    {
+      "t": "p",
+      "s": "h) 용접축으로부터 탐촉자의 거리(Y축)을 결정하고 기록한다."
+    },
+    {
+      "t": "p",
+      "s": "i) 탐촉자 빔 각도 및 주사방향을 기록한다."
+    },
+    {
+      "t": "p",
+      "s": "j) 오른쪽 끝 위치(c)와 왼쪽 끝 위치(g)사이의 거리를 측정한다. 이것이 반사체 지시의 길이다."
+    },
+    {
+      "t": "p",
+      "s": "6.11.1.3 두께방향 치수에 대해, 곡선이나 대비기준을 초과하는 지시의 반사체의 깊이"
+    },
+    {
+      "t": "p",
+      "s": "관련 코드섹션에서 모든 관련 반사체의 길이 및 두께방향 치수를 측정하고자 할 때는 코드섹션의 요구사항을 검증하고 인정된 기법에 의한다."
+    },
+    {
+      "t": "p",
+      "s": "6.13.1.1과 6.13.1.2의 측정을 하고 추가로 아래 항목의 두께방향 치수에 대한 측정을 한다. 본 항에서 측정은 길이 및 두께방향 측정에 대해서 진폭에 한에 인정되어야 한다. 6.13.1.2항에서 사용된 대비기준 이나 100% DAC대신에 본 항의 목적을 위해서는 20% DAC나 대비기준 20%으로 인정한다. 길이와 두께방향 치수 결정은 20% DAC나 대비기준 20% 수준으로 설정한다. 반사체는 0.5스킵거리에서 위치된다."
+    },
+    {
+      "t": "p",
+      "s": "a) 우선 에코높이가 대비기준의 20%나 DAC의 20%로 떨어지는 곳과 초음파 빔이 표면에 입사하는(최소깊이) 가장 가까운 지점에 탐촉자를 반사체 위에 위치시키고 반사체의 위로 주사하여 위치를 결정한다."
+    },
+    {
+      "t": "p",
+      "s": "b) 반사체의 사운드패스 값(시간축상의 지시의 왼쪽시작점)을 결정하고 기록한다."
+    },
+    {
+      "t": "p",
+      "s": "c) 기준점 “0”으로부터 탐촉자의 거리(X축)를 결정하고 기록한다."
+    },
+    {
+      "t": "p",
+      "s": "d) 용접축으로부터 탐촉자의 거리(Y축)을 결정하고 기록한다."
+    },
+    {
+      "t": "p",
+      "s": "e) 다음으로 100% DAC나 대비기준까지 최대 진폭이 떨어질 때까지 탐촉자를 용접축에 평행하게 왼쪽으로 조정한다."
+    },
+    {
+      "t": "p",
+      "s": "f) 반사체의 사운드패스 값(시간축상의 지시의 왼쪽시작점)을 결정하고 기록한다."
+    },
+    {
+      "t": "p",
+      "s": "g) 기준점 “0”으로부터 탐촉자의 거리(Y축)을 결정하고 기록한다."
+    },
+    {
+      "t": "p",
+      "s": "h) 용접축으로부터 탐촉자의 거리(Y축)을 결정하고 기록한다."
+    },
+    {
+      "t": "p",
+      "s": "i) 탐촉자 빔 각도 및 주사방향을 기록한다."
+    },
+    {
+      "t": "p",
+      "s": "j) 최소깊이와 최대깊이사이의 차를 구한다. 이것이 반사체 지시의 두께 결정이다."
+    },
+    {
+      "t": "p",
+      "s": "k) 오른쪽 끝 위치와 왼쪽 끝 위치사이(최대진폭 위치에서 대비수준의 20% 혹은 DAC 20%까지 떨어지는 진폭)의 거리를 측정한다. 이것이 반사체 지시의 길이다."
+    },
+    {
+      "t": "h",
+      "level": 3,
+      "s": "6.11.2 판형 반사체에 대한 수직 빔 검사"
+    },
+    {
+      "t": "p",
+      "s": "6.11.2.1 중첩 : 주사 증가량의 변화(10% 중첩)에 대해 평행하게 측정한 진동자 치수의 9/10 이하의 증가량으로 연속 주사하여 자료를 얻어야 하고, 50% DAC에 의해 결정된 끝점에 대한 자료를 기록한다."
+    },
+    {
+      "t": "p",
+      "s": "6.11.2.2 기록/문서화 - 거리진폭교정(DAC)의 50% 이상의 응답을 발생시키는 모든 반사체를 기록한다. 그러나 클래드 경계면 및 저면 반사는 기록할 필요가 없다. 모든 탐촉자의 위치 및 길이방향 치수를 2.5mm(1/10인치) 단위로 기록한다."
+    },
+    {
+      "t": "p",
+      "s": "6.12 보수 검사 - 보수검사는 결함을 평가하거나 검출했던 동일한 방법으로 수행되어야 한다. 보고서에는 보수부위의 일련번호 위에 “R\" 또는 ”repaired\"라고 기록한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "6.13 초음파 데이터의 기록"
+    },
+    {
+      "t": "p",
+      "s": "자동과 반자동 기법을 위한 초음파 데이터는 임계값 없이 미가공(처리) 형태로 기록되어야 한다. 시험 체적의 기록을 위한 단일 데이터의 게이팅이 허용되고, 제공된 주사 계획이 사용하기 위한 게이트 설정을 결정하기 위하여 이용된다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "7.0 합격 기준"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "7.1 ASME Sec. VIII. Div.1 App.12, ASME Sec.Ⅰ PW-52, ASME B 31.1 Para. 136.4.6"
+    },
+    {
+      "t": "p",
+      "s": "대비레벨의 20%를 초과하는 응답을 나타내는 불완전부는 검사자가 불완전부의 형상, 성질 및 위치를 판단하고 아래의 a) 및 b)에 주어진 합격기준에 근거하여 평가할 수 있을 정도로 조사되어야한다."
+    },
+    {
+      "t": "p",
+      "s": "(a) 균열, 융합불량 또는 용입부족의 특징으로 나타난 지시는 길이에 관계없이 불합격이다."
+    },
+    {
+      "t": "p",
+      "s": "(b) 기타 불완전부는 지시가 대비레벨의 진폭을 초과하고, 또한 다음을 초과하는 길이인 경우에는 불합격이다."
+    },
+    {
+      "t": "p",
+      "s": "1) 두께 t가 ¾인치(19㎜) 이하인 경우에는 ¼인치,(6㎜)"
+    },
+    {
+      "t": "p",
+      "s": "2) 두께 t가 ¾인치(19㎜) 초과하고 2¼인치(57㎜)이하인 경우에는 두께의 ⅓"
+    },
+    {
+      "t": "p",
+      "s": "3) 두께 t가 2¼인치.(57㎜) 초과인 경우에는 ¾인치.(19㎜)"
+    },
+    {
+      "t": "p",
+      "s": "여기서 두께 t는 허용 용접덧살을 제외한 용접부의 두께이다. 용접부에서 두께가 서로 다른 두 개의 부재를 연결하는 맞대기 용접부이 경우 두께 t는 이들 두 개의 두께 중 얇은 쪽이다."
+    },
+    {
+      "t": "p",
+      "s": "필렛용접을 포함하여 완전 용입 용접의 경우 필렛의 목두께는 두께 t에 포함되어야 한다."
+    },
+    {
+      "t": "p",
+      "s": "제조자는 수정되지 않은 부위에서 얻은 대비레벨의 50%를 초과하는 모든 응답 값을 기록하여야 한다. 이 기록에는 각 부분의 위치, 응답레벨, 치수, 깊이 및 분류를 나타내어야 한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "7.2 ASME Section I (Reference PW 52)"
+    },
+    {
+      "t": "p",
+      "s": "- 합격기준은 상기 7.1항과 같다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "7.3 ASME B 31.1 (Reference 136.4.6)"
+    },
+    {
+      "t": "p",
+      "s": "- 합격기준은 상기 7.1항과 같다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "7.4 ASME B 31.3 (Reference 344.6.2)"
+    },
+    {
+      "t": "p",
+      "s": "합격기준은 엔지니어링 설계에 명시된 바와 같아야 하며, 최소한 아래 명시된 해당 요구 사항을 충족해야 한다."
+    },
+    {
+      "t": "p",
+      "s": "지시의 진폭이 기준레벨을 초과하고 길이가 다음을 초과하는 선형의 불연속은 불합격이다."
+    },
+    {
+      "t": "p",
+      "s": "1) Tw〈 ¾ in.(19㎜)의 경우 ¼ in.(6㎜)"
+    },
+    {
+      "t": "p",
+      "s": "2) ¾in.(19㎜)〈 Tw〈 2¼ in.(57㎜)의 경우 Tw/3"
+    },
+    {
+      "t": "p",
+      "s": "3) ¾ in.(19㎜) for Tw 〉2 ¼ in.(57㎜)"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "8.0 후처리"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "8.1 잔류 접촉매질이 제품의 다음 공정이나 사용 유지에 방해될 경우 후처리가 필요하다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "8.2 후처리가 필요할 경우, 접촉매질은 닦아내거나 알콜 또는 세척제로 제거되어야 한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "9.0 검사 기록"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "9.1 계약자가 특별히 요구하지 않으면 표준 초음파탐상보고서 양식을 사용한다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "9.2 각 초음파탐상검사에 대해서는 다음 사항을 확인하고 기록한다."
+    },
+    {
+      "t": "p",
+      "s": "(a) 시험 날짜"
+    },
+    {
+      "t": "p",
+      "s": "(b) 시험을 수행하는 요원의 자격 등급, 성명 또는/그리고 동일한 것"
+    },
+    {
+      "t": "p",
+      "s": "(c) 용접부 식별, 부분, 또는 용접 번호를 포함하는 시험된 구성품, 일련 번호, 또는 다른 식별"
+    },
+    {
+      "t": "p",
+      "s": "(d) 시험 방법, 기법, 절차 확인과 수정"
+    },
+    {
+      "t": "p",
+      "s": "(e) 시험의 결과"
+    },
+    {
+      "t": "p",
+      "s": "(f) 초음파 장비의 제원(제조사 시리얼 번호 포함)"
+    },
+    {
+      "t": "p",
+      "s": "(g) 탐촉자 제원(제조사 시리얼번호, 주파수, 크기 포함)"
+    },
+    {
+      "t": "p",
+      "s": "(h) 사용한 빔 경사각"
+    },
+    {
+      "t": "p",
+      "s": "(i) 사용된 매질의 브랜드 이름 또는 형식"
+    },
+    {
+      "t": "p",
+      "s": "(j) 사용된 탐촉자 케이블의 형식과 길이"
+    },
+    {
+      "t": "p",
+      "s": "(k) (사용 했을 경우) 특수 장비(탐촉자, 웻지, 쐐기, 자동 검사장비, 기록장치 등등)"
+    },
+    {
+      "t": "p",
+      "s": "(l) (사용했을 경우) 프로그램 제원 및 개정 번호"
+    },
+    {
+      "t": "p",
+      "s": "(m) 교정 블록 제원"
+    },
+    {
+      "t": "p",
+      "s": "(n) (사용했을 경우) 시뮬레이션 블록 및 전자 시뮬레이터 제원"
+    },
+    {
+      "t": "p",
+      "s": "(o) 장비 기준 감도, (사용했을 경우) 댐핑 및 리젝션 설정 값"
+    },
+    {
+      "t": "p",
+      "s": "(p) 기준 반사체, 지시 증폭값, 거리값을 포함하는 교정 데이터"
+    },
+    {
+      "t": "p",
+      "s": "(q) (사용 했을 경우) 시뮬레이션 블록과 전자 시뮬레이터 간의 상관관계 데이터(초기 교정값을 포함)"
+    },
+    {
+      "t": "p",
+      "s": "(r) 용접부 또는 검사 체적의 식별 및 위치값"
+    },
+    {
+      "t": "p",
+      "s": "(s) 검사수행 당시의 표면 상태에 대한 정보"
+    },
+    {
+      "t": "p",
+      "s": "(t) 검출된 불합격 지시나 합격 부위의 지도(map) 또는 기록"
+    },
+    {
+      "t": "p",
+      "s": "(u) 접근이 제한되거나 접근이 불가능한 용접부의 범위"
+    },
+    {
+      "t": "p",
+      "s": "교정 기록 식별이 시험기록에 포함되어 있다면 (i)∼(o)까지의 항목을 별도의 교정기록에 포함시켜도 된다."
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "9.3 추가로, 수정된 곳의 기록뿐만 아니라 수정된 곳의 재검사의 결과가 기록되어야 한다."
+    },
+    {
+      "t": "p",
+      "s": "Table 1. Requirements of a ultrasonic examination procedure"
+    },
+    {
+      "t": "p",
+      "s": "표 1. 초음파탐상검사 절차서 요구사항"
+    },
+    {
+      "t": "p",
+      "s": "*Requirements of an Ultrasonic Examination Procedure(초음파탐상검사 절차서 요구사항)"
+    },
+    {
+      "t": "p",
+      "s": "Requirement"
+    },
+    {
+      "t": "p",
+      "s": "요구사항"
+    },
+    {
+      "t": "p",
+      "s": "E¹"
+    },
+    {
+      "t": "p",
+      "s": "E²"
+    },
+    {
+      "t": "p",
+      "s": "Number of paragraph"
+    },
+    {
+      "t": "p",
+      "s": "Weld configurations to be examined, including thickness dimensions and base material product form (pipe, plate, etc.)"
+    },
+    {
+      "t": "p",
+      "s": "검사할 용접부 형상, 두께 치수 및 제품 형태(배관, 판재 등)"
+    },
+    {
+      "t": "p",
+      "s": "x"
+    },
+    {
+      "t": "p",
+      "s": "1.2"
+    },
+    {
+      "t": "p",
+      "s": "The surfaces from which the examination shall be performed"
+    },
+    {
+      "t": "p",
+      "s": "검사를 수행할 표면"
+    },
+    {
+      "t": "p",
+      "s": "x"
+    },
+    {
+      "t": "p",
+      "s": "6.6"
+    },
+    {
+      "t": "p",
+      "s": "Technique(s) (straight beam, angle beam, contact, and/or immersion)"
+    },
+    {
+      "t": "p",
+      "s": "탐상기법(수직탐상법, 사각탐상법, 직접접촉법, 수침법)"
+    },
+    {
+      "t": "p",
+      "s": "x"
+    },
+    {
+      "t": "p",
+      "s": "1.2, 6.1.2"
+    },
+    {
+      "t": "p",
+      "s": "Angle(s) and mode(s) of wave propagation in the material"
+    },
+    {
+      "t": "p",
+      "s": "재료내에서 초음파의 모드 및 각도"
+    },
+    {
+      "t": "p",
+      "s": "x"
+    },
+    {
+      "t": "p",
+      "s": "6.1.2"
+    },
+    {
+      "t": "p",
+      "s": "Search unit type(s), frequency(ies), and element size(s) shape(s)"
+    },
+    {
+      "t": "p",
+      "s": "탐촉자 형식, 주파수, 진동자 크기/모양"
+    },
+    {
+      "t": "p",
+      "s": "x"
+    },
+    {
+      "t": "p",
+      "s": "1.2, 6.1.2"
+    },
+    {
+      "t": "p",
+      "s": "Special search unit, wedge, shoes, or saddles, when used"
+    },
+    {
+      "t": "p",
+      "s": "특수 탐촉자, 웨지, 슈(shoe) 또는 새들 (사용할 경우)"
+    },
+    {
+      "t": "p",
+      "s": "x"
+    },
+    {
+      "t": "p",
+      "s": "Not Used"
+    },
+    {
+      "t": "p",
+      "s": "Ultrasonic instrument(s)"
+    },
+    {
+      "t": "p",
+      "s": "초음파 탐상장치"
+    },
+    {
+      "t": "p",
+      "s": "x"
+    },
+    {
+      "t": "p",
+      "s": "6.1.1"
+    },
+    {
+      "t": "p",
+      "s": "Calibration[ Calibration block(s) and technique(s)]"
+    },
+    {
+      "t": "p",
+      "s": "교정(교정시험편 및 교정기법)"
+    },
+    {
+      "t": "p",
+      "s": "x"
+    },
+    {
+      "t": "h",
+      "level": 2,
+      "s": "5.6 & 6.1.4"
+    },
+    {
+      "t": "p",
+      "s": "Direction and extent of scanning"
+    },
+    {
+      "t": "p",
+      "s": "주사범위와 방향"
+    },
+    {
+      "t": "p",
+      "s": "x"
+    },
+    {
+      "t": "p",
+      "s": "6.6"
+    },
+    {
+      "t": "p",
+      "s": "Scanning (manual vs. automatic)"
+    },
+    {
+      "t": "p",
+      "s": "주사(수동 대 자동)"
+    },
+    {
+      "t": "p",
+      "s": "x"
+    },
+    {
+      "t": "p",
+      "s": "1.2, 6.6"
+    },
+    {
+      "t": "p",
+      "s": "Method for discriminating geometric from flaw indication"
+    },
+    {
+      "t": "p",
+      "s": "결함 지시로부터 기하학적 식별 방법"
+    },
+    {
+      "t": "p",
+      "s": "x"
+    },
+    {
+      "t": "p",
+      "s": "6.7, Fig.6~Fig.11"
+    },
+    {
+      "t": "p",
+      "s": "Method for sizing indications"
+    },
+    {
+      "t": "p",
+      "s": "결함크기 측정방법"
+    },
+    {
+      "t": "p",
+      "s": "x"
+    },
+    {
+      "t": "p",
+      "s": "6.11)"
+    },
+    {
+      "t": "p",
+      "s": "Computer enhanced data acquisition, when used"
+    },
+    {
+      "t": "p",
+      "s": "컴퓨터로 향상된 데이터 획득(사용시)"
+    },
+    {
+      "t": "p",
+      "s": "x"
+    },
+    {
+      "t": "p",
+      "s": "Not Used"
+    },
+    {
+      "t": "p",
+      "s": "Scan overlap (decrease only)"
+    },
+    {
+      "t": "p",
+      "s": "주사 중첩도(감소만 해당)"
+    },
+    {
+      "t": "p",
+      "s": "x"
+    },
+    {
+      "t": "p",
+      "s": "6.6.6"
+    },
+    {
+      "t": "p",
+      "s": "Personnel performance requirements, when required"
+    },
+    {
+      "t": "p",
+      "s": "검사원 수행능력 요건(필요시)"
+    },
+    {
+      "t": "p",
+      "s": "x"
+    },
+    {
+      "t": "p",
+      "s": "4.2"
+    },
+    {
+      "t": "p",
+      "s": "Personnel qualification requirements"
+    },
+    {
+      "t": "p",
+      "s": "검사원 자격인정 요건"
+    },
+    {
+      "t": "p",
+      "s": "x"
+    },
+    {
+      "t": "p",
+      "s": "4.0"
+    },
+    {
+      "t": "p",
+      "s": "Surface condition (examination surface, calibration block)"
+    },
+    {
+      "t": "p",
+      "s": "표면 조건(검사표면, 교정시험편)"
+    },
+    {
+      "t": "p",
+      "s": "x"
+    },
+    {
+      "t": "p",
+      "s": "5.6.2-(e) & 6.5"
+    },
+    {
+      "t": "p",
+      "s": "Couplant : brand name and type"
+    },
+    {
+      "t": "p",
+      "s": "접촉매질(상표명 및 형태)"
+    },
+    {
+      "t": "p",
+      "s": "x"
+    },
+    {
+      "t": "p",
+      "s": "5.5"
+    },
+    {
+      "t": "p",
+      "s": "Post-examination cleaning technique"
+    },
+    {
+      "t": "p",
+      "s": "검사후 후처리 기법"
+    },
+    {
+      "t": "p",
+      "s": "x"
+    },
+    {
+      "t": "p",
+      "s": "8.0"
+    },
+    {
+      "t": "p",
+      "s": "Automatic alarm and/or recording equipment, when applicable"
+    },
+    {
+      "t": "p",
+      "s": "자동경보장비 및/또는 자동기록방비(해당될 경우)"
+    },
+    {
+      "t": "p",
+      "s": "x"
+    },
+    {
+      "t": "p",
+      "s": "Not Application"
+    },
+    {
+      "t": "p",
+      "s": "Records, including minimum calibration data to be recorded"
+    },
+    {
+      "t": "p",
+      "s": "(e.g, instrument setting)"
+    },
+    {
+      "t": "p",
+      "s": "기록, 기록할 최소 교정데이터(예, 장치 설정값) 포함"
+    },
+    {
+      "t": "p",
+      "s": "x"
+    },
+    {
+      "t": "p",
+      "s": "9.2"
+    },
+    {
+      "t": "p",
+      "s": "1) Essential Variable(필수 변수)"
+    },
+    {
+      "t": "p",
+      "s": "2) Nonessential Variable(비필수 변수)"
+    },
+    {
+      "t": "p",
+      "s": "Fig.1. BASIC CALIBRATION BLOCK(Non-Piping Calibration Block)"
+    },
+    {
+      "t": "p",
+      "s": "비고"
+    },
+    {
+      "t": "p",
+      "s": "(a) 구멍은 검사 표면에 평행하고, 최소한 1.5“(38 mm) 깊이로 뚫고 다듬질한다."
+    },
+    {
+      "t": "p",
+      "s": "(b) 직경이 20“(500 mm)이하인 기기의 경우, 교정시험편의 직경은 5.66항의 요건을 만족해야 한다. 방향이 서로 90°인 두 세트의 교정 반사체(구멍, 노치)가 사용되어야 한다. 이의 대신으로 두개의 곡률을 가진 교정시험편을 사용할 수 있다."
+    },
+    {
+      "t": "p",
+      "s": "(c) 구멍지름의 허용차는 ±1/32“(0.8 mm)이다. 교정시험편 두께쪽으로의 구멍위치(즉, 검사표면으로부터의 거리)의 허용차는 ±1/8”(3 mm)이다."
+    },
+    {
+      "t": "p",
+      "s": "(d) 두께가 3/4“(19 mm)보다 작은 시험편의 경우, 1/2T 측면공과 표면 노치만이 요구된다."
+    },
+    {
+      "t": "p",
+      "s": "(e) 교정시험편의 모든 구멍들이 교정시어떤 하나의 반사체가 다른 반사체로부터의 지시에 의해 영향을 받지 않을 경우, 모든 반사체(구멍, 노치)는 동일한 면(측면)에 놓일 수 있다. 노치들은 또한 구멍과 동일한 직선상의 동일한 평면에 위치할 수 있다(부록 J, 그림 J-431 참조). 그림 J-431에서 보이는 것과 같이 충분한 수의 구멍이 1/4T, 1/2T, 3/4T 깊에서 사각 및 수직빔 교정을 위해 제공되어야 한다."
+    },
+    {
+      "t": "p",
+      "s": "(f) 클래딩이 있는 경우, 시험편의 클래딩 쪽 노치 깊이는 클래딩 두께 CT(즉, 1.6%+최소 CT 부터 2.2%T+최대 CT까지) 만큼 증가되어야 한다."
+    },
+    {
+      "t": "p",
+      "s": "(g) 최대 노치폭은 중요하지 않다. 노치는 방전가공 혹은 1/4\"(6.4 mm) 직경까지의 엔드밀로 가공될 수 있다."
+    },
+    {
+      "t": "p",
+      "s": "(h) 용접두께(t)는 덧살이 없는 용접부의 공칭 재질두께이다. 또는 덧살을 가진 용접부의 경우에는 용접부 공칭 재질두께에 추정 덧살 두께를 더한 값이 참조 기술기준에서 허용하는 최대치를 초과해서는 안되낟. 두개 이상의 모재두께가 포함된 경우의 교정시험편두께(T)는 용접부 평균두께에 의해 결정되어야 한다. 이의 대안으로, 만약 대비반사체 크기가 평균 용접부 두께를 기초로 정해졌다면 더 두꺼운 모재두께에 기초한 교정시험편을 사용해도 된다."
+    },
+    {
+      "t": "p",
+      "s": "노트:"
+    },
+    {
+      "t": "p",
+      "s": "(1) 최소 치수"
+    },
+    {
+      "t": "p",
+      "s": "(2) 용접부 두께가 2“(50 mm) 증가할 때마다 또는 4”(100 mm)를 초과하는 그 증가량마다 구멍지름은 1/16\"(1.5 mm)씩 증가해야 한다."
+    },
+    {
+      "t": "p",
+      "s": "그림 1. 기본 교정시험편 (배관 제외 교정시험편)"
+    },
+    {
+      "t": "p",
+      "s": "Fig.2-1 ANGLE BEAM CALIBRATION (Calibration Block for Pipe)"
+    },
+    {
+      "t": "p",
+      "s": "비고"
+    },
+    {
+      "t": "p",
+      "s": "(a) 교정시험편의 최소길이(L)는 8\"(20 0mm), 8T 중 큰 것이어야 한다."
+    },
+    {
+      "t": "p",
+      "s": "(b) 바깥지름이 4“(100 mm) 이하인 경우, 최소 호의 길이는 원주의 75%가 되어야 한다. 바깥지름이 4”(100 mm)를 초과하는 경우 최소 호의 길이는 8“(200 mm), 3T 중 큰 것이어야 한다."
+    },
+    {
+      "t": "p",
+      "s": "(c) 노치의 깊이는 두께(T)의 최소 8%에서 최대 11%이어야 한다. 클래딩이 존재하는 경우, 노치의 깊이는 시험편의 클래딩된 면에서 클래딩 두께(CT, 8%T + CT 최소값 ~ 11%T + CT 최대값)만큼 더해져야 한다. 노치의 폭은 최대 1/4“(6 mm)이어야 한다. 노치의 길이는 최소 1”(25 mm)이어야 한다."
+    },
+    {
+      "t": "p",
+      "s": "(d) 최대 노치 폭은 중요하지 않다. 노치들은 방전가공 혹은 1/4“(6 mm) 직경의 엔드밀로 가공되어야 한다."
+    },
+    {
+      "t": "p",
+      "s": "(e) 노치의 길이는 교정시 신호대 잡음비 최소 3:1을 만족해야 한다."
+    },
+    {
+      "t": "p",
+      "s": "(f) 다른 두께의 용접부를 검사하고 하나의 시험편으로 5.6.1 b)의 요구조건을 만족할 수 없으면 두개의 시험편을 사용해야 한다."
+    },
+    {
+      "t": "p",
+      "s": "(g) 5.6.5항에 따라 평판 시험편이 사용될 경우, 두개의 축상 노치들은 생략될 수 있다. ID, OD 노치들이 시험편의 반대쪽 시험 표면에 있으면, 시험편의 폭은 4“ in(100 mm)로 줄일 수 있다. 클래딩이 없고, 앞뒤 각자 시험 표면이 교정동안 접근 가능할 경우 하나의 노치만 있어도 된다."
+    },
+    {
+      "t": "p",
+      "s": "Note:"
+    },
+    {
+      "t": "p",
+      "s": "(1) 노치는 다른 노치나 시험편 모서리에서 1/2T, 1/2“(13 mm) 중 큰 값보다 보다 가까이 위치해서는 안된다."
+    },
+    {
+      "t": "p",
+      "s": "그림 2-1 파이프 교정 시험편"
+    },
+    {
+      "t": "p",
+      "s": "Fig.2-2 Alternate Calibration Block for Piping"
+    },
+    {
+      "t": "p",
+      "s": "비고"
+    },
+    {
+      "t": "p",
+      "s": "(a) 3/4“(19 mm) 미만 두께의 시험편의 경우, 1/2T 측면 드릴 구멍 한개만 필요하다."
+    },
+    {
+      "t": "p",
+      "s": "(b) 노치의 포함은 선택가능하다. 그림 2-1에 있는 노치들을 이 교정 시험편과 혼합하여 사용할 수 있다."
+    },
+    {
+      "t": "p",
+      "s": "(c) 노치의 깊이는 최소 8%T에서 최대 11%T이어야 한다. 노치의 폭은 최대 1/4“(6 mm)이어야 한다. 노치의 길이는 최소 1”(25 mm)이어야 한다."
+    },
+    {
+      "t": "p",
+      "s": "(d) 노치들은 방전가공 혹은 1/4“(6 mm) 엔드 밀로 가공되어야 한다."
+    },
+    {
+      "t": "p",
+      "s": "(e) 노치의 길이는 교정시 신호대 잡음비가 최소 3:1을 만족하여야 한다."
+    },
+    {
+      "t": "p",
+      "s": "(f) 노치들은 시험편 모서리 혹은 다른 노치에서 T, 1 1/2\"(38 mm) 중 큰 값보다 가까이 위치해서는 안된다."
+    },
+    {
+      "t": "p",
+      "s": "Notes:"
+    },
+    {
+      "t": "p",
+      "s": "(1) 길이와 호 길이는 사각빔 교정을 하기에 적절해야 한다."
+    },
+    {
+      "t": "p",
+      "s": "(2) 측면 드릴 구멍의 직경, 길이, 오차는 6.3.3항에서 허용된 대로, 그림 1.을 따라야 한다. 1/4T, 1/2T, 3/4T 깊이 혹은 위치의 접선방향 측면 드릴 구멍들은 그 길이의 1/2 지점에서 그 깊이가 확인되어야 한다. 정확한 깊이를 확인하기 위해 측면 드릴 구멍의 반경은 측정된 깊이에 추가되어야 한다. 두께가 허용되지 않는다면 요구되는 측면 드릴 구멍의 깊이와 접선방향의 지점의 위치는 시험편 표면에 표시되어야 한다."
+    },
+    {
+      "t": "p",
+      "s": "Fig.3 Ratio limits for curved surfaces"
+    },
+    {
+      "t": "p",
+      "s": "그림 3. 곡률 표면에 대한 제한율"
+    },
+    {
+      "t": "p",
+      "s": "Fig.4 Sweep Range"
+    },
+    {
+      "t": "p",
+      "s": "스윕 범위"
+    },
+    {
+      "t": "p",
+      "s": "Fig.5 Sensitivity and distance-amplitude correction"
+    },
+    {
+      "t": "p",
+      "s": "감도 및 거리-진폭 교정"
+    },
+    {
+      "t": "p",
+      "s": "Fig.6 Echodynamic pattern from a point reflector"
+    },
+    {
+      "t": "p",
+      "s": "점 반사체로부터 초음파신호 형태"
+    },
+    {
+      "t": "p",
+      "s": "Fig.7 Echodynamic pattern from a fairly smooth extended defect(IP,LF)"
+    },
+    {
+      "t": "p",
+      "s": "상당히 매끄럽게 펼쳐진 결함(IP,LF)의 초음파신호 형태"
+    },
+    {
+      "t": "p",
+      "s": "Fig.8 Echodynamic pattern from a Large irregular reflector near normal incidence"
+    },
+    {
+      "t": "p",
+      "s": "수직으로 입사된 크게 불규칙적인 반사체의 초음파신호 형태"
+    },
+    {
+      "t": "p",
+      "s": "Fig.9 Echodynamic pattern from a Large irregular reflector at oblique incidence"
+    },
+    {
+      "t": "p",
+      "s": "비스듬하게 입사된 크게 불규칙적인 반사체의 초음파신호 형태"
+    },
+    {
+      "t": "p",
+      "s": "Fig.10 Echodynamic pattern from a Multiple imperfection"
+    },
+    {
+      "t": "p",
+      "s": "다수결함함의 초음파신호 형태"
+    },
+    {
+      "t": "p",
+      "s": "Fig.11 Effect of Curved surface on the A-scan response from a planar reflector"
+    },
+    {
+      "t": "p",
+      "s": "평면의 반사체의 A-scan신호와 곡면에서의 신호"
+    },
+    {
+      "t": "p",
+      "s": "Attachment 1. Report of Ultrasonic Examination"
+    },
+    {
+      "t": "p",
+      "s": "2021Ed. 추가"
+    },
+    {
+      "t": "p",
+      "s": "2021Ed. 추가"
+    },
+    {
+      "t": "p",
+      "s": "2021Ed. or 삭제"
+    },
+    {
+      "t": "p",
+      "s": "2023Ed. 추가"
+    },
+    {
+      "t": "p",
+      "s": "T-467.1"
+    },
+    {
+      "t": "p",
+      "s": "2021Ed. curve -> correction 변경"
+    }
+  ],
+  "figures": [
+    "HIE-NDT-UT-P11_fig1.png",
+    "HIE-NDT-UT-P11_fig2.png",
+    "HIE-NDT-UT-P11_fig3.png",
+    "HIE-NDT-UT-P11_fig4.png",
+    "HIE-NDT-UT-P11_fig5.png",
+    "HIE-NDT-UT-P11_fig6.jpg",
+    "HIE-NDT-UT-P11_fig7.jpg",
+    "HIE-NDT-UT-P11_fig8.jpg",
+    "HIE-NDT-UT-P11_fig9.jpg",
+    "HIE-NDT-UT-P11_fig10.jpg",
+    "HIE-NDT-UT-P11_fig11.jpg",
+    "HIE-NDT-UT-P11_fig12.png",
+    "HIE-NDT-UT-P11_fig13.png",
+    "HIE-NDT-UT-P11_fig14.png",
+    "HIE-NDT-UT-P11_fig15.jpg",
+    "HIE-NDT-UT-P11_fig16.png",
+    "HIE-NDT-UT-P11_fig17.png",
+    "HIE-NDT-UT-P11_fig18.png",
+    "HIE-NDT-UT-P11_fig19.png",
+    "HIE-NDT-UT-P11_fig20.png",
+    "HIE-NDT-UT-P11_fig21.png",
+    "HIE-NDT-UT-P11_fig22.png",
+    "HIE-NDT-UT-P11_fig23.png",
+    "HIE-NDT-UT-P11_fig24.png",
+    "HIE-NDT-UT-P11_fig25.png",
+    "HIE-NDT-UT-P11_fig26.png",
+    "HIE-NDT-UT-P11_fig27.png",
+    "HIE-NDT-UT-P11_fig28.png",
+    "HIE-NDT-UT-P11_fig29.png",
+    "HIE-NDT-UT-P11_fig30.jpg",
+    "HIE-NDT-UT-P11_fig31.jpg",
+    "HIE-NDT-UT-P11_fig32.jpg",
+    "HIE-NDT-UT-P11_fig33.jpg",
+    "HIE-NDT-UT-P11_fig34.jpg"
+  ]
+}
