@@ -130,7 +130,7 @@
       "19.0",
       "19.2",
       "20.6",
-      "22.0\n*ASME Sec. V Art 4 , ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179를 반영한, PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2를 이용하여 다음 물음에 답하시오.(question No. 18~30)"
+      "22.0"
     ],
     "answer": 1
   },
@@ -147,7 +147,8 @@
       "2mm",
       "4mm"
     ],
-    "answer": 2
+    "answer": 2,
+    "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
   },
   {
     "id": 11,
@@ -162,7 +163,8 @@
       "examination volume may be reduced to include the actual heat affected zone (HAZ) plus 1⁄4in.(6mm) of base material beyond the heat affected zone on each side of the weld\n 검사 체적는 용접 양쪽 열영향부 영역을 이상으로 실제 열영향부에 6mm를 더한 실제 열영향부를 포함하도록 감소 될 수 있다.",
       "10times the examination frequency\n 검사 주파수의 10배"
     ],
-    "answer": 0
+    "answer": 0,
+    "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
   },
   {
     "id": 12,
@@ -177,7 +179,8 @@
       "incomplete penetration\n용입부족",
       "all of a, b, c"
     ],
-    "answer": 3
+    "answer": 3,
+    "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
   },
   {
     "id": 13,
@@ -192,7 +195,8 @@
       "For E-scan techniques, overlap between adjacent active apertures (i.e., aperture incremental change) shall be a minimum of 50% of the effective aperture height\n E-scan 기술에서, 인접한 활성 조리개 사이(즉, 조리개 점진적 변화)의 겹침은 유효 조리개 높이의 최소 50%이어야 한다.",
       "For S-scan techniques, the angular sweep incremental change shall be a maximum of 2 deg. or sufficient to assure 50% beam overlap.\n F-scan 기술에서, 소자 각도의 점진적 변화는 최대 2도 또는 빔 50%는 충분히 겹쳐야만 한다."
     ],
-    "answer": 3
+    "answer": 3,
+    "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
   },
   {
     "id": 14,
@@ -207,7 +211,8 @@
       "Not to exceed one month or prior to first use thereafter\n 처음 사용하기 전 혹은 그 후에 1달을 초과하지 않는 기간",
       "None of the above\n 상기 모두 아니다."
     ],
-    "answer": 2
+    "answer": 2,
+    "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
   },
   {
     "id": 15,
@@ -222,7 +227,8 @@
       "Additional conventional UT scans are required.\n 추가적인 기존의 UT 주사가 요구된다.",
       "No additional scans are required.\n 추가적인 주사가 필요하지 않다."
     ],
-    "answer": 0
+    "answer": 0,
+    "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
   },
   {
     "id": 16,
@@ -237,7 +243,8 @@
       "5times the examination frequency\n검사 주파수의 5배",
       "10times the examination frequency\n 검사 주파수의 5배 검사 주차수의 10배"
     ],
-    "answer": 2
+    "answer": 2,
+    "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
   },
   {
     "id": 17,
@@ -252,7 +259,8 @@
       "2.09mm high x 6.4mm long\n높이 2.09mm × 길이 6.4mm",
       "4.18mm high x 6.4mm long\n높이 4.18mm × 길이 6.4mm"
     ],
-    "answer": 2
+    "answer": 2,
+    "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
   },
   {
     "id": 18,
@@ -267,7 +275,8 @@
       "3.43mm high x 6.4mm long\n높이 3.43mm × 길이 6.4mm",
       "6.86mm high x 6.4mm long\n높이 6.86mm × 길이 6.4mm"
     ],
-    "answer": 3
+    "answer": 3,
+    "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
   },
   {
     "id": 19,
@@ -282,7 +291,8 @@
       "500mm",
       "600mm"
     ],
-    "answer": 2
+    "answer": 2,
+    "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
   },
   {
     "id": 20,
@@ -297,7 +307,8 @@
       "For each separate element\n각 진동자마다",
       "All of the above\n 분활된 각 소자에 대한 상기 모두"
     ],
-    "answer": 1
+    "answer": 1,
+    "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
   },
   {
     "id": 21,
@@ -312,7 +323,8 @@
       "EN 583-6",
       "SNT-TC-1A"
     ],
-    "answer": 3
+    "answer": 3,
+    "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
   },
   {
     "id": 22,
@@ -327,7 +339,8 @@
       "No qualification block is needed as long as the equipment is correctly calibrated. \n 인정 시험편은 장비의 정확한 교정이 필요하지 않다.",
       "1 flaw on the OD surface, 1 flaw on the ID surface and 1 sub surface flaw\n OD 표면의 1개 결함, ID 표면의 1개 결함과 1개의 표면하 결함"
     ],
-    "answer": 3
+    "answer": 3,
+    "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
   },
   {
     "id": 23,
@@ -355,7 +368,7 @@
       "28.3",
       "30.3",
       "31.3",
-      "33.6\n*ASME Sec. V Art 4 , ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179를 반영한, PAUT 절차서 HIE-NDT-PAUT-P11(Rev.2)를 이용하여 다음 물음에 답하시오.(question No. 18~30)"
+      "33.6"
     ],
     "answer": 2
   },
@@ -376,12 +389,13 @@
     "id": 26,
     "question": "According to ASME Code Case 2235-9, when inspecting weld thicknesses in excess of 25.4 mm it is recommended to use:\nASME Code Case 2235-9에 따라 두께 25.4mm를 초과하는 용접부를 검사할 때 권장되는 것은?",
     "options": [
-      "Additional sectorial scans can be used / 추가적인 섹토리얼 주사를 사용할 수 있다",
-      "Additional linear scans and sectorial scans / 추가적인 선형주사와 섹토리얼 주사",
-      "Additional conventional UT scans are required / 추가적인 기존 UT 주사가 요구된다",
-      "No additional scans are required / 추가적인 주사가 필요하지 않다"
+      "Additional sectorial scans can be used\n추가적인 섹토리얼 주사를 사용할 수 있다",
+      "Additional linear scans and sectorial scans\n추가적인 선형주사와 섹토리얼 주사",
+      "Additional conventional UT scans are required\n추가적인 기존 UT 주사가 요구된다",
+      "No additional scans are required\n추가적인 주사가 필요하지 않다"
     ],
-    "answer": 0
+    "answer": 0,
+    "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
   },
   {
     "id": 27,
@@ -392,6 +406,7 @@
       "장비가 정확히 교정되어 있으면 인정시험편은 필요 없다",
       "OD 표면의 결함 1개, ID 표면의 결함 1개, 표면하 결함 1개"
     ],
-    "answer": 3
+    "answer": 3,
+    "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
   }
 ]

@@ -7,10 +7,10 @@
     "source": "PAUT General - A 20200317",
     "question": "What is the speed-ratio for steel (and aluminum) between longitudinal and transverse waves?\n강철(및 알루미늄)에서 종파와 횡파사이의 음속비는 얼마인가?",
     "options": [
-      "about 1:1",
-      "about 2:1 \n 약 1:1 약2:1",
-      "about 0.5:1",
-      "about 4:1\n 약 0.5:1 약 4:1"
+      "about 1:1\n약 1:1",
+      "about 2:1\n약 2:1",
+      "about 0.5:1\n약 0.5:1",
+      "about 4:1\n약 4:1"
     ],
     "answer": 1
   },
@@ -52,10 +52,10 @@
     "source": "PAUT General - A 20200317",
     "question": "What is the type of phased array scan that uses a series of focal laws to sweep through a range of angles from a fixed aperture?\n고정된 구멍에서 다양한 각도를 통과하는 일련의 초점을 사용하는 단계별 배열 유형은 무엇인가?",
     "options": [
-      "Sectorial",
-      "Linear \n 부채꼴형 선형",
-      "Arc",
-      "Dynamic depth focusing\n 원호 동적깊이초점"
+      "Sectorial\n부채꼴형(섹토리얼)",
+      "Linear\n선형",
+      "Arc\n원호",
+      "Dynamic depth focusing\n동적 깊이 초점"
     ],
     "answer": 0
   },
@@ -142,10 +142,10 @@
     "source": "PAUT General - A 20200317",
     "question": "How is the scanning with a variable beam in the phased array technique designated?\n위상 배열 기술에서 가변 빔을 사용한 스캔은 어떻게 이루어지는가?",
     "options": [
-      "sector scan\n섹터 주사",
-      "linear scan\n 부채꼴 스캔 선형 스캔",
-      "B scan",
-      "C scan\n B 스캔 C 스캔"
+      "Sector scan\n섹터 주사",
+      "Linear scan\n선형 주사",
+      "B scan\nB 스캔",
+      "C scan\nC 스캔"
     ],
     "answer": 0
   },
@@ -293,9 +293,9 @@
     "question": "Phased array probes mounted on angled wedges\n사각 웨지에 장착된 PA 프로브 어떠한가 ?",
     "options": [
       "Use transverse wave propagation\n횡파 전파를 이용한다",
-      "Use longitudinal wave propagation\n 횡파 전파 사용 종파 전파 사용",
-      "Use modified shear waves.\n변형된 횡파를 이용한다",
-      "and b) are correct\n 변형된 전단파를 사용 a)와 b) 둘 다 맞다."
+      "Use longitudinal wave propagation\n종파 전파를 이용한다",
+      "Use modified shear waves\n변형된 횡파를 이용한다",
+      "Answers 1 and 2 are correct\n1번과 2번이 맞다"
     ],
     "answer": 3
   },
@@ -381,12 +381,12 @@
     "method": "PAUT",
     "category": "General",
     "source": "PAUT General - A 20200317",
-    "question": "Which of the following defects in a weld (bevel angel of 30°) may be detected best with a 60° linear scan?\n60°선형 스캔으로 인해 용접부(베벨각 30",
+    "question": "Which of the following defects in a weld (bevel angle of 30°) may be detected best with a 60° linear scan?\n베벨각 30°인 용접부에서 60° 선형 주사로 가장 잘 검출되는 결함은?",
     "options": [
-      "transverse crack\n횡균열",
-      "root crack \n 횡 균열 바닥부 균열\n \n c. lamination in the base metal",
-      "에서 다음 중 어느 것이 가장 잘 감지될 수 있습니까?",
-      "lack of side wall fusion\n 모재의 라미네이션 옆면 융합불량"
+      "Transverse crack\n횡균열",
+      "Root crack\n루트 균열",
+      "Lamination in the base metal\n모재의 라미네이션",
+      "Lack of side wall fusion\n측벽 융합불량"
     ],
     "answer": 3
   },
@@ -398,10 +398,10 @@
     "source": "PAUT General - A 20200317",
     "question": "Given a linear phased array probe, what variable available to the operator limits its near field length?\n선형 PA 프로브를 고려할 때, 어떤 연산자가 사용할 수 있는 변수가 근처의 필드 길이를 제한하는가?",
     "options": [
-      "frequency",
-      "voltage to the pulser\n 주파수 펄스 전압",
-      "pulse duration of the pulser voltage\n펄서 전압의 펄스 지속시간",
-      "number of elements used \n 펄스 파고 펄스 지속 시간 라. 사용된 진동자의 개수"
+      "Frequency\n주파수",
+      "Voltage to the pulser\n펄서 전압",
+      "Pulse duration of the pulser voltage\n펄서 전압의 펄스 지속시간",
+      "Number of elements used\n사용된 진동자의 개수"
     ],
     "answer": 3
   },
@@ -459,9 +459,9 @@
     "question": "Phased array UT instrument shall meet the requirement of amplitude control linearity\nPA 기기는 진폭 제어 직선성의 요구 사항을 충족해야 한다.",
     "options": [
       "For each focal law\n각 초점법칙마다",
-      "For each pulse-receiver circuit\n 각 초점법에 대해 각 펄스 수신기 회로에 대해",
+      "For each pulse-receiver circuit\n각 펄서-수신기 회로마다",
       "For each separate element\n각 진동자마다",
-      "All of the above\n 각 분리된 진동자에 대해 모두 맞다."
+      "All of the above\n위의 모두"
     ],
     "answer": 1
   },
@@ -548,10 +548,10 @@
     "source": "PAUT General - A 20200317",
     "question": "lf a plan view was plotted with indications exceeding a threshold (typically 5%FSH), represented as a different colour for each 20% increment of depth, we could have a colour-coded depth distribution of flaws. What is the name given to such a display?\n계획 뷰가 임계값(대개 5%)을 초과하는 경우, 20%의 깊이 증가를 나타내는 다른 색상으로 표시된 경우, 결함의 색코드 깊이 분포를 가질 수 있다. 이러한 디스플레이에 주어진 이름 은 무엇인가?",
     "options": [
-      "B-scan",
-      "C-scan \n B-스캔 C-스캔",
-      "Depth-encoded C-scan\n깊이 정보를 담은 C-scan",
-      "P-scan\n 깊이-인코딩 C-스캔 P-스캔"
+      "B-scan\nB-스캔",
+      "C-scan\nC-스캔",
+      "Depth-encoded C-scan\n깊이 정보를 담은 C-스캔",
+      "P-scan\nP-스캔"
     ],
     "answer": 1
   },
@@ -574,10 +574,10 @@
     "id": 39,
     "question": "What information can be taken from a C-scan presentation?\nC-scan 표시로부터 얻을 수 있는 정보는?",
     "options": [
-      "The longitudinal coordinates of a reflector / 반사체의 길이방향 좌표",
-      "The transverse coordinates of a reflector / 반사체의 횡방향 좌표",
-      "The echo position / 에코 위치",
-      "Both 1 and 2 are correct / 1과 2가 모두 맞다"
+      "The longitudinal coordinates of a reflector\n반사체의 길이방향 좌표",
+      "The transverse coordinates of a reflector\n반사체의 횡방향 좌표",
+      "The echo position\n에코 위치",
+      "Both 1 and 2 are correct\n1과 2가 모두 맞다"
     ],
     "answer": 3
   }

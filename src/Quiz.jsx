@@ -11,6 +11,46 @@ import {
   TEXT
 } from "./grading.js";
 
+/* Fisher-Yates */
+function shuffle(list) {
+  const out = [...list];
+  for (let i = out.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [out[i], out[j]] = [out[j], out[i]];
+  }
+  return out;
+}
+
+/*
+ * 문항을 "묶음" 단위로 나눈다.
+ *
+ * 같은 조건문(groupNote)을 공유하는 문항들은 한 덩어리다.
+ *   "폭 ½인치, 길이 6인치인 용접부를 ... 침투탐상한 상황입니다"
+ * 같은 전제는 그 묶음의 문항을 다 같이 봐야 뜻이 통하므로,
+ * 섞을 때 흩어지거나 일부만 뽑혀 잘려나가면 안 된다.
+ *
+ * 조건문이 없는 문항은 혼자서 한 묶음이 된다.
+ * 묶음 안의 순서는 원본 순서를 그대로 지킨다.
+ */
+function toGroups(bank) {
+  const groups = [];
+  const byNote = new Map();
+
+  for (const q of bank) {
+    const note = q && q.groupNote;
+    if (!note) { groups.push([q]); continue; }
+
+    const found = byNote.get(note);
+    if (found) found.push(q);
+    else {
+      const g = [q];
+      byNote.set(note, g);
+      groups.push(g);
+    }
+  }
+  return groups;
+}
+
 /*
  * 출제 목록 만들기
  *
@@ -18,21 +58,42 @@ import {
  * 한 과목 파일에 섞여 있다. 출제할 때는 은행에서 무작위로 뽑고
  * 순서도 매번 섞는다. 같은 과목을 다시 쳐도 같은 시험지가 나오지 않는다.
  *
+ * 묶음 단위로 뽑아 조건문을 공유하는 문항이 항상 함께 나오게 한다.
+ * 남은 자리보다 큰 묶음은 건너뛰고 다음 묶음을 본다 —
+ * 그래야 40문항/25문항을 정확히 채우면서 묶음도 쪼개지지 않는다.
+ *
+ * 다만 큰 묶음이 뒤쪽에 걸리면 자리가 없어 통째로 빠지고 문항 수가 모자란다.
+ * (TOFD Specific 은 30문항 중 11문항이 한 묶음이라 최악의 경우 19문항까지
+ *  떨어졌다.) 그래서 순서를 여러 번 다시 섞어 보고 요구 수를 정확히
+ * 채우는 조합이 나오면 그걸 쓴다. 끝내 못 채우면 가장 많이 채운 것을 쓴다.
+ *
  * count 가 null 이거나 은행이 그보다 적으면 있는 문항을 전부 출제한다.
  */
+const DRAW_ATTEMPTS = 40;
+
+function fillGroups(groups, count) {
+  const picked = [];
+  for (const g of groups) {
+    if (picked.length >= count) break;
+    if (picked.length + g.length > count) continue;   // 자리가 모자라면 건너뛴다
+    picked.push(...g);
+  }
+  return picked;
+}
+
 function drawQuestions(bank, count) {
 
-  const shuffled = [...bank];
+  const groups = toGroups(bank);
 
-  // Fisher-Yates
-  for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  if (!count || count >= bank.length) return shuffle(groups).flat();
+
+  let best = [];
+  for (let i = 0; i < DRAW_ATTEMPTS; i++) {
+    const picked = fillGroups(shuffle(groups), count);
+    if (picked.length === count) return picked;
+    if (picked.length > best.length) best = picked;
   }
-
-  return count && count < shuffled.length
-    ? shuffled.slice(0, count)
-    : shuffled;
+  return best;
 
 }
 

@@ -355,8 +355,8 @@
     "id": 37,
     "question": "The weld that is shown by radiography to have a 5/8 in. elongated indication is acceptable, if the thickness of the thinner portion of the weld is 2¼ in. (Ref.: ASME B31.1)\n용접부의 얇은 쪽 두께가 2¼인치일 때, 방사선투과검사에서 5/8인치 가늘고 긴 지시가 나타난 용접부는 합격이다. (ASME B31.1 기준)",
     "options": [
-      "True / 맞음",
-      "False / 틀림"
+      "True\n맞음",
+      "False\n틀림"
     ],
     "answer": 0
   },
@@ -364,8 +364,8 @@
     "id": 38,
     "question": "The weld that is shown by radiography to have a 1/16 in. crack is acceptable.\n방사선투과검사에서 1/16인치 균열이 나타난 용접부는 합격이다.",
     "options": [
-      "True / 맞음",
-      "False / 틀림"
+      "True\n맞음",
+      "False\n틀림"
     ],
     "answer": 1
   }

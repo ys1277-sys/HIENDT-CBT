@@ -383,8 +383,8 @@
     "id": 30,
     "question": "Discontinuity \"A\" is interpreted as lack of fusion with 1 mm in width, 3 mm in height, 4 mm in length, and 25% of reference level in amplitude. Is it acceptable? (Ref.: ASME B31.1)\n불연속 \"A\"는 폭 1mm, 높이 3mm, 길이 4mm, 진폭은 기준레벨의 25%인 융합불량으로 판정되었다. 합격인가? (ASME B31.1 기준)",
     "options": [
-      "Acceptable / 합격",
-      "Unacceptable / 불합격"
+      "Acceptable\n합격",
+      "Unacceptable\n불합격"
     ],
     "answer": 1
   },

@@ -29,3 +29,9 @@ dist-ssr
 
 # Netlify
 .netlify
+
+# tools 실행 결과물 — 언제든 다시 만들 수 있다
+*-out.txt
+
+# 검수 문서 — 확인용으로 전달하는 것이라 저장소에 두지 않는다
+검수-*.md

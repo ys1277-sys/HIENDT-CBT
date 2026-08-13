@@ -326,9 +326,9 @@
     "question": "A scan parallel to the weld axis in which the beam intersection point is not on the weld center-line is?\n빔 교차점이 용접 중심선에 있지 않는, 용접축에 평행한 검사는 무엇인가?",
     "options": [
       "Not required in this procedure\n이 절차서에서는 요구되지 않는다",
-      "Only required in ASME Code Case2235-10\n 이 절차서에 요구되지 않는다. 오직 ASME Code Case 2235-10에 요구된다.",
+      "Only required in ASME Code Case 2235-10\n오직 ASME Code Case 2235-10에서만 요구된다",
       "An off-set scan\n오프셋 주사",
-      "A substitute for a parallel scan\n off-set 주사 평행 주사에 대한 대체"
+      "A substitute for a parallel scan\n평행 주사를 대신하는 것"
     ],
     "answer": 2,
     "groupNote": "Answer the following questions using the TOFD procedure HIE-NDT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-9/10.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-9/10을 반영한 TOFD 절차서(HIE-NDT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
@@ -424,7 +424,7 @@
       "33.20μs",
       "44.23μs",
       "48.26μs",
-      "50.30μs\n* ASME Sec. V Art 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-9를 반영한, TOFD 절차서(HIE-NDT-P11 Rev.2를 이용하여 다음 물음에 답하시오.(question No. 22～30)"
+      "50.30μs"
     ],
     "answer": 1
   },

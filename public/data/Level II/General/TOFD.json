@@ -127,10 +127,10 @@
     "source": "TOFD General - A 20200317",
     "question": "When a Lateral wave is suddenly shifted later in time and the backwall is unperturbed. What is likely origin of the signal change? lateral wave가 시간축에서 갑자기 위치 이동되면 backwall은 교란된다.\n신호 변화의 원인은 무엇인가?",
     "options": [
-      "IP",
-      "Misalignment \n 용입불량 정렬불량",
+      "IP (incomplete penetration)\n용입불량",
+      "Misalignment\n정렬불량",
       "Surface breaking flaw\n표면개구 결함",
-      "Porosity\n 표면에 깨진결함 기공"
+      "Porosity\n기공"
     ],
     "answer": 2
   },
@@ -353,9 +353,9 @@
     "question": "A shift of the backwall arrival time to an earlier arrival would be indicative of . backwall 도착 시간이 이전 도착시간으로 이동되는 경우는 다음중 어떤 결함인가?",
     "options": [
       "Root erosion\n루트 침식",
-      "IP \n 루트부식 용입불량",
+      "IP (incomplete penetration)\n용입불량",
       "Concave root\n오목한 루트",
-      "Any of the above\n 오목루트 상기 모두"
+      "Any of the above\n위의 어느 것이든"
     ],
     "answer": 3
   },
@@ -458,9 +458,9 @@
     "question": "A scan parallel to the weld axis in which the beam intersection point is not on the weld center-line is?\n빔 교차점이 용접 중심선에 있지 않는, 용접축에 평행한 검사는 무엇인가?",
     "options": [
       "Not required in this procedure\n이 절차서에서는 요구되지 않는다",
-      "Only required in CC2235-9\n 이 절차서에 요구되지 않는다. 오직 CC2235-9에 요구된다.",
+      "Only required in CC2235-9\n오직 CC2235-9에서만 요구된다",
       "An off-set scan\n오프셋 주사",
-      "A substitute for a parallel scan\n off-set 주사 평행 주사에 대한 대체"
+      "A substitute for a parallel scan\n평행 주사를 대신하는 것"
     ],
     "answer": 3
   },

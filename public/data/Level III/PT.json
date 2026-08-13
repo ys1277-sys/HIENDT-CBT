@@ -1388,8 +1388,8 @@
     "groupNote": "A weld that is ½ inch wide and 6 inches long has been liquid penetrant tested in accordance with ASME Section Ⅲ Div. 1, Subsection NB.\n폭 ½인치, 길이 6인치인 용접부를 ASME Section Ⅲ Div. 1, Subsection NB에 따라 침투탐상한 상황입니다.",
     "question": "The following rounded indications are in the weld: (2) 1/16 in. indications, (4) 1/32 in. indications and (2) 1/8 in. indications. All are separated by 1/16 in. from each other. Is the weld acceptable?\n이 용접부에 다음과 같은 원형 지시가 있다. 1/16인치 2개, 1/32인치 4개, 1/8인치 2개이며 모두 서로 1/16인치씩 떨어져 있다. 이 용접부는 합격인가?",
     "options": [
-      "Yes / 합격",
-      "No / 불합격"
+      "Yes\n합격",
+      "No\n불합격"
     ],
     "answer": 1
   },

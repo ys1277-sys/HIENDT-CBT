@@ -385,10 +385,10 @@
     "id": 32,
     "question": "How is the magnetizing force of an AC/DC yoke calibrated?\nAC/DC 요크의 자화력은 어떻게 교정하는가?",
     "options": [
-      "들어올림 시험 — AC 요크 10 lb, DC 요크 40 lb / lifting power test",
-      "들어올림 시험 — AC 요크 40 lb, DC 요크 10 lb / lifting power test",
-      "가우스미터로 자속밀도를 측정한다 / gauss meter",
-      "자기장 지시계(pie gauge)로만 확인한다 / pie gauge only"
+      "Lifting power test — AC yoke 10 lb, DC yoke 40 lb\n들어올림 시험 — AC 요크 10 lb, DC 요크 40 lb",
+      "Lifting power test — AC yoke 40 lb, DC yoke 10 lb\n들어올림 시험 — AC 요크 40 lb, DC 요크 10 lb",
+      "Measure the flux density with a gauss meter\n가우스미터로 자속밀도를 측정한다",
+      "Check with a pie gauge only\n자기장 지시계(pie gauge)로만 확인한다"
     ],
     "answer": 0
   },
@@ -407,8 +407,8 @@
     "id": 34,
     "question": "Five rounded indications in a line, separated by 1/16 in. edge-to-edge, were found on a weld by the MT yoke technique. Is it acceptable? (Ref.: ASME B31.1)\n요크법 자분탐상에서 원형 지시 5개가 가장자리 간격 1/16인치로 일렬로 발견되었다. 합격인가? (ASME B31.1 기준)",
     "options": [
-      "Acceptable / 합격",
-      "Unacceptable / 불합격"
+      "Acceptable\n합격",
+      "Unacceptable\n불합격"
     ],
     "answer": 1
   }
