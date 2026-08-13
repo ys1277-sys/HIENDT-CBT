@@ -176,9 +176,17 @@ function Quiz({
 
         }
 
+        /*
+         * 주소 뒤에 빌드 값을 붙인다.
+         *
+         * 문항 JSON 은 파일명이 고정이라, 브라우저가 예전 것을 들고 있으면
+         * 문제를 고쳐 배포해도 응시자에게는 옛 문제가 그대로 나온다.
+         * 배포할 때마다 이 값이 바뀌어 새로 받아간다.
+         */
         const url =
           import.meta.env.BASE_URL +
-          exam.file.replace(/^\//, "");
+          exam.file.replace(/^\//, "") +
+          "?v=" + __BUILD_ID__;
 
         console.log(
           "JSON URL:",

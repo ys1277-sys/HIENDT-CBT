@@ -112,11 +112,13 @@ try{
 
 
 
+  /* 문항 JSON 은 파일명이 고정이라 빌드 값을 붙여야 캐시가 안 남는다 */
   const res =
     await fetch(
 
       import.meta.env.BASE_URL +
-      file.replace(/^\//,"")
+      file.replace(/^\//,"") +
+      "?v=" + __BUILD_ID__
 
     );
 
