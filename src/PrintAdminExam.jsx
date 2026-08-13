@@ -6,7 +6,7 @@
 
 import "./print.css";
 import logo from "./logo.png";
-import QuestionImage from "./QuestionImage.jsx";
+import QuestionImage, { questionImages } from "./QuestionImage.jsx";
 import GroupNote from "./GroupNote.jsx";
 import {
   questionType,
@@ -523,8 +523,16 @@ function PrintAdminExam({
         }
 
 
-        <QuestionImage q={q} />
+        {/* 보기는 왼쪽, 그림은 오른쪽 — PrintExam 과 같은 배치 */}
+        <div
+          className={
+            questionImages(q).length
+              ? "question-body has-figure"
+              : "question-body"
+          }
+        >
 
+        <div className="question-options">
 
         {
           Array.isArray(
@@ -668,6 +676,14 @@ function PrintAdminExam({
 
           )
         }
+
+        </div>
+
+
+        {/* 그림은 보기 오른쪽 */}
+        <QuestionImage q={q} />
+
+        </div>
 
       </div>
 

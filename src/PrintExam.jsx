@@ -6,7 +6,7 @@
 
 import "./print.css";
 import logo from "./logo.png";
-import QuestionImage from "./QuestionImage.jsx";
+import QuestionImage, { questionImages } from "./QuestionImage.jsx";
 import GroupNote from "./GroupNote.jsx";
 import {
   questionType,
@@ -562,8 +562,20 @@ function PrintExam({
         }
 
 
-        <QuestionImage q={q} />
+        {/*
+          그림이 있으면 보기를 왼쪽, 그림을 오른쪽에 나란히 둔다.
+          위아래로 쌓으면 문항 하나가 한 쪽을 넘겨 아래쪽 보기가 잘려 나갔다.
+          그림이 없으면 감싸지 않아 보기가 폭을 다 쓴다.
+        */}
+        <div
+          className={
+            questionImages(q).length
+              ? "question-body has-figure"
+              : "question-body"
+          }
+        >
 
+        <div className="question-options">
 
         {
           Array.isArray(
@@ -724,6 +736,14 @@ function PrintExam({
 
           )
         }
+
+        </div>
+
+
+        {/* 그림은 보기 오른쪽 */}
+        <QuestionImage q={q} />
+
+        </div>
 
       </div>
 

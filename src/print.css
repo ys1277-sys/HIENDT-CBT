@@ -683,12 +683,29 @@
    높이 상한을 두고, 측정과 인쇄에 같은 값을 쓴다.
    ===================================================== */
 
+/*
+ * 보기와 그림을 나란히 둔다.
+ *
+ * 예전에는 그림을 보기 위에 쌓았다. 그러면 그림 있는 문항 하나가
+ * 한 쪽 높이를 넘겨, 아래쪽 보기가 그 쪽에서 잘리고 다음 쪽에도
+ * 나오지 않았다. 옆으로 두면 문항 높이가 그림 높이에 묶여 한 쪽에 들어간다.
+ */
+.question-body {
+  display: flex;
+
+  align-items: flex-start;
+
+  gap: 6mm;
+}
+
+.question-options {
+  flex: 1 1 auto;
+
+  min-width: 0;
+}
+
 .question-image {
-  margin:
-    4px
-    0
-    6px
-    0;
+  margin: 2px 0 4px 0;
 
   text-align: center;
 
@@ -696,13 +713,22 @@
   break-inside: avoid;
 }
 
+/* 그림이 있을 때만 오른쪽 칸을 잡는다 */
+.question-body.has-figure .question-image {
+  flex: 0 0 auto;
+
+  width: 62mm;
+
+  margin-top: 0;
+}
+
 .question-image img {
   display: block;
 
   margin: 0 auto 4px auto;
 
-  max-width: 150mm;
-  max-height: 60mm;
+  max-width: 100%;
+  max-height: 52mm;
 
   width: auto;
   height: auto;
