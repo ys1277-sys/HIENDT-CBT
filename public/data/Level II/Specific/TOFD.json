@@ -248,8 +248,8 @@
     "question": "What is not an advantage of TOFD? TOFD의 이점이 아닌 것은?",
     "options": [
       "Easy discrimination of defects and geometry\n 결함 형상의 쉬운 구별",
-      "Less sensitive to defect orientation\n 방향성 결함의 낮은 감도",
-      "Coupling status\n 결합 상태",
+      "Less sensitive to defect orientation\n결함의 방향에 덜 민감함",
+      "Coupling status\n접촉(커플링) 상태",
       "Near surface resolution\n 표면 근처의 분해능"
     ],
     "answer": 3
