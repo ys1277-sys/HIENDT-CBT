@@ -493,12 +493,20 @@ return (
     </div>
 
 
+    {/*
+      문제은행 출력은 응시자에게 나눠 줄 백지 문제지다.
+      showAnswers 를 끄지 않으면 정답이 파랑으로 칠해져 나간다.
+      (Result 의 문제지 출력은 채점 결과지라 켠 채로 둔다)
+    */}
     {
 
       questions &&
 
 
       <PrintExam
+
+
+        showAnswers={false}
 
 
         name={name}

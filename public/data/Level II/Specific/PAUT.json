@@ -95,7 +95,7 @@
     "method": "PAUT",
     "category": "Specific",
     "source": "PAUTSpec-II-A-type(2014)",
-    "question": "A phased array UT of 24mm thick single V butt weld is to be performed using single sectorial scan with an angle sweep range of 40~70°. The weld cap is 20mm and HAZ(6mm width). If Omniscan index offset of 40° [B] is set to 25 mm, what is the index offset[C]? 단독 V 맞대기 용접부 24mm의 PAUT는 40~70°의 각도 범위를 가진 단독 섹토리얼 주사로 수행된다. 용접 비드가 20mm이고 열영향부는6mm이다. 40°[B]에서 Omniscan 인덱스 오프셋을 25mm로 설정하였다면 인덱스 오프셋[C]은 얼마인가?",
+    "question": "A phased array UT of 24mm thick single V butt weld is to be performed using single sectorial scan with an angle sweep range of 40~70°. The weld cap is 20mm and HAZ(6mm width). If Omniscan index offset of 40° [B] is set to 25 mm, what is the index offset[C]?\n단독 V 맞대기 용접부 24mm의 PAUT는 40~70°의 각도 범위를 가진 단독 섹토리얼 주사로 수행된다. 용접 비드가 20mm이고 열영향부는6mm이다. 40°[B]에서 Omniscan 인덱스 오프셋을 25mm로 설정하였다면 인덱스 오프셋[C]은 얼마인가?",
     "options": [
       "28.3",
       "30.3",
@@ -172,7 +172,7 @@
     "method": "PAUT",
     "category": "Specific",
     "source": "PAUTSpec-II-A-type(2014)",
-    "question": "What kind of defect is the unacceptable regardless of length in ASME B 31.1 Code Case 179 and HIE-NDT-PAUT-P11(Rev.2) ASME B 31.1 Code Case 179 와 HIE-NDT-PAUT-P11(Rev.2)에서 어떤 결함이 길이에 상관없이 불합격인가?",
+    "question": "What kind of defect is the unacceptable regardless of length in ASME B 31.1 Code Case 179 and HIE-NDT-PAUT-P11(Rev.2)\nASME B 31.1 Code Case 179 와 HIE-NDT-PAUT-P11(Rev.2)에서 어떤 결함이 길이에 상관없이 불합격인가?",
     "options": [
       "crack",
       "lack of fusion\n융합불량",
@@ -220,7 +220,7 @@
     "method": "PAUT",
     "category": "Specific",
     "source": "PAUTSpec-II-A-type(2014)",
-    "question": "According to ASME Code Case 2235-10 when inspecting weld thicknesses in excess of 25.4 mm it is recommended to use : ASME Code Case 2235-10 따라 25.4mm를 초과하는 두께를 가진 용접부을 검사할 때 사용하는 것을 언급하는 것은?",
+    "question": "According to ASME Code Case 2235-10 when inspecting weld thicknesses in excess of 25.4 mm it is recommended to use :\nASME Code Case 2235-10 따라 25.4mm를 초과하는 두께를 가진 용접부을 검사할 때 사용하는 것을 언급하는 것은?",
     "options": [
       "Additional sectorial scans can be used.\n 추가적인 섹토리얼 주사를 사용할 수 있다.",
       "Additional linear scans and sectorial scans\n 추가적인 선형주사와 섹토리얼 주사",
@@ -252,7 +252,7 @@
     "method": "PAUT",
     "category": "Specific",
     "source": "PAUTSpec-II-A-type(2014)",
-    "question": "When inspecting according to ASME B 31.3 Code Case 181, on wall thickness 24mm, what is the maximum size of a surface notch that can be used for a qualification block? ASME B 31.3 Code Case 181 또는 HIE-NDT-PAUT-P11(Rev.2)에 따라 검사할 때, 벽 두께 24mm에서 인정 시험편에 사용될 수 있는 표면 노치의 최대 크기는?",
+    "question": "When inspecting according to ASME B 31.3 Code Case 181, on wall thickness 24mm, what is the maximum size of a surface notch that can be used for a qualification block?\nASME B 31.3 Code Case 181 또는 HIE-NDT-PAUT-P11(Rev.2)에 따라 검사할 때, 벽 두께 24mm에서 인정 시험편에 사용될 수 있는 표면 노치의 최대 크기는?",
     "options": [
       "0.087mm high x 6.4mm long\n높이 0.087mm × 길이 6.4mm",
       "1.04mm high x 6.4mm long\n높이 1.04mm × 길이 6.4mm",
@@ -268,7 +268,7 @@
     "method": "PAUT",
     "category": "Specific",
     "source": "PAUTSpec-II-A-type(2014)",
-    "question": "When inspecting according to ASME B 31.3 Code Case 181, on wall thickness 24mm, what is the maximum size of a subsurface notch that can be used for a qualification block? ASME B 31.3 Code Case 181에 따라 검사할 때, 벽 두께 24mm에서 인정 시험편에 사용될 수 있는 표면하 노치의 최대 크기는?",
+    "question": "When inspecting according to ASME B 31.3 Code Case 181, on wall thickness 24mm, what is the maximum size of a subsurface notch that can be used for a qualification block?\nASME B 31.3 Code Case 181에 따라 검사할 때, 벽 두께 24mm에서 인정 시험편에 사용될 수 있는 표면하 노치의 최대 크기는?",
     "options": [
       "0.143mm high x 6.4mm long\n높이 0.143mm × 길이 6.4mm",
       "1.72mm high x 6.4mm long\n높이 1.72mm × 길이 6.4mm",
@@ -316,7 +316,7 @@
     "method": "PAUT",
     "category": "Specific",
     "source": "PAUTSpec-II-A-type(2014)",
-    "question": "What reference is used for personnel qualification and certification in HIE-NDT-PAUT-P11(Rev.2) according to ASME Code ? ASME Code Case 2235-10에 따른 HIE-NDT-PAUT-P11(Rev.2)에서 인원 자격 및 인증에 사용되는 기준은 무엇인가?",
+    "question": "What reference is used for personnel qualification and certification in HIE-NDT-PAUT-P11(Rev.2) according to ASME Code ?\nASME Code Case 2235-10에 따른 HIE-NDT-PAUT-P11(Rev.2)에서 인원 자격 및 인증에 사용되는 기준은 무엇인가?",
     "options": [
       "EN 473",
       "ISO 9712",
@@ -332,7 +332,7 @@
     "method": "PAUT",
     "category": "Specific",
     "source": "PAUTSpec-II-A-type(2014)",
-    "question": "ASME Code Case 2235-10 and Sec. Ⅷ Div.1&2 describes that a qualification block must be used to qualify the PAUT written procedure for weld inspection as a minimum the block shall contain . ASME Code Case 2235-10과 ASME Sec. Ⅷ Div.1&2에서 인정시험편이 용접부 검사에 대해 작성된 PAUT 절차서를 인증하는데, 인정 시험편은 최소한 무엇을 포함하게 언급되나?",
+    "question": "ASME Code Case 2235-10 and Sec. Ⅷ Div.1&2 describes that a qualification block must be used to qualify the PAUT written procedure for weld inspection as a minimum the block shall contain .\nASME Code Case 2235-10과 ASME Sec. Ⅷ Div.1&2에서 인정시험편이 용접부 검사에 대해 작성된 PAUT 절차서를 인증하는데, 인정 시험편은 최소한 무엇을 포함하게 언급되나?",
     "options": [
       "2 flaws on the OD or ID surface and 1 subsurface flaw if access to both sides of the block.\n 시험편 양쪽에 접근하는 경우 OD 또는 ID 표면의 2개 결함과 1개의 표면하 결함",
       "2 flaws on the OD surface and 1 flaw on the ID surface\n OD 표면의 2개 결함과 ID 표면의 1개 결함",
@@ -363,7 +363,7 @@
     "method": "PAUT",
     "category": "Specific",
     "source": "PAUTSpec-II-B-type(2014)",
-    "question": "A phased array UT of 24mm thick single V butt weld is to be performed using single sectorial scan with an angle sweep range of 40~70°. The weld cap is 20mm and HAZ(6mm width). If Omniscan index offset of 40° [B] is set to 25 mm, what is the index offset[C]? 단독 V 맞대기 용접부 24mm의 PAUT는 40~70°의 각도 범위를 가진 단독 섹토리얼 주사로 수행된다. 용접 비드가 20mm이고 열영향부는6mm이다. 40°[B]에서 Omniscan 인덱스 오프셋을 25mm로 설정하였다면 인덱스 오프셋[C]은 얼마인가?",
+    "question": "A phased array UT of 24mm thick single V butt weld is to be performed using single sectorial scan with an angle sweep range of 40~70°. The weld cap is 20mm and HAZ(6mm width). If Omniscan index offset of 40° [B] is set to 25 mm, what is the index offset[C]?\n단독 V 맞대기 용접부 24mm의 PAUT는 40~70°의 각도 범위를 가진 단독 섹토리얼 주사로 수행된다. 용접 비드가 20mm이고 열영향부는6mm이다. 40°[B]에서 Omniscan 인덱스 오프셋을 25mm로 설정하였다면 인덱스 오프셋[C]은 얼마인가?",
     "options": [
       "28.3",
       "30.3",
@@ -380,8 +380,8 @@
     "source": "PAUTSpec-II-A-type(2014)",
     "question": "용접부 검사에서 다음과 같은 결과를 얻었다. ASME Sec. I, PW-52의 Nonmandatory Appendix E를 적용할 때, 합격인가 불합격인가? 24mm slag 7mm 2mm 4mm UT2(PAUT) - Specific Answers -한공 ‘A' 1 2 3 4 5 6 7 8 9 10 a b c c c d d b b b 11 12 13 14 15 16 17 18 19 20 c a c c b b b c a d 21 22 23 24 25 26 27 28 29 30 d c a c c d c b d d 31 31) a/t = 1/24 = 0.0417, l = 7mm\n두께 결함종류 결함길이(l) 결함높이(h) 표면에서 결함 상단 tip까지의 길이(a) 불합격 해당 년도 및 Rev. 확인후 사용.",
     "options": [
-      "합격",
-      "불합격"
+      "Acceptable\n합격",
+      "Unacceptable\n불합격"
     ],
     "answer": 1
   },
@@ -403,7 +403,7 @@
     "options": [
       "시험편 양쪽에서 접근 가능한 경우 OD 또는 ID 표면의 결함 2개와 표면하 결함 1개",
       "OD 표면의 결함 2개와 ID 표면의 결함 1개",
-      "장비가 정확히 교정되어 있으면 인정시험편은 필요 없다",
+      "No qualification block is needed as long as the equipment is correctly calibrated\n장비가 정확히 교정되어 있으면 인정시험편은 필요 없다",
       "OD 표면의 결함 1개, ID 표면의 결함 1개, 표면하 결함 1개"
     ],
     "answer": 3,

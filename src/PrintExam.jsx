@@ -21,6 +21,15 @@ function PrintExam({
   questions = [],
   answers = EMPTY_ANSWERS,
 
+  /*
+   * 정답·오답을 색으로 칠할지.
+   *
+   * 시험을 친 뒤 뽑는 결과지(Result)는 켠다. 정답은 파랑, 응시자가 잘못 고른
+   * 것은 빨강으로 나온다.
+   * 응시자에게 나눠 줄 백지 문제지(문제은행 출력)는 꺼야 한다.
+   */
+  showAnswers = true,
+
   name = "",
   level = "",
   method = "",
@@ -580,9 +589,11 @@ function PrintExam({
 
               /* 정답 표시는 복수정답(배열)도 함께 처리한다 */
               const optCorrect =
+                showAnswers &&
                 isCorrectOption(q, i);
 
               const optChosen =
+                showAnswers &&
                 isChosenOption(rawUserAnswer, i);
 
 
@@ -679,7 +690,7 @@ function PrintExam({
             <div className="answer-written">
 
               {
-                answers && rawUserAnswer !== undefined ? (
+                showAnswers && answers && rawUserAnswer !== undefined ? (
 
                   <>
                     <div className="written-line">

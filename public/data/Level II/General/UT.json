@@ -186,7 +186,7 @@
     "method": "UT",
     "category": "General",
     "source": "UTG-II(A)",
-    "question": "If a contact angle beam transducer produces a 45。 shear wave in steel, the angle produced by the same transducer in an aluminum specimen would be: (Vs steel=0.323m/μsec:Vs AL=0.310 Cm/μsec) (접촉 사각빔 탐상시 “철”에서는 45도 각도를 만드는 탐촉자라면 “알루미늄”시편에서는 어떻게 될까?)\n단 Vs steel=0.323m/μsec:Vs AL=0.310 Cm/μsec",
+    "question": "If a contact angle beam transducer produces a 45。 shear wave in steel, the angle produced by the same transducer in an aluminum specimen would be: (Vs steel=0.323m/μsec:Vs AL=0.310 Cm/μsec)\n(접촉 사각빔 탐상시 “철”에서는 45도 각도를 만드는 탐촉자라면 “알루미늄”시편에서는 어떻게 될까?)\n단 Vs steel=0.323m/μsec:Vs AL=0.310 Cm/μsec",
     "options": [
       "Less than 45。\n45。 미만",
       "Greater than 45。\n45。 보다 크다",

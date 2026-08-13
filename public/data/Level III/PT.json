@@ -341,7 +341,7 @@
     "korean": "침투탐상시험 면에서의 빛의 세기는?",
     "options": [
       "Minimum of 1076 lux\n최소 1,076럭스",
-      "Minimum of 1000 μW/cm²",
+      "Minimum of 1000 μW/cm²\n최소 1,000 μW/cm²",
       "20 lux",
       "220V and 250W"
     ],
@@ -1359,10 +1359,10 @@
     "id": 98,
     "question": "Who shall perform the evaluation of liquid penetrant examination?\n침투탐상검사의 평가는 누가 수행해야 하는가?",
     "options": [
-      "PT Level Ⅰ만",
-      "PT Level Ⅰ, Ⅱ",
-      "PT Level Ⅱ, Ⅲ",
-      "자격 여부와 무관하게 모든 검사원"
+      "PT Level Ⅰ only\nPT Level Ⅰ만",
+      "PT Level Ⅰ and Ⅱ\nPT Level Ⅰ, Ⅱ",
+      "PT Level Ⅱ and Ⅲ\nPT Level Ⅱ, Ⅲ",
+      "Any inspector, regardless of certification\n자격 여부와 무관하게 모든 검사원"
     ],
     "answer": 2,
     "level": "Level III",

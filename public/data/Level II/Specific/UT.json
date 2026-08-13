@@ -186,7 +186,7 @@
     "method": "UT",
     "category": "Specific",
     "source": "UTS-II(2020)(A)",
-    "question": "When performing ultrasonic testing (UT) on special-grade valve castings according to ASME B16.34, which of the following is the correct standard notch depth for the calibration block? ASME B16.34에 따라 특수 등급(Special Class) 밸브 주강품에 대해 초음파탐상검사(UT)를 수행할 때, 보정용 시험편(Calibration Block)에 가공하는 표준 노치(Notch)의 깊이 기준으로 옳은 것은?",
+    "question": "When performing ultrasonic testing (UT) on special-grade valve castings according to ASME B16.34, which of the following is the correct standard notch depth for the calibration block?\nASME B16.34에 따라 특수 등급(Special Class) 밸브 주강품에 대해 초음파탐상검사(UT)를 수행할 때, 보정용 시험편(Calibration Block)에 가공하는 표준 노치(Notch)의 깊이 기준으로 옳은 것은?",
     "options": [
       "1.6 mm, regardless of wall thickness.\n벽 두께와 상관없이 일괄적으로 1.6mm",
       "3% of the wall thickness.\n벽 두께의 3%",
@@ -323,8 +323,8 @@
     "source": "UTS-II(2020)(A)",
     "question": "Discontinuity A is interpreted as slag inclusion with 3mm in height, 6mm in length, 50 reference level in amplitude. Is it acceptable(ref : ASME B31.1)?\n불연속 A는 길이 6mm 높이 3mm 증폭 감도 수준이 제 1차 감도 수준의 50%인 스래그로 판단된다. 이것은 합격이냐?",
     "options": [
-      "합격",
-      "불합격"
+      "Acceptable\n합격",
+      "Unacceptable\n불합격"
     ],
     "answer": 0
   },

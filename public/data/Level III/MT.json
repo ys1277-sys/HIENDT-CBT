@@ -349,7 +349,7 @@
     "question_kr": "형광 자분을 사용할 때 자외선등의 세기는?",
     "options": [
       "Minimum of 1076 lux\n최소 1,076럭스",
-      "Minimum of 1000 μW/cm²",
+      "Minimum of 1000 μW/cm²\n최소 1,000 μW/cm²",
       "20 lux",
       "2.4 kAm-1 to 4.8 kAm-1\n2.4 kA/m ~ 4.8 kA/m"
     ],
@@ -1499,10 +1499,10 @@
     "id": 102,
     "question": "What level personnel shall evaluate magnetic particle examination?\n자분탐상검사의 평가는 어느 등급의 요원이 수행해야 하는가?",
     "options": [
-      "MT Level Ⅰ만",
-      "MT Level Ⅰ, Ⅱ",
-      "MT Level Ⅱ, Ⅲ",
-      "MT Level Ⅲ만"
+      "MT Level Ⅰ only\nMT Level Ⅰ만",
+      "MT Level Ⅰ and Ⅱ\nMT Level Ⅰ, Ⅱ",
+      "MT Level Ⅱ and Ⅲ\nMT Level Ⅱ, Ⅲ",
+      "MT Level Ⅲ only\nMT Level Ⅲ만"
     ],
     "answer": 2,
     "level": "Level III",

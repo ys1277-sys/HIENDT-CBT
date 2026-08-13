@@ -779,7 +779,7 @@
     "options": [
       "roentgens",
       "ergs",
-      "H & D units",
+      "H & D units\nH & D 단위",
       "roentgens per unit of time\n단위시간당 뢴트겐"
     ],
     "answer": 3,

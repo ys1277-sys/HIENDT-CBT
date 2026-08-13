@@ -67,10 +67,10 @@
     "source": "PTS-II(2020)(A)",
     "question": "The minimum penetration time shall be for temperature range 10～50℃\n온도범위 10～50℃일때 최소 침투 시간은?",
     "options": [
-      "1분",
-      "5분",
-      "10분",
-      "20분"
+      "1 min\n1분",
+      "5 min\n5분",
+      "10 min\n10분",
+      "20 min\n20분"
     ],
     "answer": 2
   },
@@ -180,7 +180,7 @@
     "method": "PT",
     "category": "Specific",
     "source": "PTS-II(2020)(A)",
-    "question": "A 18mm linear indication was found during inspection of a 50mm thick casting. What is the pass/fail decision? 50mm 두께의 주조품 검사시 선형 결함(Linear Indication) 18mm가 발견되었습니다. 합부는?",
+    "question": "A 18mm linear indication was found during inspection of a 50mm thick casting. What is the pass/fail decision?\n50mm 두께의 주조품 검사시 선형 결함(Linear Indication) 18mm가 발견되었습니다. 합부는?",
     "options": [
       "Accept 합격",
       "Reject 불합격"
@@ -193,7 +193,7 @@
     "method": "PT",
     "category": "Specific",
     "source": "PTS-II(2020)(A)",
-    "question": "A 15mm linear indication was found during inspection of a 30mm thick forging. What is the pass/fail decision? 15mm 두께의 단조품 검사시 선형 결함(Linear Indication) 30mm가 발견되었습니다. 합부는?",
+    "question": "A 15mm linear indication was found during inspection of a 30mm thick forging. What is the pass/fail decision?\n15mm 두께의 단조품 검사시 선형 결함(Linear Indication) 30mm가 발견되었습니다. 합부는?",
     "options": [
       "Accept 합격",
       "Reject 불합격"

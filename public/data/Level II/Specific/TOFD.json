@@ -20,7 +20,7 @@
     "method": "TOFD",
     "category": "Specific",
     "source": "TOFDSpec-II-A-type(2014)",
-    "question": "What is used to establish sensitivity when performing a TOFD inspection? TOFD를 수행할 때, 감도를 설정하는데 무엇이 사용되는가?",
+    "question": "What is used to establish sensitivity when performing a TOFD inspection?\nTOFD를 수행할 때, 감도를 설정하는데 무엇이 사용되는가?",
     "options": [
       "Machined targets\n 가공된 타겟",
       "Reference signals such as the lateral wave or backwall\n lateral wave 또는 backwall과 같은 대비 신호",
@@ -35,7 +35,7 @@
     "method": "TOFD",
     "category": "Specific",
     "source": "TOFDSpec-II-A-type(2014)",
-    "question": "The basic setup for a TOFD configuration uses how many probes? TOFD 구성에 대한 기본 설정은 몇 개의 프로브를 사용하나?",
+    "question": "The basic setup for a TOFD configuration uses how many probes?\nTOFD 구성에 대한 기본 설정은 몇 개의 프로브를 사용하나?",
     "options": [
       "1",
       "2",
@@ -50,7 +50,7 @@
     "method": "TOFD",
     "category": "Specific",
     "source": "TOFDSpec-II-A-type(2014)",
-    "question": "A shift of the backwall arrival time to an earlier arrival would be indicative of . 이른 도착으로 backwall 도착 시간의 이동은 어떤 결함인가?",
+    "question": "A shift of the backwall arrival time to an earlier arrival would be indicative of .\n이른 도착으로 backwall 도착 시간의 이동은 어떤 결함인가?",
     "options": [
       "Root erosion\n루트 침식",
       "IP",
@@ -65,7 +65,7 @@
     "method": "TOFD",
     "category": "Specific",
     "source": "TOFDSpec-II-A-type(2014)",
-    "question": "In order that the user can assess flaw depth in a TOFD output what is used? TOFD에서 사용자가 결함 깊이를 평가할 수 있게 사용되는 출력은?",
+    "question": "In order that the user can assess flaw depth in a TOFD output what is used?\nTOFD에서 사용자가 결함 깊이를 평가할 수 있게 사용되는 출력은?",
     "options": [
       "Linearised cursors\n선형화된 커서",
       "Linearised data displays\n선형화된 데이터 표시",
@@ -80,7 +80,7 @@
     "method": "TOFD",
     "category": "Specific",
     "source": "TOFDSpec-II-A-type(2014)",
-    "question": "TOFD is always quoted as having accurate flaw vertical sizing as an advantage. When is this not true? TOFD는 장점으로 항상 정확한 결함의 수직 크기를 갖는 것으로 인용된다. 이것이 사실이 아닐 때는?",
+    "question": "TOFD is always quoted as having accurate flaw vertical sizing as an advantage. When is this not true?\nTOFD는 장점으로 항상 정확한 결함의 수직 크기를 갖는 것으로 인용된다. 이것이 사실이 아닐 때는?",
     "options": [
       "When the flaw is IP\n 결함이 IP인 경우",
       "When the flaw is LF\n 결함이 LF인 경우",
@@ -95,7 +95,7 @@
     "method": "TOFD",
     "category": "Specific",
     "source": "TOFDSpec-II-A-type(2014)",
-    "question": "When viewing a TOFD image from a single zone TOFD setup, what would cause the backwall signal to be smaller than the lateral wave? 하나의 zone TOFD 설정에서 TOFD 이미지를 볼 때, backwall 신호가 lateral wave보다 더 작은 원인은 무엇인가?",
+    "question": "When viewing a TOFD image from a single zone TOFD setup, what would cause the backwall signal to be smaller than the lateral wave?\n하나의 zone TOFD 설정에서 TOFD 이미지를 볼 때, backwall 신호가 lateral wave보다 더 작은 원인은 무엇인가?",
     "options": [
       "Use of a beam with refracted angle less than 60°\n 굴절각이 60°보다 적은 각도의 빔 사용",
       "PCS too small\n PCS가 너무 작음",
@@ -110,7 +110,7 @@
     "method": "TOFD",
     "category": "Specific",
     "source": "TOFDSpec-II-A-type(2014)",
-    "question": "When inspecting on a 80mm thick steel butt weld, The focal depth is 5/6T. The wedge thickness is 6mm at the center axis. Calculate the approximate arrival time of lateral wave to appear in time(μs) if visible? (Vwedge = 2370m/s, Vsteel=5900m/s, refracted angle=60°) 80mm 두께의 강철 맞대기 용접부를 검사할 때, 초점 깊이는 5/6t이다. 웨지의 두께는 중심축에서 6mm이다. lateral wave가 가시적으로 나타내는 때(μs)의 도착시간을 계산하여라.\n웨지 속도 = 2370m/s, 철 속도 = 5900m/s, refracted angle=60°",
+    "question": "When inspecting on a 80mm thick steel butt weld, The focal depth is 5/6T. The wedge thickness is 6mm at the center axis. Calculate the approximate arrival time of lateral wave to appear in time(μs) if visible? (Vwedge = 2370m/s, Vsteel=5900m/s, refracted angle=60°)\n80mm 두께의 강철 맞대기 용접부를 검사할 때, 초점 깊이는 5/6t이다. 웨지의 두께는 중심축에서 6mm이다. lateral wave가 가시적으로 나타내는 때(μs)의 도착시간을 계산하여라.\n웨지 속도 = 2370m/s, 철 속도 = 5900m/s, refracted angle=60°",
     "options": [
       "33.20μs",
       "44.23μs",
@@ -125,7 +125,7 @@
     "method": "TOFD",
     "category": "Specific",
     "source": "TOFDSpec-II-A-type(2014)",
-    "question": "Calculate the PCS spacing required for a 60° TOFD probe to inspect a 39mm thick plate, if we focus at 2/3t. 포커스가 2/3t인 경우, 60° TOFD 프로브로 39mm 두께의 평판을 검사한다면 요구되는 PCS를 계산하시오.",
+    "question": "Calculate the PCS spacing required for a 60° TOFD probe to inspect a 39mm thick plate, if we focus at 2/3t.\n포커스가 2/3t인 경우, 60° TOFD 프로브로 39mm 두께의 평판을 검사한다면 요구되는 PCS를 계산하시오.",
     "options": [
       "80mm",
       "90mm",
@@ -140,7 +140,7 @@
     "method": "TOFD",
     "category": "Specific",
     "source": "TOFDSpec-II-A-type(2014)",
-    "question": "What aspect of TOFD incorrect setup would cause the Backwall signal to be distorted? TOFD 어느 부분의 잘못된 설정은 backwall 신호 왜곡의 원인이 되는가?",
+    "question": "What aspect of TOFD incorrect setup would cause the Backwall signal to be distorted?\nTOFD 어느 부분의 잘못된 설정은 backwall 신호 왜곡의 원인이 되는가?",
     "options": [
       "Use of a beam with refracted angle less than 60°\n 굴절각이 60°보다 적은 각도의 빔 사용",
       "PCS too small\n PCS가 너무 작음",
@@ -155,7 +155,7 @@
     "method": "TOFD",
     "category": "Specific",
     "source": "TOFDSpec-II-A-type(2014)",
-    "question": "When performing a TOFD inspection on the long seam of cylindrical vessel with the probes positioned either side of the weld on the ID surface, what correction for depth is required if a flaw is detected? 원통형 용기의 롱심 부분을 ID 표면의 용접부 양 쪽에 프로브를 배치하여 TOFD 검사를 수행할 때, 결함이 검출된다면, 깊이에 대한 어떤 보정이 요구되나?",
+    "question": "When performing a TOFD inspection on the long seam of cylindrical vessel with the probes positioned either side of the weld on the ID surface, what correction for depth is required if a flaw is detected?\n원통형 용기의 롱심 부분을 ID 표면의 용접부 양 쪽에 프로브를 배치하여 TOFD 검사를 수행할 때, 결함이 검출된다면, 깊이에 대한 어떤 보정이 요구되나?",
     "options": [
       "The flaw relative to the vessel surface must be decreased by the probe elevations\n 프로브 높이에 의해 용기 표면에서 결함은 상대적으로 감소되어야 한다.",
       "The flaw relative to the vessel surface must be increased by the probe elevations\n 프로브 높이에 의해 용기 표면에서 결함은 상대적으로 증가 되어야 한다.",
@@ -170,7 +170,7 @@
     "method": "TOFD",
     "category": "Specific",
     "source": "TOFDSpec-II-A-type(2014)",
-    "question": "What aspect of instrument linearity is carried out on ultrasonic systems used for TOFD? TOFD에서 사용되는 초음파 시스템에서 직선성은 장비의 어떤 면에서 나타나는가?",
+    "question": "What aspect of instrument linearity is carried out on ultrasonic systems used for TOFD?\nTOFD에서 사용되는 초음파 시스템에서 직선성은 장비의 어떤 면에서 나타나는가?",
     "options": [
       "Amplitude control\n진폭 조정",
       "Screen height\n 증폭기 화면 높이",
@@ -185,7 +185,7 @@
     "method": "TOFD",
     "category": "Specific",
     "source": "TOFDSpec-II-A-type(2014)",
-    "question": "“Offset” scans are required for what reason? “Offset\" 스캔이 요구되는 이유는 무엇인가?",
+    "question": "“Offset” scans are required for what reason?\n“Offset\" 스캔이 요구되는 이유는 무엇인가?",
     "options": [
       "Inadequate beam divergence to address the HAZ on the far surface\n먼 쪽 표면의 HAZ를 담기에 빔 발산이 부족함",
       "Inadequate beam divergence on the near surface\n가까운 쪽 표면에서 빔 발산이 부족함",
@@ -200,7 +200,7 @@
     "method": "TOFD",
     "category": "Specific",
     "source": "TOFDSpec-II-A-type(2014)",
-    "question": "Uncertainties in timing, PCS and sound velocity provide uncertainties in TOFD determination of( ). timing, PCS 그리고 음파 속도의 불확실성은 TOFD 판독의 어떤 불확실성을 제공하나?",
+    "question": "Uncertainties in timing, PCS and sound velocity provide uncertainties in TOFD determination of( ).\ntiming, PCS 그리고 음파 속도의 불확실성은 TOFD 판독의 어떤 불확실성을 제공하나?",
     "options": [
       "Indication depth\n지시 깊이",
       "Indication amplitude\n 결함 깊이 결함 진폭",
@@ -215,7 +215,7 @@
     "method": "TOFD",
     "category": "Specific",
     "source": "TOFDSpec-II-A-type(2014)",
-    "question": "When a Lateral wave is suddenly shifted later in time and the backwall is unperturbed. What is likely origin of the signal change? lateral wave가 시간축에서 갑자기 위치 이동되면 backwall은 교란된다. 신호 변화의 원인은 무엇인가?",
+    "question": "When a Lateral wave is suddenly shifted later in time and the backwall is unperturbed. What is likely origin of the signal change?\nlateral wave가 시간축에서 갑자기 위치 이동되면 backwall은 교란된다. 신호 변화의 원인은 무엇인가?",
     "options": [
       "IP",
       "Misalignment",
@@ -230,7 +230,7 @@
     "method": "TOFD",
     "category": "Specific",
     "source": "TOFDSpec-II-A-type(2014)",
-    "question": "What is the risk of testing a thick weld section with a single zone? 하나의 zone으로 두꺼운 용접부를 검사할 때의 위험성은 무엇인가?",
+    "question": "What is the risk of testing a thick weld section with a single zone?\n하나의 zone으로 두꺼운 용접부를 검사할 때의 위험성은 무엇인가?",
     "options": [
       "Multiple imaging of a flaw\n 결함의 다중 이미지",
       "Missed flaw due to pronounced dead zones\n dead zone으로 알려진 것에 의한 결함 누락",
@@ -245,7 +245,7 @@
     "method": "TOFD",
     "category": "Specific",
     "source": "TOFDSpec-II-A-type(2014)",
-    "question": "What is not an advantage of TOFD? TOFD의 이점이 아닌 것은?",
+    "question": "What is not an advantage of TOFD?\nTOFD의 이점이 아닌 것은?",
     "options": [
       "Easy discrimination of defects and geometry\n 결함 형상의 쉬운 구별",
       "Less sensitive to defect orientation\n결함의 방향에 덜 민감함",
@@ -260,7 +260,7 @@
     "method": "TOFD",
     "category": "Specific",
     "source": "TOFDSpec-II-A-type(2014)",
-    "question": "When inspecting a heavywall (100mm thick) section by TOFD, the lateral wave may not be visible on all TOFD scans. Why not? TOFD로 heavywall(100mm 두께) 부분을 검사할 때, lateral wave는 모든 TOFD 스캔에서 보이지 않을 수 있다. 왜 안 나타나는가?",
+    "question": "When inspecting a heavywall (100mm thick) section by TOFD, the lateral wave may not be visible on all TOFD scans. Why not?\nTOFD로 heavywall(100mm 두께) 부분을 검사할 때, lateral wave는 모든 TOFD 스캔에서 보이지 않을 수 있다. 왜 안 나타나는가?",
     "options": [
       "Deeper zones are scanned using smaller angles (e.g. 45°)\n깊은 zone은 더 작은 각도(예: 45°)로 주사한다",
       "Deeper zones are scanned using larger PCSs\n깊은 zone은 더 큰 PCS로 주사한다",
@@ -275,7 +275,7 @@
     "method": "TOFD",
     "category": "Specific",
     "source": "TOFDSpec-II-A-type(2014)",
-    "question": "How to setup the reference sensitivity for TOFD testing in accordance with in HIE-NDT-U09 and ASME Sec. V art. 4? 이 절차서와 ASME Sec. V art. 4에 따라 TOFD 검사를 위한 기준감도 설정방법은?",
+    "question": "How to setup the reference sensitivity for TOFD testing in accordance with in HIE-NDT-U09 and ASME Sec. V art. 4?\n이 절차서와 ASME Sec. V art. 4에 따라 TOFD 검사를 위한 기준감도 설정방법은?",
     "options": [
       "Set the TOFD probes on the surface to be utilized for calibration and set the gain control so that the lateral wave amplitude is from 40% to 90% of the full screen height (FSH)\n 교정을 위해 이용될 표면에 TOFD 프로브를 위치시키고 lateral wave 진폭이 전체 스크린 높이(FSH)의 40 ~ 90%가 되도록 게인 값을 조절한다.",
       "The noise (grass) level is less than 5–10% FSH.\n 잡음은 5~10% FSH보다 적게 한다.",
@@ -291,7 +291,7 @@
     "method": "TOFD",
     "category": "Specific",
     "source": "TOFDSpec-II-A-type(2014)",
-    "question": "What reference is used for personnel qualification and certification in HIE-NDT-U09 and ASME Code Case 2235-10? HIE-NDT-U09와 ASME Code Case 2235-10에서 인원 자격 및 인증에 사용되는 기준은 무엇인가?",
+    "question": "What reference is used for personnel qualification and certification in HIE-NDT-U09 and ASME Code Case 2235-10?\nHIE-NDT-U09와 ASME Code Case 2235-10에서 인원 자격 및 인증에 사용되는 기준은 무엇인가?",
     "options": [
       "EN 473",
       "ISO 9712",
@@ -339,7 +339,7 @@
     "method": "TOFD",
     "category": "Specific",
     "source": "TOFDSpec-II-A-type(2014)",
-    "question": "When inspecting according to ASME Code Case 2235-10, on wall thickness 24mm, what is the maximum size of a subsurface notch that can be used for a qualification block? ASME Code Case 2235-10에 따라 두께 24mm를 검사 할 때, 인정시험편에서 사용될 수 있는 표면하 노치의 최대 크기는?",
+    "question": "When inspecting according to ASME Code Case 2235-10, on wall thickness 24mm, what is the maximum size of a subsurface notch that can be used for a qualification block?\nASME Code Case 2235-10에 따라 두께 24mm를 검사 할 때, 인정시험편에서 사용될 수 있는 표면하 노치의 최대 크기는?",
     "options": [
       "0.143mm high x 6.4mm long\n높이 0.143mm × 길이 6.4mm",
       "1.72mm high x 6.4mm long\n높이 1.72mm × 길이 6.4mm",
@@ -371,7 +371,7 @@
     "method": "TOFD",
     "category": "Specific",
     "source": "TOFDSpec-II-A-type(2014)",
-    "question": "When inspecting according to ASME B 31.3 Code Case 181, on wall thickness 24mm, what is the maximum size of a surface notch that can be used for a qualification block? ASME B 31.3과 Code Case 181에 따라 두께 24mm를 검사 할 때, 인정시험편에서 사용될 수 있는 표면 노치의 최대 크기는?",
+    "question": "When inspecting according to ASME B 31.3 Code Case 181, on wall thickness 24mm, what is the maximum size of a surface notch that can be used for a qualification block?\nASME B 31.3과 Code Case 181에 따라 두께 24mm를 검사 할 때, 인정시험편에서 사용될 수 있는 표면 노치의 최대 크기는?",
     "options": [
       "0.087mm high x 6.4mm long\n높이 0.087mm × 길이 6.4mm",
       "1.04mm high x 6.4mm long\n높이 1.04mm × 길이 6.4mm",
@@ -387,7 +387,7 @@
     "method": "TOFD",
     "category": "Specific",
     "source": "TOFDSpec-II-A-type(2014)",
-    "question": "ASME Code Case 2235-10 describes that a qualification block must be used to qualify the TOFD written procedure for weld inspection as a minimum the block shall contain . ASME Code Case 2235-10에서 인정시험편이 용접부 검사에 대해 작성된 TOFD 절차서를 인증하는데, 인정 시험편은 최소한 무엇을 포함하게 언급되나?",
+    "question": "ASME Code Case 2235-10 describes that a qualification block must be used to qualify the TOFD written procedure for weld inspection as a minimum the block shall contain .\nASME Code Case 2235-10에서 인정시험편이 용접부 검사에 대해 작성된 TOFD 절차서를 인증하는데, 인정 시험편은 최소한 무엇을 포함하게 언급되나?",
     "options": [
       "2 flaws on the OD or ID surface and 1 subsurface flaw if access to both sides of the block.\n 시험편 양쪽에 접근하는 경우 OD 또는 ID 표면의 2개 결함과 1개의 표면하 결함",
       "2 flaws on the OD surface and 1 flaw on the ID surface\n OD 표면의 2개 결함과 ID 표면의 1개 결함",
@@ -419,7 +419,7 @@
     "method": "TOFD",
     "category": "Specific",
     "source": "TOFDSpec-II-B-type(2014)",
-    "question": "When inspecting on a 80mm thick steel butt weld, The focal depth is 5/6T. The wedge thickness is 6mm at the center axis. Calculate the approximate arrival time of lateral wave to appear in time(μs) if visible? (Vwedge = 2370m/s, Vsteel=5900m/s, refracted angle=60°) 80mm 두께의 강철 맞대기 용접부를 검사할 때, 초점 깊이는 5/6t이다. 웨지의 두께는 중심축에서 6mm이다. lateral wave가 가시적으로 나타내는 때(μs)의 도착시간을 계산하여라.\n웨지 속도 = 2370m/s, 철 속도 = 5900m/s, refracted angle=60°",
+    "question": "When inspecting on a 80mm thick steel butt weld, The focal depth is 5/6T. The wedge thickness is 6mm at the center axis. Calculate the approximate arrival time of lateral wave to appear in time(μs) if visible? (Vwedge = 2370m/s, Vsteel=5900m/s, refracted angle=60°)\n80mm 두께의 강철 맞대기 용접부를 검사할 때, 초점 깊이는 5/6t이다. 웨지의 두께는 중심축에서 6mm이다. lateral wave가 가시적으로 나타내는 때(μs)의 도착시간을 계산하여라.\n웨지 속도 = 2370m/s, 철 속도 = 5900m/s, refracted angle=60°",
     "options": [
       "33.20μs",
       "44.23μs",
@@ -434,7 +434,7 @@
     "options": [
       "시험편 양쪽에서 접근 가능한 경우 OD 또는 ID 표면의 결함 2개와 표면하 결함 1개",
       "OD 표면의 결함 2개와 ID 표면의 결함 1개",
-      "장비가 정확히 교정되어 있으면 인정시험편은 필요 없다",
+      "No qualification block is needed as long as the equipment is correctly calibrated\n장비가 정확히 교정되어 있으면 인정시험편은 필요 없다",
       "OD 표면의 결함 1개, ID 표면의 결함 1개, 표면하 결함 1개"
     ],
     "answer": 3,

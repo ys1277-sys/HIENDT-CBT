@@ -155,7 +155,7 @@
     "method": "PAUT",
     "category": "General",
     "source": "PAUT General - A 20200317",
-    "question": "Which statement is correct concerning phased array probes? 다음 중 phased array 탐촉자와 관련한 사항 중 옳은 것은?",
+    "question": "Which statement is correct concerning phased array probes?\n다음 중 phased array 탐촉자와 관련한 사항 중 옳은 것은?",
     "options": [
       "Phased array probes consist of several single transducers, which are acoustically and\n electrically separated.\n Phased array 탐촉자는 여러개의 단일 진동자로 구성되어 있으며, 음향적 전기적으로\n 독립되어 있다.",
       "Phased array probes are operating only with transverse waves.\n Phased array 탐촉자는 단지 횡파 모드에서만 작동된다.",
@@ -215,7 +215,7 @@
     "method": "PAUT",
     "category": "General",
     "source": "PAUT General - A 20200317",
-    "question": "What information can be taken from an A-scan presentation? A-scan 표시로부터 얻을 수 있는 정보는 무엇인가?",
+    "question": "What information can be taken from an A-scan presentation?\nA-scan 표시로부터 얻을 수 있는 정보는 무엇인가?",
     "options": [
       "The longitudinal coordinates of a reflector\n반사체의 종방향 좌표",
       "The echo amplitude of a reflector\n반사체의 에코 높이",
@@ -275,7 +275,7 @@
     "method": "PAUT",
     "category": "General",
     "source": "PAUT General - A 20200317",
-    "question": "Under what condition is the focal spot of a sound beam symmetrically in the x-y direction of a linear array? Linear array에서 X-Y 방향의 초점 크기가 대칭이 되는 조건은?",
+    "question": "Under what condition is the focal spot of a sound beam symmetrically in the x-y direction of a linear array?\nLinear array에서 X-Y 방향의 초점 크기가 대칭이 되는 조건은?",
     "options": [
       "if the aperture is much greater than the array in the passive direction\n 구경(aperture)이 passive direction에서의 배열(array)보다 훨씬 클 경우",
       "if the size of the aperture is equal to the width of the transducers in the passive\n direction\n 구경(aperture)의 크기가 passive direction에서의 진종자의 폭과 같을 경우",
@@ -426,7 +426,7 @@
     "method": "PAUT",
     "category": "General",
     "source": "PAUT General - A 20200317",
-    "question": "What is another name for the S-scan? S-scan의 다른 이름을 무엇이라 하는가?",
+    "question": "What is another name for the S-scan?\nS-scan의 다른 이름을 무엇이라 하는가?",
     "options": [
       "Sectorial\n섹토리얼(부채꼴)",
       "Azimuthal\n방위각",
@@ -501,7 +501,7 @@
     "method": "PAUT",
     "category": "General",
     "source": "PAUT General - A 20200317",
-    "question": "Why is a radius used to set sensitivity compensation when configuring focal laws for S-scan instead of other targets? 왜 다른 표적 대신 S-scan에 대한 초점을 구성할 때 감도 보상을 설정하는 데 반경이\n사용되는가?",
+    "question": "Why is a radius used to set sensitivity compensation when configuring focal laws for S-scan instead of other targets?\n왜 다른 표적 대신 S-scan에 대한 초점을 구성할 때 감도 보상을 설정하는 데 반경이\n사용되는가?",
     "options": [
       "Because it provides a constant soundpath for all focal laws\n 왜냐하면 모든 초점 법칙에 대해 지속적인 음장경로를 제공하기 때문이다.",
       "Because S-scan cannot detect FBHs reliably\n S-scan은 FBHs를 안정적으로 검출할 수 없기 때문이다.",
