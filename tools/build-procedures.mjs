@@ -27,10 +27,13 @@ const SRC = "D:/Visual Studio Code/절차서";
 const OUT = "D:/Visual Studio Code/HIENDT-CBT/public/data/procedures";
 
 /*
- * 문항이 가리키는 이름과 절차서 문서번호가 다른 것이 있다.
- * 왼쪽이 실제 문서번호, 오른쪽이 문항이 부르는 이름이다.
+ * 문서번호에서 과목을 못 읽는 것만 손으로 이어 준다.
+ * 왼쪽이 우리가 가진 문서번호, 오른쪽이 문항이 부르는 이름이다.
  *
- *  HIE-NDT-P11  TOFD 문항이 이 이름으로 부른다. 실제 문서는 TOFD-U09 다.
+ * 나머지는 앱이 과목으로 찾는다(src/procedures.js). 문항은 ASME Sec.Ⅲ
+ * 용(N21), Sec.Ⅷ 용(P11), API 6A 용(P6A) 을 따로 부르는데, 우리가 받은
+ * 것은 과목마다 한 편씩이다. 갈래를 따지면 MT 는 14문항 가운데 5문항만
+ * 열린다. 과목만 맞으면 그것을 연다.
  */
 const ALIAS = {
   "HIE-NDT-TOFD-U09": ["HIE-NDT-P11"],

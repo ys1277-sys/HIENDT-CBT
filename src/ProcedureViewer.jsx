@@ -224,9 +224,15 @@ function ProcedureViewer({ proc, onClose }) {
         className="procw-header"
         onMouseDown={start}
       >
+        {/*
+          문항이 부른 이름과 실제로 열린 문서가 다를 수 있다.
+          MT-N21 을 부른 문항에 MT 절차서를 열어 주는 식이다.
+          어느 문서를 보고 있는지 문서번호로 밝힌다.
+        */}
         <span className="procw-name">
           📄 {proc.title}
           {proc.rev ? " " + proc.rev : ""}
+          <span className="procw-code">{proc.docCode || proc.code}</span>
         </span>
 
         <span className="procw-header-right">

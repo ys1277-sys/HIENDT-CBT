@@ -55,10 +55,20 @@ try {
 }
 const table = (manifest && manifest.procedures) || {};
 
-const keyFor = (code) =>
-  Object.prototype.hasOwnProperty.call(table, code)
-    ? code
-    : Object.keys(table).find((k) => k.startsWith(code));
+/* 앱과 같은 방법으로 찾는다 (src/procedures.js) */
+const methodOf = (code) => {
+  const m = String(code).toUpperCase().match(/^HIE-NDT-([A-Z]+)-/);
+  return m ? m[1] : "";
+};
+
+const keyFor = (code) => {
+  if (Object.prototype.hasOwnProperty.call(table, code)) return code;
+  const same = Object.keys(table).find((k) => k.startsWith(code));
+  if (same) return same;
+  const method = methodOf(code);
+  if (!method) return null;
+  return Object.keys(table).find((k) => methodOf(k) === method) || null;
+};
 
 const missing = [];
 const broken = [];

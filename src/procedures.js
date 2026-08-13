@@ -39,6 +39,39 @@ export function procedureCodes(questions) {
  * 열쇠는 지시문에 적힌 이름과 똑같이 쓰기로 했지만, 개정판을 나눠
  * 등록할 수도 있어서("HIE-NDT-PT-P11 Rev.1") 앞부분이 맞으면 받아 준다.
  */
+/*
+ * 문서번호에서 과목을 읽는다.
+ *   HIE-NDT-MT-N21  -> MT
+ *   HIE-NDT-PAUT-P11 -> PAUT
+ *   HIE-NDT-P11     -> 없음 (과목이 안 들어 있다)
+ */
+function methodOf(code) {
+  const m = String(code).toUpperCase().match(/^HIE-NDT-([A-Z]+)-/);
+  return m ? m[1] : "";
+}
+
+/*
+ * 문항이 부르는 이름으로 절차서를 찾는다.
+ *
+ * 문항은 ASME Sec.Ⅲ 용(N21), Sec.Ⅷ 용(P11), API 6A 용(P6A) 을 따로 부른다.
+ * 절차서는 과목마다 한 편씩만 있다. 갈래를 따지면 MT 는 지시문이 붙은
+ * 14문항 가운데 5문항만 열린다. 갈래는 넘기고 과목만 맞으면 그것을 연다.
+ *
+ * HIE-QP-E01(자격인증절차서)처럼 과목이 없는 이름은 이 방법으로 안 걸린다.
+ * 과목 절차서에는 그 내용이 없으니 안 여는 것이 맞다.
+ */
+function findKey(table, code) {
+  if (Object.prototype.hasOwnProperty.call(table, code)) return code;
+
+  const same = Object.keys(table).find((k) => k.startsWith(code));
+  if (same) return same;
+
+  const method = methodOf(code);
+  if (!method) return null;
+
+  return Object.keys(table).find((k) => methodOf(k) === method) || null;
+}
+
 export function pickProcedures(manifest, questions) {
   const table = (manifest && manifest.procedures) || null;
   if (!table) return [];
@@ -47,11 +80,7 @@ export function pickProcedures(manifest, questions) {
   const picked = [];
 
   for (const code of codes) {
-    const key =
-      Object.prototype.hasOwnProperty.call(table, code)
-        ? code
-        : Object.keys(table).find((k) => k.startsWith(code));
-
+    const key = findKey(table, code);
     if (!key) continue;
 
     const item = table[key] || {};
@@ -68,7 +97,10 @@ export function pickProcedures(manifest, questions) {
 
     picked.push({
       key,
+      /* 문항이 부르는 이름. 지시문에서 눌리는 글자가 된다 */
       code,
+      /* 실제로 열리는 문서. 갈래가 달라도 과목이 같으면 이것을 연다 */
+      docCode: key,
       title: item.title || key,
       rev: item.rev || "",
       doc: item.doc || "",

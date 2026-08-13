@@ -1370,3 +1370,12 @@ button:disabled{
   border: 1px solid #dfe3e8;
   background: #fff;
 }
+
+/* 실제로 열린 문서번호. 문항이 부른 이름과 다를 수 있다 */
+.procw-code {
+  margin-left: 8px;
+
+  font-size: 11px;
+  font-weight: 500;
+  opacity: 0.75;
+}
