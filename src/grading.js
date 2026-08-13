@@ -55,6 +55,12 @@ export function isAnswered(q, user) {
       return typeof user === "string" && user.trim() !== "";
 
     default:
+      /*
+       * 빈 배열을 걸러야 한다.
+       * Number([]) 는 0 이라, 그냥 두면 답을 하나도 안 골랐는데도
+       * 정답이 0(1번 보기)인 문항이 전부 맞은 것으로 채점된다.
+       */
+      if (Array.isArray(user)) return user.length > 0;
       return user !== undefined && user !== null && user !== "";
   }
 }
@@ -87,7 +93,11 @@ export function isCorrect(q, user) {
 
     default: {
       if (!isAnswered(q, user)) return false;
-      return Number(user) === Number(q.answer);
+
+      const got = Number(user);
+      const want = Number(q.answer);
+
+      return Number.isFinite(got) && Number.isFinite(want) && got === want;
     }
   }
 }
