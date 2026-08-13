@@ -247,7 +247,7 @@ function ProcedureViewer({ proc, onClose }) {
           어느 문서를 보고 있는지 문서번호로 밝힌다.
         */}
         <span className="procw-name">
-          📄 {proc.title}
+          📄 {proc.titleKo || proc.title}
           {proc.rev ? " " + proc.rev : ""}
           <span className="procw-code">{proc.docCode || proc.code}</span>
         </span>

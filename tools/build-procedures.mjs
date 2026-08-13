@@ -95,7 +95,7 @@ function flatten(blocks, out = []) {
 }
 
 function readCover(lines) {
-  const out = { code: "", rev: "", date: "", subject: "" };
+  const out = { code: "", rev: "", date: "", subject: "", subjectKo: "" };
 
   for (let i = 0; i < Math.min(lines.length, 80); i++) {
     const l = lines[i];
@@ -120,9 +120,28 @@ function readCover(lines) {
         if (next) out.date = next;
       }
     }
+    /*
+     * 제목은 표 칸 안에서 줄이 나뉜다.
+     *   Subject
+     *   NDE Personnel Qualification and
+     *   Certification Procedure
+     * 첫 줄만 쓰면 "NDE Personnel Qualification and" 로 잘린다.
+     */
     if (!out.subject && /^Subject$/i.test(l)) {
-      const next = lines.slice(i + 1, i + 4).find(Boolean);
-      if (next) out.subject = next;
+      const parts = [];
+      for (let k = i + 1; k < Math.min(i + 6, lines.length); k++) {
+        const s = lines[k];
+        if (!s) continue;
+        if (/^(Issued|Dep'?t\.?|Page\b|TABLE OF CONTENTS)/i.test(s)) break;
+        if (HANGUL.test(s)) break;
+        parts.push(s);
+      }
+      if (parts.length) out.subject = parts.join(" ");
+    }
+
+    /* 한글 제목은 결재란 아래에 따로 있다 */
+    if (!out.subjectKo && /(절차서|지침서)\s*$/.test(l) && l.length <= 40) {
+      out.subjectKo = l;
     }
   }
   return out;
@@ -338,6 +357,7 @@ for (const name of fs.readdirSync(SRC).filter((f) => /\.hwp$/i.test(f))) {
   const payload = {
     code,
     title: cover.subject || code,
+    titleKo: cover.subjectKo,
     rev: cover.rev,
     date: cover.date,
     source: name,
@@ -346,7 +366,12 @@ for (const name of fs.readdirSync(SRC).filter((f) => /\.hwp$/i.test(f))) {
 
   fs.writeFileSync(path.join(OUT, `${code}.json`), JSON.stringify(payload) + "\n", "utf8");
 
-  const entry = { title: cover.subject || code, rev: cover.rev, doc: `${code}.json` };
+  const entry = {
+    title: cover.subject || code,
+    titleKo: cover.subjectKo,
+    rev: cover.rev,
+    doc: `${code}.json`,
+  };
   table[code] = entry;
   for (const alias of ALIAS[code] || []) table[alias] = { ...entry };
 

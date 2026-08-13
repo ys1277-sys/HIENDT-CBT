@@ -102,6 +102,7 @@ export function pickProcedures(manifest, questions) {
       /* 실제로 열리는 문서. 갈래가 달라도 과목이 같으면 이것을 연다 */
       docCode: key,
       title: item.title || key,
+      titleKo: item.titleKo || "",
       rev: item.rev || "",
       doc: item.doc || "",
       pages,
