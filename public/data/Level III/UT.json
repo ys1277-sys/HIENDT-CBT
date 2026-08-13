@@ -27,8 +27,8 @@
     "options": [
       "Every 4 hr",
       "Every 8 hr",
-      "Every 1 day",
-      "Every 1 week"
+      "Every 1 day\n매일",
+      "Every 1 week\n매주"
     ],
     "answer": 0,
     "explanation": ""
@@ -59,10 +59,10 @@
     "question": "What shall the system calibration check verify?\n시스템 교정 체크는 무엇에 의해 입증되어야 하는가?",
     "question_kr": "시스템 교정 체크는 무엇에 의해 입증되어야 하는가?",
     "options": [
-      "Distance range point and sensitivity setting",
-      "Probe frequency and angle",
-      "Gain and reject setting only",
-      "Scanning speed only"
+      "Distance range point and sensitivity setting\n거리 범위 지점과 감도 설정",
+      "Probe frequency and angle\n탐촉자 주파수와 각도",
+      "Gain and reject setting only\n게인과 리젝트 설정만",
+      "Scanning speed only\n주사 속도만"
     ],
     "answer": 0,
     "explanation": ""
@@ -123,10 +123,10 @@
     "question": "A 0.5in. thick weld with 2mm outside reinforcement is examined by ultrasonic method according to ASME Sec.III NB-5000. Which of the following is wrong?\n두께 0.5인치, 바깥쪽 덧살 2mm인 용접부를 ASME Sec.III NB-5000에 따라 UT 검사할 때 틀린 것은?",
     "question_kr": "두께 0.5인치, 바깥쪽 덧살 2mm인 용접부를 ASME Sec.III NB-5000에 따라 UT 검사할 때 틀린 것은?",
     "options": [
-      "All imperfections producing response greater than 50% of reference level shall be investigated.",
-      "The indication exceeding reference level amplitude and length of 3/8in. is unacceptable.",
-      "Crack indications are unacceptable regardless of length.",
-      "Lack of fusion indications are unacceptable regardless of length."
+      "All imperfections producing response greater than 50% of reference level shall be investigated.\n기준레벨의 50%를 넘는 응답을 내는 모든 결함을 조사해야 한다",
+      "The indication exceeding reference level amplitude and length of 3/8in. is unacceptable.\n기준레벨 진폭을 넘고 길이가 3/8인치를 넘는 지시는 불합격이다",
+      "Crack indications are unacceptable regardless of length.\n균열 지시는 길이와 관계없이 불합격이다",
+      "Lack of fusion indications are unacceptable regardless of length.\n융합불량 지시는 길이와 관계없이 불합격이다"
     ],
     "answer": 3,
     "explanation": ""
@@ -140,10 +140,10 @@
     "question": "When performing ultrasonic examination beneath the weld that imposes loads in the through thickness direction of primary members 1in. and greater in thickness, which requirement is wrong?\n두께 1인치 이상의 1차 부재 용접부 아래 모재 UT 검사 요구사항 중 잘못된 것은?",
     "question_kr": "두께 1인치 이상의 1차 부재 용접부 아래 모재 UT 검사 요구사항 중 잘못된 것은?",
     "options": [
-      "Shall be examined over 100% of the reference area.",
-      "A calibration block representative of the primary member shall be used.",
-      "The block for straight beam examination shall have 1/4in. diameter flat-bottomed holes.",
-      "The block shall have two holes at one-fourth and one-half thickness."
+      "Shall be examined over 100% of the reference area.\n기준 면적의 100%를 검사해야 한다",
+      "A calibration block representative of the primary member shall be used.\n주 부재를 대표하는 교정 블록을 사용해야 한다",
+      "The block for straight beam examination shall have 1/4in. diameter flat-bottomed holes.\n수직탐상용 블록에는 지름 1/4인치 평저공이 있어야 한다",
+      "The block shall have two holes at one-fourth and one-half thickness.\n블록에는 두께의 1/4과 1/2 위치에 구멍 두 개가 있어야 한다"
     ],
     "answer": 3,
     "explanation": ""
@@ -157,10 +157,10 @@
     "question": "How much is the depth and length for notch in calibration block?\n교정 블록에서 노치의 깊이와 길이는 얼마인가?",
     "question_kr": "교정 블록에서 노치의 깊이와 길이는 얼마인가?",
     "options": [
-      "Depth: 1%T, Length: 1in",
-      "Depth: 2%T, Length: 0.5in",
-      "Depth: 0.5%T, Length: 2in",
-      "Depth: 2%T, Length: 1in"
+      "Depth: 1%T, Length: 1in\n깊이 1%T, 길이 1인치",
+      "Depth: 2%T, Length: 0.5in\n깊이 2%T, 길이 0.5인치",
+      "Depth: 0.5%T, Length: 2in\n깊이 0.5%T, 길이 2인치",
+      "Depth: 2%T, Length: 1in\n깊이 2%T, 길이 1인치"
     ],
     "answer": 3,
     "explanation": ""
@@ -208,10 +208,10 @@
     "question": "Where the component material is clad, the calibration block shall be clad by ____.\n제품 재질이 클래드 되어 있는 경우 교정 블록은 어떻게 클래드 되어야 하는가?",
     "question_kr": "제품 재질이 클래드 되어 있는 경우 교정 블록은 어떻게 클래드 되어야 하는가?",
     "options": [
-      "The same welding procedure as the production part",
-      "The different welding procedure as the production part",
-      "SMAW procedure",
-      "All of the above"
+      "The same welding procedure as the production part\n실제 제품과 같은 용접절차",
+      "The different welding procedure as the production part\n실제 제품과 다른 용접절차",
+      "SMAW procedure\n피복아크용접(SMAW) 절차",
+      "All of the above\n위의 모두"
     ],
     "answer": 0,
     "explanation": ""
@@ -242,10 +242,10 @@
     "question": "What kind of method shall not be used in straight beam examination?\n수직빔 검사에 사용하지 않는 방법은?",
     "question_kr": "수직빔 검사에 사용하지 않는 방법은?",
     "options": [
-      "Back Reflection technique",
-      "DGS Calibration",
-      "Reference-block calibration",
-      "A1 Block Calibration"
+      "Back Reflection technique\n저면반사법",
+      "DGS Calibration\nDGS 선도 교정",
+      "Reference-block calibration\n대비시험편 교정",
+      "A1 Block Calibration\nA1 블록 교정"
     ],
     "answer": 3,
     "explanation": ""
@@ -262,7 +262,7 @@
       "Planar",
       "Traveling",
       "Cluster",
-      "All of the above"
+      "All of the above\n위의 모두"
     ],
     "answer": 1,
     "explanation": ""
@@ -344,10 +344,10 @@
     "question": "Which of the following is correct?\n다음 중 올바른 것은?",
     "question_kr": "다음 중 올바른 것은?",
     "options": [
-      "Instrument shall be capable of generating frequencies of at least 1 MHz to 3 MHz",
-      "The area of ultrasonic quality level 2 is 1.5 square inch",
-      "Counter bore of reference block shall be 1/2 inch diameter by 1/4 inch deep",
-      "Opposite ends of reference block shall be flat and parallel within 0.01 inch"
+      "Instrument shall be capable of generating frequencies of at least 1 MHz to 3 MHz\n장비는 최소 1~3MHz 주파수를 낼 수 있어야 한다",
+      "The area of ultrasonic quality level 2 is 1.5 square inch\n초음파 상질 2등급의 면적은 1.5제곱인치이다",
+      "Counter bore of reference block shall be 1/2 inch diameter by 1/4 inch deep\n대비시험편의 카운터보어는 지름 1/2인치, 깊이 1/4인치여야 한다",
+      "Opposite ends of reference block shall be flat and parallel within 0.01 inch\n대비시험편의 양 끝면은 0.01인치 이내로 평평하고 나란해야 한다"
     ],
     "answer": 3,
     "explanation": ""
@@ -361,10 +361,10 @@
     "question": "The following are education requirements for obtaining Level III certificate according to SNT-TC-1A. Which is incorrect?\nSNT-TC-1A에 따른 Level III 자격 취득 학력 요구사항 중 틀린 것은?",
     "question_kr": "SNT-TC-1A에 따른 Level III 자격 취득 학력 요구사항 중 틀린 것은?",
     "options": [
-      "Bachelor degree or higher in science or engineering requires at least 1 year Level II experience",
-      "Doctorate degree in science or engineering can obtain Level III immediately regardless of experience",
-      "Two-year college graduate requires at least 2 years Level II experience",
-      "High school graduate requires at least 4 years Level II experience"
+      "Bachelor degree or higher in science or engineering requires at least 1 year Level II experience\n이공계 학사 이상은 Level II 경력 1년 이상이 필요하다",
+      "Doctorate degree in science or engineering can obtain Level III immediately regardless of experience\n이공계 박사는 경력과 관계없이 곧바로 Level III를 취득할 수 있다",
+      "Two-year college graduate requires at least 2 years Level II experience\n2년제 대학 졸업자는 Level II 경력 2년 이상이 필요하다",
+      "High school graduate requires at least 4 years Level II experience\n고졸자는 Level II 경력 4년 이상이 필요하다"
     ],
     "answer": 1,
     "explanation": ""
@@ -378,10 +378,10 @@
     "question": "When attempting to obtain NDT Level III qualification according to ANSI/ASNT CP-189, which is incorrect?\nANSI/ASNT CP-189에 따라 NDT Level III 자격 취득 시 잘못된 것은?",
     "question_kr": "ANSI/ASNT CP-189에 따라 NDT Level III 자격 취득 시 잘못된 것은?",
     "options": [
-      "Experience requirements are satisfied by holding current ASNT Level III certificate",
-      "Training requirements are satisfied by holding current ASNT Level III certificate",
-      "Candidate shall hold current ASNT Level III certificate with valid endorsement",
-      "Vision examination requires far-distance acuity and color vision"
+      "Experience requirements are satisfied by holding current ASNT Level III certificate\n유효한 ASNT Level III 자격증을 가지면 경력 요건을 충족한다",
+      "Training requirements are satisfied by holding current ASNT Level III certificate\n유효한 ASNT Level III 자격증을 가지면 교육 요건을 충족한다",
+      "Candidate shall hold current ASNT Level III certificate with valid endorsement\n응시자는 유효한 배서가 있는 ASNT Level III 자격증을 보유해야 한다",
+      "Vision examination requires far-distance acuity and color vision\n시력검사는 원거리 시력과 색각을 요구한다"
     ],
     "answer": 3,
     "explanation": ""
@@ -395,10 +395,10 @@
     "question": "The near surface resolution power of a standard UT system is determined by what?\n표준 UT 시스템의 표면 근처 분해능은 무엇에 의해 결정되는가?",
     "question_kr": "표준 UT 시스템의 표면 근처 분해능은 무엇에 의해 결정되는가?",
     "options": [
-      "By the UT instrument only",
-      "By the probe only",
-      "By the length of the initial pulse",
-      "By the echo width"
+      "By the UT instrument only\n초음파 장비만으로",
+      "By the probe only\n탐촉자만으로",
+      "By the length of the initial pulse\n초기 펄스의 길이로",
+      "By the echo width\n에코의 폭으로"
     ],
     "answer": 2,
     "explanation": ""
@@ -412,10 +412,10 @@
     "question": "An echo of 25% full screen height is shown. If gain is increased by 8 dB, what echo height is expected?\n25% 화면 높이 에코에서 게인을 8dB 증가시키면 예상되는 에코 높이는?",
     "question_kr": "25% 화면 높이 에코에서 게인을 8dB 증가시키면 예상되는 에코 높이는?",
     "options": [
-      "50% full screen height",
-      "About 63% full screen height",
-      "Cannot be determined",
-      "100% full screen height"
+      "50% full screen height\n전체 화면높이의 50%",
+      "About 63% full screen height\n전체 화면높이의 약 63%",
+      "Cannot be determined\n판정할 수 없다",
+      "100% full screen height\n전체 화면높이의 100%"
     ],
     "answer": 1,
     "explanation": ""
@@ -446,10 +446,10 @@
     "question": "Following calibration and during testing the only instrument adjustment permitted is:\n교정 후 시험 중 허용되는 유일한 장비 조정은?",
     "question_kr": "교정 후 시험 중 허용되는 유일한 장비 조정은?",
     "options": [
-      "Reject control",
-      "Horizontal sweep",
-      "Gain control or attenuator",
-      "No adjustments are allowed"
+      "Reject control\n리젝트 조정",
+      "Horizontal sweep\n수평 소인",
+      "Gain control or attenuator\n게인 조정 또는 감쇠기",
+      "No adjustments are allowed\n어떤 조정도 허용되지 않는다"
     ],
     "answer": 2,
     "explanation": ""
@@ -480,10 +480,10 @@
     "question": "How can scattered indications in austenitic welds be reduced?\n오스테나이트 용접부 산란 지시를 어떻게 감소시킬 수 있는가?",
     "question_kr": "오스테나이트 용접부 산란 지시를 어떻게 감소시킬 수 있는가?",
     "options": [
-      "Using probes with wider sound beam",
-      "Grinding the surface",
-      "Increasing ultrasonic frequency",
-      "Using longitudinal waves instead of transverse waves"
+      "Using probes with wider sound beam\n음빔이 더 넓은 탐촉자를 쓴다",
+      "Grinding the surface\n표면을 연삭한다",
+      "Increasing ultrasonic frequency\n초음파 주파수를 높인다",
+      "Using longitudinal waves instead of transverse waves\n횡파 대신 종파를 쓴다"
     ],
     "answer": 3,
     "explanation": ""
@@ -497,10 +497,10 @@
     "question": "According to ASME Sec.VIII Div.2 para 7.5.5, what type of indication is shown?\nASME Sec.VIII Div.2 7.5.5항에 따른 지시 분류는?",
     "question_kr": "ASME Sec.VIII Div.2 7.5.5항에 따른 지시 분류는?",
     "options": [
-      "Surface indication",
-      "Subsurface indication categorized as surface flaw",
-      "Reject indication",
-      "Accept indication"
+      "Surface indication\n표면 지시",
+      "Subsurface indication categorized as surface flaw\n표면 결함으로 분류되는 표면하 지시",
+      "Reject indication\n불합격 지시",
+      "Accept indication\n합격 지시"
     ],
     "answer": 1,
     "explanation": "",
@@ -517,8 +517,8 @@
     "options": [
       "4 mm",
       "6 mm",
-      "All of above are accepted",
-      "All of above are rejected"
+      "All of above are accepted\n위의 모두 합격이다",
+      "All of above are rejected\n위의 모두 불합격이다"
     ],
     "answer": 2,
     "explanation": ""
@@ -532,10 +532,10 @@
     "question": "When inspecting according to ASME B31.3 Appendix R, on wall thickness 24mm, what is the maximum size of a surface notch that can be used for a qualification block?\nASME B31.3 Appendix R에 따라 두께 24mm 검사 시 인정시험편에 사용할 수 있는 표면 노치 최대 크기는?",
     "question_kr": "ASME B31.3 Appendix R에 따라 두께 24mm 검사 시 인정시험편에 사용할 수 있는 표면 노치 최대 크기는?",
     "options": [
-      "0.087mm high x 6.4mm long",
-      "1.04mm high x 6.4mm long",
-      "2.09mm high x 6.4mm long",
-      "4.18mm high x 6.4mm long"
+      "0.087mm high x 6.4mm long\n높이 0.087mm × 길이 6.4mm",
+      "1.04mm high x 6.4mm long\n높이 1.04mm × 길이 6.4mm",
+      "2.09mm high x 6.4mm long\n높이 2.09mm × 길이 6.4mm",
+      "4.18mm high x 6.4mm long\n높이 4.18mm × 길이 6.4mm"
     ],
     "answer": 1,
     "explanation": ""
@@ -549,10 +549,10 @@
     "question": "What is the recommended minimum digitization rate for PAUT in Mandatory Appendix V of ASME Sec.V Art.4?\nASME Sec.V Art.4 Mandatory Appendix V에서 PAUT의 권장 최소 디지털화 속도는?",
     "question_kr": "ASME Sec.V Art.4 Mandatory Appendix V에서 PAUT의 권장 최소 디지털화 속도는?",
     "options": [
-      "3 times the examination frequency",
-      "4 times the examination frequency",
-      "5 times the examination frequency",
-      "10 times the examination frequency"
+      "3 times the examination frequency\n검사 주파수의 3배",
+      "4 times the examination frequency\n검사 주파수의 4배",
+      "5 times the examination frequency\n검사 주파수의 5배",
+      "10 times the examination frequency\n검사 주파수의 10배"
     ],
     "answer": 2,
     "explanation": ""
@@ -566,9 +566,9 @@
     "question": "What kind of defect is shown in the figure below?\n아래 그림은 어떤 종류의 결함인가?",
     "question_kr": "아래 그림은 어떤 종류의 결함인가?",
     "options": [
-      "Lack of root penetration",
-      "Base metal mismatch",
-      "Surface breaking planar flaw",
+      "Lack of root penetration\n루트 용입부족",
+      "Base metal mismatch\n모재 어긋남",
+      "Surface breaking planar flaw\n표면개구 평면형 결함",
       "Porosity"
     ],
     "answer": 2,
@@ -586,8 +586,8 @@
     "options": [
       "Accept",
       "Reject",
-      "Indication is not subject to evaluation",
-      "It cannot be evaluated"
+      "Indication is not subject to evaluation\n평가 대상이 아닌 지시",
+      "It cannot be evaluated\n평가할 수 없다"
     ],
     "answer": 1,
     "explanation": "",
@@ -614,10 +614,10 @@
     "id": 37,
     "question": "In an ultrasonic test system, where signal amplitudes are displayed on a CRT, an advantage of a frequency independent attenuator over a continuously, variable gain control is that:\n신호 진폭이 CRT에 표시되는 초음파 시험 시스템에서, 연속 가변식 이득 조정기에 비해 주파수 독립형 감쇠기가 갖는 장점은?",
     "options": [
-      "the pulse shape distortion is less",
-      "the signal amplitude measured, using the attenuator, is independent of frequency",
-      "the dynamic range of the system is decreased",
-      "the effect of amplification threshold is avoided"
+      "the pulse shape distortion is less\n펄스 파형 일그러짐이 적다",
+      "the signal amplitude measured, using the attenuator, is independent of frequency\n감쇠기로 측정한 신호 진폭이 주파수와 무관하다",
+      "the dynamic range of the system is decreased\n계통의 동적범위가 줄어든다",
+      "the effect of amplification threshold is avoided\n증폭 문턱값의 영향을 피할 수 있다"
     ],
     "answer": 1,
     "level": "Level III",
@@ -628,10 +628,10 @@
     "id": 38,
     "question": "An amplifier, in which received echo pulses must exceed a certain voltage before they can be indicated, might be used to:\n수신된 에코 펄스가 일정 전압을 넘어야만 표시되는 증폭기는 어떤 용도로 사용되는가?",
     "options": [
-      "suppress amplifier noise, unimportant scatter echoes or small flaw echoes which are of no consequence.",
-      "provide a screen display with nearly ideal vertical linearity characteristics",
-      "compensate for the unavoidable effects of material attenuation losses",
-      "provide distance-amplitude correction automatically"
+      "suppress amplifier noise, unimportant scatter echoes or small flaw echoes which are of no consequence.\n증폭기 잡음이나 중요치 않은 산란 에코, 무시해도 되는 작은 결함 에코를 억제한다",
+      "provide a screen display with nearly ideal vertical linearity characteristics\n수직 직선성이 거의 이상적인 화면 표시를 만든다",
+      "compensate for the unavoidable effects of material attenuation losses\n피할 수 없는 재료 감쇠 손실을 보정한다",
+      "provide distance-amplitude correction automatically\n거리진폭 보정을 자동으로 해준다"
     ],
     "answer": 0,
     "level": "Level III",
@@ -642,10 +642,10 @@
     "id": 39,
     "question": "The intended purpose, of the adjustable, calibrated attenuator of an ultrasonic instrument, is to:\n초음파 장비의 조정 가능한 교정된 감쇠기의 사용 목적은?",
     "options": [
-      "control transducer damping",
-      "increase the dynamic range of the instrument",
-      "broaden the frequency range",
-      "attenuate the voltage applied to the transducer"
+      "control transducer damping\n탐촉자의 댐핑을 조절한다",
+      "increase the dynamic range of the instrument\n장비의 동적범위를 넓힌다",
+      "broaden the frequency range\n주파수 범위를 넓힌다",
+      "attenuate the voltage applied to the transducer\n탐촉자에 걸리는 전압을 줄인다"
     ],
     "answer": 1,
     "level": "Level III",
@@ -656,10 +656,10 @@
     "id": 40,
     "question": "The preferred method of ultrasonically inspecting a complex shaped forging:\n복잡한 형상의 단조품을 초음파로 검사할 때 선호되는 방법은?",
     "options": [
-      "is an automated immersion test of the finished forging using an instrument containing a calibrated attenuator in conjunction with a c-scan recorder",
-      "combines through inspection of the billet prior to forging with a careful inspection of the finished part in all areas where the shape permits",
-      "is a manual contact test of the finished part",
-      "is an automated immersion test of the billet prior to forging"
+      "is an automated immersion test of the finished forging using an instrument containing a calibrated attenuator in conjunction with a c-scan recorder\n교정된 감쇠기가 있는 장비와 C-scan 기록계를 함께 써서 완성 단조품을 자동 수침 검사하는 것",
+      "combines through inspection of the billet prior to forging with a careful inspection of the finished part in all areas where the shape permits\n단조 전 빌릿 전체 검사와, 형상이 허용하는 모든 부위에 대한 완성품의 세밀한 검사를 함께 하는 것",
+      "is a manual contact test of the finished part\n완성품을 수동 접촉법으로 검사하는 것",
+      "is an automated immersion test of the billet prior to forging\n단조 전 빌릿을 자동 수침 검사하는 것"
     ],
     "answer": 1,
     "level": "Level III",
@@ -670,10 +670,10 @@
     "id": 41,
     "question": "When maximum sensitivity is required from a transducer:\n탐촉자에서 최대 감도가 요구될 때는?",
     "options": [
-      "a straight beam unit should be used",
-      "large diameter crystals are required",
-      "the piezoelectric element should be driven at its fundamental resonant frequency",
-      "the band width of the transducer should be as large as possible"
+      "a straight beam unit should be used\n수직 탐촉자를 써야 한다",
+      "large diameter crystals are required\n지름이 큰 진동자가 필요하다",
+      "the piezoelectric element should be driven at its fundamental resonant frequency\n압전소자를 기본 공진주파수로 구동해야 한다",
+      "the band width of the transducer should be as large as possible\n탐촉자의 대역폭이 가능한 한 넓어야 한다"
     ],
     "answer": 2,
     "level": "Level III",
@@ -684,10 +684,10 @@
     "id": 42,
     "question": "The ability of a test system to separate the front surface echo and the echo from a small discontinuity just below the surface:\n표면 바로 아래의 작은 불연속에서 오는 에코와 표면 에코를 분리해 내는 시험 시스템의 능력은?",
     "options": [
-      "depends primarily upon the shape of the initial pulse from the transducer",
-      "is not related to the surface roughness of the part under inspection",
-      "is primarily related to the thickness of the part under inspection",
-      "is usually improved by using a larger diameter search unit"
+      "depends primarily upon the shape of the initial pulse from the transducer\n주로 탐촉자의 초기 펄스 파형에 좌우된다",
+      "is not related to the surface roughness of the part under inspection\n검사 부품의 표면 거칠기와 무관하다",
+      "is primarily related to the thickness of the part under inspection\n주로 검사 부품의 두께와 관계있다",
+      "is usually improved by using a larger diameter search unit\n보통 지름이 더 큰 탐촉자를 쓰면 좋아진다"
     ],
     "answer": 0,
     "level": "Level III",
@@ -698,10 +698,10 @@
     "id": 43,
     "question": "Search unit sensitivity is most often determined by:\n탐촉자의 감도는 주로 무엇으로 결정되는가?",
     "options": [
-      "calculations based on frequency and thickness of piezoelectric element",
-      "the amplitude of the response from an artificial discontinuity",
-      "comparing it to a similar search unit made by the same manufacturer",
-      "determining the ringing time of search unit"
+      "calculations based on frequency and thickness of piezoelectric element\n압전소자의 주파수와 두께로 계산",
+      "the amplitude of the response from an artificial discontinuity\n인공 불연속의 응답 진폭",
+      "comparing it to a similar search unit made by the same manufacturer\n같은 제조사의 비슷한 탐촉자와 비교",
+      "determining the ringing time of search unit\n탐촉자의 링잉 시간 측정"
     ],
     "answer": 1,
     "level": "Level III",
@@ -712,10 +712,10 @@
     "id": 44,
     "question": "Notches provide good reference discontinuities when UT examination is conducted to primarily detect defects such as:\n용입부족과 같은 결함을 주로 검출하기 위해 초음파탐상을 수행할 때, 좋은 대비 불연속이 되는 것은?",
     "options": [
-      "porosity in rolled plate",
-      "inadequate penetration at the root of a weld",
-      "weld porosity",
-      "internal inclusions"
+      "porosity in rolled plate\n압연 강판의 기공",
+      "inadequate penetration at the root of a weld\n용접부 루트의 용입부족",
+      "weld porosity\n용접부 기공",
+      "internal inclusions\n내부 개재물"
     ],
     "answer": 1,
     "level": "Level III",
@@ -726,9 +726,9 @@
     "id": 45,
     "question": "The difference between a compression and shear wave is:\n종파와 횡파의 차이는?",
     "options": [
-      "quantitative measure",
-      "particle direction",
-      "qualitative measure",
+      "quantitative measure\n정량적 척도",
+      "particle direction\n입자 진동 방향",
+      "qualitative measure\n정성적 척도",
       "amplitude"
     ],
     "answer": 1,
@@ -740,10 +740,10 @@
     "id": 46,
     "question": "Based upon wave theory and ignoring attenuation losses, the echo amplitude is:\n파동 이론에 근거하고 감쇠 손실을 무시할 때, 에코 진폭은?",
     "options": [
-      "directly proportional to the distance to the reflector",
-      "inversely proportional to the distance to the reflector",
-      "directly proportional to the square of the distance to the reflector",
-      "inversely proportional to the square of the distance from the reflector"
+      "directly proportional to the distance to the reflector\n반사체까지 거리에 비례한다",
+      "inversely proportional to the distance to the reflector\n반사체까지 거리에 반비례한다",
+      "directly proportional to the square of the distance to the reflector\n반사체까지 거리의 제곱에 비례한다",
+      "inversely proportional to the square of the distance from the reflector\n반사체까지 거리의 제곱에 반비례한다"
     ],
     "answer": 3,
     "level": "Level III",
@@ -756,8 +756,8 @@
     "options": [
       "increase",
       "decrease",
-      "remain unchanged",
-      "cannot be predicted as the response is material dependent"
+      "remain unchanged\n변하지 않는다",
+      "cannot be predicted as the response is material dependent\n응답이 재료에 따라 달라 예측할 수 없다"
     ],
     "answer": 0,
     "level": "Level III",
@@ -768,10 +768,10 @@
     "id": 48,
     "question": "As you increase the frequency of a given size transducer:\n같은 크기의 탐촉자에서 주파수를 높이면?",
     "options": [
-      "the lateral resolution is impaired",
-      "the beam divergence increases",
-      "the length of the near field increases",
-      "the sensitivity increases"
+      "the lateral resolution is impaired\n횡방향 분해능이 나빠진다",
+      "the beam divergence increases\n빔 확산이 커진다",
+      "the length of the near field increases\n근거리음장의 길이가 길어진다",
+      "the sensitivity increases\n감도가 높아진다"
     ],
     "answer": 2,
     "level": "Level III",
@@ -796,10 +796,10 @@
     "id": 50,
     "question": "In calibrating an ultrasonic test instrument utilizing the responses from each of the area/amplitude type reference blocks, the determination of the:\n면적/진폭형 대비시험편 각각의 응답을 이용해 초음파 장비를 교정할 때, 무엇을 판정하는가?",
     "options": [
-      "vertical range is obtained",
-      "pulse range is obtained",
-      "resolving range is obtained",
-      "horizontal range is obtained"
+      "vertical range is obtained\n수직 범위를 얻는다",
+      "pulse range is obtained\n펄스 범위를 얻는다",
+      "resolving range is obtained\n분해 범위를 얻는다",
+      "horizontal range is obtained\n수평 범위를 얻는다"
     ],
     "answer": 0,
     "level": "Level III",
@@ -810,10 +810,10 @@
     "id": 51,
     "question": "Test sensitivity corrections for metal distance, and discontinuity area responses, are accomplished by using:\n금속 거리와 불연속 면적에 따른 시험 감도 보정은 무엇을 사용해 이루어지는가?",
     "options": [
-      "an area/amplitude set of blocks",
-      "an area/amplitude and a distance/amplitude set of blocks",
-      "a distance/amplitude set of blocks",
-      "steel balls of varying diameter"
+      "an area/amplitude set of blocks\n면적/진폭 시험편 세트",
+      "an area/amplitude and a distance/amplitude set of blocks\n면적/진폭과 거리/진폭 시험편 세트",
+      "a distance/amplitude set of blocks\n거리/진폭 시험편 세트",
+      "steel balls of varying diameter\n지름이 다른 강구"
     ],
     "answer": 1,
     "level": "Level III",
@@ -824,10 +824,10 @@
     "id": 52,
     "question": "Rough surfaces can cause undesirable effects, which are noticeable when parts are tested ultrasonically, including:\n거친 표면은 초음파 시험 시 바람직하지 않은 영향을 주는데, 여기에 해당하는 것은?",
     "options": [
-      "annular maxima rings",
-      "an increase in the width of front face echo and consequent loss or resolving power",
-      "acoustical mismatch",
-      "asymmetrical modes"
+      "annular maxima rings\n고리 모양의 극대점",
+      "an increase in the width of front face echo and consequent loss or resolving power\n표면 에코의 폭이 넓어져 분해능이 떨어지는 것",
+      "acoustical mismatch\n음향 부정합",
+      "asymmetrical modes\n비대칭 모드"
     ],
     "answer": 1,
     "level": "Level III",
@@ -840,8 +840,8 @@
     "options": [
       "increase",
       "decrease",
-      "not change",
-      "change frequency"
+      "not change\n변하지 않는다",
+      "change frequency\n주파수가 바뀐다"
     ],
     "answer": 1,
     "level": "Level III",
@@ -852,10 +852,10 @@
     "id": 54,
     "question": "To eliminate the decrease of sensitivity close to a wall which is parallel to the beam direction, the probe used should be:\n빔 진행 방향과 나란한 벽면 근처에서 감도가 떨어지는 것을 없애려면 어떤 탐촉자를 써야 하는가?",
     "options": [
-      "as small as possible",
-      "of as low frequency as possible",
-      "both a and b above",
-      "large and with a frequency as high as possible"
+      "as small as possible\n가능한 한 작게",
+      "of as low frequency as possible\n가능한 한 낮은 주파수로",
+      "Both 1 and 2 above\n1번과 2번 모두",
+      "large and with a frequency as high as possible\n크고 주파수는 가능한 한 높게"
     ],
     "answer": 3,
     "level": "Level III",
@@ -866,10 +866,10 @@
     "id": 55,
     "question": "Some information on the shape of a flaw may be given by:\n결함의 형상에 대한 정보를 얻을 수 있는 것은?",
     "options": [
-      "the shape of the echo",
-      "the amplitude of the echo",
-      "both a and b above",
-      "neither a nor b above"
+      "the shape of the echo\n에코의 모양",
+      "the amplitude of the echo\n에코의 진폭",
+      "Both 1 and 2 above\n1번과 2번 모두",
+      "Neither 1 nor 2 above\n1번도 2번도 아님"
     ],
     "answer": 2,
     "level": "Level III",
@@ -881,9 +881,9 @@
     "question": "Of the transducer materials listed below, the most efficient receiver is:\n다음 탐촉자 재료 중 수신 효율이 가장 좋은 것은?",
     "options": [
       "quartz",
-      "lithium sulfate",
-      "barium titanate",
-      "lead meta-niobate"
+      "lithium sulfate\n황산리튬",
+      "barium titanate\n티탄산바륨",
+      "lead meta-niobate\n메타니오브산납"
     ],
     "answer": 1,
     "level": "Level III",
@@ -894,10 +894,10 @@
     "id": 57,
     "question": "The concentration of energy in the far field of a transducer beam:\n탐촉자 빔의 원거리음장에서 에너지 집중은?",
     "options": [
-      "is greatest at the outer edges of the beam",
-      "is greatest at the center of the beam",
-      "is the same at the outer edges as in the center of the beam",
-      "is directly proportional to beam width"
+      "is greatest at the outer edges of the beam\n빔의 바깥쪽 가장자리에서 가장 크다",
+      "is greatest at the center of the beam\n빔의 중심에서 가장 크다",
+      "is the same at the outer edges as in the center of the beam\n빔의 가장자리와 중심이 같다",
+      "is directly proportional to beam width\n빔 폭에 비례한다"
     ],
     "answer": 1,
     "level": "Level III",
@@ -909,9 +909,9 @@
     "question": "In angle beam shear wave testing, skip distance will _______ as the thickness of the test specimen is increased.\n사각 횡파 탐상에서 시험체의 두께가 증가하면 스킵거리는 어떻게 되는가?",
     "options": [
       "decrease",
-      "not change",
+      "not change\n변하지 않는다",
       "increase",
-      "decrease by half with double thickness"
+      "decrease by half with double thickness\n두께가 2배가 되면 절반으로 줄어든다"
     ],
     "answer": 3,
     "level": "Level III",
@@ -950,10 +950,10 @@
     "id": 61,
     "question": "The principal attributes, that determine the differences in ultrasonic velocities among materials, are:\n재료마다 초음파 속도가 다른 것을 결정짓는 주된 성질은?",
     "options": [
-      "frequency and wavelength",
-      "thickness and travel time",
-      "elasticity and density",
-      "chemistry and permeability"
+      "frequency and wavelength\n주파수와 파장",
+      "thickness and travel time\n두께와 진행 시간",
+      "elasticity and density\n탄성과 밀도",
+      "chemistry and permeability\n화학 조성과 투자율"
     ],
     "answer": 2,
     "level": "Level III",
@@ -964,10 +964,10 @@
     "id": 62,
     "question": "The term that is used to determine the relative transmittance and reflectance of ultrasonic energy at an interface is called:\n계면에서 초음파 에너지의 상대적 투과율과 반사율을 결정하는 데 쓰이는 용어는?",
     "options": [
-      "acoustic attenuation",
-      "interface refraction",
-      "acoustic impedance ratio",
-      "acoustic frequency"
+      "acoustic attenuation\n음향 감쇠",
+      "interface refraction\n계면 굴절",
+      "acoustic impedance ratio\n음향 임피던스 비",
+      "acoustic frequency\n음향 주파수"
     ],
     "answer": 2,
     "level": "Level III",
@@ -978,10 +978,10 @@
     "id": 63,
     "question": "In general, when a discontinuity is thin, it is a poor reflector. The maximum reflection is obtained when the thickness of the discontinuity is equal to at least:\n일반적으로 불연속이 얇으면 반사가 나쁘다. 최대 반사를 얻으려면 불연속의 두께가 최소 얼마여야 하는가?",
     "options": [
-      "one-quarter wavelength",
-      "one-half wavelength",
-      "one wavelength",
-      "even multiples of one-half wavelength"
+      "one-quarter wavelength\n1/4 파장",
+      "one-half wavelength\n1/2 파장",
+      "one wavelength\n1 파장",
+      "even multiples of one-half wavelength\n1/2 파장의 짝수 배"
     ],
     "answer": 0,
     "level": "Level III",
@@ -992,10 +992,10 @@
     "id": 64,
     "question": "When angle beam contact testing a test piece, increasing the incident angle until the second critical angle is reached, results in:\n시험체를 사각 직접접촉법으로 탐상할 때, 제2 임계각에 이를 때까지 입사각을 키우면 어떻게 되는가?",
     "options": [
-      "total reflection of a surface wave",
-      "45°refraction of the shear wave",
-      "production of a surface wave",
-      "none of the above"
+      "total reflection of a surface wave\n표면파의 전반사",
+      "45°refraction of the shear wave\n횡파의 45° 굴절",
+      "production of a surface wave\n표면파의 발생",
+      "none of the above\n위의 어느 것도 아님"
     ],
     "answer": 2,
     "level": "Level III",
@@ -1006,10 +1006,10 @@
     "id": 65,
     "question": "It is possible for a discontinuity, smaller than the transducer, to produce indications of fluctuating amplitude as the search unit is moved laterally if testing is being performed in the:\n탐촉자보다 작은 불연속이 탐촉자를 옆으로 움직일 때 진폭이 변동하는 지시를 나타낼 수 있는 경우는?",
     "options": [
-      "Fraunhofer zone",
-      "near field",
-      "Snell field",
-      "shadow zone"
+      "Fraunhofer zone\n프라운호퍼 영역(원거리음장)",
+      "near field\n근거리음장",
+      "Snell field\n스넬 영역",
+      "shadow zone\n그림자 영역"
     ],
     "answer": 1,
     "level": "Level III",
@@ -1020,10 +1020,10 @@
     "id": 66,
     "question": "In an immersion test of a piece of steel or aluminum, the water distance appears on the display as a fairly wide space between the initial pulse and the front surface reflection because of:\n강이나 알루미늄 시험편의 수침 탐상에서, 초기 펄스와 표면 반사 사이에 수거리가 상당히 넓게 나타나는 이유는?",
     "options": [
-      "reduced velocity of sound in water as compared to test specimen",
-      "increased velocity of sound in water as compared to test specimen",
-      "temperature of the wave",
-      "all of the above"
+      "reduced velocity of sound in water as compared to test specimen\n시험체에 비해 물속 음속이 느린 것",
+      "increased velocity of sound in water as compared to test specimen\n시험체에 비해 물속 음속이 빠른 것",
+      "temperature of the wave\n파동의 온도",
+      "all of the above\n위의 모두"
     ],
     "answer": 0,
     "level": "Level III",
@@ -1034,10 +1034,10 @@
     "id": 67,
     "question": "In the immersion technique, the distance between the face of the transducer and the test surface(water path) is usually adjusted so that the time required to send the sound beam through the water:\n수침법에서 탐촉자 면과 시험 표면 사이의 거리(수거리)는 보통 어떻게 조정하는가?",
     "options": [
-      "is equal to the time required for the sound to travel through the test piece",
-      "is greater than the time required for the sound to travel through the test piece",
-      "is less than the time required for the sound to travel through the test piece",
-      "None of the above"
+      "is equal to the time required for the sound to travel through the test piece\n음파가 시험체를 통과하는 데 걸리는 시간과 같다",
+      "is greater than the time required for the sound to travel through the test piece\n음파가 시험체를 통과하는 데 걸리는 시간보다 길다",
+      "is less than the time required for the sound to travel through the test piece\n음파가 시험체를 통과하는 데 걸리는 시간보다 짧다",
+      "None of the above\n위의 어느 것도 아님"
     ],
     "answer": 1,
     "level": "Level III",
@@ -1048,10 +1048,10 @@
     "id": 68,
     "question": "In immersion testing in a small tank, a manually operated manipulator is used to:\n작은 수조에서 수침 탐상할 때 수동 조작기는 어떤 용도로 쓰이는가?",
     "options": [
-      "set the proper water path",
-      "set the proper transducer angle",
-      "set the proper index function",
-      "both a and b"
+      "set the proper water path\n적절한 수거리를 맞춘다",
+      "set the proper transducer angle\n적절한 탐촉자 각도를 맞춘다",
+      "set the proper index function\n적절한 인덱스 위치를 맞춘다",
+      "Both 1 and 2\n1번과 2번 모두"
     ],
     "answer": 3,
     "level": "Level III",
@@ -1062,10 +1062,10 @@
     "id": 69,
     "question": "A primary purpose of a reference standard is:\n대비시험편의 주된 목적은?",
     "options": [
-      "to provide a guide for adjusting instrument controls to reveal discontinuities that are considered harmful to the end use of the product",
-      "to give the technician a tool for determining exact discontinuity size",
-      "to provide assurance that all discontinuities, smaller than a certain specified reference reflector, are capable of being detected by the test",
-      "to provide a standard reflector which exactly simulates natural discontinuities of a critical size"
+      "to provide a guide for adjusting instrument controls to reveal discontinuities that are considered harmful to the end use of the product\n제품의 최종 용도에 해로운 불연속이 드러나도록 장비를 조정하는 기준을 주기 위해",
+      "to give the technician a tool for determining exact discontinuity size\n검사자에게 불연속의 정확한 크기를 재는 수단을 주기 위해",
+      "to provide assurance that all discontinuities, smaller than a certain specified reference reflector, are capable of being detected by the test\n정해진 대비반사체보다 작은 모든 불연속이 검출될 수 있음을 보증하기 위해",
+      "to provide a standard reflector which exactly simulates natural discontinuities of a critical size\n임계 크기의 자연 불연속을 정확히 모사하는 표준 반사체를 주기 위해"
     ],
     "answer": 0,
     "level": "Level III",
@@ -1076,10 +1076,10 @@
     "id": 70,
     "question": "A smooth, flat discontinuity, whose major plane is not perpendicular to the direction of sound propagation, may be indicated by:\n주된 평면이 음파 진행 방향과 수직이 아닌 매끄럽고 평평한 불연속은 무엇으로 나타날 수 있는가?",
     "options": [
-      "an echo amplitude comparable in magnitude to the back surface reflection",
-      "a complete loss of back surface reflection",
-      "an echo amplitude larger in magnitude than the back surface reflection",
-      "all of the above"
+      "an echo amplitude comparable in magnitude to the back surface reflection\n저면반사와 비슷한 크기의 에코 진폭",
+      "a complete loss of back surface reflection\n저면반사의 완전 소실",
+      "an echo amplitude larger in magnitude than the back surface reflection\n저면반사보다 큰 에코 진폭",
+      "all of the above\n위의 모두"
     ],
     "answer": 3,
     "level": "Level III",
@@ -1090,10 +1090,10 @@
     "id": 71,
     "question": "Attenuation is a difficult quantity to measure accurately, particularly in solid materials at the test frequencies normally used. The overall result usually observed includes other loss mechanisms which can include:\n감쇠는 정확히 측정하기 어려운 양이며, 특히 통상 사용하는 시험 주파수에서 고체 재료의 경우 그렇다. 관측되는 전체 결과에 함께 포함되는 손실 기구는?",
     "options": [
-      "beam spread",
-      "couplant mismatch",
-      "test piece geometry",
-      "all of the above"
+      "beam spread\n빔 확산",
+      "couplant mismatch\n접촉매질 부정합",
+      "test piece geometry\n시험체의 형상",
+      "all of the above\n위의 모두"
     ],
     "answer": 3,
     "level": "Level III",
@@ -1104,10 +1104,10 @@
     "id": 72,
     "question": "The attenuation of energy within a material in the far field of the ultrasonic beam may be expressed as the:\n초음파 빔의 원거리음장에서 재료 내 에너지 감쇠는 무엇으로 나타낼 수 있는가?",
     "options": [
-      "arithmetic mean",
-      "geometrical average",
-      "exponential average",
-      "exponential decay"
+      "arithmetic mean\n산술 평균",
+      "geometrical average\n기하 평균",
+      "exponential average\n지수 평균",
+      "exponential decay\n지수 감쇠"
     ],
     "answer": 3,
     "level": "Level III",
@@ -1118,10 +1118,10 @@
     "id": 73,
     "question": "In an immersion inspection of raw material, the water travel distance should be:\n원자재를 수침 탐상할 때 수거리는 어떠해야 하는가?",
     "options": [
-      "exactly 3 inches",
-      "equal to 3 inches ±½ inch",
-      "equal to the water travel distance used in setting up on the reference standards",
-      "equal to the thickness of the material"
+      "exactly 3 inches\n정확히 3인치",
+      "equal to 3 inches ±½ inch\n3인치 ±1/2인치",
+      "equal to the water travel distance used in setting up on the reference standards\n대비시험편에서 설정할 때 쓴 수거리와 같게",
+      "equal to the thickness of the material\n재료의 두께와 같게"
     ],
     "answer": 2,
     "level": "Level III",
@@ -1132,10 +1132,10 @@
     "id": 74,
     "question": "The angle of reflection is:\n반사각은?",
     "options": [
-      "equal to the angle of incidence",
-      "dependent on the couplant used",
-      "dependent on the frequency used",
-      "equal to the angle of refraction"
+      "equal to the angle of incidence\n입사각과 같다",
+      "dependent on the couplant used\n사용한 접촉매질에 따라 달라진다",
+      "dependent on the frequency used\n사용한 주파수에 따라 달라진다",
+      "equal to the angle of refraction\n굴절각과 같다"
     ],
     "answer": 0,
     "level": "Level III",
@@ -1146,10 +1146,10 @@
     "id": 75,
     "question": "The coated, inside surface of the large and of a cathode-ray tube, which becomes luminous when struck by an electron beam, is called:\n음극선관 큰 쪽 안쪽 면에 발라져 전자빔이 부딪히면 빛을 내는 물질을 무엇이라 하는가?",
     "options": [
-      "an electron gun",
-      "an electron amplifier",
-      "a CRT screen",
-      "an electron counter"
+      "an electron gun\n전자총",
+      "an electron amplifier\n전자 증폭기",
+      "a CRT screen\nCRT 화면",
+      "an electron counter\n전자 계수기"
     ],
     "answer": 2,
     "level": "Level III",
@@ -1160,10 +1160,10 @@
     "id": 76,
     "question": "The speed with which ultrasonic waves travel through a material is known as its:\n초음파가 재료를 통과하는 속도를 무엇이라 하는가?",
     "options": [
-      "velocity of sound energy",
-      "pulse repetition rate of sound energy",
-      "pulse recovery rate of sound energy",
-      "ultrasonic response of sound energy"
+      "velocity of sound energy\n음향 에너지의 속도",
+      "pulse repetition rate of sound energy\n음향 에너지의 펄스 반복률",
+      "pulse recovery rate of sound energy\n음향 에너지의 펄스 회복률",
+      "ultrasonic response of sound energy\n음향 에너지의 초음파 응답"
     ],
     "answer": 0,
     "level": "Level III",
@@ -1174,10 +1174,10 @@
     "id": 77,
     "question": "The amount of energy reflected from a discontinuity will be dependent on:\n불연속에서 반사되는 에너지의 양은 무엇에 좌우되는가?",
     "options": [
-      "the size of the discontinuity",
-      "the orientation of the discontinuity",
-      "the type of discontinuity",
-      "all of the above"
+      "the size of the discontinuity\n불연속의 크기",
+      "the orientation of the discontinuity\n불연속의 방향",
+      "the type of discontinuity\n불연속의 종류",
+      "all of the above\n위의 모두"
     ],
     "answer": 3,
     "level": "Level III",
@@ -1188,10 +1188,10 @@
     "id": 78,
     "question": "The angle of reflection of an ultrasonic beam at an aluminum-water interface is:\n알루미늄-물 계면에서 초음파 빔의 반사각은?",
     "options": [
-      "approximately ½ the angle of incidence",
-      "approximately 4 time the angle of incidence",
-      "equal to the angle of incidence",
-      "0.256 times the angle of incidence"
+      "approximately ½ the angle of incidence\n입사각의 약 1/2",
+      "approximately 4 time the angle of incidence\n입사각의 약 4배",
+      "equal to the angle of incidence\n입사각과 같다",
+      "0.256 times the angle of incidence\n입사각의 0.256배"
     ],
     "answer": 2,
     "level": "Level III",
@@ -1202,10 +1202,10 @@
     "id": 79,
     "question": "Significant errors in ultrasonic thickness measurement can occur if:\n초음파 두께 측정에서 큰 오차가 생길 수 있는 경우는?",
     "options": [
-      "the test frequency is varying at a constant rate",
-      "the velocity of propagation deviates substantially from an assumed constant value for a given material",
-      "water is employed as a couplant between the transducer and the part being measured",
-      "None of the above should cause errors"
+      "the test frequency is varying at a constant rate\n시험 주파수가 일정한 비율로 변할 때",
+      "the velocity of propagation deviates substantially from an assumed constant value for a given material\n전파 속도가 그 재료에 가정한 일정값에서 크게 벗어날 때",
+      "water is employed as a couplant between the transducer and the part being measured\n탐촉자와 측정 부품 사이에 물을 접촉매질로 쓸 때",
+      "None of the above should cause errors\n위의 어느 것도 오차를 일으키지 않는다"
     ],
     "answer": 1,
     "level": "Level III",
@@ -1216,10 +1216,10 @@
     "id": 80,
     "question": "In a basic plus-echo ultrasonic instrument, the component that coordinates the action and timing of other components is called a:\n기본 펄스-에코 초음파 장비에서 다른 구성품의 동작과 시간을 조율하는 부품을 무엇이라 하는가?",
     "options": [
-      "display unit or CRT",
+      "display unit or CRT\n표시부 또는 CRT",
       "receiver",
-      "marker circuit or range marker circuit",
-      "synchronizer, clock or timer"
+      "marker circuit or range marker circuit\n마커 회로 또는 범위 마커 회로",
+      "synchronizer, clock or timer\n동기부, 클록 또는 타이머"
     ],
     "answer": 3,
     "level": "Level III",
@@ -1230,10 +1230,10 @@
     "id": 81,
     "question": "The incident angles, at which 90°refraction of longitudinal and shear waves occurs, are called:\n종파와 횡파가 90°로 굴절되는 입사각을 무엇이라 하는가?",
     "options": [
-      "the normal angles of incidence",
-      "the critical angles",
-      "the angles of maximum reflection",
-      "none of the above"
+      "the normal angles of incidence\n수직 입사각",
+      "the critical angles\n임계각",
+      "the angles of maximum reflection\n최대 반사각",
+      "none of the above\n위의 어느 것도 아님"
     ],
     "answer": 1,
     "level": "Level III",
@@ -1244,10 +1244,10 @@
     "id": 82,
     "question": "In contact testing, shear waves can be induced in the test material by:\n직접접촉법에서 시험 재료에 횡파를 발생시키는 방법은?",
     "options": [
-      "placing a X-cut crystal directly on the surface of the materials and coupling through a film of oil",
-      "using two transducers on opposite sides of the test specimen",
-      "placing a spherical, acoustic lens on the face of the transducer",
-      "using a transducer mounted on a plastic wedge so that sound enters the part at an angle"
+      "placing a X-cut crystal directly on the surface of the materials and coupling through a film of oil\nX컷 진동자를 재료 표면에 직접 놓고 유막으로 접촉시킨다",
+      "using two transducers on opposite sides of the test specimen\n시험체 양쪽에 탐촉자 두 개를 쓴다",
+      "placing a spherical, acoustic lens on the face of the transducer\n탐촉자 면에 구면 음향렌즈를 붙인다",
+      "using a transducer mounted on a plastic wedge so that sound enters the part at an angle\n플라스틱 웨지에 탐촉자를 붙여 음파가 비스듬히 들어가게 한다"
     ],
     "answer": 3,
     "level": "Level III",
@@ -1275,7 +1275,7 @@
       "½ inch",
       "50 percent",
       "10 percent",
-      "None required"
+      "None required\n필요 없음"
     ],
     "answer": 2,
     "level": "Level III",
@@ -1300,10 +1300,10 @@
     "id": 86,
     "question": "For ultrasonic examination of forgings in accordance with SA-388, the straight beam transducer shall be:\nSA-388에 따라 단조품을 초음파 검사할 때 수직 탐촉자는 어떠해야 하는가?",
     "options": [
-      "1 inch diameter",
-      "1 1/8 inch diameter",
-      "1 inch square",
-      "Any of the above"
+      "1 inch diameter\n지름 1인치",
+      "1 1/8 inch diameter\n지름 1과 1/8인치",
+      "1 inch square\n한 변 1인치 정사각형",
+      "Any of the above\n위의 어느 것이든"
     ],
     "answer": 3,
     "level": "Level III",
@@ -1314,9 +1314,10 @@
     "id": 87,
     "question": "ASME Section Ⅷ, Division I, requires that discontinuity indications in welds that exceed __________ be recorded.\nASME Section Ⅷ, Division I에서는 용접부의 불연속 지시가 무엇을 초과하면 기록하도록 요구하는가?",
     "options": [
-      "20 percent of the reference level",
-      "50 percent of the reference level",
-      "75 percent of the reference level\n b. 80 percent of the reference level"
+      "20 percent of the reference level\n기준레벨의 20%",
+      "50 percent of the reference level\n기준레벨의 50%",
+      "75 percent of the reference level\n기준레벨의 75%",
+      "80 percent of the reference level\n기준레벨의 80%"
     ],
     "answer": 1,
     "level": "Level III",
@@ -1358,7 +1359,7 @@
       "10",
       "2",
       "5",
-      "None of the above"
+      "None of the above\n위의 어느 것도 아님"
     ],
     "answer": 3,
     "level": "Level III",
@@ -1369,10 +1370,10 @@
     "id": 91,
     "question": "Angle beam search units, used in accordance with AWS D1.1, shall be marked to indicate :\nAWS D1.1에 따라 사용하는 사각 탐촉자에는 무엇을 표시해야 하는가?",
     "options": [
-      "Index point",
+      "Index point\n입사점",
       "Frequency",
-      "Reflection angle",
-      "None of the above"
+      "Reflection angle\n반사각",
+      "None of the above\n위의 어느 것도 아님"
     ],
     "answer": [
       0,
@@ -1462,10 +1463,10 @@
     "id": 98,
     "question": "Reference standards (calibration blocks) are to be constructed from materials that .\n대비시험편(교정 블록)은 어떤 재료로 제작해야 하는가?",
     "options": [
-      "came from the same heat as the test parts",
-      "have a similar metallurgical structures as the test parts",
-      "are the same material specification, grade, and heat treatment as parts",
-      "are of the same thickness as the test parts"
+      "came from the same heat as the test parts\n시험 부품과 같은 용해 로트에서 나온 것",
+      "have a similar metallurgical structures as the test parts\n시험 부품과 비슷한 금속 조직을 가진 것",
+      "are the same material specification, grade, and heat treatment as parts\n부품과 재료 규격·등급·열처리가 같은 것",
+      "are of the same thickness as the test parts\n시험 부품과 두께가 같은 것"
     ],
     "answer": 2,
     "level": "Level III",
@@ -1478,9 +1479,9 @@
     "question": "Personnel conducting UT shall be certified in accordance with .\n초음파 검사를 수행하는 요원은 무엇에 따라 자격을 인증받아야 하는가?",
     "options": [
       "SNT-TC-1a",
-      "the referencing Code section",
-      "the vender's written practice",
-      "the Code of Ethics for ASME"
+      "the referencing Code section\n참조하는 코드 섹션",
+      "the vender's written practice\n공급자의 절차서",
+      "the Code of Ethics for ASME\nASME 윤리강령"
     ],
     "answer": 1,
     "level": "Level III",
@@ -1492,10 +1493,10 @@
     "id": 100,
     "question": "The calibration blocks for L-wave testing of castings shall use SDHs as shown in .\n주조품의 종파 탐상용 교정 블록은 어디에 제시된 대로 측면 구멍(SDH)을 사용해야 하는가?",
     "options": [
-      "IIW block",
-      "basic calibration block",
+      "IIW block\nIIW 시험편",
+      "basic calibration block\n기본 교정 시험편",
       "SA - 609",
-      "none of the above"
+      "none of the above\n위의 어느 것도 아님"
     ],
     "answer": 3,
     "level": "Level III",
@@ -1507,10 +1508,10 @@
     "id": 101,
     "question": "Scanning practices call for transducer positions to .\n주사 방법에서 탐촉자 위치는 어떻게 하도록 규정하는가?",
     "options": [
-      "be from two orthogonal directions",
-      "overlap each other by 10 percent",
-      "never scan at rates in excess of 6 in./sec",
-      "none of the above"
+      "be from two orthogonal directions\n서로 직교하는 두 방향에서 할 것",
+      "overlap each other by 10 percent\n서로 10% 겹칠 것",
+      "never scan at rates in excess of 6 in./sec\n초당 6인치를 넘는 속도로 주사하지 말 것",
+      "none of the above\n위의 어느 것도 아님"
     ],
     "answer": 1,
     "level": "Level III",
@@ -1537,10 +1538,10 @@
     "id": 103,
     "question": "(ASME Section Ⅷ-Div.1) - What are the three indications that are unacceptable regardless of length?\n(ASME Section Ⅷ-Div.1) 길이와 관계없이 불합격인 세 가지 지시는?",
     "options": [
-      "Cracks, lack of fusion, and incomplete penetration",
-      "Porosity, slag, and undercut",
-      "Laminations, inclusions, and segregation",
-      "Arc strikes, spatter, and overlap"
+      "Cracks, lack of fusion, and incomplete penetration\n균열, 융합불량, 용입부족",
+      "Porosity, slag, and undercut\n기공, 슬래그, 언더컷",
+      "Laminations, inclusions, and segregation\n라미네이션, 개재물, 편석",
+      "Arc strikes, spatter, and overlap\n아크 스트라이크, 스패터, 오버랩"
     ],
     "answer": 0,
     "level": "Level III",
@@ -1551,9 +1552,9 @@
     "id": 104,
     "question": "(ASME Section Ⅷ-Div.1) - What may be used to fulfill the examination and demonstration requirements of SNT-TC-1A and the employer's written practice?\n(ASME Section Ⅷ-Div.1) SNT-TC-1A와 사업주 절차서의 시험 및 실기 요구사항을 충족하는 데 사용할 수 있는 것은?",
     "options": [
-      "ACCP and CP-189",
-      "SNT-TC-1A and ASTM E165",
-      "ISO 9712 and EN 473",
+      "ACCP and CP-189\nACCP와 CP-189",
+      "SNT-TC-1A and ASTM E165\nSNT-TC-1A와 ASTM E165",
+      "ISO 9712 and EN 473\nISO 9712와 EN 473",
       "ASME Section Ⅴ, Article 5"
     ],
     "answer": 0,
@@ -1577,10 +1578,10 @@
     "id": 106,
     "question": "(ASME Section Ⅷ-Div.2) - The manufacturer shall maintain a record from uncorrected areas having responses that exceed ________.\n(ASME Section Ⅷ-Div.2) 제조자는 무엇을 초과하는 응답을 보이는 미보수 부위의 기록을 유지해야 하는가?",
     "options": [
-      "20 percent of the reference level",
-      "50 percent of the reference level",
-      "75 percent of the reference level",
-      "80 percent of the reference level"
+      "20 percent of the reference level\n기준레벨의 20%",
+      "50 percent of the reference level\n기준레벨의 50%",
+      "75 percent of the reference level\n기준레벨의 75%",
+      "80 percent of the reference level\n기준레벨의 80%"
     ],
     "answer": 1,
     "level": "Level III",

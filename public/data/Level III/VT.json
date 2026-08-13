@@ -42,10 +42,10 @@
     "question": "Visual examinations may be conducted using a reference standard that is:\n육안검사시 사용하는 대비 표준은 다음 중 어떠한 것이 사용되어야 하는가?",
     "question_kr": "육안검사시 사용하는 대비 표준은 다음 중 어떠한 것이 사용되어야 하는가?",
     "options": [
-      "equivalent to a 2T penetrameter",
-      "at least 408 lumens",
-      "a fine line 1/32 in. or less in width",
-      "none of the above"
+      "equivalent to a 2T penetrameter\n2T 투과도계에 상당하는 것",
+      "at least 408 lumens\n최소 408루멘",
+      "a fine line 1/32 in. or less in width\n폭 1/32인치 이하의 가는 선",
+      "none of the above\n위의 어느 것도 아님"
     ],
     "answer": 2,
     "explanation": ""
@@ -76,10 +76,10 @@
     "question": "Which of the following should be noted on the examination report of a surface visual examination?\n육안검사의 시험보고서에 기록해야 하는 사항은?",
     "question_kr": "육안검사의 시험보고서에 기록해야 하는 사항은?",
     "options": [
-      "procedure used to perform examination",
-      "equipment used during examination",
-      "examiner's name and level of certification",
-      "all of the above"
+      "procedure used to perform examination\n검사에 사용한 절차서",
+      "equipment used during examination\n검사에 사용한 장비",
+      "examiner's name and level of certification\n검사자의 이름과 자격 등급",
+      "all of the above\n위의 모두"
     ],
     "answer": 3,
     "explanation": ""
@@ -93,10 +93,10 @@
     "question": "Standard Jaeger J-1 letters are used to:\n표준 Jaeger J-1 문자는 무엇을 확인하기 위해 사용하는가?",
     "question_kr": "표준 Jaeger J-1 문자는 무엇을 확인하기 위해 사용하는가?",
     "options": [
-      "verify direct visual examination",
-      "assure near distance acuity",
-      "qualify a remote visual equipment",
-      "demonstrate a visual examination procedure"
+      "verify direct visual examination\n직접 육안검사를 확인하기 위해",
+      "assure near distance acuity\n근거리 시력을 확인하기 위해",
+      "qualify a remote visual equipment\n원격 육안검사 장비를 인증하기 위해",
+      "demonstrate a visual examination procedure\n육안검사 절차서를 실증하기 위해"
     ],
     "answer": 1,
     "explanation": ""
@@ -127,10 +127,10 @@
     "question": "In judging acceptance of an undercut, which shall be taken into consideration?\n언더컷 합부 판정시 고려해야 할 사항은?",
     "question_kr": "언더컷 합부 판정시 고려해야 할 사항은?",
     "options": [
-      "component thickness",
-      "undercut depth",
-      "weld reinforcement",
-      "undercut length"
+      "component thickness\n부재 두께",
+      "undercut depth\n언더컷 깊이",
+      "weld reinforcement\n용접 덧살",
+      "undercut length\n언더컷 길이"
     ],
     "answer": [
       0,
@@ -151,7 +151,7 @@
       "1/32 inch",
       "1/8 inch",
       "1/16 inch",
-      "None of above"
+      "None of above\n위의 어느 것도 아님"
     ],
     "answer": 3,
     "explanation": ""
@@ -182,10 +182,10 @@
     "question": "Which one of the following would not be rejectable for NG welds?\nNG 용접부에 불합격이 아닌 경우는?",
     "question_kr": "NG 용접부에 불합격이 아닌 경우는?",
     "options": [
-      "A crack of 1/16 inch long",
-      "Two 1/32 inch diameter rounded indications separated by 1/16 inch",
-      "A rounded indication of 1/4 inch diameter",
-      "Weld undercut 1/8 inch deep"
+      "A crack of 1/16 inch long\n길이 1/16인치 균열",
+      "Two 1/32 inch diameter rounded indications separated by 1/16 inch\n1/16인치 간격으로 떨어진 지름 1/32인치 원형 지시 2개",
+      "A rounded indication of 1/4 inch diameter\n지름 1/4인치 원형 지시",
+      "Weld undercut 1/8 inch deep\n깊이 1/8인치 용접 언더컷"
     ],
     "answer": 1,
     "explanation": ""
@@ -200,9 +200,9 @@
     "question_kr": "상용 필렛 용접 게이지를 사용하여 확인할 수 없는 것은?",
     "options": [
       "Concavity",
-      "Leg size",
+      "Leg size\n각장(leg size)",
       "Convexity",
-      "Fillet weld width"
+      "Fillet weld width\n필릿 용접 폭"
     ],
     "answer": 3,
     "explanation": ""
@@ -216,10 +216,10 @@
     "question": "Which of the following statements related to fiberscope is not true?\n파이버스코프와 관련된 설명 중 사실이 아닌 것은?",
     "question_kr": "파이버스코프와 관련된 설명 중 사실이 아닌 것은?",
     "options": [
-      "The image guide is a coherent bundle",
-      "The light guide is a coherent bundle",
-      "A diopter is used to adjust difference in eyesight",
-      "The fibers are generally about 30 microns each in diameter"
+      "The image guide is a coherent bundle\n상 전달용 광섬유 다발은 정렬된 다발이다",
+      "The light guide is a coherent bundle\n조명용 광섬유 다발은 정렬된 다발이다",
+      "A diopter is used to adjust difference in eyesight\n시력 차이를 보정하는 데 디옵터를 쓴다",
+      "The fibers are generally about 30 microns each in diameter\n광섬유는 보통 가닥마다 지름이 약 30마이크론이다"
     ],
     "answer": 1,
     "explanation": ""
@@ -233,10 +233,10 @@
     "question": "All certification shall be automatically terminated:\n모든 자격 인증이 자동 만료되는 경우는?",
     "question_kr": "모든 자격 인증이 자동 만료되는 경우는?",
     "options": [
-      "At the end of three years",
-      "When employee becomes qualified in a new NDT method",
-      "If employee has not worked in the method within past six months",
-      "When employee leaves the employer where certified"
+      "At the end of three years\n3년이 지났을 때",
+      "When employee becomes qualified in a new NDT method\n새로운 비파괴검사법 자격을 취득했을 때",
+      "If employee has not worked in the method within past six months\n지난 6개월 동안 해당 방법으로 업무를 하지 않았을 때",
+      "When employee leaves the employer where certified\n자격을 받은 사업장을 떠났을 때"
     ],
     "answer": 3,
     "explanation": ""
@@ -250,10 +250,10 @@
     "question": "The control and administration of NDT personnel training, examination and certification:\nNDT 개인 훈련, 시험, 인증서의 관리와 운영은?",
     "question_kr": "NDT 개인 훈련, 시험, 인증서의 관리와 운영은?",
     "options": [
-      "Shall reflect the guidelines set forth in SNT-TC-1A para.1 scope",
-      "Shall be prepared by quality control management",
-      "Shall be reproduced verbatim from SNT-TC-1A",
-      "Shall be submitted to ASNT for approval"
+      "Shall reflect the guidelines set forth in SNT-TC-1A para.1 scope\nSNT-TC-1A 제1항 적용범위의 지침을 반영해야 한다",
+      "Shall be prepared by quality control management\n품질관리 부서가 작성해야 한다",
+      "Shall be reproduced verbatim from SNT-TC-1A\nSNT-TC-1A를 그대로 옮겨 적어야 한다",
+      "Shall be submitted to ASNT for approval\n승인을 받기 위해 ASNT에 제출해야 한다"
     ],
     "answer": 0,
     "explanation": ""
@@ -267,10 +267,10 @@
     "question": "In qualification of Level III personnel, the employer:\nLevel III 인원의 자격인증에서 고용주는?",
     "question_kr": "Level III 인원의 자격인증에서 고용주는?",
     "options": [
-      "Must give written procedure",
-      "Must give basic and method examination",
-      "May waive examination",
-      "May waive written examination if oral examination is given"
+      "Must give written procedure\n절차서를 서면으로 제공해야 한다",
+      "Must give basic and method examination\n기초시험과 방법시험을 실시해야 한다",
+      "May waive examination\n시험을 면제할 수 있다",
+      "May waive written examination if oral examination is given\n구술시험을 실시하면 필기시험을 면제할 수 있다"
     ],
     "answer": 0,
     "explanation": ""
@@ -301,10 +301,10 @@
     "question": "Which of the following is not a primary purpose of VT as defined in ASME B16.34?\nASME B16.34에서 규정하는 VT의 주요 목적이 아닌 것은?",
     "question_kr": "ASME B16.34에서 규정하는 VT의 주요 목적이 아닌 것은?",
     "options": [
-      "Precise measurement of internal grain size",
-      "Verifying roughness and finish of machined surfaces",
-      "Verifying discontinuities on casting surfaces",
-      "Verifying valve body markings"
+      "Precise measurement of internal grain size\n내부 결정립 크기의 정밀 측정",
+      "Verifying roughness and finish of machined surfaces\n기계가공면의 거칠기와 다듬질 확인",
+      "Verifying discontinuities on casting surfaces\n주조품 표면의 불연속 확인",
+      "Verifying valve body markings\n밸브 몸체 각인 확인"
     ],
     "answer": 0,
     "explanation": ""
@@ -318,8 +318,8 @@
     "question": "Which of the following is most closely related to fatigue failure?\n피로파괴와 가장 밀접한 관련이 있는 것은?",
     "question_kr": "피로파괴와 가장 밀접한 관련이 있는 것은?",
     "options": [
-      "Metal embrittlement",
-      "Repeated loading",
+      "Metal embrittlement\n금속 취화",
+      "Repeated loading\n반복 하중",
       "Creep",
       "Overheating"
     ],
@@ -352,10 +352,10 @@
     "question": "Weld area examination shall include the weld and adjacent base metal for at least:\n용접부 시험은 용접부와 인접 모재를 포함해야 하며, 인접 모재는 용접부 각 끝단에서 최소 얼마이어야 하는가?",
     "question_kr": "용접부 시험은 용접부와 인접 모재를 포함해야 하며, 인접 모재는 용접부 각 끝단에서 최소 얼마이어야 하는가?",
     "options": [
-      "one inch",
-      "one wall thickness",
+      "one inch\n1인치",
+      "one wall thickness\n두께 1배",
       "1/2 inch",
-      "one weld bead width"
+      "one weld bead width\n용접 비드 폭 1배"
     ],
     "answer": 2,
     "explanation": ""
@@ -370,7 +370,7 @@
     "question_kr": "다음 중 손톱으로 느낄 수 있는 표면 질감 특성은?",
     "options": [
       "Roughness",
-      "Surface flaws",
+      "Surface flaws\n표면 결함",
       "Waviness",
       "Profile"
     ],
@@ -386,10 +386,10 @@
     "question": "The primary purpose of a backing bar used during the welding process is to:\n용접 공정 중 백킹바의 주 목적은?",
     "question_kr": "용접 공정 중 백킹바의 주 목적은?",
     "options": [
-      "Eliminate slag",
-      "Assure proper alignment of the weld joint",
-      "Allow a sound root weld to be made",
-      "None of the above"
+      "Eliminate slag\n슬래그를 없애기 위해",
+      "Assure proper alignment of the weld joint\n용접 이음의 정렬을 확보하기 위해",
+      "Allow a sound root weld to be made\n건전한 루트 용접이 되도록 하기 위해",
+      "None of the above\n위의 어느 것도 아님"
     ],
     "answer": 2,
     "explanation": ""
@@ -404,8 +404,8 @@
     "question_kr": "Pipe 결함은 어디에서 발생하는가?",
     "options": [
       "A forging",
-      "A pipe weld",
-      "The ingot",
+      "A pipe weld\n배관 용접부",
+      "The ingot\n잉곳",
       "A casting"
     ],
     "answer": 2,
@@ -421,9 +421,9 @@
     "question_kr": "사용 중 발생하는 주요 결함은?",
     "options": [
       "Undercuts",
-      "Fatigue cracks",
-      "Inadequate penetration",
-      "Forging laps"
+      "Fatigue cracks\n피로 균열",
+      "Inadequate penetration\n용입부족",
+      "Forging laps\n단조 겹침(랩)"
     ],
     "answer": 1,
     "explanation": ""
@@ -522,10 +522,10 @@
     "question": "Which parts of Level I and Level II examinations shall be written?\nLevel I 및 Level II 시험에서 서면시험으로 실시해야 하는 부분은?",
     "question_kr": "Level I 및 Level II 시험에서 서면시험으로 실시해야 하는 부분은?",
     "options": [
-      "The general and specific",
-      "The general and practical",
-      "The general, specific, and practical",
-      "Only the general"
+      "The general and specific\n일반과 전문",
+      "The general and practical\n일반과 실기",
+      "The general, specific, and practical\n일반, 전문, 실기",
+      "Only the general\n일반만"
     ],
     "answer": 2,
     "explanation": ""

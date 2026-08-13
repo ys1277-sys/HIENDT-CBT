@@ -68,9 +68,9 @@
     "question": "In order that the user can assess flaw depth in a TOFD output what is used? TOFD에서 사용자가 결함 깊이를 평가할 수 있게 사용되는 출력은?",
     "options": [
       "Linearised cursors\n선형화된 커서",
-      "Linearised data displays\n 선형화된 커서들 선형화된 표면 데이터",
-      "Either a or b",
-      "None of the above\n a 또는 b 어느 하나 상기 모두 아님"
+      "Linearised data displays\n선형화된 데이터 표시",
+      "Either 1 or 2\n1번 또는 2번 중 하나",
+      "None of the above\n위의 어느 것도 아님"
     ],
     "answer": 2
   },

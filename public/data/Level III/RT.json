@@ -8,7 +8,7 @@
     "question": "What requirement of this procedure shall be demonstrated on production or technique radiograph for its qualification?\n방사선 투과사진 기술 또는 제작에 대한 품질을 입증하기 위하여 이 절차서에서의 요구사항은 무엇인가?",
     "question_kr": "방사선 투과사진 기술 또는 제작에 대한 품질을 입증하기 위하여 이 절차서에서의 요구사항은 무엇인가?",
     "options": [
-      "Density and penetrameter image requirements",
+      "Density and penetrameter image requirements\n농도와 투과도계 상(image) 요구사항",
       "",
       "",
       ""
@@ -25,7 +25,7 @@
     "question": "For complete radiographic coverage of cylindrical girth welds, a minimum of is required when the source is placed outside and the film inside the object.\n원주 용접부의 양호한 방사선 투과사진 적용범위에 대하여 선원이 외부 그리고 내부에 위치했을 때 최소 어느 정도 요구되는가.",
     "question_kr": "원주 용접부의 양호한 방사선 투과사진 적용범위에 대하여 선원이 외부 그리고 내부에 위치했을 때 최소 어느 정도 요구되는가.",
     "options": [
-      "Four exposures 90° apart",
+      "Four exposures 90° apart\n90° 간격 4회 촬영",
       "",
       "",
       ""
@@ -59,7 +59,7 @@
     "question": "What is the different requirements in this procedure between X-ray and γ-ray?\n절차서에서 X선과 감마선 사이의 다른 요구조건은 무엇인가?",
     "question_kr": "절차서에서 X선과 감마선 사이의 다른 요구조건은 무엇인가?",
     "options": [
-      "Minimum film density 1.8 for X-ray / 2.0 for Gamma-ray",
+      "Minimum film density 1.8 for X-ray / 2.0 for Gamma-ray\n최소 필름농도 X선 1.8 / 감마선 2.0",
       "",
       "",
       ""
@@ -76,7 +76,7 @@
     "question": "What evidence would you find on a radiograph that would indicate insufficient protection from back-scatter?\n투과사진 상에서 후방산란을 대비한 불충분한 방어를 나타내는 어떤 증거를 발견할 수 있나?",
     "question_kr": "투과사진 상에서 후방산란을 대비한 불충분한 방어를 나타내는 어떤 증거를 발견할 수 있나?",
     "options": [
-      "B letter appears on a dark background of the radiograph",
+      "B letter appears on a dark background of the radiograph\n방사선사진의 어두운 바탕 위에 B 글자가 나타난다",
       "",
       "",
       ""
@@ -93,7 +93,7 @@
     "question": "What are the radiographic density requirements?\n투과사진에서 요구되어지는 농도는?",
     "question_kr": "투과사진에서 요구되어지는 농도는?",
     "options": [
-      "Single viewing for X-ray : 1.8~4.0 / Composite viewing of multiple film : 1.3~4.0 / Single viewing for γ-ray : 2.0~4.0",
+      "Single viewing for X-ray : 1.8~4.0 / Composite viewing of multiple film : 1.3~4.0 / Single viewing for γ-ray : 2.0~4.0\nX선 단일필름 관찰 1.8~4.0 / 다중필름 겹쳐 관찰 1.3~4.0 / 감마선 단일필름 관찰 2.0~4.0",
       "",
       "",
       ""
@@ -110,10 +110,10 @@
     "question": "What is the minimum equivalent sensitivity when radiographic test for PSL2 welds?\n품질등급 PSL2의 용접부를 방사선투과검사 할 때 최소 등가 감도는 얼마인가?",
     "question_kr": "품질등급 PSL2의 용접부를 방사선투과검사 할 때 최소 등가 감도는 얼마인가?",
     "options": [
-      "Minimum equivalent sensitivity of 1% and a 1-1T quality level",
-      "Minimum equivalent sensitivity of 2% and a 2-2T quality level",
-      "Minimum equivalent sensitivity of 4% and a 2-2T quality level",
-      "Minimum equivalent sensitivity of 4% and a 4-4T quality level"
+      "Minimum equivalent sensitivity of 1% and a 1-1T quality level\n최소 등가감도 1%, 상질 1-1T",
+      "Minimum equivalent sensitivity of 2% and a 2-2T quality level\n최소 등가감도 2%, 상질 2-2T",
+      "Minimum equivalent sensitivity of 4% and a 2-2T quality level\n최소 등가감도 4%, 상질 2-2T",
+      "Minimum equivalent sensitivity of 4% and a 4-4T quality level\n최소 등가감도 4%, 상질 4-4T"
     ],
     "answer": 1,
     "explanation": ""
@@ -161,7 +161,7 @@
     "question": "A circumferential butt weld in class 1 component has been made in a 30 in. diameter pipe. The inside of the pipe is not accessible. The wall thickness is 5/8\" and the reinforcement is the maximum allowed by the procedure. What is the maximum reinforcement allowed? What is the required minimum wire IQI diameter?\n1등급 기기인 외경 30인치 원주 용접부가 있다. 파이프 내부는 접근불가하며 벽두께는 5/8인치이고 용접덧살은 절차서 허용 최대 크기이다. 최대 허용 용접덧살과 요구되는 최소 선형 투과도계 직경은?",
     "question_kr": "1등급 기기인 외경 30인치 원주 용접부가 있다. 파이프 내부는 접근불가하며 벽두께는 5/8인치이고 용접덧살은 절차서 허용 최대 크기이다. 최대 허용 용접덧살과 요구되는 최소 선형 투과도계 직경은?",
     "options": [
-      "A : 3/32 inch / B : #7 wire (0.013 inch or 0.33mm)",
+      "A : 3/32 inch / B : #7 wire (0.013 inch or 0.33mm)\nA: 3/32인치 / B: #7 와이어(0.013인치, 0.33mm)",
       "",
       "",
       ""
@@ -214,8 +214,8 @@
     "options": [
       "Double\n2중",
       "Single\n단",
-      "Either double or single",
-      "All of above is not correct"
+      "Either double or single\n이중벽 또는 단일벽 어느 쪽이든",
+      "All of above is not correct\n위의 어느 것도 옳지 않다"
     ],
     "answer": 0,
     "explanation": ""
@@ -246,10 +246,10 @@
     "question": "In case of double-wall technique, how many exposures are required, if the images of both walls are superimposed?\n이중벽 촬영인 경우, 만약 이중상 보기가 첨가된다면 얼마나 많은 노출이 요구되는가?",
     "question_kr": "이중벽 촬영인 경우, 만약 이중상 보기가 첨가된다면 얼마나 많은 노출이 요구되는가?",
     "options": [
-      "Two exposure, apart 90°",
-      "Two exposure, apart 60°",
-      "Three exposure, apart 120°",
-      "Three exposure, apart 90°"
+      "Two exposure, apart 90°\n90° 간격 2회 촬영",
+      "Two exposure, apart 60°\n60° 간격 2회 촬영",
+      "Three exposure, apart 120°\n120° 간격 3회 촬영",
+      "Three exposure, apart 90°\n90° 간격 3회 촬영"
     ],
     "answer": 2,
     "explanation": ""
@@ -263,10 +263,10 @@
     "question": "What is the reason why a slag inclusion shows up darkly on a radiograph?\n슬래그 개재물이 투과사진에 검게 나타나는 이유는?",
     "question_kr": "슬래그 개재물이 투과사진에 검게 나타나는 이유는?",
     "options": [
-      "Because a slag inclusion is always combined with an increase of the wall thickness.",
-      "Because the slag inclusion has a lower density than steel.",
-      "Because the slag inclusion has a higher density than steel.",
-      "Because a slag inclusion is always combined with a misalignment."
+      "Because a slag inclusion is always combined with an increase of the wall thickness.\n슬래그 개재물에는 항상 두께 증가가 따르기 때문",
+      "Because the slag inclusion has a lower density than steel.\n슬래그 개재물이 강보다 밀도가 낮기 때문",
+      "Because the slag inclusion has a higher density than steel.\n슬래그 개재물이 강보다 밀도가 높기 때문",
+      "Because a slag inclusion is always combined with a misalignment.\n슬래그 개재물에는 항상 어긋남이 따르기 때문"
     ],
     "answer": 1,
     "explanation": ""
@@ -280,10 +280,10 @@
     "question": "The size of the penumbra shadow can best be reduced by?\n반음영의 크기는 무엇에 의해 감소시킬 수 있는가?",
     "question_kr": "반음영의 크기는 무엇에 의해 감소시킬 수 있는가?",
     "options": [
-      "Using a larger diameter source",
-      "Using a faster speed film",
-      "Increasing the source to film distance",
-      "Increasing the specimen to film distance"
+      "Using a larger diameter source\n지름이 더 큰 선원을 쓴다",
+      "Using a faster speed film\n감도가 더 빠른 필름을 쓴다",
+      "Increasing the source to film distance\n선원-필름 거리를 늘린다",
+      "Increasing the specimen to film distance\n시험체-필름 거리를 늘린다"
     ],
     "answer": 2,
     "explanation": ""
@@ -331,10 +331,10 @@
     "question": "You have carried out a radiographic test with an X-ray tube at 250 kV. The used front screen of lead has been damaged by a thin scratch of 50 mm length and a depth that penetrates the lead down to the base material. How is this scratch shown on the radiograph?\n250kV X-ray 장비로 RT를 수행했다. 전면 납스크린에 납 두께만큼 손상된 50mm 길이의 스크래치가 있다. 이 스크래치는 방사선 사진상 어떻게 나타나는가?",
     "question_kr": "250kV X-ray 장비로 RT를 수행했다. 전면 납스크린에 납 두께만큼 손상된 50mm 길이의 스크래치가 있다. 이 스크래치는 방사선 사진상 어떻게 나타나는가?",
     "options": [
-      "Dark line",
-      "Bright line",
-      "No image of the scratch",
-      "The film may nearly be burned at the surface by the intensive rays."
+      "Dark line\n검은 선",
+      "Bright line\n밝은 선",
+      "No image of the scratch\n긁힘의 상이 나타나지 않는다",
+      "The film may nearly be burned at the surface by the intensive rays.\n강한 방사선에 필름 표면이 거의 타버릴 수 있다"
     ],
     "answer": 1,
     "explanation": ""
@@ -417,9 +417,9 @@
     "question_kr": "투과사진에서 모재와 용접 캡의 경계부에 검은 선형 지시가 보인다. 어떤 결함인가?",
     "options": [
       "Undercut",
-      "Lack of inter-run fusion",
-      "Shrinkage groove",
-      "Incomplete root penetration"
+      "Lack of inter-run fusion\n층간 융합불량",
+      "Shrinkage groove\n수축 홈",
+      "Incomplete root penetration\n루트 용입부족"
     ],
     "answer": 0,
     "explanation": ""
@@ -450,10 +450,10 @@
     "question": "According to SNT-TC-1A, which of the following is not applicable for obtaining Level III qualification?\nSNT-TC-1A에 의거 Level III 자격 취득 시 해당되지 않는 사항은?",
     "question_kr": "SNT-TC-1A에 의거 Level III 자격 취득 시 해당되지 않는 사항은?",
     "options": [
-      "A valid ASNT Level III certificate in the applicable method is required.",
-      "Candidates shall pass Basic, Method and Specific examinations.",
-      "Candidates shall pass a Vision examination.",
-      "A valid endorsement on an ASNT NDE Level III certificate fulfills Basic and Method examination requirements."
+      "A valid ASNT Level III certificate in the applicable method is required.\n해당 방법의 유효한 ASNT Level III 자격증이 필요하다",
+      "Candidates shall pass Basic, Method and Specific examinations.\n응시자는 기초·방법·전문 시험에 합격해야 한다",
+      "Candidates shall pass a Vision examination.\n응시자는 시력검사에 합격해야 한다",
+      "A valid endorsement on an ASNT NDE Level III certificate fulfills Basic and Method examination requirements.\nASNT NDE Level III 자격증의 유효한 배서는 기초·방법 시험 요구를 충족한다"
     ],
     "answer": 0,
     "explanation": ""
@@ -467,10 +467,10 @@
     "question": "A vision test on a Level II person is to be performed according to ANSI/ASNT CP-189. Which of the following does not apply?\nANSI/ASNT CP-189에 따른 Level II 인원의 시력검사 요구사항 중 해당되지 않는 것은?",
     "question_kr": "ANSI/ASNT CP-189에 따른 Level II 인원의 시력검사 요구사항 중 해당되지 않는 것은?",
     "options": [
-      "NDT personnel for all methods shall demonstrate ability to differentiate among colors.",
-      "Vision examination shall be administered according to an approved procedure.",
-      "The near distance vision examination shall be administered annually.",
-      "The near distance vision acuity requirement is to read Number 2 on Jaeger card at not less than 12 inches."
+      "NDT personnel for all methods shall demonstrate ability to differentiate among colors.\n모든 방법의 비파괴검사 요원은 색을 구별할 수 있음을 입증해야 한다",
+      "Vision examination shall be administered according to an approved procedure.\n시력검사는 승인된 절차에 따라 시행해야 한다",
+      "The near distance vision examination shall be administered annually.\n근거리 시력검사는 매년 시행해야 한다",
+      "The near distance vision acuity requirement is to read Number 2 on Jaeger card at not less than 12 inches.\n근거리 시력 요구조건은 최소 12인치 거리에서 Jaeger 카드의 2번을 읽는 것이다"
     ],
     "answer": 3,
     "explanation": ""
@@ -484,10 +484,10 @@
     "question": "Based on the acceptance standards given in ASME Sec. I PW-51, which of the following would cause the weldment to be rejected?\nASME Sec. I PW-51 판정기준에 따라 불합격인 용접부는?",
     "question_kr": "ASME Sec. I PW-51 판정기준에 따라 불합격인 용접부는?",
     "options": [
-      "Aligned indications aggregate length less than 1/2t in 12t length",
-      "A slag inclusion 1/5 inch in length in a weldment with thickness 1/2 inch",
-      "A slag inclusion 1/2 inch in length in a weldment with thickness 2 inch",
-      "All of the above are rejectable"
+      "Aligned indications aggregate length less than 1/2t in 12t length\n12t 길이 안에서 정렬된 지시의 합계 길이가 1/2t 미만",
+      "A slag inclusion 1/5 inch in length in a weldment with thickness 1/2 inch\n두께 1/2인치 용접부의 길이 1/5인치 슬래그 개재물",
+      "A slag inclusion 1/2 inch in length in a weldment with thickness 2 inch\n두께 2인치 용접부의 길이 1/2인치 슬래그 개재물",
+      "All of the above are rejectable\n위의 모두 불합격이다"
     ],
     "answer": 2,
     "explanation": ""
@@ -501,10 +501,10 @@
     "question": "Based on the acceptance standards given in ASME B31.1 136.4.5, which of the following would cause the weldment to be accepted?\nASME B31.1 136.4.5 판정기준에 따라 합격인 용접부는?",
     "question_kr": "ASME B31.1 136.4.5 판정기준에 따라 합격인 용접부는?",
     "options": [
-      "A crack 1/4 inch in length in a weldment",
-      "Incomplete penetration shorter than 1/4 inch in length",
-      "An elongated indication 1/2 inch in length in a weldment with thickness 3 inch",
-      "An elongated indication 2/5 inch in length in a weldment with thickness 1/2 inch"
+      "A crack 1/4 inch in length in a weldment\n용접부의 길이 1/4인치 균열",
+      "Incomplete penetration shorter than 1/4 inch in length\n길이 1/4인치 미만의 용입부족",
+      "An elongated indication 1/2 inch in length in a weldment with thickness 3 inch\n두께 3인치 용접부의 길이 1/2인치 가늘고 긴 지시",
+      "An elongated indication 2/5 inch in length in a weldment with thickness 1/2 inch\n두께 1/2인치 용접부의 길이 2/5인치 가늘고 긴 지시"
     ],
     "answer": 2,
     "explanation": ""
@@ -513,10 +513,10 @@
     "id": 31,
     "question": "The amount of unsharpness or blurring of a radiograph is:\n방사선사진의 흐림(unsharpness) 정도를 무엇이라 하는가?",
     "options": [
-      "directly proportional to the object-to-film distance and inversely proportional\n to the size of the focal spot",
-      "directly proportional to the size of the focal spot and inversely proportional\n to the source-to object distance",
-      "directly proportional to the object-to-film distance and directly proportional\n to the source-to object distance",
-      "inversely proportional to the size of the focal spot and the object-to-film \n distance"
+      "directly proportional to the object-to-film distance and inversely proportional\n to the size of the focal spot\n시험체-필름 거리에 비례하고 초점 크기에 반비례한다",
+      "directly proportional to the size of the focal spot and inversely proportional\n to the source-to object distance\n초점 크기에 비례하고 선원-시험체 거리에 반비례한다",
+      "directly proportional to the object-to-film distance and directly proportional\n to the source-to object distance\n시험체-필름 거리에 비례하고 선원-시험체 거리에도 비례한다",
+      "inversely proportional to the size of the focal spot and the object-to-film \n distance\n초점 크기와 시험체-필름 거리에 반비례한다"
     ],
     "answer": 1,
     "level": "Level III",
@@ -527,11 +527,11 @@
     "id": 32,
     "question": "The depth of a discontinuity may be estimated by making two exposures on a single film from two different positions of the x-ray tube. The depth of the discontinuity is computed from the shift in the image of the discontinuity with respect to the tube shift and source-to-film distance. The method is referred to as:\nX선관을 두 위치에 두고 한 장의 필름에 두 번 노출시켜 불연속의 깊이를 추정할 수 있다. 관의 이동량과 선원-필름 거리에 대한 불연속 상의 이동량으로 깊이를 계산한다. 이 방법을 무엇이라 하는가?",
     "options": [
-      "stereo-radiography",
+      "stereo-radiography\n입체 방사선촬영",
       "zeroradiography",
       "fluoroscopy",
-      "the parallax method",
-      "none of the above"
+      "the parallax method\n시차법",
+      "none of the above\n위의 어느 것도 아님"
     ],
     "answer": 3,
     "level": "Level III",
@@ -542,12 +542,12 @@
     "id": 33,
     "question": "Which of the following items affect subject contrast?\n다음 중 피사체대비에 영향을 주는 것은?",
     "options": [
-      "thickness differences in specimen",
-      "radiation energy level",
-      "scattered radiation",
-      "density variations in specimen",
-      "type of film used",
-      "source-to-film distance"
+      "thickness differences in specimen\n시험체의 두께 차이",
+      "radiation energy level\n방사선 에너지 준위",
+      "scattered radiation\n산란 방사선",
+      "density variations in specimen\n시험체의 밀도 변화",
+      "type of film used\n사용한 필름의 종류",
+      "source-to-film distance\n선원-필름 거리"
     ],
     "answer": [
       0,
@@ -562,10 +562,10 @@
     "id": 34,
     "question": "Radiation is absorbed according to which of the following nuclear concepts.\n방사선은 다음 중 어떤 원자핵 개념에 따라 흡수되는가?",
     "options": [
-      "Compton effect",
+      "Compton effect\n컴프턴 효과",
       "Bremsstrahlung",
-      "Photoelectric effect",
-      "Pair production",
+      "Photoelectric effect\n광전 효과",
+      "Pair production\n쌍생성",
       "disintegration",
       "K-capture"
     ],
@@ -596,10 +596,10 @@
     "id": 36,
     "question": "For an x-ray machine, increasing the KV causes:\nX선 장치에서 관전압(KV)을 높이면 어떻게 되는가?",
     "options": [
-      "longer wavelength, less penetrating radiation to be generated",
-      "longer wavelength, more penetrating radiation to be generated",
-      "shorter wavelength, less penetrating radiation to be generated",
-      "shorter wavelength, more penetrating radiation to be generated"
+      "longer wavelength, less penetrating radiation to be generated\n파장이 길고 투과력이 약한 방사선이 발생한다",
+      "longer wavelength, more penetrating radiation to be generated\n파장이 길고 투과력이 강한 방사선이 발생한다",
+      "shorter wavelength, less penetrating radiation to be generated\n파장이 짧고 투과력이 약한 방사선이 발생한다",
+      "shorter wavelength, more penetrating radiation to be generated\n파장이 짧고 투과력이 강한 방사선이 발생한다"
     ],
     "answer": 3,
     "level": "Level III",
@@ -610,12 +610,12 @@
     "id": 37,
     "question": "Lead foil in direct contact with the film for exposures over 120 KV has which of the following significant effects:\n120KV를 넘는 촬영에서 필름에 직접 밀착시킨 납박(lead foil)의 중요한 효과는?",
     "options": [
-      "increases exposure time",
-      "decreases exposure time",
-      "absorbs long wavelength scattered radiation",
-      "absorbs short wavelength scattered radiation",
-      "improves sharpness and definition",
-      "reduces sharpness and definition"
+      "increases exposure time\n노출시간을 늘린다",
+      "decreases exposure time\n노출시간을 줄인다",
+      "absorbs long wavelength scattered radiation\n긴 파장의 산란선을 흡수한다",
+      "absorbs short wavelength scattered radiation\n짧은 파장의 산란선을 흡수한다",
+      "improves sharpness and definition\n선명도와 명료도를 높인다",
+      "reduces sharpness and definition\n선명도와 명료도를 떨어뜨린다"
     ],
     "answer": [
       1,
@@ -631,10 +631,10 @@
     "id": 38,
     "question": "Diffraction is most likely to occur:\n회절(diffraction)이 가장 잘 일어나는 경우는?",
     "options": [
-      "with thick, fine grained specimens",
-      "with thin, fine grained specimens",
-      "with thin, coarse grained specimens",
-      "with thick, coarse grained specimens"
+      "with thick, fine grained specimens\n두껍고 결정립이 미세한 시험체에서",
+      "with thin, fine grained specimens\n얇고 결정립이 미세한 시험체에서",
+      "with thin, coarse grained specimens\n얇고 결정립이 조대한 시험체에서",
+      "with thick, coarse grained specimens\n두껍고 결정립이 조대한 시험체에서"
     ],
     "answer": 2,
     "level": "Level III",
@@ -645,10 +645,10 @@
     "id": 39,
     "question": "Up to a reasonable limit, increasing the density of a radiograph:\n적정 한도 내에서 방사선사진의 농도를 높이면 어떻게 되는가?",
     "options": [
-      "improves contrast",
-      "reduces contrast",
-      "improves sharpness",
-      "reduces sharpness"
+      "improves contrast\n대비를 높인다",
+      "reduces contrast\n대비를 낮춘다",
+      "improves sharpness\n선명도를 높인다",
+      "reduces sharpness\n선명도를 떨어뜨린다"
     ],
     "answer": 0,
     "level": "Level III",
@@ -659,10 +659,10 @@
     "id": 40,
     "question": "Radiographic sensitivity is defined as:\n방사선투과 감도(radiographic sensitivity)의 정의는?",
     "options": [
-      "the ratio of variations in density",
-      "the sharpness of outline in the image",
-      "the range of thickness of material that can be recorded on the radiograph \n within the useful reading range of film density",
-      "the size of the smallest detail which can be seen on the radiograph"
+      "the ratio of variations in density\n농도 변화의 비",
+      "the sharpness of outline in the image\n상 윤곽의 선명도",
+      "the range of thickness of material that can be recorded on the radiograph \n within the useful reading range of film density\n필름농도의 판독 가능 범위 안에 기록할 수 있는 재료 두께의 범위",
+      "the size of the smallest detail which can be seen on the radiograph\n방사선사진에서 볼 수 있는 가장 작은 세부의 크기"
     ],
     "answer": 3,
     "level": "Level III",
@@ -673,10 +673,10 @@
     "id": 41,
     "question": "To which of the following does the term “reference radiographs”apply?\n'대비 방사선사진(reference radiographs)'이라는 용어는 다음 중 어디에 해당하는가?",
     "options": [
-      "Radiographs used to show the position of each radiographic view",
-      "Radiographs with discontinuity indications that are to be compared with\n indications in test object radiographs",
-      "File copies of duplicate radiographs made at the customer's request",
-      "File copies of radiographs of your employer's products"
+      "Radiographs used to show the position of each radiographic view\n각 촬영 방향의 위치를 보여주는 데 쓰는 방사선사진",
+      "Radiographs with discontinuity indications that are to be compared with\n indications in test object radiographs\n시험체 사진의 지시와 비교하기 위한 불연속 지시가 담긴 방사선사진",
+      "File copies of duplicate radiographs made at the customer's request\n고객 요청으로 만든 복제 사진의 보관본",
+      "File copies of radiographs of your employer's products\n사업주 제품 사진의 보관본"
     ],
     "answer": 1,
     "level": "Level III",
@@ -687,11 +687,11 @@
     "id": 42,
     "question": "Target materials for x-ray tubes must possess which of the following properties?\nX선관의 타겟 재료가 갖춰야 할 성질은?",
     "options": [
-      "high melting point",
-      "low atomic number",
-      "high thermal conductivity",
-      "high atomic number",
-      "none of the above"
+      "high melting point\n높은 융점",
+      "low atomic number\n낮은 원자번호",
+      "high thermal conductivity\n높은 열전도율",
+      "high atomic number\n높은 원자번호",
+      "none of the above\n위의 어느 것도 아님"
     ],
     "answer": [
       0,
@@ -706,11 +706,11 @@
     "id": 43,
     "question": "A radiograph having wide latitude also has, by definition:\n관용도(latitude)가 넓은 방사선사진은 정의상 어떠한가?",
     "options": [
-      "poor definition",
-      "low contrast",
-      "low speed",
-      "good sensitivity",
-      "none of the above"
+      "poor definition\n낮은 명료도",
+      "low contrast\n낮은 대비",
+      "low speed\n낮은 감도",
+      "good sensitivity\n좋은 감도",
+      "none of the above\n위의 어느 것도 아님"
     ],
     "answer": 1,
     "level": "Level III",
@@ -721,10 +721,10 @@
     "id": 44,
     "question": "Radiation striking a radiographic film causes:\n방사선이 방사선 필름에 부딪히면 무엇이 일어나는가?",
     "options": [
-      "an electrostatic charge in the emulsion",
-      "an image to appear on the film",
-      "a change in the silver bromide emulsion",
-      "an increase in contrast"
+      "an electrostatic charge in the emulsion\n유제 안의 정전기",
+      "an image to appear on the film\n필름에 상이 나타남",
+      "a change in the silver bromide emulsion\n브롬화은 유제의 변화",
+      "an increase in contrast\n대비의 증가"
     ],
     "answer": 2,
     "level": "Level III",
@@ -735,9 +735,9 @@
     "id": 45,
     "question": "The sharpness of the transition between different densities on the radiograph is know as:\n방사선사진에서 서로 다른 농도 사이의 경계가 얼마나 뚜렷한가를 무엇이라 하는가?",
     "options": [
-      "radiographic contrast",
-      "radiographic definition",
-      "radiographic resolution",
+      "radiographic contrast\n방사선사진 대비",
+      "radiographic definition\n방사선사진 명료도",
+      "radiographic resolution\n방사선사진 분해능",
       "latitude"
     ],
     "answer": 0,
@@ -749,10 +749,10 @@
     "id": 46,
     "question": "Which of the following items will reduce radiographic contrast?\n다음 중 방사선사진 대비를 낮추는 것은?",
     "options": [
-      "Increase the distance between the object and the radiation source",
-      "Decrease the distance between the object and the film",
-      "Decrease the wavelength of the radiation",
-      "Use a slower film"
+      "Increase the distance between the object and the radiation source\n시험체와 선원 사이 거리를 늘린다",
+      "Decrease the distance between the object and the film\n시험체와 필름 사이 거리를 줄인다",
+      "Decrease the wavelength of the radiation\n방사선의 파장을 짧게 한다",
+      "Use a slower film\n감도가 느린 필름을 쓴다"
     ],
     "answer": 2,
     "level": "Level III",
@@ -763,10 +763,10 @@
     "id": 47,
     "question": "Sharp, black, bird-foot like tracks appear at random on the radiograph. The most probable cause is:\n방사선사진에 날카롭고 검은 새발자국 모양의 자국이 불규칙하게 나타났다. 가장 유력한 원인은?",
     "options": [
-      "Prolonged development in old developer",
-      "exposure of the film to natural cosmic ray showers during storage",
-      "static charges caused by friction of the film with other objects",
-      "inadequate rinsing after fixing"
+      "Prolonged development in old developer\n오래된 현상액에서 장시간 현상",
+      "exposure of the film to natural cosmic ray showers during storage\n보관 중 자연 우주선에 필름이 노출됨",
+      "static charges caused by friction of the film with other objects\n필름이 다른 물체와 마찰해 생긴 정전기",
+      "inadequate rinsing after fixing\n정착 후 수세 부족"
     ],
     "answer": 2,
     "level": "Level III",
@@ -780,7 +780,7 @@
       "roentgens",
       "ergs",
       "H & D units",
-      "roentgens per unit of time"
+      "roentgens per unit of time\n단위시간당 뢴트겐"
     ],
     "answer": 3,
     "level": "Level III",
@@ -791,10 +791,10 @@
     "id": 49,
     "question": "In comparison with lower voltage radiographs, high voltage radiographs show:\n낮은 관전압으로 찍은 사진과 비교할 때, 높은 관전압으로 찍은 사진은 어떠한가?",
     "options": [
-      "greater latitude",
-      "greater contrast",
-      "greater amounts of scattered radiation relative to primary beam intensity",
-      "none of the above"
+      "greater latitude\n더 넓은 관용도",
+      "greater contrast\n더 높은 대비",
+      "greater amounts of scattered radiation relative to primary beam intensity\n1차 빔 강도에 비해 더 많은 산란선",
+      "none of the above\n위의 어느 것도 아님"
     ],
     "answer": 0,
     "level": "Level III",
@@ -805,10 +805,10 @@
     "id": 50,
     "question": "Filters used at the port of the x-ray tube:\nX선관 조사구에 사용하는 필터의 역할은?",
     "options": [
-      "intensify the x-ray tube beam by contributing secondary radiation intensity",
-      "filter out “soft” radiation to provide a more homogeneous x-ray beam",
-      "filter out short wavelength radiation to provide “softer” radiation",
-      "provide the most readily adjusted means of modifying x-ray intensity"
+      "intensify the x-ray tube beam by contributing secondary radiation intensity\n2차 방사선을 더해 X선관 빔을 세게 한다",
+      "filter out “soft” radiation to provide a more homogeneous x-ray beam\n연질 방사선을 걸러 더 균질한 X선 빔을 만든다",
+      "filter out short wavelength radiation to provide “softer” radiation\n짧은 파장을 걸러 더 연질인 방사선을 만든다",
+      "provide the most readily adjusted means of modifying x-ray intensity\nX선 강도를 조절하는 가장 손쉬운 수단이 된다"
     ],
     "answer": 1,
     "level": "Level III",
@@ -835,8 +835,8 @@
     "options": [
       "38 sec",
       "48 sec",
-      "1 min 15 sec",
-      "1 min 34 sec"
+      "1 min 15 sec\n1분 15초",
+      "1 min 34 sec\n1분 34초"
     ],
     "answer": 3,
     "level": "Level III",
@@ -847,10 +847,10 @@
     "id": 53,
     "question": "Two film of the same type are often used in the same cassette to:\n같은 종류의 필름 두 장을 한 카세트에 함께 넣어 쓰는 이유는?",
     "options": [
-      "increase the cost of radiography",
-      "send to different interpreters for independent evaluation",
-      "provide an extra film to establish the developing time necessary to obtain an\n acceptable density",
-      "compare and verify indications or for reading superimposed film."
+      "increase the cost of radiography\n촬영 비용을 올린다",
+      "send to different interpreters for independent evaluation\n독립적인 평가를 위해 다른 판독자에게 보낸다",
+      "provide an extra film to establish the developing time necessary to obtain an\n acceptable density\n적정 농도를 얻는 데 필요한 현상시간을 정하기 위한 여분 필름을 둔다",
+      "compare and verify indications or for reading superimposed film.\n지시를 대조·확인하거나 필름을 겹쳐 판독하기 위해"
     ],
     "answer": 3,
     "level": "Level III",
@@ -861,10 +861,10 @@
     "id": 54,
     "question": "The specific activity of a radioactive source is:\n방사성 선원의 비방사능(specific activity)이란 무엇인가?",
     "options": [
-      "the number of curies-per-gram of a source",
-      "the rate of decay(half-life)of a source",
-      "the amount of usage of a source",
-      "the ratio of the number of curies to the physical size of source"
+      "the number of curies-per-gram of a source\n선원의 그램당 퀴리 수",
+      "the rate of decay(half-life)of a source\n선원의 붕괴 속도(반감기)",
+      "the amount of usage of a source\n선원의 사용량",
+      "the ratio of the number of curies to the physical size of source\n선원의 퀴리 수와 물리적 크기의 비"
     ],
     "answer": 0,
     "level": "Level III",
@@ -875,11 +875,11 @@
     "id": 55,
     "question": "A radiograph, showing poor sensitivity, is to be retaken. Which of the following would improve the sensitivity?\n감도가 나쁜 방사선사진을 다시 찍으려 한다. 감도를 높이는 방법은?",
     "options": [
-      "Reduce the source-to-film distance",
-      "Use a slower film",
-      "Reduce the KV of the x-ray machine used",
-      "Increase the KV of the x-ray machine used",
-      "Add shielding for back scatter"
+      "Reduce the source-to-film distance\n선원-필름 거리를 줄인다",
+      "Use a slower film\n감도가 느린 필름을 쓴다",
+      "Reduce the KV of the x-ray machine used\n사용하는 X선 장치의 관전압을 낮춘다",
+      "Increase the KV of the x-ray machine used\n사용하는 X선 장치의 관전압을 높인다",
+      "Add shielding for back scatter\n후방산란용 차폐를 추가한다"
     ],
     "answer": [
       1,
@@ -894,10 +894,10 @@
     "id": 56,
     "question": "The penetrating ability of an x-ray beam is governed by:\nX선 빔의 투과력을 좌우하는 것은?",
     "options": [
-      "kilovoltage or wavelength",
+      "kilovoltage or wavelength\n관전압 또는 파장",
       "time",
       "milliampere",
-      "source-to-film distance"
+      "source-to-film distance\n선원-필름 거리"
     ],
     "answer": 0,
     "level": "Level III",
@@ -908,11 +908,11 @@
     "id": 57,
     "question": "Latitude is affected by which of the following items?\n관용도에 영향을 주는 것은?",
     "options": [
-      "The type of film used",
-      "The source-to-film distance",
-      "The energy level or quality of the radiation beam",
-      "The effective focal spot size",
-      "The length of the film used"
+      "The type of film used\n사용한 필름의 종류",
+      "The source-to-film distance\n선원-필름 거리",
+      "The energy level or quality of the radiation beam\n방사선 빔의 에너지 준위 또는 선질",
+      "The effective focal spot size\n유효 초점 크기",
+      "The length of the film used\n사용한 필름의 길이"
     ],
     "answer": [
       0,
@@ -926,10 +926,10 @@
     "id": 58,
     "question": "Shrinkage in a casting is not likely to occur:\n주조품의 수축공이 잘 생기지 않는 곳은?",
     "options": [
-      "in the center of thick sections",
-      "in areas away from gates or risers",
-      "within a distance, equal to the thickness, from the end of the casting",
-      "in sections of uniform thickness"
+      "in the center of thick sections\n두꺼운 부분의 중앙에",
+      "in areas away from gates or risers\n탕구나 압탕에서 떨어진 부위에",
+      "within a distance, equal to the thickness, from the end of the casting\n주조품 끝에서 두께만큼 떨어진 거리 안에",
+      "in sections of uniform thickness\n두께가 일정한 부위에"
     ],
     "answer": 2,
     "level": "Level III",
@@ -954,11 +954,11 @@
     "id": 60,
     "question": "In order to produce x-rays, a system must have which of the following as a minimum?\nX선을 발생시키려면 최소한 어떤 것들이 있어야 하는가?",
     "options": [
-      "a beryllium window",
-      "a means of accelerating electrons",
+      "a beryllium window\n베릴륨 창",
+      "a means of accelerating electrons\n전자를 가속하는 수단",
       "a target",
-      "a source of free electrons",
-      "a copper anode"
+      "a source of free electrons\n자유전자의 공급원",
+      "a copper anode\n구리 양극"
     ],
     "answer": [
       1,
@@ -973,10 +973,10 @@
     "id": 61,
     "question": "A source that has 40x1010 disintegrations per second would be a:\n초당 40×10¹⁰회 붕괴하는 선원은 얼마인가?",
     "options": [
-      "5.8 curie source",
-      "10.8 curie source",
-      "15.8 curie source",
-      "20.7 curie source"
+      "5.8 curie source\n5.8퀴리 선원",
+      "10.8 curie source\n10.8퀴리 선원",
+      "15.8 curie source\n15.8퀴리 선원",
+      "20.7 curie source\n20.7퀴리 선원"
     ],
     "answer": 1,
     "level": "Level III",
@@ -1001,10 +1001,10 @@
     "id": 63,
     "question": "Slag inclusions occur:\n슬래그 개재물은 어디에서 생기는가?",
     "options": [
-      "only in the root pass",
-      "only in the cover pass",
-      "anywhere in the weld",
-      "between the root pass and hot pass"
+      "only in the root pass\n루트 패스에만",
+      "only in the cover pass\n표면 패스에만",
+      "anywhere in the weld\n용접부 어디든",
+      "between the root pass and hot pass\n루트 패스와 핫 패스 사이에"
     ],
     "answer": 2,
     "level": "Level III",
@@ -1029,10 +1029,10 @@
     "id": 65,
     "question": "Sand inclusions in castings appear as:\n주조품의 모래 개재물은 어떻게 나타나는가?",
     "options": [
-      "dark, smoothly outlined areas",
-      "spongy like areas, darker than surrounding area",
-      "irregularly shaped areas that are usually not as dark as gas holes",
-      "dark, lacy network of lines"
+      "dark, smoothly outlined areas\n윤곽이 매끄러운 검은 부위",
+      "spongy like areas, darker than surrounding area\n주위보다 어두운 스펀지 모양 부위",
+      "irregularly shaped areas that are usually not as dark as gas holes\n보통 기공만큼 어둡지는 않은 불규칙한 모양의 부위",
+      "dark, lacy network of lines\n레이스처럼 얽힌 검은 선 무늬"
     ],
     "answer": 2,
     "level": "Level III",
@@ -1059,8 +1059,8 @@
     "options": [
       "curie",
       "roentgen",
-      "half-life",
-      "kilo-electron volts (KV) or millions or electron volts (mev)"
+      "half-life\n반감기",
+      "kilo-electron volts (KV) or millions or electron volts (mev)\n킬로전자볼트(keV) 또는 메가전자볼트(MeV)"
     ],
     "answer": 3,
     "level": "Level III",
@@ -1071,10 +1071,10 @@
     "id": 68,
     "question": "In order to increase the range of thicknesses that may be radiographed, at reasonable viewing densities, simultaneously:\n적정 판독농도를 유지하면서 한 번에 촬영할 수 있는 두께 범위를 넓히려면 어떻게 해야 하는가?",
     "options": [
-      "a fluorescent screen should be employed",
-      "decrease the energy level of radiation used for the exposure",
-      "the cassette may be loaded with two film each of different speeds",
-      "none of the above are practical"
+      "a fluorescent screen should be employed\n형광 증감지를 써야 한다",
+      "decrease the energy level of radiation used for the exposure\n촬영에 쓰는 방사선의 에너지 준위를 낮춘다",
+      "the cassette may be loaded with two film each of different speeds\n카세트에 감도가 다른 필름 두 장을 넣을 수 있다",
+      "none of the above are practical\n위의 어느 것도 실용적이지 않다"
     ],
     "answer": 2,
     "level": "Level III",
@@ -1087,8 +1087,8 @@
     "options": [
       "undercut",
       "overexposure",
-      "x-ray intensity too high",
-      "back scatter"
+      "x-ray intensity too high\nX선 강도가 너무 높음",
+      "back scatter\n후방산란"
     ],
     "answer": 3,
     "level": "Level III",
@@ -1099,10 +1099,10 @@
     "id": 70,
     "question": "A casting is designed so that some portions are highly stressed while other areas are stressed relatively low. When establishing acceptance criteria, one should consider:\n어떤 주조품은 응력이 크게 걸리는 부위와 상대적으로 작게 걸리는 부위가 함께 있도록 설계된다. 합격기준을 정할 때 무엇을 고려해야 하는가?",
     "options": [
-      "one quality level for the entire casting",
-      "a median quality level",
-      "zoning the drawing and using different quality levels",
-      "recommending redesign"
+      "one quality level for the entire casting\n주조품 전체에 하나의 상질 적용",
+      "a median quality level\n중간 정도의 상질",
+      "zoning the drawing and using different quality levels\n도면을 구역으로 나누어 상질을 달리 적용",
+      "recommending redesign\n재설계를 권고"
     ],
     "answer": 2,
     "level": "Level III",
@@ -1113,10 +1113,10 @@
     "id": 71,
     "question": "Radiographic film that are left between lead screens too long in a high temperature and a high humidity atmosphere may:\n고온다습한 환경에서 납 증감지 사이에 너무 오래 둔 방사선 필름은 어떻게 될 수 있는가?",
     "options": [
-      "show increased speed but decreased quality characteristics",
-      "become fogged",
-      "become matted",
-      "show tree-shaped light areas in the finished radiograph"
+      "show increased speed but decreased quality characteristics\n감도는 빨라지지만 화질은 떨어진다",
+      "become fogged\n포그가 생긴다",
+      "become matted\n엉겨붙는다",
+      "show tree-shaped light areas in the finished radiograph\n완성된 사진에 나뭇가지 모양의 밝은 부위가 나타난다"
     ],
     "answer": 1,
     "level": "Level III",
@@ -1141,10 +1141,10 @@
     "id": 73,
     "question": "The velocity of electrons striking the target in an x-ray tube is a function of:\nX선관에서 타겟에 부딪히는 전자의 속도는 무엇에 좌우되는가?",
     "options": [
-      "the atomic number of the cathode material",
-      "the atomic number of the filament material",
-      "the voltage difference between the cathode and anode",
-      "the current flow in the rectifier circuit"
+      "the atomic number of the cathode material\n음극 재료의 원자번호",
+      "the atomic number of the filament material\n필라멘트 재료의 원자번호",
+      "the voltage difference between the cathode and anode\n음극과 양극 사이의 전압 차",
+      "the current flow in the rectifier circuit\n정류 회로의 전류"
     ],
     "answer": 2,
     "level": "Level III",
@@ -1171,8 +1171,8 @@
     "options": [
       "Circular",
       "Rectangular",
-      "Wire type",
-      "Step type"
+      "Wire type\n선형(wire type)",
+      "Step type\n계단형(step type)"
     ],
     "answer": 0,
     "level": "Level III",
