@@ -83,7 +83,7 @@
       "Front guiding",
       "Connector",
       "collimator",
-      "Pig tail\n* The following questions (9-17) refer to : HIE procedure, HIE-NDT-RT-N21(Rev.1) for radiographic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅲ, 2021 Edition.\n 문제(9-17)는 HIE 절차서에 언급되었다. 즉 ASME B & PV Sec.Ⅲ 규격에 따른 압력용기 제작의 방사선투과시험에 대한 절차서(HIE-NDT-RT-N21, Rev.1)"
+      "Pig tail"
     ],
     "answer": 0
   },
@@ -157,7 +157,8 @@
     "options": [
       "30,15",
       "15,30",
-      "15,15 D, 30,30"
+      "15,15",
+      "30,30"
     ],
     "answer": 1
   },
@@ -167,14 +168,12 @@
     "method": "RT",
     "category": "Specific",
     "source": "RTS-II(2020)(A)",
-    "question": "Fill in the blanks in the sentences below. For spherical components where the source is placed at the center of the component for a single exposure, at least ( ) IQIs, spaced approximately ( ) deg apart, are required under the following condition ;\n아래 문장의 빈칸을 채우시오.",
+    "question": "Fill in the blanks in the sentences below.\nFor spherical components where the source is placed at the center of the component for a single exposure, at least ( ) IQIs, spaced approximately ( ) deg apart, are required under the following conditions:\n(a) when the complete circumference is radiographed using one or more film holders, or\n(b) when a section or sections of a circumference, where the length between the ends of the outermost sections span ( ) deg or more, is radiographed using one or more film holders. Additional film locations may be required to obtain necessary IQI spacing.\n아래 문장의 빈칸을 채우시오.\n구형 용기에서 선원을 기기의 중앙에 놓고 한 번의 노출로 촬영할 때, 다음 경우에는 ( )개 이상의 투과도계를 대략 ( )도 간격으로 배치해야 한다.\n(a) 한 개 이상의 필름홀더를 사용하여 전체 원주를 촬영하는 경우\n(b) 한 개 이상의 필름홀더를 사용하여 촬영할 부위가 원주의 ( )도 이상에 걸쳐 있을 경우. 이때는 필요한 투과도계 간격을 유지하기 위해 필름을 추가로 놓을 수 있다.",
     "options": [
-      "When complete circumference is radiographed using one or more film holders, or ;",
-      "When a section or sections of a circumference, where the length between the ends of the outermost sections span ( )deg or more deg, is radiographed using one or more film holders. Additional film locations may be required to obtain necessary IQI spacing.\n (구형용기에서 선원을 기기의 중앙에 놓고 한번의 노출로 촬영하기 위하여 다음과 같은 경우 \n ( )개 이상의 투과도계를 대략 ( )도 간격으로 배치해야 한다.",
-      "한 개 이상의 필름홀더를 사용하여 전체원주를 촬영하는 경우",
-      "한 개 이상의 필름홀도를 사용하여 촬영할 부위가 원주의 ( )도 이상에 걸쳐있을 경우, 이때는 필요한 투과도계 간격을 유지하기 위해 필름을 추가로 놓을 수 있다.",
-      "two, 180, 240 B. four, 90, 180",
-      "three, 120, 180 D. three, 120, 240"
+      "two, 180, 240",
+      "four, 90, 180",
+      "three, 120, 180",
+      "three, 120, 240"
     ],
     "answer": 3
   },
@@ -219,7 +218,7 @@
       "Any group of aligned indications that have an aggregate length less than 1/2t in a length of 12t.\n (12t 길이내에서 동일선상에 군집된 지시들의 합계길이가 1/2t 보다 작을 때)",
       "A slag inclusion 1/5inch in length in a weldment with a thickness of 1/2inch.\n (두께가 1/2인치인 용접부에서 길이가 1/5인치인 슬래그 개재물)",
       "A slag inclusion 1/2inch in length in a weldment with a thickness of 2inch.\n (두께가 2인치인 용접부에서 길이가 1/2인치인 슬래그 개재물)",
-      "All of the above are rejectable.(위 모두 불합격)\n* The following questions No.18～19 refer to API 6A\n API 6A에 따라 18～19번 물음에 답하시오."
+      "All of the above are rejectable.(위 모두 불합격)"
     ],
     "answer": 2
   },
@@ -257,14 +256,15 @@
     "method": "RT",
     "category": "Specific",
     "source": "RTS-II(2020)(A)",
-    "question": "What is the question(Ⅰ)?",
+    "question": "What is (Ⅰ)?\n(Ⅰ)은 무엇인가?",
     "options": [
       "Front guiding",
       "Connector",
       "Remote controller",
       "Pig tail"
     ],
-    "answer": 2
+    "answer": 2,
+    "groupNote": "The part of the γ-ray machine that generates the mechanical force to move the radiographic isotope to the object is (Ⅰ), and the part of the γ-ray machine connected to the storage container of the radioactive isotope is (Ⅱ).\n피사체에 방사성 동위원소를 기계적인 힘으로 이동시키는 γ-선 장치의 부품은 (Ⅰ)이고, 방사성 동위원소의 저장용기에 연결되는 γ-선 장치의 부품은 (Ⅱ)이다."
   },
   {
     "id": 19,
@@ -292,36 +292,7 @@
       "Safety",
       "Moving",
       "Working",
-      "Cure\n SPECIFIC(A-TYPE)\n \n문제\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n해답\nA\nA\nSNT-TC-1A\nC\nD\nA\nD\nA\nA\nD\n문제\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n해답\nA\nB\nB\nD\nA\nD\nC\nB\nA\nB\n문제\n21\n22\n23\n24\n25\n해답\nB\nC\nB\nA\nA\n17. How many exposures is required for complete radiographic coverage of cylindrical girth welds when DWSI technique is allowed?\n (단일벽 기술이 허용될 때 실린더의 원둘레 용접부에 대하여 전 부분의 방사선 사진을 얻기 위해서는 몇 번 노출해야 하는가?) A\n A. minimum three B. minimum four\n C. minimum five D. minimum six\n18. In case of double-wall technique, how many exposure are required, if the images of both walls are superimposed?\n (이중벽 기술의 경우에 만약 두벽의 용접상이 서로 겹쳐지도록 촬영될 때는 몇 번의 노출이 몇 도 간격을 유지하며 촬영되어야 하는가?) D\n A. two exposure, apart 90。 (2번 90도 떨어져서)\n B. two exposure, apart 60。 (2번 60도 떨어져서)\n C. three exposure, apart 120。 (3번 90도 떨어져서)\n D. three exposure, apart 60。 (3번 60도 떨어져서)\n19. In case of double wall technique, how many exposures are required, if the images of both walls are not superimposed?\n (이중벽 기술의 경우 양벽의 상이 중첩되지 않으려면 최소 몇 번 몇 도 간격을 유지하여 노출하면 되는가?) A\n A. two exposure, apart 90。 B. two exposure, apart 60。\n C. three exposure, apart 120。 D. three exposure, apart 60。\n20. If the penetrameter image does not show on one radiograph in a double film technique but does show in composite viewing, which interpretation technique shall be permitted?\n (투과도계상이 이중 필름보기에서 하나의 방사선 사진에는 나타나지 않고 겹쳐보기에는 나타난다면 어떤 판독 기술이 허용되는가?) A\n A. double (이중) B. single (단일)\n C. either double or single (둘다) D. all of above is not correct (정답 없음)\n* The following questions No.20 refer to API 5L\n API 5L에 따라 20번 물음에 답하시오. \n20.The RT film showed a slag inclusion of 2 x 15 mm. Is it acceptable?\n (2X15mm 크기의 슬래그가 투과사진에 나타났다. 합격인가?)\n A. Accept 합격 B. Reject 불합격"
-    ],
-    "answer": 0
-  },
-  {
-    "id": 21,
-    "level": "Level II",
-    "method": "RT",
-    "category": "Specific",
-    "source": "RTS-II(2020)(B)",
-    "question": "The density of the radiograph anywhere through the area of interest shall be between minus % or plus % from the density through the body of the penetrameter.\n방사선 사진의 농도 범위는 투과도계상의 농도를 기준으로 마이너스 % 에서 플러스 % 이어야 한다.",
-    "options": [
-      "30,15",
-      "15,30",
-      "15,15 D, 30,30"
-    ],
-    "answer": 1
-  },
-  {
-    "id": 22,
-    "level": "Level II",
-    "method": "RT",
-    "category": "Specific",
-    "source": "RTS-II(2020)(B)",
-    "question": "For continuous radiographing with X-ray Apparatus, RF-300EGS3, report the radiographing and OFF intervals at a duty cycle of or more?\n모델 RF-300EGS3로써 연속적으로 방사성 투과검사를 하기 위해 얼마 이상의 Duty Cycle을 유지하여야 하는가?",
-    "options": [
-      "1 : 1",
-      "1 : 2",
-      "1 : 3",
-      "1 : 4"
+      "Cure"
     ],
     "answer": 0
   },
@@ -341,95 +312,6 @@
     "answer": 3
   },
   {
-    "id": 24,
-    "level": "Level II",
-    "method": "RT",
-    "category": "Specific",
-    "source": "RTS-II(2020)(B)",
-    "question": "The transmitted film density through the radiographic image of the body of the appropriate penetrometer and the area of interest shall be minimum for single film viewing for radiographs made with an X-ray source and minimum for radiographs made with a Gamma-ray source.\n적절한 투과도계와 시험지역의 방사선 사진상을 투과한 필름의 농도는 단일 필름보기의 경우에 엑스선, 감마선으로 촬영했을 때 각각 최소는 얼마가 되어야 하는가?",
-    "options": [
-      "2.0, 2.0 HD",
-      "1.8, 1.8 HD",
-      "2.0, 1.8 HD",
-      "1.8, 2.0 HD"
-    ],
-    "answer": 3
-  },
-  {
-    "id": 25,
-    "level": "Level II",
-    "method": "RT",
-    "category": "Specific",
-    "source": "RTS-II(2020)(B)",
-    "question": "What is the part of the γ-ray machine which is used to move the radiographic isotope to the objects?\n(방사성 동위원소를 피사체까지 이동시키는데 사용되어지는 γ-선 장치의 부품은 무엇인가?",
-    "options": [
-      "Front guiding",
-      "Connector",
-      "collimator",
-      "Pig tail\n* Answer to questions 22 through 23\n Which part of the γ-ray machine(Ⅰ) is generating the mechanical force to move the radiographic isotope to the objects and which part of the γ-ray machine(Ⅱ) is connected to the container of the radiographic isotope.\n (피사체에 방사성 동위원소를 기계적인 힘으로 이동시키는데 필요한 γ-선 장치(Ⅰ)와 방사성 동위원소의 저장용기에 연결되어지는 γ-선 장치의 부품은 (Ⅱ)이다.)"
-    ],
-    "answer": 0
-  },
-  {
-    "id": 26,
-    "level": "Level II",
-    "method": "RT",
-    "category": "Specific",
-    "source": "RTS-II(2020)(A)",
-    "question": "A lead symbol \"B\" for checking of back scattered radiation, shall have be minimum dimension of in light and thickness.\n후방산란 확인을 위해 사용되는 납글자 B의 크기는?",
-    "options": [
-      "1/4\", 1/16\"",
-      "1/2\", 1/8\"",
-      "1/4\", 1/8\"",
-      "7/16\", 1/16\""
-    ],
-    "answer": 3
-  },
-  {
-    "id": 27,
-    "level": "Level II",
-    "method": "RT",
-    "category": "Specific",
-    "source": "RTS-II(2020)(A)",
-    "question": "The transmitted film density through the radiographic image of the body of the appropriate penetrometer and the area of interest shall be minimum for single film viewing for radiographs made with an X-ray source and minimum for radiographs made with a Gamma-ray source.\n적절한 투과도계와 시험지역의 방사선 사진상을 투과한 필름의 농도는 단일 필름보기의 경우에 엑스선, 감마선으로 촬영했을 때 각각 최소는 얼마가 되어야 하는가?",
-    "options": [
-      "2.0, 2.0 HD",
-      "1.8, 1.8 HD",
-      "2.0, 1.8 HD",
-      "1.8, 2.0 HD"
-    ],
-    "answer": 3
-  },
-  {
-    "id": 28,
-    "level": "Level II",
-    "method": "RT",
-    "category": "Specific",
-    "source": "RTS-II(2020)(A)",
-    "question": "The density of the radiograph anywhere through the area of interest shall be between minus % or plus % from the density through the body of the penetrameter.\n방사선 사진의 농도 범위는 투과도계상의 농도를 기준으로 마이너스 % 에서 플러스 % 이어야 한다.",
-    "options": [
-      "30,15",
-      "15,30",
-      "15,15 D, 30,30"
-    ],
-    "answer": 1
-  },
-  {
-    "id": 29,
-    "level": "Level II",
-    "method": "RT",
-    "category": "Specific",
-    "source": "RTS-II(2020)(A)",
-    "question": "For continuous radiographing with X-ray Apparatus, RF-300EGS3, report the radiographing and OFF intervals at a duty cycle of or more?\n모델 RF-300EGS3로써 연속적으로 방사성 투과검사를 하기 위해 얼마 이상의 Duty Cycle을 유지하여야 하는가?",
-    "options": [
-      "1 : 1",
-      "1 : 2",
-      "1 : 3",
-      "1 : 4"
-    ],
-    "answer": 0
-  },
-  {
     "id": 30,
     "level": "Level II",
     "method": "RT",
@@ -441,65 +323,6 @@
       "Reject 불합격"
     ],
     "answer": 1
-  },
-  {
-    "id": 31,
-    "level": "Level II",
-    "method": "RT",
-    "category": "Specific",
-    "source": "RTS-II(2020)(B)",
-    "question": "The density of the radiograph anywhere through the area of interest shall be between minus % or plus % from the density through the body of the penetrameter.\n방사선 사진의 농도 범위는 투과도계상의 농도를 기준으로 마이너스 % 에서 플러스 % 이어야 한다.",
-    "options": [
-      "30,15",
-      "15,30",
-      "15,15 D, 30,30"
-    ],
-    "answer": 1
-  },
-  {
-    "id": 32,
-    "level": "Level II",
-    "method": "RT",
-    "category": "Specific",
-    "source": "RTS-II(2020)(B)",
-    "question": "For continuous radiographing with X-ray Apparatus, RF-300EGS3, report the radiographing and OFF intervals at a duty cycle of or more?\n모델 RF-300EGS3로써 연속적으로 방사성 투과검사를 하기 위해 얼마 이상의 Duty Cycle을 유지하여야 하는가?",
-    "options": [
-      "1 : 1",
-      "1 : 2",
-      "1 : 3",
-      "1 : 4"
-    ],
-    "answer": 0
-  },
-  {
-    "id": 33,
-    "level": "Level II",
-    "method": "RT",
-    "category": "Specific",
-    "source": "RTS-II(2020)(B)",
-    "question": "A lead symbol \"B\" for checking of back scattered radiation, shall have be minimum dimension of in hight and thickness.\n후방산란 확인을 위해 사용되는 납글자 B의 크기는?",
-    "options": [
-      "1/4\", 1/16\"",
-      "1/2\", 1/8\"",
-      "1/4\", 1/8\"",
-      "7/16\", 1/16\""
-    ],
-    "answer": 3
-  },
-  {
-    "id": 34,
-    "level": "Level II",
-    "method": "RT",
-    "category": "Specific",
-    "source": "RTS-II(2020)(B)",
-    "question": "The transmitted film density through the radiographic image of the body of the appropriate penetrometer and the area of interest shall be minimum for single film viewing for radiographs made with an X-ray source and minimum for radiographs made with a Gamma-ray source.\n적절한 투과도계와 시험지역의 방사선 사진상을 투과한 필름의 농도는 단일 필름보기의 경우에 엑스선, 감마선으로 촬영했을 때 각각 최소는 얼마가 되어야 하는가?",
-    "options": [
-      "2.0, 2.0 HD",
-      "1.8, 1.8 HD",
-      "2.0, 1.8 HD",
-      "1.8, 2.0 HD"
-    ],
-    "answer": 3
   },
   {
     "level": "Level II",
@@ -515,5 +338,17 @@
     ],
     "answer": 0,
     "id": 35
+  },
+  {
+    "id": 36,
+    "groupNote": "The part of the γ-ray machine that generates the mechanical force to move the radiographic isotope to the object is (Ⅰ), and the part of the γ-ray machine connected to the storage container of the radioactive isotope is (Ⅱ).\n피사체에 방사성 동위원소를 기계적인 힘으로 이동시키는 γ-선 장치의 부품은 (Ⅰ)이고, 방사성 동위원소의 저장용기에 연결되는 γ-선 장치의 부품은 (Ⅱ)이다.",
+    "question": "What is (Ⅱ)?\n(Ⅱ)은 무엇인가?",
+    "options": [
+      "Front guiding",
+      "Connector",
+      "Remote controller",
+      "Pig tail"
+    ],
+    "answer": 1
   }
 ]

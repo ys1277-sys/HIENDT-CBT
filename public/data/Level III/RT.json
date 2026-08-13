@@ -511,7 +511,7 @@
   },
   {
     "id": 31,
-    "question": "The amount of unsharpness or blurring of a radiograph is:",
+    "question": "The amount of unsharpness or blurring of a radiograph is:\n방사선사진의 흐림(unsharpness) 정도를 무엇이라 하는가?",
     "options": [
       "directly proportional to the object-to-film distance and inversely proportional\n to the size of the focal spot",
       "directly proportional to the size of the focal spot and inversely proportional\n to the source-to object distance",
@@ -525,7 +525,7 @@
   },
   {
     "id": 32,
-    "question": "The depth of a discontinuity may be estimated by making two exposures on a single film from two different positions of the x-ray tube. The depth of the discontinuity is computed from the shift in the image of the discontinuity with respect to the tube shift and source-to-film distance. The method is referred to as:",
+    "question": "The depth of a discontinuity may be estimated by making two exposures on a single film from two different positions of the x-ray tube. The depth of the discontinuity is computed from the shift in the image of the discontinuity with respect to the tube shift and source-to-film distance. The method is referred to as:\nX선관을 두 위치에 두고 한 장의 필름에 두 번 노출시켜 불연속의 깊이를 추정할 수 있다. 관의 이동량과 선원-필름 거리에 대한 불연속 상의 이동량으로 깊이를 계산한다. 이 방법을 무엇이라 하는가?",
     "options": [
       "stereo-radiography",
       "zeroradiography",
@@ -540,7 +540,7 @@
   },
   {
     "id": 33,
-    "question": "Which of the following items affect subject contrast?",
+    "question": "Which of the following items affect subject contrast?\n다음 중 피사체대비에 영향을 주는 것은?",
     "options": [
       "thickness differences in specimen",
       "radiation energy level",
@@ -560,7 +560,7 @@
   },
   {
     "id": 34,
-    "question": "Radiation is absorbed according to which of the following nuclear concepts.",
+    "question": "Radiation is absorbed according to which of the following nuclear concepts.\n방사선은 다음 중 어떤 원자핵 개념에 따라 흡수되는가?",
     "options": [
       "Compton effect",
       "Bremsstrahlung",
@@ -594,7 +594,7 @@
   },
   {
     "id": 36,
-    "question": "For an x-ray machine, increasing the KV causes:",
+    "question": "For an x-ray machine, increasing the KV causes:\nX선 장치에서 관전압(KV)을 높이면 어떻게 되는가?",
     "options": [
       "longer wavelength, less penetrating radiation to be generated",
       "longer wavelength, more penetrating radiation to be generated",
@@ -608,7 +608,7 @@
   },
   {
     "id": 37,
-    "question": "Lead foil in direct contact with the film for exposures over 120 KV has which of the following significant effects:",
+    "question": "Lead foil in direct contact with the film for exposures over 120 KV has which of the following significant effects:\n120KV를 넘는 촬영에서 필름에 직접 밀착시킨 납박(lead foil)의 중요한 효과는?",
     "options": [
       "increases exposure time",
       "decreases exposure time",
@@ -629,7 +629,7 @@
   },
   {
     "id": 38,
-    "question": "Diffraction is most likely to occur:",
+    "question": "Diffraction is most likely to occur:\n회절(diffraction)이 가장 잘 일어나는 경우는?",
     "options": [
       "with thick, fine grained specimens",
       "with thin, fine grained specimens",
@@ -643,7 +643,7 @@
   },
   {
     "id": 39,
-    "question": "Up to a reasonable limit, increasing the density of a radiograph:",
+    "question": "Up to a reasonable limit, increasing the density of a radiograph:\n적정 한도 내에서 방사선사진의 농도를 높이면 어떻게 되는가?",
     "options": [
       "improves contrast",
       "reduces contrast",
@@ -657,7 +657,7 @@
   },
   {
     "id": 40,
-    "question": "Radiographic sensitivity is defined as:",
+    "question": "Radiographic sensitivity is defined as:\n방사선투과 감도(radiographic sensitivity)의 정의는?",
     "options": [
       "the ratio of variations in density",
       "the sharpness of outline in the image",
@@ -671,7 +671,7 @@
   },
   {
     "id": 41,
-    "question": "To which of the following does the term “reference radiographs”apply?",
+    "question": "To which of the following does the term “reference radiographs”apply?\n'대비 방사선사진(reference radiographs)'이라는 용어는 다음 중 어디에 해당하는가?",
     "options": [
       "Radiographs used to show the position of each radiographic view",
       "Radiographs with discontinuity indications that are to be compared with\n indications in test object radiographs",
@@ -685,7 +685,7 @@
   },
   {
     "id": 42,
-    "question": "Target materials for x-ray tubes must possess which of the following properties?",
+    "question": "Target materials for x-ray tubes must possess which of the following properties?\nX선관의 타겟 재료가 갖춰야 할 성질은?",
     "options": [
       "high melting point",
       "low atomic number",
@@ -704,7 +704,7 @@
   },
   {
     "id": 43,
-    "question": "A radiograph having wide latitude also has, by definition:",
+    "question": "A radiograph having wide latitude also has, by definition:\n관용도(latitude)가 넓은 방사선사진은 정의상 어떠한가?",
     "options": [
       "poor definition",
       "low contrast",
@@ -719,7 +719,7 @@
   },
   {
     "id": 44,
-    "question": "Radiation striking a radiographic film causes:",
+    "question": "Radiation striking a radiographic film causes:\n방사선이 방사선 필름에 부딪히면 무엇이 일어나는가?",
     "options": [
       "an electrostatic charge in the emulsion",
       "an image to appear on the film",
@@ -733,7 +733,7 @@
   },
   {
     "id": 45,
-    "question": "The sharpness of the transition between different densities on the radiograph is know as:",
+    "question": "The sharpness of the transition between different densities on the radiograph is know as:\n방사선사진에서 서로 다른 농도 사이의 경계가 얼마나 뚜렷한가를 무엇이라 하는가?",
     "options": [
       "radiographic contrast",
       "radiographic definition",
@@ -747,7 +747,7 @@
   },
   {
     "id": 46,
-    "question": "Which of the following items will reduce radiographic contrast?",
+    "question": "Which of the following items will reduce radiographic contrast?\n다음 중 방사선사진 대비를 낮추는 것은?",
     "options": [
       "Increase the distance between the object and the radiation source",
       "Decrease the distance between the object and the film",
@@ -761,7 +761,7 @@
   },
   {
     "id": 47,
-    "question": "Sharp, black, bird-foot like tracks appear at random on the radiograph. The most probable cause is:",
+    "question": "Sharp, black, bird-foot like tracks appear at random on the radiograph. The most probable cause is:\n방사선사진에 날카롭고 검은 새발자국 모양의 자국이 불규칙하게 나타났다. 가장 유력한 원인은?",
     "options": [
       "Prolonged development in old developer",
       "exposure of the film to natural cosmic ray showers during storage",
@@ -775,7 +775,7 @@
   },
   {
     "id": 48,
-    "question": "The intensity of x-or gamma radiation is measured in units called:",
+    "question": "The intensity of x-or gamma radiation is measured in units called:\nX선이나 감마선의 강도는 어떤 단위로 측정하는가?",
     "options": [
       "roentgens",
       "ergs",
@@ -789,7 +789,7 @@
   },
   {
     "id": 49,
-    "question": "In comparison with lower voltage radiographs, high voltage radiographs show:",
+    "question": "In comparison with lower voltage radiographs, high voltage radiographs show:\n낮은 관전압으로 찍은 사진과 비교할 때, 높은 관전압으로 찍은 사진은 어떠한가?",
     "options": [
       "greater latitude",
       "greater contrast",
@@ -803,7 +803,7 @@
   },
   {
     "id": 50,
-    "question": "Filters used at the port of the x-ray tube:",
+    "question": "Filters used at the port of the x-ray tube:\nX선관 조사구에 사용하는 필터의 역할은?",
     "options": [
       "intensify the x-ray tube beam by contributing secondary radiation intensity",
       "filter out “soft” radiation to provide a more homogeneous x-ray beam",
@@ -845,7 +845,7 @@
   },
   {
     "id": 53,
-    "question": "Two film of the same type are often used in the same cassette to:",
+    "question": "Two film of the same type are often used in the same cassette to:\n같은 종류의 필름 두 장을 한 카세트에 함께 넣어 쓰는 이유는?",
     "options": [
       "increase the cost of radiography",
       "send to different interpreters for independent evaluation",
@@ -859,7 +859,7 @@
   },
   {
     "id": 54,
-    "question": "The specific activity of a radioactive source is:",
+    "question": "The specific activity of a radioactive source is:\n방사성 선원의 비방사능(specific activity)이란 무엇인가?",
     "options": [
       "the number of curies-per-gram of a source",
       "the rate of decay(half-life)of a source",
@@ -873,7 +873,7 @@
   },
   {
     "id": 55,
-    "question": "A radiograph, showing poor sensitivity, is to be retaken. Which of the following would improve the sensitivity?",
+    "question": "A radiograph, showing poor sensitivity, is to be retaken. Which of the following would improve the sensitivity?\n감도가 나쁜 방사선사진을 다시 찍으려 한다. 감도를 높이는 방법은?",
     "options": [
       "Reduce the source-to-film distance",
       "Use a slower film",
@@ -892,7 +892,7 @@
   },
   {
     "id": 56,
-    "question": "The penetrating ability of an x-ray beam is governed by:",
+    "question": "The penetrating ability of an x-ray beam is governed by:\nX선 빔의 투과력을 좌우하는 것은?",
     "options": [
       "kilovoltage or wavelength",
       "time",
@@ -906,7 +906,7 @@
   },
   {
     "id": 57,
-    "question": "Latitude is affected by which of the following items?",
+    "question": "Latitude is affected by which of the following items?\n관용도에 영향을 주는 것은?",
     "options": [
       "The type of film used",
       "The source-to-film distance",
@@ -924,7 +924,7 @@
   },
   {
     "id": 58,
-    "question": "Shrinkage in a casting is not likely to occur:",
+    "question": "Shrinkage in a casting is not likely to occur:\n주조품의 수축공이 잘 생기지 않는 곳은?",
     "options": [
       "in the center of thick sections",
       "in areas away from gates or risers",
@@ -952,7 +952,7 @@
   },
   {
     "id": 60,
-    "question": "In order to produce x-rays, a system must have which of the following as a minimum?",
+    "question": "In order to produce x-rays, a system must have which of the following as a minimum?\nX선을 발생시키려면 최소한 어떤 것들이 있어야 하는가?",
     "options": [
       "a beryllium window",
       "a means of accelerating electrons",
@@ -971,7 +971,7 @@
   },
   {
     "id": 61,
-    "question": "A source that has 40x1010 disintegrations per second would be a:",
+    "question": "A source that has 40x1010 disintegrations per second would be a:\n초당 40×10¹⁰회 붕괴하는 선원은 얼마인가?",
     "options": [
       "5.8 curie source",
       "10.8 curie source",
@@ -999,7 +999,7 @@
   },
   {
     "id": 63,
-    "question": "Slag inclusions occur:",
+    "question": "Slag inclusions occur:\n슬래그 개재물은 어디에서 생기는가?",
     "options": [
       "only in the root pass",
       "only in the cover pass",
@@ -1013,7 +1013,7 @@
   },
   {
     "id": 64,
-    "question": "Hot tears occur in:",
+    "question": "Hot tears occur in:\n고온균열(hot tear)은 어디에서 생기는가?",
     "options": [
       "castings",
       "forgings",
@@ -1027,7 +1027,7 @@
   },
   {
     "id": 65,
-    "question": "Sand inclusions in castings appear as:",
+    "question": "Sand inclusions in castings appear as:\n주조품의 모래 개재물은 어떻게 나타나는가?",
     "options": [
       "dark, smoothly outlined areas",
       "spongy like areas, darker than surrounding area",
@@ -1055,7 +1055,7 @@
   },
   {
     "id": 67,
-    "question": "The energy of gamma rays is expressed by which of the following:",
+    "question": "The energy of gamma rays is expressed by which of the following:\n감마선의 에너지는 무엇으로 표시하는가?",
     "options": [
       "curie",
       "roentgen",
@@ -1069,7 +1069,7 @@
   },
   {
     "id": 68,
-    "question": "In order to increase the range of thicknesses that may be radiographed, at reasonable viewing densities, simultaneously:",
+    "question": "In order to increase the range of thicknesses that may be radiographed, at reasonable viewing densities, simultaneously:\n적정 판독농도를 유지하면서 한 번에 촬영할 수 있는 두께 범위를 넓히려면 어떻게 해야 하는가?",
     "options": [
       "a fluorescent screen should be employed",
       "decrease the energy level of radiation used for the exposure",
@@ -1083,7 +1083,7 @@
   },
   {
     "id": 69,
-    "question": "When viewing a radiograph, an image of the back of the cassette superimposed on the image of the specimen is noted. This is most likely due to:",
+    "question": "When viewing a radiograph, an image of the back of the cassette superimposed on the image of the specimen is noted. This is most likely due to:\n방사선사진을 판독할 때 시험체 상에 카세트 뒷면의 상이 겹쳐 보였다. 가장 유력한 원인은?",
     "options": [
       "undercut",
       "overexposure",
@@ -1097,7 +1097,7 @@
   },
   {
     "id": 70,
-    "question": "A casting is designed so that some portions are highly stressed while other areas are stressed relatively low. When establishing acceptance criteria, one should consider:",
+    "question": "A casting is designed so that some portions are highly stressed while other areas are stressed relatively low. When establishing acceptance criteria, one should consider:\n어떤 주조품은 응력이 크게 걸리는 부위와 상대적으로 작게 걸리는 부위가 함께 있도록 설계된다. 합격기준을 정할 때 무엇을 고려해야 하는가?",
     "options": [
       "one quality level for the entire casting",
       "a median quality level",
@@ -1111,7 +1111,7 @@
   },
   {
     "id": 71,
-    "question": "Radiographic film that are left between lead screens too long in a high temperature and a high humidity atmosphere may:",
+    "question": "Radiographic film that are left between lead screens too long in a high temperature and a high humidity atmosphere may:\n고온다습한 환경에서 납 증감지 사이에 너무 오래 둔 방사선 필름은 어떻게 될 수 있는가?",
     "options": [
       "show increased speed but decreased quality characteristics",
       "become fogged",
@@ -1125,7 +1125,7 @@
   },
   {
     "id": 72,
-    "question": "Given the radiographic equivalency factors of 1.4 for Inconel and 1.0 for 304 stainless steel, what is the approximate equivalent thickness of Inconel to produce the same exposure as a 0.5inch thickness of 304 stainless steel?",
+    "question": "Given the radiographic equivalency factors of 1.4 for Inconel and 1.0 for 304 stainless steel, what is the approximate equivalent thickness of Inconel to produce the same exposure as a 0.5inch thickness of 304 stainless steel?\n방사선 등가계수가 인코넬 1.4, 304 스테인리스강 1.0일 때, 304 스테인리스강 0.5인치와 같은 노출을 내는 인코넬의 대략적인 등가 두께는?",
     "options": [
       "0.50 inch",
       "0.70 inch",
@@ -1139,7 +1139,7 @@
   },
   {
     "id": 73,
-    "question": "The velocity of electrons striking the target in an x-ray tube is a function of:",
+    "question": "The velocity of electrons striking the target in an x-ray tube is a function of:\nX선관에서 타겟에 부딪히는 전자의 속도는 무엇에 좌우되는가?",
     "options": [
       "the atomic number of the cathode material",
       "the atomic number of the filament material",
@@ -1195,7 +1195,7 @@
   },
   {
     "id": 77,
-    "question": "(ASME Sec.I) - There is a single rounded indication of porosity that is one-sixteenth (1/16) inch in diameter. The weld is acceptable. True____________ False____________",
+    "question": "(ASME Sec.I) - There is a single rounded indication of porosity that is one-sixteenth (1/16) inch in diameter. The weld is acceptable.\n(ASME Sec. I) 지름 1/16인치인 원형 기공 지시가 하나 있다. 이 용접부는 합격이다.",
     "options": [
       "True",
       "False"
@@ -1207,7 +1207,7 @@
   },
   {
     "id": 78,
-    "question": "(ASME Section Ⅲ-NB) - There is a single rounded indication of porosity that is one-sixteenth (1/16) inch in diameter. The weld is acceptable. True____________ False____________",
+    "question": "(ASME Section Ⅲ-NB) - There is a single rounded indication of porosity that is one-sixteenth (1/16) inch in diameter. The weld is acceptable.\n(ASME Section Ⅲ-NB) 지름 1/16인치인 원형 기공 지시가 하나 있다. 이 용접부는 합격이다.",
     "options": [
       "True",
       "False"
@@ -1219,7 +1219,7 @@
   },
   {
     "id": 79,
-    "question": "(ANSI B31.1) - There is a single rounded indication of porosity that is one- sixteenth (1/16) inch in diameter. The weld is acceptable. True____________ False____________",
+    "question": "(ANSI B31.1) - There is a single rounded indication of porosity that is one- sixteenth (1/16) inch in diameter. The weld is acceptable.\n(ANSI B31.1) 지름 1/16인치인 원형 기공 지시가 하나 있다. 이 용접부는 합격이다.",
     "options": [
       "True",
       "False"
@@ -1259,7 +1259,7 @@
   },
   {
     "id": 82,
-    "question": "(API-1104) - The radiographs show the following sequence of single indications and sound weld metal. Elongated slag inclusion two(2) inches long, 10inches sound weld metal, incomplete fusion due to cold lap one(1) inch long, 10inches sound weld metal and elongated slag inclusion three-sixteenths (3/16) inch long. The remainder of the weld is sound. The weld is: Acceptable___________ Unacceptable___________",
+    "question": "(API-1104) - The radiographs show the following sequence of single indications and sound weld metal. Elongated slag inclusion two(2) inches long, 10inches sound weld metal, incomplete fusion due to cold lap one(1) inch long, 10inches sound weld metal and elongated slag inclusion three-sixteenths (3/16) inch long. The remainder of the weld is sound. The weld is:\n(API-1104) 방사선사진에 단일 지시와 건전한 용접금속이 다음 순서로 나타났다. 길이 2인치 가늘고 긴 슬래그 개재물, 건전부 10인치, 콜드랩에 의한 융합불량 1인치, 건전부 10인치, 길이 3/16인치 가늘고 긴 슬래그 개재물. 나머지는 모두 건전하다. 이 용접부는?",
     "options": [
       "Acceptable",
       "Unacceptable"
@@ -1271,7 +1271,7 @@
   },
   {
     "id": 83,
-    "question": "(ASME Section Ⅲ-ND-5321) - The radiographs show the following sequence of single indications and sound weld metal. Elongated slag inclusion one-quarter(1/4) inch long, nine and one-half(91/2)inches of sound weld metal and a gas pocket one-quarter (1/4)inch in diameter. The remainder of the weld is sound. The weld is: Acceptable___________ Unacceptable___________",
+    "question": "(ASME Section Ⅲ-ND-5321) - The radiographs show the following sequence of single indications and sound weld metal. Elongated slag inclusion one-quarter(1/4) inch long, nine and one-half(91/2)inches of sound weld metal and a gas pocket one-quarter (1/4)inch in diameter. The remainder of the weld is sound. The weld is:\n(ASME Section Ⅲ-ND-5321) 방사선사진에 단일 지시와 건전한 용접금속이 다음 순서로 나타났다. 길이 1/4인치 가늘고 긴 슬래그 개재물, 건전부 9½인치, 지름 1/4인치 기공. 나머지는 모두 건전하다. 이 용접부는?",
     "options": [
       "Acceptable",
       "Unacceptable"
@@ -1283,7 +1283,7 @@
   },
   {
     "id": 84,
-    "question": "(ASME Section Ⅷ-UW51) - The radiographs show two(2) indications of slag, each one-quarter (1/4) inch long, and separated by 1.5 inches of sound weld metal. The weld is: Acceptable___________ Unacceptable___________",
+    "question": "(ASME Section Ⅷ-UW51) - The radiographs show two(2) indications of slag, each one-quarter (1/4) inch long, and separated by 1.5 inches of sound weld metal. The weld is:\n(ASME Section Ⅷ-UW51) 방사선사진에 각각 길이 1/4인치인 슬래그 지시 2개가 건전한 용접금속 1.5인치를 사이에 두고 나타났다. 이 용접부는?",
     "options": [
       "Acceptable",
       "Unacceptable"
@@ -1295,7 +1295,7 @@
   },
   {
     "id": 85,
-    "question": "(ASME Section Ⅲ-NG) - The radiographs show the following sequence of single indications and sound weld metal. One-quarter(1/4) inch of slag, 10inches of sound weld metal, one-quarter(1/4)inch of slag, 10inches of sound weld metal, and onequarter(1/4)inch of slag. The weld is: Acceptable___________ Unacceptable___________",
+    "question": "(ASME Section Ⅲ-NG) - The radiographs show the following sequence of single indications and sound weld metal. One-quarter(1/4) inch of slag, 10inches of sound weld metal, one-quarter(1/4)inch of slag, 10inches of sound weld metal, and onequarter(1/4)inch of slag. The weld is:\n(ASME Section Ⅲ-NG) 방사선사진에 단일 지시와 건전한 용접금속이 다음 순서로 나타났다. 슬래그 1/4인치, 건전부 10인치, 슬래그 1/4인치, 건전부 10인치, 슬래그 1/4인치. 이 용접부는?",
     "options": [
       "Acceptable",
       "Unacceptable"
@@ -1307,7 +1307,7 @@
   },
   {
     "id": 86,
-    "question": "(ASME Section Ⅲ-NB) - There is a single indication of incomplete fusion one- sixteenth(1/16) inch long. The weld is: Acceptable___________ Unacceptable___________",
+    "question": "(ASME Section Ⅲ-NB) - There is a single indication of incomplete fusion one- sixteenth(1/16) inch long. The weld is:\n(ASME Section Ⅲ-NB) 길이 1/16인치인 융합불량 지시가 하나 있다. 이 용접부는?",
     "options": [
       "Acceptable",
       "Unacceptable"
@@ -1319,7 +1319,7 @@
   },
   {
     "id": 87,
-    "question": "(ASME Section V) - The use of fluorescent intensifying screens is prohibited. True____________ False____________",
+    "question": "(ASME Section V) - The use of fluorescent intensifying screens is prohibited.\n(ASME Section V) 형광 증감지의 사용은 금지되어 있다.",
     "options": [
       "True",
       "False"
@@ -1331,7 +1331,7 @@
   },
   {
     "id": 88,
-    "question": "(ANSI B31.1) - When a girth weld performing radiography, it shall be done in accordance with Article 2 of Section V of ASME. True____________ False____________",
+    "question": "(ANSI B31.1) - When a girth weld performing radiography, it shall be done in accordance with Article 2 of Section V of ASME.\n(ANSI B31.1) 원주 용접부를 방사선투과검사할 때는 ASME Section V의 Article 2에 따라야 한다.",
     "options": [
       "True",
       "False"
@@ -1343,7 +1343,7 @@
   },
   {
     "id": 89,
-    "question": "(API-1104) - When reporting the results of radiographic interpretation, all discontinuities observed must be reported. True____________ False____________",
+    "question": "(API-1104) - When reporting the results of radiographic interpretation, all discontinuities observed must be reported.\n(API-1104) 방사선투과 판독 결과를 보고할 때는 관찰된 모든 불연속을 보고해야 한다.",
     "options": [
       "True",
       "False"
@@ -1383,7 +1383,7 @@
   },
   {
     "id": 92,
-    "question": "(ASME Section V) - When shims are used under penetrameters, the shim material need not be exactly the same as the material being radiographed. It only needs to be radiographically similar. True____________ False____________",
+    "question": "(ASME Section V) - When shims are used under penetrameters, the shim material need not be exactly the same as the material being radiographed. It only needs to be radiographically similar.\n(ASME Section V) 투과도계 아래에 심(shim)을 쓸 때, 심 재료가 촬영 대상 재료와 정확히 같을 필요는 없고 방사선적으로 유사하기만 하면 된다.",
     "options": [
       "True",
       "False"
@@ -1395,7 +1395,7 @@
   },
   {
     "id": 93,
-    "question": "Carbon steel and stainless steel are radiographically similar. True____________ False____________",
+    "question": "Carbon steel and stainless steel are radiographically similar.\n탄소강과 스테인리스강은 방사선적으로 유사하다.",
     "options": [
       "True",
       "False"
@@ -1407,7 +1407,7 @@
   },
   {
     "id": 94,
-    "question": "(ASME Section V) - Film identification, other than location markers, can be accomplished by using flashers or writing the numbers on with an indelible ink. Lead numbers need not be used during the exposure to accomplish identification. True____________ False____________",
+    "question": "(ASME Section V) - Film identification, other than location markers, can be accomplished by using flashers or writing the numbers on with an indelible ink. Lead numbers need not be used during the exposure to accomplish identification.\n(ASME Section V) 위치 표시자를 제외한 필름 식별은 플래셔를 쓰거나 지워지지 않는 잉크로 번호를 적어 할 수 있다. 식별을 위해 촬영 중에 납 숫자를 쓸 필요는 없다.",
     "options": [
       "True",
       "False"
@@ -1419,7 +1419,7 @@
   },
   {
     "id": 95,
-    "question": "(ASME Section Ⅷ-Div.2) - The radiograph shows two(2) indications of slag, each one-quarter (1/4) inch long, and separated by 1.5 inches, in 2 inch thickness of sound weld metal. The weld is: Acceptable___________ Unacceptable___________",
+    "question": "(ASME Section Ⅷ-Div.2) - The radiograph shows two(2) indications of slag, each one-quarter (1/4) inch long, and separated by 1.5 inches, in 2 inch thickness of sound weld metal. The weld is:\n(ASME Section Ⅷ-Div.2) 방사선사진에 각각 길이 1/4인치인 슬래그 지시 2개가 1.5인치 간격으로, 두께 2인치의 건전한 용접금속에 나타났다. 이 용접부는?",
     "options": [
       "Acceptable",
       "Unacceptable"
@@ -1431,7 +1431,7 @@
   },
   {
     "id": 96,
-    "question": "(ASME Section Ⅷ-Div.1) - When radiographic examination has been performed on a vessel in accordance with UW-11 and the complete vessel satisfies the spot radiography requirements of UW-11(b), marking _______ shall be applied.",
+    "question": "(ASME Section Ⅷ-Div.1) - When radiographic examination has been performed on a vessel in accordance with UW-11 and the complete vessel satisfies the spot radiography requirements of UW-11(b), marking _______ shall be applied.\n(ASME Section Ⅷ-Div.1) UW-11에 따라 용기를 방사선투과검사했고 용기 전체가 UW-11(b)의 부분촬영 요구사항을 만족한다면 어떤 표시를 해야 하는가?",
     "options": [
       "RT 1",
       "RT 2",
@@ -1445,7 +1445,7 @@
   },
   {
     "id": 97,
-    "question": "(ASME Section Ⅷ-Div.1) - When radiographic examination has been performed on a vessel in accordance with UW-11 and only part of the complete vessel has satisfied the radiographic requirements of UW-11(a), marking _______ shall be applied.",
+    "question": "(ASME Section Ⅷ-Div.1) - When radiographic examination has been performed on a vessel in accordance with UW-11 and only part of the complete vessel has satisfied the radiographic requirements of UW-11(a), marking _______ shall be applied.\n(ASME Section Ⅷ-Div.1) UW-11에 따라 용기를 방사선투과검사했으나 용기의 일부만 UW-11(a)의 요구사항을 만족한다면 어떤 표시를 해야 하는가?",
     "options": [
       "RT 1",
       "RT 2",
@@ -1459,7 +1459,7 @@
   },
   {
     "id": 98,
-    "question": "(ASME Section Ⅷ-Div.1) - Welded joint category ___ is welded joints connecting communicating chambers or nozzles to main shells, to spheres, to transitions in diameter, to heads, or to flat-sided vessels.",
+    "question": "(ASME Section Ⅷ-Div.1) - Welded joint category ___ is welded joints connecting communicating chambers or nozzles to main shells, to spheres, to transitions in diameter, to heads, or to flat-sided vessels.\n(ASME Section Ⅷ-Div.1) 연결실이나 노즐을 동체, 구형체, 지름 변환부, 경판 또는 평면 용기에 잇는 용접이음은 어느 범주(category)인가?",
     "options": [
       "Category A",
       "Category B",
@@ -1473,7 +1473,7 @@
   },
   {
     "id": 99,
-    "question": "(ASME Section Ⅷ-Div.1) - When all butt welds in the shell and heads of vessels used to contain lethal substances should be examined radiographicall, they shall be radiographed for their full length in the manner prescribed in UW-51 True____________ False____________",
+    "question": "(ASME Section Ⅷ-Div.1) - When all butt welds in the shell and heads of vessels used to contain lethal substances should be examined radiographicall, they shall be radiographed for their full length in the manner prescribed in UW-51\n(ASME Section Ⅷ-Div.1) 치명적 물질을 담는 용기의 동체와 경판에 있는 모든 맞대기 용접부를 방사선투과검사해야 할 때는, UW-51에 규정된 방법으로 전 길이를 촬영해야 한다.",
     "options": [
       "True",
       "False"
@@ -1485,7 +1485,7 @@
   },
   {
     "id": 100,
-    "question": "(ASME Section Ⅷ-Div.1) - The radiograph shows the aligned rounded indications that the summation of the diameters of the indications is 11 mm in a length of 130 mm, in 12 mm thickness of weld metal. The weld is: Acceptable___________ Unacceptable___________",
+    "question": "(ASME Section Ⅷ-Div.1) - The radiograph shows the aligned rounded indications that the summation of the diameters of the indications is 11 mm in a length of 130 mm, in 12 mm thickness of weld metal. The weld is:\n(ASME Section Ⅷ-Div.1) 두께 12mm 용접금속에서 길이 130mm 구간에 정렬된 원형 지시들의 지름 합이 11mm로 나타났다. 이 용접부는?",
     "options": [
       "Acceptable",
       "Unacceptable"
@@ -1497,7 +1497,7 @@
   },
   {
     "id": 101,
-    "question": "(ASME Section Ⅷ-Div.1) - The radiograph shows the lack of side wall fusion indications of the 12 mm length in 25 mm thickness of weld metal. The weld is: Acceptable___________ Unacceptable___________",
+    "question": "(ASME Section Ⅷ-Div.1) - The radiograph shows the lack of side wall fusion indications of the 12 mm length in 25 mm thickness of weld metal. The weld is:\n(ASME Section Ⅷ-Div.1) 두께 25mm 용접금속에서 길이 12mm의 측벽 융합불량 지시가 나타났다. 이 용접부는?",
     "options": [
       "Acceptable",
       "Unacceptable"
@@ -1509,7 +1509,7 @@
   },
   {
     "id": 102,
-    "question": "(ASME Section Ⅷ-Div.1) - The rewelded joint, or the weld repaired ares, shall be full radiographically examined at one location in accordance with the foregoing requirements of UW-52. True___________ False___________",
+    "question": "(ASME Section Ⅷ-Div.1) - The rewelded joint, or the weld repaired ares, shall be full radiographically examined at one location in accordance with the foregoing requirements of UW-52.\n(ASME Section Ⅷ-Div.1) 재용접한 이음부 또는 보수용접한 부위는 UW-52의 앞선 요구사항에 따라 한 곳에서 전체 방사선투과검사를 해야 한다.",
     "options": [
       "True",
       "False"
@@ -1521,7 +1521,7 @@
   },
   {
     "id": 103,
-    "question": "(ASME Section Ⅷ-Div.2) - The radiograph shows the three clustered indications that the sum of length lengths of them is 35 mm in 140 mm length weld on 30 mm thickness of weld metal. The weld is: Acceptable___________ Unacceptable___________",
+    "question": "(ASME Section Ⅷ-Div.2) - The radiograph shows the three clustered indications that the sum of length lengths of them is 35 mm in 140 mm length weld on 30 mm thickness of weld metal. The weld is:\n(ASME Section Ⅷ-Div.2) 두께 30mm 용접금속의 길이 140mm 용접부에서 군집 지시 3개가 나타났고 그 길이의 합은 35mm이다. 이 용접부는?",
     "options": [
       "Acceptable",
       "Unacceptable"

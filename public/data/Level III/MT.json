@@ -442,23 +442,6 @@
     "explanation": ""
   },
   {
-    "id": 27,
-    "level": "Level III",
-    "method": "MT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section III",
-    "question": "What is the size of relevant indication in case of magnetic particle examination on welds and surface?\n용접부 및 표면 자분탐상 시험에서 관련 지시의 크기는?",
-    "question_kr": "용접부 및 표면 자분탐상 시험에서 관련 지시의 크기는?",
-    "options": [
-      "1/32 in",
-      "1/64 in",
-      "1/16 in",
-      "3/64 in"
-    ],
-    "answer": 2,
-    "explanation": ""
-  },
-  {
     "id": 28,
     "level": "Level III",
     "method": "MT",
@@ -511,7 +494,7 @@
   },
   {
     "id": 31,
-    "question": "The magnetic domains in a permanent magnet are:",
+    "question": "The magnetic domains in a permanent magnet are:\n영구자석 안의 자구(magnetic domain)는 어떤 상태인가?",
     "options": [
       "aligned in fixed positions with directions that cancel out",
       "aligned in fixed positions, predominantly in one direction",
@@ -525,7 +508,7 @@
   },
   {
     "id": 32,
-    "question": "For which of the following would the wet fluorescent technique be preferred over the dry technique?",
+    "question": "For which of the following would the wet fluorescent technique be preferred over the dry technique?\n다음 중 건식법보다 습식 형광법이 더 적합한 경우는?",
     "options": [
       "When the parts are large and bulky",
       "When increased speed and sensitivity are desired",
@@ -539,7 +522,7 @@
   },
   {
     "id": 33,
-    "question": "Gas, misruns, cold laps and sand inclusions are examples of defects resulting from which of the following processes?",
+    "question": "Gas, misruns, cold laps and sand inclusions are examples of defects resulting from which of the following processes?\n기공, 탕경(misrun), 콜드랩, 모래 개재물은 어떤 공정에서 생기는 결함인가?",
     "options": [
       "Forging",
       "Grinding",
@@ -553,7 +536,7 @@
   },
   {
     "id": 34,
-    "question": "Of the following, which is not a valid reason for demagnetization of parts after magnetic particle testing?",
+    "question": "Of the following, which is not a valid reason for demagnetization of parts after magnetic particle testing?\n다음 중 자분탐상 후 부품을 탈자해야 하는 타당한 이유가 아닌 것은?",
     "options": [
       "If the part is to be radiographed after magnetic particle inspection, residual\n magnetism may interfere with the electromagnetic radiation spectrum",
       "Residual magnetism may attract chips or small particles in service, causing \n galling or mechanical wear",
@@ -567,7 +550,7 @@
   },
   {
     "id": 35,
-    "question": "Subjecting a part to a magnetic field, that is constantly reversing in polarity and gradually diminishing in strength, accomplishes which of the following?",
+    "question": "Subjecting a part to a magnetic field, that is constantly reversing in polarity and gradually diminishing in strength, accomplishes which of the following?\n극성이 계속 뒤바뀌면서 세기가 점차 줄어드는 자장에 부품을 두면 어떤 효과가 있는가?",
     "options": [
       "Magnetizes the part",
       "Demagnetizes the part",
@@ -581,7 +564,7 @@
   },
   {
     "id": 36,
-    "question": "How is the concentration of the solid content of a suspension of magnetic particles measured?",
+    "question": "How is the concentration of the solid content of a suspension of magnetic particles measured?\n자분 현탁액의 고형분 농도는 어떻게 측정하는가?",
     "options": [
       "By weighting the suspension",
       "By soaking the solids in benzol",
@@ -595,7 +578,7 @@
   },
   {
     "id": 37,
-    "question": "An important factor that must be considered when selecting a method of magnetization is:",
+    "question": "An important factor that must be considered when selecting a method of magnetization is:\n자화 방법을 선택할 때 반드시 고려해야 하는 중요한 인자는?",
     "options": [
       "location of inspection station",
       "alloy, shape and condition of the part",
@@ -609,7 +592,7 @@
   },
   {
     "id": 38,
-    "question": "An important factor that must be considered when selecting a method of magnetization is the:",
+    "question": "An important factor that must be considered when selecting a method of magnetization is the:\n자화 방법을 선택할 때 반드시 고려해야 하는 중요한 인자는?",
     "options": [
       "type of magnetizing current",
       "availability of handling equipment",
@@ -623,7 +606,7 @@
   },
   {
     "id": 39,
-    "question": "What happens to a magnetic material when it reaches its Curie temperature?",
+    "question": "What happens to a magnetic material when it reaches its Curie temperature?\n자성 재료가 퀴리온도에 이르면 어떻게 되는가?",
     "options": [
       "It becomes paramagnetic",
       "It becomes diamagnetic",
@@ -637,7 +620,7 @@
   },
   {
     "id": 40,
-    "question": "Methods utilized to preserve powder patterns include:",
+    "question": "Methods utilized to preserve powder patterns include:\n자분 모양을 보존하는 방법에 해당하는 것은?",
     "options": [
       "photographs",
       "transparent tape",
@@ -651,7 +634,7 @@
   },
   {
     "id": 41,
-    "question": "Magnetic particle inspection methods are recognized as superior to liquid penetrant techniques when:",
+    "question": "Magnetic particle inspection methods are recognized as superior to liquid penetrant techniques when:\n자분탐상이 침투탐상보다 우수하다고 인정되는 경우는?",
     "options": [
       "inspecting corroded surfaces",
       "the surface is anodized",
@@ -665,7 +648,7 @@
   },
   {
     "id": 42,
-    "question": "What magnetic property does a paramagnetic material possess?",
+    "question": "What magnetic property does a paramagnetic material possess?\n상자성체는 어떤 자기적 성질을 갖는가?",
     "options": [
       "Highly magnetic",
       "No magnetic property at all",
@@ -679,7 +662,7 @@
   },
   {
     "id": 43,
-    "question": "In what way may we reduce a magnetic field?",
+    "question": "In what way may we reduce a magnetic field?\n자장을 약하게 하려면 어떻게 해야 하는가?",
     "options": [
       "Reduce the current",
       "Move the part further away from the coil",
@@ -693,7 +676,7 @@
   },
   {
     "id": 44,
-    "question": "When is the magnetic field strongest in an object being inspected by the magnetic particle method?",
+    "question": "When is the magnetic field strongest in an object being inspected by the magnetic particle method?\n자분탐상으로 검사하는 물체에서 자장이 가장 강한 곳은 언제(어디)인가?",
     "options": [
       "Just prior to current reversal when using AC current",
       "Just after the magnetizing current is shut off",
@@ -707,7 +690,7 @@
   },
   {
     "id": 45,
-    "question": "Which of the demagnetization methods listed below is most effective?",
+    "question": "Which of the demagnetization methods listed below is most effective?\n아래 탈자 방법 중 가장 효과적인 것은?",
     "options": [
       "DC with reversing and step-down control",
       "Variable voltage AC with step-down control",
@@ -721,7 +704,7 @@
   },
   {
     "id": 46,
-    "question": "When a magnetic field is induced in a part with prods spaced 6 inches apart, the field is a:",
+    "question": "When a magnetic field is induced in a part with prods spaced 6 inches apart, the field is a:\n프로드 간격을 6인치로 두고 부품에 자장을 유도하면 그 자장은 무엇인가?",
     "options": [
       "solenoid field",
       "longitudinal field",
@@ -735,7 +718,7 @@
   },
   {
     "id": 47,
-    "question": "If the same amperage is passed through a 1 inch and 2 inch diameter bar of the same length, which of the following statements is most applicable relevant to the magnetic field at the surface of the bars?",
+    "question": "If the same amperage is passed through a 1 inch and 2 inch diameter bar of the same length, which of the following statements is most applicable relevant to the magnetic field at the surface of the bars?\n길이가 같은 지름 1인치 봉과 2인치 봉에 같은 전류를 흘렸을 때, 봉 표면의 자장에 대해 가장 적절한 설명은?",
     "options": [
       "The strength of the magnetic field at the surfaces will be the same for both bars",
       "The strength of the magnetic field at the surfaces of the 1 inch bar will be \n approximately twice that of the 2 inch bar",
@@ -749,7 +732,7 @@
   },
   {
     "id": 48,
-    "question": "If the same amperage is passed through a 1 inch diameter bar and a 2 inch diameter bar of the same length, which of the following statements is most applicable relevant to the magnetic field at the center of the bars?",
+    "question": "If the same amperage is passed through a 1 inch diameter bar and a 2 inch diameter bar of the same length, which of the following statements is most applicable relevant to the magnetic field at the center of the bars?\n길이가 같은 지름 1인치 봉과 2인치 봉에 같은 전류를 흘렸을 때, 봉 중심부의 자장에 대해 가장 적절한 설명은?",
     "options": [
       "The strength of the magnetic field in the center of the 1 inch bar will be one\n -half that of the 2 inch bar",
       "The strength of the magnetic field at the center of the 2 inch bar will be one\n -half that of the 1 inch bar",
@@ -763,7 +746,7 @@
   },
   {
     "id": 49,
-    "question": "An inspection method in which a high magnetizing force is applied to a part, and the force is then reduced to a lower continuous value which is maintained during application of the inspection medium, is called:",
+    "question": "An inspection method in which a high magnetizing force is applied to a part, and the force is then reduced to a lower continuous value which is maintained during application of the inspection medium, is called:\n부품에 높은 자화력을 가한 뒤 이를 낮은 연속값으로 줄여 검사액을 적용하는 동안 그 값을 유지하는 검사법을 무엇이라 하는가?",
     "options": [
       "the residual method",
       "The multivector method",
@@ -777,7 +760,7 @@
   },
   {
     "id": 50,
-    "question": "When deciding to inspect a part by the residual method, one should consider the strength of the residual field in the part. Factors which affect this field include:",
+    "question": "When deciding to inspect a part by the residual method, one should consider the strength of the residual field in the part. Factors which affect this field include:\n잔류법으로 부품을 검사하려 할 때는 부품에 남는 잔류자장의 세기를 고려해야 한다. 이 자장에 영향을 주는 인자는?",
     "options": [
       "the strength of the magnetizing force",
       "the retentivity of the test part",
@@ -791,7 +774,7 @@
   },
   {
     "id": 51,
-    "question": "Factors which must be considered when interpreting an indication are:",
+    "question": "Factors which must be considered when interpreting an indication are:\n지시를 해석할 때 고려해야 하는 인자는?",
     "options": [
       "the direction of the magnetic field",
       "the strength of the leakage field at the indication",
@@ -805,7 +788,7 @@
   },
   {
     "id": 52,
-    "question": "When using DC, an indication is detected. What is the next logical step to determine if the indication results from a surface or subsurface condition?",
+    "question": "When using DC, an indication is detected. What is the next logical step to determine if the indication results from a surface or subsurface condition?\n직류(DC)를 사용해 지시를 검출했다. 그 지시가 표면 결함인지 표면하 결함인지 판정하려면 다음에 무엇을 해야 하는가?",
     "options": [
       "Reinspect using the surge method",
       "Demagnetize and apply powder",
@@ -819,7 +802,7 @@
   },
   {
     "id": 53,
-    "question": "When withdrawing a part from the field around a coil and without changing the direction of current, which of the following has the least effect on demagnetizing the part?",
+    "question": "When withdrawing a part from the field around a coil and without changing the direction of current, which of the following has the least effect on demagnetizing the part?\n전류 방향을 바꾸지 않고 코일 주위 자장에서 부품을 빼낼 때, 탈자 효과에 가장 영향이 적은 것은?",
     "options": [
       "Alternating current",
       "Direct current",
@@ -833,7 +816,7 @@
   },
   {
     "id": 54,
-    "question": "An important factor that should be considered when selecting a method of magnetization is:",
+    "question": "An important factor that should be considered when selecting a method of magnetization is:\n자화 방법을 선택할 때 고려해야 하는 중요한 인자는?",
     "options": [
       "field strength value",
       "available equipment",
@@ -847,7 +830,7 @@
   },
   {
     "id": 55,
-    "question": "If an indication is formed when using the residual method as well as the continuous method, it is most likely:",
+    "question": "If an indication is formed when using the residual method as well as the continuous method, it is most likely:\n연속법뿐 아니라 잔류법에서도 지시가 형성된다면, 그 지시는 무엇일 가능성이 가장 높은가?",
     "options": [
       "very deep and tight",
       "very shallow and open to the surface",
@@ -861,7 +844,7 @@
   },
   {
     "id": 56,
-    "question": "The magnetic lines of flux or flux in a permanent magnet:",
+    "question": "The magnetic lines of flux or flux in a permanent magnet:\n영구자석 안의 자력선(자속)은 어떠한가?",
     "options": [
       "flow from the north pole the magnet to the south pole",
       "change direction sixty times a second with the magnetizing current",
@@ -875,7 +858,7 @@
   },
   {
     "id": 57,
-    "question": "Which of the following magnetization techniques is not recommended for magnetic particle testing?",
+    "question": "Which of the following magnetization techniques is not recommended for magnetic particle testing?\n다음 자화 기법 중 자분탐상에 권장되지 않는 것은?",
     "options": [
       "Longitudinal magnetization",
       "Circular magnetization",
@@ -889,7 +872,7 @@
   },
   {
     "id": 58,
-    "question": "Small parts requiring demagnetization should be:",
+    "question": "Small parts requiring demagnetization should be:\n탈자가 필요한 작은 부품은 어떻게 해야 하는가?",
     "options": [
       "loaded in baskets and passed through an AC coil",
       "demagnetized after assembly to assure complete demagnetization of the entire\n assembly",
@@ -903,7 +886,7 @@
   },
   {
     "id": 59,
-    "question": "The best shape for magnetic particles used in the dry powder method is:",
+    "question": "The best shape for magnetic particles used in the dry powder method is:\n건식 자분법에 쓰이는 자분의 가장 좋은 형상은?",
     "options": [
       "flat",
       "globular",
@@ -917,7 +900,7 @@
   },
   {
     "id": 60,
-    "question": "The best method for testing ball bearings is:",
+    "question": "The best method for testing ball bearings is:\n볼베어링을 검사하는 가장 좋은 방법은?",
     "options": [
       "along one axis using a coil",
       "two shots using a coil at the X and Y axis",
@@ -931,7 +914,7 @@
   },
   {
     "id": 61,
-    "question": "Residual magnetism may be beneficial as an aid:",
+    "question": "Residual magnetism may be beneficial as an aid:\n잔류자기가 도움이 되는 경우는?",
     "options": [
       "in the deposition of weld metal",
       "in interpretation and evaluation of indications",
@@ -945,7 +928,7 @@
   },
   {
     "id": 62,
-    "question": "What type of magnetization uses the formula: Amper-turns = 󰠏󰠏󰠏󰠏󰠏󰠏󰠏 ? L/D",
+    "question": "What type of magnetization uses the formula: Ampere-turns = 45,000 / (L/D)?\n다음 공식을 사용하는 자화 방식은? 암페어턴 = 45,000 ÷ (L/D)",
     "options": [
       "Circular",
       "Longitudinal",
@@ -959,7 +942,7 @@
   },
   {
     "id": 63,
-    "question": "A gear with case-hardened, ground teeth and hub ends is MT tested. Individual indications are detected on five of the teeth and on the one end surface of the hub. Although the indications are very sharp and distinct, they do not break over the edges of the part. What is the probable identity of the indication?",
+    "question": "A gear with case-hardened, ground teeth and hub ends is MT tested. Individual indications are detected on five of the teeth and on the one end surface of the hub. Although the indications are very sharp and distinct, they do not break over the edges of the part. What is the probable identity of the indication?\n치면과 허브 끝을 침탄경화 후 연삭한 기어를 자분탐상했다. 다섯 개의 치면과 허브 한쪽 끝면에서 개별 지시가 검출되었다. 지시는 매우 날카롭고 뚜렷하지만 부품 모서리를 넘어가지는 않는다. 이 지시의 정체로 가장 유력한 것은?",
     "options": [
       "Grinding cracks",
       "Inclusions",
@@ -973,7 +956,7 @@
   },
   {
     "id": 64,
-    "question": "When testing for fine shallow surface cracks, the preferred MT method should be:",
+    "question": "When testing for fine shallow surface cracks, the preferred MT method should be:\n미세하고 얕은 표면 균열을 검사할 때 권장되는 자분탐상 방법은?",
     "options": [
       "dry AC",
       "dry DC",
@@ -987,7 +970,7 @@
   },
   {
     "id": 65,
-    "question": "Internal splines and holes, drilled parallel to or near test surfaces, will cause:",
+    "question": "Internal splines and holes, drilled parallel to or near test surfaces, will cause:\n검사면과 나란하거나 가까이 뚫린 내부 스플라인이나 구멍은 무엇을 유발하는가?",
     "options": [
       "broad, fuzzy indications directly aligned with the part's internal contours",
       "sharp, well defined indications directly aligned with the part's internal \n contours",
@@ -1001,7 +984,7 @@
   },
   {
     "id": 66,
-    "question": "The term used to refer to the total opposition to flow of current represented by the combined effect of resistance, inductance and capacitance of a circuit is:",
+    "question": "The term used to refer to the total opposition to flow of current represented by the combined effect of resistance, inductance and capacitance of a circuit is:\n회로의 저항, 인덕턴스, 커패시턴스가 함께 작용해 전류 흐름을 방해하는 총합을 무엇이라 하는가?",
     "options": [
       "inductive reactance",
       "impedance",
@@ -1015,7 +998,7 @@
   },
   {
     "id": 67,
-    "question": "A desirable property of magnetic particles, used for the inspection medium for either the dry or wet method, is that they:",
+    "question": "A desirable property of magnetic particles, used for the inspection medium for either the dry or wet method, is that they:\n건식법이든 습식법이든 검사매체로 쓰는 자분이 갖춰야 할 바람직한 성질은?",
     "options": [
       "be nontoxic",
       "possess high permeability",
@@ -1029,7 +1012,7 @@
   },
   {
     "id": 68,
-    "question": "A rough forging discontinuity has the following characteristics: it can occur on the surface or internally; it is associated with processing at too low a temperature; it is often caused by excessive working; and it crests straight or irregular cavities varying in size. How would it be identified or classified?",
+    "question": "A rough forging discontinuity has the following characteristics: it can occur on the surface or internally; it is associated with processing at too low a temperature; it is often caused by excessive working; and it crests straight or irregular cavities varying in size. How would it be identified or classified?\n어떤 단조 불연속의 특징은 다음과 같다. 표면이나 내부에 생길 수 있고, 너무 낮은 온도에서 가공할 때 발생하며, 과도한 가공이 원인인 경우가 많고, 크기가 제각각인 직선형 또는 불규칙한 공동을 만든다. 이 불연속은 무엇으로 분류되는가?",
     "options": [
       "Burst",
       "Shrinkage",
@@ -1043,7 +1026,7 @@
   },
   {
     "id": 69,
-    "question": "The accumulation of particles at a site on the part surface, collected at and held to the site by the magnetic leakage field, is called:",
+    "question": "The accumulation of particles at a site on the part surface, collected at and held to the site by the magnetic leakage field, is called:\n부품 표면의 어느 지점에 자분이 모여 누설자장에 붙들려 있는 것을 무엇이라 하는가?",
     "options": [
       "a discontinuity",
       "a defect",
@@ -1057,7 +1040,7 @@
   },
   {
     "id": 70,
-    "question": "Which of the following is not an acceptable technique for removing a thin film o oil or grease prior to magnetic particle testing?",
+    "question": "Which of the following is not an acceptable technique for removing a thin film o oil or grease prior to magnetic particle testing?\n자분탐상 전에 얇은 유막이나 그리스를 제거하는 방법으로 적절하지 않은 것은?",
     "options": [
       "Wash with a solvent",
       "Degrease using a vapor degreasing method",
@@ -1071,7 +1054,7 @@
   },
   {
     "id": 71,
-    "question": "Which one of the following is not a discontinuity common to forged products?",
+    "question": "Which one of the following is not a discontinuity common to forged products?\n다음 중 단조품에 흔한 불연속이 아닌 것은?",
     "options": [
       "Laps",
       "Shrinkage",
@@ -1085,7 +1068,7 @@
   },
   {
     "id": 72,
-    "question": "Of the following discontinuity categories, which one is considered most detrimental to the service life of an item?",
+    "question": "Of the following discontinuity categories, which one is considered most detrimental to the service life of an item?\n다음 불연속 분류 중 제품의 사용 수명에 가장 해로운 것은?",
     "options": [
       "Subsurface inclusion",
       "Subsurface porosity and voids",
@@ -1099,7 +1082,7 @@
   },
   {
     "id": 73,
-    "question": "If one inch and two inch diameter bars were magnetized by passing the same current through them, the magnetic fields would be:",
+    "question": "If one inch and two inch diameter bars were magnetized by passing the same current through them, the magnetic fields would be:\n지름 1인치 봉과 2인치 봉에 같은 전류를 흘려 자화하면 자장은 어떻게 되는가?",
     "options": [
       "the same for both",
       "stronger in the two inch diameter bar",
@@ -1113,7 +1096,7 @@
   },
   {
     "id": 74,
-    "question": "The most common failure mechanism associated with sharp fillets, notches, undercuts and seams is:",
+    "question": "The most common failure mechanism associated with sharp fillets, notches, undercuts and seams is:\n날카로운 필릿, 노치, 언더컷, 심(seam)과 관련된 가장 흔한 파괴 기구는?",
     "options": [
       "fatigue cracking",
       "crystallization",
@@ -1127,7 +1110,7 @@
   },
   {
     "id": 75,
-    "question": "Cold working indications will not reappear if the part is:",
+    "question": "Cold working indications will not reappear if the part is:\n냉간가공 지시는 부품을 어떻게 하면 다시 나타나지 않는가?",
     "options": [
       "demagnetized then retested",
       "retested after stress relieving",
@@ -1141,7 +1124,7 @@
   },
   {
     "id": 76,
-    "question": "Dry and wet particles and suspension vehicles should be in accordance with ____ (ASME Sec. V).",
+    "question": "Dry and wet particles and suspension vehicles should be in accordance with ____ (ASME Sec. V).\n건식·습식 자분과 현탁액 매질은 무엇에 따라야 하는가? (ASME Sec. V)",
     "options": [
       "SE-746",
       "SE-703",
@@ -1155,7 +1138,7 @@
   },
   {
     "id": 77,
-    "question": "Magnetic particle examination shall be performed in accordance with a written procedure, which shall as a minimum, contain the requirements of a magnetic particle examination. Which one of the following is not a Essential Variable?(ASME Sec. V)",
+    "question": "Magnetic particle examination shall be performed in accordance with a written procedure, which shall as a minimum, contain the requirements of a magnetic particle examination. Which one of the following is not a Essential Variable?(ASME Sec. V)\n자분탐상검사는 최소한 자분탐상의 요구사항을 담은 절차서에 따라 수행해야 한다. 다음 중 필수변수(Essential Variable)가 아닌 것은? (ASME Sec. V)",
     "options": [
       "Magnetizing technique",
       "Surface preparation",
@@ -1169,7 +1152,7 @@
   },
   {
     "id": 78,
-    "question": "Magnetic particle examination shall be performed in accordance with a written procedure, which shall as a minimum, contain the requirements of a magnetic particle examination. Which one of the following is a Essential Variable?(ASME Sec. V)",
+    "question": "Magnetic particle examination shall be performed in accordance with a written procedure, which shall as a minimum, contain the requirements of a magnetic particle examination. Which one of the following is a Essential Variable?(ASME Sec. V)\n자분탐상검사는 최소한 자분탐상의 요구사항을 담은 절차서에 따라 수행해야 한다. 다음 중 필수변수(Essential Variable)인 것은? (ASME Sec. V)",
     "options": [
       "Shape or size of the examination object",
       "Demagnetizing technique",
@@ -1183,7 +1166,7 @@
   },
   {
     "id": 79,
-    "question": "Prior to magnetic particle examination, the surface to be examined and all adjacent areas within at least ____ in. shall be dry and free of all dirt, grease, lint, scale, welding flux and spatter, oil, or other extraneous matter that could interfere with the examination.(ASME Sec. V)",
+    "question": "Prior to magnetic particle examination, the surface to be examined and all adjacent areas within at least ____ in. shall be dry and free of all dirt, grease, lint, scale, welding flux and spatter, oil, or other extraneous matter that could interfere with the examination.(ASME Sec. V)\n자분탐상 전에 검사면과 그 인접부 최소 몇 인치 이내는 건조하고, 검사를 방해할 수 있는 흙, 그리스, 보풀, 스케일, 용접 플럭스와 스패터, 기름 등 이물질이 없어야 하는가? (ASME Sec. V)",
     "options": [
       "1",
       "1.5",
@@ -1197,7 +1180,7 @@
   },
   {
     "id": 80,
-    "question": "Prod spacing shall not exceed A in.. Shorter spacing may be used to accommodate the geometric limitations of the area being examined or to increase the sensitivity, but prod spacings of less than B in. are usually not practical due to banding of the particles around the prods.(ASME Sec. V)",
+    "question": "Prod spacing shall not exceed A in.. Shorter spacing may be used to accommodate the geometric limitations of the area being examined or to increase the sensitivity, but prod spacings of less than B in. are usually not practical due to banding of the particles around the prods.(ASME Sec. V)\n프로드 간격은 A인치를 넘어서는 안 된다. 검사부의 형상 제약에 맞추거나 감도를 높이기 위해 더 좁게 쓸 수 있으나, 프로드 주위에 자분이 띠를 이루기 때문에 B인치 미만은 보통 실용적이지 않다. A와 B는? (ASME Sec. V)",
     "options": [
       "A: 8, B: 1",
       "A: 5, B: 3",
@@ -1211,7 +1194,7 @@
   },
   {
     "id": 81,
-    "question": "Accumulation of excess dry particles in examinations shall be removed with ____. (ASME Sec. V)",
+    "question": "Accumulation of excess dry particles in examinations shall be removed with ____. (ASME Sec. V)\n검사 중 과잉으로 쌓인 건식 자분은 무엇으로 제거해야 하는가? (ASME Sec. V)",
     "options": [
       "Water stream",
       "Light air stream",
@@ -1225,7 +1208,7 @@
   },
   {
     "id": 82,
-    "question": "With Visible (Color Contrast) Magnetic Particles are used , A minimum light intensity of ____ Lx is required on the surface to be examined to ensure adequate sensitivity during the examination and evaluation of indications.(ASME Sec. V)",
+    "question": "With Visible (Color Contrast) Magnetic Particles are used , A minimum light intensity of ____ Lx is required on the surface to be examined to ensure adequate sensitivity during the examination and evaluation of indications.(ASME Sec. V)\n가시광(색대비) 자분을 사용할 때, 지시의 검사와 평가에서 충분한 감도를 확보하려면 검사면에 최소 몇 Lx의 조도가 필요한가? (ASME Sec. V)",
     "options": [
       "500",
       "750",
@@ -1239,7 +1222,7 @@
   },
   {
     "id": 83,
-    "question": "With Fluorescent Magnetic Particles, Black lights shall achieve a minimum of ____ μW/cm2 on the surface of the part being examined throughout the examination. (ASME Sec. V)",
+    "question": "With Fluorescent Magnetic Particles, Black lights shall achieve a minimum of ____ μW/cm2 on the surface of the part being examined throughout the examination. (ASME Sec. V)\n형광 자분을 사용할 때, 자외선등은 검사하는 동안 부품 표면에서 최소 몇 μW/cm²를 확보해야 하는가? (ASME Sec. V)",
     "options": [
       "500",
       "1000",
@@ -1253,7 +1236,7 @@
   },
   {
     "id": 84,
-    "question": "Yoke Technique shall only be applied to detect discontinuities that are ____. (ASME Sec. V)",
+    "question": "Yoke Technique shall only be applied to detect discontinuities that are ____. (ASME Sec. V)\n요크법은 어떤 불연속을 검출하는 데에만 적용해야 하는가? (ASME Sec. V)",
     "options": [
       "open to the surface of the part",
       "close to the surface of the part",
@@ -1267,7 +1250,7 @@
   },
   {
     "id": 85,
-    "question": "Which of the following information shall be recorded for each examination? (ASME Sec. V)",
+    "question": "Which of the following information shall be recorded for each examination? (ASME Sec. V)\n각 검사마다 기록해야 하는 정보는? (ASME Sec. V)",
     "options": [
       "magnetic particle equipment and type of current",
       "recoding criteria",
@@ -1281,7 +1264,7 @@
   },
   {
     "id": 86,
-    "question": "The manufacturer shall certify that each magnetic particle examiner meets t he requirements that he/she has vision, with correction if necessary, to enable him/her to read ____ at a distance of not less than 12 in.",
+    "question": "The manufacturer shall certify that each magnetic particle examiner meets t he requirements that he/she has vision, with correction if necessary, to enable him/her to read ____ at a distance of not less than 12 in.\n제조자는 각 자분탐상 검사자가 필요시 교정시력으로 최소 12인치 거리에서 무엇을 읽을 수 있는지 인증해야 하는가?",
     "options": [
       "a Jaeger Type No. 2 Standard Chart",
       "a Alphabet Chart",
@@ -1295,7 +1278,7 @@
   },
   {
     "id": 87,
-    "question": "The size of the imperfection's indication is the basis for acceptance evaluation. Only indications which have any dimension greater than ____ in. shall be consider relevant.",
+    "question": "The size of the imperfection's indication is the basis for acceptance evaluation. Only indications which have any dimension greater than ____ in. shall be consider relevant.\n합격 판정의 기준은 결함 지시의 크기이다. 어느 방향으로든 치수가 몇 인치를 넘는 지시만 관련 지시로 간주하는가?",
     "options": [
       "1/2",
       "1/4",
@@ -1309,7 +1292,7 @@
   },
   {
     "id": 88,
-    "question": "A linear indication is one having a length greater than ____ times the width.",
+    "question": "A linear indication is one having a length greater than ____ times the width.\n선형 지시란 길이가 폭의 몇 배를 넘는 것을 말하는가?",
     "options": [
       "2",
       "3",
@@ -1323,7 +1306,7 @@
   },
   {
     "id": 89,
-    "question": "A rounded indication is one of circular or elliptical shape with a length equal ot or less than ____ times its width.",
+    "question": "A rounded indication is one of circular or elliptical shape with a length equal ot or less than ____ times its width.\n원형 지시란 길이가 폭의 몇 배 이하인 원형 또는 타원형 지시를 말하는가?",
     "options": [
       "1",
       "2",
@@ -1337,7 +1320,7 @@
   },
   {
     "id": 90,
-    "question": "All surfaces to be examined shall be free of ____",
+    "question": "All surfaces to be examined shall be free of ____\n검사할 모든 표면에는 무엇이 없어야 하는가?",
     "options": [
       "irrelevant linear indications",
       "relevant linear indications greater than 4/16 in.",
@@ -1351,7 +1334,7 @@
   },
   {
     "id": 91,
-    "question": "Any indication which is believed to be nonrelevant shall be regarded as ____ unless it is shown by reexamination by the same method or by the use of other nondestructive methods.",
+    "question": "Any indication which is believed to be nonrelevant shall be regarded as ____ unless it is shown by reexamination by the same method or by the use of other nondestructive methods.\n비관련 지시로 판단되는 지시라도, 같은 방법으로 재검사하거나 다른 비파괴검사법으로 확인하기 전까지는 무엇으로 간주해야 하는가?",
     "options": [
       "an imperfection",
       "a defect",
@@ -1365,7 +1348,7 @@
   },
   {
     "id": 92,
-    "question": "According to SE-709, what amperage should be used with a prod spacing of 4 to 6 inches where the section thickness is 1 inch?",
+    "question": "According to SE-709, what amperage should be used with a prod spacing of 4 to 6 inches where the section thickness is 1 inch?\nSE-709에 따르면 두께 1인치 단면에 프로드 간격 4~6인치를 쓸 때 사용해야 할 전류는?",
     "options": [
       "200 to 300",
       "300 to 400",
@@ -1379,7 +1362,7 @@
   },
   {
     "id": 93,
-    "question": "SE-709(without appendices) describes the requirements for the following method(s) of magnetization.",
+    "question": "SE-709(without appendices) describes the requirements for the following method(s) of magnetization.\nSE-709(부록 제외)는 다음 중 어떤 자화 방법의 요구사항을 규정하는가?",
     "options": [
       "Prod method",
       "Coil method",
@@ -1394,7 +1377,7 @@
   },
   {
     "id": 94,
-    "question": "SE-709 recommends that the concentration of wet fluorescent particles (or paste) be:",
+    "question": "SE-709 recommends that the concentration of wet fluorescent particles (or paste) be:\nSE-709은 습식 형광 자분(또는 페이스트)의 농도를 얼마로 권장하는가?",
     "options": [
       "1 to 4 ml per 100 ml",
       "1.2 to 2.4 ml per 100 ml",
@@ -1409,7 +1392,7 @@
   },
   {
     "id": 95,
-    "question": "For the continuous method of examination, SE-709 recommends that the magnetizing current be on for a minimum of:",
+    "question": "For the continuous method of examination, SE-709 recommends that the magnetizing current be on for a minimum of:\n연속법 검사에서 SE-709은 자화전류를 최소 얼마 동안 흘리도록 권장하는가?",
     "options": [
       "1/5 second",
       "1/2 second",
@@ -1439,7 +1422,7 @@
   },
   {
     "id": 97,
-    "question": "Which of the followings is \"Correct\" ?",
+    "question": "Which of the followings is \"Correct\" ?\n다음 중 옳은 것은?",
     "options": [
       "All indications are necessarily imperfections.",
       "For evaluation of indications, the size of the indication is not important.",
@@ -1469,7 +1452,7 @@
   },
   {
     "id": 99,
-    "question": "For steel casting, Which of the following indication shall be removed? TypeDegree",
+    "question": "For steel castings, which of the following indications (type and degree) shall be removed?\n주강품에서 다음 지시(종류와 등급) 중 반드시 제거해야 하는 것은?",
     "options": [
       "Shrinkage 2",
       "Inclusion 2",
@@ -1529,7 +1512,7 @@
   },
   {
     "id": 103,
-    "question": "Which of the following indication is acceptable?",
+    "question": "Which of the following indication is acceptable?\n다음 지시 중 합격인 것은?",
     "options": [
       "linear indication of 2 mm length",
       "rounded indication of 5 mm length",

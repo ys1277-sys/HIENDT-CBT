@@ -595,23 +595,8 @@
       "transfer\n전이",
       "attenuation\n감쇠",
       "distance amplitude correction\n거리 진폭 보상",
-      "interpretation (판독)\n GENERAL(A-TYPE)\n \n문제\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n해답\nD\nC\nB\nC\nD\nD\nD\nB\nC\nC\n문제\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n해답\nA\nC\nA\nC\nD\nC\nC\nC\nC\nA\n문제\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n해답\nA \nD \nB \nC \nD \nA \nC \nB \nA \nA \n문제\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n해답\nA \nB \nC \nD \nA \nD \nC \nA \nA \nC"
+      "interpretation (판독)"
     ],
     "answer": 2
-  },
-  {
-    "id": 41,
-    "level": "Level II",
-    "method": "UT",
-    "category": "General",
-    "source": "UTG-II(B)",
-    "question": "The ratio of the velocity of sound in water compared to that for aluminum or steel is approximately:\n물에서와 알루미늄이나 철에서의 초음파 속도의 비는 대략 얼마인가?",
-    "options": [
-      "1 : 4",
-      "1 : 8",
-      "1 : 2",
-      "1 : 3"
-    ],
-    "answer": 0
   }
 ]

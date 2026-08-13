@@ -582,37 +582,7 @@
       "A-SCAN",
       "B-SCAN",
       "C-SCAN",
-      "D-SCAN\nTOFD GENERAL (TOFD General - Ⅱ - A)\n〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓\n(Level II Gen-A) Answer\n \n1\nD\n11\nD\n21\nD\n31\nC\n2\nC\n12\nB\n22\nA\n32\nD\n3\nB\n13\nD\n23\nB\n33\nC\n4\nD\n14\nC\n24\nA\n34\nB\n5\nA\n15\nC\n25\nD\n35\nB\n6\nA\n16\nC\n26\nC\n36\nC\n7\nC\n17\nC\n27\nD\n37\nD\n8\nC\n18\nA\n28\nB\n38\nD\n9\nC\n19\nA\n29\nB\n39\nC\n10\nD\n20\nC\n30\nD\n40\nB"
-    ],
-    "answer": 1
-  },
-  {
-    "id": 40,
-    "level": "Level II",
-    "method": "TOFD",
-    "category": "General",
-    "source": "TOFD General - B 20200317",
-    "question": "When inspecting on a 80mm thick steel butt weld, The focal depth is 5/6T. The wedge thickness is 6mm at the center axis. Calculate the approximate arrival time of lateral wave to appear in time(μs) if visible? (Vwedge = 2370m/s, Vsteel=5900m/s, refracted angle=60°) 축에서 6mm이다. lateral wave가 가시적으로 나타내는 때(μs)의 도착시간을 계산하여라.\n80mm 두께의 강철 맞대기 용접부를 검사할 때, 초점 깊이는 5/6t이다. 웨지의 두께는 중심 웨지 속도 = 2370m/s, 철 속도 = 5900m/s, refracted angle=60°",
-    "options": [
-      "33.20μs",
-      "44.23μs",
-      "48.26μs",
-      "50.30μs"
-    ],
-    "answer": 1
-  },
-  {
-    "id": 41,
-    "level": "Level II",
-    "method": "TOFD",
-    "category": "General",
-    "source": "TOFD General - B 20200317",
-    "question": "The basic setup for a TOFD configuration uses how many probes? TOFD 구성에 대한 기본 설정은 몇 개의 프로브를 사용하나?",
-    "options": [
-      "1개",
-      "2개",
-      "3개",
-      "4개"
+      "D-SCAN"
     ],
     "answer": 1
   }

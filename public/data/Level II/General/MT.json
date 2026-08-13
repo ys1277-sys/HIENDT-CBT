@@ -601,8 +601,8 @@
       "field strength value\n자장의 세기",
       "available equipment\n이용 장비",
       "configuration of the part\n제품의 구성",
-      "all of the above(위 모두)\n \nGENERAL(A-TYPE)\n \n문제\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n해답\nB\nD\nC\nB\nCRACK\nPOROSITY",
-      "P L.F\nSLAG\nC\nB\nB,C,E\nC\nC\n문제\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n해답\nB\nC\nA,B,J\nA\nA,E\nC\nB\nB\nC\nC\n문제\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n해답\nA\nD\nC\nA\nD\nD\nC\nC\nB\nC\n문제\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n해답\nB,C,D\nC\nD\nB\nB\nC\nC\nB\nC\nD"
+      "all of the above(위 모두)",
+      "P L.F\nSLAG\nC\nB\nB,C,E\nC\nC"
     ],
     "answer": 3
   },
@@ -617,8 +617,8 @@
       "A",
       "B",
       "C",
-      "D\n GENERAL(B-TYPE)\n \n문제\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n해답\nB\nC\nA,B,J\nA\nA,E\nC\nB\nB\nC\nC\n문제\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n해답\nB\nD\nC\nB\nCRACK\nPOROSITY",
-      "P L.F\nSLAG\nC\nB\nB,C,E\nC\nC\n문제\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n해답\nB,C,D\nC\nD\nB\nB\nC\nC\nB\nC\nD\n문제\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n해답\nA\nD\nC\nA\nD\nD\nC\nC\nB\nC"
+      "D",
+      "P L.F\nSLAG\nC\nB\nB,C,E\nC\nC"
     ],
     "answer": 2
   },

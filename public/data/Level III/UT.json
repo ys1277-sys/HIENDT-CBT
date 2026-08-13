@@ -1448,7 +1448,7 @@
   },
   {
     "id": 97,
-    "question": "In accordance with ASME B31.1, Ultrasonic examination is not required for welds. True : ___________________ False : ___________________",
+    "question": "In accordance with ASME B31.1, Ultrasonic examination is not required for welds.\nASME B31.1에 따르면 용접부에 초음파검사는 요구되지 않는다.",
     "options": [
       "True",
       "False"

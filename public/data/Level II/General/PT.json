@@ -595,23 +595,8 @@
       "Previous manufacturing processes performed on the part\n (제품에 사용된 그 이전의 제작 공정)",
       "Technique used in applying and removing the penetrant\n (침투액 도포 및 제거에 사용된 기술)",
       "Method used to clean part prior to inspection \n (검사전에 제품을 세척하는데 사용된 방법)",
-      "All of the above (위의 모두)\n \n GENERAL(A-TYPE)\n \n문제\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n해답\nC\nD\nB\nB\nD\nB\nC\nA\nD\nA\n문제\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n해답\nC\nC\nA\nD\nD\nA\nC\nC\nB\nD\n문제\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n해답\nB\nB\nB\nB\nD\nC\nB\nB\nC\nC\n문제\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n해답\nA\nD\nC\nB\nD\nD\nC\nD\nC\nD"
+      "All of the above (위의 모두)"
     ],
     "answer": 3
-  },
-  {
-    "id": 41,
-    "level": "Level II",
-    "method": "PT",
-    "category": "General",
-    "source": "PTG-II(B)",
-    "question": "The contrast ratio of a red dry penetrant to a white developer is normally about:\n붉은 건식 침투제와 흰색 현상제의 색 대비 율은 보통 얼마인가?",
-    "options": [
-      "33 to 1",
-      "6 to 1",
-      "9 to 1",
-      "23 to 1"
-    ],
-    "answer": 1
   }
 ]

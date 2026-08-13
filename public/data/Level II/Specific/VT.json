@@ -85,7 +85,7 @@
       "procedure used to perform examination\n절차서대로 시험을 수행한다",
       "equipment used during the examination\n장비는 시험하는 동안 사용된다",
       "examiner's name and level of certification\n검사관의 이름과 인증서의 레벨",
-      "all of the above would be noted on the report (위의 모든 사항이 기록지에 포함된다)\n* Questions 7 through 11 pertain to visual examination equipment."
+      "all of the above would be noted on the report (위의 모든 사항이 기록지에 포함된다)"
     ],
     "answer": 3
   },
@@ -160,7 +160,7 @@
       "direct\n직접",
       "remote\n원격",
       "nothing in the above\n정답 없음",
-      "all of the above(위 모두)\n * Questions 12 through 14 pertain to HIE-QP-E01."
+      "all of the above(위 모두)"
     ],
     "answer": 3
   },
@@ -205,7 +205,7 @@
       "at the end of five years\n유효기간은 5년이다",
       "when the employee becomes qualified and certified in a new NDT method\n (피고용인은 NDT 새로운 방식으로 자격검, 인증된다.)",
       "if an employee has not worked in the method for which certified within the past six months\n (만약, 피고용인이 과거에 6개월동안 일을 하지 않했다면)",
-      "when an employee leaves the employee where he had been certified\n (피고용인이 인증받았던 곳을 떠나면)\n * Questions 15 through 16 pertain to defect type.."
+      "when an employee leaves the employee where he had been certified\n (피고용인이 인증받았던 곳을 떠나면)"
     ],
     "answer": 3
   },
@@ -250,7 +250,7 @@
       "Level III",
       "Level II",
       "Director",
-      "QA Manager\n * Questions 18 through 22 pertain to requirement in B & PV Code, Sec Ⅲ 2023 Edition."
+      "QA Manager"
     ],
     "answer": 0
   },
@@ -385,7 +385,7 @@
       "ASME Sec. I",
       "ASME Sec. V",
       "ASME Sec. Ⅸ",
-      "ASME Sec. Ⅺ \n* Answers to questions 27 through 28 shall use the supplement ASME B31.1(2024 Edition.)"
+      "ASME Sec. Ⅺ"
     ],
     "answer": 3
   },
