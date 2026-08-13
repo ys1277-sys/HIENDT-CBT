@@ -47,6 +47,10 @@ function PrintAdminExam({
   const measuredRef =
     useRef(false);
 
+  /* onReady 를 이미 불렀는지 */
+  const firedRef =
+    useRef(false);
+
   /*
    * 도해 이미지가 아직 로딩 중이면 문항 높이가 0에 가깝게 측정되어
    * 페이지 분할이 어긋난다. 이미지가 다 뜬 뒤 이 값을 올려
@@ -59,6 +63,15 @@ function PrintAdminExam({
   useLayoutEffect(() => {
     onReadyRef.current = onReady;
   }, [onReady]);
+
+
+  /*
+   * 새 문제 묶음이 들어오면 빗장을 푼다.
+   * 이 훅은 아래 분할 훅보다 먼저 있어야 순서가 맞는다.
+   */
+  useLayoutEffect(() => {
+    firedRef.current = false;
+  }, [questions]);
 
 
   /* =====================================================
@@ -254,6 +267,14 @@ function PrintAdminExam({
     ) {
       return;
     }
+
+
+    /* onReady 는 한 번만 부른다 — PrintExam 과 같은 이유다 */
+    if (firedRef.current) {
+      return;
+    }
+
+    firedRef.current = true;
 
 
     requestAnimationFrame(() => {

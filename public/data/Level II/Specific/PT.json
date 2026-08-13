@@ -5,14 +5,15 @@
     "method": "PT",
     "category": "Specific",
     "source": "PTS-II(2020)(A)",
-    "question": "This procedure describes the Liquid penetrant testing for .\n본 절차서는 을 위한 침투 탐상방법을 기술한다.",
+    "question": "This procedure describes the Liquid penetrant testing for ______.\n본 절차서는 ______을 위한 침투 탐상방법을 기술한다.",
     "options": [
       "pressure vessel welding\n압력용기 용접",
       "Forging\n단조품",
       "Tubular Product\n관 제품",
       "Casting\n주조품"
     ],
-    "answer": 2
+    "answer": 2,
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-PT-N21 (Rev.1) for liquid penetrant examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec Ⅲ. 2021 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격에 따른 압력용기 제작의 액체침투탐상 시험에 대한 절차서(HIE-NDT-PT-N21,Rev.1)"
   },
   {
     "id": 2,
@@ -20,14 +21,15 @@
     "method": "PT",
     "category": "Specific",
     "source": "PTS-II(2020)(A)",
-    "question": "Acceptance standard shall be used .\n합격기준은 을 따른다",
+    "question": "Acceptance standard shall be used ______.\n합격기준은 을 따른다",
     "options": [
       "ASME Sec Ⅲ. NB 2500",
       "ASME Sec Ⅲ. NB 5000",
       "ASME Sec Ⅴ. Art.5",
       "ASME Sec Ⅷ. Div.1"
     ],
-    "answer": 0
+    "answer": 0,
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-PT-N21 (Rev.1) for liquid penetrant examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec Ⅲ. 2021 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격에 따른 압력용기 제작의 액체침투탐상 시험에 대한 절차서(HIE-NDT-PT-N21,Rev.1)"
   },
   {
     "id": 3,
@@ -35,14 +37,15 @@
     "method": "PT",
     "category": "Specific",
     "source": "PTS-II(2020)(A)",
-    "question": "Visible light at the surface of the part should be minimum .\n제품 표면에서 빛의 세기는 최소 이다.",
+    "question": "Visible light at the surface of the part should be minimum ______.\n제품 표면에서 빛의 세기는 최소 ______ 이다.",
     "options": [
       "800 Lux",
       "1076 Lux",
       "1,500 Lux",
       "2,000 Lux"
     ],
-    "answer": 1
+    "answer": 1,
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-PT-N21 (Rev.1) for liquid penetrant examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec Ⅲ. 2021 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격에 따른 압력용기 제작의 액체침투탐상 시험에 대한 절차서(HIE-NDT-PT-N21,Rev.1)"
   },
   {
     "id": 4,
@@ -50,14 +53,15 @@
     "method": "PT",
     "category": "Specific",
     "source": "PTS-II(2020)(A)",
-    "question": "The surface to be examined and all adjacent areas within at least \" shall be dry and free of all scale, grease, etc.\n시험할 표면과 인접 지역은 최소 까지 스케일, 그리스 등이 없어야 하고, 건조되어야 한다.",
+    "question": "The surface to be examined and all adjacent areas within at least ______\" shall be dry and free of all scale, grease, etc.\n시험할 표면과 인접 지역은 최소 ______까지 스케일, 그리스 등이 없어야 하고, 건조되어야 한다.",
     "options": [
       "0 inch",
       "1 inch",
       "1.5 inch",
       "2inch"
     ],
-    "answer": 1
+    "answer": 1,
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-PT-N21 (Rev.1) for liquid penetrant examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec Ⅲ. 2021 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격에 따른 압력용기 제작의 액체침투탐상 시험에 대한 절차서(HIE-NDT-PT-N21,Rev.1)"
   },
   {
     "id": 5,
@@ -65,14 +69,15 @@
     "method": "PT",
     "category": "Specific",
     "source": "PTS-II(2020)(A)",
-    "question": "The minimum penetration time shall be for temperature range 10～50℃\n온도범위 10～50℃일때 최소 침투 시간은?",
+    "question": "The minimum penetration time shall be ______ for temperature range 10～50℃\n온도범위 10～50℃일때 최소 침투 시간은?",
     "options": [
       "1 min\n1분",
       "5 min\n5분",
       "10 min\n10분",
       "20 min\n20분"
     ],
-    "answer": 2
+    "answer": 2,
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-PT-N21 (Rev.1) for liquid penetrant examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec Ⅲ. 2021 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격에 따른 압력용기 제작의 액체침투탐상 시험에 대한 절차서(HIE-NDT-PT-N21,Rev.1)"
   },
   {
     "id": 6,
@@ -85,7 +90,8 @@
       "Accept\n합격",
       "Reject (불합격)"
     ],
-    "answer": 1
+    "answer": 1,
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-PT-N21 (Rev.1) for liquid penetrant examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec Ⅲ. 2021 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격에 따른 압력용기 제작의 액체침투탐상 시험에 대한 절차서(HIE-NDT-PT-N21,Rev.1)"
   },
   {
     "id": 7,
@@ -98,7 +104,8 @@
       "Accept 합격",
       "Reject 불합격"
     ],
-    "answer": 0
+    "answer": 0,
+    "groupNote": "* The following questions refer to ASME Code Sec.I\nASME Sec.I에 따라 7번 물음에 답하시오."
   },
   {
     "id": 8,
@@ -157,7 +164,8 @@
       "30 sec\n30초",
       "60 sec\n60초"
     ],
-    "answer": 3
+    "answer": 3,
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-PT-P11 (Rev.1) for liquid penetrant examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2021 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2021 Edition)에 따른 압력용기 제작의 침투탐상 시험에 대한 절차서(HIE-NDT-PT-P11. Rev.1)"
   },
   {
     "id": 12,
@@ -172,7 +180,8 @@
       "10-60 min",
       "5-20 min"
     ],
-    "answer": 2
+    "answer": 2,
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-PT-P11 (Rev.1) for liquid penetrant examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2021 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2021 Edition)에 따른 압력용기 제작의 침투탐상 시험에 대한 절차서(HIE-NDT-PT-P11. Rev.1)"
   },
   {
     "id": 13,
@@ -185,7 +194,8 @@
       "Accept 합격",
       "Reject 불합격"
     ],
-    "answer": 1
+    "answer": 1,
+    "groupNote": "* The following questions refer to ASME B16.34\nASME B16.34에 따라 물음에 답하시오."
   },
   {
     "id": 14,
@@ -198,7 +208,8 @@
       "Accept 합격",
       "Reject 불합격"
     ],
-    "answer": 1
+    "answer": 1,
+    "groupNote": "* The following questions refer to ASME B16.34\nASME B16.34에 따라 물음에 답하시오."
   },
   {
     "id": 15,
@@ -256,7 +267,8 @@
       "Accept 합격",
       "Reject 불합격"
     ],
-    "answer": 1
+    "answer": 1,
+    "groupNote": "* Refer to HIE-NDT-PT-P6A(SKB) written in accordance with API 6A and answer question.\n(API 6A에 따라 작성된 HIE-NDT-PT-P6A(SKB)를 참고하여 물음에 답하시오.)"
   },
   {
     "id": 19,
@@ -269,7 +281,8 @@
       "Accept 합격",
       "Reject 불합격"
     ],
-    "answer": 1
+    "answer": 1,
+    "groupNote": "* Refer to HIE-NDT-PT-P6A(SKB) written in accordance with API 6A and answer question.\n(API 6A에 따라 작성된 HIE-NDT-PT-P6A(SKB)를 참고하여 물음에 답하시오.)"
   },
   {
     "level": "Level II",
@@ -323,7 +336,8 @@
       "Wiping with cloth only\n천으로 닦기만"
     ],
     "answer": 0,
-    "id": 24
+    "id": 24,
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-PT-P11 (Rev.2) for liquid penetrant examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 침투탐상 시험에 대한 절차서(HIE-NDT-PT-P11. Rev.2)"
   },
   {
     "id": 25,
@@ -354,6 +368,7 @@
       "The solvent evaporates too slowly to allow development\n용제가 너무 늦게 증발해 현상이 되지 않기 때문",
       "It raises the surface temperature above the allowable range\n표면 온도를 허용 범위 위로 올리기 때문"
     ],
-    "answer": 0
+    "answer": 0,
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-PT-P11 (Rev.2) for liquid penetrant examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 침투탐상 시험에 대한 절차서(HIE-NDT-PT-P11. Rev.2)"
   }
 ]

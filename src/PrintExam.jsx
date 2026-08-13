@@ -61,6 +61,10 @@ function PrintExam({
   const measuredRef =
     useRef(false);
 
+  /* onReady 를 이미 불렀는지 */
+  const firedRef =
+    useRef(false);
+
   /*
    * 도해 이미지가 아직 로딩 중이면 문항 높이가 0에 가깝게 측정되어
    * 페이지 분할이 어긋난다. 이미지가 다 뜬 뒤 이 값을 올려
@@ -77,6 +81,20 @@ function PrintExam({
 
   }, [
     onReady
+  ]);
+
+
+  /*
+   * 새 문제 묶음이 들어오면 빗장을 푼다.
+   * 출력 버튼을 다시 눌렀을 때 인쇄창이 안 뜨면 안 된다.
+   * 이 훅은 아래 분할 훅보다 먼저 있어야 순서가 맞는다.
+   */
+  useLayoutEffect(() => {
+
+    firedRef.current = false;
+
+  }, [
+    questions
   ]);
 
 
@@ -299,6 +317,23 @@ function PrintExam({
     ) {
       return;
     }
+
+
+    /*
+     * onReady 는 한 번만 부른다.
+     *
+     * 예전에는 questionPages 가 다시 계산될 때마다 불렸다. 문제은행
+     * 출력을 한 번 하고 나면 이 컴포넌트가 붙어 있는 채로 남는데,
+     * 그 상태에서 시험종목이나 시험 구분을 고르면 다시 렌더링되면서
+     * 페이지가 재계산되고, 고르기만 했는데 인쇄창이 떴다.
+     */
+    if (
+      firedRef.current
+    ) {
+      return;
+    }
+
+    firedRef.current = true;
 
 
     requestAnimationFrame(() => {

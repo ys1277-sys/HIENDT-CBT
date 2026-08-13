@@ -50,14 +50,15 @@
     "method": "MT",
     "category": "Specific",
     "source": "MTS-II(2020)(A)",
-    "question": "This procedure describes the Magnetic particle testing for .\n본 절차서는 을 위한 자분 탐상방법을 기술한다.",
+    "question": "This procedure describes the Magnetic particle testing for ______.\n본 절차서는 ______을 위한 자분 탐상방법을 기술한다.",
     "options": [
       "pressure vessel welding\n압력용기 용접",
       "Forging\n단조품",
       "Fitting\n관 이음쇠",
       "Casting\n주조품"
     ],
-    "answer": 0
+    "answer": 0,
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-MT-N21 (Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec Ⅲ. 2023 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격에 따른 압력용기 제작의 자분탐상 시험에 대한 절차서(HIE-NDT-MT-N21,Rev.2)"
   },
   {
     "id": 5,
@@ -65,14 +66,15 @@
     "method": "MT",
     "category": "Specific",
     "source": "MTS-II(2020)(A)",
-    "question": "Acceptance standard shall be used .\n합격기준은 을 따른다",
+    "question": "Acceptance standard shall be used ______.\n합격기준은 을 따른다",
     "options": [
       "ASME Sec Ⅲ. NB 2500",
       "ASME Sec Ⅲ. NB 5000",
       "ASME Sec Ⅴ. Art.5",
       "ASME Sec Ⅷ. Div.1"
     ],
-    "answer": 0
+    "answer": 0,
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-MT-N21 (Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec Ⅲ. 2023 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격에 따른 압력용기 제작의 자분탐상 시험에 대한 절차서(HIE-NDT-MT-N21,Rev.2)"
   },
   {
     "id": 6,
@@ -80,14 +82,15 @@
     "method": "MT",
     "category": "Specific",
     "source": "MTS-II(2020)(A)",
-    "question": "Visible light at the surface of the part should be minimum .\n제품 표면에서 빛의 세기는 최소 이다.",
+    "question": "Visible light at the surface of the part should be minimum ______.\n제품 표면에서 빛의 세기는 최소 ______ 이다.",
     "options": [
       "800 Lux",
       "1076 Lux",
       "1,500 Lux",
       "2,000 Lux"
     ],
-    "answer": 1
+    "answer": 1,
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-MT-N21 (Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec Ⅲ. 2023 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격에 따른 압력용기 제작의 자분탐상 시험에 대한 절차서(HIE-NDT-MT-N21,Rev.2)"
   },
   {
     "id": 7,
@@ -95,14 +98,15 @@
     "method": "MT",
     "category": "Specific",
     "source": "MTS-II(2020)(A)",
-    "question": "The surface to be examined and all adjacent areas within at least \" shall be dry and free of all scale, grease, etc.\n시험할 표면과 인접 지역은 최소 까지 스케일, 그리스 등이 없어야 하고, 건조되어야 한다.",
+    "question": "The surface to be examined and all adjacent areas within at least ______\" shall be dry and free of all scale, grease, etc.\n시험할 표면과 인접 지역은 최소 ______까지 스케일, 그리스 등이 없어야 하고, 건조되어야 한다.",
     "options": [
       "0 inch",
       "1 inch",
       "1.5 inch",
       "2inch"
     ],
-    "answer": 1
+    "answer": 1,
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-MT-N21 (Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec Ⅲ. 2023 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격에 따른 압력용기 제작의 자분탐상 시험에 대한 절차서(HIE-NDT-MT-N21,Rev.2)"
   },
   {
     "id": 8,
@@ -110,14 +114,15 @@
     "method": "MT",
     "category": "Specific",
     "source": "MTS-II(2020)(A)",
-    "question": "This procedure describes the Magnetic particle testing methode of .\n본 절차서는 을 위한 자분 탐상방법을 기술한다.",
+    "question": "This procedure describes the Magnetic particle testing methode of ______.\n본 절차서는 ______을 위한 자분 탐상방법을 기술한다.",
     "options": [
       "AC Yoke\nAC 요크",
       "Prod\n프로드",
       "Coil\n코일",
       "Head shot\n축통전법(head shot)"
     ],
-    "answer": 0
+    "answer": 0,
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-MT-N21 (Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec Ⅲ. 2023 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격에 따른 압력용기 제작의 자분탐상 시험에 대한 절차서(HIE-NDT-MT-N21,Rev.2)"
   },
   {
     "id": 9,
@@ -132,7 +137,8 @@
       "3 inch",
       "1/2 inch"
     ],
-    "answer": 3
+    "answer": 3,
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-MT-P11 (Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅷ Div.1 & Div.2(2023 Edition).\n(문제는 HIE절차서에 따라 언급한다.)"
   },
   {
     "id": 10,
@@ -147,7 +153,8 @@
       "600 ˚F",
       "650 ˚F"
     ],
-    "answer": 2
+    "answer": 2,
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-MT-P11 (Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅷ Div.1 & Div.2(2023 Edition).\n(문제는 HIE절차서에 따라 언급한다.)"
   },
   {
     "id": 11,
@@ -160,7 +167,8 @@
       "Yoke",
       "Prod"
     ],
-    "answer": 0
+    "answer": 0,
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-MT-P11 (Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅷ Div.1 & Div.2(2023 Edition).\n(문제는 HIE절차서에 따라 언급한다.)"
   },
   {
     "id": 12,
@@ -175,7 +183,8 @@
       "Prod with dry magnetic particle(건식자분을 사용한 프로드",
       "Yoke with wet fluorescent magnetic particle\n습식형광자분을 사용한 요크"
     ],
-    "answer": 3
+    "answer": 3,
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-MT-P11 (Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅷ Div.1 & Div.2(2023 Edition).\n(문제는 HIE절차서에 따라 언급한다.)"
   },
   {
     "id": 13,
@@ -190,7 +199,8 @@
       "1.5 mm (0.06 in.)",
       "8 mm (0.3 in.)"
     ],
-    "answer": 0
+    "answer": 0,
+    "groupNote": "* The following questions refer to ASME B16.34\nASME B16.34에 따라 10번 물음에 답하시오."
   },
   {
     "id": 14,
@@ -203,7 +213,8 @@
       "Accept 합격",
       "Reject 불합격"
     ],
-    "answer": 1
+    "answer": 1,
+    "groupNote": "* The following questions refer to ASME Code Section. I\nASME Sec. I.에 따라 30번 물음에 답하시오."
   },
   {
     "id": 15,
@@ -256,14 +267,15 @@
     "method": "MT",
     "category": "Specific",
     "source": "MTS-II(2020)(B)",
-    "question": "This procedure describes the Magnetic particle testing methode of .\n본 절차서는 을 위한 자분 탐상방법을 기술한다.",
+    "question": "This procedure describes the Magnetic particle testing methode of ______.\n본 절차서는 ______을 위한 자분 탐상방법을 기술한다.",
     "options": [
       "AC Yoke\nAC 요크",
       "Prod\n프로드",
       "Coil\n코일",
       "Head shot\n축통전법(head shot)"
     ],
-    "answer": 0
+    "answer": 0,
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-MT-N21 (Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec Ⅲ. 2023 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격에 따른 압력용기 제작의 자분탐상 시험에 대한 절차서(HIE-NDT-MT-N21,Rev.2)"
   },
   {
     "id": 22,
@@ -278,7 +290,8 @@
       "Imperfections that encroach on the minimum permissible wall thickness \n (최소 허용 파이프 두께를 침범하는 결점)",
       "All of the above(위 모두)"
     ],
-    "answer": 0
+    "answer": 0,
+    "groupNote": "* Refer to HIE-NDT-MT-AP5L written in accordance with API 5L and answer question.\n(API 5L에 따라 작성된 HIE-NDT-MT-AP5L를 참고하여 17번 물음에 답하시오.)"
   },
   {
     "id": 25,
@@ -349,7 +362,8 @@
       "AC : 40 lb, DC : 40 lb"
     ],
     "answer": 0,
-    "id": 29
+    "id": 29,
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-MT-P11 (Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅷ Div.1 & Div.2(2023 Edition).\n(문제는 HIE절차서에 따라 언급한다.)"
   },
   {
     "level": "Level II",

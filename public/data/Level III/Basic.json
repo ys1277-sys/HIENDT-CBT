@@ -424,7 +424,7 @@
     "level": "Level III",
     "method": "BASIC",
     "subject": "Welding",
-    "question": "If accessibility is not available to the back side of a joint, what types of discontinuities are most likely to appear?\n접합부 뒷면 접근이 불가능할 때 발생하기 쉬운 결함은?",
+    "question": "If accessibility is not available to the back side of a joint, what types of ______ discontinuities are most likely to appear?\n접합부 뒷면 접근이 불가능할 때 발생하기 쉬운 결함은?",
     "question_kr": "접합부 뒷면 접근이 불가능할 때 발생하기 쉬운 결함은?",
     "options": [
       "Porosity and slag inclusions\n기공과 슬래그 개재물",

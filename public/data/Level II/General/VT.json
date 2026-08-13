@@ -467,7 +467,7 @@
     "method": "VT",
     "category": "General",
     "source": "VTG-llA(개정판)-2016.10.18",
-    "question": "If accessibility is not available to the back side of a joint, what types of discontinuities are most likely to appear?\n용접 이음의 뒷면에 접근할 수 없을 때, 어떤 종류의 불연속이 나타날 가능성이 가장 높은가?",
+    "question": "If accessibility is not available to the back side of a joint, what types of ______ discontinuities are most likely to appear?\n용접 이음의 뒷면에 접근할 수 없을 때, 어떤 종류의 불연속이 나타날 가능성이 가장 높은가?",
     "options": [
       "Porosity and slag inclusions\n기공과 슬래그 개재물",
       "Incomplete fusion and melt-thru\n융합불량과 용락",

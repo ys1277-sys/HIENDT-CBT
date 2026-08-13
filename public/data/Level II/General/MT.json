@@ -5,7 +5,7 @@
     "method": "MT",
     "category": "General",
     "source": "MTG-II(A)",
-    "question": "For a given current through a conductor, doubling the diameter of the conductor will the field strength at the surface.\n센트랄 콘덕터를 사용하였을 때 콘덕터의 직경이 두배로 되면 표면에서의 자장의 강도는 것이다.",
+    "question": "For a given current through a conductor, doubling the diameter of the conductor will ______ the field strength at the surface.\n센트랄 콘덕터를 사용하였을 때 콘덕터의 직경이 두배로 되면 표면에서의 자장의 강도는 ______ 것이다.",
     "options": [
       "increase\n증가할",
       "decrease\n감소할",
@@ -130,7 +130,7 @@
     "method": "MT",
     "category": "General",
     "source": "MTG-II(A)",
-    "question": "Parts should be demagnetized magnetic particle Examination\n제품은 자분탐상 시험 에 탈자되어야 한다.",
+    "question": "Parts should be demagnetized ______ magnetic particle Examination\n제품은 자분탐상 시험 ______에 탈자되어야 한다.",
     "options": [
       "before\n전",
       "before and after\n전후",

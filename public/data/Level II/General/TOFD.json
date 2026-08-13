@@ -350,7 +350,7 @@
     "method": "TOFD",
     "category": "General",
     "source": "TOFD General - A 20200317",
-    "question": "A shift of the backwall arrival time to an earlier arrival would be indicative of .\nbackwall 도착 시간이 이전 도착시간으로 이동되는 경우는 다음중 어떤 결함인가?",
+    "question": "A shift of the backwall arrival time to an earlier arrival would be indicative of ______.\nbackwall 도착 시간이 이전 도착시간으로 이동되는 경우는 다음중 어떤 결함인가?",
     "options": [
       "Root erosion\n루트 침식",
       "IP (incomplete penetration)\n용입불량",

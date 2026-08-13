@@ -14,7 +14,8 @@
       "20 inch"
     ],
     "answer": 1,
-    "explanation": ""
+    "explanation": "",
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-PT-P11(Rev.3) for liquid penetrant examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 침투탐상 시험에 대한 절차서(HIE-NDT-PT-P11. Rev.3)"
   },
   {
     "id": 2,
@@ -31,7 +32,8 @@
       "20 Min"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-PT-P11(Rev.3) for liquid penetrant examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 침투탐상 시험에 대한 절차서(HIE-NDT-PT-P11. Rev.3)"
   },
   {
     "id": 3,
@@ -48,7 +50,8 @@
       "No distinction\n구분 없음"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-PT-P11(Rev.3) for liquid penetrant examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 침투탐상 시험에 대한 절차서(HIE-NDT-PT-P11. Rev.3)"
   },
   {
     "id": 4,
@@ -65,7 +68,8 @@
       "Removed by water only\n물로만 제거"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-PT-P11(Rev.3) for liquid penetrant examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 침투탐상 시험에 대한 절차서(HIE-NDT-PT-P11. Rev.3)"
   },
   {
     "id": 5,
@@ -97,7 +101,8 @@
       "None\n없음"
     ],
     "answer": 1,
-    "explanation": ""
+    "explanation": "",
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-PT-P11(Rev.3) for liquid penetrant examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 침투탐상 시험에 대한 절차서(HIE-NDT-PT-P11. Rev.3)"
   },
   {
     "id": 7,
@@ -114,7 +119,8 @@
       "3/64 in"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-PT-P11(Rev.3) for liquid penetrant examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 침투탐상 시험에 대한 절차서(HIE-NDT-PT-P11. Rev.3)"
   },
   {
     "id": 8,
@@ -161,7 +167,8 @@
       "Reject"
     ],
     "answer": 1,
-    "explanation": ""
+    "explanation": "",
+    "groupNote": "* The following questions refer to ASME B16.34\nASME B16.34에 따라 물음에 답하시오."
   },
   {
     "id": 11,
@@ -171,7 +178,8 @@
       "Accept",
       "Reject"
     ],
-    "answer": 1
+    "answer": 1,
+    "groupNote": "* The following questions refer to ASME B16.34\nASME B16.34에 따라 물음에 답하시오."
   },
   {
     "id": 12,
@@ -181,7 +189,8 @@
       "Accept",
       "Reject"
     ],
-    "answer": 1
+    "answer": 1,
+    "groupNote": "* The following questions refer to ASME B 31.1.\nASME B31.1에 따라 12번 물음에 답하시오."
   },
   {
     "id": 13,
@@ -269,7 +278,7 @@
   },
   {
     "id": 20,
-    "question": "When conducting PT in accordance with ASME Code Sec.V, 2023 Edition PT indication shall be interpreted not later than after the developer has been applied.\nASME Sec.V 2023 Edition에 따른 PT 지시는 현상제 적용 후 몇 분 이내 평가해야 하는가?",
+    "question": "When conducting PT in accordance with ASME Code Sec.V, 2023 Edition PT indication shall be interpreted not later than ______ after the developer has been applied.\nASME Sec.V 2023 Edition에 따른 PT 지시는 현상제 적용 후 몇 분 이내 평가해야 하는가?",
     "korean": "ASME Sec.V 2023 Edition에 따른 PT 지시는 현상제 적용 후 몇 분 이내 평가해야 하는가?",
     "options": [
       "1 minute",
@@ -323,7 +332,8 @@
       "Yes",
       "No"
     ],
-    "answer": 0
+    "answer": 0,
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-PT-N21(Rev.3) for liquid penetrant examination of pressure vessels fabricated in accordance with ASME Code Section Ⅲ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅲ(2023 Edition)에 따른 압력용기 제작의 침투탐상검사에 대한 절차서(HIE-NDT-PT-N21 Rev.3)"
   },
   {
     "id": 25,
@@ -333,7 +343,8 @@
       "Yes",
       "No"
     ],
-    "answer": 0
+    "answer": 0,
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-PT-N21(Rev.3) for liquid penetrant examination of pressure vessels fabricated in accordance with ASME Code Section Ⅲ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅲ(2023 Edition)에 따른 압력용기 제작의 침투탐상검사에 대한 절차서(HIE-NDT-PT-N21 Rev.3)"
   },
   {
     "id": 26,
@@ -345,7 +356,8 @@
       "20 lux\n20럭스",
       "220V and 250W\n220V, 250W"
     ],
-    "answer": 0
+    "answer": 0,
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-PT-N21(Rev.3) for liquid penetrant examination of pressure vessels fabricated in accordance with ASME Code Section Ⅲ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅲ(2023 Edition)에 따른 압력용기 제작의 침투탐상검사에 대한 절차서(HIE-NDT-PT-N21 Rev.3)"
   },
   {
     "id": 27,
@@ -358,7 +370,8 @@
       "All of the above\n위의 모두",
       "A and C\n1번과 3번"
     ],
-    "answer": 4
+    "answer": 4,
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-PT-N21(Rev.3) for liquid penetrant examination of pressure vessels fabricated in accordance with ASME Code Section Ⅲ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅲ(2023 Edition)에 따른 압력용기 제작의 침투탐상검사에 대한 절차서(HIE-NDT-PT-N21 Rev.3)"
   },
   {
     "id": 28,
@@ -370,7 +383,8 @@
       "Cleaning solvent drying time shall be minimum 1 min\n세척용제 건조시간은 최소 1분이어야 한다",
       "Penetrant may be applied by spraying, brushing, or dipping\n침투액은 분무, 붓칠 또는 침적으로 적용할 수 있다"
     ],
-    "answer": 0
+    "answer": 0,
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-PT-N21(Rev.3) for liquid penetrant examination of pressure vessels fabricated in accordance with ASME Code Section Ⅲ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅲ(2023 Edition)에 따른 압력용기 제작의 침투탐상검사에 대한 절차서(HIE-NDT-PT-N21 Rev.3)"
   },
   {
     "id": 29,
@@ -392,7 +406,8 @@
       "Accept",
       "Reject"
     ],
-    "answer": 0
+    "answer": 0,
+    "groupNote": "* The following questions refer to ASME Code Sec.I\nASME Sec.I에 따라 30번 물음에 답하시오."
   },
   {
     "id": 31,

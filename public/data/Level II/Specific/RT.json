@@ -10,7 +10,8 @@
       "True\n맞음",
       "False\n틀림"
     ],
-    "answer": 0
+    "answer": 0,
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-P11(Rev.1) for radiographic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅷ, 2021 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME B & PV Sec.Ⅷ 규격에 따른 압력용기 제작의 방사선투과시험에 대한 절차서(HIE-NDT-RT-P11, Rev.1)"
   },
   {
     "id": 2,
@@ -18,14 +19,15 @@
     "method": "RT",
     "category": "Specific",
     "source": "RTS-II(2020)(A)",
-    "question": "In this procedure, lead intensifying screen shall be used. The front and back screen shall be used. The front and back screen shall be used inch thick.\n본 절차서에서, 연박 증감지를 이용토록 되어 있다. 전, 후방 증감지의 두께는 의 두께가 사용된다",
+    "question": "In this procedure, lead intensifying screen shall be used. The front and back screen shall be used. The front and back screen shall be used ______ inch thick.\n본 절차서에서, 연박 증감지를 이용토록 되어 있다. 전, 후방 증감지의 두께는 ______ 의 두께가 사용된다",
     "options": [
       "0.05",
       "0.127",
       "0.005",
       "1.27"
     ],
-    "answer": 2
+    "answer": 2,
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-P11(Rev.1) for radiographic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅷ, 2021 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME B & PV Sec.Ⅷ 규격에 따른 압력용기 제작의 방사선투과시험에 대한 절차서(HIE-NDT-RT-P11, Rev.1)"
   },
   {
     "id": 3,
@@ -33,14 +35,15 @@
     "method": "RT",
     "category": "Specific",
     "source": "RTS-II(2020)(A)",
-    "question": "A lead symbol \"B\" for checking of back scattered radiation, shall have be minimum dimension of in light and thickness.\n후방산란 확인을 위해 사용되는 납글자 B의 크기는?",
+    "question": "A lead symbol \"B\" for checking of back scattered radiation, shall have be minimum dimension of ______ in light and ______ thickness.\n후방산란 확인을 위해 사용되는 납글자 B의 크기는?",
     "options": [
       "1/4\", 1/16\"",
       "1/2\", 1/8\"",
       "1/4\", 1/8\"",
       "7/16\", 1/16\""
     ],
-    "answer": 3
+    "answer": 3,
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-P11(Rev.1) for radiographic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅷ, 2021 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME B & PV Sec.Ⅷ 규격에 따른 압력용기 제작의 방사선투과시험에 대한 절차서(HIE-NDT-RT-P11, Rev.1)"
   },
   {
     "id": 4,
@@ -55,7 +58,8 @@
       "Computed radiographic film\n컴퓨터 방사선촬영(CR) 필름",
       "Direct image plate\n직접 이미지 플레이트"
     ],
-    "answer": 0
+    "answer": 0,
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-P11(Rev.1) for radiographic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅷ, 2021 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME B & PV Sec.Ⅷ 규격에 따른 압력용기 제작의 방사선투과시험에 대한 절차서(HIE-NDT-RT-P11, Rev.1)"
   },
   {
     "id": 5,
@@ -63,14 +67,15 @@
     "method": "RT",
     "category": "Specific",
     "source": "RTS-II(2020)(A)",
-    "question": "The transmitted film density through the radiographic image of the body of the appropriate penetrometer and the area of interest shall be minimum for single film viewing for radiographs made with an X-ray source and minimum for radiographs made with a Gamma-ray source.\n적절한 투과도계와 시험지역의 방사선 사진상을 투과한 필름의 농도는 단일 필름보기의 경우에 엑스선, 감마선으로 촬영했을 때 각각 최소는 얼마가 되어야 하는가?",
+    "question": "The transmitted film density through the radiographic image of the body of the appropriate penetrometer and the area of interest shall be ______ minimum for single film viewing for radiographs made with an X-ray source and ______ minimum for radiographs made with a Gamma-ray source.\n적절한 투과도계와 시험지역의 방사선 사진상을 투과한 필름의 농도는 단일 필름보기의 경우에 엑스선, 감마선으로 촬영했을 때 각각 최소는 얼마가 되어야 하는가?",
     "options": [
       "2.0, 2.0 HD",
       "1.8, 1.8 HD",
       "2.0, 1.8 HD",
       "1.8, 2.0 HD"
     ],
-    "answer": 3
+    "answer": 3,
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-P11(Rev.1) for radiographic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅷ, 2021 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME B & PV Sec.Ⅷ 규격에 따른 압력용기 제작의 방사선투과시험에 대한 절차서(HIE-NDT-RT-P11, Rev.1)"
   },
   {
     "id": 6,
@@ -100,7 +105,8 @@
       "distance, from source to cassette\n선원과 카세트의 거리",
       "distance, from source side to film side of specimen\n (시험편의 선원 측에서 필름 측까지의 거리)"
     ],
-    "answer": 0
+    "answer": 0,
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-N21(Rev.1) for radiographic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅲ, 2021 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME B & PV Sec.Ⅲ 규격에 따른 압력용기 제작의 방사선투과시험에 대한 절차서(HIE-NDT-RT-N21, Rev.1)"
   },
   {
     "id": 8,
@@ -115,7 +121,8 @@
       "0.013\"",
       "0.020\""
     ],
-    "answer": 3
+    "answer": 3,
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-N21(Rev.1) for radiographic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅲ, 2021 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME B & PV Sec.Ⅲ 규격에 따른 압력용기 제작의 방사선투과시험에 대한 절차서(HIE-NDT-RT-N21, Rev.1)"
   },
   {
     "id": 9,
@@ -130,7 +137,8 @@
       "specified hole and thickness\n특정한 구멍과 두께",
       "penetrameter image\n투과도계의 상"
     ],
-    "answer": 0
+    "answer": 0,
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-N21(Rev.1) for radiographic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅲ, 2021 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME B & PV Sec.Ⅲ 규격에 따른 압력용기 제작의 방사선투과시험에 대한 절차서(HIE-NDT-RT-N21, Rev.1)"
   },
   {
     "id": 10,
@@ -138,14 +146,15 @@
     "method": "RT",
     "category": "Specific",
     "source": "RTS-II(2020)(A)",
-    "question": "Backing rings or strips of weldments are as part of the weld or reinforcement thickness in penetrameter selection.\n용접시 빽링 (받침쇠)은 투과도계를 선택하는데 있어서 용접부의 한 부분으로 .",
+    "question": "Backing rings or strips of weldments are ______ as part of the weld or reinforcement thickness in penetrameter selection.\n용접시 빽링 (받침쇠)은 투과도계를 선택하는데 있어서 용접부의 한 부분으로 ______.",
     "options": [
       "to be considered\n고려한다.",
       "not to be considered\n고려하지 않는다.",
       "both to be considered and not to be\n고려하지도 안하기도 한다.",
       "all of the above are not correct\n정답 없다."
     ],
-    "answer": 1
+    "answer": 1,
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-N21(Rev.1) for radiographic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅲ, 2021 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME B & PV Sec.Ⅲ 규격에 따른 압력용기 제작의 방사선투과시험에 대한 절차서(HIE-NDT-RT-N21, Rev.1)"
   },
   {
     "id": 11,
@@ -153,14 +162,15 @@
     "method": "RT",
     "category": "Specific",
     "source": "RTS-II(2020)(A)",
-    "question": "The density of the radiograph anywhere through the area of interest shall be between minus % or plus % from the density through the body of the penetrameter.\n방사선 사진의 농도 범위는 투과도계상의 농도를 기준으로 마이너스 % 에서 플러스 % 이어야 한다.",
+    "question": "The density of the radiograph anywhere through the area of interest shall be between minus ______ % or plus ______ % from the density through the body of the penetrameter.\n방사선 사진의 농도 범위는 투과도계상의 농도를 기준으로 마이너스 ______ % 에서 플러스 % 이어야 한다.",
     "options": [
       "30,15",
       "15,30",
       "15,15",
       "30,30"
     ],
-    "answer": 1
+    "answer": 1,
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-N21(Rev.1) for radiographic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅲ, 2021 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME B & PV Sec.Ⅲ 규격에 따른 압력용기 제작의 방사선투과시험에 대한 절차서(HIE-NDT-RT-N21, Rev.1)"
   },
   {
     "id": 12,
@@ -175,7 +185,8 @@
       "three, 120, 180",
       "three, 120, 240"
     ],
-    "answer": 3
+    "answer": 3,
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-N21(Rev.1) for radiographic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅲ, 2021 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME B & PV Sec.Ⅲ 규격에 따른 압력용기 제작의 방사선투과시험에 대한 절차서(HIE-NDT-RT-N21, Rev.1)"
   },
   {
     "id": 13,
@@ -183,14 +194,15 @@
     "method": "RT",
     "category": "Specific",
     "source": "RTS-II(2020)(A)",
-    "question": "For continuous radiographing with X-ray Apparatus, RF-300EGS3, report the radiographing and OFF intervals at a duty cycle of or more?\n모델 RF-300EGS3로써 연속적으로 방사성 투과검사를 하기 위해 얼마 이상의 Duty Cycle을 유지하여야 하는가?",
+    "question": "For continuous radiographing with X-ray Apparatus, RF-300EGS3, report the radiographing and OFF intervals at a duty cycle of ______ or more?\n모델 RF-300EGS3로써 연속적으로 방사성 투과검사를 하기 위해 얼마 이상의 Duty Cycle을 유지하여야 하는가?",
     "options": [
       "1 : 1",
       "1 : 2",
       "1 : 3",
       "1 : 4"
     ],
-    "answer": 0
+    "answer": 0,
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-N21(Rev.1) for radiographic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅲ, 2021 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME B & PV Sec.Ⅲ 규격에 따른 압력용기 제작의 방사선투과시험에 대한 절차서(HIE-NDT-RT-N21, Rev.1)"
   },
   {
     "id": 14,
@@ -198,14 +210,15 @@
     "method": "RT",
     "category": "Specific",
     "source": "RTS-II(2020)(A)",
-    "question": "For materials and for welds in pipe and tubes with a nominal outside diameter greater than in, radiographic examination shall be performed for wall viewing only.\n공칭 외경이 ( ) 인치 보다 큰 파이프나 튜브자재 및 용접부에 대한 방사선 사진은 ( ) 벽 보기만 행해야 한다.",
+    "question": "For materials and for welds in pipe and tubes with a nominal outside diameter greater than ______ in, radiographic examination shall be performed for ______ wall viewing only.\n공칭 외경이 ( ) 인치 보다 큰 파이프나 튜브자재 및 용접부에 대한 방사선 사진은 ( ) 벽 보기만 행해야 한다.",
     "options": [
       "3, double",
       "3-3/4, double",
       "3-1/2, double",
       "3-1/2, single"
     ],
-    "answer": 3
+    "answer": 3,
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-N21(Rev.1) for radiographic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅲ, 2021 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME B & PV Sec.Ⅲ 규격에 따른 압력용기 제작의 방사선투과시험에 대한 절차서(HIE-NDT-RT-N21, Rev.1)"
   },
   {
     "id": 15,
@@ -220,7 +233,8 @@
       "A slag inclusion 1/2inch in length in a weldment with a thickness of 2inch.\n (두께가 2인치인 용접부에서 길이가 1/2인치인 슬래그 개재물)",
       "All of the above are rejectable.(위 모두 불합격)"
     ],
-    "answer": 2
+    "answer": 2,
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-N21(Rev.1) for radiographic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅲ, 2021 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME B & PV Sec.Ⅲ 규격에 따른 압력용기 제작의 방사선투과시험에 대한 절차서(HIE-NDT-RT-N21, Rev.1)"
   },
   {
     "id": 16,
@@ -235,7 +249,8 @@
       "minimum equivalent sensitivity of 4 % and a 2-2T quality level.\n최소 등가감도 4%, 상질 2-2T",
       "minimum equivalent sensitivity of 4 % and a 4-4T quality level.\n최소 등가감도 4%, 상질 4-4T"
     ],
-    "answer": 1
+    "answer": 1,
+    "groupNote": "* The following questions refer to API 6A\nAPI 6A에 따라 물음에 답하시오."
   },
   {
     "id": 17,
@@ -248,7 +263,8 @@
       "Accept 합격",
       "Reject 불합격"
     ],
-    "answer": 0
+    "answer": 0,
+    "groupNote": "* The following questions refer to API 6A\nAPI 6A에 따라 물음에 답하시오."
   },
   {
     "id": 18,
@@ -302,14 +318,15 @@
     "method": "RT",
     "category": "Specific",
     "source": "RTS-II(2020)(B)",
-    "question": "A lead symbol \"B\" for checking of back scattered radiation, shall have be minimum dimension of in hight and thickness.\n후방산란 확인을 위해 사용되는 납글자 B의 크기는?",
+    "question": "A lead symbol \"B\" for checking of back scattered radiation, shall have be minimum dimension of ______ in hight and ______ thickness.\n후방산란 확인을 위해 사용되는 납글자 B의 크기는?",
     "options": [
       "1/4\", 1/16\"",
       "1/2\", 1/8\"",
       "1/4\", 1/8\"",
       "7/16\", 1/16\""
     ],
-    "answer": 3
+    "answer": 3,
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-P11 (Rev.2) for radiographic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME B & PV Sec.Ⅷ 규격에 따른 압력용기 제작의 방사선투과시험에 대한 절차서(HIE-NDT-RT-P11, Rev.2)"
   },
   {
     "id": 30,
@@ -322,7 +339,8 @@
       "Accept 합격",
       "Reject 불합격"
     ],
-    "answer": 1
+    "answer": 1,
+    "groupNote": "* The following questions refer to API 5L\nAPI 5L에 따라 20번 물음에 답하시오."
   },
   {
     "level": "Level II",
@@ -337,7 +355,8 @@
       "EN 473"
     ],
     "answer": 0,
-    "id": 35
+    "id": 35,
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-P11(Rev.1) for radiographic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅷ, 2021 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME B & PV Sec.Ⅷ 규격에 따른 압력용기 제작의 방사선투과시험에 대한 절차서(HIE-NDT-RT-P11, Rev.1)"
   },
   {
     "id": 36,

@@ -50,7 +50,7 @@
     "method": "TOFD",
     "category": "Specific",
     "source": "TOFDSpec-II-A-type(2014)",
-    "question": "A shift of the backwall arrival time to an earlier arrival would be indicative of .\n이른 도착으로 backwall 도착 시간의 이동은 어떤 결함인가?",
+    "question": "A shift of the backwall arrival time to an earlier arrival would be indicative of ______.\n이른 도착으로 backwall 도착 시간의 이동은 어떤 결함인가?",
     "options": [
       "Root erosion\n루트부식",
       "IP\n용입불량",

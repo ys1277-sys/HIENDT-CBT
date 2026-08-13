@@ -12,7 +12,8 @@
       "500Lx",
       "800Lx"
     ],
-    "answer": 0
+    "answer": 0,
+    "groupNote": "* Question pertain to requirement in B & PV Code. Sect V. 2023 Edition."
   },
   {
     "id": 2,
@@ -20,14 +21,15 @@
     "method": "VT",
     "category": "Specific",
     "source": "VTS-II(2020)(A)",
-    "question": "Visual examination personnel shall have an annual visual examination assure natural or corrected near distance acuity such that they are capable of reading standard letter on standard Jaeger test type charts.\n육안 검사원은 시력 검사용 쟈가챠트의 몇 번을 읽을 수 있어야 하는가?",
+    "question": "Visual examination personnel shall have an annual visual examination assure natural or corrected near distance acuity such that they are capable of reading standard ______ letter on standard Jaeger test type charts.\n육안 검사원은 시력 검사용 쟈가챠트의 몇 번을 읽을 수 있어야 하는가?",
     "options": [
       "J-1",
       "J-2",
       "J-3",
       "J-4"
     ],
-    "answer": 0
+    "answer": 0,
+    "groupNote": "* Question pertain to requirement in B & PV Code. Sect V. 2023 Edition."
   },
   {
     "id": 3,
@@ -42,7 +44,8 @@
       "2-1/2 times\n2.5배",
       "equivalent to\n동등한"
     ],
-    "answer": 3
+    "answer": 3,
+    "groupNote": "* Question pertain to requirement in B & PV Code. Sect V. 2023 Edition."
   },
   {
     "id": 4,
@@ -57,7 +60,8 @@
       "45 degrees\n45도",
       "30 degrees\n30도"
     ],
-    "answer": 3
+    "answer": 3,
+    "groupNote": "* Question pertain to requirement in B & PV Code. Sect V. 2023 Edition."
   },
   {
     "id": 5,
@@ -72,7 +76,8 @@
       "4 feet\n4피트",
       "24 inches\n24인치"
     ],
-    "answer": 3
+    "answer": 3,
+    "groupNote": "* Question pertain to requirement in B & PV Code. Sect V. 2023 Edition."
   },
   {
     "id": 6,
@@ -87,7 +92,8 @@
       "examiner's name and level of certification\n검사관의 이름과 인증서의 레벨",
       "all of the above would be noted on the report (위의 모든 사항이 기록지에 포함된다)"
     ],
-    "answer": 3
+    "answer": 3,
+    "groupNote": "* Question pertain to requirement in B & PV Code. Sect V. 2023 Edition."
   },
   {
     "id": 7,
@@ -102,7 +108,8 @@
       "a diopter is used to adjust difference in eyesight \n (디옵터는 시력차이를 바로잡아준다.)",
       "the fibers are generally about 30 microns each in diameter\n (섬유는 일반적으로 각 직경내에서 30마이크론을 갖는다.)"
     ],
-    "answer": 1
+    "answer": 1,
+    "groupNote": "* Questions pertain to visual examination equipment."
   },
   {
     "id": 8,
@@ -117,7 +124,8 @@
       "waviness\n파동적인",
       "profile\n측면도"
     ],
-    "answer": 0
+    "answer": 0,
+    "groupNote": "* Questions pertain to visual examination equipment."
   },
   {
     "id": 9,
@@ -132,7 +140,8 @@
       "telescopes\n망원경",
       "all of the above\n위 모두"
     ],
-    "answer": 3
+    "answer": 3,
+    "groupNote": "* Questions pertain to visual examination equipment."
   },
   {
     "id": 10,
@@ -147,7 +156,8 @@
       "convexity\n볼록함",
       "fillet weld width\n필렛 용접부 폭"
     ],
-    "answer": 2
+    "answer": 2,
+    "groupNote": "* Questions pertain to visual examination equipment."
   },
   {
     "id": 11,
@@ -162,7 +172,8 @@
       "nothing in the above\n정답 없음",
       "all of the above(위 모두)"
     ],
-    "answer": 3
+    "answer": 3,
+    "groupNote": "* Questions pertain to visual examination equipment."
   },
   {
     "id": 12,
@@ -177,7 +188,8 @@
       "shall be reproduced verbatim from SNT-TC-1A.\n (SNT-TC-1A 으로부터 재현된다.)",
       "shall be submitted to ASNT for approval.\n (승인을 받기 위해서 ASNT에 제출되어야 한다.)"
     ],
-    "answer": 3
+    "answer": 3,
+    "groupNote": "* Questions pertain to HIE-QP-E01."
   },
   {
     "id": 13,
@@ -192,7 +204,8 @@
       "the general, specific, and practical\n일반, 전문, 실기",
       "only the general\n일반만"
     ],
-    "answer": 0
+    "answer": 0,
+    "groupNote": "* Questions pertain to HIE-QP-E01."
   },
   {
     "id": 14,
@@ -207,7 +220,8 @@
       "if an employee has not worked in the method for which certified within the past six months\n (만약, 피고용인이 과거에 6개월동안 일을 하지 않했다면)",
       "when an employee leaves the employee where he had been certified\n (피고용인이 인증받았던 곳을 떠나면)"
     ],
-    "answer": 3
+    "answer": 3,
+    "groupNote": "* Questions pertain to HIE-QP-E01."
   },
   {
     "id": 15,
@@ -237,7 +251,8 @@
       "crack\n균열",
       "incomplete weld\n용접 미완성"
     ],
-    "answer": 0
+    "answer": 0,
+    "groupNote": "* Questions pertain to defect type.."
   },
   {
     "id": 17,
@@ -267,7 +282,8 @@
       "All welded joints in secondary members shall be examined by the visual method. \n (2차 부재의 모든 용접부는 육안검사를 해야 한다.)",
       "All weld joint other than full penetration butt welded joint in primary members shall be examined by liquid penetrant or magnetic particle method.\n (1차 부재의 완전 용입 맞대기 용접부를 제외한 모든 용접부는 침투 탐상 또는 자분 탐상법으로 검사를 해야 한다.)"
     ],
-    "answer": 1
+    "answer": 1,
+    "groupNote": "* Questions pertain to requirement in B & PV Code, Sec Ⅲ 2023 Edition."
   },
   {
     "id": 19,
@@ -282,7 +298,8 @@
       "When either welds or undercut exist only on one side of the member or are not in the same plan, the allowable undercut depth of 1/32in. may be increased to 1/8in. for the full length of the weld.\n (부재의 같은면이 아닌 한쪽면에 용접부나 언더컷이 존재할 경우, 용접부의 전 길이에 대해서 허용 가능한 언더컷 깊이는 1/32인치에서 1/8인치로 증가 시켜도 된다.)",
       "For material greater than 3/8in. nominal thickness, undercut depth of 1/32in. for the full length of the weld and 1/16in. for one-fourth the length of the weld on both sides of the members.\n (호칭 두께가 3/8인치 보다 큰 재료에 대해서, 용접부의 전 길이에 대해 부재의 양쪽면에 있는 언더컷의 깊이가 1/32인치. 또는 용접부길이의 1/4에 대해 부재의 양쪽면에 있는 언더컷의 깊이가 1/16인치 인 경우.)"
     ],
-    "answer": 2
+    "answer": 2,
+    "groupNote": "* Questions pertain to requirement in B & PV Code, Sec Ⅲ 2023 Edition."
   },
   {
     "id": 20,
@@ -297,7 +314,8 @@
       "The sum of diameters of random porosity exceeds 3/8in. in any linear inch of weld or 3/4in. in any 12in. of weld are unacceptable.\n (임의로 분포된 기공의 지름의 합이 용접부의 임의 선상에서 3/8인치를 초과하거나 용접부의 임의 선상 12인치에서 3/4인치를 초과하는 경우는 불합격이다.)",
       "Four or more pores are aligned and the pores are separated by 1/16in. or less, edge to edge are unacceptable.\n4개 이상의 기포들이 정렬되어 있고 각각의 가장 자리사이의 간격이 1/16인치 이하로 분리 되어있는 경우는 불합격이다."
     ],
-    "answer": 1
+    "answer": 1,
+    "groupNote": "* Questions pertain to requirement in B & PV Code, Sec Ⅲ 2023 Edition."
   },
   {
     "id": 21,
@@ -312,7 +330,8 @@
       "1/16\"",
       "1/4\""
     ],
-    "answer": 1
+    "answer": 1,
+    "groupNote": "* Questions pertain to requirement in B & PV Code, Sec Ⅲ 2023 Edition."
   },
   {
     "id": 22,
@@ -327,7 +346,8 @@
       "a rounded indication of 1/4\" diameter\n직경 1/4“의 원형지시",
       "weld undercut 1/8\" deep\n언더컷의 1/8“ 깊이"
     ],
-    "answer": 1
+    "answer": 1,
+    "groupNote": "* Questions pertain to requirement in B & PV Code, Sec Ⅲ 2023 Edition."
   },
   {
     "id": 23,
@@ -432,6 +452,7 @@
       "3/16 in."
     ],
     "answer": 2,
-    "id": 29
+    "id": 29,
+    "groupNote": "* Questions pertain to requirement in B & PV Code, Sec.Ⅷ Div.2 (2023Ed)"
   }
 ]

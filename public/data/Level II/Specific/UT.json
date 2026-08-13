@@ -5,14 +5,15 @@
     "method": "UT",
     "category": "Specific",
     "source": "UTS-II(2020)(A)",
-    "question": "This procedure describes the ultrasonic methode for .\n본 절차서는 을 위한 초음파 탐상방법을 기술한다.",
+    "question": "This procedure describes the ultrasonic methode for ______.\n본 절차서는 ______을 위한 초음파 탐상방법을 기술한다.",
     "options": [
       "pressure vessel welding\n압력용기 용접",
       "Forging\n단조품",
       "Fitting\n관 이음쇠",
       "Casting\n주조품"
     ],
-    "answer": 2
+    "answer": 2,
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-N21 (Rev.1) for ultrasonic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec Ⅲ. 2021 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격에 따른 압력용기 제작의 초음파 시험에 대한 절차서(HIE-NDT-UT-N21,Rev.1)"
   },
   {
     "id": 2,
@@ -20,14 +21,15 @@
     "method": "UT",
     "category": "Specific",
     "source": "UTS-II(2020)(A)",
-    "question": "Acceptance standard shall be used .\n합격기준은 을 따른다",
+    "question": "Acceptance standard shall be used ______.\n합격기준은 을 따른다",
     "options": [
       "ASME Sec Ⅲ. NB 2500",
       "ASME Sec Ⅲ. NB 5000",
       "ASME Sec Ⅴ. Art.5",
       "ASME Sec Ⅷ. Div.1"
     ],
-    "answer": 0
+    "answer": 0,
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-N21 (Rev.1) for ultrasonic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec Ⅲ. 2021 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격에 따른 압력용기 제작의 초음파 시험에 대한 절차서(HIE-NDT-UT-N21,Rev.1)"
   },
   {
     "id": 3,
@@ -35,14 +37,15 @@
     "method": "UT",
     "category": "Specific",
     "source": "UTS-II(2020)(A)",
-    "question": "Serch unit shall be angle beam probe.\n탐촉자는 도 사각 탐촉자를 사용해야 한다.",
+    "question": "Serch unit shall be ______ angle beam probe.\n탐촉자는 ______ 도 사각 탐촉자를 사용해야 한다.",
     "options": [
       "0°",
       "45°",
       "60°",
       "70°"
     ],
-    "answer": 1
+    "answer": 1,
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-N21 (Rev.1) for ultrasonic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec Ⅲ. 2021 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격에 따른 압력용기 제작의 초음파 시험에 대한 절차서(HIE-NDT-UT-N21,Rev.1)"
   },
   {
     "id": 4,
@@ -50,14 +53,15 @@
     "method": "UT",
     "category": "Specific",
     "source": "UTS-II(2020)(A)",
-    "question": "Calibration reflector for steel plate with angle beam probe, shall be used .\n강판 검사를 위한 교정반사체는 ?",
+    "question": "Calibration reflector for steel plate with angle beam probe, shall be used ______.\n강판 검사를 위한 교정반사체는 ______?",
     "options": [
       "side drill hole\n측면 구멍(SDH)",
       "Flat bottom hole\n평저공(FBH)",
       "Notch\n노치",
       "STB-A3\nSTB-A3"
     ],
-    "answer": 2
+    "answer": 2,
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-N21 (Rev.1) for ultrasonic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec Ⅲ. 2021 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격에 따른 압력용기 제작의 초음파 시험에 대한 절차서(HIE-NDT-UT-N21,Rev.1)"
   },
   {
     "id": 5,
@@ -65,14 +69,15 @@
     "method": "UT",
     "category": "Specific",
     "source": "UTS-II(2020)(A)",
-    "question": "The rate of search unit movement for examination shall not exceed .\n검사 시 탐촉자의 이동 속도는 얼마를 넘어서는 안 되는가?",
+    "question": "The rate of search unit movement for examination shall not exceed ______.\n검사 시 탐촉자의 이동 속도는 얼마를 넘어서는 안 되는가?",
     "options": [
       "150 mm/s",
       "200mm/s",
       "10 in/s",
       "15 in/s"
     ],
-    "answer": 0
+    "answer": 0,
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-N21 (Rev.1) for ultrasonic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec Ⅲ. 2021 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격에 따른 압력용기 제작의 초음파 시험에 대한 절차서(HIE-NDT-UT-N21,Rev.1)"
   },
   {
     "id": 6,
@@ -80,14 +85,15 @@
     "method": "UT",
     "category": "Specific",
     "source": "UTS-II(2020)(A)",
-    "question": "For both manual and automated examination, recording of indications shall be carried out with gain setting at level.\n수동이나 자동탐상시 지시를 기록할 때 이득은 수준에 맞추어야 한다.",
+    "question": "For both manual and automated examination, recording of indications shall be carried out with gain setting at ______ level.\n수동이나 자동탐상시 지시를 기록할 때 이득은 ______ 수준에 맞추어야 한다.",
     "options": [
       "reference\n참고",
       "scanning\n탐상",
       "all of above\n위 모두",
       "none of above\n해당사항 없음"
     ],
-    "answer": 0
+    "answer": 0,
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-P11 (Rev.1) for ultrasonic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅷ Div.1 2021 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격에 따른 압력용기 제작의 초음파 시험에 대한 절차서(HIE-NDT-UT-P11,Rev.1)"
   },
   {
     "id": 7,
@@ -102,7 +108,8 @@
       "A:4 B:3.5X10",
       "A:2 or 4 B:φ10 or φ24"
     ],
-    "answer": 3
+    "answer": 3,
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-P11 (Rev.1) for ultrasonic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅷ Div.1 2021 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격에 따른 압력용기 제작의 초음파 시험에 대한 절차서(HIE-NDT-UT-P11,Rev.1)"
   },
   {
     "id": 8,
@@ -117,7 +124,8 @@
       "STB-A2\nSTB-A2",
       "10% Notch Block\n10% 노치 시험편"
     ],
-    "answer": 0
+    "answer": 0,
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-P11 (Rev.1) for ultrasonic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅷ Div.1 2021 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격에 따른 압력용기 제작의 초음파 시험에 대한 절차서(HIE-NDT-UT-P11,Rev.1)"
   },
   {
     "id": 9,
@@ -133,7 +141,8 @@
       "Non-relevant indication\n비관련 지시"
     ],
     "answer": 2,
-    "image": "UT_SPECIFIC_B_Q5.jpg"
+    "image": "UT_SPECIFIC_B_Q5.jpg",
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-P11 (Rev.1) for ultrasonic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅷ Div.1 2021 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격에 따른 압력용기 제작의 초음파 시험에 대한 절차서(HIE-NDT-UT-P11,Rev.1)"
   },
   {
     "id": 10,
@@ -141,14 +150,15 @@
     "method": "UT",
     "category": "Specific",
     "source": "UTS-II(2020)(A)",
-    "question": "Where the component material is clad, the calibration block shall be clad by .\n만약 제품이 크래드 되어 있으면 교정 블록은 어떻게 Clad 되어져야 하는가?",
+    "question": "Where the component material is clad, the calibration block shall be clad by ______.\n만약 제품이 크래드 되어 있으면 교정 블록은 어떻게 Clad 되어져야 하는가?",
     "options": [
       "the same welding procedure as the production part.\n (제품 크래드시 이용한 것과 동일한 방법)",
       "the different welding procedure as the production part.\n (제품 크래드시 이용한 것과 다른 방법)",
       "SMAW Procedure\nSMAW 방법",
       "all of the above\n위 1, 2,C 모두"
     ],
-    "answer": 0
+    "answer": 0,
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-P11 (Rev.1) for ultrasonic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅷ Div.1 2021 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격에 따른 압력용기 제작의 초음파 시험에 대한 절차서(HIE-NDT-UT-P11,Rev.1)"
   },
   {
     "id": 11,
@@ -163,7 +173,8 @@
       "1/4T, 3/4T, Side drilled hole\n1/4T, 3/4T, 측면 구멍",
       "1/4T, 1/8T, Side drilled hole\n1/4T, 1/8T, 측면 구멍"
     ],
-    "answer": 0
+    "answer": 0,
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-P11 (Rev.1) for ultrasonic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅷ Div.1 2021 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격에 따른 압력용기 제작의 초음파 시험에 대한 절차서(HIE-NDT-UT-P11,Rev.1)"
   },
   {
     "id": 12,
@@ -206,7 +217,8 @@
       "Accept 합격",
       "Reject 불합격"
     ],
-    "answer": 1
+    "answer": 1,
+    "groupNote": "* The following questions refer to API 6A\nAPI 6A를 참조하여 물음에 답하시오."
   },
   {
     "id": 15,
@@ -219,7 +231,8 @@
       "Accept 합격",
       "Reject 불합격"
     ],
-    "answer": 0
+    "answer": 0,
+    "groupNote": "* The following questions refer to API 6A\nAPI 6A를 참조하여 물음에 답하시오."
   },
   {
     "id": 16,
@@ -259,7 +272,7 @@
     "method": "UT",
     "category": "Specific",
     "source": "UTS-II(2020)(A)",
-    "question": "The ultrasonic instrument shall utilize an amplitude control, accurate over its useful range to % of the nominal amplitude ratio, to allow measurement of indications beyond the linear range of vertical display on the screen.\n초음파 탐상장비는 평균 증폭비의 % 범위 이내로 증폭 조절 직선성을 지니고 있어야 스크린 수직방향 지시측정이 가능하다.",
+    "question": "The ultrasonic instrument shall utilize an amplitude control, accurate over its useful range to ______ % of the nominal amplitude ratio, to allow measurement of indications beyond the linear range of vertical display on the screen.\n초음파 탐상장비는 평균 증폭비의 ______ % 범위 이내로 증폭 조절 직선성을 지니고 있어야 스크린 수직방향 지시측정이 가능하다.",
     "options": [
       "10%",
       "5%",
@@ -275,7 +288,7 @@
     "method": "UT",
     "category": "Specific",
     "source": "UTS-II(2020)(B)",
-    "question": "The ultrasonic instrument shall utilize an amplitude control, accurate over its useful range to % of the nominal amplitude ratio, to allow measurement of indications beyond the linear range of vertical display on the screen.\n초음파 탐상장비는 평균 증폭비의 % 범위 이내로 증폭 조절 직선성을 지니고 있어야 스크린 수직방향 지시측정이 가능하다.",
+    "question": "The ultrasonic instrument shall utilize an amplitude control, accurate over its useful range to ______ % of the nominal amplitude ratio, to allow measurement of indications beyond the linear range of vertical display on the screen.\n초음파 탐상장비는 평균 증폭비의 ______ % 범위 이내로 증폭 조절 직선성을 지니고 있어야 스크린 수직방향 지시측정이 가능하다.",
     "options": [
       "10%",
       "5%",
@@ -291,14 +304,15 @@
     "method": "UT",
     "category": "Specific",
     "source": "UTS-II(2020)(B)",
-    "question": "Search unit shall be angle beam probe.\n탐촉자는 도 사각 탐촉자를 사용해야 한다.",
+    "question": "Search unit shall be ______ angle beam probe.\n탐촉자는 ______ 도 사각 탐촉자를 사용해야 한다.",
     "options": [
       "0°",
       "45°",
       "60°",
       "70°"
     ],
-    "answer": 1
+    "answer": 1,
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-N21 (Rev.2) for ultrasonic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec Ⅲ. 2023 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격에 따른 압력용기 제작의 초음파 시험에 대한 절차서HIE-NDT-UT-N21 (Rev.2)"
   },
   {
     "id": 23,
@@ -313,7 +327,8 @@
       "10% of thickness",
       "2% of thickness"
     ],
-    "answer": 2
+    "answer": 2,
+    "groupNote": "* The following questions refer to ASME B16.34\nASME B16.34에 따라 5번 물음에 답하시오."
   },
   {
     "id": 25,

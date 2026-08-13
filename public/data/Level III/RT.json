@@ -14,7 +14,8 @@
       ""
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-P11(Rev.3)for radiographic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 방사선 투과 시험에 대한 절차서(HIE-NDT-RT-P11. Rev.3)"
   },
   {
     "id": 2,
@@ -31,7 +32,8 @@
       ""
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-P11(Rev.3)for radiographic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 방사선 투과 시험에 대한 절차서(HIE-NDT-RT-P11. Rev.3)"
   },
   {
     "id": 3,
@@ -65,7 +67,8 @@
       ""
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-P11(Rev.3)for radiographic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 방사선 투과 시험에 대한 절차서(HIE-NDT-RT-P11. Rev.3)"
   },
   {
     "id": 5,
@@ -82,7 +85,8 @@
       ""
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-P11(Rev.3)for radiographic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 방사선 투과 시험에 대한 절차서(HIE-NDT-RT-P11. Rev.3)"
   },
   {
     "id": 6,
@@ -99,7 +103,8 @@
       ""
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-P11(Rev.3)for radiographic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 방사선 투과 시험에 대한 절차서(HIE-NDT-RT-P11. Rev.3)"
   },
   {
     "id": 7,
@@ -116,7 +121,8 @@
       "Minimum equivalent sensitivity of 4% and a 4-4T quality level\n최소 등가감도 4%, 상질 4-4T"
     ],
     "answer": 1,
-    "explanation": ""
+    "explanation": "",
+    "groupNote": "* The following questions refer to API 6A\nAPI 6A에 따라 물음에 답하시오."
   },
   {
     "id": 8,
@@ -133,7 +139,8 @@
       ""
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "groupNote": "* The following questions refer to API 6A\nAPI 6A에 따라 물음에 답하시오."
   },
   {
     "id": 9,
@@ -167,7 +174,8 @@
       ""
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-N21(Rev.3) for radiographic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅲ, 2023 Edition\n문제는 ASME 규격 Sec.Ⅲ(2023 Edition)에 따른 압력용기 제작의 방사선 투과 시험에 대한 절차서 HIE-NDT-RT-N21.(Rev.3)를 참조하시오."
   },
   {
     "id": 11,
@@ -175,7 +183,7 @@
     "method": "RT",
     "category": "SPECIFIC",
     "subject": "ASME Section III / HIE-NDT-RT-N21",
-    "question": "If the shape of component is spherical, concave side is toward the source and when the source to material distance is less than the inside radius of component, the location mark shall place side only?\n제작모양이 구형이고 오목한 면은 선원 방향으로 하고 재료에서 선원의 거리는 제조물의 반경 이하면 위치 표시는 어느 면에 위치하는가?",
+    "question": "If the shape of component is spherical, concave side is toward the source and when the source to material distance is less than the inside radius of component, the location mark shall place ______ side only?\n제작모양이 구형이고 오목한 면은 선원 방향으로 하고 재료에서 선원의 거리는 제조물의 반경 이하면 위치 표시는 어느 면에 위치하는가?",
     "question_kr": "제작모양이 구형이고 오목한 면은 선원 방향으로 하고 재료에서 선원의 거리는 제조물의 반경 이하면 위치 표시는 어느 면에 위치하는가?",
     "options": [
       "Source\n선원",
@@ -184,7 +192,8 @@
       "In (내부)"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-N21(Rev.3) for radiographic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅲ, 2023 Edition\n문제는 ASME 규격 Sec.Ⅲ(2023 Edition)에 따른 압력용기 제작의 방사선 투과 시험에 대한 절차서 HIE-NDT-RT-N21.(Rev.3)를 참조하시오."
   },
   {
     "id": 12,
@@ -192,7 +201,7 @@
     "method": "RT",
     "category": "SPECIFIC",
     "subject": "ASME Section III / HIE-NDT-RT-N21",
-    "question": "For double-wall viewing, at least location marker shall be placed on the side surface adjacent to the weld?\n이중벽 양면촬영에 대해 최소한 몇 개의 위치 표시를 하고 용접부에 근접한 어느 면에 두는가?",
+    "question": "For double-wall viewing, at least ______ location marker shall be placed on the ______ side surface adjacent to the weld?\n이중벽 양면촬영에 대해 최소한 몇 개의 위치 표시를 하고 용접부에 근접한 어느 면에 두는가?",
     "question_kr": "이중벽 양면촬영에 대해 최소한 몇 개의 위치 표시를 하고 용접부에 근접한 어느 면에 두는가?",
     "options": [
       "2, film",
@@ -201,7 +210,8 @@
       "1, source"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-N21(Rev.3) for radiographic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅲ, 2023 Edition\n문제는 ASME 규격 Sec.Ⅲ(2023 Edition)에 따른 압력용기 제작의 방사선 투과 시험에 대한 절차서 HIE-NDT-RT-N21.(Rev.3)를 참조하시오."
   },
   {
     "id": 13,
@@ -218,7 +228,8 @@
       "All of above is not correct\n위의 어느 것도 옳지 않다"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-N21(Rev.3) for radiographic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅲ, 2023 Edition\n문제는 ASME 규격 Sec.Ⅲ(2023 Edition)에 따른 압력용기 제작의 방사선 투과 시험에 대한 절차서 HIE-NDT-RT-N21.(Rev.3)를 참조하시오."
   },
   {
     "id": 14,
@@ -345,7 +356,7 @@
     "method": "RT",
     "category": "SPECIFIC",
     "subject": "X-Ray Equipment RF-300EGS3",
-    "question": "For continuous radiography with X-ray Apparatus, RF-300EGS3, repeat the radiography and OFF intervals at a duty cycle of or more.\nX-ray RF-300EGS3 장비로 계속적인 방사선 투과사진 촬영 시 촬영과 휴지시간의 A:B 또는 그 이상 반복해야 하는가?",
+    "question": "For continuous radiography with X-ray Apparatus, RF-300EGS3, repeat the radiography and OFF intervals at a duty cycle of ______ or more.\nX-ray RF-300EGS3 장비로 계속적인 방사선 투과사진 촬영 시 촬영과 휴지시간의 A:B 또는 그 이상 반복해야 하는가?",
     "question_kr": "X-ray RF-300EGS3 장비로 계속적인 방사선 투과사진 촬영 시 촬영과 휴지시간의 A:B 또는 그 이상 반복해야 하는가?",
     "options": [
       "1 : 1",
@@ -430,7 +441,7 @@
     "method": "RT",
     "category": "SPECIFIC",
     "subject": "Radiographic Technique",
-    "question": "There is no exposure advantage to the use of in. front and back lead screens below 125 KV in the radiograph of 1/4 in. or lesser thickness steel.\n1/4인치 이하 두께의 강재를 125KV 이하에서 촬영할 때 전·후면 납 증감지를 몇 인치 사용하는 것은 노출상 이점이 없는가?",
+    "question": "There is no exposure advantage to the use of ______ in. front and back lead screens below 125 KV in the radiograph of 1/4 in. or lesser thickness steel.\n1/4인치 이하 두께의 강재를 125KV 이하에서 촬영할 때 전·후면 납 증감지를 몇 인치 사용하는 것은 노출상 이점이 없는가?",
     "question_kr": "1/4인치 이하 두께의 강재를 125KV 이하에서 촬영할 때 전·후면 납 증감지를 몇 인치 사용하는 것은 노출상 이점이 없는가?",
     "options": [
       "0.005 inch",

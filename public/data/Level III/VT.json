@@ -14,7 +14,8 @@
       "24 inches"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "groupNote": "* Question pertain to requirement in BPVC. Sec V(Latest Edition)."
   },
   {
     "id": 2,
@@ -31,7 +32,8 @@
       "30 degrees"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "groupNote": "* Question pertain to requirement in BPVC. Sec V(Latest Edition)."
   },
   {
     "id": 3,
@@ -48,7 +50,8 @@
       "none of the above\n위의 어느 것도 아님"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "groupNote": "* Question pertain to requirement in BPVC. Sec V(Latest Edition)."
   },
   {
     "id": 4,
@@ -82,7 +85,8 @@
       "all of the above\n위의 모두"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "groupNote": "* Question pertain to requirement in BPVC. Sec V(Latest Edition)."
   },
   {
     "id": 6,
@@ -99,7 +103,8 @@
       "demonstrate a visual examination procedure\n육안검사 절차서를 실증하기 위해"
     ],
     "answer": 1,
-    "explanation": ""
+    "explanation": "",
+    "groupNote": "* Question pertain to requirement in BPVC. Sec V(Latest Edition)."
   },
   {
     "id": 7,
@@ -116,7 +121,8 @@
       "NG-5300"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "groupNote": "* Questions pertain to requirement in B & PV Code, Sec Ⅲ.(Latest Edition)"
   },
   {
     "id": 8,
@@ -154,7 +160,8 @@
       "None of above\n위의 어느 것도 아님"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "groupNote": "* Questions pertain to requirement in B & PV Code, Sec Ⅲ.(Latest Edition)"
   },
   {
     "id": 10,
@@ -188,7 +195,8 @@
       "Weld undercut 1/8 inch deep\n깊이 1/8인치 용접 언더컷"
     ],
     "answer": 1,
-    "explanation": ""
+    "explanation": "",
+    "groupNote": "* Questions pertain to requirement in B & PV Code, Sec Ⅲ.(Latest Edition)"
   },
   {
     "id": 12,
@@ -205,7 +213,8 @@
       "Fillet weld width\n필릿 용접 폭"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "groupNote": "* Questions pertain to visual examination equipment.\n(12번에서 13번은 육안검사용 장비와 관련한 문제임)"
   },
   {
     "id": 13,
@@ -222,7 +231,8 @@
       "The fibers are generally about 30 microns each in diameter\n광섬유는 보통 가닥마다 지름이 약 30마이크론이다"
     ],
     "answer": 1,
-    "explanation": ""
+    "explanation": "",
+    "groupNote": "* Questions pertain to visual examination equipment.\n(12번에서 13번은 육안검사용 장비와 관련한 문제임)"
   },
   {
     "id": 14,
@@ -239,7 +249,8 @@
       "When employee leaves the employer where certified\n자격을 받은 사업장을 떠났을 때"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "groupNote": "* Questions pertain to HIE-QP-E01."
   },
   {
     "id": 15,
@@ -256,7 +267,8 @@
       "Shall be submitted to ASNT for approval\n승인을 받기 위해 ASNT에 제출해야 한다"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "groupNote": "* Questions pertain to HIE-QP-E01."
   },
   {
     "id": 16,
@@ -307,7 +319,8 @@
       "Verifying valve body markings\n밸브 몸체 각인 확인"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "groupNote": "* The following questions refer to ASME B16.34\nASME B16.34에 따라 18번 물음에 답하시오."
   },
   {
     "id": 19,
@@ -375,7 +388,8 @@
       "Profile\n형상"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "groupNote": "* Questions pertain to visual examination equipment."
   },
   {
     "id": 23,
@@ -392,7 +406,8 @@
       "None of the above\n위의 어느 것도 아님"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "groupNote": "* Questions pertain to materials.\n(23번에서 25번은 재료와 관련된 문제임.)"
   },
   {
     "id": 24,
@@ -409,7 +424,8 @@
       "A casting\n주조품"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "groupNote": "* Questions pertain to materials.\n(23번에서 25번은 재료와 관련된 문제임.)"
   },
   {
     "id": 25,
@@ -426,7 +442,8 @@
       "Forging laps\n단조 겹침(랩)"
     ],
     "answer": 1,
-    "explanation": ""
+    "explanation": "",
+    "groupNote": "* Questions pertain to materials.\n(23번에서 25번은 재료와 관련된 문제임.)"
   },
   {
     "id": 26,

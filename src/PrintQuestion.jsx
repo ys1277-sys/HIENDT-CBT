@@ -35,10 +35,23 @@ function PrintQuestion({
   const measuredRef =
     useRef(false);
 
+  /* onReady 를 이미 불렀는지 */
+  const firedRef =
+    useRef(false);
+
 
   useLayoutEffect(() => {
     onReadyRef.current = onReady;
   }, [onReady]);
+
+
+  /*
+   * 새 문제 묶음이 들어오면 빗장을 푼다.
+   * 이 훅은 아래 분할 훅보다 먼저 있어야 순서가 맞는다.
+   */
+  useLayoutEffect(() => {
+    firedRef.current = false;
+  }, [questions]);
 
 
   /* =====================================================
@@ -195,6 +208,14 @@ function PrintQuestion({
     ) {
       return;
     }
+
+
+    /* onReady 는 한 번만 부른다 — PrintExam 과 같은 이유다 */
+    if (firedRef.current) {
+      return;
+    }
+
+    firedRef.current = true;
 
 
     requestAnimationFrame(() => {
