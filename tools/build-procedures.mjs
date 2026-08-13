@@ -168,13 +168,39 @@ function weave(table) {
   return out;
 }
 
-/* 제목 줄에 표시를 단다 */
+/*
+ * 제목 줄에 표시를 단다.
+ *
+ * 번호가 붙었다고 다 제목이 아니다. 이 절차서는 본문 문단에도 번호를 단다.
+ *
+ *   1.0 SCOPE                                        <- 제목
+ *   1.1 This procedure is to govern the continuous …  <- 본문
+ *   4.1 Examination Medium                            <- 제목
+ *
+ * 길이로만 가르면 안 된다. 같은 1.2 인데 영문은 길어서 본문, 한글은
+ * 짧아서 제목이 되어 한쪽만 굵고 파랗게 나왔다.
+ *
+ * 가름
+ *   N.0 은 언제나 제목이다 (1.0 SCOPE, 2.0 REFERENCES)
+ *   그 밖에는 짧고 문장으로 끝나지 않아야 제목이다
+ */
+const ENDS_SENTENCE = /[.。]\s*$|다\.?\s*$|[,、]\s*$/;
+
+function isHeading(s) {
+  const m = s.match(SECTION);
+  if (!m) return false;
+
+  /* 1.0 2.0 처럼 큰 항목 */
+  if (/^\d{1,2}\.0(?:[\s.]|$)/.test(s)) return true;
+
+  return s.length <= 55 && !ENDS_SENTENCE.test(s);
+}
+
 function markHeadings(blocks) {
   return blocks.map((b) => {
-    if (b.t !== "p") return b;
-    const m = b.s.match(SECTION);
-    if (!m || b.s.length > 100) return b;
-    return { t: "h", level: m[1].split(".").length >= 3 ? 3 : 2, s: b.s };
+    if (b.t !== "p" || !isHeading(b.s)) return b;
+    const key = b.s.match(SECTION)[1];
+    return { t: "h", level: key.split(".").length >= 3 ? 3 : 2, s: b.s };
   });
 }
 

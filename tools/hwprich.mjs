@@ -48,6 +48,7 @@ const TABLE = 77;        // BEGIN+61
 const PICTURE = 85;      // BEGIN+69
 
 const OBJ_CTRL = 11;
+const TAB = 9;
 const CHAR_2B = new Set([0, 10, 13, 24, 25, 26, 27, 28, 29, 30, 31]);
 
 const inflate = (b) => {
@@ -103,7 +104,11 @@ function paraText(d) {
     const c = d.readUInt16LE(i);
     if (c >= 32) { s += String.fromCharCode(c); i += 2; }
     else if (CHAR_2B.has(c)) { if (c === 10 || c === 13) s += "\n"; i += 2; }
-    else { i += 16; }
+    /*
+     * 탭(9)도 16바이트를 차지하는 제어문자다. 그냥 건너뛰면 앞뒤 글자가
+     * 붙어 "ASME Sec. I2023 Edition" 처럼 나온다. 자리를 남긴다.
+     */
+    else { if (c === TAB) s += "\t"; i += 16; }
   }
   return s.replace(/\u0000/g, "");
 }
