@@ -488,37 +488,41 @@ function PrintAdminExam({
           </span>
 
 
-          {" "}
-
-
+          {/* 번호는 왼쪽 칸, 영문·한글은 오른쪽 칸 — PrintExam 과 같다 */}
           <span
-            className="question-text-wrap"
+            className="question-stem"
           >
 
+            <span
+              className="question-text-wrap"
+            >
+
+              {
+                questionLines[0] || ""
+              }
+
+            </span>
+
+
             {
-              questionLines[0] || ""
+              questionLines[1] && (
+
+                <span
+                  className="question-ko"
+                >
+
+                  {
+                    questionLines[1]
+                  }
+
+                </span>
+
+              )
             }
 
           </span>
 
         </div>
-
-
-        {
-          questionLines[1] && (
-
-            <div
-              className="question-ko"
-            >
-
-              {
-                questionLines[1]
-              }
-
-            </div>
-
-          )
-        }
 
 
         {/* 보기는 왼쪽, 그림은 오른쪽 — PrintExam 과 같은 배치 */}

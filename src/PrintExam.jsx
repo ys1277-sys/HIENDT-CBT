@@ -533,37 +533,45 @@ function PrintExam({
           </span>
 
 
-          {" "}
-
-
+          {/*
+            영문과 한글을 같은 칸에 넣는다.
+            한글을 번호와 형제로 두면 번호 자리까지 왼쪽으로 밀려
+            영문 줄과 세로가 어긋난다.
+          */}
           <span
-            className="question-text-wrap"
+            className="question-stem"
           >
 
+            <span
+              className="question-text-wrap"
+            >
+
+              {
+                questionLines[0] || ""
+              }
+
+            </span>
+
+
             {
-              questionLines[0] || ""
+              questionLines[1] && (
+
+                <span
+                  className="question-ko"
+                >
+
+                  {
+                    questionLines[1]
+                  }
+
+                </span>
+
+              )
             }
 
           </span>
 
         </div>
-
-
-        {
-          questionLines[1] && (
-
-            <div
-              className="question-ko"
-            >
-
-              {
-                questionLines[1]
-              }
-
-            </div>
-
-          )
-        }
 
 
         {/*
