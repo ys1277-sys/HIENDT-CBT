@@ -8,9 +8,9 @@
     "question": "This procedure describes the ultrasonic methode for .\n본 절차서는 을 위한 초음파 탐상방법을 기술한다.",
     "options": [
       "pressure vessel welding\n압력용기 용접",
-      "Forging",
-      "Fitting",
-      "Casting"
+      "Forging\n단조품",
+      "Fitting\n관 이음쇠",
+      "Casting\n주조품"
     ],
     "answer": 2
   },
@@ -54,8 +54,8 @@
     "options": [
       "side drill hole\n측면 구멍(SDH)",
       "Flat bottom hole\n평저공(FBH)",
-      "Notch",
-      "STB-A3"
+      "Notch\n노치",
+      "STB-A3\nSTB-A3"
     ],
     "answer": 2
   },
@@ -114,7 +114,7 @@
     "options": [
       "IIW Block\nIIW 시험편",
       "RB-4",
-      "STB-A2",
+      "STB-A2\nSTB-A2",
       "10% Notch Block\n10% 노치 시험편"
     ],
     "answer": 0
@@ -128,8 +128,8 @@
     "question": "Ultrasonic indication show on the screen with echo dynamic pattern as follow(weldment thickness:20mm). Indication length is 6mm and echo height is 1/2 DAC. Is this indication acceptable?\n20mm두께의 용접부를 UT 탐상하였더니 다음과 같은 에코 패턴이 나타났다. 지시의 길이는 6mm이고, 에코의 높이는 1/2 DAC선에 위치하였다. 합격인가?",
     "options": [
       "Retest indication\n재검사 지시",
-      "Accept",
-      "Reject",
+      "Accept\n합격",
+      "Reject\n불합격",
       "Non-relevant indication\n비관련 지시"
     ],
     "answer": 2,

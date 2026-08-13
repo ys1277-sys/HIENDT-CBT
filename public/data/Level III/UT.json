@@ -25,8 +25,8 @@
     "question": "During the scan, check the cycle of inspection equipment?\n검사하는 동안 검사장비의 점검 주기는?",
     "question_kr": "검사하는 동안 검사장비의 점검 주기는?",
     "options": [
-      "Every 4 hr",
-      "Every 8 hr",
+      "Every 4 hr\n4시간마다",
+      "Every 8 hr\n8시간마다",
       "Every 1 day\n매일",
       "Every 1 week\n매주"
     ],
@@ -259,9 +259,9 @@
     "question": "____ indications are defined as indications whose leading edge moves a distance equivalent to 1 inch or more of metal depth with movement of the search unit.\n탐촉자 이동 시 금속 깊이 1인치 이상 이동하는 지시는 무엇인가?",
     "question_kr": "탐촉자 이동 시 금속 깊이 1인치 이상 이동하는 지시는 무엇인가?",
     "options": [
-      "Planar",
-      "Traveling",
-      "Cluster",
+      "Planar\n평면형",
+      "Traveling\n이동",
+      "Cluster\n군집",
       "All of the above\n위의 모두"
     ],
     "answer": 1,
@@ -569,7 +569,7 @@
       "Lack of root penetration\n루트 용입부족",
       "Base metal mismatch\n모재 어긋남",
       "Surface breaking planar flaw\n표면개구 평면형 결함",
-      "Porosity"
+      "Porosity\n기공"
     ],
     "answer": 2,
     "explanation": "",
@@ -584,8 +584,8 @@
     "question": "The indication length is 20mm and indication height is 10mm for inspection body thickness of 60mm. Choose the correct answer for 60% indicated sensitivity.\n검사체 두께 60mm, 지시 길이 20mm, 지시 높이 10mm일 때 60% 지시 감도 기준의 올바른 판정은?",
     "question_kr": "검사체 두께 60mm, 지시 길이 20mm, 지시 높이 10mm일 때 60% 지시 감도 기준의 올바른 판정은?",
     "options": [
-      "Accept",
-      "Reject",
+      "Accept\n합격",
+      "Reject\n불합격",
       "Indication is not subject to evaluation\n평가 대상이 아닌 지시",
       "It cannot be evaluated\n평가할 수 없다"
     ],
@@ -729,7 +729,7 @@
       "quantitative measure\n정량적 척도",
       "particle direction\n입자 진동 방향",
       "qualitative measure\n정성적 척도",
-      "amplitude"
+      "amplitude\n진폭"
     ],
     "answer": 1,
     "level": "Level III",
@@ -754,8 +754,8 @@
     "id": 47,
     "question": "When contact testing, an increase in tightness of a shrink fit to a hollow shaft will cause the ratio of the back reflection to the metal-to-metal interface reflection to:\n직접접촉법 시험에서 중공축의 열박음 조임이 증가하면, 저면반사와 금속 간 계면 반사의 비는 어떻게 되는가?",
     "options": [
-      "increase",
-      "decrease",
+      "increase\n증가",
+      "decrease\n감소",
       "remain unchanged\n변하지 않는다",
       "cannot be predicted as the response is material dependent\n응답이 재료에 따라 달라 예측할 수 없다"
     ],
@@ -838,8 +838,8 @@
     "id": 53,
     "question": "Rough surfaces cause the echo amplitude from discontinuities within the part to:\n거친 표면은 시험체 내부 불연속에서 오는 에코 진폭을 어떻게 만드는가?",
     "options": [
-      "increase",
-      "decrease",
+      "increase\n증가",
+      "decrease\n감소",
       "not change\n변하지 않는다",
       "change frequency\n주파수가 바뀐다"
     ],
@@ -880,7 +880,7 @@
     "id": 56,
     "question": "Of the transducer materials listed below, the most efficient receiver is:\n다음 탐촉자 재료 중 수신 효율이 가장 좋은 것은?",
     "options": [
-      "quartz",
+      "quartz\n수정(quartz)",
       "lithium sulfate\n황산리튬",
       "barium titanate\n티탄산바륨",
       "lead meta-niobate\n메타니오브산납"
@@ -908,9 +908,9 @@
     "id": 58,
     "question": "In angle beam shear wave testing, skip distance will _______ as the thickness of the test specimen is increased.\n사각 횡파 탐상에서 시험체의 두께가 증가하면 스킵거리는 어떻게 되는가?",
     "options": [
-      "decrease",
+      "decrease\n감소",
       "not change\n변하지 않는다",
-      "increase",
+      "increase\n증가",
       "decrease by half with double thickness\n두께가 2배가 되면 절반으로 줄어든다"
     ],
     "answer": 3,
@@ -1217,7 +1217,7 @@
     "question": "In a basic plus-echo ultrasonic instrument, the component that coordinates the action and timing of other components is called a:\n기본 펄스-에코 초음파 장비에서 다른 구성품의 동작과 시간을 조율하는 부품을 무엇이라 하는가?",
     "options": [
       "display unit or CRT\n표시부 또는 CRT",
-      "receiver",
+      "receiver\n수신기",
       "marker circuit or range marker circuit\n마커 회로 또는 범위 마커 회로",
       "synchronizer, clock or timer\n동기부, 클록 또는 타이머"
     ],
@@ -1272,9 +1272,9 @@
     "id": 84,
     "question": "ASME Section Ⅲ, Subsection NB, states that when examining plate, the minimum scanning overlap shall be:\nASME Section Ⅲ, Subsection NB에 따르면 판재를 검사할 때 최소 주사 중첩량은?",
     "options": [
-      "½ inch",
-      "50 percent",
-      "10 percent",
+      "½ inch\n1/2인치",
+      "50 percent\n50%",
+      "10 percent\n10%",
       "None required\n필요 없음"
     ],
     "answer": 2,
@@ -1371,7 +1371,7 @@
     "question": "Angle beam search units, used in accordance with AWS D1.1, shall be marked to indicate :\nAWS D1.1에 따라 사용하는 사각 탐촉자에는 무엇을 표시해야 하는가?",
     "options": [
       "Index point\n입사점",
-      "Frequency",
+      "Frequency\n주파수",
       "Reflection angle\n반사각",
       "None of the above\n위의 어느 것도 아님"
     ],

@@ -82,10 +82,10 @@
     "source": "PAUTSpec-II-A-type(2014)",
     "question": "What is the type of phased array scan that uses a series of focal laws to sweep through a range of angles from a fixed aperture?\n고정된 조리개로 각도 범위를 스윕하여 집속 법칙의 시리즈를 사용하는 PA 주사 유형은?",
     "options": [
-      "Sectorial",
-      "Linear",
-      "Arc",
-      "Dynamic depth focusing\n 섹토리얼 선형 아크 동적 깊이 포커싱"
+      "Sectorial\n부채꼴형",
+      "Linear\n선형",
+      "Arc\n원호",
+      "Dynamic depth focusing\n동적깊이초점"
     ],
     "answer": 0
   },
@@ -174,10 +174,10 @@
     "source": "PAUTSpec-II-A-type(2014)",
     "question": "What kind of defect is the unacceptable regardless of length in ASME B 31.1 Code Case 179 and HIE-NDT-PAUT-P11(Rev.2)\nASME B 31.1 Code Case 179 와 HIE-NDT-PAUT-P11(Rev.2)에서 어떤 결함이 길이에 상관없이 불합격인가?",
     "options": [
-      "crack",
+      "crack\n균열",
       "lack of fusion\n융합불량",
       "incomplete penetration\n용입부족",
-      "all of a, b, c"
+      "all of a, b, c\n1, 2, 3번 모두"
     ],
     "answer": 3,
     "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
@@ -401,10 +401,10 @@
     "id": 27,
     "question": "ASME Code Case 2235-9 and Sec. Ⅷ Div. 1 & 2 describe that a qualification block must be used to qualify the PAUT written procedure for weld inspection. As a minimum, the block shall contain:\nASME Code Case 2235-9와 Sec. Ⅷ Div. 1 & 2는 용접부 검사용 PAUT 절차서 인증에 인정시험편을 쓰도록 규정한다. 시험편이 최소한 포함해야 하는 것은?",
     "options": [
-      "시험편 양쪽에서 접근 가능한 경우 OD 또는 ID 표면의 결함 2개와 표면하 결함 1개",
-      "OD 표면의 결함 2개와 ID 표면의 결함 1개",
+      "2 flaws on the OD or ID surface and 1 subsurface flaw if access to both sides of the block\n시험편 양쪽에서 접근 가능한 경우 OD 또는 ID 표면의 결함 2개와 표면하 결함 1개",
+      "2 flaws on the OD surface and 1 flaw on the ID surface\nOD 표면의 결함 2개와 ID 표면의 결함 1개",
       "No qualification block is needed as long as the equipment is correctly calibrated\n장비가 정확히 교정되어 있으면 인정시험편은 필요 없다",
-      "OD 표면의 결함 1개, ID 표면의 결함 1개, 표면하 결함 1개"
+      "1 flaw on the OD surface, 1 flaw on the ID surface and 1 subsurface flaw\nOD 표면의 결함 1개, ID 표면의 결함 1개, 표면하 결함 1개"
     ],
     "answer": 3,
     "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."

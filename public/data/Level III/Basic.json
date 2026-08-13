@@ -397,9 +397,9 @@
     "question": "Which substances contain hydrogen?\n수소를 포함하는 물질은?",
     "question_kr": "수소를 포함하는 물질은?",
     "options": [
-      "Moisture",
+      "Moisture\n수분",
       "Oil and grease\n기름과 그리스",
-      "Rust",
+      "Rust\n녹",
       "All of the above\n위의 모두"
     ],
     "answer": 3
@@ -562,8 +562,8 @@
     "question": "What will occur normally when stressing most engineering materials a small amount beyond their elastic limit?\n대부분의 공학 재료가 탄성한계를 조금 넘는 응력을 받을 때 발생하는 현상은?",
     "question_kr": "대부분의 공학 재료가 탄성한계를 조금 넘는 응력을 받을 때 발생하는 현상은?",
     "options": [
-      "Cracking",
-      "Fatigue",
+      "Cracking\n균열",
+      "Fatigue\n피로",
       "Elastic deformation\n탄성 변형",
       "Plastic flow\n소성 유동"
     ],
@@ -652,7 +652,7 @@
     "question": "What provides the shielding in a submerged arc welding process?\n서브머지드 아크 용접에서 차폐 역할을 하는 것은?",
     "question_kr": "서브머지드 아크 용접에서 차폐 역할을 하는 것은?",
     "options": [
-      "Gases",
+      "Gases\n가스",
       "Granular flux that completely surrounds the arc\n아크를 완전히 덮는 입상 플럭스",
       "Flux-coated welding rod\n피복 아크 용접봉",
       "Shielding gas\n보호 가스"
@@ -682,7 +682,7 @@
     "question": "Very short wavelength electromagnetic radiation produced when electrons travelling at high speeds collide with matter is called:\n고속 전자가 물질과 충돌할 때 발생하는 매우 짧은 파장의 전자기 방사선은?",
     "question_kr": "고속 전자가 물질과 충돌할 때 발생하는 매우 짧은 파장의 전자기 방사선은?",
     "options": [
-      "X-radiation",
+      "X-radiation\nX선",
       "Beta radiation\n베타선",
       "Gamma radiation\n감마선",
       "None of the above\n위의 어느 것도 아님"
@@ -787,8 +787,8 @@
     "question": "Which inspection method is most sensitive for locating laminations?\n라미네이션 검출에 가장 민감한 검사법은?",
     "question_kr": "라미네이션 검출에 가장 민감한 검사법은?",
     "options": [
-      "Radiography",
-      "Ultrasonic",
+      "Radiography\n방사선투과검사",
+      "Ultrasonic\n초음파",
       "Both equally sensitive\n둘 다 감도가 같다",
       "Magnetic particle\n자분탐상"
     ],

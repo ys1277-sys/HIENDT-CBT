@@ -53,9 +53,9 @@
     "question": "This procedure describes the Magnetic particle testing for .\n본 절차서는 을 위한 자분 탐상방법을 기술한다.",
     "options": [
       "pressure vessel welding\n압력용기 용접",
-      "Forging",
-      "Fitting",
-      "Casting"
+      "Forging\n단조품",
+      "Fitting\n관 이음쇠",
+      "Casting\n주조품"
     ],
     "answer": 0
   },
@@ -112,9 +112,9 @@
     "source": "MTS-II(2020)(A)",
     "question": "This procedure describes the Magnetic particle testing methode of .\n본 절차서는 을 위한 자분 탐상방법을 기술한다.",
     "options": [
-      "AC Yoke",
-      "Prod",
-      "Coil",
+      "AC Yoke\nAC 요크",
+      "Prod\n프로드",
+      "Coil\n코일",
       "Head shot\n축통전법(head shot)"
     ],
     "answer": 0
@@ -245,7 +245,7 @@
     "options": [
       "AC",
       "DC",
-      "HWDC",
+      "HWDC\n반파 정류 직류(HWDC)",
       "All of current\n위의 전류 모두"
     ],
     "answer": 0
@@ -258,9 +258,9 @@
     "source": "MTS-II(2020)(B)",
     "question": "This procedure describes the Magnetic particle testing methode of .\n본 절차서는 을 위한 자분 탐상방법을 기술한다.",
     "options": [
-      "AC Yoke",
-      "Prod",
-      "Coil",
+      "AC Yoke\nAC 요크",
+      "Prod\n프로드",
+      "Coil\n코일",
       "Head shot\n축통전법(head shot)"
     ],
     "answer": 0
@@ -313,7 +313,7 @@
     "source": "보류분 객관식화",
     "question": "What kind of current can be used for prod technique?\n프로드법에서는 어떤 종류의 전류들이 사용되는가?",
     "options": [
-      "AC, DC / HWDC",
+      "AC, DC / HWDC\n교류, 직류 / 반파정류직류",
       "AC only\nAC 만",
       "DC only\nDC 만",
       "HWDC only\nHWDC 만"

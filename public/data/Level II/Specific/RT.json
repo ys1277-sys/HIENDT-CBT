@@ -81,8 +81,8 @@
     "question": "What is the part of the γ-ray machine which is used to move the radiographic isotope to the objects?\n(방사성 동위원소를 피사체까지 이동시키는데 사용되어지는 γ-선 장치의 부품은 무엇인가?",
     "options": [
       "Front guiding\n전방 가이드 튜브",
-      "Connector",
-      "collimator",
+      "Connector\n연결부",
+      "collimator\n콜리메이터",
       "Pig tail\n피그테일"
     ],
     "answer": 0
@@ -259,7 +259,7 @@
     "question": "What is (Ⅰ)?\n(Ⅰ)은 무엇인가?",
     "options": [
       "Front guiding\n전방 가이드 튜브",
-      "Connector",
+      "Connector\n연결부",
       "Remote controller\n원격 조작기",
       "Pig tail\n피그테일"
     ],
@@ -274,10 +274,10 @@
     "source": "RTS-II(2020)(A)",
     "question": "What is checked of the pigtail female?\n피그테일 연결부위는 무엇으로 점검되어지나?",
     "options": [
-      "NO-GO gauge",
-      "Connector",
+      "NO-GO gauge\nNO-GO 게이지",
+      "Connector\n연결부",
       "Pig tail\n피그테일",
-      "Capsule"
+      "Capsule\n캡슐"
     ],
     "answer": 0
   },
@@ -345,7 +345,7 @@
     "question": "What is (Ⅱ)?\n(Ⅱ)은 무엇인가?",
     "options": [
       "Front guiding\n전방 가이드 튜브",
-      "Connector",
+      "Connector\n연결부",
       "Remote controller\n원격 조작기",
       "Pig tail\n피그테일"
     ],

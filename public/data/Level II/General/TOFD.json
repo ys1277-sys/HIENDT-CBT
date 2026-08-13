@@ -142,10 +142,10 @@
     "source": "TOFD General - A 20200317",
     "question": "What aspect of instrument linearity is carried out on ultrasonic systems used for TOFD?\nTOFD에서 사용되는 초음파 시스템에서 직선성은 장비의 어떤 면에서 나타나는가?",
     "options": [
-      "Amplitude control\n진폭 조정",
-      "Screen height\n 증폭기 화면 높이",
-      "Timebase",
-      "All of the above\n 시간축 상기 모두"
+      "Amplitude control\n증폭기",
+      "Screen height\n화면 높이",
+      "Timebase\n시간축",
+      "All of the above\n상기 모두"
     ],
     "answer": 3
   },
@@ -187,10 +187,10 @@
     "source": "TOFD General - A 20200317",
     "question": "Probes used in TOFD applications are used as a “pair” and should have the same TOFD 적용에서 사용되는 프로브는 ‘쌍’으로 사용되며 무엇이 같아야만 하는가?",
     "options": [
-      "Frequency",
-      "Dimensions\n 주파수 치수",
-      "Damping and ring-time\n댐핑과 링타임",
-      "All of the above should be matched\n 댐핑과 라이징 타임 상기 모든 것이 맞아야만 한다."
+      "Frequency\n주파수",
+      "Dimensions\n치수",
+      "Damping and ring-time\n댐핑과 라이징 타임",
+      "All of the above should be matched\n상기 모든 것이 맞아야만 한다."
     ],
     "answer": 3
   },

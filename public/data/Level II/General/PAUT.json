@@ -67,10 +67,10 @@
     "source": "PAUT General - A 20200317",
     "question": "What is the term for the distance from the start of the first to the end of the last active element of a linear array?\n선형 배열의 마지막 활성 진동자의 맨 처음부터 끝까지의 거리를 무엇이라 하는가?",
     "options": [
-      "focal depth\n초점 깊이",
-      "aperture \n 집속 깊이 구경",
-      "pitch",
-      "x-offset\n 피치 엑스-오프셋"
+      "focal depth\n집속 깊이",
+      "aperture\n구경",
+      "pitch\n피치",
+      "x-offset\n엑스-오프셋"
     ],
     "answer": 1
   },
@@ -444,8 +444,8 @@
     "options": [
       "1",
       "16",
-      "One for each pulser / receiver in the unit\n 장치의 각 펄스 / 수신기에 대해 1개씩",
-      "One for each element that can be addressed by the system\n 시스템에 의해 설명할 수 있는 각 요소에 대해 1개씩"
+      "One for each pulser / receiver in the unit\n장치의 각 펄스 / 수신기에 대해 1개씩",
+      "One for each element that can be addressed by the system\n시스템에 의해 설명할 수 있는 각 요소에 대해 1개씩"
     ],
     "answer": 2
   },
@@ -472,9 +472,9 @@
     "source": "PAUT General - A 20200317",
     "question": "What is the type of phased array scan that uses a series of focal laws multiplexed to duplicate a raster scan (similar to manual scanning)?\n래스터 스캔을 반복하는 일련의 초점 법칙 멀티플렉스를 사용하는 PA 유형은 무엇인가?",
     "options": [
-      "Sectorial",
+      "Sectorial\n부채꼴형(섹토리얼)",
       "Linear or electronic\n 부채꼴 선형 또는 전기적",
-      "Azimuthal",
+      "Azimuthal\n방위각",
       "Dynamic depth focusing\n 방위각 활성 깊이 초점"
     ],
     "answer": 1

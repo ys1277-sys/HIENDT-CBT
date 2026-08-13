@@ -144,8 +144,8 @@
     "options": [
       "natural isotopes\n천연 동위원소",
       "Iridium-192 or cobalt-60 (Ir 192 or Co 60)\n이리듐-192 또는 코발트-60",
-      "Radium (Ra)",
-      "Thulium-170 (Tm 170)"
+      "Radium (Ra)\n라듐(Ra)",
+      "Thulium-170 (Tm 170)\n툴륨-170(Tm 170)"
     ],
     "answer": 1
   },
@@ -322,7 +322,7 @@
     "source": "RTG-II(A)",
     "question": "Of the following, the source providing the most penetrating radiation is:\n다음 중 투과력이 가장 큰 선원은?",
     "options": [
-      "Cobalt-60 (Co 60)",
+      "Cobalt-60 (Co 60)\n코발트-60(Co 60)",
       "220 KVP X-ray tube\n220KVP X선 발생장치",
       "15 Mev X-ray betatron\n15 Mev X선 베타트론",
       "electrons from iridium-192\nIr 192부터 나오는 전자"

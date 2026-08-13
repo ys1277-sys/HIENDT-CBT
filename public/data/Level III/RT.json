@@ -416,7 +416,7 @@
     "question": "On a radiograph you see dark linear indications located at the transition between base material and weld cap. Which type of defect could this be?\n투과사진에서 모재와 용접 캡의 경계부에 검은 선형 지시가 보인다. 어떤 결함인가?",
     "question_kr": "투과사진에서 모재와 용접 캡의 경계부에 검은 선형 지시가 보인다. 어떤 결함인가?",
     "options": [
-      "Undercut",
+      "Undercut\n언더컷",
       "Lack of inter-run fusion\n층간 융합불량",
       "Shrinkage groove\n수축 홈",
       "Incomplete root penetration\n루트 용입부족"
@@ -528,8 +528,8 @@
     "question": "The depth of a discontinuity may be estimated by making two exposures on a single film from two different positions of the x-ray tube. The depth of the discontinuity is computed from the shift in the image of the discontinuity with respect to the tube shift and source-to-film distance. The method is referred to as:\nX선관을 두 위치에 두고 한 장의 필름에 두 번 노출시켜 불연속의 깊이를 추정할 수 있다. 관의 이동량과 선원-필름 거리에 대한 불연속 상의 이동량으로 깊이를 계산한다. 이 방법을 무엇이라 하는가?",
     "options": [
       "stereo-radiography\n입체 방사선촬영",
-      "zeroradiography",
-      "fluoroscopy",
+      "zeroradiography\n제로 라디오그래피",
+      "fluoroscopy\n형광투시",
       "the parallax method\n시차법",
       "none of the above\n위의 어느 것도 아님"
     ],
@@ -563,11 +563,11 @@
     "question": "Radiation is absorbed according to which of the following nuclear concepts.\n방사선은 다음 중 어떤 원자핵 개념에 따라 흡수되는가?",
     "options": [
       "Compton effect\n컴프턴 효과",
-      "Bremsstrahlung",
+      "Bremsstrahlung\n제동복사",
       "Photoelectric effect\n광전 효과",
       "Pair production\n쌍생성",
-      "disintegration",
-      "K-capture"
+      "disintegration\n붕괴",
+      "K-capture\nK 포획"
     ],
     "answer": [
       0,
@@ -738,7 +738,7 @@
       "radiographic contrast\n방사선사진 대비",
       "radiographic definition\n방사선사진 명료도",
       "radiographic resolution\n방사선사진 분해능",
-      "latitude"
+      "latitude\n관용도"
     ],
     "answer": 0,
     "level": "Level III",
@@ -777,8 +777,8 @@
     "id": 48,
     "question": "The intensity of x-or gamma radiation is measured in units called:\nX선이나 감마선의 강도는 어떤 단위로 측정하는가?",
     "options": [
-      "roentgens",
-      "ergs",
+      "roentgens\n뢴트겐",
+      "ergs\n에르그",
       "H & D units\nH & D 단위",
       "roentgens per unit of time\n단위시간당 뢴트겐"
     ],
@@ -833,8 +833,8 @@
     "id": 52,
     "question": "If an exposure time of 60 seconds was necessary with a 4\"SFD, what exposure time is necessary if the SFD is changed to 5\"?\nSFD 4인치에서 노출시간 60초가 필요했다면, SFD를 5인치로 바꿨을 때 필요한 노출시간은?",
     "options": [
-      "38 sec",
-      "48 sec",
+      "38 sec\n38초",
+      "48 sec\n48초",
       "1 min 15 sec\n1분 15초",
       "1 min 34 sec\n1분 34초"
     ],
@@ -895,8 +895,8 @@
     "question": "The penetrating ability of an x-ray beam is governed by:\nX선 빔의 투과력을 좌우하는 것은?",
     "options": [
       "kilovoltage or wavelength\n관전압 또는 파장",
-      "time",
-      "milliampere",
+      "time\n시간",
+      "milliampere\n밀리암페어",
       "source-to-film distance\n선원-필름 거리"
     ],
     "answer": 0,
@@ -956,7 +956,7 @@
     "options": [
       "a beryllium window\n베릴륨 창",
       "a means of accelerating electrons\n전자를 가속하는 수단",
-      "a target",
+      "a target\n표적",
       "a source of free electrons\n자유전자의 공급원",
       "a copper anode\n구리 양극"
     ],
@@ -1057,8 +1057,8 @@
     "id": 67,
     "question": "The energy of gamma rays is expressed by which of the following:\n감마선의 에너지는 무엇으로 표시하는가?",
     "options": [
-      "curie",
-      "roentgen",
+      "curie\n퀴리",
+      "roentgen\n뢴트겐",
       "half-life\n반감기",
       "kilo-electron volts (KV) or millions or electron volts (mev)\n킬로전자볼트(keV) 또는 메가전자볼트(MeV)"
     ],
@@ -1085,8 +1085,8 @@
     "id": 69,
     "question": "When viewing a radiograph, an image of the back of the cassette superimposed on the image of the specimen is noted. This is most likely due to:\n방사선사진을 판독할 때 시험체 상에 카세트 뒷면의 상이 겹쳐 보였다. 가장 유력한 원인은?",
     "options": [
-      "undercut",
-      "overexposure",
+      "undercut\n언더컷",
+      "overexposure\n과노출",
       "x-ray intensity too high\nX선 강도가 너무 높음",
       "back scatter\n후방산란"
     ],
@@ -1169,8 +1169,8 @@
     "id": 75,
     "question": "A procedure requires a quality level of 4-4T and the use of penetrameters based on ASTM E142 design. What shape of penetrameter would be used on a 41/2inch thick specimen?\n절차서가 4-4T 품질수준과 ASTM E142 설계 투과도계 사용을 요구한다. 두께 4½인치 시험체에는 어떤 형상의 투과도계를 사용해야 하는가?",
     "options": [
-      "Circular",
-      "Rectangular",
+      "Circular\n축통전(원형 자화)",
+      "Rectangular\n직사각형",
       "Wire type\n선형(wire type)",
       "Step type\n계단형(step type)"
     ],

@@ -8,9 +8,9 @@
     "question": "This procedure describes the Liquid penetrant testing for .\n본 절차서는 을 위한 침투 탐상방법을 기술한다.",
     "options": [
       "pressure vessel welding\n압력용기 용접",
-      "Forging",
+      "Forging\n단조품",
       "Tubular Product\n관 제품",
-      "Casting"
+      "Casting\n주조품"
     ],
     "answer": 2
   },
@@ -153,9 +153,9 @@
     "question": "A minimum period of time shall be established to ensure that the cleaning solution has evaporated prior to application of the penetrant. What is the minimum time for drying time of solvent cleaning?\n최소 건조시간은 세척제가 침투제의 적용 전 세척제가 증발되었다는 것을 확인 가능한 시간으로 정해야 하는다. 솔벤트 세척의 건조시간은 최소 얼마인가?",
     "options": [
       "Not required\n요구되지 않음",
-      "10 sec",
-      "30 sec",
-      "60 sec"
+      "10 sec\n10초",
+      "30 sec\n30초",
+      "60 sec\n60초"
     ],
     "answer": 3
   },

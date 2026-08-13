@@ -148,9 +148,9 @@
     "question": "The crack whose major surface dimension is ( ) or less is irrelevant for NF.\n주요 표면 치수가 얼마 이하인 크랙은 비관련 지시인가?",
     "question_kr": "주요 표면 치수가 얼마 이하인 크랙은 비관련 지시인가?",
     "options": [
-      "1/32 inch",
-      "1/8 inch",
-      "1/16 inch",
+      "1/32 inch\n1/32인치",
+      "1/8 inch\n1/8인치",
+      "1/16 inch\n1/16인치",
       "None of above\n위의 어느 것도 아님"
     ],
     "answer": 3,
@@ -199,9 +199,9 @@
     "question": "A standard commercially available weld fillet gage may be used to verify all the following features except:\n상용 필렛 용접 게이지를 사용하여 확인할 수 없는 것은?",
     "question_kr": "상용 필렛 용접 게이지를 사용하여 확인할 수 없는 것은?",
     "options": [
-      "Concavity",
+      "Concavity\n오목함",
       "Leg size\n각장(leg size)",
-      "Convexity",
+      "Convexity\n볼록함",
       "Fillet weld width\n필릿 용접 폭"
     ],
     "answer": 3,
@@ -320,8 +320,8 @@
     "options": [
       "Metal embrittlement\n금속 취화",
       "Repeated loading\n반복 하중",
-      "Creep",
-      "Overheating"
+      "Creep\n크리프",
+      "Overheating\n과열"
     ],
     "answer": 1,
     "explanation": ""
@@ -354,7 +354,7 @@
     "options": [
       "one inch\n1인치",
       "one wall thickness\n두께 1배",
-      "1/2 inch",
+      "1/2 inch\n1/2인치",
       "one weld bead width\n용접 비드 폭 1배"
     ],
     "answer": 2,
@@ -369,10 +369,10 @@
     "question": "Which of the following surface texture features may be felt with the fingernail?\n다음 중 손톱으로 느낄 수 있는 표면 질감 특성은?",
     "question_kr": "다음 중 손톱으로 느낄 수 있는 표면 질감 특성은?",
     "options": [
-      "Roughness",
+      "Roughness\n거칠기",
       "Surface flaws\n표면 결함",
-      "Waviness",
-      "Profile"
+      "Waviness\n굴곡",
+      "Profile\n형상"
     ],
     "answer": 0,
     "explanation": ""
@@ -403,10 +403,10 @@
     "question": "The defect pipe is found in which of the following?\nPipe 결함은 어디에서 발생하는가?",
     "question_kr": "Pipe 결함은 어디에서 발생하는가?",
     "options": [
-      "A forging",
+      "A forging\n단조품",
       "A pipe weld\n배관 용접부",
       "The ingot\n잉곳",
-      "A casting"
+      "A casting\n주조품"
     ],
     "answer": 2,
     "explanation": ""
@@ -420,7 +420,7 @@
     "question": "The critical service-generated defects are:\n사용 중 발생하는 주요 결함은?",
     "question_kr": "사용 중 발생하는 주요 결함은?",
     "options": [
-      "Undercuts",
+      "Undercuts\n언더컷",
       "Fatigue cracks\n피로 균열",
       "Inadequate penetration\n용입부족",
       "Forging laps\n단조 겹침(랩)"

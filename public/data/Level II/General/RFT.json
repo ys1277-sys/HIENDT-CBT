@@ -543,9 +543,9 @@
       "category": "General",
       "question": "What is the signal of the support plate in the following picture?\n다음 그림에서 support plate의 신호는?",
       "options": [
-        "sketch no. a",
-        "sketch no. b",
-        "sketch no. c",
+        "sketch no. a\n스케치 a",
+        "sketch no. b\n스케치 b",
+        "sketch no. c\n스케치 c",
         "Both sketch a and sketch b\n스케치 a와 b 모두"
       ],
       "answer": 2,

@@ -52,10 +52,10 @@
     "source": "TOFDSpec-II-A-type(2014)",
     "question": "A shift of the backwall arrival time to an earlier arrival would be indicative of .\n이른 도착으로 backwall 도착 시간의 이동은 어떤 결함인가?",
     "options": [
-      "Root erosion\n루트 침식",
-      "IP",
-      "Concave root\n오목한 루트",
-      "Any of the above\n위의 어느 것이든"
+      "Root erosion\n루트부식",
+      "IP\n용입불량",
+      "Concave root\n오목루트",
+      "Any of the above\n상기 모두"
     ],
     "answer": 3
   },
@@ -172,10 +172,10 @@
     "source": "TOFDSpec-II-A-type(2014)",
     "question": "What aspect of instrument linearity is carried out on ultrasonic systems used for TOFD?\nTOFD에서 사용되는 초음파 시스템에서 직선성은 장비의 어떤 면에서 나타나는가?",
     "options": [
-      "Amplitude control\n진폭 조정",
-      "Screen height\n 증폭기 화면 높이",
-      "Timebase",
-      "All of the above\n 시간축 상기 모두"
+      "Amplitude control\n증폭기",
+      "Screen height\n화면 높이",
+      "Timebase\n시간축",
+      "All of the above\n상기 모두"
     ],
     "answer": 3
   },
@@ -217,10 +217,10 @@
     "source": "TOFDSpec-II-A-type(2014)",
     "question": "When a Lateral wave is suddenly shifted later in time and the backwall is unperturbed. What is likely origin of the signal change?\nlateral wave가 시간축에서 갑자기 위치 이동되면 backwall은 교란된다. 신호 변화의 원인은 무엇인가?",
     "options": [
-      "IP",
-      "Misalignment",
-      "Surface breaking flaw\n표면개구 결함",
-      "Porosity"
+      "IP\n용입불량",
+      "Misalignment\n정렬불량",
+      "Surface breaking flaw\n표면에 깨진결함",
+      "Porosity\n기공"
     ],
     "answer": 2
   },
@@ -432,10 +432,10 @@
     "id": 31,
     "question": "ASME Code Case 2235-9 describes that a qualification block must be used to qualify the TOFD written procedure for weld inspection. As a minimum, the block shall contain:\nASME Code Case 2235-9는 용접부 검사용 TOFD 절차서 인증에 인정시험편을 쓰도록 규정한다. 시험편이 최소한 포함해야 하는 것은?",
     "options": [
-      "시험편 양쪽에서 접근 가능한 경우 OD 또는 ID 표면의 결함 2개와 표면하 결함 1개",
-      "OD 표면의 결함 2개와 ID 표면의 결함 1개",
+      "2 flaws on the OD or ID surface and 1 subsurface flaw if access to both sides of the block\n시험편 양쪽에서 접근 가능한 경우 OD 또는 ID 표면의 결함 2개와 표면하 결함 1개",
+      "2 flaws on the OD surface and 1 flaw on the ID surface\nOD 표면의 결함 2개와 ID 표면의 결함 1개",
       "No qualification block is needed as long as the equipment is correctly calibrated\n장비가 정확히 교정되어 있으면 인정시험편은 필요 없다",
-      "OD 표면의 결함 1개, ID 표면의 결함 1개, 표면하 결함 1개"
+      "1 flaw on the OD surface, 1 flaw on the ID surface and 1 subsurface flaw\nOD 표면의 결함 1개, ID 표면의 결함 1개, 표면하 결함 1개"
     ],
     "answer": 3,
     "groupNote": "Answer the following questions using the TOFD procedure HIE-NDT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-9/10.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-9/10을 반영한 TOFD 절차서(HIE-NDT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."

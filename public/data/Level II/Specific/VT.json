@@ -217,8 +217,8 @@
     "source": "VTS-II(2020)(A)",
     "question": "Chevrons may occur in :\n갈매기모양의 결함이 발생될 수 있는 재료는?",
     "options": [
-      "plate",
-      "weldments",
+      "plate\n판재",
+      "weldments\n용접물",
       "bar stock\n봉재",
       "valve castings\n밸브 주조품"
     ],
@@ -233,8 +233,8 @@
     "question": "is usually at the initiation or completion of welds.\n용접의 시작 또는 끝에서 생기는 결함은",
     "options": [
       "crater cracks\n크레이터 균열",
-      "blowholes",
-      "crack",
+      "blowholes\n블로홀",
+      "crack\n균열",
       "incomplete weld\n용접 미완성"
     ],
     "answer": 0

@@ -341,7 +341,7 @@
     "source": "MTG-II(A)",
     "question": "A large forging is repaired by welding. Mamgetic particle inspection of the repair weld reveals an irregular indication running parallel with the weld passes. It is located in the center of the bead and stars and ends by turning off slightly from the axial direction. This indication is indicative of:\n큰 단조품은 용접으로 수정한다. 이 단조품에서 자분탐상검사시 용접 패스와 평행하게 불규칙적 지시가 나타나며, 비드 중앙에 나타나고, 별 모양이고, 축 방향으로부터 가늘게 사라지는 끝단을 갖는 결함은?",
     "options": [
-      "inclusions",
+      "inclusions\n개재물",
       "crater cracks\n크레이터 균열",
       "weld shrinkage cracks\n용접 수축 균열",
       "surface checking\n표면 잔균열(체킹)"
@@ -605,8 +605,7 @@
       "field strength value\n자장의 세기",
       "available equipment\n이용 장비",
       "configuration of the part\n제품의 구성",
-      "all of the above(위 모두)",
-      "P L.F\nSLAG\nC\nB\nB,C,E\nC\nC"
+      "all of the above(위 모두)"
     ],
     "answer": 3
   },

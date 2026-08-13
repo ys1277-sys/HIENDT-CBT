@@ -70,8 +70,8 @@
     "source": "VTG-llA(개정판)-2016.10.18",
     "question": "Which formular is correct to calculate the focal length of the lens?\n다음 계산식중 렌즈의 초점길이를 계산하는데 올바른 것은?",
     "options": [
-      "1/a - 1/b = 1/f where a : distance from object to lens(사물-렌즈 거리)\n b : distance from lens to image(렌즈-상 거리)",
-      "1/a + 1/b = 1/f f : focal length of the lens\n렌즈의 초점길이",
+      "1/a - 1/b = 1/f            where a : distance from object to lens(사물-렌즈 거리)\nb : distance from lens to image(렌즈-상 거리)",
+      "1/a + 1/b = 1/f                  f : focal length of the lens(렌즈의 초점길이)",
       "1/a - 1/b = 1/f",
       "1/a + 1/b = - 1/f"
     ],
@@ -117,7 +117,7 @@
     "options": [
       "alignment of mating surfaces\n맞대는 면의 정렬 상태",
       "surface condition of part\n부품의 표면 상태",
-      "shape",
+      "shape\n형상",
       "all of the above\n위의 모두"
     ],
     "answer": 3
@@ -130,9 +130,9 @@
     "source": "VTG-llA(개정판)-2016.10.18",
     "question": "Which of the following are important considerations in the performance of any visual examination?\nVT에서 중요 요인은?",
     "options": [
-      "lighting",
+      "lighting\n조명",
       "angles of vision\n시야각",
-      "accessibility",
+      "accessibility\n접근성",
       "all of the above\n위의 모두"
     ],
     "answer": 3
@@ -371,8 +371,8 @@
     "source": "VTG-llA(개정판)-2016.10.18",
     "question": "What type of discontinuity is this?\n다음 불연속의 명칭은?",
     "options": [
-      "Undercut.",
-      "Underfill.",
+      "Undercut.\n언더컷",
+      "Underfill.\n언더필",
       "Inadequate joint penetration.\n용입부족"
     ],
     "answer": 1,
@@ -388,7 +388,7 @@
     "options": [
       "An underbead crack.\n비드 밑 균열",
       "An crater crack.\n크레이터 균열",
-      "Porosity."
+      "Porosity.\n기공"
     ],
     "answer": 1,
     "image": "VT_GENERAL_Q26.png"
@@ -403,7 +403,7 @@
     "options": [
       "A plate lamination.\n판재 라미네이션",
       "An underbead crack.\n비드 밑 균열",
-      "An undercut."
+      "An undercut.\n언더컷"
     ],
     "answer": 0,
     "image": "VT_GENERAL_Q27.png"
@@ -454,9 +454,9 @@
     "source": "VTG-llA(개정판)-2016.10.18",
     "question": "Which of the following discontinuities might appear on the surface of a casting?\n주조품에서 나타나는 불연속은?",
     "options": [
-      "lap",
-      "stringer",
-      "lamination",
+      "lap\n겹침(랩)",
+      "stringer\n스트링거",
+      "lamination\n라미네이션",
       "cold shut\n탕경(cold shut)"
     ],
     "answer": 3

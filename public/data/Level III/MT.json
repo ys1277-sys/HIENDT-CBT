@@ -230,8 +230,8 @@
     "question_kr": "봉재 표면에 가늘고 선명하며 길이 방향으로 나타나는 지시는 어떤 불연속인가?",
     "options": [
       "Fatigue crack\n피로 균열",
-      "Burst",
-      "Stringer",
+      "Burst\n버스트",
+      "Stringer\n스트링거",
       "Heat-treat crack\n열처리 균열"
     ],
     "answer": 2,
@@ -248,7 +248,7 @@
     "options": [
       "Lack of fusion\n융합불량",
       "Crater crack\n크레이터 균열",
-      "Stringer",
+      "Stringer\n스트링거",
       "Lack of root penetration\n루트 용입부족"
     ],
     "answer": 3,
@@ -263,7 +263,7 @@
     "question": "Multiple indications of a surface-type were detected transversely across a weld. Which were detected?\n용접부를 가로지르는 다중 표면 지시가 검출되었다. 해당 결함은?",
     "question_kr": "용접부를 가로지르는 다중 표면 지시가 검출되었다. 해당 결함은?",
     "options": [
-      "Flakes",
+      "Flakes\n플레이크",
       "Heat checks\n열 잔균열",
       "Fatigue cracks\n피로 균열",
       "Linear porosity\n선상 기공"
@@ -331,7 +331,7 @@
     "question": "The best application for permanent magnet yokes is for the inspection of:\n영구자석 요크의 가장 적합한 적용 대상은?",
     "question_kr": "영구자석 요크의 가장 적합한 적용 대상은?",
     "options": [
-      "Welds",
+      "Welds\n용접부",
       "Large castings on the foundry floor\n주물공장 바닥의 대형 주조품",
       "Small localized areas\n작고 국부적인 부위",
       "All of the above\n위의 모두"
@@ -350,7 +350,7 @@
     "options": [
       "Minimum of 1076 lux\n최소 1,076럭스",
       "Minimum of 1000 μW/cm²\n최소 1,000 μW/cm²",
-      "20 lux",
+      "20 lux\n20럭스",
       "2.4 kAm-1 to 4.8 kAm-1\n2.4 kA/m ~ 4.8 kA/m"
     ],
     "answer": 1,
@@ -524,9 +524,9 @@
     "id": 33,
     "question": "Gas, misruns, cold laps and sand inclusions are examples of defects resulting from which of the following processes?\n기공, 탕경(misrun), 콜드랩, 모래 개재물은 어떤 공정에서 생기는 결함인가?",
     "options": [
-      "Forging",
-      "Grinding",
-      "Castings",
+      "Forging\n단조품",
+      "Grinding\n연삭",
+      "Castings\n주조품",
       "Heat treatment\n열처리"
     ],
     "answer": 2,
@@ -622,7 +622,7 @@
     "id": 40,
     "question": "Methods utilized to preserve powder patterns include:\n자분 모양을 보존하는 방법에 해당하는 것은?",
     "options": [
-      "photographs",
+      "photographs\n사진",
       "transparent tape\n투명 테이프",
       "transparent lacquer\n투명 래커",
       "all of the above\n위의 모두"
@@ -945,8 +945,8 @@
     "question": "A gear with case-hardened, ground teeth and hub ends is MT tested. Individual indications are detected on five of the teeth and on the one end surface of the hub. Although the indications are very sharp and distinct, they do not break over the edges of the part. What is the probable identity of the indication?\n치면과 허브 끝을 침탄경화 후 연삭한 기어를 자분탐상했다. 다섯 개의 치면과 허브 한쪽 끝면에서 개별 지시가 검출되었다. 지시는 매우 날카롭고 뚜렷하지만 부품 모서리를 넘어가지는 않는다. 이 지시의 정체로 가장 유력한 것은?",
     "options": [
       "Grinding cracks\n연삭 균열",
-      "Inclusions",
-      "Porosity",
+      "Inclusions\n개재물",
+      "Porosity\n기공",
       "Quench cracks\n담금질 균열"
     ],
     "answer": 0,
@@ -974,7 +974,7 @@
     "options": [
       "broad, fuzzy indications directly aligned with the part's internal contours\n부품 내부 윤곽을 그대로 따라가는 넓고 흐릿한 지시",
       "sharp, well defined indications directly aligned with the part's internal \n contours\n부품 내부 윤곽을 그대로 따라가는 날카롭고 뚜렷한 지시",
-      "no indications",
+      "no indications\n지시 없음",
       "Both 1 and 2 above\n1번과 2번 모두"
     ],
     "answer": 0,
@@ -987,9 +987,9 @@
     "question": "The term used to refer to the total opposition to flow of current represented by the combined effect of resistance, inductance and capacitance of a circuit is:\n회로의 저항, 인덕턴스, 커패시턴스가 함께 작용해 전류 흐름을 방해하는 총합을 무엇이라 하는가?",
     "options": [
       "inductive reactance\n유도 리액턴스",
-      "impedance",
-      "reluctance",
-      "decay"
+      "impedance\n임피던스",
+      "reluctance\n자기저항",
+      "decay\n붕괴"
     ],
     "answer": 1,
     "level": "Level III",
@@ -1000,7 +1000,7 @@
     "id": 67,
     "question": "A desirable property of magnetic particles, used for the inspection medium for either the dry or wet method, is that they:\n건식법이든 습식법이든 검사매체로 쓰는 자분이 갖춰야 할 바람직한 성질은?",
     "options": [
-      "be nontoxic",
+      "be nontoxic\n무독성일 것",
       "possess high permeability\n높은 투자율을 가진다",
       "possess low retentivity\n낮은 보자력을 가진다",
       "have all of the above characteristics\n위의 성질을 모두 가진다"
@@ -1028,9 +1028,9 @@
     "id": 69,
     "question": "The accumulation of particles at a site on the part surface, collected at and held to the site by the magnetic leakage field, is called:\n부품 표면의 어느 지점에 자분이 모여 누설자장에 붙들려 있는 것을 무엇이라 하는가?",
     "options": [
-      "a discontinuity",
-      "a defect",
-      "an indication",
+      "a discontinuity\n불연속",
+      "a defect\n결함",
+      "an indication\n지시",
       "magnetic witing\n자기 라이팅(magnetic writing)"
     ],
     "answer": 2,
@@ -1099,9 +1099,9 @@
     "question": "The most common failure mechanism associated with sharp fillets, notches, undercuts and seams is:\n날카로운 필릿, 노치, 언더컷, 심(seam)과 관련된 가장 흔한 파괴 기구는?",
     "options": [
       "fatigue cracking\n피로 균열",
-      "crystallization",
-      "shrinkage",
-      "decarburization"
+      "crystallization\n결정화",
+      "shrinkage\n수축",
+      "decarburization\n탈탄"
     ],
     "answer": 0,
     "level": "Level III",
@@ -1198,8 +1198,8 @@
     "options": [
       "Water stream\n물줄기",
       "Light air stream\n약한 공기 분사",
-      "Grinding",
-      "Shaking"
+      "Grinding\n연삭",
+      "Shaking\n흔들기"
     ],
     "answer": 1,
     "level": "Level III",
@@ -1241,7 +1241,7 @@
       "open to the surface of the part\n부품 표면으로 열려 있는",
       "close to the surface of the part\n부품 표면에 가까운",
       "embedded in the materials.\n재료 안에 묻혀 있는",
-      "pores."
+      "pores.\n기공"
     ],
     "answer": 0,
     "level": "Level III",
@@ -1336,10 +1336,10 @@
     "id": 91,
     "question": "Any indication which is believed to be nonrelevant shall be regarded as ____ unless it is shown by reexamination by the same method or by the use of other nondestructive methods.\n비관련 지시로 판단되는 지시라도, 같은 방법으로 재검사하거나 다른 비파괴검사법으로 확인하기 전까지는 무엇으로 간주해야 하는가?",
     "options": [
-      "an imperfection",
-      "a defect",
+      "an imperfection\n결함",
+      "a defect\n결함",
       "a irrelevant indication\n비관련 지시",
-      "a flaw"
+      "a flaw\n결함"
     ],
     "answer": 0,
     "level": "Level III",
@@ -1379,10 +1379,10 @@
     "id": 94,
     "question": "SE-709 recommends that the concentration of wet fluorescent particles (or paste) be:\nSE-709은 습식 형광 자분(또는 페이스트)의 농도를 얼마로 권장하는가?",
     "options": [
-      "1 to 4 ml per 100 ml",
-      "1.2 to 2.4 ml per 100 ml",
-      "2 to 3 ml per 100 ml",
-      "0.1 to 0.4 ml per 100 ml",
+      "1 to 4 ml per 100 ml\n100mL당 1~4mL",
+      "1.2 to 2.4 ml per 100 ml\n100mL당 1.2~2.4mL",
+      "2 to 3 ml per 100 ml\n100mL당 2~3mL",
+      "0.1 to 0.4 ml per 100 ml\n100mL당 0.1~0.4mL",
       "none of the above\n위의 어느 것도 아님"
     ],
     "answer": 3,
@@ -1394,10 +1394,10 @@
     "id": 95,
     "question": "For the continuous method of examination, SE-709 recommends that the magnetizing current be on for a minimum of:\n연속법 검사에서 SE-709은 자화전류를 최소 얼마 동안 흘리도록 권장하는가?",
     "options": [
-      "1/5 second",
-      "1/2 second",
-      "1 second",
-      "1 minute",
+      "1/5 second\n0.2초",
+      "1/2 second\n0.5초",
+      "1 second\n1초",
+      "1 minute\n1분",
       "None of the above\n위의 어느 것도 아님"
     ],
     "answer": 1,
@@ -1454,9 +1454,9 @@
     "id": 99,
     "question": "For steel castings, which of the following indications (type and degree) shall be removed?\n주강품에서 다음 지시(종류와 등급) 중 반드시 제거해야 하는 것은?",
     "options": [
-      "Shrinkage 2",
-      "Inclusion 2",
-      "Porosity 1",
+      "Shrinkage 2\n수축 등급 2",
+      "Inclusion 2\n개재물 등급 2",
+      "Porosity 1\n기공 등급 1",
       "Hot tears 1\n고온균열 등급 1"
     ],
     "answer": 3,
