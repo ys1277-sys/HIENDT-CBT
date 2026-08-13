@@ -52,10 +52,10 @@
     "source": "TOFDSpec-II-A-type(2014)",
     "question": "A shift of the backwall arrival time to an earlier arrival would be indicative of . 이른 도착으로 backwall 도착 시간의 이동은 어떤 결함인가?",
     "options": [
-      "Root erosion",
+      "Root erosion\n루트 침식",
       "IP",
-      "Concave root",
-      "Any of the above"
+      "Concave root\n오목한 루트",
+      "Any of the above\n위의 어느 것이든"
     ],
     "answer": 3
   },
@@ -67,7 +67,7 @@
     "source": "TOFDSpec-II-A-type(2014)",
     "question": "In order that the user can assess flaw depth in a TOFD output what is used? TOFD에서 사용자가 결함 깊이를 평가할 수 있게 사용되는 출력은?",
     "options": [
-      "Linearised cursors",
+      "Linearised cursors\n선형화된 커서",
       "Linearised data displays\n 선형화된 커서들 선형화된 표면 데이터",
       "Either a or b",
       "None of the above\n a 또는 b 어느 하나 상기 모두 아님"
@@ -172,7 +172,7 @@
     "source": "TOFDSpec-II-A-type(2014)",
     "question": "What aspect of instrument linearity is carried out on ultrasonic systems used for TOFD? TOFD에서 사용되는 초음파 시스템에서 직선성은 장비의 어떤 면에서 나타나는가?",
     "options": [
-      "Amplitude control",
+      "Amplitude control\n진폭 조정",
       "Screen height\n 증폭기 화면 높이",
       "Timebase",
       "All of the above\n 시간축 상기 모두"
@@ -187,11 +187,10 @@
     "source": "TOFDSpec-II-A-type(2014)",
     "question": "“Offset” scans are required for what reason? “Offset\" 스캔이 요구되는 이유는 무엇인가?",
     "options": [
-      "Inadequate beam divergence to address the HAZ on the far surface\n 표면에서 먼 HAZ에 위치한 불충분한 빔 발산",
-      "Inadequate beam divergence on the near surface\n 표면 근처에서 불충분한 빔 발산",
-      "Both a) and b)",
-      "와 b) 둘 다",
-      "None of the above, offset scans are not required in TOFD\n 상기 모두 아니다, offset 스캔은 TOFD에서 요구되지 않는다."
+      "Inadequate beam divergence to address the HAZ on the far surface\n먼 쪽 표면의 HAZ를 담기에 빔 발산이 부족함",
+      "Inadequate beam divergence on the near surface\n가까운 쪽 표면에서 빔 발산이 부족함",
+      "Both 1 and 2\n1번과 2번 둘 다",
+      "None of the above, offset scans are not required in TOFD\n위 모두 아님. TOFD에서 offset 스캔은 요구되지 않는다"
     ],
     "answer": 0
   },
@@ -203,9 +202,9 @@
     "source": "TOFDSpec-II-A-type(2014)",
     "question": "Uncertainties in timing, PCS and sound velocity provide uncertainties in TOFD determination of( ). timing, PCS 그리고 음파 속도의 불확실성은 TOFD 판독의 어떤 불확실성을 제공하나?",
     "options": [
-      "Indication depth",
+      "Indication depth\n지시 깊이",
       "Indication amplitude\n 결함 깊이 결함 진폭",
-      "Indication phase",
+      "Indication phase\n지시의 위상",
       "Refracted angle\n 결함 상 반사된 각도"
     ],
     "answer": 0
@@ -220,7 +219,7 @@
     "options": [
       "IP",
       "Misalignment",
-      "Surface breaking flaw",
+      "Surface breaking flaw\n표면개구 결함",
       "Porosity"
     ],
     "answer": 2
@@ -263,11 +262,10 @@
     "source": "TOFDSpec-II-A-type(2014)",
     "question": "When inspecting a heavywall (100mm thick) section by TOFD, the lateral wave may not be visible on all TOFD scans. Why not? TOFD로 heavywall(100mm 두께) 부분을 검사할 때, lateral wave는 모든 TOFD 스캔에서 보이지 않을 수 있다. 왜 안 나타나는가?",
     "options": [
-      "Deeper zones are scanned using smaller angles",
-      "Deeper zones are scanned using larger PCSs\n 깊은 zone은 큰 PCS를 사용한다.",
-      "Both a) and b) can account for this\n a)와 b) 모두 이 경우의 이유가 된다.",
-      "None of the above, lateral waves are always seen\n 상기 모두 아니다, lateral wave는 항상 보여진다.\n* ASME Sec. V Art 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10을 반영한, TOFD 절차서(HIE-NDT-P11 Rev.2를 이용하여 다음 물음에 답하시오.(question No. 22～30)",
-      "g 45°)\n 깊은 zone은 더 작은 각도을 사용하여 스캔한다.(즉, 45°)"
+      "Deeper zones are scanned using smaller angles (e.g. 45°)\n깊은 zone은 더 작은 각도(예: 45°)로 주사한다",
+      "Deeper zones are scanned using larger PCSs\n깊은 zone은 더 큰 PCS로 주사한다",
+      "Both 1 and 2 can account for this\n1번과 2번 모두 이 경우의 이유가 된다",
+      "None of the above, lateral waves are always seen\n위 모두 아님. lateral wave는 항상 보인다"
     ],
     "answer": 2
   },
@@ -284,7 +282,8 @@
       "For multiple zone examinations when the lateral wave is not displayed, or barely discernible, set the gain control based solely on the noise (grass) level.\n 다중 zone 검사에서 lateral wave가 보이지 않거나 겨우 식별할 수 있을 때, 단지 잡음을 기초로 하여 게인 값을 조절한다.",
       "All of above are correct\n 상기 모두 맞다."
     ],
-    "answer": 3
+    "answer": 3,
+    "groupNote": "Answer the following questions using the TOFD procedure HIE-NDT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-9/10.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-9/10을 반영한 TOFD 절차서(HIE-NDT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
   },
   {
     "id": 20,
@@ -299,7 +298,8 @@
       "EN 583-6",
       "SNT-TC-1A"
     ],
-    "answer": 3
+    "answer": 3,
+    "groupNote": "Answer the following questions using the TOFD procedure HIE-NDT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-9/10.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-9/10을 반영한 TOFD 절차서(HIE-NDT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
   },
   {
     "id": 21,
@@ -314,7 +314,8 @@
       "For welds in material greater than 4in.(100mm) thick at the weld, images with indicated lengths greater than 0.05t or 0.75in.(19mm), whichever is smaller, shall be investigated\n 100mm 초과인 재료의 용접부에서, 0.05t 또는 19mm 둘 중 작은 쪽보다 큰 길이를 갖는 결함 이미지는 조사되어야 한다.",
       "All of the above.\n 상기 모두"
     ],
-    "answer": 1
+    "answer": 1,
+    "groupNote": "Answer the following questions using the TOFD procedure HIE-NDT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-9/10.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-9/10을 반영한 TOFD 절차서(HIE-NDT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
   },
   {
     "id": 22,
@@ -324,12 +325,13 @@
     "source": "TOFDSpec-II-A-type(2014)",
     "question": "A scan parallel to the weld axis in which the beam intersection point is not on the weld center-line is?\n빔 교차점이 용접 중심선에 있지 않는, 용접축에 평행한 검사는 무엇인가?",
     "options": [
-      "Not required in this procedure",
+      "Not required in this procedure\n이 절차서에서는 요구되지 않는다",
       "Only required in ASME Code Case2235-10\n 이 절차서에 요구되지 않는다. 오직 ASME Code Case 2235-10에 요구된다.",
-      "An off-set scan",
+      "An off-set scan\n오프셋 주사",
       "A substitute for a parallel scan\n off-set 주사 평행 주사에 대한 대체"
     ],
-    "answer": 2
+    "answer": 2,
+    "groupNote": "Answer the following questions using the TOFD procedure HIE-NDT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-9/10.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-9/10을 반영한 TOFD 절차서(HIE-NDT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
   },
   {
     "id": 23,
@@ -339,12 +341,13 @@
     "source": "TOFDSpec-II-A-type(2014)",
     "question": "When inspecting according to ASME Code Case 2235-10, on wall thickness 24mm, what is the maximum size of a subsurface notch that can be used for a qualification block? ASME Code Case 2235-10에 따라 두께 24mm를 검사 할 때, 인정시험편에서 사용될 수 있는 표면하 노치의 최대 크기는?",
     "options": [
-      "0.143mm high x 6.4mm long",
-      "1.72mm high x 6.4mm long",
-      "3.43mm high x 6.4mm long",
-      "6.86mm high x 6.4mm long"
+      "0.143mm high x 6.4mm long\n높이 0.143mm × 길이 6.4mm",
+      "1.72mm high x 6.4mm long\n높이 1.72mm × 길이 6.4mm",
+      "3.43mm high x 6.4mm long\n높이 3.43mm × 길이 6.4mm",
+      "6.86mm high x 6.4mm long\n높이 6.86mm × 길이 6.4mm"
     ],
-    "answer": 3
+    "answer": 3,
+    "groupNote": "Answer the following questions using the TOFD procedure HIE-NDT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-9/10.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-9/10을 반영한 TOFD 절차서(HIE-NDT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
   },
   {
     "id": 24,
@@ -359,7 +362,8 @@
       "2mm",
       "4mm"
     ],
-    "answer": 1
+    "answer": 1,
+    "groupNote": "Answer the following questions using the TOFD procedure HIE-NDT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-9/10.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-9/10을 반영한 TOFD 절차서(HIE-NDT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
   },
   {
     "id": 25,
@@ -369,12 +373,13 @@
     "source": "TOFDSpec-II-A-type(2014)",
     "question": "When inspecting according to ASME B 31.3 Code Case 181, on wall thickness 24mm, what is the maximum size of a surface notch that can be used for a qualification block? ASME B 31.3과 Code Case 181에 따라 두께 24mm를 검사 할 때, 인정시험편에서 사용될 수 있는 표면 노치의 최대 크기는?",
     "options": [
-      "0.087mm high x 6.4mm long",
-      "1.04mm high x 6.4mm long",
-      "2.09mm high x 6.4mm long",
-      "4.18mm high x 6.4mm long"
+      "0.087mm high x 6.4mm long\n높이 0.087mm × 길이 6.4mm",
+      "1.04mm high x 6.4mm long\n높이 1.04mm × 길이 6.4mm",
+      "2.09mm high x 6.4mm long\n높이 2.09mm × 길이 6.4mm",
+      "4.18mm high x 6.4mm long\n높이 4.18mm × 길이 6.4mm"
     ],
-    "answer": 2
+    "answer": 2,
+    "groupNote": "Answer the following questions using the TOFD procedure HIE-NDT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-9/10.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-9/10을 반영한 TOFD 절차서(HIE-NDT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
   },
   {
     "id": 26,
@@ -389,7 +394,8 @@
       "No qualification block is needed as long as the equipment is correctly calibrated.\n 인정 시험편은 장비의 정확한 교정이 필요하지 않다.",
       "1 flaw on the OD surface, 1 flaw on the ID surface and 1 sub surface flaw\n OD 표면의 1개 결함, ID 표면의 1개 결함과 1개의 표면하 결함"
     ],
-    "answer": 3
+    "answer": 3,
+    "groupNote": "Answer the following questions using the TOFD procedure HIE-NDT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-9/10.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-9/10을 반영한 TOFD 절차서(HIE-NDT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
   },
   {
     "id": 27,
@@ -404,7 +410,8 @@
       "500mm",
       "600mm"
     ],
-    "answer": 2
+    "answer": 2,
+    "groupNote": "Answer the following questions using the TOFD procedure HIE-NDT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-9/10.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-9/10을 반영한 TOFD 절차서(HIE-NDT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
   },
   {
     "id": 30,
@@ -430,17 +437,19 @@
       "장비가 정확히 교정되어 있으면 인정시험편은 필요 없다",
       "OD 표면의 결함 1개, ID 표면의 결함 1개, 표면하 결함 1개"
     ],
-    "answer": 3
+    "answer": 3,
+    "groupNote": "Answer the following questions using the TOFD procedure HIE-NDT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-9/10.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-9/10을 반영한 TOFD 절차서(HIE-NDT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
   },
   {
     "id": 32,
     "question": "When inspecting according to ASME Code Case 2235-9 on a wall thickness of 24 mm, what is the maximum size of a subsurface notch that can be used for a qualification block?\nASME Code Case 2235-9에 따라 두께 24mm를 검사할 때, 인정시험편에 쓸 수 있는 표면하 노치의 최대 크기는?",
     "options": [
-      "0.143 mm high × 6.4 mm long",
-      "1.72 mm high × 6.4 mm long",
-      "3.43 mm high × 6.4 mm long",
-      "6.86 mm high × 6.4 mm long"
+      "0.143 mm high × 6.4 mm long\n높이 0.143mm × 길이 6.4mm",
+      "1.72 mm high × 6.4 mm long\n높이 1.72mm × 길이 6.4mm",
+      "3.43 mm high × 6.4 mm long\n높이 3.43mm × 길이 6.4mm",
+      "6.86 mm high × 6.4 mm long\n높이 6.86mm × 길이 6.4mm"
     ],
-    "answer": 3
+    "answer": 3,
+    "groupNote": "Answer the following questions using the TOFD procedure HIE-NDT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-9/10.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-9/10을 반영한 TOFD 절차서(HIE-NDT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
   }
 ]

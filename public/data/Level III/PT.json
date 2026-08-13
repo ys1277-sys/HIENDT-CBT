@@ -248,10 +248,10 @@
     "question": "What kind of flaws do rounded or point-like PT indications point to?\n둥글거나 점 형태의 PT 지시는 어떤 결함을 나타내는가?",
     "korean": "둥글거나 점 형태의 PT 지시는 어떤 결함을 나타내는가?",
     "options": [
-      "Small hot cracks",
-      "Pore",
-      "Small end crater cracks",
-      "The answers a), b) and c) are correct"
+      "Small hot cracks\n작은 고온균열",
+      "Pores\n기공",
+      "Small end crater cracks\n작은 엔드 크레이터 균열",
+      "The answers 1, 2 and 3 are all correct\n1, 2, 3번이 모두 맞다"
     ],
     "answer": 3
   },

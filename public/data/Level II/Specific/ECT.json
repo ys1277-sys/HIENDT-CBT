@@ -199,10 +199,10 @@
     "source": "ECTS-II.hwp",
     "question": "What is the minimum fill factor specified in the procedure HIE-NDT-ET-P11?\n절차서 HIE-NDT-ET-P11에서 규정하는 최소 충진율은?",
     "options": [
-      "minimum 70% over",
-      "minimum 75% over",
-      "minimum 80% over",
-      "minimum 85% over"
+      "minimum 70% over\n최소 70% 이상",
+      "minimum 75% over\n최소 75% 이상",
+      "minimum 80% over\n최소 80% 이상",
+      "minimum 85% over\n최소 85% 이상"
     ],
     "answer": 2,
     "groupNote": "※ The following questions (9-20) refer to HIE procedure, HIE-NDT-ET-P11(Rev.2) for Eddy current examination of heat exchanger & condenser tube in accordance with ASME Sec. V Code, 2023 Edition.\n(문제 9-20은 ASME Sec. V 규격 2023 Edition에 따른 열교환기 및 콘덴서 튜브의 와전류탐상 시험 절차서 HIE-NDT-ET-P11(Rev.2)에 관한 것이다.)",
@@ -233,10 +233,10 @@
     "source": "ECTS-II.hwp",
     "question": "Adjust the ET instrument for a basis frequency chosen so that the phase angle of a signal from the (____) is between (__) deg. and (__) deg. rotated clockwise from the signal of the through-the-wall hole.\n와류 탐상장치를 선정한 기본주파수로 맞추어 (____)으로부터 신호의 위상각이 벽 관통구멍의 신호로부터 시계방향으로 (__)에서 (__) 사이가 되도록 조절한다.",
     "options": [
-      "four 20% flat bottom holes, 50°, 120°",
-      "four through-wall drilled holes, 30°, 90°",
-      "four 20% flat bottom holes, 30°, 90°",
-      "four through-wall drilled holes, 50°, 120°"
+      "four 20% flat bottom holes, 50°, 120°\n20% 평저공 4개, 50°, 120°",
+      "four through-wall drilled holes, 30°, 90°\n관통 구멍 4개, 30°, 90°",
+      "four 20% flat bottom holes, 30°, 90°\n20% 평저공 4개, 30°, 90°",
+      "four through-wall drilled holes, 50°, 120°\n관통 구멍 4개, 50°, 120°"
     ],
     "answer": 0,
     "groupNote": "* In the procedure HIE-NDT-ET-P11, the examination system shall be calibrated utilizing the reference standard described in 6.5. Complete the following basis frequency calibration procedure using differential bobbin coil technique. (Questions 15 through 18)\n(절차서 HIE-NDT-ET-P11의 6.5항 대비 기준으로 시험 시스템을 교정한다. 차동 내삽 코일 기법을 사용한 기본 주파수 교정 절차를 완성하시오. 15~18번)"

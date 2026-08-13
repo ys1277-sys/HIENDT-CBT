@@ -143,7 +143,7 @@
     "question": "Gamma rays source what is used mainly in NDT?\nNDT에서 주로 사용되는 감마선 선원은?",
     "options": [
       "natural isotopes\n천연 동위원소",
-      "Iridium-192 or cobalt-60 (Ir 192 or Co 60)",
+      "Iridium-192 or cobalt-60 (Ir 192 or Co 60)\n이리듐-192 또는 코발트-60",
       "Radium (Ra)",
       "Thulium-170 (Tm 170)"
     ],
@@ -588,10 +588,10 @@
     "id": 40,
     "question": "The gamma-ray intensity at one foot from a one curie source of radioactive cobalt-60 is nearest:\n코발트-60 1퀴리 선원에서 1피트 떨어진 곳의 감마선 강도에 가장 가까운 값은?",
     "options": [
-      "15 roentgens per hour (15 R/hr)",
-      "1,000 roentgens per hour (1,000 R/hr)",
-      "1 roentgen per hour (1 R/hr)",
-      "10 milliroentgens per hour (10 mR/hr)"
+      "15 roentgens per hour (15 R/hr)\n시간당 15뢴트겐",
+      "1,000 roentgens per hour (1,000 R/hr)\n시간당 1,000뢴트겐",
+      "1 roentgen per hour (1 R/hr)\n시간당 1뢴트겐",
+      "10 milliroentgens per hour (10 mR/hr)\n시간당 10밀리뢴트겐"
     ],
     "answer": 0
   }

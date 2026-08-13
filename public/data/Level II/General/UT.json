@@ -7,10 +7,10 @@
     "source": "UTG-II(A)",
     "question": "The search unit shown in Figure is used for:\n그림에 보여준 탐촉자는 어떤 검사에 사용되나?",
     "options": [
-      "surface wave testing",
-      "angle beam wave",
-      "immersion testing",
-      "straight beam testing"
+      "surface wave testing\n표면파 탐상",
+      "angle beam wave\n사각 탐상",
+      "immersion testing\n수침법 탐상",
+      "straight beam testing\n수직 탐상"
     ],
     "answer": 3
   },

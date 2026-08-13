@@ -115,10 +115,10 @@
     "source": "VTG-llA(개정판)-2016.10.18",
     "question": "Visual examination is generally used to determine such things as :\n(VT에서 확인되는 것은)?",
     "options": [
-      "alignment of mating surfaces",
-      "surface condition of part",
+      "alignment of mating surfaces\n맞대는 면의 정렬 상태",
+      "surface condition of part\n부품의 표면 상태",
       "shape",
-      "all of the above"
+      "all of the above\n위의 모두"
     ],
     "answer": 3
   },
@@ -131,9 +131,9 @@
     "question": "Which of the following are important considerations in the performance of any visual examination?\nVT에서 중요 요인은?",
     "options": [
       "lighting",
-      "angles of vision",
+      "angles of vision\n시야각",
       "accessibility",
-      "all of the above"
+      "all of the above\n위의 모두"
     ],
     "answer": 3
   },
@@ -284,9 +284,9 @@
     "source": "VTG-llA(개정판)-2016.10.18",
     "question": "What joint fit-up should you insist on?\nfit-up 검사로 알 수 있는 것은?",
     "options": [
-      "Tolerances specified on drawings or specifications.",
-      "Tight fit of butt joint, to preserve dimensions of weldment.",
-      "Whatever gap comes up, if not obviously too big for welder to span."
+      "Tolerances specified on drawings or specifications.\n도면이나 시방서에 규정된 공차",
+      "Tight fit of butt joint, to preserve dimensions of weldment.\n용접물 치수를 유지하기 위한 맞대기 이음의 밀착",
+      "Whatever gap comes up, if not obviously too big for welder to span.\n용접사가 메우기에 지나치게 크지만 않다면 어떤 간격이든 상관없다"
     ],
     "answer": 0
   },
@@ -328,9 +328,9 @@
     "source": "VTG-llA(개정판)-2016.10.18",
     "question": "What characteristic is always common to the discontinuities of lamination, laminar tears, and seams and laps?\n열거된 결함의 공통점은",
     "options": [
-      "All are caused by stresses not associated with welding.",
-      "All originate in the base metal, not the weld.",
-      "All run parallel to the surface."
+      "All are caused by stresses not associated with welding.\n모두 용접과 무관한 응력으로 생긴다",
+      "All originate in the base metal, not the weld.\n모두 용접부가 아닌 모재에서 생긴다",
+      "All run parallel to the surface.\n모두 표면과 나란하게 진행한다"
     ],
     "answer": 1
   },
@@ -342,9 +342,9 @@
     "source": "VTG-llA(개정판)-2016.10.18",
     "question": "What discontinuity would give rise to a series of remelted dots beside a weld, resembling a trail left in striking a match?\n용접부위의 dots로 야기되는 불연속은",
     "options": [
-      "Linear porosity.",
-      "aligned microporosity",
-      "Arc strikes."
+      "Linear porosity.\n선상 기공",
+      "aligned microporosity\n정렬된 미세기공",
+      "Arc strikes.\n아크 스트라이크"
     ],
     "answer": 2
   },
@@ -373,7 +373,7 @@
     "options": [
       "Undercut.",
       "Underfill.",
-      "Inadequate joint penetration."
+      "Inadequate joint penetration.\n용입부족"
     ],
     "answer": 1,
     "image": "VT_GENERAL_Q25.png"
@@ -386,8 +386,8 @@
     "source": "VTG-llA(개정판)-2016.10.18",
     "question": "What type of discontinuity is this?\n다음 불연속의 명칭은?",
     "options": [
-      "An underbead crack.",
-      "An crater crack.",
+      "An underbead crack.\n비드 밑 균열",
+      "An crater crack.\n크레이터 균열",
       "Porosity."
     ],
     "answer": 1,
@@ -401,8 +401,8 @@
     "source": "VTG-llA(개정판)-2016.10.18",
     "question": "What type of discontinuity is this?\n다음 불연속의 명칭은?",
     "options": [
-      "A plate lamination.",
-      "An underbead crack.",
+      "A plate lamination.\n판재 라미네이션",
+      "An underbead crack.\n비드 밑 균열",
       "An undercut."
     ],
     "answer": 0,
@@ -416,12 +416,12 @@
     "source": "VTG-llA(개정판)-2016.10.18",
     "question": "A written VT Procedure shall contain(circle all correct answer)?\nVT 절차서에 포함되어야 하는 항목을 선택한다면?",
     "options": [
-      "How exam. is to be performed.",
-      "Surface preparation",
-      "Step wedge comparison film",
-      "Sequence of performing exam.",
-      "Manufacturer’s specification",
-      "Data to be tabulated, if any"
+      "How exam. is to be performed.\n검사를 어떻게 수행할 것인가",
+      "Surface preparation\n표면 전처리",
+      "Step wedge comparison film\n계단쐐기 대비 필름",
+      "Sequence of performing exam.\n검사 수행 순서",
+      "Manufacturer’s specification\n제조자 시방서",
+      "Data to be tabulated, if any\n기록할 데이터가 있다면 그 내용"
     ],
     "answer": [
       0,
@@ -457,7 +457,7 @@
       "lap",
       "stringer",
       "lamination",
-      "cold shut"
+      "cold shut\n탕경(cold shut)"
     ],
     "answer": 3
   },
@@ -469,9 +469,9 @@
     "source": "VTG-llA(개정판)-2016.10.18",
     "question": "If accessibility is not available to the back side of a joint, what types of discontinuities are most likely to appear?\n용접부 뒷면에 나타날 수 있는 결함은?",
     "options": [
-      "Porosity and slag inclusions",
-      "Incomplete fusion and melt-thru",
-      "Delamination and laminar tears"
+      "Porosity and slag inclusions\n기공과 슬래그 개재물",
+      "Incomplete fusion and melt-thru\n융합불량과 용락",
+      "Delamination and laminar tears\n박리와 라미나 균열"
     ],
     "answer": 1
   },
@@ -514,9 +514,9 @@
     "source": "VTG-llA(개정판)-2016.10.18",
     "question": "What type inspection is most effective in elimination discontinuities?\n가장 효과적인 결함제거란?",
     "options": [
-      "In-process inspection before the weld is completed",
-      "Inspection after the weld is completed",
-      "Inspection of the repair process"
+      "In-process inspection before the weld is completed\n용접 완료 전 공정 중 검사",
+      "Inspection after the weld is completed\n용접 완료 후 검사",
+      "Inspection of the repair process\n보수 공정에 대한 검사"
     ],
     "answer": 1
   },

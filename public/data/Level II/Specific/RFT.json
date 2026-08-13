@@ -103,10 +103,10 @@
     "source": "RFTS-II.hwp",
     "question": "For RFT Level II, minimum number of questions of general & specific examination is :\nRFT Level II에 대해, 일반 및 전문 시험의 최소 문항 수는?",
     "options": [
-      "general : 30, specific : 15",
-      "general : 40, specific : 20",
-      "general : 40, specific : 30",
-      "general : 50, specific : 25"
+      "general : 30, specific : 15\n일반 30문항, 전문 15문항",
+      "general : 40, specific : 20\n일반 40문항, 전문 20문항",
+      "general : 40, specific : 30\n일반 40문항, 전문 30문항",
+      "general : 50, specific : 25\n일반 50문항, 전문 25문항"
     ],
     "answer": 1,
     "groupNote": "* Answers to questions 5 through 8 may use the supplement QM Procedure (HIE-QP-E01)\n(5번부터 8번까지 품질경영 절차서 중 HIE-QP-E01에 관한 질문이다.)"
@@ -281,10 +281,10 @@
     "source": "RFTS-II.hwp",
     "question": "Separate each signal in the following voltage plane display (ASME Sec. V, Art.17, Fig. T-1763.1(b))\n다음 전압평면 표시에서 각 신호를 구분하시오.",
     "options": [
-      "① 20% groove  ② through hole  ③ TSP",
-      "① through hole  ② TSP  ③ 20% groove",
-      "① TSP  ② 20% groove  ③ through hole",
-      "① 20% groove  ② TSP  ③ through hole"
+      "① 20% groove  ② through hole  ③ TSP\n① 20% 홈 ② 관통 구멍 ③ 관지지판(TSP)",
+      "① through hole  ② TSP  ③ 20% groove\n① 관통 구멍 ② 관지지판(TSP) ③ 20% 홈",
+      "① TSP  ② 20% groove  ③ through hole\n① 관지지판(TSP) ② 20% 홈 ③ 관통 구멍",
+      "① 20% groove  ② TSP  ③ through hole\n① 20% 홈 ② 관지지판(TSP) ③ 관통 구멍"
     ],
     "answer": 0,
     "image": "RFT_SPECIFIC_Q18.svg"

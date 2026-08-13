@@ -50,10 +50,10 @@
     "source": "RTS-II(2020)(A)",
     "question": "In this procedure, radiographs shall bel made using:\n본 절차서에서, 방사선사진은 어떤 필름을 사용해서 만들어야 하나?",
     "options": [
-      "Industrial radiographic film",
-      "Medical radiographic film",
-      "Computed radiographic film",
-      "Direct image plate"
+      "Industrial radiographic film\n공업용 방사선 필름",
+      "Medical radiographic film\n의료용 방사선 필름",
+      "Computed radiographic film\n컴퓨터 방사선촬영(CR) 필름",
+      "Direct image plate\n직접 이미지 플레이트"
     ],
     "answer": 0
   },
@@ -80,10 +80,10 @@
     "source": "RTS-II(2020)(A)",
     "question": "What is the part of the γ-ray machine which is used to move the radiographic isotope to the objects?\n(방사성 동위원소를 피사체까지 이동시키는데 사용되어지는 γ-선 장치의 부품은 무엇인가?",
     "options": [
-      "Front guiding",
+      "Front guiding\n전방 가이드 튜브",
       "Connector",
       "collimator",
-      "Pig tail"
+      "Pig tail\n피그테일"
     ],
     "answer": 0
   },
@@ -230,10 +230,10 @@
     "source": "RTS-II(2020)(A)",
     "question": "What is the minimum equivalent sensitivity when radiographic test for PSL2 welds ?\n품질등급 PSL2의 용접부를 방사선투과검사 할 때 최소 등가 감도는 얼마인가?",
     "options": [
-      "minimum equivalent sensitivity of 1 % and a 1-1T quality level.",
-      "minimum equivalent sensitivity of 2 % and a 2-2T quality level.",
-      "minimum equivalent sensitivity of 4 % and a 2-2T quality level.",
-      "minimum equivalent sensitivity of 4 % and a 4-4T quality level."
+      "minimum equivalent sensitivity of 1 % and a 1-1T quality level.\n최소 등가감도 1%, 상질 1-1T",
+      "minimum equivalent sensitivity of 2 % and a 2-2T quality level.\n최소 등가감도 2%, 상질 2-2T",
+      "minimum equivalent sensitivity of 4 % and a 2-2T quality level.\n최소 등가감도 4%, 상질 2-2T",
+      "minimum equivalent sensitivity of 4 % and a 4-4T quality level.\n최소 등가감도 4%, 상질 4-4T"
     ],
     "answer": 1
   },
@@ -258,10 +258,10 @@
     "source": "RTS-II(2020)(A)",
     "question": "What is (Ⅰ)?\n(Ⅰ)은 무엇인가?",
     "options": [
-      "Front guiding",
+      "Front guiding\n전방 가이드 튜브",
       "Connector",
-      "Remote controller",
-      "Pig tail"
+      "Remote controller\n원격 조작기",
+      "Pig tail\n피그테일"
     ],
     "answer": 2,
     "groupNote": "The part of the γ-ray machine that generates the mechanical force to move the radiographic isotope to the object is (Ⅰ), and the part of the γ-ray machine connected to the storage container of the radioactive isotope is (Ⅱ).\n피사체에 방사성 동위원소를 기계적인 힘으로 이동시키는 γ-선 장치의 부품은 (Ⅰ)이고, 방사성 동위원소의 저장용기에 연결되는 γ-선 장치의 부품은 (Ⅱ)이다."
@@ -276,7 +276,7 @@
     "options": [
       "NO-GO gauge",
       "Connector",
-      "Pig tail",
+      "Pig tail\n피그테일",
       "Capsule"
     ],
     "answer": 0
@@ -344,10 +344,10 @@
     "groupNote": "The part of the γ-ray machine that generates the mechanical force to move the radiographic isotope to the object is (Ⅰ), and the part of the γ-ray machine connected to the storage container of the radioactive isotope is (Ⅱ).\n피사체에 방사성 동위원소를 기계적인 힘으로 이동시키는 γ-선 장치의 부품은 (Ⅰ)이고, 방사성 동위원소의 저장용기에 연결되는 γ-선 장치의 부품은 (Ⅱ)이다.",
     "question": "What is (Ⅱ)?\n(Ⅱ)은 무엇인가?",
     "options": [
-      "Front guiding",
+      "Front guiding\n전방 가이드 튜브",
       "Connector",
-      "Remote controller",
-      "Pig tail"
+      "Remote controller\n원격 조작기",
+      "Pig tail\n피그테일"
     ],
     "answer": 1
   },

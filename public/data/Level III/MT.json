@@ -178,10 +178,10 @@
     "question": "Yoke, MP-200 have flexible legs and no input or output current control. The flux density in the metal being magnetized with the yoke:\n요크 MP-200은 유연한 다리를 가지고 입출력 전류 제어가 없다. 자화되는 금속 내 자속 밀도는?",
     "question_kr": "요크 MP-200은 유연한 다리를 가지고 입출력 전류 제어가 없다. 자화되는 금속 내 자속 밀도는?",
     "options": [
-      "depends on whether the poles are making a good contact",
-      "depends on the distance between the poles",
-      "both A and B",
-      "cannot be changed because the yoke always puts out the same amount of flux"
+      "Depends on whether the poles are making good contact\n자극이 잘 접촉하고 있는지에 따라 달라진다",
+      "Depends on the distance between the poles\n자극 사이의 거리에 따라 달라진다",
+      "Both 1 and 2\n1번과 2번 모두",
+      "Cannot be changed, because the yoke always puts out the same amount of flux\n요크는 항상 같은 양의 자속을 내므로 바꿀 수 없다"
     ],
     "answer": 2,
     "explanation": ""
@@ -888,10 +888,10 @@
     "id": 59,
     "question": "The best shape for magnetic particles used in the dry powder method is:\n건식 자분법에 쓰이는 자분의 가장 좋은 형상은?",
     "options": [
-      "flat",
-      "globular",
-      "long and slender",
-      "a mixture of b and c"
+      "flat\n납작한 형상",
+      "globular\n둥근 형상",
+      "long and slender\n길고 가는 형상",
+      "A mixture of 2 and 3\n2번과 3번의 혼합"
     ],
     "answer": 3,
     "level": "Level III",

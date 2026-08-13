@@ -7,9 +7,9 @@
     "source": "PAUTSpec-II-A-type(2014)",
     "question": "A focused phased array inspection is limited in path length by .\n집속 PA 검사는 무엇에 의해 경로의 길이가 제한되는가?",
     "options": [
-      "The transducers near field",
+      "The transducers near field\n탐촉자의 근거리음장",
       "The frequency of the transducer\n 탐촉자 근거리음장 탐촉자의 주파수",
-      "The size of the elements",
+      "The size of the elements\n진동자의 크기",
       "The grain structure of the component inspected\n 소자 크기 검사할 입자 구조의 구성"
     ],
     "answer": 0
@@ -173,8 +173,8 @@
     "question": "What kind of defect is the unacceptable regardless of length in ASME B 31.1 Code Case 179 and HIE-NDT-PAUT-P11(Rev.2) ASME B 31.1 Code Case 179 와 HIE-NDT-PAUT-P11(Rev.2)에서 어떤 결함이 길이에 상관없이 불합격인가?",
     "options": [
       "crack",
-      "lack of fusion",
-      "incomplete penetration",
+      "lack of fusion\n융합불량",
+      "incomplete penetration\n용입부족",
       "all of a, b, c"
     ],
     "answer": 3
@@ -232,9 +232,9 @@
     "source": "PAUTSpec-II-A-type(2014)",
     "question": "What is the recommended minimum digitization rate for PAUT in Mandatory Appendix V of ASME Sec. V. Art.4 ASME Sec.\nV. Art.4 Mandatory Appendix V에서 PAUT에 대해 최소 디지털화 비율은?",
     "options": [
-      "3times the examination frequency",
+      "3times the examination frequency\n검사 주파수의 3배",
       "4times the examination frequency\n 검사 주파수의 3배 검사 주차수의 4배",
-      "5times the examination frequency",
+      "5times the examination frequency\n검사 주파수의 5배",
       "10times the examination frequency\n 검사 주파수의 5배 검사 주차수의 10배"
     ],
     "answer": 2
@@ -247,10 +247,10 @@
     "source": "PAUTSpec-II-A-type(2014)",
     "question": "When inspecting according to ASME B 31.3 Code Case 181, on wall thickness 24mm, what is the maximum size of a surface notch that can be used for a qualification block? ASME B 31.3 Code Case 181 또는 HIE-NDT-PAUT-P11(Rev.2)에 따라 검사할 때, 벽 두께 24mm에서 인정 시험편에 사용될 수 있는 표면 노치의 최대 크기는?",
     "options": [
-      "0.087mm high x 6.4mm long",
-      "1.04mm high x 6.4mm long",
-      "2.09mm high x 6.4mm long",
-      "4.18mm high x 6.4mm long"
+      "0.087mm high x 6.4mm long\n높이 0.087mm × 길이 6.4mm",
+      "1.04mm high x 6.4mm long\n높이 1.04mm × 길이 6.4mm",
+      "2.09mm high x 6.4mm long\n높이 2.09mm × 길이 6.4mm",
+      "4.18mm high x 6.4mm long\n높이 4.18mm × 길이 6.4mm"
     ],
     "answer": 2
   },
@@ -262,10 +262,10 @@
     "source": "PAUTSpec-II-A-type(2014)",
     "question": "When inspecting according to ASME B 31.3 Code Case 181, on wall thickness 24mm, what is the maximum size of a subsurface notch that can be used for a qualification block? ASME B 31.3 Code Case 181에 따라 검사할 때, 벽 두께 24mm에서 인정 시험편에 사용될 수 있는 표면하 노치의 최대 크기는?",
     "options": [
-      "0.143mm high x 6.4mm long",
-      "1.72mm high x 6.4mm long",
-      "3.43mm high x 6.4mm long",
-      "6.86mm high x 6.4mm long"
+      "0.143mm high x 6.4mm long\n높이 0.143mm × 길이 6.4mm",
+      "1.72mm high x 6.4mm long\n높이 1.72mm × 길이 6.4mm",
+      "3.43mm high x 6.4mm long\n높이 3.43mm × 길이 6.4mm",
+      "6.86mm high x 6.4mm long\n높이 6.86mm × 길이 6.4mm"
     ],
     "answer": 3
   },
@@ -292,9 +292,9 @@
     "source": "PAUTSpec-II-A-type(2014)",
     "question": "Phased array UT instrument shall meet the requirement of amplitude control linearity .- PAUT 장비는 어떤 것에 대한 증폭 직선성의 요구사항을 만족해야 하는가?",
     "options": [
-      "For each focal law",
+      "For each focal law\n각 초점법칙마다",
       "For each pulser-receiver circuit\n 각 집속 법칙에 대한 각 펄스-리시버 회로에 대한",
-      "For each separate element",
+      "For each separate element\n각 진동자마다",
       "All of the above\n 분활된 각 소자에 대한 상기 모두"
     ],
     "answer": 1

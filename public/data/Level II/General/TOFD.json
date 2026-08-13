@@ -82,11 +82,10 @@
     "source": "TOFD General - A 20200317",
     "question": "“Offset” scans are required for what reason? “Offset\" 스캔이 요구되는 이유는 무엇인가?",
     "options": [
-      "Inadequate beam divergence to address the HAZ on the far surface\n 표면에서 먼 HAZ에 위치한 불충분한 빔 발산",
-      "Inadequate beam divergence on the near surface\n 표면 근처에서 불충분한 빔 발산",
-      "Both a) and b)",
-      "와 b) 둘 다",
-      "None of the above, offset scans are not required in TOFD\n 상기 모두 아니다, offset 스캔은 TOFD에서 요구되지 않는다."
+      "Inadequate beam divergence to address the HAZ on the far surface\n먼 쪽 표면의 HAZ를 담기에 빔 발산이 부족함",
+      "Inadequate beam divergence on the near surface\n가까운 쪽 표면에서 빔 발산이 부족함",
+      "Both 1 and 2\n1번과 2번 둘 다",
+      "None of the above, offset scans are not required in TOFD\n위 모두 아님. TOFD에서 offset 스캔은 요구되지 않는다"
     ],
     "answer": 0
   },
@@ -98,9 +97,9 @@
     "source": "TOFD General - A 20200317",
     "question": "What is the purpose of SAFT DSP on TOFD displays? TOFD 화면에서 SAFT DSP의 목적은?",
     "options": [
-      "A form of TCG",
+      "A form of TCG\nTCG의 한 형태",
       "To determine flaw height\n TCG의 형태 결함 높이 측정",
-      "To determine flaw length",
+      "To determine flaw length\n결함 길이 측정",
       "For Sequenced Analysis of Frequency Technique\n 결함 길이 측정 순차적 주파수 분석 기술"
     ],
     "answer": 2
@@ -113,7 +112,7 @@
     "source": "TOFD General - A 20200317",
     "question": "In order that the user can assess flaw depth in a TOFD output what is used? TOFD에서 사용자가 결함 깊이를 평가할 수 있게 사용되는 출력은?",
     "options": [
-      "Linearised cursors",
+      "Linearised cursors\n선형화된 커서",
       "Linearised data displays\n 선형화된 커서들 선형화된 표면 데이터",
       "Either a or b",
       "None of the above\n a 또는 b 둘 중 하나 상기 모두 아님"
@@ -130,7 +129,7 @@
     "options": [
       "IP",
       "Misalignment \n 용입불량 정렬불량",
-      "Surface breaking flaw",
+      "Surface breaking flaw\n표면개구 결함",
       "Porosity\n 표면에 깨진결함 기공"
     ],
     "answer": 2
@@ -143,7 +142,7 @@
     "source": "TOFD General - A 20200317",
     "question": "What aspect of instrument linearity is carried out on ultrasonic systems used for TOFD? TOFD에서 사용되는 초음파 시스템에서 직선성은 장비의 어떤 면에서 나타나는가?",
     "options": [
-      "Amplitude control",
+      "Amplitude control\n진폭 조정",
       "Screen height\n 증폭기 화면 높이",
       "Timebase",
       "All of the above\n 시간축 상기 모두"
@@ -190,7 +189,7 @@
     "options": [
       "Frequency",
       "Dimensions\n 주파수 치수",
-      "Damping and ring-time",
+      "Damping and ring-time\n댐핑과 링타임",
       "All of the above should be matched\n 댐핑과 라이징 타임 상기 모든 것이 맞아야만 한다."
     ],
     "answer": 3
@@ -206,7 +205,7 @@
       "6dB",
       "12-14dB",
       "20-24dB",
-      "22° half-angle"
+      "22° half-angle\n반각 22°"
     ],
     "answer": 2
   },
@@ -218,11 +217,10 @@
     "source": "TOFD General - A 20200317",
     "question": "When inspecting a heavy wall (100mm thick) section by TOFD, the lateral wave may not be visible on all TOFD scans. Why not? TOFD로 heavy wall (100mm 두께) 부분을 검사할 때, lateral wave는 모든 TOFD 스캔에서\n보이지 않을 수 있다. 왜 안 나타나는가?",
     "options": [
-      "Deeper zones are scanned using smaller angles",
-      "Deeper zones are scanned using larger PCSs\n 깊은 zone은 큰 PCS를 사용한다.",
-      "Both a) and b) can account for this\n a)와 b) 모두 이 경우의 이유가 된다.",
-      "None of the above, lateral waves are always seen\n 상기 모두 아니다, lateral wave는 항상 보여진다.",
-      "g 45°)\n 깊은 zone은 더 작은 각도을 사용하여 스캔한다.(즉, 45°)"
+      "Deeper zones are scanned using smaller angles (e.g. 45°)\n깊은 zone은 더 작은 각도(예: 45°)로 주사한다",
+      "Deeper zones are scanned using larger PCSs\n깊은 zone은 더 큰 PCS로 주사한다",
+      "Both 1 and 2 can account for this\n1번과 2번 모두 이 경우의 이유가 된다",
+      "None of the above, lateral waves are always seen\n위 모두 아님. lateral wave는 항상 보인다"
     ],
     "answer": 2
   },
@@ -264,9 +262,9 @@
     "source": "TOFD General - A 20200317",
     "question": "Uncertainties in timing, PCS and sound velocity provide uncertainties in TOFD determination of( ). 타이밍의 불확실성, PCS 그리고 음파 속도의 불확실성은 TOFD 판독의 어떤 불확실성을 제공하나?",
     "options": [
-      "Indication depth",
+      "Indication depth\n지시 깊이",
       "Indication amplitude\n 결함 깊이 결함 진폭",
-      "Indication phase",
+      "Indication phase\n지시의 위상",
       "Refracted angle\n 결함 상 반사된 각도"
     ],
     "answer": 0
@@ -294,9 +292,9 @@
     "source": "TOFD General - A 20200317",
     "question": "Hyperbolic curves are used for what purpose in TOFD displays? 쌍곡선은 TOFD 표시에서 어떤 목적으로 사용되는가?",
     "options": [
-      "Flaw height sizing",
+      "Flaw height sizing\n결함 높이 측정",
       "Flaw depth determination\n 결함 높이 측정 결함 깊이 측정",
-      "Flaw length measurement",
+      "Flaw length measurement\n결함 길이 측정",
       "No reason at all, they just look nice\n 결함 길이 측정 모두 아니다, 그것들은 단지 좋게 보인다."
     ],
     "answer": 2
@@ -354,9 +352,9 @@
     "source": "TOFD General - A 20200317",
     "question": "A shift of the backwall arrival time to an earlier arrival would be indicative of . backwall 도착 시간이 이전 도착시간으로 이동되는 경우는 다음중 어떤 결함인가?",
     "options": [
-      "Root erosion",
+      "Root erosion\n루트 침식",
       "IP \n 루트부식 용입불량",
-      "Concave root",
+      "Concave root\n오목한 루트",
       "Any of the above\n 오목루트 상기 모두"
     ],
     "answer": 3
@@ -384,9 +382,9 @@
     "source": "TOFD General - A 20200317",
     "question": "Of the following sound wave modes, which one has multiple or varying wave velocities?\n다음 음파 모드 중 여러 가지 또는 다양한 파형 속도를 갖는 것은 무엇입니까?",
     "options": [
-      "Longitudinal waves",
+      "Longitudinal waves\n종파",
       "Shear waves\n 종파 전단파",
-      "Transverse waves",
+      "Transverse waves\n횡파",
       "Lamb waves\n 횡파 판파"
     ],
     "answer": 3
@@ -444,9 +442,9 @@
     "source": "TOFD General - A 20200317",
     "question": "What do Synchronous TOFD systems use to trigger data acquisition? 동기식 TOFD 시스템이 데이터 수집을 작동하는데 사용하는 것은?",
     "options": [
-      "UT instrument’s PRF",
+      "UT instrument’s PRF\n초음파 장비의 반복주파수(PRF)",
       "Computer clocks\n UT기기의 PRF 컴퓨터 시계",
-      "Encoder pulses",
+      "Encoder pulses\n엔코더 펄스",
       "The lateral wave arrival time\n 엔코더 펄스 횡파도달시간"
     ],
     "answer": 2
@@ -459,9 +457,9 @@
     "source": "TOFD General - A 20200317",
     "question": "A scan parallel to the weld axis in which the beam intersection point is not on the weld center-line is?\n빔 교차점이 용접 중심선에 있지 않는, 용접축에 평행한 검사는 무엇인가?",
     "options": [
-      "Not required in this procedure",
+      "Not required in this procedure\n이 절차서에서는 요구되지 않는다",
       "Only required in CC2235-9\n 이 절차서에 요구되지 않는다. 오직 CC2235-9에 요구된다.",
-      "An off-set scan",
+      "An off-set scan\n오프셋 주사",
       "A substitute for a parallel scan\n off-set 주사 평행 주사에 대한 대체"
     ],
     "answer": 3
@@ -549,9 +547,9 @@
     "source": "TOFD General - A 20200317",
     "question": "Probes used for TOFD must deliver the performance: TOFD에 사용되는 프로브는 다음성능을 제공해야한다",
     "options": [
-      "Low Frequency",
+      "Low Frequency\n저주파수",
       "High Frequency\n 저주파수 고주파수",
-      "Narrow Bandwidth",
+      "Narrow Bandwidth\n좁은 대역폭",
       "High Bandwidth\n 좁은 대역폭 광대역폭"
     ],
     "answer": 3
@@ -564,9 +562,9 @@
     "source": "TOFD General - A 20200317",
     "question": "In what area TOFD is uncertain? TOFD가 불확실한 영역은?",
     "options": [
-      "Near surface",
+      "Near surface\n표면 근처",
       "Far surface \n 표면부근 먼 표면",
-      "Near and Far surface",
+      "Near and Far surface\n가까운 표면과 먼 표면",
       "In the wall center \n 가깝거나 먼 표면 벽 가운데"
     ],
     "answer": 2

@@ -7,9 +7,9 @@
     "source": "PTS-II(2020)(A)",
     "question": "This procedure describes the Liquid penetrant testing for .\n본 절차서는 을 위한 침투 탐상방법을 기술한다.",
     "options": [
-      "pressure vessel welding",
+      "pressure vessel welding\n압력용기 용접",
       "Forging",
-      "Tubular Product",
+      "Tubular Product\n관 제품",
       "Casting"
     ],
     "answer": 2
@@ -151,7 +151,7 @@
     "source": "PTS-II(2020)(A)",
     "question": "A minimum period of time shall be established to ensure that the cleaning solution has evaporated prior to application of the penetrant. What is the minimum time for drying time of solvent cleaning?\n최소 건조시간은 세척제가 침투제의 적용 전 세척제가 증발되었다는 것을 확인 가능한 시간으로 정해야 하는다. 솔벤트 세척의 건조시간은 최소 얼마인가?",
     "options": [
-      "Not required",
+      "Not required\n요구되지 않음",
       "10 sec",
       "30 sec",
       "60 sec"
@@ -207,10 +207,10 @@
     "source": "PTS-II(2020)(A)",
     "question": "A 2in. thick. weld with 2mm outside reinforcement is to be examined by liquid penetrant method in accordance with ASME Sec. Ⅲ. NB-5000, which of the following is acceptable indication?\n두께가 2인치이고 2mm의 바깥쪽 용접덧살이 있는 용접부를 ASME Sec. Ⅲ NB-5000 에 따라 침투탐상검사법으로 검사할 때, 다음 중 합격 가능한 지시는 어떤 것인가?",
     "options": [
-      "1/32in. long - crack.",
-      "1/4in. dimension - rounded indication.",
-      "2/16in. dimension - four rounded indications in a line separated by 1/16in.",
-      "1/32in. dimension - ten rounded indications in a line separated by 1/16in."
+      "1/32in. long - crack.\n길이 1/32인치 — 균열",
+      "1/4in. dimension - rounded indication.\n치수 1/4인치 — 원형 지시",
+      "2/16in. dimension - four rounded indications in a line separated by 1/16in.\n치수 2/16인치 — 1/16인치 간격으로 일렬인 원형 지시 4개",
+      "1/32in. dimension - ten rounded indications in a line separated by 1/16in.\n치수 1/32인치 — 1/16인치 간격으로 일렬인 원형 지시 10개"
     ],
     "answer": 3
   },

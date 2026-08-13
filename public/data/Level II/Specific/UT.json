@@ -7,7 +7,7 @@
     "source": "UTS-II(2020)(A)",
     "question": "This procedure describes the ultrasonic methode for .\n본 절차서는 을 위한 초음파 탐상방법을 기술한다.",
     "options": [
-      "pressure vessel welding",
+      "pressure vessel welding\n압력용기 용접",
       "Forging",
       "Fitting",
       "Casting"
@@ -52,8 +52,8 @@
     "source": "UTS-II(2020)(A)",
     "question": "Calibration reflector for steel plate with angle beam probe, shall be used .\n강판 검사를 위한 교정반사체는 ?",
     "options": [
-      "side drill hole",
-      "Flat bottom hole",
+      "side drill hole\n측면 구멍(SDH)",
+      "Flat bottom hole\n평저공(FBH)",
       "Notch",
       "STB-A3"
     ],
@@ -112,10 +112,10 @@
     "source": "UTS-II(2020)(A)",
     "question": "What is the calibration block used to adjust the distance range calibration?\n측정범위 조정을 위해 사용하는 교정 블록은 무엇인가?",
     "options": [
-      "IIW Block",
+      "IIW Block\nIIW 시험편",
       "RB-4",
       "STB-A2",
-      "10% Notch Block"
+      "10% Notch Block\n10% 노치 시험편"
     ],
     "answer": 0
   },
@@ -127,10 +127,10 @@
     "source": "UTS-II(2020)(A)",
     "question": "Ultrasonic indication show on the screen with echo dynamic pattern as follow(weldment thickness:20mm). Indication length is 6mm and echo height is 1/2 DAC. Is this indication acceptable?\n20mm두께의 용접부를 UT 탐상하였더니 다음과 같은 에코 패턴이 나타났다. 지시의 길이는 6mm이고, 에코의 높이는 1/2 DAC선에 위치하였다. 합격인가?",
     "options": [
-      "Retest indication",
+      "Retest indication\n재검사 지시",
       "Accept",
       "Reject",
-      "Non-relevant indication"
+      "Non-relevant indication\n비관련 지시"
     ],
     "answer": 2
   },
@@ -157,10 +157,10 @@
     "source": "UTS-II(2020)(A)",
     "question": "What kind of hole in calibration block shall be used to verify the soundness of screen height linearity in instruments?\n어떤 종류의 구멍이 장비의 스크린 높이 직선상의 건전성을 증명하기 위해서 사용되어야 할까?",
     "options": [
-      "1/2T, 3/4T, Side drilled hole",
-      "1/2T, 1/4T, Side drilled hole",
-      "1/4T, 3/4T, Side drilled hole",
-      "1/4T, 1/8T, Side drilled hole"
+      "1/2T, 3/4T, Side drilled hole\n1/2T, 3/4T, 측면 구멍",
+      "1/2T, 1/4T, Side drilled hole\n1/2T, 1/4T, 측면 구멍",
+      "1/4T, 3/4T, Side drilled hole\n1/4T, 3/4T, 측면 구멍",
+      "1/4T, 1/8T, Side drilled hole\n1/4T, 1/8T, 측면 구멍"
     ],
     "answer": 0
   },
@@ -231,7 +231,7 @@
       "1 1/2 in",
       "3\"",
       "1\"",
-      "none of the above"
+      "none of the above\n위의 어느 것도 아님"
     ],
     "answer": 0,
     "image": "UT_SPECIFIC_VQ23.png"
@@ -298,25 +298,6 @@
       "70°"
     ],
     "answer": 1
-  },
-  {
-    "id": 21,
-    "level": "Level II",
-    "method": "UT",
-    "category": "Specific",
-    "source": "UTS-II(2020)(B)",
-    "question": "The rate of search unit movement for examination shall not exceed .\n검사 시 탐촉자의 이동 속도는 얼마를 넘어서는 안 되는가?",
-    "options": [
-      "150 mm/s B. 200mm/s",
-      "10 in/s D. 15 in/s",
-      "50% ± 5% B. 80% ± 5%",
-      "50% + 6dB D. 80% + 6dB",
-      "A:10 TIMES, B:20dB B. A:4 TIMES, B:12dB",
-      "A:2 TIMES, B: 6dB D. none of the above",
-      "12.5% of thickness B. 5% of thickness",
-      "10% of thickness D. 2% of thickness"
-    ],
-    "answer": 0
   },
   {
     "id": 23,

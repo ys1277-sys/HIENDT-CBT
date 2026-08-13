@@ -25,10 +25,10 @@
     "id": 3,
     "question": "Which of the following would normally be considered the best fill factor when testing straight tubing with an encircling or feedthrough coil?\n\n내삽코일 또는 외삽코일을 사용하여 직관 튜브 시험 시 일반적으로 가장 좋은 충진율은?",
     "options": [
-      "95%\n95%",
-      "175%\n175%",
-      "50%\n50%",
-      "25%\n25%"
+      "95%",
+      "175%",
+      "50%",
+      "25%"
     ],
     "answer": 0
   },
@@ -36,10 +36,10 @@
     "id": 4,
     "question": "The fill factor when a 13mm diameter bar is inserted in a 25mm diameter coil is:\n\n직경 13mm 봉이 직경 25mm 코일 내부에 위치할 때 충진율은?",
     "options": [
-      "50%\n50%",
-      "75%\n75%",
-      "100%\n100%",
-      "25%\n25%"
+      "50%",
+      "75%",
+      "100%",
+      "25%"
     ],
     "answer": 3
   },
@@ -80,10 +80,10 @@
     "id": 8,
     "question": "The inductive reactance of a test coil can be calculated using the formula:\n\n시험 코일의 유도 리액턴스를 계산하는 공식은?",
     "options": [
-      "XL = 2πL\nXL = 2πL",
-      "XL = 0.5πL\nXL = 0.5πL",
-      "XL = 2πfL\nXL = 2πfL",
-      "XL = IR\nXL = IR"
+      "XL = 2πL",
+      "XL = 0.5πL",
+      "XL = 2πfL",
+      "XL = IR"
     ],
     "answer": 2
   },
@@ -113,10 +113,10 @@
     "id": 11,
     "question": "If the characteristic frequency(fg) of a material is 125Hz, the test frequency required to give an f/fg ratio of 10 would be:\n\n재질의 특성 주파수(fg)가 125Hz이고 f/fg 비가 10일 때 필요한 시험 주파수는?",
     "options": [
-      "1.25Hz\n1.25Hz",
-      "12.5Hz\n12.5Hz",
-      "1.25kHz\n1.25kHz",
-      "12.5kHz\n12.5kHz"
+      "1.25Hz",
+      "12.5Hz",
+      "1.25kHz",
+      "12.5kHz"
     ],
     "answer": 2
   },
@@ -212,10 +212,10 @@
     "id": 20,
     "question": "The formula used to calculate the impedance of an eddy current test coil is:\n\n와전류 시험 코일의 임피던스 계산 공식은?",
     "options": [
-      "Z = 2πfL\nZ = 2πfL",
-      "Z = XL + R\nZ = XL + R",
-      "Z = IR\nZ = IR",
-      "Z = √(R²+XL²)\nZ = √(R²+XL²)"
+      "Z = 2πfL",
+      "Z = XL + R",
+      "Z = IR",
+      "Z = √(R²+XL²)"
     ],
     "answer": 3
   },
@@ -344,10 +344,10 @@
     "id": 32,
     "question": "The symbol commonly used to signify impedance is:\n\n임피던스를 의미하는데 일반적으로 사용되는 기호는?",
     "options": [
-      "Z\nZ",
-      "Xξ\nXξ",
-      "R\nR",
-      "Xc\nXc"
+      "Z",
+      "Xξ",
+      "R",
+      "Xc"
     ],
     "answer": 0
   },

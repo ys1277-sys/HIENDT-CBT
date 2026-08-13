@@ -52,7 +52,7 @@
     "source": "MTS-II(2020)(A)",
     "question": "This procedure describes the Magnetic particle testing for .\n본 절차서는 을 위한 자분 탐상방법을 기술한다.",
     "options": [
-      "pressure vessel welding",
+      "pressure vessel welding\n압력용기 용접",
       "Forging",
       "Fitting",
       "Casting"
@@ -115,7 +115,7 @@
       "AC Yoke",
       "Prod",
       "Coil",
-      "Head shot"
+      "Head shot\n축통전법(head shot)"
     ],
     "answer": 0
   },
@@ -247,7 +247,7 @@
       "AC",
       "DC",
       "HWDC",
-      "All of current"
+      "All of current\n위의 전류 모두"
     ],
     "answer": 0
   },
@@ -262,7 +262,7 @@
       "AC Yoke",
       "Prod",
       "Coil",
-      "Head shot",
+      "Head shot\n축통전법(head shot)",
       "에 3배이상일 경우\n 원형지시 : 결함의 길이(L)이 결함의 지름",
       "에 3배미만일 경우"
     ],

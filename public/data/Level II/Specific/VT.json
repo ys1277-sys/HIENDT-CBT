@@ -187,10 +187,10 @@
     "source": "VTS-II(2020)(A)",
     "question": "Which of following parts of Level I and Level Ⅱ examinations shall be written?\nLevel I과 II 시험중 서면시험은?",
     "options": [
-      "the general and specific",
-      "the general and practical",
-      "the general, specific, and practical",
-      "only the general"
+      "the general and specific\n일반과 전문",
+      "the general and practical\n일반과 실기",
+      "the general, specific, and practical\n일반, 전문, 실기",
+      "only the general\n일반만"
     ],
     "answer": 0
   },
@@ -219,8 +219,8 @@
     "options": [
       "plate",
       "weldments",
-      "bar stock",
-      "valve castings"
+      "bar stock\n봉재",
+      "valve castings\n밸브 주조품"
     ],
     "answer": 2
   },
@@ -232,10 +232,10 @@
     "source": "VTS-II(2020)(A)",
     "question": "is usually at the initiation or completion of welds.\n용접의 시작 또는 끝에서 생기는 결함은",
     "options": [
-      "crater cracks",
+      "crater cracks\n크레이터 균열",
       "blowholes",
       "crack",
-      "incomplete weld"
+      "incomplete weld\n용접 미완성"
     ],
     "answer": 0
   },
@@ -355,7 +355,7 @@
       "1/32",
       "1/8\"",
       "1/16",
-      "None of above"
+      "None of above\n위의 어느 것도 아님"
     ],
     "answer": 3
   },

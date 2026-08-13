@@ -22,9 +22,9 @@
     "source": "PAUT General - A 20200317",
     "question": "Which wave mode is used mostly when testing with 0° sound beam?\n다음 초음파 모드중 0°에 주로 사용되는 모드는?",
     "options": [
-      "surface waves",
+      "surface waves\n표면파",
       "transverse waves \n 표면파 횡파",
-      "longitudinal waves",
+      "longitudinal waves\n종파",
       "lamb waves\n 종파 판파"
     ],
     "answer": 2
@@ -67,7 +67,7 @@
     "source": "PAUT General - A 20200317",
     "question": "What is the term for the distance from the start of the first to the end of the last active element of a linear array?\n선형 배열의 마지막 활성 진동자의 맨 처음부터 끝까지의 거리를 무엇이라 하는가?",
     "options": [
-      "focal depth",
+      "focal depth\n초점 깊이",
       "aperture \n 집속 깊이 구경",
       "pitch",
       "x-offset\n 피치 엑스-오프셋"
@@ -142,7 +142,7 @@
     "source": "PAUT General - A 20200317",
     "question": "How is the scanning with a variable beam in the phased array technique designated?\n위상 배열 기술에서 가변 빔을 사용한 스캔은 어떻게 이루어지는가?",
     "options": [
-      "sector scan",
+      "sector scan\n섹터 주사",
       "linear scan\n 부채꼴 스캔 선형 스캔",
       "B scan",
       "C scan\n B 스캔 C 스캔"
@@ -217,10 +217,10 @@
     "source": "PAUT General - A 20200317",
     "question": "What information can be taken from an A-scan presentation? A-scan 표시로부터 얻을 수 있는 정보는 무엇인가?",
     "options": [
-      "the longitudinal coordinates at a reflector\n 반사체에서의 종방향 좌표",
-      "the echo amplitude of a reflector\n 반사체의 에코 높이",
-      "the echo position\n 에코 위치",
-      "The answers a) and b) are correct.\n a와 b가 맞음"
+      "The longitudinal coordinates of a reflector\n반사체의 종방향 좌표",
+      "The echo amplitude of a reflector\n반사체의 에코 높이",
+      "The echo position\n에코 위치",
+      "The answers 1 and 2 are correct\n1번과 2번이 맞다"
     ],
     "answer": 3
   },
@@ -292,9 +292,9 @@
     "source": "PAUT General - A 20200317",
     "question": "Phased array probes mounted on angled wedges\n사각 웨지에 장착된 PA 프로브 어떠한가 ?",
     "options": [
-      "Use transverse wave propagation",
+      "Use transverse wave propagation\n횡파 전파를 이용한다",
       "Use longitudinal wave propagation\n 횡파 전파 사용 종파 전파 사용",
-      "Use modified shear waves.",
+      "Use modified shear waves.\n변형된 횡파를 이용한다",
       "and b) are correct\n 변형된 전단파를 사용 a)와 b) 둘 다 맞다."
     ],
     "answer": 3
@@ -310,7 +310,7 @@
       "The area available to site the probe on an component.\n 구성 요소의 프로브를 현장에 배치할 수 있는 영역.",
       "The number of elements addressed by a given focal law\n 주어진 초점 법칙에 의해 처리된 진동자의 수",
       "The length of the transducer in the ‘active’ axis\n 활성 축의 변환기 길이",
-      "The electronic ‘snapshot’",
+      "The electronic ‘snapshot’\n전자적 스냅샷",
       "the area along the path length that data is collected.\n 전기적 정보 예. 데이터가 수집되는 경로 길이를 따르는 영역."
     ],
     "answer": 1
@@ -353,9 +353,9 @@
     "source": "PAUT General - A 20200317",
     "question": "What ultimately determines the accuracy of the position of s signal in the time gate?\n무엇이 궁극적으로 시간 게이트에서 신호의 위치를 정확하게 결정하는가?",
     "options": [
-      "the encoder",
+      "the encoder\n엔코더",
       "the reference target amplitude\n 엔코더 기준 타겟 진폭",
-      "probe frequency",
+      "probe frequency\n탐촉자 주파수",
       "Analogue to Digital digitising frequency\n 프로브 주파수 아날로그 디지털 디지털화 주파수"
     ],
     "answer": 3
@@ -383,7 +383,7 @@
     "source": "PAUT General - A 20200317",
     "question": "Which of the following defects in a weld (bevel angel of 30°) may be detected best with a 60° linear scan?\n60°선형 스캔으로 인해 용접부(베벨각 30",
     "options": [
-      "transverse crack",
+      "transverse crack\n횡균열",
       "root crack \n 횡 균열 바닥부 균열\n \n c. lamination in the base metal",
       "에서 다음 중 어느 것이 가장 잘 감지될 수 있습니까?",
       "lack of side wall fusion\n 모재의 라미네이션 옆면 융합불량"
@@ -400,7 +400,7 @@
     "options": [
       "frequency",
       "voltage to the pulser\n 주파수 펄스 전압",
-      "pulse duration of the pulser voltage",
+      "pulse duration of the pulser voltage\n펄서 전압의 펄스 지속시간",
       "number of elements used \n 펄스 파고 펄스 지속 시간 라. 사용된 진동자의 개수"
     ],
     "answer": 3
@@ -413,10 +413,10 @@
     "source": "PAUT General - A 20200317",
     "question": "What effects diminishes the echo height of a reflector by a great sound beam path?\n어떤 효과에 의해서, 긴 빔거리에서 반사체로부터의 에코 높이가 감소되는가?",
     "options": [
-      "by losses due to divergence",
-      "by losses due to reflection\n 분산에 따른 손실 반사에 의한 손실",
-      "by losses due to sound attenuation",
-      "Answers a) and c) are correct.\n 감쇠에 의한 손실 a)와 c) 둘 다 맞다."
+      "By losses due to divergence\n확산에 의한 손실",
+      "By losses due to reflection\n반사에 의한 손실",
+      "By losses due to sound attenuation\n음파 감쇠에 의한 손실",
+      "The answers 1 and 3 are correct\n1번과 3번이 맞다"
     ],
     "answer": 3
   },
@@ -428,10 +428,10 @@
     "source": "PAUT General - A 20200317",
     "question": "What is another name for the S-scan? S-scan의 다른 이름을 무엇이라 하는가?",
     "options": [
-      "Sectorial",
-      "Azimuthal \n 부채꼴 방위각",
-      "Linear",
-      "Both a) and b)\n 선형 a)와 b) 둘 다"
+      "Sectorial\n섹토리얼(부채꼴)",
+      "Azimuthal\n방위각",
+      "Linear\n선형",
+      "Both 1 and 2\n1번과 2번 둘 다"
     ],
     "answer": 3
   },
@@ -458,9 +458,9 @@
     "source": "PAUT General - A 20200317",
     "question": "Phased array UT instrument shall meet the requirement of amplitude control linearity\nPA 기기는 진폭 제어 직선성의 요구 사항을 충족해야 한다.",
     "options": [
-      "For each focal law",
+      "For each focal law\n각 초점법칙마다",
       "For each pulse-receiver circuit\n 각 초점법에 대해 각 펄스 수신기 회로에 대해",
-      "For each separate element",
+      "For each separate element\n각 진동자마다",
       "All of the above\n 각 분리된 진동자에 대해 모두 맞다."
     ],
     "answer": 1
@@ -550,7 +550,7 @@
     "options": [
       "B-scan",
       "C-scan \n B-스캔 C-스캔",
-      "Depth-encoded C-scan",
+      "Depth-encoded C-scan\n깊이 정보를 담은 C-scan",
       "P-scan\n 깊이-인코딩 C-스캔 P-스캔"
     ],
     "answer": 1

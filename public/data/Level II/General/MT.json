@@ -342,9 +342,9 @@
     "question": "A large forging is repaired by welding. Mamgetic particle inspection of the repair weld reveals an irregular indication running parallel with the weld passes. It is located in the center of the bead and stars and ends by turning off slightly from the axial direction. This indication is indicative of:\n큰 단조품은 용접으로 수정한다. 이 단조품에서 자분탐상검사시 용접 패스와 평행하게 불규칙적 지시가 나타나며, 비드 중앙에 나타나고, 별 모양이고, 축 방향으로부터 가늘게 사라지는 끝단을 갖는 결함은?",
     "options": [
       "inclusions",
-      "crater cracks",
-      "weld shrinkage cracks",
-      "surface checking"
+      "crater cracks\n크레이터 균열",
+      "weld shrinkage cracks\n용접 수축 균열",
+      "surface checking\n표면 잔균열(체킹)"
     ],
     "answer": 2
   },
@@ -371,10 +371,10 @@
     "source": "MTG-II(A)",
     "question": "The best shape for magnetic particles used in the dry powder method is:\n건식 자분을 사용할 때 자분의 좋은 형태는?",
     "options": [
-      "flat",
-      "globular",
-      "long and slender",
-      "a mixture of B and C"
+      "flat\n납작한 형상",
+      "globular\n둥근 형상",
+      "long and slender\n길고 가는 형상",
+      "A mixture of 2 and 3\n2번과 3번의 혼합"
     ],
     "answer": 3
   },
@@ -433,7 +433,7 @@
     "options": [
       "represents the mid-point of the rectified AC current applied\n (정류된 교류전류가 적용된 중앙 점을 나타냄)",
       "is the material's magnetic saturation point\n재질의 자기포화점",
-      "represents the point at which the residual magnetic value will remain when the magnetic",
+      "represents the point at which the residual magnetic value will remain when the magnetizing current is removed\n자장의 흐름을 제거했을 때 남아 있는 잔류자장의 값을 나타냄",
       "is the limit of coercive force\n항자력의 제한"
     ],
     "answer": 1
