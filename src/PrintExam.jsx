@@ -580,7 +580,15 @@ function PrintExam({
 
   function Question({
     q,
-    index
+    index,
+    /*
+     * 묶음 지시문을 찍을지.
+     *
+     * 측정 영역은 늘 켜 둔다. 쪽을 나누기 전에는 어느 문항이 쪽 맨 위에
+     * 올지 알 수 없어, 안 찍는 것으로 재면 그 문항이 쪽 머리로 밀렸을 때
+     * 지시문 높이만큼 넘쳐 잘린다. 넉넉히 재고 찍을 때만 고른다.
+     */
+    showNote = true
   }) {
 
     const rawUserAnswer =
@@ -613,7 +621,7 @@ function PrintExam({
       >
 
         {/* 번호는 이 시험지에서 실제로 몇 번인지를 넣는다 */}
-        <GroupNote q={q} range={ranges.get(q)} />
+        {showNote ? <GroupNote q={q} range={ranges.get(q)} /> : null}
 
 
         <div
@@ -1113,6 +1121,23 @@ function PrintExam({
                             );
 
 
+                          /*
+                           * 묶음 지시문은 묶음 맨 앞에 한 번만 찍는다.
+                           *
+                           * 화면은 한 문항씩 보여주니 문항마다 나와야 하지만,
+                           * 종이는 문항이 이어져 나오므로 1~6번 위에 여섯 번
+                           * 되풀이할 까닭이 없다. 원본 시험지도 한 번만 찍는다.
+                           *
+                           * 다만 묶음이 쪽을 넘어가면 다음 쪽 맨 위에는 다시
+                           * 찍는다. 안 그러면 뒷쪽만 보는 사람은 어느 절차서를
+                           * 보고 풀어야 하는지 알 수 없다.
+                           */
+                          const showNote =
+                            questionIndex === 0 ||
+                            pageQuestions[questionIndex - 1].groupNote !==
+                              q.groupNote;
+
+
                           return (
 
                             <Question
@@ -1124,6 +1149,8 @@ function PrintExam({
                               }
 
                               q={q}
+
+                              showNote={showNote}
 
                               index={
                                 realIndex >= 0

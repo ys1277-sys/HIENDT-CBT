@@ -496,7 +496,9 @@ function PrintAdminExam({
 
   function Question({
     q,
-    index
+    index,
+    /* 묶음 지시문을 찍을지 — PrintExam 과 같다 */
+    showNote = true
   }) {
 
     const rawUserAnswer =
@@ -529,7 +531,7 @@ function PrintAdminExam({
       >
 
         {/* 번호는 이 시험지에서 실제로 몇 번인지를 넣는다 */}
-        <GroupNote q={q} range={ranges.get(q)} />
+        {showNote ? <GroupNote q={q} range={ranges.get(q)} /> : null}
 
 
         <div
@@ -983,6 +985,16 @@ function PrintAdminExam({
                             );
 
 
+                          /*
+                           * 묶음 지시문은 묶음 맨 앞에 한 번만 — PrintExam 과 같다.
+                           * 쪽을 넘어가면 다음 쪽 맨 위에는 다시 찍는다.
+                           */
+                          const showNote =
+                            questionIndex === 0 ||
+                            pageQuestions[questionIndex - 1].groupNote !==
+                              q.groupNote;
+
+
                           return (
 
                             <Question
@@ -994,6 +1006,8 @@ function PrintAdminExam({
                               }
 
                               q={q}
+
+                              showNote={showNote}
 
                               index={
                                 realIndex >= 0
