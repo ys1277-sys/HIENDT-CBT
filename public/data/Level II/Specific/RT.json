@@ -83,7 +83,7 @@
     "method": "RT",
     "category": "Specific",
     "source": "RTS-II(2020)(A)",
-    "question": "What is the part of the γ-ray machine which is used to move the radiographic isotope to the objects?\n(방사성 동위원소를 피사체까지 이동시키는데 사용되어지는 γ-선 장치의 부품은 무엇인가?",
+    "question": "What is the part of the γ-ray machine which is used to move the radiographic isotope to the objects?\n방사성 동위원소를 피사체까지 이동시키는데 사용되어지는 γ-선 장치의 부품은 무엇인가?",
     "options": [
       "Front guiding\n전방 가이드 튜브",
       "Connector\n연결부",
@@ -318,7 +318,7 @@
     "method": "RT",
     "category": "Specific",
     "source": "RTS-II(2020)(B)",
-    "question": "A lead symbol \"B\" for checking of back scattered radiation, shall have be minimum dimension of ______ in hight and ______ thickness.\n후방산란 확인을 위해 사용되는 납글자 B의 크기는?",
+    "question": "A lead symbol \"B\" for checking of back scattered radiation, shall have be minimum dimension of ______ in height and ______ thickness.\n후방산란 확인을 위해 사용되는 납글자 B의 크기는?",
     "options": [
       "1/4\", 1/16\"",
       "1/2\", 1/8\"",

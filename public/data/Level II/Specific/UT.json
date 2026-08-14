@@ -37,7 +37,7 @@
     "method": "UT",
     "category": "Specific",
     "source": "UTS-II(2020)(A)",
-    "question": "Serch unit shall be ______ angle beam probe.\n탐촉자는 ______ 도 사각 탐촉자를 사용해야 한다.",
+    "question": "Search unit shall be ______ angle beam probe.\n탐촉자는 ______ 도 사각 탐촉자를 사용해야 한다.",
     "options": [
       "0°",
       "45°",
@@ -182,7 +182,7 @@
     "method": "UT",
     "category": "Specific",
     "source": "UTS-II(2020)(A)",
-    "question": "What is the maximum allowed length of indication in a 3in. thick weld? (This indication is not interpreted to be a crack, lack of fusion and incompleted penetration.)\n두께 3인치 맞대기 용접부에서의 최대허용지시의 길이는? 이 지시는 균열, 용입부족 및 융합불량으로 판정되지 않는다.",
+    "question": "What is the maximum allowed length of indication in a 3in. thick weld? (This indication is not interpreted to be a crack, lack of fusion and incomplete penetration.)\n두께 3인치 맞대기 용접부에서의 최대허용지시의 길이는? 이 지시는 균열, 용입부족 및 융합불량으로 판정되지 않는다.",
     "options": [
       "1/4in.",
       "2/4in.",
@@ -202,7 +202,7 @@
       "1.6 mm, regardless of wall thickness.\n벽 두께와 상관없이 일괄적으로 1.6mm",
       "3% of the wall thickness.\n벽 두께의 3%",
       "5% of the wall thickness\n벽 두께의 5%",
-      "10% of the wall thickness)(벽 두께의 10%)"
+      "10% of the wall thickness(벽 두께의 10%)"
     ],
     "answer": 2
   },

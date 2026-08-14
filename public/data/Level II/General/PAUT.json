@@ -80,7 +80,7 @@
     "method": "PAUT",
     "category": "General",
     "source": "PAUT General - A 20200317",
-    "question": "A 16/128 PA unit is used to perform a focussed inspection, the 1D linear probe has 64 elements, Calculate the maximum limit of the probes focus with no wedge present in the active plane using a 0〫 compression wave. Frequency : 5MHz / Element width : 0.9mm / Gap between elements : 0.1mm Vs : 3.24㎜/㎲ / Vc : 5.96㎜/㎲\n16/128 PA 장비가 초점 검사를 수행하는 데 사용되며, 64 진동자의 1D 선형 프로브를 사용 한다. 0도 종파를 사용하여 활성 평면에 쐐기가 없는 프로브 포커스의 최대 한계를 계산하 시오.",
+    "question": "A 16/128 PA unit is used to perform a focused inspection, the 1D linear probe has 64 elements, Calculate the maximum limit of the probes focus with no wedge present in the active plane using a 0〫 compression wave. Frequency : 5MHz / Element width : 0.9mm / Gap between elements : 0.1mm Vs : 3.24㎜/㎲ / Vc : 5.96㎜/㎲\n16/128 PA 장비가 초점 검사를 수행하는 데 사용되며, 64 진동자의 1D 선형 프로브를 사용 한다. 0도 종파를 사용하여 활성 평면에 쐐기가 없는 프로브 포커스의 최대 한계를 계산하 시오.",
     "options": [
       "53.7㎜",
       "98.8㎜",
@@ -110,7 +110,7 @@
     "method": "PAUT",
     "category": "General",
     "source": "PAUT General - A 20200317",
-    "question": "With which formular is it possible to calculate the near-field length N of an unfocussed one-dimensional array? (A = aperture)\n다음 중 어떠한 공식을 이용하여 집속되지 않은 1차원 배열 탐촉자의 근거리음장 길이를 계산할 수 있는가?",
+    "question": "With which formula is it possible to calculate the near-field length N of an unfocused one-dimensional array? (A = aperture)\n다음 중 어떠한 공식을 이용하여 집속되지 않은 1차원 배열 탐촉자의 근거리음장 길이를 계산할 수 있는가?",
     "options": [
       "N = (A²",
       "N = (A²*f)/4c c. N = (A²*4)/cf",
@@ -280,7 +280,7 @@
       "if the aperture is much greater than the array in the passive direction\n 구경(aperture)이 passive direction에서의 배열(array)보다 훨씬 클 경우",
       "if the size of the aperture is equal to the width of the transducers in the passive\n direction\n 구경(aperture)의 크기가 passive direction에서의 진종자의 폭과 같을 경우",
       "if the focal factor is k = 1\n 집속 인자가 1일 경우",
-      "if the sound beam is focussed\n 초음파 빔이 집속될 경우"
+      "if the sound beam is focused\n 초음파 빔이 집속될 경우"
     ],
     "answer": 1
   },
@@ -290,7 +290,7 @@
     "method": "PAUT",
     "category": "General",
     "source": "PAUT General - A 20200317",
-    "question": "Phased array probes mounted on angled wedges\n사각 웨지에 장착된 PA 프로브 어떠한가 ?",
+    "question": "Phased array probes mounted on angled wedges\n사각 웨지에 장착된 PA 프로브는 어떠한가?",
     "options": [
       "Use transverse wave propagation\n횡파 전파를 이용한다",
       "Use longitudinal wave propagation\n종파 전파를 이용한다",
@@ -368,7 +368,7 @@
     "question": "What is the effect of long pulses?\n긴 펄스의 영향은 무엇인가?",
     "options": [
       "The UT test shows a low depth resolution.\n UT 테스트는 낮은 깊이 분해능을 보여 준다.",
-      "The UT test shows a high resolution in the fare field.\n UT 테스트는 필드에서 높은 분해능을 보여 준다.",
+      "The UT test shows a high resolution in the far field.\n UT 테스트는 필드에서 높은 분해능을 보여 준다.",
       "The pulses can be used for determining the half-value width.\n 펄스는 반 값 폭을 결정하는 데 사용할 수 있습니다.",
       "Long pulses show a high velocity.\n 긴 펄스는 높은 속도를 보여준다."
     ],
@@ -520,7 +520,7 @@
       "The Dead Zone of the elements\n 진동자의 비활성영역",
       "Approximately 10% of the near field\n 근거리음장의 약 10%",
       "There is no practical near limit\n 실제적으로 근거리 한계는 없다.",
-      "The near limit can be adjusted by focussing the probe.\n 프로브를 초점으로 하여 근접 한계를 조정할 수 있다."
+      "The near limit can be adjusted by focusing the probe.\n 프로브를 초점으로 하여 근접 한계를 조정할 수 있다."
     ],
     "answer": 1
   },
@@ -545,7 +545,7 @@
     "method": "PAUT",
     "category": "General",
     "source": "PAUT General - A 20200317",
-    "question": "lf a plan view was plotted with indications exceeding a threshold (typically 5%FSH), represented as a different colour for each 20% increment of depth, we could have a colour-coded depth distribution of flaws. What is the name given to such a display?\n계획 뷰가 임계값(대개 5%)을 초과하는 경우, 20%의 깊이 증가를 나타내는 다른 색상으로 표시된 경우, 결함의 색코드 깊이 분포를 가질 수 있다. 이러한 디스플레이에 주어진 이름 은 무엇인가?",
+    "question": "lf a plan view was plotted with indications exceeding a threshold (typically 5%FSH), represented as a different color for each 20% increment of depth, we could have a color-coded depth distribution of flaws. What is the name given to such a display?\n계획 뷰가 임계값(대개 5%)을 초과하는 경우, 20%의 깊이 증가를 나타내는 다른 색상으로 표시된 경우, 결함의 색코드 깊이 분포를 가질 수 있다. 이러한 디스플레이에 주어진 이름 은 무엇인가?",
     "options": [
       "B-scan\nB-스캔",
       "C-scan\nC-스캔",
@@ -562,7 +562,7 @@
     "source": "PAUT General - A 20200317",
     "question": "Phased-array data displays are better used with TCG than with DAC curves. Why?\nPA 데이터를 나타내는데 DAC 보다 TCG가 더 좋은 이유는?",
     "options": [
-      "Because evaluation of displays is usually based on amplitude colour-coding\n 디스플레이에 대한 평가는 대개 진폭 색코드를 기반으로 하기 때문이다.",
+      "Because evaluation of displays is usually based on amplitude color-coding\n 디스플레이에 대한 평가는 대개 진폭 색코드를 기반으로 하기 때문이다.",
       "More TCG points can be used than are available with DAC points\n DAC 포인트를 사용할 수 있는 경우보다 더 많은 TCG 포인트를 사용할 수 있기 때문이\n 다.",
       "Accept / reject assessments made using the A-scans\n A-scan을 사용하여 합격 / 불합격 판정을 할 수 있다.",
       "TCGs provide better dynamic range and avoid saturating signals\n TCG가 활성 범위가 더 넓고 포화 신호를 피할 수 있기 때문이다."

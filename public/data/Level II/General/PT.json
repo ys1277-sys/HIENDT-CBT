@@ -140,7 +140,7 @@
     "method": "PT",
     "category": "General",
     "source": "PTG-II(A)",
-    "question": "Which of the following discontinuities could produce penetrant indication consisting of a series of aligued dots?\n다음의 불연속 중에서 일직선 형태의 점들로 나타나는 것은?",
+    "question": "Which of the following discontinuities could produce penetrant indication consisting of a series of aligned dots?\n다음의 불연속 중에서 일직선 형태의 점들로 나타나는 것은?",
     "options": [
       "A tight crack\n밀착된 균열",
       "A wide or gross crack\n넓거나 큰 균열",
@@ -275,7 +275,7 @@
     "method": "PT",
     "category": "General",
     "source": "PTG-II(A)",
-    "question": "A black light lamp should not be used with a cracked filter or without the filter in place because of the harmful effects to the human eyes casued by ______ emitted from such a lamp.\n흑광은 금이간 필터나 필터 없이 사용하면 안된다. 왜냐하면 램프로부터 ______ 을 방출하여 눈에 해를 미치기 때문이다.",
+    "question": "A black light lamp should not be used with a cracked filter or without the filter in place because of the harmful effects to the human eyes caused by ______ emitted from such a lamp.\n흑광은 금이간 필터나 필터 없이 사용하면 안된다. 왜냐하면 램프로부터 ______ 을 방출하여 눈에 해를 미치기 때문이다.",
     "options": [
       "black light\n흑광",
       "Ultraviolet light\n자외선",
@@ -308,7 +308,7 @@
     "question": "Which of the following is a criterion for a good dryer?\n좋은 건조기의 표준은?",
     "options": [
       "it has the ability to dry the surface slowly\n천천히 표면이 건조되는 능력",
-      "it has the anility to heat the part to an optimum temperature in a minimum of time so that the part is both dry and warm as promptly as possible\n가능한 빨리 제품을 최단시간에 건조시키고 따듯하도록 최적의 온도로 가열할 수 있는 능력",
+      "it has the ability to heat the part to an optimum temperature in a minimum of time so that the part is both dry and warm as promptly as possible\n가능한 빨리 제품을 최단시간에 건조시키고 따듯하도록 최적의 온도로 가열할 수 있는 능력",
       "it has the electrical heating elements can be introduced into the inspection process\n (전기적 가열 소자는 검사절차에 소개될 수 있다)",
       "it is a warm air blast system\n온풍 시스템"
     ],
@@ -354,7 +354,7 @@
     "options": [
       "small tight crack\n작고 tight한 크랙",
       "rounded indication\n둥근 지시",
-      "fine liner indication\n미세한 선형 지시",
+      "fine linear indication\n미세한 선형 지시",
       "faint intermittent line\n희미한 간헐적인 선"
     ],
     "answer": 1

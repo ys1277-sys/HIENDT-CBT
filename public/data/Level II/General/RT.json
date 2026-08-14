@@ -80,12 +80,12 @@
     "method": "RT",
     "category": "General",
     "source": "RTG-II(A)",
-    "question": "An ACME Pentameter for use when inspecting a one-half inch thick steel plate to the 2-2T quality level using a 15inch source-to-film distance would be made of:\n선원과 필름간의 거리가 15인치, 2-2T로 2분의 1인치 철판을 검사할 때 투과도 계는 무엇으로 만드는가?",
+    "question": "An ASME Penetrameter for use when inspecting a one-half inch thick steel plate to the 2-2T quality level using a 15 inch source-to-film distance would be made of:\n선원과 필름간의 거리가 15인치, 2-2T로 2분의 1인치 철판을 검사할 때 투과도계는 무엇으로 만드는가?",
     "options": [
       "5 mil thick aluminum\n5mil 두께의 알루미늄",
-      "50 mil thatch aluminum or steel\n50mil 두께의 알루미늄이나 철",
+      "50 mil thick aluminum or steel\n50mil 두께의 알루미늄이나 철",
       "10 mil thick steel\n10mil 두께의 철",
-      "2 mil strip of any metallic material\n2mil Strip 어로 된 모든 금속제"
+      "2 mil strip of any metallic material\n2mil 두께의 모든 금속 스트립"
     ],
     "answer": 2
   },
@@ -410,7 +410,7 @@
     "method": "RT",
     "category": "General",
     "source": "RTG-II(A)",
-    "question": "Cobalt-60 is reported to have a half-life of 5.3 years. By how much should exposure time be increased (over that used initially to produce excellent rediographs when the cobalt-60 source was new) when the source is two years old?\nCo 60 반감기는 5.3년이다. Co-60 선원을 2년이 지난 후에는 노출시간을 처음으로 사용할 때보다 얼마만큼 증가시켜 사용하여야 하는가?",
+    "question": "Cobalt-60 is reported to have a half-life of 5.3 years. By how much should exposure time be increased (over that used initially to produce excellent radiographs when the cobalt-60 source was new) when the source is two years old?\nCo 60 반감기는 5.3년이다. Co-60 선원을 2년이 지난 후에는 노출시간을 처음으로 사용할 때보다 얼마만큼 증가시켜 사용하여야 하는가?",
     "options": [
       "No change in exposure time is needed\n노출시간의 변화는 필요 없다",
       "Exposure time should be about 11 percent longer\n약 11% 길게 해야 한다.",
@@ -425,7 +425,7 @@
     "method": "RT",
     "category": "General",
     "source": "RTG-II(A)",
-    "question": "A source of iridium-192, whose half - life is 75 day, provides an optimum exposure of a given test object today in a period of 20 minutes. Five months from mow, what exposure time would be required for the same radiographic density, under similar exposure condition?\nIr 192 반감기는 75일 이다. 어떤 시험물에 20분 노출시간으로 최적의 방사선 사진을 얻었다. 지금부터 5개월 후에 같은 조건하에서 똑같은 방사선 사진을 얻기 위해 노출 시간을 얼마로 해야 하나?",
+    "question": "A source of iridium-192, whose half-life is 75 days, provides an optimum exposure of a given test object today in a period of 20 minutes. Five months from now, what exposure time would be required for the same radiographic density, under similar exposure condition?\nIr 192 반감기는 75일 이다. 어떤 시험물에 20분 노출시간으로 최적의 방사선 사진을 얻었다. 지금부터 5개월 후에 같은 조건하에서 똑같은 방사선 사진을 얻기 위해 노출 시간을 얼마로 해야 하나?",
     "options": [
       "10 minutes\n10분",
       "20 minutes\n20분",

@@ -53,7 +53,7 @@
     "method": "VT",
     "category": "General",
     "source": "VTG-llA(개정판)-2016.10.18",
-    "question": "A is a device by which it is possible to view objects that are moving rapidly with a periodic motion and to see them as if they were at rest?\n동일주기로 빠르게 움직이고 있는 물체와 그 물체를 마치 정지하고 있는 것처럼 관찰 할 수 있는 장치는?",
+    "question": "A ______ is a device by which it is possible to view objects that are moving rapidly with a periodic motion and to see them as if they were at rest?\n동일주기로 빠르게 움직이고 있는 물체와 그 물체를 마치 정지하고 있는 것처럼 관찰 할 수 있는 ______ 장치는?",
     "options": [
       "stroboscope\n섬광 촬영장치",
       "telescope\n망원경",
@@ -68,7 +68,7 @@
     "method": "VT",
     "category": "General",
     "source": "VTG-llA(개정판)-2016.10.18",
-    "question": "Which formular is correct to calculate the focal length of the lens?\n다음 계산식중 렌즈의 초점길이를 계산하는데 올바른 것은?",
+    "question": "Which formula is correct to calculate the focal length of the lens?\n다음 계산식중 렌즈의 초점길이를 계산하는데 올바른 것은?",
     "options": [
       "1/a - 1/b = 1/f            where a : distance from object to lens(사물-렌즈 거리)\nb : distance from lens to image(렌즈-상 거리)",
       "1/a + 1/b = 1/f                  f : focal length of the lens(렌즈의 초점길이)",
@@ -188,7 +188,7 @@
     "method": "VT",
     "category": "General",
     "source": "VTG-llA(개정판)-2016.10.18",
-    "question": "AEvery color has three physical characteristics. Which of the following is not described character of color?\n모든 색상은 세가지 물질적 특성을 가지는데 다음 중 색의 특성에 해당되지 않는 것은?",
+    "question": "Every color has three physical characteristics. Which of the following is not described character of color?\n모든 색상은 세가지 물질적 특성을 가지는데 다음 중 색의 특성에 해당되지 않는 것은?",
     "options": [
       "hue or tone\n빛깔 또는 색조",
       "brightness or luminosity\n휘도 또는 광도",
@@ -203,7 +203,7 @@
     "method": "VT",
     "category": "General",
     "source": "VTG-llA(개정판)-2016.10.18",
-    "question": "Measurements are classified as being either:\n측정은 .....로써 분류한다.",
+    "question": "Measurements are classified as being either:\n측정은 ______로써 분류한다.",
     "options": [
       "Comparative of absolute\n절대비교",
       "Comparative or dimensional\n비교 또는 치수",
@@ -484,7 +484,7 @@
     "question": "Which of the following metals can typically be used in the as-cast state?\n주조상태내에 사용 되어질수 있는 금속은?",
     "options": [
       "Aluminum\n알루미늄",
-      "Zine\n아연",
+      "Zinc\n아연",
       "Steel\n강",
       "Iron\n철",
       "All of the above\n위의 모두"
@@ -588,7 +588,7 @@
     "method": "VT",
     "category": "General",
     "source": "VTG-llA(개정판)-2016.10.18",
-    "question": "Soldering, brazing, and braze welding all:\n황동, 청동 용접부 결합은 모두...",
+    "question": "Soldering, brazing, and braze welding all:\n황동, 청동 용접부 결합은 모두 ______",
     "options": [
       "Have the same strength characteristics\n (같은 응력 특성을 가진다.)",
       "Utilize a process where only the filler metal is actually melted.\n (용가재 금속만 정확히 녹아야 하는 공정에서 사용한다.)",
@@ -618,7 +618,7 @@
     "method": "VT",
     "category": "General",
     "source": "VTG-llA(개정판)-2016.10.18",
-    "question": "Which of the following may cause a discontinuity even though its intended purpose is to prevent shrinkage cavities by absorbing theat from the molten metal in the center of the casting?\n그것의 의도된 목적이 주물의 중심에서 융융금속으로 부터 열을 흡수해 수축공을 방지하는 것이지만 불연속을 일으킬 수도 있는 것은?",
+    "question": "Which of the following may cause a discontinuity even though its intended purpose is to prevent shrinkage cavities by absorbing the heat from the molten metal in the center of the casting?\n그것의 의도된 목적이 주물의 중심에서 융융금속으로 부터 열을 흡수해 수축공을 방지하는 것이지만 불연속을 일으킬 수도 있는 것은?",
     "options": [
       "Riser\n반도",
       "Core\n자심",

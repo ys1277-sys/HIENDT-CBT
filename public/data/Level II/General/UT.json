@@ -66,7 +66,7 @@
     "method": "UT",
     "category": "General",
     "source": "UTG-II(A)",
-    "question": "The difference in signals received from identical reflectors at different material distances from a transducer amy be caused by:\n재료와 탐촉자의 거리가 다른 곳의 비슷한 크기가 반사체에서 수신이 다르게 나타났다면?",
+    "question": "The difference in signals received from identical reflectors at different material distances from a transducer may be caused by:\n재료와 탐촉자의 거리가 다른 곳의 비슷한 크기가 반사체에서 수신이 다르게 나타났다면?",
     "options": [
       "material attenuation\n재료 감쇠",
       "beam divergence\n빔의 분리",
@@ -171,7 +171,7 @@
     "method": "UT",
     "category": "General",
     "source": "UTG-II(A)",
-    "question": "When examining materials for planer flaws oriented parallel to the part surface, what testing method is most often used?\n표면과 평형으로 큰 결함을 재료의 표면에서 검사할 시 가장 많이 쓰는 방법은?",
+    "question": "When examining materials for planar flaws oriented parallel to the part surface, what testing method is most often used?\n표면과 평형으로 큰 결함을 재료의 표면에서 검사할 시 가장 많이 쓰는 방법은?",
     "options": [
       "angle beam\n사각빔",
       "through - transmission\n통과법",
@@ -351,7 +351,7 @@
     "method": "UT",
     "category": "General",
     "source": "UTG-II(A)",
-    "question": "At an interface between two different materials, an impedance difference results in :\n(서로 다른 매질의 경계에서 임피던스의 차는 어떤 결과를 가져오는가?",
+    "question": "At an interface between two different materials, an impedance difference results in :\n서로 다른 매질의 경계에서 임피던스의 차는 어떤 결과를 가져오는가?",
     "options": [
       "reflection of the entire incident energy at the interface\n (경계면에서 입사 에너지의 전면 반사)",
       "absorption of sound\n음파의 흡수",
@@ -474,7 +474,7 @@
     "question": "The angle at which 90° refraction of a longitudinal sound wave is reached is called:\n종파의 굴절각이 90도가 될 때 입사각을 무엇이라 하는가?",
     "options": [
       "the angle of incidence\n입사각",
-      "the first critical angel\n제일차 임계각",
+      "the first critical angle\n제일차 임계각",
       "the angle of maximum reflection\n최대 반사각",
       "the second critical angle\n제이차 임계각"
     ],
@@ -533,7 +533,7 @@
     "source": "UTG-II(A)",
     "question": "On an A-scan display, what represents the intensity of a reflected beam?\nA-scan법에서 반사된 빔의 강도를 나타내는 것은?",
     "options": [
-      "Echo pules width\n에코펄스의 폭",
+      "Echo pulse width\n에코펄스의 폭",
       "Horizontal screen location\n펄스의 수평축의 위치",
       "Signal brightness\n지시의 밝기",
       "Signal amplitude\n지시의 높이"

@@ -67,7 +67,7 @@
     "source": "TOFD General - A 20200317",
     "question": "Lamb waves can be used to detect :\n판파를 사용하여 탐지할 수 있는 것은?",
     "options": [
-      "laminar-type defects near the surface of a thin materia \n 얇은 소재의 표면 근처에 있는 층상결함",
+      "laminar-type defects near the surface of a thin material \n 얇은 소재의 표면 근처에 있는 층상결함",
       "lack of fusion in the center of a thick weldment\n 두꺼운 용접 중심부의 융착불량",
       "internal voids in diffusion bonds\n 분산된 내부의 빈 공간",
       "thickness changes in heavy plate material\n 두꺼운 판 재료로 바뀐 두께"
@@ -533,8 +533,8 @@
     "question": "The TOFD principle is based on evaluation of the?\nTOFD의 원칙은 무엇의 평가에 근거하고 있나?",
     "options": [
       "Frequency\n 주파수",
-      "Sound attanuation. \n 음향특성",
-      "Amplitude of the echo hight\n 에코높이의 진폭",
+      "Sound attenuation. \n 음향특성",
+      "Amplitude of the echo height\n 에코높이의 진폭",
       "Diffraction Signals at Crack Edges\n 균열 가장자리의 회절신호"
     ],
     "answer": 3

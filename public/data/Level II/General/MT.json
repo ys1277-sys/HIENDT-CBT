@@ -174,7 +174,7 @@
     "method": "MT",
     "category": "General",
     "source": "MTG-II(A)",
-    "question": "Select type of metals that may be magnetic particle inspected from the following : (check three)\n다음에서 자분 탐상 시험을 해도 좋은 금속은: (3개 선택",
+    "question": "Select type of metals that may be magnetic particle inspected from the following : (check three)\n다음에서 자분 탐상 시험을 해도 좋은 금속은: (3개 선택)",
     "options": [
       "ferro-magnetic metals\n강자성 금속",
       "low carbon steel\n저 탄소강",

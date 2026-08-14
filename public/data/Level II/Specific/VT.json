@@ -37,7 +37,7 @@
     "method": "VT",
     "category": "Specific",
     "source": "VTS-II(2020)(A)",
-    "question": "Remote visual examination methods shall, if utilized, have a resolution capability at least ( ) that obtained by direct visual methods.\n원격 육안검사시 분해능력은 직접 육안검사에 의해서 얻어진 것보다 적어도 .... 배",
+    "question": "Remote visual examination methods shall, if utilized, have a resolution capability at least ( ) that obtained by direct visual methods.\n원격 육안검사시 분해능력은 직접 육안검사에 의해서 얻어진 것보다 적어도 ______ 배",
     "options": [
       "2 times\n2배",
       "5 percent\n5퍼센트",
@@ -136,7 +136,7 @@
     "question": "What are proper equipment for remote visual examination?\n원격 육안 검사를 위한 적당한 장비는?",
     "options": [
       "mirror\n거울",
-      "bore scope\n보어스코프",
+      "borescope\n보어스코프",
       "telescopes\n망원경",
       "all of the above\n위 모두"
     ],
@@ -355,7 +355,7 @@
     "method": "VT",
     "category": "Specific",
     "source": "VTS-II(2020)(A)",
-    "question": "Weld area examination shall include the weld and adjacent base metal for at least ( ) beyond each edge of the weld.\n용접부 검사는 용접비드를 포함하고 적어도 ....에 대한 인접한 베이스 메탈은 용접부 각 꼭지점을 초과한다.",
+    "question": "Weld area examination shall include the weld and adjacent base metal for at least ( ) beyond each edge of the weld.\n용접부 검사는 용접비드를 포함하고 적어도 ______에 대한 인접한 베이스 메탈은 용접부 각 꼭지점을 초과한다.",
     "options": [
       "one inch\n1인치",
       "one wall thickness\n벽두께",
@@ -385,7 +385,7 @@
     "method": "VT",
     "category": "Specific",
     "source": "VTS-II(2020)(A)",
-    "question": "Handheld magnifiers shoul fall into which of the following ranges?\n확대경의 측정범위는 얼마인가?",
+    "question": "Handheld magnifiers should fall into which of the following ranges?\n확대경의 측정범위는 얼마인가?",
     "options": [
       "2X to 4X",
       "20X to 30X",
@@ -400,7 +400,7 @@
     "method": "VT",
     "category": "Specific",
     "source": "VTS-II(2020)(A)",
-    "question": "In-service inspection of nuclear power plants is address in :\n(원전의 가동중 검사가 지정된 규격은?",
+    "question": "In-service inspection of nuclear power plants is address in :\n원전의 가동중 검사가 지정된 규격은?",
     "options": [
       "ASME Sec. I",
       "ASME Sec. V",
