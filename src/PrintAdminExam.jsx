@@ -170,17 +170,18 @@ function PrintAdminExam({
       3.7795275591;
 
 
+    /* 머리글은 재어 보면 33.6mm 다. 여유는 PrintExam 과 같은 이유로 넉넉히 준다 */
     const PAGE_HEIGHT =
       276 * MM;
 
     const HEADER_HEIGHT_MM =
-      33;
+      34;
 
     const headerHeight =
       HEADER_HEIGHT_MM * MM;
 
     const SAFETY =
-      2 * MM;
+      8 * MM;
 
     const availableHeight =
       PAGE_HEIGHT -
@@ -195,6 +196,18 @@ function PrintAdminExam({
     let currentHeight = 0;
 
 
+    /* 문항 사이 여백까지 센다 — PrintExam 과 같은 이유다 */
+    const outerHeight = (element) => {
+      const inner = element.querySelector(".question-print") || element;
+      const cs = window.getComputedStyle(inner);
+      return (
+        element.getBoundingClientRect().height +
+        (parseFloat(cs.marginTop) || 0) +
+        (parseFloat(cs.marginBottom) || 0)
+      );
+    };
+
+
     questionElements.forEach(
       (
         element,
@@ -202,8 +215,7 @@ function PrintAdminExam({
       ) => {
 
         const height =
-          element.getBoundingClientRect()
-            .height;
+          outerHeight(element);
 
 
         if (

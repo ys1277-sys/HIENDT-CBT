@@ -210,27 +210,32 @@ function PrintExam({
 
 
     /*
-      실제 PAPER 높이
-      276mm
+      실제 PAPER 높이 276mm
 
-      Header
-      18 + 9 + 6 = 33mm
+      머리글
+        재어 보면 33.6mm 다. 33 으로 두면 0.6mm 가 모자란다.
 
       안전 여유
-      2mm
+        2mm 로는 모자란다. 화면에서 재면 한 쪽이 274.4mm 로 1.6mm 를
+        남기고 딱 들어가는데, 실제 인쇄는 글꼴 힌팅과 줄높이 반올림이
+        달라 그만큼이 쉽게 넘친다. .print-paper 가 overflow:hidden 이라
+        넘친 만큼이 소리 없이 잘려 나가고, 보기 ③④ 가 사라진 채로
+        인쇄된다. 다음 쪽에도 안 나온다.
+
+        쪽수가 한두 장 늘더라도 잘리지 않는 쪽이 낫다.
     */
 
     const PAGE_HEIGHT =
       276 * MM;
 
     const HEADER_HEIGHT_MM =
-      33;
+      34;
 
     const headerHeight =
       HEADER_HEIGHT_MM * MM;
 
     const SAFETY =
-      2 * MM;
+      8 * MM;
 
     const availableHeight =
       PAGE_HEIGHT -
@@ -245,6 +250,29 @@ function PrintExam({
     let currentHeight = 0;
 
 
+    /*
+     * 문항 사이 여백까지 세어야 한다.
+     *
+     * getBoundingClientRect 는 바깥 여백을 안 센다. .question-print 는
+     * margin-bottom 이 25px 이라 한 쪽에 세 문항이면 75px(약 20mm)이
+     * 통째로 빠진다. 그만큼 넘쳐도 계산상으로는 들어가는 것으로 나오고,
+     * .print-paper 가 overflow:hidden 이라 넘친 만큼 잘려 나간다.
+     * 보기 ③④ 가 사라진 채로 인쇄되고 다음 쪽에도 안 나온다.
+     */
+    const outerHeight = (element) => {
+      const inner =
+        element.querySelector(".question-print") || element;
+
+      const cs = window.getComputedStyle(inner);
+
+      return (
+        element.getBoundingClientRect().height +
+        (parseFloat(cs.marginTop) || 0) +
+        (parseFloat(cs.marginBottom) || 0)
+      );
+    };
+
+
     questionElements.forEach(
       (
         element,
@@ -252,8 +280,7 @@ function PrintExam({
       ) => {
 
         const height =
-          element.getBoundingClientRect()
-            .height;
+          outerHeight(element);
 
 
         if (
