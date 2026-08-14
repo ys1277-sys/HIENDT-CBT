@@ -122,6 +122,13 @@ function Quiz({
   const [loadError, setLoadError] = useState("");
 
   /*
+   * 시험 시작·종료 시각. 결과지 표지의 Start / Finish 에 찍는다.
+   * 문항을 다 읽어 화면에 띄운 때를 시작으로 본다.
+   */
+  const [startedAt, setStartedAt] = useState(null);
+  const [finishedAt, setFinishedAt] = useState(null);
+
+  /*
    * 보기 번호.
    * 넷까지만 두면 다섯 번째부터 "① ② ③ ④ 5" 처럼 모양이 어긋난다.
    * VT 처럼 보기가 다섯·여섯인 문항이 있어 여덟까지 채워 둔다.
@@ -135,6 +142,21 @@ function Quiz({
     "⑥",
     "⑦",
     "⑧"
+  ];
+
+  /*
+   * 답안지에서 고른 보기에 쓰는 속이 찬 글자.
+   * 배경을 칠하면 칠한 원이 글자의 원보다 커서 밖으로 삐져나온다.
+   */
+  const numberCircleFilled = [
+    "❶",
+    "❷",
+    "❸",
+    "❹",
+    "❺",
+    "❻",
+    "❼",
+    "❽"
   ];
 
   /*
@@ -285,6 +307,10 @@ function Quiz({
         setQuestions(drawn);
         setCurrent(0);
 
+        /* 문항이 화면에 뜬 때를 시험 시작으로 본다 */
+        setStartedAt(new Date());
+        setFinishedAt(null);
+
       }
       catch (err) {
 
@@ -414,6 +440,9 @@ function Quiz({
 
     }
 
+    /* 결과지 표지의 Finish 에 쓴다 */
+    setFinishedAt(new Date());
+
     setShowResult(true);
 
   }
@@ -487,6 +516,10 @@ function Quiz({
 
         answers={answers}
 
+        startedAt={startedAt}
+
+        finishedAt={finishedAt}
+
         onBack={onBack}
 
       />
@@ -543,13 +576,18 @@ function Quiz({
             HIENDT-CBT
           </h1>
 
-          <div>
+          {/*
+            예전에는 이름·급수·과목을 세 줄로 쌓아 머리글이 109px 이었다.
+            그만큼 본문이 줄어 조금만 긴 문항이면 스크롤바가 생겼다.
+            한 줄로 펴서 본문 자리를 넓힌다.
+          */}
+          <div className="cbt-who">
 
-            {name}<br />
+            <span>{name}</span>
 
-            {level}<br />
+            <span>{level}</span>
 
-            {method} {subject}
+            <span>{method} {subject}</span>
 
           </div>
 
@@ -966,7 +1004,17 @@ function Quiz({
                                     >
 
                                       {
-                                        numberCircle[i] || i + 1
+                                        /*
+                                         * 고른 보기는 속이 찬 글자로 바꾼다.
+                                         *
+                                         * 예전에는 배경을 동그랗게 칠했는데,
+                                         * 칠한 원이 글자 ① 의 원보다 커서
+                                         * 테두리 밖으로 삐져나왔다. ❶ 은 글자
+                                         * 자체가 채워진 원이라 원 안에만 찬다.
+                                         */
+                                        (selected
+                                          ? numberCircleFilled[i]
+                                          : numberCircle[i]) || i + 1
                                       }
 
                                     </button>

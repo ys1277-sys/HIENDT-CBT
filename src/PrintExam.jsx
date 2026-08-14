@@ -21,6 +21,16 @@ import {
 
 const EMPTY_ANSWERS = {};
 
+/* 표지의 Start / Finish 는 시:분 까지만 적는다 */
+function clockText(t) {
+  const d = t instanceof Date ? t : new Date(t);
+  if (Number.isNaN(d.getTime())) return "__________";
+
+  const hh = String(d.getHours()).padStart(2, "0");
+  const mm = String(d.getMinutes()).padStart(2, "0");
+  return `${hh} : ${mm}`;
+}
+
 function PrintExam({
   questions = [],
   answers = EMPTY_ANSWERS,
@@ -39,6 +49,17 @@ function PrintExam({
   method = "",
   subject = "",
   date = "",
+
+  /*
+   * 표지의 Start / Finish / SCORE.
+   *
+   * 시험을 친 뒤 뽑는 결과지는 이 값을 아니까 채운다.
+   * 문제은행 출력은 응시자에게 나눠 줄 백지라 넘기지 않고, 그때는
+   * 예전처럼 빈 줄이 찍힌다.
+   */
+  startedAt = null,
+  finishedAt = null,
+  score = "",
 
   onReady
 }) {
@@ -978,12 +999,16 @@ function PrintExam({
               className="cover-row"
             >
 
+              {/*
+                시험을 친 뒤 뽑는 결과지는 아는 값을 채워 넣는다.
+                문제은행 출력은 나눠 줄 백지라 빈 줄로 둔다.
+              */}
               <span>
-                Start : __________
+                Start : {startedAt ? clockText(startedAt) : "__________"}
               </span>
 
               <span>
-                Finish : __________
+                Finish : {finishedAt ? clockText(finishedAt) : "__________"}
               </span>
 
             </div>
@@ -994,7 +1019,9 @@ function PrintExam({
             >
 
               <span>
-                SCORE ____________________
+                SCORE {score === "" || score === undefined || score === null
+                  ? "____________________"
+                  : score}
               </span>
 
               <span>

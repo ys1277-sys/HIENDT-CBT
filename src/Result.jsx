@@ -11,6 +11,11 @@ function Result({
   subject,
   questions = [],
   answers = {},
+
+  /* 결과지 표지의 Start / Finish 에 찍는다 */
+  startedAt = null,
+  finishedAt = null,
+
   onBack
 
 }) {
@@ -485,6 +490,15 @@ function Result({
             .toLocaleDateString()
 
           }
+
+
+          startedAt={startedAt}
+
+
+          finishedAt={finishedAt}
+
+
+          score={`${score}점  (${correct} / ${total})`}
 
 
           onReady={
