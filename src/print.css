@@ -1335,9 +1335,6 @@
     break-inside: avoid !important;
   }
 
-  .note p:nth-of-type(n + 4) {
-    display: none !important;
-  }
 }
 
 
