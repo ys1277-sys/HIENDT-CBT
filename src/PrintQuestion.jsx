@@ -230,19 +230,25 @@ function PrintQuestion({
     firedRef.current = true;
 
 
+    /* rAF 는 창이 안 보이면 안 돈다 — PrintExam 과 같은 이유로 시간도 건다 */
+    let done = false;
+
+    const fire = () => {
+      if (done) return;
+      done = true;
+
+      if (onReadyRef.current) {
+        onReadyRef.current();
+      }
+    };
+
     requestAnimationFrame(() => {
-
-      requestAnimationFrame(() => {
-
-        if (onReadyRef.current) {
-
-          onReadyRef.current();
-
-        }
-
-      });
-
+      requestAnimationFrame(fire);
     });
+
+    const timer = setTimeout(fire, 400);
+
+    return () => clearTimeout(timer);
 
   }, [
     questionPages,

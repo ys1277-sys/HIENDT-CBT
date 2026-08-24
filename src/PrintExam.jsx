@@ -419,21 +419,34 @@ function PrintExam({
     firedRef.current = true;
 
 
+    /*
+     * 그림·글꼴이 자리를 잡은 다음 인쇄창을 띄우려고 rAF 를 두 번 기다린다.
+     *
+     * 그런데 rAF 는 창이 안 보이면 아예 안 돈다. 다른 탭으로 옮겨 두거나
+     * 휴대폰에서 화면이 꺼지면 인쇄창이 끝내 안 뜬다. 눌러도 아무 일이
+     * 없는 것처럼 보인다.
+     *
+     * 그래서 시간으로도 한 번 더 건다. 둘 중 먼저 오는 쪽이 부르고,
+     * 나머지는 done 을 보고 물러난다.
+     */
+    let done = false;
+
+    const fire = () => {
+      if (done) return;
+      done = true;
+
+      if (onReadyRef.current) {
+        onReadyRef.current();
+      }
+    };
+
     requestAnimationFrame(() => {
-
-      requestAnimationFrame(() => {
-
-        if (
-          onReadyRef.current
-        ) {
-
-          onReadyRef.current();
-
-        }
-
-      });
-
+      requestAnimationFrame(fire);
     });
+
+    const timer = setTimeout(fire, 400);
+
+    return () => clearTimeout(timer);
 
   }, [
     questionPages,
