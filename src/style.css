@@ -934,9 +934,24 @@ button:disabled{
 /* 답안 표기란 (오른쪽 사이드) */
 
 
+/*
+ * 답안 표기란 너비.
+ *
+ * 220px 로 못 박아 뒀더니 보기 4개짜리 시험에서는 오른쪽에 87px 이 남고,
+ * 보기가 10개인 MT General 12번은 57px 이 삐져나가 잘렸다.
+ * max-content 로 두면 그 시험에서 가장 긴 줄에 맞춰 저절로 잡힌다.
+ *
+ * scrollbar-gutter 는 세로 스크롤바 자리를 미리 비워 둔다. 안 그러면
+ * 스크롤바가 생기는 순간 그만큼 안쪽이 좁아져 동그라미가 눌린다.
+ */
+
 .answer-sheet{
 
-  width:220px;
+  width:max-content;
+
+  min-width:150px;
+
+  max-width:320px;
 
   border-left:1px solid #ddd;
 
@@ -945,6 +960,18 @@ button:disabled{
   padding:15px 10px;
 
   overflow-y:auto;
+
+  scrollbar-gutter:stable;
+
+  flex-shrink:0;
+
+}
+
+
+
+/* 자리가 모자라도 동그라미는 눌리지 않는다 */
+
+.row-options .option-circle{
 
   flex-shrink:0;
 
