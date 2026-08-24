@@ -13,6 +13,7 @@ import ProcedureAppendix, { useProcedures } from "./ProcedureAppendix.jsx";
 import { groupRanges } from "./groupRange.js";
 import {
   questionType,
+  isCorrect,
   isCorrectOption,
   isChosenOption,
   TEXT
@@ -547,6 +548,18 @@ function PrintAdminExam({
           </span>
 
 
+          {/* 채점 결과 표시 — PrintExam 과 같다 */}
+          <span
+            className={
+              isCorrect(q, rawUserAnswer)
+                ? "mark-result mark-ok"
+                : "mark-result mark-no"
+            }
+          >
+            {isCorrect(q, rawUserAnswer) ? "○" : "✕"}
+          </span>
+
+
           {/* 번호는 왼쪽 칸, 영문·한글은 오른쪽 칸 — PrintExam 과 같다 */}
           <span
             className="question-stem"
@@ -629,7 +642,11 @@ function PrintAdminExam({
                 isChosenOption(rawUserAnswer, i);
 
 
-              if (optCorrect) {
+              /*
+               * 응시자가 고른 보기에만 색을 칠한다 — PrintExam 과 같다.
+               * 정답 보기를 늘 칠하면 손도 안 댄 문항이 맞은 것처럼 보인다.
+               */
+              if (optChosen && optCorrect) {
 
                 circleClass +=
                   " box-correct";
@@ -637,10 +654,7 @@ function PrintAdminExam({
               }
 
 
-              if (
-                optChosen &&
-                !optCorrect
-              ) {
+              if (optChosen && !optCorrect) {
 
                 circleClass +=
                   " box-wrong";

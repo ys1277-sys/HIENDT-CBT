@@ -1394,3 +1394,30 @@
 
   object-fit: contain;
 }
+
+/*
+ * 채점 결과 표시.
+ *
+ * 문항 번호 옆에 맞으면 파란 동그라미, 틀리면 빨간 가위표를 찍는다.
+ * 안 푼 문항은 틀린 것으로 본다.
+ *
+ * 예전에는 정답 보기를 늘 파랗게 칠해, 응시자가 손도 안 댄 문항까지
+ * 파란 표시가 남아 맞은 것처럼 보였다.
+ */
+.mark-result {
+  flex-shrink: 0;
+
+  margin-left: 4px;
+
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.35;
+}
+
+.mark-ok {
+  color: blue;
+}
+
+.mark-no {
+  color: red;
+}

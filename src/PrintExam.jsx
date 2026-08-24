@@ -14,6 +14,8 @@ import ProcedureAppendix, { useProcedures } from "./ProcedureAppendix.jsx";
 import { groupRanges } from "./groupRange.js";
 import {
   questionType,
+  isCorrect,
+  isAnswered,
   isCorrectOption,
   isChosenOption,
   TEXT
@@ -659,6 +661,30 @@ function PrintExam({
 
 
           {/*
+            채점 결과 표시.
+
+            맞으면 파란 동그라미, 틀리면 빨간 가위표. 안 푼 문항은 틀린
+            것으로 본다. 예전에는 응시자가 안 풀어도 정답 자리에 파란
+            표시가 찍혀, 안 푼 문항이 맞은 것처럼 보였다.
+
+            백지 시험지(문제은행 출력)는 showAnswers 가 꺼져 있어 안 찍는다.
+          */}
+          {
+            showAnswers && (
+              <span
+                className={
+                  isCorrect(q, rawUserAnswer)
+                    ? "mark-result mark-ok"
+                    : "mark-result mark-no"
+                }
+              >
+                {isCorrect(q, rawUserAnswer) ? "○" : "✕"}
+              </span>
+            )
+          }
+
+
+          {/*
             영문과 한글을 같은 칸에 넣는다.
             한글을 번호와 형제로 두면 번호 자리까지 왼쪽으로 밀려
             영문 줄과 세로가 어긋난다.
@@ -736,7 +762,7 @@ function PrintExam({
                   );
 
 
-              /* 정답 표시는 복수정답(배열)도 함께 처리한다 */
+              /* 복수정답(배열)도 함께 처리한다 */
               const optCorrect =
                 showAnswers &&
                 isCorrectOption(q, i);
@@ -750,7 +776,14 @@ function PrintExam({
                 "option-circle";
 
 
-              if (optCorrect) {
+              /*
+               * 응시자가 고른 보기에만 색을 칠한다.
+               *
+               * 예전에는 정답 보기를 늘 파랗게 칠했다. 그래서 응시자가
+               * 손도 안 댄 문항까지 파란 표시가 찍혀 맞은 것처럼 보였다.
+               * 고른 것이 맞으면 파랑, 틀리면 빨강. 안 고른 보기는 그대로.
+               */
+              if (optChosen && optCorrect) {
 
                 circleClass +=
                   " box-correct";
@@ -758,10 +791,7 @@ function PrintExam({
               }
 
 
-              if (
-                optChosen &&
-                !optCorrect
-              ) {
+              if (optChosen && !optCorrect) {
 
                 circleClass +=
                   " box-wrong";
