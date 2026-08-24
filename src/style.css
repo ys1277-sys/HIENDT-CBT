@@ -1714,3 +1714,18 @@ button:disabled{
 
   cursor:pointer;
 }
+
+/*
+ * 표지 표의 회사 로고.
+ *
+ * 원본이 200x230 이라 제 크기로 두면 표지 칸을 혼자 다 차지한다.
+ * 도해가 아니라 머리글 장식이니 아주 작게 둔다.
+ * 굽는 쪽(build-procedures.mjs)이 첫 표의 첫 그림에만 표시를 단다.
+ */
+.procw-fig.is-logo {
+  max-height: 24px;
+  max-width: 24px;
+
+  border: 0;
+  cursor: default;
+}

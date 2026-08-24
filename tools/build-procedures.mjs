@@ -127,6 +127,39 @@ function dropLooseCoverLogo(blocks) {
   return found ? blocks.slice(1) : blocks;
 }
 
+/*
+ * 표지 표의 회사 로고에 표시를 단다.
+ *
+ * 화면에서는 아주 작게 그린다. 도해가 아니라 머리글 장식이라 제 크기
+ * (200x230)로 두면 표지 칸을 혼자 다 차지한다.
+ *
+ * 첫 표 안에서 처음 나오는 그림 하나만 고른다. 결재란 서명 도장은
+ * 그대로 둔다.
+ */
+function markCoverLogo(blocks) {
+  const first = blocks.find((b) => b.t === "table");
+  if (!first) return blocks;
+
+  let done = false;
+
+  (function look(bs) {
+    for (const b of bs) {
+      if (done) return;
+
+      if (b.t === "img") { b.logo = true; done = true; return; }
+      if (b.t !== "table") continue;
+
+      for (const row of b.grid) {
+        for (const c of row) {
+          if (c && c !== "covered") look(c.blocks);
+        }
+      }
+    }
+  })([first]);
+
+  return blocks;
+}
+
 /* PNG·JPG 머리에서 크기를 읽는다 */
 function pixelSize(buf) {
   if (buf.length > 24 && buf[0] === 0x89 && buf[1] === 0x50) {
@@ -524,7 +557,7 @@ for (const name of fs.readdirSync(SRC).filter((f) => /\.hwp$/i.test(f))) {
     return out;
   }
 
-  let blocks = dropLooseCoverLogo(markHeadings(convert(doc.blocks)));
+  let blocks = markCoverLogo(dropLooseCoverLogo(markHeadings(convert(doc.blocks))));
 
   const ko = readKo(name);
   if (ko) blocks = weaveKo(blocks, ko);

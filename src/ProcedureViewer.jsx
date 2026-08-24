@@ -51,12 +51,19 @@ export function availableProcedures(manifest, q) {
  * 원본에 2573x1819 짜리 스캔본이 들어 있다. 그대로 두면 한 장이 창을
  * 다 덮어 앞뒤 글이 안 보인다. 높이를 묶어 두고 누르면 키운다.
  */
-function Figure({ src }) {
+function Figure({ src, logo = false }) {
   const [zoom, setZoom] = useState(false);
+
+  /*
+   * 표지 표의 회사 로고는 아주 작게 둔다. 도해가 아니라 머리글 장식이라
+   * 제 크기로 두면 표지 칸을 혼자 다 차지한다.
+   */
+  const cls =
+    (logo ? "procw-fig is-logo" : "procw-fig") + (zoom ? " zoomed" : "");
 
   return (
     <img
-      className={zoom ? "procw-fig zoomed" : "procw-fig"}
+      className={cls}
       src={pageSrc(src)}
       alt=""
       loading="lazy"
@@ -77,7 +84,7 @@ function Block({ b }) {
     return <h4 className={b.level === 3 ? "procw-h3" : "procw-h2"}>{b.s}</h4>;
   }
 
-  if (b.t === "img") return <Figure src={b.src} />;
+  if (b.t === "img") return <Figure src={b.src} logo={b.logo} />;
 
   if (b.t === "table") {
     return (
