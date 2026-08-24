@@ -22,6 +22,22 @@ import { pcxToPng, isPcx } from "./pcx2png.mjs";
 import { wmfToPng, isWmf } from "./wmf2png.mjs";
 import { oleToImage, isOle } from "./ole2png.mjs";
 
+/*
+ * 원본에 없던 한글을 일부러 붙인 절차서.
+ * 그 한글은 "원본에 없는 글" 로 세면 안 된다.
+ */
+const KO_FILE = { "p11-2-TOFD.hwp": "tofd-ko.json" };
+
+function readKo(name) {
+  const f = KO_FILE[name];
+  if (!f) return null;
+  try {
+    return JSON.parse(fs.readFileSync(new URL(f, import.meta.url), "utf8"));
+  } catch {
+    return null;
+  }
+}
+
 const SRC = "D:/Visual Studio Code/절차서";
 const OUT = "D:/Visual Studio Code/HIENDT-CBT/public/data/procedures";
 
@@ -133,8 +149,16 @@ function audit(name) {
   const missing = [...new Set(srcText.filter((s) => !outText.has(s)))];
 
   /* 덤으로 붙은 글 — 원본에 없는 것이 들어갔나 */
+  const koMap = readKo(name) || {};
+  const koAdded = new Set(Object.values(koMap).map(norm));
+
   const srcSet = new Set(srcText);
-  const added = [...new Set(out.filter((x) => x.k === "p").map((x) => x.s).filter((s) => !srcSet.has(s)))];
+  const added = [...new Set(
+    out
+      .filter((x) => x.k === "p")
+      .map((x) => x.s)
+      .filter((s) => !srcSet.has(s) && !koAdded.has(s))
+  )];
 
   /*
    * 2. 차례.
@@ -194,9 +218,15 @@ function audit(name) {
     if (!list || !list.length) return;
     const b = anchors(out, i);
 
-    /* 원본에 놓였던 자리 가운데 하나와 앞이나 뒤가 맞으면 제자리다 */
+    /*
+     * 원본에 놓였던 자리 가운데 하나와 앞이나 뒤가 맞으면 제자리다.
+     * 한글을 붙인 절차서는 설명 줄과 그림 사이에 한글이 끼므로,
+     * 그 한글도 같은 자리로 쳐 준다.
+     */
+    const same = (x, y) => x && (x === y || norm(koMap[x] || "") === y);
+
     const ok = list.some(
-      (a) => (a.before && a.before === b.before) || (a.after && a.after === b.after)
+      (a) => same(a.before, b.before) || same(a.after, b.after)
     );
     if (!ok) {
       moved.push({

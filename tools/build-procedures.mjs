@@ -54,6 +54,79 @@ const EXT = { jpg: "jpg", png: "png", gif: "gif", bmp: "bmp" };
  */
 const MIN_SIDE = 40;
 
+/*
+ * 원본이 영문뿐인 절차서에 붙일 한글.
+ *
+ * TOFD 는 본문 508줄 가운데 한글이 19줄뿐이고 그것도 표지·결재란이다.
+ * 다른 절차서와 달리 영문·한글 2칸 짜임이 아예 없어 엮을 것이 없다.
+ * 그래서 없던 한글을 지어 붙인다. tools/tofd-ko.mjs 가 원문이고
+ * tools/apply-tofd-ko.mjs 가 영문 줄과 짝지어 이 파일을 만든다.
+ */
+const KO_FILE = { "p11-2-TOFD.hwp": "tofd-ko.json" };
+
+function readKo(name) {
+  const f = KO_FILE[name];
+  if (!f) return null;
+
+  try {
+    return JSON.parse(fs.readFileSync(new URL(f, import.meta.url), "utf8"));
+  } catch {
+    return null;
+  }
+}
+
+/*
+ * 영문 줄 다음에 한글 줄을 끼운다. 다른 절차서와 같은 모양이 된다.
+ * 제목이면 한글도 제목으로 둔다. 한쪽만 굵으면 짝이 어긋나 보인다.
+ */
+function weaveKo(blocks, ko) {
+  const out = [];
+
+  for (const b of blocks) {
+    out.push(b);
+
+    if (b.t !== "p" && b.t !== "h") continue;
+
+    const s = String(b.s || "").replace(/\s+/g, " ").trim();
+    const t = ko[s];
+    if (t) out.push({ ...b, s: t });
+  }
+
+  return out;
+}
+
+/*
+ * 표지 로고가 두 번 나오는 것을 한 번으로 줄인다.
+ *
+ * 표지 첫머리 표 안에 회사 로고가 들어 있는데, 그 로고가 표 밖에도
+ * 한 번 더 딸려 나온다. 절차서를 열면 로고만 덩그러니 뜬 뒤 표지가
+ * 나오고 거기에 또 로고가 있다. 일곱 편이 다 그렇다.
+ *
+ * 맨 앞 덩이가 그림이고 바로 뒤 표 안에 같은 그림이 있을 때만 뺀다.
+ * 본문 도해는 건드리지 않는다.
+ */
+function dropLooseCoverLogo(blocks) {
+  if (blocks.length < 2) return blocks;
+  if (blocks[0].t !== "img" || blocks[1].t !== "table") return blocks;
+
+  const src = blocks[0].src;
+  let found = false;
+
+  (function look(bs) {
+    for (const b of bs) {
+      if (b.t === "img" && b.src === src) { found = true; return; }
+      if (b.t !== "table") continue;
+      for (const row of b.grid) {
+        for (const c of row) {
+          if (c && c !== "covered") look(c.blocks);
+        }
+      }
+    }
+  })([blocks[1]]);
+
+  return found ? blocks.slice(1) : blocks;
+}
+
 /* PNG·JPG 머리에서 크기를 읽는다 */
 function pixelSize(buf) {
   if (buf.length > 24 && buf[0] === 0x89 && buf[1] === 0x50) {
@@ -451,7 +524,10 @@ for (const name of fs.readdirSync(SRC).filter((f) => /\.hwp$/i.test(f))) {
     return out;
   }
 
-  const blocks = markHeadings(convert(doc.blocks));
+  let blocks = dropLooseCoverLogo(markHeadings(convert(doc.blocks)));
+
+  const ko = readKo(name);
+  if (ko) blocks = weaveKo(blocks, ko);
 
   const payload = {
     code,

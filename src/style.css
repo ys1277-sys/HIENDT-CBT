@@ -1290,7 +1290,15 @@ button:disabled{
   background: #e9ecef;
 }
 
-.procw-body img {
+/*
+ * 쪽을 통째로 찍은 그림 한 장을 보여 주는 경우다. 창 폭에 맞춘다.
+ *
+ * 문서로 푼 절차서(is-doc)에는 걸리면 안 된다. 예전에는 그냥
+ * .procw-body img 였는데, 그게 .procw-fig 를 이겨서 본문 도해까지
+ * 창 폭으로 늘려 놨다. 200x230 짜리 회사 로고가 540x368 로 부풀어
+ * 절차서를 열자마자 흐릿한 로고가 화면을 덮었다.
+ */
+.procw-body:not(.is-doc) > img {
   display: block;
 
   width: 100%;
