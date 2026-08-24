@@ -46,6 +46,7 @@ const CTRL_HEADER = 71;  // BEGIN+55
 const LIST_HEADER = 72;  // BEGIN+56
 const TABLE = 77;        // BEGIN+61
 const PICTURE = 85;      // BEGIN+69
+const BIN_DATA = 18;     // BEGIN+2  DocInfo 의 그림 목록
 
 const OBJ_CTRL = 11;
 const TAB = 9;
@@ -278,13 +279,61 @@ function makeReader(binIdOf) {
   return readParas;
 }
 
+/*
+ * DocInfo 의 BINDATA 목록을 읽는다.
+ * 돌려주는 배열의 n 번째 값이 목록 n+1 번이 가리키는 저장소 번호다.
+ * 못 읽으면 빈 배열. 그때는 저장소 이름을 그대로 쓴다.
+ */
+function readBinList(cfb, flags) {
+  const out = [];
+
+  const entry = CFB.find(cfb, "DocInfo");
+  if (!entry || !entry.content || !entry.content.length) return out;
+
+  let di = Buffer.from(entry.content);
+  if (flags & 1) {
+    try { di = inflate(di); } catch { return out; }
+  }
+
+  for (const r of records(di)) {
+    if (r.tag !== BIN_DATA) continue;
+
+    const d = r.d;
+    if (d.length < 2) { out.push(-1); continue; }
+
+    const type = d.readUInt16LE(0) & 0x0f;
+
+    /* 0 은 바깥 파일을 걸어 둔 것이라 저장소가 없다. 자리는 지켜야 한다 */
+    if (type === 0) { out.push(-1); continue; }
+    if (d.length < 4) { out.push(-1); continue; }
+
+    out.push(d.readUInt16LE(2));
+  }
+
+  return out;
+}
+
 export function readRich(file) {
   const cfb = CFB.read(file, { type: "file" });
   const flags = Buffer.from(CFB.find(cfb, "FileHeader").content).readUInt32LE(36);
   if (flags & 2) throw new Error("암호화된 문서");
 
-  /* BinData */
-  const images = [];
+  /*
+   * BinData.
+   *
+   * 그림 레코드가 들고 있는 번호는 저장소 이름(BIN0036)이 아니라
+   * DocInfo 에 적힌 목록에서 몇 번째냐다. 둘은 보통 같지만 늘 같지는
+   * 않다. 그림을 넣었다 지웠다 하면 어긋난다.
+   *
+   *   TOFD  목록 1 → BIN0040,  목록 36 → BIN0035 …  40장이 한 칸씩 밀림
+   *   UT    35장, RFT 6장이 어긋남
+   *
+   * 이름으로 읽었더니 표지 로고 자리에 교정시험편 도해가 들어가는 식으로
+   * TOFD 는 그림이 통째로 어긋나 있었다. 목록을 읽어 짝지운다.
+   */
+  const storageOf = readBinList(cfb, flags);
+
+  const byStorage = new Map();
   const seen = new Set();
 
   cfb.FullPaths.forEach((full, i) => {
@@ -293,13 +342,32 @@ export function readRich(file) {
     if (!/\/BinData\/BIN\w+/i.test(full)) return;
 
     const stem = e.name.replace(/\.\w+$/, "");
-    const binId = parseInt(stem.replace(/^BIN/i, ""), 16);
-    if (seen.has(binId)) return;
-    seen.add(binId);
+    const storage = parseInt(stem.replace(/^BIN/i, ""), 16);
+    if (seen.has(storage)) return;
+    seen.add(storage);
 
     const data = inflate(Buffer.from(e.content));
-    images.push({ id: stem, binId, kind: magic(data), data });
+    byStorage.set(storage, { id: stem, storage, kind: magic(data), data });
   });
+
+  /*
+   * binId 는 목록에서의 자리다. 목록을 못 읽으면 예전처럼 이름을 쓴다.
+   * 목록에 없는 저장소도 버리지 않고 제 이름으로 담아 둔다.
+   */
+  const images = [];
+  const used = new Set();
+
+  storageOf.forEach((storage, idx) => {
+    const im = byStorage.get(storage);
+    if (!im) return;
+    used.add(storage);
+    images.push({ ...im, binId: idx + 1 });
+  });
+
+  for (const [storage, im] of byStorage) {
+    if (used.has(storage)) continue;
+    images.push({ ...im, binId: storage });
+  }
 
   /* 본문 */
   const roots = [];
