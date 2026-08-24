@@ -1,412 +1,412 @@
 [
-  {
-    "id": 1,
-    "level": "Level II",
-    "method": "PAUT",
-    "category": "Specific",
-    "source": "PAUTSpec-II-A-type(2014)",
-    "question": "A focused phased array inspection is limited in path length by .\n집속 PA 검사는 무엇에 의해 경로의 길이가 제한되는가?",
-    "options": [
-      "The transducers near field\n탐촉자의 근거리음장",
-      "The frequency of the transducer\n 탐촉자 근거리음장 탐촉자의 주파수",
-      "The size of the elements\n진동자의 크기",
-      "The grain structure of the component inspected\n 소자 크기 검사할 입자 구조의 구성"
-    ],
-    "answer": 0
-  },
-  {
-    "id": 2,
-    "level": "Level II",
-    "method": "PAUT",
-    "category": "Specific",
-    "source": "PAUTSpec-II-A-type(2014)",
-    "question": "At what range is the width of a conventional ultrasonic beam smallest?\n어떤 범위에서 기존 초음파 빔의 폭이 가장 작은가?",
-    "options": [
-      "It depends on the wedge interface shape.\n 웻지 계면 형상에 따라 달라진다.",
-      "At the end of the nearfield\n 근거리음장의 끝부분",
-      "It varies with frequency, crystal size and excitation voltage.\n 주파수, 결정 크기와 구동 전압에 따라 달라진다.",
-      "At 3 times the crystal diameter.\n 결정 직경의 3배"
-    ],
-    "answer": 1
-  },
-  {
-    "id": 3,
-    "level": "Level II",
-    "method": "PAUT",
-    "category": "Specific",
-    "source": "PAUTSpec-II-A-type(2014)",
-    "question": "The near limit for a PA inspection is\nPA 검사에서 근거리 제한은?",
-    "options": [
-      "The Dead Zone of the elements\n 소자의 Dead Zone",
-      "Approximately 10% of the near field\n 근거리 음장의 약 10%",
-      "There is no practical near limit\n 입자의 근거리 제한은 없다.",
-      "The near limit can be adjusted by focusing the probe.\n 프로브 focusing에 의한 근거리 제한은 조정될 수 있다."
-    ],
-    "answer": 1
-  },
-  {
-    "id": 4,
-    "level": "Level II",
-    "method": "PAUT",
-    "category": "Specific",
-    "source": "PAUTSpec-II-A-type(2014)",
-    "question": "Electronic scanning is\n전자 주사는?",
-    "options": [
-      "Using a robot to automatically scan an component\n 구성 요소를 자동으로 주사하는 로봇을 사용",
-      "Utilising a linear scan with a defined aperture to increment along an array and scan a component with no mechanical movement.\n 배열에 따라 증가하고 기계적 이동 없이 구성요소를 주사하는 것을 정의되는 조리개로 선형 주사를 구성",
-      "Is the PA term that equates to PRF in conventional UT\n 기존 UT에서 PRF에 상응하는 PA용어이다.",
-      "Is the process of digitising an analogue signal.\n 아날로그 신호를 디지털화하는 과정이다."
-    ],
-    "answer": 1
-  },
-  {
-    "id": 5,
-    "level": "Level II",
-    "method": "PAUT",
-    "category": "Specific",
-    "source": "PAUTSpec-II-A-type(2014)",
-    "question": "A phased array linear scan is .\n선형 주사PA는 무엇인가?",
-    "options": [
-      "A straight line scan.\n 직선 주사",
-      "A scan using a fixed focal law but incrementing different groups of elements.\n 고정된 집속법칙을 사용하지만 다른 소자의 그룹 증가하는 주사",
-      "A scan using the whole array to produce an electronic rastering scan.\n 전자 래스터링 주사를 생성하는 전체 배열을 사용하는 주사",
-      "A scan that inspects with a range a angles to cover a linear volume of material.\n 재료의 선형 볼륨을 커버하는 다양한 각도로 검사하는 주사"
-    ],
-    "answer": 1
-  },
-  {
-    "id": 6,
-    "level": "Level II",
-    "method": "PAUT",
-    "category": "Specific",
-    "source": "PAUTSpec-II-A-type(2014)",
-    "question": "What is the type of phased array scan that uses a series of focal laws to sweep through a range of angles from a fixed aperture?\n고정된 조리개로 각도 범위를 스윕하여 집속 법칙의 시리즈를 사용하는 PA 주사 유형은?",
-    "options": [
-      "Sectorial\n부채꼴형",
-      "Linear\n선형",
-      "Arc\n원호",
-      "Dynamic depth focusing\n동적깊이초점"
-    ],
-    "answer": 0
-  },
-  {
-    "id": 7,
-    "level": "Level II",
-    "method": "PAUT",
-    "category": "Specific",
-    "source": "PAUTSpec-II-A-type(2014)",
-    "question": "A phased array UT of 24mm thick single V butt weld is to be performed using single sectorial scan with an angle sweep range of 40~70°. The weld cap is 20mm and HAZ(6mm width). If Omniscan index offset of 40° [B] is set to 25 mm, what is the index offset[C]?\n단독 V 맞대기 용접부 24mm의 PAUT는 40~70°의 각도 범위를 가진 단독 섹토리얼 주사로 수행된다. 용접 비드가 20mm이고 열영향부는6mm이다. 40°[B]에서 Omniscan 인덱스 오프셋을 25mm로 설정하였다면 인덱스 오프셋[C]은 얼마인가?",
-    "options": [
-      "28.3",
-      "30.3",
-      "31.3",
-      "33.6"
-    ],
-    "answer": 2
-  },
-  {
-    "id": 8,
-    "level": "Level II",
-    "method": "PAUT",
-    "category": "Specific",
-    "source": "PAUTSpec-II-A-type(2014)",
-    "question": "Dynamic Depth Focusing is 동적 깊이 focusing은?",
-    "options": [
-      "The ability of equipment to focus a varying depths\n 다양한 깊이를 초점을 맞추기 위한 장비의 성능",
-      "The multi processing of returned signals to focus at varying depths\n 다양한 깊이를 초점을 맞추기 위한 반환된 신호의 다중 처리",
-      "The ability to move the focal point by changing the shape of the transducer using the Piezo electric properties of the elements.\n 소자의 압전 특성을 이용한 탐촉자의 모양을 변화시킴으로써 초점 위치를 이동할 수 있는 능력",
-      "In the PA context it is equivalent to Time Corrected Gain in conventional UT.\n PA에서 그것은 기존 UT의 TCG와 동일하다."
-    ],
-    "answer": 1
-  },
-  {
-    "id": 9,
-    "level": "Level II",
-    "method": "PAUT",
-    "category": "Specific",
-    "source": "PAUTSpec-II-A-type(2014)",
-    "question": "What is the active aperture it will provide when 32elements are activated in a single focal law? (Element width : 0.5mm, Gap width : 0.1mm)\n32개 소자가 하나의 집속 법칙으로 활성될 때, PA가 제공하는 활성 조리개는 얼마인가?(소자 넓이: 0.5mm, 갭 넓이: 0.1mm)",
-    "options": [
-      "19.0",
-      "19.2",
-      "20.6",
-      "22.0"
-    ],
-    "answer": 1
-  },
-  {
-    "id": 10,
-    "level": "Level II",
-    "method": "PAUT",
-    "category": "Specific",
-    "source": "PAUTSpec-II-A-type(2014)",
-    "question": "Which is the maximum PAUT data sample spacing in accordance with ASME Sec. V. Art 4 for thickness greater than 3in.(75mm)? ASME Sec.V.\nArt 4.에 따라 75mm 미만 두께에서 최대 PAUT 데이터 샘플 간격은?",
-    "options": [
-      "0.5mm",
-      "1mm",
-      "2mm",
-      "4mm"
-    ],
-    "answer": 2,
-    "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
-  },
-  {
-    "id": 11,
-    "level": "Level II",
-    "method": "PAUT",
-    "category": "Specific",
-    "source": "PAUTSpec-II-A-type(2014)",
-    "question": "Which of the following is not examination area of weld for PAUT in ASME Sec. Ⅷ. Div.2? ASME Sec.\nⅧ. Div.2에서 PAUT에 대해 용접부 검사 영역이 아닌 것은?",
-    "options": [
-      "For material thickness greater than 8in.(200mm), the ultrasonic examination area shall include the volume of the weld, plus 3in.(75mm) on each side of the weld\n 200mm보다 두께가 큰 재료에서, 초음파 검사 영역은 용접부 부피와 용접부 각 측면에 75mm를 더한 영역을 포함하여야 한다.",
-      "For material thickness 8in.(200mm) or less, the ultrasonic examination area shall include the volume of the weld, plus the lesser of 1in.(25mm) or t on each side of the weld.\n 200mm보다 두께가 큰 재료에서, 초음파 검사 영역은 용접부 부피와 용접부 각 측면에 25mm를 더한 영역을 포함하여야 한다.",
-      "examination volume may be reduced to include the actual heat affected zone (HAZ) plus 1⁄4in.(6mm) of base material beyond the heat affected zone on each side of the weld\n 검사 체적는 용접 양쪽 열영향부 영역을 이상으로 실제 열영향부에 6mm를 더한 실제 열영향부를 포함하도록 감소 될 수 있다.",
-      "10times the examination frequency\n 검사 주파수의 10배"
-    ],
-    "answer": 0,
-    "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
-  },
-  {
-    "id": 12,
-    "level": "Level II",
-    "method": "PAUT",
-    "category": "Specific",
-    "source": "PAUTSpec-II-A-type(2014)",
-    "question": "What kind of defect is the unacceptable regardless of length in ASME B 31.1 Code Case 179 and HIE-NDT-PAUT-P11(Rev.2)\nASME B 31.1 Code Case 179 와 HIE-NDT-PAUT-P11(Rev.2)에서 어떤 결함이 길이에 상관없이 불합격인가?",
-    "options": [
-      "crack\n균열",
-      "lack of fusion\n융합불량",
-      "incomplete penetration\n용입부족",
-      "all of a, b, c\n1, 2, 3번 모두"
-    ],
-    "answer": 3,
-    "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
-  },
-  {
-    "id": 13,
-    "level": "Level II",
-    "method": "PAUT",
-    "category": "Specific",
-    "source": "PAUTSpec-II-A-type(2014)",
-    "question": "When performing PAUT for weld according to Mandatory Appendix 5 of ASME Sec. V. Art 4, which of the following is not a minimum requirement of examination coverage. ASME Sec.\nV. Art 4 Mandatory Appendix 5에 따라 PAUT를 수행할 때, 검사 범위의 최소 요구조건이 아닌 것은?",
-    "options": [
-      "The search unit shall be maintained at a fixed distance from the weld axis by a fixed guide or mechanical means.\n 탐촉자는 고정 가이드 또는 기계적 수단에 의해 용접 축으로부터 고정된 거리가 유지되어야 한다.",
-      "Scanning speed shall be such that data drop-out is less than 2 data lines per inch (25mm) of the linear scan length and that there are no adjacent data line skips\n 주사속도는 데이터 누락이 선형주사 길이의 25mm 마다 2 데이터 라인보다 적고 인접한 데이터 라인을 건너뛰는 것이 없도록 해야 한다.",
-      "For E-scan techniques, overlap between adjacent active apertures (i.e., aperture incremental change) shall be a minimum of 50% of the effective aperture height\n E-scan 기술에서, 인접한 활성 조리개 사이(즉, 조리개 점진적 변화)의 겹침은 유효 조리개 높이의 최소 50%이어야 한다.",
-      "For S-scan techniques, the angular sweep incremental change shall be a maximum of 2 deg. or sufficient to assure 50% beam overlap.\n F-scan 기술에서, 소자 각도의 점진적 변화는 최대 2도 또는 빔 50%는 충분히 겹쳐야만 한다."
-    ],
-    "answer": 3,
-    "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
-  },
-  {
-    "id": 14,
-    "level": "Level II",
-    "method": "PAUT",
-    "category": "Specific",
-    "source": "PAUTSpec-II-A-type(2014)",
-    "question": "Encoder shall be calibrated per manufacture’s recommendations at following intervals.\n엔코더는 제조사의 권장 사항에 따라 교정되어야 하는 주기는?",
-    "options": [
-      "Not to exceed three month or prior to first use thereafter\n 처음 사용하기 전 혹은 그 후에 3달을 초과하지 않는 기간",
-      "Not to exceed one year or prior to first use thereafter\n 처음 사용하기 전 혹은 그 후에 1년을 초과하지 않는 기간",
-      "Not to exceed one month or prior to first use thereafter\n 처음 사용하기 전 혹은 그 후에 1달을 초과하지 않는 기간",
-      "None of the above\n 상기 모두 아니다."
-    ],
-    "answer": 2,
-    "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
-  },
-  {
-    "id": 15,
-    "level": "Level II",
-    "method": "PAUT",
-    "category": "Specific",
-    "source": "PAUTSpec-II-A-type(2014)",
-    "question": "According to ASME Code Case 2235-10 when inspecting weld thicknesses in excess of 25.4 mm it is recommended to use :\nASME Code Case 2235-10 따라 25.4mm를 초과하는 두께를 가진 용접부을 검사할 때 사용하는 것을 언급하는 것은?",
-    "options": [
-      "Additional sectorial scans can be used.\n 추가적인 섹토리얼 주사를 사용할 수 있다.",
-      "Additional linear scans and sectorial scans\n 추가적인 선형주사와 섹토리얼 주사",
-      "Additional conventional UT scans are required.\n 추가적인 기존의 UT 주사가 요구된다.",
-      "No additional scans are required.\n 추가적인 주사가 필요하지 않다."
-    ],
-    "answer": 0,
-    "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
-  },
-  {
-    "id": 16,
-    "level": "Level II",
-    "method": "PAUT",
-    "category": "Specific",
-    "source": "PAUTSpec-II-A-type(2014)",
-    "question": "What is the recommended minimum digitization rate for PAUT in Mandatory Appendix V of ASME Sec. V. Art.4 ASME Sec.\nV. Art.4 Mandatory Appendix V에서 PAUT에 대해 최소 디지털화 비율은?",
-    "options": [
-      "3times the examination frequency\n검사 주파수의 3배",
-      "4times the examination frequency\n 검사 주파수의 3배 검사 주차수의 4배",
-      "5times the examination frequency\n검사 주파수의 5배",
-      "10times the examination frequency\n 검사 주파수의 5배 검사 주차수의 10배"
-    ],
-    "answer": 2,
-    "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
-  },
-  {
-    "id": 17,
-    "level": "Level II",
-    "method": "PAUT",
-    "category": "Specific",
-    "source": "PAUTSpec-II-A-type(2014)",
-    "question": "When inspecting according to ASME B 31.3 Code Case 181, on wall thickness 24mm, what is the maximum size of a surface notch that can be used for a qualification block?\nASME B 31.3 Code Case 181 또는 HIE-NDT-PAUT-P11(Rev.2)에 따라 검사할 때, 벽 두께 24mm에서 인정 시험편에 사용될 수 있는 표면 노치의 최대 크기는?",
-    "options": [
-      "0.087mm high x 6.4mm long\n높이 0.087mm × 길이 6.4mm",
-      "1.04mm high x 6.4mm long\n높이 1.04mm × 길이 6.4mm",
-      "2.09mm high x 6.4mm long\n높이 2.09mm × 길이 6.4mm",
-      "4.18mm high x 6.4mm long\n높이 4.18mm × 길이 6.4mm"
-    ],
-    "answer": 2,
-    "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
-  },
-  {
-    "id": 18,
-    "level": "Level II",
-    "method": "PAUT",
-    "category": "Specific",
-    "source": "PAUTSpec-II-A-type(2014)",
-    "question": "When inspecting according to ASME B 31.3 Code Case 181, on wall thickness 24mm, what is the maximum size of a subsurface notch that can be used for a qualification block?\nASME B 31.3 Code Case 181에 따라 검사할 때, 벽 두께 24mm에서 인정 시험편에 사용될 수 있는 표면하 노치의 최대 크기는?",
-    "options": [
-      "0.143mm high x 6.4mm long\n높이 0.143mm × 길이 6.4mm",
-      "1.72mm high x 6.4mm long\n높이 1.72mm × 길이 6.4mm",
-      "3.43mm high x 6.4mm long\n높이 3.43mm × 길이 6.4mm",
-      "6.86mm high x 6.4mm long\n높이 6.86mm × 길이 6.4mm"
-    ],
-    "answer": 3,
-    "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
-  },
-  {
-    "id": 19,
-    "level": "Level II",
-    "method": "PAUT",
-    "category": "Specific",
-    "source": "PAUTSpec-II-A-type(2014)",
-    "question": "Encoder shall be calibrated per manufacture’s recommendations and confirmed by moving a minimum distance of .\n엔코더는 제조사의 권장 사항에 따라 교정되어야 하고 최소 몇 mm를 이동하여 확인하여야 하나?",
-    "options": [
-      "150mm",
-      "400mm",
-      "500mm",
-      "600mm"
-    ],
-    "answer": 2,
-    "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
-  },
-  {
-    "id": 20,
-    "level": "Level II",
-    "method": "PAUT",
-    "category": "Specific",
-    "source": "PAUTSpec-II-A-type(2014)",
-    "question": "Phased array UT instrument shall meet the requirement of amplitude control linearity .- PAUT 장비는 어떤 것에 대한 증폭 직선성의 요구사항을 만족해야 하는가?",
-    "options": [
-      "For each focal law\n각 초점법칙마다",
-      "For each pulser-receiver circuit\n 각 집속 법칙에 대한 각 펄스-리시버 회로에 대한",
-      "For each separate element\n각 진동자마다",
-      "All of the above\n 분활된 각 소자에 대한 상기 모두"
-    ],
-    "answer": 1,
-    "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
-  },
-  {
-    "id": 21,
-    "level": "Level II",
-    "method": "PAUT",
-    "category": "Specific",
-    "source": "PAUTSpec-II-A-type(2014)",
-    "question": "What reference is used for personnel qualification and certification in HIE-NDT-PAUT-P11(Rev.2) according to ASME Code ?\nASME Code Case 2235-10에 따른 HIE-NDT-PAUT-P11(Rev.2)에서 인원 자격 및 인증에 사용되는 기준은 무엇인가?",
-    "options": [
-      "EN 473",
-      "ISO 9712",
-      "EN 583-6",
-      "SNT-TC-1A"
-    ],
-    "answer": 3,
-    "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
-  },
-  {
-    "id": 22,
-    "level": "Level II",
-    "method": "PAUT",
-    "category": "Specific",
-    "source": "PAUTSpec-II-A-type(2014)",
-    "question": "ASME Code Case 2235-10 and Sec. Ⅷ Div.1&2 describes that a qualification block must be used to qualify the PAUT written procedure for weld inspection as a minimum the block shall contain .\nASME Code Case 2235-10과 ASME Sec. Ⅷ Div.1&2에서 인정시험편이 용접부 검사에 대해 작성된 PAUT 절차서를 인증하는데, 인정 시험편은 최소한 무엇을 포함하게 언급되나?",
-    "options": [
-      "2 flaws on the OD or ID surface and 1 subsurface flaw if access to both sides of the block.\n 시험편 양쪽에 접근하는 경우 OD 또는 ID 표면의 2개 결함과 1개의 표면하 결함",
-      "2 flaws on the OD surface and 1 flaw on the ID surface\n OD 표면의 2개 결함과 ID 표면의 1개 결함",
-      "No qualification block is needed as long as the equipment is correctly calibrated. \n 인정 시험편은 장비의 정확한 교정이 필요하지 않다.",
-      "1 flaw on the OD surface, 1 flaw on the ID surface and 1 sub surface flaw\n OD 표면의 1개 결함, ID 표면의 1개 결함과 1개의 표면하 결함"
-    ],
-    "answer": 3,
-    "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
-  },
-  {
-    "id": 23,
-    "level": "Level II",
-    "method": "PAUT",
-    "category": "Specific",
-    "source": "PAUTSpec-II-B-type(2014)",
-    "question": "What is the active aperture it will provide when 32elements are activated in a single focal law? (Element width : 0.5mm, Gap width : 0.1mm)\n32개 소자가 하나의 집속 법칙으로 활성될 때, PA가 제공하는 활성 조리개는 얼마인가?(소자 넓이: 0.5mm, 갭 넓이: 0.1mm)",
-    "options": [
-      "19.0",
-      "19.2",
-      "20.6",
-      "22.0"
-    ],
-    "answer": 1
-  },
-  {
-    "id": 24,
-    "level": "Level II",
-    "method": "PAUT",
-    "category": "Specific",
-    "source": "PAUTSpec-II-B-type(2014)",
-    "question": "A phased array UT of 24mm thick single V butt weld is to be performed using single sectorial scan with an angle sweep range of 40~70°. The weld cap is 20mm and HAZ(6mm width). If Omniscan index offset of 40° [B] is set to 25 mm, what is the index offset[C]?\n단독 V 맞대기 용접부 24mm의 PAUT는 40~70°의 각도 범위를 가진 단독 섹토리얼 주사로 수행된다. 용접 비드가 20mm이고 열영향부는6mm이다. 40°[B]에서 Omniscan 인덱스 오프셋을 25mm로 설정하였다면 인덱스 오프셋[C]은 얼마인가?",
-    "options": [
-      "28.3",
-      "30.3",
-      "31.3",
-      "33.6"
-    ],
-    "answer": 2
-  },
-  {
-    "id": 25,
-    "level": "Level II",
-    "method": "PAUT",
-    "category": "Specific",
-    "source": "PAUTSpec-II-A-type(2014)",
-    "question": "용접부 검사에서 다음과 같은 결과를 얻었다. ASME Sec. I, PW-52의 Nonmandatory Appendix E를 적용할 때, 합격인가 불합격인가? 24mm slag 7mm 2mm 4mm UT2(PAUT) - Specific Answers -한공 ‘A' 1 2 3 4 5 6 7 8 9 10 a b c c c d d b b b 11 12 13 14 15 16 17 18 19 20 c a c c b b b c a d 21 22 23 24 25 26 27 28 29 30 d c a c c d c b d d 31 31) a/t = 1/24 = 0.0417, l = 7mm\n두께 결함종류 결함길이(l) 결함높이(h) 표면에서 결함 상단 tip까지의 길이(a) 불합격 해당 년도 및 Rev. 확인후 사용.",
-    "options": [
-      "Acceptable\n합격",
-      "Unacceptable\n불합격"
-    ],
-    "answer": 1
-  },
-  {
-    "id": 26,
-    "question": "According to ASME Code Case 2235-9, when inspecting weld thicknesses in excess of 25.4 mm it is recommended to use:\nASME Code Case 2235-9에 따라 두께 25.4mm를 초과하는 용접부를 검사할 때 권장되는 것은?",
-    "options": [
-      "Additional sectorial scans can be used\n추가적인 섹토리얼 주사를 사용할 수 있다",
-      "Additional linear scans and sectorial scans\n추가적인 선형주사와 섹토리얼 주사",
-      "Additional conventional UT scans are required\n추가적인 기존 UT 주사가 요구된다",
-      "No additional scans are required\n추가적인 주사가 필요하지 않다"
-    ],
-    "answer": 0,
-    "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
-  },
-  {
-    "id": 27,
-    "question": "ASME Code Case 2235-9 and Sec. Ⅷ Div. 1 & 2 describe that a qualification block must be used to qualify the PAUT written procedure for weld inspection. As a minimum, the block shall contain:\nASME Code Case 2235-9와 Sec. Ⅷ Div. 1 & 2는 용접부 검사용 PAUT 절차서 인증에 인정시험편을 쓰도록 규정한다. 시험편이 최소한 포함해야 하는 것은?",
-    "options": [
-      "2 flaws on the OD or ID surface and 1 subsurface flaw if access to both sides of the block\n시험편 양쪽에서 접근 가능한 경우 OD 또는 ID 표면의 결함 2개와 표면하 결함 1개",
-      "2 flaws on the OD surface and 1 flaw on the ID surface\nOD 표면의 결함 2개와 ID 표면의 결함 1개",
-      "No qualification block is needed as long as the equipment is correctly calibrated\n장비가 정확히 교정되어 있으면 인정시험편은 필요 없다",
-      "1 flaw on the OD surface, 1 flaw on the ID surface and 1 subsurface flaw\nOD 표면의 결함 1개, ID 표면의 결함 1개, 표면하 결함 1개"
-    ],
-    "answer": 3,
-    "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
-  }
+ {
+  "id": 1,
+  "level": "Level II",
+  "method": "PAUT",
+  "category": "Specific",
+  "source": "PAUTSpec-II-A-type(2014)",
+  "question": "A focused phased array inspection is limited in path length by .\n집속 PA 검사는 무엇에 의해 경로의 길이가 제한되는가?",
+  "options": [
+   "The transducers near field\n탐촉자의 근거리음장",
+   "The frequency of the transducer\n 탐촉자 근거리음장 탐촉자의 주파수",
+   "The size of the elements\n진동자의 크기",
+   "The grain structure of the component inspected\n 소자 크기 검사할 입자 구조의 구성"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 2,
+  "level": "Level II",
+  "method": "PAUT",
+  "category": "Specific",
+  "source": "PAUTSpec-II-A-type(2014)",
+  "question": "At what range is the width of a conventional ultrasonic beam smallest?\n어떤 범위에서 기존 초음파 빔의 폭이 가장 작은가?",
+  "options": [
+   "It depends on the wedge interface shape.\n 웻지 계면 형상에 따라 달라진다.",
+   "At the end of the nearfield\n 근거리음장의 끝부분",
+   "It varies with frequency, crystal size and excitation voltage.\n 주파수, 결정 크기와 구동 전압에 따라 달라진다.",
+   "At 3 times the crystal diameter.\n 결정 직경의 3배"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 3,
+  "level": "Level II",
+  "method": "PAUT",
+  "category": "Specific",
+  "source": "PAUTSpec-II-A-type(2014)",
+  "question": "The near limit for a PA inspection is\nPA 검사에서 근거리 제한은?",
+  "options": [
+   "The Dead Zone of the elements\n 소자의 Dead Zone",
+   "Approximately 10% of the near field\n 근거리 음장의 약 10%",
+   "There is no practical near limit\n 입자의 근거리 제한은 없다.",
+   "The near limit can be adjusted by focusing the probe.\n 프로브 focusing에 의한 근거리 제한은 조정될 수 있다."
+  ],
+  "answer": 1
+ },
+ {
+  "id": 4,
+  "level": "Level II",
+  "method": "PAUT",
+  "category": "Specific",
+  "source": "PAUTSpec-II-A-type(2014)",
+  "question": "Electronic scanning is\n전자 주사는?",
+  "options": [
+   "Using a robot to automatically scan an component\n 구성 요소를 자동으로 주사하는 로봇을 사용",
+   "Utilising a linear scan with a defined aperture to increment along an array and scan a component with no mechanical movement.\n 배열에 따라 증가하고 기계적 이동 없이 구성요소를 주사하는 것을 정의되는 조리개로 선형 주사를 구성",
+   "Is the PA term that equates to PRF in conventional UT\n 기존 UT에서 PRF에 상응하는 PA용어이다.",
+   "Is the process of digitising an analogue signal.\n 아날로그 신호를 디지털화하는 과정이다."
+  ],
+  "answer": 1
+ },
+ {
+  "id": 5,
+  "level": "Level II",
+  "method": "PAUT",
+  "category": "Specific",
+  "source": "PAUTSpec-II-A-type(2014)",
+  "question": "A phased array linear scan is .\n선형 주사PA는 무엇인가?",
+  "options": [
+   "A straight line scan.\n 직선 주사",
+   "A scan using a fixed focal law but incrementing different groups of elements.\n 고정된 집속법칙을 사용하지만 다른 소자의 그룹 증가하는 주사",
+   "A scan using the whole array to produce an electronic rastering scan.\n 전자 래스터링 주사를 생성하는 전체 배열을 사용하는 주사",
+   "A scan that inspects with a range a angles to cover a linear volume of material.\n 재료의 선형 볼륨을 커버하는 다양한 각도로 검사하는 주사"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 6,
+  "level": "Level II",
+  "method": "PAUT",
+  "category": "Specific",
+  "source": "PAUTSpec-II-A-type(2014)",
+  "question": "What is the type of phased array scan that uses a series of focal laws to sweep through a range of angles from a fixed aperture?\n고정된 조리개로 각도 범위를 스윕하여 집속 법칙의 시리즈를 사용하는 PA 주사 유형은?",
+  "options": [
+   "Sectorial\n부채꼴형",
+   "Linear\n선형",
+   "Arc\n원호",
+   "Dynamic depth focusing\n동적깊이초점"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 7,
+  "level": "Level II",
+  "method": "PAUT",
+  "category": "Specific",
+  "source": "PAUTSpec-II-A-type(2014)",
+  "question": "A phased array UT of 24mm thick single V butt weld is to be performed using single sectorial scan with an angle sweep range of 40~70°. The weld cap is 20mm and HAZ(6mm width). If Omniscan index offset of 40° [B] is set to 25 mm, what is the index offset[C]?\n단독 V 맞대기 용접부 24mm의 PAUT는 40~70°의 각도 범위를 가진 단독 섹토리얼 주사로 수행된다. 용접 비드가 20mm이고 열영향부는6mm이다. 40°[B]에서 Omniscan 인덱스 오프셋을 25mm로 설정하였다면 인덱스 오프셋[C]은 얼마인가?",
+  "options": [
+   "28.3",
+   "30.3",
+   "31.3",
+   "33.6"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 8,
+  "level": "Level II",
+  "method": "PAUT",
+  "category": "Specific",
+  "source": "PAUTSpec-II-A-type(2014)",
+  "question": "Dynamic Depth Focusing is 동적 깊이 focusing은?",
+  "options": [
+   "The ability of equipment to focus a varying depths\n 다양한 깊이를 초점을 맞추기 위한 장비의 성능",
+   "The multi processing of returned signals to focus at varying depths\n 다양한 깊이를 초점을 맞추기 위한 반환된 신호의 다중 처리",
+   "The ability to move the focal point by changing the shape of the transducer using the Piezo electric properties of the elements.\n 소자의 압전 특성을 이용한 탐촉자의 모양을 변화시킴으로써 초점 위치를 이동할 수 있는 능력",
+   "In the PA context it is equivalent to Time Corrected Gain in conventional UT.\n PA에서 그것은 기존 UT의 TCG와 동일하다."
+  ],
+  "answer": 1
+ },
+ {
+  "id": 9,
+  "level": "Level II",
+  "method": "PAUT",
+  "category": "Specific",
+  "source": "PAUTSpec-II-A-type(2014)",
+  "question": "What is the active aperture it will provide when 32elements are activated in a single focal law? (Element width : 0.5mm, Gap width : 0.1mm)\n32개 소자가 하나의 집속 법칙으로 활성될 때, PA가 제공하는 활성 조리개는 얼마인가?(소자 넓이: 0.5mm, 갭 넓이: 0.1mm)",
+  "options": [
+   "19.0",
+   "19.2",
+   "20.6",
+   "22.0"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 10,
+  "level": "Level II",
+  "method": "PAUT",
+  "category": "Specific",
+  "source": "PAUTSpec-II-A-type(2014)",
+  "question": "Which is the maximum PAUT data sample spacing in accordance with ASME Sec. V. Art 4 for thickness greater than 3in.(75mm)? ASME Sec.V.\nArt 4.에 따라 75mm 미만 두께에서 최대 PAUT 데이터 샘플 간격은?",
+  "options": [
+   "0.5mm",
+   "1mm",
+   "2mm",
+   "4mm"
+  ],
+  "answer": 2,
+  "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
+ },
+ {
+  "id": 11,
+  "level": "Level II",
+  "method": "PAUT",
+  "category": "Specific",
+  "source": "PAUTSpec-II-A-type(2014)",
+  "question": "Which of the following is not examination area of weld for PAUT in ASME Sec. Ⅷ. Div.2? ASME Sec.\nⅧ. Div.2에서 PAUT에 대해 용접부 검사 영역이 아닌 것은?",
+  "options": [
+   "For material thickness greater than 8in.(200mm), the ultrasonic examination area shall include the volume of the weld, plus 3in.(75mm) on each side of the weld\n 200mm보다 두께가 큰 재료에서, 초음파 검사 영역은 용접부 부피와 용접부 각 측면에 75mm를 더한 영역을 포함하여야 한다.",
+   "For material thickness 8in.(200mm) or less, the ultrasonic examination area shall include the volume of the weld, plus the lesser of 1in.(25mm) or t on each side of the weld.\n 200mm보다 두께가 큰 재료에서, 초음파 검사 영역은 용접부 부피와 용접부 각 측면에 25mm를 더한 영역을 포함하여야 한다.",
+   "examination volume may be reduced to include the actual heat affected zone (HAZ) plus 1⁄4in.(6mm) of base material beyond the heat affected zone on each side of the weld\n 검사 체적는 용접 양쪽 열영향부 영역을 이상으로 실제 열영향부에 6mm를 더한 실제 열영향부를 포함하도록 감소 될 수 있다.",
+   "10times the examination frequency\n 검사 주파수의 10배"
+  ],
+  "answer": 0,
+  "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
+ },
+ {
+  "id": 12,
+  "level": "Level II",
+  "method": "PAUT",
+  "category": "Specific",
+  "source": "PAUTSpec-II-A-type(2014)",
+  "question": "What kind of defect is the unacceptable regardless of length in ASME B 31.1 Code Case 179 and HIE-NDT-PAUT-P11(Rev.2)\nASME B 31.1 Code Case 179 와 HIE-NDT-PAUT-P11(Rev.2)에서 어떤 결함이 길이에 상관없이 불합격인가?",
+  "options": [
+   "crack\n균열",
+   "lack of fusion\n융합불량",
+   "incomplete penetration\n용입부족",
+   "all of a, b, c\n1, 2, 3번 모두"
+  ],
+  "answer": 3,
+  "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
+ },
+ {
+  "id": 13,
+  "level": "Level II",
+  "method": "PAUT",
+  "category": "Specific",
+  "source": "PAUTSpec-II-A-type(2014)",
+  "question": "When performing PAUT for weld according to Mandatory Appendix 5 of ASME Sec. V. Art 4, which of the following is not a minimum requirement of examination coverage. ASME Sec.\nV. Art 4 Mandatory Appendix 5에 따라 PAUT를 수행할 때, 검사 범위의 최소 요구조건이 아닌 것은?",
+  "options": [
+   "The search unit shall be maintained at a fixed distance from the weld axis by a fixed guide or mechanical means.\n 탐촉자는 고정 가이드 또는 기계적 수단에 의해 용접 축으로부터 고정된 거리가 유지되어야 한다.",
+   "Scanning speed shall be such that data drop-out is less than 2 data lines per inch (25mm) of the linear scan length and that there are no adjacent data line skips\n 주사속도는 데이터 누락이 선형주사 길이의 25mm 마다 2 데이터 라인보다 적고 인접한 데이터 라인을 건너뛰는 것이 없도록 해야 한다.",
+   "For E-scan techniques, overlap between adjacent active apertures (i.e., aperture incremental change) shall be a minimum of 50% of the effective aperture height\n E-scan 기술에서, 인접한 활성 조리개 사이(즉, 조리개 점진적 변화)의 겹침은 유효 조리개 높이의 최소 50%이어야 한다.",
+   "For S-scan techniques, the angular sweep incremental change shall be a maximum of 2 deg. or sufficient to assure 50% beam overlap.\n F-scan 기술에서, 소자 각도의 점진적 변화는 최대 2도 또는 빔 50%는 충분히 겹쳐야만 한다."
+  ],
+  "answer": 3,
+  "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
+ },
+ {
+  "id": 14,
+  "level": "Level II",
+  "method": "PAUT",
+  "category": "Specific",
+  "source": "PAUTSpec-II-A-type(2014)",
+  "question": "Encoder shall be calibrated per manufacture’s recommendations at following intervals.\n엔코더는 제조사의 권장 사항에 따라 교정되어야 하는 주기는?",
+  "options": [
+   "Not to exceed three month or prior to first use thereafter\n 처음 사용하기 전 혹은 그 후에 3달을 초과하지 않는 기간",
+   "Not to exceed one year or prior to first use thereafter\n 처음 사용하기 전 혹은 그 후에 1년을 초과하지 않는 기간",
+   "Not to exceed one month or prior to first use thereafter\n 처음 사용하기 전 혹은 그 후에 1달을 초과하지 않는 기간",
+   "None of the above\n 상기 모두 아니다."
+  ],
+  "answer": 2,
+  "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
+ },
+ {
+  "id": 15,
+  "level": "Level II",
+  "method": "PAUT",
+  "category": "Specific",
+  "source": "PAUTSpec-II-A-type(2014)",
+  "question": "According to ASME Code Case 2235-10 when inspecting weld thicknesses in excess of 25.4 mm it is recommended to use :\nASME Code Case 2235-10 따라 25.4mm를 초과하는 두께를 가진 용접부을 검사할 때 사용하는 것을 언급하는 것은?",
+  "options": [
+   "Additional sectorial scans can be used.\n 추가적인 섹토리얼 주사를 사용할 수 있다.",
+   "Additional linear scans and sectorial scans\n 추가적인 선형주사와 섹토리얼 주사",
+   "Additional conventional UT scans are required.\n 추가적인 기존의 UT 주사가 요구된다.",
+   "No additional scans are required.\n 추가적인 주사가 필요하지 않다."
+  ],
+  "answer": 0,
+  "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
+ },
+ {
+  "id": 16,
+  "level": "Level II",
+  "method": "PAUT",
+  "category": "Specific",
+  "source": "PAUTSpec-II-A-type(2014)",
+  "question": "What is the recommended minimum digitization rate for PAUT in Mandatory Appendix V of ASME Sec. V. Art.4 ASME Sec.\nV. Art.4 Mandatory Appendix V에서 PAUT에 대해 최소 디지털화 비율은?",
+  "options": [
+   "3times the examination frequency\n검사 주파수의 3배",
+   "4times the examination frequency\n 검사 주파수의 3배 검사 주차수의 4배",
+   "5times the examination frequency\n검사 주파수의 5배",
+   "10times the examination frequency\n 검사 주파수의 5배 검사 주차수의 10배"
+  ],
+  "answer": 2,
+  "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
+ },
+ {
+  "id": 17,
+  "level": "Level II",
+  "method": "PAUT",
+  "category": "Specific",
+  "source": "PAUTSpec-II-A-type(2014)",
+  "question": "When inspecting according to ASME B 31.3 Code Case 181, on wall thickness 24mm, what is the maximum size of a surface notch that can be used for a qualification block?\nASME B 31.3 Code Case 181 또는 HIE-NDT-PAUT-P11(Rev.2)에 따라 검사할 때, 벽 두께 24mm에서 인정 시험편에 사용될 수 있는 표면 노치의 최대 크기는?",
+  "options": [
+   "0.087mm high x 6.4mm long\n높이 0.087mm × 길이 6.4mm",
+   "1.04mm high x 6.4mm long\n높이 1.04mm × 길이 6.4mm",
+   "2.09mm high x 6.4mm long\n높이 2.09mm × 길이 6.4mm",
+   "4.18mm high x 6.4mm long\n높이 4.18mm × 길이 6.4mm"
+  ],
+  "answer": 2,
+  "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
+ },
+ {
+  "id": 18,
+  "level": "Level II",
+  "method": "PAUT",
+  "category": "Specific",
+  "source": "PAUTSpec-II-A-type(2014)",
+  "question": "When inspecting according to ASME B 31.3 Code Case 181, on wall thickness 24mm, what is the maximum size of a subsurface notch that can be used for a qualification block?\nASME B 31.3 Code Case 181에 따라 검사할 때, 벽 두께 24mm에서 인정 시험편에 사용될 수 있는 표면하 노치의 최대 크기는?",
+  "options": [
+   "0.143mm high x 6.4mm long\n높이 0.143mm × 길이 6.4mm",
+   "1.72mm high x 6.4mm long\n높이 1.72mm × 길이 6.4mm",
+   "3.43mm high x 6.4mm long\n높이 3.43mm × 길이 6.4mm",
+   "6.86mm high x 6.4mm long\n높이 6.86mm × 길이 6.4mm"
+  ],
+  "answer": 3,
+  "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
+ },
+ {
+  "id": 19,
+  "level": "Level II",
+  "method": "PAUT",
+  "category": "Specific",
+  "source": "PAUTSpec-II-A-type(2014)",
+  "question": "Encoder shall be calibrated per manufacture’s recommendations and confirmed by moving a minimum distance of .\n엔코더는 제조사의 권장 사항에 따라 교정되어야 하고 최소 몇 mm를 이동하여 확인하여야 하나?",
+  "options": [
+   "150mm",
+   "400mm",
+   "500mm",
+   "600mm"
+  ],
+  "answer": 2,
+  "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
+ },
+ {
+  "id": 20,
+  "level": "Level II",
+  "method": "PAUT",
+  "category": "Specific",
+  "source": "PAUTSpec-II-A-type(2014)",
+  "question": "Phased array UT instrument shall meet the requirement of amplitude control linearity .- PAUT 장비는 어떤 것에 대한 증폭 직선성의 요구사항을 만족해야 하는가?",
+  "options": [
+   "For each focal law\n각 초점법칙마다",
+   "For each pulser-receiver circuit\n 각 집속 법칙에 대한 각 펄스-리시버 회로에 대한",
+   "For each separate element\n각 진동자마다",
+   "All of the above\n 분활된 각 소자에 대한 상기 모두"
+  ],
+  "answer": 1,
+  "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
+ },
+ {
+  "id": 21,
+  "level": "Level II",
+  "method": "PAUT",
+  "category": "Specific",
+  "source": "PAUTSpec-II-A-type(2014)",
+  "question": "What reference is used for personnel qualification and certification in HIE-NDT-PAUT-P11(Rev.2) according to ASME Code ?\nASME Code Case 2235-10에 따른 HIE-NDT-PAUT-P11(Rev.2)에서 인원 자격 및 인증에 사용되는 기준은 무엇인가?",
+  "options": [
+   "EN 473",
+   "ISO 9712",
+   "EN 583-6",
+   "SNT-TC-1A"
+  ],
+  "answer": 3,
+  "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
+ },
+ {
+  "id": 22,
+  "level": "Level II",
+  "method": "PAUT",
+  "category": "Specific",
+  "source": "PAUTSpec-II-A-type(2014)",
+  "question": "ASME Code Case 2235-10 and Sec. Ⅷ Div.1&2 describes that a qualification block must be used to qualify the PAUT written procedure for weld inspection as a minimum the block shall contain .\nASME Code Case 2235-10과 ASME Sec. Ⅷ Div.1&2에서 인정시험편이 용접부 검사에 대해 작성된 PAUT 절차서를 인증하는데, 인정 시험편은 최소한 무엇을 포함하게 언급되나?",
+  "options": [
+   "2 flaws on the OD or ID surface and 1 subsurface flaw if access to both sides of the block.\n 시험편 양쪽에 접근하는 경우 OD 또는 ID 표면의 2개 결함과 1개의 표면하 결함",
+   "2 flaws on the OD surface and 1 flaw on the ID surface\n OD 표면의 2개 결함과 ID 표면의 1개 결함",
+   "No qualification block is needed as long as the equipment is correctly calibrated. \n 인정 시험편은 장비의 정확한 교정이 필요하지 않다.",
+   "1 flaw on the OD surface, 1 flaw on the ID surface and 1 sub surface flaw\n OD 표면의 1개 결함, ID 표면의 1개 결함과 1개의 표면하 결함"
+  ],
+  "answer": 3,
+  "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
+ },
+ {
+  "id": 23,
+  "level": "Level II",
+  "method": "PAUT",
+  "category": "Specific",
+  "source": "PAUTSpec-II-B-type(2014)",
+  "question": "What is the active aperture it will provide when 32elements are activated in a single focal law? (Element width : 0.5mm, Gap width : 0.1mm)\n32개 소자가 하나의 집속 법칙으로 활성될 때, PA가 제공하는 활성 조리개는 얼마인가?(소자 넓이: 0.5mm, 갭 넓이: 0.1mm)",
+  "options": [
+   "19.0",
+   "19.2",
+   "20.6",
+   "22.0"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 24,
+  "level": "Level II",
+  "method": "PAUT",
+  "category": "Specific",
+  "source": "PAUTSpec-II-B-type(2014)",
+  "question": "A phased array UT of 24mm thick single V butt weld is to be performed using single sectorial scan with an angle sweep range of 40~70°. The weld cap is 20mm and HAZ(6mm width). If Omniscan index offset of 40° [B] is set to 25 mm, what is the index offset[C]?\n단독 V 맞대기 용접부 24mm의 PAUT는 40~70°의 각도 범위를 가진 단독 섹토리얼 주사로 수행된다. 용접 비드가 20mm이고 열영향부는6mm이다. 40°[B]에서 Omniscan 인덱스 오프셋을 25mm로 설정하였다면 인덱스 오프셋[C]은 얼마인가?",
+  "options": [
+   "28.3",
+   "30.3",
+   "31.3",
+   "33.6"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 25,
+  "level": "Level II",
+  "method": "PAUT",
+  "category": "Specific",
+  "source": "PAUTSpec-II-A-type(2014)",
+  "question": "A weld examination gave the following results. Applying ASME Sec. I, PW-52 with Nonmandatory Appendix E, is the weld acceptable or unacceptable?\n용접부 검사에서 다음과 같은 결과를 얻었다. ASME Sec. I, PW-52 의 Nonmandatory Appendix E 를 적용할 때, 합격인가 불합격인가?\n\n  Thickness / 두께                                24 mm\n  Flaw type / 결함종류                            slag\n  Flaw length (l) / 결함길이                      7 mm\n  Flaw height (h) / 결함높이                      2 mm\n  Depth to upper tip (a) / 표면에서 결함 상단 tip 까지   4 mm",
+  "options": [
+   "Acceptable\n합격",
+   "Unacceptable\n불합격"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 26,
+  "question": "According to ASME Code Case 2235-9, when inspecting weld thicknesses in excess of 25.4 mm it is recommended to use:\nASME Code Case 2235-9에 따라 두께 25.4mm를 초과하는 용접부를 검사할 때 권장되는 것은?",
+  "options": [
+   "Additional sectorial scans can be used\n추가적인 섹토리얼 주사를 사용할 수 있다",
+   "Additional linear scans and sectorial scans\n추가적인 선형주사와 섹토리얼 주사",
+   "Additional conventional UT scans are required\n추가적인 기존 UT 주사가 요구된다",
+   "No additional scans are required\n추가적인 주사가 필요하지 않다"
+  ],
+  "answer": 0,
+  "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
+ },
+ {
+  "id": 27,
+  "question": "ASME Code Case 2235-9 and Sec. Ⅷ Div. 1 & 2 describe that a qualification block must be used to qualify the PAUT written procedure for weld inspection. As a minimum, the block shall contain:\nASME Code Case 2235-9와 Sec. Ⅷ Div. 1 & 2는 용접부 검사용 PAUT 절차서 인증에 인정시험편을 쓰도록 규정한다. 시험편이 최소한 포함해야 하는 것은?",
+  "options": [
+   "2 flaws on the OD or ID surface and 1 subsurface flaw if access to both sides of the block\n시험편 양쪽에서 접근 가능한 경우 OD 또는 ID 표면의 결함 2개와 표면하 결함 1개",
+   "2 flaws on the OD surface and 1 flaw on the ID surface\nOD 표면의 결함 2개와 ID 표면의 결함 1개",
+   "No qualification block is needed as long as the equipment is correctly calibrated\n장비가 정확히 교정되어 있으면 인정시험편은 필요 없다",
+   "1 flaw on the OD surface, 1 flaw on the ID surface and 1 subsurface flaw\nOD 표면의 결함 1개, ID 표면의 결함 1개, 표면하 결함 1개"
+  ],
+  "answer": 3,
+  "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
+ }
 ]
