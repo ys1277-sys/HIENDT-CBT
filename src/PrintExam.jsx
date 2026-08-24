@@ -663,14 +663,16 @@ function PrintExam({
           {/*
             채점 결과 표시.
 
-            맞으면 파란 동그라미, 틀리면 빨간 가위표. 안 푼 문항은 틀린
-            것으로 본다. 예전에는 응시자가 안 풀어도 정답 자리에 파란
-            표시가 찍혀, 안 푼 문항이 맞은 것처럼 보였다.
+            답한 문항에만 동그라미를 찍는다. 맞으면 파랑, 틀리면 빨강.
+            가위표는 쓰지 않는다. 안 푼 문항은 아무것도 안 찍고 비워 둔다.
+
+            예전에는 정답 보기를 늘 파랗게 칠해, 응시자가 손도 안 댄 문항이
+            맞은 것처럼 보였다.
 
             백지 시험지(문제은행 출력)는 showAnswers 가 꺼져 있어 안 찍는다.
           */}
           {
-            showAnswers && (
+            showAnswers && isAnswered(q, rawUserAnswer) && (
               <span
                 className={
                   isCorrect(q, rawUserAnswer)
@@ -678,7 +680,7 @@ function PrintExam({
                     : "mark-result mark-no"
                 }
               >
-                {isCorrect(q, rawUserAnswer) ? "○" : "✕"}
+                ○
               </span>
             )
           }
