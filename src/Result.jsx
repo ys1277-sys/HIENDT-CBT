@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import PrintExam from "./PrintExam.jsx";
+import { openPaper } from "./paperPreview.js";
 import { isCorrect, questionType, TEXT } from "./grading.js";
 
 
@@ -425,7 +426,12 @@ function Result({
 
           <button
 
-            onClick={()=>setPrint(true)}
+            /*
+             * 이미 만들어 뒀으면 다시 펼치기만 한다.
+             * setPrint(true) 는 이미 true 면 아무 일도 안 해서,
+             * 화면에 펼친 문제지를 닫은 뒤 다시 누르면 반응이 없었다.
+             */
+            onClick={() => (print ? openPaper() : setPrint(true))}
 
           >
 
@@ -503,7 +509,8 @@ function Result({
 
           onReady={
 
-            () => window.print()
+            /* 아이폰은 인쇄창이 없다. 그때는 화면에 펼친다 */
+            () => openPaper()
 
           }
 

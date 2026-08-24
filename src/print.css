@@ -1411,3 +1411,117 @@
 
   font-size: 13px;
 }
+
+/* =========================================================
+   문제지를 화면에 펼쳐 보기
+
+   아이폰은 window.print() 가 아무 일도 안 한다. 그런 기기에서는
+   만들어진 종이를 화면에 그대로 펼쳐, 공유 → PDF 로 넘기게 한다.
+   src/paperPreview.js 가 body 에 paper-preview 를 붙인다.
+   ========================================================= */
+
+body.paper-preview > #root > *:not(.print-area) {
+  display: none !important;
+}
+
+body.paper-preview .print-area {
+  display: block !important;
+
+  background: #5a5f66;
+
+  /* 도구 막대에 가리지 않게 위를 비운다 */
+  padding: 60px 0 24px 0;
+}
+
+/*
+ * 종이는 190mm 로 못 박혀 있다. 휴대폰 화면이 그보다 좁으니
+ * 폭에 맞춰 통째로 줄인다. 글자만 줄이면 줄바꿈이 달라져
+ * 실제 인쇄물과 다른 종이가 된다.
+ */
+body.paper-preview .print-paper {
+  display: block !important;
+
+  margin: 0 auto 16px auto;
+
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+/*
+ * 종이는 190mm(약 718px)로 못 박혀 있다. 휴대폰은 그보다 좁으니
+ * 통째로 줄인다. 글자만 줄이면 줄바꿈이 달라져 실제 인쇄물과
+ * 다른 종이가 된다.
+ *
+ * transform: scale 은 쓰지 않는다. 줄여도 원래 크기만큼 자리를
+ * 차지해 종이 사이가 벌어지고, 아래로 한참 빈 곳이 남는다.
+ * zoom 은 배치까지 다시 해서 자리도 같이 줄어든다.
+ *
+ * 배수는 paperPreview.js 가 --paper-scale 로 넣어 준다.
+ * calc(100vw / 740) 은 길이라서 zoom 도 scale 도 못 받는다.
+ */
+body.paper-preview .print-area {
+  zoom: var(--paper-scale, 1);
+}
+
+.paper-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 300;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+
+  padding: 8px 12px;
+
+  background: #003b73;
+  color: white;
+}
+
+.paper-bar-hint {
+  font-size: 13px;
+}
+
+.paper-bar-close {
+  padding: 8px 16px;
+
+  border: 0;
+  border-radius: 6px;
+
+  background: white;
+  color: #003b73;
+  font-size: 14px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+/* 인쇄물에는 막대가 없다 */
+@media print {
+  .paper-bar {
+    display: none !important;
+  }
+}
+
+.paper-bar-btns {
+  display: flex;
+  gap: 8px;
+
+  flex-shrink: 0;
+}
+
+.paper-bar-print {
+  padding: 8px 16px;
+
+  border: 1px solid white;
+  border-radius: 6px;
+
+  background: transparent;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+
+  cursor: pointer;
+}

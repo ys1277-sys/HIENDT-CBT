@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import PrintExam from "./PrintExam.jsx";
+import { openPaper } from "./paperPreview.js";
 import ExamData from "./ExamData.jsx";
 
 function Home({
@@ -537,7 +538,8 @@ return (
 
         onReady={
 
-          () => window.print()
+          /* 아이폰은 인쇄창이 없다. 그때는 화면에 펼친다 */
+          () => openPaper()
 
         }
 

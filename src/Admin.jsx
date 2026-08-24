@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import PrintAdminExam from "./PrintAdminExam.jsx";
+import { openPaper } from "./paperPreview.js";
 
 function Admin({ onBack }) {
   console.log("Admin 실행됨");
@@ -55,7 +56,7 @@ function Admin({ onBack }) {
     if (!examReady) return;
 
     const timer = setTimeout(() => {
-      window.print();
+      openPaper();
     }, 200);
 
     return () => clearTimeout(timer);
