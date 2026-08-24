@@ -13,8 +13,6 @@ import ProcedureAppendix, { useProcedures } from "./ProcedureAppendix.jsx";
 import { groupRanges } from "./groupRange.js";
 import {
   questionType,
-  isCorrect,
-  isAnswered,
   isCorrectOption,
   isChosenOption,
   TEXT
@@ -548,21 +546,6 @@ function PrintAdminExam({
 
           </span>
 
-
-          {/* 답한 문항에 동그라미. 맞으면 파랑 틀리면 빨강 — PrintExam 과 같다 */}
-          {
-            isAnswered(q, rawUserAnswer) && (
-              <span
-                className={
-                  isCorrect(q, rawUserAnswer)
-                    ? "mark-result mark-ok"
-                    : "mark-result mark-no"
-                }
-              >
-                ○
-              </span>
-            )
-          }
 
 
           {/* 번호는 왼쪽 칸, 영문·한글은 오른쪽 칸 — PrintExam 과 같다 */}

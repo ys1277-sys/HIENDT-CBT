@@ -14,8 +14,6 @@ import ProcedureAppendix, { useProcedures } from "./ProcedureAppendix.jsx";
 import { groupRanges } from "./groupRange.js";
 import {
   questionType,
-  isCorrect,
-  isAnswered,
   isCorrectOption,
   isChosenOption,
   TEXT
@@ -659,31 +657,6 @@ function PrintExam({
 
           </span>
 
-
-          {/*
-            채점 결과 표시.
-
-            답한 문항에만 동그라미를 찍는다. 맞으면 파랑, 틀리면 빨강.
-            가위표는 쓰지 않는다. 안 푼 문항은 아무것도 안 찍고 비워 둔다.
-
-            예전에는 정답 보기를 늘 파랗게 칠해, 응시자가 손도 안 댄 문항이
-            맞은 것처럼 보였다.
-
-            백지 시험지(문제은행 출력)는 showAnswers 가 꺼져 있어 안 찍는다.
-          */}
-          {
-            showAnswers && isAnswered(q, rawUserAnswer) && (
-              <span
-                className={
-                  isCorrect(q, rawUserAnswer)
-                    ? "mark-result mark-ok"
-                    : "mark-result mark-no"
-                }
-              >
-                ○
-              </span>
-            )
-          }
 
 
           {/*
