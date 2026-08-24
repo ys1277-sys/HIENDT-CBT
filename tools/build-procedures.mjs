@@ -22,6 +22,9 @@ import fs from "node:fs";
 import path from "node:path";
 import { readRich } from "./hwprich.mjs";
 import { bmpToPng } from "./bmp2png.mjs";
+import { pcxToPng, isPcx } from "./pcx2png.mjs";
+import { wmfToPng, isWmf } from "./wmf2png.mjs";
+import { oleToImage, isOle } from "./ole2png.mjs";
 
 const SRC = "D:/Visual Studio Code/절차서";
 const OUT = "D:/Visual Studio Code/HIENDT-CBT/public/data/procedures";
@@ -39,7 +42,7 @@ const ALIAS = {
   "HIE-NDT-TOFD-U09": ["HIE-NDT-P11"],
 };
 
-/* 브라우저가 못 그리는 형식은 뺀다. pcx 는 못 그리고 bin 은 정체 불명이다 */
+/* 브라우저가 그대로 그리는 형식. 나머지는 아래에서 바꿔 싣는다 */
 const DRAWABLE = new Set(["jpg", "png", "gif", "bmp"]);
 const EXT = { jpg: "jpg", png: "png", gif: "gif", bmp: "bmp" };
 
@@ -74,8 +77,14 @@ function pixelSize(buf) {
 const HANGUL = /[가-힣]/;
 const LATIN = /[A-Za-z]/;
 
-/* 항목 번호. "1.0 SCOPE" "4.2.1 Application" */
-const SECTION = /^(\d{1,2}\.\d{1,2}(?:\.\d{1,2})?)[\s.]/;
+/*
+ * 항목 번호. "1.0 SCOPE" "4.2.1 Application" "6.11.1.2 …"
+ *
+ * 예전에는 세 자리까지만 봤다. 그러면 6.11.1.1 6.11.1.2 6.11.1.3 이
+ * 모두 열쇠 6.11.1 로 뭉개져, 영문과 한글을 짝지을 때 첫 것만 남고
+ * 나머지가 사라졌다. 네 자리까지 본다.
+ */
+const SECTION = /^(\d{1,2}\.\d{1,2}(?:\.\d{1,2}){0,2})[\s.]/;
 
 /* ---- 표지에서 문서 정보 읽기 ---- */
 
@@ -191,27 +200,66 @@ function weave(table) {
   const koSec = splitSections(ko);
   if (enSec.length < 2) return null;
 
-  const koBy = new Map();
-  for (const s of koSec) if (s.key && !koBy.has(s.key)) koBy.set(s.key, s);
+  /*
+   * 한글 항목을 열쇠별로 줄 세운다.
+   *
+   * 예전에는 열쇠 하나에 한 항목만 담아, 같은 번호가 두 번 나오면
+   * 뒤엣것이 통째로 사라졌다. 줄로 담아 앞에서부터 하나씩 꺼낸다.
+   */
+  const koQueue = new Map();
+  for (const s of koSec) {
+    if (!s.key) continue;
+    if (!koQueue.has(s.key)) koQueue.set(s.key, []);
+    koQueue.get(s.key).push(s);
+  }
 
+  const taken = new Set();
   const out = [];
-  const used = new Set();
 
-  for (const s of enSec) {
+  /*
+   * 머리.
+   *
+   * 본문은 쪽마다 2칸 표로 나뉘어 있어, 한글 칸이 앞 쪽에서 이어지는
+   * 줄로 시작할 때가 있다. 그 줄에는 항목 번호가 없다. 예전에는
+   * 이것을 통째로 버려 "(d) 검사 결과" 같은 줄이 사라졌다.
+   * 영문 머리 다음에 그대로 놓는다.
+   */
+  let i = 0;
+
+  if (enSec[0] && !enSec[0].key) {
+    out.push(...enSec[0].blocks);
+    i = 1;
+  }
+
+  for (const s of koSec) {
+    if (s.key) break;
     out.push(...s.blocks);
-    const k = koBy.get(s.key);
-    if (k && !used.has(s.key)) {
-      used.add(s.key);
+    taken.add(s);
+  }
+
+  for (; i < enSec.length; i++) {
+    const s = enSec[i];
+    out.push(...s.blocks);
+
+    const q = koQueue.get(s.key);
+    if (q && q.length) {
+      const k = q.shift();
+      taken.add(k);
       out.push(...k.blocks);
     }
   }
 
-  /* 짝을 못 찾은 한글 항목은 뒤에 붙인다 */
+  /*
+   * 짝을 못 찾은 한글은 원본 차례 그대로 뒤에 붙인다.
+   *
+   * 한글이 "5.7.2항에 기술된" 처럼 쓰고 영문이 "5.7.2 Except as" 로
+   * 쓰면 열쇠가 어긋난다. 자리는 조금 밀려도 글은 살린다.
+   */
   for (const s of koSec) {
-    if (s.key && used.has(s.key)) continue;
-    if (!s.key && out.length) continue;
+    if (taken.has(s)) continue;
     out.push(...s.blocks);
   }
+
   return out;
 }
 
@@ -233,9 +281,27 @@ function weave(table) {
  */
 const ENDS_SENTENCE = /[.。]\s*$|다\.?\s*$|[,、]\s*$/;
 
-function isHeading(s) {
+/*
+ * 한 자리 항목. "1. Scope" "10. DOCUMENTATION"
+ *
+ * TOFD 절차서는 1.0 이 아니라 1. 로 번호를 단다. 두 자리만 보다가
+ * 제목을 하나도 못 잡아, 그 문서만 굵은 줄 없이 밋밋했다.
+ * 뒤에 반드시 빈칸과 글자가 와야 한다. 그래야 "2.25 MHz" 같은
+ * 숫자를 제목으로 잘못 잡지 않는다.
+ */
+const ONE_LEVEL = /^(\d{1,2})\.\s+\S/;
+
+function sectionKey(s) {
   const m = s.match(SECTION);
-  if (!m) return false;
+  if (m) return m[1];
+
+  const one = s.match(ONE_LEVEL);
+  return one ? one[1] : null;
+}
+
+function isHeading(s) {
+  const key = sectionKey(s);
+  if (!key) return false;
 
   /* 1.0 2.0 처럼 큰 항목 */
   if (/^\d{1,2}\.0(?:[\s.]|$)/.test(s)) return true;
@@ -246,7 +312,7 @@ function isHeading(s) {
 function markHeadings(blocks) {
   return blocks.map((b) => {
     if (b.t !== "p" || !isHeading(b.s)) return b;
-    const key = b.s.match(SECTION)[1];
+    const key = sectionKey(b.s);
     return { t: "h", level: key.split(".").length >= 3 ? 3 : 2, s: b.s };
   });
 }
@@ -260,6 +326,7 @@ const report = [];
 const failed = [];
 let shrunk = 0;
 let tiny = 0;
+let rescued = 0;
 
 for (const name of fs.readdirSync(SRC).filter((f) => /\.hwp$/i.test(f))) {
   const file = path.join(SRC, name);
@@ -280,10 +347,42 @@ for (const name of fs.readdirSync(SRC).filter((f) => /\.hwp$/i.test(f))) {
   const srcOf = new Map();
 
   for (const im of doc.images) {
-    if (!DRAWABLE.has(im.kind)) continue;
-
     let data = im.data;
     let ext = EXT[im.kind];
+
+    /*
+     * 브라우저가 못 그리는 형식은 바꿔 싣는다.
+     *
+     * 예전에는 통째로 뺐다. 그래서 TOFD 절차서만 도해 18장이 비었다.
+     * 열어 보니 되살릴 수 있는 것들이었다.
+     *
+     *   PCX 11장   표지 로고. 아홉 문서에 같은 것이 들어 있다
+     *   WMF 18장   벡터가 아니라 스캔 그림을 WMF 껍데기에 싼 것
+     *   OLE  3장   다른 프로그램에서 붙여 넣은 그림. 속에 BMP·WMF
+     */
+    if (!DRAWABLE.has(im.kind)) {
+      let got = null;
+
+      if (isPcx(im.data)) {
+        const png = pcxToPng(im.data);
+        if (png) got = { ext: "png", data: png };
+      } else if (isWmf(im.data)) {
+        const png = wmfToPng(im.data);
+        if (png) got = { ext: "png", data: png };
+      } else if (isOle(im.data)) {
+        got = oleToImage(im.data);
+      }
+
+      if (!got) {
+        failed.push(`${code} binId ${im.binId}: ${im.kind} 를 못 바꿈 (뺌)`);
+        continue;
+      }
+
+      shrunk += Math.max(0, im.data.length - got.data.length);
+      rescued++;
+      data = got.data;
+      ext = got.ext;
+    }
 
     /*
      * hwp 안의 BMP 는 압축이 하나도 안 돼 있다. 절차서 9편에서
@@ -398,5 +497,5 @@ console.log(report.join("\n"));
 console.log(`\n등록한 이름 ${Object.keys(table).length}개`);
 if (shrunk) console.log(`BMP 를 PNG 로 바꿔 ${(shrunk / 1048576).toFixed(1)} MB 를 줄였다`);
 if (tiny) console.log(`너무 작아 뺀 그림 ${tiny}장 (글머리표·도장 조각)`);
-if (tiny) console.log(`너무 작아 뺀 그림 ${tiny}장 (글머리표·도장 조각)`);
+if (rescued) console.log(`PCX·WMF·OLE 에서 되살린 그림 ${rescued}장`);
 if (failed.length) console.log("\n" + failed.join("\n"));
