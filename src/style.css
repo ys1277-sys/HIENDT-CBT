@@ -1601,11 +1601,25 @@ button:disabled{
     font-size:14px;
   }
 
-  /* 한 줄에 하나씩 쌓으면 39문항이 너무 길다. 폭에 맞춰 여러 칸으로 */
+  /*
+   * 한 줄에 하나씩 쌓으면 39문항이 너무 길다. 폭에 맞춰 여러 칸으로 깐다.
+   *
+   * 격자 칸을 150px 로 못 박았더니 보기가 5개 넘는 문항에서
+   * 동그라미가 옆 칸을 파고들었다(MT General 8번은 보기 10개라
+   * 칸이 194~365 인데 동그라미가 544 까지 갔다).
+   * 줄마다 제 폭을 갖고 남으면 나란히 놓이게 바꾼다.
+   */
   .answer-sheet-list{
-    display:grid;
-    grid-template-columns:repeat(auto-fill, minmax(150px, 1fr));
-    gap:0 12px;
+    display:flex;
+    /* 기본값이 column 이라 여기서 되돌려야 나란히 깔린다 */
+    flex-direction:row;
+    flex-wrap:wrap;
+    gap:0 14px;
+  }
+
+  .answer-sheet-row{
+    flex:1 1 auto;
+    min-width:max-content;
   }
 
   /* 손가락으로 누를 자리를 넓힌다 */
@@ -1633,4 +1647,62 @@ button:disabled{
     min-height:44px;
   }
 
+}
+
+/* =========================================================
+   문항 도해 크게 보기
+
+   휴대폰은 문제 칸이 351px 라, 원본이 988px 인 도해가 351px 로
+   줄어 글자를 못 읽는다. 눌러서 원본 크기로 펼친다.
+   ========================================================= */
+
+.question-image img.zoomable{
+  cursor:zoom-in;
+}
+
+.img-zoom{
+  position:fixed;
+  inset:0;
+  z-index:200;
+
+  background:rgba(0,0,0,0.85);
+
+  /* 원본이 화면보다 크면 밀어 볼 수 있게 */
+  overflow:auto;
+
+  cursor:zoom-out;
+}
+
+/*
+ * flex 로 가운데 맞추면 원본이 화면보다 넓을 때 왼쪽이 잘려 못 본다.
+ * margin:auto 는 넘칠 때 0 이 되어 왼쪽 끝까지 밀어 볼 수 있다.
+ */
+.img-zoom img{
+  display:block;
+  margin:auto;
+
+  /* 줄이지 않는다. 원본 크기 그대로 */
+  max-width:none;
+  max-height:none;
+
+  background:white;
+  border-radius:6px;
+}
+
+.img-zoom-close{
+  position:fixed;
+  top:12px;
+  right:12px;
+
+  padding:10px 16px;
+
+  border:0;
+  border-radius:6px;
+
+  background:white;
+  color:#003b73;
+  font-size:15px;
+  font-weight:600;
+
+  cursor:pointer;
 }

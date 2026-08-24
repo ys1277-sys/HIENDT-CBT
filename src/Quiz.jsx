@@ -653,7 +653,8 @@ function Quiz({
               </div>
 
 
-              <QuestionImage q={q} />
+              {/* 화면에서는 눌러 크게 볼 수 있게 한다. 인쇄 쪽은 끈다 */}
+              <QuestionImage q={q} zoomable />
 
             </div>
 
