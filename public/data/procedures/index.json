@@ -2,7 +2,7 @@
   "_읽어보기": "tools/build-procedures.mjs 가 만든 파일입니다. 손으로 고치지 말고 절차서 hwp 를 고친 뒤 다시 돌리세요.",
   "procedures": {
     "HIE-NDT-PAUT-P11": {
-      "title": "ULTRASOINC EXAMINATION PROCEDURE",
+      "title": "ULTRASONIC EXAMINATION PROCEDURE",
       "titleKo": "초음파탐상검사 절차서",
       "rev": "Rev.1",
       "doc": "HIE-NDT-PAUT-P11.json"

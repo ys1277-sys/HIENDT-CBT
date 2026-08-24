@@ -225,6 +225,43 @@ function markStamps(blocks) {
   return blocks;
 }
 
+/*
+ * 표에서 아무것도 없는 줄을 지운다.
+ *
+ * 개정이력 표에 내용이 하나도 없는 줄이 네 개씩 들어 있다. 한글에서
+ * 칸 높이를 맞추려고 넣어 둔 것인데, 화면에서는 얇은 빈 띠로만 보인다.
+ * 열 편에 43줄이 있다.
+ *
+ * 위 칸이 세로로 걸쳐 내려온 줄(covered)은 건드리지 않는다. 그 줄을
+ * 지우면 걸친 칸이 갈 곳을 잃어 표가 어긋난다. 지금은 그런 줄이 없다.
+ */
+function dropEmptyRows(blocks) {
+  for (const b of blocks) {
+    if (b.t !== "table") continue;
+
+    const keep = b.grid.filter((row) => {
+      const allEmpty = row.every(
+        (c) => !c || (c !== "covered" && c.blocks.length === 0)
+      );
+      const covered = row.some((c) => c === "covered");
+      return !allEmpty || covered;
+    });
+
+    if (keep.length !== b.grid.length) {
+      b.grid = keep;
+      b.rows = keep.length;
+    }
+
+    for (const row of b.grid) {
+      for (const c of row) {
+        if (c && c !== "covered") dropEmptyRows(c.blocks);
+      }
+    }
+  }
+
+  return blocks;
+}
+
 /* PNG·JPG 머리에서 크기를 읽는다 */
 function pixelSize(buf) {
   if (buf.length > 24 && buf[0] === 0x89 && buf[1] === 0x50) {
@@ -274,6 +311,23 @@ function flatten(blocks, out = []) {
   return out;
 }
 
+/*
+ * 표지 제목의 오타.
+ *
+ * 원본을 그대로 옮기는 것이 원칙이지만 제목은 창 머리와 목록에 계속
+ * 나오는 자리라 눈에 밟힌다. 뜻이 바뀌지 않는 철자만 바로잡는다.
+ * 본문은 손대지 않는다.
+ */
+const TITLE_TYPO = [
+  [/\bULTRASOINC\b/gi, "ULTRASONIC"],   // PAUT 표지
+];
+
+function fixTitle(s) {
+  let t = s;
+  for (const [from, to] of TITLE_TYPO) t = t.replace(from, to);
+  return t;
+}
+
 function readCover(lines) {
   const out = { code: "", rev: "", date: "", subject: "", subjectKo: "" };
 
@@ -316,7 +370,7 @@ function readCover(lines) {
         if (HANGUL.test(s)) break;
         parts.push(s);
       }
-      if (parts.length) out.subject = parts.join(" ");
+      if (parts.length) out.subject = fixTitle(parts.join(" "));
     }
 
     /* 한글 제목은 결재란 아래에 따로 있다 */
@@ -622,7 +676,9 @@ for (const name of fs.readdirSync(SRC).filter((f) => /\.hwp$/i.test(f))) {
     return out;
   }
 
-  let blocks = markStamps(markCoverLogo(dropLooseCoverLogo(markHeadings(convert(doc.blocks)))));
+  let blocks = dropEmptyRows(
+    markStamps(markCoverLogo(dropLooseCoverLogo(markHeadings(convert(doc.blocks)))))
+  );
 
   const ko = readKo(name);
   if (ko) blocks = weaveKo(blocks, ko);
