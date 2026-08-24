@@ -1516,3 +1516,121 @@ button:disabled{
   font-weight: 500;
   opacity: 0.75;
 }
+
+/* =========================================================
+   휴대폰
+
+   가로 375px 에서는 답안 표기란이 옆에 붙어 있는 것만으로
+   문제 칸이 173px 밖에 안 남았다. 표기란을 아래 띠로 내리고
+   문제를 폭 전체로 쓴다.
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+  .cbt-page{
+    /* 100vh 는 주소창이 접힐 때 어긋난다. dvh 는 실제 보이는 만큼이다 */
+    height:100dvh;
+    padding:0;
+  }
+
+  .cbt-container{
+    border-radius:0;
+  }
+
+  .cbt-header{
+    padding:8px 12px;
+    gap:4px 10px;
+    flex-wrap:wrap;
+  }
+
+  .cbt-header h1{
+    font-size:18px;
+  }
+
+  .cbt-who{
+    justify-content:flex-start;
+    font-size:12px;
+    gap:2px 8px;
+  }
+
+  /* 옆으로 나란히가 아니라 위아래로 쌓는다 */
+  .cbt-content{
+    flex-direction:column;
+  }
+
+  .cbt-body{
+    padding:10px 12px;
+  }
+
+  /*
+   * 버튼 줄은 문제가 길어도 늘 손에 닿아야 한다.
+   * 스크롤 되는 본문칸 바닥에 붙여 둔다.
+   */
+  .control{
+    position:sticky;
+    bottom:0;
+    z-index:2;
+    gap:6px;
+    padding:8px 0;
+    background:white;
+    box-shadow:0 -6px 8px -6px rgba(0,0,0,0.25);
+  }
+
+  .control button{
+    flex:1;
+    min-width:0;
+    padding:11px 4px;
+    font-size:14px;
+  }
+
+  /* 답안 표기란을 아래 띠로 */
+  .answer-sheet{
+    width:auto;
+    min-width:0;
+    max-width:none;
+    flex:0 0 auto;
+    max-height:26vh;
+    padding:8px 10px;
+    border-left:0;
+    border-top:1px solid #ddd;
+  }
+
+  .answer-sheet-title{
+    padding:6px;
+    margin-bottom:6px;
+    font-size:14px;
+  }
+
+  /* 한 줄에 하나씩 쌓으면 39문항이 너무 길다. 폭에 맞춰 여러 칸으로 */
+  .answer-sheet-list{
+    display:grid;
+    grid-template-columns:repeat(auto-fill, minmax(150px, 1fr));
+    gap:0 12px;
+  }
+
+  /* 손가락으로 누를 자리를 넓힌다 */
+  .option{
+    margin:10px 0;
+  }
+
+  .option-circle{
+    width:28px;
+    height:28px;
+    font-size:19px;
+  }
+
+  .row-number{
+    width:24px;
+  }
+
+  /*
+   * 시작 화면 단추가 35~39px 이었다. 손가락으로 누르기엔 얕다.
+   * 44px 은 손가락 끝이 닿는 최소치로 흔히 쓰는 기준이다.
+   */
+  .home-container button,
+  .home-container select,
+  .home-container input{
+    min-height:44px;
+  }
+
+}
