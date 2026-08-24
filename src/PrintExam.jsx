@@ -18,6 +18,7 @@ import {
   isChosenOption,
   TEXT
 } from "./grading.js";
+import { examNote } from "./examNote.js";
 
 const EMPTY_ANSWERS = {};
 
@@ -92,6 +93,10 @@ function PrintExam({
       () => groupRanges(questions),
       [questions]
     );
+
+  /* 갑지 NOTE 는 시험마다 다르다 */
+  const note =
+    examNote(level, method, subject);
 
   const measureRef =
     useRef(null);
@@ -1041,6 +1046,11 @@ function PrintExam({
                 1 / 2 / 3만 존재
                 ================================================= */}
 
+            {/*
+              갑지 NOTE 는 시험마다 다르다. 원본 시험지 49개를 갈래로
+              묶어 examNote.js 에 넣어 뒀다.
+            */}
+
             <div
               className="note"
             >
@@ -1050,40 +1060,46 @@ function PrintExam({
               </b>
 
 
-              <p>
+              {
+                note.items.map(
+                  (
+                    item,
+                    i
+                  ) => (
 
-                1. This is closed book examination.
-                No reference material may be used during examination.
+                    <p
+                      key={i}
+                    >
 
-                <br />
+                      {i + 1}. {item.en}
 
-                시험도중 서적을 참고할 수 없음
+                      <br />
 
-              </p>
+                      {item.ko}
 
+                    </p>
 
-              <p>
-
-                2. Questions about the intent of examination question
-                will be answered during the examination.
-
-                <br />
-
-                문제에 대한 질문에 한해서 답변함
-
-              </p>
+                  )
+                )
+              }
 
 
-              <p>
+              {
+                /* 번호 없이 덧붙는 단서. Level III 전문시험에만 있다 */
+                note.footer &&
 
-                3. This examination must be completed in ink or
-                ball-point pen.
+                <p
+                  className="note-footer"
+                >
 
-                <br />
+                  {note.footer.en}
 
-                답변은 볼펜 또는 잉크로 기록할 것
+                  <br />
 
-              </p>
+                  {note.footer.ko}
+
+                </p>
+              }
 
             </div>
 

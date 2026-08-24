@@ -451,10 +451,11 @@
 
   letter-spacing: 4px;
 
+  /* NOTE 가 4~5개로 늘어 갑지가 넘쳤다. 여기가 제일 빈 자리라 먼저 줄인다 */
   margin:
     18mm
     0
-    35mm
+    21mm
     0;
 }
 
@@ -479,18 +480,24 @@
    NOTE
    ========================================================= */
 
+/*
+ * NOTE 는 예전에 세 줄뿐이라 여백을 넉넉히 줬다. 시험마다 원본에 맞춰
+ * 4~5개로 늘리고 나니 갑지 한 장을 125px 넘겼다. 줄간과 항목 사이를
+ * 좁혀 도로 한 장에 담는다.
+ */
+
 .note {
-  margin-top: 50px;
+  margin-top: 28px;
 
   font-size: 14px;
 
-  line-height: 1.9;
+  line-height: 1.6;
 }
 
 .note b {
   display: block;
 
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 
   font-size: 15px;
 }
@@ -499,7 +506,7 @@
   margin:
     0
     0
-    20px
+    12px
     0;
 
   padding-left: 24px;
@@ -508,7 +515,7 @@
 
   font-size: 14px;
 
-  line-height: 1.9;
+  line-height: 1.6;
 }
 
 
@@ -517,7 +524,7 @@
    ========================================================= */
 
 .approved {
-  margin-top: 65px;
+  margin-top: 50px;
 
   text-align: right;
 
@@ -1393,4 +1400,17 @@
   max-height: 100%;
 
   object-fit: contain;
+}
+
+/*
+ * 번호 없이 4번 아래 덧붙는 단서. Level III 전문시험 갑지에만 있다.
+ * 번호가 없으니 .note p 의 내어쓰기를 되돌려 왼쪽을 맞춘다.
+ */
+
+.note .note-footer {
+  padding-left: 24px;
+
+  text-indent: 0;
+
+  font-size: 13px;
 }
