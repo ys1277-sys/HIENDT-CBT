@@ -51,15 +51,16 @@ export function availableProcedures(manifest, q) {
  * 원본에 2573x1819 짜리 스캔본이 들어 있다. 그대로 두면 한 장이 창을
  * 다 덮어 앞뒤 글이 안 보인다. 높이를 묶어 두고 누르면 키운다.
  */
-function Figure({ src, logo = false }) {
+function Figure({ src, logo = false, stamp = false }) {
   const [zoom, setZoom] = useState(false);
 
   /*
-   * 표지 표의 회사 로고는 아주 작게 둔다. 도해가 아니라 머리글 장식이라
-   * 제 크기로 두면 표지 칸을 혼자 다 차지한다.
+   * 표지 표의 회사 로고는 아주 작게, 개정이력 표의 서명 도장은
+   * 절반으로 둔다. 둘 다 도해가 아니라 서식 장식이라 제 크기로 두면
+   * 칸을 혼자 다 차지한다.
    */
-  const cls =
-    (logo ? "procw-fig is-logo" : "procw-fig") + (zoom ? " zoomed" : "");
+  const kind = logo ? " is-logo" : stamp ? " is-stamp" : "";
+  const cls = "procw-fig" + kind + (zoom ? " zoomed" : "");
 
   return (
     <img
@@ -84,7 +85,7 @@ function Block({ b }) {
     return <h4 className={b.level === 3 ? "procw-h3" : "procw-h2"}>{b.s}</h4>;
   }
 
-  if (b.t === "img") return <Figure src={b.src} logo={b.logo} />;
+  if (b.t === "img") return <Figure src={b.src} logo={b.logo} stamp={b.stamp} />;
 
   if (b.t === "table") {
     return (

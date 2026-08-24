@@ -160,6 +160,71 @@ function markCoverLogo(blocks) {
   return blocks;
 }
 
+/*
+ * 개정이력 표의 서명 도장에 표시를 단다.
+ *
+ * 손글씨 서명을 스캔해 넣은 것이라 원본이 308x112 쯤 된다. 그대로
+ * 그리면 이름 글자보다 도장이 훨씬 커서 칸이 늘어난다. 화면에서
+ * 절반으로 줄인다.
+ *
+ * 표 안 그림이라고 다 도장은 아니다. PAUT 755x450, UT 647x492 처럼
+ * 표 안에 든 진짜 도해가 있다. 그래서 표를 가려서 고른다. 작성자·
+ * 검토자·승인자 칸이 있는 표만 서명 표로 본다.
+ */
+const STAMP_TABLE = /개정번호|Rev\.\s*No|Prepared\s*by|작\s*성\s*자/;
+
+function markStamps(blocks) {
+  const cellText = (bs) =>
+    bs
+      .map((b) => (b.t === "table" ? tableText(b) : String(b.s || "")))
+      .join(" ");
+
+  const tableText = (t) =>
+    t.grid
+      .map((row) =>
+        row.map((c) => (!c || c === "covered" ? "" : cellText(c.blocks))).join(" ")
+      )
+      .join(" ");
+
+  const mark = (bs) => {
+    for (const b of bs) {
+      if (b.t === "img") { b.stamp = true; continue; }
+      if (b.t !== "table") continue;
+      for (const row of b.grid) {
+        for (const c of row) {
+          if (c && c !== "covered") mark(c.blocks);
+        }
+      }
+    }
+  };
+
+  for (const b of blocks) {
+    if (b.t !== "table") continue;
+    if (!STAMP_TABLE.test(tableText(b))) continue;
+
+    for (const row of b.grid) {
+      for (const c of row) {
+        if (c && c !== "covered") mark(c.blocks);
+      }
+    }
+  }
+
+  /* 표지 로고는 도장이 아니다. 겹치면 로고 쪽을 남긴다 */
+  (function unmark(bs) {
+    for (const b of bs) {
+      if (b.t === "img" && b.logo) { delete b.stamp; continue; }
+      if (b.t !== "table") continue;
+      for (const row of b.grid) {
+        for (const c of row) {
+          if (c && c !== "covered") unmark(c.blocks);
+        }
+      }
+    }
+  })(blocks);
+
+  return blocks;
+}
+
 /* PNG·JPG 머리에서 크기를 읽는다 */
 function pixelSize(buf) {
   if (buf.length > 24 && buf[0] === 0x89 && buf[1] === 0x50) {
@@ -557,7 +622,7 @@ for (const name of fs.readdirSync(SRC).filter((f) => /\.hwp$/i.test(f))) {
     return out;
   }
 
-  let blocks = markCoverLogo(dropLooseCoverLogo(markHeadings(convert(doc.blocks))));
+  let blocks = markStamps(markCoverLogo(dropLooseCoverLogo(markHeadings(convert(doc.blocks)))));
 
   const ko = readKo(name);
   if (ko) blocks = weaveKo(blocks, ko);
