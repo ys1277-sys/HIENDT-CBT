@@ -248,6 +248,20 @@ button:disabled{
 
   overflow-y:auto;
 
+  display:flex;
+
+  flex-direction:column;
+
+}
+
+
+
+/* 자식이 눌려 글이 겹치지 않게 한다 */
+
+.cbt-body > *{
+
+  flex-shrink:0;
+
 }
 
 
@@ -740,6 +754,10 @@ button:disabled{
   gap:10px;
 
   padding:12px 0 4px;
+
+  /* 남는 자리를 위로 몰아 버튼 줄을 본문칸 맨 아래에 붙인다.
+     auto 여백은 자리가 없으면 0 이 되므로 긴 문항은 안 잘린다 */
+  margin-top:auto;
 
 }
 
