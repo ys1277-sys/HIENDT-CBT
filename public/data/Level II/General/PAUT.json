@@ -571,6 +571,9 @@
   },
   {
     "id": 39,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
     "question": "What information can be taken from a C-scan presentation?\nC-scan 표시로부터 얻을 수 있는 정보는?",
     "options": [
       "The longitudinal coordinates of a reflector\n반사체의 길이방향 좌표",

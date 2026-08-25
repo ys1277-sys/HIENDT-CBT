@@ -39,7 +39,7 @@
     "options": [
       "all discontinuities should be detected\n모든 불연속이 탐지되어야 한다.",
       "all surface faults should be detected\n모든 표면의 흠이 탐지되어야 한다.",
-      "all discontinuities important to the function of a part should be detected\n (제품의 기능에 영향을 주는 모든 중요한 불연속은 탐지되어야 한다.)",
+      "all discontinuities important to the function of a part should be detected\n제품의 기능에 영향을 주는 모든 중요한 불연속은 탐지되어야 한다.",
       "trouble points should be avoided\n문제가 될 만한 점을 피해야 한다."
     ],
     "answer": 2
@@ -297,9 +297,9 @@
     "question": "Having located all the discontinuities on a part:\n제품상에 불연속이 있을 때",
     "options": [
       "the part should be rejected\n제품을 불합격시켜야 한다.",
-      "the part should be salvaged by removing discontinuities \n (불연속을 제거함으로써 구제해야 한다.)",
+      "the part should be salvaged by removing discontinuities\n불연속을 제거함으로써 구제해야 한다.",
       "the discontinuities should be evaluated to the requirements of the applicable acceptance standard\n불연속은 해당 허용 기준에 맞춰 평가되어야 한다.",
-      "a file should be made to determine the depth of the crack\n (크랙의 깊이를 알기 위해 줄로 잘라야 한다.)"
+      "a file should be made to determine the depth of the crack\n크랙의 깊이를 알기 위해 줄로 잘라야 한다."
     ],
     "answer": 2
   },
@@ -401,9 +401,9 @@
     "source": "MTG-II(A)",
     "question": "Which of the statements made below is most appropriate concerning material Ⅰ and Ⅱ represented by the hysteresis curves shown in Figure 1?\n아래 항목 중 그림 1에 보여진 자기이력곡선에 의해 묘사된 재질Ⅰ과 Ⅱ에 관해 가장 적합한 내용인가?",
     "options": [
-      "material Ⅰ is not a good subject for magnetic particle inspection\n (재질Ⅰ은 자분탐상검사에 적당하지 못하다)",
-      "material Ⅰ could be used for dry powder magnetic particles\n (재질Ⅰ은 건식자분을 사용할 수 있다.)",
-      "material Ⅱ could be used for dry powder magnetic particles\n (재질 Ⅱ은 건식자분을 사용할 수 있다.)",
+      "material Ⅰ is not a good subject for magnetic particle inspection\n재질Ⅰ은 자분탐상검사에 적당하지 못하다",
+      "material Ⅰ could be used for dry powder magnetic particles\n재질Ⅰ은 건식자분을 사용할 수 있다.",
+      "material Ⅱ could be used for dry powder magnetic particles\n재질 Ⅱ은 건식자분을 사용할 수 있다.",
       "material Ⅱ is paramagnetic\n재질 Ⅱ는 상자성체이다."
     ],
     "answer": 2,
@@ -433,7 +433,7 @@
     "source": "MTG-II(A)",
     "question": "Point B on the hysteresis curve for material Ⅰ shown in Figure 1:\n그림 1의 재질Ⅰ의 자기이력 곡선의 B점은 무엇을 뜻하나?",
     "options": [
-      "represents the mid-point of the rectified AC current applied\n (정류된 교류전류가 적용된 중앙 점을 나타냄)",
+      "represents the mid-point of the rectified AC current applied\n정류된 교류전류가 적용된 중앙 점을 나타냄",
       "is the material's magnetic saturation point\n재질의 자기포화점",
       "represents the point at which the residual magnetic value will remain when the magnetizing current is removed\n자장의 흐름을 제거했을 때 남아 있는 잔류자장의 값을 나타냄",
       "is the limit of coercive force\n항자력의 제한"
@@ -468,7 +468,7 @@
       "so that parts can be handled easier\n제품을 더 쉽게 취급할 수 있도록 하기 위해",
       "to assure removal of residual magnetism\n잔류 자기를 없애기 위해",
       "to assist in cleaning of parts\n제품의 세척을 돕기 위해",
-      "if not done, subsequent machining operations may be more difficult to accomplish satisfactorily \n (탈자를 하지 않으면, 이어서 실시되는 기계 가공 작업을 하는데 어려움을 줄지도 모르므로)"
+      "if not done, subsequent machining operations may be more difficult to accomplish satisfactorily\n탈자를 하지 않으면, 이어서 실시되는 기계 가공 작업을 하는데 어려움을 줄지도 모르므로"
     ],
     "answer": [
       1,
@@ -499,9 +499,9 @@
     "source": "MTG-II(A)",
     "question": "When demagnetizing with the prod method the initial magnetizing force used to demagnetize must :\n프로드 방법으로 탈지할 때 탈자에 사용되는 최초의 자력선은?",
     "options": [
-      "higher than that used to magnetize the part \n (제품을 자화시키는 데 사용된 것보다 높아야 한다.)",
-      "lower than that used to magnetize the part\n (제품을 자화시키는데 사용된 것보다 낮아야 한다.)",
-      "the same as that used to magnetize the part\n (제품을 자화시키는데 사용된 것과 같아야 한다.)",
+      "higher than that used to magnetize the part\n제품을 자화시키는 데 사용된 것보다 높아야 한다.",
+      "lower than that used to magnetize the part\n제품을 자화시키는데 사용된 것보다 낮아야 한다.",
+      "the same as that used to magnetize the part\n제품을 자화시키는데 사용된 것과 같아야 한다.",
       "doesn't matter\n문제 될 것 없다"
     ],
     "answer": 3
@@ -559,10 +559,10 @@
     "source": "MTG-II(A)",
     "question": "The nearer a discontinuity is to the surface\n불연속이 표면에 가까우면 가까울수록",
     "options": [
-      "the more diffuse becomes the powder pattern\n (자분의 형태를 더 확산시킨다.)",
-      "the less serious it is as a source of fatigue crack\n (피로크랙의 원인이 되기에 더 어렵다)",
-      "the more distinct becomes the powder pattern\n (자분의 형태로 더 뚜렷하게 해준다)",
-      "the less sharp becomes the flux leakage field\n (자속 누설 자장을 더 둔화시킨다.)"
+      "the more diffuse becomes the powder pattern\n자분의 형태를 더 확산시킨다.",
+      "the less serious it is as a source of fatigue crack\n피로크랙의 원인이 되기에 더 어렵다",
+      "the more distinct becomes the powder pattern\n자분의 형태로 더 뚜렷하게 해준다",
+      "the less sharp becomes the flux leakage field\n자속 누설 자장을 더 둔화시킨다."
     ],
     "answer": 2
   },
@@ -605,7 +605,7 @@
       "field strength value\n자장의 세기",
       "available equipment\n이용 장비",
       "configuration of the part\n제품의 구성",
-      "all of the above(위 모두)"
+      "all of the above\n위 모두"
     ],
     "answer": 3
   },
@@ -627,6 +627,7 @@
     "image": "MT_GENERAL_FIG1.jpg"
   },
   {
+    "id": 41,
     "level": "Level II",
     "method": "MT",
     "category": "General",
@@ -638,7 +639,6 @@
       "Seam, Lap, Flake, Burst\n심, 겹침, 플레이크, 파열",
       "Segregation, Inclusion, Pipe, Blowhole\n편석, 개재물, 파이프, 블로홀"
     ],
-    "answer": 0,
-    "id": 41
+    "answer": 0
   }
 ]

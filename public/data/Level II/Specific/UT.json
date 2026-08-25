@@ -141,8 +141,8 @@
       "Non-relevant indication\n비관련 지시"
     ],
     "answer": 2,
-    "image": "UT_SPECIFIC_B_Q5.jpg",
-    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-P11 (Rev.1) for ultrasonic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅷ Div.1 2021 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격에 따른 압력용기 제작의 초음파 시험에 대한 절차서(HIE-NDT-UT-P11,Rev.1)"
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-P11 (Rev.1) for ultrasonic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅷ Div.1 2021 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격에 따른 압력용기 제작의 초음파 시험에 대한 절차서(HIE-NDT-UT-P11,Rev.1)",
+    "image": "UT_SPECIFIC_B_Q5.jpg"
   },
   {
     "id": 10,
@@ -152,8 +152,8 @@
     "source": "UTS-II(2020)(A)",
     "question": "Where the component material is clad, the calibration block shall be clad by ______.\n만약 제품이 크래드 되어 있으면 교정 블록은 어떻게 Clad 되어져야 하는가?",
     "options": [
-      "the same welding procedure as the production part.\n (제품 크래드시 이용한 것과 동일한 방법)",
-      "the different welding procedure as the production part.\n (제품 크래드시 이용한 것과 다른 방법)",
+      "the same welding procedure as the production part.\n제품 크래드시 이용한 것과 동일한 방법",
+      "the different welding procedure as the production part.\n제품 크래드시 이용한 것과 다른 방법",
       "SMAW Procedure\nSMAW 방법",
       "all of the above\n위 1, 2,C 모두"
     ],
@@ -202,7 +202,7 @@
       "1.6 mm, regardless of wall thickness.\n벽 두께와 상관없이 일괄적으로 1.6mm",
       "3% of the wall thickness.\n벽 두께의 3%",
       "5% of the wall thickness\n벽 두께의 5%",
-      "10% of the wall thickness(벽 두께의 10%)"
+      "10% of the wall thickness\n벽 두께의 10%"
     ],
     "answer": 2
   },
@@ -214,8 +214,8 @@
     "source": "UTS-II(2020)(A)",
     "question": "During inspection of the PSL3 weld, a single indication of 5mm in length exceeded the reference distance amplitude curve. Is it acceptable?\nPSL3 용접부를 검사하는 동안, 기준 거리진폭곡선을 초과하는 5mm길이의 단일 지시가 나타났다. 합격인가?",
     "options": [
-      "Accept 합격",
-      "Reject 불합격"
+      "Accept\n합격",
+      "Reject\n불합격"
     ],
     "answer": 1,
     "groupNote": "* The following questions refer to API 6A\nAPI 6A를 참조하여 물음에 답하시오."
@@ -228,8 +228,8 @@
     "source": "UTS-II(2020)(A)",
     "question": "During inspection of a 25mm thickness PSL2 weld, a 6mm length of slag inclusion exceeded the reference distance amplitude curve. Is it acceptable?\n25mm두께의 PSL2 용접부를 검사하는 동안, 6mm길이의 슬래그가 기준 거리진폭곡선을 초과하여 나타났다. 합격인가?",
     "options": [
-      "Accept 합격",
-      "Reject 불합격"
+      "Accept\n합격",
+      "Reject\n불합격"
     ],
     "answer": 0,
     "groupNote": "* The following questions refer to API 6A\nAPI 6A를 참조하여 물음에 답하시오."
@@ -278,7 +278,7 @@
       "5%",
       "20% C. none of the above\n위에 해당 사항 없음",
       "80% + 6dB",
-      "all of the above (위의 모두 해당 사항임)"
+      "all of the above\n위의 모두 해당 사항임"
     ],
     "answer": 2
   },
@@ -294,7 +294,7 @@
       "5%",
       "20%",
       "none of the above\n위에 해당 사항 없음",
-      "all of the above (위의 모두 해당 사항임)"
+      "all of the above\n위의 모두 해당 사항임"
     ],
     "answer": 2
   },
@@ -344,6 +344,7 @@
     "answer": 0
   },
   {
+    "id": 26,
     "level": "Level II",
     "method": "UT",
     "category": "Specific",
@@ -355,10 +356,10 @@
       "¾T",
       "1T"
     ],
-    "answer": 0,
-    "id": 26
+    "answer": 0
   },
   {
+    "id": 27,
     "level": "Level II",
     "method": "UT",
     "category": "Specific",
@@ -370,11 +371,13 @@
       "45°",
       "60°"
     ],
-    "answer": 1,
-    "id": 27
+    "answer": 1
   },
   {
     "id": 28,
+    "level": "Level II",
+    "method": "UT",
+    "category": "Specific",
     "question": "Angle beam examination shall be performed using a search unit with a nominal frequency of A MHz and a size of B mm. What are A and B?\n사각탐상은 공칭 주파수 A MHz, 크기 B mm인 탐촉자로 수행해야 한다. A와 B는?",
     "options": [
       "A: 2 or 4,  B: 8×9 or 20×22",
@@ -386,6 +389,9 @@
   },
   {
     "id": 29,
+    "level": "Level II",
+    "method": "UT",
+    "category": "Specific",
     "question": "A side-drilled hole shall be used as a calibration reflector to establish the primary reference response of the equipment. At what depth shall the hole be located?\n장비의 1차 기준감도를 설정하기 위한 대비반사체로 측면 구멍을 사용한다. 이 구멍의 깊이 위치는?",
     "options": [
       "¼T",
@@ -397,6 +403,9 @@
   },
   {
     "id": 30,
+    "level": "Level II",
+    "method": "UT",
+    "category": "Specific",
     "question": "Discontinuity \"A\" is interpreted as lack of fusion with 1 mm in width, 3 mm in height, 4 mm in length, and 25% of reference level in amplitude. Is it acceptable? (Ref.: ASME B31.1)\n불연속 \"A\"는 폭 1mm, 높이 3mm, 길이 4mm, 진폭은 기준레벨의 25%인 융합불량으로 판정되었다. 합격인가? (ASME B31.1 기준)",
     "options": [
       "Acceptable\n합격",
@@ -406,6 +415,9 @@
   },
   {
     "id": 31,
+    "level": "Level II",
+    "method": "UT",
+    "category": "Specific",
     "question": "What kind of document is the recommended practice for establishing the HIE NDE qualification program HIE-QP-E01?\nHIE의 비파괴검사 자격 프로그램 HIE-QP-E01을 수립하는 근거가 되는 권장 지침 문서는?",
     "options": [
       "SNT-TC-1A",
@@ -417,7 +429,9 @@
   },
   {
     "id": 32,
-    "image": "UT_SPECIFIC_B_Q16.png",
+    "level": "Level II",
+    "method": "UT",
+    "category": "Specific",
     "question": "Calculate the depth (x) of discontinuity \"A\" in the figure. (Metal path : 100 mm)\n그림에서 불연속 \"A\"의 깊이 x를 계산하시오. (빔 진행거리 100mm)",
     "options": [
       "9.3 mm",
@@ -425,6 +439,7 @@
       "29.3 mm",
       "70.7 mm"
     ],
-    "answer": 0
+    "answer": 0,
+    "image": "UT_SPECIFIC_B_Q16.png"
   }
 ]

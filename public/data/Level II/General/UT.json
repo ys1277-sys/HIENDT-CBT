@@ -263,10 +263,10 @@
     "source": "UTG-II(A)",
     "question": "Which of the following may result in a long narrow rod if the beam divergence results in a reflection from a side of the test piece before the sound wave reaches the back surface?\n길고 가는 막대에서 만약 음파가 후면에 도달하기 전에 확산 반사가 되었다면 무슨 결과인가?",
     "options": [
-      "Multiple indications before the first back reflection \n (첫 후면 반사면 여러 가지 지시)",
-      "Indication from multiple surface reflection\n (다각의 표면 반사로부터 지시)",
-      "Conversion from the longitudinal mode to shear mode\n (종파에서 횡파로 변환)",
-      "Loss of front surface indications \n (전면 표면 지시의 상실)"
+      "Multiple indications before the first back reflection\n첫 후면 반사면 여러 가지 지시",
+      "Indication from multiple surface reflection\n다각의 표면 반사로부터 지시",
+      "Conversion from the longitudinal mode to shear mode\n종파에서 횡파로 변환",
+      "Loss of front surface indications\n전면 표면 지시의 상실"
     ],
     "answer": 2
   },
@@ -323,9 +323,9 @@
     "source": "UTG-II(A)",
     "question": "Which of the following scanning methods could be classified as an immersion type test?\n다음 중 수침법의 검사로 인정될 수 있는 것은?",
     "options": [
-      "Tank in which the search unit and test piece are immersed\n (탐상기와 시편이 잠긴 탱크)",
-      "Squirter bubble method in which the sound is transmitted in a column of flowing water.\n (유수관에 음파가 전달하는 기표주사법)",
-      "Scanning with a wheel-type search unit with the transducer inside a liquid filled tire.\n (물로 채워진 타이어 속에 탐촉자가 있는 바퀴모양의 탐상기)",
+      "Tank in which the search unit and test piece are immersed\n탐상기와 시편이 잠긴 탱크",
+      "Squirter bubble method in which the sound is transmitted in a column of flowing water.\n유수관에 음파가 전달하는 기표주사법",
+      "Scanning with a wheel-type search unit with the transducer inside a liquid filled tire.\n물로 채워진 타이어 속에 탐촉자가 있는 바퀴모양의 탐상기",
       "All of the above\n위 모두"
     ],
     "answer": 3
@@ -353,9 +353,9 @@
     "source": "UTG-II(A)",
     "question": "At an interface between two different materials, an impedance difference results in :\n서로 다른 매질의 경계에서 임피던스의 차는 어떤 결과를 가져오는가?",
     "options": [
-      "reflection of the entire incident energy at the interface\n (경계면에서 입사 에너지의 전면 반사)",
+      "reflection of the entire incident energy at the interface\n경계면에서 입사 에너지의 전면 반사",
       "absorption of sound\n음파의 흡수",
-      "division of sound energy into transmitted and reflected modes.\n (투과 및 반사되는 음파 에너지의 정도)",
+      "division of sound energy into transmitted and reflected modes.\n투과 및 반사되는 음파 에너지의 정도",
       "none of the above\n정답 없음"
     ],
     "answer": 2
@@ -383,9 +383,9 @@
     "source": "UTG-II(A)",
     "question": "In an automatic scanning immersion unit, the bridge or carriage serves to :\n수침 자동 탐상기의 다리 또는 이동자는 어떤 역할을 하는가?",
     "options": [
-      "support the manipulator and scanner tube and to move it about transversely and longitudinally.\n (조종자와 주사 튜브를 지지하고 종횡으로 움직인다.)",
-      "control the angular and transverse positioning of the scanner tube\n (주사튜브의 각도와 횡방향의 위치를 조절)",
-      "control the vertical and angular positioning of the scanner tube\n (수직 방향 및 각도를 조절)",
+      "support the manipulator and scanner tube and to move it about transversely and longitudinally.\n조종자와 주사 튜브를 지지하고 종횡으로 움직인다.",
+      "control the angular and transverse positioning of the scanner tube\n주사튜브의 각도와 횡방향의 위치를 조절",
+      "control the vertical and angular positioning of the scanner tube\n수직 방향 및 각도를 조절",
       "raise and lower the transducer\n탐촉자를 상하로 이동시킨다."
     ],
     "answer": 0
@@ -414,7 +414,7 @@
     "question": "Using a pulse-echo technique, if the major plane of a flat discontinuity is oriented at some angle other than perpendicular to the direction of sound propagation, the result may be:\n펄스 반사 기법을 사용할 때 평면 결함이 초음파 빔에 수직이 아니라면 그 결과는 어떻게 되는가?",
     "options": [
       "lose of signal linearity\n지시의 선형이 깨진다",
-      "loss or lack of a received discontinuity echo \n (수신된 결함 반사파의 약화 또는 상실)",
+      "loss or lack of a received discontinuity echo\n수신된 결함 반사파의 약화 또는 상실",
       "focusing of the sound beam\n초음파의 초점화",
       "loss of interference phenomena\n간섭 현상의 상실"
     ],
@@ -443,8 +443,8 @@
     "source": "UTG-II(A)",
     "question": "Lamb waves can be used to detect:\n“램”파는 무엇을 찾기 위해 사용되는가?",
     "options": [
-      "laminar-type defects near the surface of a thin material \n (얇은 물체의 표면 근처에 있는 얇은 판상 결함)",
-      "lack of fusion in the center of a thick weldment.\n (두꺼운 용접물의 중심에 있는 용융 부족)",
+      "laminar-type defects near the surface of a thin material\n얇은 물체의 표면 근처에 있는 얇은 판상 결함",
+      "lack of fusion in the center of a thick weldment.\n두꺼운 용접물의 중심에 있는 용융 부족",
       "internal voids in diffusion bonds.\n확산 접합에서 내부 공백",
       "thickness changes in heavy plate material.\n중금속 판재의 두께차"
     ],
@@ -596,7 +596,7 @@
       "transfer\n전이",
       "attenuation\n감쇠",
       "distance amplitude correction\n거리 진폭 보상",
-      "interpretation (판독)"
+      "interpretation\n판독"
     ],
     "answer": 2
   }

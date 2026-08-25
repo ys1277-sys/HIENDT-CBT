@@ -38,7 +38,7 @@
     "question": "When sharp black bird-foot shaped marks which are known not to correspond with any discontinuities appear at random on radiographs, they are probably caused by:\n불연속과 관계없는 날카롭고, 검고 새 발가락 모양의 표시가 방사선 사진에 무질서하게 나타났다. 이것은 무슨 원인으로 나타난 것인가?",
     "options": [
       "prolonged development in old developer.\n오래된 현상액으로 긴 시간의 현상",
-      "exposure of the film by natural cosmic ray showers during storage \n (저장시 자연 우주선에 의한 노출)",
+      "exposure of the film by natural cosmic ray showers during storage\n저장시 자연 우주선에 의한 노출",
       "static charges caused by friction\n마찰로 인한 정전기",
       "inadequate rinsing after fixing\n정착후 부당한 세척"
     ],
@@ -54,7 +54,7 @@
     "options": [
       "greater contrast\n높은 명암도",
       "greater latitude\n높은 허용도",
-      "greater amounts of scatter radiation relative to primary beam intensity\n (최초의 빔 강도에 비해 산란 방사선이 많다)",
+      "greater amounts of scatter radiation relative to primary beam intensity\n최초의 빔 강도에 비해 산란 방사선이 많다",
       "none of the above\n위 모두 아니다"
     ],
     "answer": 1
@@ -67,10 +67,10 @@
     "source": "RTG-II(A)",
     "question": "Filters used at the port of the X-ray tube:\n엑스선관의 필터는?",
     "options": [
-      "intensity the X-ray beam by contributing secondary radiation\n (2차 방사선을 강하게 함으로 엑스선 빔의 강도를 증가시킨다.)",
-      "filter short wavelength X-ray beams to provide \"softer\" radiation\n (짧은 파장의 엑스선 빔을 제거하여 긴 파장의 방사선을 얻는다)",
-      "provide the most readily adjusted means of modifying X-ray intensity\n (엑스선의 강도를 조절할 수 있는 가장 편리한 방법을 제공한다.)",
-      "filter out \"soft\" radiation to provide a more homogeneous X-ray beam.\n (보다 균일한 엑스선 빔을 얻기 위해 긴 파장을 흡수한다.)"
+      "intensity the X-ray beam by contributing secondary radiation\n2차 방사선을 강하게 함으로 엑스선 빔의 강도를 증가시킨다.",
+      "filter short wavelength X-ray beams to provide \"softer\" radiation\n짧은 파장의 엑스선 빔을 제거하여 긴 파장의 방사선을 얻는다",
+      "provide the most readily adjusted means of modifying X-ray intensity\n엑스선의 강도를 조절할 수 있는 가장 편리한 방법을 제공한다.",
+      "filter out \"soft\" radiation to provide a more homogeneous X-ray beam.\n보다 균일한 엑스선 빔을 얻기 위해 긴 파장을 흡수한다."
     ],
     "answer": 3
   },
@@ -97,10 +97,10 @@
     "source": "RTG-II(A)",
     "question": "Filters placed between the X-ray tube and specimen tend to reduce scatter radiation\n엑스선과 시험물 사이에 있는 필터는 후방 산란을 어떻게 해서 감소시키는가?",
     "options": [
-      "by absorbing the longer wavelength components of the primary beam.\n (일차 방사선의 긴 파장 부분을 흡수함으로)",
-      "by absorbing the shorter wavelength components of the primary beam\n (일차 방사선의 짧은 파장 부분을 흡수함으로)",
-      "by absorbing backsettler radiation\n (후방 산란 방사선을 흡수함으로)",
-      "by decreasing the intensity of the beam\n (빔의 강도를 약하게 하므로)"
+      "by absorbing the longer wavelength components of the primary beam.\n일차 방사선의 긴 파장 부분을 흡수함으로",
+      "by absorbing the shorter wavelength components of the primary beam\n일차 방사선의 짧은 파장 부분을 흡수함으로",
+      "by absorbing backsettler radiation\n후방 산란 방사선을 흡수함으로",
+      "by decreasing the intensity of the beam\n빔의 강도를 약하게 하므로"
     ],
     "answer": 0
   },
@@ -112,9 +112,9 @@
     "source": "RTG-II(A)",
     "question": "Besides servings as a filter, screens of high atomic number such as lead and lead antimony, also:\n납과 같은 높은 원자 번호의 스크린은 필터로서 기능을 하며 또한 무엇을 하는가?",
     "options": [
-      "decrease the source to-film distance needed for a proper radiography\n (적당한 방사선 사진을 위해서 필요한 선원과 필름간의 거리를 감소시킨다.)",
+      "decrease the source to-film distance needed for a proper radiography\n적당한 방사선 사진을 위해서 필요한 선원과 필름간의 거리를 감소시킨다.",
       "provide some image intensifying action\n상의 감도를 증가시킨다",
-      "permit the use of higher speed film \n (보다 빠른 속도의 필름을 사용할 수 있도록 한다.)",
+      "permit the use of higher speed film\n보다 빠른 속도의 필름을 사용할 수 있도록 한다.",
       "decrease the graininess in a radiograph\n방사선 사진의 입도를 감소시킨다."
     ],
     "answer": 1
@@ -247,10 +247,10 @@
     "source": "RTG-II(A)",
     "question": "One method of reducing radiographic contrast is to:\n방사선 사진의 명암도를 감소시키는 한 방법은?",
     "options": [
-      "increase the distance between the radiation source and the object\n (선원과 시험물 사이의 거리를 증가한다.)",
-      "decrease the distance between the object and the film\n (시험물과 필름사이의 거리를 감소한다.)",
-      "decrease the wavelength of the radiation used \n (사용하는 선원의 파장을 감소한다.)",
-      "increase development time within manufacturer's recommendations.\n (제작자의 지시 범위 내에서 현상 시간을 증가한다.)"
+      "increase the distance between the radiation source and the object\n선원과 시험물 사이의 거리를 증가한다.",
+      "decrease the distance between the object and the film\n시험물과 필름사이의 거리를 감소한다.",
+      "decrease the wavelength of the radiation used\n사용하는 선원의 파장을 감소한다.",
+      "increase development time within manufacturer's recommendations.\n제작자의 지시 범위 내에서 현상 시간을 증가한다."
     ],
     "answer": 2
   },
@@ -292,10 +292,10 @@
     "source": "RTG-II(A)",
     "question": "The most common way of cooling the anode of a highpower X-ray tube is:\n고출력 엑스선 관의 양극을 냉각시키는 가장 일반적인 방법은?",
     "options": [
-      "cooling by radiation, in which a solid tungsten anode attains such high temperatures that it radiates an appreciable amount of heat\n (열 복사로)",
+      "cooling by radiation, in which a solid tungsten anode attains such high temperatures that it radiates an appreciable amount of heat\n열 복사로",
       "cooling by means of circulating cooled air\n순환 냉각 공기로",
       "cooling by means of external fanned radiators\n외부 방열기로",
-      "cooling by circulation of water or oil in the anode \n (양극 내에 순환하는 물 또는 오일로)"
+      "cooling by circulation of water or oil in the anode\n양극 내에 순환하는 물 또는 오일로"
     ],
     "answer": 3
   },
@@ -310,7 +310,7 @@
       "to prevent movement of the specimen\n시험물의 흔들림 방지",
       "to increase the subject contrast\n시험물의 명암도를 증가",
       "to generate smaller wavelength X-radiation\n짧은 파장의 엑스선을 얻기 위해",
-      "to decrease the effect of scattered radiation undercutting the specimen\n (산란 방사선에 의한 언더컷을 감쇄시키는 효과를 위해)"
+      "to decrease the effect of scattered radiation undercutting the specimen\n산란 방사선에 의한 언더컷을 감쇄시키는 효과를 위해"
     ],
     "answer": 3
   },
@@ -457,7 +457,7 @@
     "source": "RTG-II(A)",
     "question": "The inherent filtration of an X-ray tube is a function of:\n엑스선관의 고유 여과 작용은 무엇의 기능인가?",
     "options": [
-      "the thickness and composition of the X-ray tube port\n (엑스선관의 창의 두께와 성질)",
+      "the thickness and composition of the X-ray tube port\n엑스선관의 창의 두께와 성질",
       "the voltage setting of the instrument\n엑스선 발생 장치의 전원 부",
       "the source-to-object distance\n선원과 시험물의 거리",
       "the material used as a target\n표적으로 사용되는 물질"
@@ -472,10 +472,10 @@
     "source": "RTG-II(A)",
     "question": "X-ray films with large grain size:\n큰 입도를 가진 엑스선 필름은?",
     "options": [
-      "will produce radiographs better definition than film with small grain size.\n (작은 입도 필름보다 선명도가 좋은 방사선 사진을 얻는다.)",
-      "have slower speeds than those with a relatively small grain size.\n (작은 입도 필름보다 속도가 늦다.)",
-      "have higher speeds than those with a relatively small grain size.\n (작은 입도 필름보다 속도가 빠르다.)",
-      "will take longer to expose properly than film with relatively small grain size\n (작은 입도 필름보다 노출 시간이 많이 걸린다.)"
+      "will produce radiographs better definition than film with small grain size.\n작은 입도 필름보다 선명도가 좋은 방사선 사진을 얻는다.",
+      "have slower speeds than those with a relatively small grain size.\n작은 입도 필름보다 속도가 늦다.",
+      "have higher speeds than those with a relatively small grain size.\n작은 입도 필름보다 속도가 빠르다.",
+      "will take longer to expose properly than film with relatively small grain size\n작은 입도 필름보다 노출 시간이 많이 걸린다."
     ],
     "answer": 2
   },
@@ -502,10 +502,10 @@
     "source": "RTG-II(A)",
     "question": "A general rule governing the application of the geometric principles of shadow formation states that:\n그림자 형성의 기하학적 원리를 적용하는데 일반적 법칙은 무엇인가?",
     "options": [
-      "the X-ray should proceed from as large a focal spot as other consideration will allow\n (엑스선은 가능한 한 큰 선원으로부터 나와야 한다.)",
-      "the distance between the radiation source and the material examined should be as small as practical\n (선원과 시험물의 거리는 작게 해야 한다.)",
-      "the film should be as far as possible from the object being radiographed.\n (필름은 가능한 한 시험 물에서 떨어져 있어야 한다.)",
-      "the central ray should be as nearly perpendicular to the film as possible, to preserve spatial relationships.\n (방사선의 중앙선은 필름과 거의 수직을 이루어야 한다.)"
+      "the X-ray should proceed from as large a focal spot as other consideration will allow\n엑스선은 가능한 한 큰 선원으로부터 나와야 한다.",
+      "the distance between the radiation source and the material examined should be as small as practical\n선원과 시험물의 거리는 작게 해야 한다.",
+      "the film should be as far as possible from the object being radiographed.\n필름은 가능한 한 시험 물에서 떨어져 있어야 한다.",
+      "the central ray should be as nearly perpendicular to the film as possible, to preserve spatial relationships.\n방사선의 중앙선은 필름과 거의 수직을 이루어야 한다."
     ],
     "answer": 3
   },
@@ -563,7 +563,7 @@
     "question": "The load that can be handled by an X-ray tube focal spot is governed by:\n엑스선과 초점에 의해 조절될 수 있는 부하는?",
     "options": [
       "the composition of the cathode\n음극의 조성",
-      "the size of the focal spot and the efficiency of the cooling system of the anode.\n (초점의 크기와 양극의 냉각 계통의 효율)",
+      "the size of the focal spot and the efficiency of the cooling system of the anode.\n초점의 크기와 양극의 냉각 계통의 효율",
       "the distance from the anode to the cathode\n양극과 음극간의 거리",
       "the high-voltage waveform\n고전압 파형"
     ],
@@ -580,12 +580,15 @@
       "determine the approximate size of the focal spot\n선원의 대략적인 크기를 결정",
       "measure the intensity of the central ray\n중앙선의 강도를 측정",
       "filter scatter radiation\n산란 방사선을 여과",
-      "soften the X-radiation (엑스선을 부드럽게 하기 위해)"
+      "soften the X-radiation\n엑스선을 부드럽게 하기 위해"
     ],
     "answer": 0
   },
   {
     "id": 40,
+    "level": "Level II",
+    "method": "RT",
+    "category": "General",
     "question": "The gamma-ray intensity at one foot from a one curie source of radioactive cobalt-60 is nearest:\n코발트-60 1퀴리 선원에서 1피트 떨어진 곳의 감마선 강도에 가장 가까운 값은?",
     "options": [
       "15 roentgens per hour (15 R/hr)\n시간당 15뢴트겐",

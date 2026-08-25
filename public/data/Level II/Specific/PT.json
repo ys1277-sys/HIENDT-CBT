@@ -88,7 +88,7 @@
     "question": "The following rounded indications are in the weld ; (3ea) 1/16in. indications ; (3ea) 7/64in. indications and (4ea) 1/8in. indications. All are separated by 1/16in. from each other. Is the weld acceptable?\n용접부에 원형지시가 다음과 같이 나타났다. 1/16인치 3개, 7/64인치 3개, 1/8인치 4개의 지시가 서로 1/16인치 떨어져 있다. 이 용접부는 합격인가?",
     "options": [
       "Accept\n합격",
-      "Reject (불합격)"
+      "Reject\n불합격"
     ],
     "answer": 1,
     "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-PT-N21 (Rev.1) for liquid penetrant examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec Ⅲ. 2021 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격에 따른 압력용기 제작의 액체침투탐상 시험에 대한 절차서(HIE-NDT-PT-N21,Rev.1)"
@@ -101,8 +101,8 @@
     "source": "PTS-II(2020)(A)",
     "question": "A length 1/8in.(3mm) rounded indication is; This indication acceptable?\n길이 1/8인치(3mm)의 원형지시는? 이 지시는 합격인가?",
     "options": [
-      "Accept 합격",
-      "Reject 불합격"
+      "Accept\n합격",
+      "Reject\n불합격"
     ],
     "answer": 0,
     "groupNote": "* The following questions refer to ASME Code Sec.I\nASME Sec.I에 따라 7번 물음에 답하시오."
@@ -129,10 +129,10 @@
     "source": "PTS-II(2020)(A)",
     "question": "Which of the following discontinuities could be classified as a servicing discontinuity?\n다음의 불연속 중에서 가동 중의 결함으로 분류할 수 있는 것은?",
     "options": [
-      "Fatigue crack 피로균열",
-      "Porosity 기공",
-      "Machining tear 기계가공 터짐",
-      "Lap 랩"
+      "Fatigue crack\n피로균열",
+      "Porosity\n기공",
+      "Machining tear\n기계가공 터짐",
+      "Lap\n랩"
     ],
     "answer": 0
   },
@@ -145,9 +145,9 @@
     "question": "For precleaning, this procedure states ;\n전처리에 대해 설명한 것이다. 맞는 것은?",
     "options": [
       "acetone shall be used\n아세톤이 사용돼야 한다.",
-      "1 in. adjacent to the area to be examined, shall be clean\n (시험부위의 주변 1인치를 전처리 해야한다.)",
-      "1/2 inch, adjacent to the area to be examined, shall be clean.\n (시험부위의 주변 1/2인치를 전처리 해야한다.)",
-      "a light coating of oil on the test surface, that is compatible with the penetrant, is acceptable\n (표면상의 얇은 오일코팅은 허용된다.)"
+      "1 in. adjacent to the area to be examined, shall be clean\n시험부위의 주변 1인치를 전처리 해야한다.",
+      "1/2 inch, adjacent to the area to be examined, shall be clean.\n시험부위의 주변 1/2인치를 전처리 해야한다.",
+      "a light coating of oil on the test surface, that is compatible with the penetrant, is acceptable\n표면상의 얇은 오일코팅은 허용된다."
     ],
     "answer": 1
   },
@@ -191,8 +191,8 @@
     "source": "PTS-II(2020)(A)",
     "question": "A 18mm linear indication was found during inspection of a 50mm thick casting. What is the pass/fail decision?\n50mm 두께의 주조품 검사시 선형 결함(Linear Indication) 18mm가 발견되었습니다. 합부는?",
     "options": [
-      "Accept 합격",
-      "Reject 불합격"
+      "Accept\n합격",
+      "Reject\n불합격"
     ],
     "answer": 1,
     "groupNote": "* The following questions refer to ASME B16.34\nASME B16.34에 따라 물음에 답하시오."
@@ -205,8 +205,8 @@
     "source": "PTS-II(2020)(A)",
     "question": "A 15mm linear indication was found during inspection of a 30mm thick forging. What is the pass/fail decision?\n15mm 두께의 단조품 검사시 선형 결함(Linear Indication) 30mm가 발견되었습니다. 합부는?",
     "options": [
-      "Accept 합격",
-      "Reject 불합격"
+      "Accept\n합격",
+      "Reject\n불합격"
     ],
     "answer": 1,
     "groupNote": "* The following questions refer to ASME B16.34\nASME B16.34에 따라 물음에 답하시오."
@@ -252,7 +252,7 @@
       "human tissues\n조직손상",
       "human eyes\n눈의 손상",
       "human blood cells\n혈구의 손상",
-      "none of the above (해당사항 없음)"
+      "none of the above\n해당사항 없음"
     ],
     "answer": 1
   },
@@ -264,8 +264,8 @@
     "source": "PTS-II(2020)(A)",
     "question": "The surface of the quality grade PSL2 is inspected by PT. A round indication of 1/4in.(6mm) appeared. Is it acceptable?\n품질등급 PSL2 제품의 표면을 PT검사할 때 1/4in(6mm)의 원형지시가 나타났다 합격인가?",
     "options": [
-      "Accept 합격",
-      "Reject 불합격"
+      "Accept\n합격",
+      "Reject\n불합격"
     ],
     "answer": 1,
     "groupNote": "* Refer to HIE-NDT-PT-P6A(SKB) written in accordance with API 6A and answer question.\n(API 6A에 따라 작성된 HIE-NDT-PT-P6A(SKB)를 참고하여 물음에 답하시오.)"
@@ -278,13 +278,14 @@
     "source": "PTS-II(2020)(A)",
     "question": "When inspecting quality grade PSL2 products with a weld depth of 3/4 in.(19 mm) by PT, a round indication of 1/4in.(6mm) appeared. Is it acceptable?\n용접부 깊이가 20mm인 품질등급 PSL2 제품을 PT검사할 때 1/4in(6mm)의 원형지시가 나타났다 합격인가?",
     "options": [
-      "Accept 합격",
-      "Reject 불합격"
+      "Accept\n합격",
+      "Reject\n불합격"
     ],
     "answer": 1,
     "groupNote": "* Refer to HIE-NDT-PT-P6A(SKB) written in accordance with API 6A and answer question.\n(API 6A에 따라 작성된 HIE-NDT-PT-P6A(SKB)를 참고하여 물음에 답하시오.)"
   },
   {
+    "id": 21,
     "level": "Level II",
     "method": "PT",
     "category": "Specific",
@@ -294,10 +295,10 @@
       "Accept\n합격",
       "Reject\n불합격"
     ],
-    "answer": 0,
-    "id": 21
+    "answer": 0
   },
   {
+    "id": 22,
     "level": "Level II",
     "method": "PT",
     "category": "Specific",
@@ -307,10 +308,10 @@
       "Accept\n합격",
       "Reject\n불합격"
     ],
-    "answer": 0,
-    "id": 22
+    "answer": 0
   },
   {
+    "id": 23,
     "level": "Level II",
     "method": "PT",
     "category": "Specific",
@@ -320,10 +321,10 @@
       "True\n맞다",
       "False\n틀리다"
     ],
-    "answer": 1,
-    "id": 23
+    "answer": 1
   },
   {
+    "id": 24,
     "level": "Level II",
     "method": "PT",
     "category": "Specific",
@@ -336,11 +337,13 @@
       "Wiping with cloth only\n천으로 닦기만"
     ],
     "answer": 0,
-    "id": 24,
     "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-PT-P11 (Rev.2) for liquid penetrant examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 침투탐상 시험에 대한 절차서(HIE-NDT-PT-P11. Rev.2)"
   },
   {
     "id": 25,
+    "level": "Level II",
+    "method": "PT",
+    "category": "Specific",
     "question": "What is the minimum lighting on the part surface when PT is conducted under white light?\n백색광 아래에서 침투탐상을 수행할 때 시험면의 최소 조도는?",
     "options": [
       "350 Lux",
@@ -352,6 +355,9 @@
   },
   {
     "id": 26,
+    "level": "Level II",
+    "method": "PT",
+    "category": "Specific",
     "question": "A 5/16 in. rounded indication was found on a weld. Is this acceptable? (Ref.: ASME Sec. Ⅷ Div. 2)\n용접부에서 5/16인치 원형 지시가 발견되었다. 합격인가? (ASME Sec. Ⅷ Div. 2 기준)",
     "options": [
       "Acceptable\n합격",
@@ -361,6 +367,9 @@
   },
   {
     "id": 27,
+    "level": "Level II",
+    "method": "PT",
+    "category": "Specific",
     "question": "When using solvent removable penetrants, flushing the surface with solvent to remove excess penetrant is prohibited. Why?\n용제제거성 침투액을 쓸 때 잉여 침투액 제거를 위해 표면에 용제를 뿌려 씻어내는 것이 금지되는 이유는?",
     "options": [
       "It washes the penetrant out of the discontinuities, so indications are lost\n불연속 안의 침투액까지 씻겨나가 지시가 사라지기 때문",

@@ -430,6 +430,9 @@
   },
   {
     "id": 31,
+    "level": "Level II",
+    "method": "TOFD",
+    "category": "Specific",
     "question": "ASME Code Case 2235-9 describes that a qualification block must be used to qualify the TOFD written procedure for weld inspection. As a minimum, the block shall contain:\nASME Code Case 2235-9는 용접부 검사용 TOFD 절차서 인증에 인정시험편을 쓰도록 규정한다. 시험편이 최소한 포함해야 하는 것은?",
     "options": [
       "2 flaws on the OD or ID surface and 1 subsurface flaw if access to both sides of the block\n시험편 양쪽에서 접근 가능한 경우 OD 또는 ID 표면의 결함 2개와 표면하 결함 1개",
@@ -442,6 +445,9 @@
   },
   {
     "id": 32,
+    "level": "Level II",
+    "method": "TOFD",
+    "category": "Specific",
     "question": "When inspecting according to ASME Code Case 2235-9 on a wall thickness of 24 mm, what is the maximum size of a subsurface notch that can be used for a qualification block?\nASME Code Case 2235-9에 따라 두께 24mm를 검사할 때, 인정시험편에 쓸 수 있는 표면하 노치의 최대 크기는?",
     "options": [
       "0.143 mm high × 6.4 mm long\n높이 0.143mm × 길이 6.4mm",

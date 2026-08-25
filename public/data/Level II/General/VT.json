@@ -85,9 +85,9 @@
     "source": "VTG-llA(개정판)-2016.10.18",
     "question": "Which is not correct to describe the borescope?\n다음중 내시경에 대해 설명한 것중 틀린 것은?",
     "options": [
-      "It is widely used for testing hollow tubes, deep holes.\n (내시경은 빈 관, 깊은 홀에 넓게 사용된다.)",
-      "Relatively large industrial borescopes range from 1/2 in to 1-3/4 in, in diameter and from 20 in, to 72 ft, in length.\n (상대적으로 큰 산업용 내시경은 직경 1/2~ 1 3/4 in. 길이는 20 in ~ 72 ft에 이른다)",
-      "Most borescopes are equiped with light sources to illuminate the area being inspected.\n (대부분의 내시경은 검사부위를 밝히기 위한 광원을 가지고 있다.)",
+      "It is widely used for testing hollow tubes, deep holes.\n내시경은 빈 관, 깊은 홀에 넓게 사용된다.",
+      "Relatively large industrial borescopes range from 1/2 in to 1-3/4 in, in diameter and from 20 in, to 72 ft, in length.\n상대적으로 큰 산업용 내시경은 직경 1/2~ 1 3/4 in. 길이는 20 in ~ 72 ft에 이른다",
+      "Most borescopes are equiped with light sources to illuminate the area being inspected.\n대부분의 내시경은 검사부위를 밝히기 위한 광원을 가지고 있다.",
       "None of the above.\n해답 없음"
     ],
     "answer": 3
@@ -160,10 +160,10 @@
     "source": "VTG-llA(개정판)-2016.10.18",
     "question": "Which of the following statements best differentiates between a defect and a discontinuity?\n결함과 불연속 사이에 차이점을 무엇이라 하는가?",
     "options": [
-      "Discontinuities can propagate and become defects\n (불연속은 증식할 수 있으며 결함이 된다.)",
-      "All discontinuities are defects.\n (모든 불연속은 결함이다.)",
-      "All defects will lead to failure if undetected discontinuities can be harmless\n (감지되지 않은 불연속이 무해할 수 있다면 모든 결함은 잘못된 것일것이다.)",
-      "Discontinuities are external natural boundaries only defects are internal flaws originating from error in processing.\n (불연속은 자연적인 외부경계이며, 결함은 공정상의 오류로부터 발생된 내부 흠집이다.)"
+      "Discontinuities can propagate and become defects\n불연속은 증식할 수 있으며 결함이 된다.",
+      "All discontinuities are defects.\n모든 불연속은 결함이다.",
+      "All defects will lead to failure if undetected discontinuities can be harmless\n감지되지 않은 불연속이 무해할 수 있다면 모든 결함은 잘못된 것일것이다.",
+      "Discontinuities are external natural boundaries only defects are internal flaws originating from error in processing.\n불연속은 자연적인 외부경계이며, 결함은 공정상의 오류로부터 발생된 내부 흠집이다."
     ],
     "answer": 0
   },
@@ -175,10 +175,10 @@
     "source": "VTG-llA(개정판)-2016.10.18",
     "question": "A vernier measurement permits:\n버니어 허용치수는?",
     "options": [
-      "Accurate interpolation between major divisions on a measuring device.\n (측정장비의 많은 눈금 사이에 정밀한 보간법)",
-      "Measurements to be accurate within 0.001 inch.\n (0.001인치 이내로 정확하게 측정)",
-      "Extending the length of a measurement scale by the times.\n (시간에 의해서 측정길이가 팽창한다.)",
-      "Measurements to be traced to the National Bureau of Standard.\n (측정기는 국제표준기구까지 거슬러 올라간다.)"
+      "Accurate interpolation between major divisions on a measuring device.\n측정장비의 많은 눈금 사이에 정밀한 보간법",
+      "Measurements to be accurate within 0.001 inch.\n0.001인치 이내로 정확하게 측정",
+      "Extending the length of a measurement scale by the times.\n시간에 의해서 측정길이가 팽창한다.",
+      "Measurements to be traced to the National Bureau of Standard.\n측정기는 국제표준기구까지 거슬러 올라간다."
     ],
     "answer": 0
   },
@@ -239,7 +239,7 @@
     "options": [
       "Identification and sorting of material\n물질의 부류와 동일함",
       "Identification of material properties\n물질의 특성의 동일함",
-      "Assuring absence of faults at defects that could cause a part of fail\n (결함부재 평가는 실수를 야기 시킬 수 있다.)",
+      "Assuring absence of faults at defects that could cause a part of fail\n결함부재 평가는 실수를 야기 시킬 수 있다.",
       "All of the above\n모두 답이다."
     ],
     "answer": 3
@@ -313,9 +313,9 @@
     "source": "VTG-llA(개정판)-2016.10.18",
     "question": "Even at the early stages of product planning, nondestructive testing should be considered because:\n생산계획의 초기에 조차 비파괴시험이 고려 되어야 하는 이유는?",
     "options": [
-      "It may be required by codes and specifications.\n (코드와 절차서에 의해서 요구된다.)",
-      "The design of the part should permit easy access to critical areas for later inspections.\n (영역의 설계는 검사후에 대한 위험한 지역에 의해서 쉽게 증가하는 것을 인정한다.)",
-      "The materials selected should be compatible with a NDT technique that can accurately evaluate the product.\n (선택된 물질은 제품을 정확히 평가할 수 있는 비파괴기술과 호환가능해야 한다.)",
+      "It may be required by codes and specifications.\n코드와 절차서에 의해서 요구된다.",
+      "The design of the part should permit easy access to critical areas for later inspections.\n영역의 설계는 검사후에 대한 위험한 지역에 의해서 쉽게 증가하는 것을 인정한다.",
+      "The materials selected should be compatible with a NDT technique that can accurately evaluate the product.\n선택된 물질은 제품을 정확히 평가할 수 있는 비파괴기술과 호환가능해야 한다.",
       "All of the above are important.\n위의 모두 중요하다."
     ],
     "answer": 3
@@ -590,10 +590,10 @@
     "source": "VTG-llA(개정판)-2016.10.18",
     "question": "Soldering, brazing, and braze welding all:\n황동, 청동 용접부 결합은 모두 ______",
     "options": [
-      "Have the same strength characteristics\n (같은 응력 특성을 가진다.)",
-      "Utilize a process where only the filler metal is actually melted.\n (용가재 금속만 정확히 녹아야 하는 공정에서 사용한다.)",
-      "Are fusion-type weldments\n (용접 융합형태)",
-      "Utilize liquid penetrant inspection to reveal porosity within the joint.\n (액체침투탐상을 이용하면 이음매 내에서 기공이 보인다.)"
+      "Have the same strength characteristics\n같은 응력 특성을 가진다.",
+      "Utilize a process where only the filler metal is actually melted.\n용가재 금속만 정확히 녹아야 하는 공정에서 사용한다.",
+      "Are fusion-type weldments\n용접 융합형태",
+      "Utilize liquid penetrant inspection to reveal porosity within the joint.\n액체침투탐상을 이용하면 이음매 내에서 기공이 보인다."
     ],
     "answer": 1
   },
@@ -605,10 +605,10 @@
     "source": "VTG-llA(개정판)-2016.10.18",
     "question": "In a casting, shrinkage occurs:\n주조내에서 수축발생",
     "options": [
-      "Only after the transformation from liquid to solid.\n (오직 액체로부터 고체로 변형후)",
-      "Only during the trasnformation from liquid to solid.\n (오직 액체로부터 고체로 변형하는 동안)",
-      "Before, during and after the transformation from liquid to solid.\n (액체로부터 고체로 변형하는 후, 동안, 전)",
-      "Only one the metal is in the liquid state\n (오직 액체상태에서)"
+      "Only after the transformation from liquid to solid.\n오직 액체로부터 고체로 변형후",
+      "Only during the trasnformation from liquid to solid.\n오직 액체로부터 고체로 변형하는 동안",
+      "Before, during and after the transformation from liquid to solid.\n액체로부터 고체로 변형하는 후, 동안, 전",
+      "Only one the metal is in the liquid state\n오직 액체상태에서"
     ],
     "answer": 2
   },
@@ -651,10 +651,10 @@
     "source": "VTG-llA(개정판)-2016.10.18",
     "question": "The principle purpose of pre-heat treatment and post heat treatment in welds is to:\n전 열처리와 후 열처리의 근본적 목적은?",
     "options": [
-      "Reduce the probability of formation of porosity in the weld.\n (용접부내에 기공의 형성의 확율감소)",
-      "Neutralize residual stresses and geometric distortion.\n (기하학적 뒤틀림과 잔여응력을 중화시킨다.)",
-      "Create grains in the weld that are the same as those in the base metal.\n (용접부내에 모재와 동일한 결정을 만든다.)",
-      "Cause the weld ripple and reinforcement to blend into the base metal.\n (염기성금속을 중화시키기 위해 잔물결모양과 모강 용접을 한다.)"
+      "Reduce the probability of formation of porosity in the weld.\n용접부내에 기공의 형성의 확율감소",
+      "Neutralize residual stresses and geometric distortion.\n기하학적 뒤틀림과 잔여응력을 중화시킨다.",
+      "Create grains in the weld that are the same as those in the base metal.\n용접부내에 모재와 동일한 결정을 만든다.",
+      "Cause the weld ripple and reinforcement to blend into the base metal.\n염기성금속을 중화시키기 위해 잔물결모양과 모강 용접을 한다."
     ],
     "answer": 1
   },
@@ -682,10 +682,10 @@
     "source": "VTG-llA(개정판)-2016.10.18",
     "question": "Most new development in sheet metal forming typically use non-conventional energy sources. What is a common feature of these processes?\n독특한 금속형의 새로운것들은 신에너지 원료로 사용한다. 이들 절차에 공통점은 무엇인가?",
     "options": [
-      "The use of lasers for controlled heat input\n (열 입력을 제어하기 위한 레이저 사용)",
-      "The use of cryogenics to super-cool the metal prior to forming\n (모형에 앞서 금속 과냉화를 위하여 저온화를 사용)",
-      "The use of energy sources that release large amounts of energy in a very short time.\n (매우 짧은 시간에 광대한 에너지를 투하하는 에너지원을 사용)",
-      "The use of large autoclaves that contain both the tooling and the metal being formed.\n (큰 고압솥 사용에는 압형과 금속형을 포함한다.)"
+      "The use of lasers for controlled heat input\n열 입력을 제어하기 위한 레이저 사용",
+      "The use of cryogenics to super-cool the metal prior to forming\n모형에 앞서 금속 과냉화를 위하여 저온화를 사용",
+      "The use of energy sources that release large amounts of energy in a very short time.\n매우 짧은 시간에 광대한 에너지를 투하하는 에너지원을 사용",
+      "The use of large autoclaves that contain both the tooling and the metal being formed.\n큰 고압솥 사용에는 압형과 금속형을 포함한다."
     ],
     "answer": 2
   },
@@ -732,7 +732,7 @@
       "Roughness of the adherences.\n접착제의 울퉁불퉁함",
       "Dynamic mechanical forces.\n기계의 동력",
       "Interatomic forces.\n원자간의 힘",
-      "All of the above. (위의 모두)"
+      "All of the above.\n위의 모두"
     ],
     "answer": 3
   }

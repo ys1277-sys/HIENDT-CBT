@@ -3,10 +3,9 @@
     "id": 1,
     "level": "Level III",
     "method": "RT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section VIII / HIE-NDT-RT-P11",
+    "category": "Method",
+    "topic": "ASME Section VIII / HIE-NDT-RT-P11",
     "question": "What requirement of this procedure shall be demonstrated on production or technique radiograph for its qualification?\n방사선 투과사진 기술 또는 제작에 대한 품질을 입증하기 위하여 이 절차서에서의 요구사항은 무엇인가?",
-    "question_kr": "방사선 투과사진 기술 또는 제작에 대한 품질을 입증하기 위하여 이 절차서에서의 요구사항은 무엇인가?",
     "options": [
       "Density and penetrameter image requirements\n농도와 투과도계 상(image) 요구사항",
       "",
@@ -14,17 +13,15 @@
       ""
     ],
     "answer": 0,
-    "explanation": "",
     "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-P11(Rev.3)for radiographic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 방사선 투과 시험에 대한 절차서(HIE-NDT-RT-P11. Rev.3)"
   },
   {
     "id": 2,
     "level": "Level III",
     "method": "RT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section VIII / HIE-NDT-RT-P11",
+    "category": "Method",
+    "topic": "ASME Section VIII / HIE-NDT-RT-P11",
     "question": "For complete radiographic coverage of cylindrical girth welds, a minimum of is required when the source is placed outside and the film inside the object.\n원주 용접부의 양호한 방사선 투과사진 적용범위에 대하여 선원이 외부 그리고 내부에 위치했을 때 최소 어느 정도 요구되는가.",
-    "question_kr": "원주 용접부의 양호한 방사선 투과사진 적용범위에 대하여 선원이 외부 그리고 내부에 위치했을 때 최소 어느 정도 요구되는가.",
     "options": [
       "Four exposures 90° apart\n90° 간격 4회 촬영",
       "",
@@ -32,34 +29,30 @@
       ""
     ],
     "answer": 0,
-    "explanation": "",
     "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-P11(Rev.3)for radiographic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 방사선 투과 시험에 대한 절차서(HIE-NDT-RT-P11. Rev.3)"
   },
   {
     "id": 3,
     "level": "Level III",
     "method": "RT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section VIII / HIE-NDT-RT-P11",
+    "category": "Method",
+    "topic": "ASME Section VIII / HIE-NDT-RT-P11",
     "question": "You are radiographing a 1/2\" thick specimen using a 24\" SFD, 200KVP, 10mA, 1.2 minute, with an X-Ray tube with a 4mm focal spot. What is the Ug?\n시편두께가 1/2인치이고 24인치 SFD, 200KVP, 10mA, 1.2분, 초점 크기가 4mm일 때 기하학적 불선명도(Ug)는?",
-    "question_kr": "시편두께가 1/2인치이고 24인치 SFD, 200KVP, 10mA, 1.2분, 초점 크기가 4mm일 때 기하학적 불선명도(Ug)는?",
     "options": [
       "Ug = 0.084 inch",
       "",
       "",
       ""
     ],
-    "answer": 0,
-    "explanation": ""
+    "answer": 0
   },
   {
     "id": 4,
     "level": "Level III",
     "method": "RT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section VIII / HIE-NDT-RT-P11",
+    "category": "Method",
+    "topic": "ASME Section VIII / HIE-NDT-RT-P11",
     "question": "What is the different requirements in this procedure between X-ray and γ-ray?\n절차서에서 X선과 감마선 사이의 다른 요구조건은 무엇인가?",
-    "question_kr": "절차서에서 X선과 감마선 사이의 다른 요구조건은 무엇인가?",
     "options": [
       "Minimum film density 1.8 for X-ray / 2.0 for Gamma-ray\n최소 필름농도 X선 1.8 / 감마선 2.0",
       "",
@@ -67,17 +60,15 @@
       ""
     ],
     "answer": 0,
-    "explanation": "",
     "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-P11(Rev.3)for radiographic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 방사선 투과 시험에 대한 절차서(HIE-NDT-RT-P11. Rev.3)"
   },
   {
     "id": 5,
     "level": "Level III",
     "method": "RT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section VIII / HIE-NDT-RT-P11",
+    "category": "Method",
+    "topic": "ASME Section VIII / HIE-NDT-RT-P11",
     "question": "What evidence would you find on a radiograph that would indicate insufficient protection from back-scatter?\n투과사진 상에서 후방산란을 대비한 불충분한 방어를 나타내는 어떤 증거를 발견할 수 있나?",
-    "question_kr": "투과사진 상에서 후방산란을 대비한 불충분한 방어를 나타내는 어떤 증거를 발견할 수 있나?",
     "options": [
       "B letter appears on a dark background of the radiograph\n방사선사진의 어두운 바탕 위에 B 글자가 나타난다",
       "",
@@ -85,17 +76,15 @@
       ""
     ],
     "answer": 0,
-    "explanation": "",
     "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-P11(Rev.3)for radiographic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 방사선 투과 시험에 대한 절차서(HIE-NDT-RT-P11. Rev.3)"
   },
   {
     "id": 6,
     "level": "Level III",
     "method": "RT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section VIII / HIE-NDT-RT-P11",
+    "category": "Method",
+    "topic": "ASME Section VIII / HIE-NDT-RT-P11",
     "question": "What are the radiographic density requirements?\n투과사진에서 요구되어지는 농도는?",
-    "question_kr": "투과사진에서 요구되어지는 농도는?",
     "options": [
       "Single viewing for X-ray : 1.8~4.0 / Composite viewing of multiple film : 1.3~4.0 / Single viewing for γ-ray : 2.0~4.0\nX선 단일필름 관찰 1.8~4.0 / 다중필름 겹쳐 관찰 1.3~4.0 / 감마선 단일필름 관찰 2.0~4.0",
       "",
@@ -103,17 +92,15 @@
       ""
     ],
     "answer": 0,
-    "explanation": "",
     "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-P11(Rev.3)for radiographic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 방사선 투과 시험에 대한 절차서(HIE-NDT-RT-P11. Rev.3)"
   },
   {
     "id": 7,
     "level": "Level III",
     "method": "RT",
-    "category": "SPECIFIC",
-    "subject": "API 6A",
+    "category": "Method",
+    "topic": "API 6A",
     "question": "What is the minimum equivalent sensitivity when radiographic test for PSL2 welds?\n품질등급 PSL2의 용접부를 방사선투과검사 할 때 최소 등가 감도는 얼마인가?",
-    "question_kr": "품질등급 PSL2의 용접부를 방사선투과검사 할 때 최소 등가 감도는 얼마인가?",
     "options": [
       "Minimum equivalent sensitivity of 1% and a 1-1T quality level\n최소 등가감도 1%, 상질 1-1T",
       "Minimum equivalent sensitivity of 2% and a 2-2T quality level\n최소 등가감도 2%, 상질 2-2T",
@@ -121,17 +108,15 @@
       "Minimum equivalent sensitivity of 4% and a 4-4T quality level\n최소 등가감도 4%, 상질 4-4T"
     ],
     "answer": 1,
-    "explanation": "",
     "groupNote": "* The following questions refer to API 6A\nAPI 6A에 따라 물음에 답하시오."
   },
   {
     "id": 8,
     "level": "Level III",
     "method": "RT",
-    "category": "SPECIFIC",
-    "subject": "API 6A",
+    "category": "Method",
+    "topic": "API 6A",
     "question": "The surface of the quality grade PSL2 is inspected by RT. A round indication of 1/4in.(6mm) appeared. Is it acceptable?\n품질등급 PSL2 용접부를 RT 검사할 때 6mm 원형 지시가 나타났다. 합격인가?",
-    "question_kr": "품질등급 PSL2 용접부를 RT 검사할 때 6mm 원형 지시가 나타났다. 합격인가?",
     "options": [
       "Accept",
       "Reject",
@@ -139,34 +124,30 @@
       ""
     ],
     "answer": 0,
-    "explanation": "",
     "groupNote": "* The following questions refer to API 6A\nAPI 6A에 따라 물음에 답하시오."
   },
   {
     "id": 9,
     "level": "Level III",
     "method": "RT",
-    "category": "SPECIFIC",
-    "subject": "ASME B16.34",
+    "category": "Method",
+    "topic": "ASME B16.34",
     "question": "When performing radiographic testing (RT) in accordance with ASME B16.34, what is the most common classification of specific castings?\nASME B16.34에 따라 방사선투과검사를 수행할 때 주강품(Castings)의 합격 기준은 어떤 규격을 따라야 하는가?",
-    "question_kr": "ASME B16.34에 따라 방사선투과검사를 수행할 때 주강품(Castings)의 합격 기준은 어떤 규격을 따라야 하는가?",
     "options": [
       "AWS D1.1",
       "ASME B16.34 Mandatory Appendix I",
       "ASME Section VIII Div.1 UW-51",
       "ASME B31.3"
     ],
-    "answer": 1,
-    "explanation": ""
+    "answer": 1
   },
   {
     "id": 10,
     "level": "Level III",
     "method": "RT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section III / HIE-NDT-RT-N21",
+    "category": "Method",
+    "topic": "ASME Section III / HIE-NDT-RT-N21",
     "question": "A circumferential butt weld in class 1 component has been made in a 30 in. diameter pipe. The inside of the pipe is not accessible. The wall thickness is 5/8\" and the reinforcement is the maximum allowed by the procedure. What is the maximum reinforcement allowed? What is the required minimum wire IQI diameter?\n1등급 기기인 외경 30인치 원주 용접부가 있다. 파이프 내부는 접근불가하며 벽두께는 5/8인치이고 용접덧살은 절차서 허용 최대 크기이다. 최대 허용 용접덧살과 요구되는 최소 선형 투과도계 직경은?",
-    "question_kr": "1등급 기기인 외경 30인치 원주 용접부가 있다. 파이프 내부는 접근불가하며 벽두께는 5/8인치이고 용접덧살은 절차서 허용 최대 크기이다. 최대 허용 용접덧살과 요구되는 최소 선형 투과도계 직경은?",
     "options": [
       "A : 3/32 inch / B : #7 wire (0.013 inch or 0.33mm)\nA: 3/32인치 / B: #7 와이어(0.013인치, 0.33mm)",
       "",
@@ -174,35 +155,31 @@
       ""
     ],
     "answer": 0,
-    "explanation": "",
     "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-N21(Rev.3) for radiographic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅲ, 2023 Edition\n문제는 ASME 규격 Sec.Ⅲ(2023 Edition)에 따른 압력용기 제작의 방사선 투과 시험에 대한 절차서 HIE-NDT-RT-N21.(Rev.3)를 참조하시오."
   },
   {
     "id": 11,
     "level": "Level III",
     "method": "RT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section III / HIE-NDT-RT-N21",
+    "category": "Method",
+    "topic": "ASME Section III / HIE-NDT-RT-N21",
     "question": "If the shape of component is spherical, concave side is toward the source and when the source to material distance is less than the inside radius of component, the location mark shall place ______ side only?\n제작모양이 구형이고 오목한 면은 선원 방향으로 하고 재료에서 선원의 거리는 제조물의 반경 이하면 위치 표시는 어느 면에 위치하는가?",
-    "question_kr": "제작모양이 구형이고 오목한 면은 선원 방향으로 하고 재료에서 선원의 거리는 제조물의 반경 이하면 위치 표시는 어느 면에 위치하는가?",
     "options": [
       "Source\n선원",
       "Either\n어디에나",
       "Film\n필름",
-      "In (내부)"
+      "In\n내부"
     ],
     "answer": 0,
-    "explanation": "",
     "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-N21(Rev.3) for radiographic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅲ, 2023 Edition\n문제는 ASME 규격 Sec.Ⅲ(2023 Edition)에 따른 압력용기 제작의 방사선 투과 시험에 대한 절차서 HIE-NDT-RT-N21.(Rev.3)를 참조하시오."
   },
   {
     "id": 12,
     "level": "Level III",
     "method": "RT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section III / HIE-NDT-RT-N21",
+    "category": "Method",
+    "topic": "ASME Section III / HIE-NDT-RT-N21",
     "question": "For double-wall viewing, at least ______ location marker shall be placed on the ______ side surface adjacent to the weld?\n이중벽 양면촬영에 대해 최소한 몇 개의 위치 표시를 하고 용접부에 근접한 어느 면에 두는가?",
-    "question_kr": "이중벽 양면촬영에 대해 최소한 몇 개의 위치 표시를 하고 용접부에 근접한 어느 면에 두는가?",
     "options": [
       "2, film",
       "1, film",
@@ -210,17 +187,15 @@
       "1, source"
     ],
     "answer": 3,
-    "explanation": "",
     "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-N21(Rev.3) for radiographic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅲ, 2023 Edition\n문제는 ASME 규격 Sec.Ⅲ(2023 Edition)에 따른 압력용기 제작의 방사선 투과 시험에 대한 절차서 HIE-NDT-RT-N21.(Rev.3)를 참조하시오."
   },
   {
     "id": 13,
     "level": "Level III",
     "method": "RT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section III / HIE-NDT-RT-N21",
+    "category": "Method",
+    "topic": "ASME Section III / HIE-NDT-RT-N21",
     "question": "If the penetrameter image does not show on one radiograph in double film technique but does show in composite viewing, which interpretation technique shall be permitted?\n투과도계 상이 이중필름 기법에서 한 장의 필름에서는 보이지 않고 복수 필름을 겹쳤을 때 보인다면 어떤 판독 기술이 가능한가?",
-    "question_kr": "투과도계 상이 이중필름 기법에서 한 장의 필름에서는 보이지 않고 복수 필름을 겹쳤을 때 보인다면 어떤 판독 기술이 가능한가?",
     "options": [
       "Double\n2중",
       "Single\n단",
@@ -228,300 +203,269 @@
       "All of above is not correct\n위의 어느 것도 옳지 않다"
     ],
     "answer": 0,
-    "explanation": "",
     "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-N21(Rev.3) for radiographic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅲ, 2023 Edition\n문제는 ASME 규격 Sec.Ⅲ(2023 Edition)에 따른 압력용기 제작의 방사선 투과 시험에 대한 절차서 HIE-NDT-RT-N21.(Rev.3)를 참조하시오."
   },
   {
     "id": 14,
     "level": "Level III",
     "method": "RT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section III / HIE-NDT-RT-N21",
+    "category": "Method",
+    "topic": "ASME Section III / HIE-NDT-RT-N21",
     "question": "For materials and for welds in pipe and tubes with a nominal outside diameter greater than 3-1/2 in, radiographic examination shall be performed for wall viewing only?\n공칭 바깥직경이 3-1/2인치보다 큰 파이프 및 튜브 용접부의 방사선투과검사는 어떤 벽 보기 촬영을 해야 하는가?",
-    "question_kr": "공칭 바깥직경이 3-1/2인치보다 큰 파이프 및 튜브 용접부의 방사선투과검사는 어떤 벽 보기 촬영을 해야 하는가?",
     "options": [
       "3, double",
       "3-3/4, double",
       "3-1/2, double",
       "3-1/2, single"
     ],
-    "answer": 3,
-    "explanation": ""
+    "answer": 3
   },
   {
     "id": 15,
     "level": "Level III",
     "method": "RT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section III / HIE-NDT-RT-N21",
+    "category": "Method",
+    "topic": "ASME Section III / HIE-NDT-RT-N21",
     "question": "In case of double-wall technique, how many exposures are required, if the images of both walls are superimposed?\n이중벽 촬영인 경우, 만약 이중상 보기가 첨가된다면 얼마나 많은 노출이 요구되는가?",
-    "question_kr": "이중벽 촬영인 경우, 만약 이중상 보기가 첨가된다면 얼마나 많은 노출이 요구되는가?",
     "options": [
       "Two exposure, apart 90°\n90° 간격 2회 촬영",
       "Two exposure, apart 60°\n60° 간격 2회 촬영",
       "Three exposure, apart 120°\n120° 간격 3회 촬영",
       "Three exposure, apart 90°\n90° 간격 3회 촬영"
     ],
-    "answer": 2,
-    "explanation": ""
+    "answer": 2
   },
   {
     "id": 16,
     "level": "Level III",
     "method": "RT",
-    "category": "SPECIFIC",
-    "subject": "Radiographic Interpretation",
+    "category": "Method",
+    "topic": "Radiographic Interpretation",
     "question": "What is the reason why a slag inclusion shows up darkly on a radiograph?\n슬래그 개재물이 투과사진에 검게 나타나는 이유는?",
-    "question_kr": "슬래그 개재물이 투과사진에 검게 나타나는 이유는?",
     "options": [
       "Because a slag inclusion is always combined with an increase of the wall thickness.\n슬래그 개재물에는 항상 두께 증가가 따르기 때문",
       "Because the slag inclusion has a lower density than steel.\n슬래그 개재물이 강보다 밀도가 낮기 때문",
       "Because the slag inclusion has a higher density than steel.\n슬래그 개재물이 강보다 밀도가 높기 때문",
       "Because a slag inclusion is always combined with a misalignment.\n슬래그 개재물에는 항상 어긋남이 따르기 때문"
     ],
-    "answer": 1,
-    "explanation": ""
+    "answer": 1
   },
   {
     "id": 17,
     "level": "Level III",
     "method": "RT",
-    "category": "SPECIFIC",
-    "subject": "Radiographic Geometry",
+    "category": "Method",
+    "topic": "Radiographic Geometry",
     "question": "The size of the penumbra shadow can best be reduced by?\n반음영의 크기는 무엇에 의해 감소시킬 수 있는가?",
-    "question_kr": "반음영의 크기는 무엇에 의해 감소시킬 수 있는가?",
     "options": [
       "Using a larger diameter source\n지름이 더 큰 선원을 쓴다",
       "Using a faster speed film\n감도가 더 빠른 필름을 쓴다",
       "Increasing the source to film distance\n선원-필름 거리를 늘린다",
       "Increasing the specimen to film distance\n시험체-필름 거리를 늘린다"
     ],
-    "answer": 2,
-    "explanation": ""
+    "answer": 2
   },
   {
     "id": 18,
     "level": "Level III",
     "method": "RT",
-    "category": "SPECIFIC",
-    "subject": "Radiographic Quality Level",
+    "category": "Method",
+    "topic": "Radiographic Quality Level",
     "question": "If the radiographic quality level is 4-2T, what is the equivalent penetrameter sensitivity?\n투과사진의 상질등급이 4-2T이면 얼마의 동등한 투과도계 감도를 갖는가?",
-    "question_kr": "투과사진의 상질등급이 4-2T이면 얼마의 동등한 투과도계 감도를 갖는가?",
     "options": [
       "2.8 %",
       "0.7 %",
       "1 %",
       "4 %"
     ],
-    "answer": 3,
-    "explanation": ""
+    "answer": 3
   },
   {
     "id": 19,
     "level": "Level III",
     "method": "RT",
-    "category": "SPECIFIC",
-    "subject": "Welding Acceptance",
+    "category": "Method",
+    "topic": "Welding Acceptance",
     "question": "The welds that is shown by radiography to have 1/16\" crack is acceptable (Yes or No)?\n방사선 투과사진에서 1/16인치 균열이 보이는 용접부는 합격인가?",
-    "question_kr": "방사선 투과사진에서 1/16인치 균열이 보이는 용접부는 합격인가?",
     "options": [
       "No",
       "",
       "",
       ""
     ],
-    "answer": 0,
-    "explanation": ""
+    "answer": 0
   },
   {
     "id": 20,
     "level": "Level III",
     "method": "RT",
-    "category": "SPECIFIC",
-    "subject": "Radiographic Technique",
+    "category": "Method",
+    "topic": "Radiographic Technique",
     "question": "You have carried out a radiographic test with an X-ray tube at 250 kV. The used front screen of lead has been damaged by a thin scratch of 50 mm length and a depth that penetrates the lead down to the base material. How is this scratch shown on the radiograph?\n250kV X-ray 장비로 RT를 수행했다. 전면 납스크린에 납 두께만큼 손상된 50mm 길이의 스크래치가 있다. 이 스크래치는 방사선 사진상 어떻게 나타나는가?",
-    "question_kr": "250kV X-ray 장비로 RT를 수행했다. 전면 납스크린에 납 두께만큼 손상된 50mm 길이의 스크래치가 있다. 이 스크래치는 방사선 사진상 어떻게 나타나는가?",
     "options": [
       "Dark line\n검은 선",
       "Bright line\n밝은 선",
       "No image of the scratch\n긁힘의 상이 나타나지 않는다",
       "The film may nearly be burned at the surface by the intensive rays.\n강한 방사선에 필름 표면이 거의 타버릴 수 있다"
     ],
-    "answer": 1,
-    "explanation": ""
+    "answer": 1
   },
   {
     "id": 21,
     "level": "Level III",
     "method": "RT",
-    "category": "SPECIFIC",
-    "subject": "X-Ray Equipment RF-300EGS3",
+    "category": "Method",
+    "topic": "X-Ray Equipment RF-300EGS3",
     "question": "For continuous radiography with X-ray Apparatus, RF-300EGS3, repeat the radiography and OFF intervals at a duty cycle of ______ or more.\nX-ray RF-300EGS3 장비로 계속적인 방사선 투과사진 촬영 시 촬영과 휴지시간의 A:B 또는 그 이상 반복해야 하는가?",
-    "question_kr": "X-ray RF-300EGS3 장비로 계속적인 방사선 투과사진 촬영 시 촬영과 휴지시간의 A:B 또는 그 이상 반복해야 하는가?",
     "options": [
       "1 : 1",
       "1 : 2",
       "1 : 3",
       "1 : 4"
     ],
-    "answer": 0,
-    "explanation": ""
+    "answer": 0
   },
   {
     "id": 22,
     "level": "Level III",
     "method": "RT",
-    "category": "SPECIFIC",
-    "subject": "X-Ray Equipment RF-300EGS3",
+    "category": "Method",
+    "topic": "X-Ray Equipment RF-300EGS3",
     "question": "In case shutdown period has exceeded 3 weeks, set the timer for and set the tube voltage setter to 160 KV for aging of the X-Ray Equipment, RF-300EGS3.\n장비를 사용하지 않고 3주를 초과하는 경우 X-Ray RF-300EGS3 장비의 예열을 위해 160KV에서 몇 분을 주어야 하는가?",
-    "question_kr": "장비를 사용하지 않고 3주를 초과하는 경우 X-Ray RF-300EGS3 장비의 예열을 위해 160KV에서 몇 분을 주어야 하는가?",
     "options": [
       "2 Min",
       "5 Min",
       "7 Min",
       "10 Min"
     ],
-    "answer": 3,
-    "explanation": ""
+    "answer": 3
   },
   {
     "id": 23,
     "level": "Level III",
     "method": "RT",
-    "category": "SPECIFIC",
-    "subject": "Film Viewing",
+    "category": "Method",
+    "topic": "Film Viewing",
     "question": "The luminous density of the illuminated film must be at 30 cd/㎡. What luminous density must the viewing equipment have as a minimum in order to allow the perfect evaluation of a film with an optical density of 2?\n필름을 투과한 빛의 휘도가 최소 30cd/㎡가 되어야 한다. 농도 2의 필름을 평가하기 위해 필요한 판독기의 최소 휘도는?",
-    "question_kr": "필름을 투과한 빛의 휘도가 최소 30cd/㎡가 되어야 한다. 농도 2의 필름을 평가하기 위해 필요한 판독기의 최소 휘도는?",
     "options": [
       "300 cd/㎡",
       "3,000 cd/㎡",
       "30,000 cd/㎡",
       "300,000 cd/㎡"
     ],
-    "answer": 1,
-    "explanation": ""
+    "answer": 1
   },
   {
     "id": 24,
     "level": "Level III",
     "method": "RT",
-    "category": "SPECIFIC",
-    "subject": "Film Density",
+    "category": "Method",
+    "topic": "Film Density",
     "question": "A tolerance of in density is allowed for variation between densitometer readings.\n농도계 수치의 편차에 대해 허용되는 오차는 얼마인가?",
-    "question_kr": "농도계 수치의 편차에 대해 허용되는 오차는 얼마인가?",
     "options": [
       "0.03",
       "0.04",
       "0.05",
       "0.01"
     ],
-    "answer": 2,
-    "explanation": ""
+    "answer": 2
   },
   {
     "id": 25,
     "level": "Level III",
     "method": "RT",
-    "category": "SPECIFIC",
-    "subject": "Radiographic Interpretation",
+    "category": "Method",
+    "topic": "Radiographic Interpretation",
     "question": "On a radiograph you see dark linear indications located at the transition between base material and weld cap. Which type of defect could this be?\n투과사진에서 모재와 용접 캡의 경계부에 검은 선형 지시가 보인다. 어떤 결함인가?",
-    "question_kr": "투과사진에서 모재와 용접 캡의 경계부에 검은 선형 지시가 보인다. 어떤 결함인가?",
     "options": [
       "Undercut\n언더컷",
       "Lack of inter-run fusion\n층간 융합불량",
       "Shrinkage groove\n수축 홈",
       "Incomplete root penetration\n루트 용입부족"
     ],
-    "answer": 0,
-    "explanation": ""
+    "answer": 0
   },
   {
     "id": 26,
     "level": "Level III",
     "method": "RT",
-    "category": "SPECIFIC",
-    "subject": "Radiographic Technique",
+    "category": "Method",
+    "topic": "Radiographic Technique",
     "question": "There is no exposure advantage to the use of ______ in. front and back lead screens below 125 KV in the radiograph of 1/4 in. or lesser thickness steel.\n1/4인치 이하 두께의 강재를 125KV 이하에서 촬영할 때 전·후면 납 증감지를 몇 인치 사용하는 것은 노출상 이점이 없는가?",
-    "question_kr": "1/4인치 이하 두께의 강재를 125KV 이하에서 촬영할 때 전·후면 납 증감지를 몇 인치 사용하는 것은 노출상 이점이 없는가?",
     "options": [
       "0.005 inch",
       "",
       "",
       ""
     ],
-    "answer": 0,
-    "explanation": ""
+    "answer": 0
   },
   {
     "id": 27,
     "level": "Level III",
     "method": "RT",
-    "category": "SPECIFIC",
-    "subject": "SNT-TC-1A",
+    "category": "Method",
+    "topic": "SNT-TC-1A",
     "question": "According to SNT-TC-1A, which of the following is not applicable for obtaining Level III qualification?\nSNT-TC-1A에 의거 Level III 자격 취득 시 해당되지 않는 사항은?",
-    "question_kr": "SNT-TC-1A에 의거 Level III 자격 취득 시 해당되지 않는 사항은?",
     "options": [
       "A valid ASNT Level III certificate in the applicable method is required.\n해당 방법의 유효한 ASNT Level III 자격증이 필요하다",
       "Candidates shall pass Basic, Method and Specific examinations.\n응시자는 기초·방법·전문 시험에 합격해야 한다",
       "Candidates shall pass a Vision examination.\n응시자는 시력검사에 합격해야 한다",
       "A valid endorsement on an ASNT NDE Level III certificate fulfills Basic and Method examination requirements.\nASNT NDE Level III 자격증의 유효한 배서는 기초·방법 시험 요구를 충족한다"
     ],
-    "answer": 0,
-    "explanation": ""
+    "answer": 0
   },
   {
     "id": 28,
     "level": "Level III",
     "method": "RT",
-    "category": "SPECIFIC",
-    "subject": "ANSI/ASNT CP-189",
+    "category": "Method",
+    "topic": "ANSI/ASNT CP-189",
     "question": "A vision test on a Level II person is to be performed according to ANSI/ASNT CP-189. Which of the following does not apply?\nANSI/ASNT CP-189에 따른 Level II 인원의 시력검사 요구사항 중 해당되지 않는 것은?",
-    "question_kr": "ANSI/ASNT CP-189에 따른 Level II 인원의 시력검사 요구사항 중 해당되지 않는 것은?",
     "options": [
       "NDT personnel for all methods shall demonstrate ability to differentiate among colors.\n모든 방법의 비파괴검사 요원은 색을 구별할 수 있음을 입증해야 한다",
       "Vision examination shall be administered according to an approved procedure.\n시력검사는 승인된 절차에 따라 시행해야 한다",
       "The near distance vision examination shall be administered annually.\n근거리 시력검사는 매년 시행해야 한다",
       "The near distance vision acuity requirement is to read Number 2 on Jaeger card at not less than 12 inches.\n근거리 시력 요구조건은 최소 12인치 거리에서 Jaeger 카드의 2번을 읽는 것이다"
     ],
-    "answer": 3,
-    "explanation": ""
+    "answer": 3
   },
   {
     "id": 29,
     "level": "Level III",
     "method": "RT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section I PW-51",
+    "category": "Method",
+    "topic": "ASME Section I PW-51",
     "question": "Based on the acceptance standards given in ASME Sec. I PW-51, which of the following would cause the weldment to be rejected?\nASME Sec. I PW-51 판정기준에 따라 불합격인 용접부는?",
-    "question_kr": "ASME Sec. I PW-51 판정기준에 따라 불합격인 용접부는?",
     "options": [
       "Aligned indications aggregate length less than 1/2t in 12t length\n12t 길이 안에서 정렬된 지시의 합계 길이가 1/2t 미만",
       "A slag inclusion 1/5 inch in length in a weldment with thickness 1/2 inch\n두께 1/2인치 용접부의 길이 1/5인치 슬래그 개재물",
       "A slag inclusion 1/2 inch in length in a weldment with thickness 2 inch\n두께 2인치 용접부의 길이 1/2인치 슬래그 개재물",
       "All of the above are rejectable\n위의 모두 불합격이다"
     ],
-    "answer": 2,
-    "explanation": ""
+    "answer": 2
   },
   {
     "id": 30,
     "level": "Level III",
     "method": "RT",
-    "category": "SPECIFIC",
-    "subject": "ASME B31.1",
+    "category": "Method",
+    "topic": "ASME B31.1",
     "question": "Based on the acceptance standards given in ASME B31.1 136.4.5, which of the following would cause the weldment to be accepted?\nASME B31.1 136.4.5 판정기준에 따라 합격인 용접부는?",
-    "question_kr": "ASME B31.1 136.4.5 판정기준에 따라 합격인 용접부는?",
     "options": [
       "A crack 1/4 inch in length in a weldment\n용접부의 길이 1/4인치 균열",
       "Incomplete penetration shorter than 1/4 inch in length\n길이 1/4인치 미만의 용입부족",
       "An elongated indication 1/2 inch in length in a weldment with thickness 3 inch\n두께 3인치 용접부의 길이 1/2인치 가늘고 긴 지시",
       "An elongated indication 2/5 inch in length in a weldment with thickness 1/2 inch\n두께 1/2인치 용접부의 길이 2/5인치 가늘고 긴 지시"
     ],
-    "answer": 2,
-    "explanation": ""
+    "answer": 2
   },
   {
     "id": 31,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "The amount of unsharpness or blurring of a radiograph is:\n방사선사진의 흐림(unsharpness) 정도를 무엇이라 하는가?",
     "options": [
       "directly proportional to the object-to-film distance and inversely proportional\n to the size of the focal spot\n시험체-필름 거리에 비례하고 초점 크기에 반비례한다",
@@ -529,13 +473,14 @@
       "directly proportional to the object-to-film distance and directly proportional\n to the source-to object distance\n시험체-필름 거리에 비례하고 선원-시험체 거리에도 비례한다",
       "inversely proportional to the size of the focal spot and the object-to-film \n distance\n초점 크기와 시험체-필름 거리에 반비례한다"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 32,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "The depth of a discontinuity may be estimated by making two exposures on a single film from two different positions of the x-ray tube. The depth of the discontinuity is computed from the shift in the image of the discontinuity with respect to the tube shift and source-to-film distance. The method is referred to as:\nX선관을 두 위치에 두고 한 장의 필름에 두 번 노출시켜 불연속의 깊이를 추정할 수 있다. 관의 이동량과 선원-필름 거리에 대한 불연속 상의 이동량으로 깊이를 계산한다. 이 방법을 무엇이라 하는가?",
     "options": [
       "stereo-radiography\n입체 방사선촬영",
@@ -544,13 +489,14 @@
       "the parallax method\n시차법",
       "none of the above\n위의 어느 것도 아님"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 33,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "Which of the following items affect subject contrast?\n다음 중 피사체대비에 영향을 주는 것은?",
     "options": [
       "thickness differences in specimen\n시험체의 두께 차이",
@@ -564,13 +510,14 @@
       0,
       1,
       3
-    ],
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    ]
   },
   {
     "id": 34,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "Radiation is absorbed according to which of the following nuclear concepts.\n방사선은 다음 중 어떤 원자핵 개념에 따라 흡수되는가?",
     "options": [
       "Compton effect\n컴프턴 효과",
@@ -584,13 +531,14 @@
       0,
       2,
       3
-    ],
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    ]
   },
   {
     "id": 35,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "An unshielded 15 curie radioisotope source is being used 20 feet from a barrier warning against unauthorized entry. The source intensity is 5.9 r/hr/c at 1 ft. What dose rate could be received by personnel at the barrier?\n차폐되지 않은 15퀴리 방사성동위원소 선원을 무단출입 경고 방벽에서 20피트 떨어져 사용하고 있다. 선원 강도는 1피트에서 5.9 R/hr/Ci이다. 방벽에 있는 인원이 받을 수 있는 선량률은?",
     "options": [
       "88.5 mR/hr",
@@ -598,13 +546,14 @@
       "442 mR/hr",
       "4,425 mR/hr"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 36,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "For an x-ray machine, increasing the KV causes:\nX선 장치에서 관전압(KV)을 높이면 어떻게 되는가?",
     "options": [
       "longer wavelength, less penetrating radiation to be generated\n파장이 길고 투과력이 약한 방사선이 발생한다",
@@ -612,13 +561,14 @@
       "shorter wavelength, less penetrating radiation to be generated\n파장이 짧고 투과력이 약한 방사선이 발생한다",
       "shorter wavelength, more penetrating radiation to be generated\n파장이 짧고 투과력이 강한 방사선이 발생한다"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 37,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "Lead foil in direct contact with the film for exposures over 120 KV has which of the following significant effects:\n120KV를 넘는 촬영에서 필름에 직접 밀착시킨 납박(lead foil)의 중요한 효과는?",
     "options": [
       "increases exposure time\n노출시간을 늘린다",
@@ -633,13 +583,14 @@
       2,
       4
     ],
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP",
     "image": "RT_LEVEL3_M_Q7.jpg"
   },
   {
     "id": 38,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "Diffraction is most likely to occur:\n회절(diffraction)이 가장 잘 일어나는 경우는?",
     "options": [
       "with thick, fine grained specimens\n두껍고 결정립이 미세한 시험체에서",
@@ -647,13 +598,14 @@
       "with thin, coarse grained specimens\n얇고 결정립이 조대한 시험체에서",
       "with thick, coarse grained specimens\n두껍고 결정립이 조대한 시험체에서"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 39,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "Up to a reasonable limit, increasing the density of a radiograph:\n적정 한도 내에서 방사선사진의 농도를 높이면 어떻게 되는가?",
     "options": [
       "improves contrast\n대비를 높인다",
@@ -661,13 +613,14 @@
       "improves sharpness\n선명도를 높인다",
       "reduces sharpness\n선명도를 떨어뜨린다"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 40,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "Radiographic sensitivity is defined as:\n방사선투과 감도(radiographic sensitivity)의 정의는?",
     "options": [
       "the ratio of variations in density\n농도 변화의 비",
@@ -675,13 +628,14 @@
       "the range of thickness of material that can be recorded on the radiograph \n within the useful reading range of film density\n필름농도의 판독 가능 범위 안에 기록할 수 있는 재료 두께의 범위",
       "the size of the smallest detail which can be seen on the radiograph\n방사선사진에서 볼 수 있는 가장 작은 세부의 크기"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 41,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "To which of the following does the term “reference radiographs”apply?\n'대비 방사선사진(reference radiographs)'이라는 용어는 다음 중 어디에 해당하는가?",
     "options": [
       "Radiographs used to show the position of each radiographic view\n각 촬영 방향의 위치를 보여주는 데 쓰는 방사선사진",
@@ -689,13 +643,14 @@
       "File copies of duplicate radiographs made at the customer's request\n고객 요청으로 만든 복제 사진의 보관본",
       "File copies of radiographs of your employer's products\n사업주 제품 사진의 보관본"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 42,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "Target materials for x-ray tubes must possess which of the following properties?\nX선관의 타겟 재료가 갖춰야 할 성질은?",
     "options": [
       "high melting point\n높은 융점",
@@ -708,13 +663,14 @@
       0,
       2,
       3
-    ],
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    ]
   },
   {
     "id": 43,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "A radiograph having wide latitude also has, by definition:\n관용도(latitude)가 넓은 방사선사진은 정의상 어떠한가?",
     "options": [
       "poor definition\n낮은 명료도",
@@ -723,13 +679,14 @@
       "good sensitivity\n좋은 감도",
       "none of the above\n위의 어느 것도 아님"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 44,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "Radiation striking a radiographic film causes:\n방사선이 방사선 필름에 부딪히면 무엇이 일어나는가?",
     "options": [
       "an electrostatic charge in the emulsion\n유제 안의 정전기",
@@ -737,13 +694,14 @@
       "a change in the silver bromide emulsion\n브롬화은 유제의 변화",
       "an increase in contrast\n대비의 증가"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 45,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "The sharpness of the transition between different densities on the radiograph is know as:\n방사선사진에서 서로 다른 농도 사이의 경계가 얼마나 뚜렷한가를 무엇이라 하는가?",
     "options": [
       "radiographic contrast\n방사선사진 대비",
@@ -751,13 +709,14 @@
       "radiographic resolution\n방사선사진 분해능",
       "latitude\n관용도"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 46,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "Which of the following items will reduce radiographic contrast?\n다음 중 방사선사진 대비를 낮추는 것은?",
     "options": [
       "Increase the distance between the object and the radiation source\n시험체와 선원 사이 거리를 늘린다",
@@ -765,13 +724,14 @@
       "Decrease the wavelength of the radiation\n방사선의 파장을 짧게 한다",
       "Use a slower film\n감도가 느린 필름을 쓴다"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 47,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "Sharp, black, bird-foot like tracks appear at random on the radiograph. The most probable cause is:\n방사선사진에 날카롭고 검은 새발자국 모양의 자국이 불규칙하게 나타났다. 가장 유력한 원인은?",
     "options": [
       "Prolonged development in old developer\n오래된 현상액에서 장시간 현상",
@@ -779,13 +739,14 @@
       "static charges caused by friction of the film with other objects\n필름이 다른 물체와 마찰해 생긴 정전기",
       "inadequate rinsing after fixing\n정착 후 수세 부족"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 48,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "The intensity of x-or gamma radiation is measured in units called:\nX선이나 감마선의 강도는 어떤 단위로 측정하는가?",
     "options": [
       "roentgens\n뢴트겐",
@@ -793,13 +754,14 @@
       "H & D units\nH & D 단위",
       "roentgens per unit of time\n단위시간당 뢴트겐"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 49,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "In comparison with lower voltage radiographs, high voltage radiographs show:\n낮은 관전압으로 찍은 사진과 비교할 때, 높은 관전압으로 찍은 사진은 어떠한가?",
     "options": [
       "greater latitude\n더 넓은 관용도",
@@ -807,13 +769,14 @@
       "greater amounts of scattered radiation relative to primary beam intensity\n1차 빔 강도에 비해 더 많은 산란선",
       "none of the above\n위의 어느 것도 아님"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 50,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "Filters used at the port of the x-ray tube:\nX선관 조사구에 사용하는 필터의 역할은?",
     "options": [
       "intensify the x-ray tube beam by contributing secondary radiation intensity\n2차 방사선을 더해 X선관 빔을 세게 한다",
@@ -821,13 +784,14 @@
       "filter out short wavelength radiation to provide “softer” radiation\n짧은 파장을 걸러 더 연질인 방사선을 만든다",
       "provide the most readily adjusted means of modifying x-ray intensity\nX선 강도를 조절하는 가장 손쉬운 수단이 된다"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 51,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "In making an isotope exposure in an unshielded area, you find the dose rate at 6\" distance is 1200Mr/hr. What would be the dose rate at 20\"?\n차폐되지 않은 구역에서 동위원소 촬영을 할 때 6인치 거리의 선량률이 1,200 mR/hr였다. 20인치에서의 선량률은?",
     "options": [
       "108 mR/hr",
@@ -835,13 +799,14 @@
       "3,600 mR/hr",
       "13,333 mR/hr"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 52,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "If an exposure time of 60 seconds was necessary with a 4\"SFD, what exposure time is necessary if the SFD is changed to 5\"?\nSFD 4인치에서 노출시간 60초가 필요했다면, SFD를 5인치로 바꿨을 때 필요한 노출시간은?",
     "options": [
       "38 sec\n38초",
@@ -849,13 +814,14 @@
       "1 min 15 sec\n1분 15초",
       "1 min 34 sec\n1분 34초"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 53,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "Two film of the same type are often used in the same cassette to:\n같은 종류의 필름 두 장을 한 카세트에 함께 넣어 쓰는 이유는?",
     "options": [
       "increase the cost of radiography\n촬영 비용을 올린다",
@@ -863,13 +829,14 @@
       "provide an extra film to establish the developing time necessary to obtain an\n acceptable density\n적정 농도를 얻는 데 필요한 현상시간을 정하기 위한 여분 필름을 둔다",
       "compare and verify indications or for reading superimposed film.\n지시를 대조·확인하거나 필름을 겹쳐 판독하기 위해"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 54,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "The specific activity of a radioactive source is:\n방사성 선원의 비방사능(specific activity)이란 무엇인가?",
     "options": [
       "the number of curies-per-gram of a source\n선원의 그램당 퀴리 수",
@@ -877,13 +844,14 @@
       "the amount of usage of a source\n선원의 사용량",
       "the ratio of the number of curies to the physical size of source\n선원의 퀴리 수와 물리적 크기의 비"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 55,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "A radiograph, showing poor sensitivity, is to be retaken. Which of the following would improve the sensitivity?\n감도가 나쁜 방사선사진을 다시 찍으려 한다. 감도를 높이는 방법은?",
     "options": [
       "Reduce the source-to-film distance\n선원-필름 거리를 줄인다",
@@ -896,13 +864,14 @@
       1,
       2,
       4
-    ],
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    ]
   },
   {
     "id": 56,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "The penetrating ability of an x-ray beam is governed by:\nX선 빔의 투과력을 좌우하는 것은?",
     "options": [
       "kilovoltage or wavelength\n관전압 또는 파장",
@@ -910,13 +879,14 @@
       "milliampere\n밀리암페어",
       "source-to-film distance\n선원-필름 거리"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 57,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "Latitude is affected by which of the following items?\n관용도에 영향을 주는 것은?",
     "options": [
       "The type of film used\n사용한 필름의 종류",
@@ -928,13 +898,14 @@
     "answer": [
       0,
       2
-    ],
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    ]
   },
   {
     "id": 58,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "Shrinkage in a casting is not likely to occur:\n주조품의 수축공이 잘 생기지 않는 곳은?",
     "options": [
       "in the center of thick sections\n두꺼운 부분의 중앙에",
@@ -942,13 +913,14 @@
       "within a distance, equal to the thickness, from the end of the casting\n주조품 끝에서 두께만큼 떨어진 거리 안에",
       "in sections of uniform thickness\n두께가 일정한 부위에"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 59,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "A step wedge consisting of 2 steps is exposed to gamma radiation. The first step is equal to 3 half-value layers and the second step is equal to 4 half-value layers. What is the ratio of the radiation intensity emerging from the two steps?\n2단으로 된 계단시험편에 감마선을 조사한다. 첫 단은 반가층 3개, 둘째 단은 반가층 4개에 해당한다. 두 단을 투과해 나오는 방사선 강도의 비는?",
     "options": [
       "1 : 1",
@@ -956,13 +928,14 @@
       "4 : 1",
       "8 : 1"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 60,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "In order to produce x-rays, a system must have which of the following as a minimum?\nX선을 발생시키려면 최소한 어떤 것들이 있어야 하는가?",
     "options": [
       "a beryllium window\n베릴륨 창",
@@ -975,13 +948,14 @@
       1,
       2,
       3
-    ],
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    ]
   },
   {
     "id": 61,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "A source that has 40x1010 disintegrations per second would be a:\n초당 40×10¹⁰회 붕괴하는 선원은 얼마인가?",
     "options": [
       "5.8 curie source\n5.8퀴리 선원",
@@ -989,13 +963,14 @@
       "15.8 curie source\n15.8퀴리 선원",
       "20.7 curie source\n20.7퀴리 선원"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 62,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "If a specification requires 2-2T sensitivity, what thickness of penetrameter is needed to radiograph a 41/2\" thick weld?\n시방서가 2-2T 감도를 요구할 때, 두께 4½인치 용접부를 촬영하는 데 필요한 투과도계 두께는?",
     "options": [
       "0.045 in.",
@@ -1003,13 +978,14 @@
       "0.18 in.",
       "0.225 in."
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 63,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "Slag inclusions occur:\n슬래그 개재물은 어디에서 생기는가?",
     "options": [
       "only in the root pass\n루트 패스에만",
@@ -1017,13 +993,14 @@
       "anywhere in the weld\n용접부 어디든",
       "between the root pass and hot pass\n루트 패스와 핫 패스 사이에"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 64,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "Hot tears occur in:\n고온균열(hot tear)은 어디에서 생기는가?",
     "options": [
       "castings",
@@ -1031,13 +1008,14 @@
       "welds",
       "extrusions"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 65,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "Sand inclusions in castings appear as:\n주조품의 모래 개재물은 어떻게 나타나는가?",
     "options": [
       "dark, smoothly outlined areas\n윤곽이 매끄러운 검은 부위",
@@ -1045,13 +1023,14 @@
       "irregularly shaped areas that are usually not as dark as gas holes\n보통 기공만큼 어둡지는 않은 불규칙한 모양의 부위",
       "dark, lacy network of lines\n레이스처럼 얽힌 검은 선 무늬"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 66,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "An acceptable exposure, using Iridium 192, is obtained on a given test object today with an exposure time of 20 minutes. Five month from now, what exposure time would be required to achieve the same radiographic density under similar conditions using the same source?\nIridium 192를 사용해 오늘 어떤 시험체에 노출시간 20분으로 적절한 촬영을 얻었다. 같은 선원으로 유사한 조건에서 5개월 후 같은 사진농도를 얻으려면 얼마의 노출시간이 필요한가?",
     "options": [
       "40 min",
@@ -1059,13 +1038,14 @@
       "2 hr 40 min",
       "5 hr 20 min"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 67,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "The energy of gamma rays is expressed by which of the following:\n감마선의 에너지는 무엇으로 표시하는가?",
     "options": [
       "curie\n퀴리",
@@ -1073,13 +1053,14 @@
       "half-life\n반감기",
       "kilo-electron volts (KV) or millions or electron volts (mev)\n킬로전자볼트(keV) 또는 메가전자볼트(MeV)"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 68,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "In order to increase the range of thicknesses that may be radiographed, at reasonable viewing densities, simultaneously:\n적정 판독농도를 유지하면서 한 번에 촬영할 수 있는 두께 범위를 넓히려면 어떻게 해야 하는가?",
     "options": [
       "a fluorescent screen should be employed\n형광 증감지를 써야 한다",
@@ -1087,13 +1068,14 @@
       "the cassette may be loaded with two film each of different speeds\n카세트에 감도가 다른 필름 두 장을 넣을 수 있다",
       "none of the above are practical\n위의 어느 것도 실용적이지 않다"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 69,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "When viewing a radiograph, an image of the back of the cassette superimposed on the image of the specimen is noted. This is most likely due to:\n방사선사진을 판독할 때 시험체 상에 카세트 뒷면의 상이 겹쳐 보였다. 가장 유력한 원인은?",
     "options": [
       "undercut\n언더컷",
@@ -1101,13 +1083,14 @@
       "x-ray intensity too high\nX선 강도가 너무 높음",
       "back scatter\n후방산란"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 70,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "A casting is designed so that some portions are highly stressed while other areas are stressed relatively low. When establishing acceptance criteria, one should consider:\n어떤 주조품은 응력이 크게 걸리는 부위와 상대적으로 작게 걸리는 부위가 함께 있도록 설계된다. 합격기준을 정할 때 무엇을 고려해야 하는가?",
     "options": [
       "one quality level for the entire casting\n주조품 전체에 하나의 상질 적용",
@@ -1115,13 +1098,14 @@
       "zoning the drawing and using different quality levels\n도면을 구역으로 나누어 상질을 달리 적용",
       "recommending redesign\n재설계를 권고"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 71,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "Radiographic film that are left between lead screens too long in a high temperature and a high humidity atmosphere may:\n고온다습한 환경에서 납 증감지 사이에 너무 오래 둔 방사선 필름은 어떻게 될 수 있는가?",
     "options": [
       "show increased speed but decreased quality characteristics\n감도는 빨라지지만 화질은 떨어진다",
@@ -1129,13 +1113,14 @@
       "become matted\n엉겨붙는다",
       "show tree-shaped light areas in the finished radiograph\n완성된 사진에 나뭇가지 모양의 밝은 부위가 나타난다"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 72,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "Given the radiographic equivalency factors of 1.4 for Inconel and 1.0 for 304 stainless steel, what is the approximate equivalent thickness of Inconel to produce the same exposure as a 0.5inch thickness of 304 stainless steel?\n방사선 등가계수가 인코넬 1.4, 304 스테인리스강 1.0일 때, 304 스테인리스강 0.5인치와 같은 노출을 내는 인코넬의 대략적인 등가 두께는?",
     "options": [
       "0.50 inch",
@@ -1143,13 +1128,14 @@
       "0.36 inch",
       "1.40 inch"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 73,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "The velocity of electrons striking the target in an x-ray tube is a function of:\nX선관에서 타겟에 부딪히는 전자의 속도는 무엇에 좌우되는가?",
     "options": [
       "the atomic number of the cathode material\n음극 재료의 원자번호",
@@ -1157,13 +1143,14 @@
       "the voltage difference between the cathode and anode\n음극과 양극 사이의 전압 차",
       "the current flow in the rectifier circuit\n정류 회로의 전류"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 74,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "A good cobalt shot is made on a 3\" steel casting using an exposure time of 10 minutes and a source-to-film distance of 36 inches. If it is necessary to change the source- to-film distance to 24 inches, what exposure time would produce a similar radiograph if all other conditions remain constant?\n두께 3인치 강 주조품을 노출시간 10분, 선원-필름 거리 36인치로 코발트 촬영해 양호한 결과를 얻었다. 다른 조건이 같을 때 선원-필름 거리를 24인치로 바꾸면 유사한 사진을 얻는 데 필요한 노출시간은?",
     "options": [
       "4.4 min",
@@ -1171,13 +1158,14 @@
       "15 min",
       "22.5 min"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 75,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "A procedure requires a quality level of 4-4T and the use of penetrameters based on ASTM E142 design. What shape of penetrameter would be used on a 41/2inch thick specimen?\n절차서가 4-4T 품질수준과 ASTM E142 설계 투과도계 사용을 요구한다. 두께 4½인치 시험체에는 어떤 형상의 투과도계를 사용해야 하는가?",
     "options": [
       "Circular\n축통전(원형 자화)",
@@ -1185,13 +1173,14 @@
       "Wire type\n선형(wire type)",
       "Step type\n계단형(step type)"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 76,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "Specify weld in which indications are characterized as slag inclusion shall be unacceptable when material wall thickness is 0.250\" based on ASME Sec. I\nASME Sec. I 기준으로, 재료 두께가 0.250인치일 때 슬래그 개재물로 판정된 지시가 불합격이 되는 길이는?",
     "options": [
       "Over 1/8 in.",
@@ -1199,49 +1188,53 @@
       "Over 1/4 in.",
       "Over 3/8 in."
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 77,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "(ASME Sec.I) - There is a single rounded indication of porosity that is one-sixteenth (1/16) inch in diameter. The weld is acceptable.\n(ASME Sec. I) 지름 1/16인치인 원형 기공 지시가 하나 있다. 이 용접부는 합격이다.",
     "options": [
       "True",
       "False"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 78,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "(ASME Section Ⅲ-NB) - There is a single rounded indication of porosity that is one-sixteenth (1/16) inch in diameter. The weld is acceptable.\n(ASME Section Ⅲ-NB) 지름 1/16인치인 원형 기공 지시가 하나 있다. 이 용접부는 합격이다.",
     "options": [
       "True",
       "False"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 79,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "(ANSI B31.1) - There is a single rounded indication of porosity that is one- sixteenth (1/16) inch in diameter. The weld is acceptable.\n(ANSI B31.1) 지름 1/16인치인 원형 기공 지시가 하나 있다. 이 용접부는 합격이다.",
     "options": [
       "True",
       "False"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 80,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "(API-1104) - The maximum acceptable length of elongated slag (single indication) is_________inches\n(API-1104) 가늘고 긴 슬래그(단일 지시)의 허용 최대 길이는 몇 인치인가?",
     "options": [
       "1/2",
@@ -1249,13 +1242,14 @@
       "2",
       "3"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 81,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "(ASME Section Ⅲ-NB) - The maximum acceptable length of elongated slag (single indication) is_________inches\n(ASME Section Ⅲ-NB) 가늘고 긴 슬래그(단일 지시)의 허용 최대 길이는 몇 인치인가?",
     "options": [
       "0.13",
@@ -1263,109 +1257,118 @@
       "0.38",
       "0.50"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 82,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "(API-1104) - The radiographs show the following sequence of single indications and sound weld metal. Elongated slag inclusion two(2) inches long, 10inches sound weld metal, incomplete fusion due to cold lap one(1) inch long, 10inches sound weld metal and elongated slag inclusion three-sixteenths (3/16) inch long. The remainder of the weld is sound. The weld is:\n(API-1104) 방사선사진에 단일 지시와 건전한 용접금속이 다음 순서로 나타났다. 길이 2인치 가늘고 긴 슬래그 개재물, 건전부 10인치, 콜드랩에 의한 융합불량 1인치, 건전부 10인치, 길이 3/16인치 가늘고 긴 슬래그 개재물. 나머지는 모두 건전하다. 이 용접부는?",
     "options": [
       "Acceptable",
       "Unacceptable"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 83,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "(ASME Section Ⅲ-ND-5321) - The radiographs show the following sequence of single indications and sound weld metal. Elongated slag inclusion one-quarter(1/4) inch long, nine and one-half(91/2)inches of sound weld metal and a gas pocket one-quarter (1/4)inch in diameter. The remainder of the weld is sound. The weld is:\n(ASME Section Ⅲ-ND-5321) 방사선사진에 단일 지시와 건전한 용접금속이 다음 순서로 나타났다. 길이 1/4인치 가늘고 긴 슬래그 개재물, 건전부 9½인치, 지름 1/4인치 기공. 나머지는 모두 건전하다. 이 용접부는?",
     "options": [
       "Acceptable",
       "Unacceptable"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 84,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "(ASME Section Ⅷ-UW51) - The radiographs show two(2) indications of slag, each one-quarter (1/4) inch long, and separated by 1.5 inches of sound weld metal. The weld is:\n(ASME Section Ⅷ-UW51) 방사선사진에 각각 길이 1/4인치인 슬래그 지시 2개가 건전한 용접금속 1.5인치를 사이에 두고 나타났다. 이 용접부는?",
     "options": [
       "Acceptable",
       "Unacceptable"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 85,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "(ASME Section Ⅲ-NG) - The radiographs show the following sequence of single indications and sound weld metal. One-quarter(1/4) inch of slag, 10inches of sound weld metal, one-quarter(1/4)inch of slag, 10inches of sound weld metal, and onequarter(1/4)inch of slag. The weld is:\n(ASME Section Ⅲ-NG) 방사선사진에 단일 지시와 건전한 용접금속이 다음 순서로 나타났다. 슬래그 1/4인치, 건전부 10인치, 슬래그 1/4인치, 건전부 10인치, 슬래그 1/4인치. 이 용접부는?",
     "options": [
       "Acceptable",
       "Unacceptable"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 86,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "(ASME Section Ⅲ-NB) - There is a single indication of incomplete fusion one- sixteenth(1/16) inch long. The weld is:\n(ASME Section Ⅲ-NB) 길이 1/16인치인 융합불량 지시가 하나 있다. 이 용접부는?",
     "options": [
       "Acceptable",
       "Unacceptable"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 87,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "(ASME Section V) - The use of fluorescent intensifying screens is prohibited.\n(ASME Section V) 형광 증감지의 사용은 금지되어 있다.",
     "options": [
       "True",
       "False"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 88,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "(ANSI B31.1) - When a girth weld performing radiography, it shall be done in accordance with Article 2 of Section V of ASME.\n(ANSI B31.1) 원주 용접부를 방사선투과검사할 때는 ASME Section V의 Article 2에 따라야 한다.",
     "options": [
       "True",
       "False"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 89,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "(API-1104) - When reporting the results of radiographic interpretation, all discontinuities observed must be reported.\n(API-1104) 방사선투과 판독 결과를 보고할 때는 관찰된 모든 불연속을 보고해야 한다.",
     "options": [
       "True",
       "False"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 90,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "(API-1104) - A 24 inch O. D. pipe butt weld is radiographed by the double wall exposure, single wall viewing technique using an x-ray machine. When positioned for the exposure, the focal spot of the x-ray tube is three(3) inches above the surface of the pipe. The maximum diagnostic film length (length of acceptable radiograph) is_______inches.\n(API-1104) 외경 24인치 배관 맞대기 용접부를 X선 장치로 이중벽 투과 단일벽 관찰법으로 촬영한다. 촬영 위치에서 X선관의 초점은 배관 표면 위 3인치에 있다. 최대 유효 필름 길이(합격 가능한 방사선사진의 길이)는 몇 인치인가?",
     "options": [
       "12.6",
@@ -1373,13 +1376,14 @@
       "23.1",
       "31.4"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 91,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "(ASME Section V) - A steel weld one-half (1/2)inch thick is to be x-rayed. What is the maximum allowable KV (approximately)?\n(ASME Section V) 두께 ½인치 강 용접부를 X선 촬영하려 한다. 허용되는 최대 관전압(개략값)은?",
     "options": [
       "150 kV",
@@ -1387,61 +1391,66 @@
       "400 kV",
       "1,000 kV"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 92,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "(ASME Section V) - When shims are used under penetrameters, the shim material need not be exactly the same as the material being radiographed. It only needs to be radiographically similar.\n(ASME Section V) 투과도계 아래에 심(shim)을 쓸 때, 심 재료가 촬영 대상 재료와 정확히 같을 필요는 없고 방사선적으로 유사하기만 하면 된다.",
     "options": [
       "True",
       "False"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 93,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "Carbon steel and stainless steel are radiographically similar.\n탄소강과 스테인리스강은 방사선적으로 유사하다.",
     "options": [
       "True",
       "False"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 94,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "(ASME Section V) - Film identification, other than location markers, can be accomplished by using flashers or writing the numbers on with an indelible ink. Lead numbers need not be used during the exposure to accomplish identification.\n(ASME Section V) 위치 표시자를 제외한 필름 식별은 플래셔를 쓰거나 지워지지 않는 잉크로 번호를 적어 할 수 있다. 식별을 위해 촬영 중에 납 숫자를 쓸 필요는 없다.",
     "options": [
       "True",
       "False"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 95,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "(ASME Section Ⅷ-Div.2) - The radiograph shows two(2) indications of slag, each one-quarter (1/4) inch long, and separated by 1.5 inches, in 2 inch thickness of sound weld metal. The weld is:\n(ASME Section Ⅷ-Div.2) 방사선사진에 각각 길이 1/4인치인 슬래그 지시 2개가 1.5인치 간격으로, 두께 2인치의 건전한 용접금속에 나타났다. 이 용접부는?",
     "options": [
       "Acceptable",
       "Unacceptable"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 96,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "(ASME Section Ⅷ-Div.1) - When radiographic examination has been performed on a vessel in accordance with UW-11 and the complete vessel satisfies the spot radiography requirements of UW-11(b), marking _______ shall be applied.\n(ASME Section Ⅷ-Div.1) UW-11에 따라 용기를 방사선투과검사했고 용기 전체가 UW-11(b)의 부분촬영 요구사항을 만족한다면 어떤 표시를 해야 하는가?",
     "options": [
       "RT 1",
@@ -1449,13 +1458,14 @@
       "RT 3",
       "RT 4"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 97,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "(ASME Section Ⅷ-Div.1) - When radiographic examination has been performed on a vessel in accordance with UW-11 and only part of the complete vessel has satisfied the radiographic requirements of UW-11(a), marking _______ shall be applied.\n(ASME Section Ⅷ-Div.1) UW-11에 따라 용기를 방사선투과검사했으나 용기의 일부만 UW-11(a)의 요구사항을 만족한다면 어떤 표시를 해야 하는가?",
     "options": [
       "RT 1",
@@ -1463,13 +1473,14 @@
       "RT 3",
       "RT 4"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 98,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "(ASME Section Ⅷ-Div.1) - Welded joint category ___ is welded joints connecting communicating chambers or nozzles to main shells, to spheres, to transitions in diameter, to heads, or to flat-sided vessels.\n(ASME Section Ⅷ-Div.1) 연결실이나 노즐을 동체, 구형체, 지름 변환부, 경판 또는 평면 용기에 잇는 용접이음은 어느 범주(category)인가?",
     "options": [
       "Category A",
@@ -1477,73 +1488,79 @@
       "Category C",
       "Category D"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 99,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "(ASME Section Ⅷ-Div.1) - When all butt welds in the shell and heads of vessels used to contain lethal substances should be examined radiographicall, they shall be radiographed for their full length in the manner prescribed in UW-51\n(ASME Section Ⅷ-Div.1) 치명적 물질을 담는 용기의 동체와 경판에 있는 모든 맞대기 용접부를 방사선투과검사해야 할 때는, UW-51에 규정된 방법으로 전 길이를 촬영해야 한다.",
     "options": [
       "True",
       "False"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 100,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "(ASME Section Ⅷ-Div.1) - The radiograph shows the aligned rounded indications that the summation of the diameters of the indications is 11 mm in a length of 130 mm, in 12 mm thickness of weld metal. The weld is:\n(ASME Section Ⅷ-Div.1) 두께 12mm 용접금속에서 길이 130mm 구간에 정렬된 원형 지시들의 지름 합이 11mm로 나타났다. 이 용접부는?",
     "options": [
       "Acceptable",
       "Unacceptable"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 101,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "(ASME Section Ⅷ-Div.1) - The radiograph shows the lack of side wall fusion indications of the 12 mm length in 25 mm thickness of weld metal. The weld is:\n(ASME Section Ⅷ-Div.1) 두께 25mm 용접금속에서 길이 12mm의 측벽 융합불량 지시가 나타났다. 이 용접부는?",
     "options": [
       "Acceptable",
       "Unacceptable"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 102,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "(ASME Section Ⅷ-Div.1) - The rewelded joint, or the weld repaired ares, shall be full radiographically examined at one location in accordance with the foregoing requirements of UW-52.\n(ASME Section Ⅷ-Div.1) 재용접한 이음부 또는 보수용접한 부위는 UW-52의 앞선 요구사항에 따라 한 곳에서 전체 방사선투과검사를 해야 한다.",
     "options": [
       "True",
       "False"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 103,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "(ASME Section Ⅷ-Div.2) - The radiograph shows the three clustered indications that the sum of length lengths of them is 35 mm in 140 mm length weld on 30 mm thickness of weld metal. The weld is:\n(ASME Section Ⅷ-Div.2) 두께 30mm 용접금속의 길이 140mm 용접부에서 군집 지시 3개가 나타났고 그 길이의 합은 35mm이다. 이 용접부는?",
     "options": [
       "Acceptable",
       "Unacceptable"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 104,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
     "question": "(ASME Section Ⅷ-Div.2) - For circumferential joints in the pipe that has 12 mm thickness, how much is the maximum reinforcement thickness ?\n(ASME Section Ⅷ-Div.2) 두께 12mm 배관의 원주 이음부에서 최대 덧살 두께는 얼마인가?",
     "options": [
       "1.5 mm",
@@ -1551,9 +1568,6 @@
       "3 mm",
       "4 mm"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "RT",
-    "source": "RTM-III.HWP"
+    "answer": 2
   }
 ]

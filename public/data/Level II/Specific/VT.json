@@ -90,7 +90,7 @@
       "procedure used to perform examination\n절차서대로 시험을 수행한다",
       "equipment used during the examination\n장비는 시험하는 동안 사용된다",
       "examiner's name and level of certification\n검사관의 이름과 인증서의 레벨",
-      "all of the above would be noted on the report (위의 모든 사항이 기록지에 포함된다)"
+      "all of the above would be noted on the report\n위의 모든 사항이 기록지에 포함된다"
     ],
     "answer": 3,
     "groupNote": "* Question pertain to requirement in B & PV Code. Sect V. 2023 Edition.\n(다음 문제는 ASME B & PV Code Sec.Ⅴ 2023 Edition 의 요구사항에 따라 답하시오.)"
@@ -105,8 +105,8 @@
     "options": [
       "the image guide is a coherent bundle\n상지침은 간섭다발로 되어있다.",
       "the light guide is a coherent bundle\n빛의 지침은 간섭다발로 되어있다.",
-      "a diopter is used to adjust difference in eyesight \n (디옵터는 시력차이를 바로잡아준다.)",
-      "the fibers are generally about 30 microns each in diameter\n (섬유는 일반적으로 각 직경내에서 30마이크론을 갖는다.)"
+      "a diopter is used to adjust difference in eyesight\n디옵터는 시력차이를 바로잡아준다.",
+      "the fibers are generally about 30 microns each in diameter\n섬유는 일반적으로 각 직경내에서 30마이크론을 갖는다."
     ],
     "answer": 1,
     "groupNote": "* Questions pertain to visual examination equipment.\n(다음 문제는 육안검사 장비에 관한 것이다.)"
@@ -170,7 +170,7 @@
       "direct\n직접",
       "remote\n원격",
       "nothing in the above\n정답 없음",
-      "all of the above(위 모두)"
+      "all of the above\n위 모두"
     ],
     "answer": 3,
     "groupNote": "* Questions pertain to visual examination equipment.\n(다음 문제는 육안검사 장비에 관한 것이다.)"
@@ -183,10 +183,10 @@
     "source": "VTS-II(2020)(A)",
     "question": "The control and administration of NDT personnel training, examination and certification.:\nNDT 개인훈련, 시험, 인증서의 관리와 체계는",
     "options": [
-      "shall reflect the guidelines set forth in SNT-TC-1A, para.1 scope.\n (SNT-TC-1A 에서는 앞으로의 지침을 반영한다.)",
-      "shall be prepared by quality control management\n (자격 규제에 대해 준비가 되어 있다.)",
-      "shall be reproduced verbatim from SNT-TC-1A.\n (SNT-TC-1A 으로부터 재현된다.)",
-      "shall be submitted to ASNT for approval.\n (승인을 받기 위해서 ASNT에 제출되어야 한다.)"
+      "shall reflect the guidelines set forth in SNT-TC-1A, para.1 scope.\nSNT-TC-1A 에서는 앞으로의 지침을 반영한다.",
+      "shall be prepared by quality control management\n자격 규제에 대해 준비가 되어 있다.",
+      "shall be reproduced verbatim from SNT-TC-1A.\nSNT-TC-1A 으로부터 재현된다.",
+      "shall be submitted to ASNT for approval.\n승인을 받기 위해서 ASNT에 제출되어야 한다."
     ],
     "answer": 3,
     "groupNote": "* Questions pertain to HIE-QP-E01.\n(다음 문제는 HIE 비파괴시험요원 자격인정 절차서[HIE-QP-E01]에 관한 것이다.)"
@@ -216,9 +216,9 @@
     "question": "All certification shall be automatically terminated:\n모든 인증서는 언제 자동적으로 끝나는가?",
     "options": [
       "at the end of five years\n유효기간은 5년이다",
-      "when the employee becomes qualified and certified in a new NDT method\n (피고용인은 NDT 새로운 방식으로 자격검, 인증된다.)",
-      "if an employee has not worked in the method for which certified within the past six months\n (만약, 피고용인이 과거에 6개월동안 일을 하지 않했다면)",
-      "when an employee leaves the employee where he had been certified\n (피고용인이 인증받았던 곳을 떠나면)"
+      "when the employee becomes qualified and certified in a new NDT method\n피고용인은 NDT 새로운 방식으로 자격검, 인증된다.",
+      "if an employee has not worked in the method for which certified within the past six months\n만약, 피고용인이 과거에 6개월동안 일을 하지 않했다면",
+      "when an employee leaves the employee where he had been certified\n피고용인이 인증받았던 곳을 떠나면"
     ],
     "answer": 3,
     "groupNote": "* Questions pertain to HIE-QP-E01.\n(다음 문제는 HIE 비파괴시험요원 자격인정 절차서[HIE-QP-E01]에 관한 것이다.)"
@@ -277,10 +277,10 @@
     "source": "VTS-II(2020)(A)",
     "question": "Which of the following is wrong requirement of ASME Sec.III.NF-5210 class 1 support welds?\n다음 ASME Sec.III.NF-5210 class 1 support welds에 대한 요건 중 틀린것은 어떤 것인가?",
     "options": [
-      "All full penetration butt welded joints in primary members shall be examined by radiographic method.\n (1차 부재의 완전 용입 맞대기 용접부는 방사선투과검사를 해야 한다.)",
-      "The exposed ends of welds shall be examined by penetrant method.\n (용접부의 노출 끝단부는 침투 탐상 검사를 해야 한다.)",
-      "All welded joints in secondary members shall be examined by the visual method. \n (2차 부재의 모든 용접부는 육안검사를 해야 한다.)",
-      "All weld joint other than full penetration butt welded joint in primary members shall be examined by liquid penetrant or magnetic particle method.\n (1차 부재의 완전 용입 맞대기 용접부를 제외한 모든 용접부는 침투 탐상 또는 자분 탐상법으로 검사를 해야 한다.)"
+      "All full penetration butt welded joints in primary members shall be examined by radiographic method.\n1차 부재의 완전 용입 맞대기 용접부는 방사선투과검사를 해야 한다.",
+      "The exposed ends of welds shall be examined by penetrant method.\n용접부의 노출 끝단부는 침투 탐상 검사를 해야 한다.",
+      "All welded joints in secondary members shall be examined by the visual method.\n2차 부재의 모든 용접부는 육안검사를 해야 한다.",
+      "All weld joint other than full penetration butt welded joint in primary members shall be examined by liquid penetrant or magnetic particle method.\n1차 부재의 완전 용입 맞대기 용접부를 제외한 모든 용접부는 침투 탐상 또는 자분 탐상법으로 검사를 해야 한다."
     ],
     "answer": 1,
     "groupNote": "* Questions pertain to requirement in B & PV Code, Sec Ⅲ 2023 Edition.\n(다음 문제는 ASME B & PV Code Sec.Ⅲ 2023 Edition 의 요구사항에 따라 답하시오.)"
@@ -293,10 +293,10 @@
     "source": "VTS-II(2020)(A)",
     "question": "Which of the following is wrong requirement for acceptability of undercuts in accordance with ASME Sec.III.NF-5000?\n다음 ASME Sec.III.NF-5000에 따른 합격 가능한 언더컷 중 틀린것은 어떤 것인가?",
     "options": [
-      "For material 3/8in. and less nominal thickness, undercut depth of 1/32in. on one side of the member for the full length of the weld.\n (호칭 두께가 3/8인치 이하인 재료에 대해서, 용접부 전 길이에 대해 한쪽에서 언더컷 깊이가 1/32인치인 경우.)",
-      "For material 3/8in. and less nominal thickness, undercut depth 1/32in. on one side for one-half the length of the weld, and 1/16in. for one-fourth the length of the weld on the same side of the member\n (호칭 두께가 3/8인치 이하인 재료에 대해서, 용접부 길이의 1/2에 대해서는 1/32인치 이고, 같은 쪽에 있는 언더컷은 용접부 길이의 1/4에 대해 1/16인치인 경우.)",
-      "When either welds or undercut exist only on one side of the member or are not in the same plan, the allowable undercut depth of 1/32in. may be increased to 1/8in. for the full length of the weld.\n (부재의 같은면이 아닌 한쪽면에 용접부나 언더컷이 존재할 경우, 용접부의 전 길이에 대해서 허용 가능한 언더컷 깊이는 1/32인치에서 1/8인치로 증가 시켜도 된다.)",
-      "For material greater than 3/8in. nominal thickness, undercut depth of 1/32in. for the full length of the weld and 1/16in. for one-fourth the length of the weld on both sides of the members.\n (호칭 두께가 3/8인치 보다 큰 재료에 대해서, 용접부의 전 길이에 대해 부재의 양쪽면에 있는 언더컷의 깊이가 1/32인치. 또는 용접부길이의 1/4에 대해 부재의 양쪽면에 있는 언더컷의 깊이가 1/16인치 인 경우.)"
+      "For material 3/8in. and less nominal thickness, undercut depth of 1/32in. on one side of the member for the full length of the weld.\n호칭 두께가 3/8인치 이하인 재료에 대해서, 용접부 전 길이에 대해 한쪽에서 언더컷 깊이가 1/32인치인 경우.",
+      "For material 3/8in. and less nominal thickness, undercut depth 1/32in. on one side for one-half the length of the weld, and 1/16in. for one-fourth the length of the weld on the same side of the member\n호칭 두께가 3/8인치 이하인 재료에 대해서, 용접부 길이의 1/2에 대해서는 1/32인치 이고, 같은 쪽에 있는 언더컷은 용접부 길이의 1/4에 대해 1/16인치인 경우.",
+      "When either welds or undercut exist only on one side of the member or are not in the same plan, the allowable undercut depth of 1/32in. may be increased to 1/8in. for the full length of the weld.\n부재의 같은면이 아닌 한쪽면에 용접부나 언더컷이 존재할 경우, 용접부의 전 길이에 대해서 허용 가능한 언더컷 깊이는 1/32인치에서 1/8인치로 증가 시켜도 된다.",
+      "For material greater than 3/8in. nominal thickness, undercut depth of 1/32in. for the full length of the weld and 1/16in. for one-fourth the length of the weld on both sides of the members.\n호칭 두께가 3/8인치 보다 큰 재료에 대해서, 용접부의 전 길이에 대해 부재의 양쪽면에 있는 언더컷의 깊이가 1/32인치. 또는 용접부길이의 1/4에 대해 부재의 양쪽면에 있는 언더컷의 깊이가 1/16인치 인 경우."
     ],
     "answer": 2,
     "groupNote": "* Questions pertain to requirement in B & PV Code, Sec Ⅲ 2023 Edition.\n(다음 문제는 ASME B & PV Code Sec.Ⅲ 2023 Edition 의 요구사항에 따라 답하시오.)"
@@ -309,9 +309,9 @@
     "source": "VTS-II(2020)(A)",
     "question": "Which of the following is wrong acceptance standards of visual examination for fillet and groove welds in accordance with ASME Sec.III.NF-5000?\n다음 중 ASME Sec.III.NF-5000에 따른 필렛 및 홈 용접부의 육안검사 합격기준으로 틀린 것은?",
     "options": [
-      "Only surface porosity whose major surface dimension exceeds 1/16in. shall be considered relevant.\n (주 표면치수가 1/16인치를 초과하는 표면 기공들만 관련지시로 간주한다.)",
-      "Ten or more rounded indications in any 6sq.in. of surface with the major dimension of this area not to exceed 6in. are unacceptable.\n (길이가 6인치를 초과하지 않는 6제곱인치 영역에 10개 이상의 원형지시는 불합격 이다.)",
-      "The sum of diameters of random porosity exceeds 3/8in. in any linear inch of weld or 3/4in. in any 12in. of weld are unacceptable.\n (임의로 분포된 기공의 지름의 합이 용접부의 임의 선상에서 3/8인치를 초과하거나 용접부의 임의 선상 12인치에서 3/4인치를 초과하는 경우는 불합격이다.)",
+      "Only surface porosity whose major surface dimension exceeds 1/16in. shall be considered relevant.\n주 표면치수가 1/16인치를 초과하는 표면 기공들만 관련지시로 간주한다.",
+      "Ten or more rounded indications in any 6sq.in. of surface with the major dimension of this area not to exceed 6in. are unacceptable.\n길이가 6인치를 초과하지 않는 6제곱인치 영역에 10개 이상의 원형지시는 불합격 이다.",
+      "The sum of diameters of random porosity exceeds 3/8in. in any linear inch of weld or 3/4in. in any 12in. of weld are unacceptable.\n임의로 분포된 기공의 지름의 합이 용접부의 임의 선상에서 3/8인치를 초과하거나 용접부의 임의 선상 12인치에서 3/4인치를 초과하는 경우는 불합격이다.",
       "Four or more pores are aligned and the pores are separated by 1/16in. or less, edge to edge are unacceptable.\n4개 이상의 기포들이 정렬되어 있고 각각의 가장 자리사이의 간격이 1/16인치 이하로 분리 되어있는 경우는 불합격이다."
     ],
     "answer": 1,
@@ -342,7 +342,7 @@
     "question": "Which one of the following would not be rejectable for B & PV Code Sec.Ⅲ. Subsection.NG welds?\nB & PV Code Sec.Ⅲ. Subsection.NG 용접부에 불합격이 아닌 경우는?",
     "options": [
       "a crack of 1/16\" long\n1/16\"긴 크랙",
-      "two 1/32\" diameter rounded indications separated by 1/16\"\n (1/16“에 만큼 떨어진 직경이 1/32”인 두 개의 원형지시)",
+      "two 1/32\" diameter rounded indications separated by 1/16\"\n1/16“에 만큼 떨어진 직경이 1/32”인 두 개의 원형지시",
       "a rounded indication of 1/4\" diameter\n직경 1/4“의 원형지시",
       "weld undercut 1/8\" deep\n언더컷의 1/8“ 깊이"
     ],
@@ -410,6 +410,7 @@
     "answer": 3
   },
   {
+    "id": 27,
     "level": "Level II",
     "method": "VT",
     "category": "Specific",
@@ -421,10 +422,10 @@
       "3/32 in.",
       "1/8 in."
     ],
-    "answer": 0,
-    "id": 27
+    "answer": 0
   },
   {
+    "id": 28,
     "level": "Level II",
     "method": "VT",
     "category": "Specific",
@@ -436,10 +437,10 @@
       "1/4 in.",
       "5/16 in."
     ],
-    "answer": 1,
-    "id": 28
+    "answer": 1
   },
   {
+    "id": 29,
     "level": "Level II",
     "method": "VT",
     "category": "Specific",
@@ -452,7 +453,6 @@
       "3/16 in."
     ],
     "answer": 2,
-    "id": 29,
     "groupNote": "* Questions pertain to requirement in B & PV Code, Sec.Ⅷ Div.2 (2023Ed)\n(다음 문제는 ASME B & PV Code Sec.Ⅷ Div.2 2023 Edition 의 요구사항에 따라 답하시오.)"
   }
 ]

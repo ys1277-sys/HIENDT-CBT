@@ -55,7 +55,7 @@
       "Dry\n건식",
       "Non-aqueous\n유성",
       "Wet\n습식",
-      "All developers have approximately the same sensitivity\n (모든 현상액이 거의 같은 감도를 가진다.)"
+      "All developers have approximately the same sensitivity\n모든 현상액이 거의 같은 감도를 가진다."
     ],
     "answer": 1
   },
@@ -83,7 +83,7 @@
     "question": "Why is it not advisable to look directly into a black light?\n왜 흑광을 직접 바라보는 것은 좋지 못한가?",
     "options": [
       "It will cause permanent damage to the eyes\n눈에 영구적이 손상을 주므로",
-      "It will possibly could the vision of the person looking into the light for a short period of time \n (잠시나마 시력을 흐리게 할 가능성이 있으므로)",
+      "It will possibly could the vision of the person looking into the light for a short period of time\n잠시나마 시력을 흐리게 할 가능성이 있으므로",
       "It will cause temporary total blindness\n일시적으로 완전 시력 장애를 유발하므로",
       "None of the above\n해당 무"
     ],
@@ -113,9 +113,9 @@
     "question": "Which of the items listed below is not an advantage of the liquid penetrant test method?\n다음 중에서 침투 탐상 시험 방법의 장점이 아닌 것은?",
     "options": [
       "The method can find all types of discontinuities\n모든 형태의 불연속을 찾을 수 있다.",
-      "The method is simple in principle and relatively easy to understand\n (이론적으로 간단하고 상대적으로 이해하기 쉽다.)",
+      "The method is simple in principle and relatively easy to understand\n이론적으로 간단하고 상대적으로 이해하기 쉽다.",
       "The method is essentially simple in application\n실제로 응용하기에 간단하다.",
-      "There are few limitations on the size and shape of the article that can be tested by this method.\n (이 방법으로 시험될 수 있는 제품의 크기와 모양에 커다란 구애를 받지 않는다.)"
+      "There are few limitations on the size and shape of the article that can be tested by this method.\n이 방법으로 시험될 수 있는 제품의 크기와 모양에 커다란 구애를 받지 않는다."
     ],
     "answer": 0
   },
@@ -202,10 +202,10 @@
     "source": "PTG-II(A)",
     "question": "Which of the following is the primary limitation of liquid penetrant testing?\n다음 중 침투 탐상 시험의 일차적인 한계는?",
     "options": [
-      "Penetrant testing cannot be used on ferromagnetic material\n (강자성 자재에는 사용할 수 없다.)",
-      "Penetrant testing cannot locate shallow surface discontinuities\n (입구가 큰 표면 불연속에는 실시 할 수 없다.)",
-      "Penetrant testing cannot be used on non-metallic surfaces\n (비금속 자재의 표면에는 사용할 수 없다.)",
-      "Penetrant testing cannot locate subsurface discontinuities\n (내부 불연속의 감지가 불가능하다.)"
+      "Penetrant testing cannot be used on ferromagnetic material\n강자성 자재에는 사용할 수 없다.",
+      "Penetrant testing cannot locate shallow surface discontinuities\n입구가 큰 표면 불연속에는 실시 할 수 없다.",
+      "Penetrant testing cannot be used on non-metallic surfaces\n비금속 자재의 표면에는 사용할 수 없다.",
+      "Penetrant testing cannot locate subsurface discontinuities\n내부 불연속의 감지가 불가능하다."
     ],
     "answer": 3
   },
@@ -309,7 +309,7 @@
     "options": [
       "it has the ability to dry the surface slowly\n천천히 표면이 건조되는 능력",
       "it has the ability to heat the part to an optimum temperature in a minimum of time so that the part is both dry and warm as promptly as possible\n가능한 빨리 제품을 최단시간에 건조시키고 따듯하도록 최적의 온도로 가열할 수 있는 능력",
-      "it has the electrical heating elements can be introduced into the inspection process\n (전기적 가열 소자는 검사절차에 소개될 수 있다)",
+      "it has the electrical heating elements can be introduced into the inspection process\n전기적 가열 소자는 검사절차에 소개될 수 있다",
       "it is a warm air blast system\n온풍 시스템"
     ],
     "answer": 1
@@ -323,7 +323,7 @@
     "question": "If the surface temperature of the test part is excessively hot, the:\n시험부위의 표면온도가 과도하게 뜨거우면?",
     "options": [
       "viscosity of the penetrant may be too high\n침투제의 점도가 너무 높아진다",
-      "penetrant may lose some of its more volatile materials\n (침투제의 휘발성 재료 몇몇을 잃을 수 있다)",
+      "penetrant may lose some of its more volatile materials\n침투제의 휘발성 재료 몇몇을 잃을 수 있다",
       "surface tension of the penetrant increase\n침투제의 표면장력이 증가된다",
       "contact angle increases\n접촉 각을 증가된다"
     ],
@@ -398,7 +398,7 @@
     "question": "Dry developer should be applied:\n건식 현상제의 적용은?",
     "options": [
       "so that a heavy coat of developer cover all surfaces\n모든 표면에 현상제를 두껍게 도포",
-      "so that a light dusting covers all surfaces to be inspected\n (모든 표면을 면밀히 조사할 수 있게 엷게 가루를 도포)",
+      "so that a light dusting covers all surfaces to be inspected\n모든 표면을 면밀히 조사할 수 있게 엷게 가루를 도포",
       "with a dry paint brush\n마른 붓을 사용",
       "by dipping\n담궈서"
     ],
@@ -429,7 +429,7 @@
     "options": [
       "natural while light\n자연백색광",
       "radiation of a wavelength above 300nm(3000Å) units\n파장이 300nm이상의 복사열",
-      "visible light from the energy given off by the mercury arc\n (수은등 아크에서 발산되는 열 에너지로 부터의 가시광선)",
+      "visible light from the energy given off by the mercury arc\n수은등 아크에서 발산되는 열 에너지로 부터의 가시광선",
       "fluorescence from the penetrant\n침투액으로 부터의 형광"
     ],
     "answer": 2
@@ -444,7 +444,7 @@
     "options": [
       "rinse before the penetrant is completely emulsified\n침투 전에 세척은 완전히 유화 된다.",
       "rinse after the penetrant is completely emulsified\n침투 후에 세척은 완전히 유화 된다.",
-      "discontinue the rinse as soon as the surface penetrant is removed from the part\n (부품의 표면 침투 액이 제거 되자마자 그만둔다)",
+      "discontinue the rinse as soon as the surface penetrant is removed from the part\n부품의 표면 침투 액이 제거 되자마자 그만둔다",
       "rinse only with water hotter than 43℃(110℉)\n세척은 43℃이상 뜨거운 물로"
     ],
     "answer": 2
@@ -534,7 +534,7 @@
     "options": [
       "Excessive washing\n과도한 세척",
       "Inadequate application of developers\n현상액의 부적절한 도포",
-      "Penetrant or part too cold during penetration time \n (침투 시간동안 너무 차가운 침투액이나 부품)",
+      "Penetrant or part too cold during penetration time\n침투 시간동안 너무 차가운 침투액이나 부품",
       "Lint or dirt\n린트나 먼지"
     ],
     "answer": 3
@@ -550,7 +550,7 @@
       "The extra time required is wasted\n쓸데없이 시간을 낭비하게 된다",
       "The developer may lose its blotting ability\n현상액이 번지는 성질을 상실할지도 모른다.",
       "The penetrant may lose its sensitivity\n침투액이 감도를 상실할지도 모른다",
-      "The excess penetrant may be difficult to remove \n (과도한 침투액을 제거하기 어려울지도 모른다.)"
+      "The excess penetrant may be difficult to remove\n과도한 침투액을 제거하기 어려울지도 모른다."
     ],
     "answer": 2
   },
@@ -563,7 +563,7 @@
     "question": "Developer time depends on the :\n현상 시간은 다음의 어디에 의존하는가?",
     "options": [
       "Type of precleaner used\n사용된 세척제의 타입",
-      "Type of developer used and type of discontinuity to be detected\n (사용된 현상제의 타입과 검출할 불연속의 형태)",
+      "Type of developer used and type of discontinuity to be detected\n사용된 현상제의 타입과 검출할 불연속의 형태",
       "Temper of the material being tested\n시험되는 자재의 성질",
       "All of the above\n위의 모두"
     ],
@@ -592,10 +592,10 @@
     "source": "PTG-II(A)",
     "question": "Which of the following is information an inspector needs to have for proper interpretation of penetrant indications?\n다음 중 침투탐상 시험 지시의 적절한 해석을 위해 검사원이 알아야 할 정보는?",
     "options": [
-      "Previous manufacturing processes performed on the part\n (제품에 사용된 그 이전의 제작 공정)",
-      "Technique used in applying and removing the penetrant\n (침투액 도포 및 제거에 사용된 기술)",
-      "Method used to clean part prior to inspection \n (검사전에 제품을 세척하는데 사용된 방법)",
-      "All of the above (위의 모두)"
+      "Previous manufacturing processes performed on the part\n제품에 사용된 그 이전의 제작 공정",
+      "Technique used in applying and removing the penetrant\n침투액 도포 및 제거에 사용된 기술",
+      "Method used to clean part prior to inspection\n검사전에 제품을 세척하는데 사용된 방법",
+      "All of the above\n위의 모두"
     ],
     "answer": 3
   }

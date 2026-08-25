@@ -180,7 +180,7 @@
     "options": [
       "Yoke with dry magnetic particle\n건식자분을 사용한 요크",
       "Prod with wet fluorescent magnetic particle\n습식형광자분을 사용한 프로드",
-      "Prod with dry magnetic particle(건식자분을 사용한 프로드)",
+      "Prod with dry magnetic particle\n건식자분을 사용한 프로드",
       "Yoke with wet fluorescent magnetic particle\n습식형광자분을 사용한 요크"
     ],
     "answer": 3,
@@ -210,8 +210,8 @@
     "source": "MTS-II(2020)(A)",
     "question": "A length 1/4in.(6mm) rounded indication is; This indication acceptable?\n길이 1/4(6mm)인치의 원형지시는? 이 지시는 합격인가?",
     "options": [
-      "Accept 합격",
-      "Reject 불합격"
+      "Accept\n합격",
+      "Reject\n불합격"
     ],
     "answer": 1,
     "groupNote": "* The following questions refer to ASME Code Section. I\nASME Sec. I.에 따라 30번 물음에 답하시오."
@@ -285,10 +285,10 @@
     "source": "MTS-II(2020)(A)",
     "question": "What is classified as an acceptable imperfections in the MT inspection of seamless pipes?\n심리스파이프의 MT 검사시 허용가능 결함으로 분류하는 것은?",
     "options": [
-      "Imperfections that have a depth ≤ 0.125 t and do not encroach on the minimum permissible wall thickness \n (깊이가 0.125 t 이하이고 최소 허용 파이프 두께를 침범하지 않는 결점)",
-      "Imperfections that have a depth > 0.125 t and do not encroach on the minimum permissible wall thickness \n (깊이가 0.125 t를 초과하고 최소 허용 파이프 두께를 침범하지 않는 결점)",
-      "Imperfections that encroach on the minimum permissible wall thickness \n (최소 허용 파이프 두께를 침범하는 결점)",
-      "All of the above(위 모두)"
+      "Imperfections that have a depth ≤ 0.125 t and do not encroach on the minimum permissible wall thickness\n깊이가 0.125 t 이하이고 최소 허용 파이프 두께를 침범하지 않는 결점",
+      "Imperfections that have a depth > 0.125 t and do not encroach on the minimum permissible wall thickness\n깊이가 0.125 t를 초과하고 최소 허용 파이프 두께를 침범하지 않는 결점",
+      "Imperfections that encroach on the minimum permissible wall thickness\n최소 허용 파이프 두께를 침범하는 결점",
+      "All of the above\n위 모두"
     ],
     "answer": 0,
     "groupNote": "* Refer to HIE-NDT-MT-AP5L written in accordance with API 5L and answer question.\n(API 5L에 따라 작성된 HIE-NDT-MT-AP5L를 참고하여 17번 물음에 답하시오.)"
@@ -320,6 +320,7 @@
     "answer": 0
   },
   {
+    "id": 27,
     "level": "Level II",
     "method": "MT",
     "category": "Specific",
@@ -331,10 +332,10 @@
       "DC only\nDC 만",
       "HWDC only\nHWDC 만"
     ],
-    "answer": 0,
-    "id": 27
+    "answer": 0
   },
   {
+    "id": 28,
     "level": "Level II",
     "method": "MT",
     "category": "Specific",
@@ -346,10 +347,10 @@
       "Red, Yellow, Green\n적색, 황색, 녹색",
       "White, Gray, Yellow\n백색, 회색, 황색"
     ],
-    "answer": 0,
-    "id": 28
+    "answer": 0
   },
   {
+    "id": 29,
     "level": "Level II",
     "method": "MT",
     "category": "Specific",
@@ -362,10 +363,10 @@
       "AC : 40 lb, DC : 40 lb"
     ],
     "answer": 0,
-    "id": 29,
     "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-MT-P11 (Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅷ Div.1 & Div.2(2023 Edition).\n(문제는 HIE절차서에 따라 언급한다.)"
   },
   {
+    "id": 30,
     "level": "Level II",
     "method": "MT",
     "category": "Specific",
@@ -377,11 +378,13 @@
       "Linear : length is less than 3 times the width / Rounded : length is 3 times the width or more\n선형지시 : 길이가 폭의 3배 미만 / 원형지시 : 길이가 폭의 3배 이상",
       "Linear : length is 5 times the width or more / Rounded : length is less than 5 times the width\n선형지시 : 길이가 폭의 5배 이상 / 원형지시 : 길이가 폭의 5배 미만"
     ],
-    "answer": 0,
-    "id": 30
+    "answer": 0
   },
   {
     "id": 31,
+    "level": "Level II",
+    "method": "MT",
+    "category": "Specific",
     "question": "What are the minimum and maximum magnetizing currents for use with prods, according to material thickness?\n프로드법에서 재료 두께에 따른 자화전류의 최소·최대값은?",
     "options": [
       "Under ¾ in. thick : 90–110 A/in.,  ¾ in. and over : 100–125 A/in.\n두께 ¾in. 미만 : 90~110 A/in.,  ¾in. 이상 : 100~125 A/in.",
@@ -393,6 +396,9 @@
   },
   {
     "id": 32,
+    "level": "Level II",
+    "method": "MT",
+    "category": "Specific",
     "question": "How is the magnetizing force of an AC/DC yoke calibrated?\nAC/DC 요크의 자화력은 어떻게 교정하는가?",
     "options": [
       "Lifting power test — AC yoke 10 lb, DC yoke 40 lb\n들어올림 시험 — AC 요크 10 lb, DC 요크 40 lb",
@@ -404,6 +410,9 @@
   },
   {
     "id": 33,
+    "level": "Level II",
+    "method": "MT",
+    "category": "Specific",
     "question": "How are linear indications and rounded indications defined?\n선형 지시와 원형 지시는 어떻게 정의되는가?",
     "options": [
       "Linear: length (L) ≥ 3 × width (D),  Rounded: L < 3 × D\n선형 지시 : 길이(L)가 폭(D)의 3배 이상,  원형 지시 : 길이(L)가 폭(D)의 3배 미만",
@@ -415,6 +424,9 @@
   },
   {
     "id": 34,
+    "level": "Level II",
+    "method": "MT",
+    "category": "Specific",
     "question": "Five rounded indications in a line, separated by 1/16 in. edge-to-edge, were found on a weld by the MT yoke technique. Is it acceptable? (Ref.: ASME B31.1)\n요크법 자분탐상에서 원형 지시 5개가 가장자리 간격 1/16인치로 일렬로 발견되었다. 합격인가? (ASME B31.1 기준)",
     "options": [
       "Acceptable\n합격",

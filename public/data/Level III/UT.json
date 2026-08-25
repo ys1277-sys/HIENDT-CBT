@@ -3,10 +3,9 @@
     "id": 1,
     "level": "Level III",
     "method": "UT",
-    "category": "SPECIFIC",
-    "subject": "HIE-NDT-UT-N21",
+    "category": "Method",
+    "topic": "HIE-NDT-UT-N21",
     "question": "How much difference to be within a screen height linear for 20% to 80% of the calibration screen height?\n교정 스크린 높이의 20%~80%에 대해 스크린 높이 직선성의 차이는 얼마 이내이어야 하는가?",
-    "question_kr": "교정 스크린 높이의 20%~80%에 대해 스크린 높이 직선성의 차이는 얼마 이내이어야 하는가?",
     "options": [
       "2%",
       "5%",
@@ -14,17 +13,15 @@
       "20%"
     ],
     "answer": 1,
-    "explanation": "",
     "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-N21 (Rev.3) for ultrasonic examination of pressure vessels fabricated in accordance with ASME B & PV Code Section Ⅲ(2023 Edition).\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격 Sec.Ⅲ(2023년판)에 따른 압력용기 제작의 초음파 시험에 대한 절차서(HIE-NDT-UT-N21, Rev.3)"
   },
   {
     "id": 2,
     "level": "Level III",
     "method": "UT",
-    "category": "SPECIFIC",
-    "subject": "HIE-NDT-UT-N21",
+    "category": "Method",
+    "topic": "HIE-NDT-UT-N21",
     "question": "During the scan, check the cycle of inspection equipment?\n검사하는 동안 검사장비의 점검 주기는?",
-    "question_kr": "검사하는 동안 검사장비의 점검 주기는?",
     "options": [
       "Every 4 hr\n4시간마다",
       "Every 8 hr\n8시간마다",
@@ -32,17 +29,15 @@
       "Every 1 week\n매주"
     ],
     "answer": 0,
-    "explanation": "",
     "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-N21 (Rev.3) for ultrasonic examination of pressure vessels fabricated in accordance with ASME B & PV Code Section Ⅲ(2023 Edition).\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격 Sec.Ⅲ(2023년판)에 따른 압력용기 제작의 초음파 시험에 대한 절차서(HIE-NDT-UT-N21, Rev.3)"
   },
   {
     "id": 3,
     "level": "Level III",
     "method": "UT",
-    "category": "SPECIFIC",
-    "subject": "HIE-NDT-UT-N21",
+    "category": "Method",
+    "topic": "HIE-NDT-UT-N21",
     "question": "How much of the scanning speed must be within the search unit movement?\n탐촉자의 주사 속도는 얼마 이내이어야 하는가?",
-    "question_kr": "탐촉자의 주사 속도는 얼마 이내이어야 하는가?",
     "options": [
       "3 in/sec (75 mm/s)",
       "6 in/sec (150 mm/s)",
@@ -50,17 +45,15 @@
       "12 in/sec (300 mm/s)"
     ],
     "answer": 1,
-    "explanation": "",
     "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-N21 (Rev.3) for ultrasonic examination of pressure vessels fabricated in accordance with ASME B & PV Code Section Ⅲ(2023 Edition).\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격 Sec.Ⅲ(2023년판)에 따른 압력용기 제작의 초음파 시험에 대한 절차서(HIE-NDT-UT-N21, Rev.3)"
   },
   {
     "id": 4,
     "level": "Level III",
     "method": "UT",
-    "category": "SPECIFIC",
-    "subject": "HIE-NDT-UT-N21",
+    "category": "Method",
+    "topic": "HIE-NDT-UT-N21",
     "question": "What shall the system calibration check verify?\n시스템 교정 체크는 무엇에 의해 입증되어야 하는가?",
-    "question_kr": "시스템 교정 체크는 무엇에 의해 입증되어야 하는가?",
     "options": [
       "Distance range point and sensitivity setting\n거리 범위 지점과 감도 설정",
       "Probe frequency and angle\n탐촉자 주파수와 각도",
@@ -68,100 +61,88 @@
       "Scanning speed only\n주사 속도만"
     ],
     "answer": 0,
-    "explanation": "",
     "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-N21 (Rev.3) for ultrasonic examination of pressure vessels fabricated in accordance with ASME B & PV Code Section Ⅲ(2023 Edition).\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격 Sec.Ⅲ(2023년판)에 따른 압력용기 제작의 초음파 시험에 대한 절차서(HIE-NDT-UT-N21, Rev.3)"
   },
   {
     "id": 5,
     "level": "Level III",
     "method": "UT",
-    "category": "SPECIFIC",
-    "subject": "ASME B16.34",
+    "category": "Method",
+    "topic": "ASME B16.34",
     "question": "What are the main reference standards used to evaluate the soundness of steel castings during ultrasonic testing according to ASME B16.34?\nASME B16.34에 따른 초음파탐상검사 시 주강품의 건전성을 평가하기 위해 참조하는 주요 규격은?",
-    "question_kr": "ASME B16.34에 따른 초음파탐상검사 시 주강품의 건전성을 평가하기 위해 참조하는 주요 규격은?",
     "options": [
       "ASTM E165",
       "ASTM E709",
       "ASTM A609",
       "ASME Section V Article 4"
     ],
-    "answer": 2,
-    "explanation": ""
+    "answer": 2
   },
   {
     "id": 6,
     "level": "Level III",
     "method": "UT",
-    "category": "SPECIFIC",
-    "subject": "API 6A",
+    "category": "Method",
+    "topic": "API 6A",
     "question": "During inspection of the PSL3 weld, a single indication of 5mm in length exceeded the reference distance amplitude curve. Is it acceptable?\nPSL3 용접부 검사 중 기준 거리진폭곡선을 초과하는 5mm 길이의 단일 지시가 나타났다. 합격인가?",
-    "question_kr": "PSL3 용접부 검사 중 기준 거리진폭곡선을 초과하는 5mm 길이의 단일 지시가 나타났다. 합격인가?",
     "options": [
       "Accept",
       "Reject"
     ],
     "answer": 1,
-    "explanation": "",
     "groupNote": "* The following questions refer to API 6A\nAPI 6A에 따라 물음에 답하시오."
   },
   {
     "id": 7,
     "level": "Level III",
     "method": "UT",
-    "category": "SPECIFIC",
-    "subject": "API 6A",
+    "category": "Method",
+    "topic": "API 6A",
     "question": "During inspection of a 25mm thickness PSL2 weld, a 6mm length of slag inclusion exceeded the reference distance amplitude curve. Is it acceptable?\n25mm 두께 PSL2 용접부 검사 중 6mm 길이의 슬래그가 기준 거리진폭곡선을 초과하였다. 합격인가?",
-    "question_kr": "25mm 두께 PSL2 용접부 검사 중 6mm 길이의 슬래그가 기준 거리진폭곡선을 초과하였다. 합격인가?",
     "options": [
       "Accept",
       "Reject"
     ],
     "answer": 0,
-    "explanation": "",
     "groupNote": "* The following questions refer to API 6A\nAPI 6A에 따라 물음에 답하시오."
   },
   {
     "id": 8,
     "level": "Level III",
     "method": "UT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section III NB-5000",
+    "category": "Method",
+    "topic": "ASME Section III NB-5000",
     "question": "A 0.5in. thick weld with 2mm outside reinforcement is examined by ultrasonic method according to ASME Sec.III NB-5000. Which of the following is wrong?\n두께 0.5인치, 바깥쪽 덧살 2mm인 용접부를 ASME Sec.III NB-5000에 따라 UT 검사할 때 틀린 것은?",
-    "question_kr": "두께 0.5인치, 바깥쪽 덧살 2mm인 용접부를 ASME Sec.III NB-5000에 따라 UT 검사할 때 틀린 것은?",
     "options": [
       "All imperfections producing response greater than 50% of reference level shall be investigated.\n기준레벨의 50%를 넘는 응답을 내는 모든 결함을 조사해야 한다",
       "The indication exceeding reference level amplitude and length of 3/8in. is unacceptable.\n기준레벨 진폭을 넘고 길이가 3/8인치를 넘는 지시는 불합격이다",
       "Crack indications are unacceptable regardless of length.\n균열 지시는 길이와 관계없이 불합격이다",
       "Lack of fusion indications are unacceptable regardless of length.\n융합불량 지시는 길이와 관계없이 불합격이다"
     ],
-    "answer": 3,
-    "explanation": ""
+    "answer": 3
   },
   {
     "id": 9,
     "level": "Level III",
     "method": "UT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section III NF-5200",
+    "category": "Method",
+    "topic": "ASME Section III NF-5200",
     "question": "When performing ultrasonic examination beneath the weld that imposes loads in the through thickness direction of primary members 1in. and greater in thickness, which requirement is wrong?\n두께 1인치 이상의 1차 부재 용접부 아래 모재 UT 검사 요구사항 중 잘못된 것은?",
-    "question_kr": "두께 1인치 이상의 1차 부재 용접부 아래 모재 UT 검사 요구사항 중 잘못된 것은?",
     "options": [
       "Shall be examined over 100% of the reference area.\n기준 면적의 100%를 검사해야 한다",
       "A calibration block representative of the primary member shall be used.\n주 부재를 대표하는 교정 블록을 사용해야 한다",
       "The block for straight beam examination shall have 1/4in. diameter flat-bottomed holes.\n수직탐상용 블록에는 지름 1/4인치 평저공이 있어야 한다",
       "The block shall have two holes at one-fourth and one-half thickness.\n블록에는 두께의 1/4과 1/2 위치에 구멍 두 개가 있어야 한다"
     ],
-    "answer": 3,
-    "explanation": ""
+    "answer": 3
   },
   {
     "id": 10,
     "level": "Level III",
     "method": "UT",
-    "category": "SPECIFIC",
-    "subject": "HIE-NDT-UT-P11",
+    "category": "Method",
+    "topic": "HIE-NDT-UT-P11",
     "question": "How much is the depth and length for notch in calibration block?\n교정 블록에서 노치의 깊이와 길이는 얼마인가?",
-    "question_kr": "교정 블록에서 노치의 깊이와 길이는 얼마인가?",
     "options": [
       "Depth: 1%T, Length: 1in\n깊이 1%T, 길이 1인치",
       "Depth: 2%T, Length: 0.5in\n깊이 2%T, 길이 0.5인치",
@@ -169,17 +150,15 @@
       "Depth: 2%T, Length: 1in\n깊이 2%T, 길이 1인치"
     ],
     "answer": 3,
-    "explanation": "",
     "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-P11 (Rev.3) for ultrasonic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME 규격Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 초음파 시험에 대한 절차서(HIE-NDT-UT-P11, Rev.3)"
   },
   {
     "id": 11,
     "level": "Level III",
     "method": "UT",
-    "category": "SPECIFIC",
-    "subject": "HIE-NDT-UT-P11",
+    "category": "Method",
+    "topic": "HIE-NDT-UT-P11",
     "question": "This procedure states that all indications, which produce a response greater than ____ % of reference level shall be investigated.\n이 절차서에는 대비기준선의 ____%를 초과하는 지시는 조사되어야 한다고 규정하고 있다.",
-    "question_kr": "이 절차서에는 대비기준선의 ____%를 초과하는 지시는 조사되어야 한다고 규정하고 있다.",
     "options": [
       "10",
       "20",
@@ -187,17 +166,15 @@
       "80"
     ],
     "answer": 2,
-    "explanation": "",
     "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-P11 (Rev.3) for ultrasonic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME 규격Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 초음파 시험에 대한 절차서(HIE-NDT-UT-P11, Rev.3)"
   },
   {
     "id": 12,
     "level": "Level III",
     "method": "UT",
-    "category": "SPECIFIC",
-    "subject": "HIE-NDT-UT-P11",
+    "category": "Method",
+    "topic": "HIE-NDT-UT-P11",
     "question": "What is the maximum acceptable length for linear discontinuity 1 in. thick weld that produces a signal amplitude greater than the reference level?\n대비기준선을 초과하는 지시가 1인치 두께 용접부에서 허용될 수 있는 선형 불연속 길이는?",
-    "question_kr": "대비기준선을 초과하는 지시가 1인치 두께 용접부에서 허용될 수 있는 선형 불연속 길이는?",
     "options": [
       "0.3 in.",
       "0.4 in.",
@@ -205,17 +182,15 @@
       "0.6 in."
     ],
     "answer": 2,
-    "explanation": "",
     "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-P11 (Rev.3) for ultrasonic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME 규격Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 초음파 시험에 대한 절차서(HIE-NDT-UT-P11, Rev.3)"
   },
   {
     "id": 13,
     "level": "Level III",
     "method": "UT",
-    "category": "SPECIFIC",
-    "subject": "HIE-NDT-UT-P11",
+    "category": "Method",
+    "topic": "HIE-NDT-UT-P11",
     "question": "Where the component material is clad, the calibration block shall be clad by ____.\n제품 재질이 클래드 되어 있는 경우 교정 블록은 어떻게 클래드 되어야 하는가?",
-    "question_kr": "제품 재질이 클래드 되어 있는 경우 교정 블록은 어떻게 클래드 되어야 하는가?",
     "options": [
       "The same welding procedure as the production part\n실제 제품과 같은 용접절차",
       "The different welding procedure as the production part\n실제 제품과 다른 용접절차",
@@ -223,289 +198,255 @@
       "All of the above\n위의 모두"
     ],
     "answer": 0,
-    "explanation": "",
     "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-P11 (Rev.3) for ultrasonic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME 규격Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 초음파 시험에 대한 절차서(HIE-NDT-UT-P11, Rev.3)"
   },
   {
     "id": 14,
     "level": "Level III",
     "method": "UT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section V SA-388",
+    "category": "Method",
+    "topic": "ASME Section V SA-388",
     "question": "Perform the angle beam examination from the circumference of rings and hollow forgings that have an axial length greater than ____ inch and an outside to inside diameter ratio of less than 2.0 to 1.\n축 방향 길이가 ____인치를 초과하고 OD/ID 비율이 2.0:1 미만인 링 및 중공 단조품은 원주 방향에서 각도빔 검사를 수행한다.",
-    "question_kr": "축 방향 길이가 ____인치를 초과하고 OD/ID 비율이 2.0:1 미만인 링 및 중공 단조품은 원주 방향에서 각도빔 검사를 수행한다.",
     "options": [
       "2 inch",
       "3 inch",
       "4 inch",
       "5 inch"
     ],
-    "answer": 1,
-    "explanation": ""
+    "answer": 1
   },
   {
     "id": 15,
     "level": "Level III",
     "method": "UT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section V SA-388",
+    "category": "Method",
+    "topic": "ASME Section V SA-388",
     "question": "What kind of method shall not be used in straight beam examination?\n수직빔 검사에 사용하지 않는 방법은?",
-    "question_kr": "수직빔 검사에 사용하지 않는 방법은?",
     "options": [
       "Back Reflection technique\n저면반사법",
       "DGS Calibration\nDGS 선도 교정",
       "Reference-block calibration\n대비시험편 교정",
       "A1 Block Calibration\nA1 블록 교정"
     ],
-    "answer": 3,
-    "explanation": ""
+    "answer": 3
   },
   {
     "id": 16,
     "level": "Level III",
     "method": "UT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section V SA-388",
+    "category": "Method",
+    "topic": "ASME Section V SA-388",
     "question": "____ indications are defined as indications whose leading edge moves a distance equivalent to 1 inch or more of metal depth with movement of the search unit.\n탐촉자 이동 시 금속 깊이 1인치 이상 이동하는 지시는 무엇인가?",
-    "question_kr": "탐촉자 이동 시 금속 깊이 1인치 이상 이동하는 지시는 무엇인가?",
     "options": [
       "Planar\n평면형",
       "Traveling\n이동",
       "Cluster\n군집",
       "All of the above\n위의 모두"
     ],
-    "answer": 1,
-    "explanation": ""
+    "answer": 1
   },
   {
     "id": 17,
     "level": "Level III",
     "method": "UT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section V SA-388",
+    "category": "Method",
+    "topic": "ASME Section V SA-388",
     "question": "Cut the notch to ____ % of the nominal thickness or 1/4 inch, whichever is smaller.\n노치 깊이는 공칭 두께의 몇 % 또는 1/4인치 중 작은 값으로 하는가?",
-    "question_kr": "노치 깊이는 공칭 두께의 몇 % 또는 1/4인치 중 작은 값으로 하는가?",
     "options": [
       "1%",
       "2%",
       "3%",
       "4%"
     ],
-    "answer": 1,
-    "explanation": ""
+    "answer": 1
   },
   {
     "id": 18,
     "level": "Level III",
     "method": "UT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section I",
+    "category": "Method",
+    "topic": "ASME Section I",
     "question": "What is the maximum allowed length of indication in a 3in. thick weld? This indication is not interpreted to be a crack, lack of fusion and incomplete penetration.\n두께 3인치 맞대기 용접부에서 균열, 융합불량, 용입부족이 아닌 지시의 최대 허용 길이는?",
-    "question_kr": "두께 3인치 맞대기 용접부에서 균열, 융합불량, 용입부족이 아닌 지시의 최대 허용 길이는?",
     "options": [
       "1/4 in.",
       "2/4 in.",
       "3/4 in.",
       "1/3 in."
     ],
-    "answer": 2,
-    "explanation": ""
+    "answer": 2
   },
   {
     "id": 19,
     "level": "Level III",
     "method": "UT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section V SA-609",
+    "category": "Method",
+    "topic": "ASME Section V SA-609",
     "question": "Reference blocks containing flat bottomed holes shall be used to establish test sensitivity. What diameter shall be used?\n평저공을 포함한 대비블록이 시험 감도 설정에 사용된다. 직경은 얼마인가?",
-    "question_kr": "평저공을 포함한 대비블록이 시험 감도 설정에 사용된다. 직경은 얼마인가?",
     "options": [
       "4/32",
       "16/64",
       "10/32",
       "32/64"
     ],
-    "answer": 1,
-    "explanation": ""
+    "answer": 1
   },
   {
     "id": 20,
     "level": "Level III",
     "method": "UT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section V SA-609",
+    "category": "Method",
+    "topic": "ASME Section V SA-609",
     "question": "The casting test surface will normally be rougher than that of the test blocks. What kind of method shall be used to compensate the amplitude?\n주조품 시험면이 시험 블록보다 거칠 경우 진폭 보상을 위해 사용하는 방법은?",
-    "question_kr": "주조품 시험면이 시험 블록보다 거칠 경우 진폭 보상을 위해 사용하는 방법은?",
     "options": [
       "Transfer",
       "DAC",
       "100% ARL",
       "AVG"
     ],
-    "answer": 0,
-    "explanation": ""
+    "answer": 0
   },
   {
     "id": 21,
     "level": "Level III",
     "method": "UT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section V SA-609",
+    "category": "Method",
+    "topic": "ASME Section V SA-609",
     "question": "Which of the following is correct?\n다음 중 올바른 것은?",
-    "question_kr": "다음 중 올바른 것은?",
     "options": [
       "Instrument shall be capable of generating frequencies of at least 1 MHz to 3 MHz\n장비는 최소 1~3MHz 주파수를 낼 수 있어야 한다",
       "The area of ultrasonic quality level 2 is 1.5 square inch\n초음파 상질 2등급의 면적은 1.5제곱인치이다",
       "Counter bore of reference block shall be 1/2 inch diameter by 1/4 inch deep\n대비시험편의 카운터보어는 지름 1/2인치, 깊이 1/4인치여야 한다",
       "Opposite ends of reference block shall be flat and parallel within 0.01 inch\n대비시험편의 양 끝면은 0.01인치 이내로 평평하고 나란해야 한다"
     ],
-    "answer": 3,
-    "explanation": ""
+    "answer": 3
   },
   {
     "id": 22,
     "level": "Level III",
     "method": "UT",
-    "category": "SPECIFIC",
-    "subject": "SNT-TC-1A",
+    "category": "Method",
+    "topic": "SNT-TC-1A",
     "question": "The following are education requirements for obtaining Level III certificate according to SNT-TC-1A. Which is incorrect?\nSNT-TC-1A에 따른 Level III 자격 취득 학력 요구사항 중 틀린 것은?",
-    "question_kr": "SNT-TC-1A에 따른 Level III 자격 취득 학력 요구사항 중 틀린 것은?",
     "options": [
       "Bachelor degree or higher in science or engineering requires at least 1 year Level II experience\n이공계 학사 이상은 Level II 경력 1년 이상이 필요하다",
       "Doctorate degree in science or engineering can obtain Level III immediately regardless of experience\n이공계 박사는 경력과 관계없이 곧바로 Level III를 취득할 수 있다",
       "Two-year college graduate requires at least 2 years Level II experience\n2년제 대학 졸업자는 Level II 경력 2년 이상이 필요하다",
       "High school graduate requires at least 4 years Level II experience\n고졸자는 Level II 경력 4년 이상이 필요하다"
     ],
-    "answer": 1,
-    "explanation": ""
+    "answer": 1
   },
   {
     "id": 23,
     "level": "Level III",
     "method": "UT",
-    "category": "SPECIFIC",
-    "subject": "ANSI/ASNT CP-189",
+    "category": "Method",
+    "topic": "ANSI/ASNT CP-189",
     "question": "When attempting to obtain NDT Level III qualification according to ANSI/ASNT CP-189, which is incorrect?\nANSI/ASNT CP-189에 따라 NDT Level III 자격 취득 시 잘못된 것은?",
-    "question_kr": "ANSI/ASNT CP-189에 따라 NDT Level III 자격 취득 시 잘못된 것은?",
     "options": [
       "Experience requirements are satisfied by holding current ASNT Level III certificate\n유효한 ASNT Level III 자격증을 가지면 경력 요건을 충족한다",
       "Training requirements are satisfied by holding current ASNT Level III certificate\n유효한 ASNT Level III 자격증을 가지면 교육 요건을 충족한다",
       "Candidate shall hold current ASNT Level III certificate with valid endorsement\n응시자는 유효한 배서가 있는 ASNT Level III 자격증을 보유해야 한다",
       "Vision examination requires far-distance acuity and color vision\n시력검사는 원거리 시력과 색각을 요구한다"
     ],
-    "answer": 3,
-    "explanation": ""
+    "answer": 3
   },
   {
     "id": 24,
     "level": "Level III",
     "method": "UT",
-    "category": "SPECIFIC",
-    "subject": "Ultrasonic Theory",
+    "category": "Method",
+    "topic": "Ultrasonic Theory",
     "question": "The near surface resolution power of a standard UT system is determined by what?\n표준 UT 시스템의 표면 근처 분해능은 무엇에 의해 결정되는가?",
-    "question_kr": "표준 UT 시스템의 표면 근처 분해능은 무엇에 의해 결정되는가?",
     "options": [
       "By the UT instrument only\n초음파 장비만으로",
       "By the probe only\n탐촉자만으로",
       "By the length of the initial pulse\n초기 펄스의 길이로",
       "By the echo width\n에코의 폭으로"
     ],
-    "answer": 2,
-    "explanation": ""
+    "answer": 2
   },
   {
     "id": 25,
     "level": "Level III",
     "method": "UT",
-    "category": "SPECIFIC",
-    "subject": "Ultrasonic Theory",
+    "category": "Method",
+    "topic": "Ultrasonic Theory",
     "question": "An echo of 25% full screen height is shown. If gain is increased by 8 dB, what echo height is expected?\n25% 화면 높이 에코에서 게인을 8dB 증가시키면 예상되는 에코 높이는?",
-    "question_kr": "25% 화면 높이 에코에서 게인을 8dB 증가시키면 예상되는 에코 높이는?",
     "options": [
       "50% full screen height\n전체 화면높이의 50%",
       "About 63% full screen height\n전체 화면높이의 약 63%",
       "Cannot be determined\n판정할 수 없다",
       "100% full screen height\n전체 화면높이의 100%"
     ],
-    "answer": 1,
-    "explanation": ""
+    "answer": 1
   },
   {
     "id": 26,
     "level": "Level III",
     "method": "UT",
-    "category": "SPECIFIC",
-    "subject": "Immersion Technique",
+    "category": "Method",
+    "topic": "Immersion Technique",
     "question": "For a 15mm steel plate tested by immersion technique, what should be the minimum water delay path length in perpendicular direction?\n15mm 강판 수침법 검사 시 수직 입사 방향의 최소 물 지연 길이는?",
-    "question_kr": "15mm 강판 수침법 검사 시 수직 입사 방향의 최소 물 지연 길이는?",
     "options": [
       "2 mm",
       "4 mm",
       "15 mm",
       "60 mm"
     ],
-    "answer": 3,
-    "explanation": ""
+    "answer": 3
   },
   {
     "id": 27,
     "level": "Level III",
     "method": "UT",
-    "category": "SPECIFIC",
-    "subject": "UT Instrument",
+    "category": "Method",
+    "topic": "UT Instrument",
     "question": "Following calibration and during testing the only instrument adjustment permitted is:\n교정 후 시험 중 허용되는 유일한 장비 조정은?",
-    "question_kr": "교정 후 시험 중 허용되는 유일한 장비 조정은?",
     "options": [
       "Reject control\n리젝트 조정",
       "Horizontal sweep\n수평 소인",
       "Gain control or attenuator\n게인 조정 또는 감쇠기",
       "No adjustments are allowed\n어떤 조정도 허용되지 않는다"
     ],
-    "answer": 2,
-    "explanation": ""
+    "answer": 2
   },
   {
     "id": 28,
     "level": "Level III",
     "method": "UT",
-    "category": "SPECIFIC",
-    "subject": "Ultrasonic Theory",
+    "category": "Method",
+    "topic": "Ultrasonic Theory",
     "question": "A UT operator increased gain by 12dB. What was the amplification factor change?\n게인을 12dB 증가시켰을 때 증폭 인자의 변화량은?",
-    "question_kr": "게인을 12dB 증가시켰을 때 증폭 인자의 변화량은?",
     "options": [
       "2 times",
       "4 times",
       "12 times",
       "16 times"
     ],
-    "answer": 1,
-    "explanation": ""
+    "answer": 1
   },
   {
     "id": 29,
     "level": "Level III",
     "method": "UT",
-    "category": "SPECIFIC",
-    "subject": "Austenitic Weld Examination",
+    "category": "Method",
+    "topic": "Austenitic Weld Examination",
     "question": "How can scattered indications in austenitic welds be reduced?\n오스테나이트 용접부 산란 지시를 어떻게 감소시킬 수 있는가?",
-    "question_kr": "오스테나이트 용접부 산란 지시를 어떻게 감소시킬 수 있는가?",
     "options": [
       "Using probes with wider sound beam\n음빔이 더 넓은 탐촉자를 쓴다",
       "Grinding the surface\n표면을 연삭한다",
       "Increasing ultrasonic frequency\n초음파 주파수를 높인다",
       "Using longitudinal waves instead of transverse waves\n횡파 대신 종파를 쓴다"
     ],
-    "answer": 3,
-    "explanation": ""
+    "answer": 3
   },
   {
     "id": 30,
     "level": "Level III",
     "method": "UT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section VIII Div.2",
+    "category": "Method",
+    "topic": "ASME Section VIII Div.2",
     "question": "According to ASME Sec.VIII Div.2 para 7.5.5, what type of indication is shown?\nASME Sec.VIII Div.2 7.5.5항에 따른 지시 분류는?",
-    "question_kr": "ASME Sec.VIII Div.2 7.5.5항에 따른 지시 분류는?",
     "options": [
       "Surface indication\n표면 지시",
       "Subsurface indication categorized as surface flaw\n표면 결함으로 분류되는 표면하 지시",
@@ -513,68 +454,60 @@
       "Accept indication\n합격 지시"
     ],
     "answer": 1,
-    "explanation": "",
     "image": "UT_LEVEL3_V_Q30.png"
   },
   {
     "id": 31,
     "level": "Level III",
     "method": "UT",
-    "category": "SPECIFIC",
-    "subject": "ASME B31.1 Appendix O",
+    "category": "Method",
+    "topic": "ASME B31.1 Appendix O",
     "question": "A weld of 24 mm thickness was inspected by UT according to Appendix O. If the width of the indication is 1 mm, what is the length of the defect that is acceptable?\nASME B31.1 Appendix O에 따라 두께 24mm 용접부를 UT 검사하였다. 지시 폭이 1mm일 때 허용 가능한 결함 길이는?",
-    "question_kr": "ASME B31.1 Appendix O에 따라 두께 24mm 용접부를 UT 검사하였다. 지시 폭이 1mm일 때 허용 가능한 결함 길이는?",
     "options": [
       "4 mm",
       "6 mm",
       "All of above are accepted\n위의 모두 합격이다",
       "All of above are rejected\n위의 모두 불합격이다"
     ],
-    "answer": 2,
-    "explanation": ""
+    "answer": 2
   },
   {
     "id": 32,
     "level": "Level III",
     "method": "UT",
-    "category": "SPECIFIC",
-    "subject": "ASME B31.3 Appendix R",
+    "category": "Method",
+    "topic": "ASME B31.3 Appendix R",
     "question": "When inspecting according to ASME B31.3 Appendix R, on wall thickness 24mm, what is the maximum size of a surface notch that can be used for a qualification block?\nASME B31.3 Appendix R에 따라 두께 24mm 검사 시 인정시험편에 사용할 수 있는 표면 노치 최대 크기는?",
-    "question_kr": "ASME B31.3 Appendix R에 따라 두께 24mm 검사 시 인정시험편에 사용할 수 있는 표면 노치 최대 크기는?",
     "options": [
       "0.087mm high x 6.4mm long\n높이 0.087mm × 길이 6.4mm",
       "1.04mm high x 6.4mm long\n높이 1.04mm × 길이 6.4mm",
       "2.09mm high x 6.4mm long\n높이 2.09mm × 길이 6.4mm",
       "4.18mm high x 6.4mm long\n높이 4.18mm × 길이 6.4mm"
     ],
-    "answer": 1,
-    "explanation": ""
+    "answer": 1
   },
   {
     "id": 33,
     "level": "Level III",
     "method": "UT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section V Article 4 PAUT",
+    "category": "Method",
+    "topic": "ASME Section V Article 4 PAUT",
     "question": "What is the recommended minimum digitization rate for PAUT in Mandatory Appendix V of ASME Sec.V Art.4?\nASME Sec.V Art.4 Mandatory Appendix V에서 PAUT의 권장 최소 디지털화 속도는?",
-    "question_kr": "ASME Sec.V Art.4 Mandatory Appendix V에서 PAUT의 권장 최소 디지털화 속도는?",
     "options": [
       "3 times the examination frequency\n검사 주파수의 3배",
       "4 times the examination frequency\n검사 주파수의 4배",
       "5 times the examination frequency\n검사 주파수의 5배",
       "10 times the examination frequency\n검사 주파수의 10배"
     ],
-    "answer": 2,
-    "explanation": ""
+    "answer": 2
   },
   {
     "id": 34,
     "level": "Level III",
     "method": "UT",
-    "category": "SPECIFIC",
-    "subject": "Weld Defect Identification",
+    "category": "Method",
+    "topic": "Weld Defect Identification",
     "question": "What kind of defect is shown in the figure below?\n아래 그림은 어떤 종류의 결함인가?",
-    "question_kr": "아래 그림은 어떤 종류의 결함인가?",
     "options": [
       "Lack of root penetration\n루트 용입부족",
       "Base metal mismatch\n모재 어긋남",
@@ -582,17 +515,15 @@
       "Porosity\n기공"
     ],
     "answer": 2,
-    "explanation": "",
     "image": "UT_LEVEL3_V_Q34.png"
   },
   {
     "id": 35,
     "level": "Level III",
     "method": "UT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section VIII Div.2",
+    "category": "Method",
+    "topic": "ASME Section VIII Div.2",
     "question": "The indication length is 20mm and indication height is 10mm for inspection body thickness of 60mm. Choose the correct answer for 60% indicated sensitivity.\n검사체 두께 60mm, 지시 길이 20mm, 지시 높이 10mm일 때 60% 지시 감도 기준의 올바른 판정은?",
-    "question_kr": "검사체 두께 60mm, 지시 길이 20mm, 지시 높이 10mm일 때 60% 지시 감도 기준의 올바른 판정은?",
     "options": [
       "Accept\n합격",
       "Reject\n불합격",
@@ -600,28 +531,29 @@
       "It cannot be evaluated\n평가할 수 없다"
     ],
     "answer": 1,
-    "explanation": "",
     "image": "UT_LEVEL3_V_Q35.png"
   },
   {
     "id": 36,
     "level": "Level III",
     "method": "UT",
-    "category": "SPECIFIC",
-    "subject": "API 5L",
+    "category": "Method",
+    "topic": "API 5L",
     "question": "When ultrasonic testing EW seam welds, a notch is used as a reference indicator. What is the depth of the notch?\nAPI 5L에 따라 EW seam 용접부 UT 검사 시 대비 반사체로 사용하는 노치 깊이는?",
-    "question_kr": "API 5L에 따라 EW seam 용접부 UT 검사 시 대비 반사체로 사용하는 노치 깊이는?",
     "options": [
       "12.5% of thickness",
       "5% of thickness",
       "10% of thickness",
       "2% of thickness"
     ],
-    "answer": 2,
-    "explanation": ""
+    "answer": 2
   },
   {
     "id": 37,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "In an ultrasonic test system, where signal amplitudes are displayed on a CRT, an ______ advantage of a frequency independent attenuator over a continuously, variable gain ______ control is that:\n신호 진폭이 CRT에 표시되는 초음파 시험 시스템에서, 연속 가변식 이득 조정기에 비해 주파수 독립형 감쇠기가 갖는 장점은?",
     "options": [
       "the pulse shape distortion is less\n펄스 파형 일그러짐이 적다",
@@ -629,13 +561,14 @@
       "the dynamic range of the system is decreased\n계통의 동적범위가 줄어든다",
       "the effect of amplification threshold is avoided\n증폭 문턱값의 영향을 피할 수 있다"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 38,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "An amplifier, in which received echo pulses must exceed a certain voltage before they ______ can be indicated, might be used to:\n수신된 에코 펄스가 일정 전압을 넘어야만 표시되는 증폭기는 어떤 용도로 사용되는가?",
     "options": [
       "suppress amplifier noise, unimportant scatter echoes or small flaw echoes which are of no consequence.\n증폭기 잡음이나 중요치 않은 산란 에코, 무시해도 되는 작은 결함 에코를 억제한다",
@@ -643,13 +576,14 @@
       "compensate for the unavoidable effects of material attenuation losses\n피할 수 없는 재료 감쇠 손실을 보정한다",
       "provide distance-amplitude correction automatically\n거리진폭 보정을 자동으로 해준다"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 39,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "The intended purpose, of the adjustable, calibrated attenuator of an ultrasonic ______ instrument, is to:\n초음파 장비의 조정 가능한 교정된 감쇠기의 사용 목적은?",
     "options": [
       "control transducer damping\n탐촉자의 댐핑을 조절한다",
@@ -657,13 +591,14 @@
       "broaden the frequency range\n주파수 범위를 넓힌다",
       "attenuate the voltage applied to the transducer\n탐촉자에 걸리는 전압을 줄인다"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 40,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "The preferred method of ultrasonically inspecting a complex shaped forging:\n복잡한 형상의 단조품을 초음파로 검사할 때 선호되는 방법은?",
     "options": [
       "is an automated immersion test of the finished forging using an instrument containing a calibrated attenuator in conjunction with a c-scan recorder\n교정된 감쇠기가 있는 장비와 C-scan 기록계를 함께 써서 완성 단조품을 자동 수침 검사하는 것",
@@ -671,13 +606,14 @@
       "is a manual contact test of the finished part\n완성품을 수동 접촉법으로 검사하는 것",
       "is an automated immersion test of the billet prior to forging\n단조 전 빌릿을 자동 수침 검사하는 것"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 41,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "When maximum sensitivity is required from a transducer:\n탐촉자에서 최대 감도가 요구될 때는?",
     "options": [
       "a straight beam unit should be used\n수직 탐촉자를 써야 한다",
@@ -685,13 +621,14 @@
       "the piezoelectric element should be driven at its fundamental resonant frequency\n압전소자를 기본 공진주파수로 구동해야 한다",
       "the band width of the transducer should be as large as possible\n탐촉자의 대역폭이 가능한 한 넓어야 한다"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 42,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "The ability of a test system to separate the front surface echo and the echo from a ______ small discontinuity just below the surface:\n표면 바로 아래의 작은 불연속에서 오는 에코와 표면 에코를 분리해 내는 시험 시스템의 능력은?",
     "options": [
       "depends primarily upon the shape of the initial pulse from the transducer\n주로 탐촉자의 초기 펄스 파형에 좌우된다",
@@ -699,13 +636,14 @@
       "is primarily related to the thickness of the part under inspection\n주로 검사 부품의 두께와 관계있다",
       "is usually improved by using a larger diameter search unit\n보통 지름이 더 큰 탐촉자를 쓰면 좋아진다"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 43,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "Search unit sensitivity is most often determined by:\n탐촉자의 감도는 주로 무엇으로 결정되는가?",
     "options": [
       "calculations based on frequency and thickness of piezoelectric element\n압전소자의 주파수와 두께로 계산",
@@ -713,13 +651,14 @@
       "comparing it to a similar search unit made by the same manufacturer\n같은 제조사의 비슷한 탐촉자와 비교",
       "determining the ringing time of search unit\n탐촉자의 링잉 시간 측정"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 44,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "Notches provide good reference discontinuities when UT examination is conducted to ______ primarily detect defects such as:\n용입부족과 같은 결함을 주로 검출하기 위해 초음파탐상을 수행할 때, 좋은 대비 불연속이 되는 것은?",
     "options": [
       "porosity in rolled plate\n압연 강판의 기공",
@@ -727,13 +666,14 @@
       "weld porosity\n용접부 기공",
       "internal inclusions\n내부 개재물"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 45,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "The difference between a compression and shear wave is:\n종파와 횡파의 차이는?",
     "options": [
       "quantitative measure\n정량적 척도",
@@ -741,13 +681,14 @@
       "qualitative measure\n정성적 척도",
       "amplitude\n진폭"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 46,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "Based upon wave theory and ignoring attenuation losses, the echo amplitude is:\n파동 이론에 근거하고 감쇠 손실을 무시할 때, 에코 진폭은?",
     "options": [
       "directly proportional to the distance to the reflector\n반사체까지 거리에 비례한다",
@@ -755,13 +696,14 @@
       "directly proportional to the square of the distance to the reflector\n반사체까지 거리의 제곱에 비례한다",
       "inversely proportional to the square of the distance from the reflector\n반사체까지 거리의 제곱에 반비례한다"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 47,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "When contact testing, an increase in tightness of a shrink fit to a hollow shaft ______ will cause the ratio of the back reflection to the metal-to-metal interface ______ reflection to:\n직접접촉법 시험에서 중공축의 열박음 조임이 증가하면, 저면반사와 금속 간 계면 반사의 비는 어떻게 되는가?",
     "options": [
       "increase\n증가",
@@ -769,13 +711,14 @@
       "remain unchanged\n변하지 않는다",
       "cannot be predicted as the response is material dependent\n응답이 재료에 따라 달라 예측할 수 없다"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 48,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "As you increase the frequency of a given size transducer:\n같은 크기의 탐촉자에서 주파수를 높이면?",
     "options": [
       "the lateral resolution is impaired\n횡방향 분해능이 나빠진다",
@@ -783,13 +726,14 @@
       "the length of the near field increases\n근거리음장의 길이가 길어진다",
       "the sensitivity increases\n감도가 높아진다"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 49,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "Which frequency can best distinguish the difference between a large planar defect ______ and 4 stacked (multiple layered) laminations in rolled plate?\n압연 강판에서 큰 평면형 결함과 4겹으로 겹친 라미네이션을 가장 잘 구별할 수 있는 주파수는?",
     "options": [
       "0.5 MHz",
@@ -797,13 +741,14 @@
       "2.25 MHz",
       "5 MHz"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 50,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "In calibrating an ultrasonic test instrument utilizing the responses from each of ______ the area/amplitude type reference blocks, the determination of the:\n면적/진폭형 대비시험편 각각의 응답을 이용해 초음파 장비를 교정할 때, 무엇을 판정하는가?",
     "options": [
       "vertical range is obtained\n수직 범위를 얻는다",
@@ -811,13 +756,14 @@
       "resolving range is obtained\n분해 범위를 얻는다",
       "horizontal range is obtained\n수평 범위를 얻는다"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 51,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "Test sensitivity corrections for metal distance, and discontinuity area responses, ______ are accomplished by using:\n금속 거리와 불연속 면적에 따른 시험 감도 보정은 무엇을 사용해 이루어지는가?",
     "options": [
       "an area/amplitude set of blocks\n면적/진폭 시험편 세트",
@@ -825,13 +771,14 @@
       "a distance/amplitude set of blocks\n거리/진폭 시험편 세트",
       "steel balls of varying diameter\n지름이 다른 강구"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 52,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "Rough surfaces can cause undesirable effects, which are noticeable when parts are ______ tested ultrasonically, including:\n거친 표면은 초음파 시험 시 바람직하지 않은 영향을 주는데, 여기에 해당하는 것은?",
     "options": [
       "annular maxima rings\n고리 모양의 극대점",
@@ -839,13 +786,14 @@
       "acoustical mismatch\n음향 부정합",
       "asymmetrical modes\n비대칭 모드"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 53,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "Rough surfaces cause the echo amplitude from discontinuities within the part to:\n거친 표면은 시험체 내부 불연속에서 오는 에코 진폭을 어떻게 만드는가?",
     "options": [
       "increase\n증가",
@@ -853,13 +801,14 @@
       "not change\n변하지 않는다",
       "change frequency\n주파수가 바뀐다"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 54,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "To eliminate the decrease of sensitivity close to a wall which is parallel to the ______ beam direction, the probe used should be:\n빔 진행 방향과 나란한 벽면 근처에서 감도가 떨어지는 것을 없애려면 어떤 탐촉자를 써야 하는가?",
     "options": [
       "as small as possible\n가능한 한 작게",
@@ -867,13 +816,14 @@
       "Both 1 and 2 above\n1번과 2번 모두",
       "large and with a frequency as high as possible\n크고 주파수는 가능한 한 높게"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 55,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "Some information on the shape of a flaw may be given by:\n결함의 형상에 대한 정보를 얻을 수 있는 것은?",
     "options": [
       "the shape of the echo\n에코의 모양",
@@ -881,13 +831,14 @@
       "Both 1 and 2 above\n1번과 2번 모두",
       "Neither 1 nor 2 above\n1번도 2번도 아님"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 56,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "Of the transducer materials listed below, the most efficient receiver is:\n다음 탐촉자 재료 중 수신 효율이 가장 좋은 것은?",
     "options": [
       "quartz\n수정(quartz)",
@@ -895,13 +846,14 @@
       "barium titanate\n티탄산바륨",
       "lead meta-niobate\n메타니오브산납"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 57,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "The concentration of energy in the far field of a transducer beam:\n탐촉자 빔의 원거리음장에서 에너지 집중은?",
     "options": [
       "is greatest at the outer edges of the beam\n빔의 바깥쪽 가장자리에서 가장 크다",
@@ -909,13 +861,14 @@
       "is the same at the outer edges as in the center of the beam\n빔의 가장자리와 중심이 같다",
       "is directly proportional to beam width\n빔 폭에 비례한다"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 58,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "In angle beam shear wave testing, skip distance will _______ as the thickness of the test specimen is increased.\n사각 횡파 탐상에서 시험체의 두께가 증가하면 스킵거리는 어떻게 되는가?",
     "options": [
       "decrease\n감소",
@@ -923,13 +876,14 @@
       "increase\n증가",
       "decrease by half with double thickness\n두께가 2배가 되면 절반으로 줄어든다"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 59,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "The ability of transducers to detect echoes from small defects is a definition for:\n작은 결함에서 오는 에코를 검출하는 탐촉자의 능력을 무엇이라 하는가?",
     "options": [
       "resolution",
@@ -937,13 +891,14 @@
       "definition",
       "gain"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 60,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "In a water (VL= 1.5x105cm/sec) immersion test, ultrasonic energy is transmitted ______ into steel(VT= 3.2x105cm/sec) at an incident angle of 14°. What is the refracted ______ shear wave within the material?\n물(VL = 1.5×10⁵ cm/sec) 수침 시험에서 입사각 14°로 강(VT = 3.2×10⁵ cm/sec)에 초음파 에너지가 입사될 때, 재료 내 굴절 횡파의 각도는?",
     "options": [
       "13°",
@@ -951,13 +906,14 @@
       "31°",
       "53°"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 61,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "The principal attributes, that determine the differences in ultrasonic velocities ______ among materials, are:\n재료마다 초음파 속도가 다른 것을 결정짓는 주된 성질은?",
     "options": [
       "frequency and wavelength\n주파수와 파장",
@@ -965,13 +921,14 @@
       "elasticity and density\n탄성과 밀도",
       "chemistry and permeability\n화학 조성과 투자율"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 62,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "The term that is used to determine the relative transmittance and reflectance of ______ ultrasonic energy at an interface is called:\n계면에서 초음파 에너지의 상대적 투과율과 반사율을 결정하는 데 쓰이는 용어는?",
     "options": [
       "acoustic attenuation\n음향 감쇠",
@@ -979,13 +936,14 @@
       "acoustic impedance ratio\n음향 임피던스 비",
       "acoustic frequency\n음향 주파수"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 63,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "In general, when a discontinuity is thin, it is a poor reflector. The maximum ______ reflection is obtained when the thickness of the discontinuity is equal to at ______ least:\n일반적으로 불연속이 얇으면 반사가 나쁘다. 최대 반사를 얻으려면 불연속의 두께가 최소 얼마여야 하는가?",
     "options": [
       "one-quarter wavelength\n1/4 파장",
@@ -993,13 +951,14 @@
       "one wavelength\n1 파장",
       "even multiples of one-half wavelength\n1/2 파장의 짝수 배"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 64,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "When angle beam contact testing a test piece, increasing the incident angle until ______ the second critical angle is reached, results in:\n시험체를 사각 직접접촉법으로 탐상할 때, 제2 임계각에 이를 때까지 입사각을 키우면 어떻게 되는가?",
     "options": [
       "total reflection of a surface wave\n표면파의 전반사",
@@ -1007,13 +966,14 @@
       "production of a surface wave\n표면파의 발생",
       "none of the above\n위의 어느 것도 아님"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 65,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "It is possible for a discontinuity, smaller than the transducer, to produce ______ indications of fluctuating amplitude as the search unit is moved laterally if ______ testing is being performed in the:\n탐촉자보다 작은 불연속이 탐촉자를 옆으로 움직일 때 진폭이 변동하는 지시를 나타낼 수 있는 경우는?",
     "options": [
       "Fraunhofer zone\n프라운호퍼 영역(원거리음장)",
@@ -1021,13 +981,14 @@
       "Snell field\n스넬 영역",
       "shadow zone\n그림자 영역"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 66,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "In an immersion test of a piece of steel or aluminum, the water distance appears on ______ the display as a fairly wide space between the initial pulse and the front surface ______ reflection because of:\n강이나 알루미늄 시험편의 수침 탐상에서, 초기 펄스와 표면 반사 사이에 수거리가 상당히 넓게 나타나는 이유는?",
     "options": [
       "reduced velocity of sound in water as compared to test specimen\n시험체에 비해 물속 음속이 느린 것",
@@ -1035,13 +996,14 @@
       "temperature of the wave\n파동의 온도",
       "all of the above\n위의 모두"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 67,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "In the immersion technique, the distance between the face of the transducer and the ______ test surface(water path) is usually adjusted so that the time required to send the ______ sound beam through the water:\n수침법에서 탐촉자 면과 시험 표면 사이의 거리(수거리)는 보통 어떻게 조정하는가?",
     "options": [
       "is equal to the time required for the sound to travel through the test piece\n음파가 시험체를 통과하는 데 걸리는 시간과 같다",
@@ -1049,13 +1011,14 @@
       "is less than the time required for the sound to travel through the test piece\n음파가 시험체를 통과하는 데 걸리는 시간보다 짧다",
       "None of the above\n위의 어느 것도 아님"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 68,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "In immersion testing in a small tank, a manually operated manipulator is used to:\n작은 수조에서 수침 탐상할 때 수동 조작기는 어떤 용도로 쓰이는가?",
     "options": [
       "set the proper water path\n적절한 수거리를 맞춘다",
@@ -1063,13 +1026,14 @@
       "set the proper index function\n적절한 인덱스 위치를 맞춘다",
       "Both 1 and 2\n1번과 2번 모두"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 69,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "A primary purpose of a reference standard is:\n대비시험편의 주된 목적은?",
     "options": [
       "to provide a guide for adjusting instrument controls to reveal discontinuities that are considered harmful to the end use of the product\n제품의 최종 용도에 해로운 불연속이 드러나도록 장비를 조정하는 기준을 주기 위해",
@@ -1077,13 +1041,14 @@
       "to provide assurance that all discontinuities, smaller than a certain specified reference reflector, are capable of being detected by the test\n정해진 대비반사체보다 작은 모든 불연속이 검출될 수 있음을 보증하기 위해",
       "to provide a standard reflector which exactly simulates natural discontinuities of a critical size\n임계 크기의 자연 불연속을 정확히 모사하는 표준 반사체를 주기 위해"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 70,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "A smooth, flat discontinuity, whose major plane is not perpendicular to the ______ direction of sound propagation, may be indicated by:\n주된 평면이 음파 진행 방향과 수직이 아닌 매끄럽고 평평한 불연속은 무엇으로 나타날 수 있는가?",
     "options": [
       "an echo amplitude comparable in magnitude to the back surface reflection\n저면반사와 비슷한 크기의 에코 진폭",
@@ -1091,13 +1056,14 @@
       "an echo amplitude larger in magnitude than the back surface reflection\n저면반사보다 큰 에코 진폭",
       "all of the above\n위의 모두"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 71,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "Attenuation is a difficult quantity to measure accurately, particularly in solid ______ materials at the test frequencies normally used. The overall result usually ______ observed includes other loss mechanisms which can include:\n감쇠는 정확히 측정하기 어려운 양이며, 특히 통상 사용하는 시험 주파수에서 고체 재료의 경우 그렇다. 관측되는 전체 결과에 함께 포함되는 손실 기구는?",
     "options": [
       "beam spread\n빔 확산",
@@ -1105,13 +1071,14 @@
       "test piece geometry\n시험체의 형상",
       "all of the above\n위의 모두"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 72,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "The attenuation of energy within a material in the far field of the ultrasonic beam ______ may be expressed as the:\n초음파 빔의 원거리음장에서 재료 내 에너지 감쇠는 무엇으로 나타낼 수 있는가?",
     "options": [
       "arithmetic mean\n산술 평균",
@@ -1119,13 +1086,14 @@
       "exponential average\n지수 평균",
       "exponential decay\n지수 감쇠"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 73,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "In an immersion inspection of raw material, the water travel distance should be:\n원자재를 수침 탐상할 때 수거리는 어떠해야 하는가?",
     "options": [
       "exactly 3 inches\n정확히 3인치",
@@ -1133,13 +1101,14 @@
       "equal to the water travel distance used in setting up on the reference standards\n대비시험편에서 설정할 때 쓴 수거리와 같게",
       "equal to the thickness of the material\n재료의 두께와 같게"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 74,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "The angle of reflection is:\n반사각은?",
     "options": [
       "equal to the angle of incidence\n입사각과 같다",
@@ -1147,13 +1116,14 @@
       "dependent on the frequency used\n사용한 주파수에 따라 달라진다",
       "equal to the angle of refraction\n굴절각과 같다"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 75,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "The coated, inside surface of the large and of a cathode-ray tube, which becomes ______ luminous when struck by an electron beam, is called:\n음극선관 큰 쪽 안쪽 면에 발라져 전자빔이 부딪히면 빛을 내는 물질을 무엇이라 하는가?",
     "options": [
       "an electron gun\n전자총",
@@ -1161,13 +1131,14 @@
       "a CRT screen\nCRT 화면",
       "an electron counter\n전자 계수기"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 76,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "The speed with which ultrasonic waves travel through a material is known as its:\n초음파가 재료를 통과하는 속도를 무엇이라 하는가?",
     "options": [
       "velocity of sound energy\n음향 에너지의 속도",
@@ -1175,13 +1146,14 @@
       "pulse recovery rate of sound energy\n음향 에너지의 펄스 회복률",
       "ultrasonic response of sound energy\n음향 에너지의 초음파 응답"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 77,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "The amount of energy reflected from a discontinuity will be dependent on:\n불연속에서 반사되는 에너지의 양은 무엇에 좌우되는가?",
     "options": [
       "the size of the discontinuity\n불연속의 크기",
@@ -1189,13 +1161,14 @@
       "the type of discontinuity\n불연속의 종류",
       "all of the above\n위의 모두"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 78,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "The angle of reflection of an ultrasonic beam at an aluminum-water interface is:\n알루미늄-물 계면에서 초음파 빔의 반사각은?",
     "options": [
       "approximately ½ the angle of incidence\n입사각의 약 1/2",
@@ -1203,13 +1176,14 @@
       "equal to the angle of incidence\n입사각과 같다",
       "0.256 times the angle of incidence\n입사각의 0.256배"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 79,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "Significant errors in ultrasonic thickness measurement can occur if:\n초음파 두께 측정에서 큰 오차가 생길 수 있는 경우는?",
     "options": [
       "the test frequency is varying at a constant rate\n시험 주파수가 일정한 비율로 변할 때",
@@ -1217,13 +1191,14 @@
       "water is employed as a couplant between the transducer and the part being measured\n탐촉자와 측정 부품 사이에 물을 접촉매질로 쓸 때",
       "None of the above should cause errors\n위의 어느 것도 오차를 일으키지 않는다"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 80,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "In a basic plus-echo ultrasonic instrument, the component that coordinates the ______ action and timing of other components is called a:\n기본 펄스-에코 초음파 장비에서 다른 구성품의 동작과 시간을 조율하는 부품을 무엇이라 하는가?",
     "options": [
       "display unit or CRT\n표시부 또는 CRT",
@@ -1231,13 +1206,14 @@
       "marker circuit or range marker circuit\n마커 회로 또는 범위 마커 회로",
       "synchronizer, clock or timer\n동기부, 클록 또는 타이머"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 81,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "The incident angles, at which 90°refraction of longitudinal and shear waves ______ occurs, are called:\n종파와 횡파가 90°로 굴절되는 입사각을 무엇이라 하는가?",
     "options": [
       "the normal angles of incidence\n수직 입사각",
@@ -1245,13 +1221,14 @@
       "the angles of maximum reflection\n최대 반사각",
       "none of the above\n위의 어느 것도 아님"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 82,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "In contact testing, shear waves can be induced in the test material by:\n직접접촉법에서 시험 재료에 횡파를 발생시키는 방법은?",
     "options": [
       "placing a X-cut crystal directly on the surface of the materials and coupling through a film of oil\nX컷 진동자를 재료 표면에 직접 놓고 유막으로 접촉시킨다",
@@ -1259,13 +1236,14 @@
       "placing a spherical, acoustic lens on the face of the transducer\n탐촉자 면에 구면 음향렌즈를 붙인다",
       "using a transducer mounted on a plastic wedge so that sound enters the part at an angle\n플라스틱 웨지에 탐촉자를 붙여 음파가 비스듬히 들어가게 한다"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 83,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "In ASME Section Ⅲ, Subsection NF, examination of Class-a bolts over 4 inches shall ______ be performed at a nominal frequency of:\nASME Section Ⅲ, Subsection NF에서 4인치를 넘는 Class-a 볼트의 검사는 어떤 공칭 주파수로 수행해야 하는가?",
     "options": [
       "5 MHz",
@@ -1273,13 +1251,14 @@
       "2.5 MHz",
       "2.25 MHz"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 84,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "ASME Section Ⅲ, Subsection NB, states that when examining plate, the minimum ______ scanning overlap shall be:\nASME Section Ⅲ, Subsection NB에 따르면 판재를 검사할 때 최소 주사 중첩량은?",
     "options": [
       "½ inch\n1/2인치",
@@ -1287,13 +1266,14 @@
       "10 percent\n10%",
       "None required\n필요 없음"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 85,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "In ASME Section Ⅲ, Subsection NB, all forgings in the rough forged or finished ______ condition shall be examined in accordance with:\nASME Section Ⅲ, Subsection NB에서 황단조 또는 완성 상태의 모든 단조품은 무엇에 따라 검사해야 하는가?",
     "options": [
       "Article XVI",
@@ -1301,13 +1281,14 @@
       "SA-387",
       "SA-388"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 86,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "For ultrasonic examination of forgings in accordance with SA-388, the straight ______ beam transducer shall be:\nSA-388에 따라 단조품을 초음파 검사할 때 수직 탐촉자는 어떠해야 하는가?",
     "options": [
       "1 inch diameter\n지름 1인치",
@@ -1315,13 +1296,14 @@
       "1 inch square\n한 변 1인치 정사각형",
       "Any of the above\n위의 어느 것이든"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 87,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "ASME Section Ⅷ, Division I, requires that discontinuity indications in welds that exceed __________ be recorded.\nASME Section Ⅷ, Division I에서는 용접부의 불연속 지시가 무엇을 초과하면 기록하도록 요구하는가?",
     "options": [
       "20 percent of the reference level\n기준레벨의 20%",
@@ -1329,13 +1311,14 @@
       "75 percent of the reference level\n기준레벨의 75%",
       "80 percent of the reference level\n기준레벨의 80%"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 88,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "Ultrasonic examination of welds per ASME B31.3 shall be in accordance with ______ .\nASME B31.3에 따른 용접부 초음파 검사는 무엇에 따라야 하는가?",
     "options": [
       "ASME Section Ⅲ",
@@ -1343,13 +1326,14 @@
       "ASME Section Ⅷ",
       "ASME Section XI"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 89,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "In AWS D1.1, the horizontal linearity of the ultrasonic test instrument shall be within ± ________ percent over 90 percent of the linear range.\nAWS D1.1에서 초음파 장비의 수평 직선성은 직선 범위의 90% 구간에서 ±몇 % 이내여야 하는가?",
     "options": [
       "5",
@@ -1357,13 +1341,14 @@
       "2",
       "100"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 90,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "AWS D1.1 requires that the dynamic range of the instrument's CRT display shall be such that a difference of ________ dB of amplitude can be easily detected on the CRT.\nAWS D1.1은 장비 CRT 화면의 동적범위가 몇 dB의 진폭 차이를 쉽게 식별할 수 있어야 한다고 요구하는가?",
     "options": [
       "10",
@@ -1371,13 +1356,14 @@
       "5",
       "None of the above\n위의 어느 것도 아님"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 91,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "Angle beam search units, used in accordance with AWS D1.1, shall be marked to ______ indicate :\nAWS D1.1에 따라 사용하는 사각 탐촉자에는 무엇을 표시해야 하는가?",
     "options": [
       "Index point\n입사점",
@@ -1388,25 +1374,27 @@
     "answer": [
       0,
       1
-    ],
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    ]
   },
   {
     "id": 92,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "An indication, whose response is 20 percent of the reference level, with a length of 1/2 inch was found in a one inch butt weld . In accordance with ASME SectionⅢ, Div. 1 Subsection NE, this indication is unacceptable. True : ___________________ False : ___________________\n1인치 맞대기 용접부에서 기준레벨의 20% 응답에 길이 1/2인치인 지시가 발견되었다. ASME Section Ⅲ, Div.1 Subsection NE에 따르면 이 지시는 불합격이다.",
     "options": [
       "True",
       "False"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 93,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "In AWS D1.1, the search unit shall produce a sound beam in the material being tested within ± ________ degree(s) of the following proper angles.\nAWS D1.1에서 탐촉자는 시험 재료 안에서 규정 각도의 ±몇 도 이내로 음빔을 발생시켜야 하는가?",
     "options": [
       "3",
@@ -1414,13 +1402,14 @@
       "5",
       "2"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 94,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "In accordance with AWS D1.1, each angle beam search unit shall be checked after each _________ of use to determine that the beam angle is within the permitted tolerance.\nAWS D1.1에 따라 각 사각 탐촉자는 빔 각도가 허용 공차 안에 있는지 확인하기 위해 얼마마다 점검해야 하는가?",
     "options": [
       "4 hours",
@@ -1428,49 +1417,53 @@
       "8 hours",
       "40 hours"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 95,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "In accordance with ASME Section Ⅲ, Division 1 Subsection NG, plates used for core structures with thicknesses greater than 3/4 inch, shall use the acceptance standards of SA-578. True : ___________________ False : ___________________\nASME Section Ⅲ, Division 1 Subsection NG에 따르면 두께 3/4인치를 넘는 노심 구조용 판재는 SA-578의 합격기준을 적용해야 한다.",
     "options": [
       "True",
       "False"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 96,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "In accordance with ASME SectionⅠ, Ultrasonic examination is not required for electroslag welds in ferritic materials. True : ___________________ False : ___________________\nASME Section Ⅰ에 따르면 페라이트계 재료의 일렉트로슬래그 용접부에는 초음파 검사가 요구되지 않는다.",
     "options": [
       "True",
       "False"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 97,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "In accordance with ASME B31.1, Ultrasonic examination is not required for welds.\nASME B31.1에 따르면 용접부에 초음파검사는 요구되지 않는다.",
     "options": [
       "True",
       "False"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 98,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "Reference standards (calibration blocks) are to be constructed from materials ______ that ______.\n대비시험편(교정 블록)은 어떤 재료로 제작해야 하는가?",
     "options": [
       "came from the same heat as the test parts\n시험 부품과 같은 용해 로트에서 나온 것",
@@ -1479,13 +1472,14 @@
       "are of the same thickness as the test parts\n시험 부품과 두께가 같은 것"
     ],
     "answer": 2,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP",
     "groupNote": "The following questions pertain to requirements in ASME Section Ⅴ, Article 5.\n다음 문항은 ASME Section Ⅴ, Article 5 요구사항에 관한 것입니다."
   },
   {
     "id": 99,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "Personnel conducting UT shall be certified in accordance with ______.\n초음파 검사를 수행하는 요원은 무엇에 따라 자격을 인증받아야 하는가?",
     "options": [
       "SNT-TC-1a",
@@ -1494,13 +1488,14 @@
       "the Code of Ethics for ASME\nASME 윤리강령"
     ],
     "answer": 1,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP",
     "groupNote": "The following questions pertain to requirements in ASME Section Ⅴ, Article 5.\n다음 문항은 ASME Section Ⅴ, Article 5 요구사항에 관한 것입니다."
   },
   {
     "id": 100,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "The calibration blocks for L-wave testing of castings shall use SDHs as shown in ______.\n주조품의 종파 탐상용 교정 블록은 어디에 제시된 대로 측면 구멍(SDH)을 사용해야 하는가?",
     "options": [
       "IIW block\nIIW 시험편",
@@ -1509,13 +1504,14 @@
       "none of the above\n위의 어느 것도 아님"
     ],
     "answer": 3,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP",
     "groupNote": "The following questions pertain to requirements in ASME Section Ⅴ, Article 5.\n다음 문항은 ASME Section Ⅴ, Article 5 요구사항에 관한 것입니다."
   },
   {
     "id": 101,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "Scanning practices call for transducer positions to ______.\n주사 방법에서 탐촉자 위치는 어떻게 하도록 규정하는가?",
     "options": [
       "be from two orthogonal directions\n서로 직교하는 두 방향에서 할 것",
@@ -1524,13 +1520,14 @@
       "none of the above\n위의 어느 것도 아님"
     ],
     "answer": 1,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP",
     "groupNote": "The following questions pertain to requirements in ASME Section Ⅴ, Article 5.\n다음 문항은 ASME Section Ⅴ, Article 5 요구사항에 관한 것입니다."
   },
   {
     "id": 102,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "Several screen height linearity checks yielded the half amplitude results listed ______ below for initial setting of 100,80,60,40, and 20 percent FSH. which set of ______ readings (%FSH) is considered out of calibration?\n화면 높이 직선성 점검에서 초기 설정 100, 80, 60, 40, 20 %FSH에 대해 아래와 같은 절반 진폭 결과를 얻었다. 교정을 벗어난 것으로 보는 측정값(%FSH)은?",
     "options": [
       "54, 42, 27, 19, 9",
@@ -1539,13 +1536,14 @@
       "45, 44, 33, 18, 9"
     ],
     "answer": 1,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP",
     "groupNote": "The following questions pertain to requirements in ASME Section Ⅴ, Article 5.\n다음 문항은 ASME Section Ⅴ, Article 5 요구사항에 관한 것입니다."
   },
   {
     "id": 103,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "(ASME Section Ⅷ-Div.1) - What are the three indications that are unacceptable regardless of length?\n(ASME Section Ⅷ-Div.1) 길이와 관계없이 불합격인 세 가지 지시는?",
     "options": [
       "Cracks, lack of fusion, and incomplete penetration\n균열, 융합불량, 용입부족",
@@ -1554,13 +1552,14 @@
       "Arc strikes, spatter, and overlap\n아크 스트라이크, 스패터, 오버랩"
     ],
     "answer": 0,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP",
     "groupNote": "* Question pertain to requirement in ASME Section Ⅷ.\n(다음 문제는 ASME Sec.Ⅷ 의 요구사항에 따라 답하시오.)"
   },
   {
     "id": 104,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "(ASME Section Ⅷ-Div.1) - What may be used to fulfill the examination and demonstration requirements of SNT-TC-1A and the employer's written practice?\n(ASME Section Ⅷ-Div.1) SNT-TC-1A와 사업주 절차서의 시험 및 실기 요구사항을 충족하는 데 사용할 수 있는 것은?",
     "options": [
       "ACCP and CP-189\nACCP와 CP-189",
@@ -1569,26 +1568,28 @@
       "ASME Section Ⅴ, Article 5"
     ],
     "answer": 0,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP",
     "groupNote": "* Question pertain to requirement in ASME Section Ⅷ.\n(다음 문제는 ASME Sec.Ⅷ 의 요구사항에 따라 답하시오.)"
   },
   {
     "id": 105,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "(ASME Section Ⅷ-Div.1) - For 30 mm thickness of weld metal, the indication has 25% amplitude and has 12 mm length. The weld is : Accpetable________Unacceptable________\n(ASME Section Ⅷ-Div.1) 두께 30mm 용접금속에서 지시의 진폭이 25%이고 길이가 12mm이다. 이 용접부는?",
     "options": [
       "Acceptable",
       "Unacceptable"
     ],
     "answer": 1,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP",
     "groupNote": "* Question pertain to requirement in ASME Section Ⅷ.\n(다음 문제는 ASME Sec.Ⅷ 의 요구사항에 따라 답하시오.)"
   },
   {
     "id": 106,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "(ASME Section Ⅷ-Div.2) - The manufacturer shall maintain a record from uncorrected areas having responses that exceed ________.\n(ASME Section Ⅷ-Div.2) 제조자는 무엇을 초과하는 응답을 보이는 미보수 부위의 기록을 유지해야 하는가?",
     "options": [
       "20 percent of the reference level\n기준레벨의 20%",
@@ -1597,13 +1598,14 @@
       "80 percent of the reference level\n기준레벨의 80%"
     ],
     "answer": 1,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP",
     "groupNote": "* Question pertain to requirement in ASME Section Ⅷ.\n(다음 문제는 ASME Sec.Ⅷ 의 요구사항에 따라 답하시오.)"
   },
   {
     "id": 107,
+    "level": "Level III",
+    "method": "UT",
+    "category": "Method",
+    "source": "UTM-III.HWP",
     "question": "(ASME Section Ⅷ-Div.2) - For UT in lieu of RT, the subsurface flaw length shall not exceed ________.\n(ASME Section Ⅷ-Div.2) RT 대신 UT를 적용할 때 표면하 결함의 길이는 무엇을 초과해서는 안 되는가?",
     "options": [
       "t",
@@ -1612,9 +1614,6 @@
       "4t"
     ],
     "answer": 3,
-    "level": "Level III",
-    "method": "UT",
-    "source": "UTM-III.HWP",
     "groupNote": "* Question pertain to requirement in ASME Section Ⅷ.\n(다음 문제는 ASME Sec.Ⅷ 의 요구사항에 따라 답하시오.)"
   }
 ]

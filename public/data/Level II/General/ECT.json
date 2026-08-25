@@ -1,6 +1,9 @@
 [
   {
     "id": 1,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "A test specimen used as a basis for calibrating test equipment or as a comparison when evaluating test results is referred to as a:\n\n시험 장비의 교정을 위해 기본으로 사용되거나 시험 결과 평가 시 비교 기준으로 사용되는 시험 시편은?",
     "options": [
       "null-balancer\n널 밸런서",
@@ -12,6 +15,9 @@
   },
   {
     "id": 2,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "IACS is a recognized abbreviation for:\n\nIACS는 다음 중 무엇의 약자인가?",
     "options": [
       "Induced Alternating Current System\n유도 교류 시스템",
@@ -23,6 +29,9 @@
   },
   {
     "id": 3,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "Which of the following would normally be considered the best fill factor when testing straight tubing with an encircling or feedthrough coil?\n\n내삽코일 또는 외삽코일을 사용하여 직관 튜브 시험 시 일반적으로 가장 좋은 충진율은?",
     "options": [
       "95%",
@@ -34,6 +43,9 @@
   },
   {
     "id": 4,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "The fill factor when a 13mm diameter bar is inserted in a 25mm diameter coil is:\n\n직경 13mm 봉이 직경 25mm 코일 내부에 위치할 때 충진율은?",
     "options": [
       "50%",
@@ -45,6 +57,9 @@
   },
   {
     "id": 5,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "Which of the following could be used to suppress unwanted high-frequency harmonics?\n\n높은 주파수에서 불필요한 고조파를 억제하는 데 사용하는 것은?",
     "options": [
       "low-pass filter\n저역 통과 필터",
@@ -56,6 +71,9 @@
   },
   {
     "id": 6,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "Which of the following methods may be used to improve the signal-to-noise ratio of an eddy current test system?\n\n와전류 시험 시스템의 신호 대 잡음비(S/N)를 향상시키는 방법은?",
     "options": [
       "filtering or differentiation\n필터링 또는 미분",
@@ -67,6 +85,9 @@
   },
   {
     "id": 7,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "When testing by the eddy current method, discontinuities will be most easily detected when the eddy currents are:\n\n와전류 시험에서 불연속은 와전류가 어떠할 때 가장 쉽게 검출되는가?",
     "options": [
       "coplanar with the major plane of the discontinuity\n불연속 주 평면과 동일 평면상",
@@ -78,6 +99,9 @@
   },
   {
     "id": 8,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "The inductive reactance of a test coil can be calculated using the formula:\n\n시험 코일의 유도 리액턴스를 계산하는 공식은?",
     "options": [
       "XL = 2πL",
@@ -89,6 +113,9 @@
   },
   {
     "id": 9,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "Eddy current testing relies on the principle of:\n\n와전류 시험은 어떤 원리를 이용하는가?",
     "options": [
       "magnetostriction\n자기변형",
@@ -100,6 +127,9 @@
   },
   {
     "id": 10,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "Double the number of turns on a coil will:\n\n코일 권선 수를 두 배로 하면?",
     "options": [
       "double the inductance\n인덕턴스가 두 배 증가",
@@ -111,6 +141,9 @@
   },
   {
     "id": 11,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "If the characteristic frequency(fg) of a material is 125Hz, the test frequency required to give an f/fg ratio of 10 would be:\n\n재질의 특성 주파수(fg)가 125Hz이고 f/fg 비가 10일 때 필요한 시험 주파수는?",
     "options": [
       "1.25Hz",
@@ -122,6 +155,9 @@
   },
   {
     "id": 12,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "A term used to define any change in a sinusoidal signal when the output is not a linear reproduction of the input is:\n\n입력 신호가 출력에서 선형적으로 재현되지 않을 때 발생하는 변화를 정의하는 용어는?",
     "options": [
       "distortion\n왜곡",
@@ -133,6 +169,9 @@
   },
   {
     "id": 13,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "If the test frequency increases while the field strength is held constant, the surface eddy current density:\n\n자장 강도가 일정한 상태에서 시험 주파수가 증가하면 표면 와전류 밀도는?",
     "options": [
       "decrease\n감소",
@@ -144,6 +183,9 @@
   },
   {
     "id": 14,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "To eliminate any dependence upon the number of turns of a test coil, the inductance values of an impedance diagram are:\n\n시험 코일 권선 수에 대한 의존성을 제거하기 위해 임피던스 도표의 인덕턴스 값은?",
     "options": [
       "disregarded\n무시된다",
@@ -155,6 +197,9 @@
   },
   {
     "id": 15,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "The atoms of a metal showing magnetic characteristics are grouped into regions that are the smallest known permanent magnets. These regions are called:\n\n자기 특성을 가진 금속 원자들이 모여 있는 가장 작은 영구자석 영역은?",
     "options": [
       "lattice structures\n격자 구조",
@@ -166,6 +211,9 @@
   },
   {
     "id": 16,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "The flux density in a magnetic material is usually designated by the:\n\n자성 재료의 자속 밀도를 나타내는 기호는?",
     "options": [
       "symbol μ\n투자율 기호 μ",
@@ -177,6 +225,9 @@
   },
   {
     "id": 17,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "The magnetizing force of an eddy current test coil is usually designated by the:\n\n와전류 시험 코일의 자화력을 나타내는 기호는?",
     "options": [
       "symbol μ\n기호 μ",
@@ -188,6 +239,9 @@
   },
   {
     "id": 18,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "In eddy current testing, the specimen is coupled to the test coil by:\n\n와전류 시험에서 시험편은 시험 코일과 무엇으로 결합되는가?",
     "options": [
       "core coupling\n코어 결합",
@@ -199,6 +253,9 @@
   },
   {
     "id": 19,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "The thickness of nonconductive coating on a conductive base can be most simply measured by:\n\n도전성 기판 위의 비전도성 코팅 두께를 가장 간단히 측정하는 방법은?",
     "options": [
       "observing the lift-off effect caused by the coating\n코팅에 의한 리프트오프 효과 관찰",
@@ -210,6 +267,9 @@
   },
   {
     "id": 20,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "The formula used to calculate the impedance of an eddy current test coil is:\n\n와전류 시험 코일의 임피던스 계산 공식은?",
     "options": [
       "Z = 2πfL",
@@ -221,6 +281,9 @@
   },
   {
     "id": 21,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "A term used to define a surface coil mounted so that the coil can be rotated about the circumference of a test specimen is:\n\n시험 시편의 원주 방향으로 회전할 수 있도록 장착된 표면 코일을 정의하는 용어는?",
     "options": [
       "bobbin coil\n보빈 코일",
@@ -232,6 +295,9 @@
   },
   {
     "id": 22,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "The vector-point, ellipse, and linear time-base methods are subdivision of the:\n\n벡터 포인트법, 타원법, 선형 시간축법은 무엇의 세분화 방법인가?",
     "options": [
       "impedance method of testing\n임피던스 시험 방법",
@@ -243,6 +309,9 @@
   },
   {
     "id": 23,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "When eddy current testing by the linear time-base method, when the specimen and reference standard are the same and balance controls are properly adjusted, the vertical deflection plates receive:\n\n선형 시간축 방식 와전류 시험에서 시험편과 기준 시편이 동일하고 균형 조정이 올바르면 수직 편향판에 적용되는 것은?",
     "options": [
       "a sinusoidal wave in phase with the timing voltage\n타이밍 전압과 위상이 같은 사인파",
@@ -254,6 +323,9 @@
   },
   {
     "id": 24,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "A term used to define the timing relationships involved in alternating current signals is:\n\n교류 신호에서 시간 관계를 정의하는 용어는?",
     "options": [
       "magnitude\n크기",
@@ -265,6 +337,9 @@
   },
   {
     "id": 25,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "The inductive reactance of a coil is measured in units of:\n\n코일의 유도 리액턴스는 어떤 단위로 측정되는가?",
     "options": [
       "mhos\n모(mho)",
@@ -276,6 +351,9 @@
   },
   {
     "id": 26,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "A term used to define a material having a permeability less than that of a vacuum is:\n\n진공보다 낮은 투자율을 가진 재료를 정의하는 용어는?",
     "options": [
       "diamagnetic\n반자성",
@@ -287,6 +365,9 @@
   },
   {
     "id": 27,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "When testing ferrous materials, flux that passes outside the metal when a surface discontinuity is encountered is called:\n\n자성체 시험에서 표면 불연속을 만났을 때 금속 외부로 빠져나오는 자속은?",
     "options": [
       "air flux\n공기 자속",
@@ -298,6 +379,9 @@
   },
   {
     "id": 28,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "In Fig, H represents:\n\n그림에서 H가 나타내는 것은?",
     "options": [
       "the coil's magnetizing force\n코일의 자화력",
@@ -310,6 +394,9 @@
   },
   {
     "id": 29,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "In Fig, B represents:\n\n그림에서 B가 나타내는 것은?",
     "options": [
       "the coil's magnetizing force\n코일의 자화력",
@@ -322,6 +409,9 @@
   },
   {
     "id": 30,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "The distance represented by A is a measure of the material's:\n\n그림에서 A로 표시된 거리는 재료의 무엇을 측정하는가?",
     "options": [
       "permeability\n투자율",
@@ -334,6 +424,9 @@
   },
   {
     "id": 31,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "In Fig, the distance represented by C is a measure of the material's:\n\n그림에서 C로 나타나는 거리는 물질의 무엇을 측정한 것인가?",
     "options": [
       "permeability\n투자율",
@@ -346,6 +439,9 @@
   },
   {
     "id": 32,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "The symbol commonly used to signify impedance is:\n\n임피던스를 의미하는데 일반적으로 사용되는 기호는?",
     "options": [
       "Z",
@@ -357,6 +453,9 @@
   },
   {
     "id": 33,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "The magnetic field generated by eddy currents induced in a test specimen:\n\n와전류에 의해 생성된 자기장은 시험편에서 어떻게 되는가?",
     "options": [
       "opposes the magnetic field that induced the eddy currents\n와전류를 유도한 자기장에 대항한다",
@@ -368,6 +467,9 @@
   },
   {
     "id": 34,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "The impedance of a test coil usually can be represented by the vector sum of:\n\n시험 코일의 임피던스는 대체로 어느 것의 벡터합으로 나타낼 수 있는가?",
     "options": [
       "inductive reactance and resistance\n유도 리액턴스와 저항",
@@ -379,6 +481,9 @@
   },
   {
     "id": 35,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "When testing magnetic materials in an ac field, increasing the field strength:\n\n교류 자장에서 자성 물질을 시험할 때 자장 강도가 증가하면?",
     "options": [
       "has no effect\n효과 없다",
@@ -390,6 +495,9 @@
   },
   {
     "id": 36,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "When a rod is placed in an encircling type of coil, the density of eddy currents will be the greatest:\n\n외삽형 코일에서 봉이 위치할 때 와전류 밀도가 가장 큰 곳은?",
     "options": [
       "at the surface\n표면에서",
@@ -401,6 +509,9 @@
   },
   {
     "id": 37,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "The term fill factor applies to:\n\n충진율이 적용되는 것은?",
     "options": [
       "a surface coil\n표면 코일",
@@ -412,6 +523,9 @@
   },
   {
     "id": 38,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "Two test coils are often used in a bridge circuit to:\n\n두 개의 시험 코일이 브리지 회로에서 사용되는 목적은?",
     "options": [
       "eliminate skin effect\n표피 효과 제거",
@@ -423,6 +537,9 @@
   },
   {
     "id": 39,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "Differential coil system can be of which of the following types?\n\n차동 코일 시스템은 다음 중 어떤 형태가 가능한가?",
     "options": [
       "sketch no. 1\n그림 1",
@@ -434,6 +551,9 @@
   },
   {
     "id": 40,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "General",
     "question": "The sensing element in an eddy current system can be which of the following?\n\n와전류 시스템에서 검출 요소로 가능한 것은?",
     "options": [
       "the secondary winding of a differential coil\n차동 코일의 2차 권선",

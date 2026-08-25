@@ -3,10 +3,9 @@
     "id": 1,
     "level": "Level III",
     "method": "MT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section VIII / HIE-NDT-MT-P11",
+    "category": "Method",
+    "topic": "ASME Section VIII / HIE-NDT-MT-P11",
     "question": "When using the wet method of MT, what is the particle concentration for?\n습식 자분탐상을 할 때 자분 농도는?",
-    "question_kr": "습식 자분탐상을 할 때 자분 농도는?",
     "options": [
       "1.2 ml to 2.4 ml per 100 ml",
       "",
@@ -14,17 +13,15 @@
       ""
     ],
     "answer": 0,
-    "explanation": "",
     "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-MT-P11(Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 자분탐상검사에 대한 절차서(HIE-NDT-MT-P11.Rev.2)"
   },
   {
     "id": 2,
     "level": "Level III",
     "method": "MT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section VIII / HIE-NDT-MT-P11",
+    "category": "Method",
+    "topic": "ASME Section VIII / HIE-NDT-MT-P11",
     "question": "How much time is needed to adapt to dark viewing prior to performing fluorescent examination?\n형광 시험을 수행하기 전에 어두움에 적응하기 위해 필요한 시간은?",
-    "question_kr": "형광 시험을 수행하기 전에 어두움에 적응하기 위해 필요한 시간은?",
     "options": [
       "At least 5 minutes\n최소 5분",
       "",
@@ -32,17 +29,15 @@
       ""
     ],
     "answer": 0,
-    "explanation": "",
     "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-MT-P11(Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 자분탐상검사에 대한 절차서(HIE-NDT-MT-P11.Rev.2)"
   },
   {
     "id": 3,
     "level": "Level III",
     "method": "MT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section VIII / HIE-NDT-MT-P11",
+    "category": "Method",
+    "topic": "ASME Section VIII / HIE-NDT-MT-P11",
     "question": "How much is the minimum visible light strength from the surface of the product to test?\n시험할 제품 표면에서 가시광선 강도 최소값은?",
-    "question_kr": "시험할 제품 표면에서 가시광선 강도 최소값은?",
     "options": [
       "500 lux",
       "800 lux",
@@ -50,17 +45,15 @@
       "2000 lux"
     ],
     "answer": 2,
-    "explanation": "",
     "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-MT-P11(Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 자분탐상검사에 대한 절차서(HIE-NDT-MT-P11.Rev.2)"
   },
   {
     "id": 4,
     "level": "Level III",
     "method": "MT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section VIII / HIE-NDT-MT-P11",
+    "category": "Method",
+    "topic": "ASME Section VIII / HIE-NDT-MT-P11",
     "question": "How much is minimum lifting power at the maximum pole spacing that will be used of alternating current electromagnetic yoke?\n교류 전자 요크 사용 시 최대 극간 간격에서 최소 리프팅 파워는?",
-    "question_kr": "교류 전자 요크 사용 시 최대 극간 간격에서 최소 리프팅 파워는?",
     "options": [
       "10 lb (4.5 kg)",
       "",
@@ -68,17 +61,15 @@
       ""
     ],
     "answer": 0,
-    "explanation": "",
     "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-MT-P11(Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 자분탐상검사에 대한 절차서(HIE-NDT-MT-P11.Rev.2)"
   },
   {
     "id": 5,
     "level": "Level III",
     "method": "MT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section VIII / HIE-NDT-MT-P11",
+    "category": "Method",
+    "topic": "ASME Section VIII / HIE-NDT-MT-P11",
     "question": "How much is a limited range of the temperature when using the wet particle suspension?\n습식 자분 현탁액 사용 시 온도 제한 범위는?",
-    "question_kr": "습식 자분 현탁액 사용 시 온도 제한 범위는?",
     "options": [
       "Not exceed 135°F (57℃)\n135°F(57℃)를 넘지 않을 것",
       "",
@@ -86,17 +77,15 @@
       ""
     ],
     "answer": 0,
-    "explanation": "",
     "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-MT-P11(Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 자분탐상검사에 대한 절차서(HIE-NDT-MT-P11.Rev.2)"
   },
   {
     "id": 6,
     "level": "Level III",
     "method": "MT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section VIII / HIE-NDT-MT-P11",
+    "category": "Method",
+    "topic": "ASME Section VIII / HIE-NDT-MT-P11",
     "question": "How to prove the strength of the magnetic field, what is appropriate?\n자기장 세기의 적절성을 증명하는 방법은?",
-    "question_kr": "자기장 세기의 적절성을 증명하는 방법은?",
     "options": [
       "Pie-Shaped Magnetic Particle Field Indicator\n파이형 자장 지시계",
       "Artificial Flaw Shims\n인공결함 심(shim)",
@@ -104,16 +93,15 @@
       "Lifting power block\n흡인력 시험편"
     ],
     "answer": 0,
-    "explanation": "복수 정답 가능 항목 중 대표 답안 적용"
+    "note": "복수 정답 가능 항목 중 대표 답안 적용"
   },
   {
     "id": 7,
     "level": "Level III",
     "method": "MT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section VIII / HIE-NDT-MT-P11",
+    "category": "Method",
+    "topic": "ASME Section VIII / HIE-NDT-MT-P11",
     "question": "When using the yoke, how much spacing of Yoke-pole?\n요크를 사용할 때 극간 간격은 얼마인가?",
-    "question_kr": "요크를 사용할 때 극간 간격은 얼마인가?",
     "options": [
       "Minimum 50 to Maximum 130 mm\n최소 50mm에서 최대 130mm",
       "",
@@ -121,17 +109,15 @@
       ""
     ],
     "answer": 0,
-    "explanation": "",
     "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-MT-P11(Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 자분탐상검사에 대한 절차서(HIE-NDT-MT-P11.Rev.2)"
   },
   {
     "id": 8,
     "level": "Level III",
     "method": "MT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section VIII / HIE-NDT-MT-P11",
+    "category": "Method",
+    "topic": "ASME Section VIII / HIE-NDT-MT-P11",
     "question": "What is the size of relevant indication in case of magnetic particle examination on welds and surface?\n용접부 및 표면 자분탐상 시험에서 관련 지시의 크기는?",
-    "question_kr": "용접부 및 표면 자분탐상 시험에서 관련 지시의 크기는?",
     "options": [
       "1/32 in",
       "1/64 in",
@@ -139,17 +125,15 @@
       "3/64 in"
     ],
     "answer": 2,
-    "explanation": "",
     "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-MT-P11(Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 자분탐상검사에 대한 절차서(HIE-NDT-MT-P11.Rev.2)"
   },
   {
     "id": 9,
     "level": "Level III",
     "method": "MT",
-    "category": "SPECIFIC",
-    "subject": "API 6A / HIE-NDT-MT-P6A",
+    "category": "Method",
+    "topic": "API 6A / HIE-NDT-MT-P6A",
     "question": "What is the choice of inspection equipment and magnetic particles when inspecting the welded part of the quality class PSL3 for ferromagnetic material?\nPSL3 품질등급 자성체 용접부 MT 검사 시 장비와 자분 선택은?",
-    "question_kr": "PSL3 품질등급 자성체 용접부 MT 검사 시 장비와 자분 선택은?",
     "options": [
       "Yoke with dry magnetic particle\n요크 + 건식 자분",
       "Prod with wet fluorescent magnetic particle\n프로드 + 습식 형광 자분",
@@ -157,204 +141,180 @@
       "Yoke with wet fluorescent magnetic particle\n요크 + 습식 형광 자분"
     ],
     "answer": 3,
-    "explanation": "",
     "groupNote": "* Refer to HIE-NDT-MT-P6A(SKB) written in accordance with API 6A and answer question.(API 6A에 따라 작성된 HIE-NDT-MT-P6A(SKB)를 참고하여 9번 물음에 답하시오.)"
   },
   {
     "id": 10,
     "level": "Level III",
     "method": "MT",
-    "category": "SPECIFIC",
-    "subject": "ASME B16.34",
+    "category": "Method",
+    "topic": "ASME B16.34",
     "question": "A 20mm-thick steel casting was tested by magnetic particle inspection and a linear indication was found on the surface. What is the maximum length that can be considered acceptable?\n20mm 두께 주강품에서 선형 지시가 발견된 경우 허용 가능한 최대 길이는?",
-    "question_kr": "20mm 두께 주강품에서 선형 지시가 발견된 경우 허용 가능한 최대 길이는?",
     "options": [
       "13 mm (0.5 in)",
       "18 mm (0.7 in)",
       "1.5 mm (0.06 in)",
       "8 mm (0.3 in)"
     ],
-    "answer": 0,
-    "explanation": ""
+    "answer": 0
   },
   {
     "id": 11,
     "level": "Level III",
     "method": "MT",
-    "category": "SPECIFIC",
-    "subject": "Equipment",
+    "category": "Method",
+    "topic": "Equipment",
     "question": "Yoke, MP-200 have flexible legs and no input or output current control. The flux density in the metal being magnetized with the yoke:\n요크 MP-200은 유연한 다리를 가지고 입출력 전류 제어가 없다. 자화되는 금속 내 자속 밀도는?",
-    "question_kr": "요크 MP-200은 유연한 다리를 가지고 입출력 전류 제어가 없다. 자화되는 금속 내 자속 밀도는?",
     "options": [
       "Depends on whether the poles are making good contact\n자극이 잘 접촉하고 있는지에 따라 달라진다",
       "Depends on the distance between the poles\n자극 사이의 거리에 따라 달라진다",
       "Both 1 and 2\n1번과 2번 모두",
       "Cannot be changed, because the yoke always puts out the same amount of flux\n요크는 항상 같은 양의 자속을 내므로 바꿀 수 없다"
     ],
-    "answer": 2,
-    "explanation": ""
+    "answer": 2
   },
   {
     "id": 12,
     "level": "Level III",
     "method": "MT",
-    "category": "SPECIFIC",
-    "subject": "Equipment",
+    "category": "Method",
+    "topic": "Equipment",
     "question": "Which of the following shall be considered before using Magnaflux P-920 prod?\nMagnaflux P-920 프로드 사용 전에 고려해야 할 사항은?",
-    "question_kr": "Magnaflux P-920 프로드 사용 전에 고려해야 할 사항은?",
     "options": [
       "Is the metal heat treated to a high strength condition?\n금속이 고강도로 열처리되어 있는가?",
       "Would a burn mar the finish?\n아크 흔적이 표면 다듬질을 손상시키는가?",
       "Are the prod tips clean and bright?\n프로드 팁이 깨끗하고 광택이 있는가?",
       "All of the above shall be considered\n위의 모두를 고려해야 한다"
     ],
-    "answer": 3,
-    "explanation": ""
+    "answer": 3
   },
   {
     "id": 13,
     "level": "Level III",
     "method": "MT",
-    "category": "SPECIFIC",
-    "subject": "Magnetization",
+    "category": "Method",
+    "topic": "Magnetization",
     "question": "Among the following, the best type of current for detection of fatigue crack is:\n다음 중 피로 균열 검출에 가장 적합한 전류 타입은?",
-    "question_kr": "다음 중 피로 균열 검출에 가장 적합한 전류 타입은?",
     "options": [
       "Half-wave direct current\n반파 직류",
       "Alternating current\n교류",
       "Direct current\n직류",
       "Half-wave alternating current\n반파 교류"
     ],
-    "answer": 1,
-    "explanation": ""
+    "answer": 1
   },
   {
     "id": 14,
     "level": "Level III",
     "method": "MT",
-    "category": "SPECIFIC",
-    "subject": "Discontinuity",
+    "category": "Method",
+    "topic": "Discontinuity",
     "question": "A surface indication on bar stock is fine and sharp and runs lengthwise. What type of discontinuity is this most likely to represent?\n봉재 표면에 가늘고 선명하며 길이 방향으로 나타나는 지시는 어떤 불연속인가?",
-    "question_kr": "봉재 표면에 가늘고 선명하며 길이 방향으로 나타나는 지시는 어떤 불연속인가?",
     "options": [
       "Fatigue crack\n피로 균열",
       "Burst\n버스트",
       "Stringer\n스트링거",
       "Heat-treat crack\n열처리 균열"
     ],
-    "answer": 2,
-    "explanation": ""
+    "answer": 2
   },
   {
     "id": 15,
     "level": "Level III",
     "method": "MT",
-    "category": "SPECIFIC",
-    "subject": "Welding",
+    "category": "Method",
+    "topic": "Welding",
     "question": "Magnetic particle inspection of the first pass in a U groove butt weld showed a large fuzzy indication at short intervals along the center of the weld. Which was most likely detected?\nU groove 맞대기 용접 첫 패스 중앙에 짧은 간격으로 큰 퍼지 지시가 나타났다. 검출된 결함은?",
-    "question_kr": "U groove 맞대기 용접 첫 패스 중앙에 짧은 간격으로 큰 퍼지 지시가 나타났다. 검출된 결함은?",
     "options": [
       "Lack of fusion\n융합불량",
       "Crater crack\n크레이터 균열",
       "Stringer\n스트링거",
       "Lack of root penetration\n루트 용입부족"
     ],
-    "answer": 3,
-    "explanation": ""
+    "answer": 3
   },
   {
     "id": 16,
     "level": "Level III",
     "method": "MT",
-    "category": "SPECIFIC",
-    "subject": "Welding",
+    "category": "Method",
+    "topic": "Welding",
     "question": "Multiple indications of a surface-type were detected transversely across a weld. Which were detected?\n용접부를 가로지르는 다중 표면 지시가 검출되었다. 해당 결함은?",
-    "question_kr": "용접부를 가로지르는 다중 표면 지시가 검출되었다. 해당 결함은?",
     "options": [
       "Flakes\n플레이크",
       "Heat checks\n열 잔균열",
       "Fatigue cracks\n피로 균열",
       "Linear porosity\n선상 기공"
     ],
-    "answer": 1,
-    "explanation": ""
+    "answer": 1
   },
   {
     "id": 17,
     "level": "Level III",
     "method": "MT",
-    "category": "SPECIFIC",
-    "subject": "Equipment Calibration",
+    "category": "Method",
+    "topic": "Equipment Calibration",
     "question": "The AC ammeter should be checked with what equipment?\n교류 전류계는 어떤 장비로 확인해야 하는가?",
-    "question_kr": "교류 전류계는 어떤 장비로 확인해야 하는가?",
     "options": [
       "Shunt and master AC ammeter\n션트와 표준 교류 전류계",
       "An impedance bridge and oscilloscope\n임피던스 브리지와 오실로스코프",
       "A master current transformer and a calibrated AC ammeter\n표준 변류기와 교정된 교류 전류계",
       "No check is necessary if not damaged\n손상되지 않았다면 점검할 필요 없다"
     ],
-    "answer": 2,
-    "explanation": ""
+    "answer": 2
   },
   {
     "id": 18,
     "level": "Level III",
     "method": "MT",
-    "category": "SPECIFIC",
-    "subject": "Fluorescent MT",
+    "category": "Method",
+    "topic": "Fluorescent MT",
     "question": "Fluorescent magnetic particle inspection is used in preference to visible magnetic particles:\n형광 자분 검사가 일반 자분보다 선호되는 경우는?",
-    "question_kr": "형광 자분 검사가 일반 자분보다 선호되는 경우는?",
     "options": [
       "When parts are big and bulky\n부품이 크고 부피가 클 때",
       "To take advantage of fluorescent lights normally used in plants\n공장에 흔히 있는 형광등을 활용하려고",
       "If parts are for railroad applications\n부품이 철도용일 때",
       "To increase speed and reliability of detecting very small defects\n아주 작은 결함을 더 빠르고 확실하게 검출하려고"
     ],
-    "answer": 3,
-    "explanation": ""
+    "answer": 3
   },
   {
     "id": 19,
     "level": "Level III",
     "method": "MT",
-    "category": "SPECIFIC",
-    "subject": "Demagnetization",
+    "category": "Method",
+    "topic": "Demagnetization",
     "question": "A heat treated bolt was tested for quench cracks and must be demagnetized. Using the bolt as a conductor, the demagnetizing current:\n열처리 볼트를 담금질 균열 검사 후 탈자해야 한다. 볼트를 도체로 사용할 때 탈자 전류는?",
-    "question_kr": "열처리 볼트를 담금질 균열 검사 후 탈자해야 한다. 볼트를 도체로 사용할 때 탈자 전류는?",
     "options": [
       "Should be sufficiently high to magnetically saturate the part\n부품을 자기포화시킬 만큼 충분히 커야 한다",
       "Need not exceed the magnetizing current\n자화전류를 넘을 필요는 없다",
       "Should somewhat exceed the original magnetizing current\n원래 자화전류보다 어느 정도 커야 한다",
       "Is irrelevant since demagnetization is not necessary\n탈자가 필요 없으므로 상관없다"
     ],
-    "answer": 2,
-    "explanation": ""
+    "answer": 2
   },
   {
     "id": 20,
     "level": "Level III",
     "method": "MT",
-    "category": "SPECIFIC",
-    "subject": "Equipment Application",
+    "category": "Method",
+    "topic": "Equipment Application",
     "question": "The best application for permanent magnet yokes is for the inspection of:\n영구자석 요크의 가장 적합한 적용 대상은?",
-    "question_kr": "영구자석 요크의 가장 적합한 적용 대상은?",
     "options": [
       "Welds\n용접부",
       "Large castings on the foundry floor\n주물공장 바닥의 대형 주조품",
       "Small localized areas\n작고 국부적인 부위",
       "All of the above\n위의 모두"
     ],
-    "answer": 2,
-    "explanation": ""
+    "answer": 2
   },
   {
     "id": 21,
     "level": "Level III",
     "method": "MT",
-    "category": "SPECIFIC",
-    "subject": "Fluorescent MT",
+    "category": "Method",
+    "topic": "Fluorescent MT",
     "question": "When using the fluorescent magnetic particle, how much of black light intensity?\n형광 자분을 사용할 때 자외선등의 세기는?",
-    "question_kr": "형광 자분을 사용할 때 자외선등의 세기는?",
     "options": [
       "Minimum of 1076 lux\n최소 1,076럭스",
       "Minimum of 1000 μW/cm²\n최소 1,000 μW/cm²",
@@ -362,119 +322,105 @@
       "2.4 kAm-1 to 4.8 kAm-1\n2.4 kA/m ~ 4.8 kA/m"
     ],
     "answer": 1,
-    "explanation": "",
     "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-MT-N21 (Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME Code Section Ⅲ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅲ(2023 Edition)에 따른 압력용기 제작의 자분탐상검사에 대한 절차서(HIE-NDT-MT-N21.Rev.3)"
   },
   {
     "id": 22,
     "level": "Level III",
     "method": "MT",
-    "category": "SPECIFIC",
-    "subject": "SNT-TC-1A",
+    "category": "Method",
+    "topic": "SNT-TC-1A",
     "question": "The following are matters related to technical performance evaluation according to SNT-TC-1A. Which is incorrect?\nSNT-TC-1A에 따른 기술 수행 평가 관련 사항 중 잘못된 것은?",
-    "question_kr": "SNT-TC-1A에 따른 기술 수행 평가 관련 사항 중 잘못된 것은?",
     "options": [
       "NDT personnel may be reexamined anytime at the discretion of the employer and have their certificates extended or revoked.\n비파괴검사 요원은 사업주 재량으로 언제든 재시험을 받고 자격이 연장되거나 취소될 수 있다",
       "Periodically, NDT Level II personnel should be reevaluated by the NDT Level III administering a practical examination.\nNDT Level II 요원은 주기적으로 Level III가 실기시험을 시행해 재평가해야 한다",
       "Technical performance evaluation of Level I personnel can be done through a written examination.\nLevel I 요원의 기술 수행 평가는 필기시험으로 할 수 있다",
       "The practical examination for technical performance evaluation follows Level I or II practical examination requirements.\n기술 수행 평가를 위한 실기시험은 Level I 또는 II 실기시험 요구사항을 따른다"
     ],
-    "answer": 2,
-    "explanation": ""
+    "answer": 2
   },
   {
     "id": 23,
     "level": "Level III",
     "method": "MT",
-    "category": "SPECIFIC",
-    "subject": "ANSI/ASNT CP-189",
+    "category": "Method",
+    "topic": "ANSI/ASNT CP-189",
     "question": "When attempting to obtain the NDT Level II qualification according to ANSI/ASNT CP-189, which is incorrect?\nANSI/ASNT CP-189에 따른 Level II 자격 요구사항 중 잘못된 것은?",
-    "question_kr": "ANSI/ASNT CP-189에 따른 Level II 자격 요구사항 중 잘못된 것은?",
     "options": [
       "Three levels of qualification are defined in terms of skills and knowledge required.\n요구되는 기능과 지식에 따라 세 등급의 자격이 정의된다",
       "Experience requirements for Level III are satisfied by holding current ASNT Level III certificate.\n유효한 ASNT Level III 자격증을 가지면 Level III 경력 요건을 충족한다",
       "Training requirements for Level III are satisfied by holding current ASNT Level III certificate.\n유효한 ASNT Level III 자격증을 가지면 Level III 교육 요건을 충족한다",
       "Vision examination requires near distance acuity and color vision.\n시력검사는 근거리 시력과 색각을 요구한다"
     ],
-    "answer": 2,
-    "explanation": ""
+    "answer": 2
   },
   {
     "id": 24,
     "level": "Level III",
     "method": "MT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section III / HIE-NDT-MT-N21",
+    "category": "Method",
+    "topic": "ASME Section III / HIE-NDT-MT-N21",
     "question": "1.3 mm linear indication was found on weld edge surface by MT yoke method, is it acceptable?\nMT Yoke 방법으로 용접부 끝 표면에서 1.3mm 선형 지시가 발견되었다. 합격인가?",
-    "question_kr": "MT Yoke 방법으로 용접부 끝 표면에서 1.3mm 선형 지시가 발견되었다. 합격인가?",
     "options": [
       "Yes",
       "No",
       "",
       ""
     ],
-    "answer": 0,
-    "explanation": ""
+    "answer": 0
   },
   {
     "id": 25,
     "level": "Level III",
     "method": "MT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section III",
+    "category": "Method",
+    "topic": "ASME Section III",
     "question": "When using the Yoke Method, what kind of electric current is used?\n요크법 적용 시 사용하는 전류는?",
-    "question_kr": "요크법 적용 시 사용하는 전류는?",
     "options": [
       "Direct Current\n직류",
       "Alternating Current\n교류",
       "Half-wave Direct Current\n반파 직류",
       "All of the above\n위의 모두"
     ],
-    "answer": 1,
-    "explanation": ""
+    "answer": 1
   },
   {
     "id": 26,
     "level": "Level III",
     "method": "MT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section III Div.1 NB",
+    "category": "Method",
+    "topic": "ASME Section III Div.1 NB",
     "question": "According to ASME Code Section III Div.1 NB, what examination method is used for category A welded joints in vessels?\nASME Section III Div.1 NB에 따른 용기의 Category A 용접 이음 검사 방법은?",
-    "question_kr": "ASME Section III Div.1 NB에 따른 용기의 Category A 용접 이음 검사 방법은?",
     "options": [
       "Volumetric test\n체적검사",
       "Volumetric test and either RT or UT\n체적검사와 RT 또는 UT 중 하나",
       "Volumetric test and either PT or MT\n체적검사와 PT 또는 MT 중 하나",
       "PT or MT"
     ],
-    "answer": 2,
-    "explanation": ""
+    "answer": 2
   },
   {
     "id": 28,
     "level": "Level III",
     "method": "MT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section III",
+    "category": "Method",
+    "topic": "ASME Section III",
     "question": "2 mm round indication was found on weld edge preparation surface by MT yoke method, is it acceptable?\nMT Yoke 장비로 용접부 끝단 준비면에서 2mm 원형 지시가 발견되었다. 합격인가?",
-    "question_kr": "MT Yoke 장비로 용접부 끝단 준비면에서 2mm 원형 지시가 발견되었다. 합격인가?",
     "options": [
       "Yes",
       "No",
       "",
       ""
     ],
-    "answer": 0,
-    "explanation": ""
+    "answer": 0
   },
   {
     "id": 29,
     "level": "Level III",
     "method": "MT",
-    "category": "SPECIFIC",
-    "subject": "ASME B31.1",
+    "category": "Method",
+    "topic": "ASME B31.1",
     "question": "According to ASME B31.1, Nonrelevant indications?\nASME B31.1에 따른 비관련 지시는?",
-    "question_kr": "ASME B31.1에 따른 비관련 지시는?",
     "options": [
       "Shall be reexamined by other NDT methods\n다른 비파괴검사법으로 재검사해야 한다",
       "That would mask indication of defects are unacceptable\n결함 지시를 가리는 것은 허용되지 않는다",
@@ -482,17 +428,15 @@
       "All of the above\n위의 모두"
     ],
     "answer": 2,
-    "explanation": "",
     "groupNote": "* The following questions refer to ASME B 31.1.\nASME B31.1에 따라 29번 물음에 답하시오."
   },
   {
     "id": 30,
     "level": "Level III",
     "method": "MT",
-    "category": "SPECIFIC",
-    "subject": "ASME Section I",
+    "category": "Method",
+    "topic": "ASME Section I",
     "question": "A length 1/4 in (6mm) rounded indication is; This indication acceptable?\n길이 1/4인치(6mm) 원형 지시는 합격인가?",
-    "question_kr": "길이 1/4인치(6mm) 원형 지시는 합격인가?",
     "options": [
       "Accept",
       "Reject",
@@ -500,11 +444,14 @@
       ""
     ],
     "answer": 1,
-    "explanation": "",
     "groupNote": "* The following questions refer to ASME Code Section. I\nASME Sec. I.에 따라 30번 물음에 답하시오."
   },
   {
     "id": 31,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "The magnetic domains in a permanent magnet are:\n영구자석 안의 자구(magnetic domain)는 어떤 상태인가?",
     "options": [
       "aligned in fixed positions with directions that cancel out\n고정된 위치에서 서로 상쇄되는 방향으로 정렬되어 있다",
@@ -512,13 +459,14 @@
       "aligned in a random position and may become aligned to attract a magnetic \n material\n무작위로 놓여 있으며 자성체를 끌어당기도록 정렬될 수 있다",
       "aligned in the same direction as the metal's grain structure\n금속의 결정 조직과 같은 방향으로 정렬되어 있다"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 32,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "For which of the following would the wet fluorescent technique be preferred over the dry technique?\n다음 중 건식법보다 습식 형광법이 더 적합한 경우는?",
     "options": [
       "When the parts are large and bulky\n부품이 크고 부피가 클 때",
@@ -526,13 +474,14 @@
       "When it is desired to use the fluorescent lighting provided in many plants\n여러 공장에 갖춰진 형광등을 쓰고자 할 때",
       "When the parts being inspected are to be field welded\n검사 대상 부품을 현장 용접할 예정일 때"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 33,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "Gas, misruns, cold laps and sand inclusions are examples of defects resulting from which of the following processes?\n기공, 탕경(misrun), 콜드랩, 모래 개재물은 어떤 공정에서 생기는 결함인가?",
     "options": [
       "Forging\n단조품",
@@ -540,13 +489,14 @@
       "Castings\n주조품",
       "Heat treatment\n열처리"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 34,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "Of the following, which is not a valid reason for demagnetization of parts after magnetic particle testing?\n다음 중 자분탐상 후 부품을 탈자해야 하는 타당한 이유가 아닌 것은?",
     "options": [
       "If the part is to be radiographed after magnetic particle inspection, residual\n magnetism may interfere with the electromagnetic radiation spectrum\n자분탐상 후 방사선촬영을 하면 잔류자기가 전자기 방사 스펙트럼을 방해할 수 있다",
@@ -554,13 +504,14 @@
       "Residual magnetism could interfere with the operation or accuracy of instruments \n placed on or near the part during service\n잔류자기가 사용 중 부품 위나 근처에 놓인 계기의 작동이나 정확도를 방해할 수 있다",
       "Residual magnetism can disturb the welding are path on parts to be welded\n잔류자기가 용접할 부품의 아크 경로를 흐트러뜨릴 수 있다"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 35,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "Subjecting a part to a magnetic field, that is constantly reversing in polarity and gradually diminishing in strength, accomplishes which of the following?\n극성이 계속 뒤바뀌면서 세기가 점차 줄어드는 자장에 부품을 두면 어떤 효과가 있는가?",
     "options": [
       "Magnetizes the part\n부품을 자화시킨다",
@@ -568,13 +519,14 @@
       "Increases the strength of the retained magnetic field\n잔류자장의 세기를 키운다",
       "Helps to locate deep lying defects\n깊이 있는 결함을 찾는 데 도움이 된다"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 36,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "How is the concentration of the solid content of a suspension of magnetic particles measured?\n자분 현탁액의 고형분 농도는 어떻게 측정하는가?",
     "options": [
       "By weighting the suspension\n현탁액의 무게를 재서",
@@ -582,13 +534,14 @@
       "By permitting the solids to settle out of suspension\n고형분을 가라앉혀서",
       "By measuring the pull on a magnet\n자석에 걸리는 흡인력을 재서"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 37,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "An important factor that must be considered when selecting a method of magnetization is:\n자화 방법을 선택할 때 반드시 고려해야 하는 중요한 인자는?",
     "options": [
       "location of inspection station\n검사 위치",
@@ -596,13 +549,14 @@
       "permeability of the part\n부품의 투자율",
       "b and c above\n위의 2번과 3번"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 38,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "An important factor that must be considered when selecting a method of magnetization is the:\n자화 방법을 선택할 때 반드시 고려해야 하는 중요한 인자는?",
     "options": [
       "type of magnetizing current\n자화전류의 종류",
@@ -610,13 +564,14 @@
       "material's Curie point\n재료의 퀴리점",
       "a and b above\n위의 1번과 2번"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 39,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "What happens to a magnetic material when it reaches its Curie temperature?\n자성 재료가 퀴리온도에 이르면 어떻게 되는가?",
     "options": [
       "It becomes paramagnetic\n상자성체가 된다",
@@ -624,13 +579,14 @@
       "It becomes nonmagnetic\n비자성체가 된다",
       "It becomes radioactive\n방사성을 띤다"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 40,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "Methods utilized to preserve powder patterns include:\n자분 모양을 보존하는 방법에 해당하는 것은?",
     "options": [
       "photographs\n사진",
@@ -638,13 +594,14 @@
       "transparent lacquer\n투명 래커",
       "all of the above\n위의 모두"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 41,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "Magnetic particle inspection methods are recognized as superior to liquid penetrant techniques when:\n자분탐상이 침투탐상보다 우수하다고 인정되는 경우는?",
     "options": [
       "inspecting corroded surfaces\n부식된 표면을 검사할 때",
@@ -652,13 +609,14 @@
       "the parts are painted\n부품에 도장이 되어 있을 때",
       "a and c above\n위의 1번과 3번"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 42,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "What magnetic property does a paramagnetic material possess?\n상자성체는 어떤 자기적 성질을 갖는가?",
     "options": [
       "Highly magnetic\n강자성",
@@ -666,13 +624,14 @@
       "Slightly magnetic\n약한 자성",
       "A demonstrated lack of electron mobility\n전자 이동성이 없는 것으로 확인됨"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 43,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "In what way may we reduce a magnetic field?\n자장을 약하게 하려면 어떻게 해야 하는가?",
     "options": [
       "Reduce the current\n전류를 줄인다",
@@ -680,13 +639,14 @@
       "Move the coil further away form the part\n코일을 부품에서 더 멀리 옮긴다",
       "All of the above\n위의 모두"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 44,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "When is the magnetic field strongest in an object being inspected by the magnetic particle method?\n자분탐상으로 검사하는 물체에서 자장이 가장 강한 곳은 언제(어디)인가?",
     "options": [
       "Just prior to current reversal when using AC current\n교류를 쓸 때 전류가 뒤바뀌기 직전",
@@ -694,13 +654,14 @@
       "While the magnetizing current is applied\n자화전류가 흐르는 동안",
       "When the magnetic particle powder is applied\n자분을 뿌릴 때"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 45,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "Which of the demagnetization methods listed below is most effective?\n아래 탈자 방법 중 가장 효과적인 것은?",
     "options": [
       "DC with reversing and step-down control\n극성 반전과 감소 조절이 되는 직류",
@@ -708,13 +669,14 @@
       "Half wave, rectified AC\n반파 정류 교류",
       "Full wave, rectified\n전파 정류"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 46,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "When a magnetic field is induced in a part with prods spaced 6 inches apart, the field is a:\n프로드 간격을 6인치로 두고 부품에 자장을 유도하면 그 자장은 무엇인가?",
     "options": [
       "solenoid field\n솔레노이드 자장",
@@ -722,13 +684,14 @@
       "distorted circular field\n일그러진 원형 자장",
       "residual field\n잔류 자장"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 47,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "If the same amperage is passed through a 1 inch and 2 inch diameter bar of the same length, which of the following statements is most applicable relevant to the magnetic field at the surface of the bars?\n길이가 같은 지름 1인치 봉과 2인치 봉에 같은 전류를 흘렸을 때, 봉 표면의 자장에 대해 가장 적절한 설명은?",
     "options": [
       "The strength of the magnetic field at the surfaces will be the same for both bars\n두 봉의 표면 자장 세기는 같다",
@@ -736,13 +699,14 @@
       "The strength of the magnetic field at the surfaces of the 2 inch bar will be \n approximately four times that of the 1 inch bar\n2인치 봉 표면의 자장 세기가 1인치 봉의 약 4배가 된다",
       "The strength of the magnetic field at the surfaces of the 1 inch bar will be \n one-half that of the 1 inch bar\n1인치 봉 표면의 자장 세기가 1인치 봉의 절반이 된다"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 48,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "If the same amperage is passed through a 1 inch diameter bar and a 2 inch diameter bar of the same length, which of the following statements is most applicable relevant to the magnetic field at the center of the bars?\n길이가 같은 지름 1인치 봉과 2인치 봉에 같은 전류를 흘렸을 때, 봉 중심부의 자장에 대해 가장 적절한 설명은?",
     "options": [
       "The strength of the magnetic field in the center of the 1 inch bar will be one\n -half that of the 2 inch bar\n1인치 봉 중심의 자장 세기가 2인치 봉의 절반이 된다",
@@ -750,13 +714,14 @@
       "The strength of the magnetic field in the center of both bars will be zero\n두 봉 모두 중심의 자장 세기는 0이다",
       "The strength of the magnetic field in the center of the 1 inch bar will be\n approximately one-fourth the value for the 2 inch bar\n1인치 봉 중심의 자장 세기가 2인치 봉의 약 1/4이 된다"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 49,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "An inspection method in which a high magnetizing force is applied to a part, and the force is then reduced to a lower continuous value which is maintained during application of the inspection medium, is called:\n부품에 높은 자화력을 가한 뒤 이를 낮은 연속값으로 줄여 검사액을 적용하는 동안 그 값을 유지하는 검사법을 무엇이라 하는가?",
     "options": [
       "the residual method\n잔류법",
@@ -764,13 +729,14 @@
       "the continuous method\n연속법",
       "the surge method\n서지법"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 50,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "When deciding to inspect a part by the residual method, one should consider the strength of the residual field in the part. Factors which affect this field include:\n잔류법으로 부품을 검사하려 할 때는 부품에 남는 잔류자장의 세기를 고려해야 한다. 이 자장에 영향을 주는 인자는?",
     "options": [
       "the strength of the magnetizing force\n자화력의 세기",
@@ -778,13 +744,14 @@
       "the material alloy\n재료의 합금 성분",
       "all of the above\n위의 모두"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 51,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "Factors which must be considered when interpreting an indication are:\n지시를 해석할 때 고려해야 하는 인자는?",
     "options": [
       "the direction of the magnetic field\n자장의 방향",
@@ -792,13 +759,14 @@
       "the orientation and shape of the indication\n지시의 방향과 형상",
       "all of the above\n위의 모두"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 52,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "When using DC, an indication is detected. What is the next logical step to determine if the indication results from a surface or subsurface condition?\n직류(DC)를 사용해 지시를 검출했다. 그 지시가 표면 결함인지 표면하 결함인지 판정하려면 다음에 무엇을 해야 하는가?",
     "options": [
       "Reinspect using the surge method\n서지법으로 재검사한다",
@@ -806,13 +774,14 @@
       "Reinspect at higher amperage\n더 높은 전류로 재검사한다",
       "Reinspect using AC\n교류로 재검사한다"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 53,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "When withdrawing a part from the field around a coil and without changing the direction of current, which of the following has the least effect on demagnetizing the part?\n전류 방향을 바꾸지 않고 코일 주위 자장에서 부품을 빼낼 때, 탈자 효과에 가장 영향이 적은 것은?",
     "options": [
       "Alternating current\n교류",
@@ -820,13 +789,14 @@
       "Half wave, rectified, alternating current\n반파 정류 교류",
       "Full wave, rectified current\n전파 정류 전류"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 54,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "An important factor that should be considered when selecting a method of magnetization is:\n자화 방법을 선택할 때 고려해야 하는 중요한 인자는?",
     "options": [
       "field strength value\n자장의 세기",
@@ -834,13 +804,14 @@
       "configuration of the part\n부품의 형상",
       "all of the above\n위의 모두"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 55,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "If an indication is formed when using the residual method as well as the continuous method, it is most likely:\n연속법뿐 아니라 잔류법에서도 지시가 형성된다면, 그 지시는 무엇일 가능성이 가장 높은가?",
     "options": [
       "very deep and tight\n매우 깊고 좁다",
@@ -848,13 +819,14 @@
       "a relevant indication\n관련 지시",
       "a nonrelevant indication\n비관련 지시"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 56,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "The magnetic lines of flux or flux in a permanent magnet:\n영구자석 안의 자력선(자속)은 어떠한가?",
     "options": [
       "flow from the north pole the magnet to the south pole\n자석의 N극에서 S극으로 흐른다",
@@ -862,13 +834,14 @@
       "enter the south pole and leave the north pole\nS극으로 들어가 N극으로 나온다",
       "in all cases produce a longitudinal field\n어떤 경우에도 길이방향 자장을 만든다"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 57,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "Which of the following magnetization techniques is not recommended for magnetic particle testing?\n다음 자화 기법 중 자분탐상에 권장되지 않는 것은?",
     "options": [
       "Longitudinal magnetization\n코일자화(길이방향 자화)",
@@ -876,13 +849,14 @@
       "Vector magnetization\n벡터 자화",
       "Parallel magnetization\n평행 자화"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 58,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "Small parts requiring demagnetization should be:\n탈자가 필요한 작은 부품은 어떻게 해야 하는가?",
     "options": [
       "loaded in baskets and passed through an AC coil\n바구니에 담아 교류 코일을 통과시킨다",
@@ -890,13 +864,14 @@
       "processed through a demagnetization cycle one at a time\n한 개씩 탈자 공정을 거친다",
       "loaded in a steel basket for better field distribution\n자장 분포를 좋게 하려고 강철 바구니에 담는다"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 59,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "The best shape for magnetic particles used in the dry powder method is:\n건식 자분법에 쓰이는 자분의 가장 좋은 형상은?",
     "options": [
       "flat\n납작한 형상",
@@ -904,13 +879,14 @@
       "long and slender\n길고 가는 형상",
       "A mixture of 2 and 3\n2번과 3번의 혼합"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 60,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "The best method for testing ball bearings is:\n볼베어링을 검사하는 가장 좋은 방법은?",
     "options": [
       "along one axis using a coil\n코일로 한 축을 따라",
@@ -918,13 +894,14 @@
       "two head shots along the X and Y axis\nX축과 Y축을 따라 축통전 2회",
       "induced current shots along X, Y and Z axis, rotating 360 degrees during each \n shot\nX·Y·Z축을 따라 매회 360도 회전시키며 유도전류 통전"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 61,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "Residual magnetism may be beneficial as an aid:\n잔류자기가 도움이 되는 경우는?",
     "options": [
       "in the deposition of weld metal\n용접금속을 덧붙일 때",
@@ -932,13 +909,14 @@
       "in demagnetization\n탈자할 때",
       "All of the above\n위의 모두"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 62,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "What type of magnetization uses the formula: Ampere-turns = 45,000 / (L/D)?\n다음 공식을 사용하는 자화 방식은? 암페어턴 = 45,000 ÷ (L/D)",
     "options": [
       "Circular",
@@ -946,13 +924,14 @@
       "Parallel",
       "Vectored"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 63,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "A gear with case-hardened, ground teeth and hub ends is MT tested. Individual indications are detected on five of the teeth and on the one end surface of the hub. Although the indications are very sharp and distinct, they do not break over the edges of the part. What is the probable identity of the indication?\n치면과 허브 끝을 침탄경화 후 연삭한 기어를 자분탐상했다. 다섯 개의 치면과 허브 한쪽 끝면에서 개별 지시가 검출되었다. 지시는 매우 날카롭고 뚜렷하지만 부품 모서리를 넘어가지는 않는다. 이 지시의 정체로 가장 유력한 것은?",
     "options": [
       "Grinding cracks\n연삭 균열",
@@ -960,13 +939,14 @@
       "Porosity\n기공",
       "Quench cracks\n담금질 균열"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 64,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "When testing for fine shallow surface cracks, the preferred MT method should be:\n미세하고 얕은 표면 균열을 검사할 때 권장되는 자분탐상 방법은?",
     "options": [
       "dry AC",
@@ -974,13 +954,14 @@
       "wet AC",
       "wet DC"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 65,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "Internal splines and holes, drilled parallel to or near test surfaces, will cause:\n검사면과 나란하거나 가까이 뚫린 내부 스플라인이나 구멍은 무엇을 유발하는가?",
     "options": [
       "broad, fuzzy indications directly aligned with the part's internal contours\n부품 내부 윤곽을 그대로 따라가는 넓고 흐릿한 지시",
@@ -988,13 +969,14 @@
       "no indications\n지시 없음",
       "Both 1 and 2 above\n1번과 2번 모두"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 66,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "The term used to refer to the total opposition to flow of current represented by the combined effect of resistance, inductance and capacitance of a circuit is:\n회로의 저항, 인덕턴스, 커패시턴스가 함께 작용해 전류 흐름을 방해하는 총합을 무엇이라 하는가?",
     "options": [
       "inductive reactance\n유도 리액턴스",
@@ -1002,13 +984,14 @@
       "reluctance\n자기저항",
       "decay\n붕괴"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 67,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "A desirable property of magnetic particles, used for the inspection medium for either the dry or wet method, is that they:\n건식법이든 습식법이든 검사매체로 쓰는 자분이 갖춰야 할 바람직한 성질은?",
     "options": [
       "be nontoxic\n무독성일 것",
@@ -1016,13 +999,14 @@
       "possess low retentivity\n낮은 보자력을 가진다",
       "have all of the above characteristics\n위의 성질을 모두 가진다"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 68,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "A rough forging discontinuity has the following characteristics: it can occur on the surface or internally; it is associated with processing at too low a temperature; it is often caused by excessive working; and it crests straight or irregular cavities varying in size. How would it be identified or classified?\n어떤 단조 불연속의 특징은 다음과 같다. 표면이나 내부에 생길 수 있고, 너무 낮은 온도에서 가공할 때 발생하며, 과도한 가공이 원인인 경우가 많고, 크기가 제각각인 직선형 또는 불규칙한 공동을 만든다. 이 불연속은 무엇으로 분류되는가?",
     "options": [
       "Burst",
@@ -1030,13 +1014,14 @@
       "Pipe",
       "Lamination"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 69,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "The accumulation of particles at a site on the part surface, collected at and held to the site by the magnetic leakage field, is called:\n부품 표면의 어느 지점에 자분이 모여 누설자장에 붙들려 있는 것을 무엇이라 하는가?",
     "options": [
       "a discontinuity\n불연속",
@@ -1044,13 +1029,14 @@
       "an indication\n지시",
       "magnetic witing\n자기 라이팅(magnetic writing)"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 70,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "Which of the following is not an acceptable technique for removing a thin film o oil or grease prior to magnetic particle testing?\n자분탐상 전에 얇은 유막이나 그리스를 제거하는 방법으로 적절하지 않은 것은?",
     "options": [
       "Wash with a solvent\n용제로 씻는다",
@@ -1058,13 +1044,14 @@
       "Dust the surface with chalk or talc then wipe with dry, clean cloth\n표면에 분필이나 탤크를 뿌린 뒤 마르고 깨끗한 헝겊으로 닦는다",
       "Brush the surface with power, wire brush\n전동 와이어 브러시로 표면을 닦는다"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 71,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "Which one of the following is not a discontinuity common to forged products?\n다음 중 단조품에 흔한 불연속이 아닌 것은?",
     "options": [
       "Laps",
@@ -1072,13 +1059,14 @@
       "Bursts",
       "Flakes"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 72,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "Of the following discontinuity categories, which one is considered most detrimental to the service life of an item?\n다음 불연속 분류 중 제품의 사용 수명에 가장 해로운 것은?",
     "options": [
       "Subsurface inclusion\n표면하 개재물",
@@ -1086,13 +1074,14 @@
       "Cracks open to the surface\n표면으로 열린 균열",
       "All of the above\n위의 모두"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 73,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "If one inch and two inch diameter bars were magnetized by passing the same current through them, the magnetic fields would be:\n지름 1인치 봉과 2인치 봉에 같은 전류를 흘려 자화하면 자장은 어떻게 되는가?",
     "options": [
       "the same for both\n둘 다 같다",
@@ -1100,13 +1089,14 @@
       "weaker in the one inch diameter bar\n지름 1인치 봉에서 더 약하다",
       "stronger in the one inch diameter bar\n지름 1인치 봉에서 더 강하다"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 74,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "The most common failure mechanism associated with sharp fillets, notches, undercuts and seams is:\n날카로운 필릿, 노치, 언더컷, 심(seam)과 관련된 가장 흔한 파괴 기구는?",
     "options": [
       "fatigue cracking\n피로 균열",
@@ -1114,13 +1104,14 @@
       "shrinkage\n수축",
       "decarburization\n탈탄"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 75,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "Cold working indications will not reappear if the part is:\n냉간가공 지시는 부품을 어떻게 하면 다시 나타나지 않는가?",
     "options": [
       "demagnetized then retested\n탈자한 뒤 재검사한다",
@@ -1128,13 +1119,14 @@
       "retested in the opposite direction\n반대 방향으로 재검사한다",
       "remagnetized at a higher amperage\n더 높은 전류로 다시 자화한다"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 76,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "Dry and wet particles and suspension vehicles should be in accordance with ____ (ASME Sec. V).\n건식·습식 자분과 현탁액 매질은 무엇에 따라야 하는가? (ASME Sec. V)",
     "options": [
       "SE-746",
@@ -1142,13 +1134,14 @@
       "SE-747",
       "SE-709"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 77,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "Magnetic particle examination shall be performed in accordance with a written procedure, which shall as a minimum, contain the requirements of a magnetic particle examination. Which one of the following is not a Essential Variable?(ASME Sec. V)\n자분탐상검사는 최소한 자분탐상의 요구사항을 담은 절차서에 따라 수행해야 한다. 다음 중 필수변수(Essential Variable)가 아닌 것은? (ASME Sec. V)",
     "options": [
       "Magnetizing technique\n자화 기법",
@@ -1156,13 +1149,14 @@
       "Personnel qualification requirements\n요원 자격 요구사항",
       "Minimum light intensity\n최소 조도"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 78,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "Magnetic particle examination shall be performed in accordance with a written procedure, which shall as a minimum, contain the requirements of a magnetic particle examination. Which one of the following is a Essential Variable?(ASME Sec. V)\n자분탐상검사는 최소한 자분탐상의 요구사항을 담은 절차서에 따라 수행해야 한다. 다음 중 필수변수(Essential Variable)인 것은? (ASME Sec. V)",
     "options": [
       "Shape or size of the examination object\n검사 대상물의 형상이나 크기",
@@ -1170,13 +1164,14 @@
       "Method of excess particle removal\n잉여 자분 제거 방법",
       "Post-examination cleaning technique\n검사 후 세척 기법"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 79,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "Prior to magnetic particle examination, the surface to be examined and all adjacent areas within at least ____ in. shall be dry and free of all dirt, grease, lint, scale, welding flux and spatter, oil, or other extraneous matter that could interfere with the examination.(ASME Sec. V)\n자분탐상 전에 검사면과 그 인접부 최소 몇 인치 이내는 건조하고, 검사를 방해할 수 있는 흙, 그리스, 보풀, 스케일, 용접 플럭스와 스패터, 기름 등 이물질이 없어야 하는가? (ASME Sec. V)",
     "options": [
       "1",
@@ -1184,13 +1179,14 @@
       "0.5",
       "2"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 80,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "Prod spacing shall not exceed A in.. Shorter spacing may be used to accommodate the geometric limitations of the area being examined or to increase the sensitivity, but prod spacings of less than B in. are usually not practical due to banding of the particles around the prods.(ASME Sec. V)\n프로드 간격은 A인치를 넘어서는 안 된다. 검사부의 형상 제약에 맞추거나 감도를 높이기 위해 더 좁게 쓸 수 있으나, 프로드 주위에 자분이 띠를 이루기 때문에 B인치 미만은 보통 실용적이지 않다. A와 B는? (ASME Sec. V)",
     "options": [
       "A: 8, B: 1",
@@ -1198,13 +1194,14 @@
       "A: 8, B: 3",
       "A: 3, B: 3"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 81,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "Accumulation of excess dry particles in examinations shall be removed with ____. (ASME Sec. V)\n검사 중 과잉으로 쌓인 건식 자분은 무엇으로 제거해야 하는가? (ASME Sec. V)",
     "options": [
       "Water stream\n물줄기",
@@ -1212,13 +1209,14 @@
       "Grinding\n연삭",
       "Shaking\n흔들기"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 82,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "With Visible (Color Contrast) Magnetic Particles are used , A minimum light intensity of ____ Lx is required on the surface to be examined to ensure adequate sensitivity during the examination and evaluation of indications.(ASME Sec. V)\n가시광(색대비) 자분을 사용할 때, 지시의 검사와 평가에서 충분한 감도를 확보하려면 검사면에 최소 몇 Lx의 조도가 필요한가? (ASME Sec. V)",
     "options": [
       "500",
@@ -1226,13 +1224,14 @@
       "1000",
       "2000"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 83,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "With Fluorescent Magnetic Particles, Black lights shall achieve a minimum of ____ μW/cm2 on the surface of the part being examined throughout the examination. (ASME Sec. V)\n형광 자분을 사용할 때, 자외선등은 검사하는 동안 부품 표면에서 최소 몇 μW/cm²를 확보해야 하는가? (ASME Sec. V)",
     "options": [
       "500",
@@ -1240,13 +1239,14 @@
       "1500",
       "2000"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 84,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "Yoke Technique shall only be applied to detect discontinuities that are ____. (ASME Sec. V)\n요크법은 어떤 불연속을 검출하는 데에만 적용해야 하는가? (ASME Sec. V)",
     "options": [
       "open to the surface of the part\n부품 표면으로 열려 있는",
@@ -1254,13 +1254,14 @@
       "embedded in the materials.\n재료 안에 묻혀 있는",
       "pores.\n기공"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 85,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "Which of the following information shall be recorded for each examination? (ASME Sec. V)\n각 검사마다 기록해야 하는 정보는? (ASME Sec. V)",
     "options": [
       "magnetic particle equipment and type of current\n자분탐상 장비와 전류의 종류",
@@ -1268,13 +1269,14 @@
       "reference to the procedure qualification records\n절차 인증 기록에 대한 참조",
       "method of measuring coating thickness\n도막 두께 측정 방법"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 86,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "The manufacturer shall certify that each magnetic particle examiner meets t he requirements that he/she has vision, with correction if necessary, to enable him/her to read ____ at a distance of not less than 12 in.\n제조자는 각 자분탐상 검사자가 필요시 교정시력으로 최소 12인치 거리에서 무엇을 읽을 수 있는지 인증해야 하는가?",
     "options": [
       "a Jaeger Type No. 2 Standard Chart\nJaeger Type No. 2 표준 시력표",
@@ -1282,13 +1284,14 @@
       "a Strip Chart\n스트립 차트",
       "a Pie Chart\n파이 차트"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 87,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "The size of the imperfection's indication is the basis for acceptance evaluation. Only indications which have any dimension greater than ____ in. shall be consider relevant.\n합격 판정의 기준은 결함 지시의 크기이다. 어느 방향으로든 치수가 몇 인치를 넘는 지시만 관련 지시로 간주하는가?",
     "options": [
       "1/2",
@@ -1296,13 +1299,14 @@
       "1/8",
       "1/16"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 88,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "A linear indication is one having a length greater than ____ times the width.\n선형 지시란 길이가 폭의 몇 배를 넘는 것을 말하는가?",
     "options": [
       "2",
@@ -1310,13 +1314,14 @@
       "4",
       "5"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 89,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "A rounded indication is one of circular or elliptical shape with a length equal ot or less than ____ times its width.\n원형 지시란 길이가 폭의 몇 배 이하인 원형 또는 타원형 지시를 말하는가?",
     "options": [
       "1",
@@ -1324,13 +1329,14 @@
       "3",
       "4"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 90,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "All surfaces to be examined shall be free of ____\n검사할 모든 표면에는 무엇이 없어야 하는가?",
     "options": [
       "irrelevant linear indications\n비관련 선형 지시",
@@ -1338,13 +1344,14 @@
       "four or more relevant rounded indications in a line separated by 1/16 or less\n1/16인치 이하 간격으로 일렬인 관련 원형 지시 4개 이상",
       "two or more relevant rounded indications in a line separated by 1/16 or less\n1/16인치 이하 간격으로 일렬인 관련 원형 지시 2개 이상"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 91,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "Any indication which is believed to be nonrelevant shall be regarded as ____ unless it is shown by reexamination by the same method or by the use of other nondestructive methods.\n비관련 지시로 판단되는 지시라도, 같은 방법으로 재검사하거나 다른 비파괴검사법으로 확인하기 전까지는 무엇으로 간주해야 하는가?",
     "options": [
       "an imperfection\n결함",
@@ -1352,13 +1359,14 @@
       "a irrelevant indication\n비관련 지시",
       "a flaw\n결함"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 92,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "According to SE-709, what amperage should be used with a prod spacing of 4 to 6 inches where the section thickness is 1 inch?\nSE-709에 따르면 두께 1인치 단면에 프로드 간격 4~6인치를 쓸 때 사용해야 할 전류는?",
     "options": [
       "200 to 300",
@@ -1366,13 +1374,14 @@
       "400 to 600",
       "600 to 800"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 93,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "SE-709(without appendices) describes the requirements for the following method(s) of magnetization.\nSE-709(부록 제외)는 다음 중 어떤 자화 방법의 요구사항을 규정하는가?",
     "options": [
       "Prod method\n프로드법",
@@ -1381,13 +1390,14 @@
       "Residual method\n잔류법",
       "None of the above\n위의 어느 것도 아님"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 94,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "SE-709 recommends that the concentration of wet fluorescent particles (or paste) be:\nSE-709은 습식 형광 자분(또는 페이스트)의 농도를 얼마로 권장하는가?",
     "options": [
       "1 to 4 ml per 100 ml\n100mL당 1~4mL",
@@ -1396,13 +1406,14 @@
       "0.1 to 0.4 ml per 100 ml\n100mL당 0.1~0.4mL",
       "none of the above\n위의 어느 것도 아님"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 95,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "For the continuous method of examination, SE-709 recommends that the magnetizing current be on for a minimum of:\n연속법 검사에서 SE-709은 자화전류를 최소 얼마 동안 흘리도록 권장하는가?",
     "options": [
       "1/5 second\n0.2초",
@@ -1411,13 +1422,14 @@
       "1 minute\n1분",
       "None of the above\n위의 어느 것도 아님"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 96,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "Each magnetic particle examiner has vision, with correction if necessary, to enable him to read a Jeager Type No. 2 Standard Chart at a distance of not less than ________.\n자분탐상 검사자는 필요시 교정시력으로 Jaeger Type No. 2 표준 시력표를 최소 얼마의 거리에서 읽을 수 있어야 하는가?",
     "options": [
       "6 in. (150 mm)",
@@ -1426,13 +1438,14 @@
       "24 in. (600 mm)"
     ],
     "answer": 1,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP",
     "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다."
   },
   {
     "id": 97,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "Which of the followings is \"Correct\" ?\n다음 중 옳은 것은?",
     "options": [
       "All indications are necessarily imperfections.\n모든 지시는 반드시 결함이다",
@@ -1441,13 +1454,14 @@
       "Doubtful indications shall be reexamined to determine whether or not they are relevant.\n의심스러운 지시는 관련 지시인지 판정하기 위해 재검사해야 한다"
     ],
     "answer": 3,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP",
     "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다."
   },
   {
     "id": 98,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "For steel casting, surface indications determined by MT shall be compared with those indicated in ________(Reference Photographs for Magnetic Particle Indications on Ferrous Castings).\n주강품에서 자분탐상으로 판정한 표면 지시는 무엇에 제시된 것과 비교해야 하는가? (주철 자분지시 참조사진)",
     "options": [
       "ASTM E 150",
@@ -1456,13 +1470,14 @@
       "ASTM E 179"
     ],
     "answer": 1,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP",
     "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다."
   },
   {
     "id": 99,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "For steel castings, which of the following indications (type and degree) shall be removed?\n주강품에서 다음 지시(종류와 등급) 중 반드시 제거해야 하는 것은?",
     "options": [
       "Shrinkage 2\n수축 등급 2",
@@ -1471,13 +1486,14 @@
       "Hot tears 1\n고온균열 등급 1"
     ],
     "answer": 3,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP",
     "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다."
   },
   {
     "id": 100,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "What is the minimum size of indication that shall be considered relevant?\n관련 지시로 간주해야 하는 지시의 최소 크기는?",
     "options": [
       "1/32 in. (0.8 mm)",
@@ -1486,13 +1502,14 @@
       "3/16 in. (5 mm)"
     ],
     "answer": 1,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP",
     "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다."
   },
   {
     "id": 101,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "What is the acceptable maximum size of rounded indications?\n원형 지시의 허용 최대 크기는?",
     "options": [
       "1/16 in. (1.5 mm)",
@@ -1501,13 +1518,14 @@
       "1/4 in. (6 mm)"
     ],
     "answer": 2,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP",
     "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다."
   },
   {
     "id": 102,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "What level personnel shall evaluate magnetic particle examination?\n자분탐상검사의 평가는 어느 등급의 요원이 수행해야 하는가?",
     "options": [
       "MT Level Ⅰ only\nMT Level Ⅰ만",
@@ -1516,13 +1534,14 @@
       "MT Level Ⅲ only\nMT Level Ⅲ만"
     ],
     "answer": 2,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP",
     "groupNote": "The following questions apply to ASME Section Ⅷ Div. 2.\n다음 문항은 ASME Section Ⅷ Div. 2 기준입니다."
   },
   {
     "id": 103,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "Which of the following indication is acceptable?\n다음 지시 중 합격인 것은?",
     "options": [
       "linear indication of 2 mm length\n길이 2mm 선형 지시",
@@ -1531,13 +1550,14 @@
       "crack of 2 mm length\n길이 2mm 균열"
     ],
     "answer": 1,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP",
     "groupNote": "The following questions apply to ASME Section Ⅷ Div. 2.\n다음 문항은 ASME Section Ⅷ Div. 2 기준입니다."
   },
   {
     "id": 104,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "Which of NDT method shall be used to examine on all surface of the castings(nonmagnetic material)?\n비자성 재료인 주조품의 전 표면을 검사할 때 사용해야 하는 비파괴검사법은?",
     "options": [
       "Magnetic particle testing (MT)\n자분탐상검사(MT)",
@@ -1546,13 +1566,14 @@
       "Ultrasonic testing (UT)\n초음파탐상검사(UT)"
     ],
     "answer": 1,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP",
     "groupNote": "The following questions apply to ASME Section Ⅷ Div. 2.\n다음 문항은 ASME Section Ⅷ Div. 2 기준입니다."
   },
   {
     "id": 105,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
     "question": "For steel forgings, all accessible surface of forgings shall be examined by the magnetic particle method in accordance with Test Method ________.\n강 단조품에서 접근 가능한 모든 표면은 어떤 시험방법에 따라 자분탐상으로 검사해야 하는가?",
     "options": [
       "A 275",
@@ -1561,9 +1582,6 @@
       "E 125"
     ],
     "answer": 0,
-    "level": "Level III",
-    "method": "MT",
-    "source": "MTM-III.HWP",
     "groupNote": "The following questions apply to ASME Section Ⅷ Div. 2.\n다음 문항은 ASME Section Ⅷ Div. 2 기준입니다."
   }
 ]

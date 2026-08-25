@@ -3,10 +3,9 @@
     "id": 1,
     "level": "Level III",
     "method": "PT",
-    "subject": "Specific",
-    "category": "ASME Sec.VIII",
+    "category": "Method",
+    "topic": "ASME Sec.VIII",
     "question": "How far is the aerosol can or sprayer held from the surface to be examined when applying the developer?\n현상액 적용시 시험체 표면으로부터 스프레이 또는 에어로솔은 어느 정도 떨어져야 하는가?",
-    "question_kr": "현상액 적용시 시험체 표면으로부터 스프레이 또는 에어로솔은 어느 정도 떨어져야 하는가?",
     "options": [
       "5 inch",
       "10 inch",
@@ -14,17 +13,15 @@
       "20 inch"
     ],
     "answer": 1,
-    "explanation": "",
     "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-PT-P11(Rev.3) for liquid penetrant examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 침투탐상 시험에 대한 절차서(HIE-NDT-PT-P11. Rev.3)"
   },
   {
     "id": 2,
     "level": "Level III",
     "method": "PT",
-    "subject": "Specific",
-    "category": "ASME Sec.VIII",
+    "category": "Method",
+    "topic": "ASME Sec.VIII",
     "question": "How long is minimum penetrant time for temperature 5℃?\n온도 5℃에 대한 최소 침투시간은 어느 정도인가?",
-    "question_kr": "온도 5℃에 대한 최소 침투시간은 어느 정도인가?",
     "options": [
       "2 Min",
       "5 Min",
@@ -32,17 +29,15 @@
       "20 Min"
     ],
     "answer": 3,
-    "explanation": "",
     "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-PT-P11(Rev.3) for liquid penetrant examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 침투탐상 시험에 대한 절차서(HIE-NDT-PT-P11. Rev.3)"
   },
   {
     "id": 3,
     "level": "Level III",
     "method": "PT",
-    "subject": "Specific",
-    "category": "ASME Sec.VIII",
+    "category": "Method",
+    "topic": "ASME Sec.VIII",
     "question": "Explain the meaning of linear and round indications.\n원형지시와 선형지시의 의미를 설명하시오.",
-    "question_kr": "원형지시와 선형지시의 의미를 설명하시오.",
     "options": [
       "Linear: L≤3d / Round: L>3d\n선형: L≤3d / 원형: L>3d",
       "Linear: L=d / Round: L>2d\n선형: L=d / 원형: L>2d",
@@ -50,17 +45,15 @@
       "No distinction\n구분 없음"
     ],
     "answer": 2,
-    "explanation": "",
     "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-PT-P11(Rev.3) for liquid penetrant examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 침투탐상 시험에 대한 절차서(HIE-NDT-PT-P11. Rev.3)"
   },
   {
     "id": 4,
     "level": "Level III",
     "method": "PT",
-    "subject": "Specific",
-    "category": "ASME Sec.VIII",
+    "category": "Method",
+    "topic": "ASME Sec.VIII",
     "question": "Describe the excess penetrant removal methods.\n과잉침투제 제거방법을 기술하시오.",
-    "question_kr": "과잉침투제 제거방법을 기술하시오.",
     "options": [
       "Removed by wiping with cloth or absorbent paper\n헝겊이나 흡수지로 닦아 제거",
       "Removed by grinding\n연삭으로 제거",
@@ -68,32 +61,28 @@
       "Removed by water only\n물로만 제거"
     ],
     "answer": 0,
-    "explanation": "",
     "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-PT-P11(Rev.3) for liquid penetrant examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 침투탐상 시험에 대한 절차서(HIE-NDT-PT-P11. Rev.3)"
   },
   {
     "id": 5,
     "level": "Level III",
     "method": "PT",
-    "subject": "Specific",
-    "category": "ASME Sec.VIII",
+    "category": "Method",
+    "topic": "ASME Sec.VIII",
     "question": "Three rounded indications in a line separated by 1/16 inch was found on the surface of the part whose thickness is 10 inch. Is this acceptable?\n1/16인치로 분리된 선상의 3개 원형지시가 10인치 두께 표면에서 발견되었다. 합격인가?",
-    "question_kr": "1/16인치로 분리된 선상의 3개 원형지시가 10인치 두께 표면에서 발견되었다. 합격인가?",
     "options": [
       "Yes",
       "No"
     ],
-    "answer": 0,
-    "explanation": ""
+    "answer": 0
   },
   {
     "id": 6,
     "level": "Level III",
     "method": "PT",
-    "subject": "Specific",
-    "category": "ASME Sec.VIII",
+    "category": "Method",
+    "topic": "ASME Sec.VIII",
     "question": "What kind of technique shall be used in this process specification?\n본 절차서에 사용되어진 기술의 종류는?",
-    "question_kr": "본 절차서에 사용되어진 기술의 종류는?",
     "options": [
       "Water washable fluorescent penetrant\n수세성 형광침투액",
       "Solvent removed visible penetrant\n용제제거성 염색침투액",
@@ -101,17 +90,15 @@
       "None\n없음"
     ],
     "answer": 1,
-    "explanation": "",
     "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-PT-P11(Rev.3) for liquid penetrant examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 침투탐상 시험에 대한 절차서(HIE-NDT-PT-P11. Rev.3)"
   },
   {
     "id": 7,
     "level": "Level III",
     "method": "PT",
-    "subject": "Specific",
-    "category": "ASME Sec.VIII",
+    "category": "Method",
+    "topic": "ASME Sec.VIII",
     "question": "What is the size of relevant indication in case of dye penetration examination on welds and surface?\n용접부나 표면에 염색 침투 시험일 경우 관련된 지시의 크기는?",
-    "question_kr": "용접부나 표면에 염색 침투 시험일 경우 관련된 지시의 크기는?",
     "options": [
       "1/32 in",
       "1/64 in",
@@ -119,61 +106,56 @@
       "3/64 in"
     ],
     "answer": 2,
-    "explanation": "",
     "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-PT-P11(Rev.3) for liquid penetrant examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 침투탐상 시험에 대한 절차서(HIE-NDT-PT-P11. Rev.3)"
   },
   {
     "id": 8,
     "level": "Level III",
     "method": "PT",
-    "subject": "Specific",
-    "category": "ASME Sec.VIII",
+    "category": "Method",
+    "topic": "ASME Sec.VIII",
     "question": "4.5 mm round indication was found on surface which thickness is 51mm. Is this indication acceptable?\n51mm 두께에 4.5mm 원형지시를 찾았다. 이 경우 합격인가?",
-    "question_kr": "51mm 두께에 4.5mm 원형지시를 찾았다. 이 경우 합격인가?",
     "options": [
       "Yes",
       "No"
     ],
-    "answer": 0,
-    "explanation": ""
+    "answer": 0
   },
   {
     "id": 9,
     "level": "Level III",
     "method": "PT",
-    "subject": "Specific",
-    "category": "ASME Sec.VIII",
+    "category": "Method",
+    "topic": "ASME Sec.VIII",
     "question": "What are the maximum allowable temperatures for the part surface and the penetrant?\n제품표면과 침투액에 대한 허용 최대 온도는?",
-    "question_kr": "제품표면과 침투액에 대한 허용 최대 온도는?",
     "options": [
       "10~52℃",
       "0~100℃",
       "20~80℃",
       "5~70℃"
     ],
-    "answer": 0,
-    "explanation": ""
+    "answer": 0
   },
   {
     "id": 10,
     "level": "Level III",
     "method": "PT",
-    "subject": "Specific",
-    "category": "ASME B16.34",
+    "category": "Method",
+    "topic": "ASME B16.34",
     "question": "A 18mm linear indication was found during inspection of a 50mm thick casting. What is the pass/fail decision?\n50mm 두께의 주조품 검사시 선형 결함 18mm가 발견되었습니다. 합부는?",
-    "question_kr": "50mm 두께의 주조품 검사시 선형 결함 18mm가 발견되었습니다. 합부는?",
     "options": [
       "Accept",
       "Reject"
     ],
     "answer": 1,
-    "explanation": "",
     "groupNote": "* The following questions refer to ASME B16.34\nASME B16.34에 따라 물음에 답하시오."
   },
   {
     "id": 11,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
     "question": "A 15mm linear indication was found during inspection of a 30mm thick forging. What is the pass/fail decision?\n30mm 두께의 단조품 검사시 선형 결함 15mm가 발견되었습니다. 합부는?",
-    "korean": "30mm 두께의 단조품 검사시 선형 결함 15mm가 발견되었습니다. 합부는?",
     "options": [
       "Accept",
       "Reject"
@@ -183,8 +165,10 @@
   },
   {
     "id": 12,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
     "question": "The following rounded indications are in the weld ; (3ea) 1/16in. indications ; (3ea) 7/64in. indications and (4ea) 1/8in. indications. All are separated by 1/16in. from each other. Is the weld acceptable?\n용접부에 원형지시가 다음과 같이 나타났다. 1/16인치 3개, 7/64인치 3개, 1/8인치 4개의 지시가 서로 1/16인치 떨어져 있다. 이 용접부는 합격인가?",
-    "korean": "용접부에 원형지시가 다음과 같이 나타났다. 1/16인치 3개, 7/64인치 3개, 1/8인치 4개의 지시가 서로 1/16인치 떨어져 있다. 이 용접부는 합격인가?",
     "options": [
       "Accept",
       "Reject"
@@ -194,8 +178,10 @@
   },
   {
     "id": 13,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
     "question": "A vision test on a Level II person is to be performed according to SNT-TC-1A. Which of the following does not apply?\nLevel II 인원의 시력검사를 SNT-TC-1A에 따라 수행하려고 한다. 해당되지 않는 사항은?",
-    "korean": "Level II 인원의 시력검사를 SNT-TC-1A에 따라 수행하려고 한다. 해당되지 않는 사항은?",
     "options": [
       "Color contrast differentiation shall be verified\n색 대비 구별 능력을 확인해야 한다",
       "Color contrast examination every five years\n5년마다 색각검사",
@@ -206,8 +192,10 @@
   },
   {
     "id": 14,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
     "question": "It intends to acquire Level III qualifications in accordance with ANSI/ASNT CP-189. Which of the following does not apply?\nANSI/ASNT CP-189를 적용하여 Level III 자격을 취득하고자 한다. 다음 중 해당되지 않는 사항은?",
-    "korean": "ANSI/ASNT CP-189를 적용하여 Level III 자격을 취득하고자 한다. 다음 중 해당되지 않는 사항은?",
     "options": [
       "Hold current ASNT Level III certificate\n유효한 ASNT Level III 자격증 보유",
       "Candidates shall pass Basic, Method and Specific exams\n응시자는 기초·방법·전문 시험에 합격해야 한다",
@@ -218,8 +206,10 @@
   },
   {
     "id": 15,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
     "question": "Which of the following is a discontinuity which might be found in sand casting?\n주조품 내에서 발견될 수 있는 불연속 지시는?",
-    "korean": "주조품 내에서 발견될 수 있는 불연속 지시는?",
     "options": [
       "Incomplete penetration\n용입부족",
       "Shrinkage\n수축",
@@ -230,8 +220,10 @@
   },
   {
     "id": 16,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
     "question": "The water pressure at the wash station shall be controlled by a?\n수세 장소의 수압은 무엇에 의해 제어되는가?",
-    "korean": "수세 장소의 수압은 무엇에 의해 제어되는가?",
     "options": [
       "Pressure gauge\n압력계",
       "Pressure regulator valve\n압력조절 밸브",
@@ -242,8 +234,10 @@
   },
   {
     "id": 17,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
     "question": "The best technique for applying wet developer for the highest sensitivity is?\n고감도를 위한 습식 현상액 적용 방법은?",
-    "korean": "고감도를 위한 습식 현상액 적용 방법은?",
     "options": [
       "Dipping and draining\n담근 뒤 흘려내리기",
       "Spraying\n분무",
@@ -254,8 +248,10 @@
   },
   {
     "id": 18,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
     "question": "What kind of flaws do rounded or point-like PT indications point to?\n둥글거나 점 형태의 PT 지시는 어떤 결함을 나타내는가?",
-    "korean": "둥글거나 점 형태의 PT 지시는 어떤 결함을 나타내는가?",
     "options": [
       "Small hot cracks\n작은 고온균열",
       "Pores\n기공",
@@ -266,8 +262,10 @@
   },
   {
     "id": 19,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
     "question": "Which type of penetrant test was developed primarily for castings?\n주조품 검사에 주로 개발된 침투탐상시험 형태는?",
-    "korean": "주조품 검사에 주로 개발된 침투탐상시험 형태는?",
     "options": [
       "Solvent-removed fluorescent penetrant\n용제제거성 형광침투액",
       "Water-washable fluorescent penetrant\n수세성 형광침투액",
@@ -278,8 +276,10 @@
   },
   {
     "id": 20,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
     "question": "When conducting PT in accordance with ASME Code Sec.V, 2023 Edition PT indication shall be interpreted not later than ______ after the developer has been applied.\nASME Sec.V 2023 Edition에 따른 PT 지시는 현상제 적용 후 몇 분 이내 평가해야 하는가?",
-    "korean": "ASME Sec.V 2023 Edition에 따른 PT 지시는 현상제 적용 후 몇 분 이내 평가해야 하는가?",
     "options": [
       "1 minute",
       "1~10 minutes",
@@ -290,8 +290,10 @@
   },
   {
     "id": 21,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
     "question": "The wavelength of ultraviolet light(Model:BD-100) generally used in fluorescent penetrant inspection is:\n형광 침투탐상 시험시 사용하는 자외선(BD-100)의 파장은?",
-    "korean": "형광 침투탐상 시험시 사용하는 자외선(BD-100)의 파장은?",
     "options": [
       "3000 Å",
       "2650 Å",
@@ -302,8 +304,10 @@
   },
   {
     "id": 22,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
     "question": "When applying of penetrant, it shall be included a minimum (        ) inch beyond the area of interest?\n침투제를 적용할 관심부위 밖 최소 몇 inch가 포함되어야 하는가?",
-    "korean": "침투제를 적용할 관심부위 밖 최소 몇 inch가 포함되어야 하는가?",
     "options": [
       "1 inch",
       "1/2 inch",
@@ -314,8 +318,10 @@
   },
   {
     "id": 23,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
     "question": "What is the best method to apply the penetrant test on a large number of small pieces of complex shape?\n복잡한 형태의 작은 부품이 많은 경우 침투시험 적용에 가장 적합한 방법은?",
-    "korean": "복잡한 형태의 작은 부품이 많은 경우 침투시험 적용에 가장 적합한 방법은?",
     "options": [
       "Dipping with a basket\n바구니에 담아 침적",
       "Electrostatic spraying\n정전 분무",
@@ -326,8 +332,10 @@
   },
   {
     "id": 24,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
     "question": "1/8(3mm) rounded indication and 1/8(3mm) linear indication was found on forgings of which thickness is 2(50mm). Is this acceptable?\n50mm 두께 단조품에서 3mm 원형지시와 3mm 선형지시가 발견되었다. 합격인가?",
-    "korean": "50mm 두께 단조품에서 3mm 원형지시와 3mm 선형지시가 발견되었다. 합격인가?",
     "options": [
       "Yes",
       "No"
@@ -337,8 +345,10 @@
   },
   {
     "id": 25,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
     "question": "Only 1/8 rounded indication was found on castings of which thickness is 1/2. Is this acceptable?\n1/2 inch 두께 주조품에서 1/8 inch 원형지시가 발견되었다. 합격인가?",
-    "korean": "1/2 inch 두께 주조품에서 1/8 inch 원형지시가 발견되었다. 합격인가?",
     "options": [
       "Yes",
       "No"
@@ -348,8 +358,10 @@
   },
   {
     "id": 26,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
     "question": "What is the light intensity at the penetrant testing surface?\n침투탐상시험 면에서의 빛의 세기는?",
-    "korean": "침투탐상시험 면에서의 빛의 세기는?",
     "options": [
       "Minimum of 1076 lux\n최소 1,076럭스",
       "Minimum of 1000 μW/cm²\n최소 1,000 μW/cm²",
@@ -361,8 +373,10 @@
   },
   {
     "id": 27,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
     "question": "How long time until the developer applied after the removal of excess penetrant?\n과잉 침투제 제거 후 현상제 적용까지의 시간은?",
-    "korean": "과잉 침투제 제거 후 현상제 적용까지의 시간은?",
     "options": [
       "Within 15 min\n15분 이내",
       "Within 20 min\n20분 이내",
@@ -375,8 +389,10 @@
   },
   {
     "id": 28,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
     "question": "Which of the following statements is wrong about applying penetrant after the precleaning for testing surface?\n표면 전처리 후 침투제 적용에 대한 설명 중 틀린 것은?",
-    "korean": "표면 전처리 후 침투제 적용에 대한 설명 중 틀린 것은?",
     "options": [
       "After cleaning, drying shall be accomplished only by hot air blowing\n세척 후 건조는 열풍 송풍으로만 해야 한다",
       "Minimum drying time shall be established before penetrant application\n침투액 적용 전에 최소 건조시간을 정해야 한다",
@@ -388,8 +404,10 @@
   },
   {
     "id": 29,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
     "question": "According to ASME Code Section III Div.1 NB, What kind of examination method for category B welded joints in vessels?\nASME Section III Div.1 NB에 따라 용기의 B 범주 용접 이음부 검사 방법은?",
-    "korean": "ASME Section III Div.1 NB에 따라 용기의 B 범주 용접 이음부 검사 방법은?",
     "options": [
       "Volumetric test\n체적검사",
       "Volumetric test and either RT or UT\n체적검사와 RT 또는 UT 중 하나",
@@ -400,8 +418,10 @@
   },
   {
     "id": 30,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
     "question": "A length 1/8in.(3mm) rounded indication is; This indication acceptable?\n3mm 길이의 원형지시는 합격인가?",
-    "korean": "3mm 길이의 원형지시는 합격인가?",
     "options": [
       "Accept",
       "Reject"
@@ -411,6 +431,10 @@
   },
   {
     "id": 31,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "Which of the following statements apply to liquid penetrant examination?\n다음 중 침투탐상검사에 해당하는 설명은?",
     "options": [
       "Liquid penetrant examination is used to detect internal discontinuities in \n castings\n침투탐상은 주조품의 내부 불연속을 검출하는 데 쓴다",
@@ -418,13 +442,14 @@
       "Liquid penetrant examination will detect both surface and subsurface defects\n침투탐상은 표면과 표면하 결함을 모두 검출한다",
       "Liquid penetrant examination is used to detect surface discontinuities in \n both ferrous and nonferrous material\n침투탐상은 철강재와 비철재 모두의 표면 불연속을 검출하는 데 쓴다"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 32,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "Certain physical properties are required in order for a penetrant to detect discontinuities in the various materials used in industry. Some of these are:\n침투액이 산업에서 쓰이는 여러 재료의 불연속을 검출하려면 일정한 물리적 성질이 필요하다. 그에 해당하는 것은?",
     "options": [
       "high surface tension\n높은 표면장력",
@@ -432,13 +457,14 @@
       "good wetting ability\n좋은 젖음성",
       "all of the above\n위의 모두"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 33,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "The ability of liquid penetrant to penetrate into discontinuities is due to:\n침투액이 불연속 안으로 스며드는 것은 무엇 때문인가?",
     "options": [
       "the color and viscosity of the penetrant\n침투액의 색과 점도",
@@ -446,13 +472,14 @@
       "pressures generated by capillary action\n모세관 작용으로 생기는 압력",
       "pressures generated by the developer\n현상제가 만드는 압력"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 34,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "A visible dye penetrant indication in the form of an intermittent straight line is seen and measured to be 0.32 inch from end-to-end. Reliability engineering personnel have asked you to comment on the indication. From the following, the most nearly correct statement you can make is:\n끊어진 직선 형태의 염색침투 지시가 보였고, 양 끝 사이를 재니 0.32인치였다. 신뢰성 담당자가 이 지시에 대한 의견을 요청했다. 다음 중 가장 정확한 설명은?",
     "options": [
       "there is a tight crack 0.32 inch long\n길이 0.32인치의 좁은 균열이 있다",
@@ -460,13 +487,14 @@
       "there is an intermittent crack with overall length of 0.32 inch\n전체 길이 0.32인치의 끊어진 균열이 있다",
       "there is an intermittent indication with overall length of 0.32 inch\n전체 길이 0.32인치의 끊어진 지시가 있다"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 35,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "Which penetrant process is best suited for parts with rough surfaces?\n표면이 거친 부품에 가장 적합한 침투탐상 방법은?",
     "options": [
       "water-washable\n수세성",
@@ -475,13 +503,14 @@
       "solvent-removable\n용제제거성",
       "all of the above\n위의 모두"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 36,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "From the following, which visible liquid penetrant is more sensitive for detecting fine tight cracks?\n다음 염색침투액 중 미세하고 좁은 균열을 검출하는 데 더 민감한 것은?",
     "options": [
       "water washable visible liquid penetrant\n수세성 염색침투액",
@@ -489,13 +518,14 @@
       "non-water soluble visible liquid penetrant\n비수용성 염색침투액",
       "liquid penetrants will not detect fine tight cracks\n침투액은 미세하고 좁은 균열을 검출하지 못한다"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 37,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "A standard practice for checking on the overall performance of a given penetrant procedure or system is by:\n주어진 침투탐상 절차나 계통 전체의 성능을 점검하는 표준 방법은?",
     "options": [
       "measuring the wettability of the penetrant\n침투액의 젖음성 측정",
@@ -503,13 +533,14 @@
       "comparing two sections of artificially cracked aluminum samples\n인공 균열을 낸 알루미늄 시편의 두 구역을 비교",
       "none of the above\n위의 어느 것도 아님"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 38,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "When performing liquid penetrant examination using fluorescent penetrant, where should the light intensity be measured for calibration and verification of the ultraviolet light (black light)?\n형광침투액으로 침투탐상을 할 때, 자외선등의 교정과 확인을 위한 광도는 어디에서 측정해야 하는가?",
     "options": [
       "On the examination surface of the part\n부품의 검사면에서",
@@ -517,13 +548,14 @@
       "Half way between the light source and the part being inspected\n광원과 검사 대상 부품의 중간 지점에서",
       "At the filter on the front of the light\n등 앞면의 필터에서"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 39,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "Which of the test part characteristics listed below are normally considered before a specific liquid penetrant examination method is selected?\n특정 침투탐상 방법을 고르기 전에 보통 고려하는 시험체의 특성은?",
     "options": [
       "The kind and size of discontinuities most likely to occur\n생길 가능성이 가장 큰 불연속의 종류와 크기",
@@ -532,13 +564,14 @@
       "all of the above\n위의 모두",
       "none of the above\n위의 어느 것도 아님"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 40,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "Aluminum alloy test specimens that have been examined by the liquid penetrant method should be thoroughly cleaned after examination because:\n침투탐상으로 검사한 알루미늄 합금 시험편을 검사 후 반드시 깨끗이 세척해야 하는 이유는?",
     "options": [
       "the acid in the penetrant may cause severe corrosion\n침투액의 산 성분이 심한 부식을 일으킬 수 있다",
@@ -546,13 +579,14 @@
       "the toxic residue from the test will severely inhibit the application of \n paint on aluminum alloys\n검사 후 유독 잔류물이 알루미늄 합금의 도장을 크게 방해한다",
       "a chemical reaction between the penetrant and aluminum could cause a fire \n because of internal combustion\n침투액과 알루미늄의 화학반응이 내부 연소로 화재를 일으킬 수 있다"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 41,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "Why is it difficult to re-examine a part that has been examined using a liquid penetrant (one answer)?\n침투탐상을 한 부품을 다시 검사하기 어려운 이유는?",
     "options": [
       "The indications from the first examination will interfere with the \n indications from the second examination\n1차 검사의 지시가 2차 검사의 지시를 방해한다",
@@ -560,13 +594,14 @@
       "The dried penetrant residue left in discontinuities may not readily dissolve \n and the re-examination may be misleading\n불연속에 남아 마른 침투액 잔류물이 잘 녹지 않아 재검사 결과가 잘못될 수 있다",
       "The first examination will leave an oily film over the surface\n1차 검사가 표면에 유막을 남긴다"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 42,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "Which of the following is not an aid that will help minimize the chances of a good inspector missing a penetrant indication?\n다음 중 숙련된 검사자가 침투 지시를 놓칠 가능성을 줄이는 데 도움이 되지 않는 것은?",
     "options": [
       "A good white light should be provided when visible dye penetrants are used\n염색침투액을 쓸 때는 충분한 백색광을 갖춰야 한다",
@@ -577,13 +612,14 @@
     "answer": [
       1,
       3
-    ],
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    ]
   },
   {
     "id": 43,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "Which of the following is the best reason why the application of emulsifier by brush is not recommended?\n붓으로 유화제를 바르는 것을 권장하지 않는 가장 큰 이유는?",
     "options": [
       "Brushing results in a streaking appearance during inspection\n붓칠하면 검사할 때 줄무늬가 생긴다",
@@ -591,13 +627,14 @@
       "The brushing action mixes the emulsifier with the penetrant prematurely and \n irregularly, making accurate control of emulsification impossible\n붓질이 유화제를 침투액과 미리, 그리고 고르지 않게 섞어 유화시간을 정확히 조절할 수 없게 만든다",
       "Brushing in itself is not harmful, but many types of brush materials combine with \n the emulsifier agents resulting in penetrant and part contamination\n붓칠 자체는 해롭지 않으나 여러 붓 재질이 유화제와 반응해 침투액과 부품을 오염시킨다"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 44,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "The function of the emulsifier in post emulsification penetrant is to:\n후유화성 침투탐상에서 유화제의 기능은?",
     "options": [
       "add fluorescent dye or pigment to the penetrant\n침투액에 형광염료나 안료를 더한다",
@@ -605,13 +642,14 @@
       "react with the surface penetrant to make the penetrant water washable\n표면의 침투액과 반응해 물로 씻기게 만든다",
       "provide a coating to which dry powder developer can adhere\n건식 현상분말이 붙을 수 있는 막을 만든다"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 45,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "Penetrant materials may become entrapped under/in rivets, fasteners, porosity, slag, etc. Which is the most likely problem caused by the entrapment of penetrant materials?\n침투액은 리벳·체결구 아래, 기공, 슬래그 등에 갇힐 수 있다. 침투액이 갇혀 생기는 가장 큰 문제는?",
     "options": [
       "fatigue cracking\n피로 균열",
@@ -619,13 +657,14 @@
       "metal alloying\n금속 합금화",
       "corrosion\n부식"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 46,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "After proper penetration and processing, the developer time depends on which of the following?\n적절한 침투와 처리를 마친 뒤 현상시간은 무엇에 따라 정해지는가?",
     "options": [
       "temper of hardness of the material\n재료의 뜨임 경도",
@@ -633,13 +672,14 @@
       "type of discontinuity to be detected\n검출하려는 불연속의 종류",
       "none of the above\n위의 어느 것도 아님"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 47,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "Of the following penetrant characteristics, which is not normally considered when selecting the type of penetrant to be used for a test?\n다음 침투액 특성 중 사용할 침투액 종류를 고를 때 보통 고려하지 않는 것은?",
     "options": [
       "The evaporative characteristic of the penetrant\n침투액의 증발 특성",
@@ -647,13 +687,14 @@
       "The flash point of the penetrant\n침투액의 인화점",
       "The cost of the penetrant\n침투액의 가격"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 48,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "When performing liquid penetrant examination, it is found that the developer is excessively heavy on several areas. Which of the following actions are necessary?\n침투탐상 중 여러 부위에 현상제가 지나치게 두껍게 발린 것을 발견했다. 어떤 조치가 필요한가?",
     "options": [
       "Disregard the areas that have excess developer and proceed with \n interpretation.\n현상제가 두꺼운 부위는 무시하고 판독을 진행한다",
@@ -661,13 +702,14 @@
       "Add a little penetrant to the test surface to compensate for the excess \n developer\n두꺼운 현상제를 보완하려고 검사면에 침투액을 조금 더 바른다",
       "Remove the excess developer and reapply a lighter coating\n두꺼운 현상제를 제거하고 얇게 다시 바른다"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 49,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "In discussing liquid penetrants, which of the following statements is not true?\n침투액에 대한 다음 설명 중 옳지 않은 것은?",
     "options": [
       "Liquid penetrant examination can be made more sensitive by varying the type \n of penetrant used\n침투액 종류를 바꾸어 침투탐상의 감도를 높일 수 있다",
@@ -675,13 +717,14 @@
       "Liquid penetrant examination can be used on large parts at different locations\n침투탐상은 여러 장소에서 큰 부품에도 쓸 수 있다",
       "Liquid penetrant examination can be made more sensitive by varying \n techniques\n기법을 바꾸어 침투탐상의 감도를 높일 수 있다"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 50,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "A liquid penetrant examination is to be conducted using solvent removable visible dye penetrants. The temperature of the part surface or material should be minimum of:\n용제제거성 염색침투액으로 침투탐상을 하려 한다. 부품 표면 또는 재료의 온도는 최소 얼마여야 하는가?",
     "options": [
       "60 ℃",
@@ -689,13 +732,14 @@
       "21 ℃",
       "40 ℃"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 51,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "Developer used in penetrant examination helps in detecting discontinuities by:\n침투탐상에서 현상제는 어떤 방식으로 불연속 검출을 돕는가?",
     "options": [
       "providing a dry surface for the bleed out of penetrant\n침투액이 배어나올 마른 표면을 만들어 준다",
@@ -703,13 +747,14 @@
       "emulsifying penetrants to enhance post cleaning\n후처리 세척을 돕도록 침투액을 유화시킨다",
       "controlling bleed out of penetrant\n침투액의 배어나옴을 조절한다"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 52,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "Water washable liquid penetrants differ from post emulsifiable penetrants in that water washable penetrants:\n수세성 침투액이 후유화성 침투액과 다른 점은?",
     "options": [
       "have a soapy base\n비누 성분을 바탕으로 한다",
@@ -717,13 +762,14 @@
       "need not be removed from surfaces prior to development\n현상 전에 표면에서 제거할 필요가 없다",
       "do not need the application of an emulsifier before rinsing\n물로 씻기 전에 유화제를 바를 필요가 없다"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 53,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "Which of the following is an advantage of water washing over solvent cleaning?\n용제 세척에 비해 물 세척이 갖는 장점은?",
     "options": [
       "Less steps are necessary\n공정 수가 적다",
@@ -731,13 +777,14 @@
       "No special lighting required during inspection\n검사 중 특별한 조명이 필요 없다",
       "Can be used where contact with water is objectionable\n물이 닿으면 곤란한 곳에도 쓸 수 있다"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 54,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "Which of the following cleaning methods are not recommended for use prior to liquid penetrant testing? (Check all correct answers)\n다음 세척 방법 중 침투탐상 전에 사용하도록 권장되지 않는 것은? (해당되는 것을 모두 고르시오)",
     "options": [
       "solvent cleaning\n용제 세척",
@@ -745,13 +792,14 @@
       "vapor degreasing\n증기 탈지",
       "grit or sandblasting\n그릿 또는 샌드 블라스팅"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 55,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "From the following, which would be classified as a finishing discontinuity?\n다음 중 마무리 가공에서 생기는 불연속으로 분류되는 것은?",
     "options": [
       "slag inclusion\n슬래그 개재물",
@@ -759,13 +807,14 @@
       "heat treat crack\n열처리 균열",
       "fatigue crack\n피로 균열"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 56,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "Penetrant examination should be performed prior to which of the following processes? (check all correct answers)\n침투탐상은 다음 중 어떤 공정보다 먼저 수행해야 하는가? (해당되는 것을 모두 고르시오)",
     "options": [
       "heat treatment\n열처리",
@@ -773,13 +822,14 @@
       "etching\n에칭",
       "anodizing\n양극산화"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 57,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "Which of the following production techniques or conditions is not likely to cause nonrelevant indications?\n다음 제조 기법이나 조건 중 비관련 지시를 일으킬 가능성이 낮은 것은?",
     "options": [
       "Improper washing or rinsing of penetrant from the surfaces of the part.\n부품 표면의 침투액을 제대로 씻어내지 않음",
@@ -787,13 +837,14 @@
       "Improper heat treatment of the part\n부품의 부적절한 열처리",
       "Press fit parts\n억지 끼워맞춤 부위"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 58,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "If a part is to undergo both pressure testing and penetrant examination:\n어떤 부품에 압력시험과 침투탐상을 모두 해야 한다면?",
     "options": [
       "the part must be both pressure tested and penetrant examined before it is \n rejected\n불합격시키기 전에 압력시험과 침투탐상을 모두 해야 한다",
@@ -801,13 +852,14 @@
       "the pressure test should be done before the penetrant examination\n압력시험을 침투탐상보다 먼저 해야 한다",
       "the penetrant examination should be done before the pressure test\n침투탐상을 압력시험보다 먼저 해야 한다"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 59,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "It is commonly accepted that the difference between a discontinuity and a defect is :\n불연속(discontinuity)과 결함(defect)의 차이로 통용되는 것은?",
     "options": [
       "a discontinuity is always larger than a defect\n불연속은 항상 결함보다 크다",
@@ -815,13 +867,14 @@
       "there is no difference in the meaning of the two words\n두 낱말의 뜻에 차이가 없다",
       "a defect interferes with the usefulness of the part while all discontinuity \n may or may not interfere with the usefulness of a part\n결함은 부품의 사용에 지장을 주지만 불연속은 그럴 수도 아닐 수도 있다"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 60,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "When performing a liquid penetrant examination using nonwater washable visible dye penetrant, there are several ways to remove excess penetrant from the surface of the part. Which of the following methods is generally regarded as most suitable for giving accurate examination results?\n비수세성 염색침투액으로 침투탐상을 할 때 부품 표면의 잉여 침투액을 제거하는 방법은 여러 가지가 있다. 다음 중 정확한 검사 결과를 얻는 데 가장 적합하다고 보는 방법은?",
     "options": [
       "Wiping with a soaking wet cloth, then wiping with dry cloths\n흠뻑 적신 헝겊으로 닦은 뒤 마른 헝겊으로 닦는다",
@@ -829,13 +882,14 @@
       "Wiping with dry paper wipes, then wiping with all solvent dampened cloth and \n finally wiping with a lint-free, dry cloth\n마른 종이로 닦고, 용제를 적신 헝겊으로 닦은 뒤, 보풀 없는 마른 헝겊으로 마무리한다",
       "Wiping with a solvent dampened cloth, then wiping with dry cloths\n용제를 적신 헝겊으로 닦은 뒤 마른 헝겊으로 닦는다"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 61,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "Which of the following information should an inspector have for proper interpretation of penetrant indications?\n검사자가 침투 지시를 올바르게 해석하려면 어떤 정보를 알고 있어야 하는가?",
     "options": [
       "The method used to clean the part prior to examination\n검사 전 부품 세척에 쓴 방법",
@@ -843,13 +897,14 @@
       "The technique used applying and removing the penetrant\n침투액을 바르고 제거한 기법",
       "all of the above\n위의 모두"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 62,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "Which of the following methods of applying developer tends to be the most effective when using non-aqueous penetrants.\n비수성 침투액을 쓸 때 가장 효과적인 현상제 적용 방법은?",
     "options": [
       "swabbing",
@@ -857,13 +912,14 @@
       "spraying",
       "dipping"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 63,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "When using post emulsified penetrants, emulsifier time on a part is:\n후유화성 침투액을 쓸 때 부품에 유화제를 두는 시간은 어떠한가?",
     "options": [
       "the time needed to remove all indications\n모든 지시를 없애는 데 걸리는 시간",
@@ -871,25 +927,27 @@
       "important but not critical\n중요하지만 결정적이지는 않다",
       "none of the above\n위의 어느 것도 아님"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 64,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "All non-aqueous penetrant materials are completely safe to use in small, completely enclosed areas.\n모든 비수성 침투 재료는 좁고 완전히 밀폐된 공간에서 사용해도 전혀 안전하다.",
     "options": [
       "True",
       "False"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 65,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "When conducting a visible dye penetrant examination for gross voids, where discontinuity indications will be large, the brightness level of white light on the part in the area under examination should not be less than:\n지시가 크게 나타나는 큰 공동을 염색침투탐상으로 검사할 때, 검사 부위 부품 표면의 백색광 밝기는 최소 얼마 이상이어야 하는가?",
     "options": [
       "30 to 50 foot candles\n30~50 풋캔들",
@@ -897,13 +955,14 @@
       "3 to 5 foot candles\n3~5 풋캔들",
       "70 to 100 foot candles\n70~100 풋캔들"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 66,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "When using a fluorescent, post emulsifier penetrant, the length of time the emulsifier is allowed to remain on the part is critical for detecting shallow scratch-like discontinuities. The best length of time should be:\n형광 후유화성 침투액을 쓸 때, 얕은 긁힘 같은 불연속을 검출하려면 유화제를 부품에 두는 시간이 매우 중요하다. 가장 적절한 시간은?",
     "options": [
       "10 seconds\n10초",
@@ -911,13 +970,14 @@
       "determined by experimentation\n실험으로 정한다",
       "2 to 3 minutes\n2~3분"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 67,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "Which of the following is the best reason why excessive drying of developer or excessive development time is not a good practice?\n현상제를 과도하게 건조시키거나 현상시간을 지나치게 길게 두는 것이 바람직하지 않은 가장 큰 이유는?",
     "options": [
       "The dried developer may become difficult to remove\n마른 현상제를 제거하기 어려워진다",
@@ -925,13 +985,14 @@
       "The developer may lose its blotting ability\n현상제가 흡수 능력을 잃는다",
       "The penetrant will absorb all of the developer\n침투액이 현상제를 모두 흡수한다"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 68,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "When cleaning parts, components, or welds with a solvent prior to liquid penetrant examination, which of the following would be a requirement for the solvent to be used?\n침투탐상 전에 부품, 구성품 또는 용접부를 용제로 세척할 때, 사용하는 용제가 갖춰야 할 조건은?",
     "options": [
       "The solvent cleaner must be free of contamination\n세척용제에 오염물이 없어야 한다",
@@ -939,13 +1000,14 @@
       "The solvent cleaner must be capable of removing oils and grease that may be \n found on the component\n세척용제는 부품에 있을 수 있는 기름과 그리스를 제거할 수 있어야 한다",
       "All of the above\n위의 모두"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 69,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "How much penetrant must be removed from the part or component prior to application of the developer?\n현상제를 바르기 전에 부품이나 구성품에서 침투액을 얼마나 제거해야 하는가?",
     "options": [
       "Sufficient excess penetrant must be removed to eliminate indications of \n surface discontinuities\n표면 불연속의 지시가 없어질 만큼 잉여 침투액을 제거해야 한다",
@@ -953,13 +1015,14 @@
       "No more than 20% of the penetrant may be removed prior to applying the \n developer\n현상제를 바르기 전에 침투액의 20%를 넘게 제거해서는 안 된다",
       "Sufficient excess penetrant must be removed to eliminate a confusing \n background\n판독을 방해하는 배경이 없어질 만큼 잉여 침투액을 제거해야 한다"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 70,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "When performing liquid penetrant examination of smooth machined parts, inspection and interpretation of indications should be done at which of the following times?\n매끄럽게 기계가공된 부품을 침투탐상할 때, 지시의 검사와 해석은 언제 해야 하는가?",
     "options": [
       "Usually, just prior to post examination cleaning\n보통 검사 후 세척 직전에",
@@ -967,13 +1030,14 @@
       "Immediately after the developer had been applied\n현상제를 바른 직후에",
       "After the developer has been on to apart for the amount of time specified in \n the qualified procedure\n인증된 절차서에 규정된 시간만큼 현상제를 부품에 둔 뒤에"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 71,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "Which one of the following is a primary limitation of liquid penetrant examination?\n침투탐상검사의 근본적인 한계에 해당하는 것은?",
     "options": [
       "Liquid penetrant examination cannot be used to detect shallow surface \n discontinuities\n침투탐상으로는 얕은 표면 불연속을 검출할 수 없다",
@@ -981,13 +1045,14 @@
       "Liquid penetrant examination cannot be used on nonmetallic items\n침투탐상은 비금속 제품에 쓸 수 없다",
       "Liquid penetrant examination cannot locate discontinuities closed to the \n surface\n침투탐상으로는 표면에서 닫힌 불연속을 찾을 수 없다"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 72,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "Which one of the following is the most important reason for filtering the ultraviolet light used for fluorescent penetrant examination?\n형광침투탐상에 쓰는 자외선을 여과(필터)해야 하는 가장 중요한 이유는?",
     "options": [
       "To allow only “green” fluorescence with the reduced wavelength band\n파장대를 좁혀 녹색 형광만 통과시키기 위해",
@@ -995,13 +1060,14 @@
       "To prevent personnel injury from the more penetrating UV wavelengths\n투과력이 큰 자외선으로부터 작업자를 보호하기 위해",
       "To provide easy viewing in darkened areas\n어두운 곳에서 보기 쉽게 하기 위해"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 73,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "Which of the following is a standard method for qualifying a liquid penetrant procedure to be used for abnormal test conditions?\n비정상적인 시험 조건에서 사용할 침투탐상 절차를 검증하는 표준 방법은?",
     "options": [
       "Produce the abnormal test conditions in production item to be inspected, \n apply the procedure, and compare the results with the results under normal \n conditions\n검사할 실제 제품에 비정상 조건을 만들어 절차를 적용하고, 정상 조건의 결과와 비교한다",
@@ -1009,13 +1075,14 @@
       "Have the penetrant residue analyzed for sulfur and halogens after the \n abnormal conditions have been applied to assure they remain within the \n limits of the applicable code or standard requirement\n비정상 조건을 적용한 뒤 침투액 잔류물의 황과 할로겐을 분석해 해당 코드·표준의 한계 안에 있는지 확인한다",
       "None of the above\n위의 어느 것도 아님"
     ],
-    "answer": 3,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 3
   },
   {
     "id": 74,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "Article 6 of ASME Section Ⅴ states that:\nASME Section Ⅴ Article 6의 규정 내용은?",
     "options": [
       "a water washable penetrant test shall not be applied to a part has been \n previously examined using a post-emulsifiable penetrant.\n후유화성 침투액으로 이미 검사한 부품에는 수세성 침투탐상을 적용해서는 안 된다",
@@ -1024,13 +1091,14 @@
       "a post emulsifiable penetrant test shall not be applied to a part that has \n been previously examined using a solvent removable penetrant.\n용제제거성 침투액으로 이미 검사한 부품에는 후유화성 침투탐상을 적용해서는 안 된다",
       "none of the above.\n위의 어느 것도 아님"
     ],
-    "answer": 2,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 2
   },
   {
     "id": 75,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "For precleaning, Article 6 of ASME Section Ⅴ states:\n전처리 세척에 대해 ASME Section Ⅴ Article 6은 어떻게 규정하는가?",
     "options": [
       "acetone shall be used.\n아세톤을 사용해야 한다",
@@ -1039,13 +1107,14 @@
       "a light coating of oil on the test surface, that is compatible with the \n penetrant is acceptable.\n침투액과 상용성이 있는 얇은 유막은 검사면에 있어도 된다",
       "none of the above.\n위의 어느 것도 아님"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 76,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "For liquid penetrant examination, procedural requirements on castings, ASME Section I refers to:\n침투탐상에서 주조품에 대한 절차 요구사항으로 ASME Section I이 참조하는 것은?",
     "options": [
       "Article 6 of ASME Section V.\nASME Section Ⅴ Article 6",
@@ -1054,13 +1123,14 @@
       "Appendix Ⅷ.",
       "none of the above.\n위의 어느 것도 아님"
     ],
-    "answer": 1,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 1
   },
   {
     "id": 77,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "Article 6 of ASME Section Ⅴ states that black-light intensity shall be at least\nASME Section Ⅴ Article 6은 자외선 강도가 최소 얼마여야 한다고 규정하는가?",
     "options": [
       "800 μw/cm2 at a distance of 12 inches.\n12인치 거리에서 800 μW/cm²",
@@ -1069,13 +1139,14 @@
       "90 foot candles at a distance of 15 inches.\n15인치 거리에서 90 풋캔들",
       "None of the above.\n위의 어느 것도 아님"
     ],
-    "answer": 4,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 4
   },
   {
     "id": 78,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "After a procedure is qualified in accordance with Article 6 of ASME Section ⅴ, requalification is necessary:\nASME Section Ⅴ Article 6에 따라 절차를 검증한 뒤, 재검증이 필요한 경우는?",
     "options": [
       "annually thereafter.\n그 뒤로 매년",
@@ -1087,13 +1158,14 @@
     "answer": [
       1,
       2
-    ],
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    ]
   },
   {
     "id": 79,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "What is the maximum acceptable number of relevant rounded indications in the weld?\n이 용접부에서 허용되는 관련 원형 지시의 최대 개수는?",
     "options": [
       "6",
@@ -1102,13 +1174,14 @@
       "18"
     ],
     "answer": 1,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP",
     "groupNote": "A weld that is ½ inch wide and 6 inches long has been liquid penetrant tested in accordance with ASME Section Ⅲ Div. 1, Subsection NB.\n폭 ½인치, 길이 6인치인 용접부를 ASME Section Ⅲ Div. 1, Subsection NB에 따라 침투탐상한 상황입니다."
   },
   {
     "id": 80,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "What is the maximum acceptable size of a rounded indication in the weld?\n이 용접부에서 허용되는 원형 지시의 최대 크기는?",
     "options": [
       "1/16 in.",
@@ -1117,13 +1190,14 @@
       "1/4 in."
     ],
     "answer": 2,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP",
     "groupNote": "A weld that is ½ inch wide and 6 inches long has been liquid penetrant tested in accordance with ASME Section Ⅲ Div. 1, Subsection NB.\n폭 ½인치, 길이 6인치인 용접부를 ASME Section Ⅲ Div. 1, Subsection NB에 따라 침투탐상한 상황입니다."
   },
   {
     "id": 81,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "In accordance with Article 6 of ASME Section ⅴ, to qualify, a procedure at temperature outside the 60oF to 125oF range:\nASME Section Ⅴ Article 6에 따라 60°F~125°F 범위를 벗어난 온도에서 절차를 검증하려면 어떻게 해야 하는가?",
     "options": [
       "one-half of the liquid penetrant comparator block is processed at the \n proposed temperature and the other half processed within the 60oF to 125oF \n range.\n대비시험편의 절반은 제안 온도에서, 나머지 절반은 60~125°F 범위에서 처리한다",
@@ -1132,13 +1206,14 @@
       "one liquid penetrant t comparator block is processed at the proposed \n temperature and the indications are photographed. The same block is cleaned \n and reprocessed within the 60oF to 125oF temperature range. the results are \n then compared with the photograph.\n대비시험편 하나를 제안 온도에서 처리해 지시를 사진으로 남기고, 같은 시험편을 세척해 60~125°F 범위에서 다시 처리한 뒤 사진과 비교한다",
       "none of the above.\n위의 어느 것도 아님"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 82,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "What is the maximum size of an acceptable linear indication?\n허용되는 선형 지시의 최대 크기는?",
     "options": [
       "1/16 in.",
@@ -1147,13 +1222,14 @@
       "1/4 in."
     ],
     "answer": 1,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP",
     "groupNote": "A disc shaped casting 2 feet in diameter and 1 inch thick is liquid penetrant tested in accordance with ASME Section Ⅲ Div. 1, Subsection ND.\n지름 2피트, 두께 1인치인 원판형 주조품을 ASME Section Ⅲ Div. 1, Subsection ND에 따라 침투탐상한 상황입니다."
   },
   {
     "id": 83,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "What is the maximum size of an acceptable rounded indication?\n허용되는 원형 지시의 최대 크기는?",
     "options": [
       "1/16 in.",
@@ -1162,26 +1238,28 @@
       "1/4 in."
     ],
     "answer": 2,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP",
     "groupNote": "A disc shaped casting 2 feet in diameter and 1 inch thick is liquid penetrant tested in accordance with ASME Section Ⅲ Div. 1, Subsection ND.\n지름 2피트, 두께 1인치인 원판형 주조품을 ASME Section Ⅲ Div. 1, Subsection ND에 따라 침투탐상한 상황입니다."
   },
   {
     "id": 84,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "A 6 square inch area shows (11) 1/16\" rounded indications and (7) 1/8\" rounded indications. All are separated by more than 1/16\" from each other. Is this area acceptable?\n6제곱인치 면적에 1/16인치 원형 지시 11개와 1/8인치 원형 지시 7개가 나타났다. 모두 서로 1/16인치를 넘게 떨어져 있다. 이 부위는 합격인가?",
     "options": [
       "Yes",
       "No"
     ],
     "answer": 0,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP",
     "groupNote": "A disc shaped casting 2 feet in diameter and 1 inch thick is liquid penetrant tested in accordance with ASME Section Ⅲ Div. 1, Subsection ND.\n지름 2피트, 두께 1인치인 원판형 주조품을 ASME Section Ⅲ Div. 1, Subsection ND에 따라 침투탐상한 상황입니다."
   },
   {
     "id": 85,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "According to ASME Section Ⅷ Div. 1, a 1/16\" long linear indication is:\nASME Section Ⅷ Div. 1에 따르면 길이 1/16인치인 선형 지시는 무엇인가?",
     "options": [
       "nonrelevant.\n비관련",
@@ -1190,13 +1268,14 @@
       "acceptable.\n합격",
       "none of the above\n위의 어느 것도 아님"
     ],
-    "answer": 0,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP"
+    "answer": 0
   },
   {
     "id": 86,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "For weld edge preparation surfaces on material 2½\" thick, what is the maximum acceptable length of a crack indication.\n두께 2½인치 재료의 용접 개선면에서 균열 지시의 허용 최대 길이는?",
     "options": [
       "1/4 in.",
@@ -1205,13 +1284,14 @@
       "2 in."
     ],
     "answer": 2,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP",
     "groupNote": "The following questions apply to ASME Section Ⅲ Div. 1, Subsection NB.\n다음 문항은 ASME Section Ⅲ Div. 1, Subsection NB 기준입니다."
   },
   {
     "id": 87,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "For weld edge preparation surfaces on material 2½ in. thick, what is the maximum acceptable size of a rounded indication?\n두께 2½인치 재료의 용접 개선면에서 원형 지시의 허용 최대 크기는?",
     "options": [
       "1/16 in.",
@@ -1220,13 +1300,14 @@
       "1/4 in."
     ],
     "answer": 2,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP",
     "groupNote": "The following questions apply to ASME Section Ⅲ Div. 1, Subsection NB.\n다음 문항은 ASME Section Ⅲ Div. 1, Subsection NB 기준입니다."
   },
   {
     "id": 88,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "For weld edge preparation surfaces on material 2½ in. thick, what is the maximum required depth of repair on unacceptable laminar discontinuities?\n두께 2½인치 재료의 용접 개선면에서 불합격 라미나 불연속에 대해 요구되는 최대 보수 깊이는?",
     "options": [
       "1/8 in.",
@@ -1235,13 +1316,14 @@
       "1/2 in."
     ],
     "answer": 2,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP",
     "groupNote": "The following questions apply to ASME Section Ⅲ Div. 1, Subsection NB.\n다음 문항은 ASME Section Ⅲ Div. 1, Subsection NB 기준입니다."
   },
   {
     "id": 89,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "An indication (in a weld) that is 1/16\" wide and 1/8\" long would be:\n용접부에서 폭 1/16인치, 길이 1/8인치인 지시는 무엇으로 분류되는가?",
     "options": [
       "a rounded indication.\n원형 지시",
@@ -1251,39 +1333,42 @@
       "none of the above.\n위의 어느 것도 아님"
     ],
     "answer": 0,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP",
     "groupNote": "The following questions apply to ASME Section Ⅲ Div. 1, Subsection NB.\n다음 문항은 ASME Section Ⅲ Div. 1, Subsection NB 기준입니다."
   },
   {
     "id": 90,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "During liquid penetrant of a weld joining two 1/4\" thick plates, a 5/32\" rounded indication is detected in the plate 1/4\" from the toe of weld. Is this indication acceptable?\n두께 1/4인치 판 두 장을 잇는 용접부를 침투탐상하던 중, 용접 지단부에서 1/4인치 떨어진 모재에서 5/32인치 원형 지시가 검출되었다. 이 지시는 합격인가?",
     "options": [
       "Yes",
       "No"
     ],
     "answer": 0,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP",
     "groupNote": "The following questions apply to ASME Section Ⅲ Div. 1, Subsection NB.\n다음 문항은 ASME Section Ⅲ Div. 1, Subsection NB 기준입니다."
   },
   {
     "id": 91,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "Liquid penetrant examination of weld reveals a 1/8\" long linear indication. Is this indication acceptable?\n용접부 침투탐상에서 길이 1/8인치인 선형 지시가 나타났다. 이 지시는 합격인가?",
     "options": [
       "Yes",
       "No"
     ],
     "answer": 1,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP",
     "groupNote": "The following questions apply to ASME Section Ⅲ Div. 1, Subsection NB.\n다음 문항은 ASME Section Ⅲ Div. 1, Subsection NB 기준입니다."
   },
   {
     "id": 92,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "For the examination of steel castings, what are the surface indications determined by liquid penetrant that are unacceptable regardless of the length?\n주강품 검사에서 길이와 관계없이 불합격인 침투탐상 표면 지시는?",
     "options": [
       "Cracks and hot tears\n균열과 고온균열",
@@ -1292,13 +1377,14 @@
       "Chills and chaplets\n칠(chill)과 채플릿"
     ],
     "answer": 0,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP",
     "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다."
   },
   {
     "id": 93,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "Liquid penetrant examiner shall have vision, with correction if necessary, to enable him to read ______________ at a distance of not less than 12 in, and is capable of distinguishing and differentiating contrast between colors used.\n침투탐상 검사자는 필요시 교정시력으로 최소 12인치 거리에서 무엇을 읽을 수 있어야 하며, 사용된 색상의 대비를 구별할 수 있어야 하는가?",
     "options": [
       "a Jaeger Type No. 1 Standard Chart\nJaeger Type No. 1 표준 시력표",
@@ -1307,13 +1393,14 @@
       "an Ishihara color plate\n이시하라 색각검사표"
     ],
     "answer": 1,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP",
     "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다."
   },
   {
     "id": 94,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "What is the minimum size of indication that shall be considered relevant?\n관련 지시로 간주해야 하는 지시의 최소 크기는?",
     "options": [
       "1/32 in. (0.8 mm)",
@@ -1322,13 +1409,14 @@
       "3/16 in. (5 mm)"
     ],
     "answer": 1,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP",
     "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다."
   },
   {
     "id": 95,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "The examined surface shall be free of relevant rounded indications larger than what size?\n검사면에는 어느 크기를 넘는 관련 원형 지시가 없어야 하는가?",
     "options": [
       "1/16 in. (1.5 mm)",
@@ -1337,26 +1425,28 @@
       "1/4 in. (6 mm)"
     ],
     "answer": 2,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP",
     "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다."
   },
   {
     "id": 96,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "We found three rounded indications of 3 mm length in a line separated by 1.5 mm. Are they Acceptable or Unacceptable?\n길이 3mm인 원형 지시 3개가 1.5mm 간격으로 일렬로 나타났다. 합격인가 불합격인가?",
     "options": [
       "Acceptable",
       "Unacceptable"
     ],
     "answer": 0,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP",
     "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다."
   },
   {
     "id": 97,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "What may be used as a guideline for employers to establish written practice?\n사업주가 절차서(written practice)를 수립할 때 지침으로 사용할 수 있는 것은?",
     "options": [
       "SNT-TC-1A and CP-189\nSNT-TC-1A와 CP-189",
@@ -1365,13 +1455,14 @@
       "ASTM E165 and E1417\nASTM E165와 E1417"
     ],
     "answer": 0,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP",
     "groupNote": "The following questions apply to ASME Section Ⅷ Div. 2.\n다음 문항은 ASME Section Ⅷ Div. 2 기준입니다."
   },
   {
     "id": 98,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "Who shall perform the evaluation of liquid penetrant examination?\n침투탐상검사의 평가는 누가 수행해야 하는가?",
     "options": [
       "PT Level Ⅰ only\nPT Level Ⅰ만",
@@ -1380,37 +1471,40 @@
       "Any inspector, regardless of certification\n자격 여부와 무관하게 모든 검사원"
     ],
     "answer": 2,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP",
     "groupNote": "The following questions apply to ASME Section Ⅷ Div. 2.\n다음 문항은 ASME Section Ⅷ Div. 2 기준입니다."
   },
   {
     "id": 99,
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
+    "source": "PTM-III.HWP",
     "question": "We found two linear indications of 1.5 mm length in a line separated by 2 mm. Are they Acceptable or Unacceptable?\n길이 1.5mm인 선형 지시 2개가 2mm 간격으로 일렬로 나타났다. 합격인가 불합격인가?",
     "options": [
       "Acceptable",
       "Unacceptable"
     ],
     "answer": 0,
-    "level": "Level III",
-    "method": "PT",
-    "source": "PTM-III.HWP",
     "groupNote": "The following questions apply to ASME Section Ⅷ Div. 2.\n다음 문항은 ASME Section Ⅷ Div. 2 기준입니다."
   },
   {
     "id": 100,
-    "groupNote": "A weld that is ½ inch wide and 6 inches long has been liquid penetrant tested in accordance with ASME Section Ⅲ Div. 1, Subsection NB.\n폭 ½인치, 길이 6인치인 용접부를 ASME Section Ⅲ Div. 1, Subsection NB에 따라 침투탐상한 상황입니다.",
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
     "question": "The following rounded indications are in the weld: (2) 1/16 in. indications, (4) 1/32 in. indications and (2) 1/8 in. indications. All are separated by 1/16 in. from each other. Is the weld acceptable?\n이 용접부에 다음과 같은 원형 지시가 있다. 1/16인치 2개, 1/32인치 4개, 1/8인치 2개이며 모두 서로 1/16인치씩 떨어져 있다. 이 용접부는 합격인가?",
     "options": [
       "Yes\n합격",
       "No\n불합격"
     ],
-    "answer": 1
+    "answer": 1,
+    "groupNote": "A weld that is ½ inch wide and 6 inches long has been liquid penetrant tested in accordance with ASME Section Ⅲ Div. 1, Subsection NB.\n폭 ½인치, 길이 6인치인 용접부를 ASME Section Ⅲ Div. 1, Subsection NB에 따라 침투탐상한 상황입니다."
   },
   {
     "id": 101,
-    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다.",
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
     "question": "For steel castings, what are the seven imperfection categories?\n주강품의 7가지 결함 분류는 무엇인가?",
     "options": [
       "Gas porosity, sand and slag inclusions, shrinkage, cracks, hot tears, inserts, chills and chaplets\n기공, 모래·슬래그 개재물, 수축, 균열, 고온균열, 인서트, 칠과 채플릿",
@@ -1418,11 +1512,14 @@
       "Shrinkage, lack of fusion, incomplete penetration, slag, porosity, cracks, undercut\n수축, 융합불량, 용입부족, 슬래그, 기공, 균열, 언더컷",
       "Cracks, hot tears, laminations, inclusions, burn-through, spatter, misalignment\n균열, 고온균열, 라미네이션, 개재물, 용락, 스패터, 어긋남"
     ],
-    "answer": 0
+    "answer": 0,
+    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다."
   },
   {
     "id": 102,
-    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 2.\n다음 문항은 ASME Section Ⅷ Div. 2 기준입니다.",
+    "level": "Level III",
+    "method": "PT",
+    "category": "Method",
     "question": "Which of the following is correct?\n다음 중 옳은 것은?",
     "options": [
       "An indication of an imperfection may be smaller than the imperfection that causes it.\n결함의 지시는 그 결함 자체보다 작을 수 있다",
@@ -1430,6 +1527,7 @@
       "A linear indication is one having a length greater than four times its width.\n선형 지시는 길이가 폭의 4배를 넘는 지시이다",
       "Relevant rounded indications greater than 5 mm are unacceptable.\n5mm를 넘는 관련 원형 지시는 불합격이다"
     ],
-    "answer": 3
+    "answer": 3,
+    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 2.\n다음 문항은 ASME Section Ⅷ Div. 2 기준입니다."
   }
 ]

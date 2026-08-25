@@ -103,7 +103,7 @@
       "distance, from source to weld\n선원과 용접부의 거리",
       "distance, from source to film\n선원과 필름의 거리",
       "distance, from source to cassette\n선원과 카세트의 거리",
-      "distance, from source side to film side of specimen\n (시험편의 선원 측에서 필름 측까지의 거리)"
+      "distance, from source side to film side of specimen\n시험편의 선원 측에서 필름 측까지의 거리"
     ],
     "answer": 0,
     "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-N21(Rev.1) for radiographic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅲ, 2021 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME B & PV Sec.Ⅲ 규격에 따른 압력용기 제작의 방사선투과시험에 대한 절차서(HIE-NDT-RT-N21, Rev.1)"
@@ -228,10 +228,10 @@
     "source": "RTS-II(2020)(A)",
     "question": "Based on the acceptance standards given in the ASME Sec.I, PW-51, which of the following would cause the weldment to be rejected?\nASME Sec.I, PW-51의 판정기준에 따라, 다음중 불합격인 용접부는?",
     "options": [
-      "Any group of aligned indications that have an aggregate length less than 1/2t in a length of 12t.\n (12t 길이내에서 동일선상에 군집된 지시들의 합계길이가 1/2t 보다 작을 때)",
-      "A slag inclusion 1/5inch in length in a weldment with a thickness of 1/2inch.\n (두께가 1/2인치인 용접부에서 길이가 1/5인치인 슬래그 개재물)",
-      "A slag inclusion 1/2inch in length in a weldment with a thickness of 2inch.\n (두께가 2인치인 용접부에서 길이가 1/2인치인 슬래그 개재물)",
-      "All of the above are rejectable.(위 모두 불합격)"
+      "Any group of aligned indications that have an aggregate length less than 1/2t in a length of 12t.\n12t 길이내에서 동일선상에 군집된 지시들의 합계길이가 1/2t 보다 작을 때",
+      "A slag inclusion 1/5inch in length in a weldment with a thickness of 1/2inch.\n두께가 1/2인치인 용접부에서 길이가 1/5인치인 슬래그 개재물",
+      "A slag inclusion 1/2inch in length in a weldment with a thickness of 2inch.\n두께가 2인치인 용접부에서 길이가 1/2인치인 슬래그 개재물",
+      "All of the above are rejectable.\n위 모두 불합격"
     ],
     "answer": 2,
     "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-N21(Rev.1) for radiographic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅲ, 2021 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME B & PV Sec.Ⅲ 규격에 따른 압력용기 제작의 방사선투과시험에 대한 절차서(HIE-NDT-RT-N21, Rev.1)"
@@ -260,8 +260,8 @@
     "source": "RTS-II(2020)(A)",
     "question": "The surface of the quality grade PSL2 is inspected by RT. A round indication of 1/4in.(6mm) appeared. Is it acceptable?\n품질등급 PSL2 용접부(두께 20mm)를 RT검사할 때 6mm의 슬래그가 나타났다 합격인가?",
     "options": [
-      "Accept 합격",
-      "Reject 불합격"
+      "Accept\n합격",
+      "Reject\n불합격"
     ],
     "answer": 0,
     "groupNote": "* The following questions refer to API 6A\nAPI 6A에 따라 물음에 답하시오."
@@ -336,13 +336,14 @@
     "source": "RTS-II(2020)(A)",
     "question": "The RT film showed a slag inclusion of 2 x 15 mm. Is it acceptable?\n2X15mm 크기의 슬래그가 투과사진에 나타났다. 합격인가?",
     "options": [
-      "Accept 합격",
-      "Reject 불합격"
+      "Accept\n합격",
+      "Reject\n불합격"
     ],
     "answer": 1,
     "groupNote": "* The following questions refer to API 5L\nAPI 5L에 따라 20번 물음에 답하시오."
   },
   {
+    "id": 35,
     "level": "Level II",
     "method": "RT",
     "category": "Specific",
@@ -355,12 +356,13 @@
       "EN 473"
     ],
     "answer": 0,
-    "id": 35,
     "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-P11(Rev.1) for radiographic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅷ, 2021 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME B & PV Sec.Ⅷ 규격에 따른 압력용기 제작의 방사선투과시험에 대한 절차서(HIE-NDT-RT-P11, Rev.1)"
   },
   {
     "id": 36,
-    "groupNote": "The part of the γ-ray machine that generates the mechanical force to move the radiographic isotope to the object is (Ⅰ), and the part of the γ-ray machine connected to the storage container of the radioactive isotope is (Ⅱ).\n피사체에 방사성 동위원소를 기계적인 힘으로 이동시키는 γ-선 장치의 부품은 (Ⅰ)이고, 방사성 동위원소의 저장용기에 연결되는 γ-선 장치의 부품은 (Ⅱ)이다.",
+    "level": "Level II",
+    "method": "RT",
+    "category": "Specific",
     "question": "What is (Ⅱ)?\n(Ⅱ)은 무엇인가?",
     "options": [
       "Front guiding\n전방 가이드 튜브",
@@ -368,10 +370,14 @@
       "Remote controller\n원격 조작기",
       "Pig tail\n피그테일"
     ],
-    "answer": 1
+    "answer": 1,
+    "groupNote": "The part of the γ-ray machine that generates the mechanical force to move the radiographic isotope to the object is (Ⅰ), and the part of the γ-ray machine connected to the storage container of the radioactive isotope is (Ⅱ).\n피사체에 방사성 동위원소를 기계적인 힘으로 이동시키는 γ-선 장치의 부품은 (Ⅰ)이고, 방사성 동위원소의 저장용기에 연결되는 γ-선 장치의 부품은 (Ⅱ)이다."
   },
   {
     "id": 37,
+    "level": "Level II",
+    "method": "RT",
+    "category": "Specific",
     "question": "The weld that is shown by radiography to have a 5/8 in. elongated indication is acceptable, if the thickness of the thinner portion of the weld is 2¼ in. (Ref.: ASME B31.1)\n용접부의 얇은 쪽 두께가 2¼인치일 때, 방사선투과검사에서 5/8인치 가늘고 긴 지시가 나타난 용접부는 합격이다. (ASME B31.1 기준)",
     "options": [
       "True\n맞음",
@@ -381,6 +387,9 @@
   },
   {
     "id": 38,
+    "level": "Level II",
+    "method": "RT",
+    "category": "Specific",
     "question": "The weld that is shown by radiography to have a 1/16 in. crack is acceptable.\n방사선투과검사에서 1/16인치 균열이 나타난 용접부는 합격이다.",
     "options": [
       "True\n맞음",
