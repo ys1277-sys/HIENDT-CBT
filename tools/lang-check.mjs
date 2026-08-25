@@ -45,6 +45,18 @@ for (const { bank, q } of all) {
 
   const opts = (q.options || []).map(String);
 
+  /*
+   * 주관식 문항은 보기가 없는 것이 정상이다. grading.js 의 questionType 이
+   * options 가 없으면 TEXT 로 보고, answer 는 번호가 아니라 글자다.
+   * 아래 보기 검사들을 그대로 돌리면 멀쩡한 주관식을 흠으로 잡는다.
+   */
+  const isText = !Array.isArray(q.options) || q.options.length === 0;
+  if (isText) {
+    if (typeof q.answer !== "string" || !q.answer.trim())
+      add("주관식인데 정답이 글자가 아님", bank, q.id, JSON.stringify(q.answer));
+    continue;
+  }
+
   /* 6. 정답 번호가 보기 밖 */
   const idx = Array.isArray(q.answer) ? q.answer : [q.answer];
   if (idx.some((i) => !Number.isInteger(i) || i < 0 || i >= opts.length))
