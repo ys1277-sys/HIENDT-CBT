@@ -170,11 +170,11 @@
       "100% through hole\n100% 관통 구멍",
       "50% flat bottom hole of tube wall from the OD\n외경으로부터 튜브 두께의 50%에 해당하는 평저공",
       "20% circumferential groove of tube wall from the OD\n외경으로부터 튜브 두께의 20%의 원주가공 홈",
-      "Both 1 & 2\n1과 2",
-      "all of the above\n위의 것 모두"
+      "Both 1 & 2\n1과 2"
     ],
     "answer": 3,
-    "groupNote": "※ The following questions (9-17) refer to HIE procedure, HIE-NDT-ET-P11(Rev.2) for Remote Field Test of heat exchanger tube in accordance with ASME Sec. V Code, 2023 Edition.\n(문제 9-17은 ASME Sec. V 규격 2023 Edition에 따른 열교환기 튜브의 원격장 시험 절차서 HIE-NDT-ET-P11(Rev.2)에 관한 것이다.)"
+    "groupNote": "※ The following questions (9-17) refer to HIE procedure, HIE-NDT-ET-P11(Rev.2) for Remote Field Test of heat exchanger tube in accordance with ASME Sec. V Code, 2023 Edition.\n(문제 9-17은 ASME Sec. V 규격 2023 Edition에 따른 열교환기 튜브의 원격장 시험 절차서 HIE-NDT-ET-P11(Rev.2)에 관한 것이다.)",
+    "note": "보기를 넷으로 맞추면서 「all of the above」을 덜어냈다. 정답 ④ 「Both 1 & 2」가 가리키는 ①·②가 그대로 남아 참조가 살아 있다. ⑤만 덜어냈다."
   },
   {
     "id": 12,

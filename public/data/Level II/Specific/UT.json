@@ -261,10 +261,10 @@
       "screen height linearity\n수직 방향 직선성",
       "amplitude control linearity\n증폭 조절 직선성",
       "beam spread measurement\n빔 확산 측정",
-      "all of the above\n위의 것 모두 해당 사항임",
-      "none of the above\n위에 해당 사항 없음"
+      "all of the above\n위의 것 모두 해당 사항임"
     ],
-    "answer": 3
+    "answer": 3,
+    "note": "보기를 넷으로 맞추면서 오답 「none of the above」을 덜어냈다. 정답과 묻는 내용은 그대로다."
   },
   {
     "id": 19,
@@ -277,10 +277,10 @@
       "10%",
       "5%",
       "20%",
-      "none of the above\n위에 해당 사항 없음",
-      "all of the above\n위의 모두 해당 사항임"
+      "none of the above\n위에 해당 사항 없음"
     ],
-    "answer": 2
+    "answer": 2,
+    "note": "보기를 넷으로 맞추면서 오답 「all of the above」을 덜어냈다. 정답과 묻는 내용은 그대로다."
   },
   {
     "id": 23,

@@ -9,12 +9,11 @@
     "options": [
       "radio\n라디오",
       "infrared\n적외선",
-      "visible light\n가시광선",
-      "ultra-violet\n자외선",
       "cosmic rays\n우주선",
       "X-rays\n엑스선"
     ],
-    "answer": 4
+    "answer": 2,
+    "note": "원본은 보기가 여섯인 단일정답 문항이었다. 정답은 그대로 두고 오답 보기 둘만 덜어내 넷으로 맞췄다. 묻는 내용은 바뀌지 않았다."
   },
   {
     "id": 2,
@@ -208,10 +207,10 @@
       "Comparative of absolute\n절대비교",
       "Comparative or dimensional\n비교 또는 치수",
       "General or specific\n일반 또는 전문",
-      "Dimensional or angular\n치수 또는 각도의",
-      "Microscopic or macroscopic\n현미경 또는 돋보기"
+      "Dimensional or angular\n치수 또는 각도의"
     ],
-    "answer": 0
+    "answer": 0,
+    "note": "보기를 넷으로 맞추면서 오답 「Microscopic or macroscopic」을 덜어냈다. 정답과 묻는 내용은 그대로다."
   },
   {
     "id": 15,
@@ -221,13 +220,13 @@
     "source": "VTG-llA(개정판)-2016.10.18",
     "question": "Frequently, dimensions are permitted to vary within specified limits. These variations are called:\n종종 치수는 규격된 제한 내에서 변화되는게 허용된다. 이러한 변화는 무엇이라 부르나?",
     "options": [
-      "Variances\n평방 편차",
       "Fudge factors\n퍼지 팩터",
       "Absolute dimensions\n절대 차원",
       "Factors of safety\n안전 계수",
       "Tolerance\n허용 공차"
     ],
-    "answer": 4
+    "answer": 3,
+    "note": "보기를 넷으로 맞추면서 오답 「Variances」을 덜어냈다. 정답과 묻는 내용은 그대로다."
   },
   {
     "id": 16,
@@ -252,13 +251,13 @@
     "source": "VTG-llA(개정판)-2016.10.18",
     "question": "Most metals and plastics that are solids and have reasonable strength at room temperature are called?\n고체이고 상온에서 적당한 응력을 가지는 대부분의 금속과 플라스틱을 무엇이라고하나?",
     "options": [
-      "Composite materials.\n물질 합성",
       "Manufacturing materials.\n물질의 제조",
       "Raw materials.\n가공하지 않은 물질",
       "Allotropic materials.\n동소체의 물질",
       "Engineering materials.\n공학 물질"
     ],
-    "answer": 4
+    "answer": 3,
+    "note": "보기를 넷으로 맞추면서 오답 「Composite materials.」을 덜어냈다. 정답과 묻는 내용은 그대로다."
   },
   {
     "id": 18,
@@ -268,13 +267,13 @@
     "source": "VTG-llA(개정판)-2016.10.18",
     "question": "Which of the following may be performed to help prevent corrosion?\n부식 방지를 돕기위해 수행 되어지는 것은?",
     "options": [
-      "Stress relieving\n응력 감소",
       "Anodizing\n양극처리",
       "Dipping in molten metal\n주조처리",
       "Electroplating\n전기도금",
       "All of the above\n위의 모두"
     ],
-    "answer": 4
+    "answer": 3,
+    "note": "보기를 넷으로 맞추면서 오답 「Stress relieving」을 덜어냈다. 정답과 묻는 내용은 그대로다."
   },
   {
     "id": 19,
@@ -414,22 +413,15 @@
     "method": "VT",
     "category": "General",
     "source": "VTG-llA(개정판)-2016.10.18",
-    "question": "A written VT Procedure shall contain(circle all correct answer)?\nVT 절차서에 포함되어야 하는 항목을 선택한다면?",
+    "question": "Which group lists items that a written VT procedure shall contain?\nVT 절차서에 포함되어야 하는 항목끼리 묶은 것은?",
     "options": [
-      "How exam. is to be performed.\n검사를 어떻게 수행할 것인가",
-      "Surface preparation\n표면 전처리",
-      "Step wedge comparison film\n계단쐐기 대비 필름",
-      "Sequence of performing exam.\n검사 수행 순서",
-      "Manufacturer’s specification\n제조자 시방서",
-      "Data to be tabulated, if any\n기록할 데이터가 있다면 그 내용"
+      "How exam. is to be performed · Surface preparation · Step wedge comparison film · Sequence of performing exam. · Manufacturer’s specification\n검사를 어떻게 수행할 것인가 · 표면 전처리 · 계단쐐기 대비 필름 · 검사 수행 순서 · 제조자 시방서",
+      "How exam. is to be performed · Surface preparation · Sequence of performing exam. · Manufacturer’s specification · Data to be tabulated, if any\n검사를 어떻게 수행할 것인가 · 표면 전처리 · 검사 수행 순서 · 제조자 시방서 · 기록할 데이터가 있다면 그 내용",
+      "Surface preparation · Step wedge comparison film · Sequence of performing exam. · Manufacturer’s specification · Data to be tabulated, if any\n표면 전처리 · 계단쐐기 대비 필름 · 검사 수행 순서 · 제조자 시방서 · 기록할 데이터가 있다면 그 내용",
+      "How exam. is to be performed · Step wedge comparison film · Sequence of performing exam. · Manufacturer’s specification · Data to be tabulated, if any\n검사를 어떻게 수행할 것인가 · 계단쐐기 대비 필름 · 검사 수행 순서 · 제조자 시방서 · 기록할 데이터가 있다면 그 내용"
     ],
-    "answer": [
-      0,
-      1,
-      3,
-      4,
-      5
-    ]
+    "answer": 1,
+    "note": "원본은 보기 여러 개 가운데 복수정답을 고르는 문항이었다. 오답 보기를 지워 넷으로 줄이면 정답 비율이 올라가 문제가 쉬워지므로, 항목을 묶어 조합형 4지선다로 바꿨다. 정답 조합은 원본 정답 그대로이고 오답 조합은 새로 만든 것이다. 네 보기의 항목 수를 같게 맞춰 개수로 답이 드러나지 않게 했다. ★ 오답 조합은 해당 종목 NDE Level Ⅲ 의 확인이 필요하다 (HIE-QP-E02 6.1.2, 6.3.1)."
   },
   {
     "id": 29,
@@ -483,13 +475,13 @@
     "source": "VTG-llA(개정판)-2016.10.18",
     "question": "Which of the following metals can typically be used in the as-cast state?\n주조상태내에 사용 되어질수 있는 금속은?",
     "options": [
-      "Aluminum\n알루미늄",
       "Zinc\n아연",
       "Steel\n강",
       "Iron\n철",
       "All of the above\n위의 모두"
     ],
-    "answer": 4
+    "answer": 3,
+    "note": "보기를 넷으로 맞추면서 오답 「Aluminum」을 덜어냈다. 정답과 묻는 내용은 그대로다."
   },
   {
     "id": 33,
@@ -546,10 +538,10 @@
       "Drawing\n늘림",
       "Welding\n용접기술",
       "Extrusion\n압축성형",
-      "Casting\n주조",
-      "Pressing\n압착물"
+      "Casting\n주조"
     ],
-    "answer": 1
+    "answer": 1,
+    "note": "보기를 넷으로 맞추면서 오답 「Pressing」을 덜어냈다. 정답과 묻는 내용은 그대로다."
   },
   {
     "id": 37,
@@ -559,13 +551,13 @@
     "source": "VTG-llA(개정판)-2016.10.18",
     "question": "Risers, feeders, or feed heads in casting serve to provide sources of molten metal to compensate for:\n주조시에 riser, feeders,feed heads를 설치하는 것은 용융금속에 무엇을 보상하기 위함인가?",
     "options": [
-      "Misruns\n미스 런",
       "Cold shuts\n콜드 셧",
       "Hot tears\n핫 티어",
       "Denritic grain growth\n성장",
       "Shrinkage\n수축"
     ],
-    "answer": 4
+    "answer": 3,
+    "note": "보기를 넷으로 맞추면서 오답 「Misruns」을 덜어냈다. 정답과 묻는 내용은 그대로다."
   },
   {
     "id": 38,
@@ -638,10 +630,10 @@
       "Melting\n녹는",
       "Atomic closeness\n원자 밀폐",
       "Atomic cleanliness\n원자 청결",
-      "Pressure\n압력",
-      "both 2 and 3 above\n위 2, 3"
+      "Pressure\n압력"
     ],
-    "answer": 3
+    "answer": 3,
+    "note": "보기를 넷으로 맞추면서 「both 2 and 3 above」을 덜어냈다. ⑤ 「both 2 and 3 above」는 오답이라 지워도 남는 보기 번호가 흔들리지 않는다."
   },
   {
     "id": 43,
@@ -669,10 +661,10 @@
       "Castings\n주조",
       "Extrusions\n압축성형",
       "Hot-rolled flat stock\n롤러",
-      "Forgings\n단조",
-      "None of the above\n답 없음"
+      "Forgings\n단조"
     ],
-    "answer": 3
+    "answer": 3,
+    "note": "보기를 넷으로 맞추면서 오답 「None of the above」을 덜어냈다. 정답과 묻는 내용은 그대로다."
   },
   {
     "id": 45,
@@ -700,10 +692,10 @@
       "Friction cutting\n마찰 컷팅",
       "Oxyacetylene cutting\n산소와 아세틀린 혼합물 컷팅",
       "Ultrasonic cutting\n초음파 컷팅",
-      "Gas metal are cutting\n가스 컷팅",
-      "Plasma are cutting\n플라즈마 컷팅"
+      "Gas metal are cutting\n가스 컷팅"
     ],
-    "answer": 1
+    "answer": 1,
+    "note": "보기를 넷으로 맞추면서 오답 「Plasma are cutting」을 덜어냈다. 정답과 묻는 내용은 그대로다."
   },
   {
     "id": 47,
@@ -731,9 +723,9 @@
       "Stickiness of the adhesive.\n접착제의 끈적거림",
       "Roughness of the adherences.\n접착제의 울퉁불퉁함",
       "Dynamic mechanical forces.\n기계의 동력",
-      "Interatomic forces.\n원자간의 힘",
-      "All of the above.\n위의 모두"
+      "Interatomic forces.\n원자간의 힘"
     ],
-    "answer": 3
+    "answer": 3,
+    "note": "보기를 넷으로 맞추면서 오답 「All of the above.」을 덜어냈다. 정답과 묻는 내용은 그대로다."
   }
 ]

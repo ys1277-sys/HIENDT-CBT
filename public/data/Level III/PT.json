@@ -378,14 +378,14 @@
     "category": "Method",
     "question": "How long time until the developer applied after the removal of excess penetrant?\n과잉 침투제 제거 후 현상제 적용까지의 시간은?",
     "options": [
-      "Within 15 min\n15분 이내",
       "Within 20 min\n20분 이내",
       "As soon as possible after penetrant removal\n침투액 제거 후 가능한 한 빨리",
       "All of the above\n위의 모두",
       "A and C\n1번과 3번"
     ],
-    "answer": 4,
-    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-PT-N21(Rev.3) for liquid penetrant examination of pressure vessels fabricated in accordance with ASME Code Section Ⅲ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅲ(2023 Edition)에 따른 압력용기 제작의 침투탐상검사에 대한 절차서(HIE-NDT-PT-N21 Rev.3)"
+    "answer": 3,
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-PT-N21(Rev.3) for liquid penetrant examination of pressure vessels fabricated in accordance with ASME Code Section Ⅲ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅲ(2023 Edition)에 따른 압력용기 제작의 침투탐상검사에 대한 절차서(HIE-NDT-PT-N21 Rev.3)",
+    "note": "보기를 넷으로 맞추면서 오답 「Within 15 min」을 덜어냈다. 정답과 묻는 내용은 그대로다."
   },
   {
     "id": 28,
@@ -500,10 +500,10 @@
       "water-washable\n수세성",
       "post-emulsification\n후유화성",
       "visible-dye\n염색(가시)형",
-      "solvent-removable\n용제제거성",
-      "all of the above\n위의 모두"
+      "solvent-removable\n용제제거성"
     ],
-    "answer": 0
+    "answer": 0,
+    "note": "보기를 넷으로 맞추면서 오답 「all of the above」을 덜어냈다. 정답과 묻는 내용은 그대로다."
   },
   {
     "id": 36,
@@ -561,10 +561,10 @@
       "The kind and size of discontinuities most likely to occur\n생길 가능성이 가장 큰 불연속의 종류와 크기",
       "The intended application of the part\n부품의 사용 용도",
       "The surface finish of the part\n부품의 표면 다듬질 상태",
-      "all of the above\n위의 모두",
-      "none of the above\n위의 어느 것도 아님"
+      "all of the above\n위의 모두"
     ],
-    "answer": 3
+    "answer": 3,
+    "note": "보기를 넷으로 맞추면서 오답 「none of the above」을 덜어냈다. 정답과 묻는 내용은 그대로다."
   },
   {
     "id": 40,
@@ -604,15 +604,13 @@
     "source": "PTM-III.HWP",
     "question": "Which of the following is not an aid that will help minimize the chances of a good inspector missing a penetrant indication?\n다음 중 숙련된 검사자가 침투 지시를 놓칠 가능성을 줄이는 데 도움이 되지 않는 것은?",
     "options": [
-      "A good white light should be provided when visible dye penetrants are used\n염색침투액을 쓸 때는 충분한 백색광을 갖춰야 한다",
-      "When inspecting with a black light and fluorescent penetrant, discontinuity\nindications will be easier to see if the inspector wears yellow sun glasses\n자외선등과 형광침투액으로 검사할 때 노란 선글라스를 쓰면 지시가 더 잘 보인다",
-      "The inspector should have an assistant to double check each inspection\n검사자는 매 검사를 재확인할 보조자를 두어야 한다",
-      "A suitably darkened booth should be provided when nonfluorescent penetrants\nare used\n비형광 침투액을 쓸 때는 적절히 어둡게 한 부스를 갖춰야 한다"
+      "A good white light should be provided when visible dye penetrants are used · When inspecting with a black light and fluorescent penetrant, discontinuity\n염색침투액을 쓸 때는 충분한 백색광을 갖춰야 한다 · indications will be easier to see if the inspector wears yellow sun glasses",
+      "A good white light should be provided when visible dye penetrants are used · The inspector should have an assistant to double check each inspection\n염색침투액을 쓸 때는 충분한 백색광을 갖춰야 한다 · 검사자는 매 검사를 재확인할 보조자를 두어야 한다",
+      "When inspecting with a black light and fluorescent penetrant, discontinuity · A suitably darkened booth should be provided when nonfluorescent penetrants\nindications will be easier to see if the inspector wears yellow sun glasses · are used",
+      "A good white light should be provided when visible dye penetrants are used · A suitably darkened booth should be provided when nonfluorescent penetrants\n염색침투액을 쓸 때는 충분한 백색광을 갖춰야 한다 · are used"
     ],
-    "answer": [
-      1,
-      3
-    ]
+    "answer": 2,
+    "note": "넷 가운데 2개가 정답인 복수정답 문항이라 찍어도 맞을 확률이 높았다. 항목을 묶어 조합형 단일정답으로 바꿨다. 정답 조합은 원본 정답 그대로다. ★ 오답 조합은 해당 종목 NDE Level Ⅲ 의 확인이 필요하다 (HIE-QP-E02 6.1.2, 6.3.1)."
   },
   {
     "id": 43,
@@ -1088,10 +1086,10 @@
       "a water washable penetrant test shall not be applied to a part has been\npreviously examined using a post-emulsifiable penetrant.\n후유화성 침투액으로 이미 검사한 부품에는 수세성 침투탐상을 적용해서는 안 된다",
       "a color contrast penetrant test shall not be applied to a part that has been\npreviously examined using a fluorescent penetrant.\n형광침투액으로 이미 검사한 부품에는 염색침투탐상을 적용해서는 안 된다",
       "a fluorescent penetrant test shall not be applied to a part that has been\npreviously examined using a color contrast penetrant.\n염색침투액으로 이미 검사한 부품에는 형광침투탐상을 적용해서는 안 된다",
-      "a post emulsifiable penetrant test shall not be applied to a part that has\nbeen previously examined using a solvent removable penetrant.\n용제제거성 침투액으로 이미 검사한 부품에는 후유화성 침투탐상을 적용해서는 안 된다",
-      "none of the above.\n위의 어느 것도 아님"
+      "a post emulsifiable penetrant test shall not be applied to a part that has\nbeen previously examined using a solvent removable penetrant.\n용제제거성 침투액으로 이미 검사한 부품에는 후유화성 침투탐상을 적용해서는 안 된다"
     ],
-    "answer": 2
+    "answer": 2,
+    "note": "보기를 넷으로 맞추면서 오답 「none of the above.」을 덜어냈다. 정답과 묻는 내용은 그대로다."
   },
   {
     "id": 75,
@@ -1104,10 +1102,10 @@
       "acetone shall be used.\n아세톤을 사용해야 한다",
       "one inch adjacent to the area to be examined shall be clean.\n검사할 부위의 인접 1인치까지 깨끗해야 한다",
       "one-half inch adjacent to the area to be examined shall be clean.\n검사할 부위의 인접 1/2인치까지 깨끗해야 한다",
-      "a light coating of oil on the test surface, that is compatible with the\npenetrant is acceptable.\n침투액과 상용성이 있는 얇은 유막은 검사면에 있어도 된다",
-      "none of the above.\n위의 어느 것도 아님"
+      "a light coating of oil on the test surface, that is compatible with the\npenetrant is acceptable.\n침투액과 상용성이 있는 얇은 유막은 검사면에 있어도 된다"
     ],
-    "answer": 1
+    "answer": 1,
+    "note": "보기를 넷으로 맞추면서 오답 「none of the above.」을 덜어냈다. 정답과 묻는 내용은 그대로다."
   },
   {
     "id": 76,
@@ -1120,10 +1118,10 @@
       "Article 6 of ASME Section V.\nASME Section Ⅴ Article 6",
       "ASTM E125.",
       "ASTM E165.",
-      "Appendix Ⅷ.",
-      "none of the above.\n위의 어느 것도 아님"
+      "Appendix Ⅷ."
     ],
-    "answer": 1
+    "answer": 1,
+    "note": "보기를 넷으로 맞추면서 오답 「none of the above.」을 덜어냈다. 정답과 묻는 내용은 그대로다."
   },
   {
     "id": 77,
@@ -1133,13 +1131,13 @@
     "source": "PTM-III.HWP",
     "question": "Article 6 of ASME Section Ⅴ states that black-light intensity shall be at least\nASME Section Ⅴ Article 6은 자외선 강도가 최소 얼마여야 한다고 규정하는가?",
     "options": [
-      "800 μw/cm2 at a distance of 12 inches.\n12인치 거리에서 800 μW/cm²",
       "800 μw/cm2 at a distance of 15 inches.\n15인치 거리에서 800 μW/cm²",
       "90 foot candles at a distance of 12 inches.\n12인치 거리에서 90 풋캔들",
       "90 foot candles at a distance of 15 inches.\n15인치 거리에서 90 풋캔들",
       "None of the above.\n위의 어느 것도 아님"
     ],
-    "answer": 4
+    "answer": 3,
+    "note": "보기를 넷으로 맞추면서 오답 「800 μw/cm2 at a distance of 12 inches.」을 덜어냈다. 정답과 묻는 내용은 그대로다."
   },
   {
     "id": 78,
@@ -1147,18 +1145,15 @@
     "method": "PT",
     "category": "Method",
     "source": "PTM-III.HWP",
-    "question": "After a procedure is qualified in accordance with Article 6 of ASME Section ⅴ, requalification is necessary:\nASME Section Ⅴ Article 6에 따라 절차를 검증한 뒤, 재검증이 필요한 경우는?",
+    "question": "After a procedure is qualified in accordance with Article 6 of ASME Section Ⅴ, which group lists the cases where requalification is needed?\nASME Section Ⅴ Article 6에 따라 절차를 검증한 뒤, 재검증이 필요한 경우끼리 묶은 것은?",
     "options": [
-      "annually thereafter.\n그 뒤로 매년",
-      "when a change is made in the type of precleaning materials.\n전처리 세척 재료의 종류가 바뀔 때",
-      "when a change is made in the type of penetrant materials.\n침투 재료의 종류가 바뀔 때",
-      "when personnel (operators) are changed.\n작업자가 바뀔 때",
-      "none of the above.\n위의 어느 것도 아님"
+      "annually thereafter · when personnel (operators) are changed\n그 뒤로 매년 · 작업자가 바뀔 때",
+      "when a change is made in the type of penetrant materials · when personnel (operators) are changed\n침투 재료의 종류가 바뀔 때 · 작업자가 바뀔 때",
+      "annually thereafter · when a change is made in the type of precleaning materials\n그 뒤로 매년 · 전처리 세척 재료의 종류가 바뀔 때",
+      "when a change is made in the type of precleaning materials · when a change is made in the type of penetrant materials\n전처리 세척 재료의 종류가 바뀔 때 · 침투 재료의 종류가 바뀔 때"
     ],
-    "answer": [
-      1,
-      2
-    ]
+    "answer": 3,
+    "note": "원본은 여러 보기 가운데 복수정답을 고르는 문항이었다. 오답 보기를 지워 넷으로 줄이면 정답 비율이 올라가 문제가 쉬워지므로, 항목을 묶어 조합형 4지선다로 바꿨다. 정답 조합은 원본 정답 그대로이고 오답 조합은 새로 만든 것이다. 네 보기의 항목 수를 같게 맞춰 개수로 답이 드러나지 않게 했다. ★ 오답 조합은 해당 종목 NDE Level Ⅲ 의 확인이 필요하다 (HIE-QP-E02 6.1.2, 6.3.1)."
   },
   {
     "id": 79,
@@ -1203,10 +1198,10 @@
       "one-half of the liquid penetrant comparator block is processed at the\nproposed temperature and the other half processed within the 60oF to 125oF\nrange.\n대비시험편의 절반은 제안 온도에서, 나머지 절반은 60~125°F 범위에서 처리한다",
       "two separate liquid penetrant comparator blocks are processed. One at the\nproposed temperature and the other within the 60oF to 125oF range.\n대비시험편 두 개를 따로 처리한다. 하나는 제안 온도에서, 다른 하나는 60~125°F 범위에서",
       "using the liquid penetrant comparator blocks is recommended but not\nmandatory.\n대비시험편 사용은 권장되지만 강제는 아니다",
-      "one liquid penetrant t comparator block is processed at the proposed\ntemperature and the indications are photographed. The same block is cleaned\nand reprocessed within the 60oF to 125oF temperature range. the results are\nthen compared with the photograph.\n대비시험편 하나를 제안 온도에서 처리해 지시를 사진으로 남기고, 같은 시험편을 세척해 60~125°F 범위에서 다시 처리한 뒤 사진과 비교한다",
-      "none of the above.\n위의 어느 것도 아님"
+      "one liquid penetrant t comparator block is processed at the proposed\ntemperature and the indications are photographed. The same block is cleaned\nand reprocessed within the 60oF to 125oF temperature range. the results are\nthen compared with the photograph.\n대비시험편 하나를 제안 온도에서 처리해 지시를 사진으로 남기고, 같은 시험편을 세척해 60~125°F 범위에서 다시 처리한 뒤 사진과 비교한다"
     ],
-    "answer": 0
+    "answer": 0,
+    "note": "보기를 넷으로 맞추면서 오답 「none of the above.」을 덜어냈다. 정답과 묻는 내용은 그대로다."
   },
   {
     "id": 82,
@@ -1265,10 +1260,10 @@
       "nonrelevant.\n비관련",
       "nonlinear.\n비선형",
       "rejectable.\n불합격",
-      "acceptable.\n합격",
-      "none of the above\n위의 어느 것도 아님"
+      "acceptable.\n합격"
     ],
-    "answer": 0
+    "answer": 0,
+    "note": "보기를 넷으로 맞추면서 오답 「none of the above」을 덜어냈다. 정답과 묻는 내용은 그대로다."
   },
   {
     "id": 86,
@@ -1330,11 +1325,11 @@
       "a rounded indication.\n원형 지시",
       "a linear indication.\n선형 지시",
       "a nonrelevant indication.\n비관련 지시",
-      "a rejectable indication.\n불합격 지시",
-      "none of the above.\n위의 어느 것도 아님"
+      "a rejectable indication.\n불합격 지시"
     ],
     "answer": 0,
-    "groupNote": "The following questions apply to ASME Section Ⅲ Div. 1, Subsection NB.\n다음 문항은 ASME Section Ⅲ Div. 1, Subsection NB 기준입니다."
+    "groupNote": "The following questions apply to ASME Section Ⅲ Div. 1, Subsection NB.\n다음 문항은 ASME Section Ⅲ Div. 1, Subsection NB 기준입니다.",
+    "note": "보기를 넷으로 맞추면서 오답 「none of the above.」을 덜어냈다. 정답과 묻는 내용은 그대로다."
   },
   {
     "id": 90,

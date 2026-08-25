@@ -373,10 +373,10 @@
       "stereo-radiography\n입체 방사선촬영",
       "zeroradiography\n제로 라디오그래피",
       "fluoroscopy\n형광투시",
-      "the parallax method\n시차법",
-      "none of the above\n위의 어느 것도 아님"
+      "the parallax method\n시차법"
     ],
-    "answer": 3
+    "answer": 3,
+    "note": "보기를 넷으로 맞추면서 오답 「none of the above」을 덜어냈다. 정답과 묻는 내용은 그대로다."
   },
   {
     "id": 33,
@@ -384,20 +384,15 @@
     "method": "RT",
     "category": "Method",
     "source": "RTM-III.HWP",
-    "question": "Which of the following items affect subject contrast?\n다음 중 피사체대비에 영향을 주는 것은?",
+    "question": "Which group lists items that affect subject contrast?\n피사체대비에 영향을 주는 것끼리 묶은 것은?",
     "options": [
-      "thickness differences in specimen\n시험체의 두께 차이",
-      "radiation energy level\n방사선 에너지 준위",
-      "scattered radiation\n산란 방사선",
-      "density variations in specimen\n시험체의 밀도 변화",
-      "type of film used\n사용한 필름의 종류",
-      "source-to-film distance\n선원-필름 거리"
+      "thickness differences in specimen · radiation energy level · density variations in specimen\n시험체의 두께 차이 · 방사선 에너지 준위 · 시험체의 밀도 변화",
+      "thickness differences in specimen · scattered radiation · type of film used\n시험체의 두께 차이 · 산란 방사선 · 사용한 필름의 종류",
+      "radiation energy level · source-to-film distance · type of film used\n방사선 에너지 준위 · 선원-필름 거리 · 사용한 필름의 종류",
+      "density variations in specimen · scattered radiation · source-to-film distance\n시험체의 밀도 변화 · 산란 방사선 · 선원-필름 거리"
     ],
-    "answer": [
-      0,
-      1,
-      3
-    ]
+    "answer": 0,
+    "note": "원본은 보기 여러 개 가운데 복수정답을 고르는 문항이었다. 오답 보기를 지워 넷으로 줄이면 정답 비율이 올라가 문제가 쉬워지므로, 항목을 묶어 조합형 4지선다로 바꿨다. 정답 조합은 원본 정답 그대로이고 오답 조합은 새로 만든 것이다. 네 보기의 항목 수를 같게 맞춰 개수로 답이 드러나지 않게 했다. ★ 오답 조합은 해당 종목 NDE Level Ⅲ 의 확인이 필요하다 (HIE-QP-E02 6.1.2, 6.3.1)."
   },
   {
     "id": 34,
@@ -405,20 +400,15 @@
     "method": "RT",
     "category": "Method",
     "source": "RTM-III.HWP",
-    "question": "Radiation is absorbed according to which of the following nuclear concepts.\n방사선은 다음 중 어떤 원자핵 개념에 따라 흡수되는가?",
+    "question": "Which group lists the nuclear concepts by which radiation is absorbed?\n방사선이 흡수되는 원자핵 개념끼리 묶은 것은?",
     "options": [
-      "Compton effect\n컴프턴 효과",
-      "Bremsstrahlung\n제동복사",
-      "Photoelectric effect\n광전 효과",
-      "Pair production\n쌍생성",
-      "disintegration\n붕괴",
-      "K-capture\nK 포획"
+      "Compton effect · Bremsstrahlung · K-capture\n컴프턴 효과 · 제동복사 · K 포획",
+      "Photoelectric effect · disintegration · Bremsstrahlung\n광전 효과 · 붕괴 · 제동복사",
+      "Compton effect · Photoelectric effect · Pair production\n컴프턴 효과 · 광전 효과 · 쌍생성",
+      "Pair production · K-capture · disintegration\n쌍생성 · K 포획 · 붕괴"
     ],
-    "answer": [
-      0,
-      2,
-      3
-    ]
+    "answer": 2,
+    "note": "원본은 보기 여러 개 가운데 복수정답을 고르는 문항이었다. 오답 보기를 지워 넷으로 줄이면 정답 비율이 올라가 문제가 쉬워지므로, 항목을 묶어 조합형 4지선다로 바꿨다. 정답 조합은 원본 정답 그대로이고 오답 조합은 새로 만든 것이다. 네 보기의 항목 수를 같게 맞춰 개수로 답이 드러나지 않게 했다. ★ 오답 조합은 해당 종목 NDE Level Ⅲ 의 확인이 필요하다 (HIE-QP-E02 6.1.2, 6.3.1)."
   },
   {
     "id": 35,
@@ -456,21 +446,16 @@
     "method": "RT",
     "category": "Method",
     "source": "RTM-III.HWP",
-    "question": "Lead foil in direct contact with the film for exposures over 120 KV has which of the following significant effects:\n120KV를 넘는 촬영에서 필름에 직접 밀착시킨 납박(lead foil)의 중요한 효과는?",
+    "question": "Which group lists the significant effects of lead foil in direct contact with the film for exposures over 120 KV?\n120KV를 넘는 촬영에서 필름에 직접 밀착시킨 납박의 중요한 효과끼리 묶은 것은?",
     "options": [
-      "increases exposure time\n노출시간을 늘린다",
-      "decreases exposure time\n노출시간을 줄인다",
-      "absorbs long wavelength scattered radiation\n긴 파장의 산란선을 흡수한다",
-      "absorbs short wavelength scattered radiation\n짧은 파장의 산란선을 흡수한다",
-      "improves sharpness and definition\n선명도와 명료도를 높인다",
-      "reduces sharpness and definition\n선명도와 명료도를 떨어뜨린다"
+      "increases exposure time · absorbs short wavelength scattered radiation · reduces sharpness and definition\n노출시간을 늘린다 · 짧은 파장의 산란선을 흡수한다 · 선명도와 명료도를 떨어뜨린다",
+      "decreases exposure time · absorbs long wavelength scattered radiation · improves sharpness and definition\n노출시간을 줄인다 · 긴 파장의 산란선을 흡수한다 · 선명도와 명료도를 높인다",
+      "decreases exposure time · absorbs short wavelength scattered radiation · reduces sharpness and definition\n노출시간을 줄인다 · 짧은 파장의 산란선을 흡수한다 · 선명도와 명료도를 떨어뜨린다",
+      "increases exposure time · absorbs long wavelength scattered radiation · improves sharpness and definition\n노출시간을 늘린다 · 긴 파장의 산란선을 흡수한다 · 선명도와 명료도를 높인다"
     ],
-    "answer": [
-      1,
-      2,
-      4
-    ],
-    "image": "RT_LEVEL3_M_Q7.jpg"
+    "answer": 1,
+    "image": "RT_LEVEL3_M_Q7.jpg",
+    "note": "원본은 보기 여러 개 가운데 복수정답을 고르는 문항이었다. 오답 보기를 지워 넷으로 줄이면 정답 비율이 올라가 문제가 쉬워지므로, 항목을 묶어 조합형 4지선다로 바꿨다. 정답 조합은 원본 정답 그대로이고 오답 조합은 새로 만든 것이다. 네 보기의 항목 수를 같게 맞춰 개수로 답이 드러나지 않게 했다. ★ 오답 조합은 해당 종목 NDE Level Ⅲ 의 확인이 필요하다 (HIE-QP-E02 6.1.2, 6.3.1)."
   },
   {
     "id": 38,
@@ -538,19 +523,15 @@
     "method": "RT",
     "category": "Method",
     "source": "RTM-III.HWP",
-    "question": "Target materials for x-ray tubes must possess which of the following properties?\nX선관의 타겟 재료가 갖춰야 할 성질은?",
+    "question": "Which group lists the properties that target materials for x-ray tubes must possess?\nX선관의 타겟 재료가 갖춰야 할 성질끼리 묶은 것은?",
     "options": [
-      "high melting point\n높은 융점",
-      "low atomic number\n낮은 원자번호",
-      "high thermal conductivity\n높은 열전도율",
-      "high atomic number\n높은 원자번호",
-      "none of the above\n위의 어느 것도 아님"
+      "high melting point · high thermal conductivity · low atomic number\n높은 융점 · 높은 열전도율 · 낮은 원자번호",
+      "high melting point · low atomic number · high atomic number\n높은 융점 · 낮은 원자번호 · 높은 원자번호",
+      "high melting point · high thermal conductivity · high atomic number\n높은 융점 · 높은 열전도율 · 높은 원자번호",
+      "high thermal conductivity · low atomic number · high atomic number\n높은 열전도율 · 낮은 원자번호 · 높은 원자번호"
     ],
-    "answer": [
-      0,
-      2,
-      3
-    ]
+    "answer": 2,
+    "note": "원본은 여러 보기 가운데 복수정답을 고르는 문항이었다. 오답 보기를 지워 넷으로 줄이면 정답 비율이 올라가 문제가 쉬워지므로, 항목을 묶어 조합형 4지선다로 바꿨다. 정답 조합은 원본 정답 그대로이고 오답 조합은 새로 만든 것이다. 네 보기의 항목 수를 같게 맞춰 개수로 답이 드러나지 않게 했다. ★ 오답 조합은 해당 종목 NDE Level Ⅲ 의 확인이 필요하다 (HIE-QP-E02 6.1.2, 6.3.1)."
   },
   {
     "id": 43,
@@ -563,10 +544,10 @@
       "poor definition\n낮은 명료도",
       "low contrast\n낮은 대비",
       "low speed\n낮은 감도",
-      "good sensitivity\n좋은 감도",
-      "none of the above\n위의 어느 것도 아님"
+      "good sensitivity\n좋은 감도"
     ],
-    "answer": 1
+    "answer": 1,
+    "note": "보기를 넷으로 맞추면서 오답 「none of the above」을 덜어냈다. 정답과 묻는 내용은 그대로다."
   },
   {
     "id": 44,
@@ -739,19 +720,15 @@
     "method": "RT",
     "category": "Method",
     "source": "RTM-III.HWP",
-    "question": "A radiograph, showing poor sensitivity, is to be retaken. Which of the following would improve the sensitivity?\n감도가 나쁜 방사선사진을 다시 찍으려 한다. 감도를 높이는 방법은?",
+    "question": "A radiograph showing poor sensitivity is to be retaken. Which group lists the changes that would improve the sensitivity?\n감도가 나쁜 방사선사진을 다시 찍으려 한다. 감도를 높이는 방법끼리 묶은 것은?",
     "options": [
-      "Reduce the source-to-film distance\n선원-필름 거리를 줄인다",
-      "Use a slower film\n감도가 느린 필름을 쓴다",
-      "Reduce the KV of the x-ray machine used\n사용하는 X선 장치의 관전압을 낮춘다",
-      "Increase the KV of the x-ray machine used\n사용하는 X선 장치의 관전압을 높인다",
-      "Add shielding for back scatter\n후방산란용 차폐를 추가한다"
+      "Reduce the source-to-film distance · Use a slower film · Increase the KV of the x-ray machine used\n선원-필름 거리를 줄인다 · 감도가 느린 필름을 쓴다 · 사용하는 X선 장치의 관전압을 높인다",
+      "Use a slower film · Reduce the KV of the x-ray machine used · Add shielding for back scatter\n감도가 느린 필름을 쓴다 · 사용하는 X선 장치의 관전압을 낮춘다 · 후방산란용 차폐를 추가한다",
+      "Reduce the source-to-film distance · Increase the KV of the x-ray machine used · Add shielding for back scatter\n선원-필름 거리를 줄인다 · 사용하는 X선 장치의 관전압을 높인다 · 후방산란용 차폐를 추가한다",
+      "Use a slower film · Increase the KV of the x-ray machine used · Add shielding for back scatter\n감도가 느린 필름을 쓴다 · 사용하는 X선 장치의 관전압을 높인다 · 후방산란용 차폐를 추가한다"
     ],
-    "answer": [
-      1,
-      2,
-      4
-    ]
+    "answer": 1,
+    "note": "원본은 여러 보기 가운데 복수정답을 고르는 문항이었다. 오답 보기를 지워 넷으로 줄이면 정답 비율이 올라가 문제가 쉬워지므로, 항목을 묶어 조합형 4지선다로 바꿨다. 정답 조합은 원본 정답 그대로이고 오답 조합은 새로 만든 것이다. 네 보기의 항목 수를 같게 맞춰 개수로 답이 드러나지 않게 했다. ★ 오답 조합은 해당 종목 NDE Level Ⅲ 의 확인이 필요하다 (HIE-QP-E02 6.1.2, 6.3.1)."
   },
   {
     "id": 56,
@@ -774,18 +751,15 @@
     "method": "RT",
     "category": "Method",
     "source": "RTM-III.HWP",
-    "question": "Latitude is affected by which of the following items?\n관용도에 영향을 주는 것은?",
+    "question": "Which group lists the items that affect latitude?\n관용도(latitude)에 영향을 주는 것끼리 묶은 것은?",
     "options": [
-      "The type of film used\n사용한 필름의 종류",
-      "The source-to-film distance\n선원-필름 거리",
-      "The energy level or quality of the radiation beam\n방사선 빔의 에너지 준위 또는 선질",
-      "The effective focal spot size\n유효 초점 크기",
-      "The length of the film used\n사용한 필름의 길이"
+      "The type of film used · The energy level or quality of the radiation beam\n사용한 필름의 종류 · 방사선 빔의 에너지 준위 또는 선질",
+      "The source-to-film distance · The effective focal spot size\n선원-필름 거리 · 유효 초점 크기",
+      "The type of film used · The effective focal spot size\n사용한 필름의 종류 · 유효 초점 크기",
+      "The energy level or quality of the radiation beam · The length of the film used\n방사선 빔의 에너지 준위 또는 선질 · 사용한 필름의 길이"
     ],
-    "answer": [
-      0,
-      2
-    ]
+    "answer": 0,
+    "note": "원본은 여러 보기 가운데 복수정답을 고르는 문항이었다. 오답 보기를 지워 넷으로 줄이면 정답 비율이 올라가 문제가 쉬워지므로, 항목을 묶어 조합형 4지선다로 바꿨다. 정답 조합은 원본 정답 그대로이고 오답 조합은 새로 만든 것이다. 네 보기의 항목 수를 같게 맞춰 개수로 답이 드러나지 않게 했다. ★ 오답 조합은 해당 종목 NDE Level Ⅲ 의 확인이 필요하다 (HIE-QP-E02 6.1.2, 6.3.1)."
   },
   {
     "id": 58,
@@ -823,19 +797,15 @@
     "method": "RT",
     "category": "Method",
     "source": "RTM-III.HWP",
-    "question": "In order to produce x-rays, a system must have which of the following as a minimum?\nX선을 발생시키려면 최소한 어떤 것들이 있어야 하는가?",
+    "question": "Which group lists what a system must have as a minimum in order to produce x-rays?\nX선을 발생시키는 데 최소한 필요한 것끼리 묶은 것은?",
     "options": [
-      "a beryllium window\n베릴륨 창",
-      "a means of accelerating electrons\n전자를 가속하는 수단",
-      "a target\n표적",
-      "a source of free electrons\n자유전자의 공급원",
-      "a copper anode\n구리 양극"
+      "a beryllium window · a means of accelerating electrons · a target\n베릴륨 창 · 전자를 가속하는 수단 · 표적",
+      "a target · a source of free electrons · a copper anode\n표적 · 자유전자의 공급원 · 구리 양극",
+      "a means of accelerating electrons · a target · a source of free electrons\n전자를 가속하는 수단 · 표적 · 자유전자의 공급원",
+      "a beryllium window · a source of free electrons · a copper anode\n베릴륨 창 · 자유전자의 공급원 · 구리 양극"
     ],
-    "answer": [
-      1,
-      2,
-      3
-    ]
+    "answer": 2,
+    "note": "원본은 여러 보기 가운데 복수정답을 고르는 문항이었다. 오답 보기를 지워 넷으로 줄이면 정답 비율이 올라가 문제가 쉬워지므로, 항목을 묶어 조합형 4지선다로 바꿨다. 정답 조합은 원본 정답 그대로이고 오답 조합은 새로 만든 것이다. 네 보기의 항목 수를 같게 맞춰 개수로 답이 드러나지 않게 했다. ★ 오답 조합은 해당 종목 NDE Level Ⅲ 의 확인이 필요하다 (HIE-QP-E02 6.1.2, 6.3.1)."
   },
   {
     "id": 61,

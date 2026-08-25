@@ -43,17 +43,13 @@
     "topic": "ASME Section VIII / HIE-NDT-MT-P11",
     "question": "How to prove the strength of the magnetic field, what is appropriate? (Select three.)\n자기장 세기의 적절성을 증명하는 방법은? (세 가지를 고르시오.)",
     "options": [
-      "Pie-Shaped Magnetic Particle Field Indicator\n파이형 자장 지시계",
-      "Artificial Flaw Shims\n인공결함 심(shim)",
-      "Hall-Effect Tangential-Field Probe\n홀효과 접선자장 탐촉자",
-      "Lifting power block\n흡인력 시험편"
+      "Pie-Shaped Magnetic Particle Field Indicator · Artificial Flaw Shims · Lifting power block\n파이형 자장 지시계 · 인공결함 심(shim) · 흡인력 시험편",
+      "Pie-Shaped Magnetic Particle Field Indicator · Hall-Effect Tangential-Field Probe · Lifting power block\n파이형 자장 지시계 · 홀효과 접선자장 탐촉자 · 흡인력 시험편",
+      "Pie-Shaped Magnetic Particle Field Indicator · Artificial Flaw Shims · Hall-Effect Tangential-Field Probe\n파이형 자장 지시계 · 인공결함 심(shim) · 홀효과 접선자장 탐촉자",
+      "Artificial Flaw Shims · Hall-Effect Tangential-Field Probe · Lifting power block\n인공결함 심(shim) · 홀효과 접선자장 탐촉자 · 흡인력 시험편"
     ],
-    "answer": [
-      0,
-      1,
-      2
-    ],
-    "note": "원본 물음이 「(tree method)」— three methods 의 오타 — 로 세 가지를 묻고 답지도 a,b,c 다. 은행이 하나만 정답으로 두고 있었다. 복수정답으로 바로잡고 세 가지임을 물음에 밝혔다(E02 6.2.3)."
+    "answer": 2,
+    "note": "원본 물음이 「(tree method)」— three methods 의 오타 — 로 세 가지를 묻고 답지도 a,b,c 다. 은행이 하나만 정답으로 두고 있었다. 복수정답으로 바로잡고 세 가지임을 물음에 밝혔다(E02 6.2.3). 넷 가운데 3개가 정답인 복수정답 문항이라 찍어도 맞을 확률이 높았다. 항목을 묶어 조합형 단일정답으로 바꿨다. 정답 조합은 원본 정답 그대로다. ★ 오답 조합은 해당 종목 NDE Level Ⅲ 의 확인이 필요하다 (HIE-QP-E02 6.1.2, 6.3.1)."
   },
   {
     "id": 8,
@@ -1325,10 +1321,10 @@
       "Prod method\n프로드법",
       "Coil method\n코일법",
       "Yoke method\n요크법",
-      "Residual method\n잔류법",
-      "None of the above\n위의 어느 것도 아님"
+      "Residual method\n잔류법"
     ],
-    "answer": 0
+    "answer": 0,
+    "note": "보기를 넷으로 맞추면서 오답 「None of the above」을 덜어냈다. 정답과 묻는 내용은 그대로다."
   },
   {
     "id": 94,
@@ -1341,10 +1337,10 @@
       "1 to 4 ml per 100 ml\n100mL당 1~4mL",
       "1.2 to 2.4 ml per 100 ml\n100mL당 1.2~2.4mL",
       "2 to 3 ml per 100 ml\n100mL당 2~3mL",
-      "0.1 to 0.4 ml per 100 ml\n100mL당 0.1~0.4mL",
-      "none of the above\n위의 어느 것도 아님"
+      "0.1 to 0.4 ml per 100 ml\n100mL당 0.1~0.4mL"
     ],
-    "answer": 3
+    "answer": 3,
+    "note": "보기를 넷으로 맞추면서 오답 「none of the above」을 덜어냈다. 정답과 묻는 내용은 그대로다."
   },
   {
     "id": 95,
@@ -1357,10 +1353,10 @@
       "1/5 second\n0.2초",
       "1/2 second\n0.5초",
       "1 second\n1초",
-      "1 minute\n1분",
-      "None of the above\n위의 어느 것도 아님"
+      "1 minute\n1분"
     ],
-    "answer": 1
+    "answer": 1,
+    "note": "보기를 넷으로 맞추면서 오답 「None of the above」을 덜어냈다. 정답과 묻는 내용은 그대로다."
   },
   {
     "id": 96,

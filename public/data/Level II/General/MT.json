@@ -95,19 +95,15 @@
     "method": "MT",
     "category": "General",
     "source": "MTG-II(A)",
-    "question": "What are three causes of nonrelevant indications?\n부적절한 지시를 나타내는 3가지 이유를 골라라",
+    "question": "Which group lists three causes of nonrelevant indications?\n무관지시(nonrelevant indication)의 원인끼리 묶은 것은?",
     "options": [
-      "Lack of fusion\n융합 불량",
-      "Change in section\n단면의 변화",
-      "drilled holes near test surface\n시험 표면 근처의 구멍",
-      "Grinding cracks\n그라인딩 크랙",
-      "Blow holes\n브러홀"
+      "Lack of fusion · Change in section · Grinding cracks\n융합 불량 · 단면의 변화 · 연삭 균열",
+      "Change in section · drilled holes near test surface · Blow holes\n단면의 변화 · 시험 표면 근처의 구멍 · 블로홀",
+      "Lack of fusion · Grinding cracks · Blow holes\n융합 불량 · 연삭 균열 · 블로홀",
+      "Change in section · Lack of fusion · drilled holes near test surface\n단면의 변화 · 융합 불량 · 시험 표면 근처의 구멍"
     ],
-    "answer": [
-      1,
-      2,
-      4
-    ]
+    "answer": 1,
+    "note": "원본은 여러 보기 가운데 복수정답을 고르는 문항이었다. 오답 보기를 지워 넷으로 줄이면 정답 비율이 올라가 문제가 쉬워지므로, 항목을 묶어 조합형 4지선다로 바꿨다. 정답 조합은 원본 정답 그대로이고 오답 조합은 새로 만든 것이다. 네 보기의 항목 수를 같게 맞춰 개수로 답이 드러나지 않게 했다. ★ 오답 조합은 해당 종목 NDE Level Ⅲ 의 확인이 필요하다 (HIE-QP-E02 6.1.2, 6.3.1)."
   },
   {
     "id": 8,
@@ -174,24 +170,15 @@
     "method": "MT",
     "category": "General",
     "source": "MTG-II(A)",
-    "question": "Select type of metals that may be magnetic particle inspected from the following : (check three)\n다음에서 자분 탐상 시험을 해도 좋은 금속은: (3개 선택)",
+    "question": "Select the group of metals that may be magnetic particle inspected.\n자분탐상시험을 할 수 있는 금속끼리 묶은 것은?",
     "options": [
-      "ferro-magnetic metals\n강자성 금속",
-      "low carbon steel\n저 탄소강",
-      "aluminum\n알루미늄",
-      "austenitic steels\n오스테나이트 강",
-      "copper\n구리",
-      "bronze\n청동",
-      "lead\n납",
-      "magnesium\n마그네슘",
-      "titanium\n티탄",
-      "nickel\n니켈"
+      "low carbon steel · aluminum · copper\n저탄소강 · 알루미늄 · 구리",
+      "ferro-magnetic metals · low carbon steel · nickel\n강자성 금속 · 저탄소강 · 니켈",
+      "nickel · austenitic steels · titanium\n니켈 · 오스테나이트 강 · 티타늄",
+      "ferro-magnetic metals · bronze · magnesium\n강자성 금속 · 청동 · 마그네슘"
     ],
-    "answer": [
-      0,
-      1,
-      9
-    ]
+    "answer": 1,
+    "note": "원본은 보기 여러 개 가운데 복수정답을 고르는 문항이었다. 오답 보기를 지워 넷으로 줄이면 정답 비율이 올라가 문제가 쉬워지므로, 항목을 묶어 조합형 4지선다로 바꿨다. 정답 조합은 원본 정답 그대로이고 오답 조합은 새로 만든 것이다. 네 보기의 항목 수를 같게 맞춰 개수로 답이 드러나지 않게 했다. ★ 오답 조합은 해당 종목 NDE Level Ⅲ 의 확인이 필요하다 (HIE-QP-E02 6.1.2, 6.3.1)."
   },
   {
     "id": 13,
@@ -214,19 +201,15 @@
     "method": "MT",
     "category": "General",
     "source": "MTG-II(A)",
-    "question": "Check those discontinuities which may not be found in forgings. (check two)\n(단조물에서 찾아보기 힘든 불연속은?) 2개 선택",
+    "question": "Which group lists discontinuities that may NOT be found in forgings?\n단조물에서는 찾아보기 힘든 불연속끼리 묶은 것은?",
     "options": [
-      "shrink\n수축",
-      "laps\n겹침",
-      "flash line cracks\n균일선",
-      "flakes\n엷은 조각",
-      "lack of fusion\n용융부족",
-      "cracks or bursts\n균열이나 파열"
+      "laps · flakes\n겹침 · 플레이크",
+      "flash line cracks · cracks or bursts\n플래시선 균열 · 균열이나 파열",
+      "shrink · lack of fusion\n수축 · 용융부족",
+      "shrink · laps\n수축 · 겹침"
     ],
-    "answer": [
-      0,
-      4
-    ]
+    "answer": 2,
+    "note": "원본은 보기 여러 개 가운데 복수정답을 고르는 문항이었다. 오답 보기를 지워 넷으로 줄이면 정답 비율이 올라가 문제가 쉬워지므로, 항목을 묶어 조합형 4지선다로 바꿨다. 정답 조합은 원본 정답 그대로이고 오답 조합은 새로 만든 것이다. 네 보기의 항목 수를 같게 맞춰 개수로 답이 드러나지 않게 했다. ★ 오답 조합은 해당 종목 NDE Level Ⅲ 의 확인이 필요하다 (HIE-QP-E02 6.1.2, 6.3.1)."
   },
   {
     "id": 15,
@@ -465,16 +448,13 @@
     "source": "MTG-II(A)",
     "question": "Why are parts demagnetized (check correct answer (s))?\n(탈자는 왜 필요한가?) 다수 선택",
     "options": [
-      "so that parts can be handled easier\n제품을 더 쉽게 취급할 수 있도록 하기 위해",
-      "to assure removal of residual magnetism\n잔류 자기를 없애기 위해",
-      "to assist in cleaning of parts\n제품의 세척을 돕기 위해",
-      "if not done, subsequent machining operations may be more difficult to accomplish satisfactorily\n탈자를 하지 않으면, 이어서 실시되는 기계 가공 작업을 하는데 어려움을 줄지도 모르므로"
+      "so that parts can be handled easier · to assure removal of residual magnetism · to assist in cleaning of parts\n제품을 더 쉽게 취급할 수 있도록 하기 위해 · 잔류 자기를 없애기 위해 · 제품의 세척을 돕기 위해",
+      "so that parts can be handled easier · to assure removal of residual magnetism · if not done, subsequent machining operations may be more difficult to accomplish satisfactorily\n제품을 더 쉽게 취급할 수 있도록 하기 위해 · 잔류 자기를 없애기 위해 · 탈자를 하지 않으면, 이어서 실시되는 기계 가공 작업을 하는데 어려움을 줄지도 모르므로",
+      "to assure removal of residual magnetism · to assist in cleaning of parts · if not done, subsequent machining operations may be more difficult to accomplish satisfactorily\n잔류 자기를 없애기 위해 · 제품의 세척을 돕기 위해 · 탈자를 하지 않으면, 이어서 실시되는 기계 가공 작업을 하는데 어려움을 줄지도 모르므로",
+      "so that parts can be handled easier · to assist in cleaning of parts · if not done, subsequent machining operations may be more difficult to accomplish satisfactorily\n제품을 더 쉽게 취급할 수 있도록 하기 위해 · 제품의 세척을 돕기 위해 · 탈자를 하지 않으면, 이어서 실시되는 기계 가공 작업을 하는데 어려움을 줄지도 모르므로"
     ],
-    "answer": [
-      1,
-      2,
-      3
-    ]
+    "answer": 2,
+    "note": "넷 가운데 3개가 정답인 복수정답 문항이라 찍어도 맞을 확률이 높았다. 항목을 묶어 조합형 단일정답으로 바꿨다. 정답 조합은 원본 정답 그대로다. ★ 오답 조합은 해당 종목 NDE Level Ⅲ 의 확인이 필요하다 (HIE-QP-E02 6.1.2, 6.3.1)."
   },
   {
     "id": 31,

@@ -560,20 +560,15 @@
     "method": "Basic",
     "category": "Basic",
     "topic": "Materials",
-    "question": "What will occur normally when stressing most engineering materials a small amount beyond their elastic limit? (Select two.)\n대부분의 공학 재료가 탄성한계를 조금 넘는 응력을 받을 때 발생하는 현상은?",
+    "question": "Which group lists what normally occurs when stressing most engineering materials a small amount beyond their elastic limit?\n대부분의 공학 재료가 탄성한계를 조금 넘는 응력을 받을 때 일어나는 현상끼리 묶은 것은?",
     "options": [
-      "Cracking\n균열",
-      "Fatigue\n피로",
-      "Elastic deformation\n탄성 변형",
-      "Plastic flow\n소성 유동",
-      "Work hardening\n가공경화",
-      "Twinning\n쌍정"
+      "Elastic deformation · Fatigue\n탄성 변형 · 피로",
+      "Cracking · Twinning\n균열 · 쌍정",
+      "Plastic flow · Work hardening\n소성 유동 · 가공경화",
+      "Plastic flow · Cracking\n소성 유동 · 균열"
     ],
-    "answer": [
-      3,
-      4
-    ],
-    "note": "원본 답지가 「d e」(plastic flow, work hardening)인데 은행에 e·f 보기가 빠져 있어 답을 고를 수 없었다. 원본에 있는 두 보기를 되살리고 복수정답으로 바로잡았다. 복수정답임을 물음에 밝혔다(E02 6.2.3)."
+    "answer": 2,
+    "note": "원본은 보기 여러 개 가운데 복수정답을 고르는 문항이었다. 오답 보기를 지워 넷으로 줄이면 정답 비율이 올라가 문제가 쉬워지므로, 항목을 묶어 조합형 4지선다로 바꿨다. 정답 조합은 원본 정답 그대로이고 오답 조합은 새로 만든 것이다. 네 보기의 항목 수를 같게 맞춰 개수로 답이 드러나지 않게 했다. ★ 오답 조합은 해당 종목 NDE Level Ⅲ 의 확인이 필요하다 (HIE-QP-E02 6.1.2, 6.3.1)."
   },
   {
     "id": 39,

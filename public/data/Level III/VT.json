@@ -118,16 +118,13 @@
     "topic": "ASME Section III",
     "question": "In judging acceptance of an undercut, which shall be taken into consideration?\n언더컷 합부 판정시 고려해야 할 사항은?",
     "options": [
-      "component thickness\n부재 두께",
-      "undercut depth\n언더컷 깊이",
-      "weld reinforcement\n용접 덧살",
-      "undercut length\n언더컷 길이"
+      "component thickness · undercut depth · undercut length\n부재 두께 · 언더컷 깊이 · 언더컷 길이",
+      "component thickness · undercut depth · weld reinforcement\n부재 두께 · 언더컷 깊이 · 용접 덧살",
+      "component thickness · weld reinforcement · undercut length\n부재 두께 · 용접 덧살 · 언더컷 길이",
+      "undercut depth · weld reinforcement · undercut length\n언더컷 깊이 · 용접 덧살 · 언더컷 길이"
     ],
-    "answer": [
-      0,
-      1,
-      3
-    ]
+    "answer": 0,
+    "note": "넷 가운데 3개가 정답인 복수정답 문항이라 찍어도 맞을 확률이 높았다. 항목을 묶어 조합형 단일정답으로 바꿨다. 정답 조합은 원본 정답 그대로다. ★ 오답 조합은 해당 종목 NDE Level Ⅲ 의 확인이 필요하다 (HIE-QP-E02 6.1.2, 6.3.1)."
   },
   {
     "id": 9,
