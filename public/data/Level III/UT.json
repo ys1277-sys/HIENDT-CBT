@@ -1311,7 +1311,8 @@
       "75 percent of the reference level\n기준레벨의 75%",
       "80 percent of the reference level\n기준레벨의 80%"
     ],
-    "answer": 1
+    "answer": 1,
+    "note": "정답 ② 기준레벨의 50% 유지. 20%는 ASME Sec. Ⅷ Div.1 Appendix 12 의 조사(investigate) 기준이고, 이 물음은 기록(record) 기준을 묻는다. 둘은 다른 문턱값이라 20%로 바꾸면 오히려 어긋난다."
   },
   {
     "id": 88,

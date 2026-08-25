@@ -1284,7 +1284,8 @@
       "2 in."
     ],
     "answer": 2,
-    "groupNote": "The following questions apply to ASME Section Ⅲ Div. 1, Subsection NB.\n다음 문항은 ASME Section Ⅲ Div. 1, Subsection NB 기준입니다."
+    "groupNote": "The following questions apply to ASME Section Ⅲ Div. 1, Subsection NB.\n다음 문항은 ASME Section Ⅲ Div. 1, Subsection NB 기준입니다.",
+    "note": "정답 ③ 1 in. 유지. 용접 개선면의 지시 허용 한계 1인치는 규격에 있는 값이다. 다만 물음의 「crack(균열)」은 의심스럽다. 균열은 길이와 무관하게 불합격이므로 「최대 허용 길이」를 묻는 물음과 맞지 않는다. 원본이 laminar 계열 지시를 가리키면서 낱말을 잘못 쓴 것으로 본다. 답은 맞고 낱말이 틀린 쪽이라 답을 두었다."
   },
   {
     "id": 87,
