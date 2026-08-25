@@ -1,5 +1,15 @@
 [
   {
+    "id": 3,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "question": "You are radiographing a 1/2\" thick specimen using a 24\" SFD, 200KVP, 10mA, 1.2 minute, with an X-Ray tube with a 4mm focal spot. What is the Ug?\n시편두께가 1/2인치이고 24인치 SFD, 200KVP, 10mA, 1.2분, 초점 크기가 4mm일 때 기하학적 불선명도(Ug)는?",
+    "options": [],
+    "answer": "Ug = 0.084 inch",
+    "note": "원본이 서술형인 문항이다. 객관식으로 옮기며 보기 2~4번이 비어 있던 것을, 원본대로 주관식으로 되돌렸다. 정답은 원본 답지 그대로다."
+  },
+  {
     "id": 7,
     "level": "Level III",
     "method": "RT",
@@ -168,6 +178,16 @@
     "answer": 3
   },
   {
+    "id": 19,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "question": "The welds that is shown by radiography to have 1/16\" crack is acceptable (Yes or No)?\n방사선 투과사진에서 1/16인치 균열이 보이는 용접부는 합격인가?",
+    "options": [],
+    "answer": "No",
+    "note": "원본이 서술형인 문항이다. 객관식으로 옮기며 보기 2~4번이 비어 있던 것을, 원본대로 주관식으로 되돌렸다. 정답은 원본 답지 그대로다."
+  },
+  {
     "id": 20,
     "level": "Level III",
     "method": "RT",
@@ -256,6 +276,16 @@
       "Incomplete root penetration\n루트 용입부족"
     ],
     "answer": 0
+  },
+  {
+    "id": 26,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "question": "There is no exposure advantage to the use of ______ in. front and back lead screens below 125 KV in the radiograph of 1/4 in. or lesser thickness steel.\n1/4인치 이하 두께의 강재를 125KV 이하에서 촬영할 때 전·후면 납 증감지를 몇 인치 사용하는 것은 노출상 이점이 없는가?",
+    "options": [],
+    "answer": "0.005 inch",
+    "note": "원본이 서술형인 문항이다. 객관식으로 옮기며 보기 2~4번이 비어 있던 것을, 원본대로 주관식으로 되돌렸다. 정답은 원본 답지 그대로다."
   },
   {
     "id": 27,

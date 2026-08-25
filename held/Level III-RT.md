@@ -1,10 +1,12 @@
-# Level III-RT — 보기가 채워지지 않은 문항
+# Level III-RT — 아직 낼 수 없는 문항
 
-원본 시험지의 서술형 문제를 객관식으로 옮기면서 정답만 남고 오답 보기가
-비어 있다. 해당 종목 NDE Level Ⅲ 가 오답 보기를 채워 승인하면
-(HIE-QP-E02 6.1.2, 6.3.1) 문제은행으로 되돌린다.
+원본이 서술형이다. 답이 여러 조각이라 주관식으로 내면 아는 사람도
+글자를 그대로 못 쳐서 틀린다. 두 갈래 가운데 하나를 골라야 한다.
 
-되돌릴 때 지켜야 할 꼴 — 보기는 「영어 줄바꿈 한국어」
+  가) 오답 보기 셋을 채워 객관식으로 낸다
+  나) 답을 한 조각으로 줄여 주관식으로 낸다  (보기 없이 답만 두면 된다)
+
+해당 종목 NDE Level Ⅲ 가 정해 승인한다. (HIE-QP-E02 6.1.2, 6.3.1)
 
 ---
 
@@ -17,13 +19,6 @@ What requirement of this procedure shall be demonstrated on production or techni
 
 원본 정답 : `Density and penetrameter image requirements / 농도와 투과도계 상(image) 요구사항`
 
-| 보기 | 채울 내용 |
-|:-:|---|
-| 1 | Density and penetrameter image requirements / 농도와 투과도계 상(image) 요구사항  ← 정답 |
-| 2 | |
-| 3 | |
-| 4 | |
-
 ### id 2
 
 ```
@@ -32,29 +27,6 @@ For complete radiographic coverage of cylindrical girth welds, a minimum of is r
 ```
 
 원본 정답 : `Four exposures 90° apart / 90° 간격 4회 촬영`
-
-| 보기 | 채울 내용 |
-|:-:|---|
-| 1 | Four exposures 90° apart / 90° 간격 4회 촬영  ← 정답 |
-| 2 | |
-| 3 | |
-| 4 | |
-
-### id 3
-
-```
-You are radiographing a 1/2" thick specimen using a 24" SFD, 200KVP, 10mA, 1.2 minute, with an X-Ray tube with a 4mm focal spot. What is the Ug?
-시편두께가 1/2인치이고 24인치 SFD, 200KVP, 10mA, 1.2분, 초점 크기가 4mm일 때 기하학적 불선명도(Ug)는?
-```
-
-원본 정답 : `Ug = 0.084 inch`
-
-| 보기 | 채울 내용 |
-|:-:|---|
-| 1 | Ug = 0.084 inch  ← 정답 |
-| 2 | |
-| 3 | |
-| 4 | |
 
 ### id 4
 
@@ -65,13 +37,6 @@ What is the different requirements in this procedure between X-ray and γ-ray?
 
 원본 정답 : `Minimum film density 1.8 for X-ray / 2.0 for Gamma-ray / 최소 필름농도 X선 1.8 / 감마선 2.0`
 
-| 보기 | 채울 내용 |
-|:-:|---|
-| 1 | Minimum film density 1.8 for X-ray / 2.0 for Gamma-ray / 최소 필름농도 X선 1.8 / 감마선 2.0  ← 정답 |
-| 2 | |
-| 3 | |
-| 4 | |
-
 ### id 5
 
 ```
@@ -80,13 +45,6 @@ What evidence would you find on a radiograph that would indicate insufficient pr
 ```
 
 원본 정답 : `B letter appears on a dark background of the radiograph / 방사선사진의 어두운 바탕 위에 B 글자가 나타난다`
-
-| 보기 | 채울 내용 |
-|:-:|---|
-| 1 | B letter appears on a dark background of the radiograph / 방사선사진의 어두운 바탕 위에 B 글자가 나타난다  ← 정답 |
-| 2 | |
-| 3 | |
-| 4 | |
 
 ### id 6
 
@@ -97,13 +55,6 @@ What are the radiographic density requirements?
 
 원본 정답 : `Single viewing for X-ray : 1.8~4.0 / Composite viewing of multiple film : 1.3~4.0 / Single viewing for γ-ray : 2.0~4.0 / X선 단일필름 관찰 1.8~4.0 / 다중필름 겹쳐 관찰 1.3~4.0 / 감마선 단일필름 관찰 2.0~4.0`
 
-| 보기 | 채울 내용 |
-|:-:|---|
-| 1 | Single viewing for X-ray : 1.8~4.0 / Composite viewing of multiple film : 1.3~4.0 / Single viewing for γ-ray : 2.0~4.0 / X선 단일필름 관찰 1.8~4.0 / 다중필름 겹쳐 관찰 1.3~4.0 / 감마선 단일필름 관찰 2.0~4.0  ← 정답 |
-| 2 | |
-| 3 | |
-| 4 | |
-
 ### id 10
 
 ```
@@ -112,42 +63,3 @@ A circumferential butt weld in class 1 component has been made in a 30 in. diame
 ```
 
 원본 정답 : `A : 3/32 inch / B : #7 wire (0.013 inch or 0.33mm) / A: 3/32인치 / B: #7 와이어(0.013인치, 0.33mm)`
-
-| 보기 | 채울 내용 |
-|:-:|---|
-| 1 | A : 3/32 inch / B : #7 wire (0.013 inch or 0.33mm) / A: 3/32인치 / B: #7 와이어(0.013인치, 0.33mm)  ← 정답 |
-| 2 | |
-| 3 | |
-| 4 | |
-
-### id 19
-
-```
-The welds that is shown by radiography to have 1/16" crack is acceptable (Yes or No)?
-방사선 투과사진에서 1/16인치 균열이 보이는 용접부는 합격인가?
-```
-
-원본 정답 : `No`
-
-| 보기 | 채울 내용 |
-|:-:|---|
-| 1 | No  ← 정답 |
-| 2 | |
-| 3 | |
-| 4 | |
-
-### id 26
-
-```
-There is no exposure advantage to the use of ______ in. front and back lead screens below 125 KV in the radiograph of 1/4 in. or lesser thickness steel.
-1/4인치 이하 두께의 강재를 125KV 이하에서 촬영할 때 전·후면 납 증감지를 몇 인치 사용하는 것은 노출상 이점이 없는가?
-```
-
-원본 정답 : `0.005 inch`
-
-| 보기 | 채울 내용 |
-|:-:|---|
-| 1 | 0.005 inch  ← 정답 |
-| 2 | |
-| 3 | |
-| 4 | |

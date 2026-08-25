@@ -1,5 +1,15 @@
 [
   {
+    "id": 1,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "question": "When using the wet method of MT, what is the particle concentration for?\n습식 자분탐상을 할 때 자분 농도는?",
+    "options": [],
+    "answer": "1.2 ml to 2.4 ml per 100 ml",
+    "note": "원본이 서술형인 문항이다. 객관식으로 옮기며 보기 2~4번이 비어 있던 것을, 원본대로 주관식으로 되돌렸다. 정답은 원본 답지 그대로다."
+  },
+  {
     "id": 3,
     "level": "Level III",
     "method": "MT",
@@ -14,6 +24,16 @@
     ],
     "answer": 2,
     "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-MT-P11(Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 자분탐상검사에 대한 절차서(HIE-NDT-MT-P11.Rev.2)"
+  },
+  {
+    "id": 4,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "question": "How much is minimum lifting power at the maximum pole spacing that will be used of alternating current electromagnetic yoke?\n교류 전자 요크 사용 시 최대 극간 간격에서 최소 리프팅 파워는?",
+    "options": [],
+    "answer": "10 lb (4.5 kg)",
+    "note": "원본이 서술형인 문항이다. 객관식으로 옮기며 보기 2~4번이 비어 있던 것을, 원본대로 주관식으로 되돌렸다. 정답은 원본 답지 그대로다."
   },
   {
     "id": 6,
