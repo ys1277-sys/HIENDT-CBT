@@ -21,15 +21,19 @@
     "method": "MT",
     "category": "Method",
     "topic": "ASME Section VIII / HIE-NDT-MT-P11",
-    "question": "How to prove the strength of the magnetic field, what is appropriate?\n자기장 세기의 적절성을 증명하는 방법은?",
+    "question": "How to prove the strength of the magnetic field, what is appropriate? (Select three.)\n자기장 세기의 적절성을 증명하는 방법은? (세 가지를 고르시오.)",
     "options": [
       "Pie-Shaped Magnetic Particle Field Indicator\n파이형 자장 지시계",
       "Artificial Flaw Shims\n인공결함 심(shim)",
       "Hall-Effect Tangential-Field Probe\n홀효과 접선자장 탐촉자",
       "Lifting power block\n흡인력 시험편"
     ],
-    "answer": 0,
-    "note": "복수 정답 가능 항목 중 대표 답안 적용"
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "note": "원본 물음이 「(tree method)」— three methods 의 오타 — 로 세 가지를 묻고 답지도 a,b,c 다. 은행이 하나만 정답으로 두고 있었다. 복수정답으로 바로잡고 세 가지임을 물음에 밝혔다(E02 6.2.3)."
   },
   {
     "id": 8,
@@ -1384,7 +1388,8 @@
       "ASTM E 179"
     ],
     "answer": 1,
-    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다."
+    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다.",
+    "note": "은행이 맞다. 원본 답지 b = ASTM E 125 이고 은행도 ASTM E 125 다. 대조기가 다르다고 잡는 것은 원본 .hwp 에서 보기 a 와 b 가 「a. ASTM E 150b. ASTM E 125」로 한 줄에 붙어 읽히기 때문이다. 글자 문제지 답 문제가 아니다."
   },
   {
     "id": 99,

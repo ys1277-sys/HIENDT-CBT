@@ -1331,7 +1331,8 @@
       "RT 3",
       "RT 4"
     ],
-    "answer": 3
+    "answer": 2,
+    "note": "원본 답지 c(RT 3)로 바로잡았다. ASME Sec.Ⅷ Div.1 UW-11 에서 「전 용기가 spot radiography 요구를 만족」하면 표시는 RT 3 이다. RT 4 는 용기의 일부만 촬영한 경우다. 은행이 RT 4 로 되어 있었다."
   },
   {
     "id": 98,

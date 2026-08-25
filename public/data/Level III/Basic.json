@@ -560,14 +560,20 @@
     "method": "Basic",
     "category": "Basic",
     "topic": "Materials",
-    "question": "What will occur normally when stressing most engineering materials a small amount beyond their elastic limit?\n대부분의 공학 재료가 탄성한계를 조금 넘는 응력을 받을 때 발생하는 현상은?",
+    "question": "What will occur normally when stressing most engineering materials a small amount beyond their elastic limit? (Select two.)\n대부분의 공학 재료가 탄성한계를 조금 넘는 응력을 받을 때 발생하는 현상은?",
     "options": [
       "Cracking\n균열",
       "Fatigue\n피로",
       "Elastic deformation\n탄성 변형",
-      "Plastic flow\n소성 유동"
+      "Plastic flow\n소성 유동",
+      "Work hardening\n가공경화",
+      "Twinning\n쌍정"
     ],
-    "answer": 3
+    "answer": [
+      3,
+      4
+    ],
+    "note": "원본 답지가 「d e」(plastic flow, work hardening)인데 은행에 e·f 보기가 빠져 있어 답을 고를 수 없었다. 원본에 있는 두 보기를 되살리고 복수정답으로 바로잡았다. 복수정답임을 물음에 밝혔다(E02 6.2.3)."
   },
   {
     "id": 39,

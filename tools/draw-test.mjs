@@ -10,6 +10,12 @@
 import fs from "node:fs";
 import path from "node:path";
 
+/* 요구 문항수는 앱과 같은 곳에서 가져온다 */
+const SRC = fs.readFileSync(new URL("../src/ExamData.jsx", import.meta.url), "utf8");
+const { questionCount } = await import(
+  "data:text/javascript," + encodeURIComponent(SRC.replace(/export default[sS]*$/, ""))
+);
+
 const PUB = "D:/Visual Studio Code/HIENDT-CBT/public/data";
 const ROUNDS = 200;
 
@@ -73,7 +79,18 @@ for (const f of walk(PUB)) {
   const raw = fs.readFileSync(f, "utf8");
   const bank = JSON.parse(raw.charCodeAt(0) === 0xfeff ? raw.slice(1) : raw).flat(Infinity);
 
-  const want = /Specific/.test(rel) ? 25 : /General/.test(rel) ? 40 : null;
+  /*
+   * 요구 문항수를 여기에 따로 적어 두면 안 된다. 예전에는 전문 25 · 일반 40
+   * 으로 박아 두었는데, E01 표 3 은 전문시험을 종목마다 달리 정하고
+   * (대개 20, TOFD·PAUT·CR·DR·FMC 는 30) Level III 도 기초 55 · 종목 65 다.
+   * 박아 둔 값이 낡으면 검사기가 엉뚱한 것을 통과시킨다.
+   * src/ExamData.jsx 하나만 보고 앱과 같은 답을 쓴다.
+   */
+  const [lv, a, b] = rel.split("/");
+  const level = lv === "Level III" ? "Level III" : "Level II";
+  const want = level === "Level III"
+    ? questionCount(level, null, a)
+    : questionCount(level, a, b);
 
   /* 조건문별 원래 묶음 크기 */
   const size = new Map();
