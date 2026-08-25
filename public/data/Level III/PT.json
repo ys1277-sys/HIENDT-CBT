@@ -437,10 +437,10 @@
     "source": "PTM-III.HWP",
     "question": "Which of the following statements apply to liquid penetrant examination?\n다음 중 침투탐상검사에 해당하는 설명은?",
     "options": [
-      "Liquid penetrant examination is used to detect internal discontinuities in \n castings\n침투탐상은 주조품의 내부 불연속을 검출하는 데 쓴다",
+      "Liquid penetrant examination is used to detect internal discontinuities in\ncastings\n침투탐상은 주조품의 내부 불연속을 검출하는 데 쓴다",
       "Liquid penetrant examination will not detect cracks\n침투탐상은 균열을 검출하지 못한다",
       "Liquid penetrant examination will detect both surface and subsurface defects\n침투탐상은 표면과 표면하 결함을 모두 검출한다",
-      "Liquid penetrant examination is used to detect surface discontinuities in \n both ferrous and nonferrous material\n침투탐상은 철강재와 비철재 모두의 표면 불연속을 검출하는 데 쓴다"
+      "Liquid penetrant examination is used to detect surface discontinuities in\nboth ferrous and nonferrous material\n침투탐상은 철강재와 비철재 모두의 표면 불연속을 검출하는 데 쓴다"
     ],
     "answer": 3
   },
@@ -575,9 +575,9 @@
     "question": "Aluminum alloy test specimens that have been examined by the liquid penetrant method should be thoroughly cleaned after examination because:\n침투탐상으로 검사한 알루미늄 합금 시험편을 검사 후 반드시 깨끗이 세척해야 하는 이유는?",
     "options": [
       "the acid in the penetrant may cause severe corrosion\n침투액의 산 성분이 심한 부식을 일으킬 수 있다",
-      "the alkaline content of wet developers and most emulsifiers could result in \n surface pitting, particularly in wet atmospheres\n습식 현상제와 대부분 유화제의 알칼리 성분이, 특히 습한 환경에서 표면 공식을 일으킬 수 있다",
-      "the toxic residue from the test will severely inhibit the application of \n paint on aluminum alloys\n검사 후 유독 잔류물이 알루미늄 합금의 도장을 크게 방해한다",
-      "a chemical reaction between the penetrant and aluminum could cause a fire \n because of internal combustion\n침투액과 알루미늄의 화학반응이 내부 연소로 화재를 일으킬 수 있다"
+      "the alkaline content of wet developers and most emulsifiers could result in\nsurface pitting, particularly in wet atmospheres\n습식 현상제와 대부분 유화제의 알칼리 성분이, 특히 습한 환경에서 표면 공식을 일으킬 수 있다",
+      "the toxic residue from the test will severely inhibit the application of\npaint on aluminum alloys\n검사 후 유독 잔류물이 알루미늄 합금의 도장을 크게 방해한다",
+      "a chemical reaction between the penetrant and aluminum could cause a fire\nbecause of internal combustion\n침투액과 알루미늄의 화학반응이 내부 연소로 화재를 일으킬 수 있다"
     ],
     "answer": 1
   },
@@ -589,9 +589,9 @@
     "source": "PTM-III.HWP",
     "question": "Why is it difficult to re-examine a part that has been examined using a liquid penetrant (one answer)?\n침투탐상을 한 부품을 다시 검사하기 어려운 이유는?",
     "options": [
-      "The indications from the first examination will interfere with the \n indications from the second examination\n1차 검사의 지시가 2차 검사의 지시를 방해한다",
-      "The penetrant used the second time will not be sufficiently viscous to \n perform the examination\n두 번째 쓰는 침투액은 점도가 충분하지 않아 검사할 수 없다",
-      "The dried penetrant residue left in discontinuities may not readily dissolve \n and the re-examination may be misleading\n불연속에 남아 마른 침투액 잔류물이 잘 녹지 않아 재검사 결과가 잘못될 수 있다",
+      "The indications from the first examination will interfere with the\nindications from the second examination\n1차 검사의 지시가 2차 검사의 지시를 방해한다",
+      "The penetrant used the second time will not be sufficiently viscous to\nperform the examination\n두 번째 쓰는 침투액은 점도가 충분하지 않아 검사할 수 없다",
+      "The dried penetrant residue left in discontinuities may not readily dissolve\nand the re-examination may be misleading\n불연속에 남아 마른 침투액 잔류물이 잘 녹지 않아 재검사 결과가 잘못될 수 있다",
       "The first examination will leave an oily film over the surface\n1차 검사가 표면에 유막을 남긴다"
     ],
     "answer": 2
@@ -605,9 +605,9 @@
     "question": "Which of the following is not an aid that will help minimize the chances of a good inspector missing a penetrant indication?\n다음 중 숙련된 검사자가 침투 지시를 놓칠 가능성을 줄이는 데 도움이 되지 않는 것은?",
     "options": [
       "A good white light should be provided when visible dye penetrants are used\n염색침투액을 쓸 때는 충분한 백색광을 갖춰야 한다",
-      "When inspecting with a black light and fluorescent penetrant, discontinuity \n indications will be easier to see if the inspector wears yellow sun glasses\n자외선등과 형광침투액으로 검사할 때 노란 선글라스를 쓰면 지시가 더 잘 보인다",
+      "When inspecting with a black light and fluorescent penetrant, discontinuity\nindications will be easier to see if the inspector wears yellow sun glasses\n자외선등과 형광침투액으로 검사할 때 노란 선글라스를 쓰면 지시가 더 잘 보인다",
       "The inspector should have an assistant to double check each inspection\n검사자는 매 검사를 재확인할 보조자를 두어야 한다",
-      "A suitably darkened booth should be provided when nonfluorescent penetrants \n are used\n비형광 침투액을 쓸 때는 적절히 어둡게 한 부스를 갖춰야 한다"
+      "A suitably darkened booth should be provided when nonfluorescent penetrants\nare used\n비형광 침투액을 쓸 때는 적절히 어둡게 한 부스를 갖춰야 한다"
     ],
     "answer": [
       1,
@@ -623,9 +623,9 @@
     "question": "Which of the following is the best reason why the application of emulsifier by brush is not recommended?\n붓으로 유화제를 바르는 것을 권장하지 않는 가장 큰 이유는?",
     "options": [
       "Brushing results in a streaking appearance during inspection\n붓칠하면 검사할 때 줄무늬가 생긴다",
-      "Brushing does mot always completely coat the part, thereby, leaving a portion of \n the part difficult to wash\n붓칠은 부품을 고르게 덮지 못해 씻기 어려운 부분이 남는다",
-      "The brushing action mixes the emulsifier with the penetrant prematurely and \n irregularly, making accurate control of emulsification impossible\n붓질이 유화제를 침투액과 미리, 그리고 고르지 않게 섞어 유화시간을 정확히 조절할 수 없게 만든다",
-      "Brushing in itself is not harmful, but many types of brush materials combine with \n the emulsifier agents resulting in penetrant and part contamination\n붓칠 자체는 해롭지 않으나 여러 붓 재질이 유화제와 반응해 침투액과 부품을 오염시킨다"
+      "Brushing does mot always completely coat the part, thereby, leaving a portion of\nthe part difficult to wash\n붓칠은 부품을 고르게 덮지 못해 씻기 어려운 부분이 남는다",
+      "The brushing action mixes the emulsifier with the penetrant prematurely and\nirregularly, making accurate control of emulsification impossible\n붓질이 유화제를 침투액과 미리, 그리고 고르지 않게 섞어 유화시간을 정확히 조절할 수 없게 만든다",
+      "Brushing in itself is not harmful, but many types of brush materials combine with\nthe emulsifier agents resulting in penetrant and part contamination\n붓칠 자체는 해롭지 않으나 여러 붓 재질이 유화제와 반응해 침투액과 부품을 오염시킨다"
     ],
     "answer": 2
   },
@@ -697,9 +697,9 @@
     "source": "PTM-III.HWP",
     "question": "When performing liquid penetrant examination, it is found that the developer is excessively heavy on several areas. Which of the following actions are necessary?\n침투탐상 중 여러 부위에 현상제가 지나치게 두껍게 발린 것을 발견했다. 어떤 조치가 필요한가?",
     "options": [
-      "Disregard the areas that have excess developer and proceed with \n interpretation.\n현상제가 두꺼운 부위는 무시하고 판독을 진행한다",
+      "Disregard the areas that have excess developer and proceed with\ninterpretation.\n현상제가 두꺼운 부위는 무시하고 판독을 진행한다",
       "Completely reclean the part and perform a complete new examination\n부품을 완전히 다시 세척하고 검사를 처음부터 새로 한다",
-      "Add a little penetrant to the test surface to compensate for the excess \n developer\n두꺼운 현상제를 보완하려고 검사면에 침투액을 조금 더 바른다",
+      "Add a little penetrant to the test surface to compensate for the excess\ndeveloper\n두꺼운 현상제를 보완하려고 검사면에 침투액을 조금 더 바른다",
       "Remove the excess developer and reapply a lighter coating\n두꺼운 현상제를 제거하고 얇게 다시 바른다"
     ],
     "answer": 1
@@ -712,10 +712,10 @@
     "source": "PTM-III.HWP",
     "question": "In discussing liquid penetrants, which of the following statements is not true?\n침투액에 대한 다음 설명 중 옳지 않은 것은?",
     "options": [
-      "Liquid penetrant examination can be made more sensitive by varying the type \n of penetrant used\n침투액 종류를 바꾸어 침투탐상의 감도를 높일 수 있다",
-      "Liquid penetrant examination can be used to accurately measure the depth of \n discontinuities\n침투탐상으로 불연속의 깊이를 정확히 잴 수 있다",
+      "Liquid penetrant examination can be made more sensitive by varying the type\nof penetrant used\n침투액 종류를 바꾸어 침투탐상의 감도를 높일 수 있다",
+      "Liquid penetrant examination can be used to accurately measure the depth of\ndiscontinuities\n침투탐상으로 불연속의 깊이를 정확히 잴 수 있다",
       "Liquid penetrant examination can be used on large parts at different locations\n침투탐상은 여러 장소에서 큰 부품에도 쓸 수 있다",
-      "Liquid penetrant examination can be made more sensitive by varying \n techniques\n기법을 바꾸어 침투탐상의 감도를 높일 수 있다"
+      "Liquid penetrant examination can be made more sensitive by varying\ntechniques\n기법을 바꾸어 침투탐상의 감도를 높일 수 있다"
     ],
     "answer": 1
   },
@@ -847,8 +847,8 @@
     "source": "PTM-III.HWP",
     "question": "If a part is to undergo both pressure testing and penetrant examination:\n어떤 부품에 압력시험과 침투탐상을 모두 해야 한다면?",
     "options": [
-      "the part must be both pressure tested and penetrant examined before it is \n rejected\n불합격시키기 전에 압력시험과 침투탐상을 모두 해야 한다",
-      "all discontinuities discovered during the pressure test must be repaired \n before the penetrant examination is conducted\n압력시험에서 나온 모든 불연속을 침투탐상 전에 보수해야 한다",
+      "the part must be both pressure tested and penetrant examined before it is\nrejected\n불합격시키기 전에 압력시험과 침투탐상을 모두 해야 한다",
+      "all discontinuities discovered during the pressure test must be repaired\nbefore the penetrant examination is conducted\n압력시험에서 나온 모든 불연속을 침투탐상 전에 보수해야 한다",
       "the pressure test should be done before the penetrant examination\n압력시험을 침투탐상보다 먼저 해야 한다",
       "the penetrant examination should be done before the pressure test\n침투탐상을 압력시험보다 먼저 해야 한다"
     ],
@@ -863,9 +863,9 @@
     "question": "It is commonly accepted that the difference between a discontinuity and a defect is :\n불연속(discontinuity)과 결함(defect)의 차이로 통용되는 것은?",
     "options": [
       "a discontinuity is always larger than a defect\n불연속은 항상 결함보다 크다",
-      "a discontinuity interferes with the usefulness of a part while a defect may \n or may not interfere\n불연속은 부품의 사용에 지장을 주지만 결함은 그럴 수도 아닐 수도 있다",
+      "a discontinuity interferes with the usefulness of a part while a defect may\nor may not interfere\n불연속은 부품의 사용에 지장을 주지만 결함은 그럴 수도 아닐 수도 있다",
       "there is no difference in the meaning of the two words\n두 낱말의 뜻에 차이가 없다",
-      "a defect interferes with the usefulness of the part while all discontinuity \n may or may not interfere with the usefulness of a part\n결함은 부품의 사용에 지장을 주지만 불연속은 그럴 수도 아닐 수도 있다"
+      "a defect interferes with the usefulness of the part while all discontinuity\nmay or may not interfere with the usefulness of a part\n결함은 부품의 사용에 지장을 주지만 불연속은 그럴 수도 아닐 수도 있다"
     ],
     "answer": 3
   },
@@ -879,7 +879,7 @@
     "options": [
       "Wiping with a soaking wet cloth, then wiping with dry cloths\n흠뻑 적신 헝겊으로 닦은 뒤 마른 헝겊으로 닦는다",
       "Spraying solvent over the surface with no more than 40 psi pressure\n40psi 이하 압력으로 표면에 용제를 분무한다",
-      "Wiping with dry paper wipes, then wiping with all solvent dampened cloth and \n finally wiping with a lint-free, dry cloth\n마른 종이로 닦고, 용제를 적신 헝겊으로 닦은 뒤, 보풀 없는 마른 헝겊으로 마무리한다",
+      "Wiping with dry paper wipes, then wiping with all solvent dampened cloth and\nfinally wiping with a lint-free, dry cloth\n마른 종이로 닦고, 용제를 적신 헝겊으로 닦은 뒤, 보풀 없는 마른 헝겊으로 마무리한다",
       "Wiping with a solvent dampened cloth, then wiping with dry cloths\n용제를 적신 헝겊으로 닦은 뒤 마른 헝겊으로 닦는다"
     ],
     "answer": 2
@@ -981,7 +981,7 @@
     "question": "Which of the following is the best reason why excessive drying of developer or excessive development time is not a good practice?\n현상제를 과도하게 건조시키거나 현상시간을 지나치게 길게 두는 것이 바람직하지 않은 가장 큰 이유는?",
     "options": [
       "The dried developer may become difficult to remove\n마른 현상제를 제거하기 어려워진다",
-      "The developer may lose its sensitivity or there may be excessive bleed out \n which can cause misinterpretation\n현상제가 감도를 잃거나 지나치게 배어나와 오판을 부를 수 있다",
+      "The developer may lose its sensitivity or there may be excessive bleed out\nwhich can cause misinterpretation\n현상제가 감도를 잃거나 지나치게 배어나와 오판을 부를 수 있다",
       "The developer may lose its blotting ability\n현상제가 흡수 능력을 잃는다",
       "The penetrant will absorb all of the developer\n침투액이 현상제를 모두 흡수한다"
     ],
@@ -997,7 +997,7 @@
     "options": [
       "The solvent cleaner must be free of contamination\n세척용제에 오염물이 없어야 한다",
       "The solvent cleaner must leave little or no residue after evaporation\n세척용제는 증발 후 잔류물이 거의 없어야 한다",
-      "The solvent cleaner must be capable of removing oils and grease that may be \n found on the component\n세척용제는 부품에 있을 수 있는 기름과 그리스를 제거할 수 있어야 한다",
+      "The solvent cleaner must be capable of removing oils and grease that may be\nfound on the component\n세척용제는 부품에 있을 수 있는 기름과 그리스를 제거할 수 있어야 한다",
       "All of the above\n위의 모두"
     ],
     "answer": 3
@@ -1010,10 +1010,10 @@
     "source": "PTM-III.HWP",
     "question": "How much penetrant must be removed from the part or component prior to application of the developer?\n현상제를 바르기 전에 부품이나 구성품에서 침투액을 얼마나 제거해야 하는가?",
     "options": [
-      "Sufficient excess penetrant must be removed to eliminate indications of \n surface discontinuities\n표면 불연속의 지시가 없어질 만큼 잉여 침투액을 제거해야 한다",
+      "Sufficient excess penetrant must be removed to eliminate indications of\nsurface discontinuities\n표면 불연속의 지시가 없어질 만큼 잉여 침투액을 제거해야 한다",
       "All surface penetrant must be removed prior to applying the developer\n현상제를 바르기 전에 표면의 침투액을 모두 제거해야 한다",
-      "No more than 20% of the penetrant may be removed prior to applying the \n developer\n현상제를 바르기 전에 침투액의 20%를 넘게 제거해서는 안 된다",
-      "Sufficient excess penetrant must be removed to eliminate a confusing \n background\n판독을 방해하는 배경이 없어질 만큼 잉여 침투액을 제거해야 한다"
+      "No more than 20% of the penetrant may be removed prior to applying the\ndeveloper\n현상제를 바르기 전에 침투액의 20%를 넘게 제거해서는 안 된다",
+      "Sufficient excess penetrant must be removed to eliminate a confusing\nbackground\n판독을 방해하는 배경이 없어질 만큼 잉여 침투액을 제거해야 한다"
     ],
     "answer": 3
   },
@@ -1028,7 +1028,7 @@
       "Usually, just prior to post examination cleaning\n보통 검사 후 세척 직전에",
       "At least 35 minutes after the developer has been applied\n현상제를 바른 뒤 최소 35분 후에",
       "Immediately after the developer had been applied\n현상제를 바른 직후에",
-      "After the developer has been on to apart for the amount of time specified in \n the qualified procedure\n인증된 절차서에 규정된 시간만큼 현상제를 부품에 둔 뒤에"
+      "After the developer has been on to apart for the amount of time specified in\nthe qualified procedure\n인증된 절차서에 규정된 시간만큼 현상제를 부품에 둔 뒤에"
     ],
     "answer": 3
   },
@@ -1040,10 +1040,10 @@
     "source": "PTM-III.HWP",
     "question": "Which one of the following is a primary limitation of liquid penetrant examination?\n침투탐상검사의 근본적인 한계에 해당하는 것은?",
     "options": [
-      "Liquid penetrant examination cannot be used to detect shallow surface \n discontinuities\n침투탐상으로는 얕은 표면 불연속을 검출할 수 없다",
+      "Liquid penetrant examination cannot be used to detect shallow surface\ndiscontinuities\n침투탐상으로는 얕은 표면 불연속을 검출할 수 없다",
       "Liquid penetrant examination cannot be used on nonferrous materials\n침투탐상은 비철재에 쓸 수 없다",
       "Liquid penetrant examination cannot be used on nonmetallic items\n침투탐상은 비금속 제품에 쓸 수 없다",
-      "Liquid penetrant examination cannot locate discontinuities closed to the \n surface\n침투탐상으로는 표면에서 닫힌 불연속을 찾을 수 없다"
+      "Liquid penetrant examination cannot locate discontinuities closed to the\nsurface\n침투탐상으로는 표면에서 닫힌 불연속을 찾을 수 없다"
     ],
     "answer": 3
   },
@@ -1070,9 +1070,9 @@
     "source": "PTM-III.HWP",
     "question": "Which of the following is a standard method for qualifying a liquid penetrant procedure to be used for abnormal test conditions?\n비정상적인 시험 조건에서 사용할 침투탐상 절차를 검증하는 표준 방법은?",
     "options": [
-      "Produce the abnormal test conditions in production item to be inspected, \n apply the procedure, and compare the results with the results under normal \n conditions\n검사할 실제 제품에 비정상 조건을 만들어 절차를 적용하고, 정상 조건의 결과와 비교한다",
-      "Using a standard comparator block with a known crack pattern divided by \n machine groove, apply the normal procedure and conditions to one side of the \n groove in the block and apply the abnormal conditions and procedure changes \n to the other side of the groove. Visually compare the images of the crack \n pattern on both sides of the groove\n기계가공 홈으로 나뉜 기지 균열 패턴의 표준 대비시험편에서, 홈 한쪽에는 정상 절차와 조건을, 다른 쪽에는 비정상 조건과 변경된 절차를 적용한 뒤 양쪽 균열 패턴의 상을 육안으로 비교한다",
-      "Have the penetrant residue analyzed for sulfur and halogens after the \n abnormal conditions have been applied to assure they remain within the \n limits of the applicable code or standard requirement\n비정상 조건을 적용한 뒤 침투액 잔류물의 황과 할로겐을 분석해 해당 코드·표준의 한계 안에 있는지 확인한다",
+      "Produce the abnormal test conditions in production item to be inspected,\napply the procedure, and compare the results with the results under normal\nconditions\n검사할 실제 제품에 비정상 조건을 만들어 절차를 적용하고, 정상 조건의 결과와 비교한다",
+      "Using a standard comparator block with a known crack pattern divided by\nmachine groove, apply the normal procedure and conditions to one side of the\ngroove in the block and apply the abnormal conditions and procedure changes\nto the other side of the groove. Visually compare the images of the crack\npattern on both sides of the groove\n기계가공 홈으로 나뉜 기지 균열 패턴의 표준 대비시험편에서, 홈 한쪽에는 정상 절차와 조건을, 다른 쪽에는 비정상 조건과 변경된 절차를 적용한 뒤 양쪽 균열 패턴의 상을 육안으로 비교한다",
+      "Have the penetrant residue analyzed for sulfur and halogens after the\nabnormal conditions have been applied to assure they remain within the\nlimits of the applicable code or standard requirement\n비정상 조건을 적용한 뒤 침투액 잔류물의 황과 할로겐을 분석해 해당 코드·표준의 한계 안에 있는지 확인한다",
       "None of the above\n위의 어느 것도 아님"
     ],
     "answer": 3
@@ -1085,10 +1085,10 @@
     "source": "PTM-III.HWP",
     "question": "Article 6 of ASME Section Ⅴ states that:\nASME Section Ⅴ Article 6의 규정 내용은?",
     "options": [
-      "a water washable penetrant test shall not be applied to a part has been \n previously examined using a post-emulsifiable penetrant.\n후유화성 침투액으로 이미 검사한 부품에는 수세성 침투탐상을 적용해서는 안 된다",
-      "a color contrast penetrant test shall not be applied to a part that has been \n previously examined using a fluorescent penetrant.\n형광침투액으로 이미 검사한 부품에는 염색침투탐상을 적용해서는 안 된다",
-      "a fluorescent penetrant test shall not be applied to a part that has been \n previously examined using a color contrast penetrant.\n염색침투액으로 이미 검사한 부품에는 형광침투탐상을 적용해서는 안 된다",
-      "a post emulsifiable penetrant test shall not be applied to a part that has \n been previously examined using a solvent removable penetrant.\n용제제거성 침투액으로 이미 검사한 부품에는 후유화성 침투탐상을 적용해서는 안 된다",
+      "a water washable penetrant test shall not be applied to a part has been\npreviously examined using a post-emulsifiable penetrant.\n후유화성 침투액으로 이미 검사한 부품에는 수세성 침투탐상을 적용해서는 안 된다",
+      "a color contrast penetrant test shall not be applied to a part that has been\npreviously examined using a fluorescent penetrant.\n형광침투액으로 이미 검사한 부품에는 염색침투탐상을 적용해서는 안 된다",
+      "a fluorescent penetrant test shall not be applied to a part that has been\npreviously examined using a color contrast penetrant.\n염색침투액으로 이미 검사한 부품에는 형광침투탐상을 적용해서는 안 된다",
+      "a post emulsifiable penetrant test shall not be applied to a part that has\nbeen previously examined using a solvent removable penetrant.\n용제제거성 침투액으로 이미 검사한 부품에는 후유화성 침투탐상을 적용해서는 안 된다",
       "none of the above.\n위의 어느 것도 아님"
     ],
     "answer": 2
@@ -1104,7 +1104,7 @@
       "acetone shall be used.\n아세톤을 사용해야 한다",
       "one inch adjacent to the area to be examined shall be clean.\n검사할 부위의 인접 1인치까지 깨끗해야 한다",
       "one-half inch adjacent to the area to be examined shall be clean.\n검사할 부위의 인접 1/2인치까지 깨끗해야 한다",
-      "a light coating of oil on the test surface, that is compatible with the \n penetrant is acceptable.\n침투액과 상용성이 있는 얇은 유막은 검사면에 있어도 된다",
+      "a light coating of oil on the test surface, that is compatible with the\npenetrant is acceptable.\n침투액과 상용성이 있는 얇은 유막은 검사면에 있어도 된다",
       "none of the above.\n위의 어느 것도 아님"
     ],
     "answer": 1
@@ -1200,10 +1200,10 @@
     "source": "PTM-III.HWP",
     "question": "In accordance with Article 6 of ASME Section ⅴ, to qualify, a procedure at temperature outside the 60oF to 125oF range:\nASME Section Ⅴ Article 6에 따라 60°F~125°F 범위를 벗어난 온도에서 절차를 검증하려면 어떻게 해야 하는가?",
     "options": [
-      "one-half of the liquid penetrant comparator block is processed at the \n proposed temperature and the other half processed within the 60oF to 125oF \n range.\n대비시험편의 절반은 제안 온도에서, 나머지 절반은 60~125°F 범위에서 처리한다",
-      "two separate liquid penetrant comparator blocks are processed. One at the \n proposed temperature and the other within the 60oF to 125oF range.\n대비시험편 두 개를 따로 처리한다. 하나는 제안 온도에서, 다른 하나는 60~125°F 범위에서",
-      "using the liquid penetrant comparator blocks is recommended but not \n mandatory.\n대비시험편 사용은 권장되지만 강제는 아니다",
-      "one liquid penetrant t comparator block is processed at the proposed \n temperature and the indications are photographed. The same block is cleaned \n and reprocessed within the 60oF to 125oF temperature range. the results are \n then compared with the photograph.\n대비시험편 하나를 제안 온도에서 처리해 지시를 사진으로 남기고, 같은 시험편을 세척해 60~125°F 범위에서 다시 처리한 뒤 사진과 비교한다",
+      "one-half of the liquid penetrant comparator block is processed at the\nproposed temperature and the other half processed within the 60oF to 125oF\nrange.\n대비시험편의 절반은 제안 온도에서, 나머지 절반은 60~125°F 범위에서 처리한다",
+      "two separate liquid penetrant comparator blocks are processed. One at the\nproposed temperature and the other within the 60oF to 125oF range.\n대비시험편 두 개를 따로 처리한다. 하나는 제안 온도에서, 다른 하나는 60~125°F 범위에서",
+      "using the liquid penetrant comparator blocks is recommended but not\nmandatory.\n대비시험편 사용은 권장되지만 강제는 아니다",
+      "one liquid penetrant t comparator block is processed at the proposed\ntemperature and the indications are photographed. The same block is cleaned\nand reprocessed within the 60oF to 125oF temperature range. the results are\nthen compared with the photograph.\n대비시험편 하나를 제안 온도에서 처리해 지시를 사진으로 남기고, 같은 시험편을 세척해 60~125°F 범위에서 다시 처리한 뒤 사진과 비교한다",
       "none of the above.\n위의 어느 것도 아님"
     ],
     "answer": 0

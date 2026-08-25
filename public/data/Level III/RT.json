@@ -1,106 +1,11 @@
 [
   {
-    "id": 1,
-    "level": "Level III",
-    "method": "RT",
-    "category": "Method",
-    "topic": "ASME Section VIII / HIE-NDT-RT-P11",
-    "question": "What requirement of this procedure shall be demonstrated on production or technique radiograph for its qualification?\n방사선 투과사진 기술 또는 제작에 대한 품질을 입증하기 위하여 이 절차서에서의 요구사항은 무엇인가?",
-    "options": [
-      "Density and penetrameter image requirements\n농도와 투과도계 상(image) 요구사항",
-      "",
-      "",
-      ""
-    ],
-    "answer": 0,
-    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-P11(Rev.3)for radiographic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 방사선 투과 시험에 대한 절차서(HIE-NDT-RT-P11. Rev.3)"
-  },
-  {
-    "id": 2,
-    "level": "Level III",
-    "method": "RT",
-    "category": "Method",
-    "topic": "ASME Section VIII / HIE-NDT-RT-P11",
-    "question": "For complete radiographic coverage of cylindrical girth welds, a minimum of is required when the source is placed outside and the film inside the object.\n원주 용접부의 양호한 방사선 투과사진 적용범위에 대하여 선원이 외부 그리고 내부에 위치했을 때 최소 어느 정도 요구되는가.",
-    "options": [
-      "Four exposures 90° apart\n90° 간격 4회 촬영",
-      "",
-      "",
-      ""
-    ],
-    "answer": 0,
-    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-P11(Rev.3)for radiographic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 방사선 투과 시험에 대한 절차서(HIE-NDT-RT-P11. Rev.3)"
-  },
-  {
-    "id": 3,
-    "level": "Level III",
-    "method": "RT",
-    "category": "Method",
-    "topic": "ASME Section VIII / HIE-NDT-RT-P11",
-    "question": "You are radiographing a 1/2\" thick specimen using a 24\" SFD, 200KVP, 10mA, 1.2 minute, with an X-Ray tube with a 4mm focal spot. What is the Ug?\n시편두께가 1/2인치이고 24인치 SFD, 200KVP, 10mA, 1.2분, 초점 크기가 4mm일 때 기하학적 불선명도(Ug)는?",
-    "options": [
-      "Ug = 0.084 inch",
-      "",
-      "",
-      ""
-    ],
-    "answer": 0
-  },
-  {
-    "id": 4,
-    "level": "Level III",
-    "method": "RT",
-    "category": "Method",
-    "topic": "ASME Section VIII / HIE-NDT-RT-P11",
-    "question": "What is the different requirements in this procedure between X-ray and γ-ray?\n절차서에서 X선과 감마선 사이의 다른 요구조건은 무엇인가?",
-    "options": [
-      "Minimum film density 1.8 for X-ray / 2.0 for Gamma-ray\n최소 필름농도 X선 1.8 / 감마선 2.0",
-      "",
-      "",
-      ""
-    ],
-    "answer": 0,
-    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-P11(Rev.3)for radiographic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 방사선 투과 시험에 대한 절차서(HIE-NDT-RT-P11. Rev.3)"
-  },
-  {
-    "id": 5,
-    "level": "Level III",
-    "method": "RT",
-    "category": "Method",
-    "topic": "ASME Section VIII / HIE-NDT-RT-P11",
-    "question": "What evidence would you find on a radiograph that would indicate insufficient protection from back-scatter?\n투과사진 상에서 후방산란을 대비한 불충분한 방어를 나타내는 어떤 증거를 발견할 수 있나?",
-    "options": [
-      "B letter appears on a dark background of the radiograph\n방사선사진의 어두운 바탕 위에 B 글자가 나타난다",
-      "",
-      "",
-      ""
-    ],
-    "answer": 0,
-    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-P11(Rev.3)for radiographic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 방사선 투과 시험에 대한 절차서(HIE-NDT-RT-P11. Rev.3)"
-  },
-  {
-    "id": 6,
-    "level": "Level III",
-    "method": "RT",
-    "category": "Method",
-    "topic": "ASME Section VIII / HIE-NDT-RT-P11",
-    "question": "What are the radiographic density requirements?\n투과사진에서 요구되어지는 농도는?",
-    "options": [
-      "Single viewing for X-ray : 1.8~4.0 / Composite viewing of multiple film : 1.3~4.0 / Single viewing for γ-ray : 2.0~4.0\nX선 단일필름 관찰 1.8~4.0 / 다중필름 겹쳐 관찰 1.3~4.0 / 감마선 단일필름 관찰 2.0~4.0",
-      "",
-      "",
-      ""
-    ],
-    "answer": 0,
-    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-P11(Rev.3)for radiographic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 방사선 투과 시험에 대한 절차서(HIE-NDT-RT-P11. Rev.3)"
-  },
-  {
     "id": 7,
     "level": "Level III",
     "method": "RT",
     "category": "Method",
     "topic": "API 6A",
-    "question": "What is the minimum equivalent sensitivity when radiographic test for PSL2 welds?\n품질등급 PSL2의 용접부를 방사선투과검사 할 때 최소 등가 감도는 얼마인가?",
+    "question": "What is the minimum equivalent sensitivity when radiographic test for PSL2 welds?\n품질등급 PSL2의 용접부를 방사선투과검사할 때 최소 등가 감도는 얼마인가?",
     "options": [
       "Minimum equivalent sensitivity of 1% and a 1-1T quality level\n최소 등가감도 1%, 상질 1-1T",
       "Minimum equivalent sensitivity of 2% and a 2-2T quality level\n최소 등가감도 2%, 상질 2-2T",
@@ -118,10 +23,8 @@
     "topic": "API 6A",
     "question": "The surface of the quality grade PSL2 is inspected by RT. A round indication of 1/4in.(6mm) appeared. Is it acceptable?\n품질등급 PSL2 용접부를 RT 검사할 때 6mm 원형 지시가 나타났다. 합격인가?",
     "options": [
-      "Accept",
-      "Reject",
-      "",
-      ""
+      "Accept\n합격",
+      "Reject\n불합격"
     ],
     "answer": 0,
     "groupNote": "* The following questions refer to API 6A\nAPI 6A에 따라 물음에 답하시오."
@@ -140,22 +43,6 @@
       "ASME B31.3"
     ],
     "answer": 1
-  },
-  {
-    "id": 10,
-    "level": "Level III",
-    "method": "RT",
-    "category": "Method",
-    "topic": "ASME Section III / HIE-NDT-RT-N21",
-    "question": "A circumferential butt weld in class 1 component has been made in a 30 in. diameter pipe. The inside of the pipe is not accessible. The wall thickness is 5/8\" and the reinforcement is the maximum allowed by the procedure. What is the maximum reinforcement allowed? What is the required minimum wire IQI diameter?\n1등급 기기인 외경 30인치 원주 용접부가 있다. 파이프 내부는 접근불가하며 벽두께는 5/8인치이고 용접덧살은 절차서 허용 최대 크기이다. 최대 허용 용접덧살과 요구되는 최소 선형 투과도계 직경은?",
-    "options": [
-      "A : 3/32 inch / B : #7 wire (0.013 inch or 0.33mm)\nA: 3/32인치 / B: #7 와이어(0.013인치, 0.33mm)",
-      "",
-      "",
-      ""
-    ],
-    "answer": 0,
-    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-N21(Rev.3) for radiographic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅲ, 2023 Edition\n문제는 ASME 규격 Sec.Ⅲ(2023 Edition)에 따른 압력용기 제작의 방사선 투과 시험에 대한 절차서 HIE-NDT-RT-N21.(Rev.3)를 참조하시오."
   },
   {
     "id": 11,
@@ -281,21 +168,6 @@
     "answer": 3
   },
   {
-    "id": 19,
-    "level": "Level III",
-    "method": "RT",
-    "category": "Method",
-    "topic": "Welding Acceptance",
-    "question": "The welds that is shown by radiography to have 1/16\" crack is acceptable (Yes or No)?\n방사선 투과사진에서 1/16인치 균열이 보이는 용접부는 합격인가?",
-    "options": [
-      "No",
-      "",
-      "",
-      ""
-    ],
-    "answer": 0
-  },
-  {
     "id": 20,
     "level": "Level III",
     "method": "RT",
@@ -386,21 +258,6 @@
     "answer": 0
   },
   {
-    "id": 26,
-    "level": "Level III",
-    "method": "RT",
-    "category": "Method",
-    "topic": "Radiographic Technique",
-    "question": "There is no exposure advantage to the use of ______ in. front and back lead screens below 125 KV in the radiograph of 1/4 in. or lesser thickness steel.\n1/4인치 이하 두께의 강재를 125KV 이하에서 촬영할 때 전·후면 납 증감지를 몇 인치 사용하는 것은 노출상 이점이 없는가?",
-    "options": [
-      "0.005 inch",
-      "",
-      "",
-      ""
-    ],
-    "answer": 0
-  },
-  {
     "id": 27,
     "level": "Level III",
     "method": "RT",
@@ -468,10 +325,10 @@
     "source": "RTM-III.HWP",
     "question": "The amount of unsharpness or blurring of a radiograph is:\n방사선사진의 흐림(unsharpness) 정도를 무엇이라 하는가?",
     "options": [
-      "directly proportional to the object-to-film distance and inversely proportional\n to the size of the focal spot\n시험체-필름 거리에 비례하고 초점 크기에 반비례한다",
-      "directly proportional to the size of the focal spot and inversely proportional\n to the source-to object distance\n초점 크기에 비례하고 선원-시험체 거리에 반비례한다",
-      "directly proportional to the object-to-film distance and directly proportional\n to the source-to object distance\n시험체-필름 거리에 비례하고 선원-시험체 거리에도 비례한다",
-      "inversely proportional to the size of the focal spot and the object-to-film \n distance\n초점 크기와 시험체-필름 거리에 반비례한다"
+      "directly proportional to the object-to-film distance and inversely proportional\nto the size of the focal spot\n시험체-필름 거리에 비례하고 초점 크기에 반비례한다",
+      "directly proportional to the size of the focal spot and inversely proportional\nto the source-to object distance\n초점 크기에 비례하고 선원-시험체 거리에 반비례한다",
+      "directly proportional to the object-to-film distance and directly proportional\nto the source-to object distance\n시험체-필름 거리에 비례하고 선원-시험체 거리에도 비례한다",
+      "inversely proportional to the size of the focal spot and the object-to-film\ndistance\n초점 크기와 시험체-필름 거리에 반비례한다"
     ],
     "answer": 1
   },
@@ -625,7 +482,7 @@
     "options": [
       "the ratio of variations in density\n농도 변화의 비",
       "the sharpness of outline in the image\n상 윤곽의 선명도",
-      "the range of thickness of material that can be recorded on the radiograph \n within the useful reading range of film density\n필름농도의 판독 가능 범위 안에 기록할 수 있는 재료 두께의 범위",
+      "the range of thickness of material that can be recorded on the radiograph\nwithin the useful reading range of film density\n필름농도의 판독 가능 범위 안에 기록할 수 있는 재료 두께의 범위",
       "the size of the smallest detail which can be seen on the radiograph\n방사선사진에서 볼 수 있는 가장 작은 세부의 크기"
     ],
     "answer": 3
@@ -639,7 +496,7 @@
     "question": "To which of the following does the term “reference radiographs”apply?\n'대비 방사선사진(reference radiographs)'이라는 용어는 다음 중 어디에 해당하는가?",
     "options": [
       "Radiographs used to show the position of each radiographic view\n각 촬영 방향의 위치를 보여주는 데 쓰는 방사선사진",
-      "Radiographs with discontinuity indications that are to be compared with\n indications in test object radiographs\n시험체 사진의 지시와 비교하기 위한 불연속 지시가 담긴 방사선사진",
+      "Radiographs with discontinuity indications that are to be compared with\nindications in test object radiographs\n시험체 사진의 지시와 비교하기 위한 불연속 지시가 담긴 방사선사진",
       "File copies of duplicate radiographs made at the customer's request\n고객 요청으로 만든 복제 사진의 보관본",
       "File copies of radiographs of your employer's products\n사업주 제품 사진의 보관본"
     ],
@@ -826,7 +683,7 @@
     "options": [
       "increase the cost of radiography\n촬영 비용을 올린다",
       "send to different interpreters for independent evaluation\n독립적인 평가를 위해 다른 판독자에게 보낸다",
-      "provide an extra film to establish the developing time necessary to obtain an\n acceptable density\n적정 농도를 얻는 데 필요한 현상시간을 정하기 위한 여분 필름을 둔다",
+      "provide an extra film to establish the developing time necessary to obtain an\nacceptable density\n적정 농도를 얻는 데 필요한 현상시간을 정하기 위한 여분 필름을 둔다",
       "compare and verify indications or for reading superimposed film.\n지시를 대조·확인하거나 필름을 겹쳐 판독하기 위해"
     ],
     "answer": 3

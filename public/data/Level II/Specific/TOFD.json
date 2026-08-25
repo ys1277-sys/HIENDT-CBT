@@ -7,10 +7,10 @@
     "source": "TOFDSpec-II-A-type(2014)",
     "question": "When available for TOFD, what is amplitude equalization used on?\nTOFD에서 사용 가능한 경우, 진폭 균등화(amplitude equalization)는 무엇에 적용되는가?",
     "options": [
-      "The lateral wave signal\n lateral wave 신호",
-      "The backwall signal\n backwall 신호",
-      "The amplitude response from side drilled holes at two different depths\n 두 개의 다른 깊이의 측면 공으로 부터의 진폭 응답",
-      "The ID and OD Vee notch diffractor signals\n ID와 OD Vee 노치 회절 신호"
+      "The lateral wave signal\nlateral wave 신호",
+      "The backwall signal\nbackwall 신호",
+      "The amplitude response from side drilled holes at two different depths\n두 개의 다른 깊이의 측면 공으로 부터의 진폭 응답",
+      "The ID and OD Vee notch diffractor signals\nID와 OD Vee 노치 회절 신호"
     ],
     "answer": 0
   },
@@ -22,10 +22,10 @@
     "source": "TOFDSpec-II-A-type(2014)",
     "question": "What is used to establish sensitivity when performing a TOFD inspection?\nTOFD를 수행할 때, 감도를 설정하는데 무엇이 사용되는가?",
     "options": [
-      "Machined targets\n 가공된 타겟",
-      "Reference signals such as the lateral wave or backwall\n lateral wave 또는 backwall과 같은 대비 신호",
-      "Grain noise\n 입자 잡음",
-      "Any of the above may be used if suitable\n 상기의 어떤 것도 적절한 경우 사용될 수 있다."
+      "Machined targets\n가공된 타겟",
+      "Reference signals such as the lateral wave or backwall\nlateral wave 또는 backwall과 같은 대비 신호",
+      "Grain noise\n입자 잡음",
+      "Any of the above may be used if suitable\n상기의 어떤 것도 적절한 경우 사용될 수 있다."
     ],
     "answer": 3
   },
@@ -82,10 +82,10 @@
     "source": "TOFDSpec-II-A-type(2014)",
     "question": "TOFD is always quoted as having accurate flaw vertical sizing as an advantage. When is this not true?\nTOFD는 장점으로 항상 정확한 결함의 수직 크기를 갖는 것으로 인용된다. 이것이 사실이 아닐 때는?",
     "options": [
-      "When the flaw is IP\n 결함이 IP인 경우",
-      "When the flaw is LF\n 결함이 LF인 경우",
-      "When the upper and lower tip signals are not resolved\n 상부 또는 하부 끝단부 신호가 분석되지 않을 때",
-      "Never, TOFD is always the best option for sizing\n 없다, TOFD는 항상 크기 측정에 최고의 옵션이다."
+      "When the flaw is IP\n결함이 IP인 경우",
+      "When the flaw is LF\n결함이 LF인 경우",
+      "When the upper and lower tip signals are not resolved\n상부 또는 하부 끝단부 신호가 분석되지 않을 때",
+      "Never, TOFD is always the best option for sizing\n없다, TOFD는 항상 크기 측정에 최고의 옵션이다."
     ],
     "answer": 2
   },
@@ -97,10 +97,10 @@
     "source": "TOFDSpec-II-A-type(2014)",
     "question": "When viewing a TOFD image from a single zone TOFD setup, what would cause the backwall signal to be smaller than the lateral wave?\n하나의 zone TOFD 설정에서 TOFD 이미지를 볼 때, backwall 신호가 lateral wave보다 더 작은 원인은 무엇인가?",
     "options": [
-      "Use of a beam with refracted angle less than 60°\n 굴절각이 60°보다 적은 각도의 빔 사용",
-      "PCS too small\n PCS가 너무 작음",
-      "PCS too large\n PCS가 너무 큼",
-      "both 1 and 2\n a,b 둘 다"
+      "Use of a beam with refracted angle less than 60°\n굴절각이 60°보다 적은 각도의 빔 사용",
+      "PCS too small\nPCS가 너무 작음",
+      "PCS too large\nPCS가 너무 큼",
+      "both 1 and 2\na,b 둘 다"
     ],
     "answer": 1
   },
@@ -142,10 +142,10 @@
     "source": "TOFDSpec-II-A-type(2014)",
     "question": "What aspect of TOFD incorrect setup would cause the Backwall signal to be distorted?\nTOFD 어느 부분의 잘못된 설정은 backwall 신호 왜곡의 원인이 되는가?",
     "options": [
-      "Use of a beam with refracted angle less than 60°\n 굴절각이 60°보다 적은 각도의 빔 사용",
-      "PCS too small\n PCS가 너무 작음",
-      "PCS too large\n PCS가 너무 큼",
-      "Testing at temperature of 80℃\n 80℃의 검사 온도"
+      "Use of a beam with refracted angle less than 60°\n굴절각이 60°보다 적은 각도의 빔 사용",
+      "PCS too small\nPCS가 너무 작음",
+      "PCS too large\nPCS가 너무 큼",
+      "Testing at temperature of 80℃\n80℃의 검사 온도"
     ],
     "answer": 2
   },
@@ -157,10 +157,10 @@
     "source": "TOFDSpec-II-A-type(2014)",
     "question": "When performing a TOFD inspection on the long seam of cylindrical vessel with the probes positioned either side of the weld on the ID surface, what correction for depth is required if a flaw is detected?\n원통형 용기의 롱심 부분을 ID 표면의 용접부 양 쪽에 프로브를 배치하여 TOFD 검사를 수행할 때, 결함이 검출된다면, 깊이에 대한 어떤 보정이 요구되나?",
     "options": [
-      "The flaw relative to the vessel surface must be decreased by the probe elevations\n 프로브 높이에 의해 용기 표면에서 결함은 상대적으로 감소되어야 한다.",
-      "The flaw relative to the vessel surface must be increased by the probe elevations\n 프로브 높이에 의해 용기 표면에서 결함은 상대적으로 증가 되어야 한다.",
-      "The flaw depth calculated is not affected by the geometry\n 계산된 결함 깊이는 형상에 영향을 받지 않는다.",
-      "It is not possible to correct for this geometric effect\n 형상의 영향에 대한 보정은 가능하지 않다."
+      "The flaw relative to the vessel surface must be decreased by the probe elevations\n프로브 높이에 의해 용기 표면에서 결함은 상대적으로 감소되어야 한다.",
+      "The flaw relative to the vessel surface must be increased by the probe elevations\n프로브 높이에 의해 용기 표면에서 결함은 상대적으로 증가 되어야 한다.",
+      "The flaw depth calculated is not affected by the geometry\n계산된 결함 깊이는 형상에 영향을 받지 않는다.",
+      "It is not possible to correct for this geometric effect\n형상의 영향에 대한 보정은 가능하지 않다."
     ],
     "answer": 1
   },
@@ -203,9 +203,9 @@
     "question": "Uncertainties in timing, PCS and sound velocity provide uncertainties in TOFD determination of( ).\ntiming, PCS 그리고 음파 속도의 불확실성은 TOFD 판독의 어떤 불확실성을 제공하나?",
     "options": [
       "Indication depth\n지시 깊이",
-      "Indication amplitude\n 결함 깊이 결함 진폭",
+      "Indication amplitude\n결함 깊이 결함 진폭",
       "Indication phase\n지시의 위상",
-      "Refracted angle\n 결함 상 반사된 각도"
+      "Refracted angle\n결함 상 반사된 각도"
     ],
     "answer": 0
   },
@@ -232,10 +232,10 @@
     "source": "TOFDSpec-II-A-type(2014)",
     "question": "What is the risk of testing a thick weld section with a single zone?\n하나의 zone으로 두꺼운 용접부를 검사할 때의 위험성은 무엇인가?",
     "options": [
-      "Multiple imaging of a flaw\n 결함의 다중 이미지",
-      "Missed flaw due to pronounced dead zones\n dead zone으로 알려진 것에 의한 결함 누락",
-      "Missed flaw due to poor divergence\n 부족한 퍼짐으로 인한 결함 누락",
-      "All of the above\n 상기 모두"
+      "Multiple imaging of a flaw\n결함의 다중 이미지",
+      "Missed flaw due to pronounced dead zones\ndead zone으로 알려진 것에 의한 결함 누락",
+      "Missed flaw due to poor divergence\n부족한 퍼짐으로 인한 결함 누락",
+      "All of the above\n상기 모두"
     ],
     "answer": 3
   },
@@ -247,10 +247,10 @@
     "source": "TOFDSpec-II-A-type(2014)",
     "question": "What is not an advantage of TOFD?\nTOFD의 이점이 아닌 것은?",
     "options": [
-      "Easy discrimination of defects and geometry\n 결함 형상의 쉬운 구별",
+      "Easy discrimination of defects and geometry\n결함 형상의 쉬운 구별",
       "Less sensitive to defect orientation\n결함의 방향에 덜 민감함",
       "Coupling status\n접촉(커플링) 상태",
-      "Near surface resolution\n 표면 근처의 분해능"
+      "Near surface resolution\n표면 근처의 분해능"
     ],
     "answer": 3
   },
@@ -277,10 +277,10 @@
     "source": "TOFDSpec-II-A-type(2014)",
     "question": "How to setup the reference sensitivity for TOFD testing in accordance with in HIE-NDT-U09 and ASME Sec. V art. 4?\n이 절차서와 ASME Sec. V art. 4에 따라 TOFD 검사를 위한 기준감도 설정방법은?",
     "options": [
-      "Set the TOFD probes on the surface to be utilized for calibration and set the gain control so that the lateral wave amplitude is from 40% to 90% of the full screen height (FSH)\n 교정을 위해 이용될 표면에 TOFD 프로브를 위치시키고 lateral wave 진폭이 전체 스크린 높이(FSH)의 40 ~ 90%가 되도록 게인 값을 조절한다.",
-      "The noise (grass) level is less than 5–10% FSH.\n 잡음은 5~10% FSH보다 적게 한다.",
-      "For multiple zone examinations when the lateral wave is not displayed, or barely discernible, set the gain control based solely on the noise (grass) level.\n 다중 zone 검사에서 lateral wave가 보이지 않거나 겨우 식별할 수 있을 때, 단지 잡음을 기초로 하여 게인 값을 조절한다.",
-      "All of above are correct\n 상기 모두 맞다."
+      "Set the TOFD probes on the surface to be utilized for calibration and set the gain control so that the lateral wave amplitude is from 40% to 90% of the full screen height (FSH)\n교정을 위해 이용될 표면에 TOFD 프로브를 위치시키고 lateral wave 진폭이 전체 스크린 높이(FSH)의 40 ~ 90%가 되도록 게인 값을 조절한다.",
+      "The noise (grass) level is less than 5–10% FSH.\n잡음은 5~10% FSH보다 적게 한다.",
+      "For multiple zone examinations when the lateral wave is not displayed, or barely discernible, set the gain control based solely on the noise (grass) level.\n다중 zone 검사에서 lateral wave가 보이지 않거나 겨우 식별할 수 있을 때, 단지 잡음을 기초로 하여 게인 값을 조절한다.",
+      "All of above are correct\n상기 모두 맞다."
     ],
     "answer": 3,
     "groupNote": "Answer the following questions using the TOFD procedure HIE-NDT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-9/10.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-9/10을 반영한 TOFD 절차서(HIE-NDT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
@@ -309,10 +309,10 @@
     "source": "TOFDSpec-II-A-type(2014)",
     "question": "For non amplitude-based technique, the location and extent of all image that have an indicated length greater than the limits in below, as applicable, shall be investigated. Which of the following is not a true?\n진폭 기준 기법이 사용되지 않는다면, 한계 이하보다 큰 길이를 갖는 결함에 대한 모든 이미지의 위치와 범위는 적용가능하다면 조사되어야 한다. 다음 중 사실이 아닌 것은?",
     "options": [
-      "For welds in material equal to or less than 1-1⁄2in.(38mm) thick at the weld, images with indicated lengths greater than 0.150in.(3.8mm) shall be investigated.\n 38mm 두께 이하인 재료의 용접부에서, 3.8mm 보다 큰 길이를 갖는 결함 이미지는 조사되어야 한다.",
-      "For welds in material greater than 1-1⁄2in.(38mm) thick but less than 4in.(100 mm) thick at the weld, images with indicated lengths greater than 0.300in.(7.67 mm) shall be investigated.\n 38mm 초과 100mm 미만인 재료의 용접부에서, 7.67mm 보다 큰 길이를 갖는 결함 이미지는 조사되어야 한다.",
-      "For welds in material greater than 4in.(100mm) thick at the weld, images with indicated lengths greater than 0.05t or 0.75in.(19mm), whichever is smaller, shall be investigated\n 100mm 초과인 재료의 용접부에서, 0.05t 또는 19mm 둘 중 작은 쪽보다 큰 길이를 갖는 결함 이미지는 조사되어야 한다.",
-      "All of the above.\n 상기 모두"
+      "For welds in material equal to or less than 1-1⁄2in.(38mm) thick at the weld, images with indicated lengths greater than 0.150in.(3.8mm) shall be investigated.\n38mm 두께 이하인 재료의 용접부에서, 3.8mm 보다 큰 길이를 갖는 결함 이미지는 조사되어야 한다.",
+      "For welds in material greater than 1-1⁄2in.(38mm) thick but less than 4in.(100 mm) thick at the weld, images with indicated lengths greater than 0.300in.(7.67 mm) shall be investigated.\n38mm 초과 100mm 미만인 재료의 용접부에서, 7.67mm 보다 큰 길이를 갖는 결함 이미지는 조사되어야 한다.",
+      "For welds in material greater than 4in.(100mm) thick at the weld, images with indicated lengths greater than 0.05t or 0.75in.(19mm), whichever is smaller, shall be investigated\n100mm 초과인 재료의 용접부에서, 0.05t 또는 19mm 둘 중 작은 쪽보다 큰 길이를 갖는 결함 이미지는 조사되어야 한다.",
+      "All of the above.\n상기 모두"
     ],
     "answer": 1,
     "groupNote": "Answer the following questions using the TOFD procedure HIE-NDT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-9/10.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-9/10을 반영한 TOFD 절차서(HIE-NDT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
@@ -339,7 +339,7 @@
     "method": "TOFD",
     "category": "Specific",
     "source": "TOFDSpec-II-A-type(2014)",
-    "question": "When inspecting according to ASME Code Case 2235-10, on wall thickness 24mm, what is the maximum size of a subsurface notch that can be used for a qualification block?\nASME Code Case 2235-10에 따라 두께 24mm를 검사 할 때, 인정시험편에서 사용될 수 있는 표면하 노치의 최대 크기는?",
+    "question": "When inspecting according to ASME Code Case 2235-10, on wall thickness 24mm, what is the maximum size of a subsurface notch that can be used for a qualification block?\nASME Code Case 2235-10에 따라 두께 24mm를 검사할 때, 인정시험편에서 사용될 수 있는 표면하 노치의 최대 크기는?",
     "options": [
       "0.143mm high x 6.4mm long\n높이 0.143mm × 길이 6.4mm",
       "1.72mm high x 6.4mm long\n높이 1.72mm × 길이 6.4mm",
@@ -371,7 +371,7 @@
     "method": "TOFD",
     "category": "Specific",
     "source": "TOFDSpec-II-A-type(2014)",
-    "question": "When inspecting according to ASME B 31.3 Code Case 181, on wall thickness 24mm, what is the maximum size of a surface notch that can be used for a qualification block?\nASME B 31.3과 Code Case 181에 따라 두께 24mm를 검사 할 때, 인정시험편에서 사용될 수 있는 표면 노치의 최대 크기는?",
+    "question": "When inspecting according to ASME B 31.3 Code Case 181, on wall thickness 24mm, what is the maximum size of a surface notch that can be used for a qualification block?\nASME B 31.3과 Code Case 181에 따라 두께 24mm를 검사할 때, 인정시험편에서 사용될 수 있는 표면 노치의 최대 크기는?",
     "options": [
       "0.087mm high x 6.4mm long\n높이 0.087mm × 길이 6.4mm",
       "1.04mm high x 6.4mm long\n높이 1.04mm × 길이 6.4mm",
@@ -389,10 +389,10 @@
     "source": "TOFDSpec-II-A-type(2014)",
     "question": "ASME Code Case 2235-10 describes that a qualification block must be used to qualify the TOFD written procedure for weld inspection as a minimum the block shall contain .\nASME Code Case 2235-10에서 인정시험편이 용접부 검사에 대해 작성된 TOFD 절차서를 인증하는데, 인정 시험편은 최소한 무엇을 포함하게 언급되나?",
     "options": [
-      "2 flaws on the OD or ID surface and 1 subsurface flaw if access to both sides of the block.\n 시험편 양쪽에 접근하는 경우 OD 또는 ID 표면의 2개 결함과 1개의 표면하 결함",
-      "2 flaws on the OD surface and 1 flaw on the ID surface\n OD 표면의 2개 결함과 ID 표면의 1개 결함",
-      "No qualification block is needed as long as the equipment is correctly calibrated.\n 인정 시험편은 장비의 정확한 교정이 필요하지 않다.",
-      "1 flaw on the OD surface, 1 flaw on the ID surface and 1 sub surface flaw\n OD 표면의 1개 결함, ID 표면의 1개 결함과 1개의 표면하 결함"
+      "2 flaws on the OD or ID surface and 1 subsurface flaw if access to both sides of the block.\n시험편 양쪽에 접근하는 경우 OD 또는 ID 표면의 2개 결함과 1개의 표면하 결함",
+      "2 flaws on the OD surface and 1 flaw on the ID surface\nOD 표면의 2개 결함과 ID 표면의 1개 결함",
+      "No qualification block is needed as long as the equipment is correctly calibrated.\n인정 시험편은 장비의 정확한 교정이 필요하지 않다.",
+      "1 flaw on the OD surface, 1 flaw on the ID surface and 1 sub surface flaw\nOD 표면의 1개 결함, ID 표면의 1개 결함과 1개의 표면하 결함"
     ],
     "answer": 3,
     "groupNote": "Answer the following questions using the TOFD procedure HIE-NDT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-9/10.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-9/10을 반영한 TOFD 절차서(HIE-NDT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."

@@ -116,7 +116,7 @@
     "question": "In Fig. 1, A is acceptable.(Ref. : Sect.Ⅲ subsect.NB)\n그림 1에서 결함 A는 합격이다",
     "options": [
       "True\n맞다",
-      "False (틀리다)\n \nA\n 4/16“\n 2/16“"
+      "False (틀리다)\n\nA\n4/16“\n2/16“"
     ],
     "answer": 1,
     "image": "PT_SPECIFIC_Q8_FIG1.svg"

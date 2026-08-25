@@ -7,10 +7,10 @@
     "source": "TOFD General - A 20200317",
     "question": "What is not an advantage of TOFD?\nTOFD의 장점이 아닌 것은?",
     "options": [
-      "Easy discrimination of defects and geometry \n 결함과 형상을 간단히 판별함",
+      "Easy discrimination of defects and geometry\n결함과 형상을 간단히 판별함",
       "Less sensitive to defect orientation\n결함의 방향에 덜 민감함",
       "Coupling status\n접촉(커플링) 상태",
-      "Near surface resolution \n 표면 근처의 분해능"
+      "Near surface resolution\n표면 근처의 분해능"
     ],
     "answer": 3
   },
@@ -22,10 +22,10 @@
     "source": "TOFD General - A 20200317",
     "question": "It is possible to detect any defect using Rayleigh waves?\n표면파를 사용하여 어떤 결함을 검출가능한가?",
     "options": [
-      "one wavelength below the surface\n 표면아래 하나의 파장",
-      "six wavelengths below the surface\n 표면아래 여섯 개의 파장",
-      "close to or on the surface\n 표면에 가깝거나 표면",
-      "three wavelengths below the surface\n 표면아래 세개의 파장"
+      "one wavelength below the surface\n표면아래 하나의 파장",
+      "six wavelengths below the surface\n표면아래 여섯 개의 파장",
+      "close to or on the surface\n표면에 가깝거나 표면",
+      "three wavelengths below the surface\n표면아래 세개의 파장"
     ],
     "answer": 2
   },
@@ -37,10 +37,10 @@
     "source": "TOFD General - A 20200317",
     "question": "When viewing a TOFD image from a single zone TOFD setup, what would cause the backwall signal to be smaller than the lateral wave?\n하나의 zone TOFD 설정에서 TOFD 이미지를 볼 때, backwall 신호가 lateral wave보다\n더 작은 원인 은 무엇인가?",
     "options": [
-      "Use of a beam with refracted angle less than 60°\n 굴절각이 60°보다 적은 각도의 빔 사용",
-      "PCS too small\n PCS가 너무 작음",
-      "PCS too large\n PCS가 너무 큼",
-      "both 1 and 2\n a,b 둘 다"
+      "Use of a beam with refracted angle less than 60°\n굴절각이 60°보다 적은 각도의 빔 사용",
+      "PCS too small\nPCS가 너무 작음",
+      "PCS too large\nPCS가 너무 큼",
+      "both 1 and 2\na,b 둘 다"
     ],
     "answer": 1
   },
@@ -52,10 +52,10 @@
     "source": "TOFD General - A 20200317",
     "question": "What is NOT a recommended requirement of probes used for TOFD?\nTOFD에 사용되는 프로브의 권장 요구 사항이 아닌 것은?",
     "options": [
-      "Matched size/frequency (and usually angle) for Tx/Rx\n 송수신 탐촉자의 크기/주파수(각도)가 일치해야한다.",
-      "Wide divergence\n 넓은 빔퍼짐",
-      "Highly damped (broadband)\n 높은 감쇠(광대역)",
-      "Built-in electrical impedance matching circuits\n 내장된 전기 임피던스 정합회로"
+      "Matched size/frequency (and usually angle) for Tx/Rx\n송수신 탐촉자의 크기/주파수(각도)가 일치해야한다.",
+      "Wide divergence\n넓은 빔퍼짐",
+      "Highly damped (broadband)\n높은 감쇠(광대역)",
+      "Built-in electrical impedance matching circuits\n내장된 전기 임피던스 정합회로"
     ],
     "answer": 3
   },
@@ -67,10 +67,10 @@
     "source": "TOFD General - A 20200317",
     "question": "Lamb waves can be used to detect :\n판파를 사용하여 탐지할 수 있는 것은?",
     "options": [
-      "laminar-type defects near the surface of a thin material \n 얇은 소재의 표면 근처에 있는 층상결함",
-      "lack of fusion in the center of a thick weldment\n 두꺼운 용접 중심부의 융착불량",
-      "internal voids in diffusion bonds\n 분산된 내부의 빈 공간",
-      "thickness changes in heavy plate material\n 두꺼운 판 재료로 바뀐 두께"
+      "laminar-type defects near the surface of a thin material\n얇은 소재의 표면 근처에 있는 층상결함",
+      "lack of fusion in the center of a thick weldment\n두꺼운 용접 중심부의 융착불량",
+      "internal voids in diffusion bonds\n분산된 내부의 빈 공간",
+      "thickness changes in heavy plate material\n두꺼운 판 재료로 바뀐 두께"
     ],
     "answer": 0
   },
@@ -98,9 +98,9 @@
     "question": "What is the purpose of SAFT DSP on TOFD displays?\nTOFD 화면에서 SAFT DSP의 목적은?",
     "options": [
       "A form of TCG\nTCG의 한 형태",
-      "To determine flaw height\n TCG의 형태 결함 높이 측정",
+      "To determine flaw height\nTCG의 형태 결함 높이 측정",
       "To determine flaw length\n결함 길이 측정",
-      "For Sequenced Analysis of Frequency Technique\n 결함 길이 측정 순차적 주파수 분석 기술"
+      "For Sequenced Analysis of Frequency Technique\n결함 길이 측정 순차적 주파수 분석 기술"
     ],
     "answer": 2
   },
@@ -157,10 +157,10 @@
     "source": "TOFD General - A 20200317",
     "question": "What is used to establish sensitivity when performing a TOFD inspection?\nTOFD를 수행할 때, 감도를 설정하는데 무엇이 사용되는가?",
     "options": [
-      "Machined targets\n 가공된 타겟",
-      "Reference signals such as the lateral wave or backwall\n lateral wave 또는 backwall과 같은 대비 신호",
-      "Grain noise\n 입자 잡음",
-      "Any of the above may be used if suitable\n 상기의 어떤 것도 적절한 경우 사용될 수 있다."
+      "Machined targets\n가공된 타겟",
+      "Reference signals such as the lateral wave or backwall\nlateral wave 또는 backwall과 같은 대비 신호",
+      "Grain noise\n입자 잡음",
+      "Any of the above may be used if suitable\n상기의 어떤 것도 적절한 경우 사용될 수 있다."
     ],
     "answer": 3
   },
@@ -185,11 +185,11 @@
     "method": "TOFD",
     "category": "General",
     "source": "TOFD General - A 20200317",
-    "question": "Probes used in TOFD applications are used as a “pair” and should have the same TOFD 적용에서 사용되는 프로브는 ‘쌍’으로 사용되며 무엇이 같아야만 하는가?",
+    "question": "Probes used in TOFD applications are used as a “pair” and should have the same ______.\nTOFD 적용에서 사용되는 프로브는 ‘쌍’으로 사용되며 무엇이 같아야만 하는가?",
     "options": [
       "Frequency\n주파수",
       "Dimensions\n치수",
-      "Damping and ring-time\n댐핑과 라이징 타임",
+      "Damping and ring-time\n댐핑과 링 타임",
       "All of the above should be matched\n상기 모든 것이 맞아야만 한다."
     ],
     "answer": 3
@@ -232,10 +232,10 @@
     "source": "TOFD General - A 20200317",
     "question": "TOFD is always quoted as having accurate flaw vertical sizing as an advantage. When is this not true?\nTOFD는 장점으로 항상 정확한 결함의 수직 크기를 갖는 것으로 인용된다. 이것이 사실이\n아닐 때는?",
     "options": [
-      "When the flaw is IP\n 결함이 IP인 경우",
-      "When the flaw is LF\n 결함이 LF인 경우",
-      "When the upper and lower tip signals are not resolved\n 상부 또는 하부 끝단부 신호가 분석되지 않을 때",
-      "Never, TOFD is always the best option for sizing\n 없다, TOFD는 항상 크기 측정에 최고의 옵션이다."
+      "When the flaw is IP\n결함이 IP인 경우",
+      "When the flaw is LF\n결함이 LF인 경우",
+      "When the upper and lower tip signals are not resolved\n상부 또는 하부 끝단부 신호가 분석되지 않을 때",
+      "Never, TOFD is always the best option for sizing\n없다, TOFD는 항상 크기 측정에 최고의 옵션이다."
     ],
     "answer": 2
   },
@@ -263,9 +263,9 @@
     "question": "Uncertainties in timing, PCS and sound velocity provide uncertainties in TOFD determination of( ).\n타이밍의 불확실성, PCS 그리고 음파 속도의 불확실성은 TOFD 판독의 어떤 불확실성을 제공하나?",
     "options": [
       "Indication depth\n지시 깊이",
-      "Indication amplitude\n 결함 깊이 결함 진폭",
+      "Indication amplitude\n결함 깊이 결함 진폭",
       "Indication phase\n지시의 위상",
-      "Refracted angle\n 결함 상 반사된 각도"
+      "Refracted angle\n결함 상 반사된 각도"
     ],
     "answer": 0
   },
@@ -277,10 +277,10 @@
     "source": "TOFD General - A 20200317",
     "question": "As frequency increases in ultrasonic testing, the angle of beam divergence of a given diameter crystal :\n초음파 시험에서 주파수가 증가함에 따라 주어진 직경의 빔 발산 각도는",
     "options": [
-      "decreases\n 감소한다",
-      "remains unchanged\n 변하지 않는다",
-      "increases\n 증가한다",
-      "varies uniformly through each wavelength\n 파장마다 균일하게 변화한다"
+      "decreases\n감소한다",
+      "remains unchanged\n변하지 않는다",
+      "increases\n증가한다",
+      "varies uniformly through each wavelength\n파장마다 균일하게 변화한다"
     ],
     "answer": 0
   },
@@ -293,9 +293,9 @@
     "question": "Hyperbolic curves are used for what purpose in TOFD displays?\n쌍곡선은 TOFD 표시에서 어떤 목적으로 사용되는가?",
     "options": [
       "Flaw height sizing\n결함 높이 측정",
-      "Flaw depth determination\n 결함 높이 측정 결함 깊이 측정",
+      "Flaw depth determination\n결함 높이 측정 결함 깊이 측정",
       "Flaw length measurement\n결함 길이 측정",
-      "No reason at all, they just look nice\n 결함 길이 측정 모두 아니다, 그것들은 단지 좋게 보인다."
+      "No reason at all, they just look nice\n결함 길이 측정 모두 아니다, 그것들은 단지 좋게 보인다."
     ],
     "answer": 2
   },
@@ -307,10 +307,10 @@
     "source": "TOFD General - A 20200317",
     "question": "What is the risk of testing a thick weld section with a single zone?\n하나의 zone으로 두꺼운 용접부를 검사할 때의 위험성은 무엇인가?",
     "options": [
-      "Multiple imaging of a flaw\n 결함의 다중 이미지",
-      "Missed flaw due to pronounced dead zones\n dead zone으로 인한 결함 누락",
-      "Missed flaw due to poor divergence\n 분산이 잘 되지 않아 결함 누락",
-      "All of the above\n 상기 모두"
+      "Multiple imaging of a flaw\n결함의 다중 이미지",
+      "Missed flaw due to pronounced dead zones\ndead zone으로 인한 결함 누락",
+      "Missed flaw due to poor divergence\n분산이 잘 되지 않아 결함 누락",
+      "All of the above\n상기 모두"
     ],
     "answer": 3
   },
@@ -322,10 +322,10 @@
     "source": "TOFD General - A 20200317",
     "question": "When available for TOFD, what is amplitude equalization used on?\nTOFD가 가능한 경우, 진폭 균등화에 사용되는 것은?",
     "options": [
-      "The lateral wave signal\n lateral wave 신호",
-      "The backwall signal\n backwall 신호",
-      "The amplitude response from side drilled holes at two different depths\n 두 개의 다른 깊이의 측면 공으로 부터의 진폭 응답",
-      "The ID and OD Vee notch diffractor signals\n ID와 OD Vee 노치 회절 신호"
+      "The lateral wave signal\nlateral wave 신호",
+      "The backwall signal\nbackwall 신호",
+      "The amplitude response from side drilled holes at two different depths\n두 개의 다른 깊이의 측면 공으로 부터의 진폭 응답",
+      "The ID and OD Vee notch diffractor signals\nID와 OD Vee 노치 회절 신호"
     ],
     "answer": 0
   },
@@ -337,10 +337,10 @@
     "source": "TOFD General - A 20200317",
     "question": "When performing a TOFD inspection on the long seam of cylindrical vessel with the probes positioned either side of the weld on the OD surface, what correction for depth is required if a flaw is detected?\n원통형 용기의 롱심 부분을 OD 표면의 용접부 양 쪽에 프로브를 배치하여 TOFD 검사를\n수행할 때, 결함이 검출된다면, 깊이에 대한 어떤 보정이 요구되나?",
     "options": [
-      "The flaw relative to the vessel surface must be decreased by the probe elevations\n 프로브 높이에 의해 용기 표면에서 결함은 상대적으로 감소되어야 한다.",
-      "The flaw relative to the vessel surface must be increased by the probe elevations\n 프로브 높이에 의해 용기 표면에서 결함은 상대적으로 증가 되어야 한다.",
-      "The flaw depth calculated is not affected by the geometry\n 계산된 결함 깊이는 형상에 영향을 받지 않는다.",
-      "It is not possible to correct for this geometric effect\n 형상의 영향에 대한 보정은 가능하지 않다."
+      "The flaw relative to the vessel surface must be decreased by the probe elevations\n프로브 높이에 의해 용기 표면에서 결함은 상대적으로 감소되어야 한다.",
+      "The flaw relative to the vessel surface must be increased by the probe elevations\n프로브 높이에 의해 용기 표면에서 결함은 상대적으로 증가 되어야 한다.",
+      "The flaw depth calculated is not affected by the geometry\n계산된 결함 깊이는 형상에 영향을 받지 않는다.",
+      "It is not possible to correct for this geometric effect\n형상의 영향에 대한 보정은 가능하지 않다."
     ],
     "answer": 1
   },
@@ -367,10 +367,10 @@
     "source": "TOFD General - A 20200317",
     "question": "What aspect of TOFD incorrect setup would cause the Backwall signal to be distorted?\nTOFD 어느 부분의 잘못된 설정은 backwall 신호 왜곡의 원인이 되는가?",
     "options": [
-      "Use of a beam with refracted angle less than 60°\n 굴절각이 60°보다 적은 각도의 빔 사용",
-      "PCS too small\n PCS가 너무 작음",
-      "PCS too large\n PCS가 너무 큼",
-      "Testing at temperature of 80℃\n 80℃의 검사 온도"
+      "Use of a beam with refracted angle less than 60°\n굴절각이 60°보다 적은 각도의 빔 사용",
+      "PCS too small\nPCS가 너무 작음",
+      "PCS too large\nPCS가 너무 큼",
+      "Testing at temperature of 80℃\n80℃의 검사 온도"
     ],
     "answer": 2
   },
@@ -383,9 +383,9 @@
     "question": "Of the following sound wave modes, which one has multiple or varying wave velocities?\n다음 음파 모드 중 여러 가지 또는 다양한 파형 속도를 갖는 것은 무엇입니까?",
     "options": [
       "Longitudinal waves\n종파",
-      "Shear waves\n 종파 전단파",
+      "Shear waves\n종파 전단파",
       "Transverse waves\n횡파",
-      "Lamb waves\n 횡파 판파"
+      "Lamb waves\n횡파 판파"
     ],
     "answer": 3
   },
@@ -427,10 +427,10 @@
     "source": "TOFD General - A 20200317",
     "question": "Which of the following would be considered application of ultrasonic techniques?\n초음파 기술의 응용이라고 생각되는 것은 다음 중 어느 것입니까?",
     "options": [
-      "Determination of a material’s elastic modulus\n 재료의 탄성 계수를 결정한다",
-      "Study of a material’s metallurgical structure\n 재료의 금속조직을 검토한다",
-      "Measurement of a material’s \n 재료의 크기를 측정한다",
-      "All of the above\n 상기 모두"
+      "Determination of a material’s elastic modulus\n재료의 탄성 계수를 결정한다",
+      "Study of a material’s metallurgical structure\n재료의 금속조직을 검토한다",
+      "Measurement of a material’s\n재료의 크기를 측정한다",
+      "All of the above\n상기 모두"
     ],
     "answer": 3
   },
@@ -443,9 +443,9 @@
     "question": "What do Synchronous TOFD systems use to trigger data acquisition?\n동기식 TOFD 시스템이 데이터 수집을 작동하는데 사용하는 것은?",
     "options": [
       "UT instrument’s PRF\n초음파 장비의 반복주파수(PRF)",
-      "Computer clocks\n UT기기의 PRF 컴퓨터 시계",
+      "Computer clocks\nUT기기의 PRF 컴퓨터 시계",
       "Encoder pulses\n엔코더 펄스",
-      "The lateral wave arrival time\n 엔코더 펄스 횡파도달시간"
+      "The lateral wave arrival time\n엔코더 펄스 횡파도달시간"
     ],
     "answer": 2
   },
@@ -487,10 +487,10 @@
     "source": "TOFD General - A 20200317",
     "question": "For non amplitude-based technique, the location and extent of all image that have an indicated length greater than the limits in below, as applicable, shall be investigated. Which of the following is not a true?\n진폭 기준 기법이 사용되지 않는다면, 한계 이하보다 큰 길이를 갖는 결함에 대한 모든 이미지의 위치와 범위는 적용가능하다면 조사되어야 한다. 다음 중 사실이 아닌 것은?",
     "options": [
-      "For welds in material equal to or less than 1-1⁄2in.(38mm) thick at the weld, images\n with indicated lengths greater than 0.150in.(3.8mm) shall be investigated.\n 38mm 두께 이하인 재료의 용접부에서, 3.8mm 보다 큰 길이를 갖는 결함 이미지는 \n 조사되어야 한다.",
-      "For welds in material greater than 1-1⁄2in.(38mm) thick but less than 4in.(100 mm)\n thick at the weld, images with indicated lengths greater than 0.300in.(7.67 mm) shall be\n investigated.\n 38mm 초과 100mm 미만인 재료의 용접부에서, 7.67mm 보다 큰 길이를 갖는 결함 \n 이미지는 조사되어야 한다.",
-      "For welds in material greater than 4in.(100mm) thick at the weld, images with indicated\n lengths greater than 0.05t or 0.75in.(19mm), whichever is smaller, shall be investigated\n 100mm 초과인 재료의 용접부에서, 0.05t 또는 19mm 둘 중 작은 쪽보다 큰 길이를 \n 갖는 결함 이미지는 조사되어야 한다.",
-      "All of the above.\n 상기 모두"
+      "For welds in material equal to or less than 1-1⁄2in.(38mm) thick at the weld, images\nwith indicated lengths greater than 0.150in.(3.8mm) shall be investigated.\n38mm 두께 이하인 재료의 용접부에서, 3.8mm 보다 큰 길이를 갖는 결함 이미지는\n조사되어야 한다.",
+      "For welds in material greater than 1-1⁄2in.(38mm) thick but less than 4in.(100 mm)\nthick at the weld, images with indicated lengths greater than 0.300in.(7.67 mm) shall be\ninvestigated.\n38mm 초과 100mm 미만인 재료의 용접부에서, 7.67mm 보다 큰 길이를 갖는 결함\n이미지는 조사되어야 한다.",
+      "For welds in material greater than 4in.(100mm) thick at the weld, images with indicated\nlengths greater than 0.05t or 0.75in.(19mm), whichever is smaller, shall be investigated\n100mm 초과인 재료의 용접부에서, 0.05t 또는 19mm 둘 중 작은 쪽보다 큰 길이를\n갖는 결함 이미지는 조사되어야 한다.",
+      "All of the above.\n상기 모두"
     ],
     "answer": 1
   },
@@ -517,10 +517,10 @@
     "source": "TOFD General - A 20200317",
     "question": "TOFD is suitable for?\nTOFD가 적합한 것은?",
     "options": [
-      "Partially for Flaw Detection \n 부분적으로 결함 검출을 위하여",
-      "Not for Flaw Detection\n 결함검출 위함이 아님",
-      "Flaw Sizing and Flaw Detection \n 결함의 사이징과 결함검출",
-      "For Flaw Detection \n 결함검출의 경우"
+      "Partially for Flaw Detection\n부분적으로 결함 검출을 위하여",
+      "Not for Flaw Detection\n결함검출 위함이 아님",
+      "Flaw Sizing and Flaw Detection\n결함의 사이징과 결함검출",
+      "For Flaw Detection\n결함검출의 경우"
     ],
     "answer": 2
   },
@@ -532,10 +532,10 @@
     "source": "TOFD General - A 20200317",
     "question": "The TOFD principle is based on evaluation of the?\nTOFD의 원칙은 무엇의 평가에 근거하고 있나?",
     "options": [
-      "Frequency\n 주파수",
-      "Sound attenuation. \n 음향특성",
-      "Amplitude of the echo height\n 에코높이의 진폭",
-      "Diffraction Signals at Crack Edges\n 균열 가장자리의 회절신호"
+      "Frequency\n주파수",
+      "Sound attenuation.\n음향특성",
+      "Amplitude of the echo height\n에코높이의 진폭",
+      "Diffraction Signals at Crack Edges\n균열 가장자리의 회절신호"
     ],
     "answer": 3
   },
@@ -548,9 +548,9 @@
     "question": "Probes used for TOFD must deliver the performance:\nTOFD에 사용되는 프로브는 다음성능을 제공해야한다",
     "options": [
       "Low Frequency\n저주파수",
-      "High Frequency\n 저주파수 고주파수",
+      "High Frequency\n저주파수 고주파수",
       "Narrow Bandwidth\n좁은 대역폭",
-      "High Bandwidth\n 좁은 대역폭 광대역폭"
+      "High Bandwidth\n좁은 대역폭 광대역폭"
     ],
     "answer": 3
   },
@@ -563,9 +563,9 @@
     "question": "In what area TOFD is uncertain?\nTOFD가 불확실한 영역은?",
     "options": [
       "Near surface\n표면 근처",
-      "Far surface \n 표면부근 먼 표면",
+      "Far surface\n표면부근 먼 표면",
       "Near and Far surface\n가까운 표면과 먼 표면",
-      "In the wall center \n 가깝거나 먼 표면 벽 가운데"
+      "In the wall center\n가깝거나 먼 표면 벽 가운데"
     ],
     "answer": 2
   },

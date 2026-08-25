@@ -1,37 +1,5 @@
 [
   {
-    "id": 1,
-    "level": "Level III",
-    "method": "MT",
-    "category": "Method",
-    "topic": "ASME Section VIII / HIE-NDT-MT-P11",
-    "question": "When using the wet method of MT, what is the particle concentration for?\n습식 자분탐상을 할 때 자분 농도는?",
-    "options": [
-      "1.2 ml to 2.4 ml per 100 ml",
-      "",
-      "",
-      ""
-    ],
-    "answer": 0,
-    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-MT-P11(Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 자분탐상검사에 대한 절차서(HIE-NDT-MT-P11.Rev.2)"
-  },
-  {
-    "id": 2,
-    "level": "Level III",
-    "method": "MT",
-    "category": "Method",
-    "topic": "ASME Section VIII / HIE-NDT-MT-P11",
-    "question": "How much time is needed to adapt to dark viewing prior to performing fluorescent examination?\n형광 시험을 수행하기 전에 어두움에 적응하기 위해 필요한 시간은?",
-    "options": [
-      "At least 5 minutes\n최소 5분",
-      "",
-      "",
-      ""
-    ],
-    "answer": 0,
-    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-MT-P11(Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 자분탐상검사에 대한 절차서(HIE-NDT-MT-P11.Rev.2)"
-  },
-  {
     "id": 3,
     "level": "Level III",
     "method": "MT",
@@ -45,38 +13,6 @@
       "2000 lux"
     ],
     "answer": 2,
-    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-MT-P11(Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 자분탐상검사에 대한 절차서(HIE-NDT-MT-P11.Rev.2)"
-  },
-  {
-    "id": 4,
-    "level": "Level III",
-    "method": "MT",
-    "category": "Method",
-    "topic": "ASME Section VIII / HIE-NDT-MT-P11",
-    "question": "How much is minimum lifting power at the maximum pole spacing that will be used of alternating current electromagnetic yoke?\n교류 전자 요크 사용 시 최대 극간 간격에서 최소 리프팅 파워는?",
-    "options": [
-      "10 lb (4.5 kg)",
-      "",
-      "",
-      ""
-    ],
-    "answer": 0,
-    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-MT-P11(Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 자분탐상검사에 대한 절차서(HIE-NDT-MT-P11.Rev.2)"
-  },
-  {
-    "id": 5,
-    "level": "Level III",
-    "method": "MT",
-    "category": "Method",
-    "topic": "ASME Section VIII / HIE-NDT-MT-P11",
-    "question": "How much is a limited range of the temperature when using the wet particle suspension?\n습식 자분 현탁액 사용 시 온도 제한 범위는?",
-    "options": [
-      "Not exceed 135°F (57℃)\n135°F(57℃)를 넘지 않을 것",
-      "",
-      "",
-      ""
-    ],
-    "answer": 0,
     "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-MT-P11(Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 자분탐상검사에 대한 절차서(HIE-NDT-MT-P11.Rev.2)"
   },
   {
@@ -94,22 +30,6 @@
     ],
     "answer": 0,
     "note": "복수 정답 가능 항목 중 대표 답안 적용"
-  },
-  {
-    "id": 7,
-    "level": "Level III",
-    "method": "MT",
-    "category": "Method",
-    "topic": "ASME Section VIII / HIE-NDT-MT-P11",
-    "question": "When using the yoke, how much spacing of Yoke-pole?\n요크를 사용할 때 극간 간격은 얼마인가?",
-    "options": [
-      "Minimum 50 to Maximum 130 mm\n최소 50mm에서 최대 130mm",
-      "",
-      "",
-      ""
-    ],
-    "answer": 0,
-    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-MT-P11(Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 자분탐상검사에 대한 절차서(HIE-NDT-MT-P11.Rev.2)"
   },
   {
     "id": 8,
@@ -362,10 +282,8 @@
     "topic": "ASME Section III / HIE-NDT-MT-N21",
     "question": "1.3 mm linear indication was found on weld edge surface by MT yoke method, is it acceptable?\nMT Yoke 방법으로 용접부 끝 표면에서 1.3mm 선형 지시가 발견되었다. 합격인가?",
     "options": [
-      "Yes",
-      "No",
-      "",
-      ""
+      "Yes\n예",
+      "No\n아니오"
     ],
     "answer": 0
   },
@@ -407,10 +325,8 @@
     "topic": "ASME Section III",
     "question": "2 mm round indication was found on weld edge preparation surface by MT yoke method, is it acceptable?\nMT Yoke 장비로 용접부 끝단 준비면에서 2mm 원형 지시가 발견되었다. 합격인가?",
     "options": [
-      "Yes",
-      "No",
-      "",
-      ""
+      "Yes\n예",
+      "No\n아니오"
     ],
     "answer": 0
   },
@@ -438,10 +354,8 @@
     "topic": "ASME Section I",
     "question": "A length 1/4 in (6mm) rounded indication is; This indication acceptable?\n길이 1/4인치(6mm) 원형 지시는 합격인가?",
     "options": [
-      "Accept",
-      "Reject",
-      "",
-      ""
+      "Accept\n합격",
+      "Reject\n불합격"
     ],
     "answer": 1,
     "groupNote": "* The following questions refer to ASME Code Section. I\nASME Sec. I.에 따라 30번 물음에 답하시오."
@@ -456,7 +370,7 @@
     "options": [
       "aligned in fixed positions with directions that cancel out\n고정된 위치에서 서로 상쇄되는 방향으로 정렬되어 있다",
       "aligned in fixed positions, predominantly in one direction\n고정된 위치에서 대체로 한 방향으로 정렬되어 있다",
-      "aligned in a random position and may become aligned to attract a magnetic \n material\n무작위로 놓여 있으며 자성체를 끌어당기도록 정렬될 수 있다",
+      "aligned in a random position and may become aligned to attract a magnetic\nmaterial\n무작위로 놓여 있으며 자성체를 끌어당기도록 정렬될 수 있다",
       "aligned in the same direction as the metal's grain structure\n금속의 결정 조직과 같은 방향으로 정렬되어 있다"
     ],
     "answer": 1
@@ -499,9 +413,9 @@
     "source": "MTM-III.HWP",
     "question": "Of the following, which is not a valid reason for demagnetization of parts after magnetic particle testing?\n다음 중 자분탐상 후 부품을 탈자해야 하는 타당한 이유가 아닌 것은?",
     "options": [
-      "If the part is to be radiographed after magnetic particle inspection, residual\n magnetism may interfere with the electromagnetic radiation spectrum\n자분탐상 후 방사선촬영을 하면 잔류자기가 전자기 방사 스펙트럼을 방해할 수 있다",
-      "Residual magnetism may attract chips or small particles in service, causing \n galling or mechanical wear\n잔류자기가 사용 중 칩이나 작은 입자를 끌어당겨 소착이나 기계적 마모를 일으킬 수 있다",
-      "Residual magnetism could interfere with the operation or accuracy of instruments \n placed on or near the part during service\n잔류자기가 사용 중 부품 위나 근처에 놓인 계기의 작동이나 정확도를 방해할 수 있다",
+      "If the part is to be radiographed after magnetic particle inspection, residual\nmagnetism may interfere with the electromagnetic radiation spectrum\n자분탐상 후 방사선촬영을 하면 잔류자기가 전자기 방사 스펙트럼을 방해할 수 있다",
+      "Residual magnetism may attract chips or small particles in service, causing\ngalling or mechanical wear\n잔류자기가 사용 중 칩이나 작은 입자를 끌어당겨 소착이나 기계적 마모를 일으킬 수 있다",
+      "Residual magnetism could interfere with the operation or accuracy of instruments\nplaced on or near the part during service\n잔류자기가 사용 중 부품 위나 근처에 놓인 계기의 작동이나 정확도를 방해할 수 있다",
       "Residual magnetism can disturb the welding are path on parts to be welded\n잔류자기가 용접할 부품의 아크 경로를 흐트러뜨릴 수 있다"
     ],
     "answer": 0
@@ -695,9 +609,9 @@
     "question": "If the same amperage is passed through a 1 inch and 2 inch diameter bar of the same length, which of the following statements is most applicable relevant to the magnetic field at the surface of the bars?\n길이가 같은 지름 1인치 봉과 2인치 봉에 같은 전류를 흘렸을 때, 봉 표면의 자장에 대해 가장 적절한 설명은?",
     "options": [
       "The strength of the magnetic field at the surfaces will be the same for both bars\n두 봉의 표면 자장 세기는 같다",
-      "The strength of the magnetic field at the surfaces of the 1 inch bar will be \n approximately twice that of the 2 inch bar\n1인치 봉 표면의 자장 세기가 2인치 봉의 약 2배가 된다",
-      "The strength of the magnetic field at the surfaces of the 2 inch bar will be \n approximately four times that of the 1 inch bar\n2인치 봉 표면의 자장 세기가 1인치 봉의 약 4배가 된다",
-      "The strength of the magnetic field at the surfaces of the 1 inch bar will be \n one-half that of the 1 inch bar\n1인치 봉 표면의 자장 세기가 1인치 봉의 절반이 된다"
+      "The strength of the magnetic field at the surfaces of the 1 inch bar will be\napproximately twice that of the 2 inch bar\n1인치 봉 표면의 자장 세기가 2인치 봉의 약 2배가 된다",
+      "The strength of the magnetic field at the surfaces of the 2 inch bar will be\napproximately four times that of the 1 inch bar\n2인치 봉 표면의 자장 세기가 1인치 봉의 약 4배가 된다",
+      "The strength of the magnetic field at the surfaces of the 1 inch bar will be\none-half that of the 1 inch bar\n1인치 봉 표면의 자장 세기가 1인치 봉의 절반이 된다"
     ],
     "answer": 2
   },
@@ -709,10 +623,10 @@
     "source": "MTM-III.HWP",
     "question": "If the same amperage is passed through a 1 inch diameter bar and a 2 inch diameter bar of the same length, which of the following statements is most applicable relevant to the magnetic field at the center of the bars?\n길이가 같은 지름 1인치 봉과 2인치 봉에 같은 전류를 흘렸을 때, 봉 중심부의 자장에 대해 가장 적절한 설명은?",
     "options": [
-      "The strength of the magnetic field in the center of the 1 inch bar will be one\n -half that of the 2 inch bar\n1인치 봉 중심의 자장 세기가 2인치 봉의 절반이 된다",
-      "The strength of the magnetic field at the center of the 2 inch bar will be one\n -half that of the 1 inch bar\n2인치 봉 중심의 자장 세기가 1인치 봉의 절반이 된다",
+      "The strength of the magnetic field in the center of the 1 inch bar will be one\n-half that of the 2 inch bar\n1인치 봉 중심의 자장 세기가 2인치 봉의 절반이 된다",
+      "The strength of the magnetic field at the center of the 2 inch bar will be one\n-half that of the 1 inch bar\n2인치 봉 중심의 자장 세기가 1인치 봉의 절반이 된다",
       "The strength of the magnetic field in the center of both bars will be zero\n두 봉 모두 중심의 자장 세기는 0이다",
-      "The strength of the magnetic field in the center of the 1 inch bar will be\n approximately one-fourth the value for the 2 inch bar\n1인치 봉 중심의 자장 세기가 2인치 봉의 약 1/4이 된다"
+      "The strength of the magnetic field in the center of the 1 inch bar will be\napproximately one-fourth the value for the 2 inch bar\n1인치 봉 중심의 자장 세기가 2인치 봉의 약 1/4이 된다"
     ],
     "answer": 1
   },
@@ -860,7 +774,7 @@
     "question": "Small parts requiring demagnetization should be:\n탈자가 필요한 작은 부품은 어떻게 해야 하는가?",
     "options": [
       "loaded in baskets and passed through an AC coil\n바구니에 담아 교류 코일을 통과시킨다",
-      "demagnetized after assembly to assure complete demagnetization of the entire\n assembly\n조립 후 탈자해 조립품 전체의 완전 탈자를 확보한다",
+      "demagnetized after assembly to assure complete demagnetization of the entire\nassembly\n조립 후 탈자해 조립품 전체의 완전 탈자를 확보한다",
       "processed through a demagnetization cycle one at a time\n한 개씩 탈자 공정을 거친다",
       "loaded in a steel basket for better field distribution\n자장 분포를 좋게 하려고 강철 바구니에 담는다"
     ],
@@ -892,7 +806,7 @@
       "along one axis using a coil\n코일로 한 축을 따라",
       "two shots using a coil at the X and Y axis\n코일로 X축과 Y축에 2회",
       "two head shots along the X and Y axis\nX축과 Y축을 따라 축통전 2회",
-      "induced current shots along X, Y and Z axis, rotating 360 degrees during each \n shot\nX·Y·Z축을 따라 매회 360도 회전시키며 유도전류 통전"
+      "induced current shots along X, Y and Z axis, rotating 360 degrees during each\nshot\nX·Y·Z축을 따라 매회 360도 회전시키며 유도전류 통전"
     ],
     "answer": 3
   },
@@ -965,7 +879,7 @@
     "question": "Internal splines and holes, drilled parallel to or near test surfaces, will cause:\n검사면과 나란하거나 가까이 뚫린 내부 스플라인이나 구멍은 무엇을 유발하는가?",
     "options": [
       "broad, fuzzy indications directly aligned with the part's internal contours\n부품 내부 윤곽을 그대로 따라가는 넓고 흐릿한 지시",
-      "sharp, well defined indications directly aligned with the part's internal \n contours\n부품 내부 윤곽을 그대로 따라가는 날카롭고 뚜렷한 지시",
+      "sharp, well defined indications directly aligned with the part's internal\ncontours\n부품 내부 윤곽을 그대로 따라가는 날카롭고 뚜렷한 지시",
       "no indications\n지시 없음",
       "Both 1 and 2 above\n1번과 2번 모두"
     ],

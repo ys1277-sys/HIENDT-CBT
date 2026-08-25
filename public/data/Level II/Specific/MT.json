@@ -114,7 +114,7 @@
     "method": "MT",
     "category": "Specific",
     "source": "MTS-II(2020)(A) / MTS-II(2020)(B)",
-    "question": "This procedure describes the Magnetic particle testing methode of ______.\n본 절차서는 ______을 위한 자분 탐상방법을 기술한다.",
+    "question": "This procedure describes the Magnetic particle testing method of ______.\n본 절차서는 ______을 위한 자분 탐상방법을 기술한다.",
     "options": [
       "AC Yoke\nAC 요크",
       "Prod\n프로드",
