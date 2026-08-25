@@ -5,6 +5,7 @@ import Calculator from "./Calculator.jsx";
 import QuestionImage from "./QuestionImage.jsx";
 import GroupNote from "./GroupNote.jsx";
 import { groupRanges } from "./groupRange.js";
+import { optionMark, optionMarkFilled } from "./optionMark.js";
 import {
   questionType,
   isAnswered,
@@ -129,35 +130,13 @@ function Quiz({
   const [finishedAt, setFinishedAt] = useState(null);
 
   /*
-   * 보기 번호.
-   * 넷까지만 두면 다섯 번째부터 "① ② ③ ④ 5" 처럼 모양이 어긋난다.
-   * VT 처럼 보기가 다섯·여섯인 문항이 있어 여덟까지 채워 둔다.
+   * 보기 번호는 src/optionMark.js 에서 뽑는다.
+   *
+   * 예전에는 여기에 배열로 박아 두었다. 넷 → 여덟로 늘려 왔는데 그때마다
+   * 그 수를 넘는 문항에서 뒤쪽이 맨 숫자로 나왔다. 실제로 MT 일반 12번은
+   * 보기가 열이라 답안 표기란이 "① ② ③ ④ ⑤ ⑥ ⑦ ⑧ 9 10" 으로 나왔다.
+   * 글자표에서 바로 뽑으니 다시 잘리지 않는다.
    */
-  const numberCircle = [
-    "①",
-    "②",
-    "③",
-    "④",
-    "⑤",
-    "⑥",
-    "⑦",
-    "⑧"
-  ];
-
-  /*
-   * 답안지에서 고른 보기에 쓰는 속이 찬 글자.
-   * 배경을 칠하면 칠한 원이 글자의 원보다 커서 밖으로 삐져나온다.
-   */
-  const numberCircleFilled = [
-    "❶",
-    "❷",
-    "❸",
-    "❹",
-    "❺",
-    "❻",
-    "❼",
-    "❽"
-  ];
 
   /*
    * 묶음 지시문에 넣을 문항 번호. 이번 시험지에서 실제로 몇 번인지다.
@@ -620,7 +599,7 @@ function Quiz({
 
               <div className="question-title">
 
-                {/* 예전에는 numberCircle[0] 이 박혀 있어 몇 번 문항이든 ① 로 보였다 */}
+                {/* 예전에는 배열의 첫 칸이 박혀 있어 몇 번 문항이든 ① 로 보였다 */}
                 <span className="question-num">
 
                   {current + 1}.
@@ -766,7 +745,7 @@ function Quiz({
                           */}
                           <span className="option-number">
 
-                            {numberCircle[index] || index + 1}
+                            {optionMark(index)}
 
                           </span>
 
@@ -1015,8 +994,8 @@ function Quiz({
                                          * 자체가 채워진 원이라 원 안에만 찬다.
                                          */
                                         (selected
-                                          ? numberCircleFilled[i]
-                                          : numberCircle[i]) || i + 1
+                                          ? optionMarkFilled(i)
+                                          : optionMark(i))
                                       }
 
                                     </button>

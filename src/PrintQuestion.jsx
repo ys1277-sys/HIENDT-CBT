@@ -5,6 +5,7 @@ import React, {
 } from "react";
 
 import "./print.css";
+import { optionMark } from "./optionMark.js";
 import logo from "./logo.png";
 
 function PrintQuestion({
@@ -20,8 +21,9 @@ function PrintQuestion({
 }) {
 
   /* 보기 번호 — PrintExam 과 같다 */
-  const CIRCLED = ["①", "②", "③", "④", "⑤", "⑥", "⑦", "⑧"];
-  const optionNumber = (i) => CIRCLED[i] || String(i + 1);
+  /* 보기 번호는 src/optionMark.js 에서 뽑는다. 배열로 박아 두면 그 수를
+     넘는 문항에서 뒤쪽이 맨 숫자로 나온다 (MT 일반 12번은 보기가 열이다) */
+  const optionNumber = optionMark;
 
   const [questionPages, setQuestionPages] =
     useState([]);
