@@ -257,14 +257,35 @@ function convert(md) {
     /* 번호 목록 · 글머리표 */
     const li = line.match(/^(\s*)(\d+\.|[-*])\s+(.*)$/);
     if (li) {
+      /*
+       * 이어지는 줄을 한 항목으로 묶는다. 보통 글과 인용구는 묶고
+       * 있었는데 목록만 빠져 있었다. 묶지 않으면
+       *
+       *   3. … 관리번호를 부여하고 **분리하여
+       *      채점**한다.
+       *
+       * 처럼 굵게 표시가 줄 끝에서 짝을 잃어, Word 로 옮길 때
+       * ** 가 글자 그대로 찍혔다.
+       */
+      const buf = [li[3]];
+      i++;
+      while (
+        i < lines.length && lines[i].trim() &&
+        !/^[#>|`]/.test(lines[i]) && !/^---+\s*$/.test(lines[i]) &&
+        !/^\s*(\d+\.|[-*])\s/.test(lines[i])
+      ) buf.push(lines[i++].trim());
+
       const deep = Math.floor(li[1].length / 2);
       const mark = /^\d/.test(li[2]) ? li[2] : "·";
-      out.push(new Paragraph({
-        children: runs(mark + " " + li[3]),
-        indent: { left: 240 + deep * 240, hanging: 240 },
-        spacing: { before: 30, after: 30 },
-      }));
-      i++;
+      const body = (mark + " " + buf.join(" ")).replace(/\s+/g, " ").trim();
+
+      for (const sub of brLines(body)) {
+        out.push(new Paragraph({
+          children: runs(sub),
+          indent: { left: 240 + deep * 240, hanging: 240 },
+          spacing: { before: 30, after: 30 },
+        }));
+      }
       continue;
     }
 
