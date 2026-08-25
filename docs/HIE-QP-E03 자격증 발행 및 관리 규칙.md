@@ -136,27 +136,31 @@ HIE-QP-E01에 따라 수행되고 있는지 검토하고 승인할 책임이 있
 5.2.2 자격증은 지정된 NDE Level Ⅲ가 서명할 때 **완전히 작성하여 다른
 사람이 채워 넣을 빈칸이 남지 않도록** 한다. (E01 7.6.7-6)
 
-5.2.3 기재 예
+5.2.3 기재 예 — 첨부 2의 서식을 채운 보기다.
 
-```
-HANKUK INDUSTRIAL ENGINEERING CO., LTD.
-Written Practice : HIE-QP-E01 Rev.8
-SNT-TC-1A 2020
+| 항 목 | 기 재 란 |
+|---|---|
+| Written Practice | HIE-QP-E01 &nbsp;&nbsp; Rev. 8 |
+| SNT-TC-1A | 2020 |
+| No. &nbsp; 일련번호 | 2026-UT-001 |
+| Name &nbsp; 성명 | HONG, GIL DONG |
+| Level &nbsp; 자격 등급 | NDE Level Ⅱ |
+| Method &nbsp; 종목 | UT |
+| Technique &nbsp; 기법 | TOFD, PAUT |
+| Certified &nbsp; 인증 일자 | 2026. 08. 25. |
+| Expires &nbsp; 만료 일자 | 2029. 08. 31. |
+| Certified by &nbsp; 인증한 사람 | 한국공업엔지니어링㈜ |
+| NDE Level Ⅲ (성명 풀네임) | (대표 NDE Level Ⅲ 성명) |
+| ASNT 자격 사항 | ASNT NDT Level Ⅲ No. (해당하는 경우) |
+| 인증 기관 | 해당 없음 |
+| Signature &nbsp; 서명 | |
 
-Name       HONG, GIL DONG
-Level      NDE Level Ⅱ
-Method     UT
-Technique  TOFD, PAUT
-
-Certified  2026. 08. 25.
-Expires    2029. 08. 31.
-
-Certified by   Y. H. SEO   (NDE Level Ⅲ, ASNT NDT Level Ⅲ No. ______)
-               서명 ______________________
-```
-
-> 만료일은 **만료되는 달의 마지막 날**이다. (E01 7.9.2) 위 보기에서
-> 2029년 8월이 만료 월이므로 만료일은 8월 31일이 된다.
+> 만료일은 **만료되는 달의 마지막 날**이다. (E01 7.9.2) 위 보기는 Level Ⅱ
+> 이므로 재자격 인정주기가 3년이다. 2026년 8월에 인증하면 만료 월은
+> 2029년 8월이고, 만료일은 그 달의 마지막 날인 8월 31일이 된다.
+>
+> Technique 에 TOFD·PAUT 가 있으므로 이 사람은 **UT Level Ⅱ 자격이 먼저
+> 인증되어 있어야 한다.** (5.1.5)
 
 ### 5.3 ID 카드
 
@@ -390,66 +394,67 @@ Level Ⅲ의 승인을 받고, 폐기 일자·승인 기록·폐기 대상 기�
 
 **자격종료·복권 경로**
 
-```
-   고용 종료 또는 6개월 이상 미종사
-            ⇩
-        자격 취소 (7.2)
-     자격증·ID 카드 회수
-            ⇩
-      ┌─────┴─────┐
-      │           │
-  6개월 이내   6개월 초과
-  기록 유지    또는 기간 만기
-  기간 미만기       │
-      │           │
-     복권       재시험
-  (시험 없음)  (7.3, E02 로)
-     (7.4)
-```
+| 단계 | 사유·조건 | 처리 | 근거 |
+|:-:|---|---|---|
+| 1 | 고용 종료 | **자격 자동 취소** | 7.2.1 (E01 7.10.1) |
+| 1 | 6개월 이상 해당 검사방법 미종사 | **자격 취소** | 7.2.2 (E01 7.10.2) |
+| 2 | 취소 확정 | 발급대장에 종료 일자·사유 기재, **자격증과 ID 카드 회수** | 7.2.3 |
+| 3 | 아래 세 가지를 **모두** 만족<br>① 기록이 유지되고 있을 것<br>② 자격인정 기간이 종료 기간 동안 만기되지 않았을 것<br>③ 자격종료 6개월 이내일 것 | **복권 — 새로운 시험 없이** 이전 자격 회복.<br>인증·만료 일자는 종료 전의 것을 그대로 쓴다 | 7.4 (E01 7.11) |
+| 3 | 위 세 가지 가운데 하나라도 만족하지 못함 | **재자격 시험** — HIE-QP-E02에 따라 시행 | 7.3 (E01 7.10.3) |
+| 4 | 재자격 시험 조건도 만족하지 못함 | 응시 전에 **NDE Level Ⅲ가 규정한 추가 훈련**을 받는다 | 7.3.2 (E01 7.10.3-4) |
+
+> 3단계의 판정과 4단계의 처리는 **자격종료·복권 기록(HIE-QP-E03-05)**에
+> 남긴다.
+
+---
 
 # Attachment 2. 자격증 서식
 
-```
-┌──────────────────────────────────────────────────────────┐
-│                                                          │
-│   HANKUK INDUSTRIAL ENGINEERING CO., LTD.                │
-│   한국공업엔지니어링㈜                                    │
-│                                                          │
-│   CERTIFICATE OF NDE PERSONNEL QUALIFICATION             │
-│   비파괴검사 요원 자격증                                  │
-│                                                          │
-│   Written Practice : HIE-QP-E01  Rev. ____               │
-│   SNT-TC-1A ____                                         │
-│                                                          │
-│   No.                                                    │
-│   ────────────────────────────────────────────────────   │
-│   Name        (ISO 기본 라틴 알파벳)                      │
-│   성명                                                    │
-│                                                          │
-│   Level       NDE Level  Ⅰ / Ⅱ / Ⅲ                      │
-│   Method      RT · UT · MT · PT · VT · ECT · RFT         │
-│   Technique   TOFD · PAUT · CR · DR · FMC                │
-│                                                          │
-│   Certified                    Expires                   │
-│   인증 일자                     만료 일자                  │
-│   ────────────────────────────────────────────────────   │
-│                                                          │
-│   Certified by                                           │
-│   NDE Level Ⅲ                                            │
-│   (성명 풀네임 / ASNT 자격 사항)                          │
-│                                                          │
-│   Signature ____________________                         │
-│                                                          │
-└──────────────────────────────────────────────────────────┘
-```
+아래 서식으로 발행한다. 기재 사항은 5.2.1을, 작성 요령은 이 첨부의
+끝을 따른다.
+
+**HANKUK INDUSTRIAL ENGINEERING CO., LTD.**
+
+**한국공업엔지니어링㈜**
+
+**CERTIFICATE OF NDE PERSONNEL QUALIFICATION**
+
+**비파괴검사 요원 자격증**
+
+| 항 목 | 기 재 란 |
+|---|---|
+| Written Practice<br>자격인정 절차서 | HIE-QP-E01 &nbsp;&nbsp; Rev. |
+| SNT-TC-1A | (절차서가 발행된 SNT-TC-1A 해당 판의 4자리 연도) |
+| No. &nbsp; 일련번호 | |
+
+| 항 목 | 기 재 란 |
+|---|---|
+| Name<br>성명 | (ISO 기본 라틴 알파벳으로 적는다) |
+| Level<br>자격 등급 | NDE Level &nbsp; □ Ⅰ &nbsp;&nbsp; □ Ⅱ &nbsp;&nbsp; □ Ⅲ |
+| Method<br>종목 | □ RT &nbsp; □ UT &nbsp; □ MT &nbsp; □ PT &nbsp; □ VT &nbsp; □ ECT &nbsp; □ RFT |
+| Technique<br>기법 | □ TOFD &nbsp; □ PAUT &nbsp; □ FMC &nbsp; □ CR &nbsp; □ DR<br>(TOFD·PAUT·FMC 는 UT Level Ⅱ 선수 자격이 있어야 한다 — 5.1.5) |
+| Certified<br>인증 일자 | 년 &nbsp;&nbsp; 월 &nbsp;&nbsp; 일 |
+| Expires<br>만료 일자 | 년 &nbsp;&nbsp; 월 &nbsp;&nbsp; 일 |
+
+| 항 목 | 기 재 란 |
+|---|---|
+| Certified by<br>인증한 사람 | |
+| NDE Level Ⅲ<br>(성명 풀네임) | |
+| ASNT 자격 사항<br>(해당하는 경우) | ASNT NDT Level Ⅲ No. |
+| 인증 기관<br>(Level Ⅲ와 위치가 다른 경우) | |
+| Signature &nbsp; 서명 | |
 
 **작성 요령**
 
 1. 만료 일자는 **만료되는 달의 마지막 날**로 적는다. (E01 7.9.2)
-2. 서명 시점에 **빈칸이 남지 않도록** 모두 채운다. (E01 7.6.7-6)
-3. 해당되지 않는 등급·종목·기법은 지우거나 표시하지 않는다.
-4. Level Ⅲ와 인증 기관이 별도의 위치로 식별되는 경우 양쪽을 모두 적는다.
-   (E01 7.6.7-5)
+2. 서명 시점에 **빈칸이 남지 않도록** 모두 채운다. 해당 없는 칸에는
+   「해당 없음」으로 적는다. (E01 7.6.7-6)
+3. 해당되지 않는 등급·종목·기법의 네모 칸은 비워 둔다.
+4. Level Ⅲ와 인증 기관이 별도의 위치로 식별되는 경우 양쪽을 모두
+   적는다. (E01 7.6.7-5)
+5. 자격증의 내용을 휴대할 수 있도록 ID 카드를 함께 발행할 수 있다.
+   ID 카드에는 위 기재 사항과 함께 일련번호, 성명과 사진, 위·변조를
+   방지하기 위한 표시를 넣는다. (5.3)
 
 ---
 
