@@ -113,7 +113,7 @@
     "level": "Level II",
     "method": "MT",
     "category": "Specific",
-    "source": "MTS-II(2020)(A)",
+    "source": "MTS-II(2020)(A) / MTS-II(2020)(B)",
     "question": "This procedure describes the Magnetic particle testing methode of ______.\n본 절차서는 ______을 위한 자분 탐상방법을 기술한다.",
     "options": [
       "AC Yoke\nAC 요크",
@@ -260,22 +260,6 @@
       "All of current\n위의 전류 모두"
     ],
     "answer": 0
-  },
-  {
-    "id": 19,
-    "level": "Level II",
-    "method": "MT",
-    "category": "Specific",
-    "source": "MTS-II(2020)(B)",
-    "question": "This procedure describes the Magnetic particle testing methode of ______.\n본 절차서는 ______을 위한 자분 탐상방법을 기술한다.",
-    "options": [
-      "AC Yoke\nAC 요크",
-      "Prod\n프로드",
-      "Coil\n코일",
-      "Head shot\n축통전법(head shot)"
-    ],
-    "answer": 0,
-    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-MT-N21 (Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec Ⅲ. 2023 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격에 따른 압력용기 제작의 자분탐상 시험에 대한 절차서(HIE-NDT-MT-N21,Rev.2)"
   },
   {
     "id": 22,

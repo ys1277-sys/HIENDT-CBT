@@ -36,7 +36,7 @@
     "level": "Level II",
     "method": "UT",
     "category": "Specific",
-    "source": "UTS-II(2020)(A)",
+    "source": "UTS-II(2020)(A) / UTS-II(2020)(B)",
     "question": "Search unit shall be ______ angle beam probe.\n탐촉자는 ______ 도 사각 탐촉자를 사용해야 한다.",
     "options": [
       "0°",
@@ -267,27 +267,11 @@
     "answer": 3
   },
   {
-    "id": 18,
-    "level": "Level II",
-    "method": "UT",
-    "category": "Specific",
-    "source": "UTS-II(2020)(A)",
-    "question": "The ultrasonic instrument shall utilize an amplitude control, accurate over its useful range to ______ % of the nominal amplitude ratio, to allow measurement of indications beyond the linear range of vertical display on the screen.\n초음파 탐상장비는 평균 증폭비의 ______ % 범위 이내로 증폭 조절 직선성을 지니고 있어야 스크린 수직방향 지시측정이 가능하다.",
-    "options": [
-      "10%",
-      "5%",
-      "20% C. none of the above\n위에 해당 사항 없음",
-      "80% + 6dB",
-      "all of the above\n위의 모두 해당 사항임"
-    ],
-    "answer": 2
-  },
-  {
     "id": 19,
     "level": "Level II",
     "method": "UT",
     "category": "Specific",
-    "source": "UTS-II(2020)(B)",
+    "source": "UTS-II(2020)(B) / UTS-II(2020)(A)",
     "question": "The ultrasonic instrument shall utilize an amplitude control, accurate over its useful range to ______ % of the nominal amplitude ratio, to allow measurement of indications beyond the linear range of vertical display on the screen.\n초음파 탐상장비는 평균 증폭비의 ______ % 범위 이내로 증폭 조절 직선성을 지니고 있어야 스크린 수직방향 지시측정이 가능하다.",
     "options": [
       "10%",
@@ -297,22 +281,6 @@
       "all of the above\n위의 모두 해당 사항임"
     ],
     "answer": 2
-  },
-  {
-    "id": 20,
-    "level": "Level II",
-    "method": "UT",
-    "category": "Specific",
-    "source": "UTS-II(2020)(B)",
-    "question": "Search unit shall be ______ angle beam probe.\n탐촉자는 ______ 도 사각 탐촉자를 사용해야 한다.",
-    "options": [
-      "0°",
-      "45°",
-      "60°",
-      "70°"
-    ],
-    "answer": 1,
-    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-N21 (Rev.2) for ultrasonic examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec Ⅲ. 2023 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격에 따른 압력용기 제작의 초음파 시험에 대한 절차서HIE-NDT-UT-N21 (Rev.2)"
   },
   {
     "id": 23,

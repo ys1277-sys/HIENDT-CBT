@@ -446,7 +446,7 @@
     "level": "Level II",
     "method": "MT",
     "category": "General",
-    "source": "MTG-II(A)",
+    "source": "MTG-II(A) / MTG-II(B)",
     "question": "Which point on the hysteresis curve shown in Figure 1 represents the residual field value?\n그림 1의 자기이력곡선에서 잔류자장의 값을 나타내는 점은?",
     "options": [
       "A",
@@ -608,23 +608,6 @@
       "all of the above\n위 모두"
     ],
     "answer": 3
-  },
-  {
-    "id": 40,
-    "level": "Level II",
-    "method": "MT",
-    "category": "General",
-    "source": "MTG-II(B)",
-    "question": "Which point on the hysteresis curve shown in Figure 1 represents the residual field value?\n그림 1의 자기이력곡선에서 잔류자장의 값을 나타내는 점은?",
-    "options": [
-      "A",
-      "B",
-      "C",
-      "D",
-      "P L.F\nSLAG\nC\nB\nB,C,E\nC\nC"
-    ],
-    "answer": 2,
-    "image": "MT_GENERAL_FIG1.jpg"
   },
   {
     "id": 41,
