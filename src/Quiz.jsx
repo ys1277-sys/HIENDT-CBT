@@ -286,7 +286,8 @@ function Quiz({
 
         }
 
-        const want = questionCount(level, subject);
+        /* 표 3 은 종목마다 문항 수가 달라 종목까지 넘긴다 */
+        const want = questionCount(level, subject, method);
 
         const drawn = drawQuestions(list, want);
 
