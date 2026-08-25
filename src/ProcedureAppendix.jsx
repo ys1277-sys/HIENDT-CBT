@@ -98,13 +98,28 @@ function ProcedureAppendix({ procs, onPageSettled, startPage = 1, header }) {
                   {proc.rev ? " " + proc.rev : ""}
                 </span>
 
+                {/*
+                  실제로 붙는 문서의 번호를 찍는다. 문항이 부른 이름(code)을
+                  찍으면 P11 문서에 N21 이라고 적히는 꼴이 된다.
+                */}
                 <span className="procedure-code">
-                  {proc.code}
+                  {proc.docCode || proc.code}
                   {proc.pages.length > 1
                     ? ` (${i + 1}/${proc.pages.length})`
                     : ""}
                 </span>
               </div>
+
+              {/*
+                부른 절차서가 없어 같은 종목의 다른 절차서를 붙인 경우.
+                ASME Sec.Ⅲ 용(N21)과 Sec.Ⅷ 용(P11)은 값이 다를 수 있다.
+              */}
+              {proc.code && proc.docCode && proc.code !== proc.docCode ? (
+                <div className="procedure-swap">
+                  ※ 문항이 가리킨 {proc.code} 는 등록되어 있지 않아 같은 종목의{" "}
+                  {proc.docCode} 를 붙였습니다. 값이 다를 수 있습니다.
+                </div>
+              ) : null}
 
               <div className="procedure-sheet">
                 <img

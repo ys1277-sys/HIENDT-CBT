@@ -1525,6 +1525,25 @@ button:disabled{
   opacity: 0.75;
 }
 
+/*
+ * 문항이 부른 절차서가 없어 같은 종목의 다른 절차서를 열어 준 경우의 알림.
+ * 문서번호만 바꿔 놓으면 응시자가 못 알아챈다. 눈에 띄게 둔다.
+ */
+.procw-swap {
+  padding: 8px 12px;
+
+  font-size: 12px;
+  line-height: 1.5;
+
+  color: #7a4a00;
+  background: #fff6e0;
+  border-bottom: 1px solid #f0d9a8;
+}
+
+.procw-swap b {
+  font-weight: 700;
+}
+
 /* =========================================================
    휴대폰
 
