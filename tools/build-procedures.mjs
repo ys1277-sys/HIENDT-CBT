@@ -136,6 +136,61 @@ function dropLooseCoverLogo(blocks) {
  * 첫 표 안에서 처음 나오는 그림 하나만 고른다. 결재란 서명 도장은
  * 그대로 둔다.
  */
+/*
+ * 한글이 제 글꼴로만 그리는 글자를 보통 글자로 바꾼다.
+ *
+ * 한글은 가로줄을 그을 때 유니코드 선 글자를 쓰지 않고 제 글꼴의
+ * 사용자 영역(15면 PUA) 글자를 쓴다. 그대로 옮기면 웹 글꼴에 그 글자가
+ * 없어 네모(󰠏󰠏󰠏)로 뜬다. 서식의 밑줄과 제목 아래 구분선이 전부 그랬다.
+ *
+ *   U+F080F   가는 가로줄 — 서식의 기입란 밑줄
+ *   U+F081A   굵은 가로줄 — 제목 아래 구분선
+ *   U+F0827   굵은 가로줄 — 제목 아래 구분선
+ *
+ * 남은 PUA 글자는 뜻을 모르므로 지우지 않고 그대로 둔다. 지우면 무엇이
+ * 있었는지조차 알 수 없게 된다.
+ */
+const GLYPH = new Map([
+  [0xf080f, "─"],
+  [0xf081a, "━"],
+  [0xf0827, "━"],
+]);
+
+function deglyph(s) {
+  if (typeof s !== "string") return s;
+  let out = "";
+  for (const ch of s) out += GLYPH.get(ch.codePointAt(0)) ?? ch;
+  return out;
+}
+
+/*
+ * 회사 로고를 크기로 찾아 표시한다.
+ *
+ * markCoverLogo 는 「첫 표 안의 첫 그림」만 본다. 표지 짜임이 다른
+ * 절차서에서는 놓친다. 실제로 ECT 절차서의 로고가 표시되지 않아
+ * 원본 크기(200x230)로 그려졌다.
+ *
+ * 회사 로고는 어느 절차서에서나 같은 그림이라 크기가 늘 같다.
+ * 짜임을 따지지 말고 크기로 잡는다.
+ */
+const LOGO_W = 200, LOGO_H = 230;
+
+function markLogoBySize(blocks, sizeOf) {
+  (function look(bs) {
+    for (const b of bs) {
+      if (b.t === "img" && b.src) {
+        const d = sizeOf.get(String(b.src).split("/").pop());
+        if (d && d[0] === LOGO_W && d[1] === LOGO_H) b.logo = true;
+      }
+      if (b.t === "table" && b.grid)
+        for (const row of b.grid)
+          for (const c of row) if (c && c !== "covered") look(c.blocks);
+      if (b.blocks) look(b.blocks);
+    }
+  })(blocks);
+  return blocks;
+}
+
 function markCoverLogo(blocks) {
   const first = blocks.find((b) => b.t === "table");
   if (!first) return blocks;
@@ -570,6 +625,8 @@ for (const name of fs.readdirSync(SRC).filter((f) => /\.hwp$/i.test(f))) {
   /* 그림을 내보낸다. 파일 이름은 BinData 번호로 건다 */
   const figures = [];
   const srcOf = new Map();
+  /* 그림마다 픽셀 크기를 적어 둔다. 회사 로고를 크기로 찾을 때 쓴다 */
+  const sizeOf = new Map();
 
   for (const im of doc.images) {
     let data = im.data;
@@ -634,6 +691,7 @@ for (const name of fs.readdirSync(SRC).filter((f) => /\.hwp$/i.test(f))) {
     const fname = `${code}_${im.binId}.${ext}`;
     fs.writeFileSync(path.join(OUT, fname), data);
     srcOf.set(im.binId, fname);
+    sizeOf.set(fname, [w, h]);
     figures.push(fname);
   }
 
@@ -644,7 +702,7 @@ for (const name of fs.readdirSync(SRC).filter((f) => /\.hwp$/i.test(f))) {
     const out = [];
 
     for (const b of blocks) {
-      if (b.t === "p") { out.push(b); continue; }
+      if (b.t === "p") { out.push({ ...b, s: deglyph(b.s) }); continue; }
 
       if (b.t === "img") {
         const src = srcOf.get(b.binId);
@@ -677,7 +735,12 @@ for (const name of fs.readdirSync(SRC).filter((f) => /\.hwp$/i.test(f))) {
   }
 
   let blocks = dropEmptyRows(
-    markStamps(markCoverLogo(dropLooseCoverLogo(markHeadings(convert(doc.blocks)))))
+    markStamps(
+      markLogoBySize(
+        markCoverLogo(dropLooseCoverLogo(markHeadings(convert(doc.blocks)))),
+        sizeOf
+      )
+    )
   );
 
   const ko = readKo(name);

@@ -234,7 +234,7 @@
     "method": "MT",
     "category": "General",
     "source": "MTG-II(A)",
-    "question": "You will magnetize a solid round bar in a coil. The bar is 10 inches in length and 3 inches in diameter. The coil has 5 turns. How many amperes will you use? 45,000 The formula : Ampere turns = 󰠏󰠏󰠏󰠏󰠏󰠏󰠏󰠏󰠏 L/D\n코일 속에서 환붕을 자화시키고 있다. 봉의 길이는 10인치이고 직경은 3인치이다. 코일의 회수 (감은수) 가 5번이라면 얼마의 전류가 필요한가?",
+    "question": "You will magnetize a solid round bar in a coil. The bar is 10 inches in length and 3 inches in diameter. The coil has 5 turns. How many amperes will you use?\nThe formula : Ampere turns = 45,000 / (L/D)\n코일 속에서 환봉을 자화시키고 있다. 봉의 길이는 10인치이고 직경은 3인치이다. 코일의 감은 수가 5회라면 얼마의 전류가 필요한가?\n공식 : 암페어턴 = 45,000 / (L/D)",
     "options": [
       "14000 amp",
       "1500 amp",

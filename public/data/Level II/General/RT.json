@@ -545,7 +545,7 @@
     "method": "RT",
     "category": "General",
     "source": "RTG-II(A)",
-    "question": "The formula (milliamperes X time) ÷ distance2 is: M × T D2\n󰠏󰠏󰠏󰠏󰠏󰠏󰠏󰠏󰠏󰠏 공식은?",
+    "question": "The formula (milliamperes × time) ÷ distance² is: (M × T) / D²\n(M × T) / D² 공식은 무엇인가?",
     "options": [
       "used to calculate film gradient\n필름의 명암도 계산에 사용된다.",
       "the reciprocity law\n역수 법칙",

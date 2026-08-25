@@ -305,10 +305,10 @@
     "source": "RTS-II(2020)(A)",
     "question": "It is necessary to enclose all radioactive isotopes for ( ) reasons.\n방사성 동위원소의 밀봉은 무슨 이유 때문에 필요하다.",
     "options": [
-      "Safety",
-      "Moving",
-      "Working",
-      "Cure"
+      "Safety\n안전",
+      "Moving\n이동",
+      "Working\n작업",
+      "Cure\n치료"
     ],
     "answer": 0
   },
