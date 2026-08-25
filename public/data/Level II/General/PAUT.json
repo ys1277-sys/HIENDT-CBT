@@ -582,5 +582,21 @@
       "Both 1 and 2 are correct\n1과 2가 모두 맞다"
     ],
     "answer": 3
+  },
+  {
+    "id": 40,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "source": "PAUT General - A 20200317",
+    "question": "How many horizontal linearity checks must be run on a Phased-array system prior to use?\n사용하기 전에 PA 시스템에서 몇 가지 수평 직선성 검사를 실행해야 하는가?",
+    "options": [
+      "1",
+      "16",
+      "One for each pulser in the unit\n장치의 각 펄스에 대해 1개씩",
+      "One for each element that can be addressed by the system\n시스템에 의해 설명할 수 있는 각 요소에 대해 1개씩"
+    ],
+    "answer": 0,
+    "note": "원본 40번. 2단으로 짠 보기를 읽지 못해 옮길 때 빠져 있던 것을 되살렸다. 정답은 원본 답지 a 그대로다."
   }
 ]

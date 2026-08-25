@@ -384,5 +384,133 @@
     ],
     "answer": 3,
     "groupNote": "Answer the following questions using the PAUT procedure HIE-NDT-PAUT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-10, 181, 179.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-10·181·179를 반영한 PAUT 절차서(HIE-NDT-PAUT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
+  },
+  {
+    "id": 28,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "Specific",
+    "source": "PAUTSpec-II-A-type(2014)",
+    "question": "For a 7Mhz, 16element probe focused at 25mm what would be the effect on the ultrasonic beam of an increase in element pitch from 0.5mm to 0.7mm?\n7Mhz, 16 element 25mm 집속 프로브 사용에서 0.5mm에서 0.7mm로 소자 간격을 증가에 따른 초음파 빔의 영향은 무엇인가?",
+    "options": [
+      "The near field will decrease\n근거리 음장을 감소한다.",
+      "The focal spot size will increase\n초점 크기가 증가한다.",
+      "The focal spot size will decrease\n초점 크기가 감소한다.",
+      "Grating lobes will be induced\n격자 로브가 유도된다."
+    ],
+    "answer": 2,
+    "note": "원본 3번. 2단으로 짠 보기를 읽지 못해 옮길 때 빠져 있던 것을 되살렸다. 정답은 원본 답지 c 그대로다."
+  },
+  {
+    "id": 29,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "Specific",
+    "source": "PAUTSpec-II-A-type(2014)",
+    "question": "A 1D transducer has elements\n1 방향 탐촉자가 가진 소자는?",
+    "options": [
+      "Has only one crystal, typical of conventional UT\n단지 1개 결정을 가진 전형적인 기존의 UT",
+      "Has an array of elements in the shape of a capital D to give a degree of natural focusing.\n일반적인 포커싱 정도를 주는 D의 형상으로 소자의 배열을 가지고 있다.",
+      "Has multiple elements in one axis and one element in the perpendicular axis.\n하나 축에 여러 개의 소자가 있고 수직축으로 한 개의 소자가 있다.",
+      "All the elements are one dimension to eliminate the likelihood of grating lobes\n모든 소자가 격자 로브의 가능성을 제거하기 위해 하나의 차원에 있다."
+    ],
+    "answer": 2,
+    "note": "원본 4번. 2단으로 짠 보기를 읽지 못해 옮길 때 빠져 있던 것을 되살렸다. 정답은 원본 답지 c 그대로다."
+  },
+  {
+    "id": 30,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "Specific",
+    "source": "PAUTSpec-II-A-type(2014)",
+    "question": "What is a Focal Law as applied to phased array inspection?\nPA 검사에 적용되는 집속 법칙은 무엇인가?",
+    "options": [
+      "A basic ultrasonic phenomenon such as Snell’s Law.\n스넬의 법칙과 같은 기본적인 초음파 현상",
+      "A rule of thumb used by experienced UT operators\n숙련된 UT 검사자에 의해 사용된 경험에 근거한 규칙",
+      "A law that states which elements to excite, when they are excited, how long for; and which will receive ultrasonic echoes.\n소자를 활성화 할 때, 소자 활성화 상태, 걸리는 시간, 그리고 초음파를 받는 것에 대한 법칙",
+      "A law that governs the physics of probe design.\n프로브 설계의 물리적으로 제어하는 법칙."
+    ],
+    "answer": 2,
+    "note": "원본 5번. 2단으로 짠 보기를 읽지 못해 옮길 때 빠져 있던 것을 되살렸다. 정답은 원본 답지 c 그대로다."
+  },
+  {
+    "id": 31,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "Specific",
+    "source": "PAUTSpec-II-A-type(2014)",
+    "question": "What is the correct definition to describe a Phased Array transducer?\nPA 탐촉자를 설명하는 정확한 정의는?",
+    "options": [
+      "A ultrasonic probe with natural focusing and scanning abilities.\n초음파 탐촉자는 고유 집속력과 주사력을 가지고 있다.",
+      "An ultrasonic probe that generates it’s own pulses\n초음파 탐촉자는 자신의 펄스를 발생한다.",
+      "Numerous separate ultrasonic probes that can be individually pulsed to offer electronic scanning, focused beams and angled inspections\n개별적으로 전자 주사, 집속 빔과 각도 제공을 펄스 할 수 있는 수 많이 분활된 초음파 프로브",
+      "An ultrasonic crystal diced into elements that can be individually pulsed to offer electronic scanning, focused beams and angled\n개별적으로 전자 주사, 집속 빔과 각도 제공을 펄스 할 수 있는 소자로 깍여진 초음파 결정"
+    ],
+    "answer": 3,
+    "note": "원본 6번. 2단으로 짠 보기를 읽지 못해 옮길 때 빠져 있던 것을 되살렸다. 정답은 원본 답지 d 그대로다."
+  },
+  {
+    "id": 32,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "Specific",
+    "source": "PAUTSpec-II-A-type(2014)",
+    "question": "Phased array probes mounted on angled wedges\n사각 웻지에 장착된 PA 프로브는",
+    "options": [
+      "Use transverse wave propagation\n횡파 전달에 사용한다.",
+      "Use longitudinal wave propagation\n종파 전달에 사용한다.",
+      "Use modified shear waves.\n전단파 생성에 사용한다.",
+      "A and B are correct\nA와 B가 맞다."
+    ],
+    "answer": 3,
+    "note": "원본 7번. 2단으로 짠 보기를 읽지 못해 옮길 때 빠져 있던 것을 되살렸다. 정답은 원본 답지 d 그대로다."
+  },
+  {
+    "id": 33,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "Specific",
+    "source": "PAUTSpec-II-A-type(2014)",
+    "question": "In PA terminology ‘Pitch’ refers to\nPA 용어에서 ‘Pitch’ 의미는?",
+    "options": [
+      "The angle a wedge is machined to.\n사각 웻지로 가공된 것.",
+      "The protective coating on the face of a transducer.\n탐촉자의 전면에 보호 코팅",
+      "The distance between adjacent elements centres.\n인접한 소자 중심 사이의 거리",
+      "The distance between adjacent elements.\n인접한 소자 사이의 거리"
+    ],
+    "answer": 2,
+    "note": "원본 11번. 2단으로 짠 보기를 읽지 못해 옮길 때 빠져 있던 것을 되살렸다. 정답은 원본 답지 c 그대로다."
+  },
+  {
+    "id": 34,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "Specific",
+    "source": "PAUTSpec-II-A-type(2014)",
+    "question": "Phased array inspection effectively steers ultrasonic beams by\nPA 검사 무엇에 의해 초음파빔을 효율적으로 조정하는가?",
+    "options": [
+      "Novel design of wedge shape and material\n웻지 모양과 재료의 신규 설계",
+      "Pulsing adjacent elements to bend beams to the required direction\n요구되는 방향으로 빔을 구부려 인접한 소자를 펄싱",
+      "Utilising constructive interference to sum and concentrate energy in the required direction.\n요구된 방향으로 에너지는 더하고 집중하는 보강 간섭을 활용",
+      "By using the piezo-electric effect to mechanically alter the direction of propagation.\n기계적으로 전파의 방향을 변경하는 압전효과를 사용"
+    ],
+    "answer": 2,
+    "note": "원본 14번. 2단으로 짠 보기를 읽지 못해 옮길 때 빠져 있던 것을 되살렸다. 정답은 원본 답지 c 그대로다."
+  },
+  {
+    "id": 35,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "Specific",
+    "source": "PAUTSpec-II-A-type(2014)",
+    "question": "In PA terminology ‘Aperture’ refers to\nPA 용어에서 ‘조리개’ 의미는?",
+    "options": [
+      "The area available to site the probe on an component.\n구성요소에 프로브를 위치시킬 수 있는 영역",
+      "The number of elements addressed by a given focal law\n주어진 집속 법칙에 의해 회신되어는 소자의 수",
+      "The length of the transducer in the ‘active’ axis\n순방향축에서 탐촉자의 길이",
+      "The electronic ‘snapshot’ i.e. the area along the path length that data is collected.\n전자 ‘스냅샷’ 즉, 데이터가 수집되는 경로 길이를 따른 영역."
+    ],
+    "answer": 1,
+    "note": "원본 16번. 2단으로 짠 보기를 읽지 못해 옮길 때 빠져 있던 것을 되살렸다. 정답은 원본 답지 b 그대로다."
   }
 ]

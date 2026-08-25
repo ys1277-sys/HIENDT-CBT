@@ -442,5 +442,21 @@
     ],
     "answer": 3,
     "groupNote": "Answer the following questions using the TOFD procedure HIE-NDT-P11 Rev.2, which reflects ASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, and ASME Code Case 2235-9/10.\nASME Sec. Ⅴ Art. 4, ASME Sec. Ⅷ Div. 1 & 2, ASME Code Case 2235-9/10을 반영한 TOFD 절차서(HIE-NDT-P11 Rev.2)를 이용하여 다음 물음에 답하시오."
+  },
+  {
+    "id": 33,
+    "level": "Level II",
+    "method": "TOFD",
+    "category": "Specific",
+    "source": "TOFDSpec-II-A-type(2014)",
+    "question": "What is NOT a recommended requirement of probes used for TOFD?\nTOFD에 사용되는 프로브의 권장 요구 사항이 아닌 것은?",
+    "options": [
+      "Matched size/frequency (and usually angle) for Tx/Rx\n송수신 탐촉자의 크기/주파수(각도)가 일치해야한다.",
+      "Wide divergence\n넓은 빔퍼짐",
+      "highly damped (broadband)\n높은 감쇠(광대역)",
+      "Built-in electrical impedance matching circuits\n내장된 전기 임피던스 정합회로"
+    ],
+    "answer": 3,
+    "note": "원본 14번. 2단으로 짠 보기를 읽지 못해 옮길 때 빠져 있던 것을 되살렸다. 정답은 원본 답지 d 그대로다."
   }
 ]
