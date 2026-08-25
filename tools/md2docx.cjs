@@ -8,12 +8,14 @@
  * 옮기는 것
  *   # ## ###   제목
  *   | … |      표 (머리줄 굵게, 칸 너비를 글자 수에 맞춰 나눔)
- *   > …        인용 (왼쪽에 세로줄)
+ *   > …        인용 (왼쪽에 세로줄). 빈 > 줄로 문단을 나눈다
  *   ```…```    글자 그대로 (고정폭)
  *   1. / -     번호 목록, 글머리표
  *   **굵게**   굵게
  *   `코드`     고정폭
  *   ---        쪽 나눔
+ *   <br>       줄바꿈
+ *   &nbsp;     줄바꿈 없는 빈칸
  */
 const fs = require("fs");
 const path = require("path");
@@ -31,62 +33,99 @@ const BODY_W = PAGE_W - MARGIN * 2;
 const FONT = "맑은 고딕";
 const MONO = "D2Coding";
 
+/*
+ * HTML 기호를 글자로 되돌린다.
+ *
+ * Markdown 표는 칸 안에서 줄을 바꾸거나 사이를 벌릴 방법이 없어 &nbsp; 와
+ * <br> 을 쓴다. 그대로 두면 Word 에 "&nbsp;" 라는 글자가 그대로 찍힌다.
+ * &nbsp; 는 줄바꿈 없는 빈칸(U+00A0)으로 바꾼다.
+ */
+function unesc(s) {
+  return String(s == null ? "" : s)
+    .replace(/&nbsp;/g, " ")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&amp;/g, "&");
+}
+
+/* <br> 로 나뉜 줄들 */
+function brLines(s) {
+  return unesc(s).split(/<br\s*\/?>/i).map((x) => x.trim());
+}
+
 /* ---- 줄 안의 꾸밈 (**굵게**, `코드`) ---- */
 
-function runs(text, opt = {}) {
+function runs(raw, opt) {
+  const o = opt || {};
+  const text = unesc(raw);
   const out = [];
+
+  const push = (s, kind) => {
+    if (!s) return;
+    out.push(new TextRun({
+      text: s,
+      font: kind === "mono" ? MONO : FONT,
+      size: o.size || 20,
+      bold: kind === "bold" || o.bold || false,
+      color: o.color,
+    }));
+  };
+
   const re = /(\*\*[^*]+\*\*|`[^`]+`)/g;
   let last = 0;
   let m;
 
-  const push = (s, extra) => {
-    if (!s) return;
-    out.push(new TextRun({
-      text: s,
-      font: extra && extra.mono ? MONO : FONT,
-      size: opt.size || 20,
-      bold: (extra && extra.bold) || opt.bold || false,
-      color: opt.color,
-    }));
-  };
-
   while ((m = re.exec(text)) !== null) {
     push(text.slice(last, m.index));
     const t = m[0];
-    if (t.startsWith("**")) push(t.slice(2, -2), { bold: true });
-    else push(t.slice(1, -1), { mono: true });
+    if (t.startsWith("**")) push(t.slice(2, -2), "bold");
+    else push(t.slice(1, -1), "mono");
     last = m.index + t.length;
   }
   push(text.slice(last));
 
-  return out.length ? out : [new TextRun({ text: "", font: FONT, size: opt.size || 20 })];
+  return out.length ? out : [new TextRun({ text: "", font: FONT, size: o.size || 20 })];
 }
 
-/* 표 칸 안에서는 <br> 을 줄바꿈으로 본다 */
-function cellParas(text) {
-  return String(text).split(/<br\s*\/?>/i).map((line) =>
-    new Paragraph({ children: runs(line.trim(), { size: 18 }), spacing: { before: 20, after: 20 } })
+/*
+ * 표 칸. <br> 이 있으면 줄을 나눈다.
+ *
+ * 예전에는 본문 칸만 나누고 머리줄은 안 나눠, 머리줄에 "<br>" 이 글자로
+ * 찍혔다 ("시각<br>(시작 ~ 종료)").
+ */
+function cellParas(text, opt) {
+  const o = opt || {};
+  return brLines(text).map((line) =>
+    new Paragraph({
+      children: runs(line, { size: 18, bold: o.bold }),
+      spacing: { before: 20, after: 20 },
+    })
   );
 }
 
 /* ---- 표 ---- */
 
 function makeTable(rows) {
-  const head = rows[0];
-  const cols = head.length;
+  const cols = rows[0].length;
 
   /* 칸 너비를 글자 수에 맞춰 나눈다. 너무 좁아지지 않게 최소치를 둔다 */
-  const weight = head.map((_, i) => {
+  const weight = rows[0].map((_, i) => {
     let w = 0;
-    for (const r of rows) w = Math.max(w, String(r[i] || "").replace(/<br\s*\/?>/gi, " ").length);
+    for (const r of rows) {
+      const longest = brLines(r[i] || "").reduce((a, x) => Math.max(a, x.length), 0);
+      w = Math.max(w, longest);
+    }
     return Math.max(4, Math.min(w, 40));
   });
+
   const total = weight.reduce((a, b) => a + b, 0);
   const widths = weight.map((w) => Math.floor((BODY_W * w) / total));
   widths[cols - 1] = BODY_W - widths.slice(0, -1).reduce((a, b) => a + b, 0);
 
-  const border = { style: BorderStyle.SINGLE, size: 4, color: "999999" };
-  const borders = { top: border, bottom: border, left: border, right: border };
+  const line = { style: BorderStyle.SINGLE, size: 4, color: "999999" };
+  const borders = { top: line, bottom: line, left: line, right: line };
 
   const trs = rows.map((cells, ri) =>
     new TableRow({
@@ -97,9 +136,7 @@ function makeTable(rows) {
           borders,
           shading: ri === 0 ? { type: ShadingType.CLEAR, fill: "EFEFEF" } : undefined,
           margins: { top: 60, bottom: 60, left: 90, right: 90 },
-          children: ri === 0
-            ? [new Paragraph({ children: runs(String(cells[ci] || ""), { size: 18, bold: true }) })]
-            : cellParas(cells[ci] || ""),
+          children: cellParas(cells[ci], { bold: ri === 0 }),
         })
       ),
     })
@@ -155,7 +192,7 @@ function convert(md) {
       i++;
       for (const s of buf) {
         out.push(new Paragraph({
-          children: [new TextRun({ text: s || " ", font: MONO, size: 16 })],
+          children: [new TextRun({ text: unesc(s) || " ", font: MONO, size: 16 })],
           spacing: { before: 0, after: 0 },
           shading: { type: ShadingType.CLEAR, fill: "F5F5F5" },
         }));
@@ -174,19 +211,46 @@ function convert(md) {
       continue;
     }
 
-    /* 인용 */
+    /*
+     * 인용.
+     *
+     * 빈 "> " 줄이 문단을 나눈다. 예전에는 전부 한 줄로 이어 붙여
+     * "이 규칙에 대하여 이 규칙은 …" 처럼 제목과 본문이 붙어 버렸다.
+     */
     if (/^>\s?/.test(line)) {
-      const buf = [];
-      while (i < lines.length && /^>\s?/.test(lines[i])) buf.push(lines[i++].replace(/^>\s?/, ""));
-      const text = buf.join(" ").replace(/\s+/g, " ").trim();
-      if (text) {
-        out.push(new Paragraph({
-          children: runs(text, { size: 18, color: "444444" }),
-          indent: { left: 240 },
-          border: { left: { style: BorderStyle.SINGLE, size: 12, color: "003B73", space: 8 } },
-          spacing: { before: 80, after: 160 },
-        }));
+      const raw = [];
+      while (i < lines.length && /^>/.test(lines[i])) {
+        raw.push(lines[i].replace(/^>\s?/, ""));
+        i++;
       }
+
+      const paras = [];
+      let cur = [];
+      for (const s of raw) {
+        if (!s.trim()) { if (cur.length) { paras.push(cur); cur = []; } }
+        else cur.push(s);
+      }
+      if (cur.length) paras.push(cur);
+
+      const border = {
+        left: { style: BorderStyle.SINGLE, size: 12, color: "003B73", space: 8 },
+      };
+
+      paras.forEach((p, k) => {
+        const text = p.join(" ").replace(/\s+/g, " ").trim();
+        for (const sub of brLines(text)) {
+          out.push(new Paragraph({
+            children: runs(sub, { size: 18, color: "444444" }),
+            indent: { left: 240 },
+            border,
+            spacing: {
+              before: k === 0 ? 80 : 40,
+              after: k === paras.length - 1 ? 160 : 40,
+              line: 280,
+            },
+          }));
+        }
+      });
       continue;
     }
 
@@ -219,11 +283,15 @@ function convert(md) {
       !/^[#>|`-]/.test(lines[i]) && !/^\s*(\d+\.|[-*])\s/.test(lines[i])
     ) buf.push(lines[i++]);
 
-    out.push(new Paragraph({
-      children: runs(buf.join(" ").replace(/\s+/g, " ").trim()),
-      spacing: { before: 60, after: 60, line: 300 },
-      alignment: AlignmentType.JUSTIFIED,
-    }));
+    const body = buf.join(" ").replace(/\s+/g, " ").trim();
+
+    for (const sub of brLines(body)) {
+      out.push(new Paragraph({
+        children: runs(sub),
+        spacing: { before: 60, after: 60, line: 300 },
+        alignment: AlignmentType.JUSTIFIED,
+      }));
+    }
   }
 
   return out;
@@ -242,11 +310,7 @@ if (!files.length) {
     const md = fs.readFileSync(f, "utf8");
 
     const doc = new Document({
-      styles: {
-        default: {
-          document: { run: { font: FONT, size: 20 } },
-        },
-      },
+      styles: { default: { document: { run: { font: FONT, size: 20 } } } },
       sections: [{
         properties: {
           page: { margin: { top: MARGIN, bottom: MARGIN, left: MARGIN, right: MARGIN } },
