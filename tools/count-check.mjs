@@ -56,4 +56,37 @@ for (const m of Object.keys(NEED)) {
   }
 }
 
+/*
+ * Level Ⅲ — E01 7.3.4. 시험구분이 없어 종목이 곧 열쇠다.
+ * 전문시험(20)은 아직 CBT 에 없다. 종이로 시행한다 (E02 5.2.3).
+ */
+const NEED3 = { Basic: 55, RT: 65, UT: 65, MT: 65, PT: 65, VT: 65 };
+
+const bank3 = (m) => {
+  const p = `public/data/Level III/${m}.json`;
+  if (!fs.existsSync(p)) return null;
+  return JSON.parse(fs.readFileSync(p, "utf8")).flat(Infinity).length;
+};
+
+console.log("\n종목   구분        규정   은행   뽑는수   실제출제   판정");
+
+for (const m of Object.keys(NEED3)) {
+  const n = bank3(m);
+  if (n === null) continue;
+
+  const need = NEED3[m];
+  const want = questionCount("Level III", null, m);
+  const real = want === null ? n : Math.min(want, n);
+
+  const ok = real >= need;
+  if (!ok) short++;
+
+  console.log(
+    m.padEnd(6) + (m === "Basic" ? "기초" : "종목").padEnd(10) +
+    String(need).padStart(4) + String(n).padStart(7) +
+    String(want ?? "전체").padStart(9) + String(real).padStart(11) +
+    "   " + (ok ? "충족" : `★ ${need - real}문항 모자람`)
+  );
+}
+
 console.log(short ? `\n모자란 시험 ${short}개 — 문항을 보충해야 한다` : "\n모든 시험이 표 3 을 채운다");

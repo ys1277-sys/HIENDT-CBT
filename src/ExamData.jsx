@@ -27,8 +27,21 @@ export const QUESTION_COUNT = {
     },
   },
 
-  // Level III 는 은행 전체를 출제한다 (뽑지 않고 순서만 섞는다)
-  "Level III": null,
+  /*
+   * Level III 는 시험구분(일반/전문)이 없고 종목이 곧 열쇠다.
+   * 수는 E01 7.3.4 를 따른다 — 기초 55, 종목 65.
+   *
+   * 예전에는 null 이라 은행 전체가 나갔다. 그런데 종목 은행에 100문항
+   * 넘게 들어 있어서 실제로는 104문항짜리 시험이 되었다. E01 7.3.4 d)
+   * 가 시험시간을 2시간으로 못 박고 있어 문항당 69초가 된다. 규정대로
+   * 65문항을 뽑는다.
+   *
+   * 전문시험은 아직 CBT 에 없다. 종이로 시행한다 (E02 5.2.3).
+   */
+  "Level III": {
+    Basic: 55,
+    RT: 65, UT: 65, MT: 65, PT: 65, VT: 65,
+  },
 };
 
 /*
@@ -40,7 +53,10 @@ export function questionCount(level, subject, method) {
   const conf = QUESTION_COUNT[level];
 
   if (typeof conf === "number") return conf;
-  if (!conf || !subject) return null;
+  if (!conf) return null;
+
+  /* Level III 는 시험구분이 없어 종목으로 바로 찾는다 */
+  if (!subject) return (method && conf[method]) || null;
 
   const bySubject = conf[subject];
 
