@@ -399,10 +399,23 @@ export function buildHistory(records, people = [], today = new Date()) {
 
       const judged = judgeUnit(level, picked);
 
-      /* 인증일자는 명부가 우선이다. 없으면 필기를 다 채운 날로 어림한다 */
+      /*
+       * 인증일자는 명부가 우선이다. 없으면 필기를 다 채운 날로 어림한다.
+       *
+       * 한 사람이 등급마다 다른 종목을 갖는다. Level Ⅲ 는 ET 만,
+       * Level Ⅱ 는 UT·PAUT·TOFD 인 식이다. 종목만으로 찾으면 그 둘이
+       * 같은 날로 뭉뚱그려진다. 등급까지 붙인 칸을 먼저 본다.
+       *
+       *   certifiedAt:Level III/ET   등급 + 종목
+       *   certifiedAt:ET             종목만
+       *   certifiedAt                그 사람의 기본값
+       */
       const p = entry.person || {};
       const certifiedAt =
-        toDate(p[`certifiedAt:${method}`]) || toDate(p.certifiedAt) || judged.passedAt;
+        toDate(p[`certifiedAt:${level}/${method}`]) ||
+        toDate(p[`certifiedAt:${method}`]) ||
+        toDate(p.certifiedAt) ||
+        judged.passedAt;
 
       const expiry = certExpiry(level, certifiedAt);
 
@@ -416,9 +429,12 @@ export function buildHistory(records, people = [], today = new Date()) {
         method,
         ...judged,
         certifiedAt,
-        certifiedFrom: toDate(p[`certifiedAt:${method}`]) || toDate(p.certifiedAt)
-          ? "명부"
-          : judged.passedAt ? "필기 완료일(어림)" : "",
+        certifiedFrom:
+          toDate(p[`certifiedAt:${level}/${method}`]) ||
+          toDate(p[`certifiedAt:${method}`]) ||
+          toDate(p.certifiedAt)
+            ? "명부"
+            : judged.passedAt ? "필기 완료일(어림)" : "",
         expiry,
         expiryState: expiryState(expiry, today),
         daysLeft: daysLeft(expiry, today),

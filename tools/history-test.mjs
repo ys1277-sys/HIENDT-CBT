@@ -247,7 +247,37 @@ eq(명단[0].daysLeft, "35", "남은 날수");
 const 명단2 = expiringSoon(h, 오늘);
 eq(명단2.length, "0", "불합격·미완은 만료 명단에 없다");
 
-console.log(
-  `\n${"-".repeat(56)}\n확인 ${pass + fail}건 · 통과 ${pass} · 실패 ${fail}\n`
-);
+
+/* ── 등급마다 다른 종목을 갖는 사람 ─────────── */
+section("인증일자 — 등급 + 종목 칸이 우선");
+
+{
+  /* 이주경 꼴 — Level Ⅲ 는 ET, Level Ⅱ 는 UT */
+  const recs = [
+    { name: "이주경", level: "Level III", method: "Basic", score: 90, startedAt: "2026-01-05" },
+    { name: "이주경", level: "Level III", method: "ET", score: 90, startedAt: "2026-01-10" },
+    { name: "이주경", level: "Level II", method: "UT", subject: "General", score: 85, startedAt: "2026-02-01" },
+    { name: "이주경", level: "Level II", method: "UT", subject: "Specific", score: 90, startedAt: "2026-02-01" },
+  ];
+  const 명부 = [{
+    name: "이주경",
+    certifiedAt: "2020-01-01",
+    "certifiedAt:ET": "2021-01-29",
+    "certifiedAt:Level II/UT": "2018-06-09",
+    "certifiedAt:Level III/ET": "2021-01-29",
+  }];
+
+  const h = buildHistory(recs, 명부, 오늘);
+  const 이 = h[0];
+  const ut = 이.units.find(u => u.method === "UT");
+  const et = 이.units.find(u => u.method === "ET");
+
+  eq(ut.certifiedAt, "2018-06-09", "Level Ⅱ UT 는 등급까지 맞는 칸을 쓴다");
+  eq(ut.expiry, "2021-06-30", "Level Ⅱ 3년");
+  eq(et.certifiedAt, "2021-01-29", "Level Ⅲ ET");
+  eq(et.expiry, "2026-01-31", "Level Ⅲ 5년");
+  eq(ut.certifiedFrom, "명부", "출처는 명부");
+}
+
+console.log(`\n${"-".repeat(56)}\n확인 ${pass + fail}건 · 통과 ${pass} · 실패 ${fail}\n`);
 process.exit(fail ? 1 : 0);

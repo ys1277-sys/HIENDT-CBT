@@ -50,6 +50,8 @@ var SHEETS = {
       "갱신시각",
       /* 아래는 사람이 채운다 */
       "회차번호", "채점장소", "확인자", "승인자", "승인일자", "비고",
+      /* 만들어진 서식 문서 */
+      "서식문서",
     ],
     keyCol: "회차키",
     /* CBT 가 채우는 칸. 나머지는 손대지 않는다 */
@@ -365,6 +367,7 @@ function doGet(e) {
   /* 시트를 실수로 지웠거나 머리행을 바꿨을 때 다시 훑는다 */
   if (todo === "setup") return json({ ok: true, message: setup() });
   if (todo === "migrate") return json(migrate(e.parameter.from));
+  if (todo === "report") return json(makeReports(e.parameter.session));
 
   ensureAll(false);
 
