@@ -159,6 +159,27 @@ function Result({
       timestamp: now.toISOString(),
 
 
+      /*
+       * 응시 시작·종료 시각.
+       *
+       * E02 7.7.7 이 "관리자 화면에서 응시 시작과 종료 시각을 확인할 수
+       * 있다" 고 못 박고 있는데, 여태 기록에 담기지 않아 확인할 방법이
+       * 없었다. timestamp 는 결과지가 뜬 시각이라 시험을 언제 시작했는지
+       * 알려 주지 못한다.
+       *
+       * 시작은 문항이 화면에 뜬 때, 종료는 제출을 누른 때다 (Quiz.jsx).
+       * 소요 시간은 E01 이 정한 2시간을 넘겼는지 보는 데 쓴다.
+       */
+      startedAt: startedAt ? startedAt.toISOString() : "",
+
+      finishedAt: finishedAt ? finishedAt.toISOString() : "",
+
+      durationSec:
+        startedAt && finishedAt
+          ? Math.round((finishedAt - startedAt) / 1000)
+          : "",
+
+
       questions,
 
       answers

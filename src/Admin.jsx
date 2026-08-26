@@ -2,6 +2,52 @@ import React, { useEffect, useState } from "react";
 import PrintAdminExam from "./PrintAdminExam.jsx";
 import { openPaper } from "./paperPreview.js";
 
+/*
+ * 응시 시작 ~ 종료를 한 칸에 적는다.
+ *
+ * 같은 날 안에서 끝나는 것이 보통이므로 날짜는 한 번만 쓴다.
+ * 기록에 startedAt 이 없는 옛 응시분은 저장 시각(date)이라도 보여 준다.
+ */
+function two(n) {
+  return String(n).padStart(2, "0");
+}
+
+function examSpan(r) {
+  const s = r.startedAt ? new Date(r.startedAt) : null;
+  const f = r.finishedAt ? new Date(r.finishedAt) : null;
+
+  if (!s || Number.isNaN(s.getTime())) {
+    /* 시작 시각을 안 남기던 때의 기록 */
+    return r.date ? String(r.date) + "  (저장 시각)" : "—";
+  }
+
+  const day = `${s.getFullYear()}-${two(s.getMonth() + 1)}-${two(s.getDate())}`;
+  const from = `${two(s.getHours())}:${two(s.getMinutes())}`;
+
+  if (!f || Number.isNaN(f.getTime())) return `${day} ${from} ~`;
+
+  const to = `${two(f.getHours())}:${two(f.getMinutes())}`;
+  const sameDay = s.toDateString() === f.toDateString();
+
+  return sameDay
+    ? `${day} ${from} ~ ${to}`
+    : `${day} ${from} ~ ${two(f.getMonth() + 1)}-${two(f.getDate())} ${to}`;
+}
+
+/*
+ * 소요 시간. E01 은 필기시험을 2시간 이내로 정한다 (7.3.3, 7.3.4).
+ * 넘긴 것은 눈에 띄게 별을 붙인다.
+ */
+function duration(r) {
+  const sec = Number(r.durationSec);
+  if (!Number.isFinite(sec) || sec <= 0) return "—";
+
+  const m = Math.round(sec / 60);
+  const text = m >= 60 ? `${Math.floor(m / 60)}시간 ${m % 60}분` : `${m}분`;
+
+  return m > 120 ? text + " ★" : text;
+}
+
 function Admin({ onBack }) {
   console.log("Admin 실행됨");
 
@@ -193,9 +239,15 @@ function Admin({ onBack }) {
           gap: 10px;
         }
 
+        /*
+         * 한 줄에 담는 값은 E02 7.7.7 이 정한 것이다 —
+         * 이름·등급·종목·구분, 응시 시작과 종료 시각, 점수와 정답 문항 수.
+         * 문항별 응답 내역은 「결과지 출력」으로 본다.
+         */
         .admin-result {
           display: grid;
-          grid-template-columns: 1.2fr 0.7fr 0.9fr 1fr 0.6fr 0.7fr auto;
+          grid-template-columns:
+            1fr 0.66fr 0.7fr 0.8fr 1.7fr 0.62fr 0.7fr 0.55fr 0.62fr auto;
           align-items: center;
           gap: 10px;
           padding: 12px 16px;
@@ -208,6 +260,37 @@ function Admin({ onBack }) {
         .admin-result > div {
           overflow-wrap: break-word;
           font-size: 14px;
+        }
+
+        /* 머리행. 어느 칸이 무슨 값인지 없이는 읽히지 않는다 */
+        .admin-result.is-head {
+          padding: 8px 16px;
+          background: #f1f3f6;
+          border-color: #dcdfe4;
+          box-shadow: none;
+        }
+
+        .admin-result.is-head > div {
+          font-size: 12px;
+          font-weight: 700;
+          color: #55606b;
+        }
+
+        /* 시각·소요시간은 숫자가 줄 맞아야 읽기 쉽다 */
+        .admin-result .num {
+          font-variant-numeric: tabular-nums;
+          font-size: 13px;
+          color: #55606b;
+        }
+
+        .admin-result .fail {
+          color: #c0392b;
+          font-weight: 700;
+        }
+
+        .admin-result .pass {
+          color: #1c7a4a;
+          font-weight: 700;
         }
 
         .admin-result button {
@@ -290,22 +373,50 @@ function Admin({ onBack }) {
             {filteredResults.length === 0 ? (
               <div>검색 결과가 없습니다.</div>
             ) : (
-              filteredResults.map((r, index) => (
-                <div key={r.id || index} className="admin-result">
-                  <div>{r.name || ""}</div>
-                  <div>{r.level || ""}</div>
-                  <div>{r.method || ""}</div>
-                  <div>{r.subject || ""}</div>
-                  <div>{r.score || ""}</div>
-                  <div>
-                    {r.result ||
-                      (Number(r.score || 0) >= 70 ? "PASS" : "FAIL")}
-                  </div>
-                  <button type="button" onClick={() => printExam(r)}>
-                    정답지 출력
-                  </button>
+              <>
+                <div className="admin-result is-head">
+                  <div>이름</div>
+                  <div>등급</div>
+                  <div>종목</div>
+                  <div>구분</div>
+                  <div>응시 시작 ~ 종료</div>
+                  <div>소요</div>
+                  <div>정답</div>
+                  <div>점수</div>
+                  <div>결과</div>
+                  <div />
                 </div>
-              ))
+
+                {filteredResults.map((r, index) => {
+                  const pass =
+                    r.result
+                      ? /합격|PASS/i.test(r.result) && !/불합격|FAIL/i.test(r.result)
+                      : Number(r.score || 0) >= 70;
+
+                  return (
+                    <div key={r.id || index} className="admin-result">
+                      <div>{r.name || ""}</div>
+                      <div>{r.level || ""}</div>
+                      <div>{r.method || ""}</div>
+                      <div>{r.subject || ""}</div>
+                      <div className="num">{examSpan(r)}</div>
+                      <div className="num">{duration(r)}</div>
+                      <div className="num">
+                        {r.correct === undefined || r.correct === ""
+                          ? "—"
+                          : `${r.correct} / ${r.total || "?"}`}
+                      </div>
+                      <div className="num">{r.score === undefined ? "" : r.score}</div>
+                      <div className={pass ? "pass" : "fail"}>
+                        {r.result || (pass ? "합격" : "불합격")}
+                      </div>
+                      <button type="button" onClick={() => printExam(r)}>
+                        결과지 출력
+                      </button>
+                    </div>
+                  );
+                })}
+              </>
             )}
           </div>
         )}
