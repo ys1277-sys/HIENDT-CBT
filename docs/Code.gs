@@ -11,8 +11,12 @@
  *
  * 쓰는 법
  *   1) 스프레드시트 → 확장 프로그램 → Apps Script → 이 파일을 통째로 붙여넣기
- *   2) 함수 목록에서 setup 을 골라 한 번 실행 (시트와 머리행을 만든다)
+ *   2) Ctrl+S 로 저장
  *   3) 배포 → 배포 관리 → 기존 배포 편집 → 새 버전  (주소가 유지된다)
+ *
+ * 시트는 저절로 만들어진다. 첫 요청이 들어올 때 한 번 훑어 없는 시트를
+ * 만들고 빠진 머리행을 붙인다. 편집기에서 setup 을 눌러 미리 만들어
+ * 두어도 되고, 배포 주소에 ?do=setup 을 붙여 열어도 된다.
  *
  * 주고받는 것
  *   POST {type:"exam", …}                응시 결과 한 건
@@ -141,6 +145,26 @@ var MANUAL = [
    한 번 실행 — 시트와 머리행 만들기
    ───────────────────────────────────────────── */
 
+/*
+ * 시트가 갖춰졌는지 한 번만 훑는다.
+ *
+ * 처음에는 편집기에서 setup 을 눌러 만들게 했는데, 붙여넣고 저장하기
+ * 전에는 함수 목록이 갱신되지 않아 setup 이 안 보인다. 사람 손을 타는
+ * 단계는 빼는 편이 낫다. 첫 요청 때 저절로 만든다.
+ *
+ * 요청마다 시트 열둘을 훑으면 느리니 한 번 훑은 뒤에는 표시를 남긴다.
+ * 시트를 실수로 지웠을 때를 위해 ?do=setup 으로 다시 훑을 수 있다.
+ */
+var READY_KEY = "store_ready_v1";
+
+function ensureAll(force) {
+  var props = PropertiesService.getScriptProperties();
+  if (!force && props.getProperty(READY_KEY)) return;
+
+  setup();
+  props.setProperty(READY_KEY, "1");
+}
+
 function setup() {
   var made = [];
 
@@ -196,6 +220,8 @@ function ensure(name, head) {
 
 function doPost(e) {
   try {
+    ensureAll(false);
+
     var body = JSON.parse(e.postData.contents);
 
     if (body.type === "sync") return json(sync(body));
@@ -332,6 +358,13 @@ function sync(body) {
    ───────────────────────────────────────────── */
 
 function doGet(e) {
+  var todo = (e && e.parameter && e.parameter.do) || "";
+
+  /* 시트를 실수로 지웠거나 머리행을 바꿨을 때 다시 훑는다 */
+  if (todo === "setup") return json({ ok: true, message: setupAndFlag() });
+
+  ensureAll(false);
+
   var which = (e && e.parameter && e.parameter.sheet) || "";
 
   if (which === "people") return json(readSheet(SHEETS.people.name, false));
@@ -343,6 +376,12 @@ function doGet(e) {
   }
 
   return json(readSheet(SHEETS.exam.name, true));
+}
+
+function setupAndFlag() {
+  var msg = setup();
+  PropertiesService.getScriptProperties().setProperty(READY_KEY, "1");
+  return msg;
 }
 
 function sheetList() {

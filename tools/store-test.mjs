@@ -67,6 +67,14 @@ globalThis.ContentService = {
 };
 globalThis.Logger = { log: () => {} };
 
+const props = new Map();
+globalThis.PropertiesService = {
+  getScriptProperties: () => ({
+    getProperty: k => (props.has(k) ? props.get(k) : null),
+    setProperty: (k, v) => props.set(k, v),
+  }),
+};
+
 /* ── 스크립트 싣기 ─────────────────────────── */
 const src = fs.readFileSync(new URL("../docs/Code.gs", import.meta.url), "utf8");
 new Function(src + "\nglobalThis.__gs = {setup, doPost, doGet, sheetList};")();
@@ -75,9 +83,18 @@ const gs = globalThis.__gs;
 const post = o => JSON.parse(gs.doPost({ postData: { contents: JSON.stringify(o) } }));
 const get = q => JSON.parse(gs.doGet({ parameter: q || {} }));
 
-/* ── 1. setup ──────────────────────────────── */
-console.log("[setup] " + gs.setup());
-console.log("  시트 " + sheets.size + "개\n");
+/* ── 1. setup 을 안 눌러도 저절로 만들어지는가 ── */
+console.log("[setup 을 누르지 않고 첫 요청]");
+console.log("  요청 전   시트 " + sheets.size + "개");
+get();
+console.log("  GET 뒤    시트 " + sheets.size + "개");
+console.log("  " + [...sheets.keys()].join(", "));
+
+/* 두 번째 요청은 다시 훑지 않아야 한다 */
+const before = sheets.size;
+get();
+console.log("  두 번째 GET 뒤 시트 " + sheets.size + "개" +
+            (sheets.size === before ? " — 다시 훑지 않음" : " — 또 훑었다") + "\n");
 
 /* ── 2. 응시 결과 세 건 (같은 회차 둘 + 다른 회차 하나) ── */
 const exam = (name, method, subject, score, day) => ({
