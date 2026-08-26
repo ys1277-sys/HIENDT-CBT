@@ -633,7 +633,8 @@
       "The strength of the magnetic field at the surfaces of the 2 inch bar will be\napproximately four times that of the 1 inch bar\n2인치 봉 표면의 자장 세기가 1인치 봉의 약 4배가 된다",
       "The strength of the magnetic field at the surfaces of the 1 inch bar will be\none-half that of the 1 inch bar\n1인치 봉 표면의 자장 세기가 1인치 봉의 절반이 된다"
     ],
-    "answer": 2
+    "answer": 2,
+    "note": "원본 시험지(MTM-III.HWP 17번)의 d 보기가 「the 1 inch bar will be one-half that of the 1 inch bar」로 되어 있다 — 1인치를 1인치와 견주는 말이 안 되는 문장이다. 2 inch bar 의 오기로 보이나 원본대로 두었다. 정답은 3번이라 채점에는 영향이 없다. 해당 종목 NDE Level Ⅲ 확인 필요."
   },
   {
     "id": 48,
