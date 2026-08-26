@@ -570,3 +570,78 @@ export function buildSessions(records, people = []) {
   out.sort((a, b) => (b.date ? b.date.getTime() : 0) - (a.date ? a.date.getTime() : 0));
   return out;
 }
+
+/*
+ * 시력검사 만료 예정자 (E03-04 의 2번 표).
+ *
+ * 자격이 유효해도 시력검사가 만료되면 검사업무를 볼 수 없다 (E01 7.3.2).
+ * 자격 만료와 따로 관리해야 하므로 따로 추린다.
+ */
+export function eyeExpiringSoon(history, today = new Date()) {
+  const rows = [];
+
+  for (const person of history) {
+    if (!person.eyeExamDate) continue;
+    if (person.eyeState !== "warn" && person.eyeState !== "expired") continue;
+
+    rows.push({
+      name: person.name,
+      empNo: (person.person && person.person.empNo) || "",
+      dept: person.dept,
+      examDate: person.eyeExamDate,
+      expiry: person.eyeExpiry,
+      daysLeft: daysLeft(person.eyeExpiry, today),
+      state: person.eyeState,
+    });
+  }
+
+  rows.sort((a, b) => (a.daysLeft ?? 0) - (b.daysLeft ?? 0));
+  return rows;
+}
+
+/*
+ * 자격증 발급대장에 오를 줄 (E03-01).
+ *
+ * 자격증은 필기만으로 나가지 않는다. 실기시험과 대표 NDE Level Ⅲ 의
+ * 승인이 있어야 한다 (E01 7.3.1, E02 7.9.2). 그래서 여기 담는 것은
+ * "발급 대상 후보" 다 — 필기를 통과하고 인증일자가 잡힌 자격.
+ *
+ * 발급일자와 수령확인은 비운다. 실제로 발급한 날을 시스템이 알 수 없다.
+ */
+export function certLogRows(history) {
+  const rows = [];
+
+  for (const person of history) {
+    for (const u of person.units) {
+      if (u.verdict !== "pass") continue;
+      if (!u.certifiedAt) continue;
+
+      rows.push({
+        name: person.name,
+        empNo: (person.person && person.person.empNo) || "",
+        dept: person.dept,
+        level: u.level,
+        method: u.method,
+        certifiedAt: u.certifiedAt,
+        expiry: u.expiry,
+        /* 명부에서 얻지 못해 필기 완료일로 어림한 것은 밝혀 둔다 */
+        guessed: u.certifiedFrom !== "명부",
+        /*
+         * TOFD · PAUT 는 UT Level Ⅱ 가 인증되어 있어야 발행한다.
+         * UT 가 종료·만료되면 함께 효력을 잃는다 (E03 5.1.5).
+         */
+        needsUT: /^(TOFD|PAUT|FMC)$/i.test(u.method),
+        utOk: person.units.some(
+          v => v.method === "UT" && v.level === u.level && v.verdict === "pass"
+        ),
+      });
+    }
+  }
+
+  rows.sort((a, b) => {
+    const d = (a.certifiedAt?.getTime() ?? 0) - (b.certifiedAt?.getTime() ?? 0);
+    return d || a.name.localeCompare(b.name, "ko");
+  });
+
+  return rows;
+}

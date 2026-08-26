@@ -1710,3 +1710,120 @@ body.paper-preview .print-area {
   border-left: 0.8mm solid #999;
   background: #f6f6f6;
 }
+
+/* ---------------------------------------------------------
+   E03 서식 — 발급대장 · 만료 예정자 명단
+
+   머리·꼬리는 위의 .rp-* 를 그대로 쓴다.
+
+   칸 너비는 서식마다 따로 잡는다. 처음에는 w-dept, w-date 같은 이름을
+   셋이 나눠 썼는데, 칸 수가 다르니(8 · 11 · 12) 합이 종이를 넘어
+   표가 오른쪽으로 삐져나갔다. 내용 폭은 190mm - 좌우 12mm = 166mm 다.
+   --------------------------------------------------------- */
+
+/* 만료 예정자 명단 (E03-04) — 열한 칸, 합 166mm */
+.rp-sched th,
+.rp-sched td {
+  padding: 1mm 1.2mm;
+  font-size: 7.5pt;
+}
+
+.rp-sched .c1 { width: 8mm; }    /* NO */
+.rp-sched .c2 { width: 16mm; }   /* 성명 */
+.rp-sched .c3 { width: 16mm; }   /* 사번 */
+.rp-sched .c4 { width: 16mm; }   /* 소속 */
+.rp-sched .c5 { width: 10mm; }   /* 등급 */
+.rp-sched .c6 { width: 16mm; }   /* 종목·기법 */
+.rp-sched .c7 { width: 19mm; }   /* 인증 일자 */
+.rp-sched .c8 { width: 20mm; }   /* 만료 일자 */
+.rp-sched .c9 { width: 15mm; }   /* 통보 일자 */
+.rp-sched .c10 { width: 14mm; }  /* 재자격 시험 회차 */
+.rp-sched .c11 { width: 16mm; }  /* 처리 */
+
+/* 시력검사 표는 일곱 칸이라 넉넉하다 */
+.rp-eye .e1 { width: 8mm; }
+.rp-eye .e2 { width: 24mm; }
+.rp-eye .e3 { width: 24mm; }
+.rp-eye .e4 { width: 28mm; }
+.rp-eye .e5 { width: 30mm; }
+.rp-eye .e6 { width: 30mm; }
+.rp-eye .e7 { width: 22mm; }
+
+/* 발급대장 (E03-01) — 열두 칸, 합 166mm */
+.rp-log th,
+.rp-log td {
+  padding: 1mm 1.1mm;
+  font-size: 7pt;
+}
+
+.rp-log .g1 { width: 7mm; }     /* NO */
+.rp-log .g2 { width: 17mm; }    /* 발급 일자 */
+.rp-log .g3 { width: 16mm; }    /* 성명 */
+.rp-log .g4 { width: 16mm; }    /* 사번 */
+.rp-log .g5 { width: 16mm; }    /* 소속 */
+.rp-log .g6 { width: 9mm; }     /* 등급 */
+.rp-log .g7 { width: 14mm; }    /* 종목·기법 */
+.rp-log .g8 { width: 18mm; }    /* 인증 일자 */
+.rp-log .g9 { width: 18mm; }    /* 만료 일자 */
+.rp-log .g10 { width: 14mm; }   /* 발급 구분 */
+.rp-log .g11 { width: 11mm; }   /* 수령 확인 */
+.rp-log .g12 { width: 10mm; }   /* 비고 */
+
+/* 신규 / 재자격 은 좁은 칸에 둘이 들어가니 세로로 쌓는다 */
+.rp-issue .rp-box {
+  display: block;
+  margin-right: 0;
+}
+
+/* 완료 / 예정 도 마찬가지다 */
+.rp-done .rp-box {
+  display: block;
+  margin-right: 0;
+}
+
+.rp-memo { font-size: 6.5pt; line-height: 1.25; }
+
+/* 이미 만료된 것, 어림한 값 — 곁들이는 말이라 작게 */
+.rp-over {
+  margin-left: 0.8mm;
+  font-size: 6.5pt;
+  font-weight: 400;
+}
+
+/*
+ * 작성자 · 검토자 · 승인자 서명란.
+ * 서식이 표 꼴로 정해 둔 것이라 표로 그린다.
+ */
+.rp-sign {
+  width: 100%;
+  margin-top: 4mm;
+
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.rp-sign th,
+.rp-sign td {
+  padding: 1mm 2mm;
+
+  border: 0.2mm solid #000;
+
+  font-size: 8.5pt;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.rp-sign th {
+  background: #eee;
+  font-weight: 700;
+}
+
+/* 첫 칸은 항목 이름이라 좁게 */
+.rp-sign th:first-child {
+  width: 26mm;
+}
+
+/* 이름과 서명을 손으로 적을 자리 */
+.rp-sign .rp-signrow td {
+  height: 12mm;
+}

@@ -18,7 +18,7 @@
  */
 import React, { useMemo, useState } from "react";
 import {
-  buildHistory, buildSessions, expiringSoon, ymd,
+  buildHistory, buildSessions, expiringSoon, eyeExpiringSoon, certLogRows, ymd,
   PASS_EACH, PASS_TOTAL, RETAKE_DAYS, WARN_MONTHS,
   requiredKinds,
 } from "./history.js";
@@ -156,7 +156,7 @@ function PersonCard({ person }) {
   );
 }
 
-function History({ results, people, onPrintSession, onBack }) {
+function History({ results, people, onPrintSession, onPrintExpiry, onPrintCertLog, onBack }) {
   const [tab, setTab] = useState("list");
   const [search, setSearch] = useState("");
 
@@ -168,6 +168,8 @@ function History({ results, people, onPrintSession, onBack }) {
   );
 
   const soon = useMemo(() => expiringSoon(history, today), [history, today]);
+  const eyeSoon = useMemo(() => eyeExpiringSoon(history, today), [history, today]);
+  const certLog = useMemo(() => certLogRows(history), [history]);
 
   /*
    * 채점결과보고서(E02-07)는 회차 하나를 다루는 서식이다.
@@ -318,6 +320,21 @@ function History({ results, people, onPrintSession, onBack }) {
           />
         ) : null}
 
+        {tab === "soon" ? (
+          <button
+            type="button"
+            onClick={() => onPrintExpiry({ certRows: soon, eyeRows: eyeSoon, today })}
+          >
+            E03-04 출력
+          </button>
+        ) : null}
+
+        {tab === "list" ? (
+          <button type="button" onClick={() => onPrintCertLog(certLog)}>
+            E03-01 발급대장
+          </button>
+        ) : null}
+
         {onBack ? (
           <button type="button" onClick={onBack}>돌아가기</button>
         ) : null}
@@ -385,7 +402,16 @@ function History({ results, people, onPrintSession, onBack }) {
         ) : (
           <div className="hist-empty">응시 기록이 없습니다.</div>
         )
-      ) : soon.length ? (
+      ) : soon.length || eyeSoon.length ? (
+        <>
+        {eyeSoon.length ? (
+          <div className="hist-notice">
+            <b>시력검사 만료 예정 {eyeSoon.length}명</b> —{" "}
+            {eyeSoon.map(r => `${r.name} (${ymd(r.expiry)}${r.state === "expired" ? " 만료" : ""})`).join(", ")}.
+            자격이 유효해도 시력검사가 만료되면 검사업무를 볼 수 없습니다 (E01 7.3.2).
+          </div>
+        ) : null}
+
         <table className="hist-soon">
           <thead>
             <tr>
@@ -418,9 +444,10 @@ function History({ results, people, onPrintSession, onBack }) {
             ))}
           </tbody>
         </table>
+        </>
       ) : (
         <div className="hist-empty">
-          {WARN_MONTHS}개월 안에 만료되는 자격이 없습니다.
+          {WARN_MONTHS}개월 안에 만료되는 자격도, 시력검사도 없습니다.
         </div>
       )}
     </div>

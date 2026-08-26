@@ -8,7 +8,9 @@
 import React from "react";
 import History from "./History.jsx";
 import PrintScoreReport from "./PrintScoreReport.jsx";
-import { buildHistory, buildSessions } from "./history.js";
+import PrintExpirySchedule from "./PrintExpirySchedule.jsx";
+import PrintCertLog from "./PrintCertLog.jsx";
+import { buildHistory, buildSessions, expiringSoon, eyeExpiringSoon, certLogRows } from "./history.js";
 
 const 기록 = [
   { name: "홍길동", level: "Level II", method: "RT", subject: "General",  score: 85, total: 40, correct: 34, startedAt: "2026-03-02T09:10:00+09:00" },
@@ -54,3 +56,34 @@ export default function HistoryPreview() {
     />
   );
 }
+
+/* 종이 위에 펼쳐 보기 위한 껍데기 */
+function onPaper(node) {
+  return function Wrapped() {
+    React.useEffect(() => {
+      document.body.classList.add("paper-preview");
+      return () => document.body.classList.remove("paper-preview");
+    }, []);
+    return node();
+  };
+}
+
+/* ?preview=expiry — 자격 만료 예정자 명단 (E03-04) */
+export const ExpiryPreview = onPaper(() => {
+  const today = new Date(2026, 7, 26);
+  const h = buildHistory(기록, 명부, today);
+  return (
+    <PrintExpirySchedule
+      certRows={expiringSoon(h, today)}
+      eyeRows={eyeExpiringSoon(h, today)}
+      today={today}
+    />
+  );
+});
+
+/* ?preview=certlog — 자격증 발급대장 (E03-01) */
+export const CertLogPreview = onPaper(() => {
+  const today = new Date(2026, 7, 26);
+  const h = buildHistory(기록, 명부, today);
+  return <PrintCertLog rows={certLogRows(h)} />;
+});

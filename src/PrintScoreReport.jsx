@@ -21,18 +21,10 @@
  */
 import React from "react";
 import { ymd, PASS_EACH, PASS_TOTAL } from "./history.js";
+import { Box, ControlRow, FormHead, padRows } from "./formParts.jsx";
 
 /* 서식이 한 장에 두는 줄 수 */
 const ROWS_PER_PAGE = 10;
-
-function Box({ on, children }) {
-  return (
-    <span className="rp-box">
-      <span className="rp-mark">{on ? "■" : "□"}</span>
-      {children}
-    </span>
-  );
-}
 
 /*
  * 「1. 시험 구분」 — 등급마다 갈래를 늘어놓고 해당하는 것만 채운다.
@@ -60,39 +52,22 @@ function KindRow({ label, level, kinds, session }) {
 
 function ReportPage({ session, rows, pageNo, pageCount, last }) {
   /* 서식은 열 줄짜리 표다. 모자라면 빈 줄로 채워 손으로 적을 수 있게 둔다 */
-  const filled = [...rows];
-  while (filled.length < ROWS_PER_PAGE) filled.push(null);
+  const filled = padRows(rows, ROWS_PER_PAGE);
 
   const startNo = (pageNo - 1) * ROWS_PER_PAGE;
 
   return (
     <div className="print-paper rp-paper">
 
-      <table className="rp-control">
-        <tbody>
-          <tr>
-            <td>
-              <Box>관리본</Box>
-              <Box>비관리본</Box>
-              <span className="rp-en">Controlled Copy For Reference</span>
-            </td>
-            <td className="rp-ctrl-no">관리 번호 :</td>
-          </tr>
-        </tbody>
-      </table>
+      <ControlRow />
 
-      <div className="rp-head">
-        <div className="rp-title">
-          채점결과보고서
-          <span>EXAMINATION RESULT REPORT</span>
-        </div>
-        <div className="rp-code">
-          HIE-QP-E02-07
-          {pageCount > 1 ? (
-            <span className="rp-page">{pageNo} / {pageCount}</span>
-          ) : null}
-        </div>
-      </div>
+      <FormHead
+        title="채점결과보고서"
+        titleEn="EXAMINATION RESULT REPORT"
+        code="HIE-QP-E02-07"
+        page={pageNo}
+        pageCount={pageCount}
+      />
 
       <div className="rp-sec">1. 시험 구분</div>
 

@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import PrintAdminExam from "./PrintAdminExam.jsx";
 import PrintScoreReport from "./PrintScoreReport.jsx";
+import PrintExpirySchedule from "./PrintExpirySchedule.jsx";
+import PrintCertLog from "./PrintCertLog.jsx";
 import History from "./History.jsx";
 import { openPaper } from "./paperPreview.js";
 
@@ -88,9 +90,17 @@ function Admin({ onBack }) {
    */
   const [people, setPeople] = useState([]);
 
-  /* 채점결과보고서(E02-07)로 뽑을 대상 */
+  /*
+   * 인쇄할 서식. { kind, data } 하나만 들고 있는다.
+   * 둘을 동시에 그리면 인쇄물에 두 서식이 겹쳐 나간다.
+   */
   const [report, setReport] = useState(null);
   const [reportReady, setReportReady] = useState(false);
+
+  function printForm(kind, data) {
+    setReportReady(false);
+    setReport({ kind, data });
+  }
 
   // =====================================================
   // Google Sheet 결과 불러오기
@@ -384,16 +394,31 @@ function Admin({ onBack }) {
           results={results}
           people={people}
           onBack={() => setView("results")}
-          onPrintSession={(session) => {
-            setReportReady(false);
-            setReport(session);
-          }}
+          onPrintSession={(session) => printForm("E02-07", session)}
+          onPrintExpiry={(data) => printForm("E03-04", data)}
+          onPrintCertLog={(rows) => printForm("E03-01", rows)}
         />
       ) : null}
 
-      {report ? (
+      {report && report.kind === "E02-07" ? (
         <PrintScoreReport
-          session={report}
+          session={report.data}
+          onReady={() => setReportReady(true)}
+        />
+      ) : null}
+
+      {report && report.kind === "E03-04" ? (
+        <PrintExpirySchedule
+          certRows={report.data.certRows}
+          eyeRows={report.data.eyeRows}
+          today={report.data.today}
+          onReady={() => setReportReady(true)}
+        />
+      ) : null}
+
+      {report && report.kind === "E03-01" ? (
+        <PrintCertLog
+          rows={report.data}
           onReady={() => setReportReady(true)}
         />
       ) : null}
