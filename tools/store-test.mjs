@@ -19,7 +19,9 @@ class Sheet {
   getLastColumn() { return this.rows.reduce((m, r) => Math.max(m, r.length), 0); }
   appendRow(r) { this.rows.push([...r]); }
   deleteRows(from, count) { this.rows.splice(from - 1, count); }
-  setFrozenRows() {}
+  setFrozenRows(n) { this.frozenRows = n; }
+  setFrozenColumns(n) { this.frozenCols = n; }
+  setColumnWidth(c, w) { (this.widths ||= {})[c] = w; }
   getRange(r, c, nr = 1, nc = 1) {
     const sh = this;
     return {
@@ -42,6 +44,10 @@ class Sheet {
         row[c - 1] = v;
       },
       setFontWeight() { return this; },
+      setHorizontalAlignment() { return this; },
+      setVerticalAlignment() { return this; },
+      setBackground() { return this; },
+      setWrap(on) { (sh.wrap ||= {})[c] = on; return this; },
     };
   }
 }
@@ -222,3 +228,35 @@ console.log("\n  응시기록 머리행 " + head.length + "칸 " + (head.length 
 /* 머리행 1 + 넣어 둔 1 = 2 줄이 그대로 있어야 한다 */
 console.log("  요원 명부 " + sheets.get("요원").rows.length + "줄 " +
             (sheets.get("요원").rows.length === 2 ? "그대로 (맞음)" : "★ 건드렸다"));
+
+/* ── 8. 보기 좋게 다듬기 ────────────────────── */
+console.log("");
+console.log("[다듬기]");
+
+/* 값이 있어야 본문 서식도 확인된다 */
+post(exam("홍길동", "UT", "General", 88, "2026-05-20"));
+
+const tidied = JSON.parse(gs.doGet({ parameter: { do: "tidy" } }));
+console.log("  " + tidied.message);
+
+const ex = sheets.get("응시기록");
+const exHead = ex.rows[0];
+
+console.log("");
+console.log("  응시기록 — 머리행 고정 " + ex.frozenRows + "줄 · 첫 칸 고정 " + (ex.frozenCols || 0) + "칸");
+console.log("  칸 너비");
+exHead.forEach((h, i) => {
+  const w = ex.widths[i + 1];
+  const note = ["questions", "answers"].includes(h) ? "   ← JSON. 접으면 칸이 화면을 덮는다" : "";
+  console.log("    " + String(h).padEnd(14) + String(w).padStart(5) + "px" + note);
+});
+
+const wrapOff = exHead.filter((h, i) => ex.wrap[i + 1] === false);
+console.log("");
+console.log("  줄바꿈 끈 칸 : " + (wrapOff.join(", ") || "없음"));
+
+const wide = exHead.map((h, i) => [h, ex.widths[i + 1]]).filter(([, w]) => w > 300);
+console.log("  300px 넘는 칸 : " + (wide.length ? wide.map(([h, w]) => h + " " + w).join(", ") : "없음 (맞음)"));
+
+const 요원 = sheets.get("요원");
+console.log("  요원 첫 칸 고정 : " + (요원.frozenCols === 1 ? "예 — 옆으로 밀어도 이름이 따라온다" : "아니오"));

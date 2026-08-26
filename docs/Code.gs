@@ -366,6 +366,7 @@ function doGet(e) {
   if (todo === "setup") return json({ ok: true, message: setup() });
   if (todo === "migrate") return json(migrate(e.parameter.from));
   if (todo === "clear") return json(clearExams(e.parameter.confirm));
+  if (todo === "tidy") return json(tidyAll());
 
   ensureAll(false);
 
@@ -386,6 +387,113 @@ function sheetList() {
   return SpreadsheetApp.getActiveSpreadsheet().getSheets().map(function (s) {
     return { name: s.getName(), rows: Math.max(0, s.getLastRow() - 1) };
   });
+}
+
+/* ─────────────────────────────────────────────
+   보기 좋게 다듬기
+   ───────────────────────────────────────────── */
+
+/*
+ * 칸 너비.
+ *
+ * 자동 맞춤(autoResizeColumns)만 쓰면 questions·answers 처럼 JSON 이
+ * 통째로 든 칸이 수천 픽셀로 늘어나 시트를 가로로 밀어 버린다.
+ * 칸 이름마다 알맞은 너비를 정해 두고, 모르는 이름은 기본값을 준다.
+ */
+var WIDTH = {
+  /* 사람 */
+  name: 90, 성명: 90, 응시자: 260,
+  dept: 90, 소속: 90, role: 70, 직책: 70,
+  empNo: 100, 사번: 100,
+
+  /* 시험 */
+  level: 80, 등급: 70, method: 70, 종목: 70,
+  subject: 80, kind: 60, 시험: 80, 구분: 60,
+  total: 60, correct: 60, score: 60, result: 70,
+  출제문항: 80, 응시인원: 70, 합격자: 60, 합격률: 60,
+
+  /* 때 */
+  timestamp: 150, date: 150, startedAt: 150, finishedAt: 150,
+  durationSec: 80, 갱신시각: 130,
+  시행일자: 95, 인증일자: 95, 만료일자: 95, 기준일자: 95,
+  발급일자: 95, 승인일자: 95, 통보일자: 95, 접근일: 95,
+  eyeExamDate: 105, certifiedAt: 105, hiredAt: 105, terminatedAt: 105,
+
+  /* 긴 글 */
+  education: 200, experience: 110, training: 240,
+  questions: 120, answers: 120,
+  회차키: 200, 키: 180,
+  비고: 160, 구체적사유: 240, 특이사항: 240,
+};
+
+var WIDTH_DEFAULT = 110;
+
+/*
+ * questions·answers 는 문항 전체가 JSON 으로 들어 있다. 좁혀 두고
+ * 줄바꿈을 꺼서 한 줄로 잘라 보여 준다 — 펼치면 한 칸이 화면을 덮는다.
+ */
+var CLIP = ["questions", "answers", "회차키", "키"];
+
+function tidy(name) {
+  var sheet = sheetOf(name, false);
+  if (!sheet) return null;
+
+  var cols = sheet.getLastColumn();
+  var rows = sheet.getLastRow();
+  if (cols < 1) return null;
+
+  var head = headerOf(sheet);
+
+  /* 머리행 — 굵게, 가운데, 회색 바탕, 고정 */
+  var top = sheet.getRange(1, 1, 1, cols);
+  top.setFontWeight("bold")
+     .setHorizontalAlignment("center")
+     .setVerticalAlignment("middle")
+     .setBackground("#eceff1");
+
+  sheet.setFrozenRows(1);
+
+  /* 성명이 첫 칸이면 옆으로 밀어도 따라오게 고정한다 */
+  if (head[0] === "name" || head[0] === "성명") sheet.setFrozenColumns(1);
+
+  for (var i = 0; i < cols; i++) {
+    var key = head[i] || "";
+    var w = WIDTH[key];
+
+    /* certifiedAt:Level II/UT 처럼 붙는 이름 */
+    if (!w && key.indexOf("certifiedAt:") === 0) w = 105;
+
+    sheet.setColumnWidth(i + 1, w || WIDTH_DEFAULT);
+
+    if (rows > 1) {
+      var body = sheet.getRange(2, i + 1, rows - 1, 1);
+      body.setVerticalAlignment("middle");
+
+      /* 긴 JSON 은 잘라 보여 주고, 나머지는 접어서 다 보이게 */
+      body.setWrap(CLIP.indexOf(key) === -1);
+    }
+  }
+
+  return { name: name, cols: cols, rows: Math.max(0, rows - 1) };
+}
+
+function tidyAll() {
+  ensureAll(false);
+
+  var done = [];
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var all = ss.getSheets();
+
+  for (var i = 0; i < all.length; i++) {
+    var r = tidy(all[i].getName());
+    if (r) done.push(r);
+  }
+
+  return {
+    ok: true,
+    tidied: done,
+    message: done.length + "개 시트를 다듬었습니다 — 칸 너비, 머리행 고정, 줄바꿈.",
+  };
 }
 
 /* ─────────────────────────────────────────────
