@@ -146,23 +146,25 @@ var MANUAL = [
    ───────────────────────────────────────────── */
 
 /*
- * 시트가 갖춰졌는지 한 번만 훑는다.
+ * 시트가 갖춰졌는지 훑는다.
  *
  * 처음에는 편집기에서 setup 을 눌러 만들게 했는데, 붙여넣고 저장하기
  * 전에는 함수 목록이 갱신되지 않아 setup 이 안 보인다. 사람 손을 타는
  * 단계는 빼는 편이 낫다. 첫 요청 때 저절로 만든다.
  *
- * 요청마다 시트 열둘을 훑으면 느리니 한 번 훑은 뒤에는 표시를 남긴다.
- * 시트를 실수로 지웠을 때를 위해 ?do=setup 으로 다시 훑을 수 있다.
+ * 다 만들었는지는 맨 마지막 시트가 있는지로 본다.
+ *
+ * 스크립트 속성(PropertiesService)에 표시를 남기는 편이 깔끔하지만
+ * 그것은 예전 스크립트에 없던 권한이라, 배포한 뒤 권한을 다시 받아야
+ * 한다. 그 자리에서 또 막힌다. 시트를 보는 것은 이미 있는 권한이다.
  */
-var READY_KEY = "store_ready_v1";
+var LAST_SHEET = "E03-05 자격종료";
 
 function ensureAll(force) {
-  var props = PropertiesService.getScriptProperties();
-  if (!force && props.getProperty(READY_KEY)) return;
-
+  if (!force && SpreadsheetApp.getActiveSpreadsheet().getSheetByName(LAST_SHEET)) {
+    return;
+  }
   setup();
-  props.setProperty(READY_KEY, "1");
 }
 
 function setup() {
@@ -361,7 +363,7 @@ function doGet(e) {
   var todo = (e && e.parameter && e.parameter.do) || "";
 
   /* 시트를 실수로 지웠거나 머리행을 바꿨을 때 다시 훑는다 */
-  if (todo === "setup") return json({ ok: true, message: setupAndFlag() });
+  if (todo === "setup") return json({ ok: true, message: setup() });
 
   ensureAll(false);
 
@@ -376,12 +378,6 @@ function doGet(e) {
   }
 
   return json(readSheet(SHEETS.exam.name, true));
-}
-
-function setupAndFlag() {
-  var msg = setup();
-  PropertiesService.getScriptProperties().setProperty(READY_KEY, "1");
-  return msg;
 }
 
 function sheetList() {

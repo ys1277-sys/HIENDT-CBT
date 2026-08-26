@@ -67,13 +67,6 @@ globalThis.ContentService = {
 };
 globalThis.Logger = { log: () => {} };
 
-const props = new Map();
-globalThis.PropertiesService = {
-  getScriptProperties: () => ({
-    getProperty: k => (props.has(k) ? props.get(k) : null),
-    setProperty: (k, v) => props.set(k, v),
-  }),
-};
 
 /* ── 스크립트 싣기 ─────────────────────────── */
 const src = fs.readFileSync(new URL("../docs/Code.gs", import.meta.url), "utf8");
