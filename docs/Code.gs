@@ -409,12 +409,22 @@ var WIDTH = {
   /* 시험 */
   level: 80, 등급: 70, method: 70, 종목: 70,
   subject: 80, kind: 60, 시험: 80, 구분: 60,
-  total: 60, correct: 60, score: 60, result: 70,
-  출제문항: 80, 응시인원: 70, 합격자: 60, 합격률: 60,
+  /*
+   * 숫자 칸이라 좁혀도 값은 보이지만, 머리행이 잘려 "correct" 가
+   * ":orrec" 로 나왔다. 표로 바꾸면 머리행에 필터 화살표가 붙어
+   * 20px 쯤 더 먹는다. 글자 수에 맞춰 잡는다.
+   */
+  total: 70, correct: 80, score: 70, result: 80,
+  출제문항: 85, 응시인원: 80, 합격자: 70, 합격률: 70,
 
-  /* 때 */
-  timestamp: 150, date: 150, startedAt: 150, finishedAt: 150,
-  durationSec: 80, 갱신시각: 130,
+  /*
+   * 때
+   *
+   * ISO 시각은 "2026-08-26T05:24:50.797Z" 로 24자다. 150px 에서는
+   * 두 줄로 접혀 읽기 나쁘다. 한 줄에 들어가게 넓힌다.
+   */
+  timestamp: 185, date: 175, startedAt: 185, finishedAt: 185,
+  durationSec: 95, 갱신시각: 140,
   시행일자: 95, 인증일자: 95, 만료일자: 95, 기준일자: 95,
   발급일자: 95, 승인일자: 95, 통보일자: 95, 접근일: 95,
   eyeExamDate: 105, certifiedAt: 105, hiredAt: 105, terminatedAt: 105,
@@ -432,7 +442,8 @@ var WIDTH_DEFAULT = 110;
  * questions·answers 는 문항 전체가 JSON 으로 들어 있다. 좁혀 두고
  * 줄바꿈을 꺼서 한 줄로 잘라 보여 준다 — 펼치면 한 칸이 화면을 덮는다.
  */
-var CLIP = ["questions", "answers", "회차키", "키"];
+var CLIP = ["questions", "answers", "회차키", "키",
+            "timestamp", "startedAt", "finishedAt", "date"];
 
 function tidy(name) {
   var sheet = sheetOf(name, false);
@@ -444,12 +455,20 @@ function tidy(name) {
 
   var head = headerOf(sheet);
 
-  /* 머리행 — 굵게, 가운데, 회색 바탕, 고정 */
+  /*
+   * 머리행 — 굵게, 가운데, 옅은 회색 바탕, 검은 글씨, 고정.
+   *
+   * 글씨 색을 굳이 박아 두는 이유가 있다. 시트를 「표」로 바꾸면 표
+   * 서식이 머리행을 짙은 남색으로 칠하는데 글씨는 검정 그대로라 아예
+   * 안 보였다. 바탕과 글씨를 함께 못 박아 어느 쪽이 이기든 읽히게 한다.
+   */
   var top = sheet.getRange(1, 1, 1, cols);
   top.setFontWeight("bold")
      .setHorizontalAlignment("center")
      .setVerticalAlignment("middle")
-     .setBackground("#eceff1");
+     .setWrap(false)
+     .setBackground("#eceff1")
+     .setFontColor("#1a1a1a");
 
   sheet.setFrozenRows(1);
 
@@ -469,8 +488,15 @@ function tidy(name) {
       var body = sheet.getRange(2, i + 1, rows - 1, 1);
       body.setVerticalAlignment("middle");
 
-      /* 긴 JSON 은 잘라 보여 주고, 나머지는 접어서 다 보이게 */
+      /* 긴 JSON 과 시각은 잘라 보여 주고, 나머지는 접어서 다 보이게 */
       body.setWrap(CLIP.indexOf(key) === -1);
+
+      /*
+       * 시트를 「표」로 바꾸면 칸마다 드롭다운(데이터 확인)이 붙는다.
+       * method·subject 가 알약처럼 바뀌어 글씨를 가린다. 값을 고르는
+       * 칸이 아니라 시험 결과가 적히는 칸이므로 걷어 낸다.
+       */
+      body.clearDataValidations();
     }
   }
 

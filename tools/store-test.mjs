@@ -46,8 +46,10 @@ class Sheet {
       setFontWeight() { return this; },
       setHorizontalAlignment() { return this; },
       setVerticalAlignment() { return this; },
-      setBackground() { return this; },
+      setBackground(v) { (sh.bg ||= {})[c] = v; return this; },
+      setFontColor(v) { (sh.fg ||= {})[c] = v; return this; },
       setWrap(on) { (sh.wrap ||= {})[c] = on; return this; },
+      clearDataValidations() { (sh.cleared ||= {})[c] = true; return this; },
     };
   }
 }
