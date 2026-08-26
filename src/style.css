@@ -157,6 +157,33 @@ button:disabled{
 
 
 
+/*
+ * 검토 모드 띠 (Quiz.jsx 의 DRAW_IN_ORDER).
+ *
+ * 무작위 추첨을 꺼 둔 상태다. 모르고 시험을 치면 모두가 같은 시험지를
+ * 받으므로 머리글 위에서 눈에 걸리게 둔다. 여기서는 놓치는 것이
+ * 거슬리는 것보다 나쁘다.
+ */
+.cbt-order-banner{
+
+  padding:9px 15px;
+
+  font-size:13px;
+  line-height:1.5;
+
+  color:#5c3b00;
+  background:#ffe9b8;
+  border-bottom:2px solid #d99b1c;
+
+}
+
+.cbt-order-banner b{
+
+  font-weight:700;
+
+}
+
+
 .cbt-header{
 
   background:#003b73;

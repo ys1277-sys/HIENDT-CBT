@@ -125,5 +125,19 @@ for (const f of walk(PUB)) {
 }
 
 log += "-".repeat(78) + `\n${ROUNDS}회씩 추첨. 문제 있는 파일 ${bad}개\n`;
+
+/*
+ * 이 검사는 추첨 규칙만 본다. Quiz.jsx 가 검토 모드로 꺼져 있으면
+ * 앱은 여기서 검사한 길로 아예 가지 않는다. 통과했다는 말이
+ * "지금 앱이 제대로 뽑고 있다" 로 읽히면 안 된다.
+ */
+const QUIZ = fs.readFileSync(new URL("../src/Quiz.jsx", import.meta.url), "utf8");
+if (/export const DRAW_IN_ORDER\s*=\s*true/.test(QUIZ)) {
+  log +=
+    "\n★ Quiz.jsx 의 DRAW_IN_ORDER 가 true 입니다.\n" +
+    "  앱은 지금 추첨하지 않고 문제은행 차례 그대로 전부 냅니다.\n" +
+    "  위 결과는 false 로 되돌렸을 때의 이야기입니다.\n";
+}
+
 fs.writeFileSync("draw-test-out.txt", log, "utf8");
 console.log(log);

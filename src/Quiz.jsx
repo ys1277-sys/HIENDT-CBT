@@ -13,6 +13,27 @@ import {
   TEXT
 } from "./grading.js";
 
+/*
+ * ★ 검토 모드 ★
+ *
+ * true  — 문제은행에 적힌 차례 그대로, 은행에 든 문항을 전부 낸다.
+ *         무작위 추첨도, 순서 섞기도 하지 않는다.
+ *         문항을 1번부터 차례로 훑어보며 검토할 때 쓴다.
+ *
+ * false — 규정 문항 수(E01 표 3)만큼 무작위로 뽑고 순서도 섞는다.
+ *         실제 시험 때 쓰는 값이다.
+ *
+ * true 인 채로 시험을 치면 두 가지가 깨진다.
+ *   1. 모두가 똑같은 시험지를 받는다 — 옆 화면을 보면 그대로 답이 된다.
+ *   2. 규정 문항 수를 안 지킨다 — 40문항 시험에 48문항이 나간다.
+ *
+ * 그래서 이 값이 true 이면 시험 화면 맨 위에 띠가 하나 뜬다.
+ * 띠가 보이는 채로 시험을 치면 안 된다.
+ *
+ * ★ 검토가 끝나면 false 로 되돌린다.
+ */
+export const DRAW_IN_ORDER = true;
+
 /* Fisher-Yates */
 function shuffle(list) {
   const out = [...list];
@@ -84,6 +105,12 @@ function fillGroups(groups, count) {
 }
 
 function drawQuestions(bank, count) {
+
+  /*
+   * 검토 모드 — 은행에 적힌 차례 그대로 전부 낸다.
+   * 묶음을 다시 엮지 않는다. 원본 차례가 곧 묶음 차례다.
+   */
+  if (DRAW_IN_ORDER) return [...bank];
 
   const groups = toGroups(bank);
 
@@ -273,7 +300,9 @@ function Quiz({
         console.log(
           "출제:",
           `${drawn.length}문항`,
-          want ? `(기준 ${want}, 은행 ${list.length})` : `(은행 전체 ${list.length})`
+          DRAW_IN_ORDER
+            ? `★ 검토 모드 — 은행 차례 그대로 (기준 ${want || "없음"})`
+            : want ? `(기준 ${want}, 은행 ${list.length})` : `(은행 전체 ${list.length})`
         );
 
         if (want && list.length < want) {
@@ -549,6 +578,17 @@ function Quiz({
     <div className="cbt-page">
 
       <div className="cbt-container">
+
+        {/*
+          검토 모드일 때만 뜬다. 무작위 추첨을 꺼 둔 상태로 시험을 치면
+          모두가 같은 시험지를 받는다. 그 사실을 감추지 않는다.
+        */}
+        {DRAW_IN_ORDER ? (
+          <div className="cbt-order-banner">
+            검토 모드 — 문제은행 차례 그대로 {questions.length}문항을 냅니다.
+            무작위 추첨을 꺼 두었으므로 <b>실제 시험에 쓰지 마세요.</b>
+          </div>
+        ) : null}
 
         <header className="cbt-header">
 
