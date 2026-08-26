@@ -384,17 +384,16 @@ function Admin({ onBack }) {
           results={results}
           people={people}
           onBack={() => setView("results")}
-          onPrintUnit={(person, unit) => {
+          onPrintSession={(session) => {
             setReportReady(false);
-            setReport({ person, unit });
+            setReport(session);
           }}
         />
       ) : null}
 
       {report ? (
         <PrintScoreReport
-          person={report.person}
-          unit={report.unit}
+          session={report}
           onReady={() => setReportReady(true)}
         />
       ) : null}

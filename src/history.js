@@ -490,3 +490,83 @@ export function ymd(d) {
   const two = n => String(n).padStart(2, "0");
   return `${x.getFullYear()}-${two(x.getMonth() + 1)}-${two(x.getDate())}`;
 }
+
+/* ─────────────────────────────────────────────
+   회차
+   ───────────────────────────────────────────── */
+
+/*
+ * 응시 기록을 회차로 묶는다.
+ *
+ * 채점결과보고서(E02-07)는 사람 한 명이 아니라 회차 하나를 다룬다.
+ * 「시험 구분 · 종목 · 시행일자」가 머리에 오고 그 아래에 응시자가
+ * 줄줄이 붙는 서식이다. 같은 날 같은 시험을 친 사람을 한 장에 담는다.
+ */
+export function sessionKey(rec) {
+  const day = ymd(takenAt(rec));
+  return [day, rec.level, rec.method, rec.subject || ""].join("|");
+}
+
+export function buildSessions(records, people = []) {
+  const master = new Map();
+  for (const p of people || []) {
+    const k = nameKey(p && p.name);
+    if (k) master.set(k, p);
+  }
+
+  const groups = new Map();
+
+  for (const rec of records || []) {
+    if (!rec || !nameKey(rec.name)) continue;
+
+    const key = sessionKey(rec);
+    if (!groups.has(key)) {
+      groups.set(key, {
+        key,
+        date: takenAt(rec),
+        level: rec.level || "",
+        method: rec.method || "",
+        subject: rec.subject || "",
+        kind: examKind(rec),
+        rows: [],
+      });
+    }
+    groups.get(key).rows.push(rec);
+  }
+
+  const out = [];
+
+  for (const g of groups.values()) {
+    /* 같은 회차 안은 이름순 — 명단처럼 읽힌다 */
+    g.rows.sort((a, b) => nameKey(a.name).localeCompare(nameKey(b.name), "ko"));
+
+    const rows = g.rows.map(r => {
+      const p = master.get(nameKey(r.name)) || {};
+      const s = scoreOf(r);
+
+      return {
+        name: nameKey(r.name),
+        empNo: p.empNo || "",
+        total: r.total,
+        correct: r.correct,
+        score: s,
+        pass: s !== null && s >= PASS_EACH,
+      };
+    });
+
+    const passed = rows.filter(r => r.pass).length;
+
+    out.push({
+      ...g,
+      rows,
+      count: rows.length,
+      passed,
+      rate: rows.length ? Math.round((passed / rows.length) * 1000) / 10 : null,
+      /* 출제 문항 수는 회차 안에서 같아야 한다. 다르면 뒤에 붙여 밝힌다 */
+      questionCount: [...new Set(rows.map(r => r.total).filter(n => n != null))],
+    });
+  }
+
+  out.sort((a, b) => (b.date ? b.date.getTime() : 0) - (a.date ? a.date.getTime() : 0));
+  return out;
+}

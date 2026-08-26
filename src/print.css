@@ -1545,142 +1545,168 @@ body.paper-preview .print-area {
 /* =========================================================
    채점결과보고서 — HIE-QP-E02-07  (PrintScoreReport.jsx)
 
-   E02 7.7.6 이 채점 뒤에 작성하도록 정한 서식이다.
-   한 장에 자격 단위 하나를 담는다.
+   E02 8.0 EXHIBIT 7 의 서식을 옮긴 것이다. 회차 하나에 응시자를
+   열 줄씩 담고, 집계와 확인란은 마지막 장에만 붙는다.
    ========================================================= */
 
-.report-paper {
-  padding: 14mm 14mm 12mm;
-  font-size: 10pt;
-  line-height: 1.5;
+.rp-paper {
+  padding: 8mm 12mm;
+
+  font-size: 8.5pt;
+  line-height: 1.3;
 }
 
-.report-head {
+/* 네모 칸. 채운 것은 ■ 로 바뀐다 */
+.rp-box {
+  display: inline-block;
+  margin-right: 4mm;
+  white-space: nowrap;
+}
+
+.rp-box:last-child { margin-right: 0; }
+
+.rp-mark {
+  margin-right: 1mm;
+  font-family: "Malgun Gothic", sans-serif;
+}
+
+/* 관리본 / 관리 번호 줄 */
+.rp-control {
+  width: 100%;
+  margin-bottom: 3mm;
+  border-collapse: collapse;
+}
+
+.rp-control td {
+  padding: 1.2mm 2.5mm;
+  border: 0.2mm solid #000;
+  font-size: 8.5pt;
+}
+
+.rp-en {
+  margin-left: 2mm;
+  font-size: 8pt;
+}
+
+.rp-ctrl-no { width: 45mm; }
+
+.rp-head {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
 
-  padding-bottom: 3mm;
-  margin-bottom: 6mm;
+  padding-bottom: 2mm;
+  margin-bottom: 3.5mm;
 
   border-bottom: 0.6mm solid #000;
 }
 
-.report-title {
-  font-size: 17pt;
+.rp-title {
+  font-size: 13pt;
   font-weight: 700;
-  letter-spacing: 0.5mm;
+  letter-spacing: 0.4mm;
 }
 
-/* 영문 이름은 한글 제목 밑에 작게 붙인다 */
-.report-title span {
+/* 영문 이름은 한글 제목 밑에 작게 */
+.rp-title span {
   display: block;
   margin-top: 1mm;
 
-  font-size: 8pt;
+  font-size: 7.5pt;
   font-weight: 400;
   letter-spacing: 0.2mm;
 }
 
-.report-code {
+.rp-code {
+  font-size: 9.5pt;
+  font-weight: 700;
+  text-align: right;
+}
+
+.rp-page {
+  display: block;
+  margin-top: 1mm;
+
+  font-size: 8.5pt;
+  font-weight: 400;
+}
+
+.rp-sec {
+  margin: 2.4mm 0 1mm;
   font-size: 9.5pt;
   font-weight: 700;
 }
 
-.report-section {
-  margin: 6mm 0 2mm;
-  font-size: 11pt;
-  font-weight: 700;
-}
-
-.report-who,
-.report-grid {
+.rp-form,
+.rp-grid {
   width: 100%;
   border-collapse: collapse;
+  table-layout: fixed;
 }
 
-.report-who th,
-.report-who td,
-.report-grid th,
-.report-grid td {
-  padding: 2mm 2.5mm;
+.rp-form th,
+.rp-form td,
+.rp-grid th,
+.rp-grid td {
+  padding: 1mm 2mm;
+
   border: 0.2mm solid #000;
-  font-size: 9.5pt;
+
+  font-size: 8.5pt;
   text-align: left;
   vertical-align: middle;
+
+  overflow-wrap: break-word;
 }
 
-.report-who th,
-.report-grid th {
+.rp-form th,
+.rp-grid th {
   background: #eee;
   font-weight: 700;
+  text-align: center;
   white-space: nowrap;
 }
 
-.report-who th { width: 26mm; }
+.rp-form th { width: 28mm; }
 
-.report-grid th,
-.report-grid td:not(:first-child) {
-  text-align: center;
+/* 시행일자 칸 오른쪽에 붙는 회차 */
+.rp-round {
+  margin-left: 10mm;
 }
 
-.report-grid .strong { font-weight: 700; }
+/* 채점결과 표 — 칸 너비를 못 박아 장마다 같게 둔다 */
+.rp-grid .w-no { width: 10mm; }
+.rp-grid .w-name { width: 26mm; }
+.rp-grid .w-emp { width: 24mm; }
+.rp-grid .w-num { width: 15mm; }
+.rp-grid .w-judge { width: 36mm; }
+.rp-grid .w-qno { width: 22mm; }
+.rp-grid .w-apply { width: 34mm; }
+.rp-grid .w-who { width: 55mm; }
+.rp-grid .w-sign { width: 34mm; }
 
-/* 종합점수 줄. 여기가 판정이므로 한 눈에 걸려야 한다 */
-.report-total td {
-  background: #eee;
-  font-weight: 700;
-}
+.rp-grid td.c { text-align: center; }
+.rp-grid td.b { font-weight: 700; }
 
-.report-note {
+/* 판정 칸의 네모는 좁으니 사이를 줄인다 */
+.rp-grid .w-judge ~ td .rp-box,
+.rp-grid td.c .rp-box { margin-right: 2.5mm; }
+
+/* 서명란은 손으로 적을 자리가 있어야 한다 */
+.rp-signrow td { height: 8mm; }
+
+.rp-sum { margin-top: 2mm; }
+.rp-sum th { width: auto; }
+.rp-sum td.c { text-align: center; }
+.rp-sum td.b { font-weight: 700; }
+
+.rp-quote {
   margin-top: 2mm;
-  font-size: 8.5pt;
-  line-height: 1.6;
-}
-
-.report-guess { font-size: 8pt; }
-
-/*
- * 서명란.
- *
- * 비워 둔 채로 인쇄된다. 채점은 CBT 가 해도 확인과 승인은 사람이
- * 하므로(E02 7.7.2, 7.9.2) 시스템이 채우면 안 된다.
- */
-.report-sign {
-  display: flex;
-  gap: 4mm;
-
-  margin-top: 10mm;
-}
-
-.report-sign > div {
-  flex: 1;
-  border: 0.2mm solid #000;
-}
-
-.report-sign-label {
-  display: block;
-  padding: 2mm;
-
-  font-size: 8.5pt;
-  font-weight: 700;
-  line-height: 1.4;
-  text-align: center;
-
-  background: #eee;
-  border-bottom: 0.2mm solid #000;
-}
-
-.report-sign-box {
-  display: block;
-  height: 18mm;
-}
-
-.report-sign-date {
-  display: block;
-  padding: 1.5mm 2mm;
+  padding: 1.8mm 2.5mm;
 
   font-size: 8pt;
+  line-height: 1.5;
 
-  border-top: 0.2mm solid #000;
+  border-left: 0.8mm solid #999;
+  background: #f6f6f6;
 }

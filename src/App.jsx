@@ -1,18 +1,22 @@
 import React from "react";
 import ExamFlow from "./ExamFlow.jsx";
-import HistoryPreview from "./HistoryPreview.jsx";
+import HistoryPreview, { ReportPreview } from "./HistoryPreview.jsx";
 
 function App() {
   /*
-   * ?preview=history 로 자격 이력 화면만 따로 본다.
-   * 구글 시트에 붙지 않고 손보기 위한 것이다. 시험 흐름과는 상관없다.
+   * ?preview=history  자격 이력 화면
+   * ?preview=report   채점결과보고서(E02-07) 한 장
+   *
+   * 구글 시트에 붙지 않고 화면을 손보기 위한 것이다.
+   * 보고서는 인쇄용이라 평소에는 숨겨져 있어 이렇게 해야 눈으로 볼 수 있다.
    */
-  if (
-    typeof window !== "undefined" &&
-    new URLSearchParams(window.location.search).get("preview") === "history"
-  ) {
-    return <HistoryPreview />;
-  }
+  const preview =
+    typeof window !== "undefined"
+      ? new URLSearchParams(window.location.search).get("preview")
+      : "";
+
+  if (preview === "history") return <HistoryPreview />;
+  if (preview === "report") return <ReportPreview />;
 
   return (
     <ExamFlow />

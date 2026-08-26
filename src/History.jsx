@@ -18,7 +18,7 @@
  */
 import React, { useMemo, useState } from "react";
 import {
-  buildHistory, expiringSoon, ymd,
+  buildHistory, buildSessions, expiringSoon, ymd,
   PASS_EACH, PASS_TOTAL, RETAKE_DAYS, WARN_MONTHS,
   requiredKinds,
 } from "./history.js";
@@ -63,7 +63,7 @@ function ScoreLine({ unit }) {
   );
 }
 
-function PersonCard({ person, onPrintUnit }) {
+function PersonCard({ person }) {
   const eyeBad = person.eyeState === "expired";
   const eyeWarn = person.eyeState === "warn";
 
@@ -96,7 +96,6 @@ function PersonCard({ person, onPrintUnit }) {
             <th>인증일자</th>
             <th>만료일자</th>
             <th>상태</th>
-            <th />
           </tr>
         </thead>
 
@@ -134,12 +133,6 @@ function PersonCard({ person, onPrintUnit }) {
                     : null}
                 </span>
               </td>
-
-              <td>
-                <button type="button" onClick={() => onPrintUnit(person, u)}>
-                  채점결과보고서
-                </button>
-              </td>
             </tr>
           ))}
         </tbody>
@@ -163,7 +156,7 @@ function PersonCard({ person, onPrintUnit }) {
   );
 }
 
-function History({ results, people, onPrintUnit, onBack }) {
+function History({ results, people, onPrintSession, onBack }) {
   const [tab, setTab] = useState("list");
   const [search, setSearch] = useState("");
 
@@ -175,6 +168,15 @@ function History({ results, people, onPrintUnit, onBack }) {
   );
 
   const soon = useMemo(() => expiringSoon(history, today), [history, today]);
+
+  /*
+   * 채점결과보고서(E02-07)는 회차 하나를 다루는 서식이다.
+   * 같은 날 같은 시험을 친 사람을 한 장에 담는다.
+   */
+  const sessions = useMemo(
+    () => buildSessions(results || [], people || []),
+    [results, people]
+  );
 
   const shown = useMemo(() => {
     const key = search.trim().toLowerCase();
@@ -257,6 +259,15 @@ function History({ results, people, onPrintUnit, onBack }) {
 
         .hist-empty { padding: 30px; text-align: center; color: #6c7c87; }
 
+        /* 응시자 이름이 길어지면 표를 밀어낸다. 넘치면 잘라 준다 */
+        .hist-names { max-width: 220px; color: #6c7c87; font-size: 12px;
+          overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+        .hist-soon button { padding: 5px 10px; border: 1px solid #3a6df0;
+          background: #fff; color: #3a6df0; border-radius: 5px;
+          font-size: 12px; cursor: pointer; white-space: nowrap; }
+        .hist-soon button:hover { background: #3a6df0; color: #fff; }
+
         .hist-soon { width: 100%; border-collapse: collapse; background: #fff;
           border: 1px solid #e2e4e8; border-radius: 8px; overflow: hidden; }
         .hist-soon th, .hist-soon td { padding: 10px 14px; text-align: left;
@@ -290,6 +301,14 @@ function History({ results, people, onPrintUnit, onBack }) {
           만료 예정자 ({soon.length})
         </button>
 
+        <button
+          type="button"
+          className={tab === "session" ? "on" : ""}
+          onClick={() => setTab("session")}
+        >
+          회차별 채점 ({sessions.length})
+        </button>
+
         {tab === "list" ? (
           <input
             type="search"
@@ -316,10 +335,55 @@ function History({ results, people, onPrintUnit, onBack }) {
       {tab === "list" ? (
         shown.length ? (
           shown.map(p => (
-            <PersonCard key={p.name} person={p} onPrintUnit={onPrintUnit} />
+            <PersonCard key={p.name} person={p} />
           ))
         ) : (
           <div className="hist-empty">해당하는 사람이 없습니다.</div>
+        )
+      ) : tab === "session" ? (
+        sessions.length ? (
+          <table className="hist-soon">
+            <thead>
+              <tr>
+                <th>시행일자</th>
+                <th>등급</th>
+                <th>시험</th>
+                <th>종목</th>
+                <th>문항</th>
+                <th>응시</th>
+                <th>합격</th>
+                <th>합격률</th>
+                <th>응시자</th>
+                <th />
+              </tr>
+            </thead>
+            <tbody>
+              {sessions.map(g => (
+                <tr key={g.key}>
+                  <td className="num">{ymd(g.date) || "—"}</td>
+                  <td>{g.level}</td>
+                  <td>{g.kind}시험</td>
+                  <td><b>{g.method}</b></td>
+                  <td className="num">
+                    {g.questionCount.length ? g.questionCount.join(" / ") : "—"}
+                  </td>
+                  <td className="num">{g.count}</td>
+                  <td className="num">{g.passed}</td>
+                  <td className="num">{g.rate === null ? "—" : g.rate + "%"}</td>
+                  <td className="hist-names">
+                    {g.rows.map(r => r.name).join(", ")}
+                  </td>
+                  <td>
+                    <button type="button" onClick={() => onPrintSession(g)}>
+                      E02-07 출력
+                    </button>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        ) : (
+          <div className="hist-empty">응시 기록이 없습니다.</div>
         )
       ) : soon.length ? (
         <table className="hist-soon">

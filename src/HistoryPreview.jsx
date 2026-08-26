@@ -7,6 +7,8 @@
  */
 import React from "react";
 import History from "./History.jsx";
+import PrintScoreReport from "./PrintScoreReport.jsx";
+import { buildHistory, buildSessions } from "./history.js";
 
 const 기록 = [
   { name: "홍길동", level: "Level II", method: "RT", subject: "General",  score: 85, total: 40, correct: 34, startedAt: "2026-03-02T09:10:00+09:00" },
@@ -26,6 +28,22 @@ const 명부 = [
   { name: "홍길동", dept: "검사1팀", eyeExamDate: "2026-06-01", certifiedAt: "2026-03-10", "certifiedAt:UT": "2026-05-25" },
   { name: "이영희", dept: "검사2팀", eyeExamDate: "2025-04-01", certifiedAt: "2023-09-10" },
 ];
+
+/*
+ * ?preview=report 로 채점결과보고서(E02-07) 한 장을 화면에 펼친다.
+ * 인쇄용이라 평소에는 .print-area 가 숨겨져 있어 눈으로 볼 수 없다.
+ */
+export function ReportPreview() {
+  const sessions = buildSessions(기록, 명부);
+  const 회차 = sessions.find(s => s.method === "UT" && s.kind === "일반");
+
+  React.useEffect(() => {
+    document.body.classList.add("paper-preview");
+    return () => document.body.classList.remove("paper-preview");
+  }, []);
+
+  return <PrintScoreReport session={회차} />;
+}
 
 export default function HistoryPreview() {
   return (
