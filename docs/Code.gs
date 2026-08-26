@@ -364,6 +364,7 @@ function doGet(e) {
 
   /* 시트를 실수로 지웠거나 머리행을 바꿨을 때 다시 훑는다 */
   if (todo === "setup") return json({ ok: true, message: setup() });
+  if (todo === "migrate") return json(migrate(e.parameter.from));
 
   ensureAll(false);
 
@@ -384,6 +385,127 @@ function sheetList() {
   return SpreadsheetApp.getActiveSpreadsheet().getSheets().map(function (s) {
     return { name: s.getName(), rows: Math.max(0, s.getLastRow() - 1) };
   });
+}
+
+/* ─────────────────────────────────────────────
+   예전 기록 옮기기
+   ───────────────────────────────────────────── */
+
+/*
+ * 예전 스크립트가 쓰던 시트의 줄을 응시기록으로 옮긴다.
+ *
+ * 예전 시트에는 머리행이 없다. 칸 차례가 곧 뜻이었다.
+ *   A 응시일시  B 성명  C 등급  D 종목  E 구분  F 점수  G 결과
+ *   H 문항(JSON)  I 답(JSON)
+ *
+ * 손으로 옮기면 칸이 밀린다. 여기서 차례대로 읽어 이름 붙은 칸에 넣는다.
+ * 옮긴 뒤 회차 집계(E02-07)까지 다시 센다.
+ *
+ * 원본 시트는 지우지 않는다. 기록은 임의로 폐기하지 않는다 (E02 7.10.4).
+ */
+var OLD_COLS = ["date", "name", "level", "method", "subject",
+                "score", "result", "questions", "answers"];
+
+function migrate(from) {
+  var srcName = from || "시트1";
+  var src = sheetOf(srcName, false);
+
+  if (!src) return { ok: false, error: srcName + " 시트가 없습니다" };
+
+  ensureAll(false);
+  var dest = sheetOf(SHEETS.exam.name, true);
+
+  if (dest.getLastRow() > 1) {
+    return {
+      ok: false,
+      error: "응시기록에 이미 " + (dest.getLastRow() - 1) +
+             "줄이 있습니다. 두 번 옮기지 않으려고 멈춥니다.",
+    };
+  }
+
+  var rows = src.getLastRow();
+  var cols = Math.min(src.getLastColumn(), OLD_COLS.length);
+  if (rows < 1 || cols < 1) return { ok: false, error: srcName + " 이 비어 있습니다" };
+
+  var body = src.getRange(1, 1, rows, cols).getValues();
+  var head = headerOf(dest);
+  var out = [];
+  var keys = {};
+  var skipped = 0;
+
+  for (var i = 0; i < body.length; i++) {
+    var rec = {};
+    for (var c = 0; c < cols; c++) rec[OLD_COLS[c]] = body[i][c];
+
+    /* 머리행이 섞여 있으면 건너뛴다 */
+    if (String(rec.date).trim() === "date") { skipped++; continue; }
+    if (String(rec.name).trim() === "" && String(rec.level).trim() === "") { skipped++; continue; }
+
+    /*
+     * 예전 date 는 "2026. 7. 23. 오후 1:01:56" 꼴이라 new Date() 로
+     * 되파싱되지 않는다. 그대로 두면 회차가 "2026. 7. 2" 로 잘려 엉킨다.
+     * ISO 로 풀어 timestamp·startedAt 에 넣는다.
+     */
+    var iso = parseKoreanTime(rec.date);
+    rec.timestamp = iso;
+    rec.startedAt = iso;
+    rec.kind = kindOf(rec);
+
+    out.push(head.map(function (name) {
+      var v = rec[name];
+      if (v === undefined || v === null) return "";
+      return (typeof v === "object") ? JSON.stringify(v) : v;
+    }));
+
+    var k = sessionKey(rec);
+    if (k) keys[k] = 1;
+  }
+
+  if (!out.length) return { ok: false, error: "옮길 줄이 없습니다" };
+
+  dest.getRange(dest.getLastRow() + 1, 1, out.length, head.length).setValues(out);
+
+  /* 회차 집계를 채운다 */
+  var sessions = 0;
+  for (var key in keys) { restatSession(key); sessions++; }
+
+  return {
+    ok: true,
+    from: srcName,
+    moved: out.length,
+    skipped: skipped,
+    sessions: sessions,
+    message: srcName + " 의 " + out.length + "줄을 응시기록으로 옮기고 회차 " +
+             sessions + "개를 집계했습니다. 원본은 그대로 두었습니다.",
+  };
+}
+
+/*
+ * "2026. 7. 23. 오후 1:01:56" → "2026-07-23T13:01:56+09:00"
+ * 한국어 로케일 문자열이라 Date 가 못 읽는다. 직접 뜯는다.
+ */
+function parseKoreanTime(v) {
+  if (v instanceof Date) return v.toISOString();
+
+  var s = String(v == null ? "" : v).trim();
+  if (!s) return "";
+
+  var m = s.match(
+    /(\d{4})\.\s*(\d{1,2})\.\s*(\d{1,2})\.?\s*(오전|오후)?\s*(\d{1,2}):(\d{2}):?(\d{2})?/
+  );
+  if (!m) {
+    var d = new Date(s);
+    return isNaN(d.getTime()) ? "" : d.toISOString();
+  }
+
+  var hour = Number(m[5]);
+  if (m[4] === "오후" && hour < 12) hour += 12;
+  if (m[4] === "오전" && hour === 12) hour = 0;
+
+  var p = function (x) { return String(x).padStart(2, "0"); };
+
+  return m[1] + "-" + p(m[2]) + "-" + p(m[3]) + "T" +
+         p(hour) + ":" + m[6] + ":" + p(m[7] || 0) + "+09:00";
 }
 
 /* ─────────────────────────────────────────────

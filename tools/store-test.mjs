@@ -154,3 +154,44 @@ for (const r of get({ sheet: "E02-07 채점결과" })) {
 
 console.log("\n[시트 현황]");
 for (const s of gs.sheetList()) console.log(`  ${s.name.padEnd(18)} ${s.rows}줄`);
+
+/* ── 6. 예전 시트 옮기기 ─────────────────────── */
+console.log("\n[예전 「시트1」 옮기기]");
+
+/* 예전 스크립트가 남긴 꼴 그대로 — 머리행 없음, 아홉 칸 */
+const old = new Sheet("시트1");
+sheets.set("시트1", old);
+[
+  ["2026. 7. 23. 오후 1:01:56", "김가", "Level II", "RFT", "General", 9, "불합격", "[]", "{}"],
+  ["2026. 7. 23. 오후 1:28:31", "이나", "Level II", "ECT", "General", 3, "불합격", "[]", "{}"],
+  ["2026. 7. 23. 오후 1:38:07", "박다", "Level II", "ECT", "Specific", 0, "불합격", "[]", "{}"],
+  ["2026. 7. 24. 오전 10:40:16", "최라", "Level II", "ECT", "General", 75, "합격", "[]", "{}"],
+  ["", "", "", "", "", "", "", "", ""],
+].forEach(r => old.appendRow(r));
+
+/* 이미 응시기록에 줄이 있으면 멈춰야 한다 */
+console.log("  줄이 있는 채로 : " + JSON.parse(gs.doGet({ parameter: { do: "migrate" } })).error);
+
+/* 비우고 다시 */
+const dest = sheets.get("응시기록");
+const keepHead = dest.rows[0];
+dest.rows = [keepHead];
+sheets.get("E02-07 채점결과").rows = [sheets.get("E02-07 채점결과").rows[0]];
+
+const res = JSON.parse(gs.doGet({ parameter: { do: "migrate" } }));
+console.log("  " + res.message);
+
+const moved = get();
+console.log("\n  옮긴 줄");
+for (const r of moved) {
+  console.log(`    ${r.timestamp}  ${r.name}  ${r.level} ${r.method} ${r.subject}` +
+              `  ${r.kind}  ${r.score}점  ${r.result}`);
+}
+
+console.log("\n  회차 집계");
+for (const r of get({ sheet: "E02-07 채점결과" })) {
+  console.log(`    ${r["시행일자"]}  ${r["종목"]} ${r["시험"]}  응시 ${r["응시인원"]}` +
+              `  합격 ${r["합격자"]} (${r["합격률"]}%)  ${r["응시자"]}`);
+}
+
+console.log("\n  원본 「시트1」 " + old.rows.length + "줄 — 그대로 있음");
