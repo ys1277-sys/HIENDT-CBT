@@ -17,6 +17,7 @@
  * 빈칸으로 두면 없는 것이 아니라 채운 것처럼 보인다.
  */
 import React, { useMemo, useState } from "react";
+import { BLANK_FORMS } from "./blankForms.jsx";
 import {
   buildHistory, buildSessions, expiringSoon, eyeExpiringSoon, certLogRows, ymd,
   PASS_EACH, PASS_TOTAL, RETAKE_DAYS, WARN_MONTHS,
@@ -156,7 +157,11 @@ function PersonCard({ person }) {
   );
 }
 
-function History({ results, people, onPrintSession, onPrintExpiry, onPrintCertLog, onBack }) {
+function History({
+  results, people,
+  onPrintSession, onPrintExpiry, onPrintCertLog, onPrintBlank,
+  onBack,
+}) {
   const [tab, setTab] = useState("list");
   const [search, setSearch] = useState("");
 
@@ -262,6 +267,8 @@ function History({ results, people, onPrintSession, onPrintExpiry, onPrintCertLo
         .hist-empty { padding: 30px; text-align: center; color: #6c7c87; }
 
         /* 응시자 이름이 길어지면 표를 밀어낸다. 넘치면 잘라 준다 */
+        .hist-when { color: #6c7c87; font-size: 12px; }
+
         .hist-names { max-width: 220px; color: #6c7c87; font-size: 12px;
           overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
@@ -311,6 +318,14 @@ function History({ results, people, onPrintSession, onPrintExpiry, onPrintCertLo
           회차별 채점 ({sessions.length})
         </button>
 
+        <button
+          type="button"
+          className={tab === "form" ? "on" : ""}
+          onClick={() => setTab("form")}
+        >
+          서식 ({BLANK_FORMS.length})
+        </button>
+
         {tab === "list" ? (
           <input
             type="search"
@@ -357,6 +372,42 @@ function History({ results, people, onPrintSession, onPrintExpiry, onPrintCertLo
         ) : (
           <div className="hist-empty">해당하는 사람이 없습니다.</div>
         )
+      ) : tab === "form" ? (
+        <>
+          <div className="hist-notice">
+            <b>사람이 손으로 채우는 서식입니다.</b> CBT 가 값을 모르는 것들이라
+            빈 서식으로 나옵니다. 값이 채워져 나오는 서식은 따로 있습니다 —
+            채점결과보고서(E02-07)는 「회차별 채점」, 자격증 발급대장(E03-01)은
+            「사람별 이력」, 만료 예정자 명단(E03-04)은 「만료 예정자」 탭입니다.
+          </div>
+
+          <table className="hist-soon">
+            <thead>
+              <tr>
+                <th>서식 번호</th>
+                <th>이 름</th>
+                <th>언제 쓰나</th>
+                <th>근거</th>
+                <th />
+              </tr>
+            </thead>
+            <tbody>
+              {BLANK_FORMS.map(f => (
+                <tr key={f.code}>
+                  <td className="num"><b>{f.code}</b></td>
+                  <td>{f.name}</td>
+                  <td className="hist-when">{f.when}</td>
+                  <td className="num">{f.basis}</td>
+                  <td>
+                    <button type="button" onClick={() => onPrintBlank(f.code)}>
+                      출력
+                    </button>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </>
       ) : tab === "session" ? (
         sessions.length ? (
           <table className="hist-soon">

@@ -1632,8 +1632,8 @@ body.paper-preview .print-area {
 }
 
 .rp-sec {
-  margin: 2.4mm 0 1mm;
-  font-size: 9.5pt;
+  margin: 2mm 0 0.9mm;
+  font-size: 9pt;
   font-weight: 700;
 }
 
@@ -1701,11 +1701,11 @@ body.paper-preview .print-area {
 .rp-sum td.b { font-weight: 700; }
 
 .rp-quote {
-  margin-top: 2mm;
-  padding: 1.8mm 2.5mm;
+  margin-top: 1.5mm;
+  padding: 1.4mm 2.5mm;
 
-  font-size: 8pt;
-  line-height: 1.5;
+  font-size: 7.5pt;
+  line-height: 1.45;
 
   border-left: 0.8mm solid #999;
   background: #f6f6f6;
@@ -1796,7 +1796,7 @@ body.paper-preview .print-area {
  */
 .rp-sign {
   width: 100%;
-  margin-top: 4mm;
+  margin-top: 3mm;
 
   border-collapse: collapse;
   table-layout: fixed;
@@ -1804,7 +1804,7 @@ body.paper-preview .print-area {
 
 .rp-sign th,
 .rp-sign td {
-  padding: 1mm 2mm;
+  padding: 0.7mm 2mm;
 
   border: 0.2mm solid #000;
 
@@ -1825,5 +1825,173 @@ body.paper-preview .print-area {
 
 /* 이름과 서명을 손으로 적을 자리 */
 .rp-sign .rp-signrow td {
-  height: 12mm;
+  height: 9mm;
+}
+
+/* ---------------------------------------------------------
+   손으로 채우는 서식들 (blankForms.jsx)
+
+   머리·꼬리는 .rp-* 를 그대로 쓴다. 여기는 서식마다 다른 칸
+   너비와, 이 서식들에만 있는 조각이다.
+   내용 폭은 190mm - 좌우 12mm = 166mm 다.
+   --------------------------------------------------------- */
+
+/* 괄호로 곁들이는 말 */
+.rp-hint {
+  margin-left: 2mm;
+  font-size: 7pt;
+  color: #333;
+}
+
+/* 표 밖에 한 줄 적는 자리 */
+.rp-line {
+  margin-top: 1.5mm;
+  font-size: 8pt;
+}
+
+/* 손으로 적을 자리를 남기는 줄 */
+.rp-tall td { height: 6.5mm; }
+.rp-tall2 td { height: 10mm; }
+
+/* 소속·성명·서명 확인표 */
+.rp-people th,
+.rp-people td { padding: 0.7mm 2mm; font-size: 8pt; }
+.rp-people .p1 { width: 45mm; }
+.rp-people .p3 { width: 30mm; }
+.rp-people .p4 { width: 32mm; }
+.rp-people .p5 { width: 26mm; }
+
+/* 응시자 명단 — 열한 칸 */
+/*
+ * 응시자 명단은 열한 칸에 열 줄이다. 게다가 「해당없음/확인」과
+ * 「신규/재자격」이 세로로 쌓여 줄마다 두 줄 높이가 된다. 그대로 두면
+ * 종이에 1mm 밖에 안 남는다. 이 표 안에서만 더 조인다.
+ */
+.rp-cand th,
+.rp-cand td { padding: 0.5mm 1mm; font-size: 6.5pt; }
+
+.rp-cand .rp-box {
+  font-size: 6pt;
+  line-height: 1.15;
+}
+.rp-cand .n1 { width: 7mm; }
+.rp-cand .n2 { width: 15mm; }
+.rp-cand .n3 { width: 15mm; }
+.rp-cand .n4 { width: 15mm; }
+.rp-cand .n5 { width: 9mm; }
+.rp-cand .n6 { width: 15mm; }
+.rp-cand .n7 { width: 11mm; }
+.rp-cand .n8 { width: 17mm; }
+.rp-cand .n9 { width: 20mm; }
+.rp-cand .n10 { width: 22mm; }
+.rp-cand .n11 { width: 20mm; }
+
+/* 확인란(✔)이 붙는 점검표 */
+.rp-check th,
+.rp-check td { padding: 0.7mm 2mm; font-size: 7.5pt; }
+.rp-check .k1 { width: 12mm; }
+.rp-check .k2 { width: 32mm; }
+.rp-check .k4 { width: 18mm; }
+.rp-check .k5 { width: 40mm; }
+
+/* 번호를 매긴 조항 */
+.rp-list {
+  margin: 1mm 0 0;
+  padding-left: 7mm;
+
+  font-size: 8.5pt;
+  line-height: 1.55;
+}
+
+.rp-list li { margin-bottom: 1.2mm; }
+
+.rp-body {
+  margin-top: 1mm;
+  font-size: 8.5pt;
+  line-height: 1.55;
+}
+
+/* 「위 사항을 공지받고 …」 */
+.rp-confirm {
+  margin: 6mm 0 2mm;
+  padding-top: 3mm;
+
+  font-size: 9pt;
+  font-weight: 700;
+  text-align: center;
+
+  border-top: 0.3mm solid #000;
+}
+
+/* 응시자 서명표 — 다섯 줄씩 두 벌 */
+.rp-sig2 th,
+.rp-sig2 td { padding: 1mm 2mm; }
+.rp-sig2 .s1 { width: 10mm; }
+.rp-sig2 .s2 { width: 25mm; }
+.rp-sig2 .s3 { width: 48mm; }
+
+/* 폐기 대장 */
+.rp-disp th,
+.rp-disp td { padding: 1mm 1.4mm; font-size: 7.5pt; }
+.rp-disp .d1 { width: 7mm; }
+.rp-disp .d2 { width: 32mm; }
+.rp-disp .d3 { width: 20mm; }
+.rp-disp .d4 { width: 12mm; }
+.rp-disp .d5 { width: 22mm; }
+.rp-disp .d6 { width: 26mm; }
+
+/* 문제은행 접근 기록 */
+.rp-access th,
+.rp-access td { padding: 1mm 1.2mm; font-size: 7pt; }
+.rp-access .a1 { width: 7mm; }
+.rp-access .a2 { width: 18mm; }
+.rp-access .a3 { width: 22mm; }
+.rp-access .a4 { width: 24mm; }
+.rp-access .a5 { width: 30mm; }
+.rp-access .a6 { width: 22mm; }
+.rp-access .a7 { width: 25mm; }
+.rp-access .a8 { width: 18mm; }
+
+.rp-backup th,
+.rp-backup td { padding: 1mm 1.4mm; font-size: 7.5pt; }
+.rp-backup .b1 { width: 7mm; }
+.rp-backup .b2 { width: 20mm; }
+.rp-backup .b3 { width: 22mm; }
+
+/* 재발급 대장 */
+.rp-reissue th,
+.rp-reissue td { padding: 1mm 1.1mm; font-size: 7pt; }
+.rp-reissue .r1 { width: 7mm; }
+.rp-reissue .r2 { width: 17mm; }
+.rp-reissue .r3 { width: 15mm; }
+.rp-reissue .r4 { width: 10mm; }
+.rp-reissue .r5 { width: 15mm; }
+.rp-reissue .r6 { width: 26mm; }
+
+/*
+ * 신청서의 맺음말.
+ * 「위와 같이 신청합니다 → 날짜 → 신청인 서명 → 받는 이」 순서로
+ * 가운데 놓는 것이 이런 서식의 관례다.
+ */
+.rp-apply {
+  margin: 5mm 0 3mm;
+  padding-top: 4mm;
+
+  font-size: 9pt;
+  text-align: center;
+
+  border-top: 0.3mm solid #000;
+}
+
+.rp-apply-date { margin-top: 4mm; }
+
+.rp-apply-sign {
+  margin-top: 4mm;
+  font-weight: 700;
+}
+
+.rp-apply-to {
+  margin-top: 5mm;
+  font-size: 9.5pt;
+  font-weight: 700;
 }

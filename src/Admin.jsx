@@ -3,6 +3,7 @@ import PrintAdminExam from "./PrintAdminExam.jsx";
 import PrintScoreReport from "./PrintScoreReport.jsx";
 import PrintExpirySchedule from "./PrintExpirySchedule.jsx";
 import PrintCertLog from "./PrintCertLog.jsx";
+import { BlankForm } from "./blankForms.jsx";
 import History from "./History.jsx";
 import { openPaper } from "./paperPreview.js";
 
@@ -397,6 +398,7 @@ function Admin({ onBack }) {
           onPrintSession={(session) => printForm("E02-07", session)}
           onPrintExpiry={(data) => printForm("E03-04", data)}
           onPrintCertLog={(rows) => printForm("E03-01", rows)}
+          onPrintBlank={(code) => printForm("blank", code)}
         />
       ) : null}
 
@@ -419,6 +421,13 @@ function Admin({ onBack }) {
       {report && report.kind === "E03-01" ? (
         <PrintCertLog
           rows={report.data}
+          onReady={() => setReportReady(true)}
+        />
+      ) : null}
+
+      {report && report.kind === "blank" ? (
+        <BlankForm
+          code={report.data}
           onReady={() => setReportReady(true)}
         />
       ) : null}

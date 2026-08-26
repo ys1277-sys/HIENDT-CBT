@@ -10,6 +10,7 @@ import History from "./History.jsx";
 import PrintScoreReport from "./PrintScoreReport.jsx";
 import PrintExpirySchedule from "./PrintExpirySchedule.jsx";
 import PrintCertLog from "./PrintCertLog.jsx";
+import { BlankForm, BLANK_FORMS } from "./blankForms.jsx";
 import { buildHistory, buildSessions, expiringSoon, eyeExpiringSoon, certLogRows } from "./history.js";
 
 const 기록 = [
@@ -86,4 +87,41 @@ export const CertLogPreview = onPaper(() => {
   const today = new Date(2026, 7, 26);
   const h = buildHistory(기록, 명부, today);
   return <PrintCertLog rows={certLogRows(h)} />;
+});
+
+/* ?preview=form&code=… — 손으로 채우는 서식 한 벌 */
+export const BlankFormPreview = onPaper(() => {
+  const want = new URLSearchParams(window.location.search).get("code");
+
+  /* code 를 안 주면 전부 그린다 — 한 번에 종이 넘침을 확인하려는 것이다 */
+  if (!want) {
+    return (
+      <>
+        {BLANK_FORMS.map(f => (
+          <BlankForm key={f.code} code={f.code} />
+        ))}
+      </>
+    );
+  }
+  return <BlankForm code={want} />;
+});
+
+/* ?preview=all — 값이 채워지는 서식 셋을 한 번에. 종이 넘침 확인용 */
+export const AllFormsPreview = onPaper(() => {
+  const today = new Date(2026, 7, 26);
+  const h = buildHistory(기록, 명부, today);
+  const sessions = buildSessions(기록, 명부);
+  return (
+    <>
+      {sessions.slice(0, 2).map(g => (
+        <PrintScoreReport key={g.key} session={g} />
+      ))}
+      <PrintExpirySchedule
+        certRows={expiringSoon(h, today)}
+        eyeRows={eyeExpiringSoon(h, today)}
+        today={today}
+      />
+      <PrintCertLog rows={certLogRows(h)} />
+    </>
+  );
 });
