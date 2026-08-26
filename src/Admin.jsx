@@ -103,6 +103,36 @@ function Admin({ onBack }) {
     setReport({ kind, data });
   }
 
+  /*
+   * 기록 저장소에 올리기.
+   *
+   * 발급대장(E03-01)과 만료 예정자(E03-04)는 이력 화면이 계산한 값이다.
+   * 화면은 열 때마다 다시 계산하지만, "2026년 8월에 누가 만료 예정이었나"
+   * 는 그때 올려 둬야 남는다 (E02 7.10 기록).
+   *
+   * 저장소는 사람이 적은 칸(발급일자·수령확인·통보일자)을 건드리지 않는다.
+   * (docs/Code.gs 의 upsert)
+   */
+  const [syncState, setSyncState] = useState("");
+
+  function sendSync(payload) {
+    setSyncState("sending");
+
+    fetch(SHEET_URL, { method: "POST", body: JSON.stringify(payload) })
+      .then((res) => {
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        return res.text();
+      })
+      .then((text) => {
+        console.log("기록 저장소 갱신:", text);
+        setSyncState("ok");
+      })
+      .catch((err) => {
+        console.error("기록 저장소 갱신 실패:", err);
+        setSyncState("failed");
+      });
+  }
+
   // =====================================================
   // Google Sheet 결과 불러오기
   // =====================================================
@@ -399,6 +429,8 @@ function Admin({ onBack }) {
           onPrintExpiry={(data) => printForm("E03-04", data)}
           onPrintCertLog={(rows) => printForm("E03-01", rows)}
           onPrintBlank={(code) => printForm("blank", code)}
+          onSync={sendSync}
+          syncState={syncState}
         />
       ) : null}
 

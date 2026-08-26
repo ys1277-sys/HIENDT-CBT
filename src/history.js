@@ -645,3 +645,67 @@ export function certLogRows(history) {
 
   return rows;
 }
+
+/*
+ * 기록 저장소에 올릴 꾸러미.
+ *
+ * 발급대장(E03-01)과 만료 예정자(E03-04)는 응시 결과에서 바로 나오지
+ * 않는다 — 종합점수 판정, 만료일 계산, 요원 명부가 함께 있어야 한다.
+ * 그 계산은 여기서만 하고 저장소는 받은 줄을 얹기만 한다.
+ * 같은 계산을 Apps Script 에도 두면 언젠가 둘이 어긋난다.
+ *
+ * 열쇠(key)는 저장소가 같은 줄을 다시 찾는 데 쓴다. 사람이 적어 둔
+ * 칸(발급일자·수령확인·통보일자)을 지우지 않고 갱신하기 위한 것이다.
+ */
+export function syncPayload(history, today = new Date()) {
+  const asOf = ymd(today);
+
+  const certLog = certLogRows(history).map(r => ({
+    key: `${r.name}|${r.level}|${r.method}`,
+    name: r.name,
+    empNo: r.empNo,
+    dept: r.dept,
+    level: r.level,
+    method: r.method,
+    certifiedAt: ymd(r.certifiedAt),
+    expiry: ymd(r.expiry),
+    guessed: r.guessed,
+    needsUT: r.needsUT,
+    utOk: r.utOk,
+  }));
+
+  /* 자격 만료와 시력검사 만료를 한 목록에 담되 구분을 붙인다 */
+  const expiry = [
+    ...expiringSoon(history, today).map(r => ({
+      key: `${asOf}|자격|${r.name}|${r.level}|${r.method}`,
+      asOf,
+      kind: "자격",
+      name: r.name,
+      empNo: (history.find(p => p.name === r.name)?.person || {}).empNo || "",
+      dept: r.dept,
+      level: r.level,
+      method: r.method,
+      certifiedAt: ymd(r.certifiedAt),
+      expiry: ymd(r.expiry),
+      daysLeft: r.daysLeft,
+      state: r.state,
+    })),
+
+    ...eyeExpiringSoon(history, today).map(r => ({
+      key: `${asOf}|시력|${r.name}`,
+      asOf,
+      kind: "시력검사",
+      name: r.name,
+      empNo: r.empNo,
+      dept: r.dept,
+      level: "",
+      method: "",
+      certifiedAt: ymd(r.examDate),
+      expiry: ymd(r.expiry),
+      daysLeft: r.daysLeft,
+      state: r.state,
+    })),
+  ];
+
+  return { type: "sync", asOf, certLog, expiry };
+}

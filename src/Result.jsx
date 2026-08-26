@@ -130,6 +130,12 @@ function Result({
 
     return {
 
+      /*
+       * 저장소가 이 값으로 무엇을 하는 요청인지 가른다.
+       * (docs/Code.gs 의 doPost)
+       */
+      type: "exam",
+
       name,
 
       level,

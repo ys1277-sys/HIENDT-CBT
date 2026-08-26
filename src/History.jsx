@@ -19,7 +19,8 @@
 import React, { useMemo, useState } from "react";
 import { BLANK_FORMS } from "./blankForms.jsx";
 import {
-  buildHistory, buildSessions, expiringSoon, eyeExpiringSoon, certLogRows, ymd,
+  buildHistory, buildSessions, expiringSoon, eyeExpiringSoon, certLogRows,
+  syncPayload, ymd,
   PASS_EACH, PASS_TOTAL, RETAKE_DAYS, WARN_MONTHS,
   requiredKinds,
 } from "./history.js";
@@ -160,6 +161,7 @@ function PersonCard({ person }) {
 function History({
   results, people,
   onPrintSession, onPrintExpiry, onPrintCertLog, onPrintBlank,
+  onSync, syncState,
   onBack,
 }) {
   const [tab, setTab] = useState("list");
@@ -215,6 +217,14 @@ function History({
         .hist-top button.on { background: #3a6df0; color: #fff; }
 
         /* 명부가 없으면 반쪽 계산이다. 그 사실을 감추지 않는다 */
+        .hist-sync { background: #1c7a4a !important; color: #fff !important;
+          border-color: #1c7a4a !important; }
+        .hist-sync:disabled { opacity: .6; cursor: default; }
+
+        .hist-done { padding: 11px 14px; margin-bottom: 16px;
+          background: #e6f4ec; border: 1px solid #a9d5bd; border-radius: 6px;
+          font-size: 13px; line-height: 1.6; color: #14532d; }
+
         .hist-notice { padding: 11px 14px; margin-bottom: 16px;
           background: #f6eedd; border: 1px solid #e0c58a; border-radius: 6px;
           font-size: 13px; line-height: 1.6; color: #5c3b00; }
@@ -350,17 +360,49 @@ function History({
           </button>
         ) : null}
 
+        {/*
+          발급대장과 만료 예정자는 이 화면이 계산한 것이다. 저장소에
+          올려 두어야 기록으로 남는다 — 화면은 열 때마다 다시 계산하지만
+          "2026년 8월에 누가 만료 예정이었나" 는 남겨야 알 수 있다.
+        */}
+        {onSync ? (
+          <button
+            type="button"
+            className="hist-sync"
+            disabled={syncState === "sending"}
+            onClick={() => onSync(syncPayload(history, today))}
+          >
+            {syncState === "sending" ? "올리는 중…" : "기록 저장소에 올리기"}
+          </button>
+        ) : null}
+
         {onBack ? (
           <button type="button" onClick={onBack}>돌아가기</button>
         ) : null}
       </div>
+
+      {syncState === "ok" ? (
+        <div className="hist-done">
+          기록 저장소에 올렸습니다. 스프레드시트의{" "}
+          <b>E03-01 발급대장</b> 과 <b>E03-04 만료예정</b> 시트에서 볼 수 있습니다.
+          발급일자·수령확인처럼 사람이 적은 칸은 그대로 두었습니다.
+        </div>
+      ) : null}
+
+      {syncState === "failed" ? (
+        <div className="hist-notice">
+          <b>올리지 못했습니다.</b> 저장소 주소나 인터넷 연결을 확인해 주세요.
+          올리지 못해도 화면의 값은 그대로입니다 — 이 화면은 응시 기록에서
+          그때그때 계산합니다.
+        </div>
+      ) : null}
 
       {noMaster ? (
         <div className="hist-notice">
           <b>요원 명부가 없어 응시 기록만으로 냈습니다.</b> 인증일자는 필기를
           모두 채운 날로 어림했고(「어림」 표시), 시력검사·소속·학력·경력은
           비어 있습니다. 명부를 붙이면 E03 8.2.1 이 요구하는 항목까지
-          채워집니다 — 붙이는 방법은 <code>docs/시트-연동.md</code> 에 있습니다.
+          채워집니다 — 만드는 법은 <code>docs/기록-저장소.md</code> 에 있습니다.
         </div>
       ) : null}
 
