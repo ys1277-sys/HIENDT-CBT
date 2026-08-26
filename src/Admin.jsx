@@ -8,14 +8,18 @@ import History from "./History.jsx";
 import { openPaper } from "./paperPreview.js";
 
 /*
- * 응시 기록과 요원 명부를 담아 둔 곳.
+ * 기록 저장소.
  *
- * 기록은 Result.jsx 가 여기로 보내고 관리자 화면이 여기서 읽는다.
- * "?sheet=people" 을 붙이면 요원 명부를 준다 — 시트를 아직 안 만들었으면
- * 안 준다. 붙이는 방법은 docs/시트-연동.md 에 있다.
+ * 스프레드시트 하나가 규칙이 정한 기록 한 벌이다 — 시트 하나가 서식
+ * 하나다 (E02 7.10.3, E03 9.0). 응시 결과는 Result.jsx 가 보내고,
+ * 발급대장·만료 예정자는 이력 화면에서 올린다.
+ *
+ * 주소는 Apps Script 배포에 매인다. 2026-08-26 에 새로 배포하면서
+ * 바뀌었다 — 예전 주소(AKfycbxs_…)는 예전 코드가 도는 배포라 쓰면 안 된다.
+ * 만드는 법은 docs/기록-저장소.md 에 있다.
  */
 const SHEET_URL =
-  "https://script.google.com/macros/s/AKfycbxs_whBI5KfBxKaDreav9PL3_rHX847OdwwLtc8uwMIN9fVOAozGHdpzXmQRsa7PO6i/exec";
+  "https://script.google.com/macros/s/AKfycbw7elHIQs74-8Q17YV2AtFVdpMauqP_t_0ZUIqXCe9B7J9vGnEq1iLYwfvWpKks3wDA/exec";
 
 /*
  * 응시 시작 ~ 종료를 한 칸에 적는다.
