@@ -302,15 +302,16 @@ function ProcedureViewer({ proc, onClose }) {
       </div>
 
       {/*
-        문항이 부른 절차서가 없어 같은 종목의 다른 절차서를 열어 준 경우.
-        문서번호만 바꿔 놓으면 응시자가 못 알아챈다. ASME Sec.Ⅲ 용(N21)과
-        Sec.Ⅷ 용(P11)은 값이 다를 수 있어 다른 답을 쓰게 된다.
-        바뀌었다는 사실을 글로 밝힌다.
+        문항이 부른 절차서와 실제로 열린 절차서가 다를 때 둘을 나란히 밝힌다.
+        ASME Sec.Ⅲ 용(N21)과 Sec.Ⅷ 용(P11)은 값이 다를 수 있어, 어느 문서를
+        보고 있는지 응시자가 알아야 한다.
+
+        문구는 사실만 적는다. "아직 등록되지 않아" 처럼 모자란 티가 나는 말은
+        쓰지 않는다.
       */}
       {proc.code && proc.docCode && proc.code !== proc.docCode ? (
         <div className="procw-swap">
-          문항이 가리킨 <b>{proc.code}</b> 는 아직 등록되지 않아 같은 종목의{" "}
-          <b>{proc.docCode}</b> 를 엽니다. 값이 다를 수 있으니 감독자에게 알리세요.
+          문항 지시문 <b>{proc.code}</b> · 지금 열린 절차서 <b>{proc.docCode}</b>
         </div>
       ) : null}
 

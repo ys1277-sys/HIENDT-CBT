@@ -1380,17 +1380,18 @@
 }
 
 /*
-   부른 절차서가 없어 같은 종목의 다른 절차서를 붙였다는 알림.
-   인쇄물에서도 응시자가 알아야 한다.
+   문항이 부른 절차서와 실제로 붙은 절차서를 나란히 밝히는 줄.
+   테두리를 두르면 경고처럼 보인다. 밑줄 하나로 조용히 둔다.
 */
 .procedure-swap {
-  margin: 2mm 0 1mm;
-  padding: 1.5mm 2mm;
+  margin: 1mm 0 1.5mm;
+  padding: 0 0 1mm;
 
-  font-size: 8pt;
+  font-size: 7.5pt;
   line-height: 1.4;
+  color: #555;
 
-  border: 0.3mm solid #000;
+  border-bottom: 0.2mm solid #bbb;
 }
 
 /*

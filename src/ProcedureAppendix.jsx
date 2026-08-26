@@ -111,13 +111,13 @@ function ProcedureAppendix({ procs, onPageSettled, startPage = 1, header }) {
               </div>
 
               {/*
-                부른 절차서가 없어 같은 종목의 다른 절차서를 붙인 경우.
-                ASME Sec.Ⅲ 용(N21)과 Sec.Ⅷ 용(P11)은 값이 다를 수 있다.
+                문항이 부른 절차서와 실제로 붙은 절차서가 다를 때 둘을 나란히
+                밝힌다. ASME Sec.Ⅲ 용(N21)과 Sec.Ⅷ 용(P11)은 값이 다를 수 있다.
+                사실만 적고 모자란 티가 나는 말은 쓰지 않는다.
               */}
               {proc.code && proc.docCode && proc.code !== proc.docCode ? (
                 <div className="procedure-swap">
-                  ※ 문항이 가리킨 {proc.code} 는 등록되어 있지 않아 같은 종목의{" "}
-                  {proc.docCode} 를 붙였습니다. 값이 다를 수 있습니다.
+                  ※ 문항 지시문 {proc.code} · 이 부록 {proc.docCode}
                 </div>
               ) : null}
 
