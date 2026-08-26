@@ -121,7 +121,7 @@ function Result({
 
 
   const SHEET_URL =
-    "https://script.google.com/macros/s/AKfycbwLEqjVHiKD9D5HHs4IWhgQj25wvXb5qt7r4vKJ1_oq33orPXc_Tfdt3t6Z6aw3ogw3/exec";
+    "https://script.google.com/macros/s/AKfycbxos_9mG8dlc9a6ccSDZJr8O8vrxuAxITYa8VNX8jJmiNld8jJ-FYBtfUaPJU3EGlL1/exec";
 
 
   function buildRecord() {
