@@ -47,7 +47,9 @@
       "title": "Ultrasonic Examination(TOFD) PROCEDURE",
       "titleKo": "초음파탐상검사(TOFD) 절차서",
       "rev": "Rev.2",
-      "doc": "HIE-NDT-TOFD-U09.json"
+      "doc": "HIE-NDT-TOFD-U09.json",
+      "docCode": "HIE-NDT-TOFD-U09",
+      "note": "TOFD 문항 지시문이 부르는 이름. 실제 문서번호는 HIE-NDT-TOFD-U09 다."
     },
     "HIE-NDT-UT-P11": {
       "title": "ULTRASONIC EXAMINATION PROCEDURE",

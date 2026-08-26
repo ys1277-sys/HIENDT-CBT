@@ -99,8 +99,15 @@ export function pickProcedures(manifest, questions) {
       key,
       /* 문항이 부르는 이름. 지시문에서 눌리는 글자가 된다 */
       code,
-      /* 실제로 열리는 문서. 갈래가 달라도 과목이 같으면 이것을 연다 */
-      docCode: key,
+      /*
+       * 실제로 열리는 문서번호.
+       *
+       * 보통은 목록의 열쇠가 곧 문서번호다. 다만 문항 지시문이 실제와
+       * 다른 번호를 부르는 경우가 있다 — TOFD 문항이 HIE-NDT-P11 을
+       * 부르는데 그 절차서의 문서번호는 HIE-NDT-TOFD-U09 다. 그럴 때
+       * 목록에 docCode 를 적어 두면 화면에 진짜 번호가 뜬다.
+       */
+      docCode: item.docCode || key,
       title: item.title || key,
       titleKo: item.titleKo || "",
       rev: item.rev || "",
