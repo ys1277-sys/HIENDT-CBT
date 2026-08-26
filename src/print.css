@@ -1540,3 +1540,147 @@ body.paper-preview .print-area {
 
   cursor: pointer;
 }
+
+
+/* =========================================================
+   채점결과보고서 — HIE-QP-E02-07  (PrintScoreReport.jsx)
+
+   E02 7.7.6 이 채점 뒤에 작성하도록 정한 서식이다.
+   한 장에 자격 단위 하나를 담는다.
+   ========================================================= */
+
+.report-paper {
+  padding: 14mm 14mm 12mm;
+  font-size: 10pt;
+  line-height: 1.5;
+}
+
+.report-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  padding-bottom: 3mm;
+  margin-bottom: 6mm;
+
+  border-bottom: 0.6mm solid #000;
+}
+
+.report-title {
+  font-size: 17pt;
+  font-weight: 700;
+  letter-spacing: 0.5mm;
+}
+
+/* 영문 이름은 한글 제목 밑에 작게 붙인다 */
+.report-title span {
+  display: block;
+  margin-top: 1mm;
+
+  font-size: 8pt;
+  font-weight: 400;
+  letter-spacing: 0.2mm;
+}
+
+.report-code {
+  font-size: 9.5pt;
+  font-weight: 700;
+}
+
+.report-section {
+  margin: 6mm 0 2mm;
+  font-size: 11pt;
+  font-weight: 700;
+}
+
+.report-who,
+.report-grid {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.report-who th,
+.report-who td,
+.report-grid th,
+.report-grid td {
+  padding: 2mm 2.5mm;
+  border: 0.2mm solid #000;
+  font-size: 9.5pt;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.report-who th,
+.report-grid th {
+  background: #eee;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.report-who th { width: 26mm; }
+
+.report-grid th,
+.report-grid td:not(:first-child) {
+  text-align: center;
+}
+
+.report-grid .strong { font-weight: 700; }
+
+/* 종합점수 줄. 여기가 판정이므로 한 눈에 걸려야 한다 */
+.report-total td {
+  background: #eee;
+  font-weight: 700;
+}
+
+.report-note {
+  margin-top: 2mm;
+  font-size: 8.5pt;
+  line-height: 1.6;
+}
+
+.report-guess { font-size: 8pt; }
+
+/*
+ * 서명란.
+ *
+ * 비워 둔 채로 인쇄된다. 채점은 CBT 가 해도 확인과 승인은 사람이
+ * 하므로(E02 7.7.2, 7.9.2) 시스템이 채우면 안 된다.
+ */
+.report-sign {
+  display: flex;
+  gap: 4mm;
+
+  margin-top: 10mm;
+}
+
+.report-sign > div {
+  flex: 1;
+  border: 0.2mm solid #000;
+}
+
+.report-sign-label {
+  display: block;
+  padding: 2mm;
+
+  font-size: 8.5pt;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: center;
+
+  background: #eee;
+  border-bottom: 0.2mm solid #000;
+}
+
+.report-sign-box {
+  display: block;
+  height: 18mm;
+}
+
+.report-sign-date {
+  display: block;
+  padding: 1.5mm 2mm;
+
+  font-size: 8pt;
+
+  border-top: 0.2mm solid #000;
+}

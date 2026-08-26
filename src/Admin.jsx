@@ -1,6 +1,18 @@
 import React, { useEffect, useState } from "react";
 import PrintAdminExam from "./PrintAdminExam.jsx";
+import PrintScoreReport from "./PrintScoreReport.jsx";
+import History from "./History.jsx";
 import { openPaper } from "./paperPreview.js";
+
+/*
+ * 응시 기록과 요원 명부를 담아 둔 곳.
+ *
+ * 기록은 Result.jsx 가 여기로 보내고 관리자 화면이 여기서 읽는다.
+ * "?sheet=people" 을 붙이면 요원 명부를 준다 — 시트를 아직 안 만들었으면
+ * 안 준다. 붙이는 방법은 docs/시트-연동.md 에 있다.
+ */
+const SHEET_URL =
+  "https://script.google.com/macros/s/AKfycbxs_whBI5KfBxKaDreav9PL3_rHX847OdwwLtc8uwMIN9fVOAozGHdpzXmQRsa7PO6i/exec";
 
 /*
  * 응시 시작 ~ 종료를 한 칸에 적는다.
@@ -61,13 +73,30 @@ function Admin({ onBack }) {
   const [filterMethod, setFilterMethod] = useState("");
   const [sortScore, setSortScore] = useState(false);
 
+  /* 응시 기록 목록 / 자격 이력 */
+  const [view, setView] = useState("results");
+
+  /*
+   * 요원 명부.
+   *
+   * 응시 기록만으로는 E03 8.2.1 이 요구하는 항목을 채울 수 없다 —
+   * 시력검사일, 소속, 자격인정 일자는 시험을 쳐서 나오는 값이 아니다.
+   * 같은 스프레드시트의 "요원" 시트에서 읽어 온다.
+   *
+   * 없어도 된다. 그때는 응시 기록만으로 낼 수 있는 데까지만 내고
+   * 이력 화면이 그 사실을 밝힌다.
+   */
+  const [people, setPeople] = useState([]);
+
+  /* 채점결과보고서(E02-07)로 뽑을 대상 */
+  const [report, setReport] = useState(null);
+  const [reportReady, setReportReady] = useState(false);
+
   // =====================================================
   // Google Sheet 결과 불러오기
   // =====================================================
   useEffect(() => {
-    fetch(
-      "https://script.google.com/macros/s/AKfycbxs_whBI5KfBxKaDreav9PL3_rHX847OdwwLtc8uwMIN9fVOAozGHdpzXmQRsa7PO6i/exec"
-    )
+    fetch(SHEET_URL)
       .then((res) => {
         if (!res.ok) {
           throw new Error("HTTP error " + res.status);
@@ -93,6 +122,35 @@ function Admin({ onBack }) {
         setLoading(false);
       });
   }, []);
+
+  /*
+   * 요원 명부를 읽는다.
+   *
+   * 아직 시트를 안 만들었으면 실패한다. 그것이 정상이므로 조용히
+   * 빈 명부로 둔다. 여기서 alert 를 띄우면 명부를 안 쓰는 사람에게
+   * 매번 경고가 뜬다.
+   */
+  useEffect(() => {
+    fetch(SHEET_URL + "?sheet=people")
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        if (Array.isArray(data)) {
+          setPeople(data);
+          console.log("요원 명부:", data.length + "명");
+        }
+      })
+      .catch(() => {
+        console.log("요원 명부 없음 — 응시 기록만으로 이력을 냅니다");
+      });
+  }, []);
+
+  /* 채점결과보고서가 다 그려지면 인쇄한다 */
+  useEffect(() => {
+    if (!report || !reportReady) return;
+
+    const timer = setTimeout(() => openPaper(), 200);
+    return () => clearTimeout(timer);
+  }, [report, reportReady]);
 
   // =====================================================
   // 인쇄 실행
@@ -316,11 +374,40 @@ function Admin({ onBack }) {
         }
       `}</style>
 
-      <div className="admin-wrap">
+      {/*
+        자격 이력 화면.
+        응시 기록 목록이 "무슨 시험을 쳤나" 라면 이쪽은 "이 사람 자격이
+        지금 어떤가" 다. E02 7.10 · E03 6.0 이 요구하는 쪽이다.
+      */}
+      {view === "history" ? (
+        <History
+          results={results}
+          people={people}
+          onBack={() => setView("results")}
+          onPrintUnit={(person, unit) => {
+            setReportReady(false);
+            setReport({ person, unit });
+          }}
+        />
+      ) : null}
+
+      {report ? (
+        <PrintScoreReport
+          person={report.person}
+          unit={report.unit}
+          onReady={() => setReportReady(true)}
+        />
+      ) : null}
+
+      <div className="admin-wrap" hidden={view === "history"}>
         {/* =================================================
             관리자 검색 / 필터
         ================================================= */}
         <div className="admin-controls">
+          <button type="button" onClick={() => setView("history")}>
+            자격 이력
+          </button>
+
           <input
             type="text"
             placeholder="응시자 검색"
