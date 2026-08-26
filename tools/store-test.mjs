@@ -18,6 +18,7 @@ class Sheet {
   getLastRow() { return this.rows.length; }
   getLastColumn() { return this.rows.reduce((m, r) => Math.max(m, r.length), 0); }
   appendRow(r) { this.rows.push([...r]); }
+  deleteRows(from, count) { this.rows.splice(from - 1, count); }
   setFrozenRows() {}
   getRange(r, c, nr = 1, nc = 1) {
     const sh = this;
@@ -70,7 +71,7 @@ globalThis.Logger = { log: () => {} };
 
 /* ── 스크립트 싣기 ─────────────────────────── */
 const src = fs.readFileSync(new URL("../docs/Code.gs", import.meta.url), "utf8");
-new Function(src + "\nglobalThis.__gs = {setup, doPost, doGet, sheetList};")();
+new Function(src + "\nglobalThis.__gs = {setup, doPost, doGet, sheetList, clearExams};")();
 const gs = globalThis.__gs;
 
 const post = o => JSON.parse(gs.doPost({ postData: { contents: JSON.stringify(o) } }));
@@ -195,3 +196,29 @@ for (const r of get({ sheet: "E02-07 채점결과" })) {
 }
 
 console.log("\n  원본 「시트1」 " + old.rows.length + "줄 — 그대로 있음");
+
+/* 요원 명부에 한 줄 — 비우기가 이걸 건드리지 않아야 한다 */
+sheets.get("요원").appendRow(["홍길동", "검사1팀"]);
+
+/* ── 7. 시험 삼아 친 기록 비우기 ─────────────── */
+console.log("\n[비우기 — 뜻을 밝히기 전에는 세어만 준다]");
+
+const dry = JSON.parse(gs.doGet({ parameter: { do: "clear" } }));
+console.log("  " + dry.message);
+console.log("  결과 : " + (dry.ok ? "★ 지워 버렸다" : "안 지웠다 (맞음)"));
+
+const wasThere = gs.sheetList().filter(s => s.rows).map(s => `${s.name} ${s.rows}`).join(", ");
+console.log("\n  비우기 전 : " + wasThere);
+
+console.log("\n[정말 비우기 — confirm=yes]");
+const done = JSON.parse(gs.doGet({ parameter: { do: "clear", confirm: "yes" } }));
+console.log("  " + done.message);
+
+const after = gs.sheetList().filter(s => s.rows).map(s => `${s.name} ${s.rows}`).join(", ");
+console.log("\n  비운 뒤   : " + (after || "전부 비었음"));
+
+const head = sheets.get("응시기록").rows[0] || [];
+console.log("\n  응시기록 머리행 " + head.length + "칸 " + (head.length ? "남음 (맞음)" : "★ 사라졌다"));
+/* 머리행 1 + 넣어 둔 1 = 2 줄이 그대로 있어야 한다 */
+console.log("  요원 명부 " + sheets.get("요원").rows.length + "줄 " +
+            (sheets.get("요원").rows.length === 2 ? "그대로 (맞음)" : "★ 건드렸다"));

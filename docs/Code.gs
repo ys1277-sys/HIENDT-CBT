@@ -365,6 +365,7 @@ function doGet(e) {
   /* 시트를 실수로 지웠거나 머리행을 바꿨을 때 다시 훑는다 */
   if (todo === "setup") return json({ ok: true, message: setup() });
   if (todo === "migrate") return json(migrate(e.parameter.from));
+  if (todo === "clear") return json(clearExams(e.parameter.confirm));
 
   ensureAll(false);
 
@@ -385,6 +386,64 @@ function sheetList() {
   return SpreadsheetApp.getActiveSpreadsheet().getSheets().map(function (s) {
     return { name: s.getName(), rows: Math.max(0, s.getLastRow() - 1) };
   });
+}
+
+/* ─────────────────────────────────────────────
+   시험 삼아 친 기록 비우기
+   ───────────────────────────────────────────── */
+
+/*
+ * 응시기록과 그 집계를 비운다.
+ *
+ * 기록은 임의로 폐기하지 않는 것이 원칙이다 (E02 7.10.4). 그래서
+ * 그냥 부르면 무엇을 지울지 세어만 주고 멈춘다. 정말 지우려면
+ * ?do=clear&confirm=yes 로 뜻을 밝혀야 한다.
+ *
+ * 머리행은 남긴다. 다시 만들 필요 없이 바로 쓸 수 있어야 한다.
+ * 요원 명부와 사람이 채우는 서식 시트는 건드리지 않는다.
+ */
+var CLEARABLE = ["응시기록", "E02-07 채점결과", "E03-01 발급대장",
+                 "E03-04 만료예정", "시트1"];
+
+function clearExams(confirm) {
+  var found = [];
+
+  for (var i = 0; i < CLEARABLE.length; i++) {
+    var sheet = sheetOf(CLEARABLE[i], false);
+    if (!sheet) continue;
+
+    /* 시트1 은 예전 스크립트가 쓰던 것이라 머리행이 없다 */
+    var keepHead = CLEARABLE[i] !== "시트1";
+    var rows = sheet.getLastRow() - (keepHead ? 1 : 0);
+    if (rows > 0) found.push({ name: CLEARABLE[i], rows: rows, keepHead: keepHead });
+  }
+
+  if (String(confirm) !== "yes") {
+    return {
+      ok: false,
+      willDelete: found,
+      message: "지울 줄 : " +
+        (found.length
+          ? found.map(function (f) { return f.name + " " + f.rows + "줄"; }).join(", ")
+          : "없습니다") +
+        ". 정말 지우려면 ?do=clear&confirm=yes 로 다시 부르세요. " +
+        "요원 명부와 사람이 채우는 서식 시트는 건드리지 않습니다.",
+    };
+  }
+
+  for (var j = 0; j < found.length; j++) {
+    var sh = sheetOf(found[j].name, false);
+    var from = found[j].keepHead ? 2 : 1;
+    sh.deleteRows(from, found[j].rows);
+  }
+
+  return {
+    ok: true,
+    deleted: found,
+    message: found.length
+      ? found.map(function (f) { return f.name + " " + f.rows + "줄"; }).join(", ") + " 을 지웠습니다."
+      : "지울 것이 없습니다.",
+  };
 }
 
 /* ─────────────────────────────────────────────
