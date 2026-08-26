@@ -155,7 +155,13 @@ const rows = [];
 const extra = [];
 
 for (const p of [...people.values()].sort((a, b) => a.name.localeCompare(b.name, "ko"))) {
-  if (!p.levels.length) continue;             /* 사내 Level 이 없으면 응시자가 아니다 */
+  /*
+   * 사내 Level 이 없는 사람도 넣는다.
+   *
+   * 처음에는 Level 보유자 92명만 뽑았는데, 명부는 직원 전원이 있어야
+   * 한다 — 앞으로 시험을 칠 사람이 여기 없으면 응시 기록이 이름만 뜨고
+   * 소속도 학력도 붙지 않는다. Level 이 없으면 인증일자 칸이 빌 뿐이다.
+   */
 
   const row = {
     name: p.name,
@@ -221,8 +227,14 @@ for (const p of people.values())
 console.log(`원본        ${SRC}`);
 console.log(`  시트      ${SHEET}`);
 console.log(`  사람      ${people.size}명`);
-console.log(`  사내 Level 보유 ${rows.length}명  (${
+const hasLevel = rows.filter(r =>
+  Object.keys(r).some(k => k.startsWith("certifiedAt:") && r[k])
+).length;
+
+console.log(`  명부에 넣음 ${rows.length}명`);
+console.log(`    사내 Level 있음 ${hasLevel}명  (${
   Object.entries(byLevel).map(([k, v]) => `${k} ${v}건`).join(", ")})`);
+console.log(`    사내 Level 없음 ${rows.length - hasLevel}명  — 인증일자 칸만 빈다`);
 console.log();
 console.log(`칸 ${head.length}개  — 기본 ${BASE.length} + 등급·종목별 인증일 ${extra.length}`);
 console.log(`  ${extra.join(", ")}`);
