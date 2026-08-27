@@ -396,13 +396,13 @@
     "question": "What type of discontinuity is this?\n다음 불연속의 명칭은?",
     "options": [
       "An underbead crack.\n비드 밑 균열",
-      "An crater crack.\n크레이터 균열",
+      "A crater crack.\n크레이터 균열",
       "Porosity.\n기공",
-      "A toe crack.\n토 균열"
+      "A toe crack.\n토우크랙"
     ],
     "answer": 1,
     "image": "VT_GENERAL_Q26.png",
-    "note": "원본 시험지에 보기가 3개뿐이어서 4지선다로 맞추려고 오답 「A toe crack.」 을 더했다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 3개뿐이어서 4지선다로 맞추려고 오답 「A toe crack. / 토우크랙」 을 더했다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2\n원본 시험지(VTG-llA 26번)의 철자 「An crater crack」을 「A crater crack」으로 바로잡음 (2026-08-27)"
   },
   {
     "id": 27,
