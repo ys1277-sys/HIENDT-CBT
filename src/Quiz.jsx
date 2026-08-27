@@ -166,6 +166,22 @@ function Quiz({
    * 아래에 loading·loadError·showResult 로 일찍 돌아가는 자리가 있다.
    * 훅은 그보다 위에 있어야 순서가 안 어긋난다.
    */
+  /*
+   * 새로 지은 문항이 몇 번부터인지.
+   *
+   * 지어 넣은 문항은 은행 맨 뒤에 붙어 있고 note 에 자국이 남아 있다.
+   * 검토 모드 띠에 밝혀 두면 원본과 나눠 볼 수 있다.
+   * 실제 시험(검토 모드가 꺼진 때)에는 안 쓴다.
+   */
+  const madeFrom = useMemo(() => {
+    if (!DRAW_IN_ORDER) return 0;
+
+    const at = questions.findIndex(
+      (q) => q && q.note && /새로 지은 문항이다|held\/ 로 빼 두었던/.test(q.note)
+    );
+    return at < 0 ? 0 : at + 1;
+  }, [questions]);
+
   const ranges =
     useMemo(
       () => groupRanges(questions),
@@ -581,6 +597,16 @@ function Quiz({
         {DRAW_IN_ORDER ? (
           <div className="cbt-order-banner">
             검토 모드 — 문제은행 차례 그대로 {questions.length}문항을 냅니다.
+            {/*
+              새로 지은 문항은 은행 맨 뒤에 붙어 있다. 몇 번부터인지 밝혀
+              두면 원본 문항과 지어 넣은 문항을 나눠 보기 좋다.
+            */}
+            {madeFrom ? (
+              <>
+                {" "}1~{madeFrom - 1}번이 원본 시험지,{" "}
+                <b>{madeFrom}~{questions.length}번이 새로 지은 문항</b>입니다.
+              </>
+            ) : null}{" "}
             무작위 추첨을 꺼 두었으므로 <b>실제 시험에 쓰지 마세요.</b>
           </div>
         ) : null}
