@@ -7,6 +7,7 @@ import React, {
 import "./print.css";
 import { optionMark } from "./optionMark.js";
 import logo from "./logo.svg";
+import Watermark from "./Watermark.jsx";
 
 function PrintQuestion({
   questions = [],
@@ -653,6 +654,8 @@ function PrintQuestion({
                     pageIndex
                   }
                 >
+
+                  <Watermark />
 
                   <Header
                     page={pageNumber}

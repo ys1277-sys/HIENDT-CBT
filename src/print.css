@@ -43,6 +43,10 @@
    ========================================================= */
 
 .print-paper {
+  /* 워터마크(z-index:-1)가 종이 안에 머물도록 쌓임 맥락을 만든다 */
+  position: relative;
+  z-index: 0;
+
   width: 190mm;
   min-width: 190mm;
   max-width: 190mm;
@@ -1994,4 +1998,51 @@ body.paper-preview .print-area {
   margin-top: 5mm;
   font-size: 9.5pt;
   font-weight: 700;
+}
+
+/* =========================================================
+   워터마크 — 종이 한가운데 회사 로고
+
+   글씨를 가리면 안 되므로 아주 연하게, 글 아래에 깐다.
+   .print-paper 에 position:relative 와 z-index:0 을 주어 쌓임 맥락을
+   만들었다. 그래야 z-index:-1 인 워터마크가 종이의 흰 바탕 위에,
+   모든 글 아래에 놓인다. 맥락이 없으면 흰 바탕 뒤로 숨어 안 보인다.
+
+   서식(rp-paper)에는 안 넣는다. E02·E03 의 기록 서식이라 원본 그대로
+   두는 편이 낫다.
+   ========================================================= */
+
+.paper-watermark {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 110mm;
+  height: auto;
+
+  /*
+   * 흰 바탕에 얹으면 #ebf4fb 가 된다. 흰색과의 대비가 1.11:1 이라
+   * 검은 글씨(21:1)를 읽는 데 아무 지장이 없다. 0.05 는 인쇄하면
+   * 거의 안 나왔다.
+   */
+  opacity: 0.08;
+
+  z-index: -1;
+
+  pointer-events: none;
+  user-select: none;
+}
+
+@media print {
+
+  /*
+   * 인쇄할 때도 연한 그대로 둔다. 브라우저가 opacity 를 무시하는 일은
+   * 없지만, 색을 그대로 찍으라고 못 박아 둔다.
+   */
+  .paper-watermark {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
 }

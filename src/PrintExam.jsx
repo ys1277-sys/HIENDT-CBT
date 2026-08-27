@@ -9,6 +9,7 @@
 import "./print.css";
 import { optionMark } from "./optionMark.js";
 import logo from "./logo.svg";
+import Watermark from "./Watermark.jsx";
 import QuestionImage, { questionImages } from "./QuestionImage.jsx";
 import GroupNote from "./GroupNote.jsx";
 import ProcedureAppendix, { useProcedures } from "./ProcedureAppendix.jsx";
@@ -983,6 +984,9 @@ function PrintExam({
           className="print-paper cover-paper"
         >
 
+      <Watermark />
+
+
           <Header
             page={1}
           />
@@ -1160,6 +1164,8 @@ function PrintExam({
                     pageIndex
                   }
                 >
+
+                  <Watermark />
 
                   <Header
                     page={pageNumber}
