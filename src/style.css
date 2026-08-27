@@ -1,4 +1,39 @@
-﻿*{
+﻿
+/* =========================================================
+   빛깔 — 회사 파랑을 기준으로 삼는다
+
+   절차서 머리글, 시험지 워터마크, 갑지 로고가 모두 #0179cf 다.
+   화면만 남색이면 종이와 따로 노는 꼴이라 화면을 여기에 맞춘다.
+
+   두 가지로 나눠 쓴다.
+     --acc       눈길이 가야 할 자리 — 고른 보기, 다음 단추, 번호
+     --acc-deep  넓게 깔리는 띠 — 머리글처럼 화면을 가로지르는 자리
+
+   #0179cf 는 채도가 높아 띠로 넓게 깔면 두 시간 보기에 세다.
+   같은 계열에서 한 단계 눌러 둔 것이 --acc-deep 이다. 브랜드는
+   그대로 살고 눈은 덜 지친다.
+
+   흰 바탕에 견준 밝기 차이
+     #0179cf  4.6:1   글자로 써도 되는 만큼
+     #075f9e  6.8:1   띠에 흰 글씨를 얹어도 넉넉하다
+   ========================================================= */
+
+:root{
+
+  --acc:      #0179cf;
+  --acc-deep: #075f9e;
+  --acc-soft: #e4f1fb;   /* 고른 보기의 바탕 */
+  --acc-edge: #b9dcf3;
+
+  --pg:   #f1f6fb;       /* 화면 바탕 */
+  --card: #ffffff;
+  --line: #dae6f1;       /* 칸을 가르는 가는 줄 */
+
+  --ink:  #16202b;
+  --mut:  #5d6b7a;
+}
+
+*{
   box-sizing:border-box;
 }
 
@@ -9,7 +44,7 @@ body{
 
   font-family:"Noto Sans KR", Arial, sans-serif;
 
-  background:#eef1f5;
+  background:var(--pg);
 
 }
 
@@ -49,7 +84,7 @@ body{
 
 .home-box h1{
 
-  color:#003b73;
+  color:var(--acc-deep);
 
 }
 
@@ -70,12 +105,16 @@ body{
 
 
 .home-box button.active{
-  background:#e7f1ff;
-  color:#003b73;
-  border:2px solid #003b73;
+  background:var(--acc-soft);
+  color:var(--acc-deep);
+  border:2px solid var(--acc-deep);
   font-weight:bold;
 }
 
+/*
+ * 단추는 회사 파랑(--acc)으로 채운다. 머리글 띠(--acc-deep)와 한 단계
+ * 차이를 두어, 넓게 깔리는 자리와 눌러야 할 자리가 갈린다.
+ */
 button{
 
   padding:10px 20px;
@@ -84,7 +123,7 @@ button{
 
   border-radius:6px;
 
-  background:#003b73;
+  background:var(--acc);
 
   color:white;
 
@@ -186,7 +225,7 @@ button:disabled{
 
 .cbt-header{
 
-  background:#003b73;
+  background:var(--acc-deep);
 
   color:white;
 
@@ -295,9 +334,9 @@ button:disabled{
 
 .question-box{
 
-  background:#fafafa;
+  background:var(--card);
 
-  border:1px solid #ccc;
+  border:1px solid var(--line);
 
   padding:14px 18px;
 
@@ -364,9 +403,9 @@ button:disabled{
 
   padding:12px 14px;
 
-  background:#eef3fb;
+  background:var(--acc-soft);
 
-  border-left:4px solid #3a6df0;
+  border-left:4px solid var(--acc);
 
   border-radius:4px;
 
@@ -434,7 +473,7 @@ button:disabled{
 
   background:#f4f5f7;
 
-  border:1px solid #e2e4e8;
+  border:1px solid var(--line);
 
 }
 
@@ -483,7 +522,7 @@ button:disabled{
 
   background:#fff;
 
-  border:1px solid #e2e4e8;
+  border:1px solid var(--line);
 
   border-radius:10px;
 
@@ -566,9 +605,9 @@ button:disabled{
 
   outline:none;
 
-  border-color:#3a6df0;
+  border-color:var(--acc);
 
-  box-shadow:0 0 0 2px rgba(58,109,240,.15);
+  box-shadow:0 0 0 2px rgba(1,121,207,.18);
 
 }
 
@@ -619,9 +658,9 @@ button:disabled{
 
   color:#fff;
 
-  background:#3a6df0;
+  background:var(--acc);
 
-  border-color:#3a6df0;
+  border-color:var(--acc);
 
 }
 
@@ -677,7 +716,7 @@ button:disabled{
 
   background:#fff;
 
-  border:1px solid #e2e4e8;
+  border:1px solid var(--line);
 
   border-radius:6px;
 
@@ -704,7 +743,8 @@ button:disabled{
 
   margin:6px 0;
 
-  border:1px solid #bbb;
+  border:1px solid var(--line);
+  background:var(--card);
 
   border-radius:8px;
 
@@ -714,9 +754,9 @@ button:disabled{
 
 .answer.selected{
 
-  border:2px solid #003b73;
+  border:2px solid var(--acc);
 
-  background:#e7f1ff;
+  background:var(--acc-soft);
 
 }
 
@@ -737,7 +777,7 @@ button:disabled{
 
 /* 동그라미를 가렸으니 키보드 초점은 보기 줄 전체에 표시한다 */
 .answer:focus-within{
-  outline:2px solid #3a6df0;
+  outline:2px solid var(--acc);
   outline-offset:2px;
 }
 
@@ -1013,7 +1053,7 @@ button:disabled{
 
   color:white;
 
-  background:#003b73;
+  background:var(--acc-deep);
 
   border-radius:8px;
 
@@ -1050,7 +1090,7 @@ button:disabled{
 
 .answer-sheet-row.current{
 
-  background:#e7f1ff;
+  background:var(--acc-soft);
 
 }
 
@@ -1067,7 +1107,7 @@ button:disabled{
 
   font-weight:bold;
 
-  color:#003b73;
+  color:var(--acc-deep);
 
   text-align:right;
 
@@ -1143,7 +1183,7 @@ button:disabled{
 
   background:transparent;
 
-  color:#003b73;
+  color:var(--acc-deep);
 
 }
 .option-mark{
@@ -1161,8 +1201,8 @@ button:disabled{
 }
 
 .answer.selected .option-mark{
-  background:#003b73;
-  border-color:#003b73;
+  background:var(--acc);
+  border-color:var(--acc);
   color:white;
 }
 .number-box{
@@ -1207,7 +1247,7 @@ button:disabled{
   border-bottom: 1px dashed currentColor;
 
   background: none;
-  color: #1f3864;
+  color: var(--acc-deep);
 
   font: inherit;
   font-weight: 700;
@@ -1217,7 +1257,7 @@ button:disabled{
 
 .procedure-link:hover,
 .procedure-link:focus-visible {
-  background: #1f3864;
+  background: var(--acc-deep);
   color: #fff;
 
   border-bottom-color: transparent;
@@ -1252,7 +1292,7 @@ button:disabled{
 
   padding: 8px 10px;
 
-  background: #1f3864;
+  background: var(--acc-deep);
   color: #fff;
 
   cursor: move;
@@ -1429,13 +1469,13 @@ button:disabled{
 .procw-h3 {
   margin: 16px 0 6px;
 
-  color: #1f3864;
+  color: var(--acc-deep);
   font-weight: 700;
 }
 
 .procw-h2 {
   padding-bottom: 3px;
-  border-bottom: 1px solid #dfe3e8;
+  border-bottom: 1px solid var(--line);
 
   font-size: 14px;
 }
@@ -1458,7 +1498,7 @@ button:disabled{
   max-width: 100%;
   height: auto;
 
-  border: 1px solid #dfe3e8;
+  border: 1px solid var(--line);
   background: #fff;
 }
 
@@ -1529,7 +1569,7 @@ button:disabled{
 
   margin: 8px 0;
 
-  border: 1px solid #dfe3e8;
+  border: 1px solid var(--line);
   background: #fff;
 
   object-fit: contain;
@@ -1758,7 +1798,7 @@ button:disabled{
   border-radius:6px;
 
   background:white;
-  color:#003b73;
+  color:var(--acc-deep);
   font-size:15px;
   font-weight:600;
 
@@ -1809,7 +1849,7 @@ button:disabled{
 
   background: #fff;
   border: 1px solid #d7dce3;
-  border-top: 3px solid #0179cf;
+  border-top: 3px solid var(--acc);
   border-radius: 4px;
 }
 
@@ -1818,7 +1858,7 @@ button:disabled{
   align-items: center;
   gap: 8px;
 
-  color: #0179cf;
+  color: var(--acc);
 }
 
 .prochead-logo {
@@ -1842,7 +1882,7 @@ button:disabled{
   font-weight: 700;
 
   line-height: 1.3;
-  color: #1f3864;
+  color: var(--acc-deep);
 
   text-wrap: balance;
 }
@@ -1892,7 +1932,7 @@ button:disabled{
 
 .prochead-meta dd:first-child {
   font-weight: 700;
-  color: #1f3864;
+  color: var(--acc-deep);
 }
 
 .prochead-swap {
@@ -1908,5 +1948,5 @@ button:disabled{
 }
 
 .prochead-swap b {
-  color: #1f3864;
+  color: var(--acc-deep);
 }
