@@ -50,276 +50,272 @@ const BANKS = {
 
   /* Level Ⅱ 일반 ECT 20문항은 2026-08-27 에 넣었다 — tools/_ect-done.txt */
 
+  /* Level Ⅱ 일반 RFT 20문항은 2026-08-27 에 넣었다 — tools/_rft-done.txt */
+
   /* ═══════════════════════════════════════════
-     Level Ⅱ 일반 RFT — 40문항 → 60문항
-
-     원격장 탐상 고유 주제만 넣는다. 와전류 이론은 ECT 은행과 나눠
-     쓰는 24문항이 이미 덮고 있다.
-
-     값은 회사 절차서 HIE-NDT-ET-P99 와 대조했다. 다만 일반시험이라
-     문제문에는 절차서 번호를 안 밝힌다 — 절차서를 몰라도 풀 수 있어야
-     한다(E01 표 3).
+     Level Ⅱ 일반 TOFD — 40문항 → 60문항
+     ASME Sec.V Art.4 부록과 TOFD 원리를 본다
      ═══════════════════════════════════════════ */
-  "Level II/General/RFT": [
+  "Level II/General/TOFD": [
 
     {
-      q: Q("In remote field testing, the through-transmission (indirect) energy path means that the signal :",
-           "원격장 탐상에서 신호가 「관통 전달 경로」를 지난다는 말은 무엇을 뜻하는가?"),
+      q: Q("In a TOFD image, the first signal to arrive at the receiver is the :",
+           "TOFD 영상에서 수신 탐촉자에 가장 먼저 닿는 신호는 무엇인가?"),
       o: [
-        Q("travels only along the inside surface of the tube", "튜브 안쪽면만 타고 흐른다"),
-        Q("passes through the tube wall, along the outside, and back through the wall to the receiver", "튜브 벽을 뚫고 나가 바깥을 타고 흐르다 다시 벽을 뚫고 수신 코일로 돌아온다"),
-        Q("is carried by the couplant between the coil and the tube", "코일과 튜브 사이의 접촉매질이 실어 나른다"),
-        Q("travels directly from the exciter to the receiver inside the tube", "여자 코일에서 수신 코일로 튜브 안을 곧바로 지난다"),
+        Q("backwall signal", "저면 반사 신호"),
+        Q("lateral wave", "측면파"),
+        Q("upper tip diffraction signal", "결함 위 끝 회절 신호"),
+        Q("lower tip diffraction signal", "결함 아래 끝 회절 신호"),
       ],
       a: 1,
-      why: "벽을 두 번 지나므로 안쪽면 결함과 바깥면 결함의 감도가 거의 같다. 탐촉자가 안에 있어 안쪽면에 치우치는 보통 와전류탐상과 갈리는 대목이다.",
+      why: "측면파는 두 탐촉자 사이 표면 바로 아래를 곧장 지나므로 길이가 가장 짧아 먼저 닿는다. 그다음이 결함 위 끝, 아래 끝, 마지막이 저면이다. 이 차례가 TOFD 판독의 뼈대다.",
     },
 
     {
-      q: Q("The main advantage of remote field testing over conventional eddy current testing is that it :",
-           "보통 와전류탐상과 견주어 원격장 탐상이 나은 점은?"),
+      q: Q("In TOFD, the depth of a flaw tip is determined from :",
+           "TOFD 에서 결함 끝의 깊이는 무엇으로 정하는가?"),
       o: [
-        Q("gives nearly equal sensitivity to inside and outside surface discontinuities in ferromagnetic tubing", "강자성 튜브에서 안쪽면과 바깥면 결함의 감도가 거의 같다"),
-        Q("does not require a reference standard", "대비 시험편이 필요 없다"),
-        Q("can be used on nonconductive materials", "전기가 안 통하는 재료에도 쓸 수 있다"),
-        Q("requires no magnetic saturation and works at very high speed", "자기포화가 필요 없고 아주 빠르다"),
+        Q("the amplitude of the diffracted signal", "회절 신호의 크기"),
+        Q("the arrival time of the diffracted signal", "회절 신호가 닿은 시각"),
+        Q("the frequency of the probe", "탐촉자의 주파수"),
+        Q("the width of the probe wedge", "웨지의 폭"),
+      ],
+      a: 1,
+      why: "TOFD 는 크기가 아니라 시각을 잰다. 그래서 결함이 빔과 어느 쪽으로 기울어 있든 깊이를 고르게 잰다. 진폭에 기대는 펄스에코와 갈리는 대목이다.",
+    },
+
+    {
+      q: Q("The signal diffracted from the upper tip of an embedded flaw is normally :",
+           "속에 있는 결함의 위 끝에서 나온 회절 신호는 보통 어떠한가?"),
+      o: [
+        Q("phase-inverted relative to the lower tip signal", "아래 끝 신호와 위상이 뒤집혀 있다"),
+        Q("in phase with the lower tip signal", "아래 끝 신호와 위상이 같다"),
+        Q("larger than the backwall signal", "저면 신호보다 크다"),
+        Q("always absent", "언제나 안 나타난다"),
       ],
       a: 0,
-      why: "강자성 튜브는 표피효과가 심해 보통 와전류로는 바깥면을 못 본다. 원격장은 벽을 뚫고 오가므로 두께 전체를 고르게 본다.",
+      why: "위 끝과 아래 끝에서 나온 회절파는 위상이 반대다. 이 뒤집힘을 보고 두 신호가 한 결함의 양 끝인지 가려내며, 그래서 TOFD 는 RF(비정류) 파형으로 본다.",
     },
 
     {
-      q: Q("Magnetic saturation is generally not required in remote field testing because :",
-           "원격장 탐상에는 대개 자기포화가 필요 없다. 까닭은?"),
+      q: Q("The dead zone immediately below the scanning surface in TOFD is caused by :",
+           "TOFD 에서 검사면 바로 아래에 생기는 불감대의 원인은?"),
       o: [
-        Q("the tube is not ferromagnetic", "튜브가 강자성체가 아니기 때문"),
-        Q("the low test frequency already lets the field pass through the wall", "낮은 시험 주파수라 자장이 이미 벽을 뚫고 지나기 때문"),
-        Q("the probe is pulled too fast for permeability to matter", "탐촉자를 빨리 당겨 투자율이 문제되지 않기 때문"),
-        Q("the receiver coil cancels the permeability signal", "수신 코일이 투자율 신호를 지우기 때문"),
+        Q("the backwall signal", "저면 신호"),
+        Q("the width (duration) of the lateral wave", "측면파의 폭(지속 시간)"),
+        Q("the encoder resolution", "엔코더의 분해능"),
+        Q("the couplant layer", "접촉매질 층"),
       ],
       a: 1,
-      why: "보통 와전류탐상은 강자성 튜브에서 표피효과를 이기려고 자석으로 포화시킨다. 원격장은 애초에 낮은 주파수를 써 자장이 벽을 뚫고 오가므로 그 장치가 없어도 된다.",
+      why: "측면파가 시간축에서 폭을 차지해 그 안에 든 얕은 결함이 묻힌다. 그래서 표면 가까운 부위는 펄스에코나 다른 방법을 함께 써서 덮는다.",
     },
 
     {
-      q: Q("The region where the direct coupling between exciter and receiver is dominant is called the :",
-           "여자 코일과 수신 코일이 곧바로 결합하는 것이 우세한 구간을 무엇이라 하는가?"),
+      q: Q("A second dead zone in TOFD occurs :",
+           "TOFD 의 또 다른 불감대는 어디에 생기는가?"),
       o: [
-        Q("remote field zone", "원격장 영역"),
-        Q("transition zone", "천이 영역"),
-        Q("direct field zone", "직접장 영역"),
-        Q("saturation zone", "포화 영역"),
-      ],
-      a: 2,
-      why: "여자 코일 가까이가 직접장, 그 너머가 천이 영역, 더 멀리가 원격장이다. 검사는 원격장 영역에서 한다.",
-    },
-
-    {
-      q: Q("In remote field testing, the phase lag of the signal is used mainly to determine :",
-           "원격장 탐상에서 신호의 위상 지연은 주로 무엇을 알아내는 데 쓰는가?"),
-      o: [
-        Q("the pulling speed of the probe", "탐촉자를 당기는 속도"),
-        Q("the depth of wall loss", "감육의 깊이"),
-        Q("the length of the tube", "튜브의 길이"),
-        Q("the ambient temperature", "둘레 온도"),
+        Q("at mid-wall", "두께 한가운데"),
+        Q("just above the backwall", "저면 바로 위"),
+        Q("outside the weld cap", "용접 덧살 바깥"),
+        Q("there is only one dead zone", "불감대는 하나뿐이다"),
       ],
       a: 1,
-      why: "벽이 얇아진 자리는 신호가 지나는 길이 짧아져 위상 지연이 줄어든다. 알려진 깊이의 인공 결함으로 위상-깊이 곡선을 만들어 두고 그것으로 깊이를 읽는다.",
+      why: "저면 반사 신호도 폭을 차지해 그 바로 위 결함을 가린다. 위아래 두 불감대를 어떻게 덮을지가 TOFD 검사 계획의 첫 고민이다.",
     },
 
     {
-      q: Q("In a remote field calibration tube, a 100% through-wall hole and flat-bottom holes of different depths are provided so that :",
-           "원격장 교정 튜브에 관통공과 깊이가 다른 평저공을 함께 두는 까닭은?"),
+      q: Q("The probe centre spacing (PCS) in TOFD is normally set so that the beams cross at :",
+           "TOFD 의 탐촉자 중심 간격(PCS)은 보통 빔이 어디에서 만나도록 잡는가?"),
       o: [
-        Q("the probe can be centred in the tube", "탐촉자를 튜브 한가운데에 놓으려고"),
-        Q("a phase-to-depth curve can be drawn across the wall thickness", "벽 두께에 걸친 위상-깊이 곡선을 그리려고"),
-        Q("the pulling speed can be measured", "인출 속도를 재려고"),
-        Q("the tube can be magnetically saturated", "튜브를 자기포화시키려고"),
+        Q("the scanning surface", "검사면"),
+        Q("about two-thirds of the wall thickness", "벽 두께의 약 3분의 2 되는 깊이"),
+        Q("the backwall", "저면"),
+        Q("one-tenth of the wall thickness", "벽 두께의 10분의 1 되는 깊이"),
       ],
       a: 1,
-      why: "깊이를 아는 인공 결함이 여럿 있어야 위상 지연과 깊이를 잇는 곡선을 그릴 수 있다. 관통공이 한쪽 끝, 얕은 평저공들이 그 사이를 메운다.",
+      why: "빔이 만나는 자리에서 감도가 가장 높다. 2/3 깊이에 두면 두께 전체에 걸쳐 감도가 고르게 퍼진다. 한 구간으로 못 덮는 두꺼운 용접부는 구간을 나눠 PCS 를 달리 잡는다.",
     },
 
     {
-      q: Q("The data acquisition rate of a remote field system shall be high enough to digitize at least :",
-           "원격장 장비의 신호 수집율은 최소 얼마를 담을 수 있어야 하는가?"),
+      q: Q("TOFD probes are normally used with a wide beam angle mainly to :",
+           "TOFD 탐촉자에 넓은 빔각을 쓰는 가장 큰 까닭은?"),
       o: [
-        Q("1.2 samples per mm of tubing (30 per inch)", "배관 1 mm 당 1.2개 표본 (1인치당 30개)"),
-        Q("0.1 samples per mm of tubing", "배관 1 mm 당 0.1개 표본"),
-        Q("12 samples per mm of tubing", "배관 1 mm 당 12개 표본"),
-        Q("one sample per tube", "튜브 한 개당 표본 하나"),
+        Q("cover the whole examination volume with one pass", "한 번 지나가는 것으로 검사 체적 전체를 덮으려고"),
+        Q("increase the amplitude of the backwall signal", "저면 신호를 키우려고"),
+        Q("reduce the number of probes to one", "탐촉자를 하나로 줄이려고"),
+        Q("eliminate the need for an encoder", "엔코더를 안 쓰려고"),
       ],
       a: 0,
-      why: "표본이 성기면 짧은 결함이 표본 사이로 빠져나간다. 인출 속도를 올리려면 그만큼 수집율도 올려야 이 조건을 지킬 수 있다.",
+      why: "TOFD 는 탐촉자를 용접선을 따라 한 번 밀면서 두께 전체를 담는다. 그러려면 빔이 넓게 퍼져야 한다. 대신 넓은 만큼 분해능은 떨어져 감쇠가 큰 재질에는 불리하다.",
     },
 
     {
-      q: Q("In remote field testing, an indication near the tube end is difficult to evaluate because :",
-           "원격장 탐상에서 튜브 끝단 가까이의 지시는 왜 평가하기 어려운가?"),
+      q: Q("TOFD probes are normally highly damped in order to :",
+           "TOFD 탐촉자를 강하게 제동(damping)하는 까닭은?"),
       o: [
-        Q("the probe cannot reach the tube end", "탐촉자가 튜브 끝까지 못 가기 때문"),
-        Q("the magnetic field path is cut short, so the signal is distorted", "자장이 도는 길이 잘려 신호가 일그러지기 때문"),
-        Q("the pulling speed always increases at the end", "끝에서는 인출 속도가 늘 빨라지기 때문"),
-        Q("the tube end is always thicker than the rest", "튜브 끝은 늘 나머지보다 두껍기 때문"),
+        Q("increase the penetration depth", "투과 깊이를 늘리려고"),
+        Q("produce a short pulse so that closely spaced signals can be separated", "펄스를 짧게 만들어 가까이 붙은 신호를 갈라내려고"),
+        Q("reduce the probe centre spacing", "탐촉자 중심 간격을 줄이려고"),
+        Q("increase the amplitude of the lateral wave", "측면파를 키우려고"),
       ],
       a: 1,
-      why: "원격장은 자장이 벽을 뚫고 나가 바깥을 돌아 들어오는 길을 쓴다. 튜브가 끝나면 그 길이 잘려 결함이 없어도 신호가 크게 흔들린다. 그래서 끝단 일정 구간은 따로 감도를 잡거나 다른 방법으로 본다.",
+      why: "펄스가 길면 측면파·회절파·저면파가 서로 겹쳐 붙는다. 강하게 제동해 링잉을 줄이면 불감대가 좁아지고 가까운 두 끝을 갈라 볼 수 있다.",
     },
 
     {
-      q: Q("A tube support plate in remote field testing normally appears as :",
-           "원격장 탐상에서 튜브 지지판은 보통 어떻게 나타나는가?"),
+      q: Q("Compared with pulse-echo, a major advantage of TOFD is that :",
+           "펄스에코와 견주어 TOFD 가 나은 큰 점은?"),
+      o: [
+        Q("it detects flaws regardless of their orientation", "결함이 어느 쪽으로 기울어 있든 찾아낸다"),
+        Q("it requires no couplant", "접촉매질이 필요 없다"),
+        Q("it needs no reference block", "대비 시험편이 필요 없다"),
+        Q("it can be used on nonmetallic materials", "비금속에도 쓸 수 있다"),
+      ],
+      a: 0,
+      why: "회절은 결함 끝에서 사방으로 퍼지므로 결함이 빔과 나란하든 비스듬하든 신호가 온다. 반사에 기대는 펄스에코는 결함이 기울면 놓치기 쉽다.",
+    },
+
+    {
+      q: Q("In a TOFD image, a flaw that shows only one tip signal and breaks the backwall is most likely :",
+           "TOFD 영상에서 끝 신호가 하나만 보이고 저면 신호를 끊는 결함은 무엇일 가능성이 큰가?"),
+      o: [
+        Q("an embedded flaw at mid-wall", "두께 한가운데 있는 내부 결함"),
+        Q("a flaw open to the far (backwall) surface", "저면 쪽 표면에 열린 결함"),
+        Q("porosity", "기공"),
+        Q("a lack of side wall fusion in the middle", "가운데의 개선면 융합불량"),
+      ],
+      a: 1,
+      why: "저면에 열린 결함은 아래 끝이 표면과 닿아 있어 위 끝 신호만 나오고, 저면 신호가 그 자리에서 끊긴다. 속에 있는 결함은 위·아래 끝 신호가 둘 다 나오고 저면은 멀쩡하다.",
+    },
+
+    {
+      q: Q("An encoder is used in TOFD scanning to :",
+           "TOFD 주사에서 엔코더를 쓰는 까닭은?"),
+      o: [
+        Q("record the position of the probe along the weld", "용접선을 따라간 탐촉자의 자리를 기록하려고"),
+        Q("measure the couplant thickness", "접촉매질 두께를 재려고"),
+        Q("set the probe centre spacing", "탐촉자 중심 간격을 잡으려고"),
+        Q("calibrate the time base", "시간축을 교정하려고"),
+      ],
+      a: 0,
+      why: "TOFD 는 영상으로 기록해 나중에 다시 본다. 각 A-주사가 용접선의 어느 자리에서 나온 것인지 알아야 결함의 길이와 위치를 잴 수 있다.",
+    },
+
+    {
+      q: Q("A non-parallel (longitudinal) TOFD scan means that the probe pair moves :",
+           "비평행(길이 방향) TOFD 주사란 탐촉자 쌍이 어떻게 움직이는 것인가?"),
+      o: [
+        Q("along the weld with the beam axis across the weld", "빔 축은 용접부를 가로지른 채 용접선을 따라"),
+        Q("across the weld with the beam axis along the weld", "빔 축은 용접선을 따른 채 용접부를 가로질러"),
+        Q("in a circle around a fixed point", "한 점을 중심으로 원을 그리며"),
+        Q("in the thickness direction only", "두께 방향으로만"),
+      ],
+      a: 0,
+      why: "보통 검사는 비평행 주사로 용접선을 한 번 훑는다. 결함이 나오면 그 자리에서 빔 축을 용접선과 나란히 두고 가로질러 미는 평행 주사로 길이와 깊이를 더 정확히 잰다.",
+    },
+
+    {
+      q: Q("The probe (wedge) delay must be measured and entered before a TOFD examination because :",
+           "TOFD 검사 전에 웨지 지연을 재어 넣어야 하는 까닭은?"),
+      o: [
+        Q("it sets the scanning speed", "주사 속도를 정하기 때문"),
+        Q("the time spent in the wedge is not part of the material path and must be subtracted", "웨지 안에서 걸린 시간은 재료를 지난 것이 아니라 빼 주어야 하기 때문"),
+        Q("it determines the encoder resolution", "엔코더 분해능을 정하기 때문"),
+        Q("it changes the probe frequency", "탐촉자 주파수를 바꾸기 때문"),
+      ],
+      a: 1,
+      why: "TOFD 는 도달 시각으로 깊이를 셈한다. 웨지에서 흘려보낸 시간을 안 빼면 결함이 실제보다 깊게 나온다. 그래서 검사 전에 시험편으로 웨지 지연을 재어 장비에 넣는다.",
+    },
+
+    {
+      q: Q("Straight lines of high amplitude running across a TOFD image at a constant depth usually indicate :",
+           "TOFD 영상에서 일정한 깊이로 가로지르는 곧고 진한 줄은 보통 무엇인가?"),
+      o: [
+        Q("a long planar flaw", "긴 면상 결함"),
+        Q("the lateral wave and the backwall signal", "측면파와 저면 신호"),
+        Q("porosity", "기공"),
+        Q("an encoder error", "엔코더 오류"),
+      ],
+      a: 1,
+      why: "측면파와 저면 신호는 결함과 상관없이 늘 같은 깊이로 지나가므로 영상 위아래에 곧은 줄로 나타난다. 이 두 줄이 흔들리거나 끊기는 자리가 결함이 있는 자리다.",
+    },
+
+    {
+      q: Q("If the lateral wave disappears over part of a TOFD scan, the most likely cause is :",
+           "TOFD 주사 도중 어느 구간에서 측면파가 사라졌다면 무엇 때문일 가능성이 큰가?"),
+      o: [
+        Q("the flaw is deeper than two-thirds of the wall", "결함이 벽 두께의 3분의 2보다 깊기 때문"),
+        Q("loss of couplant or a surface-breaking flaw between the probes", "접촉매질이 끊겼거나 두 탐촉자 사이 표면에 열린 결함이 있기 때문"),
+        Q("the encoder has stopped counting", "엔코더가 세기를 멈췄기 때문"),
+        Q("the probe frequency is too low", "탐촉자 주파수가 너무 낮기 때문"),
+      ],
+      a: 1,
+      why: "측면파는 두 탐촉자 사이 표면 바로 아래를 지난다. 그 길이 끊기면 사라진다. 접촉이 떨어졌을 수도 있고 표면에 열린 결함이 길을 막았을 수도 있으므로, 다시 훑어 접촉 문제인지 결함인지 가려야 한다.",
+    },
+
+    {
+      q: Q("The through-wall height of a flaw in TOFD is measured as :",
+           "TOFD 에서 결함의 두께 방향 높이는 어떻게 재는가?"),
+      o: [
+        Q("the amplitude difference between the two tip signals", "두 끝 신호의 진폭 차이로"),
+        Q("the depth difference between the upper tip and lower tip signals", "위 끝 신호와 아래 끝 신호의 깊이 차이로"),
+        Q("the length of the backwall interruption", "저면이 끊긴 길이로"),
+        Q("the width of the lateral wave", "측면파의 폭으로"),
+      ],
+      a: 1,
+      why: "커서를 위 끝과 아래 끝 신호에 각각 맞추면 그 깊이 차가 곧 결함 높이다. TOFD 가 결함 높이를 정확히 잰다고 하는 것이 이 때문이다.",
+    },
+
+    {
+      q: Q("Before a TOFD examination, the scanning surface shall be :",
+           "TOFD 검사 전에 탐촉자가 지나갈 자리는 어떻게 해야 하는가?"),
+      o: [
+        Q("coated with paint to protect it", "보호하려고 도장을 한다"),
+        Q("smooth and free of weld spatter and loose scale", "매끄럽게 하고 스패터와 들뜬 스케일을 없앤다"),
+        Q("left exactly as welded", "용접한 그대로 둔다"),
+        Q("magnetized before scanning", "주사하기 전에 자화한다"),
+      ],
+      a: 1,
+      why: "탐촉자가 걸리거나 들뜨면 접촉이 끊겨 측면파와 저면 신호가 흔들린다. 그러면 영상 위아래 기준선이 무너져 판독을 못 한다. 덧살은 그대로 두어도 되지만 지나갈 자리는 고르게 만든다.",
+    },
+
+    {
+      q: Q("Before a TOFD examination, the encoder shall be :",
+           "TOFD 검사 전에 엔코더는 무엇을 해야 하는가?"),
+      o: [
+        Q("verified over a known distance", "알려진 거리를 지나게 해 확인한다"),
+        Q("replaced with a new one", "새것으로 바꾼다"),
+        Q("set to the maximum sensitivity", "감도를 최대로 올린다"),
+        Q("removed to reduce friction", "마찰을 줄이려고 뗀다"),
+      ],
+      a: 0,
+      why: "엔코더가 어긋나 있으면 결함의 자리와 길이가 모두 틀어진다. 제조사가 정한 거리를 지나게 해 읽은 값이 맞는지 검사 전에 확인한다.",
+    },
+
+    {
+      q: Q("If the two TOFD probes are not equidistant from the weld centreline, the result will be :",
+           "TOFD 두 탐촉자가 용접 중심선에서 같은 거리에 있지 않으면 어떻게 되는가?"),
       o: [
         Q("no signal at all", "아무 신호도 안 난다"),
-        Q("a signal that must be evaluated as wall loss", "감육으로 평가해야 하는 신호"),
-        Q("a distinct signal used as a landmark, distinguishable from wall loss by its phase", "위상으로 감육과 갈리며, 자리를 가늠하는 표로 쓰는 뚜렷한 신호"),
-        Q("a signal identical to a through-wall hole", "관통공과 똑같은 신호"),
-      ],
-      a: 2,
-      why: "지지판은 튜브 바깥에 있는 쇠붙이라 신호가 나지만 감육과 위상이 다르다. 그 차이로 갈라내고, 튜브의 몇 번째 자리인지 세는 데 쓴다.",
-    },
-
-    {
-      q: Q("A 100% through-wall hole is included in a remote field calibration tube in order to :",
-           "원격장 교정 튜브에 100% 관통공을 두는 까닭은?"),
-      o: [
-        Q("provide a reference for the maximum phase lag and amplitude", "위상 지연과 진폭의 최댓값 기준을 삼으려고"),
-        Q("check the pulling speed of the probe", "탐촉자 인출 속도를 확인하려고"),
-        Q("verify the fill factor", "충진율을 확인하려고"),
-        Q("measure the ambient temperature", "둘레 온도를 재려고"),
-      ],
-      a: 0,
-      why: "관통공은 벽이 다 없어진 자리라 위상 지연이 가장 크다. 그것을 한쪽 끝으로 삼고 얕은 인공 결함들과 이어 위상-깊이 곡선을 만든다.",
-    },
-
-    {
-      q: Q("The calibration tube for remote field testing shall be :",
-           "원격장 탐상에 쓰는 교정 튜브는 어때야 하는가?"),
-      o: [
-        Q("made of carbon steel in every case", "언제나 탄소강으로 만든다"),
-        Q("of the same material specification and nominal size as the tubes to be examined", "검사할 튜브와 같은 재료 사양·공칭 크기여야 한다"),
-        Q("twice the wall thickness of the tubes to be examined", "검사할 튜브보다 벽 두께가 두 배여야 한다"),
-        Q("any tube with a smooth inside surface", "안쪽면이 매끄러운 튜브면 무엇이든"),
+        Q("the calculated depth of the flaw will be in error", "결함의 깊이를 잘못 계산하게 된다"),
+        Q("the lateral wave will disappear", "측면파가 사라진다"),
+        Q("the scan speed will double", "주사 속도가 두 배가 된다"),
       ],
       a: 1,
-      why: "재질과 치수가 다르면 자장이 벽을 지나는 모양이 달라져 같은 결함도 다른 신호로 나온다. 재질이 같지 않은 대비 시험편은 쓰는 주파수가 2배 이상 차이 나지 않을 때에만 쓸 수 있다.",
+      why: "깊이 계산은 두 탐촉자가 결함을 가운데 두고 마주 본다는 전제로 한다. 한쪽으로 치우치면 그 전제가 깨져 깊이가 어긋난다. 그래서 오프셋 주사는 따로 보정한다.",
     },
 
     {
-      q: Q("Remote field testing is normally applied to :",
-           "원격장 탐상은 보통 어떤 재료에 쓰는가?"),
+      q: Q("The TOFD examination record shall include :",
+           "TOFD 검사 기록에 담아야 하는 것은?"),
       o: [
-        Q("nonconductive materials", "전기가 안 통하는 재료"),
-        Q("ferromagnetic tubing such as carbon steel", "탄소강 같은 강자성 튜브"),
-        Q("austenitic stainless steel tubing only", "오스테나이트계 스테인리스강 튜브만"),
-        Q("aluminium and copper tubing only", "알루미늄과 구리 튜브만"),
+        Q("the rejected flaws only", "불합격 처리한 결함만"),
+        Q("the scan data, probe and PCS details, and the calibration data", "주사 자료와 탐촉자·PCS 값, 그리고 교정 자료"),
+        Q("a photograph of the weld", "용접부 사진"),
+        Q("the purchase order number only", "발주 번호만"),
       ],
       a: 1,
-      why: "비자성 튜브는 보통 와전류탐상으로 두께 전체가 보이므로 원격장을 쓸 까닭이 없다. 원격장은 표피효과가 심한 강자성 튜브를 위한 방법이다.",
-    },
-
-    {
-      q: Q("In remote field testing, a signal caused by circumferential wall thinning at a support plate is best separated from the support signal by :",
-           "지지판 자리의 원주 방향 감육 신호를 지지판 신호와 갈라내는 가장 좋은 방법은?"),
-      o: [
-        Q("increasing the pulling speed", "인출 속도를 높인다"),
-        Q("mixing two frequencies to suppress the support plate signal", "두 주파수를 섞어 지지판 신호를 지운다"),
-        Q("reducing the fill factor", "충진율을 낮춘다"),
-        Q("removing the magnetic saturation unit", "자기포화 장치를 뗀다"),
-      ],
-      a: 1,
-      why: "지지판과 결함은 주파수에 따라 위상이 다르게 움직인다. 두 주파수를 섞어 지지판 신호를 지우면 그 아래 숨어 있던 감육이 드러난다.",
-    },
-
-    {
-      q: Q("The amplitude of a remote field signal is most closely related to :",
-           "원격장 신호의 크기는 무엇과 가장 가까운가?"),
-      o: [
-        Q("the volume of material lost", "없어진 살의 부피"),
-        Q("the depth of the discontinuity only", "결함의 깊이만"),
-        Q("the ambient temperature", "둘레 온도"),
-        Q("the length of the tube", "튜브의 길이"),
-      ],
-      a: 0,
-      why: "깊이는 위상 지연으로, 부피는 진폭으로 읽는다. 그래서 얕고 넓은 감육과 깊고 좁은 공식을 가려내려면 둘을 함께 보아야 한다.",
-    },
-
-    {
-      q: Q("Before and after each remote field examination run, the system shall be :",
-           "원격장 탐상은 검사를 한 차례 마칠 때마다 무엇을 해야 하는가?"),
-      o: [
-        Q("verified against the calibration tube", "교정 튜브로 확인한다"),
-        Q("returned to the factory default settings", "장비 기본값으로 되돌린다"),
-        Q("cleaned with solvent", "용제로 닦는다"),
-        Q("checked only if a discontinuity was found", "결함이 나왔을 때만 확인한다"),
-      ],
-      a: 0,
-      why: "시작과 끝에 교정 튜브로 확인한다. 어긋나 있으면 마지막으로 맞았던 교정 뒤에 검사한 튜브를 모두 다시 검사한다.",
-    },
-
-    {
-      q: Q("The eddy current test equipment used for remote field testing shall have a valid calibration certificate not more than :",
-           "원격장 탐상 장비의 교정 증명서는 얼마가 넘지 않아야 하는가?"),
-      o: [
-        Q("6 months old", "6개월"),
-        Q("1 year old", "1년"),
-        Q("2 years old", "2년"),
-        Q("5 years old", "5년"),
-      ],
-      a: 1,
-      why: "장비는 1년마다 교정하고, 그 교정이 국가 표준기관이나 제조업체로 소급될 수 있어야 한다. 1년 넘게 안 쓰던 장비는 쓰기 전에 다시 교정한다.",
-    },
-
-    {
-      q: Q("Tubes to be examined by remote field testing shall be cleaned beforehand mainly because deposits :",
-           "원격장 탐상 전에 튜브를 청소해야 하는 가장 큰 까닭은?"),
-      o: [
-        Q("increase the magnetic permeability of the tube", "튜브의 투자율을 키우기 때문에"),
-        Q("obstruct the probe and can produce signals that mask discontinuities", "탐촉자가 걸리고, 결함을 가리는 신호를 만들기 때문에"),
-        Q("change the phase lag of the exciter coil", "여자 코일의 위상 지연을 바꾸기 때문에"),
-        Q("shorten the half-life of the equipment", "장비의 수명을 줄이기 때문에"),
-      ],
-      a: 1,
-      why: "스케일이나 침전물이 있으면 탐촉자가 걸려 속도가 들쭉날쭉해지고, 그 자체가 신호를 만들어 결함을 가린다.",
-    },
-
-    {
-      q: Q("Which of the following is the most difficult for remote field testing to detect?",
-           "원격장 탐상으로 가장 찾기 어려운 것은?"),
-      o: [
-        Q("circumferential wall thinning", "원주 방향 감육"),
-        Q("a through-wall hole", "관통공"),
-        Q("a short axial crack", "짧은 축 방향 균열"),
-        Q("general wall loss over a long length", "긴 구간에 걸친 전면 감육"),
-      ],
-      a: 2,
-      why: "원격장은 자장이 원주 방향으로 도는 성질이 있어 원주 방향으로 살이 없어진 것에 민감하다. 축과 나란한 짧은 균열은 자장의 흐름을 거의 안 끊어 잡기 어렵다.",
-    },
-
-    {
-      q: Q("A remote field test instrument shall be capable of operating in :",
-           "원격장 탐상 장비는 어떤 방식으로 동작할 수 있어야 하는가?"),
-      o: [
-        Q("differential mode only", "차동형 모드만"),
-        Q("absolute mode only", "절대형 모드만"),
-        Q("differential or absolute mode, with multiple frequencies", "차동형 또는 절대형 모드로, 다중 주파수를 함께"),
-        Q("a single fixed frequency in absolute mode", "절대형 모드에서 정해진 한 주파수로만"),
-      ],
-      a: 2,
-      why: "차동형은 짧고 갑작스러운 결함에, 절대형은 완만한 전면 감육에 강하다. 둘을 다 쓸 수 있어야 하고, 지지판 신호를 지우려면 다중 주파수도 있어야 한다.",
-    },
-
-    {
-      q: Q("In remote field testing, sensitivity is normally set so that the artificial discontinuity in the calibration tube gives a signal of about :",
-           "원격장 탐상의 감도는 보통 교정 튜브의 인공 결함이 화면 높이의 얼마로 나오도록 맞추는가?"),
-      o: [
-        Q("5% to 10% of screen height", "화면 높이의 5~10%"),
-        Q("40% to 80% of screen height", "화면 높이의 40~80%"),
-        Q("100% of screen height exactly", "화면 높이의 꼭 100%"),
-        Q("sensitivity is not adjusted", "감도는 맞추지 않는다"),
-      ],
-      a: 1,
-      why: "너무 낮으면 잡음에 묻히고, 너무 높으면 신호가 잘려(포화) 위상을 못 읽는다. 화면 높이의 40~80% 로 맞추어 둘 다 피한다.",
+      why: "TOFD 는 영상 자체가 기록이라 나중에 다시 판독할 수 있다. 그러려면 어떤 탐촉자를 어떤 PCS 로 어떻게 교정해 찍은 것인지가 함께 남아 있어야 한다.",
     },
   ],
 
