@@ -338,9 +338,43 @@ table.data tbody tr:last-child td{border-bottom:none}
 .term .b{color:#6cb8ee;font-weight:700}
 
 @media print{
-  .runner,.rail{display:none}
-  .slide{display:flex!important;min-height:auto;page-break-after:always;padding:1.3cm;animation:none}
-  body{background:#fff}
+  /* 한 장 = 16:9 슬라이드 */
+  @page{size:297mm 167mm;margin:0}
+
+  /* 어두운 팔레트가 종이로 딸려 오지 않게 밝은 쪽으로 못 박는다 */
+  :root{
+    --acc:#0179cf; --acc-deep:#075f9e; --acc-on:#ffffff;
+    --acc-fade:#e6f1fa; --acc-edge:#bcdcf2;
+    --ink:#0c1926; --ink-2:#33495c; --mut:#5f6f7e;
+    --paper:#ffffff; --wash:#f2f7fc; --line:#d6e3ef; --line-soft:#e8f0f7;
+    --old:#8a9099; --old-ink:#4a5158; --old-bg:#f4f4f3; --old-line:#dedcd8;
+    --ok:#15734a; --ok-bg:#e6f4ec; --warn:#a8620c; --warn-bg:#fbf0e2;
+    --rail:#c9d9e7; --lift:none;
+  }
+
+  html,body{background:#fff;color:var(--ink)}
+  *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+
+  .runner,.rail{display:none!important}
+  .deck{min-height:0;display:block}
+  .stage{position:static}
+
+  .slide{
+    display:flex!important;flex-direction:column;justify-content:center;
+    width:297mm;height:167mm;
+    padding:11mm 15mm;
+    overflow:hidden;animation:none;
+    page-break-after:always;break-after:page;
+    page-break-inside:avoid;break-inside:avoid;
+  }
+  .slide:last-child{page-break-after:auto;break-after:auto}
+
+  /* 종이에서는 그림자를 뺀다 — 회색 얼룩으로 찍힌다 */
+  .shot,.pipe .node{box-shadow:none}
+  .shot,.pipe .node{border-color:var(--line)}
+
+  /* 표·상자가 장을 넘어가지 않게 */
+  .tw,.swap,.files,.metrics,.ba,.cols,.pipe,.howto{break-inside:avoid;page-break-inside:avoid}
 }
 </style>
 
