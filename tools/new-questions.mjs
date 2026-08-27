@@ -56,280 +56,207 @@ const BANKS = {
 
   /* Level Ⅱ 일반 여덟 종목은 2026-08-27 에 다 넣었다 */
 
-  /* ═══════════════════════════════════════════
-     Level Ⅱ 전문 ECT — 20문항 → 30문항
+  /* Level Ⅱ 전문 ECT·RFT 20문항은 2026-08-27 에 넣었다 — tools/_spec-ect-rft-done.txt */
 
-     전문시험은 「사양서·장치·검사기법·절차서」를 묻는다(E01 표 3).
-     그래서 회사 절차서 HIE-NDT-ET-P11 을 보고 짓고, 문제문에도
-     절차서 번호를 밝힌다. 일반시험과 반대다.
+  /* ═══════════════════════════════════════════
+     Level Ⅱ 전문 TOFD — 30문항 → 45문항
+     회사 절차서 HIE-NDT-TOFD-U09 를 본다
      ═══════════════════════════════════════════ */
-  "Level II/Specific/ECT": [
+  "Level II/Specific/TOFD": [
 
     {
-      q: Q("Under procedure HIE-NDT-ET-P11, calibration shall be verified at least every :",
-           "절차서 HIE-NDT-ET-P11 에 따르면 연속 검사 중 교정은 최소 얼마마다 확인해야 하는가?"),
+      q: Q("Under procedure HIE-NDT-TOFD-U09, this procedure applies to fusion welds in metallic materials of thickness :",
+           "절차서 HIE-NDT-TOFD-U09 는 두께 얼마 이상인 금속 재료의 용융 용접부에 적용하는가?"),
       o: [
-        Q("1 hour", "1시간"),
-        Q("2 hours", "2시간"),
-        Q("4 hours", "4시간"),
-        Q("8 hours", "8시간"),
+        Q("1/4 in. (6 mm) and over", "1/4 in.(6 mm) 이상"),
+        Q("1/2 in. (13 mm) and over", "1/2 in.(13 mm) 이상"),
+        Q("1 in. (25 mm) and over", "1 in.(25 mm) 이상"),
+        Q("2 in. (50 mm) and over", "2 in.(50 mm) 이상"),
       ],
-      a: 2,
-      why: "HIE-NDT-ET-P11 6.7. 검사 전·후와 연속 검사 중 최소 4시간마다 교정을 확인한다. 어긋나 있으면 마지막으로 맞았던 교정 뒤에 검사한 튜브를 다시 검사한다.",
+      a: 1,
+      why: "HIE-NDT-TOFD-U09 1.0. 두께 1/2 in.(13 mm) 이상인 용융 용접부에 반자동 또는 전자동으로 적용한다.",
     },
 
     {
-      q: Q("Under procedure HIE-NDT-ET-P11, the measured size of an artificial flaw shall agree with the calibration standard within :",
-           "절차서 HIE-NDT-ET-P11 에 따르면 인공 결함의 측정값은 대비 시험편과 얼마 이내로 맞아야 하는가?"),
+      q: Q("Under procedure HIE-NDT-TOFD-U09, the examination shall cover the weld and the adjacent base metal for at least :",
+           "절차서 HIE-NDT-TOFD-U09 에 따르면 용접부 양쪽 모재를 얼마까지 검사하는가?"),
       o: [
+        Q("1/4 in. (6 mm) each side", "양쪽 각각 1/4 in.(6 mm)"),
+        Q("1/2 in. (13 mm) each side", "양쪽 각각 1/2 in.(13 mm)"),
+        Q("1 in. (25 mm) each side", "양쪽 각각 1 in.(25 mm)"),
+        Q("the weld only, no base metal", "용접부만, 모재는 안 한다"),
+      ],
+      a: 1,
+      why: "HIE-NDT-TOFD-U09 1.0. 용접부와 그 양쪽 모재를 용접부로부터 각각 최소 ½ in.(13 mm)까지 검사한다. 융합불량과 균열이 개선면과 열영향부에서 잘 나기 때문이다.",
+    },
+
+    {
+      q: Q("Under procedure HIE-NDT-TOFD-U09, the linearity of the instrument shall be within :",
+           "절차서 HIE-NDT-TOFD-U09 에 따르면 탐상기의 직선성은 전체 눈금의 몇 % 이내여야 하는가?"),
+      o: [
+        Q("± 1%", "± 1%"),
+        Q("± 2%", "± 2%"),
         Q("± 5%", "± 5%"),
         Q("± 10%", "± 10%"),
-        Q("± 15%", "± 15%"),
-        Q("± 20%", "± 20%"),
-      ],
-      a: 0,
-      why: "HIE-NDT-ET-P11 6.5. 인공 결함을 재어 ±5% 안에 들면 교정이 유효하다. 벗어나면 다시 교정한다.",
-    },
-
-    {
-      q: Q("Under procedure HIE-NDT-ET-P11, after connecting power the instrument shall be warmed up for about :",
-           "절차서 HIE-NDT-ET-P11 에 따르면 전원을 이은 뒤 장비를 얼마 동안 예열하는가?"),
-      o: [
-        Q("1 to 2 minutes", "1~2분"),
-        Q("5 to 10 minutes", "5~10분"),
-        Q("20 to 30 minutes", "20~30분"),
-        Q("no warm-up is needed", "예열은 필요 없다"),
-      ],
-      a: 1,
-      why: "HIE-NDT-ET-P11 7.3. 전자 회로가 안정되기 전에 교정하면 검사 중에 값이 흘러 어긋난다.",
-    },
-
-    {
-      q: Q("Under procedure HIE-NDT-ET-P11, the depth curve table used to read flaw depth is created from :",
-           "절차서 HIE-NDT-ET-P11 에 따르면 결함 깊이를 읽는 데 쓰는 깊이 곡선(Depth Curves) 표는 무엇으로 만드는가?"),
-      o: [
-        Q("the backwall signal of the tube", "튜브의 저면 신호"),
-        Q("the signals from the artificial flaws in the calibration tube", "교정 튜브의 인공 결함에서 얻은 신호"),
-        Q("the noise level of the instrument", "장비의 잡음 높이"),
-        Q("the pulling speed of the probe", "탐촉자를 당기는 속도"),
-      ],
-      a: 1,
-      why: "HIE-NDT-ET-P11 6.2·6.3. 깊이를 아는 인공 결함마다 신호를 얻어 채널별 표를 만들고, 그 곡선으로 검사 중에 나온 신호의 깊이를 읽는다.",
-    },
-
-    {
-      q: Q("Under procedure HIE-NDT-ET-P11, the minimum resolution of the recording system shall be :",
-           "절차서 HIE-NDT-ET-P11 에 따른 기록 장치의 최소 분해능은?"),
-      o: [
-        Q("8 bits per data point", "데이터 점당 8비트"),
-        Q("12 bits per data point", "데이터 점당 12비트"),
-        Q("16 bits per data point", "데이터 점당 16비트"),
-        Q("32 bits per data point", "데이터 점당 32비트"),
-      ],
-      a: 1,
-      why: "HIE-NDT-ET-P11 5.1.2.2. 전 화면에서 데이터 점당 12비트 이상이어야 한다. 분해능이 낮으면 작은 신호가 뭉개진다.",
-    },
-
-    {
-      q: Q("Under procedure HIE-NDT-ET-P11, the strip chart display shall be able to show at least :",
-           "절차서 HIE-NDT-ET-P11 에 따르면 스트립 차트는 최소 몇 개의 기록을 보일 수 있어야 하는가?"),
-      o: [
-        Q("one record", "1개"),
-        Q("two records", "2개"),
-        Q("four records", "4개"),
-        Q("eight records", "8개"),
-      ],
-      a: 1,
-      why: "HIE-NDT-ET-P11 5.1.2.1. 최소 2개다. 진폭과 위상을 나란히 놓고 보아야 결함인지 지지판인지 가려진다.",
-    },
-
-    {
-      q: Q("Under procedure HIE-NDT-ET-P11, the analogue output frequency response of the instrument shall be constant within :",
-           "절차서 HIE-NDT-ET-P11 에 따르면 장비의 아날로그 출력 주파수 응답은 입력값의 몇 % 이내로 일정해야 하는가?"),
-      o: [
-        Q("2%", "2%"),
-        Q("5%", "5%"),
-        Q("10%", "10%"),
-        Q("20%", "20%"),
-      ],
-      a: 0,
-      why: "HIE-NDT-ET-P11 5.1.1.2. dc 부터 Fmax 까지 2% 이내로 일정해야 한다. Fmax 는 탐촉자 최대 이동속도에 0.4 Hz-s/mm 를 곱한 값이다.",
-    },
-
-    {
-      q: Q("Under procedure HIE-NDT-ET-P11, the data acquisition rate shall digitize at least :",
-           "절차서 HIE-NDT-ET-P11 에 따른 신호 수집율은 최소 얼마인가?"),
-      o: [
-        Q("10 signals per inch of tubing", "배관 1인치당 10개"),
-        Q("20 signals per inch of tubing", "배관 1인치당 20개"),
-        Q("30 signals per inch of tubing", "배관 1인치당 30개"),
-        Q("60 signals per inch of tubing", "배관 1인치당 60개"),
       ],
       a: 2,
-      why: "HIE-NDT-ET-P11 5.1.1.1. 1인치당 최소 30개다. 표본이 성기면 짧은 결함이 표본 사이로 빠져나간다.",
+      why: "HIE-NDT-TOFD-U09 4.1. 표시되는 진폭 또는 시간의 정확도가 실제 전체 눈금의 ±5% 이내여야 한다. 시간이 어긋나면 깊이가 그대로 어긋난다.",
     },
 
     {
-      q: Q("Under procedure HIE-NDT-ET-P11, the results of the examination may be evaluated by :",
-           "절차서 HIE-NDT-ET-P11 에 따르면 검사 결과를 평가할 수 있는 사람은?"),
+      q: Q("Under procedure HIE-NDT-TOFD-U09, the nominal frequency of the TOFD probes shall be between :",
+           "절차서 HIE-NDT-TOFD-U09 에 따른 TOFD 탐촉자의 공칭 주파수 범위는?"),
       o: [
-        Q("any examiner who performed the scan", "주사를 한 검사자면 누구든"),
-        Q("an examiner qualified as ET Level II or Level III", "ET Level Ⅱ 또는 Level Ⅲ 로 자격부여된 검사원"),
-        Q("the equipment manufacturer", "장비 제조업체"),
-        Q("the purchaser only", "발주자만"),
-      ],
-      a: 1,
-      why: "HIE-NDT-ET-P11 3.0. 자료를 모으는 것과 판정하는 것은 다르다. 판정은 ET Level Ⅱ 이상이 한다. 자격인정은 HIE-QP-E01 을 따른다.",
-    },
-
-    {
-      q: Q("Under procedure HIE-NDT-ET-P11, the calibration standard tube shall have :",
-           "절차서 HIE-NDT-ET-P11 에 따른 대비 시험편의 요건은?"),
-      o: [
-        Q("the same nominal diameter, thickness and material as the tubes to be examined", "검사할 튜브와 같은 공칭직경·두께·재질"),
-        Q("any diameter as long as the material is the same", "재질만 같으면 지름은 무엇이든"),
-        Q("twice the wall thickness of the tubes to be examined", "검사할 튜브의 두 배 두께"),
-        Q("carbon steel in every case", "언제나 탄소강"),
-      ],
-      a: 0,
-      why: "HIE-NDT-ET-P11 5.5. 지름·두께·재질(화학 성분)이 같아야 한다. 하나라도 다르면 같은 결함이 다른 신호로 나와 교정이 어긋난다.",
-    },
-  ],
-
-  /* ═══════════════════════════════════════════
-     Level Ⅱ 전문 RFT — 20문항 → 30문항
-     회사 절차서 HIE-NDT-ET-P99 를 본다
-     ═══════════════════════════════════════════ */
-  "Level II/Specific/RFT": [
-
-    {
-      q: Q("Under procedure HIE-NDT-ET-P99, the depth of a calibration discontinuity shall be within :",
-           "절차서 HIE-NDT-ET-P99 에 따르면 교정용 불연속의 깊이는 어느 범위 안에 들어야 하는가?"),
-      o: [
-        Q("± 10% of the specified depth or ± 0.005 in., whichever is smaller", "지정 깊이의 ±10% 또는 ±0.005 in. 가운데 작은 값"),
-        Q("± 20% of the specified depth or ± 0.003 in., whichever is smaller", "지정 깊이의 ±20% 또는 ±0.003 in. 가운데 작은 값"),
-        Q("± 5% of the specified depth only", "지정 깊이의 ±5% 만"),
-        Q("± 1 mm regardless of depth", "깊이와 상관없이 ±1 mm"),
-      ],
-      a: 1,
-      why: "HIE-NDT-ET-P99 4.3.2. 깊이는 불연속의 한가운데에서 재며, 지정 깊이의 ±20% 와 ±0.003 in. 가운데 작은 값 안에 들어야 한다.",
-    },
-
-    {
-      q: Q("Under procedure HIE-NDT-ET-P99, the flat machined flaw in the calibration tube is made with a milling tool of :",
-           "절차서 HIE-NDT-ET-P99 에 따르면 교정 튜브의 평면 가공 결함은 지름 얼마인 밀링 공구로 만드는가?"),
-      o: [
-        Q("0.125 in.", "0.125 in."),
-        Q("0.250 in.", "0.250 in."),
-        Q("0.500 in.", "0.500 in."),
-        Q("1.000 in.", "1.000 in."),
-      ],
-      a: 1,
-      why: "HIE-NDT-ET-P99 4.3.1. 지름 0.250 in. 밀링 공구로 측면 밀링해 모서리를 둥글게 만든다. 깊이는 50%, 축 방향 길이는 튜브 공칭 외경의 절반이다.",
-    },
-
-    {
-      q: Q("Under procedure HIE-NDT-ET-P99, the edges of the short circumferential groove in the calibration tube shall be bevelled at :",
-           "절차서 HIE-NDT-ET-P99 에 따르면 교정 튜브의 짧은 원주 그루브 가장자리는 몇 도로 기울이는가?"),
-      o: [
-        Q("45°", "45°"),
-        Q("60°", "60°"),
-        Q("90°", "90°"),
-        Q("105°", "105°"),
-      ],
-      a: 3,
-      why: "HIE-NDT-ET-P99 4.3.1. 105°다. 깊이 20%, 축 방향 길이 0.625 in. 인 짧은 원주 홈이며, 마모 흠과 긴 원주 그루브도 같은 105°로 기울인다.",
-    },
-
-    {
-      q: Q("Under procedure HIE-NDT-ET-P99, sensitivity is set so that the artificial flaw signal is :",
-           "절차서 HIE-NDT-ET-P99 에 따르면 감도는 인공 결함 지시가 얼마로 나오도록 맞추는가?"),
-      o: [
-        Q("40% to 80% of screen height and 1 mm to 20 mm on the strip chart", "화면 높이의 40~80%, 스트립 차트에서 1~20 mm"),
-        Q("10% to 30% of screen height", "화면 높이의 10~30%"),
-        Q("exactly 100% of screen height", "화면 높이의 꼭 100%"),
-        Q("as high as possible without limit", "한도 없이 될 수 있는 대로 높게"),
-      ],
-      a: 0,
-      why: "HIE-NDT-ET-P99 6.0. 너무 낮으면 잡음에 묻히고, 너무 높으면 신호가 잘려 위상을 못 읽는다.",
-    },
-
-    {
-      q: Q("Under procedure HIE-NDT-ET-P99, the transfer device shall be able to pull the coil at a constant speed of about :",
-           "절차서 HIE-NDT-ET-P99 에 따르면 이송 장치는 코일을 얼마의 일정한 속도로 당길 수 있어야 하는가?"),
-      o: [
-        Q("0.05 m/s", "0.05 m/s"),
-        Q("0.2 m/s", "0.2 m/s"),
-        Q("1.0 m/s", "1.0 m/s"),
-        Q("2.0 m/s", "2.0 m/s"),
-      ],
-      a: 1,
-      why: "HIE-NDT-ET-P99 4.4. 0.2 m/s 로 당길 수 있고 그 속도를 조절할 수 있어야 한다. 이송 장치를 쓸 수 없으면 사람이 코일을 일정한 속도로 당긴다.",
-    },
-
-    {
-      q: Q("Under procedure HIE-NDT-ET-P99, a calibration standard of a material different from the tubes may be used only if the frequencies used differ by :",
-           "절차서 HIE-NDT-ET-P99 에 따르면 검사할 튜브와 재질이 다른 대비 시험편은 쓰는 주파수가 몇 배 이내일 때만 쓸 수 있는가?"),
-      o: [
-        Q("less than 2 times", "2배 미만"),
-        Q("less than 5 times", "5배 미만"),
-        Q("less than 10 times", "10배 미만"),
-        Q("any difference is acceptable", "차이가 얼마든 상관없다"),
-      ],
-      a: 0,
-      why: "HIE-NDT-ET-P99 4.3. 2배 이상 차이 나면 그 대비 시험편은 적절하지 않은 것으로 보아, 검사할 재료를 더 정확히 나타내는 재료로 만든 것으로 바꾼다.",
-    },
-
-    {
-      q: Q("Under procedure HIE-NDT-ET-P99, if the system goes out of calibration during the examination :",
-           "절차서 HIE-NDT-ET-P99 에 따르면 검사 도중 장비가 교정에서 벗어나면 어떻게 하는가?"),
-      o: [
-        Q("record the fact and continue", "그 사실을 기록하고 그대로 이어 간다"),
-        Q("recalibrate, record it, and re-examine all tubes examined since the last valid calibration", "재교정하고 기록한 뒤, 마지막으로 유효했던 교정 뒤에 검사한 튜브를 모두 다시 검사한다"),
-        Q("re-examine only the last tube", "마지막 튜브만 다시 검사한다"),
-        Q("change the probe and continue without recalibration", "탐촉자만 바꾸고 재교정 없이 이어 간다"),
-      ],
-      a: 1,
-      why: "HIE-NDT-ET-P99 5.8. 어긋난 뒤에 검사한 것은 믿을 수 없다. 재교정은 5.4항부터 5.7항까지를 되풀이하고 보고서에 남긴다.",
-    },
-
-    {
-      q: Q("Under procedure HIE-NDT-ET-P99, the wear scar in the calibration tube is a tapered groove of :",
-           "절차서 HIE-NDT-ET-P99 에 따르면 교정 튜브의 마모 흠(wear scar)은 깊이 얼마인 홈인가?"),
-      o: [
-        Q("20% depth", "깊이 20%"),
-        Q("40% depth", "깊이 40%"),
-        Q("60% depth", "깊이 60%"),
-        Q("80% depth", "깊이 80%"),
-      ],
-      a: 1,
-      why: "HIE-NDT-ET-P99 4.3.1. 튜브 지지대에서 생기는 마모를 본뜬 것으로, 튜브 원주의 180° 넘게 이어지는 깊이 40%의 홈이다. 홈 바닥에서 잰 축 방향 길이는 0.625 in. 다.",
-    },
-
-    {
-      q: Q("Under procedure HIE-NDT-ET-P99, the tapered flaw near the support has a depth of :",
-           "절차서 HIE-NDT-ET-P99 에 따르면 지지대 부근 침식을 본뜬 테이퍼형 결함의 깊이는?"),
-      o: [
-        Q("20%", "20%"),
-        Q("40%", "40%"),
-        Q("60%", "60%"),
-        Q("80%", "80%"),
+        Q("0.5 MHz and 5 MHz", "0.5 MHz ~ 5 MHz"),
+        Q("1 MHz and 10 MHz", "1 MHz ~ 10 MHz"),
+        Q("2 MHz and 15 MHz", "2 MHz ~ 15 MHz"),
+        Q("5 MHz and 20 MHz", "5 MHz ~ 20 MHz"),
       ],
       a: 2,
-      why: "HIE-NDT-ET-P99 4.3.1. 깊이 60%의 홈이며, 급한 쪽 면은 튜브 축에 대해 65°, 가장 깊은 자리에서의 원주 방향 범위는 90°다.",
+      why: "HIE-NDT-TOFD-U09 4.2 ⑦. 2~15 MHz 다. 다만 결정립 조직처럼 투과력이나 분해능 때문에 다른 주파수가 필요하면 벗어날 수 있다. 짝을 이루는 두 탐촉자는 공칭 주파수가 같아야 한다.",
     },
 
     {
-      q: Q("Under procedure HIE-NDT-ET-P99, before eddy current examination the tubes shall be :",
-           "절차서 HIE-NDT-ET-P99 에 따르면 검사 전에 튜브는 어떤 상태여야 하는가?"),
+      q: Q("Under procedure HIE-NDT-TOFD-U09, the couplant is water supplied automatically at a flow rate of more than :",
+           "절차서 HIE-NDT-TOFD-U09 에 따르면 접촉매질인 물의 유량은 분당 얼마를 넘어야 하는가?"),
       o: [
-        Q("magnetically saturated", "자기포화되어 있어야 한다"),
-        Q("clean", "깨끗해야 한다"),
-        Q("filled with couplant", "접촉매질로 채워 두어야 한다"),
-        Q("heated above 50°C", "50℃ 넘게 데워 두어야 한다"),
+        Q("20 cc per minute", "분당 20 cc"),
+        Q("60 cc per minute", "분당 60 cc"),
+        Q("200 cc per minute", "분당 200 cc"),
+        Q("500 cc per minute", "분당 500 cc"),
       ],
       a: 1,
-      why: "HIE-NDT-ET-P99 7.0. 스케일이나 침전물이 있으면 탐촉자가 걸려 속도가 들쭉날쭉해지고, 그 자체가 신호를 만들어 결함을 가린다. 신호를 읽는 데 방해가 될 만한 것은 미리 없애거나 살펴 둔다.",
+      why: "HIE-NDT-TOFD-U09 4.3. 분당 60 cc 를 넘어야 한다. 교정에 쓴 접촉매질은 이어지는 검사와 교정 후 확인에서도 같은 것을 써야 한다.",
+    },
+
+    {
+      q: Q("Under procedure HIE-NDT-TOFD-U09, the reference sensitivity is set so that the lateral wave amplitude is :",
+           "절차서 HIE-NDT-TOFD-U09 에 따르면 기준 감도는 측면파가 전체 화면 높이의 얼마가 되도록 맞추는가?"),
+      o: [
+        Q("20% to 40% FSH", "FSH 의 20~40%"),
+        Q("40% to 90% FSH", "FSH 의 40~90%"),
+        Q("80% to 100% FSH", "FSH 의 80~100%"),
+        Q("exactly 50% FSH", "FSH 의 꼭 50%"),
+      ],
+      a: 1,
+      why: "HIE-NDT-TOFD-U09 5.2. 측면파를 FSH 의 40~90% 로 맞추고, 잡음(풀) 수준은 FSH 의 5~10% 미만이 되게 한다. 이것이 기준 감도 설정이다.",
+    },
+
+    {
+      q: Q("Under procedure HIE-NDT-TOFD-U09, the side-drilled hole response shall be higher than the grain noise by at least :",
+           "절차서 HIE-NDT-TOFD-U09 에 따르면 측면 구멍의 응답은 결정립 잡음보다 최소 얼마나 높아야 하는가?"),
+      o: [
+        Q("3 dB", "3 dB"),
+        Q("6 dB", "6 dB"),
+        Q("12 dB", "12 dB"),
+        Q("20 dB", "20 dB"),
+      ],
+      a: 1,
+      why: "HIE-NDT-TOFD-U09 5.3. 최소 6 dB 높아야 하며 디지털 회색조 화면에 뚜렷이 나타나야 한다. 6 dB 는 진폭으로 두 배다.",
+    },
+
+    {
+      q: Q("Under procedure HIE-NDT-TOFD-U09, the side-drilled holes in the basic calibration block shall be drilled to a depth of at least :",
+           "절차서 HIE-NDT-TOFD-U09 에 따른 기본 교정용 시험편의 측면 구멍은 최소 얼마 깊이로 뚫는가?"),
+      o: [
+        Q("1 in. (25 mm)", "1 in.(25 mm)"),
+        Q("2 in. (50 mm)", "2 in.(50 mm)"),
+        Q("3 in. (75 mm)", "3 in.(75 mm)"),
+        Q("4 in. (100 mm)", "4 in.(100 mm)"),
+      ],
+      a: 1,
+      why: "HIE-NDT-TOFD-U09 4.6. 검사면과 주사 방향에 나란하게 최소 2 in.(50 mm) 깊이로 뚫고 리밍한다. 지름 공차는 ±1/32 in.(±0.8 mm)다.",
+    },
+
+    {
+      q: Q("Under procedure HIE-NDT-TOFD-U09, when the weld is divided into zones, each zone shall have side-drilled holes at :",
+           "절차서 HIE-NDT-TOFD-U09 에 따르면 용접부를 여러 구역으로 나눌 때 각 구역의 측면 구멍은 어디에 두는가?"),
+      o: [
+        Q("Tz/2 only", "Tz/2 한 곳"),
+        Q("Tz/4 and Tz3/4", "Tz/4 와 Tz3/4"),
+        Q("the surface and the backwall", "표면과 저면"),
+        Q("anywhere within the zone", "구역 안이면 어디든"),
+      ],
+      a: 1,
+      why: "HIE-NDT-TOFD-U09 4.6. 각 구역에 Tz/4 와 Tz3/4 자리에 측면 구멍이 있어야 한다. Tz 는 그 구역의 두께다. 구역마다 구멍이 최소 두 개다.",
+    },
+
+    {
+      q: Q("Under procedure HIE-NDT-TOFD-U09, for a component of nominal thickness 4 in. (100 mm) or less, the calibration block thickness shall be within :",
+           "절차서 HIE-NDT-TOFD-U09 에 따르면 공칭 두께 4 in.(100 mm) 이하인 부재의 교정용 시험편 두께 공차는?"),
+      o: [
+        Q("± 5% of the nominal thickness", "공칭 두께의 ±5%"),
+        Q("± 10% of the nominal thickness", "공칭 두께의 ±10%"),
+        Q("± 20% of the nominal thickness", "공칭 두께의 ±20%"),
+        Q("± 1 in. (25 mm)", "±1 in.(25 mm)"),
+      ],
+      a: 1,
+      why: "HIE-NDT-TOFD-U09 4.6.2. 4 in. 이하면 ±10% 이내, 4 in. 를 넘으면 ±0.4 in.(10 mm) 이내다. 더 두꺼운 시험편을 쓸 수도 있다.",
+    },
+
+    {
+      q: Q("Under procedure HIE-NDT-TOFD-U09, a curved calibration block is required when the examination surface diameter is :",
+           "절차서 HIE-NDT-TOFD-U09 에 따르면 곡면 교정용 시험편을 반드시 써야 하는 것은 검사면 지름이 얼마일 때인가?"),
+      o: [
+        Q("20 in. (500 mm) or less", "20 in.(500 mm) 이하"),
+        Q("over 20 in. (500 mm)", "20 in.(500 mm) 초과"),
+        Q("over 40 in. (1,000 mm)", "40 in.(1,000 mm) 초과"),
+        Q("any diameter", "지름과 상관없이 늘"),
+      ],
+      a: 0,
+      why: "HIE-NDT-TOFD-U09 4.6.4. 20 in. 이하면 곡면 시험편을 써야 한다. 20 in. 를 넘으면 곡률이 거의 같은 시험편이나 평판형을 쓸 수 있다. 곡면 시험편 하나로 그 지름의 0.9~1.5배 범위를 덮는다.",
+    },
+
+    {
+      q: Q("Under procedure HIE-NDT-TOFD-U09, the encoder shall be verified by moving it at least :",
+           "절차서 HIE-NDT-TOFD-U09 에 따르면 엔코더는 최소 얼마를 움직여 확인하는가?"),
+      o: [
+        Q("4 in. (100 mm)", "4 in.(100 mm)"),
+        Q("12 in. (300 mm)", "12 in.(300 mm)"),
+        Q("20 in. (500 mm)", "20 in.(500 mm)"),
+        Q("40 in. (1,000 mm)", "40 in.(1,000 mm)"),
+      ],
+      a: 2,
+      why: "HIE-NDT-TOFD-U09 5.6. 최소 20 in.(500 mm)를 움직여 표시 거리가 실제 움직인 거리의 ±1% 이내인지 확인한다. 확인 주기는 한 달을 넘기지 않는다.",
+    },
+
+    {
+      q: Q("Under procedure HIE-NDT-TOFD-U09, the encoder display shall agree with the actual distance moved within :",
+           "절차서 HIE-NDT-TOFD-U09 에 따르면 엔코더가 표시하는 거리는 실제 움직인 거리와 몇 % 이내로 맞아야 하는가?"),
+      o: [
+        Q("± 1%", "± 1%"),
+        Q("± 2%", "± 2%"),
+        Q("± 5%", "± 5%"),
+        Q("± 10%", "± 10%"),
+      ],
+      a: 0,
+      why: "HIE-NDT-TOFD-U09 5.6. ±1% 이내다. 엔코더가 어긋나면 결함의 자리와 길이가 모두 틀어진다.",
+    },
+
+    {
+      q: Q("Under procedure HIE-NDT-TOFD-U09, data acquisition shall be performed by :",
+           "절차서 HIE-NDT-TOFD-U09 에 따르면 신호 수집은 누가 하는가?"),
+      o: [
+        Q("any examiner regardless of level", "등급과 상관없이 어느 검사자든"),
+        Q("a qualified UT Level II examiner experienced with TOFD equipment", "TOFD 장비를 다뤄 본 자격 있는 UT Level Ⅱ 요원"),
+        Q("the equipment manufacturer only", "장비 제조업체만"),
+        Q("a UT Level III examiner only", "UT Level Ⅲ 요원만"),
+      ],
+      a: 1,
+      why: "HIE-NDT-TOFD-U09 3.0 나. 자격인정은 HIE-QP-E01 을 따른다. 자료를 모으는 것은 UT Level Ⅱ 가 하고, 판정은 그 위에서 한다.",
+    },
+
+    {
+      q: Q("Under procedure HIE-NDT-TOFD-U09, if an essential variable falls outside its qualified value or range, the correct action is to :",
+           "절차서 HIE-NDT-TOFD-U09 에 따르면 필수 변수가 인정된 값이나 범위를 벗어나면 어떻게 하는가?"),
+      o: [
+        Q("record the change and continue", "바뀐 것을 기록하고 그대로 이어 간다"),
+        Q("requalify the written procedure", "문서화된 절차서를 다시 자격인정한다"),
+        Q("reduce the scanning speed by half", "주사 속도를 절반으로 줄인다"),
+        Q("change to a nonessential variable", "비필수 변수로 바꾼다"),
+      ],
+      a: 1,
+      why: "HIE-NDT-TOFD-U09 3.0. 부록 1이 필수 변수를 정해 두었다. 필수 변수가 벗어나면 절차서를 다시 자격인정해야 한다. 비필수 변수가 벗어나면 절차서를 고치기만 하면 된다.",
     },
   ],
 
