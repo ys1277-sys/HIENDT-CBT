@@ -12,6 +12,7 @@ import {
   MULTI,
   TEXT
 } from "./grading.js";
+import { shuffle, shuffleOptions } from "./optionShuffle.js";
 
 /*
  * ★ 검토 모드 ★
@@ -33,16 +34,6 @@ import {
  * ★ 검토가 끝나면 false 로 되돌린다.
  */
 export const DRAW_IN_ORDER = true;
-
-/* Fisher-Yates */
-function shuffle(list) {
-  const out = [...list];
-  for (let i = out.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [out[i], out[j]] = [out[j], out[i]];
-  }
-  return out;
-}
 
 /*
  * 문항을 "묶음" 단위로 나눈다.
@@ -109,20 +100,24 @@ function drawQuestions(bank, count) {
   /*
    * 검토 모드 — 은행에 적힌 차례 그대로 전부 낸다.
    * 묶음을 다시 엮지 않는다. 원본 차례가 곧 묶음 차례다.
+   * 보기 자리도 안 바꾼다. 은행에 적힌 그대로여야 대조가 된다.
    */
   if (DRAW_IN_ORDER) return [...bank];
 
   const groups = toGroups(bank);
 
-  if (!count || count >= bank.length) return shuffle(groups).flat();
+  /* 뽑은 문항마다 보기 자리도 바꾼다 (E02 7.3.1) */
+  const draw = (list) => list.map(shuffleOptions);
+
+  if (!count || count >= bank.length) return draw(shuffle(groups).flat());
 
   let best = [];
   for (let i = 0; i < DRAW_ATTEMPTS; i++) {
     const picked = fillGroups(shuffle(groups), count);
-    if (picked.length === count) return picked;
+    if (picked.length === count) return draw(picked);
     if (picked.length > best.length) best = picked;
   }
-  return best;
+  return draw(best);
 
 }
 

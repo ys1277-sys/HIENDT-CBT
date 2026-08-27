@@ -485,14 +485,15 @@
     "method": "RT",
     "category": "General",
     "source": "RTG-II(A)",
-    "question": "As the effective energy of the radiation increases upto about 250KV:\n방사선 유효 에너지가 250KV까지 증가함에 따라",
+    "question": "As the effective energy of the radiation increases up to about 250KV:\n방사선 유효 에너지가 250KV까지 증가함에 따라",
     "options": [
       "film graininess increases\n필름 입도는 증가한다.",
       "film graininess decreases\n필름 입도는 감소한다.",
       "radiographic definition increases\n방사선 사진의 선명도는 증가한다.",
       "film speed decreases\n필름 속도는 감소한다."
     ],
-    "answer": 0
+    "answer": 0,
+    "note": "원본 시험지의 철자 「increases upto」을 「increases up to」로 바로잡음 (2026-08-27)"
   },
   {
     "id": 34,

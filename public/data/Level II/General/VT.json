@@ -87,10 +87,11 @@
     "options": [
       "It is widely used for testing hollow tubes, deep holes.\n내시경은 빈 관, 깊은 홀에 넓게 사용된다.",
       "Relatively large industrial borescopes range from 1/2 in to 1-3/4 in, in diameter and from 20 in, to 72 ft, in length.\n상대적으로 큰 산업용 내시경은 직경 1/2~ 1 3/4 in. 길이는 20 in ~ 72 ft에 이른다",
-      "Most borescopes are equiped with light sources to illuminate the area being inspected.\n대부분의 내시경은 검사부위를 밝히기 위한 광원을 가지고 있다.",
+      "Most borescopes are equipped with light sources to illuminate the area being inspected.\n대부분의 내시경은 검사부위를 밝히기 위한 광원을 가지고 있다.",
       "None of the above.\n해답 없음"
     ],
-    "answer": 3
+    "answer": 3,
+    "note": "원본 시험지의 철자 「equiped」을 「equipped」로 바로잡음 (2026-08-27)"
   },
   {
     "id": 7,
@@ -554,11 +555,11 @@
     "options": [
       "Cold shuts\n콜드 셧",
       "Hot tears\n핫 티어",
-      "Denritic grain growth\n성장",
+      "Dendritic grain growth\n성장",
       "Shrinkage\n수축"
     ],
     "answer": 3,
-    "note": "보기를 넷으로 맞추면서 오답 「Misruns」을 덜어냈다. 정답과 묻는 내용은 그대로다."
+    "note": "보기를 넷으로 맞추면서 오답 「Misruns」을 덜어냈다. 정답과 묻는 내용은 그대로다.\n원본 시험지의 철자 「Denritic」을 「Dendritic」로 바로잡음 (2026-08-27)"
   },
   {
     "id": 38,
@@ -599,11 +600,12 @@
     "question": "In a casting, shrinkage occurs:\n주조내에서 수축발생",
     "options": [
       "Only after the transformation from liquid to solid.\n오직 액체로부터 고체로 변형후",
-      "Only during the trasnformation from liquid to solid.\n오직 액체로부터 고체로 변형하는 동안",
+      "Only during the transformation from liquid to solid.\n오직 액체로부터 고체로 변형하는 동안",
       "Before, during and after the transformation from liquid to solid.\n액체로부터 고체로 변형하는 후, 동안, 전",
       "Only one the metal is in the liquid state\n오직 액체상태에서"
     ],
-    "answer": 2
+    "answer": 2,
+    "note": "원본 시험지의 철자 「trasnformation」을 「transformation」로 바로잡음 (2026-08-27)"
   },
   {
     "id": 41,

@@ -962,9 +962,10 @@
       "a discontinuity\n불연속",
       "a defect\n결함",
       "an indication\n지시",
-      "magnetic witing\n자기 라이팅(magnetic writing)"
+      "magnetic writing\n자기 라이팅(magnetic writing)"
     ],
-    "answer": 2
+    "answer": 2,
+    "note": "원본 시험지의 철자 「magnetic witing」을 「magnetic writing」로 바로잡음 (2026-08-27)"
   },
   {
     "id": 70,
@@ -1365,7 +1366,7 @@
     "method": "MT",
     "category": "Method",
     "source": "MTM-III.HWP",
-    "question": "Each magnetic particle examiner has vision, with correction if necessary, to enable him to read a Jeager Type No. 2 Standard Chart at a distance of not less than ________.\n자분탐상 검사자는 필요시 교정시력으로 Jaeger Type No. 2 표준 시력표를 최소 얼마의 거리에서 읽을 수 있어야 하는가?",
+    "question": "Each magnetic particle examiner has vision, with correction if necessary, to enable him to read a Jaeger Type No. 2 Standard Chart at a distance of not less than ________.\n자분탐상 검사자는 필요시 교정시력으로 Jaeger Type No. 2 표준 시력표를 최소 얼마의 거리에서 읽을 수 있어야 하는가?",
     "options": [
       "6 in. (150 mm)",
       "12 in. (300 mm)",
@@ -1373,7 +1374,8 @@
       "24 in. (600 mm)"
     ],
     "answer": 1,
-    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다."
+    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다.",
+    "note": "원본 시험지의 철자 「Jeager」을 「Jaeger」로 바로잡음 (2026-08-27)"
   },
   {
     "id": 97,

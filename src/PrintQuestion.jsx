@@ -6,7 +6,7 @@ import React, {
 
 import "./print.css";
 import { optionMark } from "./optionMark.js";
-import logo from "./logo.png";
+import logo from "./logo.svg";
 
 function PrintQuestion({
   questions = [],

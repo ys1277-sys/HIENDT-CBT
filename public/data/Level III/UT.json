@@ -1580,13 +1580,14 @@
     "method": "UT",
     "category": "Method",
     "source": "UTM-III.HWP",
-    "question": "(ASME Section Ⅷ-Div.1) - For 30 mm thickness of weld metal, the indication has 25% amplitude and has 12 mm length. The weld is : Accpetable________Unacceptable________\n(ASME Section Ⅷ-Div.1) 두께 30mm 용접금속에서 지시의 진폭이 25%이고 길이가 12mm이다. 이 용접부는?",
+    "question": "(ASME Section Ⅷ-Div.1) - For 30 mm thickness of weld metal, the indication has 25% amplitude and has 12 mm length. The weld is : Acceptable________Unacceptable________\n(ASME Section Ⅷ-Div.1) 두께 30mm 용접금속에서 지시의 진폭이 25%이고 길이가 12mm이다. 이 용접부는?",
     "options": [
       "Acceptable",
       "Unacceptable"
     ],
     "answer": 1,
-    "groupNote": "* Question pertain to requirement in ASME Section Ⅷ.\n(다음 문제는 ASME Sec.Ⅷ 의 요구사항에 따라 답하시오.)"
+    "groupNote": "* Question pertain to requirement in ASME Section Ⅷ.\n(다음 문제는 ASME Sec.Ⅷ 의 요구사항에 따라 답하시오.)",
+    "note": "원본 시험지의 철자 「Accpetable」을 「Acceptable」로 바로잡음 (2026-08-27)"
   },
   {
     "id": 106,

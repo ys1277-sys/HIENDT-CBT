@@ -297,9 +297,10 @@
       "duty cycle required\n요구되는 휴지시간",
       "shop electrical service\n공장에서 제공되는 전기",
       "prod spacing required on average production part types\n평균 프로드 간격",
-      "size of current cabels\n전류 케이블의 크기"
+      "size of current cables\n전류 케이블의 크기"
     ],
-    "answer": 0
+    "answer": 0,
+    "note": "원본 시험지의 철자 「cabels」을 「cables」로 바로잡음 (2026-08-27)"
   },
   {
     "id": 21,
@@ -322,14 +323,15 @@
     "method": "MT",
     "category": "General",
     "source": "MTG-II(A)",
-    "question": "A large forging is repaired by welding. Mamgetic particle inspection of the repair weld reveals an irregular indication running parallel with the weld passes. It is located in the center of the bead and stars and ends by turning off slightly from the axial direction. This indication is indicative of:\n큰 단조품은 용접으로 수정한다. 이 단조품에서 자분탐상검사시 용접 패스와 평행하게 불규칙적 지시가 나타나며, 비드 중앙에 나타나고, 별 모양이고, 축 방향으로부터 가늘게 사라지는 끝단을 갖는 결함은?",
+    "question": "A large forging is repaired by welding. Magnetic particle inspection of the repair weld reveals an irregular indication running parallel with the weld passes. It is located in the center of the bead and stars and ends by turning off slightly from the axial direction. This indication is indicative of:\n큰 단조품은 용접으로 수정한다. 이 단조품에서 자분탐상검사시 용접 패스와 평행하게 불규칙적 지시가 나타나며, 비드 중앙에 나타나고, 별 모양이고, 축 방향으로부터 가늘게 사라지는 끝단을 갖는 결함은?",
     "options": [
       "inclusions\n개재물",
       "crater cracks\n크레이터 균열",
       "weld shrinkage cracks\n용접 수축 균열",
       "surface checking\n표면 잔균열(체킹)"
     ],
-    "answer": 2
+    "answer": 2,
+    "note": "원본 시험지의 철자 「Mamgetic」을 「Magnetic」로 바로잡음 (2026-08-27)"
   },
   {
     "id": 23,

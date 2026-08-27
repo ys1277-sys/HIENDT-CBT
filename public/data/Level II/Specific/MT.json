@@ -237,14 +237,15 @@
     "method": "MT",
     "category": "Specific",
     "source": "MTS-II(2020)(A)",
-    "question": "What is the size of relevant indication in case of magnetic particle exanimation on welds and surface?\n다음 중 용접물의 MT 검사에서 관련 지시는?) (Ref. : Sec.Ⅲ Subsection.NB",
+    "question": "What is the size of relevant indication in case of magnetic particle examination on welds and surface?\n다음 중 용접물의 MT 검사에서 관련 지시는?) (Ref. : Sec.Ⅲ Subsection.NB",
     "options": [
       "1/32in.",
       "1/64in.",
       "1/16in.",
       "3/64in."
     ],
-    "answer": 2
+    "answer": 2,
+    "note": "원본 시험지의 철자 「exanimation」을 「examination」로 바로잡음 (2026-08-27)"
   },
   {
     "id": 17,

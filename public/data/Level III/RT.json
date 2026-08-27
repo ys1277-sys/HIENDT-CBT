@@ -371,12 +371,12 @@
     "question": "The depth of a discontinuity may be estimated by making two exposures on a single film from two different positions of the x-ray tube. The depth of the discontinuity is computed from the shift in the image of the discontinuity with respect to the tube shift and source-to-film distance. The method is referred to as:\nX선관을 두 위치에 두고 한 장의 필름에 두 번 노출시켜 불연속의 깊이를 추정할 수 있다. 관의 이동량과 선원-필름 거리에 대한 불연속 상의 이동량으로 깊이를 계산한다. 이 방법을 무엇이라 하는가?",
     "options": [
       "stereo-radiography\n입체 방사선촬영",
-      "zeroradiography\n제로 라디오그래피",
+      "xeroradiography\n제로 라디오그래피",
       "fluoroscopy\n형광투시",
       "the parallax method\n시차법"
     ],
     "answer": 3,
-    "note": "보기를 넷으로 맞추면서 오답 「none of the above」을 덜어냈다. 정답과 묻는 내용은 그대로다."
+    "note": "보기를 넷으로 맞추면서 오답 「none of the above」을 덜어냈다. 정답과 묻는 내용은 그대로다.\n원본 시험지의 철자 「zeroradiography」을 「xeroradiography」로 바로잡음 (2026-08-27)"
   },
   {
     "id": 33,
@@ -1355,12 +1355,13 @@
     "method": "RT",
     "category": "Method",
     "source": "RTM-III.HWP",
-    "question": "(ASME Section Ⅷ-Div.1) - When all butt welds in the shell and heads of vessels used to contain lethal substances should be examined radiographicall, they shall be radiographed for their full length in the manner prescribed in UW-51\n(ASME Section Ⅷ-Div.1) 치명적 물질을 담는 용기의 동체와 경판에 있는 모든 맞대기 용접부를 방사선투과검사해야 할 때는, UW-51에 규정된 방법으로 전 길이를 촬영해야 한다.",
+    "question": "(ASME Section Ⅷ-Div.1) - When all butt welds in the shell and heads of vessels used to contain lethal substances should be examined radiographically, they shall be radiographed for their full length in the manner prescribed in UW-51\n(ASME Section Ⅷ-Div.1) 치명적 물질을 담는 용기의 동체와 경판에 있는 모든 맞대기 용접부를 방사선투과검사해야 할 때는, UW-51에 규정된 방법으로 전 길이를 촬영해야 한다.",
     "options": [
       "True",
       "False"
     ],
-    "answer": 0
+    "answer": 0,
+    "note": "원본 시험지의 철자 「radiographicall,」을 「radiographically,」로 바로잡음 (2026-08-27)"
   },
   {
     "id": 100,

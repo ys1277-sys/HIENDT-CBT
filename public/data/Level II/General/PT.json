@@ -39,10 +39,11 @@
     "options": [
       "Dry developers are used\n건식 현상액이 사용될 때",
       "Visible dye penetrants are used\n육안 염색침투액이 사용될 때",
-      "fluorescent post-emulsification penetrantes are used\n형광 후 유화성 침투액이 사용될 때",
+      "fluorescent post-emulsification penetrants are used\n형광 후 유화성 침투액이 사용될 때",
       "Wet developers are used\n습식 현상액이 사용될 때"
     ],
-    "answer": 1
+    "answer": 1,
+    "note": "원본 시험지의 철자 「penetrantes」을 「penetrants」로 바로잡음 (2026-08-27)"
   },
   {
     "id": 4,
@@ -263,11 +264,12 @@
     "question": "When conducting a water washable liquid penetrant test, the developer is applied :\n수성 침투 시험시 현상액은 언제 도포하는가?",
     "options": [
       "Immediately after the penetrant has been applied\n침투액 도포후 즉시",
-      "Immedicately before the penetrant is applied\n침투액 도포 바로 직전",
+      "Immediately before the penetrant is applied\n침투액 도포 바로 직전",
       "After removal of the penetrant\n침투액 제거후",
       "Before removal of the emulsifier\n유화제 제거전"
     ],
-    "answer": 2
+    "answer": 2,
+    "note": "원본 시험지의 철자 「Immedicately」을 「Immediately」로 바로잡음 (2026-08-27)"
   },
   {
     "id": 19,
