@@ -824,5 +824,455 @@
       "Nitrous oxide\n아산화질소"
     ],
     "answer": 3
+  },
+  {
+    "id": 56,
+    "level": "Level III",
+    "method": "Basic",
+    "category": "Basic",
+    "question": "Under SNT-TC-1A, the document that an employer must prepare to describe how its NDT personnel are trained, examined and certified is the :\nSNT-TC-1A 에 따라 고용주가 자사 비파괴검사 요원의 교육·시험·인증 방법을 적어 두어야 하는 문서는?",
+    "options": [
+      "Written Practice\n사내 규정(Written Practice)",
+      "Quality Manual\n품질 매뉴얼",
+      "Inspection Procedure\n검사 절차서",
+      "Technique Sheet\n기법 지시서"
+    ],
+    "answer": 0,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : SNT-TC-1A 는 권고 규격이라 그대로 쓰라는 것이 아니다. 고용주가 자기 사정에 맞춰 사내 규정을 만들고 그것으로 요원을 인증한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 57,
+    "level": "Level III",
+    "method": "Basic",
+    "category": "Basic",
+    "question": "Under SNT-TC-1A, near vision acuity of NDT personnel shall be verified :\nSNT-TC-1A 에 따르면 비파괴검사 요원의 근거리 시력은 얼마마다 확인하는가?",
+    "options": [
+      "every 2 years\n2년마다",
+      "annually\n1년마다",
+      "every 3 years\n3년마다",
+      "only at initial certification\n최초 인증 때만"
+    ],
+    "answer": 1,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 근거리 시력은 1년마다, 색 구별 능력은 최초와 그 뒤 5년마다 확인한다. 시력이 안 되면 자격이 있어도 검사할 수 없다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 58,
+    "level": "Level III",
+    "method": "Basic",
+    "category": "Basic",
+    "question": "Under SNT-TC-1A, an NDT Level I is qualified to :\nSNT-TC-1A 에 따른 NDT Level Ⅰ 이 할 수 있는 일은?",
+    "options": [
+      "develop examination techniques and approve procedures\n검사 기법을 개발하고 절차서를 승인한다",
+      "interpret and evaluate results against acceptance criteria\n합격 기준에 견주어 결과를 판독하고 평가한다",
+      "perform calibrations and specific examinations, and record results under supervision\n지시에 따라 교정과 정해진 검사를 하고 결과를 기록한다",
+      "train and examine Level II candidates\nLevel Ⅱ 응시자를 교육하고 시험한다"
+    ],
+    "answer": 2,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : Level Ⅰ 은 지시받은 대로 하고 기록한다. 판독과 평가는 Level Ⅱ 부터, 기법 개발과 절차서 승인은 Level Ⅲ 다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 59,
+    "level": "Level III",
+    "method": "Basic",
+    "category": "Basic",
+    "question": "Under SNT-TC-1A, the NDT Level III is responsible for :\nSNT-TC-1A 에 따른 NDT Level Ⅲ 의 책임은?",
+    "options": [
+      "performing calibrations only\n교정만 수행하는 것",
+      "purchasing the examination equipment\n검사 장비를 구매하는 것",
+      "recording examination results only\n검사 결과를 기록하는 것만",
+      "establishing techniques, approving procedures, and training and examining personnel\n기법을 세우고 절차서를 승인하며 요원을 교육·시험하는 것"
+    ],
+    "answer": 3,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : Level Ⅲ 는 사내 규정을 세우고, 기법과 절차서를 승인하며, 아래 등급을 교육·시험·인증하는 자리다. 규격 해석과 방법 선택도 여기서 한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 60,
+    "level": "Level III",
+    "method": "Basic",
+    "category": "Basic",
+    "question": "Under SNT-TC-1A, recertification of Level I and Level II personnel may be based on :\nSNT-TC-1A 에 따르면 Level Ⅰ·Ⅱ 의 재인증은 무엇에 근거할 수 있는가?",
+    "options": [
+      "re-examination, or evidence of continuing satisfactory performance\n재시험, 또는 계속 만족스럽게 수행해 왔다는 증거",
+      "re-examination only\n재시험만",
+      "payment of a renewal fee\n갱신 수수료 납부",
+      "a new vision test only\n새 시력검사만"
+    ],
+    "answer": 0,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 둘 중 하나다. 계속 만족스럽게 수행했는지는 그 종목 Level Ⅲ 가 평가한다. Level Ⅲ 는 재시험이나 ASNT 자격 유지로 재인증한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 61,
+    "level": "Level III",
+    "method": "Basic",
+    "category": "Basic",
+    "question": "Under SNT-TC-1A, when an employer uses an outside agency for NDT personnel qualification, the responsibility for certification remains with :\nSNT-TC-1A 에 따라 외부 기관에 자격인정을 맡겨도 인증의 책임은 누구에게 있는가?",
+    "options": [
+      "the outside agency\n외부 기관",
+      "the employer\n고용주",
+      "the purchaser\n발주자",
+      "ASNT\nASNT"
+    ],
+    "answer": 1,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 시험을 남에게 맡길 수는 있어도 인증서를 내주는 것은 고용주다. 그래서 사내 규정에 외부 기관을 어떻게 쓰는지 적어 두어야 한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 62,
+    "level": "Level III",
+    "method": "Basic",
+    "category": "Basic",
+    "question": "Under SNT-TC-1A, an NDT Level II is qualified to :\nSNT-TC-1A 에 따른 NDT Level Ⅱ 가 할 수 있는 일은?",
+    "options": [
+      "only record data taken by others\n남이 얻은 자료를 기록하는 것만",
+      "approve the written practice of the employer\n고용주의 사내 규정을 승인하는 일",
+      "set up and calibrate equipment, interpret and evaluate results, and prepare written instructions\n장비를 맞추고 교정하며, 결과를 판독·평가하고, 작업 지시서를 쓰는 일",
+      "certify Level III personnel\nLevel Ⅲ 요원을 인증하는 일"
+    ],
+    "answer": 2,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : Level Ⅱ 는 판독과 평가를 할 수 있고 Level Ⅰ 을 지도한다. 다만 사내 규정을 승인하거나 절차서를 세우는 것은 Level Ⅲ 의 일이다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 63,
+    "level": "Level III",
+    "method": "Basic",
+    "category": "Basic",
+    "question": "Under SNT-TC-1A, a candidate's certification is automatically terminated when :\nSNT-TC-1A 에 따라 인증이 자동으로 끝나는 때는?",
+    "options": [
+      "the certification period expires\n인증 기간이 다 되었을 때",
+      "the annual vision test is passed\n연간 시력검사에 통과했을 때",
+      "the person changes NDT method\n종목을 바꿀 때",
+      "employment is terminated, or the employer finds the person's performance unsatisfactory\n고용이 끝나거나, 고용주가 수행이 만족스럽지 않다고 판단했을 때"
+    ],
+    "answer": 3,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 인증은 고용주가 자기 요원에게 주는 것이라 고용 관계가 끝나면 함께 끝난다. 수행이 못 미더울 때도 고용주가 끝낼 수 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 64,
+    "level": "Level III",
+    "method": "Basic",
+    "category": "Basic",
+    "question": "The region of base metal next to a weld whose properties have been changed by the heat of welding is called the :\n용접 열 때문에 성질이 바뀐 용접부 옆 모재 부위를 무엇이라 하는가?",
+    "options": [
+      "heat affected zone\n열영향부",
+      "fusion line\n융합선",
+      "weld metal\n용접금속",
+      "root pass\n루트 패스"
+    ],
+    "answer": 0,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 녹지는 않았으나 열을 받아 조직이 바뀐 자리다. 굳고 물러져 균열이 잘 나므로 검사할 때 용접부와 함께 본다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 65,
+    "level": "Level III",
+    "method": "Basic",
+    "category": "Basic",
+    "question": "Undercut in a weld is best described as :\n용접부의 언더컷을 바르게 설명한 것은?",
+    "options": [
+      "weld metal that has run over the base metal without fusing\n용접금속이 모재 위로 흘러 붙기만 한 것",
+      "a groove melted into the base metal at the weld toe and left unfilled\n용접 지단부의 모재가 녹아 파인 채 채워지지 않은 홈",
+      "a cavity caused by trapped gas\n갇힌 가스로 생긴 빈 자리",
+      "a crack at the weld root\n용접 루트의 균열"
+    ],
+    "answer": 1,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 전류가 세거나 운봉 속도가 빠르면 지단부 모재가 파인다. 파인 자리가 응력이 몰리는 곳이 되어 피로 파괴의 시작점이 된다. 흘러 붙기만 한 것은 오버랩이다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 66,
+    "level": "Level III",
+    "method": "Basic",
+    "category": "Basic",
+    "question": "The difference between incomplete penetration and incomplete fusion is that incomplete penetration :\n용입불량과 융합불량의 차이는 무엇인가?",
+    "options": [
+      "occurs only in the weld cap\n용입불량은 덧살에서만 생긴다",
+      "is always caused by hydrogen\n용입불량은 늘 수소 때문에 생긴다",
+      "means the weld metal did not extend through the joint thickness at the root\n용입불량은 루트에서 용접금속이 이음 두께를 다 채우지 못한 것이다",
+      "is another name for slag inclusion\n용입불량은 슬래그 개재물의 다른 이름이다"
+    ],
+    "answer": 2,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 용입불량은 루트가 덜 채워진 것이고, 융합불량은 용접금속이 모재나 앞 패스에 안 붙은 것이다. 둘 다 면상 결함이라 대개 불합격이다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 67,
+    "level": "Level III",
+    "method": "Basic",
+    "category": "Basic",
+    "question": "Slag inclusions in multi-pass welds are most often caused by :\n다층 용접에서 슬래그 개재물이 생기는 가장 큰 까닭은?",
+    "options": [
+      "excessive preheat\n예열이 지나쳐서",
+      "using too little filler metal\n용가재를 너무 적게 써서",
+      "welding too slowly\n너무 천천히 용접해서",
+      "failure to clean slag from the previous pass\n앞 패스의 슬래그를 안 걷어내서"
+    ],
+    "answer": 3,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 패스마다 슬래그를 걷어내지 않으면 다음 패스가 그 위를 덮어 가둔다. 개선각이 좁거나 운봉이 나빠도 잘 생긴다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 68,
+    "level": "Level III",
+    "method": "Basic",
+    "category": "Basic",
+    "question": "Hydrogen-induced (delayed) cracking in weldments typically occurs :\n용접부의 수소 유기 균열(지연 균열)은 보통 언제 생기는가?",
+    "options": [
+      "hours or days after the weld has cooled\n용접부가 식은 뒤 몇 시간에서 며칠 지나",
+      "during the welding arc\n용접 아크가 켜져 있는 동안",
+      "only above 500°C\n500℃ 위에서만",
+      "only in austenitic stainless steel\n오스테나이트계 스테인리스강에서만"
+    ],
+    "answer": 0,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 수소가 조직 속을 돌아다니다 응력이 몰린 자리에 모여 균열을 낸다. 시간이 걸리므로 용접 직후 검사에서는 안 보일 수 있어, 규격이 식힌 뒤 일정 시간을 두고 검사하게 한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 69,
+    "level": "Level III",
+    "method": "Basic",
+    "category": "Basic",
+    "question": "The carbon equivalent (CE) of a steel is used mainly to judge :\n강의 탄소당량(CE)은 주로 무엇을 가늠하는 데 쓰는가?",
+    "options": [
+      "the corrosion resistance\n부식에 견디는 정도",
+      "the weldability and the risk of cracking\n용접성과 균열이 날 위험",
+      "the melting point\n녹는점",
+      "the electrical conductivity\n전기 전도율"
+    ],
+    "answer": 1,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 탄소만이 아니라 망간·크롬·몰리브덴 같은 합금 원소를 탄소로 환산해 더한 값이다. 이 값이 높을수록 열영향부가 굳어 균열이 나기 쉬워, 예열 온도와 후열처리를 정하는 잣대가 된다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 70,
+    "level": "Level III",
+    "method": "Basic",
+    "category": "Basic",
+    "question": "Post-weld heat treatment (stress relief) is applied mainly to :\n용접 후 열처리(응력제거)를 하는 가장 큰 까닭은?",
+    "options": [
+      "remove surface oxide\n표면 산화층을 없애려고",
+      "increase the hardness of the weld\n용접부를 단단하게 하려고",
+      "reduce residual stresses and soften the heat affected zone\n잔류응력을 줄이고 열영향부를 무르게 하려고",
+      "add carbon to the weld metal\n용접금속에 탄소를 더하려고"
+    ],
+    "answer": 2,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 용접은 국부로 데웠다 식히므로 잔류응력이 남는다. 그대로 두면 응력부식균열이나 변형이 난다. 적절한 온도로 데웠다 천천히 식혀 푼다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 71,
+    "level": "Level III",
+    "method": "Basic",
+    "category": "Basic",
+    "question": "Sensitization of austenitic stainless steel refers to :\n오스테나이트계 스테인리스강의 예민화란 무엇인가?",
+    "options": [
+      "an increase in tensile strength after welding\n용접 뒤 인장강도가 오르는 것",
+      "the formation of martensite during quenching\n담금질 중 마르텐사이트가 생기는 것",
+      "loss of magnetism after heat treatment\n열처리 뒤 자성을 잃는 것",
+      "chromium carbide precipitation at grain boundaries, leaving the area prone to intergranular corrosion\n결정립계에 크롬 탄화물이 나와 그 자리가 입계부식에 약해지는 것"
+    ],
+    "answer": 3,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 500~800℃ 언저리에 오래 머물면 크롬이 탄소와 붙어 결정립계로 몰린다. 그 둘레는 크롬이 모자라 부식에 약해진다. 저탄소강종(304L)이나 안정화강종(321·347)을 쓰거나 용체화 처리로 푼다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 72,
+    "level": "Level III",
+    "method": "Basic",
+    "category": "Basic",
+    "question": "Creep in metals is best described as :\n금속의 크리프를 바르게 설명한 것은?",
+    "options": [
+      "slow, continuous deformation under constant stress at elevated temperature\n높은 온도에서 일정한 응력을 받아 천천히 계속 늘어나는 것",
+      "sudden fracture under impact loading\n충격을 받아 갑자기 깨지는 것",
+      "cracking caused by cyclic loading\n되풀이 하중으로 갈라지는 것",
+      "corrosion at grain boundaries\n결정립계가 부식되는 것"
+    ],
+    "answer": 0,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 보일러 튜브나 고온 배관처럼 오래 뜨겁게 쓰는 부재에서 문제가 된다. 되풀이 하중으로 갈라지는 것은 피로다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 73,
+    "level": "Level III",
+    "method": "Basic",
+    "category": "Basic",
+    "question": "Stress corrosion cracking requires the simultaneous presence of :\n응력부식균열이 나려면 무엇이 함께 있어야 하는가?",
+    "options": [
+      "high temperature and impact loading only\n높은 온도와 충격 하중만",
+      "a susceptible material, a specific corrosive environment, and tensile stress\n그 균열에 약한 재질, 특정한 부식 환경, 그리고 인장응력",
+      "hydrogen and preheat\n수소와 예열",
+      "a compressive stress and a neutral environment\n압축응력과 중성 환경"
+    ],
+    "answer": 1,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 셋 가운데 하나만 없어도 안 난다. 그래서 잔류응력을 없애거나(응력제거), 환경을 바꾸거나, 재질을 바꿔 막는다. 오스테나이트계에 염소, 황동에 암모니아가 대표적인 짝이다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 74,
+    "level": "Level III",
+    "method": "Basic",
+    "category": "Basic",
+    "question": "The ductile-to-brittle transition temperature of a steel is important because below it the steel :\n강의 연성-취성 천이온도가 중요한 까닭은, 그보다 낮은 온도에서 강이 어떻게 되기 때문인가?",
+    "options": [
+      "becomes stronger and safer\n더 세지고 안전해지기 때문",
+      "loses all magnetism\n자성을 아주 잃기 때문",
+      "fractures with little deformation, even under moderate load\n웬만한 하중에도 거의 늘어나지 않고 깨지기 때문",
+      "begins to creep rapidly\n빠르게 크리프가 일어나기 때문"
+    ],
+    "answer": 2,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 낮은 온도에서 강은 미리 알리는 변형 없이 갑자기 깨진다. 그래서 저온에서 쓰는 부재는 충격시험으로 이 성질을 확인한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 75,
+    "level": "Level III",
+    "method": "Basic",
+    "category": "Basic",
+    "question": "A cold shut in a casting is :\n주조품의 콜드셧(cold shut)이란 무엇인가?",
+    "options": [
+      "a crack caused by quenching\n담금질로 생긴 균열",
+      "shrinkage at the last part to solidify\n가장 늦게 굳은 자리의 수축",
+      "gas trapped during solidification\n굳는 동안 갇힌 가스",
+      "a discontinuity where two streams of metal met but did not fuse\n두 갈래 쇳물이 만났으나 하나로 붙지 못한 자리"
+    ],
+    "answer": 3,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 쇳물이 식으면서 흐름이 멎어 두 갈래가 만나도 안 붙는다. 표면에 열려 있으면 침투탐상으로, 속에 있으면 방사선으로 찾는다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 76,
+    "level": "Level III",
+    "method": "Basic",
+    "category": "Basic",
+    "question": "A seam in wrought product is best described as :\n압연 제품의 심(seam)을 바르게 설명한 것은?",
+    "options": [
+      "a longitudinal discontinuity, open to the surface, formed during rolling\n압연 중에 생겨 표면에 길이 방향으로 열린 결함",
+      "a transverse crack caused by welding\n용접으로 생긴 가로 균열",
+      "gas porosity in a casting\n주조품의 기공",
+      "a lack of fusion in a weld\n용접부의 융합불량"
+    ],
+    "answer": 0,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 빌렛의 결함이나 표면 흠이 압연으로 늘어나 길게 이어진 것이다. 표면에 열려 있어 자분탐상·침투탐상으로 찾는다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 77,
+    "level": "Level III",
+    "method": "Basic",
+    "category": "Basic",
+    "question": "In submerged arc welding, the arc and molten pool are shielded by :\n서브머지드 아크 용접에서 아크와 용융지를 덮어 보호하는 것은?",
+    "options": [
+      "an inert gas from a nozzle\n노즐에서 나오는 불활성 가스",
+      "a blanket of granular flux\n낟알 모양 용제(flux)를 덮은 층",
+      "a vacuum chamber\n진공 상자",
+      "the coating on the electrode\n용접봉의 피복"
+    ],
+    "answer": 1,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 용제가 아크를 덮어 눈에 안 보이므로 「잠긴(submerged)」이라 부른다. 용제가 대기를 막고 슬래그를 만든다. 그 슬래그를 패스마다 걷어내야 개재물이 안 생긴다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 78,
+    "level": "Level III",
+    "method": "Basic",
+    "category": "Basic",
+    "question": "Which NDT method is best suited to detect a subsurface planar flaw in a thick steel weld?\n두꺼운 강 용접부 속에 있는 면상 결함을 찾는 데 가장 알맞은 검사법은?",
+    "options": [
+      "liquid penetrant testing\n침투탐상검사",
+      "visual testing\n육안검사",
+      "ultrasonic testing\n초음파탐상검사",
+      "magnetic particle testing\n자분탐상검사"
+    ],
+    "answer": 2,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 침투와 육안은 표면만 본다. 자분은 표면과 표면 바로 아래만 본다. 두께 속의 면상 결함은 초음파가 가장 잘 잡는다. 방사선은 빔과 나란한 면상 결함을 놓치기 쉽다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 79,
+    "level": "Level III",
+    "method": "Basic",
+    "category": "Basic",
+    "question": "Radiography is generally better than ultrasonic testing for detecting :\n초음파탐상보다 방사선투과검사가 대체로 나은 것은?",
+    "options": [
+      "flaw depth measurement\n결함의 깊이 측정",
+      "tight cracks parallel to the surface\n표면과 나란한 밀착 균열",
+      "laminations in plate\n판재의 라미네이션",
+      "volumetric flaws such as porosity and slag\n기공이나 슬래그 같은 체적 결함"
+    ],
+    "answer": 3,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 방사선은 두께 차이를 그림자로 보므로 부피가 있는 결함을 잘 담는다. 반면 밀착 균열이나 라미네이션처럼 빔과 나란한 얇은 결함은 두께 차가 거의 없어 놓친다. 그것은 초음파의 몫이다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 80,
+    "level": "Level III",
+    "method": "Basic",
+    "category": "Basic",
+    "question": "Which method can be used on nonmagnetic, nonconductive materials such as ceramics?\n세라믹처럼 자화되지도 않고 전기도 안 통하는 재료에 쓸 수 있는 검사법은?",
+    "options": [
+      "liquid penetrant testing\n침투탐상검사",
+      "eddy current testing\n와전류탐상검사",
+      "magnetic particle testing\n자분탐상검사",
+      "remote field testing\n원격장탐상검사"
+    ],
+    "answer": 0,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 침투탐상은 재료의 자성이나 전도성과 상관없이 표면에 열린 결함이면 찾는다. 다만 다공질이라 표면 전체가 침투액을 머금는 재료에는 못 쓴다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 81,
+    "level": "Level III",
+    "method": "Basic",
+    "category": "Basic",
+    "question": "Acoustic emission testing detects :\n음향방출검사(AE)는 무엇을 찾는가?",
+    "options": [
+      "the shape of a static discontinuity\n가만히 있는 결함의 생김새",
+      "stress waves released as a discontinuity grows under load\n하중을 받아 결함이 자랄 때 나오는 응력파",
+      "the thickness of a coating\n도장의 두께",
+      "the conductivity of the material\n재료의 전도율"
+    ],
+    "answer": 1,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 결함이 자라야 소리가 난다. 그래서 부재 전체를 한 번에 지켜보며 「지금 커지고 있는 것」을 찾는 데 쓴다. 가만히 있는 결함은 못 찾으므로 다른 방법으로 확인한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 82,
+    "level": "Level III",
+    "method": "Basic",
+    "category": "Basic",
+    "question": "The thickness of a remaining wall in a corroded pipe is most commonly measured by :\n부식된 배관의 남은 두께는 보통 무엇으로 재는가?",
+    "options": [
+      "liquid penetrant testing\n침투탐상검사",
+      "magnetic particle testing\n자분탐상검사",
+      "ultrasonic thickness measurement\n초음파 두께 측정",
+      "visual testing\n육안검사"
+    ],
+    "answer": 2,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 수직 종파를 쏘아 저면 에코가 돌아오는 시간으로 두께를 잰다. 한쪽 면만 닿으면 되므로 가동 중인 배관에도 쓸 수 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 83,
+    "level": "Level III",
+    "method": "Basic",
+    "category": "Basic",
+    "question": "A bubble (soap) solution applied to a pressurized joint is a form of :\n압력이 걸린 이음부에 비눗물을 발라 보는 것은 어떤 검사인가?",
+    "options": [
+      "eddy current testing\n와전류탐상검사",
+      "magnetic particle testing\n자분탐상검사",
+      "acoustic emission testing\n음향방출검사",
+      "leak testing\n누설검사"
+    ],
+    "answer": 3,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 새는 자리에서 기포가 올라온다. 간단하지만 민감도는 낮아, 더 작은 누설은 할로겐 검지기나 헬륨 질량분석기로 찾는다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 84,
+    "level": "Level III",
+    "method": "Basic",
+    "category": "Basic",
+    "question": "Infrared (thermographic) testing is most useful for :\n적외선 열화상 검사가 가장 쓸모 있는 곳은?",
+    "options": [
+      "finding areas of abnormal temperature such as insulation loss or hot spots\n보온재가 빠진 자리나 국부 과열처럼 온도가 이상한 곳을 찾는 데",
+      "measuring the depth of a crack\n균열의 깊이를 재는 데",
+      "detecting laminations in thick plate\n두꺼운 판재의 라미네이션을 찾는 데",
+      "measuring conductivity\n전도율을 재는 데"
+    ],
+    "answer": 0,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 표면 온도 분포를 그림으로 본다. 노·배관의 보온 손상, 전기 설비 과열, 접합 불량을 넓은 면적에서 빠르게 찾는다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 85,
+    "level": "Level III",
+    "method": "Basic",
+    "category": "Basic",
+    "question": "Before selecting an NDT method, the most important thing to know is :\n비파괴검사 방법을 고르기 전에 가장 먼저 알아야 하는 것은?",
+    "options": [
+      "the price of the equipment\n장비의 값",
+      "the type, size, location and orientation of the flaws expected\n예상되는 결함의 종류·크기·위치·방향",
+      "the name of the manufacturer\n제조업체의 이름",
+      "the colour of the test object\n시험체의 색"
+    ],
+    "answer": 1,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 방법마다 잘 찾는 결함이 다르다. 무엇을 찾을지 모르고 고르면 엉뚱한 방법을 쓰게 된다. 재질·형상·표면 상태·접근성도 함께 따진다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
   }
 ]
