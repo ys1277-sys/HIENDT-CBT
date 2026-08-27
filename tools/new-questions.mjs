@@ -54,270 +54,282 @@ const BANKS = {
 
   /* Level Ⅱ 일반 TOFD 20문항은 2026-08-27 에 넣었다 — tools/_tofd-done.txt */
 
+  /* Level Ⅱ 일반 여덟 종목은 2026-08-27 에 다 넣었다 */
+
   /* ═══════════════════════════════════════════
-     Level Ⅱ 일반 PAUT — 40문항 → 60문항
-     ASME Sec.V Art.4 와 위상배열 원리를 본다
+     Level Ⅱ 전문 ECT — 20문항 → 30문항
+
+     전문시험은 「사양서·장치·검사기법·절차서」를 묻는다(E01 표 3).
+     그래서 회사 절차서 HIE-NDT-ET-P11 을 보고 짓고, 문제문에도
+     절차서 번호를 밝힌다. 일반시험과 반대다.
      ═══════════════════════════════════════════ */
-  "Level II/General/PAUT": [
+  "Level II/Specific/ECT": [
 
     {
-      q: Q("A phased array beam is steered by :",
-           "위상배열에서 빔의 방향은 무엇으로 바꾸는가?"),
+      q: Q("Under procedure HIE-NDT-ET-P11, calibration shall be verified at least every :",
+           "절차서 HIE-NDT-ET-P11 에 따르면 연속 검사 중 교정은 최소 얼마마다 확인해야 하는가?"),
       o: [
-        Q("mechanically tilting the wedge", "웨지를 기계로 기울여서"),
-        Q("firing the elements with small, controlled time delays", "각 진동자를 아주 짧은 시간차를 두고 차례로 울려서"),
-        Q("changing the couplant thickness", "접촉매질 두께를 바꿔서"),
-        Q("switching the instrument frequency", "장비의 주파수를 바꿔서"),
+        Q("1 hour", "1시간"),
+        Q("2 hours", "2시간"),
+        Q("4 hours", "4시간"),
+        Q("8 hours", "8시간"),
       ],
-      a: 1,
-      why: "진동자마다 울리는 때를 조금씩 어긋내면 각 파면이 겹쳐 원하는 방향으로 기운 파면이 만들어진다. 이 시간차 묶음이 초점 법칙(focal law)이다.",
+      a: 2,
+      why: "HIE-NDT-ET-P11 6.7. 검사 전·후와 연속 검사 중 최소 4시간마다 교정을 확인한다. 어긋나 있으면 마지막으로 맞았던 교정 뒤에 검사한 튜브를 다시 검사한다.",
     },
 
     {
-      q: Q("A focal law in phased array testing is :",
-           "위상배열의 초점 법칙(focal law)이란 무엇인가?"),
+      q: Q("Under procedure HIE-NDT-ET-P11, the measured size of an artificial flaw shall agree with the calibration standard within :",
+           "절차서 HIE-NDT-ET-P11 에 따르면 인공 결함의 측정값은 대비 시험편과 얼마 이내로 맞아야 하는가?"),
       o: [
-        Q("the set of time delays applied to each element for a given angle and focus", "정해진 각도와 초점을 만들려고 각 진동자에 주는 시간차 묶음"),
-        Q("the acceptance criterion for flaw sizing", "결함 크기의 합격 기준"),
-        Q("the rule that limits the wedge angle", "웨지 각도를 제한하는 규칙"),
-        Q("the calibration curve of the instrument", "장비의 교정 곡선"),
-      ],
-      a: 0,
-      why: "각도 하나, 초점 하나마다 초점 법칙이 하나씩 있다. S-주사는 초점 법칙을 각도별로 줄지어 쏘는 것이고, 선형 주사는 진동자 묶음을 옮겨 가며 같은 법칙을 되풀이하는 것이다.",
-    },
-
-    {
-      q: Q("Grating lobes in a phased array probe are caused mainly by :",
-           "위상배열 탐촉자의 격자엽(grating lobe)은 주로 무엇 때문에 생기는가?"),
-      o: [
-        Q("too much couplant", "접촉매질이 너무 많아서"),
-        Q("element pitch that is too large relative to the wavelength", "파장에 견주어 진동자 피치가 너무 커서"),
-        Q("too many elements in the aperture", "구경 안의 진동자 수가 너무 많아서"),
-        Q("a wedge angle below the first critical angle", "웨지 각도가 제1 임계각보다 낮아서"),
-      ],
-      a: 1,
-      why: "피치가 파장의 절반을 넘으면 엉뚱한 방향으로도 빔이 서 버린다. 그 가짜 빔이 잡은 반사체가 화면에 결함처럼 뜬다. 그래서 탐촉자를 고를 때 피치와 주파수를 함께 따진다.",
-    },
-
-    {
-      q: Q("Increasing the number of active elements (a larger aperture) will :",
-           "활성 진동자 수를 늘려 구경을 키우면 어떻게 되는가?"),
-      o: [
-        Q("widen the beam and shorten the near field", "빔이 넓어지고 근거리 음장이 짧아진다"),
-        Q("narrow the beam and lengthen the near field", "빔이 좁아지고 근거리 음장이 길어진다"),
-        Q("have no effect on the beam", "빔에 아무 영향이 없다"),
-        Q("change the refracted angle only", "굴절각만 달라진다"),
-      ],
-      a: 1,
-      why: "구경이 커지면 빔이 모여 좁아지고 근거리 음장이 길어져 더 깊은 데까지 초점을 맞출 수 있다. 대신 진동자를 많이 쓰므로 장비의 채널 수에 걸린다.",
-    },
-
-    {
-      q: Q("Phased array focusing is possible only within :",
-           "위상배열의 집속은 어디까지만 되는가?"),
-      o: [
-        Q("the near field of the aperture", "구경의 근거리 음장 안"),
-        Q("the far field of the aperture", "구경의 원거리 음장 안"),
-        Q("the wedge", "웨지 안"),
-        Q("any distance without limit", "거리에 상관없이 어디까지나"),
+        Q("± 5%", "± 5%"),
+        Q("± 10%", "± 10%"),
+        Q("± 15%", "± 15%"),
+        Q("± 20%", "± 20%"),
       ],
       a: 0,
-      why: "근거리 음장 밖에서는 빔이 저절로 퍼지기만 해 모을 수 없다. 더 깊이 초점을 두려면 구경을 키우거나 주파수를 올려 근거리 음장을 늘려야 한다.",
+      why: "HIE-NDT-ET-P11 6.5. 인공 결함을 재어 ±5% 안에 들면 교정이 유효하다. 벗어나면 다시 교정한다.",
     },
 
     {
-      q: Q("A sectorial (S) scan is produced by :",
-           "부채꼴(S) 주사는 어떻게 만들어지는가?"),
+      q: Q("Under procedure HIE-NDT-ET-P11, after connecting power the instrument shall be warmed up for about :",
+           "절차서 HIE-NDT-ET-P11 에 따르면 전원을 이은 뒤 장비를 얼마 동안 예열하는가?"),
       o: [
-        Q("moving the same aperture along the array", "같은 구경을 배열을 따라 옮기며"),
-        Q("sweeping the beam through a range of angles from a fixed aperture", "구경을 고정한 채 여러 각도로 빔을 훑으며"),
-        Q("rotating the probe by hand", "탐촉자를 손으로 돌리며"),
-        Q("firing all elements at the same instant", "모든 진동자를 한꺼번에 울리며"),
+        Q("1 to 2 minutes", "1~2분"),
+        Q("5 to 10 minutes", "5~10분"),
+        Q("20 to 30 minutes", "20~30분"),
+        Q("no warm-up is needed", "예열은 필요 없다"),
       ],
       a: 1,
-      why: "구경을 그대로 두고 각도만 바꿔 가며 쏘아 부채꼴 영상을 만든다. 탐촉자를 안 움직여도 여러 각도로 볼 수 있어 접근이 어려운 자리에 좋다.",
+      why: "HIE-NDT-ET-P11 7.3. 전자 회로가 안정되기 전에 교정하면 검사 중에 값이 흘러 어긋난다.",
     },
 
     {
-      q: Q("The main advantage of a time corrected gain (TCG) over a DAC curve in phased array is that :",
-           "위상배열에서 DAC 곡선보다 TCG 가 나은 점은?"),
+      q: Q("Under procedure HIE-NDT-ET-P11, the depth curve table used to read flaw depth is created from :",
+           "절차서 HIE-NDT-ET-P11 에 따르면 결함 깊이를 읽는 데 쓰는 깊이 곡선(Depth Curves) 표는 무엇으로 만드는가?"),
       o: [
-        Q("it needs no calibration block", "교정 시험편이 필요 없다"),
-        Q("equal reflectors give equal screen height at every depth, so C-scan colours are comparable", "같은 반사체가 어느 깊이에서나 같은 화면 높이로 나와 C-주사의 색을 견줄 수 있다"),
-        Q("it increases the probe frequency", "탐촉자 주파수를 높인다"),
-        Q("it removes the need for an encoder", "엔코더를 안 써도 된다"),
-      ],
-      a: 1,
-      why: "DAC 는 곡선을 그어 두고 눈으로 견주는 것이라 깊이마다 화면 높이가 다르다. TCG 는 깊이별로 이득을 더해 높이를 맞추므로, 색으로 크기를 보이는 C-주사·S-주사에 맞는다.",
-    },
-
-    {
-      q: Q("A scan plan for a phased array weld examination is prepared mainly to :",
-           "위상배열 용접부 검사에서 주사 계획(scan plan)을 세우는 가장 큰 까닭은?"),
-      o: [
-        Q("record the examiner's certification", "검사자의 자격을 기록하려고"),
-        Q("show that the beams cover the whole examination volume", "빔이 검사 체적 전체를 덮는지 보이려고"),
-        Q("calculate the price of the examination", "검사 비용을 셈하려고"),
-        Q("set the pulse repetition rate", "펄스 반복률을 잡으려고"),
-      ],
-      a: 1,
-      why: "각도·구경·웨지 자리·스킵을 그려 보아야 개선면과 루트까지 빔이 닿는지 알 수 있다. 안 닿는 자리가 있으면 각도나 탐촉자 자리를 고쳐 계획을 다시 세운다.",
-    },
-
-    {
-      q: Q("Before use, the phased array system shall be checked for element activity in order to :",
-           "위상배열 장비는 쓰기 전에 진동자 활성도를 확인해야 한다. 까닭은?"),
-      o: [
-        Q("find dead or weak elements that would distort the beam", "빔을 일그러뜨릴 죽거나 약한 진동자를 찾으려고"),
-        Q("measure the wedge angle", "웨지 각도를 재려고"),
-        Q("calibrate the encoder", "엔코더를 교정하려고"),
-        Q("set the examination frequency", "검사 주파수를 정하려고"),
-      ],
-      a: 0,
-      why: "진동자 하나가 죽으면 그 자리의 파면이 빠져 빔이 기울고 감도가 떨어진다. 몇 개까지 죽어도 되는지는 규격과 절차서가 정해 둔다.",
-    },
-
-    {
-      q: Q("Compared with a conventional single-angle shear wave examination, phased array normally :",
-           "보통 단일 각도 횡파 검사와 견주어 위상배열은 대체로 어떠한가?"),
-      o: [
-        Q("covers the weld with fewer probe positions and records the data", "탐촉자를 덜 옮기고도 용접부를 덮으며 자료를 기록으로 남긴다"),
-        Q("needs no couplant", "접촉매질이 필요 없다"),
-        Q("works without a calibration block", "교정 시험편 없이 된다"),
-        Q("detects flaws regardless of their orientation", "결함이 어느 쪽으로 기울어 있든 다 찾는다"),
-      ],
-      a: 0,
-      why: "여러 각도를 한 자리에서 쏘므로 탐촉자를 앞뒤로 덜 옮긴다. 엔코더로 자리를 함께 기록해 나중에 다시 판독할 수 있는 것도 큰 차이다. 결함 방향에 안 흔들리는 것은 TOFD 쪽이다.",
-    },
-
-    {
-      q: Q("The wedge of a phased array probe is used mainly to :",
-           "위상배열 탐촉자의 웨지는 주로 무엇에 쓰는가?"),
-      o: [
-        Q("protect the elements from wear only", "진동자가 닳지 않게 막기만 한다"),
-        Q("refract the beam into the material and set the sweep range", "빔을 재료 속으로 굴절시키고 훑을 각도 범위를 잡는다"),
-        Q("hold the couplant in place", "접촉매질을 붙들어 둔다"),
-        Q("increase the number of elements", "진동자 수를 늘린다"),
-      ],
-      a: 1,
-      why: "웨지의 각도가 굴절각의 한가운데를 정하고, 전자 조향은 그 언저리 몇십 도만 더한다. 그래서 45~70° 를 훑을지 다른 범위를 볼지가 웨지 선택에서 갈린다.",
-    },
-
-    {
-      q: Q("In the designation 16/128 for a phased array instrument, the numbers mean :",
-           "위상배열 장비를 16/128 이라 적을 때 두 숫자는 무엇을 뜻하는가?"),
-      o: [
-        Q("16 MHz maximum frequency and 128 focal laws", "최대 주파수 16 MHz 와 초점 법칙 128개"),
-        Q("16 pulser-receiver channels used at one time, out of 128 element connections", "한 번에 쓰는 송수신 채널 16개, 이을 수 있는 진동자 128개"),
-        Q("16 elements in the probe and a 128 mm aperture", "탐촉자 진동자 16개와 구경 128 mm"),
-        Q("16 degrees minimum and 128 degrees maximum steering", "조향 각도 최소 16도, 최대 128도"),
-      ],
-      a: 1,
-      why: "앞 숫자가 한 번에 울릴 수 있는 채널 수, 뒤 숫자가 이을 수 있는 진동자 수다. 구경을 채널 수보다 크게 잡을 수 없으므로 이 값이 빔을 얼마나 모을 수 있는지를 가른다.",
-    },
-
-    {
-      q: Q("The angular range that a phased array probe can be steered is limited mainly by :",
-           "위상배열 탐촉자가 조향할 수 있는 각도 범위를 주로 무엇이 제한하는가?"),
-      o: [
-        Q("the encoder resolution", "엔코더의 분해능"),
-        Q("the element width — a wider element steers over a smaller range", "진동자의 폭 — 넓을수록 조향 범위가 좁아진다"),
-        Q("the couplant type", "접촉매질의 종류"),
-        Q("the length of the cable", "케이블 길이"),
-      ],
-      a: 1,
-      why: "진동자 하나가 내는 소리의 퍼짐이 조향할 수 있는 한계를 정한다. 좁은 진동자는 넓게 퍼져 많이 기울일 수 있고, 넓은 진동자는 앞으로만 쏘아 조금밖에 못 기운다.",
-    },
-
-    {
-      q: Q("A two-dimensional (matrix) phased array probe differs from a one-dimensional linear array in that it can :",
-           "2차원(매트릭스) 위상배열 탐촉자가 1차원 선형 배열과 다른 점은?"),
-      o: [
-        Q("steer and focus in two planes instead of one", "한 평면이 아니라 두 평면에서 조향하고 집속할 수 있다"),
-        Q("work without a wedge", "웨지 없이 쓸 수 있다"),
-        Q("operate at twice the frequency", "주파수가 두 배다"),
-        Q("be used without an encoder", "엔코더 없이 쓸 수 있다"),
-      ],
-      a: 0,
-      why: "1차원 배열은 배열이 놓인 방향으로만 빔을 기울일 수 있다. 매트릭스 배열은 진동자가 가로세로로 놓여 옆으로도 기울일 수 있어, 결함이 용접선과 비스듬히 놓인 경우에 쓴다.",
-    },
-
-    {
-      q: Q("The examination volume for a phased array weld examination normally includes :",
-           "위상배열 용접부 검사의 검사 체적에는 보통 무엇까지 든다."),
-      o: [
-        Q("the weld metal only", "용접금속만"),
-        Q("the weld and the adjacent base metal (heat affected zone)", "용접부와 그에 잇닿은 모재(열영향부)까지"),
-        Q("the weld cap only", "용접 덧살만"),
-        Q("the whole plate", "판재 전체"),
-      ],
-      a: 1,
-      why: "융합불량과 균열은 개선면과 열영향부에서 잘 난다. 그래서 용접부 양쪽 모재까지 검사 체적에 넣고, 거기까지 빔이 닿는지 주사 계획으로 확인한다.",
-    },
-
-    {
-      q: Q("In phased array examination, an encoder is used to :",
-           "위상배열 검사에서 엔코더는 무엇에 쓰는가?"),
-      o: [
-        Q("link each A-scan to its position along the weld", "각 A-주사를 용접선의 어느 자리에서 얻은 것인지 잇는다"),
-        Q("measure the wedge temperature", "웨지 온도를 잰다"),
-        Q("set the focal laws", "초점 법칙을 정한다"),
-        Q("calibrate the amplitude", "진폭을 교정한다"),
-      ],
-      a: 0,
-      why: "자리 정보가 있어야 C-주사·D-주사 영상이 만들어지고 결함 길이를 잴 수 있다. 엔코더 없이 훑으면 화면은 나오지만 기록으로 남기거나 길이를 잴 수 없다.",
-    },
-
-    {
-      q: Q("The calibration of a phased array system shall be verified :",
-           "위상배열 장비의 교정은 언제 다시 확인해야 하는가?"),
-      o: [
-        Q("only at the start of the job", "작업 시작할 때만"),
-        Q("at the start and finish of each examination and at set intervals", "검사를 시작할 때와 끝낼 때, 그리고 정해진 시간마다"),
-        Q("once a month", "한 달에 한 번"),
-        Q("only when the wedge is changed", "웨지를 바꿀 때만"),
-      ],
-      a: 1,
-      why: "웨지가 닳거나 온도가 달라지면 굴절각과 지연이 흔들린다. 어긋나 있으면 마지막으로 맞았던 때 이후에 검사한 것을 다시 검사한다.",
-    },
-
-    {
-      q: Q("Wedge attenuation compensation (angle gain compensation) is applied because :",
-           "웨지 감쇠 보정(각도별 이득 보정)을 하는 까닭은?"),
-      o: [
-        Q("the encoder reads differently at each angle", "각도마다 엔코더가 다르게 읽히기 때문"),
-        Q("the sound path in the wedge and the transmission differ with each steered angle", "조향 각도마다 웨지 안 경로와 투과율이 달라지기 때문"),
-        Q("the couplant dries out at high angles", "각도가 크면 접촉매질이 마르기 때문"),
-        Q("the probe frequency changes with angle", "각도에 따라 탐촉자 주파수가 달라지기 때문"),
-      ],
-      a: 1,
-      why: "같은 반사체라도 45° 와 70° 에서 화면 높이가 다르게 나온다. 각도마다 이득을 달리 더해 고르게 맞춰야 S-주사 안에서 크기를 견줄 수 있다.",
-    },
-
-    {
-      q: Q("The sensitivity for a phased array weld examination is normally set using :",
-           "위상배열 용접부 검사의 감도는 보통 무엇으로 잡는가?"),
-      o: [
-        Q("the backwall echo of the test object", "시험체의 저면 에코"),
-        Q("a known reflector such as a side-drilled hole in the calibration block", "교정 시험편의 측면공처럼 크기를 아는 반사체"),
-        Q("the amplitude of the lateral wave", "측면파의 크기"),
+        Q("the backwall signal of the tube", "튜브의 저면 신호"),
+        Q("the signals from the artificial flaws in the calibration tube", "교정 튜브의 인공 결함에서 얻은 신호"),
         Q("the noise level of the instrument", "장비의 잡음 높이"),
+        Q("the pulling speed of the probe", "탐촉자를 당기는 속도"),
       ],
       a: 1,
-      why: "크기를 아는 반사체를 정해진 화면 높이에 맞춰 두어야 나중에 나온 지시를 그것과 견줄 수 있다. 각도마다 높이가 달라지므로 웨지 감쇠 보정과 TCG 를 함께 잡는다.",
+      why: "HIE-NDT-ET-P11 6.2·6.3. 깊이를 아는 인공 결함마다 신호를 얻어 채널별 표를 만들고, 그 곡선으로 검사 중에 나온 신호의 깊이를 읽는다.",
     },
 
     {
-      q: Q("The phased array examination record shall include :",
-           "위상배열 검사 기록에 담아야 하는 것은?"),
+      q: Q("Under procedure HIE-NDT-ET-P11, the minimum resolution of the recording system shall be :",
+           "절차서 HIE-NDT-ET-P11 에 따른 기록 장치의 최소 분해능은?"),
       o: [
-        Q("the rejected flaws only", "불합격 처리한 결함만"),
-        Q("the scan plan, focal laws, calibration data and the encoded scan data", "주사 계획과 초점 법칙, 교정 자료, 그리고 자리가 기록된 주사 자료"),
-        Q("a photograph of the weld", "용접부 사진"),
-        Q("the wedge serial number only", "웨지 일련번호만"),
+        Q("8 bits per data point", "데이터 점당 8비트"),
+        Q("12 bits per data point", "데이터 점당 12비트"),
+        Q("16 bits per data point", "데이터 점당 16비트"),
+        Q("32 bits per data point", "데이터 점당 32비트"),
       ],
       a: 1,
-      why: "위상배열은 자료 자체가 기록이라 나중에 다시 판독한다. 그러려면 어떤 각도로 어떻게 교정해 어디를 훑은 것인지가 함께 남아 있어야 한다.",
+      why: "HIE-NDT-ET-P11 5.1.2.2. 전 화면에서 데이터 점당 12비트 이상이어야 한다. 분해능이 낮으면 작은 신호가 뭉개진다.",
+    },
+
+    {
+      q: Q("Under procedure HIE-NDT-ET-P11, the strip chart display shall be able to show at least :",
+           "절차서 HIE-NDT-ET-P11 에 따르면 스트립 차트는 최소 몇 개의 기록을 보일 수 있어야 하는가?"),
+      o: [
+        Q("one record", "1개"),
+        Q("two records", "2개"),
+        Q("four records", "4개"),
+        Q("eight records", "8개"),
+      ],
+      a: 1,
+      why: "HIE-NDT-ET-P11 5.1.2.1. 최소 2개다. 진폭과 위상을 나란히 놓고 보아야 결함인지 지지판인지 가려진다.",
+    },
+
+    {
+      q: Q("Under procedure HIE-NDT-ET-P11, the analogue output frequency response of the instrument shall be constant within :",
+           "절차서 HIE-NDT-ET-P11 에 따르면 장비의 아날로그 출력 주파수 응답은 입력값의 몇 % 이내로 일정해야 하는가?"),
+      o: [
+        Q("2%", "2%"),
+        Q("5%", "5%"),
+        Q("10%", "10%"),
+        Q("20%", "20%"),
+      ],
+      a: 0,
+      why: "HIE-NDT-ET-P11 5.1.1.2. dc 부터 Fmax 까지 2% 이내로 일정해야 한다. Fmax 는 탐촉자 최대 이동속도에 0.4 Hz-s/mm 를 곱한 값이다.",
+    },
+
+    {
+      q: Q("Under procedure HIE-NDT-ET-P11, the data acquisition rate shall digitize at least :",
+           "절차서 HIE-NDT-ET-P11 에 따른 신호 수집율은 최소 얼마인가?"),
+      o: [
+        Q("10 signals per inch of tubing", "배관 1인치당 10개"),
+        Q("20 signals per inch of tubing", "배관 1인치당 20개"),
+        Q("30 signals per inch of tubing", "배관 1인치당 30개"),
+        Q("60 signals per inch of tubing", "배관 1인치당 60개"),
+      ],
+      a: 2,
+      why: "HIE-NDT-ET-P11 5.1.1.1. 1인치당 최소 30개다. 표본이 성기면 짧은 결함이 표본 사이로 빠져나간다.",
+    },
+
+    {
+      q: Q("Under procedure HIE-NDT-ET-P11, the results of the examination may be evaluated by :",
+           "절차서 HIE-NDT-ET-P11 에 따르면 검사 결과를 평가할 수 있는 사람은?"),
+      o: [
+        Q("any examiner who performed the scan", "주사를 한 검사자면 누구든"),
+        Q("an examiner qualified as ET Level II or Level III", "ET Level Ⅱ 또는 Level Ⅲ 로 자격부여된 검사원"),
+        Q("the equipment manufacturer", "장비 제조업체"),
+        Q("the purchaser only", "발주자만"),
+      ],
+      a: 1,
+      why: "HIE-NDT-ET-P11 3.0. 자료를 모으는 것과 판정하는 것은 다르다. 판정은 ET Level Ⅱ 이상이 한다. 자격인정은 HIE-QP-E01 을 따른다.",
+    },
+
+    {
+      q: Q("Under procedure HIE-NDT-ET-P11, the calibration standard tube shall have :",
+           "절차서 HIE-NDT-ET-P11 에 따른 대비 시험편의 요건은?"),
+      o: [
+        Q("the same nominal diameter, thickness and material as the tubes to be examined", "검사할 튜브와 같은 공칭직경·두께·재질"),
+        Q("any diameter as long as the material is the same", "재질만 같으면 지름은 무엇이든"),
+        Q("twice the wall thickness of the tubes to be examined", "검사할 튜브의 두 배 두께"),
+        Q("carbon steel in every case", "언제나 탄소강"),
+      ],
+      a: 0,
+      why: "HIE-NDT-ET-P11 5.5. 지름·두께·재질(화학 성분)이 같아야 한다. 하나라도 다르면 같은 결함이 다른 신호로 나와 교정이 어긋난다.",
+    },
+  ],
+
+  /* ═══════════════════════════════════════════
+     Level Ⅱ 전문 RFT — 20문항 → 30문항
+     회사 절차서 HIE-NDT-ET-P99 를 본다
+     ═══════════════════════════════════════════ */
+  "Level II/Specific/RFT": [
+
+    {
+      q: Q("Under procedure HIE-NDT-ET-P99, the depth of a calibration discontinuity shall be within :",
+           "절차서 HIE-NDT-ET-P99 에 따르면 교정용 불연속의 깊이는 어느 범위 안에 들어야 하는가?"),
+      o: [
+        Q("± 10% of the specified depth or ± 0.005 in., whichever is smaller", "지정 깊이의 ±10% 또는 ±0.005 in. 가운데 작은 값"),
+        Q("± 20% of the specified depth or ± 0.003 in., whichever is smaller", "지정 깊이의 ±20% 또는 ±0.003 in. 가운데 작은 값"),
+        Q("± 5% of the specified depth only", "지정 깊이의 ±5% 만"),
+        Q("± 1 mm regardless of depth", "깊이와 상관없이 ±1 mm"),
+      ],
+      a: 1,
+      why: "HIE-NDT-ET-P99 4.3.2. 깊이는 불연속의 한가운데에서 재며, 지정 깊이의 ±20% 와 ±0.003 in. 가운데 작은 값 안에 들어야 한다.",
+    },
+
+    {
+      q: Q("Under procedure HIE-NDT-ET-P99, the flat machined flaw in the calibration tube is made with a milling tool of :",
+           "절차서 HIE-NDT-ET-P99 에 따르면 교정 튜브의 평면 가공 결함은 지름 얼마인 밀링 공구로 만드는가?"),
+      o: [
+        Q("0.125 in.", "0.125 in."),
+        Q("0.250 in.", "0.250 in."),
+        Q("0.500 in.", "0.500 in."),
+        Q("1.000 in.", "1.000 in."),
+      ],
+      a: 1,
+      why: "HIE-NDT-ET-P99 4.3.1. 지름 0.250 in. 밀링 공구로 측면 밀링해 모서리를 둥글게 만든다. 깊이는 50%, 축 방향 길이는 튜브 공칭 외경의 절반이다.",
+    },
+
+    {
+      q: Q("Under procedure HIE-NDT-ET-P99, the edges of the short circumferential groove in the calibration tube shall be bevelled at :",
+           "절차서 HIE-NDT-ET-P99 에 따르면 교정 튜브의 짧은 원주 그루브 가장자리는 몇 도로 기울이는가?"),
+      o: [
+        Q("45°", "45°"),
+        Q("60°", "60°"),
+        Q("90°", "90°"),
+        Q("105°", "105°"),
+      ],
+      a: 3,
+      why: "HIE-NDT-ET-P99 4.3.1. 105°다. 깊이 20%, 축 방향 길이 0.625 in. 인 짧은 원주 홈이며, 마모 흠과 긴 원주 그루브도 같은 105°로 기울인다.",
+    },
+
+    {
+      q: Q("Under procedure HIE-NDT-ET-P99, sensitivity is set so that the artificial flaw signal is :",
+           "절차서 HIE-NDT-ET-P99 에 따르면 감도는 인공 결함 지시가 얼마로 나오도록 맞추는가?"),
+      o: [
+        Q("40% to 80% of screen height and 1 mm to 20 mm on the strip chart", "화면 높이의 40~80%, 스트립 차트에서 1~20 mm"),
+        Q("10% to 30% of screen height", "화면 높이의 10~30%"),
+        Q("exactly 100% of screen height", "화면 높이의 꼭 100%"),
+        Q("as high as possible without limit", "한도 없이 될 수 있는 대로 높게"),
+      ],
+      a: 0,
+      why: "HIE-NDT-ET-P99 6.0. 너무 낮으면 잡음에 묻히고, 너무 높으면 신호가 잘려 위상을 못 읽는다.",
+    },
+
+    {
+      q: Q("Under procedure HIE-NDT-ET-P99, the transfer device shall be able to pull the coil at a constant speed of about :",
+           "절차서 HIE-NDT-ET-P99 에 따르면 이송 장치는 코일을 얼마의 일정한 속도로 당길 수 있어야 하는가?"),
+      o: [
+        Q("0.05 m/s", "0.05 m/s"),
+        Q("0.2 m/s", "0.2 m/s"),
+        Q("1.0 m/s", "1.0 m/s"),
+        Q("2.0 m/s", "2.0 m/s"),
+      ],
+      a: 1,
+      why: "HIE-NDT-ET-P99 4.4. 0.2 m/s 로 당길 수 있고 그 속도를 조절할 수 있어야 한다. 이송 장치를 쓸 수 없으면 사람이 코일을 일정한 속도로 당긴다.",
+    },
+
+    {
+      q: Q("Under procedure HIE-NDT-ET-P99, a calibration standard of a material different from the tubes may be used only if the frequencies used differ by :",
+           "절차서 HIE-NDT-ET-P99 에 따르면 검사할 튜브와 재질이 다른 대비 시험편은 쓰는 주파수가 몇 배 이내일 때만 쓸 수 있는가?"),
+      o: [
+        Q("less than 2 times", "2배 미만"),
+        Q("less than 5 times", "5배 미만"),
+        Q("less than 10 times", "10배 미만"),
+        Q("any difference is acceptable", "차이가 얼마든 상관없다"),
+      ],
+      a: 0,
+      why: "HIE-NDT-ET-P99 4.3. 2배 이상 차이 나면 그 대비 시험편은 적절하지 않은 것으로 보아, 검사할 재료를 더 정확히 나타내는 재료로 만든 것으로 바꾼다.",
+    },
+
+    {
+      q: Q("Under procedure HIE-NDT-ET-P99, if the system goes out of calibration during the examination :",
+           "절차서 HIE-NDT-ET-P99 에 따르면 검사 도중 장비가 교정에서 벗어나면 어떻게 하는가?"),
+      o: [
+        Q("record the fact and continue", "그 사실을 기록하고 그대로 이어 간다"),
+        Q("recalibrate, record it, and re-examine all tubes examined since the last valid calibration", "재교정하고 기록한 뒤, 마지막으로 유효했던 교정 뒤에 검사한 튜브를 모두 다시 검사한다"),
+        Q("re-examine only the last tube", "마지막 튜브만 다시 검사한다"),
+        Q("change the probe and continue without recalibration", "탐촉자만 바꾸고 재교정 없이 이어 간다"),
+      ],
+      a: 1,
+      why: "HIE-NDT-ET-P99 5.8. 어긋난 뒤에 검사한 것은 믿을 수 없다. 재교정은 5.4항부터 5.7항까지를 되풀이하고 보고서에 남긴다.",
+    },
+
+    {
+      q: Q("Under procedure HIE-NDT-ET-P99, the wear scar in the calibration tube is a tapered groove of :",
+           "절차서 HIE-NDT-ET-P99 에 따르면 교정 튜브의 마모 흠(wear scar)은 깊이 얼마인 홈인가?"),
+      o: [
+        Q("20% depth", "깊이 20%"),
+        Q("40% depth", "깊이 40%"),
+        Q("60% depth", "깊이 60%"),
+        Q("80% depth", "깊이 80%"),
+      ],
+      a: 1,
+      why: "HIE-NDT-ET-P99 4.3.1. 튜브 지지대에서 생기는 마모를 본뜬 것으로, 튜브 원주의 180° 넘게 이어지는 깊이 40%의 홈이다. 홈 바닥에서 잰 축 방향 길이는 0.625 in. 다.",
+    },
+
+    {
+      q: Q("Under procedure HIE-NDT-ET-P99, the tapered flaw near the support has a depth of :",
+           "절차서 HIE-NDT-ET-P99 에 따르면 지지대 부근 침식을 본뜬 테이퍼형 결함의 깊이는?"),
+      o: [
+        Q("20%", "20%"),
+        Q("40%", "40%"),
+        Q("60%", "60%"),
+        Q("80%", "80%"),
+      ],
+      a: 2,
+      why: "HIE-NDT-ET-P99 4.3.1. 깊이 60%의 홈이며, 급한 쪽 면은 튜브 축에 대해 65°, 가장 깊은 자리에서의 원주 방향 범위는 90°다.",
+    },
+
+    {
+      q: Q("Under procedure HIE-NDT-ET-P99, before eddy current examination the tubes shall be :",
+           "절차서 HIE-NDT-ET-P99 에 따르면 검사 전에 튜브는 어떤 상태여야 하는가?"),
+      o: [
+        Q("magnetically saturated", "자기포화되어 있어야 한다"),
+        Q("clean", "깨끗해야 한다"),
+        Q("filled with couplant", "접촉매질로 채워 두어야 한다"),
+        Q("heated above 50°C", "50℃ 넘게 데워 두어야 한다"),
+      ],
+      a: 1,
+      why: "HIE-NDT-ET-P99 7.0. 스케일이나 침전물이 있으면 탐촉자가 걸려 속도가 들쭉날쭉해지고, 그 자체가 신호를 만들어 결함을 가린다. 신호를 읽는 데 방해가 될 만한 것은 미리 없애거나 살펴 둔다.",
     },
   ],
 

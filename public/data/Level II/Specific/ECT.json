@@ -320,5 +320,155 @@
     ],
     "answer": 2,
     "groupNote": "※ The following questions (9-20) refer to HIE procedure, HIE-NDT-ET-P11(Rev.2) for Eddy current examination of heat exchanger & condenser tube in accordance with ASME Sec. V Code, 2023 Edition.\n(문제 9-20은 ASME Sec. V 규격 2023 Edition에 따른 열교환기 및 콘덴서 튜브의 와전류탐상 시험 절차서 HIE-NDT-ET-P11(Rev.2)에 관한 것이다.)"
+  },
+  {
+    "id": 21,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "Specific",
+    "question": "Under procedure HIE-NDT-ET-P11, calibration shall be verified at least every :\n절차서 HIE-NDT-ET-P11 에 따르면 연속 검사 중 교정은 최소 얼마마다 확인해야 하는가?",
+    "options": [
+      "4 hours\n4시간",
+      "2 hours\n2시간",
+      "1 hour\n1시간",
+      "8 hours\n8시간"
+    ],
+    "answer": 0,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-ET-P11 6.7. 검사 전·후와 연속 검사 중 최소 4시간마다 교정을 확인한다. 어긋나 있으면 마지막으로 맞았던 교정 뒤에 검사한 튜브를 다시 검사한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 22,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "Specific",
+    "question": "Under procedure HIE-NDT-ET-P11, the measured size of an artificial flaw shall agree with the calibration standard within :\n절차서 HIE-NDT-ET-P11 에 따르면 인공 결함의 측정값은 대비 시험편과 얼마 이내로 맞아야 하는가?",
+    "options": [
+      "± 10%\n± 10%",
+      "± 5%\n± 5%",
+      "± 15%\n± 15%",
+      "± 20%\n± 20%"
+    ],
+    "answer": 1,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-ET-P11 6.5. 인공 결함을 재어 ±5% 안에 들면 교정이 유효하다. 벗어나면 다시 교정한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 23,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "Specific",
+    "question": "Under procedure HIE-NDT-ET-P11, after connecting power the instrument shall be warmed up for about :\n절차서 HIE-NDT-ET-P11 에 따르면 전원을 이은 뒤 장비를 얼마 동안 예열하는가?",
+    "options": [
+      "1 to 2 minutes\n1~2분",
+      "20 to 30 minutes\n20~30분",
+      "5 to 10 minutes\n5~10분",
+      "no warm-up is needed\n예열은 필요 없다"
+    ],
+    "answer": 2,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-ET-P11 7.3. 전자 회로가 안정되기 전에 교정하면 검사 중에 값이 흘러 어긋난다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 24,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "Specific",
+    "question": "Under procedure HIE-NDT-ET-P11, the depth curve table used to read flaw depth is created from :\n절차서 HIE-NDT-ET-P11 에 따르면 결함 깊이를 읽는 데 쓰는 깊이 곡선(Depth Curves) 표는 무엇으로 만드는가?",
+    "options": [
+      "the backwall signal of the tube\n튜브의 저면 신호",
+      "the pulling speed of the probe\n탐촉자를 당기는 속도",
+      "the noise level of the instrument\n장비의 잡음 높이",
+      "the signals from the artificial flaws in the calibration tube\n교정 튜브의 인공 결함에서 얻은 신호"
+    ],
+    "answer": 3,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-ET-P11 6.2·6.3. 깊이를 아는 인공 결함마다 신호를 얻어 채널별 표를 만들고, 그 곡선으로 검사 중에 나온 신호의 깊이를 읽는다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 25,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "Specific",
+    "question": "Under procedure HIE-NDT-ET-P11, the minimum resolution of the recording system shall be :\n절차서 HIE-NDT-ET-P11 에 따른 기록 장치의 최소 분해능은?",
+    "options": [
+      "12 bits per data point\n데이터 점당 12비트",
+      "8 bits per data point\n데이터 점당 8비트",
+      "16 bits per data point\n데이터 점당 16비트",
+      "32 bits per data point\n데이터 점당 32비트"
+    ],
+    "answer": 0,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-ET-P11 5.1.2.2. 전 화면에서 데이터 점당 12비트 이상이어야 한다. 분해능이 낮으면 작은 신호가 뭉개진다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 26,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "Specific",
+    "question": "Under procedure HIE-NDT-ET-P11, the strip chart display shall be able to show at least :\n절차서 HIE-NDT-ET-P11 에 따르면 스트립 차트는 최소 몇 개의 기록을 보일 수 있어야 하는가?",
+    "options": [
+      "one record\n1개",
+      "two records\n2개",
+      "four records\n4개",
+      "eight records\n8개"
+    ],
+    "answer": 1,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-ET-P11 5.1.2.1. 최소 2개다. 진폭과 위상을 나란히 놓고 보아야 결함인지 지지판인지 가려진다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 27,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "Specific",
+    "question": "Under procedure HIE-NDT-ET-P11, the analogue output frequency response of the instrument shall be constant within :\n절차서 HIE-NDT-ET-P11 에 따르면 장비의 아날로그 출력 주파수 응답은 입력값의 몇 % 이내로 일정해야 하는가?",
+    "options": [
+      "10%\n10%",
+      "5%\n5%",
+      "2%\n2%",
+      "20%\n20%"
+    ],
+    "answer": 2,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-ET-P11 5.1.1.2. dc 부터 Fmax 까지 2% 이내로 일정해야 한다. Fmax 는 탐촉자 최대 이동속도에 0.4 Hz-s/mm 를 곱한 값이다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 28,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "Specific",
+    "question": "Under procedure HIE-NDT-ET-P11, the data acquisition rate shall digitize at least :\n절차서 HIE-NDT-ET-P11 에 따른 신호 수집율은 최소 얼마인가?",
+    "options": [
+      "10 signals per inch of tubing\n배관 1인치당 10개",
+      "20 signals per inch of tubing\n배관 1인치당 20개",
+      "60 signals per inch of tubing\n배관 1인치당 60개",
+      "30 signals per inch of tubing\n배관 1인치당 30개"
+    ],
+    "answer": 3,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-ET-P11 5.1.1.1. 1인치당 최소 30개다. 표본이 성기면 짧은 결함이 표본 사이로 빠져나간다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 29,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "Specific",
+    "question": "Under procedure HIE-NDT-ET-P11, the results of the examination may be evaluated by :\n절차서 HIE-NDT-ET-P11 에 따르면 검사 결과를 평가할 수 있는 사람은?",
+    "options": [
+      "an examiner qualified as ET Level II or Level III\nET Level Ⅱ 또는 Level Ⅲ 로 자격부여된 검사원",
+      "any examiner who performed the scan\n주사를 한 검사자면 누구든",
+      "the equipment manufacturer\n장비 제조업체",
+      "the purchaser only\n발주자만"
+    ],
+    "answer": 0,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-ET-P11 3.0. 자료를 모으는 것과 판정하는 것은 다르다. 판정은 ET Level Ⅱ 이상이 한다. 자격인정은 HIE-QP-E01 을 따른다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 30,
+    "level": "Level II",
+    "method": "ECT",
+    "category": "Specific",
+    "question": "Under procedure HIE-NDT-ET-P11, the calibration standard tube shall have :\n절차서 HIE-NDT-ET-P11 에 따른 대비 시험편의 요건은?",
+    "options": [
+      "any diameter as long as the material is the same\n재질만 같으면 지름은 무엇이든",
+      "the same nominal diameter, thickness and material as the tubes to be examined\n검사할 튜브와 같은 공칭직경·두께·재질",
+      "twice the wall thickness of the tubes to be examined\n검사할 튜브의 두 배 두께",
+      "carbon steel in every case\n언제나 탄소강"
+    ],
+    "answer": 1,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-ET-P11 5.5. 지름·두께·재질(화학 성분)이 같아야 한다. 하나라도 다르면 같은 결함이 다른 신호로 나와 교정이 어긋난다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
   }
 ]

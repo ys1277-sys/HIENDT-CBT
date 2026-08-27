@@ -198,7 +198,7 @@
     "method": "RFT",
     "category": "Specific",
     "source": "RFTS-II.hwp",
-    "question": "How much the minimum fill factor by the procedure HIE-NDT-ET-P11?\n절차서 HIE-NDT-ET-P11에서 최소 충진율은?",
+    "question": "How much the minimum fill factor by the procedure HIE-NDT-ET-P99?\n절차서 HIE-NDT-ET-P99에서 최소 충진율은?",
     "options": [
       "minimum 65%",
       "minimum 70%",
@@ -206,7 +206,8 @@
       "minimum 80%"
     ],
     "answer": 2,
-    "groupNote": "※ The following questions (9-17) refer to HIE procedure, HIE-NDT-ET-P11(Rev.2) for Remote Field Test of heat exchanger tube in accordance with ASME Sec. V Code, 2023 Edition.\n(문제 9-17은 ASME Sec. V 규격 2023 Edition에 따른 열교환기 튜브의 원격장 시험 절차서 HIE-NDT-ET-P11(Rev.2)에 관한 것이다.)"
+    "groupNote": "※ The following questions (9-17) refer to HIE procedure, HIE-NDT-ET-P11(Rev.2) for Remote Field Test of heat exchanger tube in accordance with ASME Sec. V Code, 2023 Edition.\n(문제 9-17은 ASME Sec. V 규격 2023 Edition에 따른 열교환기 튜브의 원격장 시험 절차서 HIE-NDT-ET-P11(Rev.2)에 관한 것이다.)",
+    "note": "원본 시험지가 절차서 번호를 HIE-NDT-ET-P11(와전류탐상 절차서)로 잘못 적어 두었다. 이 문항은 원격장탐상 전문시험이고 정답도 HIE-NDT-ET-P99(원격장탐상 절차서)의 값이라 번호를 바로잡았다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 14,
@@ -214,7 +215,7 @@
     "method": "RFT",
     "category": "Specific",
     "source": "RFTS-II.hwp",
-    "question": "In accordance with the procedure HIE-NDT-ET-P11, NDE personnel shall be qualified in accordance with :\n절차서 HIE-NDT-ET-P11에 의거 NDE 요원의 요구사항이 기술된 문서는?",
+    "question": "In accordance with the procedure HIE-NDT-ET-P99, NDE personnel shall be qualified in accordance with :\n절차서 HIE-NDT-ET-P99에 의거 NDE 요원의 요구사항이 기술된 문서는?",
     "options": [
       "HIE-QP-E01",
       "HIE-NDT-ET-P11",
@@ -223,7 +224,8 @@
     ],
     "answer": 0,
     "groupNote": "※ The following questions (9-17) refer to HIE procedure, HIE-NDT-ET-P11(Rev.2) for Remote Field Test of heat exchanger tube in accordance with ASME Sec. V Code, 2023 Edition.\n(문제 9-17은 ASME Sec. V 규격 2023 Edition에 따른 열교환기 튜브의 원격장 시험 절차서 HIE-NDT-ET-P11(Rev.2)에 관한 것이다.)",
-    "question_original": "Describe NDE personnel requirements in accordance with the procedure HIE-NDT-ET-P11."
+    "question_original": "Describe NDE personnel requirements in accordance with the procedure HIE-NDT-ET-P11.",
+    "note": "원본 시험지가 절차서 번호를 HIE-NDT-ET-P11(와전류탐상 절차서)로 잘못 적어 두었다. 이 문항은 원격장탐상 전문시험이고 정답도 HIE-NDT-ET-P99(원격장탐상 절차서)의 값이라 번호를 바로잡았다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 15,
@@ -231,7 +233,7 @@
     "method": "RFT",
     "category": "Specific",
     "source": "RFTS-II.hwp",
-    "question": "In the procedure HIE-NDT-ET-P11, what is the nominal probe speed during examination?\nHIE-NDT-ET-P11 절차서에서, 일반적으로 시험하는 동안 프로브 속도는?",
+    "question": "In the procedure HIE-NDT-ET-P99, what is the nominal probe speed during examination?\nHIE-NDT-ET-P99 절차서에서, 일반적으로 시험하는 동안 프로브 속도는?",
     "options": [
       "50 ～ 250 mm/sec",
       "100 ～ 500 mm/sec",
@@ -239,7 +241,8 @@
       "300 ～ 1000 mm/sec"
     ],
     "answer": 1,
-    "groupNote": "※ The following questions (9-17) refer to HIE procedure, HIE-NDT-ET-P11(Rev.2) for Remote Field Test of heat exchanger tube in accordance with ASME Sec. V Code, 2023 Edition.\n(문제 9-17은 ASME Sec. V 규격 2023 Edition에 따른 열교환기 튜브의 원격장 시험 절차서 HIE-NDT-ET-P11(Rev.2)에 관한 것이다.)"
+    "groupNote": "※ The following questions (9-17) refer to HIE procedure, HIE-NDT-ET-P11(Rev.2) for Remote Field Test of heat exchanger tube in accordance with ASME Sec. V Code, 2023 Edition.\n(문제 9-17은 ASME Sec. V 규격 2023 Edition에 따른 열교환기 튜브의 원격장 시험 절차서 HIE-NDT-ET-P11(Rev.2)에 관한 것이다.)",
+    "note": "원본 시험지가 절차서 번호를 HIE-NDT-ET-P11(와전류탐상 절차서)로 잘못 적어 두었다. 이 문항은 원격장탐상 전문시험이고 정답도 HIE-NDT-ET-P99(원격장탐상 절차서)의 값이라 번호를 바로잡았다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2\nRFT 일반 40번(0.15~0.3 m/s)과 RFT 전문의 프로브 속도 문항(100~500 mm/s)이 같은 것을 다르게 답한다. 회사 절차서 HIE-NDT-ET-P99 는 100~500 mm/s 로 적고 있다. 어느 쪽으로 맞출지 종목 NDE Level Ⅲ 가 정한다 (2026-08-27). HIE-QP-E02 6.1.2"
   },
   {
     "id": 16,
@@ -319,5 +322,155 @@
       "Nortec 600 / ES Beam"
     ],
     "answer": 1
+  },
+  {
+    "id": 21,
+    "level": "Level II",
+    "method": "RFT",
+    "category": "Specific",
+    "question": "Under procedure HIE-NDT-ET-P99, the depth of a calibration discontinuity shall be within :\n절차서 HIE-NDT-ET-P99 에 따르면 교정용 불연속의 깊이는 어느 범위 안에 들어야 하는가?",
+    "options": [
+      "± 20% of the specified depth or ± 0.003 in., whichever is smaller\n지정 깊이의 ±20% 또는 ±0.003 in. 가운데 작은 값",
+      "± 10% of the specified depth or ± 0.005 in., whichever is smaller\n지정 깊이의 ±10% 또는 ±0.005 in. 가운데 작은 값",
+      "± 5% of the specified depth only\n지정 깊이의 ±5% 만",
+      "± 1 mm regardless of depth\n깊이와 상관없이 ±1 mm"
+    ],
+    "answer": 0,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-ET-P99 4.3.2. 깊이는 불연속의 한가운데에서 재며, 지정 깊이의 ±20% 와 ±0.003 in. 가운데 작은 값 안에 들어야 한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 22,
+    "level": "Level II",
+    "method": "RFT",
+    "category": "Specific",
+    "question": "Under procedure HIE-NDT-ET-P99, the flat machined flaw in the calibration tube is made with a milling tool of :\n절차서 HIE-NDT-ET-P99 에 따르면 교정 튜브의 평면 가공 결함은 지름 얼마인 밀링 공구로 만드는가?",
+    "options": [
+      "0.125 in.\n0.125 in.",
+      "0.250 in.\n0.250 in.",
+      "0.500 in.\n0.500 in.",
+      "1.000 in.\n1.000 in."
+    ],
+    "answer": 1,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-ET-P99 4.3.1. 지름 0.250 in. 밀링 공구로 측면 밀링해 모서리를 둥글게 만든다. 깊이는 50%, 축 방향 길이는 튜브 공칭 외경의 절반이다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 23,
+    "level": "Level II",
+    "method": "RFT",
+    "category": "Specific",
+    "question": "Under procedure HIE-NDT-ET-P99, the edges of the short circumferential groove in the calibration tube shall be bevelled at :\n절차서 HIE-NDT-ET-P99 에 따르면 교정 튜브의 짧은 원주 그루브 가장자리는 몇 도로 기울이는가?",
+    "options": [
+      "45°\n45°",
+      "60°\n60°",
+      "105°\n105°",
+      "90°\n90°"
+    ],
+    "answer": 2,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-ET-P99 4.3.1. 105°다. 깊이 20%, 축 방향 길이 0.625 in. 인 짧은 원주 홈이며, 마모 흠과 긴 원주 그루브도 같은 105°로 기울인다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 24,
+    "level": "Level II",
+    "method": "RFT",
+    "category": "Specific",
+    "question": "Under procedure HIE-NDT-ET-P99, sensitivity is set so that the artificial flaw signal is :\n절차서 HIE-NDT-ET-P99 에 따르면 감도는 인공 결함 지시가 얼마로 나오도록 맞추는가?",
+    "options": [
+      "as high as possible without limit\n한도 없이 될 수 있는 대로 높게",
+      "10% to 30% of screen height\n화면 높이의 10~30%",
+      "exactly 100% of screen height\n화면 높이의 꼭 100%",
+      "40% to 80% of screen height and 1 mm to 20 mm on the strip chart\n화면 높이의 40~80%, 스트립 차트에서 1~20 mm"
+    ],
+    "answer": 3,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-ET-P99 6.0. 너무 낮으면 잡음에 묻히고, 너무 높으면 신호가 잘려 위상을 못 읽는다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 25,
+    "level": "Level II",
+    "method": "RFT",
+    "category": "Specific",
+    "question": "Under procedure HIE-NDT-ET-P99, the transfer device shall be able to pull the coil at a constant speed of about :\n절차서 HIE-NDT-ET-P99 에 따르면 이송 장치는 코일을 얼마의 일정한 속도로 당길 수 있어야 하는가?",
+    "options": [
+      "0.2 m/s\n0.2 m/s",
+      "0.05 m/s\n0.05 m/s",
+      "1.0 m/s\n1.0 m/s",
+      "2.0 m/s\n2.0 m/s"
+    ],
+    "answer": 0,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-ET-P99 4.4. 0.2 m/s 로 당길 수 있고 그 속도를 조절할 수 있어야 한다. 이송 장치를 쓸 수 없으면 사람이 코일을 일정한 속도로 당긴다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 26,
+    "level": "Level II",
+    "method": "RFT",
+    "category": "Specific",
+    "question": "Under procedure HIE-NDT-ET-P99, a calibration standard of a material different from the tubes may be used only if the frequencies used differ by :\n절차서 HIE-NDT-ET-P99 에 따르면 검사할 튜브와 재질이 다른 대비 시험편은 쓰는 주파수가 몇 배 이내일 때만 쓸 수 있는가?",
+    "options": [
+      "less than 5 times\n5배 미만",
+      "less than 2 times\n2배 미만",
+      "less than 10 times\n10배 미만",
+      "any difference is acceptable\n차이가 얼마든 상관없다"
+    ],
+    "answer": 1,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-ET-P99 4.3. 2배 이상 차이 나면 그 대비 시험편은 적절하지 않은 것으로 보아, 검사할 재료를 더 정확히 나타내는 재료로 만든 것으로 바꾼다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 27,
+    "level": "Level II",
+    "method": "RFT",
+    "category": "Specific",
+    "question": "Under procedure HIE-NDT-ET-P99, if the system goes out of calibration during the examination :\n절차서 HIE-NDT-ET-P99 에 따르면 검사 도중 장비가 교정에서 벗어나면 어떻게 하는가?",
+    "options": [
+      "record the fact and continue\n그 사실을 기록하고 그대로 이어 간다",
+      "re-examine only the last tube\n마지막 튜브만 다시 검사한다",
+      "recalibrate, record it, and re-examine all tubes examined since the last valid calibration\n재교정하고 기록한 뒤, 마지막으로 유효했던 교정 뒤에 검사한 튜브를 모두 다시 검사한다",
+      "change the probe and continue without recalibration\n탐촉자만 바꾸고 재교정 없이 이어 간다"
+    ],
+    "answer": 2,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-ET-P99 5.8. 어긋난 뒤에 검사한 것은 믿을 수 없다. 재교정은 5.4항부터 5.7항까지를 되풀이하고 보고서에 남긴다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 28,
+    "level": "Level II",
+    "method": "RFT",
+    "category": "Specific",
+    "question": "Under procedure HIE-NDT-ET-P99, the wear scar in the calibration tube is a tapered groove of :\n절차서 HIE-NDT-ET-P99 에 따르면 교정 튜브의 마모 흠(wear scar)은 깊이 얼마인 홈인가?",
+    "options": [
+      "20% depth\n깊이 20%",
+      "80% depth\n깊이 80%",
+      "60% depth\n깊이 60%",
+      "40% depth\n깊이 40%"
+    ],
+    "answer": 3,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-ET-P99 4.3.1. 튜브 지지대에서 생기는 마모를 본뜬 것으로, 튜브 원주의 180° 넘게 이어지는 깊이 40%의 홈이다. 홈 바닥에서 잰 축 방향 길이는 0.625 in. 다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 29,
+    "level": "Level II",
+    "method": "RFT",
+    "category": "Specific",
+    "question": "Under procedure HIE-NDT-ET-P99, the tapered flaw near the support has a depth of :\n절차서 HIE-NDT-ET-P99 에 따르면 지지대 부근 침식을 본뜬 테이퍼형 결함의 깊이는?",
+    "options": [
+      "60%\n60%",
+      "40%\n40%",
+      "20%\n20%",
+      "80%\n80%"
+    ],
+    "answer": 0,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-ET-P99 4.3.1. 깊이 60%의 홈이며, 급한 쪽 면은 튜브 축에 대해 65°, 가장 깊은 자리에서의 원주 방향 범위는 90°다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 30,
+    "level": "Level II",
+    "method": "RFT",
+    "category": "Specific",
+    "question": "Under procedure HIE-NDT-ET-P99, before eddy current examination the tubes shall be :\n절차서 HIE-NDT-ET-P99 에 따르면 검사 전에 튜브는 어떤 상태여야 하는가?",
+    "options": [
+      "magnetically saturated\n자기포화되어 있어야 한다",
+      "clean\n깨끗해야 한다",
+      "filled with couplant\n접촉매질로 채워 두어야 한다",
+      "heated above 50°C\n50℃ 넘게 데워 두어야 한다"
+    ],
+    "answer": 1,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-ET-P99 7.0. 스케일이나 침전물이 있으면 탐촉자가 걸려 속도가 들쭉날쭉해지고, 그 자체가 신호를 만들어 결함을 가린다. 신호를 읽는 데 방해가 될 만한 것은 미리 없애거나 살펴 둔다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
   }
 ]
