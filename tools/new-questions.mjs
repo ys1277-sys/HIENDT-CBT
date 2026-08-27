@@ -284,10 +284,10 @@ const BANKS = {
         Q("increase the residual magnetism of the part", "부재의 잔류자기를 키우기 때문에"),
         Q("cause the magnetic particles to lose their magnetism", "자분이 자성을 잃게 하기 때문에"),
         Q("change the permeability of the base metal", "모재의 투자율을 바꾸기 때문에"),
-        Q("can fill discontinuities and hold particles where there is no discontinuity at all", "결함 입구를 막고, 결함이 없는 자리에도 자분을 붙잡아 두기 때문에"),
+        Q("can fill discontinuities, and particles cling where there is no discontinuity at all", "결함 입구를 막고, 결함이 없는 자리에도 자분이 묻어 있기 때문에"),
       ],
       a: 3,
-      why: "기름·녹·스케일은 결함 입구를 막아 지시를 못 나오게 하고, 거꾸로 결함이 없는 자리에 자분을 붙들어 의사지시를 만든다. 어느 쪽이든 판독을 그르친다.",
+      why: "기름·녹·스케일은 결함 입구를 막아 지시를 못 나오게 하고, 거꾸로 결함이 없는 자리에도 자분이 묻어 의사지시를 만든다. 어느 쪽이든 판독을 그르친다.",
     },
 
     {
