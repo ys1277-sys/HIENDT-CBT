@@ -44,270 +44,272 @@ const BANKS = {
 
   /* Level Ⅱ 일반 PT 20문항은 2026-08-27 에 넣었다 — tools/_pt-done.txt */
 
+  /* Level Ⅱ 일반 RT 20문항은 2026-08-27 에 넣었다 — tools/_rt-done.txt */
+
   /* ═══════════════════════════════════════════
-     Level Ⅱ 일반 RT — 40문항 → 60문항
-     ASME Sec.V Art.2 와 방사선투과 원리를 본다
+     Level Ⅱ 일반 UT — 40문항 → 60문항
+     ASME Sec.V Art.4 · Art.5 와 초음파 원리를 본다
      ═══════════════════════════════════════════ */
-  "Level II/General/RT": [
+  "Level II/General/UT": [
 
     {
-      q: Q("Where shall the image quality indicator (IQI) normally be placed?",
-           "투과도계(IQI)는 원칙적으로 어디에 두는가?"),
+      q: Q("The couplant used in contact ultrasonic examination is required mainly to :",
+           "접촉법 초음파탐상에서 접촉매질(couplant)을 쓰는 가장 큰 까닭은?"),
       o: [
-        Q("on the film side of the object", "시험체의 필름 쪽"),
-        Q("on the source side of the object", "시험체의 선원 쪽"),
-        Q("between the film and the cassette", "필름과 카세트 사이"),
-        Q("anywhere outside the area of interest", "관심 부위 밖이면 어디든"),
+        Q("lubricate the search unit so it slides easily", "탐촉자가 잘 미끄러지게 하려고"),
+        Q("displace the air between the search unit and the surface", "탐촉자와 검사면 사이의 공기를 밀어내려고"),
+        Q("cool the transducer during long examinations", "긴 검사 동안 진동자를 식히려고"),
+        Q("increase the frequency of the sound beam", "초음파의 주파수를 높이려고"),
       ],
       a: 1,
-      why: "ASME Sec.V Art.2 T-277.1. 선원 쪽이 원칙이다. 선원에서 먼 쪽일수록 상이 흐려지므로, 가장 불리한 자리에 두어야 그 사진이 요구 감도를 낸다고 말할 수 있다. 선원 쪽에 둘 수 없을 때만 필름 쪽에 두고 F 표시를 한다.",
+      why: "강과 공기의 음향 임피던스 차가 워낙 커서 사이에 공기막이 있으면 초음파가 거의 다 되튄다. 접촉매질이 그 공기를 밀어내야 소리가 시험체로 들어간다.",
     },
 
     {
-      q: Q("For a single-film viewing radiograph made with an X-ray source, the film density in the area of interest shall be :",
-           "X선으로 찍어 필름 한 장으로 볼 때, 관심 부위의 사진 농도는 얼마여야 하는가?"),
+      q: Q("A transfer correction is applied when :",
+           "전이 보정(transfer correction)은 언제 하는가?"),
       o: [
-        Q("1.3 to 4.0", "1.3~4.0"),
-        Q("2.0 to 4.0", "2.0~4.0"),
-        Q("1.8 to 4.0", "1.8~4.0"),
-        Q("1.0 to 3.0", "1.0~3.0"),
+        Q("the search unit frequency is changed during the examination", "검사 도중 탐촉자 주파수를 바꿀 때"),
+        Q("the surface condition of the test object differs from that of the calibration block", "시험체의 표면 상태가 교정 시험편과 다를 때"),
+        Q("the examination is performed by a Level I examiner", "Level I 검사자가 검사할 때"),
+        Q("the test object is thicker than 50 mm", "시험체 두께가 50 mm 를 넘을 때"),
+      ],
+      a: 1,
+      why: "ASME Sec.V Art.4 T-434.2.1. 교정 시험편은 매끄러운데 시험체는 거칠거나 도장이 있으면 들어가는 소리의 양이 달라진다. 그 차이만큼 감도를 더해 주는 것이 전이 보정이다.",
+    },
+
+    {
+      q: Q("What is the sound path distance to the first leg reflection point when using a 45° shear wave on a 25 mm thick plate?",
+           "두께 25 mm 판재에 45° 횡파를 쓸 때 1스킵 첫 반사점까지의 음향 거리는?"),
+      o: [
+        Q("25 mm", "25 mm"),
+        Q("50 mm", "50 mm"),
+        Q("35.4 mm", "35.4 mm"),
+        Q("17.7 mm", "17.7 mm"),
       ],
       a: 2,
-      why: "ASME Sec.V Art.2 T-282.1. X선 단일필름은 1.8~4.0, 감마선 단일필름은 2.0~4.0, 여러 장을 겹쳐 볼 때는 각 장이 1.3 이상이면 된다.",
+      why: "음향 거리 = 두께 ÷ cos(굴절각) = 25 ÷ cos45° = 25 ÷ 0.707 = 35.4 mm. 표면 거리는 두께 × tan45° = 25 mm 다. 둘을 헷갈리기 쉽다.",
     },
 
     {
-      q: Q("The geometric unsharpness (Ug) of a radiograph is calculated as :",
-           "방사선투과사진의 기하학적 불선명도(Ug)를 구하는 식은?"),
+      q: Q("If the pulse repetition rate is set too high, the display may show :",
+           "펄스 반복률을 너무 높게 잡으면 화면에 무엇이 나타날 수 있는가?"),
       o: [
-        Q("Ug = F × d / t", "Ug = F × d / t"),
-        Q("Ug = F × t / d", "Ug = F × t / d"),
-        Q("Ug = t × d / F", "Ug = t × d / F"),
-        Q("Ug = F + t + d", "Ug = F + t + d"),
+        Q("a permanent loss of the back-wall echo", "저면 에코가 아주 사라진다"),
+        Q("ghost (wrap-around) echoes from the previous pulse", "앞선 펄스에서 온 유령 에코(wrap-around)"),
+        Q("a change in the refracted angle", "굴절각이 달라진다"),
+        Q("an increase in the near field length", "근거리 음장이 길어진다"),
       ],
       a: 1,
-      why: "ASME Sec.V Art.2 T-274.1. F 는 선원 크기, t 는 시험체에서 필름까지 거리, d 는 선원에서 시험체 선원쪽 면까지 거리다. 선원이 작을수록, 필름을 붙일수록, 거리를 멀리 둘수록 상이 또렷하다.",
+      why: "앞서 쏜 소리가 시험체 안에서 아직 오가는 중에 다음 펄스를 쏘면, 그 늦게 돌아온 에코가 다음 화면에 엉뚱한 자리에 뜬다. 결함으로 잘못 읽히므로 반복률을 낮춰 사라지는지 보아 가린다.",
     },
 
     {
-      q: Q("The thickness of material that reduces the radiation intensity to one half is called the :",
-           "방사선의 세기를 절반으로 줄이는 재료의 두께를 무엇이라 하는가?"),
+      q: Q("The near field (Fresnel zone) length of a transducer increases when :",
+           "탐촉자의 근거리 음장(near field)이 길어지는 것은 언제인가?"),
       o: [
-        Q("half-value layer", "반가층"),
-        Q("tenth-value layer", "십분의일가층"),
-        Q("critical thickness", "임계두께"),
-        Q("absorption coefficient", "흡수계수"),
-      ],
-      a: 0,
-      why: "차폐 두께를 잡을 때 쓰는 값이다. 반가층을 두 번 겹치면 1/4, 세 번이면 1/8 로 줄어든다.",
-    },
-
-    {
-      q: Q("A light image of the letter B on a darker background of the radiograph indicates :",
-           "방사선투과사진의 어두운 바탕에 밝은 B 글자가 나타나면 무엇을 뜻하는가?"),
-      o: [
-        Q("the film was fogged during storage", "필름이 보관 중에 흐려졌다"),
-        Q("the developer temperature was too high", "현상액 온도가 너무 높았다"),
-        Q("protection from back-scattered radiation is insufficient", "후방산란을 막는 것이 모자란다"),
-        Q("the source-to-film distance was too short", "선원-필름 거리가 너무 짧았다"),
+        Q("the frequency decreases", "주파수가 낮아질 때"),
+        Q("the transducer diameter decreases", "진동자 지름이 작아질 때"),
+        Q("the frequency or the diameter increases", "주파수나 진동자 지름이 커질 때"),
+        Q("the couplant is changed to oil", "접촉매질을 기름으로 바꿀 때"),
       ],
       a: 2,
-      why: "ASME Sec.V Art.2 T-223. 카세트 뒤에 납 B 글자를 붙여 찍는다. 어두운 바탕에 밝은 B 가 뜨면 뒤에서 산란선이 들어온 것이라 다시 찍는다. 반대로 밝은 바탕에 어두운 B 가 뜨는 것은 문제가 아니다.",
+      why: "N = D²f / 4V 다. 지름이나 주파수가 커지면 근거리 음장이 길어진다. 이 구간은 음압이 들쭉날쭉해 크기를 재기 어려우므로 평가는 원거리 음장에서 한다.",
     },
 
     {
-      q: Q("The primary purpose of a collimator in gamma radiography is to :",
-           "감마선 촬영에서 시준기(collimator)를 쓰는 가장 큰 까닭은?"),
+      q: Q("Ultrasonic examination of a weld is usually performed with :",
+           "용접부 초음파탐상은 보통 어떤 파로 하는가?"),
       o: [
-        Q("increase the intensity of the source", "선원의 세기를 키우려고"),
-        Q("limit the beam to the area of interest, reducing scatter and exposure to personnel", "방사선을 필요한 자리로만 내보내 산란선과 사람 피폭을 줄이려고"),
-        Q("shorten the half-life of the source", "선원의 반감기를 줄이려고"),
-        Q("replace the lead intensifying screens", "납 증감지를 대신하려고"),
-      ],
-      a: 1,
-      why: "시준기는 선원을 감싸 한 방향으로만 방사선을 내보낸다. 쓸데없이 퍼지는 선이 줄어 산란선이 적어지고 사진이 또렷해지며, 둘레 사람의 피폭도 준다. 선원 자체의 세기나 반감기는 달라지지 않는다.",
-    },
-
-    {
-      q: Q("What is the purpose of using lead intensifying screens in radiography?",
-           "방사선투과검사에서 납 증감지를 쓰는 까닭은?"),
-      o: [
-        Q("to reduce the source-to-film distance", "선원-필름 거리를 줄이려고"),
-        Q("to intensify the primary radiation and filter out scattered radiation", "1차 방사선의 작용을 키우고 산란선을 걸러내려고"),
-        Q("to lower the film density", "사진 농도를 낮추려고"),
-        Q("to identify the film in the darkroom", "암실에서 필름을 가려내려고"),
-      ],
-      a: 1,
-      why: "납이 방사선을 받아 전자를 내보내 필름을 더 감광시키므로 노출시간이 준다. 동시에 에너지가 낮은 산란선을 걸러 사진이 또렷해진다.",
-    },
-
-    {
-      q: Q("The double wall double image (elliptical) technique is normally used on pipe with an outside diameter of :",
-           "이중벽 이중상(타원) 촬영법은 보통 바깥지름이 얼마 이하인 배관에 쓰는가?"),
-      o: [
-        Q("3.5 in. (89 mm) or less", "3.5인치(89 mm) 이하"),
-        Q("12 in. (300 mm) or less", "12인치(300 mm) 이하"),
-        Q("24 in. (600 mm) or less", "24인치(600 mm) 이하"),
-        Q("any diameter", "지름과 상관없이 어디에나"),
-      ],
-      a: 0,
-      why: "ASME Sec.V Art.2 T-271.2. 지름이 3.5인치를 넘으면 위아래 용접부가 겹쳐 판독이 어려워 이중벽 단일상으로 바꾼다.",
-    },
-
-    {
-      q: Q("For complete coverage of a circumferential weld using the double wall double image technique, the minimum number of exposures is :",
-           "이중벽 이중상 촬영법으로 원주 용접부를 빠짐없이 찍으려면 최소 몇 회 촬영해야 하는가?"),
-      o: [
-        Q("one exposure", "1회"),
-        Q("two exposures 90° apart", "90° 간격으로 2회"),
-        Q("four exposures 90° apart", "90° 간격으로 4회"),
-        Q("three exposures 120° apart", "120° 간격으로 3회"),
-      ],
-      a: 1,
-      why: "ASME Sec.V Art.2 T-271.2. 타원으로 찍으면 한 번에 위아래 용접부를 함께 보므로 90° 돌려 두 번이면 한 바퀴가 다 덮인다. 타원으로 안 찍을 때는 60° 간격 세 번이 필요하다.",
-    },
-
-    {
-      q: Q("A densitometer used to measure radiographic film density shall be calibrated at least :",
-           "사진 농도를 재는 밀도계는 최소 얼마마다 교정해야 하는가?"),
-      o: [
-        Q("every 30 days", "30일마다"),
-        Q("every 90 days", "90일마다"),
-        Q("every 6 months", "6개월마다"),
-        Q("once a year", "1년마다"),
-      ],
-      a: 1,
-      why: "ASME Sec.V Art.2 T-262.1. 밀도계는 90일마다, 농도 비교 필름(step wedge comparison film)은 1년마다 교정한다.",
-    },
-
-    {
-      q: Q("The three basic means of protection against radiation exposure are :",
-           "방사선 피폭을 막는 세 가지 기본은 무엇인가?"),
-      o: [
-        Q("filtration, collimation, and screening", "여과·시준·증감"),
-        Q("time, distance, and shielding", "시간·거리·차폐"),
-        Q("voltage, current, and exposure time", "관전압·관전류·노출시간"),
-        Q("density, contrast, and definition", "농도·대비·선명도"),
-      ],
-      a: 1,
-      why: "머무는 시간을 줄이고, 선원에서 멀어지고, 사이에 차폐물을 두는 것이다. 거리는 역제곱 법칙을 따라 두 배 멀어지면 4분의 1로 준다.",
-    },
-
-    {
-      q: Q("A crescent-shaped (crimp) mark on a processed radiograph is caused by :",
-           "현상한 방사선투과사진에 초승달 모양 자국이 생기는 까닭은?"),
-      o: [
-        Q("bending or kinking the film sharply before processing", "현상 전에 필름을 세게 꺾거나 접었기 때문"),
-        Q("developer temperature being too low", "현상액 온도가 너무 낮았기 때문"),
-        Q("insufficient source-to-film distance", "선원-필름 거리가 모자랐기 때문"),
-        Q("scattered radiation from the floor", "바닥에서 온 산란선 때문"),
-      ],
-      a: 0,
-      why: "필름을 손톱으로 눌러 꺾으면 그 자리 감광유제가 상해 초승달 모양으로 남는다. 결함으로 잘못 읽히므로 필름은 꺾지 말고 다뤄야 한다.",
-    },
-
-    {
-      q: Q("For manual processing, the developer temperature is normally maintained at about :",
-           "수동 현상에서 현상액 온도는 보통 얼마로 유지하는가?"),
-      o: [
-        Q("50°F (10°C)", "50°F (10℃)"),
-        Q("68°F (20°C)", "68°F (20℃)"),
-        Q("85°F (29°C)", "85°F (29℃)"),
-        Q("100°F (38°C)", "100°F (38℃)"),
-      ],
-      a: 1,
-      why: "68°F(20℃)에서 5분 현상이 기준이다. 온도가 높으면 안개(fog)가 끼고 낮으면 덜 현상된다.",
-    },
-
-    {
-      q: Q("Which film class has the finest grain and the highest contrast?",
-           "입도가 가장 곱고 대비가 가장 높은 필름 등급은?"),
-      o: [
-        Q("Class I", "Class I"),
-        Q("Class II", "Class II"),
-        Q("Class III", "Class III"),
-        Q("all classes are the same", "등급이 달라도 다 같다"),
-      ],
-      a: 0,
-      why: "번호가 작을수록 입도가 곱고 대비가 높으며 그만큼 감도가 낮아 노출시간이 길다. Class I 은 또렷한 사진이 필요한 자리에, Class III 은 두꺼운 시험체에 쓴다.",
-    },
-
-    {
-      q: Q("The IQI to be used is selected on the basis of :",
-           "쓸 투과도계는 무엇을 기준으로 고르는가?"),
-      o: [
-        Q("the film class", "필름 등급"),
-        Q("the source-to-film distance", "선원-필름 거리"),
-        Q("the nominal single-wall material thickness being radiographed", "촬영하는 부위의 공칭 단일벽 두께"),
-        Q("the half-life of the source", "선원의 반감기"),
+        Q("longitudinal waves at normal incidence", "수직으로 입사시킨 종파"),
+        Q("surface (Rayleigh) waves", "표면파(레일리파)"),
+        Q("shear waves at an angle", "비스듬히 입사시킨 횡파"),
+        Q("Lamb waves", "램파"),
       ],
       a: 2,
-      why: "ASME Sec.V Art.2 Table T-276. 두께로 고른다. 용접 덧살과 백킹은 두께에 넣지 않는다.",
+      why: "용접 덧살 때문에 용접부 위에 탐촉자를 놓을 수 없어, 모재에서 비스듬히 쏘아 횡파로 검사한다. 수직 종파는 판재의 라미네이션이나 두께 측정에 쓴다.",
     },
 
     {
-      q: Q("When two or more films are viewed superimposed (composite viewing), the density of each film shall be at least :",
-           "필름 두 장 이상을 겹쳐 볼 때 각 장의 농도는 최소 얼마여야 하는가?"),
+      q: Q("When the incident angle in the first medium is increased so that the refracted longitudinal wave reaches 90°, that incident angle is called the :",
+           "굴절된 종파가 90° 가 될 때의 입사각을 무엇이라 하는가?"),
       o: [
-        Q("2.0", "2.0"),
-        Q("1.3", "1.3"),
-        Q("1.8", "1.8"),
-        Q("0.5", "0.5"),
+        Q("second critical angle", "제2 임계각"),
+        Q("first critical angle", "제1 임계각"),
+        Q("Snell angle", "스넬각"),
+        Q("skip angle", "스킵각"),
       ],
       a: 1,
-      why: "ASME Sec.V Art.2 T-282.1. 겹쳐 보면 농도가 더해지므로 한 장씩은 1.3 이상이면 된다. 한 장으로 볼 때의 1.8(X선)·2.0(감마선)과 헷갈리기 쉽다.",
+      why: "제1 임계각을 넘으면 종파가 사라지고 횡파만 남는다. 횡파까지 90° 가 되는 각이 제2 임계각이고, 그 너머는 표면파가 된다. 각도 탐촉자는 두 임계각 사이를 쓴다.",
     },
 
     {
-      q: Q("A wire IQI is considered acceptable when :",
-           "선형 투과도계는 어떻게 되어야 합격인가?"),
+      q: Q("Before ultrasonic examination, the calibration shall be verified at least :",
+           "초음파탐상에서 교정은 최소 언제 다시 확인해야 하는가?"),
       o: [
-        Q("the entire IQI outline is visible", "투과도계 테두리가 다 보이면"),
-        Q("the essential wire is visible over the required length", "필수 선이 요구되는 길이만큼 보이면"),
-        Q("all wires of the IQI are visible", "투과도계의 모든 선이 보이면"),
-        Q("the identification number is legible", "식별 번호를 읽을 수 있으면"),
+        Q("once a week", "일주일에 한 번"),
+        Q("at the start and finish of each examination, and every 4 hours", "검사를 시작할 때와 끝낼 때, 그리고 4시간마다"),
+        Q("only when the search unit is changed", "탐촉자를 바꿀 때만"),
+        Q("once a month", "한 달에 한 번"),
       ],
       a: 1,
-      why: "ASME Sec.V Art.2 T-283.2. 표에서 정한 필수 선(essential wire)이 관심 부위와 같은 농도 자리에서 최소 10 mm 길이로 보이면 된다. 모든 선이 다 보일 필요는 없다.",
+      why: "ASME Sec.V Art.4 T-263. 시작·종료와 4시간마다 확인한다. 어긋나 있으면 마지막으로 맞았던 때 이후에 검사한 것을 다시 검사한다.",
     },
 
     {
-      q: Q("The primary purpose of a lead letter F on a radiograph is to indicate that :",
-           "방사선투과사진에 납 F 글자를 찍는 까닭은?"),
+      q: Q("The velocity of a shear wave in steel is approximately :",
+           "강에서 횡파의 속도는 대략 얼마인가?"),
       o: [
-        Q("the film was fogged", "필름이 흐려졌다는 것"),
-        Q("the IQI was placed on the film side", "투과도계를 필름 쪽에 두었다는 것"),
-        Q("a filter was used at the tube window", "관 창에 필터를 썼다는 것"),
-        Q("the exposure was made with a fine-grain film", "고운 입도 필름으로 찍었다는 것"),
+        Q("5,900 m/s", "5,900 m/s"),
+        Q("3,230 m/s", "3,230 m/s"),
+        Q("1,480 m/s", "1,480 m/s"),
+        Q("2,900 m/s", "2,900 m/s"),
       ],
       a: 1,
-      why: "ASME Sec.V Art.2 T-277.1. 선원 쪽에 투과도계를 둘 수 없을 때만 필름 쪽에 두고, 그 옆에 납 F 를 함께 찍어 판독하는 사람이 알게 한다.",
+      why: "강에서 종파는 약 5,900 m/s, 횡파는 약 3,230 m/s 로 종파의 절반쯤이다. 물에서는 약 1,480 m/s 다. 같은 주파수라면 횡파의 파장이 짧아 작은 결함을 더 잘 찾는다.",
     },
 
     {
-      q: Q("Compared with a radiograph made at low kilovoltage, a radiograph made at high kilovoltage has :",
-           "낮은 관전압으로 찍은 사진과 견주어 높은 관전압으로 찍은 사진은 어떠한가?"),
+      q: Q("The wavelength of a 5 MHz longitudinal wave in steel (velocity 5,900 m/s) is approximately :",
+           "강(음속 5,900 m/s)에서 5 MHz 종파의 파장은 대략 얼마인가?"),
       o: [
-        Q("higher contrast and a narrower range of thickness recorded", "대비가 높고 담기는 두께 범위가 좁다"),
-        Q("lower contrast and a wider range of thickness recorded", "대비가 낮고 담기는 두께 범위가 넓다"),
-        Q("higher contrast and less scattered radiation", "대비가 높고 산란선이 적다"),
-        Q("no difference in contrast", "대비에 차이가 없다"),
+        Q("0.59 mm", "0.59 mm"),
+        Q("2.95 mm", "2.95 mm"),
+        Q("1.18 mm", "1.18 mm"),
+        Q("11.8 mm", "11.8 mm"),
       ],
-      a: 1,
-      why: "관전압이 높으면 투과력이 세져 두께 차이에 따른 흡수 차가 줄어든다. 그래서 대비는 낮아지지만 두께 변화가 큰 시험체를 한 장에 담을 수 있다.",
+      a: 2,
+      why: "λ = V / f = 5,900 ÷ 5,000,000 = 0.00118 m = 1.18 mm 다. 보통 파장의 절반보다 작은 결함은 찾기 어렵다고 본다.",
     },
 
     {
-      q: Q("Radiographic film should be stored :",
-           "방사선투과 필름은 어떻게 보관해야 하는가?"),
+      q: Q("Increasing the examination frequency generally results in :",
+           "검사 주파수를 높이면 대체로 어떻게 되는가?"),
       o: [
-        Q("next to the exposure room so it is close at hand", "쓰기 편하게 촬영실 옆에"),
-        Q("in a cool, dry place shielded from radiation", "서늘하고 건조하며 방사선이 닿지 않는 곳에"),
-        Q("in a sealed metal box at 100°F (38°C)", "100°F(38℃)로 데운 밀폐 금속함에"),
-        Q("under a safelight in the darkroom", "암실 안전등 아래에"),
+        Q("better resolution but less penetration", "분해능이 좋아지고 투과력은 떨어진다"),
+        Q("better penetration but less resolution", "투과력이 좋아지고 분해능은 떨어진다"),
+        Q("both better resolution and better penetration", "분해능과 투과력이 함께 좋아진다"),
+        Q("no change in either", "둘 다 달라지지 않는다"),
+      ],
+      a: 0,
+      why: "주파수가 높으면 파장이 짧아 작은 결함을 가려내지만 감쇠가 커서 깊이 못 간다. 굵은 결정립 주조품에 낮은 주파수를 쓰는 것이 이 때문이다.",
+    },
+
+    {
+      q: Q("The primary purpose of a basic calibration block is to :",
+           "기본 교정 시험편을 쓰는 가장 큰 까닭은?"),
+      o: [
+        Q("establish the distance and amplitude response of the system", "장비의 거리와 진폭 응답을 정하려고"),
+        Q("measure the thickness of the couplant layer", "접촉매질 층의 두께를 재려고"),
+        Q("determine the frequency of the search unit", "탐촉자의 주파수를 알아내려고"),
+        Q("check the surface roughness of the test object", "시험체의 표면 거칠기를 확인하려고"),
+      ],
+      a: 0,
+      why: "ASME Sec.V Art.4 T-434. 알려진 크기의 반사체로 가로 눈금(거리)과 세로 눈금(진폭)을 맞춘다. 그래서 시험편은 검사할 재질·두께·열처리·곡률과 같아야 한다.",
+    },
+
+    {
+      q: Q("The material of the basic calibration block shall be :",
+           "기본 교정 시험편의 재질은 어때야 하는가?"),
+      o: [
+        Q("always carbon steel regardless of the object", "시험체와 상관없이 늘 탄소강"),
+        Q("acoustically equivalent to the material being examined", "검사할 재료와 음향 특성이 같아야 한다"),
+        Q("harder than the material being examined", "검사할 재료보다 단단해야 한다"),
+        Q("any material with a smooth surface", "표면이 매끄러운 재료면 무엇이든"),
       ],
       a: 1,
-      why: "열·습기·방사선은 안 쓴 필름을 흐리게 한다. 촬영실 가까이 두면 산란선을 계속 받아 안개가 낀다. 유효기간이 지난 필름도 안개가 늘어 못 쓴다.",
+      why: "ASME Sec.V Art.4 T-434.1.1. 재질이 다르면 음속과 감쇠가 달라 교정이 어긋난다. 제품 형태와 열처리 상태까지 맞춘다.",
+    },
+
+    {
+      q: Q("A discontinuity oriented parallel to the sound beam will most likely :",
+           "초음파 빔과 나란히 놓인 결함은 어떻게 되는가?"),
+      o: [
+        Q("produce the largest possible indication", "가장 큰 지시를 만든다"),
+        Q("produce little or no indication", "지시가 거의 또는 전혀 안 나온다"),
+        Q("produce a false back-wall echo", "가짜 저면 에코를 만든다"),
+        Q("change the velocity of the beam", "빔의 속도를 바꾼다"),
+      ],
+      a: 1,
+      why: "빔이 결함 면에 부딪혀 되돌아와야 지시가 나온다. 나란하면 소리가 스쳐 지나간다. 그래서 예상되는 결함 방향에 맞춰 굴절각을 고르고, 두 방향에서 검사한다.",
+    },
+
+    {
+      q: Q("In an immersion test, the water path distance is normally set so that :",
+           "수침법에서 수거리는 보통 어떻게 잡는가?"),
+      o: [
+        Q("the water path is equal to the object thickness", "수거리를 시험체 두께와 같게"),
+        Q("the first water-to-metal interface echo appears after the first back-wall echo", "물-금속 경계 에코가 저면 에코보다 뒤에 오게"),
+        Q("the second water travel echo falls beyond the first back-wall echo", "물속을 두 번 오간 에코가 저면 에코보다 뒤에 오게"),
+        Q("the water path is as short as possible", "수거리를 될 수 있는 대로 짧게"),
+      ],
+      a: 2,
+      why: "물속에서 되돌아온 다중 에코가 시험체의 저면 에코와 겹치면 판독이 헷갈린다. 물에서의 음속이 강의 약 1/4 이므로 수거리를 두께의 1/4 보다 길게 잡아 겹치지 않게 한다.",
+    },
+
+    {
+      q: Q("A laminar discontinuity in plate is best detected with :",
+           "판재의 라미네이션은 무엇으로 가장 잘 찾는가?"),
+      o: [
+        Q("an angle beam shear wave", "각도 탐촉자의 횡파"),
+        Q("a straight beam longitudinal wave", "수직 탐촉자의 종파"),
+        Q("a surface wave", "표면파"),
+        Q("a Lamb wave in the plate mode", "판 모드 램파"),
+      ],
+      a: 1,
+      why: "라미네이션은 표면과 나란히 누워 있으므로 수직으로 쏜 종파가 정면으로 맞고 되돌아온다. 각도 빔은 스쳐 지나가 잘 못 찾는다.",
+    },
+
+    {
+      q: Q("Attenuation of ultrasound in a material is caused mainly by :",
+           "재료 속에서 초음파가 줄어드는 것은 주로 무엇 때문인가?"),
+      o: [
+        Q("absorption and scattering", "흡수와 산란"),
+        Q("refraction and mode conversion only", "굴절과 모드 변환만으로"),
+        Q("the couplant layer", "접촉매질 층"),
+        Q("the pulse repetition rate", "펄스 반복률"),
+      ],
+      a: 0,
+      why: "소리 에너지가 열로 바뀌는 흡수와, 결정립 경계에서 사방으로 흩어지는 산란이 두 축이다. 결정립이 굵을수록 산란이 커져 주파수를 낮춰야 한다.",
+    },
+
+    {
+      q: Q("The couplant used for the examination shall be :",
+           "검사에 쓰는 접촉매질은 어때야 하는가?"),
+      o: [
+        Q("the same as that used for calibration", "교정할 때 쓴 것과 같아야 한다"),
+        Q("always water regardless of the surface", "표면과 상관없이 늘 물이어야 한다"),
+        Q("thicker than that used for calibration", "교정할 때 쓴 것보다 걸쭉해야 한다"),
+        Q("selected by the examiner at the time of examination", "검사할 때 검사자가 골라 쓰면 된다"),
+      ],
+      a: 0,
+      why: "ASME Sec.V Art.4 T-431. 접촉매질이 달라지면 시험체로 들어가는 소리의 양이 달라져 교정이 어긋난다. 니켈 합금·오스테나이트계·티타늄에는 황과 할로겐 함량도 따진다.",
+    },
+
+    {
+      q: Q("Compared with a flat search unit, a focused search unit provides :",
+           "평면 탐촉자와 견주어 집속 탐촉자는 어떠한가?"),
+      o: [
+        Q("greater penetration into thick sections", "두꺼운 부위에 더 깊이 들어간다"),
+        Q("higher sensitivity and resolution within the focal zone", "초점 구간 안에서 감도와 분해능이 더 높다"),
+        Q("a wider beam over the whole sound path", "음향 경로 내내 빔이 더 넓다"),
+        Q("no need for a couplant", "접촉매질이 필요 없다"),
+      ],
+      a: 1,
+      why: "빔을 한 자리에 모아 그 구간의 음압을 높인다. 대신 초점을 벗어나면 빠르게 퍼져 감도가 떨어지므로, 찾으려는 깊이에 초점을 맞춰 써야 한다.",
+    },
+
+    {
+      q: Q("Ultrasonic examination records shall include :",
+           "초음파탐상 기록에 반드시 담아야 하는 것은?"),
+      o: [
+        Q("only the indications that were rejected", "불합격 처리한 지시만"),
+        Q("the examination data, calibration data and the identity of the examiner", "검사 자료와 교정 자료, 검사자를 알 수 있는 것"),
+        Q("the purchase order number only", "발주 번호만"),
+        Q("a photograph of the test object", "시험체 사진"),
+      ],
+      a: 1,
+      why: "ASME Sec.V Art.4 T-491. 나중에 같은 조건으로 되짚어 볼 수 있어야 하므로 장비·탐촉자·주파수·교정 시험편·감도 설정과 검사자를 함께 남긴다.",
     },
   ],
 

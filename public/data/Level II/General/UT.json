@@ -599,5 +599,305 @@
       "interpretation\n판독"
     ],
     "answer": 2
+  },
+  {
+    "id": 41,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "question": "The couplant used in contact ultrasonic examination is required mainly to :\n접촉법 초음파탐상에서 접촉매질(couplant)을 쓰는 가장 큰 까닭은?",
+    "options": [
+      "displace the air between the search unit and the surface\n탐촉자와 검사면 사이의 공기를 밀어내려고",
+      "lubricate the search unit so it slides easily\n탐촉자가 잘 미끄러지게 하려고",
+      "cool the transducer during long examinations\n긴 검사 동안 진동자를 식히려고",
+      "increase the frequency of the sound beam\n초음파의 주파수를 높이려고"
+    ],
+    "answer": 0,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 강과 공기의 음향 임피던스 차가 워낙 커서 사이에 공기막이 있으면 초음파가 거의 다 되튄다. 접촉매질이 그 공기를 밀어내야 소리가 시험체로 들어간다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 42,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "question": "A transfer correction is applied when : (Ref. : ASME Sec.V Art.4)\n전이 보정(transfer correction)은 언제 하는가? (ASME Sec.V Art.4 기준)",
+    "options": [
+      "the search unit frequency is changed during the examination\n검사 도중 탐촉자 주파수를 바꿀 때",
+      "the surface condition of the test object differs from that of the calibration block\n시험체의 표면 상태가 교정 시험편과 다를 때",
+      "the examination is performed by a Level I examiner\nLevel I 검사자가 검사할 때",
+      "the test object is thicker than 50 mm\n시험체 두께가 50 mm 를 넘을 때"
+    ],
+    "answer": 1,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : ASME Sec.V Art.4 T-434.2.1. 교정 시험편은 매끄러운데 시험체는 거칠거나 도장이 있으면 들어가는 소리의 양이 달라진다. 그 차이만큼 감도를 더해 주는 것이 전이 보정이다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 43,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "question": "What is the sound path distance to the first leg reflection point when using a 45° shear wave on a 25 mm thick plate?\n두께 25 mm 판재에 45° 횡파를 쓸 때 1스킵 첫 반사점까지의 음향 거리는?",
+    "options": [
+      "25 mm\n25 mm",
+      "50 mm\n50 mm",
+      "35.4 mm\n35.4 mm",
+      "17.7 mm\n17.7 mm"
+    ],
+    "answer": 2,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 음향 거리 = 두께 ÷ cos(굴절각) = 25 ÷ cos45° = 25 ÷ 0.707 = 35.4 mm. 표면 거리는 두께 × tan45° = 25 mm 다. 둘을 헷갈리기 쉽다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 44,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "question": "If the pulse repetition rate is set too high, the display may show :\n펄스 반복률을 너무 높게 잡으면 화면에 무엇이 나타날 수 있는가?",
+    "options": [
+      "a permanent loss of the back-wall echo\n저면 에코가 아주 사라진다",
+      "an increase in the near field length\n근거리 음장이 길어진다",
+      "a change in the refracted angle\n굴절각이 달라진다",
+      "ghost (wrap-around) echoes from the previous pulse\n앞선 펄스에서 온 유령 에코(wrap-around)"
+    ],
+    "answer": 3,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 앞서 쏜 소리가 시험체 안에서 아직 오가는 중에 다음 펄스를 쏘면, 그 늦게 돌아온 에코가 다음 화면에 엉뚱한 자리에 뜬다. 결함으로 잘못 읽히므로 반복률을 낮춰 사라지는지 보아 가린다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 45,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "question": "The near field (Fresnel zone) length of a transducer increases when :\n탐촉자의 근거리 음장(near field)이 길어지는 것은 언제인가?",
+    "options": [
+      "the frequency or the diameter increases\n주파수나 진동자 지름이 커질 때",
+      "the transducer diameter decreases\n진동자 지름이 작아질 때",
+      "the frequency decreases\n주파수가 낮아질 때",
+      "the couplant is changed to oil\n접촉매질을 기름으로 바꿀 때"
+    ],
+    "answer": 0,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : N = D²f / 4V 다. 지름이나 주파수가 커지면 근거리 음장이 길어진다. 이 구간은 음압이 들쭉날쭉해 크기를 재기 어려우므로 평가는 원거리 음장에서 한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 46,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "question": "Ultrasonic examination of a weld is usually performed with :\n용접부 초음파탐상은 보통 어떤 파로 하는가?",
+    "options": [
+      "longitudinal waves at normal incidence\n수직으로 입사시킨 종파",
+      "shear waves at an angle\n비스듬히 입사시킨 횡파",
+      "surface (Rayleigh) waves\n표면파(레일리파)",
+      "Lamb waves\n램파"
+    ],
+    "answer": 1,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 용접 덧살 때문에 용접부 위에 탐촉자를 놓을 수 없어, 모재에서 비스듬히 쏘아 횡파로 검사한다. 수직 종파는 판재의 라미네이션이나 두께 측정에 쓴다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 47,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "question": "When the incident angle in the first medium is increased so that the refracted longitudinal wave reaches 90°, that incident angle is called the :\n굴절된 종파가 90° 가 될 때의 입사각을 무엇이라 하는가?",
+    "options": [
+      "second critical angle\n제2 임계각",
+      "Snell angle\n스넬각",
+      "first critical angle\n제1 임계각",
+      "skip angle\n스킵각"
+    ],
+    "answer": 2,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 제1 임계각을 넘으면 종파가 사라지고 횡파만 남는다. 횡파까지 90° 가 되는 각이 제2 임계각이고, 그 너머는 표면파가 된다. 각도 탐촉자는 두 임계각 사이를 쓴다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 48,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "question": "Before ultrasonic examination, the calibration shall be verified at least : (Ref. : ASME Sec.V Art.4)\n초음파탐상에서 교정은 최소 언제 다시 확인해야 하는가? (ASME Sec.V Art.4 기준)",
+    "options": [
+      "once a week\n일주일에 한 번",
+      "once a month\n한 달에 한 번",
+      "only when the search unit is changed\n탐촉자를 바꿀 때만",
+      "at the start and finish of each examination, and every 4 hours\n검사를 시작할 때와 끝낼 때, 그리고 4시간마다"
+    ],
+    "answer": 3,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : ASME Sec.V Art.4 T-263. 시작·종료와 4시간마다 확인한다. 어긋나 있으면 마지막으로 맞았던 때 이후에 검사한 것을 다시 검사한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 49,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "question": "The velocity of a shear wave in steel is approximately :\n강에서 횡파의 속도는 대략 얼마인가?",
+    "options": [
+      "3,230 m/s\n3,230 m/s",
+      "5,900 m/s\n5,900 m/s",
+      "1,480 m/s\n1,480 m/s",
+      "2,900 m/s\n2,900 m/s"
+    ],
+    "answer": 0,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 강에서 종파는 약 5,900 m/s, 횡파는 약 3,230 m/s 로 종파의 절반쯤이다. 물에서는 약 1,480 m/s 다. 같은 주파수라면 횡파의 파장이 짧아 작은 결함을 더 잘 찾는다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 50,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "question": "The wavelength of a 5 MHz longitudinal wave in steel (velocity 5,900 m/s) is approximately :\n강(음속 5,900 m/s)에서 5 MHz 종파의 파장은 대략 얼마인가?",
+    "options": [
+      "0.59 mm\n0.59 mm",
+      "1.18 mm\n1.18 mm",
+      "2.95 mm\n2.95 mm",
+      "11.8 mm\n11.8 mm"
+    ],
+    "answer": 1,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : λ = V / f = 5,900 ÷ 5,000,000 = 0.00118 m = 1.18 mm 다. 보통 파장의 절반보다 작은 결함은 찾기 어렵다고 본다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 51,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "question": "Increasing the examination frequency generally results in :\n검사 주파수를 높이면 대체로 어떻게 되는가?",
+    "options": [
+      "better resolution but less penetration\n분해능이 좋아지고 투과력은 떨어진다",
+      "better penetration but less resolution\n투과력이 좋아지고 분해능은 떨어진다",
+      "both better resolution and better penetration\n분해능과 투과력이 함께 좋아진다",
+      "no change in either\n둘 다 달라지지 않는다"
+    ],
+    "answer": 0,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 주파수가 높으면 파장이 짧아 작은 결함을 가려내지만 감쇠가 커서 깊이 못 간다. 굵은 결정립 주조품에 낮은 주파수를 쓰는 것이 이 때문이다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 52,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "question": "The primary purpose of a basic calibration block is to : (Ref. : ASME Sec.V Art.4)\n기본 교정 시험편을 쓰는 가장 큰 까닭은? (ASME Sec.V Art.4 기준)",
+    "options": [
+      "determine the frequency of the search unit\n탐촉자의 주파수를 알아내려고",
+      "measure the thickness of the couplant layer\n접촉매질 층의 두께를 재려고",
+      "establish the distance and amplitude response of the system\n장비의 거리와 진폭 응답을 정하려고",
+      "check the surface roughness of the test object\n시험체의 표면 거칠기를 확인하려고"
+    ],
+    "answer": 2,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : ASME Sec.V Art.4 T-434. 알려진 크기의 반사체로 가로 눈금(거리)과 세로 눈금(진폭)을 맞춘다. 그래서 시험편은 검사할 재질·두께·열처리·곡률과 같아야 한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 53,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "question": "The material of the basic calibration block shall be : (Ref. : ASME Sec.V Art.4)\n기본 교정 시험편의 재질은 어때야 하는가? (ASME Sec.V Art.4 기준)",
+    "options": [
+      "always carbon steel regardless of the object\n시험체와 상관없이 늘 탄소강",
+      "any material with a smooth surface\n표면이 매끄러운 재료면 무엇이든",
+      "harder than the material being examined\n검사할 재료보다 단단해야 한다",
+      "acoustically equivalent to the material being examined\n검사할 재료와 음향 특성이 같아야 한다"
+    ],
+    "answer": 3,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : ASME Sec.V Art.4 T-434.1.1. 재질이 다르면 음속과 감쇠가 달라 교정이 어긋난다. 제품 형태와 열처리 상태까지 맞춘다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 54,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "question": "A discontinuity oriented parallel to the sound beam will most likely :\n초음파 빔과 나란히 놓인 결함은 어떻게 되는가?",
+    "options": [
+      "produce little or no indication\n지시가 거의 또는 전혀 안 나온다",
+      "produce the largest possible indication\n가장 큰 지시를 만든다",
+      "produce a false back-wall echo\n가짜 저면 에코를 만든다",
+      "change the velocity of the beam\n빔의 속도를 바꾼다"
+    ],
+    "answer": 0,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 빔이 결함 면에 부딪혀 되돌아와야 지시가 나온다. 나란하면 소리가 스쳐 지나간다. 그래서 예상되는 결함 방향에 맞춰 굴절각을 고르고, 두 방향에서 검사한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 55,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "question": "In an immersion test, the water path distance is normally set so that :\n수침법에서 수거리는 보통 어떻게 잡는가?",
+    "options": [
+      "the water path is equal to the object thickness\n수거리를 시험체 두께와 같게",
+      "the second water travel echo falls beyond the first back-wall echo\n물속을 두 번 오간 에코가 저면 에코보다 뒤에 오게",
+      "the first water-to-metal interface echo appears after the first back-wall echo\n물-금속 경계 에코가 저면 에코보다 뒤에 오게",
+      "the water path is as short as possible\n수거리를 될 수 있는 대로 짧게"
+    ],
+    "answer": 1,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 물속에서 되돌아온 다중 에코가 시험체의 저면 에코와 겹치면 판독이 헷갈린다. 물에서의 음속이 강의 약 1/4 이므로 수거리를 두께의 1/4 보다 길게 잡아 겹치지 않게 한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 56,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "question": "A laminar discontinuity in plate is best detected with :\n판재의 라미네이션은 무엇으로 가장 잘 찾는가?",
+    "options": [
+      "an angle beam shear wave\n각도 탐촉자의 횡파",
+      "a surface wave\n표면파",
+      "a straight beam longitudinal wave\n수직 탐촉자의 종파",
+      "a Lamb wave in the plate mode\n판 모드 램파"
+    ],
+    "answer": 2,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 라미네이션은 표면과 나란히 누워 있으므로 수직으로 쏜 종파가 정면으로 맞고 되돌아온다. 각도 빔은 스쳐 지나가 잘 못 찾는다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 57,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "question": "Attenuation of ultrasound in a material is caused mainly by :\n재료 속에서 초음파가 줄어드는 것은 주로 무엇 때문인가?",
+    "options": [
+      "the pulse repetition rate\n펄스 반복률",
+      "refraction and mode conversion only\n굴절과 모드 변환만으로",
+      "the couplant layer\n접촉매질 층",
+      "absorption and scattering\n흡수와 산란"
+    ],
+    "answer": 3,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 소리 에너지가 열로 바뀌는 흡수와, 결정립 경계에서 사방으로 흩어지는 산란이 두 축이다. 결정립이 굵을수록 산란이 커져 주파수를 낮춰야 한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 58,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "question": "The couplant used for the examination shall be : (Ref. : ASME Sec.V Art.4)\n검사에 쓰는 접촉매질은 어때야 하는가? (ASME Sec.V Art.4 기준)",
+    "options": [
+      "the same as that used for calibration\n교정할 때 쓴 것과 같아야 한다",
+      "always water regardless of the surface\n표면과 상관없이 늘 물이어야 한다",
+      "thicker than that used for calibration\n교정할 때 쓴 것보다 걸쭉해야 한다",
+      "selected by the examiner at the time of examination\n검사할 때 검사자가 골라 쓰면 된다"
+    ],
+    "answer": 0,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : ASME Sec.V Art.4 T-431. 접촉매질이 달라지면 시험체로 들어가는 소리의 양이 달라져 교정이 어긋난다. 니켈 합금·오스테나이트계·티타늄에는 황과 할로겐 함량도 따진다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 59,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "question": "Compared with a flat search unit, a focused search unit provides :\n평면 탐촉자와 견주어 집속 탐촉자는 어떠한가?",
+    "options": [
+      "greater penetration into thick sections\n두꺼운 부위에 더 깊이 들어간다",
+      "higher sensitivity and resolution within the focal zone\n초점 구간 안에서 감도와 분해능이 더 높다",
+      "a wider beam over the whole sound path\n음향 경로 내내 빔이 더 넓다",
+      "no need for a couplant\n접촉매질이 필요 없다"
+    ],
+    "answer": 1,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 빔을 한 자리에 모아 그 구간의 음압을 높인다. 대신 초점을 벗어나면 빠르게 퍼져 감도가 떨어지므로, 찾으려는 깊이에 초점을 맞춰 써야 한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 60,
+    "level": "Level II",
+    "method": "UT",
+    "category": "General",
+    "question": "Ultrasonic examination records shall include : (Ref. : ASME Sec.V Art.4)\n초음파탐상 기록에 반드시 담아야 하는 것은? (ASME Sec.V Art.4 기준)",
+    "options": [
+      "only the indications that were rejected\n불합격 처리한 지시만",
+      "the purchase order number only\n발주 번호만",
+      "the examination data, calibration data and the identity of the examiner\n검사 자료와 교정 자료, 검사자를 알 수 있는 것",
+      "a photograph of the test object\n시험체 사진"
+    ],
+    "answer": 2,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : ASME Sec.V Art.4 T-491. 나중에 같은 조건으로 되짚어 볼 수 있어야 하므로 장비·탐촉자·주파수·교정 시험편·감도 설정과 검사자를 함께 남긴다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
   }
 ]
