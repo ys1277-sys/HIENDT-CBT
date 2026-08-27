@@ -5,68 +5,99 @@
       "title": "ULTRASONIC EXAMINATION PROCEDURE",
       "titleKo": "초음파탐상검사 절차서",
       "rev": "Rev.1",
+      "date": "2024. 03. 05",
+      "dept": "기술부 TECH Dep't",
+      "pages": "52",
       "doc": "HIE-NDT-PAUT-P11.json"
     },
     "HIE-NDT-ET-P11": {
       "title": "EDDY CURRENT EXAMINATION PROCEDURE",
       "titleKo": "와전류탐상검사 절차서",
       "rev": "Rev.2",
+      "date": "2024.01.02",
+      "dept": "기술부 TECH Dep't",
+      "pages": "17",
       "doc": "HIE-NDT-ET-P11.json"
     },
     "HIE-NDT-MT-P11": {
       "title": "MAGNETIC PARTICLE EXAMINATION PROCEDURE",
       "titleKo": "자분탐상검사 절차서",
       "rev": "Rev.2",
+      "date": "2024. 01. 02",
+      "dept": "기술부 TECH Dep't",
+      "pages": "18",
       "doc": "HIE-NDT-MT-P11.json"
     },
     "HIE-NDT-PT-P11": {
       "title": "LIQUID PENETRANT EXAMINATION PROCEDURE",
       "titleKo": "액체침투탐상검사 절차서",
       "rev": "Rev.2",
+      "date": "2024. 01. 02",
+      "dept": "기술부 TECH Dep't",
+      "pages": "22",
       "doc": "HIE-NDT-PT-P11.json"
     },
     "HIE-NDT-ET-P99": {
       "title": "REMOTE FIELD TESTING EXAMINATION PROCEDURE",
-      "titleKo": "원격장 탐상 검사 절차서",
+      "titleKo": "원격장탐상검사 절차서",
       "rev": "Rev.1",
+      "date": "2018.01.12",
+      "dept": "기술부 TECH Dep't",
+      "pages": "18",
       "doc": "HIE-NDT-ET-P99.json"
     },
     "HIE-NDT-RT-P11": {
       "title": "RADIOGRAPHIC EXAMINATION PROCEDURE",
       "titleKo": "방사선투과검사 절차서",
       "rev": "Rev.2",
+      "date": "2024. 01. 02",
+      "dept": "기술부 TECH Dep't",
+      "pages": "42",
       "doc": "HIE-NDT-RT-P11.json"
     },
     "HIE-NDT-TOFD-U09": {
-      "title": "Ultrasonic Examination(TOFD) PROCEDURE",
+      "title": "ULTRASONIC EXAMINATION (TOFD) PROCEDURE",
       "titleKo": "초음파탐상검사(TOFD) 절차서",
       "rev": "Rev.2",
+      "date": "2012. 8. 16",
+      "dept": "기술부 TECH Dep't",
+      "pages": "35",
       "doc": "HIE-NDT-TOFD-U09.json"
     },
     "HIE-NDT-P11": {
-      "title": "Ultrasonic Examination(TOFD) PROCEDURE",
+      "title": "ULTRASONIC EXAMINATION (TOFD) PROCEDURE",
       "titleKo": "초음파탐상검사(TOFD) 절차서",
       "rev": "Rev.2",
-      "doc": "HIE-NDT-TOFD-U09.json",
-      "docCode": "HIE-NDT-TOFD-U09",
-      "note": "TOFD 문항 지시문이 부르는 이름. 실제 문서번호는 HIE-NDT-TOFD-U09 다."
+      "date": "2012. 8. 16",
+      "dept": "기술부 TECH Dep't",
+      "pages": "35",
+      "doc": "HIE-NDT-TOFD-U09.json"
     },
     "HIE-NDT-UT-P11": {
       "title": "ULTRASONIC EXAMINATION PROCEDURE",
       "titleKo": "초음파탐상검사 절차서",
       "rev": "Rev.2",
+      "date": "2024. 01. 02",
+      "dept": "기술부 TECH Dep't",
+      "pages": "48",
       "doc": "HIE-NDT-UT-P11.json"
     },
     "HIE-NDT-VT-P11": {
       "title": "VISUAL EXAMINATION PROCEDURE",
       "titleKo": "육안검사 절차서",
       "rev": "Rev.2",
+      "date": "2024. 01. 02",
+      "dept": "기술부 TECH Dep't",
+      "pages": "13",
       "doc": "HIE-NDT-VT-P11.json"
     },
     "HIE-QP-E01": {
-      "title": "NDE Personnel Qualification and Certification Procedure",
+      "title": "NDE PERSONNEL QUALIFICATION AND CERTIFICATION PROCEDURE",
       "titleKo": "비파괴시험요원 자격인정 절차서",
       "rev": "Rev.8",
+      "date": "2023. 12. 29",
+      "dept": "QM Dep't",
+      "pages": "37",
       "doc": "HIE-QP-E01.json"
     }
   }

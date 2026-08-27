@@ -111,6 +111,11 @@ export function pickProcedures(manifest, questions) {
       title: item.title || key,
       titleKo: item.titleKo || "",
       rev: item.rev || "",
+      /* 표지에 적혀 있던 값들. 머리글을 그리는 데 쓴다 */
+      date: item.date || "",
+      dept: item.dept || "",
+      /* 원본 절차서가 몇 쪽짜리인지. 화면 쪽수가 아니다 */
+      sheets: item.pages || "",
       doc: item.doc || "",
       pages,
     });

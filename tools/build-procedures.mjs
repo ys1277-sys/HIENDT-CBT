@@ -96,14 +96,91 @@ function weaveKo(blocks, ko) {
 }
 
 /*
+ * 덩이 하나에 든 글을 다 모은다. 표 안까지 들어간다.
+ */
+function blockText(b) {
+  if (!b) return "";
+  if (b === "covered") return "";
+  if (b.t === "table") {
+    return b.grid
+      .map((row) => row.map((c) => (!c || c === "covered" ? "" : c.blocks.map(blockText).join(" "))).join(" "))
+      .join(" ");
+  }
+  if (b.t === "img") return "";
+  return String(b.s || "");
+}
+
+/*
+ * 원본 표지를 걷어낸다.
+ *
+ * hwp 표지는 「로고 + 회사이름 + 문서번호 + 개정 + 제목 + 발행부서」를
+ * 4줄 6칸 표에 담고 있다. 그것을 그대로 옮기면 절차서마다 칸 나눔이
+ * 조금씩 달라 열 편이 열 가지 꼴로 뜬다. ECT 절차서는 아예 그 앞에
+ * 표제지가 한 장 더 있고, UT 는 목차가 표지보다 앞에 나온다.
+ *
+ * 표지에 적힌 값은 readCover 가 따로 읽어 index.json 에 넣는다. 화면에는
+ * 앱이 한 가지 꼴로 그린다(src/ProcedureHead.jsx). 그러니 여기서는
+ * 표지 표와 그 앞에 딸린 표제지를 통째로 뺀다.
+ */
+const COVER_MARK = /Document\s*No/i;
+
+function stripCover(blocks) {
+  let at = -1;
+
+  for (let i = 0; i < Math.min(blocks.length, 14); i++) {
+    if (blocks[i].t !== "table") continue;
+    if (COVER_MARK.test(blockText(blocks[i]))) { at = i; break; }
+  }
+
+  /* 표지를 못 찾으면 아무것도 안 뺀다. 본문을 잃는 것보다 낫다 */
+  if (at < 0) return blocks;
+
+  const rest = blocks.slice(at + 1);
+
+  /*
+   * UT 절차서는 목차 표시가 표지보다 앞에 있다. 표지와 함께 빼 버리면
+   * 목차만 표시 없이 덩그러니 남는다. 뺀 덩이 가운데 목차 표시가 있었으면
+   * 앞으로 옮겨 둔다.
+   */
+  const toc = blocks
+    .slice(0, at)
+    .some((b) => TOC_MARK.test(blockText(b).replace(/\s+/g, " ").trim()));
+
+  return toc ? [{ t: "p", s: "CONTENTS" }, ...rest] : rest;
+}
+
+/*
+ * 목차 표시를 한 꼴로 맞춘다.
+ *
+ * 원본이 제각각이다. 1칸 표에 「CONTENTS」, 문단에 「Contents」 다음 줄에
+ * 「목차」, 한 줄에 「CONTENTS 목차」, E01 은 「TABLE OF CONTENTS」.
+ * 표지를 뺀 자리에 오는 이 표시를 항목 제목과 같은 꼴로 바꾼다.
+ */
+const TOC_MARK = /^(table\s*of\s*contents|contents|목\s*차)$/i;
+
+function normalizeToc(blocks) {
+  let i = 0;
+  let found = false;
+
+  while (i < blocks.length && i < 4) {
+    const t = blockText(blocks[i]).replace(/\s+/g, " ").trim();
+    if (TOC_MARK.test(t) || /^contents\s*목\s*차$/i.test(t)) { found = true; i++; continue; }
+    break;
+  }
+
+  if (!found) return blocks;
+  return [{ t: "h", level: 2, s: "CONTENTS 목차" }, ...blocks.slice(i)];
+}
+
+/*
  * 표지 로고가 두 번 나오는 것을 한 번으로 줄인다.
  *
  * 표지 첫머리 표 안에 회사 로고가 들어 있는데, 그 로고가 표 밖에도
  * 한 번 더 딸려 나온다. 절차서를 열면 로고만 덩그러니 뜬 뒤 표지가
  * 나오고 거기에 또 로고가 있다. 일곱 편이 다 그렇다.
  *
- * 맨 앞 덩이가 그림이고 바로 뒤 표 안에 같은 그림이 있을 때만 뺀다.
- * 본문 도해는 건드리지 않는다.
+ * 표지를 통째로 걷어내면서 같이 빠지지만, 표지를 못 찾은 절차서를
+ * 위해 남겨 둔다.
  */
 function dropLooseCoverLogo(blocks) {
   if (blocks.length < 2) return blocks;
@@ -161,6 +238,38 @@ function deglyph(s) {
   let out = "";
   for (const ch of s) out += GLYPH.get(ch.codePointAt(0)) ?? ch;
   return out;
+}
+
+/*
+ * 우리말 맞춤법 가운데 뜻이 안 바뀌는 것만 바로잡는다.
+ *
+ * 「되어야 한다」의 「한다」는 보조용언이라 띄어 쓴다. 원본에는
+ * 「되어야한다」가 열 편에 걸쳐 예순여 군데 있다. 빈칸 하나를 넣는
+ * 일이라 뜻이 달라지지 않는다.
+ *
+ * 말투(…합니다 / …한다)나 잘못된 번역은 여기서 손대지 않는다. 그것은
+ * 문장을 다시 쓰는 일이고, 절차서 본문의 임자는 원본 hwp 다. 어디가
+ * 어떻게 어긋났는지는 tools/proc-proof.mjs 가 보여 준다.
+ */
+const SPACING = [
+  /* 되야 → 되어야.  「되-」에 「-어야」가 붙는다 */
+  [/되야(?=\s*(한다|합니다|된다|할|하는))/g, "되어야"],
+
+  /* 보조용언은 띄어 쓴다 */
+  [/([가-힣])야한다/g, "$1야 한다"],
+  [/([가-힣])야합니다/g, "$1야 합니다"],
+  [/([가-힣])야된다/g, "$1야 된다"],
+  [/([가-힣])어야할/g, "$1어야 할"],
+
+  /* 의존명사 「수」는 띄어 쓴다 */
+  [/([가-힣])할수(?=\s*(있|없))/g, "$1할 수"],
+];
+
+function tidyKo(s) {
+  if (typeof s !== "string" || !/[가-힣]/.test(s)) return s;
+  let t = s;
+  for (const [from, to] of SPACING) t = t.replace(from, to);
+  return t;
 }
 
 /*
@@ -377,14 +486,43 @@ const TITLE_TYPO = [
   [/\bULTRASOINC\b/gi, "ULTRASONIC"],   // PAUT 표지
 ];
 
+/*
+ * 제목을 한 꼴로 맞춘다.
+ *
+ * 여덟 편은 「ULTRASONIC EXAMINATION PROCEDURE」처럼 다 대문자인데
+ * TOFD 는 「Ultrasonic Examination(TOFD) PROCEDURE」, E01 은
+ * 「NDE Personnel Qualification and Certification Procedure」로 섞여
+ * 있다. 절차서 머리글에 나란히 뜨는 자리라 눈에 밟힌다.
+ *
+ * 대소문자와 묶음표 앞 빈칸만 손본다. 말은 원본 그대로 둔다.
+ */
 function fixTitle(s) {
   let t = s;
   for (const [from, to] of TITLE_TYPO) t = t.replace(from, to);
+
+  t = t.toUpperCase().replace(/\s*\(/g, " (").replace(/\s+/g, " ").trim();
+  return t;
+}
+
+/*
+ * 한글 제목의 띄어쓰기.
+ *
+ * 「원격장 탐상 검사 절차서」만 낱말을 벌려 놓았다. 나머지 아홉 편은
+ * 「와전류탐상검사」 「방사선투과검사」처럼 검사 이름을 한 낱말로
+ * 붙여 쓴다. 비파괴검사 용어의 표준 표기도 붙여 쓰는 쪽이다.
+ */
+const TITLE_KO = [
+  [/원격장\s*탐상\s*검사/g, "원격장탐상검사"],
+];
+
+function fixTitleKo(s) {
+  let t = String(s).replace(/\s+/g, " ").trim();
+  for (const [from, to] of TITLE_KO) t = t.replace(from, to);
   return t;
 }
 
 function readCover(lines) {
-  const out = { code: "", rev: "", date: "", subject: "", subjectKo: "" };
+  const out = { code: "", rev: "", date: "", subject: "", subjectKo: "", dept: "", pages: "" };
 
   for (let i = 0; i < Math.min(lines.length, 80); i++) {
     const l = lines[i];
@@ -428,9 +566,26 @@ function readCover(lines) {
       if (parts.length) out.subject = fixTitle(parts.join(" "));
     }
 
+    /*
+     * 발행부서.  「Issued」 「Dep't.」 다음 칸에 「기술부 TECH Dep't」
+     * 처럼 들어 있다. E01 은 「QM Dep't」 한 마디뿐이다.
+     */
+    if (!out.dept && /^(Issued|Dep'?t\.?)$/i.test(l)) {
+      const next = lines
+        .slice(i + 1, i + 5)
+        .find((s) => /Dep'?t|기술부|QM|QA/i.test(s) && !/^(Issued|Dep'?t\.?)$/i.test(s));
+      if (next) out.dept = next.trim();
+    }
+
+    /* 「Page of 48」 — 원본이 몇 쪽짜리인지 */
+    if (!out.pages) {
+      const m = l.match(/^Page\s*of\s*(\d+)/i);
+      if (m) out.pages = m[1];
+    }
+
     /* 한글 제목은 결재란 아래에 따로 있다 */
     if (!out.subjectKo && /(절차서|지침서)\s*$/.test(l) && l.length <= 40) {
-      out.subjectKo = l;
+      out.subjectKo = fixTitleKo(l);
     }
   }
   return out;
@@ -579,9 +734,21 @@ function sectionKey(s) {
   return one ? one[1] : null;
 }
 
+/*
+ * 번호 바로 뒤에 조사가 붙으면 제목이 아니라 본문이다.
+ *
+ *   5.5.3항에 규정한 대비 시험편의 …
+ *
+ * ECT 절차서에 이런 줄이 있다. 마침표 없이 끊겨 있어 문장 끝 검사에
+ * 안 걸리고, 55자보다 짧아 제목으로 굵게 찍혔다.
+ */
+const PARTICLE_AFTER_NUMBER = /^(?:\d+\.)*\d+\.?[가-힣]/;
+
 function isHeading(s) {
   const key = sectionKey(s);
   if (!key) return false;
+
+  if (PARTICLE_AFTER_NUMBER.test(s)) return false;
 
   /* 1.0 2.0 처럼 큰 항목 */
   if (/^\d{1,2}\.0(?:[\s.]|$)/.test(s)) return true;
@@ -589,11 +756,42 @@ function isHeading(s) {
   return s.length <= 55 && !ENDS_SENTENCE.test(s);
 }
 
+/*
+ * 항목 제목을 한 꼴로 맞춘다.
+ *
+ * 원본이 절차서마다 다르다.
+ *   1.0 SCOPE(개요)      MT·RT·PT·VT
+ *   1.0 SCOPE (개요)     UT
+ *   1.0 SCOPE(개 요)     E01
+ *   1.0 SCOPE 적용범위   RFT
+ *   1.0 Scope 적용범위   ECT
+ *
+ * 영문 뒤에 오는 한글 풀이는 언제나 「영문 (한글)」로 둔다. 말은 원본
+ * 그대로 두고 빈칸과 묶음표만 손본다.
+ */
+function tidyHeading(s) {
+  let t = String(s).replace(/\s+/g, " ").trim();
+
+  /* 「개 요」처럼 두 글자를 벌려 쓴 것 */
+  t = t.replace(/\(\s*([가-힣])\s+([가-힣])\s*\)/g, "($1$2)");
+
+  /* 영문 다음에 묶음표 없이 붙은 한글 풀이 */
+  t = t.replace(
+    /^((?:\d+\.)*\d+\.?\s+[^가-힣(]+?)\s+([가-힣][가-힣\s·]*)$/,
+    (_, head, ko) => `${head.trim()} (${ko.trim()})`
+  );
+
+  /* 묶음표 앞에는 빈칸 하나 */
+  t = t.replace(/\s*\(/, " (");
+
+  return t;
+}
+
 function markHeadings(blocks) {
   return blocks.map((b) => {
     if (b.t !== "p" || !isHeading(b.s)) return b;
     const key = sectionKey(b.s);
-    return { t: "h", level: key.split(".").length >= 3 ? 3 : 2, s: b.s };
+    return { t: "h", level: key.split(".").length >= 3 ? 3 : 2, s: tidyHeading(b.s) };
   });
 }
 
@@ -702,7 +900,7 @@ for (const name of fs.readdirSync(SRC).filter((f) => /\.hwp$/i.test(f))) {
     const out = [];
 
     for (const b of blocks) {
-      if (b.t === "p") { out.push({ ...b, s: deglyph(b.s) }); continue; }
+      if (b.t === "p") { out.push({ ...b, s: tidyKo(deglyph(b.s)) }); continue; }
 
       if (b.t === "img") {
         const src = srcOf.get(b.binId);
@@ -734,11 +932,15 @@ for (const name of fs.readdirSync(SRC).filter((f) => /\.hwp$/i.test(f))) {
     return out;
   }
 
-  let blocks = dropEmptyRows(
-    markStamps(
-      markLogoBySize(
-        markCoverLogo(dropLooseCoverLogo(markHeadings(convert(doc.blocks)))),
-        sizeOf
+  let blocks = normalizeToc(
+    stripCover(
+      dropEmptyRows(
+        markStamps(
+          markLogoBySize(
+            markCoverLogo(dropLooseCoverLogo(markHeadings(convert(doc.blocks)))),
+            sizeOf
+          )
+        )
       )
     )
   );
@@ -752,6 +954,8 @@ for (const name of fs.readdirSync(SRC).filter((f) => /\.hwp$/i.test(f))) {
     titleKo: cover.subjectKo,
     rev: cover.rev,
     date: cover.date,
+    dept: cover.dept,
+    pages: cover.pages,
     source: name,
     blocks,
   };
@@ -762,6 +966,9 @@ for (const name of fs.readdirSync(SRC).filter((f) => /\.hwp$/i.test(f))) {
     title: cover.subject || code,
     titleKo: cover.subjectKo,
     rev: cover.rev,
+    date: cover.date,
+    dept: cover.dept,
+    pages: cover.pages,
     doc: `${code}.json`,
   };
   table[code] = entry;

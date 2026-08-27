@@ -364,9 +364,27 @@ export function readRich(file) {
     images.push({ ...im, binId: idx + 1 });
   });
 
+  /* 그림 레코드가 부를 수 있는 번호 — 목록에 든 자리만이다 */
+  const listIds = new Set(images.map((i) => i.binId));
+
+  /*
+   * 목록에 없는 저장소.
+   *
+   * 그림을 넣었다 지운 자리가 이렇게 남는다. 저장소 이름을 그대로 번호로
+   * 쓰면 목록 자리 번호와 겹친다.
+   *
+   *   UT 절차서 목록은 35칸인데 BIN0022·BIN0023 이 목록에 없다.
+   *   0x22 = 34, 0x23 = 35 라 목록 34·35번(BIN0020·BIN0021)을 덮어썼고,
+   *   746x419 짜리 도해 자리에 308x112 서명 도장이 떴다.
+   *
+   * 목록 뒤로 밀어 둔다. 어차피 본문이 부르지 않는 그림이라 파일로만
+   * 남고 문서에는 안 붙는다.
+   */
+  let extra = storageOf.length;
+
   for (const [storage, im] of byStorage) {
     if (used.has(storage)) continue;
-    images.push({ ...im, binId: storage });
+    images.push({ ...im, binId: ++extra });
   }
 
   /* 본문 */
@@ -380,7 +398,12 @@ export function readRich(file) {
 
   /* 그림 번호 자리를 먼저 정한다 */
   const picDatas = roots.flatMap((r) => findPictures(r, []).map((p) => p.d));
-  const validIds = new Set(images.map((i) => i.binId));
+
+  /*
+   * 목록을 읽었으면 목록 자리 번호만 받는다. 목록을 못 읽었으면
+   * 예전처럼 저장소 이름을 번호로 삼는다.
+   */
+  const validIds = listIds.size ? listIds : new Set(images.map((i) => i.binId));
   const off = picDatas.length ? findBinIdOffset(picDatas, validIds) : null;
 
   const binIdOf = (d) => {

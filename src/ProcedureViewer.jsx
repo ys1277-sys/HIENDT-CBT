@@ -16,6 +16,7 @@
  */
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { loadProcedures, pickProcedures, pageSrc, loadDoc } from "./procedures.js";
+import ProcedureHead from "./ProcedureHead.jsx";
 
 /* 절차서 목록은 한 번만 읽고 돌려 쓴다 */
 let cache = null;
@@ -128,7 +129,7 @@ function Block({ b }) {
  * 한글이 나온다. 빌드 때 항목 번호로 갈라 1.0 영문 다음 1.0 한글 순으로
  * 엮어 뒀다.
  */
-function ProcedureDoc({ file }) {
+function ProcedureDoc({ file, proc }) {
   const [doc, setDoc] = useState(null);
   const [find, setFind] = useState("");
 
@@ -182,6 +183,12 @@ function ProcedureDoc({ file }) {
       </div>
 
       <div className="procw-doc">
+        {/*
+          머리글은 찾기에 걸리지 않는다. 절차서 안에서 낱말을 찾을 때
+          표지까지 걸러 내면 무엇을 찾았는지 헷갈린다.
+        */}
+        {find.trim() ? null : <ProcedureHead proc={proc} />}
+
         {blocks.map((b, i) => (
           <Block key={i} b={b} />
         ))}
@@ -303,13 +310,10 @@ function ProcedureViewer({ proc, onClose }) {
 
       {/*
         문항이 부른 절차서와 실제로 열린 절차서가 다를 때 둘을 나란히 밝힌다.
-        ASME Sec.Ⅲ 용(N21)과 Sec.Ⅷ 용(P11)은 값이 다를 수 있어, 어느 문서를
-        보고 있는지 응시자가 알아야 한다.
-
-        문구는 사실만 적는다. "아직 등록되지 않아" 처럼 모자란 티가 나는 말은
-        쓰지 않는다.
+        본문 문서로 뜰 때는 머리글(ProcedureHead)이 그 자리에 같은 말을
+        찍으므로 여기서는 쪽 그림으로 뜨는 절차서에만 붙인다.
       */}
-      {proc.code && proc.docCode && proc.code !== proc.docCode ? (
+      {!proc.doc && proc.code && proc.docCode && proc.code !== proc.docCode ? (
         <div className="procw-swap">
           문항 지시문 <b>{proc.code}</b> · 지금 열린 절차서 <b>{proc.docCode}</b>
         </div>
@@ -317,7 +321,7 @@ function ProcedureViewer({ proc, onClose }) {
 
       <div className={proc.doc ? "procw-body is-doc" : "procw-body"}>
         {proc.doc ? (
-          <ProcedureDoc file={proc.doc} />
+          <ProcedureDoc file={proc.doc} proc={proc} />
         ) : (
           <img
             src={pageSrc(proc.pages[page])}
