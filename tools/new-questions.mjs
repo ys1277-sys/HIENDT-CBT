@@ -48,274 +48,278 @@ const BANKS = {
 
   /* Level Ⅱ 일반 UT 20문항은 2026-08-27 에 넣었다 — tools/_ut-done.txt */
 
+  /* Level Ⅱ 일반 ECT 20문항은 2026-08-27 에 넣었다 — tools/_ect-done.txt */
+
   /* ═══════════════════════════════════════════
-     Level Ⅱ 일반 ECT — 40문항 → 60문항
-     ASME Sec.V Art.8 과 와전류 원리를 본다
+     Level Ⅱ 일반 RFT — 40문항 → 60문항
 
-     ECT 와 RFT 두 은행이 와전류 이론 24문항을 나눠 쓰고 있다.
-     여기 넣는 것은 ECT 쪽에만 넣는다 — RFT 는 원격장 고유 주제로
-     따로 채운다.
+     원격장 탐상 고유 주제만 넣는다. 와전류 이론은 ECT 은행과 나눠
+     쓰는 24문항이 이미 덮고 있다.
+
+     값은 회사 절차서 HIE-NDT-ET-P99 와 대조했다. 다만 일반시험이라
+     문제문에는 절차서 번호를 안 밝힌다 — 절차서를 몰라도 풀 수 있어야
+     한다(E01 표 3).
      ═══════════════════════════════════════════ */
-  "Level II/General/ECT": [
+  "Level II/General/RFT": [
 
     {
-      q: Q("The depth at which the eddy current density has decreased to about 37% of its surface value is called the :",
-           "와전류 밀도가 표면 값의 약 37%로 줄어드는 깊이를 무엇이라 하는가?"),
+      q: Q("In remote field testing, the through-transmission (indirect) energy path means that the signal :",
+           "원격장 탐상에서 신호가 「관통 전달 경로」를 지난다는 말은 무엇을 뜻하는가?"),
       o: [
-        Q("standard depth of penetration", "표준 침투깊이"),
-        Q("effective depth of penetration", "유효 침투깊이"),
-        Q("phase depth", "위상 깊이"),
-        Q("saturation depth", "포화 깊이"),
+        Q("travels only along the inside surface of the tube", "튜브 안쪽면만 타고 흐른다"),
+        Q("passes through the tube wall, along the outside, and back through the wall to the receiver", "튜브 벽을 뚫고 나가 바깥을 타고 흐르다 다시 벽을 뚫고 수신 코일로 돌아온다"),
+        Q("is carried by the couplant between the coil and the tube", "코일과 튜브 사이의 접촉매질이 실어 나른다"),
+        Q("travels directly from the exciter to the receiver inside the tube", "여자 코일에서 수신 코일로 튜브 안을 곧바로 지난다"),
+      ],
+      a: 1,
+      why: "벽을 두 번 지나므로 안쪽면 결함과 바깥면 결함의 감도가 거의 같다. 탐촉자가 안에 있어 안쪽면에 치우치는 보통 와전류탐상과 갈리는 대목이다.",
+    },
+
+    {
+      q: Q("The main advantage of remote field testing over conventional eddy current testing is that it :",
+           "보통 와전류탐상과 견주어 원격장 탐상이 나은 점은?"),
+      o: [
+        Q("gives nearly equal sensitivity to inside and outside surface discontinuities in ferromagnetic tubing", "강자성 튜브에서 안쪽면과 바깥면 결함의 감도가 거의 같다"),
+        Q("does not require a reference standard", "대비 시험편이 필요 없다"),
+        Q("can be used on nonconductive materials", "전기가 안 통하는 재료에도 쓸 수 있다"),
+        Q("requires no magnetic saturation and works at very high speed", "자기포화가 필요 없고 아주 빠르다"),
       ],
       a: 0,
-      why: "표준 침투깊이(δ)는 표면 밀도의 1/e, 곧 약 37%가 되는 깊이다. 그 세 배 깊이에서는 5%밖에 안 남아 사실상 검사가 안 된다.",
+      why: "강자성 튜브는 표피효과가 심해 보통 와전류로는 바깥면을 못 본다. 원격장은 벽을 뚫고 오가므로 두께 전체를 고르게 본다.",
     },
 
     {
-      q: Q("The standard depth of penetration decreases when :",
-           "표준 침투깊이가 얕아지는 것은 언제인가?"),
+      q: Q("Magnetic saturation is generally not required in remote field testing because :",
+           "원격장 탐상에는 대개 자기포화가 필요 없다. 까닭은?"),
       o: [
-        Q("the test frequency decreases", "시험 주파수가 낮아질 때"),
-        Q("the conductivity of the material decreases", "재료의 전도율이 낮아질 때"),
-        Q("the test frequency, conductivity or permeability increases", "시험 주파수·전도율·투자율이 커질 때"),
-        Q("the fill factor decreases", "충진율이 낮아질 때"),
+        Q("the tube is not ferromagnetic", "튜브가 강자성체가 아니기 때문"),
+        Q("the low test frequency already lets the field pass through the wall", "낮은 시험 주파수라 자장이 이미 벽을 뚫고 지나기 때문"),
+        Q("the probe is pulled too fast for permeability to matter", "탐촉자를 빨리 당겨 투자율이 문제되지 않기 때문"),
+        Q("the receiver coil cancels the permeability signal", "수신 코일이 투자율 신호를 지우기 때문"),
+      ],
+      a: 1,
+      why: "보통 와전류탐상은 강자성 튜브에서 표피효과를 이기려고 자석으로 포화시킨다. 원격장은 애초에 낮은 주파수를 써 자장이 벽을 뚫고 오가므로 그 장치가 없어도 된다.",
+    },
+
+    {
+      q: Q("The region where the direct coupling between exciter and receiver is dominant is called the :",
+           "여자 코일과 수신 코일이 곧바로 결합하는 것이 우세한 구간을 무엇이라 하는가?"),
+      o: [
+        Q("remote field zone", "원격장 영역"),
+        Q("transition zone", "천이 영역"),
+        Q("direct field zone", "직접장 영역"),
+        Q("saturation zone", "포화 영역"),
       ],
       a: 2,
-      why: "δ = 1/√(πfμσ) 다. 주파수·투자율·전도율 가운데 무엇이 커져도 침투깊이는 얕아진다. 그래서 깊은 결함을 보려면 주파수를 낮춘다.",
+      why: "여자 코일 가까이가 직접장, 그 너머가 천이 영역, 더 멀리가 원격장이다. 검사는 원격장 영역에서 한다.",
     },
 
     {
-      q: Q("Lift-off in eddy current testing refers to :",
-           "와전류탐상에서 리프트오프(lift-off)란 무엇인가?"),
+      q: Q("In remote field testing, the phase lag of the signal is used mainly to determine :",
+           "원격장 탐상에서 신호의 위상 지연은 주로 무엇을 알아내는 데 쓰는가?"),
       o: [
-        Q("the change in coil response as the spacing between the coil and the surface changes", "코일과 검사면 사이 간격이 달라질 때 코일의 반응이 달라지는 것"),
-        Q("the time taken for the coil to reach operating temperature", "코일이 동작 온도에 이르는 데 걸리는 시간"),
-        Q("the removal of the coating from the test surface", "검사면의 도장을 벗겨내는 것"),
-        Q("the loss of signal caused by a crack", "균열 때문에 신호를 잃는 것"),
-      ],
-      a: 0,
-      why: "코일이 표면에서 조금만 떠도 신호가 크게 흔들린다. 방해가 되기도 하지만, 이 성질을 거꾸로 써서 비전도성 도장의 두께를 잰다.",
-    },
-
-    {
-      q: Q("The edge effect in eddy current testing occurs when :",
-           "와전류탐상의 가장자리 효과(edge effect)는 언제 생기는가?"),
-      o: [
-        Q("the coil is energized at too low a frequency", "코일에 너무 낮은 주파수를 걸었을 때"),
-        Q("the coil approaches the edge or end of the test object", "코일이 시험체의 모서리나 끝에 가까워졌을 때"),
-        Q("the couplant dries out", "접촉매질이 말랐을 때"),
-        Q("the material is nonmagnetic", "재료가 비자성체일 때"),
-      ],
-      a: 1,
-      why: "가장자리에서는 와전류가 흐를 자리가 잘려 신호가 크게 흔들린다. 그래서 끝단 가까이는 표준 시험편으로 따로 감도를 잡거나 검사 범위에서 뺀다.",
-    },
-
-    {
-      q: Q("A reference standard for eddy current tube examination should be made from :",
-           "튜브 와전류탐상에 쓰는 대비 시험편은 무엇으로 만들어야 하는가?"),
-      o: [
-        Q("any material of the same diameter", "지름만 같으면 어떤 재료든"),
-        Q("carbon steel in all cases", "언제나 탄소강"),
-        Q("tubing of the same material specification and nominal size as the tubes to be examined", "검사할 튜브와 같은 재료 사양·공칭 크기의 튜브"),
-        Q("a material with twice the conductivity of the test object", "시험체보다 전도율이 두 배인 재료"),
-      ],
-      a: 2,
-      why: "ASME Sec.V Art.8. 재질이 다르면 전도율·투자율이 달라 같은 결함도 다른 신호로 나온다. 그래서 지름·두께·재료 사양을 맞춘다.",
-    },
-
-    {
-      q: Q("In eddy current tube testing, a differential coil arrangement is best suited for detecting :",
-           "튜브 와전류탐상에서 차동(differential) 코일이 가장 잘 찾는 것은?"),
-      o: [
-        Q("gradual wall thinning over a long length", "긴 구간에 걸쳐 서서히 얇아진 감육"),
-        Q("short, abrupt discontinuities such as pits and cracks", "공식이나 균열처럼 짧고 갑작스러운 결함"),
-        Q("the overall diameter of the tube", "튜브의 전체 지름"),
-        Q("the material conductivity", "재료의 전도율"),
-      ],
-      a: 1,
-      why: "차동 코일은 가까이 붙은 두 코일의 차이를 본다. 둘이 함께 겪는 완만한 변화는 서로 지워져 안 잡히고, 한쪽만 지나는 갑작스러운 결함이 크게 뜬다. 완만한 감육은 절대(absolute) 코일로 본다.",
-    },
-
-    {
-      q: Q("The main reason for using multi-frequency eddy current testing on heat exchanger tubes is to :",
-           "열교환기 튜브 와전류탐상에서 다중 주파수를 쓰는 가장 큰 까닭은?"),
-      o: [
-        Q("shorten the examination time", "검사 시간을 줄이려고"),
-        Q("suppress unwanted signals such as support plates and dents", "지지판이나 눌린 자국 같은 방해 신호를 지우려고"),
-        Q("increase the pulling speed of the probe", "탐촉자를 더 빨리 당기려고"),
-        Q("avoid the need for a reference standard", "대비 시험편을 안 쓰려고"),
-      ],
-      a: 1,
-      why: "주파수마다 지지판·결함의 위상이 다르게 나온다. 두 주파수의 신호를 섞어 지지판 신호만 지우면 그 뒤에 숨은 결함이 드러난다.",
-    },
-
-    {
-      q: Q("The phase angle of an eddy current signal from a tube is used mainly to determine :",
-           "튜브 와전류 신호의 위상각은 주로 무엇을 알아내는 데 쓰는가?"),
-      o: [
-        Q("the depth of the discontinuity", "결함의 깊이"),
-        Q("the length of the tube", "튜브의 길이"),
         Q("the pulling speed of the probe", "탐촉자를 당기는 속도"),
+        Q("the depth of wall loss", "감육의 깊이"),
+        Q("the length of the tube", "튜브의 길이"),
         Q("the ambient temperature", "둘레 온도"),
       ],
-      a: 0,
-      why: "결함이 깊을수록 신호의 위상이 돌아간다. 그래서 알려진 깊이의 인공 결함으로 위상-깊이 곡선을 만들어 두고 그것으로 깊이를 읽는다. 신호의 크기는 결함의 부피에 더 가깝다.",
+      a: 1,
+      why: "벽이 얇아진 자리는 신호가 지나는 길이 짧아져 위상 지연이 줄어든다. 알려진 깊이의 인공 결함으로 위상-깊이 곡선을 만들어 두고 그것으로 깊이를 읽는다.",
     },
 
     {
-      q: Q("Magnetic saturation is used in eddy current testing of ferromagnetic tubing to :",
-           "강자성 튜브를 와전류탐상할 때 자기포화를 거는 까닭은?"),
+      q: Q("In a remote field calibration tube, a 100% through-wall hole and flat-bottom holes of different depths are provided so that :",
+           "원격장 교정 튜브에 관통공과 깊이가 다른 평저공을 함께 두는 까닭은?"),
       o: [
-        Q("increase the pulling speed", "탐촉자를 빨리 당기려고"),
-        Q("reduce the effect of permeability variations", "투자율이 들쭉날쭉한 것의 영향을 줄이려고"),
-        Q("increase the standard depth of penetration to zero", "표준 침투깊이를 0 으로 만들려고"),
-        Q("eliminate the need for a reference standard", "대비 시험편을 안 쓰려고"),
+        Q("the probe can be centred in the tube", "탐촉자를 튜브 한가운데에 놓으려고"),
+        Q("a phase-to-depth curve can be drawn across the wall thickness", "벽 두께에 걸친 위상-깊이 곡선을 그리려고"),
+        Q("the pulling speed can be measured", "인출 속도를 재려고"),
+        Q("the tube can be magnetically saturated", "튜브를 자기포화시키려고"),
       ],
       a: 1,
-      why: "강자성체는 투자율이 자리마다 달라 결함보다 큰 잡음을 만든다. 자석으로 미리 포화시켜 투자율을 일정하게 만들면 그 잡음이 사라지고 결함만 남는다.",
+      why: "깊이를 아는 인공 결함이 여럿 있어야 위상 지연과 깊이를 잇는 곡선을 그릴 수 있다. 관통공이 한쪽 끝, 얕은 평저공들이 그 사이를 메운다.",
     },
 
     {
-      q: Q("The signal from a support plate in heat exchanger tube testing is normally :",
-           "열교환기 튜브 검사에서 지지판 신호는 보통 어떻게 다루는가?"),
+      q: Q("The data acquisition rate of a remote field system shall be high enough to digitize at least :",
+           "원격장 장비의 신호 수집율은 최소 얼마를 담을 수 있어야 하는가?"),
       o: [
-        Q("evaluated as a rejectable discontinuity", "불합격 결함으로 평가한다"),
-        Q("treated as a nonrelevant indication used as a landmark", "무관련지시로 보고 위치를 가늠하는 표로 쓴다"),
-        Q("removed by increasing the frequency", "주파수를 높여 없앤다"),
-        Q("ignored and not recorded", "무시하고 기록하지 않는다"),
-      ],
-      a: 1,
-      why: "지지판은 튜브의 결함이 아니다. 다만 신호가 뚜렷해 튜브의 몇 번째 자리인지 세는 데 쓴다. 그 아래 숨은 결함을 보려면 혼합 채널로 지지판 신호를 지운다.",
-    },
-
-    {
-      q: Q("An absolute coil in eddy current testing is best suited for detecting :",
-           "절대(absolute) 코일이 가장 잘 찾는 것은?"),
-      o: [
-        Q("gradual changes such as general wall thinning", "전면 감육처럼 서서히 달라지는 것"),
-        Q("only cracks perpendicular to the axis", "축과 수직인 균열만"),
-        Q("only discontinuities under support plates", "지지판 아래의 결함만"),
-        Q("nothing, it is used only for calibration", "아무것도 못 찾는다. 교정에만 쓴다"),
+        Q("1.2 samples per mm of tubing (30 per inch)", "배관 1 mm 당 1.2개 표본 (1인치당 30개)"),
+        Q("0.1 samples per mm of tubing", "배관 1 mm 당 0.1개 표본"),
+        Q("12 samples per mm of tubing", "배관 1 mm 당 12개 표본"),
+        Q("one sample per tube", "튜브 한 개당 표본 하나"),
       ],
       a: 0,
-      why: "절대 코일은 기준값과 견주므로 완만한 변화도 잡아낸다. 대신 온도 변화 같은 것에도 흔들려 잡음이 많다. 차동 코일과 서로 모자란 데를 메운다.",
+      why: "표본이 성기면 짧은 결함이 표본 사이로 빠져나간다. 인출 속도를 올리려면 그만큼 수집율도 올려야 이 조건을 지킬 수 있다.",
     },
 
     {
-      q: Q("The test frequency for eddy current tube examination is usually selected so that the phase angle of a 100% through-wall hole is about :",
-           "튜브 와전류탐상의 시험 주파수는 보통 100% 관통공의 위상각이 얼마가 되도록 고르는가?"),
+      q: Q("In remote field testing, an indication near the tube end is difficult to evaluate because :",
+           "원격장 탐상에서 튜브 끝단 가까이의 지시는 왜 평가하기 어려운가?"),
       o: [
-        Q("0 degrees", "0도"),
-        Q("40 degrees", "40도"),
-        Q("90 degrees", "90도"),
-        Q("180 degrees", "180도"),
+        Q("the probe cannot reach the tube end", "탐촉자가 튜브 끝까지 못 가기 때문"),
+        Q("the magnetic field path is cut short, so the signal is distorted", "자장이 도는 길이 잘려 신호가 일그러지기 때문"),
+        Q("the pulling speed always increases at the end", "끝에서는 인출 속도가 늘 빨라지기 때문"),
+        Q("the tube end is always thicker than the rest", "튜브 끝은 늘 나머지보다 두껍기 때문"),
+      ],
+      a: 1,
+      why: "원격장은 자장이 벽을 뚫고 나가 바깥을 돌아 들어오는 길을 쓴다. 튜브가 끝나면 그 길이 잘려 결함이 없어도 신호가 크게 흔들린다. 그래서 끝단 일정 구간은 따로 감도를 잡거나 다른 방법으로 본다.",
+    },
+
+    {
+      q: Q("A tube support plate in remote field testing normally appears as :",
+           "원격장 탐상에서 튜브 지지판은 보통 어떻게 나타나는가?"),
+      o: [
+        Q("no signal at all", "아무 신호도 안 난다"),
+        Q("a signal that must be evaluated as wall loss", "감육으로 평가해야 하는 신호"),
+        Q("a distinct signal used as a landmark, distinguishable from wall loss by its phase", "위상으로 감육과 갈리며, 자리를 가늠하는 표로 쓰는 뚜렷한 신호"),
+        Q("a signal identical to a through-wall hole", "관통공과 똑같은 신호"),
       ],
       a: 2,
-      why: "관통공을 90°로 잡으면 바깥면 결함과 안쪽면 결함의 위상이 고르게 벌어져 깊이를 가늠하기 좋다. 이 주파수를 F90 이라 부른다.",
+      why: "지지판은 튜브 바깥에 있는 쇠붙이라 신호가 나지만 감육과 위상이 다르다. 그 차이로 갈라내고, 튜브의 몇 번째 자리인지 세는 데 쓴다.",
     },
 
     {
-      q: Q("Eddy current testing can be applied to :",
-           "와전류탐상을 쓸 수 있는 재료는?"),
+      q: Q("A 100% through-wall hole is included in a remote field calibration tube in order to :",
+           "원격장 교정 튜브에 100% 관통공을 두는 까닭은?"),
       o: [
-        Q("ferromagnetic materials only", "강자성체만"),
-        Q("any electrically conductive material", "전기가 통하는 재료면 무엇이든"),
-        Q("nonconductive materials only", "전기가 안 통하는 재료만"),
-        Q("any material with a smooth surface", "표면이 매끄러운 재료면 무엇이든"),
-      ],
-      a: 1,
-      why: "와전류는 전기가 통해야 흐른다. 그래서 알루미늄·구리·오스테나이트계 스테인리스강처럼 자화되지 않는 금속도 검사할 수 있다. 자분탐상이 강자성체만 되는 것과 다른 점이다.",
-    },
-
-    {
-      q: Q("An increase in the conductivity of a nonmagnetic material will cause the eddy current signal to :",
-           "비자성 재료의 전도율이 높아지면 와전류 신호는 어떻게 되는가?"),
-      o: [
-        Q("move along the conductivity curve toward the top of the impedance plane", "임피던스 평면의 전도율 곡선을 따라 위쪽으로 옮겨 간다"),
-        Q("disappear entirely", "아주 사라진다"),
-        Q("change frequency", "주파수가 달라진다"),
-        Q("reverse polarity", "극성이 뒤집힌다"),
+        Q("provide a reference for the maximum phase lag and amplitude", "위상 지연과 진폭의 최댓값 기준을 삼으려고"),
+        Q("check the pulling speed of the probe", "탐촉자 인출 속도를 확인하려고"),
+        Q("verify the fill factor", "충진율을 확인하려고"),
+        Q("measure the ambient temperature", "둘레 온도를 재려고"),
       ],
       a: 0,
-      why: "임피던스 평면에서 전도율이 다른 재료는 저마다 정해진 자리에 놓인다. 이 성질로 재료를 가려내거나 열처리 상태를 확인한다.",
+      why: "관통공은 벽이 다 없어진 자리라 위상 지연이 가장 크다. 그것을 한쪽 끝으로 삼고 얕은 인공 결함들과 이어 위상-깊이 곡선을 만든다.",
     },
 
     {
-      q: Q("On the impedance plane, the lift-off signal is normally rotated to lie along the horizontal axis so that :",
-           "임피던스 평면에서 리프트오프 신호를 가로축에 맞춰 돌려 놓는 까닭은?"),
+      q: Q("The calibration tube for remote field testing shall be :",
+           "원격장 탐상에 쓰는 교정 튜브는 어때야 하는가?"),
       o: [
-        Q("the probe can be pulled faster", "탐촉자를 더 빨리 당길 수 있어서"),
-        Q("discontinuity signals separate from lift-off and can be read without interference", "결함 신호가 리프트오프와 방향이 갈려 흔들리지 않고 읽히기 때문"),
-        Q("the standard depth of penetration increases", "표준 침투깊이가 깊어지기 때문"),
-        Q("the reference standard is no longer needed", "대비 시험편이 더는 필요 없기 때문"),
+        Q("made of carbon steel in every case", "언제나 탄소강으로 만든다"),
+        Q("of the same material specification and nominal size as the tubes to be examined", "검사할 튜브와 같은 재료 사양·공칭 크기여야 한다"),
+        Q("twice the wall thickness of the tubes to be examined", "검사할 튜브보다 벽 두께가 두 배여야 한다"),
+        Q("any tube with a smooth inside surface", "안쪽면이 매끄러운 튜브면 무엇이든"),
       ],
       a: 1,
-      why: "코일이 조금만 떠도 리프트오프 신호가 크게 흔들린다. 그것을 가로축에 눕혀 두면 결함 신호는 위쪽으로 솟아 서로 갈린다. 위상 회전은 검사 전에 대비 시험편으로 잡아 둔다.",
+      why: "재질과 치수가 다르면 자장이 벽을 지나는 모양이 달라져 같은 결함도 다른 신호로 나온다. 재질이 같지 않은 대비 시험편은 쓰는 주파수가 2배 이상 차이 나지 않을 때에만 쓸 수 있다.",
     },
 
     {
-      q: Q("The main advantage of eddy current testing over other surface methods is that it :",
-           "다른 표면 검사법과 견주어 와전류탐상이 나은 점은?"),
+      q: Q("Remote field testing is normally applied to :",
+           "원격장 탐상은 보통 어떤 재료에 쓰는가?"),
       o: [
-        Q("requires no couplant and can be automated at high speed", "접촉매질이 필요 없고 빠르게 자동화할 수 있다"),
-        Q("can detect discontinuities at any depth", "깊이와 상관없이 결함을 찾는다"),
-        Q("works on nonconductive materials", "전기가 안 통하는 재료에도 쓸 수 있다"),
-        Q("does not require a reference standard", "대비 시험편이 필요 없다"),
-      ],
-      a: 0,
-      why: "코일이 표면에 닿지 않아도 되므로 뜨거운 것·움직이는 것도 검사할 수 있고 자동화가 쉽다. 대신 표면과 표면 가까운 곳만 보이고 전기가 통해야 한다.",
-    },
-
-    {
-      q: Q("In eddy current testing, an increase in the lift-off distance will cause the signal amplitude to :",
-           "와전류탐상에서 리프트오프 거리가 멀어지면 신호의 크기는 어떻게 되는가?"),
-      o: [
-        Q("increase", "커진다"),
-        Q("decrease", "작아진다"),
-        Q("remain unchanged", "그대로다"),
-        Q("double", "두 배가 된다"),
+        Q("nonconductive materials", "전기가 안 통하는 재료"),
+        Q("ferromagnetic tubing such as carbon steel", "탄소강 같은 강자성 튜브"),
+        Q("austenitic stainless steel tubing only", "오스테나이트계 스테인리스강 튜브만"),
+        Q("aluminium and copper tubing only", "알루미늄과 구리 튜브만"),
       ],
       a: 1,
-      why: "코일이 멀어질수록 시험체에 걸리는 자장이 약해져 와전류가 덜 흐른다. 그래서 결함 신호도 함께 작아진다. 도장 위에서 검사할 때 감도가 떨어지는 것이 이 때문이다.",
+      why: "비자성 튜브는 보통 와전류탐상으로 두께 전체가 보이므로 원격장을 쓸 까닭이 없다. 원격장은 표피효과가 심한 강자성 튜브를 위한 방법이다.",
     },
 
     {
-      q: Q("The eddy current signal from a discontinuity on the outside surface of a tube, compared with one of the same size on the inside surface, will be :",
-           "튜브 바깥면의 결함 신호는 안쪽면에 있는 같은 크기의 결함과 견주어 어떠한가?"),
+      q: Q("In remote field testing, a signal caused by circumferential wall thinning at a support plate is best separated from the support signal by :",
+           "지지판 자리의 원주 방향 감육 신호를 지지판 신호와 갈라내는 가장 좋은 방법은?"),
       o: [
-        Q("larger, because the coil is closer to it", "코일에 더 가까워 더 크다"),
-        Q("smaller, because the eddy current density is lower there", "그 자리의 와전류 밀도가 낮아 더 작다"),
-        Q("identical in every respect", "무엇 하나 다르지 않다"),
-        Q("of opposite polarity but the same size", "극성만 반대이고 크기는 같다"),
+        Q("increasing the pulling speed", "인출 속도를 높인다"),
+        Q("mixing two frequencies to suppress the support plate signal", "두 주파수를 섞어 지지판 신호를 지운다"),
+        Q("reducing the fill factor", "충진율을 낮춘다"),
+        Q("removing the magnetic saturation unit", "자기포화 장치를 뗀다"),
       ],
       a: 1,
-      why: "탐촉자가 튜브 안에 있으므로 와전류는 안쪽면에서 가장 세고 바깥으로 갈수록 약해진다. 그래서 바깥면 결함은 작고 위상이 돌아간 신호로 나온다.",
+      why: "지지판과 결함은 주파수에 따라 위상이 다르게 움직인다. 두 주파수를 섞어 지지판 신호를 지우면 그 아래 숨어 있던 감육이 드러난다.",
     },
 
     {
-      q: Q("Before and after each examination run, the eddy current system calibration shall be :",
-           "와전류탐상은 검사를 한 차례 마칠 때마다 교정을 어떻게 해야 하는가?"),
+      q: Q("The amplitude of a remote field signal is most closely related to :",
+           "원격장 신호의 크기는 무엇과 가장 가까운가?"),
       o: [
-        Q("verified with the reference standard", "대비 시험편으로 확인한다"),
-        Q("reset to the factory default", "장비 기본값으로 되돌린다"),
-        Q("recorded but not verified", "기록만 하고 확인하지는 않는다"),
-        Q("verified only if a discontinuity was found", "결함이 나왔을 때만 확인한다"),
+        Q("the volume of material lost", "없어진 살의 부피"),
+        Q("the depth of the discontinuity only", "결함의 깊이만"),
+        Q("the ambient temperature", "둘레 온도"),
+        Q("the length of the tube", "튜브의 길이"),
       ],
       a: 0,
-      why: "ASME Sec.V Art.8. 시작과 끝에 대비 시험편으로 확인한다. 어긋나 있으면 마지막으로 맞았던 교정 뒤에 검사한 튜브를 모두 다시 검사한다.",
+      why: "깊이는 위상 지연으로, 부피는 진폭으로 읽는다. 그래서 얕고 넓은 감육과 깊고 좁은 공식을 가려내려면 둘을 함께 보아야 한다.",
     },
 
     {
-      q: Q("A dent in a heat exchanger tube produces an eddy current signal because it :",
-           "열교환기 튜브가 눌린 자국(dent)이 와전류 신호를 내는 까닭은?"),
+      q: Q("Before and after each remote field examination run, the system shall be :",
+           "원격장 탐상은 검사를 한 차례 마칠 때마다 무엇을 해야 하는가?"),
       o: [
-        Q("changes the fill factor at that location", "그 자리의 충진율이 달라지기 때문"),
-        Q("increases the conductivity of the tube", "튜브의 전도율이 높아지기 때문"),
-        Q("removes material from the tube wall", "튜브 벽의 살이 없어지기 때문"),
-        Q("magnetizes the tube locally", "그 자리가 자화되기 때문"),
+        Q("verified against the calibration tube", "교정 튜브로 확인한다"),
+        Q("returned to the factory default settings", "장비 기본값으로 되돌린다"),
+        Q("cleaned with solvent", "용제로 닦는다"),
+        Q("checked only if a discontinuity was found", "결함이 나왔을 때만 확인한다"),
       ],
       a: 0,
-      why: "눌려서 안지름이 줄면 코일과 벽 사이 간격이 달라져 충진율이 바뀐다. 살이 없어진 것이 아니므로 결함이 아니라 무관련지시로 다루되, 그 자리에 결함이 숨을 수 있어 따로 살핀다.",
+      why: "시작과 끝에 교정 튜브로 확인한다. 어긋나 있으면 마지막으로 맞았던 교정 뒤에 검사한 튜브를 모두 다시 검사한다.",
+    },
+
+    {
+      q: Q("The eddy current test equipment used for remote field testing shall have a valid calibration certificate not more than :",
+           "원격장 탐상 장비의 교정 증명서는 얼마가 넘지 않아야 하는가?"),
+      o: [
+        Q("6 months old", "6개월"),
+        Q("1 year old", "1년"),
+        Q("2 years old", "2년"),
+        Q("5 years old", "5년"),
+      ],
+      a: 1,
+      why: "장비는 1년마다 교정하고, 그 교정이 국가 표준기관이나 제조업체로 소급될 수 있어야 한다. 1년 넘게 안 쓰던 장비는 쓰기 전에 다시 교정한다.",
+    },
+
+    {
+      q: Q("Tubes to be examined by remote field testing shall be cleaned beforehand mainly because deposits :",
+           "원격장 탐상 전에 튜브를 청소해야 하는 가장 큰 까닭은?"),
+      o: [
+        Q("increase the magnetic permeability of the tube", "튜브의 투자율을 키우기 때문에"),
+        Q("obstruct the probe and can produce signals that mask discontinuities", "탐촉자가 걸리고, 결함을 가리는 신호를 만들기 때문에"),
+        Q("change the phase lag of the exciter coil", "여자 코일의 위상 지연을 바꾸기 때문에"),
+        Q("shorten the half-life of the equipment", "장비의 수명을 줄이기 때문에"),
+      ],
+      a: 1,
+      why: "스케일이나 침전물이 있으면 탐촉자가 걸려 속도가 들쭉날쭉해지고, 그 자체가 신호를 만들어 결함을 가린다.",
+    },
+
+    {
+      q: Q("Which of the following is the most difficult for remote field testing to detect?",
+           "원격장 탐상으로 가장 찾기 어려운 것은?"),
+      o: [
+        Q("circumferential wall thinning", "원주 방향 감육"),
+        Q("a through-wall hole", "관통공"),
+        Q("a short axial crack", "짧은 축 방향 균열"),
+        Q("general wall loss over a long length", "긴 구간에 걸친 전면 감육"),
+      ],
+      a: 2,
+      why: "원격장은 자장이 원주 방향으로 도는 성질이 있어 원주 방향으로 살이 없어진 것에 민감하다. 축과 나란한 짧은 균열은 자장의 흐름을 거의 안 끊어 잡기 어렵다.",
+    },
+
+    {
+      q: Q("A remote field test instrument shall be capable of operating in :",
+           "원격장 탐상 장비는 어떤 방식으로 동작할 수 있어야 하는가?"),
+      o: [
+        Q("differential mode only", "차동형 모드만"),
+        Q("absolute mode only", "절대형 모드만"),
+        Q("differential or absolute mode, with multiple frequencies", "차동형 또는 절대형 모드로, 다중 주파수를 함께"),
+        Q("a single fixed frequency in absolute mode", "절대형 모드에서 정해진 한 주파수로만"),
+      ],
+      a: 2,
+      why: "차동형은 짧고 갑작스러운 결함에, 절대형은 완만한 전면 감육에 강하다. 둘을 다 쓸 수 있어야 하고, 지지판 신호를 지우려면 다중 주파수도 있어야 한다.",
+    },
+
+    {
+      q: Q("In remote field testing, sensitivity is normally set so that the artificial discontinuity in the calibration tube gives a signal of about :",
+           "원격장 탐상의 감도는 보통 교정 튜브의 인공 결함이 화면 높이의 얼마로 나오도록 맞추는가?"),
+      o: [
+        Q("5% to 10% of screen height", "화면 높이의 5~10%"),
+        Q("40% to 80% of screen height", "화면 높이의 40~80%"),
+        Q("100% of screen height exactly", "화면 높이의 꼭 100%"),
+        Q("sensitivity is not adjusted", "감도는 맞추지 않는다"),
+      ],
+      a: 1,
+      why: "너무 낮으면 잡음에 묻히고, 너무 높으면 신호가 잘려(포화) 위상을 못 읽는다. 화면 높이의 40~80% 로 맞추어 둘 다 피한다.",
     },
   ],
 
