@@ -86,14 +86,14 @@
     "topic": "API 6A",
     "question": "During inspection of the PSL3 weld, a single indication of 5mm in length exceeded the reference distance amplitude curve. Is it acceptable?\nPSL3 용접부 검사 중 기준 거리진폭곡선을 초과하는 5mm 길이의 단일 지시가 나타났다. 합격인가?",
     "options": [
-      "Accept",
-      "Reject",
+      "Accept\n합격",
+      "Reject\n불합격",
       "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
-      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
+      "Judgment is deferred until the next scheduled examination\n다음 정기검사 때까지 판정을 미룬다"
     ],
     "answer": 1,
     "groupNote": "* The following questions refer to API 6A\nAPI 6A에 따라 물음에 답하시오.",
-    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 7,
@@ -103,14 +103,14 @@
     "topic": "API 6A",
     "question": "During inspection of a 25mm thickness PSL2 weld, a 6mm length of slag inclusion exceeded the reference distance amplitude curve. Is it acceptable?\n25mm 두께 PSL2 용접부 검사 중 6mm 길이의 슬래그가 기준 거리진폭곡선을 초과하였다. 합격인가?",
     "options": [
-      "Accept",
-      "Reject",
-      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
-      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
+      "Accept\n합격",
+      "Reject\n불합격",
+      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다",
+      "It is judged after the manufacturer and the purchaser agree\n제작자와 발주자가 합의한 뒤에 판정한다"
     ],
     "answer": 0,
     "groupNote": "* The following questions refer to API 6A\nAPI 6A에 따라 물음에 답하시오.",
-    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 8,
@@ -1394,13 +1394,13 @@
     "source": "UTM-III.HWP",
     "question": "An indication, whose response is 20 percent of the reference level, with a length of 1/2 inch was found in a one inch butt weld . In accordance with ASME SectionⅢ, Div. 1 Subsection NE, this indication is unacceptable. True : ___________________ False : ___________________\n1인치 맞대기 용접부에서 기준레벨의 20% 응답에 길이 1/2인치인 지시가 발견되었다. ASME Section Ⅲ, Div.1 Subsection NE에 따르면 이 지시는 불합격이다.",
     "options": [
-      "True",
-      "False",
-      "True only if the referencing code section permits it\n적용 규격이 허용할 때만 맞다",
-      "Not addressed by the referencing code\n적용 규격에서 다루지 않는다"
+      "True\n맞다",
+      "False\n틀리다",
+      "True only where another paragraph of the code says so\n규격의 다른 항에서 정한 경우에만 맞다",
+      "True if the purchaser approves it\n발주자가 승인하면 맞다"
     ],
     "answer": 1,
-    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 93,
@@ -1440,13 +1440,13 @@
     "source": "UTM-III.HWP",
     "question": "In accordance with ASME Section Ⅲ, Division 1 Subsection NG, plates used for core structures with thicknesses greater than 3/4 inch, shall use the acceptance standards of SA-578. True : ___________________ False : ___________________\nASME Section Ⅲ, Division 1 Subsection NG에 따르면 두께 3/4인치를 넘는 노심 구조용 판재는 SA-578의 합격기준을 적용해야 한다.",
     "options": [
-      "True",
-      "False",
-      "True only if the referencing code section permits it\n적용 규격이 허용할 때만 맞다",
-      "Not addressed by the referencing code\n적용 규격에서 다루지 않는다"
+      "True\n맞다",
+      "False\n틀리다",
+      "True if the manufacturer and the purchaser agree\n제작자와 발주자가 합의하면 맞다",
+      "True if the examination method is changed\n검사 방법을 바꾸면 맞다"
     ],
     "answer": 1,
-    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 96,
@@ -1456,13 +1456,13 @@
     "source": "UTM-III.HWP",
     "question": "In accordance with ASME SectionⅠ, Ultrasonic examination is not required for electroslag welds in ferritic materials. True : ___________________ False : ___________________\nASME Section Ⅰ에 따르면 페라이트계 재료의 일렉트로슬래그 용접부에는 초음파 검사가 요구되지 않는다.",
     "options": [
-      "True",
-      "False",
-      "True only if the referencing code section permits it\n적용 규격이 허용할 때만 맞다",
-      "Not addressed by the referencing code\n적용 규격에서 다루지 않는다"
+      "True\n맞다",
+      "False\n틀리다",
+      "True only when the thickness is outside the code range\n두께가 규격 범위를 벗어날 때만 맞다",
+      "It depends on the certification level of the examiner\n검사자의 자격 등급에 따라 달라진다"
     ],
     "answer": 1,
-    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 97,
@@ -1472,13 +1472,13 @@
     "source": "UTM-III.HWP",
     "question": "In accordance with ASME B31.1, Ultrasonic examination is not required for welds.\nASME B31.1에 따르면 용접부에 초음파검사는 요구되지 않는다.",
     "options": [
-      "True",
-      "False",
-      "True only if the referencing code section permits it\n적용 규격이 허용할 때만 맞다",
-      "Not addressed by the referencing code\n적용 규격에서 다루지 않는다"
+      "True\n맞다",
+      "False\n틀리다",
+      "True if the examination method is changed\n검사 방법을 바꾸면 맞다",
+      "It depends on the edition of the referencing code\n적용 규격의 판(edition)에 따라 달라진다"
     ],
     "answer": 0,
-    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 98,
@@ -1600,14 +1600,14 @@
     "source": "UTM-III.HWP",
     "question": "(ASME Section Ⅷ-Div.1) - For 30 mm thickness of weld metal, the indication has 25% amplitude and has 12 mm length. The weld is : Acceptable________Unacceptable________\n(ASME Section Ⅷ-Div.1) 두께 30mm 용접금속에서 지시의 진폭이 25%이고 길이가 12mm이다. 이 용접부는?",
     "options": [
-      "Acceptable",
-      "Unacceptable",
-      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
+      "Acceptable\n합격",
+      "Unacceptable\n불합격",
+      "It can be judged only after stress-relief heat treatment\n응력제거 열처리를 한 뒤에만 판정할 수 있다",
       "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
     ],
     "answer": 1,
     "groupNote": "* Question pertain to requirement in ASME Section Ⅷ.\n(다음 문제는 ASME Sec.Ⅷ 의 요구사항에 따라 답하시오.)",
-    "note": "원본 시험지의 철자 「Accpetable」을 「Acceptable」로 바로잡음 (2026-08-27)\n원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지의 철자 「Accpetable」을 「Acceptable」로 바로잡음 (2026-08-27)\n원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 106,

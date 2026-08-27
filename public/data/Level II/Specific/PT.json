@@ -89,12 +89,12 @@
     "options": [
       "Accept\n합격",
       "Reject\n불합격",
-      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
-      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
+      "It shall be ground out and re-examined without evaluation\n평가하지 않고 연마해 없앤 뒤 재검사한다",
+      "A single indication is not evaluated\n지시가 하나뿐이면 평가하지 않는다"
     ],
     "answer": 1,
     "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-PT-N21 (Rev.1) for liquid penetrant examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec Ⅲ. 2021 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격에 따른 압력용기 제작의 액체침투탐상 시험에 대한 절차서(HIE-NDT-PT-N21,Rev.1)",
-    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 7,
@@ -106,12 +106,12 @@
     "options": [
       "Accept\n합격",
       "Reject\n불합격",
-      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
-      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
+      "The indication shall be recorded but not evaluated\n지시를 기록만 하고 평가하지는 않는다",
+      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다"
     ],
     "answer": 0,
     "groupNote": "* The following questions refer to ASME Code Sec.I\nASME Sec.I에 따라 7번 물음에 답하시오.",
-    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 8,
@@ -123,12 +123,12 @@
     "options": [
       "True\n맞다",
       "False\n틀리다",
-      "True only if the referencing code section permits it\n적용 규격이 허용할 때만 맞다",
-      "Not addressed by the referencing code\n적용 규격에서 다루지 않는다"
+      "It depends on the edition of the referencing code\n적용 규격의 판(edition)에 따라 달라진다",
+      "It depends on the surface condition of the part\n부재의 표면 상태에 따라 달라진다"
     ],
     "answer": 1,
     "image": "PT_SPECIFIC_Q8_FIG1.svg",
-    "note": "보기 2번에 그림 속 글자가 딸려 들어와 있던 것을 덜어냈다 (2026-08-27)\n원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "보기 2번에 그림 속 글자가 딸려 들어와 있던 것을 덜어냈다 (2026-08-27)\n원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 9,
@@ -202,12 +202,12 @@
     "options": [
       "Accept\n합격",
       "Reject\n불합격",
-      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
-      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
+      "It can be judged only after stress-relief heat treatment\n응력제거 열처리를 한 뒤에만 판정할 수 있다",
+      "Adjacent indications shall be merged and re-measured first\n인접한 지시를 하나로 합쳐 다시 재야 한다"
     ],
     "answer": 1,
     "groupNote": "* The following questions refer to ASME B16.34\nASME B16.34에 따라 물음에 답하시오.",
-    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 14,
@@ -219,12 +219,12 @@
     "options": [
       "Accept\n합격",
       "Reject\n불합격",
-      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
-      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
+      "It shall be evaluated as a linear indication regardless of its shape\n모양과 상관없이 선형지시로 평가한다",
+      "A single indication is not evaluated\n지시가 하나뿐이면 평가하지 않는다"
     ],
     "answer": 1,
     "groupNote": "* The following questions refer to ASME B16.34\nASME B16.34에 따라 물음에 답하시오.",
-    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 15,
@@ -281,12 +281,12 @@
     "options": [
       "Accept\n합격",
       "Reject\n불합격",
-      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
-      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
+      "The edition of the referencing code must be known to judge it\n적용 규격의 판(edition)을 알아야 판정할 수 있다",
+      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다"
     ],
     "answer": 1,
     "groupNote": "* Refer to HIE-NDT-PT-P6A(SKB) written in accordance with API 6A and answer question.\n(API 6A에 따라 작성된 HIE-NDT-PT-P6A(SKB)를 참고하여 물음에 답하시오.)",
-    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 19,
@@ -298,12 +298,12 @@
     "options": [
       "Accept\n합격",
       "Reject\n불합격",
-      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
-      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
+      "It can be judged only after the surface is prepared again\n표면을 다시 처리한 뒤에만 판정할 수 있다",
+      "Acceptance is decided by the examined area, not by the indication\n지시가 아니라 검사한 면적으로 합부를 정한다"
     ],
     "answer": 1,
     "groupNote": "* Refer to HIE-NDT-PT-P6A(SKB) written in accordance with API 6A and answer question.\n(API 6A에 따라 작성된 HIE-NDT-PT-P6A(SKB)를 참고하여 물음에 답하시오.)",
-    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 21,
@@ -315,11 +315,11 @@
     "options": [
       "Accept\n합격",
       "Reject\n불합격",
-      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
-      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
+      "Adjacent indications shall be merged and re-measured first\n인접한 지시를 하나로 합쳐 다시 재야 한다",
+      "Judgment is deferred until the next scheduled examination\n다음 정기검사 때까지 판정을 미룬다"
     ],
     "answer": 0,
-    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 22,
@@ -331,11 +331,11 @@
     "options": [
       "Accept\n합격",
       "Reject\n불합격",
-      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
-      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
+      "Judgment is deferred until the next scheduled examination\n다음 정기검사 때까지 판정을 미룬다",
+      "A single indication is not evaluated\n지시가 하나뿐이면 평가하지 않는다"
     ],
     "answer": 0,
-    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 23,
@@ -348,10 +348,10 @@
       "True\n맞다",
       "False\n틀리다",
       "True only if the referencing code section permits it\n적용 규격이 허용할 때만 맞다",
-      "Not addressed by the referencing code\n적용 규격에서 다루지 않는다"
+      "It depends on the edition of the referencing code\n적용 규격의 판(edition)에 따라 달라진다"
     ],
     "answer": 1,
-    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 24,
@@ -392,11 +392,11 @@
     "options": [
       "Acceptable\n합격",
       "Unacceptable\n불합격",
-      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
-      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
+      "The orientation of the indication must be known to judge it\n지시의 방향을 알아야 판정할 수 있다",
+      "Acceptance is decided by the examined area, not by the indication\n지시가 아니라 검사한 면적으로 합부를 정한다"
     ],
     "answer": 1,
-    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 27,
