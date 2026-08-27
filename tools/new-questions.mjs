@@ -61,11 +61,11 @@ const BANKS = {
       o: [
         Q("measure the magnetizing current in amperes", "자화 전류를 암페어로 재는 데 쓴다"),
         Q("measure the residual field after demagnetization", "탈자 뒤 남은 잔류 자장을 재는 데 쓴다"),
-        Q("show the direction of the magnetic field and whether its strength is adequate", "자장의 방향과 세기가 충분한지 보이는 데 쓴다"),
+        Q("show the direction of the magnetic field and whether its strength is adequate", "자장의 방향과 세기가 충분한지 보이기 위해 쓰인다"),
         Q("check the concentration of the wet particle suspension", "습식 현탁액의 자분 농도를 확인하는 데 쓴다"),
       ],
       a: 2,
-      why: "ASME Sec.V Art.7 T-764.1 · HIE-NDT-MT-P11 4.2.2. 파이 게이지는 자장의 방향과 세기가 쓸 만한지 보여 줄 뿐, 자장의 크기를 재는 계기가 아니다. 전류는 전류계로, 잔류 자장은 자장계로 잰다.",
+      why: "ASME Sec.V Art.7 T-764.1 · HIE-NDT-MT-P11 4.2.2. 파이 게이지는 자장의 방향과 세기가 충분한지 보일 뿐, 자장의 크기를 재는 계기가 아니다. 전류는 전류계로, 잔류 자장은 자장계로 잰다.",
     },
 
     {
@@ -187,7 +187,7 @@ const BANKS = {
 
     {
       q: Q("Compared with alternating current, direct current magnetization is better for detecting :",
-           "직류 자화는 교류 자화와 견주어 어떤 결함을 찾는 데 낫는가?"),
+           "직류 자화는 교류 자화와 견주어 어떤 결함을 찾는 데 더 나은가?"),
       o: [
         Q("discontinuities open to the surface only", "표면에 열린 결함만"),
         Q("subsurface discontinuities", "표면 아래에 있는 결함"),
