@@ -242,7 +242,7 @@
     ],
     "answer": 1,
     "groupNote": "※ The following questions (9-17) refer to HIE procedure, HIE-NDT-ET-P11(Rev.2) for Remote Field Test of heat exchanger tube in accordance with ASME Sec. V Code, 2023 Edition.\n(문제 9-17은 ASME Sec. V 규격 2023 Edition에 따른 열교환기 튜브의 원격장 시험 절차서 HIE-NDT-ET-P11(Rev.2)에 관한 것이다.)",
-    "note": "원본 시험지가 절차서 번호를 HIE-NDT-ET-P11(와전류탐상 절차서)로 잘못 적어 두었다. 이 문항은 원격장탐상 전문시험이고 정답도 HIE-NDT-ET-P99(원격장탐상 절차서)의 값이라 번호를 바로잡았다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2\nRFT 일반 40번(0.15~0.3 m/s)과 RFT 전문의 프로브 속도 문항(100~500 mm/s)이 같은 것을 다르게 답한다. 회사 절차서 HIE-NDT-ET-P99 는 100~500 mm/s 로 적고 있다. 어느 쪽으로 맞출지 종목 NDE Level Ⅲ 가 정한다 (2026-08-27). HIE-QP-E02 6.1.2"
+    "note": "원본 시험지가 절차서 번호를 HIE-NDT-ET-P11(와전류탐상 절차서)로 잘못 적어 두었다. 이 문항은 원격장탐상 전문시험이고 정답도 HIE-NDT-ET-P99(원격장탐상 절차서)의 값이라 번호를 바로잡았다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 16,

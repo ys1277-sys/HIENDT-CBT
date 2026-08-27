@@ -557,13 +557,13 @@
     "category": "General",
     "question": "What is the take-off speed of the RFT coil during normal RFT?\n일반적인 RFT 검사 시 탐촉자의 인출 속도는 얼마인가?",
     "options": [
-      "over 0.3m/s to less than 0.5m/s\n0.3m/s 초과 0.5m/s 미만",
-      "over 0.05m/s to less than 0.15m/s\n0.05m/s 초과 0.15m/s 미만",
-      "over 0.15m/s to less than 0.3m/s\n0.15m/s 초과 0.3m/s 미만",
-      "Speed is good to slow as possible\n속도는 가능한 느릴수록 좋다"
+      "over 20 to less than 50 mm/sec\n20 mm/s 초과 50 mm/s 미만",
+      "over 100 to less than 500 mm/sec\n100 mm/s 초과 500 mm/s 미만",
+      "over 800 to less than 1,200 mm/sec\n800 mm/s 초과 1,200 mm/s 미만",
+      "Speed is good to slow as possible\n속도는 느릴수록 좋다"
     ],
-    "answer": 2,
-    "note": "회사 절차서 HIE-NDT-ET-P99 는 표준 검사 속도를 100~500 mm/s(0.1~0.5 m/s)로 적고 있어 이 문항의 정답(0.15~0.3 m/s)과 범위가 다르다. 원본 시험지를 따라 두었으니 종목 NDE Level Ⅲ 가 어느 쪽으로 맞출지 정한다 (2026-08-27). HIE-QP-E02 6.1.2\nRFT 일반 40번(0.15~0.3 m/s)과 RFT 전문의 프로브 속도 문항(100~500 mm/s)이 같은 것을 다르게 답한다. 회사 절차서 HIE-NDT-ET-P99 는 100~500 mm/s 로 적고 있다. 어느 쪽으로 맞출지 종목 NDE Level Ⅲ 가 정한다 (2026-08-27). HIE-QP-E02 6.1.2"
+    "answer": 1,
+    "note": "회사 절차서 HIE-NDT-ET-P99 는 표준 검사 속도를 100~500 mm/s(0.1~0.5 m/s)로 적고 있어 이 문항의 정답(0.15~0.3 m/s)과 범위가 다르다. 원본 시험지를 따라 두었으니 종목 NDE Level Ⅲ 가 어느 쪽으로 맞출지 정한다 (2026-08-27). HIE-QP-E02 6.1.2\n원본 시험지는 0.15~0.3 m/s 를 답으로 두었으나 회사 절차서 HIE-NDT-ET-P99 는 표준 검사 속도를 100~500 mm/s 로 정한다. 나머지 보기도 절차서 범위와 겹쳐 무엇이 틀렸는지 흐렸다. 절차서 값을 답으로 두고 범위가 겹치지 않는 오답으로 갈아 끼웠다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 41,
