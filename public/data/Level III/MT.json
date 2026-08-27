@@ -1540,5 +1540,53 @@
     ],
     "answer": 0,
     "groupNote": "The following questions apply to ASME Section Ⅷ Div. 2.\n다음 문항은 ASME Section Ⅷ Div. 2 기준입니다."
+  },
+  {
+    "id": 106,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
+    "question": "How much time is needed to adapt to dark viewing prior to performing fluorescent examination?\n형광 시험을 수행하기 전에 어두움에 적응하기 위해 필요한 시간은?",
+    "options": [
+      "At least 5 minutes\n최소 5분",
+      "At least 1 minute\n최소 1분",
+      "At least 10 minutes\n최소 10분",
+      "At least 30 minutes\n최소 30분"
+    ],
+    "answer": 0,
+    "note": "원본이 서술형이라 held/ 로 빼 두었던 문항(원본 2번)이다. 정답은 원본 그대로 두고 오답 셋을 지어 넣어 4지선다로 되돌렸다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 107,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
+    "question": "How much is a limited range of the temperature when using the wet particle suspension?\n습식 자분 현탁액 사용 시 온도 제한 범위는?",
+    "options": [
+      "Not exceed 135°F (57℃)\n135°F(57℃)를 넘지 않을 것",
+      "Not exceed 100°F (38℃)\n100°F(38℃)를 넘지 않을 것",
+      "Not exceed 175°F (79℃)\n175°F(79℃)를 넘지 않을 것",
+      "Not exceed 212°F (100℃)\n212°F(100℃)를 넘지 않을 것"
+    ],
+    "answer": 0,
+    "note": "원본이 서술형이라 held/ 로 빼 두었던 문항(원본 5번)이다. 정답은 원본 그대로 두고 오답 셋을 지어 넣어 4지선다로 되돌렸다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 108,
+    "level": "Level III",
+    "method": "MT",
+    "category": "Method",
+    "source": "MTM-III.HWP",
+    "question": "When using the yoke, how much spacing of Yoke-pole?\n요크를 사용할 때 극간 간격은 얼마인가?",
+    "options": [
+      "Minimum 50 to maximum 130 mm\n최소 50 mm 에서 최대 130 mm",
+      "Minimum 25 to maximum 75 mm\n최소 25 mm 에서 최대 75 mm",
+      "Minimum 75 to maximum 200 mm\n최소 75 mm 에서 최대 200 mm",
+      "Minimum 100 to maximum 300 mm\n최소 100 mm 에서 최대 300 mm"
+    ],
+    "answer": 0,
+    "note": "원본이 서술형이라 held/ 로 빼 두었던 문항(원본 7번)이다. 정답은 원본 그대로 두고 오답 셋을 지어 넣어 4지선다로 되돌렸다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
   }
 ]

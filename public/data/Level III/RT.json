@@ -1506,5 +1506,101 @@
       "4 mm"
     ],
     "answer": 2
+  },
+  {
+    "id": 105,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
+    "question": "What requirement of this procedure shall be demonstrated on production or technique radiograph for its qualification?\n방사선 투과사진 기술 또는 제작에 대한 품질을 입증하기 위하여 이 절차서에서의 요구사항은 무엇인가?",
+    "options": [
+      "Density and penetrameter image requirements\n농도와 투과도계 상(image) 요구사항",
+      "Source size and source-to-film distance\n선원 크기와 선원-필름 거리",
+      "Film brand and processing time\n필름 상표와 현상 시간",
+      "Exposure time and tube current\n노출 시간과 관전류"
+    ],
+    "answer": 0,
+    "note": "원본이 서술형이라 held/ 로 빼 두었던 문항(원본 1번)이다. 정답은 원본 그대로 두고 오답 셋을 지어 넣어 4지선다로 되돌렸다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 106,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
+    "question": "For complete radiographic coverage of cylindrical girth welds, a minimum of ______ is required when the source is placed outside and the film inside the object.\n원주 용접부를 빠짐없이 촬영하려면, 선원을 바깥에 두고 필름을 안쪽에 둘 때 최소 몇 회가 필요한가?",
+    "options": [
+      "Four exposures 90° apart\n90° 간격으로 4회 촬영",
+      "Two exposures 180° apart\n180° 간격으로 2회 촬영",
+      "Three exposures 120° apart\n120° 간격으로 3회 촬영",
+      "Six exposures 60° apart\n60° 간격으로 6회 촬영"
+    ],
+    "answer": 0,
+    "note": "원본이 서술형이라 held/ 로 빼 두었던 문항(원본 2번)이다. 정답은 원본 그대로 두고 오답 셋을 지어 넣어 4지선다로 되돌렸다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 107,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
+    "question": "What is the different requirement in this procedure between X-ray and γ-ray?\n이 절차서에서 X선과 감마선에 다르게 정한 요구조건은 무엇인가?",
+    "options": [
+      "Minimum film density 1.8 for X-ray, 2.0 for γ-ray\n최소 필름농도 X선 1.8, 감마선 2.0",
+      "Minimum film density 2.0 for X-ray, 1.8 for γ-ray\n최소 필름농도 X선 2.0, 감마선 1.8",
+      "Minimum film density 1.3 for both\n둘 다 최소 필름농도 1.3",
+      "Maximum film density 4.0 for X-ray, 3.0 for γ-ray\n최대 필름농도 X선 4.0, 감마선 3.0"
+    ],
+    "answer": 0,
+    "note": "원본이 서술형이라 held/ 로 빼 두었던 문항(원본 4번)이다. 정답은 원본 그대로 두고 오답 셋을 지어 넣어 4지선다로 되돌렸다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 108,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
+    "question": "What evidence would you find on a radiograph that would indicate insufficient protection from back-scatter?\n후방산란을 충분히 막지 못했음을 투과사진에서 무엇으로 알 수 있는가?",
+    "options": [
+      "A light image of the letter B appears on a darker background\n어두운 바탕 위에 밝은 B 글자가 나타난다",
+      "A dark image of the letter B appears on a lighter background\n밝은 바탕 위에 어두운 B 글자가 나타난다",
+      "The density of the radiograph exceeds 4.0\n투과사진의 농도가 4.0을 넘는다",
+      "The penetrameter image cannot be seen\n투과도계 상이 보이지 않는다"
+    ],
+    "answer": 0,
+    "note": "원본이 서술형이라 held/ 로 빼 두었던 문항(원본 5번)이다. 정답은 원본 그대로 두고 오답 셋을 지어 넣어 4지선다로 되돌렸다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 109,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
+    "question": "What are the radiographic density requirements?\n투과사진에 요구되는 농도는?",
+    "options": [
+      "X-ray single 1.8~4.0 · composite 1.3~4.0 · γ-ray single 2.0~4.0\nX선 단일필름 1.8~4.0 · 다중필름 겹쳐 관찰 1.3~4.0 · 감마선 단일필름 2.0~4.0",
+      "X-ray single 2.0~4.0 · composite 1.3~4.0 · γ-ray single 1.8~4.0\nX선 단일필름 2.0~4.0 · 다중필름 겹쳐 관찰 1.3~4.0 · 감마선 단일필름 1.8~4.0",
+      "X-ray single 1.8~4.0 · composite 1.8~4.0 · γ-ray single 2.0~4.0\nX선 단일필름 1.8~4.0 · 다중필름 겹쳐 관찰 1.8~4.0 · 감마선 단일필름 2.0~4.0",
+      "X-ray single 1.3~4.0 · composite 1.3~4.0 · γ-ray single 1.3~4.0\nX선 단일필름 1.3~4.0 · 다중필름 겹쳐 관찰 1.3~4.0 · 감마선 단일필름 1.3~4.0"
+    ],
+    "answer": 0,
+    "note": "원본이 서술형이라 held/ 로 빼 두었던 문항(원본 6번)이다. 정답은 원본 그대로 두고 오답 셋을 지어 넣어 4지선다로 되돌렸다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 110,
+    "level": "Level III",
+    "method": "RT",
+    "category": "Method",
+    "source": "RTM-III.HWP",
+    "question": "A circumferential butt weld in a class 1 component has been made in a 30 in. diameter pipe. The inside of the pipe is not accessible. The wall thickness is 5/8 in. and the reinforcement is the maximum allowed by the procedure. What is the maximum reinforcement allowed, and what is the required minimum wire IQI diameter?\n1등급 기기인 바깥지름 30인치 배관에 원주 맞대기 용접부가 있다. 배관 안쪽은 접근할 수 없고 벽두께는 5/8인치이며 용접덧살은 절차서가 허용하는 최대 크기이다. 최대 허용 덧살과 요구되는 최소 선형 투과도계 지름은?",
+    "options": [
+      "Reinforcement 3/32 in. · #7 wire (0.013 in., 0.33 mm)\n덧살 3/32인치 · #7 와이어(0.013인치, 0.33 mm)",
+      "Reinforcement 1/16 in. · #5 wire (0.008 in., 0.20 mm)\n덧살 1/16인치 · #5 와이어(0.008인치, 0.20 mm)",
+      "Reinforcement 1/8 in. · #9 wire (0.020 in., 0.51 mm)\n덧살 1/8인치 · #9 와이어(0.020인치, 0.51 mm)",
+      "Reinforcement 3/32 in. · #10 wire (0.025 in., 0.64 mm)\n덧살 3/32인치 · #10 와이어(0.025인치, 0.64 mm)"
+    ],
+    "answer": 0,
+    "note": "원본이 서술형이라 held/ 로 빼 두었던 문항(원본 10번)이다. 정답은 원본 그대로 두고 오답 셋을 지어 넣어 4지선다로 되돌렸다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
   }
 ]
