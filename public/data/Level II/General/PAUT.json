@@ -598,5 +598,305 @@
     ],
     "answer": 0,
     "note": "원본 40번. 2단으로 짠 보기를 읽지 못해 옮길 때 빠져 있던 것을 되살렸다. 정답은 원본 답지 a 그대로다."
+  },
+  {
+    "id": 41,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "question": "A phased array beam is steered by :\n위상배열에서 빔의 방향은 무엇으로 바꾸는가?",
+    "options": [
+      "firing the elements with small, controlled time delays\n각 진동자를 아주 짧은 시간차를 두고 차례로 울려서",
+      "mechanically tilting the wedge\n웨지를 기계로 기울여서",
+      "changing the couplant thickness\n접촉매질 두께를 바꿔서",
+      "switching the instrument frequency\n장비의 주파수를 바꿔서"
+    ],
+    "answer": 0,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 진동자마다 울리는 때를 조금씩 어긋내면 각 파면이 겹쳐 원하는 방향으로 기운 파면이 만들어진다. 이 시간차 묶음이 초점 법칙(focal law)이다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 42,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "question": "A focal law in phased array testing is :\n위상배열의 초점 법칙(focal law)이란 무엇인가?",
+    "options": [
+      "the acceptance criterion for flaw sizing\n결함 크기의 합격 기준",
+      "the set of time delays applied to each element for a given angle and focus\n정해진 각도와 초점을 만들려고 각 진동자에 주는 시간차 묶음",
+      "the rule that limits the wedge angle\n웨지 각도를 제한하는 규칙",
+      "the calibration curve of the instrument\n장비의 교정 곡선"
+    ],
+    "answer": 1,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 각도 하나, 초점 하나마다 초점 법칙이 하나씩 있다. S-주사는 초점 법칙을 각도별로 줄지어 쏘는 것이고, 선형 주사는 진동자 묶음을 옮겨 가며 같은 법칙을 되풀이하는 것이다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 43,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "question": "Grating lobes in a phased array probe are caused mainly by :\n위상배열 탐촉자의 격자엽(grating lobe)은 주로 무엇 때문에 생기는가?",
+    "options": [
+      "too much couplant\n접촉매질이 너무 많아서",
+      "too many elements in the aperture\n구경 안의 진동자 수가 너무 많아서",
+      "element pitch that is too large relative to the wavelength\n파장에 견주어 진동자 피치가 너무 커서",
+      "a wedge angle below the first critical angle\n웨지 각도가 제1 임계각보다 낮아서"
+    ],
+    "answer": 2,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 피치가 파장의 절반을 넘으면 엉뚱한 방향으로도 빔이 서 버린다. 그 가짜 빔이 잡은 반사체가 화면에 결함처럼 뜬다. 그래서 탐촉자를 고를 때 피치와 주파수를 함께 따진다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 44,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "question": "Increasing the number of active elements (a larger aperture) will :\n활성 진동자 수를 늘려 구경을 키우면 어떻게 되는가?",
+    "options": [
+      "widen the beam and shorten the near field\n빔이 넓어지고 근거리 음장이 짧아진다",
+      "change the refracted angle only\n굴절각만 달라진다",
+      "have no effect on the beam\n빔에 아무 영향이 없다",
+      "narrow the beam and lengthen the near field\n빔이 좁아지고 근거리 음장이 길어진다"
+    ],
+    "answer": 3,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 구경이 커지면 빔이 모여 좁아지고 근거리 음장이 길어져 더 깊은 데까지 초점을 맞출 수 있다. 대신 진동자를 많이 쓰므로 장비의 채널 수에 걸린다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 45,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "question": "Phased array focusing is possible only within :\n위상배열의 집속은 어디까지만 되는가?",
+    "options": [
+      "the near field of the aperture\n구경의 근거리 음장 안",
+      "the far field of the aperture\n구경의 원거리 음장 안",
+      "the wedge\n웨지 안",
+      "any distance without limit\n거리에 상관없이 어디까지나"
+    ],
+    "answer": 0,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 근거리 음장 밖에서는 빔이 저절로 퍼지기만 해 모을 수 없다. 더 깊이 초점을 두려면 구경을 키우거나 주파수를 올려 근거리 음장을 늘려야 한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 46,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "question": "A sectorial (S) scan is produced by :\n부채꼴(S) 주사는 어떻게 만들어지는가?",
+    "options": [
+      "moving the same aperture along the array\n같은 구경을 배열을 따라 옮기며",
+      "sweeping the beam through a range of angles from a fixed aperture\n구경을 고정한 채 여러 각도로 빔을 훑으며",
+      "rotating the probe by hand\n탐촉자를 손으로 돌리며",
+      "firing all elements at the same instant\n모든 진동자를 한꺼번에 울리며"
+    ],
+    "answer": 1,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 구경을 그대로 두고 각도만 바꿔 가며 쏘아 부채꼴 영상을 만든다. 탐촉자를 안 움직여도 여러 각도로 볼 수 있어 접근이 어려운 자리에 좋다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 47,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "question": "The main advantage of a time corrected gain (TCG) over a DAC curve in phased array is that :\n위상배열에서 DAC 곡선보다 TCG 가 나은 점은?",
+    "options": [
+      "it needs no calibration block\n교정 시험편이 필요 없다",
+      "it increases the probe frequency\n탐촉자 주파수를 높인다",
+      "equal reflectors give equal screen height at every depth, so C-scan colours are comparable\n같은 반사체가 어느 깊이에서나 같은 화면 높이로 나와 C-주사의 색을 견줄 수 있다",
+      "it removes the need for an encoder\n엔코더를 안 써도 된다"
+    ],
+    "answer": 2,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : DAC 는 곡선을 그어 두고 눈으로 견주는 것이라 깊이마다 화면 높이가 다르다. TCG 는 깊이별로 이득을 더해 높이를 맞추므로, 색으로 크기를 보이는 C-주사·S-주사에 맞는다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 48,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "question": "A scan plan for a phased array weld examination is prepared mainly to :\n위상배열 용접부 검사에서 주사 계획(scan plan)을 세우는 가장 큰 까닭은?",
+    "options": [
+      "record the examiner's certification\n검사자의 자격을 기록하려고",
+      "set the pulse repetition rate\n펄스 반복률을 잡으려고",
+      "calculate the price of the examination\n검사 비용을 셈하려고",
+      "show that the beams cover the whole examination volume\n빔이 검사 체적 전체를 덮는지 보이려고"
+    ],
+    "answer": 3,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 각도·구경·웨지 자리·스킵을 그려 보아야 개선면과 루트까지 빔이 닿는지 알 수 있다. 안 닿는 자리가 있으면 각도나 탐촉자 자리를 고쳐 계획을 다시 세운다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 49,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "question": "Before use, the phased array system shall be checked for element activity in order to :\n위상배열 장비는 쓰기 전에 진동자 활성도를 확인해야 한다. 까닭은?",
+    "options": [
+      "find dead or weak elements that would distort the beam\n빔을 일그러뜨릴 죽거나 약한 진동자를 찾으려고",
+      "measure the wedge angle\n웨지 각도를 재려고",
+      "calibrate the encoder\n엔코더를 교정하려고",
+      "set the examination frequency\n검사 주파수를 정하려고"
+    ],
+    "answer": 0,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 진동자 하나가 죽으면 그 자리의 파면이 빠져 빔이 기울고 감도가 떨어진다. 몇 개까지 죽어도 되는지는 규격과 절차서가 정해 둔다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 50,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "question": "Compared with a conventional single-angle shear wave examination, phased array normally :\n보통 단일 각도 횡파 검사와 견주어 위상배열은 대체로 어떠한가?",
+    "options": [
+      "needs no couplant\n접촉매질이 필요 없다",
+      "covers the weld with fewer probe positions and records the data\n탐촉자를 덜 옮기고도 용접부를 덮으며 자료를 기록으로 남긴다",
+      "works without a calibration block\n교정 시험편 없이 된다",
+      "detects flaws regardless of their orientation\n결함이 어느 쪽으로 기울어 있든 다 찾는다"
+    ],
+    "answer": 1,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 여러 각도를 한 자리에서 쏘므로 탐촉자를 앞뒤로 덜 옮긴다. 엔코더로 자리를 함께 기록해 나중에 다시 판독할 수 있는 것도 큰 차이다. 결함 방향에 안 흔들리는 것은 TOFD 쪽이다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 51,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "question": "The wedge of a phased array probe is used mainly to :\n위상배열 탐촉자의 웨지는 주로 무엇에 쓰는가?",
+    "options": [
+      "protect the elements from wear only\n진동자가 닳지 않게 막기만 한다",
+      "hold the couplant in place\n접촉매질을 붙들어 둔다",
+      "refract the beam into the material and set the sweep range\n빔을 재료 속으로 굴절시키고 훑을 각도 범위를 잡는다",
+      "increase the number of elements\n진동자 수를 늘린다"
+    ],
+    "answer": 2,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 웨지의 각도가 굴절각의 한가운데를 정하고, 전자 조향은 그 언저리 몇십 도만 더한다. 그래서 45~70° 를 훑을지 다른 범위를 볼지가 웨지 선택에서 갈린다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 52,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "question": "In the designation 16/128 for a phased array instrument, the numbers mean :\n위상배열 장비를 16/128 이라 적을 때 두 숫자는 무엇을 뜻하는가?",
+    "options": [
+      "16 MHz maximum frequency and 128 focal laws\n최대 주파수 16 MHz 와 초점 법칙 128개",
+      "16 degrees minimum and 128 degrees maximum steering\n조향 각도 최소 16도, 최대 128도",
+      "16 elements in the probe and a 128 mm aperture\n탐촉자 진동자 16개와 구경 128 mm",
+      "16 pulser-receiver channels used at one time, out of 128 element connections\n한 번에 쓰는 송수신 채널 16개, 이을 수 있는 진동자 128개"
+    ],
+    "answer": 3,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 앞 숫자가 한 번에 울릴 수 있는 채널 수, 뒤 숫자가 이을 수 있는 진동자 수다. 구경을 채널 수보다 크게 잡을 수 없으므로 이 값이 빔을 얼마나 모을 수 있는지를 가른다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 53,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "question": "The angular range that a phased array probe can be steered is limited mainly by :\n위상배열 탐촉자가 조향할 수 있는 각도 범위를 주로 무엇이 제한하는가?",
+    "options": [
+      "the element width — a wider element steers over a smaller range\n진동자의 폭 — 넓을수록 조향 범위가 좁아진다",
+      "the encoder resolution\n엔코더의 분해능",
+      "the couplant type\n접촉매질의 종류",
+      "the length of the cable\n케이블 길이"
+    ],
+    "answer": 0,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 진동자 하나가 내는 소리의 퍼짐이 조향할 수 있는 한계를 정한다. 좁은 진동자는 넓게 퍼져 많이 기울일 수 있고, 넓은 진동자는 앞으로만 쏘아 조금밖에 못 기운다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 54,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "question": "A two-dimensional (matrix) phased array probe differs from a one-dimensional linear array in that it can :\n2차원(매트릭스) 위상배열 탐촉자가 1차원 선형 배열과 다른 점은?",
+    "options": [
+      "work without a wedge\n웨지 없이 쓸 수 있다",
+      "steer and focus in two planes instead of one\n한 평면이 아니라 두 평면에서 조향하고 집속할 수 있다",
+      "operate at twice the frequency\n주파수가 두 배다",
+      "be used without an encoder\n엔코더 없이 쓸 수 있다"
+    ],
+    "answer": 1,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 1차원 배열은 배열이 놓인 방향으로만 빔을 기울일 수 있다. 매트릭스 배열은 진동자가 가로세로로 놓여 옆으로도 기울일 수 있어, 결함이 용접선과 비스듬히 놓인 경우에 쓴다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 55,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "question": "The examination volume for a phased array weld examination normally includes :\n위상배열 용접부 검사의 검사 체적에는 보통 무엇까지 든다.",
+    "options": [
+      "the weld metal only\n용접금속만",
+      "the weld cap only\n용접 덧살만",
+      "the weld and the adjacent base metal (heat affected zone)\n용접부와 그에 잇닿은 모재(열영향부)까지",
+      "the whole plate\n판재 전체"
+    ],
+    "answer": 2,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 융합불량과 균열은 개선면과 열영향부에서 잘 난다. 그래서 용접부 양쪽 모재까지 검사 체적에 넣고, 거기까지 빔이 닿는지 주사 계획으로 확인한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 56,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "question": "In phased array examination, an encoder is used to :\n위상배열 검사에서 엔코더는 무엇에 쓰는가?",
+    "options": [
+      "calibrate the amplitude\n진폭을 교정한다",
+      "measure the wedge temperature\n웨지 온도를 잰다",
+      "set the focal laws\n초점 법칙을 정한다",
+      "link each A-scan to its position along the weld\n각 A-주사를 용접선의 어느 자리에서 얻은 것인지 잇는다"
+    ],
+    "answer": 3,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 자리 정보가 있어야 C-주사·D-주사 영상이 만들어지고 결함 길이를 잴 수 있다. 엔코더 없이 훑으면 화면은 나오지만 기록으로 남기거나 길이를 잴 수 없다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 57,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "question": "The calibration of a phased array system shall be verified :\n위상배열 장비의 교정은 언제 다시 확인해야 하는가?",
+    "options": [
+      "at the start and finish of each examination and at set intervals\n검사를 시작할 때와 끝낼 때, 그리고 정해진 시간마다",
+      "only at the start of the job\n작업 시작할 때만",
+      "once a month\n한 달에 한 번",
+      "only when the wedge is changed\n웨지를 바꿀 때만"
+    ],
+    "answer": 0,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 웨지가 닳거나 온도가 달라지면 굴절각과 지연이 흔들린다. 어긋나 있으면 마지막으로 맞았던 때 이후에 검사한 것을 다시 검사한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 58,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "question": "Wedge attenuation compensation (angle gain compensation) is applied because :\n웨지 감쇠 보정(각도별 이득 보정)을 하는 까닭은?",
+    "options": [
+      "the encoder reads differently at each angle\n각도마다 엔코더가 다르게 읽히기 때문",
+      "the sound path in the wedge and the transmission differ with each steered angle\n조향 각도마다 웨지 안 경로와 투과율이 달라지기 때문",
+      "the couplant dries out at high angles\n각도가 크면 접촉매질이 마르기 때문",
+      "the probe frequency changes with angle\n각도에 따라 탐촉자 주파수가 달라지기 때문"
+    ],
+    "answer": 1,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 같은 반사체라도 45° 와 70° 에서 화면 높이가 다르게 나온다. 각도마다 이득을 달리 더해 고르게 맞춰야 S-주사 안에서 크기를 견줄 수 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 59,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "question": "The sensitivity for a phased array weld examination is normally set using :\n위상배열 용접부 검사의 감도는 보통 무엇으로 잡는가?",
+    "options": [
+      "the backwall echo of the test object\n시험체의 저면 에코",
+      "the amplitude of the lateral wave\n측면파의 크기",
+      "a known reflector such as a side-drilled hole in the calibration block\n교정 시험편의 측면공처럼 크기를 아는 반사체",
+      "the noise level of the instrument\n장비의 잡음 높이"
+    ],
+    "answer": 2,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 크기를 아는 반사체를 정해진 화면 높이에 맞춰 두어야 나중에 나온 지시를 그것과 견줄 수 있다. 각도마다 높이가 달라지므로 웨지 감쇠 보정과 TCG 를 함께 잡는다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+  },
+  {
+    "id": 60,
+    "level": "Level II",
+    "method": "PAUT",
+    "category": "General",
+    "question": "The phased array examination record shall include :\n위상배열 검사 기록에 담아야 하는 것은?",
+    "options": [
+      "the rejected flaws only\n불합격 처리한 결함만",
+      "the wedge serial number only\n웨지 일련번호만",
+      "a photograph of the weld\n용접부 사진",
+      "the scan plan, focal laws, calibration data and the encoded scan data\n주사 계획과 초점 법칙, 교정 자료, 그리고 자리가 기록된 주사 자료"
+    ],
+    "answer": 3,
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 위상배열은 자료 자체가 기록이라 나중에 다시 판독한다. 그러려면 어떤 각도로 어떻게 교정해 어디를 훑은 것인지가 함께 남아 있어야 한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
   }
 ]
