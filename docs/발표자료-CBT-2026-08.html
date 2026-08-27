@@ -1,0 +1,699 @@
+<title>사내 NDT 자격 필기시험 CBT</title>
+<style>
+/* ══════════════════════════════════════════════════════
+   팔레트 — 앱이 이미 쓰는 회사 파랑(#0179cf)을 그대로 이어받는다.
+   밝은 쪽을 바탕으로 잡고, 어두운 쪽은 토큰만 다시 정의한다.
+   ══════════════════════════════════════════════════════ */
+:root{
+  --acc:#0179cf;
+  --acc-deep:#075f9e;
+  --acc-fade:#e6f1fa;
+  --acc-edge:#bcdcf2;
+  --ink:#0c1926;
+  --ink-2:#33495c;
+  --mut:#5f6f7e;
+  --paper:#ffffff;
+  --wash:#f2f7fc;
+  --line:#d6e3ef;
+  --line-soft:#e8f0f7;
+  --ok:#15734a;
+  --ok-bg:#e6f4ec;
+  --warn:#a8620c;
+  --warn-bg:#fbf0e2;
+  --rail:#c9d9e7;
+  --shadow:0 1px 2px rgba(12,25,38,.05),0 12px 32px -18px rgba(12,25,38,.22);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --acc:#4aa9e8;
+    --acc-deep:#8ecbf3;
+    --acc-fade:#11293c;
+    --acc-edge:#22506e;
+    --ink:#e9f1f8;
+    --ink-2:#b3c6d6;
+    --mut:#8ea3b5;
+    --paper:#0b141d;
+    --wash:#101d28;
+    --line:#22384a;
+    --line-soft:#1a2c3b;
+    --ok:#5cc48d;
+    --ok-bg:#0f2a1e;
+    --warn:#e0a45c;
+    --warn-bg:#2b1f0f;
+    --rail:#2b4256;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 12px 32px -18px rgba(0,0,0,.8);
+  }
+}
+:root[data-theme="dark"]{
+  --acc:#4aa9e8;
+  --acc-deep:#8ecbf3;
+  --acc-fade:#11293c;
+  --acc-edge:#22506e;
+  --ink:#e9f1f8;
+  --ink-2:#b3c6d6;
+  --mut:#8ea3b5;
+  --paper:#0b141d;
+  --wash:#101d28;
+  --line:#22384a;
+  --line-soft:#1a2c3b;
+  --ok:#5cc48d;
+  --ok-bg:#0f2a1e;
+  --warn:#e0a45c;
+  --warn-bg:#2b1f0f;
+  --rail:#2b4256;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 12px 32px -18px rgba(0,0,0,.8);
+}
+
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:"Pretendard Variable",Pretendard,"Malgun Gothic","맑은 고딕",
+              -apple-system,"Apple SD Gothic Neo","Noto Sans KR",system-ui,sans-serif;
+  -webkit-font-smoothing:antialiased;
+  line-height:1.62;
+}
+
+/* 계기 눈금처럼 읽히는 숫자·코드 자리 */
+.mono{
+  font-family:Consolas,"SFMono-Regular",ui-monospace,"D2Coding",Menlo,monospace;
+  font-variant-numeric:tabular-nums;
+  letter-spacing:.01em;
+}
+
+/* ── 덱 뼈대 ───────────────────────────────── */
+.deck{
+  position:relative;
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+}
+
+.runner{
+  position:sticky;top:0;z-index:20;
+  display:flex;align-items:center;gap:.9em;
+  padding:.62rem clamp(1rem,3.4vw,2.6rem);
+  background:var(--paper);
+  border-bottom:1px solid var(--line);
+  font-size:clamp(.62rem,.82vw,.74rem);
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  color:var(--mut);
+}
+.runner .mark{display:flex;align-items:center;gap:.55em;color:var(--ink)}
+.runner .mark svg{width:1.35em;height:1.35em;display:block}
+.runner .sep{flex:1}
+.runner .count{color:var(--ink);letter-spacing:.1em}
+.runner button{
+  font:inherit;letter-spacing:.14em;text-transform:uppercase;
+  background:none;border:1px solid var(--line);color:var(--mut);
+  padding:.3em .7em;border-radius:2px;cursor:pointer;
+}
+.runner button:hover{border-color:var(--acc);color:var(--acc)}
+.runner button:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+
+/* 왼쪽 계기 레일 — 진행이 눈금으로 보인다 */
+.rail{
+  position:fixed;left:0;top:0;bottom:0;width:clamp(26px,3vw,44px);
+  z-index:15;
+  display:flex;flex-direction:column;justify-content:center;
+  gap:.36vh;
+  padding:5vh .5rem;
+  pointer-events:none;
+}
+.rail i{
+  display:block;height:1px;background:var(--rail);
+  width:38%;margin-left:auto;transition:width .28s ease,background .28s ease;
+}
+.rail i.on{width:100%;background:var(--acc);height:2px}
+.rail i.past{width:64%}
+
+/* ── 슬라이드 ──────────────────────────────── */
+.stage{flex:1;position:relative}
+.slide{
+  display:none;
+  min-height:calc(100vh - 3.1rem);
+  padding:clamp(1.5rem,4.4vh,3.2rem) clamp(2.2rem,6vw,5.5rem);
+  padding-left:clamp(3.2rem,7vw,6.2rem);
+  overflow-y:auto;
+}
+.slide.on{display:flex;flex-direction:column;justify-content:center;animation:rise .34s ease both}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.slide.on{animation:none}.rail i{transition:none}}
+
+.eyebrow{
+  font-size:clamp(.62rem,.85vw,.72rem);
+  letter-spacing:.2em;text-transform:uppercase;
+  color:var(--acc-deep);font-weight:700;
+  margin:0 0 .9em;
+}
+.eyebrow .n{color:var(--mut);margin-right:.7em}
+
+h1,h2{margin:0;text-wrap:balance;letter-spacing:-.018em;font-weight:800}
+h1{font-size:clamp(2rem,5.4vw,4.1rem);line-height:1.1}
+h2{font-size:clamp(1.45rem,3.1vw,2.5rem);line-height:1.18;margin-bottom:.5em}
+.lede{
+  font-size:clamp(.98rem,1.42vw,1.28rem);
+  color:var(--ink-2);max-width:56ch;margin:0 0 1.6em;
+}
+.slide > .lede:last-child{margin-bottom:0}
+
+/* ── 표지 ─────────────────────────────────── */
+.cover{gap:0}
+.cover .crest{width:clamp(56px,7vw,88px);margin-bottom:clamp(1.2rem,3vh,2rem)}
+.cover .crest svg{width:100%;height:auto;display:block}
+.cover h1{max-width:16ch}
+.cover .sub{
+  font-size:clamp(1rem,1.7vw,1.45rem);color:var(--ink-2);
+  margin:.9em 0 0;max-width:44ch;
+}
+.cover .foot{
+  margin-top:clamp(1.6rem,5vh,3rem);padding-top:1.2rem;
+  border-top:1px solid var(--line);
+  display:flex;flex-wrap:wrap;gap:.6em 2.4em;
+  font-size:clamp(.72rem,1vw,.86rem);color:var(--mut);
+  letter-spacing:.08em;
+}
+
+/* ── 목록 ─────────────────────────────────── */
+ul.plain{list-style:none;padding:0;margin:0;display:grid;gap:.8em}
+ul.plain li{
+  display:grid;grid-template-columns:auto 1fr;gap:.8em;align-items:start;
+  font-size:clamp(.92rem,1.28vw,1.14rem);
+}
+ul.plain li::before{
+  content:"";width:.5em;height:.5em;margin-top:.62em;
+  border:1.5px solid var(--acc);border-radius:50%;
+}
+ul.plain li b{font-weight:700}
+ul.plain li .why{display:block;color:var(--mut);font-size:.86em;margin-top:.15em}
+
+/* ── 숫자판 ───────────────────────────────── */
+.metrics{
+  display:grid;gap:1px;background:var(--line);
+  border:1px solid var(--line);border-radius:3px;overflow:hidden;
+  grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+}
+.metrics div{background:var(--paper);padding:clamp(.9rem,2.2vh,1.5rem) 1.1rem}
+.metrics .v{
+  display:block;font-size:clamp(1.8rem,4.4vw,3.1rem);
+  font-weight:800;line-height:1;color:var(--acc);letter-spacing:-.03em;
+}
+.metrics .k{
+  display:block;margin-top:.55em;font-size:clamp(.7rem,.95vw,.82rem);
+  color:var(--mut);letter-spacing:.06em;
+}
+.metrics .k small{display:block;letter-spacing:0;opacity:.78;margin-top:.2em}
+
+/* ── 표 ───────────────────────────────────── */
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:3px}
+table{border-collapse:collapse;width:100%;font-size:clamp(.78rem,1.08vw,.98rem)}
+th,td{padding:.62em .9em;text-align:left;border-bottom:1px solid var(--line-soft);vertical-align:top}
+thead th{
+  background:var(--wash);color:var(--mut);font-weight:700;
+  font-size:.86em;letter-spacing:.1em;text-transform:uppercase;
+  border-bottom:1px solid var(--line);white-space:nowrap;
+}
+tbody tr:last-child td{border-bottom:none}
+td.num{text-align:right;white-space:nowrap}
+.code{
+  font-family:Consolas,"SFMono-Regular",ui-monospace,monospace;
+  font-size:.9em;color:var(--acc-deep);white-space:nowrap;
+}
+
+/* ── 게이지 (70/80 문턱) ───────────────────── */
+.gauge{display:grid;gap:1.5rem;margin-bottom:1.5rem}
+.gauge .g{display:grid;gap:.5em}
+.gauge .g .top{display:flex;justify-content:space-between;align-items:baseline;font-size:clamp(.8rem,1.05vw,.95rem)}
+.gauge .g .top b{font-weight:700}
+.gauge .g .top span{color:var(--mut)}
+.gauge .bar{position:relative;height:.85rem;background:var(--wash);border:1px solid var(--line);border-radius:2px}
+.gauge .bar .fill{position:absolute;inset:0 auto 0 0;background:var(--acc);opacity:.16}
+.gauge .bar .mark{position:absolute;top:-.35rem;bottom:-.35rem;width:2px;background:var(--acc)}
+.gauge .bar .mark::after{
+  content:attr(data-v);position:absolute;left:50%;transform:translateX(-50%);
+  top:-1.5em;font-size:.72rem;font-weight:700;color:var(--acc-deep);
+  font-family:Consolas,ui-monospace,monospace;
+}
+.gauge .scale{display:flex;justify-content:space-between;font-size:.68rem;color:var(--mut)}
+
+/* ── 두 칸 배치 ───────────────────────────── */
+.cols{display:grid;gap:clamp(1.1rem,2.6vw,2.2rem);grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.panel{
+  background:var(--wash);border:1px solid var(--line);border-radius:3px;
+  padding:clamp(.95rem,2.2vh,1.4rem);
+}
+.panel h3{
+  margin:0 0 .6em;font-size:clamp(.86rem,1.15vw,1rem);font-weight:800;
+  display:flex;align-items:center;gap:.55em;
+}
+.panel h3 .tag{
+  font-family:Consolas,ui-monospace,monospace;font-size:.78em;font-weight:700;
+  color:var(--acc-deep);background:var(--acc-fade);border:1px solid var(--acc-edge);
+  padding:.06em .45em;border-radius:2px;letter-spacing:.02em;
+}
+.panel p{margin:0;font-size:clamp(.82rem,1.08vw,.96rem);color:var(--ink-2)}
+.panel ul{margin:.5em 0 0;padding-left:1.1em;font-size:clamp(.8rem,1.05vw,.94rem);color:var(--ink-2)}
+.panel li{margin:.25em 0}
+
+/* ── 흐름도 ───────────────────────────────── */
+.flow{display:flex;flex-wrap:wrap;align-items:stretch;gap:.5rem;margin-bottom:1.4rem}
+.flow .step{
+  flex:1 1 130px;background:var(--paper);border:1px solid var(--line);
+  border-top:2px solid var(--acc);border-radius:2px;padding:.85rem .9rem;
+}
+.flow .step .i{
+  font-family:Consolas,ui-monospace,monospace;font-size:.68rem;
+  color:var(--acc-deep);font-weight:700;letter-spacing:.1em;
+}
+.flow .step .t{display:block;font-weight:700;font-size:clamp(.84rem,1.1vw,.97rem);margin-top:.25em}
+.flow .step .d{display:block;color:var(--mut);font-size:clamp(.72rem,.95vw,.83rem);margin-top:.2em;line-height:1.45}
+
+/* ── 상태 알약 ────────────────────────────── */
+.pill{
+  display:inline-flex;align-items:center;gap:.4em;
+  font-size:.78em;font-weight:700;padding:.14em .6em;border-radius:99px;
+  border:1px solid transparent;white-space:nowrap;
+}
+.pill.ok{color:var(--ok);background:var(--ok-bg);border-color:var(--ok)}
+.pill.warn{color:var(--warn);background:var(--warn-bg);border-color:var(--warn)}
+
+/* ── 인용 마무리 ──────────────────────────── */
+.kicker{
+  font-size:clamp(1.25rem,3.2vw,2.4rem);font-weight:800;
+  line-height:1.28;letter-spacing:-.02em;max-width:22ch;text-wrap:balance;
+}
+.kicker em{font-style:normal;color:var(--acc)}
+
+.note{
+  margin-top:1.3em;font-size:clamp(.76rem,1vw,.88rem);
+  color:var(--mut);border-left:2px solid var(--acc-edge);padding-left:.9em;
+  max-width:62ch;
+}
+
+/* ── 인쇄하면 전 장이 이어진다 ─────────────── */
+@media print{
+  .runner,.rail{display:none}
+  .slide{display:flex!important;min-height:auto;page-break-after:always;padding:1.4cm;animation:none}
+  body{background:#fff}
+}
+</style>
+
+<div class="deck">
+
+  <header class="runner">
+    <span class="mark"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="HANKUK INDUSTRIAL ENGINEERING"><path fill="currentColor" fill-rule="evenodd" d="M46.68 0L56.5 0.27L56.5 1.33L58.62 1.33L58.62 1.86L60.48 1.86L60.48 2.39L63.4 2.39L63.4 3.45L66.05 3.71L66.58 4.77L70.29 4.77L70.82 5.84L72.41 5.84L72.41 6.9L74.27 6.9L74.27 8.75L75.33 8.75L79.31 12.73L80.11 12.73L80.64 14.06L81.17 14.06L81.17 15.12L81.7 15.12L81.7 16.18L83.55 16.18L83.55 16.98L85.15 18.04L85.68 20.42L86.47 20.42L86.47 22.55L88.06 23.34L88.06 25.46L88.59 25.46L88.59 26.53L89.66 26.79L89.92 28.91L90.45 28.91L90.98 32.89L91.51 32.89L91.51 35.81L92.04 35.81L92.04 37.67L92.57 37.67L92.57 41.11L93.1 41.11L93.1 47.48L92.57 47.48L92.57 50.93L92.04 50.93L92.04 53.05L91.51 53.05L91.51 55.97L90.98 55.97L90.98 57.82L89.92 58.36L89.92 61.27L89.12 61.27L89.12 62.33L88.06 63.13L88.06 64.72L86.47 66.31L85.68 69.23L83.55 71.09L83.55 72.15L80.64 73.47L79.84 76.13L77.72 76.92L76.66 79.05L72.94 80.37L72.94 81.96L71.88 83.02L69.76 83.29L69.76 83.82L70.82 83.82L71.35 86.74L72.41 87.27L72.41 89.66L73.21 90.19L73.21 91.78L74.27 92.84L74.8 95.23L75.86 95.23L76.66 100L58.62 100L58.09 96.55L57.56 96.55L57.56 95.23L56.5 95.23L56.23 91.78L55.7 91.78L55.7 90.19L54.64 89.39L54.64 87.27L53.58 86.74L53.58 85.41L52.79 84.35L50.13 84.35L50.13 83.82L46.68 84.35L45.36 87.27L44.3 87.27L44.3 89.66L43.24 90.19L42.44 95.23L41.38 95.23L40.05 100L22.28 100L22.28 98.14L23.34 98.14L23.61 95.23L24.67 95.23L24.67 93.63L25.73 92.84L26.26 90.19L27.06 89.39L27.06 87.27L28.12 86.74L28.12 85.41L28.65 85.41L28.65 84.35L29.71 83.82L29.71 83.02L27.06 82.49L26.26 79.84L23.61 79.58L23.34 78.51L22.28 78.51L22.28 76.92L20.69 76.92L20.69 76.13L19.36 75.6L18.83 73.47L15.92 72.15L15.92 71.09L14.85 70.56L14.85 69.23L13.53 68.17L13.53 66.58L12.47 66.31L11.94 63.66L10.88 63.13L10.88 61.8L10.34 61.8L10.08 60.21L9.55 60.21L9.55 58.36L9.02 58.36L9.02 56.76L8.49 56.76L8.49 55.44L7.96 55.44L7.43 49.87L6.9 49.87L6.9 38.73L7.43 38.73L7.43 36.6L7.96 36.6L7.96 33.42L8.49 33.42L8.49 31.3L9.55 30.24L10.34 26.53L11.41 25.46L11.41 23.87L13.53 22.02L13.53 20.42L14.85 19.1L14.85 17.51L15.92 17.51L16.45 16.18L17.77 16.18L18.83 15.12L18.83 13.26L20.16 12.73L22.28 10.08L24.67 9.28L25.73 8.22L25.73 6.9L27.06 6.9L27.59 5.84L28.65 5.84L29.71 4.77L33.16 4.77L33.95 3.71L36.6 3.45L36.6 2.39L39.52 2.39L39.52 1.86L40.85 1.86L40.85 1.33L43.24 1.33L43.24 0.27L46.68 0.27ZM43.77 8.75L43.77 9.28L41.91 9.28L41.91 9.81L37.93 10.08L37.93 10.61L34.48 11.67L33.95 12.73L32.1 12.73L31.56 14.06L31.03 14.06L31.03 15.12L29.97 15.12L29.71 16.18L27.06 16.18L26.26 17.51L25.2 17.51L25.2 19.1L23.34 20.42L23.34 22.02L21.75 22.55L21.75 23.34L20.69 23.34L19.89 26.53L18.83 26.79L18.83 27.85L17.77 28.38L17.77 29.97L17.24 29.97L17.24 31.3L16.71 31.3L16.71 33.42L15.92 33.69L15.92 37.14L15.38 37.14L15.38 38.73L14.85 38.73L14.85 49.87L15.92 50.93L15.92 53.85L16.45 53.85L16.45 55.97L17.24 56.76L17.77 59.95L18.83 60.21L18.83 61.27L19.89 61.8L19.89 62.86L20.69 63.13L20.69 64.72L23.34 66.58L23.34 68.17L24.14 69.23L25.2 69.23L25.2 70.56L26.26 70.56L26.79 72.15L29.71 72.68L29.97 73.47L31.56 73.47L32.1 75.6L33.16 75.6L33.16 73.47L35.01 72.15L35.54 69.23L36.6 68.7L36.6 66.58L37.93 65.25L37.93 63.13L47.21 63.13L47.21 22.55L41.38 23.34L40.85 24.93L38.99 25.46L38.99 26.53L35.54 27.32L33.95 28.91L33.16 31.3L32.1 31.3L31.56 33.69L30.5 33.69L29.71 38.73L29.18 38.73L29.18 40.05L28.65 40.05L28.65 48.54L29.18 48.54L29.18 49.87L29.71 49.87L29.97 52.52L31.03 53.05L31.56 55.97L32.63 56.5L33.16 58.36L34.48 58.89L34.48 61.27L32.1 63.66L31.56 66.31L29.97 65.25L29.71 63.66L28.12 62.86L27.06 61.27L26.26 61.27L26.26 60.21L25.2 59.95L25.2 58.36L24.67 58.36L24.67 57.29L23.61 56.5L23.34 53.05L22.28 52.52L21.75 46.95L21.22 46.95L21.22 42.18L21.75 42.18L21.75 38.73L22.28 38.73L22.28 36.6L22.81 36.6L22.81 33.69L23.61 33.69L23.61 31.3L24.67 31.3L25.2 28.38L26.26 28.38L26.26 27.32L27.06 26.53L28.12 26.53L29.18 23.87L30.5 23.34L30.5 22.55L32.63 22.02L32.63 20.42L33.95 20.16L34.48 19.1L35.54 19.1L35.54 18.04L40.05 16.71L40.05 16.18L59.68 16.18L59.68 16.71L61.54 16.98L61.54 17.51L63.4 17.51L63.93 19.1L64.99 19.1L65.52 20.16L67.37 20.42L67.37 22.02L70.29 23.34L70.29 24.93L72.94 26.79L73.21 27.85L74.27 28.38L74.27 29.97L75.86 31.3L75.86 33.42L76.66 33.69L76.66 35.81L77.19 35.81L77.19 37.67L77.72 37.67L77.72 39.26L78.25 39.26L78.25 49.6L77.19 49.87L76.39 55.97L75.33 56.76L75.33 57.82L74.27 58.36L74.27 60.21L71.88 61.8L71.88 62.86L69.76 63.66L69.5 65.78L68.44 66.31L67.9 63.13L66.84 62.86L66.84 61.8L65.52 59.95L66.05 59.95L66.05 58.36L66.84 58.36L66.84 57.29L68.97 55.44L70.29 49.87L70.82 49.87L70.82 48.54L71.35 48.54L71.35 40.05L70.82 40.05L70.29 37.14L69.76 37.14L69.5 33.69L67.9 32.89L67.9 31.3L66.84 31.3L66.05 28.38L64.99 28.38L63.13 26.53L61.54 26.53L61.01 25.46L59.15 24.93L58.62 23.34L55.7 23.34L54.64 23.08L54.64 22.55L53.32 22.55L53.32 63.13L62.07 63.13L62.6 65.25L63.13 65.25L63.4 68.17L64.46 69.23L64.46 71.09L66.58 73.21L66.84 75.6L67.37 75.6L67.9 73.47L69.5 73.47L69.76 72.68L72.94 72.15L73.21 71.09L74.27 70.56L74.27 69.23L75.86 69.23L76.66 66.58L78.25 65.78L78.78 63.13L79.84 63.13L80.11 61.27L81.17 61.27L81.7 58.36L82.23 58.36L83.02 55.44L83.55 55.44L83.55 52.52L84.08 52.52L84.62 46.95L85.15 46.95L85.15 41.64L84.62 41.64L83.55 33.69L83.02 33.69L83.02 31.83L82.23 31.3L82.23 28.91L81.17 28.38L81.17 27.32L78.78 24.93L78.78 23.34L76.66 22.02L76.66 20.42L75.86 20.42L74.27 17.51L73.21 17.51L72.41 16.18L69.76 16.18L68.97 14.06L67.9 14.06L67.9 12.73L66.05 12.73L66.05 12.2L63.93 11.67L63.93 11.14L62.07 10.61L62.07 10.08L58.09 9.81L58.09 9.28L55.7 9.28L55.7 8.75L44.03 8.75ZM47.21 63.13L47.21 71.62L48.28 72.68L51.72 72.68L52.79 71.62L52.79 69.76L53.32 69.76L53.32 63.13L47.48 63.13Z"/></svg> <b>한국공업엔지니어링</b></span>
+    <span class="sep"></span>
+    <span class="mono">HIE-CBT · 2026.08</span>
+    <span class="count mono"><b id="cur">1</b> / 15</span>
+    <button id="fs" type="button">전체화면</button>
+  </header>
+
+  <nav class="rail" id="rail" aria-hidden="true"></nav>
+
+  <main class="stage" id="stage">
+
+  <!-- ─────────────── 1. 표지 ─────────────── -->
+  <section class="slide on cover">
+    <div class="crest"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="HANKUK INDUSTRIAL ENGINEERING"><path fill="#0179cf" fill-rule="evenodd" d="M46.68 0L56.5 0.27L56.5 1.33L58.62 1.33L58.62 1.86L60.48 1.86L60.48 2.39L63.4 2.39L63.4 3.45L66.05 3.71L66.58 4.77L70.29 4.77L70.82 5.84L72.41 5.84L72.41 6.9L74.27 6.9L74.27 8.75L75.33 8.75L79.31 12.73L80.11 12.73L80.64 14.06L81.17 14.06L81.17 15.12L81.7 15.12L81.7 16.18L83.55 16.18L83.55 16.98L85.15 18.04L85.68 20.42L86.47 20.42L86.47 22.55L88.06 23.34L88.06 25.46L88.59 25.46L88.59 26.53L89.66 26.79L89.92 28.91L90.45 28.91L90.98 32.89L91.51 32.89L91.51 35.81L92.04 35.81L92.04 37.67L92.57 37.67L92.57 41.11L93.1 41.11L93.1 47.48L92.57 47.48L92.57 50.93L92.04 50.93L92.04 53.05L91.51 53.05L91.51 55.97L90.98 55.97L90.98 57.82L89.92 58.36L89.92 61.27L89.12 61.27L89.12 62.33L88.06 63.13L88.06 64.72L86.47 66.31L85.68 69.23L83.55 71.09L83.55 72.15L80.64 73.47L79.84 76.13L77.72 76.92L76.66 79.05L72.94 80.37L72.94 81.96L71.88 83.02L69.76 83.29L69.76 83.82L70.82 83.82L71.35 86.74L72.41 87.27L72.41 89.66L73.21 90.19L73.21 91.78L74.27 92.84L74.8 95.23L75.86 95.23L76.66 100L58.62 100L58.09 96.55L57.56 96.55L57.56 95.23L56.5 95.23L56.23 91.78L55.7 91.78L55.7 90.19L54.64 89.39L54.64 87.27L53.58 86.74L53.58 85.41L52.79 84.35L50.13 84.35L50.13 83.82L46.68 84.35L45.36 87.27L44.3 87.27L44.3 89.66L43.24 90.19L42.44 95.23L41.38 95.23L40.05 100L22.28 100L22.28 98.14L23.34 98.14L23.61 95.23L24.67 95.23L24.67 93.63L25.73 92.84L26.26 90.19L27.06 89.39L27.06 87.27L28.12 86.74L28.12 85.41L28.65 85.41L28.65 84.35L29.71 83.82L29.71 83.02L27.06 82.49L26.26 79.84L23.61 79.58L23.34 78.51L22.28 78.51L22.28 76.92L20.69 76.92L20.69 76.13L19.36 75.6L18.83 73.47L15.92 72.15L15.92 71.09L14.85 70.56L14.85 69.23L13.53 68.17L13.53 66.58L12.47 66.31L11.94 63.66L10.88 63.13L10.88 61.8L10.34 61.8L10.08 60.21L9.55 60.21L9.55 58.36L9.02 58.36L9.02 56.76L8.49 56.76L8.49 55.44L7.96 55.44L7.43 49.87L6.9 49.87L6.9 38.73L7.43 38.73L7.43 36.6L7.96 36.6L7.96 33.42L8.49 33.42L8.49 31.3L9.55 30.24L10.34 26.53L11.41 25.46L11.41 23.87L13.53 22.02L13.53 20.42L14.85 19.1L14.85 17.51L15.92 17.51L16.45 16.18L17.77 16.18L18.83 15.12L18.83 13.26L20.16 12.73L22.28 10.08L24.67 9.28L25.73 8.22L25.73 6.9L27.06 6.9L27.59 5.84L28.65 5.84L29.71 4.77L33.16 4.77L33.95 3.71L36.6 3.45L36.6 2.39L39.52 2.39L39.52 1.86L40.85 1.86L40.85 1.33L43.24 1.33L43.24 0.27L46.68 0.27ZM43.77 8.75L43.77 9.28L41.91 9.28L41.91 9.81L37.93 10.08L37.93 10.61L34.48 11.67L33.95 12.73L32.1 12.73L31.56 14.06L31.03 14.06L31.03 15.12L29.97 15.12L29.71 16.18L27.06 16.18L26.26 17.51L25.2 17.51L25.2 19.1L23.34 20.42L23.34 22.02L21.75 22.55L21.75 23.34L20.69 23.34L19.89 26.53L18.83 26.79L18.83 27.85L17.77 28.38L17.77 29.97L17.24 29.97L17.24 31.3L16.71 31.3L16.71 33.42L15.92 33.69L15.92 37.14L15.38 37.14L15.38 38.73L14.85 38.73L14.85 49.87L15.92 50.93L15.92 53.85L16.45 53.85L16.45 55.97L17.24 56.76L17.77 59.95L18.83 60.21L18.83 61.27L19.89 61.8L19.89 62.86L20.69 63.13L20.69 64.72L23.34 66.58L23.34 68.17L24.14 69.23L25.2 69.23L25.2 70.56L26.26 70.56L26.79 72.15L29.71 72.68L29.97 73.47L31.56 73.47L32.1 75.6L33.16 75.6L33.16 73.47L35.01 72.15L35.54 69.23L36.6 68.7L36.6 66.58L37.93 65.25L37.93 63.13L47.21 63.13L47.21 22.55L41.38 23.34L40.85 24.93L38.99 25.46L38.99 26.53L35.54 27.32L33.95 28.91L33.16 31.3L32.1 31.3L31.56 33.69L30.5 33.69L29.71 38.73L29.18 38.73L29.18 40.05L28.65 40.05L28.65 48.54L29.18 48.54L29.18 49.87L29.71 49.87L29.97 52.52L31.03 53.05L31.56 55.97L32.63 56.5L33.16 58.36L34.48 58.89L34.48 61.27L32.1 63.66L31.56 66.31L29.97 65.25L29.71 63.66L28.12 62.86L27.06 61.27L26.26 61.27L26.26 60.21L25.2 59.95L25.2 58.36L24.67 58.36L24.67 57.29L23.61 56.5L23.34 53.05L22.28 52.52L21.75 46.95L21.22 46.95L21.22 42.18L21.75 42.18L21.75 38.73L22.28 38.73L22.28 36.6L22.81 36.6L22.81 33.69L23.61 33.69L23.61 31.3L24.67 31.3L25.2 28.38L26.26 28.38L26.26 27.32L27.06 26.53L28.12 26.53L29.18 23.87L30.5 23.34L30.5 22.55L32.63 22.02L32.63 20.42L33.95 20.16L34.48 19.1L35.54 19.1L35.54 18.04L40.05 16.71L40.05 16.18L59.68 16.18L59.68 16.71L61.54 16.98L61.54 17.51L63.4 17.51L63.93 19.1L64.99 19.1L65.52 20.16L67.37 20.42L67.37 22.02L70.29 23.34L70.29 24.93L72.94 26.79L73.21 27.85L74.27 28.38L74.27 29.97L75.86 31.3L75.86 33.42L76.66 33.69L76.66 35.81L77.19 35.81L77.19 37.67L77.72 37.67L77.72 39.26L78.25 39.26L78.25 49.6L77.19 49.87L76.39 55.97L75.33 56.76L75.33 57.82L74.27 58.36L74.27 60.21L71.88 61.8L71.88 62.86L69.76 63.66L69.5 65.78L68.44 66.31L67.9 63.13L66.84 62.86L66.84 61.8L65.52 59.95L66.05 59.95L66.05 58.36L66.84 58.36L66.84 57.29L68.97 55.44L70.29 49.87L70.82 49.87L70.82 48.54L71.35 48.54L71.35 40.05L70.82 40.05L70.29 37.14L69.76 37.14L69.5 33.69L67.9 32.89L67.9 31.3L66.84 31.3L66.05 28.38L64.99 28.38L63.13 26.53L61.54 26.53L61.01 25.46L59.15 24.93L58.62 23.34L55.7 23.34L54.64 23.08L54.64 22.55L53.32 22.55L53.32 63.13L62.07 63.13L62.6 65.25L63.13 65.25L63.4 68.17L64.46 69.23L64.46 71.09L66.58 73.21L66.84 75.6L67.37 75.6L67.9 73.47L69.5 73.47L69.76 72.68L72.94 72.15L73.21 71.09L74.27 70.56L74.27 69.23L75.86 69.23L76.66 66.58L78.25 65.78L78.78 63.13L79.84 63.13L80.11 61.27L81.17 61.27L81.7 58.36L82.23 58.36L83.02 55.44L83.55 55.44L83.55 52.52L84.08 52.52L84.62 46.95L85.15 46.95L85.15 41.64L84.62 41.64L83.55 33.69L83.02 33.69L83.02 31.83L82.23 31.3L82.23 28.91L81.17 28.38L81.17 27.32L78.78 24.93L78.78 23.34L76.66 22.02L76.66 20.42L75.86 20.42L74.27 17.51L73.21 17.51L72.41 16.18L69.76 16.18L68.97 14.06L67.9 14.06L67.9 12.73L66.05 12.73L66.05 12.2L63.93 11.67L63.93 11.14L62.07 10.61L62.07 10.08L58.09 9.81L58.09 9.28L55.7 9.28L55.7 8.75L44.03 8.75ZM47.21 63.13L47.21 71.62L48.28 72.68L51.72 72.68L52.79 71.62L52.79 69.76L53.32 69.76L53.32 63.13L47.48 63.13Z"/></svg></div>
+    <h1>사내 NDT 자격<br>필기시험 CBT</h1>
+    <p class="sub">규정을 사람이 기억하는 대신,<br>프로그램이 지키게 했습니다.</p>
+    <div class="foot">
+      <span class="mono">한국공업엔지니어링</span>
+      <span class="mono">HIE-QP-E01 · E02 · E03</span>
+      <span class="mono">2026. 08</span>
+    </div>
+  </section>
+
+  <!-- ─────────────── 2. 지금까지 ─────────────── -->
+  <section class="slide">
+    <p class="eyebrow"><span class="n mono">01</span>왜 만들었나</p>
+    <h2>지금까지는 이랬습니다</h2>
+    <ul class="plain">
+      <li><span><b>회차마다 같은 문제가 나갔습니다.</b>
+        <span class="why">문제은행에 든 문항 수가 규정 출제 수와 똑같아, 뽑을 것이 없어 전부 나갔습니다.</span></span></li>
+      <li><span><b>TOFD·PAUT 전문시험은 규정보다 5문항 적게 나갔습니다.</b>
+        <span class="why">전 종목을 일반 40 · 전문 25로 못 박아 뒀는데, E01 표 3은 종목마다 다릅니다.</span></span></li>
+      <li><span><b>원본 시험지에 오타와 잘못된 정답이 섞여 있었습니다.</b>
+        <span class="why">영문 오타 14가지, 정답이 틀린 문항 4건, 보기가 겹친 문항 1건.</span></span></li>
+      <li><span><b>채점과 자격 관리는 사람 손이었습니다.</b>
+        <span class="why">종합점수 계산, 재자격 시기, 시력검사 만료를 따로 챙겨야 했습니다.</span></span></li>
+      <li><span><b>절차서는 찾으러 가야 했습니다.</b>
+        <span class="why">표지 양식도 문서마다 달랐습니다.</span></span></li>
+    </ul>
+  </section>
+
+  <!-- ─────────────── 3. 숫자 ─────────────── -->
+  <section class="slide">
+    <p class="eyebrow"><span class="n mono">02</span>무엇을 만들었나</p>
+    <h2>한눈에</h2>
+    <div class="metrics">
+      <div><span class="v mono">1,369</span><span class="k">문항<small>은행 24개</small></span></div>
+      <div><span class="v mono">9</span><span class="k">종목<small>RT UT MT PT VT ECT RFT TOFD PAUT</small></span></div>
+      <div><span class="v mono">10</span><span class="k">절차서<small>그림 179장, 앱에서 바로 열람</small></span></div>
+      <div><span class="v mono">9</span><span class="k">빈 서식<small>E02 6종 · E03 3종</small></span></div>
+      <div><span class="v mono">6</span><span class="k">자동 검사<small>고칠 때마다 스스로 확인</small></span></div>
+    </div>
+    <p class="note">Level Ⅱ 일반·전문, Level Ⅲ 기초·종목까지 필기시험 전 구간을 다룹니다.
+      Level Ⅲ 전문시험은 규정상 아직 종이로 시행합니다 (E02 5.2.3).</p>
+  </section>
+
+  <!-- ─────────────── 4. 규정 매핑 ─────────────── -->
+  <section class="slide">
+    <p class="eyebrow"><span class="n mono">03</span>바탕</p>
+    <h2>규정을 그대로 옮겼습니다</h2>
+    <p class="lede">임의로 정한 숫자가 하나도 없습니다. 모든 값이 사내 규정의 어느 조항에서 왔는지 코드에 적혀 있습니다.</p>
+    <div class="tw">
+      <table>
+        <thead><tr><th>규정</th><th>조항</th><th>무엇을 정하나</th></tr></thead>
+        <tbody>
+          <tr><td class="code">HIE-QP-E01</td><td class="code">표 3</td><td>종목별 필기시험 최소 문제 수</td></tr>
+          <tr><td class="code">HIE-QP-E01</td><td class="code">7.4.4 · 7.4.5</td><td>종합점수는 단순 평균 · 개별 70% 종합 80%</td></tr>
+          <tr><td class="code">HIE-QP-E01</td><td class="code">7.5</td><td>불합격 재시험은 30일 경과 후</td></tr>
+          <tr><td class="code">HIE-QP-E02</td><td class="code">5.2.2</td><td>Level Ⅲ 기초시험 구성 (15 + 20 + 20)</td></tr>
+          <tr><td class="code">HIE-QP-E02</td><td class="code">6.1.2</td><td>문항 수정은 해당 종목 NDE Level Ⅲ 권한</td></tr>
+          <tr><td class="code">HIE-QP-E02</td><td class="code">7.3.1</td><td>문항과 보기 순서를 회차마다 바꾼다</td></tr>
+          <tr><td class="code">HIE-QP-E03</td><td class="code">6.1.1</td><td>재자격 Ⅰ·Ⅱ 3년, Ⅲ 5년 · 만료월 말일 만료</td></tr>
+          <tr><td class="code">HIE-QP-E03</td><td class="code">6.1.2</td><td>시력검사 유효기간 1년</td></tr>
+          <tr><td class="code">HIE-QP-E03</td><td class="code">6.2.1</td><td>만료 3개월 전 본인·소속 부서 통보</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ─────────────── 5. 출제 ─────────────── -->
+  <section class="slide">
+    <p class="eyebrow"><span class="n mono">04</span>출제</p>
+    <h2>E01 표 3 그대로 뽑습니다</h2>
+    <div class="cols" style="align-items:start">
+      <div class="tw">
+        <table>
+          <thead><tr><th>구분</th><th>시험</th><th class="num">문항</th></tr></thead>
+          <tbody>
+            <tr><td rowspan="3">Level Ⅱ</td><td>일반 (전 종목)</td><td class="num mono">40</td></tr>
+            <tr><td>전문 (7종목)</td><td class="num mono">20</td></tr>
+            <tr><td>전문 TOFD · PAUT</td><td class="num mono">30</td></tr>
+            <tr><td rowspan="2">Level Ⅲ</td><td>기초</td><td class="num mono">55</td></tr>
+            <tr><td>종목 (MT PT RT UT VT)</td><td class="num mono">65</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <div class="panel">
+          <h3><span class="tag">고침</span> 규정보다 적게 나가던 시험</h3>
+          <p>예전에는 전 종목을 <b>일반 40 · 전문 25</b>로 못 박아 두었습니다.
+             그런데 표 3은 종목마다 다릅니다. 그래서 <b>TOFD·PAUT 전문시험이 규정보다 5문항 적게</b> 나가고 있었습니다.</p>
+          <p style="margin-top:.7em">Level Ⅲ 종목시험은 은행 전체가 나가 <b>104문항짜리 시험</b>이 되기도 했습니다.
+             E01 7.3.4는 시험시간을 2시간으로 정하고 있어, 문항당 69초였습니다.</p>
+        </div>
+        <p class="note">이제 은행에는 규정 수보다 넉넉히 넣어 두고,
+          시험을 시작할 때 그중에서 <b>규정 수만큼 무작위로</b> 뽑습니다.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────────────── 6. 채점 ─────────────── -->
+  <section class="slide">
+    <p class="eyebrow"><span class="n mono">05</span>채점</p>
+    <h2>문턱은 두 개입니다</h2>
+    <div class="gauge">
+      <div class="g">
+        <div class="top"><b>개별 시험 — 과락</b><span class="mono">HIE-QP-E01 7.4.5</span></div>
+        <div class="bar"><span class="fill" style="width:70%"></span><span class="mark" data-v="70%" style="left:70%"></span></div>
+        <div class="scale"><span class="mono">0</span><span class="mono">100</span></div>
+      </div>
+      <div class="g">
+        <div class="top"><b>종합 — 자격 취득</b><span class="mono">전 과목 단순 평균 · E01 7.4.4</span></div>
+        <div class="bar"><span class="fill" style="width:80%"></span><span class="mark" data-v="80%" style="left:80%"></span></div>
+        <div class="scale"><span class="mono">0</span><span class="mono">100</span></div>
+      </div>
+    </div>
+    <div class="cols">
+      <div class="panel">
+        <h3><span class="tag">E01 7.5</span> 재시험</h3>
+        <p>불합격하면 <b>30일이 지나야</b> 다시 칠 수 있습니다. 프로그램이 응시 기록을 보고 시기를 판정합니다.</p>
+      </div>
+      <div class="panel">
+        <h3><span class="tag">주의</span> 여기서 판정하지 않는 것</h3>
+        <p>이 계산은 <b>필기시험만</b> 판정합니다. 자격 취득에는 실기시험도 필요하고(E01 7.3.1),
+           Level Ⅲ 전문시험은 아직 종이로 시행합니다(E02 5.2.3).</p>
+        <p style="margin-top:.55em">빠진 시험이 있으면 화면에 <b>무엇이 빠졌는지 적어</b> 보여줍니다. 임의로 합격 처리하지 않습니다.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────────────── 7. 응시 흐름 ─────────────── -->
+  <section class="slide">
+    <p class="eyebrow"><span class="n mono">06</span>쓰는 법</p>
+    <h2>응시자는 이렇게 씁니다</h2>
+    <div class="flow">
+      <div class="step"><span class="i mono">01</span><span class="t">이름·등급·종목</span><span class="d">화면에서 고르면 그 자리에서 시험이 만들어집니다</span></div>
+      <div class="step"><span class="i mono">02</span><span class="t">시험</span><span class="d">문항과 보기 순서가 회차마다 다릅니다</span></div>
+      <div class="step"><span class="i mono">03</span><span class="t">공학용 계산기</span><span class="d">화면 안에서 열고 닫습니다</span></div>
+      <div class="step"><span class="i mono">04</span><span class="t">제출</span><span class="d">바로 채점됩니다</span></div>
+      <div class="step"><span class="i mono">05</span><span class="t">결과·해설</span><span class="d">틀린 문항과 근거 조항을 함께 봅니다</span></div>
+    </div>
+    <div class="panel">
+      <h3><span class="tag">계산기</span> 조용히 틀리던 것을 고쳤습니다</h3>
+      <ul>
+        <li><b>sin(30)</b> 이 0.5가 아니라 −0.988이 나왔습니다 — 라디안 기준이었습니다. 스넬의 법칙과 굴절각 계산이 전부 틀린 값이었습니다.</li>
+        <li><b>log</b> 가 자연로그였습니다. dB = 20·log₁₀(A₁/A₂) 계산이 조용히 틀렸습니다.</li>
+        <li><b>ln</b> 버튼은 누르면 무조건 오류였습니다.</li>
+      </ul>
+      <p style="margin-top:.6em">셋 다 바로잡았고, 도(°) 모드를 기본으로 두었습니다.</p>
+    </div>
+  </section>
+
+  <!-- ─────────────── 8. 출력물 ─────────────── -->
+  <section class="slide">
+    <p class="eyebrow"><span class="n mono">07</span>종이가 필요할 때</p>
+    <h2>출력은 세 가지입니다</h2>
+    <div class="cols">
+      <div class="panel">
+        <h3><span class="tag">①</span> 시험지 출력</h3>
+        <p>단말이 모자라거나 정전일 때 종이로 시행합니다. 갑지에 회사 로고와 응시자 기입란이 들어갑니다.</p>
+      </div>
+      <div class="panel">
+        <h3><span class="tag">②</span> 답안지 출력</h3>
+        <p>응시자가 푼 답과 채점 결과를 그대로 찍습니다. 본인 확인과 보관용입니다.</p>
+      </div>
+      <div class="panel">
+        <h3><span class="tag">③</span> 관리자용 출력</h3>
+        <p>정답과 근거를 함께 찍습니다. 감독자·평가자가 씁니다.</p>
+      </div>
+    </div>
+    <p class="note" style="margin-top:1.3em">세 가지 모두 <b>전 장 가운데에 회사 로고 워터마크</b>가 옅게 들어갑니다 — 글씨를 가리지 않는 농도로 맞췄습니다.
+      여기에 더해 규정 서식 <b>9종</b>(시행계획서, 감독 관리사항, 응시자 유의사항, 문제 폐기 대장, 부정행위 기록,
+      문제은행 접근 기록, 자격증 재발급 신청서·대장, 자격종료·복권 기록)을 빈 양식으로 뽑을 수 있습니다.</p>
+  </section>
+
+  <!-- ─────────────── 9. 자격 이력 ─────────────── -->
+  <section class="slide">
+    <p class="eyebrow"><span class="n mono">08</span>시험 뒤</p>
+    <h2>자격은 프로그램이 챙깁니다</h2>
+    <p class="lede">응시 기록을 사람 단위로 묶어 종합점수와 합불을 계산하고, 만료 시기를 미리 알려 줍니다.</p>
+    <div class="tw">
+      <table>
+        <thead><tr><th>무엇</th><th>규칙</th><th>근거</th></tr></thead>
+        <tbody>
+          <tr><td>재자격 주기</td><td>Level Ⅰ·Ⅱ <b>3년</b> · Level Ⅲ <b>5년</b><br>만료되는 달의 <b>마지막 날</b>에 만료</td><td class="code">E03 6.1.1</td></tr>
+          <tr><td>시력검사</td><td>검사일로부터 <b>1년</b> 뒤 만료 월의 마지막 날</td><td class="code">E03 6.1.2</td></tr>
+          <tr><td>만료 통보</td><td>만료 <b>3개월 전</b>까지 본인과 소속 부서에</td><td class="code">E03 6.2.1</td></tr>
+          <tr><td>종합점수</td><td>요구되는 시험 결과의 <b>단순 평균치</b></td><td class="code">E01 7.4.4</td></tr>
+          <tr><td>재시험</td><td>불합격 후 <b>30일</b> 경과</td><td class="code">E01 7.5</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">만료 예정자 명단(HIE-QP-E03-04)과 자격증 발급대장을 바로 뽑을 수 있습니다.
+      날짜 계산은 <b>79건의 시험값</b>으로 검사합니다 — 윤년, 말일, 월 넘김까지 넣었습니다.</p>
+  </section>
+
+  <!-- ─────────────── 10. 절차서 ─────────────── -->
+  <section class="slide">
+    <p class="eyebrow"><span class="n mono">09</span>덤으로</p>
+    <h2>절차서를 앱 안에서 봅니다</h2>
+    <div class="cols">
+      <div>
+        <ul class="plain">
+          <li><span><b>검사절차서 9종 + 자격인정절차서 E01</b>
+            <span class="why">MT · PT · RT · UT · VT · ET(P11 · P99) · TOFD · PAUT</span></span></li>
+          <li><span><b>그림 179장을 원본 자리에 그대로</b>
+            <span class="why">한글 파일에서 뽑아 옮겼습니다. 그림 번호가 뒤바뀌던 것도 바로잡았습니다.</span></span></li>
+          <li><span><b>표지 양식을 하나로 통일</b>
+            <span class="why">문서마다 제각각이던 표지에 회사 로고와 문서정보를 같은 자리에 넣었습니다.</span></span></li>
+          <li><span><b>기계 번역투를 손봤습니다</b>
+            <span class="why">RFT · PAUT · PT 절차서에서 58군데를 다시 썼습니다.</span></span></li>
+        </ul>
+      </div>
+      <div class="panel">
+        <h3><span class="tag">왜</span> 시험과 절차서를 한자리에</h3>
+        <p>전문시험은 <b>사양서 · 장치 · 검사기법 · 절차서</b>를 묻습니다.
+           문제를 풀다 근거를 확인하고 싶을 때, 사무실로 절차서를 찾으러 가지 않아도 됩니다.</p>
+        <p style="margin-top:.7em">현장에서도 같은 화면에서 절차서를 펴 볼 수 있습니다.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────────────── 11. 문제은행 정비 ─────────────── -->
+  <section class="slide">
+    <p class="eyebrow"><span class="n mono">10</span>문제은행</p>
+    <h2>원본을 한 문항씩 대조했습니다</h2>
+    <div class="cols">
+      <div class="panel">
+        <h3><span class="tag">고침</span> 원본에 있던 오류</h3>
+        <ul>
+          <li>영문 오타 <b>14가지</b> — <span class="code">Mamgetic → Magnetic</span> 등</li>
+          <li>잘못된 정답 <b>4건</b> — MT 일반 9번, VT 일반 34번, RT Ⅲ 3번(단위), RFT 일반 40번</li>
+          <li>보기가 겹친 문항 <b>1건</b> — VT 일반 5번의 1번과 3번이 같았습니다</li>
+          <li>절차서 번호 오기 <b>3건</b> — <span class="code">ET-P11 → ET-P99</span></li>
+          <li>보기가 2~3개뿐이던 <b>86문항</b>을 4지선다로</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <h3><span class="tag">보강</span> 회차마다 바뀌게</h3>
+        <p>은행에 든 문항이 규정 출제 수와 같으면 뽑을 것이 없습니다.
+           그래서 <b>259문항</b>을 더 지어 여유를 만들었습니다.</p>
+        <p style="margin-top:.7em">ASME Sec.V · SNT-TC-1A 와 회사 절차서를 근거로 짓고,
+           <b>근거 조항을 문항마다 적어</b> 두었습니다. 종목 NDE Level Ⅲ 승인 사항입니다 (E02 6.1.2).</p>
+        <p style="margin-top:.7em">문항 <span class="mono">1,110 → 1,369</span>개.</p>
+      </div>
+    </div>
+    <p class="note">고친 자리는 모두 <b>무엇을 왜 고쳤는지</b> 문항 안에 남겨 두었습니다. 나중에 되짚어 볼 수 있습니다.</p>
+  </section>
+
+  <!-- ─────────────── 12. 매번 다른 시험지 ─────────────── -->
+  <section class="slide">
+    <p class="eyebrow"><span class="n mono">11</span>공정성</p>
+    <h2>회차마다 다른 시험지</h2>
+    <p class="lede">HIE-QP-E02 7.3.1 — 문항과 보기 순서를 회차마다 바꿉니다.</p>
+    <div class="cols">
+      <div class="panel">
+        <h3><span class="tag">①</span> 문항을 무작위로</h3>
+        <p>은행에서 규정 수만큼 뽑고, 뽑은 순서도 섞습니다.</p>
+      </div>
+      <div class="panel">
+        <h3><span class="tag">②</span> 보기 순서도</h3>
+        <p>다만 아무거나 섞으면 안 됩니다. <b>“위 모두 정답”</b> 같은 보기가 2번으로 올라가면 문제가 깨집니다.</p>
+        <ul>
+          <li>자리를 묶어 둔 보기 <b>139개</b></li>
+          <li>아예 안 섞는 문항 <b>36개</b> — 보기가 번호로 서로를 가리키는 것들</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <h3><span class="tag">③</span> 확인</h3>
+        <p><b>219,200회</b> 돌려 보기를 섞어도 채점이 그대로인지 확인했습니다. 어긋난 곳 <b>0</b>.</p>
+      </div>
+    </div>
+    <p class="note">정답 자리도 ①②③④에 고르게 흩었습니다. 어느 한 번호에 몰리면 찍어서 맞힐 수 있습니다.</p>
+  </section>
+
+  <!-- ─────────────── 13. 자동 검사 ─────────────── -->
+  <section class="slide">
+    <p class="eyebrow"><span class="n mono">12</span>믿을 수 있는가</p>
+    <h2>고칠 때마다 스스로 검사합니다</h2>
+    <p class="lede">사람이 눈으로 확인하는 대신, 검사를 프로그램으로 만들어 두었습니다. 문항을 하나라도 손대면 다시 돌립니다.</p>
+    <div class="tw">
+      <table>
+        <thead><tr><th>검사</th><th>무엇을 보는가</th><th>결과</th></tr></thead>
+        <tbody>
+          <tr><td class="code">verify</td><td>은행 24개 1,369문항의 채점이 성립하는가</td><td><span class="pill ok">전체 통과</span></td></tr>
+          <tr><td class="code">shuffle-test</td><td>보기를 섞어도 채점이 그대로인가 (219,200회)</td><td><span class="pill ok">어긋남 0</span></td></tr>
+          <tr><td class="code">dup-option</td><td>한 문항에 같은 보기가 두 번 나오지 않는가</td><td><span class="pill ok">0건</span></td></tr>
+          <tr><td class="code">history-test</td><td>이력·만료 계산이 규정대로인가 (79건)</td><td><span class="pill ok">통과</span></td></tr>
+          <tr><td class="code">rule-check</td><td>E02·E03이 없는 조항을 가리키지 않는가</td><td><span class="pill ok">어긋남 0</span></td></tr>
+          <tr><td class="code">proc-proof</td><td>절차서에 말투가 섞이지 않았는가</td><td><span class="pill ok">없음</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ─────────────── 14. 남은 일 ─────────────── -->
+  <section class="slide">
+    <p class="eyebrow"><span class="n mono">13</span>솔직하게</p>
+    <h2>아직 남은 것</h2>
+    <ul class="plain">
+      <li><span><b>검토 모드를 시행 모드로 바꿔야 합니다.</b> <span class="pill warn">시행 전 필수</span>
+        <span class="why">지금은 검토를 위해 은행 문항이 전부 보이게 해 두었습니다. 실제 시험 전에 무작위 출제로 전환합니다.</span></span></li>
+      <li><span><b>Level Ⅲ VT는 여유 문항이 없습니다.</b>
+        <span class="why">규정 65문항에 은행도 65문항이라, 회차마다 같은 문항이 나갑니다. 20문항쯤 더 지으면 해결됩니다.</span></span></li>
+      <li><span><b>Level Ⅲ 전문시험은 아직 종이입니다.</b>
+        <span class="why">규정이 그렇게 정하고 있습니다 (E02 5.2.3). 옮기려면 규정부터 고쳐야 합니다.</span></span></li>
+      <li><span><b>실기시험은 다루지 않습니다.</b>
+        <span class="why">자격 취득에는 실기도 필요합니다 (E01 7.3.1). 필기 결과만으로 합격 처리하지 않도록 화면에 밝혀 적습니다.</span></span></li>
+      <li><span><b>요원 명단의 시력검사일을 채워야 합니다.</b>
+        <span class="why">비어 있으면 시력 만료를 계산할 수 없습니다.</span></span></li>
+    </ul>
+  </section>
+
+  <!-- ─────────────── 15. 맺음 ─────────────── -->
+  <section class="slide cover">
+    <p class="eyebrow"><span class="n mono">14</span>맺음</p>
+    <p class="kicker">규정을 <em>사람이 기억하는 대신</em>,<br>프로그램이 지키게 했습니다.</p>
+    <p class="lede" style="margin-top:1.6em">
+      값 하나하나가 어느 조항에서 왔는지 적혀 있습니다.<br>
+      규정이 바뀌면 그 자리를 찾아 고치면 됩니다.
+    </p>
+    <div class="foot">
+      <span class="mono">HIE-QP-E01 Rev.8 · E02 · E03</span>
+      <span class="mono">문항 1,369 · 절차서 10종</span>
+      <span class="mono">2026. 08</span>
+    </div>
+  </section>
+
+  </main>
+</div>
+
+<script>
+(function(){
+  var slides = Array.prototype.slice.call(document.querySelectorAll('.slide'));
+  var rail   = document.getElementById('rail');
+  var cur    = document.getElementById('cur');
+  var i = 0;
+
+  /* 계기 눈금 — 슬라이드 하나에 눈금 하나 */
+  slides.forEach(function(_, n){
+    var t = document.createElement('i');
+    t.addEventListener('click', function(){ go(n); });
+    rail.appendChild(t);
+  });
+  var ticks = Array.prototype.slice.call(rail.children);
+  rail.style.pointerEvents = 'auto';
+  ticks.forEach(function(t){ t.style.cursor = 'pointer'; });
+
+  function go(n){
+    i = Math.max(0, Math.min(slides.length - 1, n));
+    slides.forEach(function(s, k){ s.classList.toggle('on', k === i); });
+    ticks.forEach(function(t, k){
+      t.className = k === i ? 'on' : (k < i ? 'past' : '');
+    });
+    cur.textContent = i + 1;
+    if (location.hash !== '#' + (i + 1)) history.replaceState(null, '', '#' + (i + 1));
+    slides[i].scrollTop = 0;
+  }
+
+  document.addEventListener('keydown', function(e){
+    if (e.key === 'ArrowRight' || e.key === 'PageDown' || e.key === ' ') { e.preventDefault(); go(i + 1); }
+    else if (e.key === 'ArrowLeft' || e.key === 'PageUp') { e.preventDefault(); go(i - 1); }
+    else if (e.key === 'Home') { e.preventDefault(); go(0); }
+    else if (e.key === 'End')  { e.preventDefault(); go(slides.length - 1); }
+    else if (e.key === 'f' || e.key === 'F') { toggleFs(); }
+  });
+
+  /* 화면 오른쪽 절반을 누르면 다음, 왼쪽 절반이면 이전 */
+  document.getElementById('stage').addEventListener('click', function(e){
+    if (e.target.closest('a,button,table,.panel')) return;
+    go(e.clientX > window.innerWidth / 2 ? i + 1 : i - 1);
+  });
+
+  function toggleFs(){
+    if (document.fullscreenElement) document.exitFullscreen();
+    else document.documentElement.requestFullscreen && document.documentElement.requestFullscreen();
+  }
+  document.getElementById('fs').addEventListener('click', function(e){ e.stopPropagation(); toggleFs(); });
+
+  var start = parseInt((location.hash || '').slice(1), 10);
+  go(isNaN(start) ? 0 : start - 1);
+})();
+</script>
