@@ -631,7 +631,7 @@
     "level": "Level II",
     "method": "MT",
     "category": "General",
-    "question": "A pie-shaped magnetic particle field indicator is used to :\n파이형 자장지시계(pie gauge)는 무엇에 쓰는가?",
+    "question": "A pie-shaped magnetic particle field indicator is used to : (Ref. : ASME Sec.V Art.7)\n파이형 자장지시계(pie gauge)는 무엇에 쓰는가? (ASME Sec.V Art.7 기준)",
     "options": [
       "measure the magnetizing current in amperes\n자화 전류를 암페어로 재는 데 쓴다",
       "measure the residual field after demagnetization\n탈자 뒤 남은 잔류 자장을 재는 데 쓴다",
@@ -646,7 +646,7 @@
     "level": "Level II",
     "method": "MT",
     "category": "General",
-    "question": "When performing a visible (nonfluorescent) magnetic particle examination, the minimum light intensity at the examination surface shall be :\n비형광(가시광) 자분탐상검사에서 검사면의 최소 조도는 얼마인가?",
+    "question": "When performing a visible (nonfluorescent) magnetic particle examination, the minimum light intensity at the examination surface shall be : (Ref. : ASME Sec.V Art.7)\n비형광(가시광) 자분탐상검사에서 검사면의 최소 조도는 얼마인가? (ASME Sec.V Art.7 기준)",
     "options": [
       "10 fc (100 lx)\n10 fc (100 lx)",
       "50 fc (500 lx)\n50 fc (500 lx)",
@@ -661,7 +661,7 @@
     "level": "Level II",
     "method": "MT",
     "category": "General",
-    "question": "The minimum black light intensity at the examination surface for fluorescent magnetic particle examination is :\n형광 자분탐상검사에서 검사면의 최소 자외선 세기는 얼마인가?",
+    "question": "The minimum black light intensity at the examination surface for fluorescent magnetic particle examination is : (Ref. : ASME Sec.V Art.7)\n형광 자분탐상검사에서 검사면의 최소 자외선 세기는 얼마인가? (ASME Sec.V Art.7 기준)",
     "options": [
       "1,000 μW/cm²\n1,000 ㎼/㎠",
       "100 μW/cm²\n100 ㎼/㎠",
@@ -676,7 +676,7 @@
     "level": "Level II",
     "method": "MT",
     "category": "General",
-    "question": "During fluorescent magnetic particle examination, the ambient white light at the examination surface shall not exceed :\n형광 자분탐상검사를 하는 동안 검사면의 주변 백색광은 얼마를 넘지 않아야 하는가?",
+    "question": "During fluorescent magnetic particle examination, the ambient white light at the examination surface shall not exceed : (Ref. : ASME Sec.V Art.7)\n형광 자분탐상검사를 하는 동안 검사면의 주변 백색광은 얼마를 넘지 않아야 하는가? (ASME Sec.V Art.7 기준)",
     "options": [
       "10 fc (108 lx)\n10 fc (108 lx)",
       "5 fc (54 lx)\n5 fc (54 lx)",
@@ -691,7 +691,7 @@
     "level": "Level II",
     "method": "MT",
     "category": "General",
-    "question": "Before use, a black light shall be allowed to warm up for a minimum of :\n자외선등은 사용 전 최소 얼마 동안 예열해야 하는가?",
+    "question": "Before use, a black light shall be allowed to warm up for a minimum of : (Ref. : ASME Sec.V Art.7)\n자외선등은 사용 전 최소 얼마 동안 예열해야 하는가? (ASME Sec.V Art.7 기준)",
     "options": [
       "1 minute\n1분",
       "5 minutes\n5분",
@@ -706,7 +706,7 @@
     "level": "Level II",
     "method": "MT",
     "category": "General",
-    "question": "The concentration of a nonfluorescent wet magnetic particle suspension shall be :\n비형광 습식 자분 현탁액의 농도는 얼마여야 하는가?",
+    "question": "The concentration of a nonfluorescent wet magnetic particle suspension shall be : (Ref. : ASME Sec.V Art.7)\n비형광 습식 자분 현탁액의 농도는 얼마여야 하는가? (ASME Sec.V Art.7 기준)",
     "options": [
       "0.1 to 0.4 mL per 100 mL of vehicle\n용매 100 mL 당 0.1~0.4 mL",
       "5 to 10 mL per 100 mL of vehicle\n용매 100 mL 당 5~10 mL",
@@ -721,7 +721,7 @@
     "level": "Level II",
     "method": "MT",
     "category": "General",
-    "question": "An alternating current electromagnetic yoke shall have a lifting power of at least ______ at the maximum pole spacing that will be used.\n교류 전자 요크는 쓰려는 최대 극간 간격에서 최소 얼마의 리프팅 파워를 내야 하는가?",
+    "question": "An alternating current electromagnetic yoke shall have a lifting power of at least ______ at the maximum pole spacing that will be used. (Ref. : ASME Sec.V Art.7)\n교류 전자 요크는 쓰려는 최대 극간 간격에서 최소 얼마의 리프팅 파워를 내야 하는가? (ASME Sec.V Art.7 기준)",
     "options": [
       "40 lb (18 kg)\n40 lb (18 kg)",
       "25 lb (11 kg)\n25 lb (11 kg)",
@@ -736,7 +736,7 @@
     "level": "Level II",
     "method": "MT",
     "category": "General",
-    "question": "When using the prod technique, the prod spacing shall not exceed :\n프로드법으로 자화할 때 프로드 간격은 얼마를 넘지 않아야 하는가?",
+    "question": "When using the prod technique, the prod spacing shall not exceed : (Ref. : ASME Sec.V Art.7)\n프로드법으로 자화할 때 프로드 간격은 얼마를 넘지 않아야 하는가? (ASME Sec.V Art.7 기준)",
     "options": [
       "8 in. (200 mm)\n8인치 (200 mm)",
       "4 in. (100 mm)\n4인치 (100 mm)",
@@ -766,7 +766,7 @@
     "level": "Level II",
     "method": "MT",
     "category": "General",
-    "question": "An indication is classified as linear when its length is :\n지시는 길이가 폭의 몇 배를 넘을 때 선형지시로 분류하는가?",
+    "question": "An indication is classified as linear when its length is : (Ref. : ASME Sec.VIII)\n지시는 길이가 폭의 몇 배를 넘을 때 선형지시로 분류하는가? (ASME Sec.VIII 기준)",
     "options": [
       "greater than twice its width\n폭의 2배를 넘을 때",
       "greater than five times its width\n폭의 5배를 넘을 때",
@@ -774,7 +774,7 @@
       "equal to its width\n폭과 같을 때"
     ],
     "answer": 2,
-    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : ASME 계열 규격의 공통 정의다. 길이가 폭의 3배를 넘으면 선형지시, 그 이하면 원형지시로 본다. 합격기준이 둘에 따라 다르므로 분류가 먼저다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : ASME Sec.VIII Div.1 Mandatory Appendix 6 을 비롯한 ASME 계열 규격의 공통 정의다. 길이가 폭의 3배를 넘으면 선형지시, 그 이하면 원형지시로 본다. 합격기준이 둘에 따라 다르므로 분류가 먼저다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
   },
   {
     "id": 53,
@@ -901,7 +901,7 @@
     "level": "Level II",
     "method": "MT",
     "category": "General",
-    "question": "Post-examination cleaning of a part is required when :\n자분탐상 뒤 부재를 세척해야 하는 때는?",
+    "question": "Post-examination cleaning of a part is required when : (Ref. : ASME Sec.V Art.7)\n자분탐상 뒤 부재를 세척해야 하는 때는? (ASME Sec.V Art.7 기준)",
     "options": [
       "the examination was performed with a yoke\n요크로 검사했을 때",
       "residual particles or suspension could interfere with subsequent processing or service\n남은 자분이나 현탁액이 뒤 공정이나 사용에 지장을 줄 수 있을 때",
