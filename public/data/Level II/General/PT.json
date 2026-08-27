@@ -624,11 +624,11 @@
     "question": "What is the minimum penetrant dwell time for a weld at room temperature? (Ref. : ASME Sec.V Art.6)\n상온에서 용접부에 침투액을 두어야 하는 최소 침투시간은? (ASME Sec.V Art.6 기준)",
     "options": [
       "1 minute\n1분",
-      "30 minutes\n30분",
       "10 minutes\n10분",
+      "30 minutes\n30분",
       "60 minutes\n60분"
     ],
-    "answer": 2,
+    "answer": 1,
     "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : ASME Sec.V Art.6 Table 672. 용접부는 최소 10분이다. 침투시간이 짧으면 침투액이 결함 속까지 못 들어가 지시가 안 나온다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
   },
   {
@@ -640,10 +640,10 @@
     "options": [
       "the removal method of the excess penetrant\n남은 침투액을 없애는 방법",
       "the type of developer used\n쓰는 현상제의 종류",
-      "the surface preparation method\n표면을 다듬는 방법",
-      "fluorescent and visible penetrant\n형광 침투액과 가시(염색) 침투액"
+      "fluorescent and visible penetrant\n형광 침투액과 가시(염색) 침투액",
+      "the surface preparation method\n표면을 다듬는 방법"
     ],
-    "answer": 3,
+    "answer": 2,
     "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : ASME Sec.V Art.6. Type 은 침투액의 종류를 가른다 — Type I 형광, Type II 가시. 남은 침투액을 없애는 방법은 Method A(수세성)·B(후유화 친유성)·C(용제제거성)·D(후유화 친수성)로 따로 가른다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
   },
   {
@@ -654,11 +654,11 @@
     "question": "The most likely result of over-washing when removing excess water-washable penetrant is :\n수세성 침투액을 씻어낼 때 지나치게 씻으면 무엇이 일어나는가?",
     "options": [
       "indications become larger and easier to see\n지시가 커져서 더 잘 보인다",
-      "penetrant is washed out of shallow discontinuities and indications are lost\n얕은 결함 속의 침투액까지 씻겨 나가 지시가 사라진다",
+      "the surface temperature rises above the allowed range\n표면 온도가 허용 범위를 넘는다",
       "the developer will not adhere to the surface\n현상제가 표면에 붙지 않는다",
-      "the surface temperature rises above the allowed range\n표면 온도가 허용 범위를 넘는다"
+      "penetrant is washed out of shallow discontinuities and indications are lost\n얕은 결함 속의 침투액까지 씻겨 나가 지시가 사라진다"
     ],
-    "answer": 1,
+    "answer": 3,
     "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 얕은 결함일수록 침투액이 적게 들어가 있어 먼저 씻겨 나간다. 그래서 수압과 물 온도를 제한하고, 씻는 동안 지시를 살피며 멈춘다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
   },
   {
@@ -668,12 +668,12 @@
     "category": "General",
     "question": "When removing excess water-washable penetrant, the water pressure shall not exceed : (Ref. : ASME Sec.V Art.6)\n수세성 침투액을 씻어낼 때 물의 압력은 얼마를 넘지 않아야 하는가? (ASME Sec.V Art.6 기준)",
     "options": [
-      "100 psi (690 kPa)\n100 psi (690 kPa)",
-      "25 psi (170 kPa)\n25 psi (170 kPa)",
       "50 psi (275 kPa)\n50 psi (275 kPa)",
+      "25 psi (170 kPa)\n25 psi (170 kPa)",
+      "100 psi (690 kPa)\n100 psi (690 kPa)",
       "150 psi (1,030 kPa)\n150 psi (1,030 kPa)"
     ],
-    "answer": 2,
+    "answer": 0,
     "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : ASME Sec.V Art.6 T-673.1. 물 압력은 50 psi, 물 온도는 110°F(43℃)를 넘지 않는다. 세게 뿌리면 결함 속 침투액까지 씻겨 나간다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
   },
   {
@@ -700,10 +700,10 @@
     "options": [
       "magnetic attraction\n자기 인력",
       "thermal expansion\n열팽창",
-      "electrical conduction\n전기 전도",
-      "capillary action\n모세관 현상"
+      "capillary action\n모세관 현상",
+      "electrical conduction\n전기 전도"
     ],
-    "answer": 3,
+    "answer": 2,
     "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 좁은 틈일수록 액체가 스스로 빨려 드는 모세관 현상이 침투탐상의 바탕이다. 그래서 결함이 표면에 열려 있고 속이 깨끗해야만 지시가 나온다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
   },
   {
@@ -713,12 +713,12 @@
     "category": "General",
     "question": "Liquid penetrant examination cannot detect :\n침투탐상검사로 찾을 수 없는 결함은?",
     "options": [
-      "discontinuities that are not open to the surface\n표면에 열려 있지 않은 결함",
+      "porosity open to the surface\n표면에 열린 기공",
       "cracks in nonferrous metals\n비철 금속의 균열",
       "laps and seams on the surface\n표면의 랩과 심",
-      "porosity open to the surface\n표면에 열린 기공"
+      "discontinuities that are not open to the surface\n표면에 열려 있지 않은 결함"
     ],
-    "answer": 0,
+    "answer": 3,
     "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 침투액이 들어갈 입구가 있어야 한다. 표면 아래에만 있는 결함은 자분탐상(강자성체)·초음파·방사선으로 찾는다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
   },
   {
@@ -728,12 +728,12 @@
     "category": "General",
     "question": "Penetrant materials used on austenitic stainless steel and titanium shall be controlled for :\n오스테나이트계 스테인리스강과 티타늄에 쓰는 침투탐상 재료는 무엇을 관리해야 하는가?",
     "options": [
-      "viscosity and flash point\n점도와 인화점",
       "sulfur and halogen (chlorine and fluorine) content\n황과 할로겐(염소·불소) 함량",
+      "viscosity and flash point\n점도와 인화점",
       "water content only\n수분 함량만",
       "colour contrast ratio\n색 대비 비율"
     ],
-    "answer": 1,
+    "answer": 0,
     "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 황은 니켈 합금에, 염소·불소는 오스테나이트계 스테인리스강과 티타늄에 응력부식균열을 일으킬 수 있다. 그래서 시험 성적서로 함량을 확인하고 검사 뒤 반드시 세척한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
   },
   {
@@ -743,12 +743,12 @@
     "category": "General",
     "question": "Post-examination cleaning after liquid penetrant examination is required because : (Ref. : ASME Sec.V Art.6)\n침투탐상검사 뒤에 부재를 세척해야 하는 까닭은? (ASME Sec.V Art.6 기준)",
     "options": [
-      "residual materials could interfere with subsequent processing or service\n남은 침투액·현상제가 뒤 공정이나 사용에 지장을 줄 수 있기 때문에",
       "the penetrant will re-enter the discontinuities\n침투액이 결함 속으로 다시 들어가기 때문에",
+      "residual materials could interfere with subsequent processing or service\n남은 침투액·현상제가 뒤 공정이나 사용에 지장을 줄 수 있기 때문에",
       "the developer changes the surface hardness\n현상제가 표면 경도를 바꾸기 때문에",
       "the surface would rust within one hour\n한 시간 안에 표면이 녹슬기 때문에"
     ],
-    "answer": 0,
+    "answer": 1,
     "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : ASME Sec.V Art.6 T-680. 남은 재료는 도장·용접·조립을 방해하고, 황·염소가 든 것은 재질을 상하게 한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
   },
   {
@@ -759,11 +759,11 @@
     "question": "A penetrant indication is evaluated as linear when its length is : (Ref. : ASME Sec.VIII)\n침투탐상 지시는 길이가 폭의 몇 배를 넘을 때 선형지시로 보는가? (ASME Sec.VIII 기준)",
     "options": [
       "greater than twice its width\n폭의 2배를 넘을 때",
-      "greater than three times its width\n폭의 3배를 넘을 때",
       "greater than five times its width\n폭의 5배를 넘을 때",
+      "greater than three times its width\n폭의 3배를 넘을 때",
       "equal to its width\n폭과 같을 때"
     ],
-    "answer": 1,
+    "answer": 2,
     "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : ASME Sec.VIII Div.1 Mandatory Appendix 8 을 비롯한 ASME 계열 규격의 공통 정의다. 길이가 폭의 3배를 넘으면 선형지시, 그 이하면 원형지시다. 합격기준이 둘에 따라 다르므로 분류가 먼저다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
   },
   {
@@ -774,11 +774,11 @@
     "question": "When removing excess solvent removable penetrant, the solvent shall be : (Ref. : ASME Sec.V Art.6)\n용제제거성 침투액을 없앨 때 용제는 어떻게 써야 하는가? (ASME Sec.V Art.6 기준)",
     "options": [
       "sprayed directly onto the examination surface\n검사면에 곧바로 뿌린다",
-      "applied with a cloth dampened with solvent, after wiping with a dry cloth\n마른 헝겊으로 먼저 닦은 뒤, 용제를 묻힌 헝겊으로 닦는다",
+      "mixed with water before use\n물에 타서 쓴다",
       "poured over the surface and allowed to run off\n표면에 부어 흘러내리게 둔다",
-      "mixed with water before use\n물에 타서 쓴다"
+      "applied with a cloth dampened with solvent, after wiping with a dry cloth\n마른 헝겊으로 먼저 닦은 뒤, 용제를 묻힌 헝겊으로 닦는다"
     ],
-    "answer": 1,
+    "answer": 3,
     "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : ASME Sec.V Art.6 T-673.2. 용제를 표면에 곧바로 뿌리면 결함 속 침투액까지 씻겨 나가 지시를 잃는다. 마른 헝겊으로 먼저 닦아내고, 남은 것만 용제를 살짝 묻힌 헝겊으로 닦는다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
   },
   {
@@ -834,11 +834,11 @@
     "question": "If the examination surface temperature is below the qualified range, the correct action is to : (Ref. : ASME Sec.V Art.6)\n검사면 온도가 인증된 범위보다 낮으면 어떻게 해야 하는가? (ASME Sec.V Art.6 기준)",
     "options": [
       "double the penetrant dwell time and proceed\n침투시간을 두 배로 늘려 그대로 검사한다",
-      "qualify the procedure at the lower temperature before examining\n그 낮은 온도에서 절차서를 인증한 뒤에 검사한다",
+      "record the temperature and accept the result as is\n온도를 기록하고 결과를 그대로 받아들인다",
       "use a dry developer instead of a wet one\n습식 대신 건식 현상제를 쓴다",
-      "record the temperature and accept the result as is\n온도를 기록하고 결과를 그대로 받아들인다"
+      "qualify the procedure at the lower temperature before examining\n그 낮은 온도에서 절차서를 인증한 뒤에 검사한다"
     ],
-    "answer": 1,
+    "answer": 3,
     "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : ASME Sec.V Art.6 T-653. 범위 밖 온도에서 쓰려면 그 온도에서 인증된 결함이 있는 시험편으로 절차서를 인증해야 한다. 시간을 늘리는 것으로 갈음할 수 없다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
   },
   {
@@ -848,12 +848,12 @@
     "category": "General",
     "question": "Which surface preparation method is least suitable before liquid penetrant examination?\n침투탐상검사 전 표면 처리로 가장 알맞지 않은 것은?",
     "options": [
-      "solvent cleaning\n용제 세척",
-      "vapour degreasing\n증기 탈지",
       "shot blasting\n숏 블라스팅",
+      "vapour degreasing\n증기 탈지",
+      "solvent cleaning\n용제 세척",
       "alkaline cleaning followed by rinsing\n알칼리 세척 뒤 헹굼"
     ],
-    "answer": 2,
+    "answer": 0,
     "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 숏·샌드 블라스팅은 표면을 두들겨 결함 입구를 막아 버린다. 부득이 썼다면 산세(에칭)로 눌린 금속을 걷어낸 뒤 검사한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
   },
   {
@@ -878,12 +878,12 @@
     "category": "General",
     "question": "For a visible (colour contrast) penetrant examination, the minimum light intensity at the examination surface is : (Ref. : ASME Sec.V Art.6)\n가시(염색) 침투탐상검사에서 검사면의 최소 조도는? (ASME Sec.V Art.6 기준)",
     "options": [
-      "100 fc (1,000 lx)\n100 fc (1,000 lx)",
-      "10 fc (100 lx)\n10 fc (100 lx)",
       "50 fc (500 lx)\n50 fc (500 lx)",
+      "10 fc (100 lx)\n10 fc (100 lx)",
+      "100 fc (1,000 lx)\n100 fc (1,000 lx)",
       "200 fc (2,000 lx)\n200 fc (2,000 lx)"
     ],
-    "answer": 0,
+    "answer": 2,
     "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : ASME Sec.V Art.6 T-676. 자분탐상의 가시광 조건과 같은 값이다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
   },
   {
@@ -894,11 +894,11 @@
     "question": "Excessive drying of the part after washing and before applying a dry developer may :\n씻은 뒤 건식 현상제를 도포하기 전에 지나치게 말리면 무엇이 일어나는가?",
     "options": [
       "improve the contrast of the indication\n지시의 대비가 좋아진다",
-      "dry the penetrant inside the discontinuity so that it will not bleed out\n결함 속 침투액까지 말라붙어 배어 나오지 않는다",
+      "increase the fluorescent brightness\n형광 밝기가 세진다",
       "shorten the required developing time\n필요한 현상시간이 짧아진다",
-      "increase the fluorescent brightness\n형광 밝기가 세진다"
+      "dry the penetrant inside the discontinuity so that it will not bleed out\n결함 속 침투액까지 말라붙어 배어 나오지 않는다"
     ],
-    "answer": 1,
+    "answer": 3,
     "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 결함 속 침투액이 마르면 현상제가 빨아낼 것이 없어 지시가 안 나온다. 그래서 건조 온도와 시간을 제한한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
   }
 ]

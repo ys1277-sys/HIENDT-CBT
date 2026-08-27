@@ -618,12 +618,12 @@
     "category": "General",
     "question": "For a discontinuity to produce the strongest indication, the magnetic field should be oriented :\n결함이 가장 뚜렷한 지시를 만들려면 자장의 방향은 결함에 대해 어떠해야 하는가?",
     "options": [
-      "parallel to the length of the discontinuity\n결함의 길이 방향과 평행",
       "perpendicular to the length of the discontinuity\n결함의 길이 방향과 수직",
+      "parallel to the length of the discontinuity\n결함의 길이 방향과 평행",
       "at 45 degrees to the length of the discontinuity\n결함의 길이 방향과 45도",
       "in any direction, since the field is not directional\n자장에는 방향이 없으므로 어느 쪽이든 상관없다"
     ],
-    "answer": 1,
+    "answer": 0,
     "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 자속이 결함을 가로질러 끊겨야 누설자장이 생긴다. 결함과 나란하면 자속이 그대로 흘러 지시가 거의 안 생기며, 그래서 한 부재를 서로 직각인 두 방향으로 자화한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
   },
   {
@@ -634,11 +634,11 @@
     "question": "A pie-shaped magnetic particle field indicator is used to : (Ref. : ASME Sec.V Art.7)\n파이형 자장지시계(pie gauge)는 무엇에 쓰는가? (ASME Sec.V Art.7 기준)",
     "options": [
       "measure the magnetizing current in amperes\n자화 전류를 암페어로 재는 데 쓴다",
-      "measure the residual field after demagnetization\n탈자 뒤 남은 잔류 자장을 재는 데 쓴다",
       "show the direction of the magnetic field and whether its strength is adequate\n자장의 방향과 세기가 충분한지 보이기 위해 쓰인다",
+      "measure the residual field after demagnetization\n탈자 뒤 남은 잔류 자장을 재는 데 쓴다",
       "check the concentration of the wet particle suspension\n습식 현탁액의 자분 농도를 확인하는 데 쓴다"
     ],
-    "answer": 2,
+    "answer": 1,
     "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : ASME Sec.V Art.7 T-764.1 · HIE-NDT-MT-P11 4.2.2. 파이 게이지는 자장의 방향과 세기가 충분한지 보일 뿐, 자장의 크기를 재는 계기가 아니다. 전류는 전류계로, 잔류 자장은 자장계로 잰다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
   },
   {
@@ -650,10 +650,10 @@
     "options": [
       "10 fc (100 lx)\n10 fc (100 lx)",
       "50 fc (500 lx)\n50 fc (500 lx)",
-      "200 fc (2,000 lx)\n200 fc (2,000 lx)",
-      "100 fc (1,000 lx)\n100 fc (1,000 lx)"
+      "100 fc (1,000 lx)\n100 fc (1,000 lx)",
+      "200 fc (2,000 lx)\n200 fc (2,000 lx)"
     ],
-    "answer": 3,
+    "answer": 2,
     "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : ASME Sec.V Art.7 T-777.1 · HIE-NDT-MT-P11 4.3.2 「최소 조도는 100 fc (1,000 lx)」. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
   },
   {
@@ -663,12 +663,12 @@
     "category": "General",
     "question": "The minimum black light intensity at the examination surface for fluorescent magnetic particle examination is : (Ref. : ASME Sec.V Art.7)\n형광 자분탐상검사에서 검사면의 최소 자외선 세기는 얼마인가? (ASME Sec.V Art.7 기준)",
     "options": [
-      "1,000 μW/cm²\n1,000 ㎼/㎠",
+      "2,000 μW/cm²\n2,000 ㎼/㎠",
       "100 μW/cm²\n100 ㎼/㎠",
       "500 μW/cm²\n500 ㎼/㎠",
-      "2,000 μW/cm²\n2,000 ㎼/㎠"
+      "1,000 μW/cm²\n1,000 ㎼/㎠"
     ],
-    "answer": 0,
+    "answer": 3,
     "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : ASME Sec.V Art.7 T-777.2 · HIE-NDT-MT-P11 4.3.3 (d) 「검사 기간 내내 최소 1000 ㎼/㎠ 이상」. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
   },
   {
@@ -678,12 +678,12 @@
     "category": "General",
     "question": "During fluorescent magnetic particle examination, the ambient white light at the examination surface shall not exceed : (Ref. : ASME Sec.V Art.7)\n형광 자분탐상검사를 하는 동안 검사면의 주변 백색광은 얼마를 넘지 않아야 하는가? (ASME Sec.V Art.7 기준)",
     "options": [
-      "10 fc (108 lx)\n10 fc (108 lx)",
-      "5 fc (54 lx)\n5 fc (54 lx)",
       "2 fc (21.5 lx)\n2 fc (21.5 lx)",
+      "5 fc (54 lx)\n5 fc (54 lx)",
+      "10 fc (108 lx)\n10 fc (108 lx)",
       "20 fc (215 lx)\n20 fc (215 lx)"
     ],
-    "answer": 2,
+    "answer": 0,
     "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : ASME Sec.V Art.7 T-777.2 · HIE-NDT-MT-P11 4.3.3 (a) 「보정된 조도계로 측정한 최대 주변 조도가 2 fc(21.5 lx)인 어두운 영역에서 수행」. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
   },
   {
@@ -784,11 +784,11 @@
     "question": "Compared with alternating current, direct current magnetization is better for detecting :\n직류 자화는 교류 자화와 견주어 어떤 결함을 찾는 데 더 나은가?",
     "options": [
       "discontinuities open to the surface only\n표면에 열린 결함만",
-      "subsurface discontinuities\n표면 아래에 있는 결함",
+      "discontinuities regardless of their orientation\n방향과 상관없이 모든 결함",
       "discontinuities in nonferrous materials\n비철 재료에 있는 결함",
-      "discontinuities regardless of their orientation\n방향과 상관없이 모든 결함"
+      "subsurface discontinuities\n표면 아래에 있는 결함"
     ],
-    "answer": 1,
+    "answer": 3,
     "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 교류는 표피효과 때문에 자속이 표면에 몰려 표면 결함에 민감하고, 직류는 속까지 들어가 표면 아래 결함까지 찾는다. 자화 전류를 고를 때 첫째로 따지는 것이다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
   },
   {
@@ -798,12 +798,12 @@
     "category": "General",
     "question": "In the continuous magnetization technique, the magnetic particles are applied :\n연속법에서 자분은 언제 적용하는가?",
     "options": [
-      "after the magnetizing current has been turned off\n자화 전류를 끊은 뒤",
-      "before the magnetizing current is turned on\n자화 전류를 넣기 전",
       "while the magnetizing current is flowing\n자화 전류가 흐르고 있는 동안",
+      "before the magnetizing current is turned on\n자화 전류를 넣기 전",
+      "after the magnetizing current has been turned off\n자화 전류를 끊은 뒤",
       "after the part has been demagnetized\n부재를 탈자한 뒤"
     ],
-    "answer": 2,
+    "answer": 0,
     "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 연속법은 전류가 흐르는 동안 자분을 적용해 자화가 가장 센 때에 자분이 붙게 한다. 전류를 끊은 뒤 적용하는 것이 잔류법이다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
   },
   {
@@ -814,11 +814,11 @@
     "question": "A magnetic particle indication that is caused by an abrupt change in section thickness and not by a discontinuity is called :\n결함이 아니라 단면 두께가 갑자기 바뀐 탓에 나타나는 자분 지시를 무엇이라 하는가?",
     "options": [
       "a false indication\n의사지시",
-      "a relevant indication\n관련지시",
       "a nonrelevant indication\n무관련지시",
+      "a relevant indication\n관련지시",
       "a residual indication\n잔류지시"
     ],
-    "answer": 2,
+    "answer": 1,
     "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 단면 변화·기하 형상 때문에 자속이 새어 생긴 지시는 무관련지시다. 자분이 흘러내렸거나 표면이 더러워 생긴 지시는 의사지시로 따로 부른다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
   },
   {
@@ -829,11 +829,11 @@
     "question": "The magnetic field produced when current is passed through a coil wrapped around a part is :\n부재에 코일을 감고 전류를 흘리면 어떤 자장이 생기는가?",
     "options": [
       "circular, and detects discontinuities parallel to the part axis\n원형 자장이며 축과 나란한 결함을 찾는다",
-      "longitudinal, and detects discontinuities transverse to the part axis\n종축 자장이며 축과 가로지르는 결함을 찾는다",
       "longitudinal, and detects discontinuities parallel to the part axis\n종축 자장이며 축과 나란한 결함을 찾는다",
+      "longitudinal, and detects discontinuities transverse to the part axis\n종축 자장이며 축과 가로지르는 결함을 찾는다",
       "circular, and detects discontinuities transverse to the part axis\n원형 자장이며 축과 가로지르는 결함을 찾는다"
     ],
-    "answer": 1,
+    "answer": 2,
     "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 코일 자화는 부재 축을 따라 흐르는 종축 자장을 만든다. 자장은 결함과 수직일 때 가장 잘 잡히므로 축을 가로지르는 결함을 찾는다. 부재에 직접 전류를 흘리면 원형 자장이 생겨 축과 나란한 결함을 찾는다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
   },
   {
@@ -890,10 +890,10 @@
     "options": [
       "increase the residual magnetism of the part\n부재의 잔류자기를 키우기 때문에",
       "cause the magnetic particles to lose their magnetism\n자분이 자성을 잃게 하기 때문에",
-      "change the permeability of the base metal\n모재의 투자율을 바꾸기 때문에",
-      "can fill discontinuities, and particles cling where there is no discontinuity at all\n결함 입구를 막고, 결함이 없는 자리에도 자분이 묻어 있기 때문에"
+      "can fill discontinuities, and particles cling where there is no discontinuity at all\n결함 입구를 막고, 결함이 없는 자리에도 자분이 묻어 있기 때문에",
+      "change the permeability of the base metal\n모재의 투자율을 바꾸기 때문에"
     ],
-    "answer": 3,
+    "answer": 2,
     "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 기름·녹·스케일은 결함 입구를 막아 지시를 못 나오게 하고, 거꾸로 결함이 없는 자리에도 자분이 묻어 의사지시를 만든다. 어느 쪽이든 판독을 그르친다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
   },
   {
@@ -904,11 +904,11 @@
     "question": "Post-examination cleaning of a part is required when : (Ref. : ASME Sec.V Art.7)\n자분탐상 뒤 부재를 세척해야 하는 때는? (ASME Sec.V Art.7 기준)",
     "options": [
       "the examination was performed with a yoke\n요크로 검사했을 때",
-      "residual particles or suspension could interfere with subsequent processing or service\n남은 자분이나 현탁액이 뒤 공정이나 사용에 지장을 줄 수 있을 때",
+      "fluorescent particles were used, in every case\n형광 자분을 썼으면 언제나",
       "the part was found to be acceptable\n부재가 합격 판정을 받았을 때",
-      "fluorescent particles were used, in every case\n형광 자분을 썼으면 언제나"
+      "residual particles or suspension could interfere with subsequent processing or service\n남은 자분이나 현탁액이 뒤 공정이나 사용에 지장을 줄 수 있을 때"
     ],
-    "answer": 1,
+    "answer": 3,
     "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : ASME Sec.V Art.7 T-780 계열. 세척은 언제나 하는 것이 아니라, 남은 자분·현탁액이 뒤 공정(도장·용접·조립)이나 사용에 지장을 줄 때 한다. 탈자도 같은 잣대로 판단한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
   }
 ]

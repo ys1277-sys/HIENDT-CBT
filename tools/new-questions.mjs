@@ -42,273 +42,274 @@ const BANKS = {
      ═══════════════════════════════════════════ */
   /* Level Ⅱ 일반 MT 20문항은 2026-08-27 에 넣었다 — tools/_mt-done.txt */
 
+  /* Level Ⅱ 일반 PT 20문항은 2026-08-27 에 넣었다 — tools/_pt-done.txt */
+
   /* ═══════════════════════════════════════════
-     Level Ⅱ 일반 PT — 40문항 → 60문항
-     ASME Sec.V Art.6 과 침투탐상 원리를 본다
+     Level Ⅱ 일반 RT — 40문항 → 60문항
+     ASME Sec.V Art.2 와 방사선투과 원리를 본다
      ═══════════════════════════════════════════ */
-  "Level II/General/PT": [
+  "Level II/General/RT": [
 
     {
-      q: Q("The examination surface temperature during liquid penetrant examination shall be within :",
-           "침투탐상검사를 하는 동안 검사면의 온도는 어느 범위 안에 있어야 하는가?"),
+      q: Q("Where shall the image quality indicator (IQI) normally be placed?",
+           "투과도계(IQI)는 원칙적으로 어디에 두는가?"),
       o: [
-        Q("40°F to 125°F (5°C to 52°C)", "40°F~125°F (5℃~52℃)"),
-        Q("32°F to 100°F (0°C to 38°C)", "32°F~100°F (0℃~38℃)"),
-        Q("60°F to 150°F (16°C to 66°C)", "60°F~150°F (16℃~66℃)"),
-        Q("50°F to 200°F (10°C to 93°C)", "50°F~200°F (10℃~93℃)"),
+        Q("on the film side of the object", "시험체의 필름 쪽"),
+        Q("on the source side of the object", "시험체의 선원 쪽"),
+        Q("between the film and the cassette", "필름과 카세트 사이"),
+        Q("anywhere outside the area of interest", "관심 부위 밖이면 어디든"),
       ],
-      a: 0,
-      why: "ASME Sec.V Art.6 T-651. 이 범위를 벗어나 쓰려면 그 온도에서 절차서를 따로 인증해야 한다.",
+      a: 1,
+      why: "ASME Sec.V Art.2 T-277.1. 선원 쪽이 원칙이다. 선원에서 먼 쪽일수록 상이 흐려지므로, 가장 불리한 자리에 두어야 그 사진이 요구 감도를 낸다고 말할 수 있다. 선원 쪽에 둘 수 없을 때만 필름 쪽에 두고 F 표시를 한다.",
     },
 
     {
-      q: Q("What is the minimum penetrant dwell time for a weld at room temperature?",
-           "상온에서 용접부에 침투액을 두어야 하는 최소 침투시간은?"),
+      q: Q("For a single-film viewing radiograph made with an X-ray source, the film density in the area of interest shall be :",
+           "X선으로 찍어 필름 한 장으로 볼 때, 관심 부위의 사진 농도는 얼마여야 하는가?"),
       o: [
-        Q("1 minute", "1분"),
-        Q("30 minutes", "30분"),
-        Q("10 minutes", "10분"),
-        Q("60 minutes", "60분"),
+        Q("1.3 to 4.0", "1.3~4.0"),
+        Q("2.0 to 4.0", "2.0~4.0"),
+        Q("1.8 to 4.0", "1.8~4.0"),
+        Q("1.0 to 3.0", "1.0~3.0"),
       ],
       a: 2,
-      why: "ASME Sec.V Art.6 Table 672. 용접부는 최소 10분이다. 침투시간이 짧으면 침투액이 결함 속까지 못 들어가 지시가 안 나온다.",
+      why: "ASME Sec.V Art.2 T-282.1. X선 단일필름은 1.8~4.0, 감마선 단일필름은 2.0~4.0, 여러 장을 겹쳐 볼 때는 각 장이 1.3 이상이면 된다.",
     },
 
     {
-      q: Q("In the liquid penetrant method classification, Type I and Type II refer to :",
-           "침투탐상에서 Type I 과 Type II 는 무엇을 가르는 말인가?"),
+      q: Q("The geometric unsharpness (Ug) of a radiograph is calculated as :",
+           "방사선투과사진의 기하학적 불선명도(Ug)를 구하는 식은?"),
       o: [
-        Q("the removal method of the excess penetrant", "남은 침투액을 없애는 방법"),
-        Q("the type of developer used", "쓰는 현상제의 종류"),
-        Q("the surface preparation method", "표면을 다듬는 방법"),
-        Q("fluorescent and visible penetrant", "형광 침투액과 가시(염색) 침투액"),
-      ],
-      a: 3,
-      why: "ASME Sec.V Art.6. Type 은 침투액의 종류를 가른다 — Type I 형광, Type II 가시. 남은 침투액을 없애는 방법은 Method A(수세성)·B(후유화 친유성)·C(용제제거성)·D(후유화 친수성)로 따로 가른다.",
-    },
-
-    {
-      q: Q("The most likely result of over-washing when removing excess water-washable penetrant is :",
-           "수세성 침투액을 씻어낼 때 지나치게 씻으면 무엇이 일어나는가?"),
-      o: [
-        Q("indications become larger and easier to see", "지시가 커져서 더 잘 보인다"),
-        Q("penetrant is washed out of shallow discontinuities and indications are lost", "얕은 결함 속의 침투액까지 씻겨 나가 지시가 사라진다"),
-        Q("the developer will not adhere to the surface", "현상제가 표면에 붙지 않는다"),
-        Q("the surface temperature rises above the allowed range", "표면 온도가 허용 범위를 넘는다"),
+        Q("Ug = F × d / t", "Ug = F × d / t"),
+        Q("Ug = F × t / d", "Ug = F × t / d"),
+        Q("Ug = t × d / F", "Ug = t × d / F"),
+        Q("Ug = F + t + d", "Ug = F + t + d"),
       ],
       a: 1,
-      why: "얕은 결함일수록 침투액이 적게 들어가 있어 먼저 씻겨 나간다. 그래서 수압과 물 온도를 제한하고, 씻는 동안 지시를 살피며 멈춘다.",
+      why: "ASME Sec.V Art.2 T-274.1. F 는 선원 크기, t 는 시험체에서 필름까지 거리, d 는 선원에서 시험체 선원쪽 면까지 거리다. 선원이 작을수록, 필름을 붙일수록, 거리를 멀리 둘수록 상이 또렷하다.",
     },
 
     {
-      q: Q("When removing excess water-washable penetrant, the water pressure shall not exceed :",
-           "수세성 침투액을 씻어낼 때 물의 압력은 얼마를 넘지 않아야 하는가?"),
+      q: Q("The thickness of material that reduces the radiation intensity to one half is called the :",
+           "방사선의 세기를 절반으로 줄이는 재료의 두께를 무엇이라 하는가?"),
       o: [
-        Q("100 psi (690 kPa)", "100 psi (690 kPa)"),
-        Q("25 psi (170 kPa)", "25 psi (170 kPa)"),
-        Q("50 psi (275 kPa)", "50 psi (275 kPa)"),
-        Q("150 psi (1,030 kPa)", "150 psi (1,030 kPa)"),
+        Q("half-value layer", "반가층"),
+        Q("tenth-value layer", "십분의일가층"),
+        Q("critical thickness", "임계두께"),
+        Q("absorption coefficient", "흡수계수"),
+      ],
+      a: 0,
+      why: "차폐 두께를 잡을 때 쓰는 값이다. 반가층을 두 번 겹치면 1/4, 세 번이면 1/8 로 줄어든다.",
+    },
+
+    {
+      q: Q("A light image of the letter B on a darker background of the radiograph indicates :",
+           "방사선투과사진의 어두운 바탕에 밝은 B 글자가 나타나면 무엇을 뜻하는가?"),
+      o: [
+        Q("the film was fogged during storage", "필름이 보관 중에 흐려졌다"),
+        Q("the developer temperature was too high", "현상액 온도가 너무 높았다"),
+        Q("protection from back-scattered radiation is insufficient", "후방산란을 막는 것이 모자란다"),
+        Q("the source-to-film distance was too short", "선원-필름 거리가 너무 짧았다"),
       ],
       a: 2,
-      why: "ASME Sec.V Art.6 T-673.1. 물 압력은 50 psi, 물 온도는 110°F(43℃)를 넘지 않는다. 세게 뿌리면 결함 속 침투액까지 씻겨 나간다.",
+      why: "ASME Sec.V Art.2 T-223. 카세트 뒤에 납 B 글자를 붙여 찍는다. 어두운 바탕에 밝은 B 가 뜨면 뒤에서 산란선이 들어온 것이라 다시 찍는다. 반대로 밝은 바탕에 어두운 B 가 뜨는 것은 문제가 아니다.",
     },
 
     {
-      q: Q("After applying the developer, the minimum developing time before interpretation is :",
-           "현상제를 도포한 뒤 판독까지 두어야 하는 최소 현상시간은?"),
+      q: Q("The primary purpose of a collimator in gamma radiography is to :",
+           "감마선 촬영에서 시준기(collimator)를 쓰는 가장 큰 까닭은?"),
       o: [
-        Q("1 minute", "1분"),
-        Q("10 minutes", "10분"),
-        Q("30 minutes", "30분"),
-        Q("60 minutes", "60분"),
+        Q("increase the intensity of the source", "선원의 세기를 키우려고"),
+        Q("limit the beam to the area of interest, reducing scatter and exposure to personnel", "방사선을 필요한 자리로만 내보내 산란선과 사람 피폭을 줄이려고"),
+        Q("shorten the half-life of the source", "선원의 반감기를 줄이려고"),
+        Q("replace the lead intensifying screens", "납 증감지를 대신하려고"),
       ],
       a: 1,
-      why: "ASME Sec.V Art.6 T-676.4. 최소 10분을 두어야 결함 속 침투액이 배어 나온다. 판독은 그 뒤 60분 안에 마친다.",
+      why: "시준기는 선원을 감싸 한 방향으로만 방사선을 내보낸다. 쓸데없이 퍼지는 선이 줄어 산란선이 적어지고 사진이 또렷해지며, 둘레 사람의 피폭도 준다. 선원 자체의 세기나 반감기는 달라지지 않는다.",
     },
 
     {
-      q: Q("Liquid penetrant examination relies on which physical action to draw penetrant into a discontinuity?",
-           "침투액이 결함 속으로 들어가는 것은 어떤 작용 때문인가?"),
+      q: Q("What is the purpose of using lead intensifying screens in radiography?",
+           "방사선투과검사에서 납 증감지를 쓰는 까닭은?"),
       o: [
-        Q("magnetic attraction", "자기 인력"),
-        Q("thermal expansion", "열팽창"),
-        Q("electrical conduction", "전기 전도"),
-        Q("capillary action", "모세관 현상"),
+        Q("to reduce the source-to-film distance", "선원-필름 거리를 줄이려고"),
+        Q("to intensify the primary radiation and filter out scattered radiation", "1차 방사선의 작용을 키우고 산란선을 걸러내려고"),
+        Q("to lower the film density", "사진 농도를 낮추려고"),
+        Q("to identify the film in the darkroom", "암실에서 필름을 가려내려고"),
       ],
-      a: 3,
-      why: "좁은 틈일수록 액체가 스스로 빨려 드는 모세관 현상이 침투탐상의 바탕이다. 그래서 결함이 표면에 열려 있고 속이 깨끗해야만 지시가 나온다.",
+      a: 1,
+      why: "납이 방사선을 받아 전자를 내보내 필름을 더 감광시키므로 노출시간이 준다. 동시에 에너지가 낮은 산란선을 걸러 사진이 또렷해진다.",
     },
 
     {
-      q: Q("Liquid penetrant examination cannot detect :",
-           "침투탐상검사로 찾을 수 없는 결함은?"),
+      q: Q("The double wall double image (elliptical) technique is normally used on pipe with an outside diameter of :",
+           "이중벽 이중상(타원) 촬영법은 보통 바깥지름이 얼마 이하인 배관에 쓰는가?"),
       o: [
-        Q("discontinuities that are not open to the surface", "표면에 열려 있지 않은 결함"),
-        Q("cracks in nonferrous metals", "비철 금속의 균열"),
-        Q("laps and seams on the surface", "표면의 랩과 심"),
-        Q("porosity open to the surface", "표면에 열린 기공"),
+        Q("3.5 in. (89 mm) or less", "3.5인치(89 mm) 이하"),
+        Q("12 in. (300 mm) or less", "12인치(300 mm) 이하"),
+        Q("24 in. (600 mm) or less", "24인치(600 mm) 이하"),
+        Q("any diameter", "지름과 상관없이 어디에나"),
       ],
       a: 0,
-      why: "침투액이 들어갈 입구가 있어야 한다. 표면 아래에만 있는 결함은 자분탐상(강자성체)·초음파·방사선으로 찾는다.",
+      why: "ASME Sec.V Art.2 T-271.2. 지름이 3.5인치를 넘으면 위아래 용접부가 겹쳐 판독이 어려워 이중벽 단일상으로 바꾼다.",
     },
 
     {
-      q: Q("Penetrant materials used on austenitic stainless steel and titanium shall be controlled for :",
-           "오스테나이트계 스테인리스강과 티타늄에 쓰는 침투탐상 재료는 무엇을 관리해야 하는가?"),
+      q: Q("For complete coverage of a circumferential weld using the double wall double image technique, the minimum number of exposures is :",
+           "이중벽 이중상 촬영법으로 원주 용접부를 빠짐없이 찍으려면 최소 몇 회 촬영해야 하는가?"),
       o: [
-        Q("viscosity and flash point", "점도와 인화점"),
-        Q("sulfur and halogen (chlorine and fluorine) content", "황과 할로겐(염소·불소) 함량"),
-        Q("water content only", "수분 함량만"),
-        Q("colour contrast ratio", "색 대비 비율"),
+        Q("one exposure", "1회"),
+        Q("two exposures 90° apart", "90° 간격으로 2회"),
+        Q("four exposures 90° apart", "90° 간격으로 4회"),
+        Q("three exposures 120° apart", "120° 간격으로 3회"),
       ],
       a: 1,
-      why: "황은 니켈 합금에, 염소·불소는 오스테나이트계 스테인리스강과 티타늄에 응력부식균열을 일으킬 수 있다. 그래서 시험 성적서로 함량을 확인하고 검사 뒤 반드시 세척한다.",
+      why: "ASME Sec.V Art.2 T-271.2. 타원으로 찍으면 한 번에 위아래 용접부를 함께 보므로 90° 돌려 두 번이면 한 바퀴가 다 덮인다. 타원으로 안 찍을 때는 60° 간격 세 번이 필요하다.",
     },
 
     {
-      q: Q("Post-examination cleaning after liquid penetrant examination is required because :",
-           "침투탐상검사 뒤에 부재를 세척해야 하는 까닭은?"),
+      q: Q("A densitometer used to measure radiographic film density shall be calibrated at least :",
+           "사진 농도를 재는 밀도계는 최소 얼마마다 교정해야 하는가?"),
       o: [
-        Q("residual materials could interfere with subsequent processing or service", "남은 침투액·현상제가 뒤 공정이나 사용에 지장을 줄 수 있기 때문에"),
-        Q("the penetrant will re-enter the discontinuities", "침투액이 결함 속으로 다시 들어가기 때문에"),
-        Q("the developer changes the surface hardness", "현상제가 표면 경도를 바꾸기 때문에"),
-        Q("the surface would rust within one hour", "한 시간 안에 표면이 녹슬기 때문에"),
+        Q("every 30 days", "30일마다"),
+        Q("every 90 days", "90일마다"),
+        Q("every 6 months", "6개월마다"),
+        Q("once a year", "1년마다"),
+      ],
+      a: 1,
+      why: "ASME Sec.V Art.2 T-262.1. 밀도계는 90일마다, 농도 비교 필름(step wedge comparison film)은 1년마다 교정한다.",
+    },
+
+    {
+      q: Q("The three basic means of protection against radiation exposure are :",
+           "방사선 피폭을 막는 세 가지 기본은 무엇인가?"),
+      o: [
+        Q("filtration, collimation, and screening", "여과·시준·증감"),
+        Q("time, distance, and shielding", "시간·거리·차폐"),
+        Q("voltage, current, and exposure time", "관전압·관전류·노출시간"),
+        Q("density, contrast, and definition", "농도·대비·선명도"),
+      ],
+      a: 1,
+      why: "머무는 시간을 줄이고, 선원에서 멀어지고, 사이에 차폐물을 두는 것이다. 거리는 역제곱 법칙을 따라 두 배 멀어지면 4분의 1로 준다.",
+    },
+
+    {
+      q: Q("A crescent-shaped (crimp) mark on a processed radiograph is caused by :",
+           "현상한 방사선투과사진에 초승달 모양 자국이 생기는 까닭은?"),
+      o: [
+        Q("bending or kinking the film sharply before processing", "현상 전에 필름을 세게 꺾거나 접었기 때문"),
+        Q("developer temperature being too low", "현상액 온도가 너무 낮았기 때문"),
+        Q("insufficient source-to-film distance", "선원-필름 거리가 모자랐기 때문"),
+        Q("scattered radiation from the floor", "바닥에서 온 산란선 때문"),
       ],
       a: 0,
-      why: "ASME Sec.V Art.6 T-680. 남은 재료는 도장·용접·조립을 방해하고, 황·염소가 든 것은 재질을 상하게 한다.",
+      why: "필름을 손톱으로 눌러 꺾으면 그 자리 감광유제가 상해 초승달 모양으로 남는다. 결함으로 잘못 읽히므로 필름은 꺾지 말고 다뤄야 한다.",
     },
 
     {
-      q: Q("A penetrant indication is evaluated as linear when its length is :",
-           "침투탐상 지시는 길이가 폭의 몇 배를 넘을 때 선형지시로 보는가?"),
+      q: Q("For manual processing, the developer temperature is normally maintained at about :",
+           "수동 현상에서 현상액 온도는 보통 얼마로 유지하는가?"),
       o: [
-        Q("greater than twice its width", "폭의 2배를 넘을 때"),
-        Q("greater than three times its width", "폭의 3배를 넘을 때"),
-        Q("greater than five times its width", "폭의 5배를 넘을 때"),
-        Q("equal to its width", "폭과 같을 때"),
+        Q("50°F (10°C)", "50°F (10℃)"),
+        Q("68°F (20°C)", "68°F (20℃)"),
+        Q("85°F (29°C)", "85°F (29℃)"),
+        Q("100°F (38°C)", "100°F (38℃)"),
       ],
       a: 1,
-      why: "ASME Sec.VIII Div.1 Mandatory Appendix 8 을 비롯한 ASME 계열 규격의 공통 정의다. 길이가 폭의 3배를 넘으면 선형지시, 그 이하면 원형지시다. 합격기준이 둘에 따라 다르므로 분류가 먼저다.",
+      why: "68°F(20℃)에서 5분 현상이 기준이다. 온도가 높으면 안개(fog)가 끼고 낮으면 덜 현상된다.",
     },
 
     {
-      q: Q("When removing excess solvent removable penetrant, the solvent shall be :",
-           "용제제거성 침투액을 없앨 때 용제는 어떻게 써야 하는가?"),
+      q: Q("Which film class has the finest grain and the highest contrast?",
+           "입도가 가장 곱고 대비가 가장 높은 필름 등급은?"),
       o: [
-        Q("sprayed directly onto the examination surface", "검사면에 곧바로 뿌린다"),
-        Q("applied with a cloth dampened with solvent, after wiping with a dry cloth", "마른 헝겊으로 먼저 닦은 뒤, 용제를 묻힌 헝겊으로 닦는다"),
-        Q("poured over the surface and allowed to run off", "표면에 부어 흘러내리게 둔다"),
-        Q("mixed with water before use", "물에 타서 쓴다"),
-      ],
-      a: 1,
-      why: "ASME Sec.V Art.6 T-673.2. 용제를 표면에 곧바로 뿌리면 결함 속 침투액까지 씻겨 나가 지시를 잃는다. 마른 헝겊으로 먼저 닦아내고, 남은 것만 용제를 살짝 묻힌 헝겊으로 닦는다.",
-    },
-
-    {
-      q: Q("The primary purpose of the developer is to :",
-           "현상제를 쓰는 가장 큰 까닭은?"),
-      o: [
-        Q("draw penetrant out of the discontinuity and spread it for contrast", "결함 속 침투액을 빨아내어 번지게 해 눈에 띄게 하려고"),
-        Q("remove the excess penetrant from the surface", "표면에 남은 침투액을 없애려고"),
-        Q("increase the dwell time of the penetrant", "침투시간을 늘리려고"),
-        Q("neutralize the halogen content of the penetrant", "침투액의 할로겐 성분을 없애려고"),
+        Q("Class I", "Class I"),
+        Q("Class II", "Class II"),
+        Q("Class III", "Class III"),
+        Q("all classes are the same", "등급이 달라도 다 같다"),
       ],
       a: 0,
-      why: "현상제는 흡습지처럼 결함 속 침투액을 빨아내고 흰 바탕을 만들어 지시를 키워 보여 준다. 남은 침투액을 없애는 것은 세척 단계다.",
+      why: "번호가 작을수록 입도가 곱고 대비가 높으며 그만큼 감도가 낮아 노출시간이 길다. Class I 은 또렷한 사진이 필요한 자리에, Class III 은 두꺼운 시험체에 쓴다.",
     },
 
     {
-      q: Q("Before a fluorescent penetrant examination, the examiner shall be in the darkened area for at least :",
-           "형광 침투탐상검사 전에 검사자는 어두운 곳에 최소 얼마 동안 있어야 하는가?"),
+      q: Q("The IQI to be used is selected on the basis of :",
+           "쓸 투과도계는 무엇을 기준으로 고르는가?"),
       o: [
-        Q("1 minute", "1분"),
-        Q("5 minutes", "5분"),
-        Q("15 minutes", "15분"),
-        Q("30 minutes", "30분"),
-      ],
-      a: 1,
-      why: "ASME Sec.V Art.6 T-676. 최소 5분 어두움에 적응해야 흐린 형광 지시를 놓치지 않는다. 자외선등도 최소 5분 예열한다.",
-    },
-
-    {
-      q: Q("The minimum black light intensity at the examination surface for fluorescent penetrant examination is :",
-           "형광 침투탐상검사에서 검사면의 최소 자외선 세기는?"),
-      o: [
-        Q("500 μW/cm²", "500 ㎼/㎠"),
-        Q("100 μW/cm²", "100 ㎼/㎠"),
-        Q("1,000 μW/cm²", "1,000 ㎼/㎠"),
-        Q("2,000 μW/cm²", "2,000 ㎼/㎠"),
+        Q("the film class", "필름 등급"),
+        Q("the source-to-film distance", "선원-필름 거리"),
+        Q("the nominal single-wall material thickness being radiographed", "촬영하는 부위의 공칭 단일벽 두께"),
+        Q("the half-life of the source", "선원의 반감기"),
       ],
       a: 2,
-      why: "ASME Sec.V Art.6 T-676. 자분탐상과 같은 값이다. 주변 백색광은 2 fc(21.5 lx) 이하로 낮춘다.",
+      why: "ASME Sec.V Art.2 Table T-276. 두께로 고른다. 용접 덧살과 백킹은 두께에 넣지 않는다.",
     },
 
     {
-      q: Q("If the examination surface temperature is below the qualified range, the correct action is to :",
-           "검사면 온도가 인증된 범위보다 낮으면 어떻게 해야 하는가?"),
+      q: Q("When two or more films are viewed superimposed (composite viewing), the density of each film shall be at least :",
+           "필름 두 장 이상을 겹쳐 볼 때 각 장의 농도는 최소 얼마여야 하는가?"),
       o: [
-        Q("double the penetrant dwell time and proceed", "침투시간을 두 배로 늘려 그대로 검사한다"),
-        Q("qualify the procedure at the lower temperature before examining", "그 낮은 온도에서 절차서를 인증한 뒤에 검사한다"),
-        Q("use a dry developer instead of a wet one", "습식 대신 건식 현상제를 쓴다"),
-        Q("record the temperature and accept the result as is", "온도를 기록하고 결과를 그대로 받아들인다"),
+        Q("2.0", "2.0"),
+        Q("1.3", "1.3"),
+        Q("1.8", "1.8"),
+        Q("0.5", "0.5"),
       ],
       a: 1,
-      why: "ASME Sec.V Art.6 T-653. 범위 밖 온도에서 쓰려면 그 온도에서 인증된 결함이 있는 시험편으로 절차서를 인증해야 한다. 시간을 늘리는 것으로 갈음할 수 없다.",
+      why: "ASME Sec.V Art.2 T-282.1. 겹쳐 보면 농도가 더해지므로 한 장씩은 1.3 이상이면 된다. 한 장으로 볼 때의 1.8(X선)·2.0(감마선)과 헷갈리기 쉽다.",
     },
 
     {
-      q: Q("Which surface preparation method is least suitable before liquid penetrant examination?",
-           "침투탐상검사 전 표면 처리로 가장 알맞지 않은 것은?"),
+      q: Q("A wire IQI is considered acceptable when :",
+           "선형 투과도계는 어떻게 되어야 합격인가?"),
       o: [
-        Q("solvent cleaning", "용제 세척"),
-        Q("vapour degreasing", "증기 탈지"),
-        Q("shot blasting", "숏 블라스팅"),
-        Q("alkaline cleaning followed by rinsing", "알칼리 세척 뒤 헹굼"),
-      ],
-      a: 2,
-      why: "숏·샌드 블라스팅은 표면을 두들겨 결함 입구를 막아 버린다. 부득이 썼다면 산세(에칭)로 눌린 금속을 걷어낸 뒤 검사한다.",
-    },
-
-    {
-      q: Q("A penetrant indication caused by the geometry of the part rather than by a discontinuity is called :",
-           "결함이 아니라 부재의 생김새 때문에 나타나는 침투탐상 지시를 무엇이라 하는가?"),
-      o: [
-        Q("a false indication", "의사지시"),
-        Q("a nonrelevant indication", "무관련지시"),
-        Q("a relevant indication", "관련지시"),
-        Q("a residual indication", "잔류지시"),
+        Q("the entire IQI outline is visible", "투과도계 테두리가 다 보이면"),
+        Q("the essential wire is visible over the required length", "필수 선이 요구되는 길이만큼 보이면"),
+        Q("all wires of the IQI are visible", "투과도계의 모든 선이 보이면"),
+        Q("the identification number is legible", "식별 번호를 읽을 수 있으면"),
       ],
       a: 1,
-      why: "압입부·키홈·나사산처럼 부재의 생김새 때문에 침투액이 고여 생긴 지시는 무관련지시다. 침투액을 덜 씻어냈거나 헝겊 보풀 때문에 생긴 지시는 의사지시로 따로 부른다. 실제 결함에서 나온 것만 관련지시이며, 합격 여부는 관련지시로만 따진다.",
+      why: "ASME Sec.V Art.2 T-283.2. 표에서 정한 필수 선(essential wire)이 관심 부위와 같은 농도 자리에서 최소 10 mm 길이로 보이면 된다. 모든 선이 다 보일 필요는 없다.",
     },
 
     {
-      q: Q("For a visible (colour contrast) penetrant examination, the minimum light intensity at the examination surface is :",
-           "가시(염색) 침투탐상검사에서 검사면의 최소 조도는?"),
+      q: Q("The primary purpose of a lead letter F on a radiograph is to indicate that :",
+           "방사선투과사진에 납 F 글자를 찍는 까닭은?"),
       o: [
-        Q("100 fc (1,000 lx)", "100 fc (1,000 lx)"),
-        Q("10 fc (100 lx)", "10 fc (100 lx)"),
-        Q("50 fc (500 lx)", "50 fc (500 lx)"),
-        Q("200 fc (2,000 lx)", "200 fc (2,000 lx)"),
-      ],
-      a: 0,
-      why: "ASME Sec.V Art.6 T-676. 자분탐상의 가시광 조건과 같은 값이다.",
-    },
-
-    {
-      q: Q("Excessive drying of the part after washing and before applying a dry developer may :",
-           "씻은 뒤 건식 현상제를 도포하기 전에 지나치게 말리면 무엇이 일어나는가?"),
-      o: [
-        Q("improve the contrast of the indication", "지시의 대비가 좋아진다"),
-        Q("dry the penetrant inside the discontinuity so that it will not bleed out", "결함 속 침투액까지 말라붙어 배어 나오지 않는다"),
-        Q("shorten the required developing time", "필요한 현상시간이 짧아진다"),
-        Q("increase the fluorescent brightness", "형광 밝기가 세진다"),
+        Q("the film was fogged", "필름이 흐려졌다는 것"),
+        Q("the IQI was placed on the film side", "투과도계를 필름 쪽에 두었다는 것"),
+        Q("a filter was used at the tube window", "관 창에 필터를 썼다는 것"),
+        Q("the exposure was made with a fine-grain film", "고운 입도 필름으로 찍었다는 것"),
       ],
       a: 1,
-      why: "결함 속 침투액이 마르면 현상제가 빨아낼 것이 없어 지시가 안 나온다. 그래서 건조 온도와 시간을 제한한다.",
+      why: "ASME Sec.V Art.2 T-277.1. 선원 쪽에 투과도계를 둘 수 없을 때만 필름 쪽에 두고, 그 옆에 납 F 를 함께 찍어 판독하는 사람이 알게 한다.",
+    },
+
+    {
+      q: Q("Compared with a radiograph made at low kilovoltage, a radiograph made at high kilovoltage has :",
+           "낮은 관전압으로 찍은 사진과 견주어 높은 관전압으로 찍은 사진은 어떠한가?"),
+      o: [
+        Q("higher contrast and a narrower range of thickness recorded", "대비가 높고 담기는 두께 범위가 좁다"),
+        Q("lower contrast and a wider range of thickness recorded", "대비가 낮고 담기는 두께 범위가 넓다"),
+        Q("higher contrast and less scattered radiation", "대비가 높고 산란선이 적다"),
+        Q("no difference in contrast", "대비에 차이가 없다"),
+      ],
+      a: 1,
+      why: "관전압이 높으면 투과력이 세져 두께 차이에 따른 흡수 차가 줄어든다. 그래서 대비는 낮아지지만 두께 변화가 큰 시험체를 한 장에 담을 수 있다.",
+    },
+
+    {
+      q: Q("Radiographic film should be stored :",
+           "방사선투과 필름은 어떻게 보관해야 하는가?"),
+      o: [
+        Q("next to the exposure room so it is close at hand", "쓰기 편하게 촬영실 옆에"),
+        Q("in a cool, dry place shielded from radiation", "서늘하고 건조하며 방사선이 닿지 않는 곳에"),
+        Q("in a sealed metal box at 100°F (38°C)", "100°F(38℃)로 데운 밀폐 금속함에"),
+        Q("under a safelight in the darkroom", "암실 안전등 아래에"),
+      ],
+      a: 1,
+      why: "열·습기·방사선은 안 쓴 필름을 흐리게 한다. 촬영실 가까이 두면 산란선을 계속 받아 안개가 낀다. 유효기간이 지난 필름도 안개가 늘어 못 쓴다.",
     },
   ],
-
 
 };
 
