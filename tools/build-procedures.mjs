@@ -25,6 +25,7 @@ import { bmpToPng } from "./bmp2png.mjs";
 import { pcxToPng, isPcx } from "./pcx2png.mjs";
 import { wmfToPng, isWmf } from "./wmf2png.mjs";
 import { oleToImage, isOle } from "./ole2png.mjs";
+import { PROC_KO_FIX } from "./proc-ko-fix.mjs";
 
 const SRC = "D:/Visual Studio Code/절차서";
 const OUT = "D:/Visual Studio Code/HIENDT-CBT/public/data/procedures";
@@ -270,6 +271,48 @@ function tidyKo(s) {
   let t = s;
   for (const [from, to] of SPACING) t = t.replace(from, to);
   return t;
+}
+
+/*
+ * 절차서별 우리말 교정표를 입힌다. (tools/proc-ko-fix.mjs)
+ *
+ * 글월 전체가 하나도 안 틀리게 맞을 때만 갈아 끼운다. 원본 hwp 가
+ * 바뀌면 안 걸리고 그냥 지나가며, 몇 줄이 안 걸렸는지 빌드가 알려 준다.
+ * 조용히 엉뚱한 자리에 붙는 일은 없다.
+ */
+function applyKoFix(blocks, code) {
+  const table = PROC_KO_FIX[code];
+  if (!table) return { blocks, hit: 0, total: 0 };
+
+  const left = new Set(Object.keys(table));
+  let hit = 0;
+
+  const walk = (bs) =>
+    bs.map((b) => {
+      if (b.t === "table") {
+        return {
+          ...b,
+          grid: b.grid.map((row) =>
+            row.map((c) =>
+              !c || c === "covered" ? c : { ...c, blocks: walk(c.blocks) }
+            )
+          ),
+        };
+      }
+
+      if (b.t === "img") return b;
+
+      const s = String(b.s || "").trim();
+      const want = table[s];
+      if (!want) return b;
+
+      left.delete(s);
+      hit++;
+      return { ...b, s: want };
+    });
+
+  const out = walk(blocks);
+  return { blocks: out, hit, total: Object.keys(table).length, left: [...left] };
 }
 
 /*
@@ -802,6 +845,7 @@ if (!fs.existsSync(OUT)) fs.mkdirSync(OUT, { recursive: true });
 const table = {};
 const report = [];
 const failed = [];
+const koFixReport = [];
 let shrunk = 0;
 let tiny = 0;
 let rescued = 0;
@@ -948,6 +992,18 @@ for (const name of fs.readdirSync(SRC).filter((f) => /\.hwp$/i.test(f))) {
   const ko = readKo(name);
   if (ko) blocks = weaveKo(blocks, ko);
 
+  /* 절차서별 우리말 교정표 */
+  const fixed = applyKoFix(blocks, code);
+  blocks = fixed.blocks;
+
+  if (fixed.total) {
+    koFixReport.push(
+      `${code}  우리말 교정 ${fixed.hit}/${fixed.total}줄` +
+        (fixed.left.length ? `  ★ 못 찾은 줄 ${fixed.left.length}개` : "")
+    );
+    for (const s of fixed.left || []) koFixReport.push(`     ${s.slice(0, 70)}`);
+  }
+
   const payload = {
     code,
     title: cover.subject || code,
@@ -994,6 +1050,7 @@ const manifest = {
 fs.writeFileSync(path.join(OUT, "index.json"), JSON.stringify(manifest, null, 2) + "\n", "utf8");
 
 console.log(report.join("\n"));
+if (koFixReport.length) console.log("\n" + koFixReport.join("\n"));
 console.log(`\n등록한 이름 ${Object.keys(table).length}개`);
 if (shrunk) console.log(`BMP 를 PNG 로 바꿔 ${(shrunk / 1048576).toFixed(1)} MB 를 줄였다`);
 if (tiny) console.log(`너무 작아 뺀 그림 ${tiny}장 (글머리표·도장 조각)`);
