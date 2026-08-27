@@ -46,270 +46,276 @@ const BANKS = {
 
   /* Level Ⅱ 일반 RT 20문항은 2026-08-27 에 넣었다 — tools/_rt-done.txt */
 
+  /* Level Ⅱ 일반 UT 20문항은 2026-08-27 에 넣었다 — tools/_ut-done.txt */
+
   /* ═══════════════════════════════════════════
-     Level Ⅱ 일반 UT — 40문항 → 60문항
-     ASME Sec.V Art.4 · Art.5 와 초음파 원리를 본다
+     Level Ⅱ 일반 ECT — 40문항 → 60문항
+     ASME Sec.V Art.8 과 와전류 원리를 본다
+
+     ECT 와 RFT 두 은행이 와전류 이론 24문항을 나눠 쓰고 있다.
+     여기 넣는 것은 ECT 쪽에만 넣는다 — RFT 는 원격장 고유 주제로
+     따로 채운다.
      ═══════════════════════════════════════════ */
-  "Level II/General/UT": [
+  "Level II/General/ECT": [
 
     {
-      q: Q("The couplant used in contact ultrasonic examination is required mainly to :",
-           "접촉법 초음파탐상에서 접촉매질(couplant)을 쓰는 가장 큰 까닭은?"),
+      q: Q("The depth at which the eddy current density has decreased to about 37% of its surface value is called the :",
+           "와전류 밀도가 표면 값의 약 37%로 줄어드는 깊이를 무엇이라 하는가?"),
       o: [
-        Q("lubricate the search unit so it slides easily", "탐촉자가 잘 미끄러지게 하려고"),
-        Q("displace the air between the search unit and the surface", "탐촉자와 검사면 사이의 공기를 밀어내려고"),
-        Q("cool the transducer during long examinations", "긴 검사 동안 진동자를 식히려고"),
-        Q("increase the frequency of the sound beam", "초음파의 주파수를 높이려고"),
-      ],
-      a: 1,
-      why: "강과 공기의 음향 임피던스 차가 워낙 커서 사이에 공기막이 있으면 초음파가 거의 다 되튄다. 접촉매질이 그 공기를 밀어내야 소리가 시험체로 들어간다.",
-    },
-
-    {
-      q: Q("A transfer correction is applied when :",
-           "전이 보정(transfer correction)은 언제 하는가?"),
-      o: [
-        Q("the search unit frequency is changed during the examination", "검사 도중 탐촉자 주파수를 바꿀 때"),
-        Q("the surface condition of the test object differs from that of the calibration block", "시험체의 표면 상태가 교정 시험편과 다를 때"),
-        Q("the examination is performed by a Level I examiner", "Level I 검사자가 검사할 때"),
-        Q("the test object is thicker than 50 mm", "시험체 두께가 50 mm 를 넘을 때"),
-      ],
-      a: 1,
-      why: "ASME Sec.V Art.4 T-434.2.1. 교정 시험편은 매끄러운데 시험체는 거칠거나 도장이 있으면 들어가는 소리의 양이 달라진다. 그 차이만큼 감도를 더해 주는 것이 전이 보정이다.",
-    },
-
-    {
-      q: Q("What is the sound path distance to the first leg reflection point when using a 45° shear wave on a 25 mm thick plate?",
-           "두께 25 mm 판재에 45° 횡파를 쓸 때 1스킵 첫 반사점까지의 음향 거리는?"),
-      o: [
-        Q("25 mm", "25 mm"),
-        Q("50 mm", "50 mm"),
-        Q("35.4 mm", "35.4 mm"),
-        Q("17.7 mm", "17.7 mm"),
-      ],
-      a: 2,
-      why: "음향 거리 = 두께 ÷ cos(굴절각) = 25 ÷ cos45° = 25 ÷ 0.707 = 35.4 mm. 표면 거리는 두께 × tan45° = 25 mm 다. 둘을 헷갈리기 쉽다.",
-    },
-
-    {
-      q: Q("If the pulse repetition rate is set too high, the display may show :",
-           "펄스 반복률을 너무 높게 잡으면 화면에 무엇이 나타날 수 있는가?"),
-      o: [
-        Q("a permanent loss of the back-wall echo", "저면 에코가 아주 사라진다"),
-        Q("ghost (wrap-around) echoes from the previous pulse", "앞선 펄스에서 온 유령 에코(wrap-around)"),
-        Q("a change in the refracted angle", "굴절각이 달라진다"),
-        Q("an increase in the near field length", "근거리 음장이 길어진다"),
-      ],
-      a: 1,
-      why: "앞서 쏜 소리가 시험체 안에서 아직 오가는 중에 다음 펄스를 쏘면, 그 늦게 돌아온 에코가 다음 화면에 엉뚱한 자리에 뜬다. 결함으로 잘못 읽히므로 반복률을 낮춰 사라지는지 보아 가린다.",
-    },
-
-    {
-      q: Q("The near field (Fresnel zone) length of a transducer increases when :",
-           "탐촉자의 근거리 음장(near field)이 길어지는 것은 언제인가?"),
-      o: [
-        Q("the frequency decreases", "주파수가 낮아질 때"),
-        Q("the transducer diameter decreases", "진동자 지름이 작아질 때"),
-        Q("the frequency or the diameter increases", "주파수나 진동자 지름이 커질 때"),
-        Q("the couplant is changed to oil", "접촉매질을 기름으로 바꿀 때"),
-      ],
-      a: 2,
-      why: "N = D²f / 4V 다. 지름이나 주파수가 커지면 근거리 음장이 길어진다. 이 구간은 음압이 들쭉날쭉해 크기를 재기 어려우므로 평가는 원거리 음장에서 한다.",
-    },
-
-    {
-      q: Q("Ultrasonic examination of a weld is usually performed with :",
-           "용접부 초음파탐상은 보통 어떤 파로 하는가?"),
-      o: [
-        Q("longitudinal waves at normal incidence", "수직으로 입사시킨 종파"),
-        Q("surface (Rayleigh) waves", "표면파(레일리파)"),
-        Q("shear waves at an angle", "비스듬히 입사시킨 횡파"),
-        Q("Lamb waves", "램파"),
-      ],
-      a: 2,
-      why: "용접 덧살 때문에 용접부 위에 탐촉자를 놓을 수 없어, 모재에서 비스듬히 쏘아 횡파로 검사한다. 수직 종파는 판재의 라미네이션이나 두께 측정에 쓴다.",
-    },
-
-    {
-      q: Q("When the incident angle in the first medium is increased so that the refracted longitudinal wave reaches 90°, that incident angle is called the :",
-           "굴절된 종파가 90° 가 될 때의 입사각을 무엇이라 하는가?"),
-      o: [
-        Q("second critical angle", "제2 임계각"),
-        Q("first critical angle", "제1 임계각"),
-        Q("Snell angle", "스넬각"),
-        Q("skip angle", "스킵각"),
-      ],
-      a: 1,
-      why: "제1 임계각을 넘으면 종파가 사라지고 횡파만 남는다. 횡파까지 90° 가 되는 각이 제2 임계각이고, 그 너머는 표면파가 된다. 각도 탐촉자는 두 임계각 사이를 쓴다.",
-    },
-
-    {
-      q: Q("Before ultrasonic examination, the calibration shall be verified at least :",
-           "초음파탐상에서 교정은 최소 언제 다시 확인해야 하는가?"),
-      o: [
-        Q("once a week", "일주일에 한 번"),
-        Q("at the start and finish of each examination, and every 4 hours", "검사를 시작할 때와 끝낼 때, 그리고 4시간마다"),
-        Q("only when the search unit is changed", "탐촉자를 바꿀 때만"),
-        Q("once a month", "한 달에 한 번"),
-      ],
-      a: 1,
-      why: "ASME Sec.V Art.4 T-263. 시작·종료와 4시간마다 확인한다. 어긋나 있으면 마지막으로 맞았던 때 이후에 검사한 것을 다시 검사한다.",
-    },
-
-    {
-      q: Q("The velocity of a shear wave in steel is approximately :",
-           "강에서 횡파의 속도는 대략 얼마인가?"),
-      o: [
-        Q("5,900 m/s", "5,900 m/s"),
-        Q("3,230 m/s", "3,230 m/s"),
-        Q("1,480 m/s", "1,480 m/s"),
-        Q("2,900 m/s", "2,900 m/s"),
-      ],
-      a: 1,
-      why: "강에서 종파는 약 5,900 m/s, 횡파는 약 3,230 m/s 로 종파의 절반쯤이다. 물에서는 약 1,480 m/s 다. 같은 주파수라면 횡파의 파장이 짧아 작은 결함을 더 잘 찾는다.",
-    },
-
-    {
-      q: Q("The wavelength of a 5 MHz longitudinal wave in steel (velocity 5,900 m/s) is approximately :",
-           "강(음속 5,900 m/s)에서 5 MHz 종파의 파장은 대략 얼마인가?"),
-      o: [
-        Q("0.59 mm", "0.59 mm"),
-        Q("2.95 mm", "2.95 mm"),
-        Q("1.18 mm", "1.18 mm"),
-        Q("11.8 mm", "11.8 mm"),
-      ],
-      a: 2,
-      why: "λ = V / f = 5,900 ÷ 5,000,000 = 0.00118 m = 1.18 mm 다. 보통 파장의 절반보다 작은 결함은 찾기 어렵다고 본다.",
-    },
-
-    {
-      q: Q("Increasing the examination frequency generally results in :",
-           "검사 주파수를 높이면 대체로 어떻게 되는가?"),
-      o: [
-        Q("better resolution but less penetration", "분해능이 좋아지고 투과력은 떨어진다"),
-        Q("better penetration but less resolution", "투과력이 좋아지고 분해능은 떨어진다"),
-        Q("both better resolution and better penetration", "분해능과 투과력이 함께 좋아진다"),
-        Q("no change in either", "둘 다 달라지지 않는다"),
+        Q("standard depth of penetration", "표준 침투깊이"),
+        Q("effective depth of penetration", "유효 침투깊이"),
+        Q("phase depth", "위상 깊이"),
+        Q("saturation depth", "포화 깊이"),
       ],
       a: 0,
-      why: "주파수가 높으면 파장이 짧아 작은 결함을 가려내지만 감쇠가 커서 깊이 못 간다. 굵은 결정립 주조품에 낮은 주파수를 쓰는 것이 이 때문이다.",
+      why: "표준 침투깊이(δ)는 표면 밀도의 1/e, 곧 약 37%가 되는 깊이다. 그 세 배 깊이에서는 5%밖에 안 남아 사실상 검사가 안 된다.",
     },
 
     {
-      q: Q("The primary purpose of a basic calibration block is to :",
-           "기본 교정 시험편을 쓰는 가장 큰 까닭은?"),
+      q: Q("The standard depth of penetration decreases when :",
+           "표준 침투깊이가 얕아지는 것은 언제인가?"),
       o: [
-        Q("establish the distance and amplitude response of the system", "장비의 거리와 진폭 응답을 정하려고"),
-        Q("measure the thickness of the couplant layer", "접촉매질 층의 두께를 재려고"),
-        Q("determine the frequency of the search unit", "탐촉자의 주파수를 알아내려고"),
-        Q("check the surface roughness of the test object", "시험체의 표면 거칠기를 확인하려고"),
+        Q("the test frequency decreases", "시험 주파수가 낮아질 때"),
+        Q("the conductivity of the material decreases", "재료의 전도율이 낮아질 때"),
+        Q("the test frequency, conductivity or permeability increases", "시험 주파수·전도율·투자율이 커질 때"),
+        Q("the fill factor decreases", "충진율이 낮아질 때"),
+      ],
+      a: 2,
+      why: "δ = 1/√(πfμσ) 다. 주파수·투자율·전도율 가운데 무엇이 커져도 침투깊이는 얕아진다. 그래서 깊은 결함을 보려면 주파수를 낮춘다.",
+    },
+
+    {
+      q: Q("Lift-off in eddy current testing refers to :",
+           "와전류탐상에서 리프트오프(lift-off)란 무엇인가?"),
+      o: [
+        Q("the change in coil response as the spacing between the coil and the surface changes", "코일과 검사면 사이 간격이 달라질 때 코일의 반응이 달라지는 것"),
+        Q("the time taken for the coil to reach operating temperature", "코일이 동작 온도에 이르는 데 걸리는 시간"),
+        Q("the removal of the coating from the test surface", "검사면의 도장을 벗겨내는 것"),
+        Q("the loss of signal caused by a crack", "균열 때문에 신호를 잃는 것"),
       ],
       a: 0,
-      why: "ASME Sec.V Art.4 T-434. 알려진 크기의 반사체로 가로 눈금(거리)과 세로 눈금(진폭)을 맞춘다. 그래서 시험편은 검사할 재질·두께·열처리·곡률과 같아야 한다.",
+      why: "코일이 표면에서 조금만 떠도 신호가 크게 흔들린다. 방해가 되기도 하지만, 이 성질을 거꾸로 써서 비전도성 도장의 두께를 잰다.",
     },
 
     {
-      q: Q("The material of the basic calibration block shall be :",
-           "기본 교정 시험편의 재질은 어때야 하는가?"),
+      q: Q("The edge effect in eddy current testing occurs when :",
+           "와전류탐상의 가장자리 효과(edge effect)는 언제 생기는가?"),
       o: [
-        Q("always carbon steel regardless of the object", "시험체와 상관없이 늘 탄소강"),
-        Q("acoustically equivalent to the material being examined", "검사할 재료와 음향 특성이 같아야 한다"),
-        Q("harder than the material being examined", "검사할 재료보다 단단해야 한다"),
+        Q("the coil is energized at too low a frequency", "코일에 너무 낮은 주파수를 걸었을 때"),
+        Q("the coil approaches the edge or end of the test object", "코일이 시험체의 모서리나 끝에 가까워졌을 때"),
+        Q("the couplant dries out", "접촉매질이 말랐을 때"),
+        Q("the material is nonmagnetic", "재료가 비자성체일 때"),
+      ],
+      a: 1,
+      why: "가장자리에서는 와전류가 흐를 자리가 잘려 신호가 크게 흔들린다. 그래서 끝단 가까이는 표준 시험편으로 따로 감도를 잡거나 검사 범위에서 뺀다.",
+    },
+
+    {
+      q: Q("A reference standard for eddy current tube examination should be made from :",
+           "튜브 와전류탐상에 쓰는 대비 시험편은 무엇으로 만들어야 하는가?"),
+      o: [
+        Q("any material of the same diameter", "지름만 같으면 어떤 재료든"),
+        Q("carbon steel in all cases", "언제나 탄소강"),
+        Q("tubing of the same material specification and nominal size as the tubes to be examined", "검사할 튜브와 같은 재료 사양·공칭 크기의 튜브"),
+        Q("a material with twice the conductivity of the test object", "시험체보다 전도율이 두 배인 재료"),
+      ],
+      a: 2,
+      why: "ASME Sec.V Art.8. 재질이 다르면 전도율·투자율이 달라 같은 결함도 다른 신호로 나온다. 그래서 지름·두께·재료 사양을 맞춘다.",
+    },
+
+    {
+      q: Q("In eddy current tube testing, a differential coil arrangement is best suited for detecting :",
+           "튜브 와전류탐상에서 차동(differential) 코일이 가장 잘 찾는 것은?"),
+      o: [
+        Q("gradual wall thinning over a long length", "긴 구간에 걸쳐 서서히 얇아진 감육"),
+        Q("short, abrupt discontinuities such as pits and cracks", "공식이나 균열처럼 짧고 갑작스러운 결함"),
+        Q("the overall diameter of the tube", "튜브의 전체 지름"),
+        Q("the material conductivity", "재료의 전도율"),
+      ],
+      a: 1,
+      why: "차동 코일은 가까이 붙은 두 코일의 차이를 본다. 둘이 함께 겪는 완만한 변화는 서로 지워져 안 잡히고, 한쪽만 지나는 갑작스러운 결함이 크게 뜬다. 완만한 감육은 절대(absolute) 코일로 본다.",
+    },
+
+    {
+      q: Q("The main reason for using multi-frequency eddy current testing on heat exchanger tubes is to :",
+           "열교환기 튜브 와전류탐상에서 다중 주파수를 쓰는 가장 큰 까닭은?"),
+      o: [
+        Q("shorten the examination time", "검사 시간을 줄이려고"),
+        Q("suppress unwanted signals such as support plates and dents", "지지판이나 눌린 자국 같은 방해 신호를 지우려고"),
+        Q("increase the pulling speed of the probe", "탐촉자를 더 빨리 당기려고"),
+        Q("avoid the need for a reference standard", "대비 시험편을 안 쓰려고"),
+      ],
+      a: 1,
+      why: "주파수마다 지지판·결함의 위상이 다르게 나온다. 두 주파수의 신호를 섞어 지지판 신호만 지우면 그 뒤에 숨은 결함이 드러난다.",
+    },
+
+    {
+      q: Q("The phase angle of an eddy current signal from a tube is used mainly to determine :",
+           "튜브 와전류 신호의 위상각은 주로 무엇을 알아내는 데 쓰는가?"),
+      o: [
+        Q("the depth of the discontinuity", "결함의 깊이"),
+        Q("the length of the tube", "튜브의 길이"),
+        Q("the pulling speed of the probe", "탐촉자를 당기는 속도"),
+        Q("the ambient temperature", "둘레 온도"),
+      ],
+      a: 0,
+      why: "결함이 깊을수록 신호의 위상이 돌아간다. 그래서 알려진 깊이의 인공 결함으로 위상-깊이 곡선을 만들어 두고 그것으로 깊이를 읽는다. 신호의 크기는 결함의 부피에 더 가깝다.",
+    },
+
+    {
+      q: Q("Magnetic saturation is used in eddy current testing of ferromagnetic tubing to :",
+           "강자성 튜브를 와전류탐상할 때 자기포화를 거는 까닭은?"),
+      o: [
+        Q("increase the pulling speed", "탐촉자를 빨리 당기려고"),
+        Q("reduce the effect of permeability variations", "투자율이 들쭉날쭉한 것의 영향을 줄이려고"),
+        Q("increase the standard depth of penetration to zero", "표준 침투깊이를 0 으로 만들려고"),
+        Q("eliminate the need for a reference standard", "대비 시험편을 안 쓰려고"),
+      ],
+      a: 1,
+      why: "강자성체는 투자율이 자리마다 달라 결함보다 큰 잡음을 만든다. 자석으로 미리 포화시켜 투자율을 일정하게 만들면 그 잡음이 사라지고 결함만 남는다.",
+    },
+
+    {
+      q: Q("The signal from a support plate in heat exchanger tube testing is normally :",
+           "열교환기 튜브 검사에서 지지판 신호는 보통 어떻게 다루는가?"),
+      o: [
+        Q("evaluated as a rejectable discontinuity", "불합격 결함으로 평가한다"),
+        Q("treated as a nonrelevant indication used as a landmark", "무관련지시로 보고 위치를 가늠하는 표로 쓴다"),
+        Q("removed by increasing the frequency", "주파수를 높여 없앤다"),
+        Q("ignored and not recorded", "무시하고 기록하지 않는다"),
+      ],
+      a: 1,
+      why: "지지판은 튜브의 결함이 아니다. 다만 신호가 뚜렷해 튜브의 몇 번째 자리인지 세는 데 쓴다. 그 아래 숨은 결함을 보려면 혼합 채널로 지지판 신호를 지운다.",
+    },
+
+    {
+      q: Q("An absolute coil in eddy current testing is best suited for detecting :",
+           "절대(absolute) 코일이 가장 잘 찾는 것은?"),
+      o: [
+        Q("gradual changes such as general wall thinning", "전면 감육처럼 서서히 달라지는 것"),
+        Q("only cracks perpendicular to the axis", "축과 수직인 균열만"),
+        Q("only discontinuities under support plates", "지지판 아래의 결함만"),
+        Q("nothing, it is used only for calibration", "아무것도 못 찾는다. 교정에만 쓴다"),
+      ],
+      a: 0,
+      why: "절대 코일은 기준값과 견주므로 완만한 변화도 잡아낸다. 대신 온도 변화 같은 것에도 흔들려 잡음이 많다. 차동 코일과 서로 모자란 데를 메운다.",
+    },
+
+    {
+      q: Q("The test frequency for eddy current tube examination is usually selected so that the phase angle of a 100% through-wall hole is about :",
+           "튜브 와전류탐상의 시험 주파수는 보통 100% 관통공의 위상각이 얼마가 되도록 고르는가?"),
+      o: [
+        Q("0 degrees", "0도"),
+        Q("40 degrees", "40도"),
+        Q("90 degrees", "90도"),
+        Q("180 degrees", "180도"),
+      ],
+      a: 2,
+      why: "관통공을 90°로 잡으면 바깥면 결함과 안쪽면 결함의 위상이 고르게 벌어져 깊이를 가늠하기 좋다. 이 주파수를 F90 이라 부른다.",
+    },
+
+    {
+      q: Q("Eddy current testing can be applied to :",
+           "와전류탐상을 쓸 수 있는 재료는?"),
+      o: [
+        Q("ferromagnetic materials only", "강자성체만"),
+        Q("any electrically conductive material", "전기가 통하는 재료면 무엇이든"),
+        Q("nonconductive materials only", "전기가 안 통하는 재료만"),
         Q("any material with a smooth surface", "표면이 매끄러운 재료면 무엇이든"),
       ],
       a: 1,
-      why: "ASME Sec.V Art.4 T-434.1.1. 재질이 다르면 음속과 감쇠가 달라 교정이 어긋난다. 제품 형태와 열처리 상태까지 맞춘다.",
+      why: "와전류는 전기가 통해야 흐른다. 그래서 알루미늄·구리·오스테나이트계 스테인리스강처럼 자화되지 않는 금속도 검사할 수 있다. 자분탐상이 강자성체만 되는 것과 다른 점이다.",
     },
 
     {
-      q: Q("A discontinuity oriented parallel to the sound beam will most likely :",
-           "초음파 빔과 나란히 놓인 결함은 어떻게 되는가?"),
+      q: Q("An increase in the conductivity of a nonmagnetic material will cause the eddy current signal to :",
+           "비자성 재료의 전도율이 높아지면 와전류 신호는 어떻게 되는가?"),
       o: [
-        Q("produce the largest possible indication", "가장 큰 지시를 만든다"),
-        Q("produce little or no indication", "지시가 거의 또는 전혀 안 나온다"),
-        Q("produce a false back-wall echo", "가짜 저면 에코를 만든다"),
-        Q("change the velocity of the beam", "빔의 속도를 바꾼다"),
-      ],
-      a: 1,
-      why: "빔이 결함 면에 부딪혀 되돌아와야 지시가 나온다. 나란하면 소리가 스쳐 지나간다. 그래서 예상되는 결함 방향에 맞춰 굴절각을 고르고, 두 방향에서 검사한다.",
-    },
-
-    {
-      q: Q("In an immersion test, the water path distance is normally set so that :",
-           "수침법에서 수거리는 보통 어떻게 잡는가?"),
-      o: [
-        Q("the water path is equal to the object thickness", "수거리를 시험체 두께와 같게"),
-        Q("the first water-to-metal interface echo appears after the first back-wall echo", "물-금속 경계 에코가 저면 에코보다 뒤에 오게"),
-        Q("the second water travel echo falls beyond the first back-wall echo", "물속을 두 번 오간 에코가 저면 에코보다 뒤에 오게"),
-        Q("the water path is as short as possible", "수거리를 될 수 있는 대로 짧게"),
-      ],
-      a: 2,
-      why: "물속에서 되돌아온 다중 에코가 시험체의 저면 에코와 겹치면 판독이 헷갈린다. 물에서의 음속이 강의 약 1/4 이므로 수거리를 두께의 1/4 보다 길게 잡아 겹치지 않게 한다.",
-    },
-
-    {
-      q: Q("A laminar discontinuity in plate is best detected with :",
-           "판재의 라미네이션은 무엇으로 가장 잘 찾는가?"),
-      o: [
-        Q("an angle beam shear wave", "각도 탐촉자의 횡파"),
-        Q("a straight beam longitudinal wave", "수직 탐촉자의 종파"),
-        Q("a surface wave", "표면파"),
-        Q("a Lamb wave in the plate mode", "판 모드 램파"),
-      ],
-      a: 1,
-      why: "라미네이션은 표면과 나란히 누워 있으므로 수직으로 쏜 종파가 정면으로 맞고 되돌아온다. 각도 빔은 스쳐 지나가 잘 못 찾는다.",
-    },
-
-    {
-      q: Q("Attenuation of ultrasound in a material is caused mainly by :",
-           "재료 속에서 초음파가 줄어드는 것은 주로 무엇 때문인가?"),
-      o: [
-        Q("absorption and scattering", "흡수와 산란"),
-        Q("refraction and mode conversion only", "굴절과 모드 변환만으로"),
-        Q("the couplant layer", "접촉매질 층"),
-        Q("the pulse repetition rate", "펄스 반복률"),
+        Q("move along the conductivity curve toward the top of the impedance plane", "임피던스 평면의 전도율 곡선을 따라 위쪽으로 옮겨 간다"),
+        Q("disappear entirely", "아주 사라진다"),
+        Q("change frequency", "주파수가 달라진다"),
+        Q("reverse polarity", "극성이 뒤집힌다"),
       ],
       a: 0,
-      why: "소리 에너지가 열로 바뀌는 흡수와, 결정립 경계에서 사방으로 흩어지는 산란이 두 축이다. 결정립이 굵을수록 산란이 커져 주파수를 낮춰야 한다.",
+      why: "임피던스 평면에서 전도율이 다른 재료는 저마다 정해진 자리에 놓인다. 이 성질로 재료를 가려내거나 열처리 상태를 확인한다.",
     },
 
     {
-      q: Q("The couplant used for the examination shall be :",
-           "검사에 쓰는 접촉매질은 어때야 하는가?"),
+      q: Q("On the impedance plane, the lift-off signal is normally rotated to lie along the horizontal axis so that :",
+           "임피던스 평면에서 리프트오프 신호를 가로축에 맞춰 돌려 놓는 까닭은?"),
       o: [
-        Q("the same as that used for calibration", "교정할 때 쓴 것과 같아야 한다"),
-        Q("always water regardless of the surface", "표면과 상관없이 늘 물이어야 한다"),
-        Q("thicker than that used for calibration", "교정할 때 쓴 것보다 걸쭉해야 한다"),
-        Q("selected by the examiner at the time of examination", "검사할 때 검사자가 골라 쓰면 된다"),
+        Q("the probe can be pulled faster", "탐촉자를 더 빨리 당길 수 있어서"),
+        Q("discontinuity signals separate from lift-off and can be read without interference", "결함 신호가 리프트오프와 방향이 갈려 흔들리지 않고 읽히기 때문"),
+        Q("the standard depth of penetration increases", "표준 침투깊이가 깊어지기 때문"),
+        Q("the reference standard is no longer needed", "대비 시험편이 더는 필요 없기 때문"),
+      ],
+      a: 1,
+      why: "코일이 조금만 떠도 리프트오프 신호가 크게 흔들린다. 그것을 가로축에 눕혀 두면 결함 신호는 위쪽으로 솟아 서로 갈린다. 위상 회전은 검사 전에 대비 시험편으로 잡아 둔다.",
+    },
+
+    {
+      q: Q("The main advantage of eddy current testing over other surface methods is that it :",
+           "다른 표면 검사법과 견주어 와전류탐상이 나은 점은?"),
+      o: [
+        Q("requires no couplant and can be automated at high speed", "접촉매질이 필요 없고 빠르게 자동화할 수 있다"),
+        Q("can detect discontinuities at any depth", "깊이와 상관없이 결함을 찾는다"),
+        Q("works on nonconductive materials", "전기가 안 통하는 재료에도 쓸 수 있다"),
+        Q("does not require a reference standard", "대비 시험편이 필요 없다"),
       ],
       a: 0,
-      why: "ASME Sec.V Art.4 T-431. 접촉매질이 달라지면 시험체로 들어가는 소리의 양이 달라져 교정이 어긋난다. 니켈 합금·오스테나이트계·티타늄에는 황과 할로겐 함량도 따진다.",
+      why: "코일이 표면에 닿지 않아도 되므로 뜨거운 것·움직이는 것도 검사할 수 있고 자동화가 쉽다. 대신 표면과 표면 가까운 곳만 보이고 전기가 통해야 한다.",
     },
 
     {
-      q: Q("Compared with a flat search unit, a focused search unit provides :",
-           "평면 탐촉자와 견주어 집속 탐촉자는 어떠한가?"),
+      q: Q("In eddy current testing, an increase in the lift-off distance will cause the signal amplitude to :",
+           "와전류탐상에서 리프트오프 거리가 멀어지면 신호의 크기는 어떻게 되는가?"),
       o: [
-        Q("greater penetration into thick sections", "두꺼운 부위에 더 깊이 들어간다"),
-        Q("higher sensitivity and resolution within the focal zone", "초점 구간 안에서 감도와 분해능이 더 높다"),
-        Q("a wider beam over the whole sound path", "음향 경로 내내 빔이 더 넓다"),
-        Q("no need for a couplant", "접촉매질이 필요 없다"),
+        Q("increase", "커진다"),
+        Q("decrease", "작아진다"),
+        Q("remain unchanged", "그대로다"),
+        Q("double", "두 배가 된다"),
       ],
       a: 1,
-      why: "빔을 한 자리에 모아 그 구간의 음압을 높인다. 대신 초점을 벗어나면 빠르게 퍼져 감도가 떨어지므로, 찾으려는 깊이에 초점을 맞춰 써야 한다.",
+      why: "코일이 멀어질수록 시험체에 걸리는 자장이 약해져 와전류가 덜 흐른다. 그래서 결함 신호도 함께 작아진다. 도장 위에서 검사할 때 감도가 떨어지는 것이 이 때문이다.",
     },
 
     {
-      q: Q("Ultrasonic examination records shall include :",
-           "초음파탐상 기록에 반드시 담아야 하는 것은?"),
+      q: Q("The eddy current signal from a discontinuity on the outside surface of a tube, compared with one of the same size on the inside surface, will be :",
+           "튜브 바깥면의 결함 신호는 안쪽면에 있는 같은 크기의 결함과 견주어 어떠한가?"),
       o: [
-        Q("only the indications that were rejected", "불합격 처리한 지시만"),
-        Q("the examination data, calibration data and the identity of the examiner", "검사 자료와 교정 자료, 검사자를 알 수 있는 것"),
-        Q("the purchase order number only", "발주 번호만"),
-        Q("a photograph of the test object", "시험체 사진"),
+        Q("larger, because the coil is closer to it", "코일에 더 가까워 더 크다"),
+        Q("smaller, because the eddy current density is lower there", "그 자리의 와전류 밀도가 낮아 더 작다"),
+        Q("identical in every respect", "무엇 하나 다르지 않다"),
+        Q("of opposite polarity but the same size", "극성만 반대이고 크기는 같다"),
       ],
       a: 1,
-      why: "ASME Sec.V Art.4 T-491. 나중에 같은 조건으로 되짚어 볼 수 있어야 하므로 장비·탐촉자·주파수·교정 시험편·감도 설정과 검사자를 함께 남긴다.",
+      why: "탐촉자가 튜브 안에 있으므로 와전류는 안쪽면에서 가장 세고 바깥으로 갈수록 약해진다. 그래서 바깥면 결함은 작고 위상이 돌아간 신호로 나온다.",
+    },
+
+    {
+      q: Q("Before and after each examination run, the eddy current system calibration shall be :",
+           "와전류탐상은 검사를 한 차례 마칠 때마다 교정을 어떻게 해야 하는가?"),
+      o: [
+        Q("verified with the reference standard", "대비 시험편으로 확인한다"),
+        Q("reset to the factory default", "장비 기본값으로 되돌린다"),
+        Q("recorded but not verified", "기록만 하고 확인하지는 않는다"),
+        Q("verified only if a discontinuity was found", "결함이 나왔을 때만 확인한다"),
+      ],
+      a: 0,
+      why: "ASME Sec.V Art.8. 시작과 끝에 대비 시험편으로 확인한다. 어긋나 있으면 마지막으로 맞았던 교정 뒤에 검사한 튜브를 모두 다시 검사한다.",
+    },
+
+    {
+      q: Q("A dent in a heat exchanger tube produces an eddy current signal because it :",
+           "열교환기 튜브가 눌린 자국(dent)이 와전류 신호를 내는 까닭은?"),
+      o: [
+        Q("changes the fill factor at that location", "그 자리의 충진율이 달라지기 때문"),
+        Q("increases the conductivity of the tube", "튜브의 전도율이 높아지기 때문"),
+        Q("removes material from the tube wall", "튜브 벽의 살이 없어지기 때문"),
+        Q("magnetizes the tube locally", "그 자리가 자화되기 때문"),
+      ],
+      a: 0,
+      why: "눌려서 안지름이 줄면 코일과 벽 사이 간격이 달라져 충진율이 바뀐다. 살이 없어진 것이 아니므로 결함이 아니라 무관련지시로 다루되, 그 자리에 결함이 숨을 수 있어 따로 살핀다.",
     },
   ],
 
