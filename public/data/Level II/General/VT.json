@@ -287,9 +287,11 @@
     "options": [
       "Tolerances specified on drawings or specifications.\n도면이나 시방서에 규정된 공차",
       "Tight fit of butt joint, to preserve dimensions of weldment.\n용접물 치수를 유지하기 위한 맞대기 이음의 밀착",
-      "Whatever gap comes up, if not obviously too big for welder to span.\n용접사가 메우기에 지나치게 크지만 않다면 어떤 간격이든 상관없다"
+      "Whatever gap comes up, if not obviously too big for welder to span.\n용접사가 메우기에 지나치게 크지만 않다면 어떤 간격이든 상관없다",
+      "The tightest fit the parts allow, with no root opening\n루트 간격 없이 부재가 허용하는 한 밀착시킨 상태"
     ],
-    "answer": 0
+    "answer": 0,
+    "note": "원본 시험지에 보기가 3개뿐이어서 4지선다로 맞추려고 오답 「The tightest fit the parts allow, with no root opening」 을 더했다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 20,
@@ -331,9 +333,11 @@
     "options": [
       "All are caused by stresses not associated with welding.\n모두 용접과 무관한 응력으로 생긴다",
       "All originate in the base metal, not the weld.\n모두 용접부가 아닌 모재에서 생긴다",
-      "All run parallel to the surface.\n모두 표면과 나란하게 진행한다"
+      "All run parallel to the surface.\n모두 표면과 나란하게 진행한다",
+      "All occur only in weld metal\n모두 용접금속에서만 생긴다"
     ],
-    "answer": 1
+    "answer": 1,
+    "note": "원본 시험지에 보기가 3개뿐이어서 4지선다로 맞추려고 오답 「All occur only in weld metal」 을 더했다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 23,
@@ -345,9 +349,11 @@
     "options": [
       "Linear porosity.\n선상 기공",
       "aligned microporosity\n정렬된 미세기공",
-      "Arc strikes.\n아크 스트라이크"
+      "Arc strikes.\n아크 스트라이크",
+      "Spatter.\n스패터"
     ],
-    "answer": 2
+    "answer": 2,
+    "note": "원본 시험지에 보기가 3개뿐이어서 4지선다로 맞추려고 오답 「Spatter.」 을 더했다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 24,
@@ -374,10 +380,12 @@
     "options": [
       "Undercut.\n언더컷",
       "Underfill.\n언더필",
-      "Inadequate joint penetration.\n용입부족"
+      "Inadequate joint penetration.\n용입부족",
+      "Overlap.\n오버랩"
     ],
     "answer": 1,
-    "image": "VT_GENERAL_Q25.png"
+    "image": "VT_GENERAL_Q25.png",
+    "note": "원본 시험지에 보기가 3개뿐이어서 4지선다로 맞추려고 오답 「Overlap.」 을 더했다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 26,
@@ -389,10 +397,12 @@
     "options": [
       "An underbead crack.\n비드 밑 균열",
       "An crater crack.\n크레이터 균열",
-      "Porosity.\n기공"
+      "Porosity.\n기공",
+      "A toe crack.\n토 균열"
     ],
     "answer": 1,
-    "image": "VT_GENERAL_Q26.png"
+    "image": "VT_GENERAL_Q26.png",
+    "note": "원본 시험지에 보기가 3개뿐이어서 4지선다로 맞추려고 오답 「A toe crack.」 을 더했다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 27,
@@ -404,10 +414,12 @@
     "options": [
       "A plate lamination.\n판재 라미네이션",
       "An underbead crack.\n비드 밑 균열",
-      "An undercut.\n언더컷"
+      "An undercut.\n언더컷",
+      "A slag inclusion.\n슬래그 개재물"
     ],
     "answer": 0,
-    "image": "VT_GENERAL_Q27.png"
+    "image": "VT_GENERAL_Q27.png",
+    "note": "원본 시험지에 보기가 3개뿐이어서 4지선다로 맞추려고 오답 「A slag inclusion.」 을 더했다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 28,
@@ -465,9 +477,11 @@
     "options": [
       "Porosity and slag inclusions\n기공과 슬래그 개재물",
       "Incomplete fusion and melt-thru\n융합불량과 용락",
-      "Delamination and laminar tears\n박리와 라미나 균열"
+      "Delamination and laminar tears\n박리와 라미나 균열",
+      "Overlap and excessive reinforcement\n오버랩과 과도한 보강"
     ],
-    "answer": 1
+    "answer": 1,
+    "note": "원본 시험지에 보기가 3개뿐이어서 4지선다로 맞추려고 오답 「Overlap and excessive reinforcement」 을 더했다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 32,
@@ -510,9 +524,11 @@
     "options": [
       "In-process inspection before the weld is completed\n용접 완료 전 공정 중 검사",
       "Inspection after the weld is completed\n용접 완료 후 검사",
-      "Inspection of the repair process\n보수 공정에 대한 검사"
+      "Inspection of the repair process\n보수 공정에 대한 검사",
+      "Inspection of the base metal before fit-up\n조립 전 모재 검사"
     ],
-    "answer": 1
+    "answer": 1,
+    "note": "원본 시험지에 보기가 3개뿐이어서 4지선다로 맞추려고 오답 「Inspection of the base metal before fit-up」 을 더했다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 35,

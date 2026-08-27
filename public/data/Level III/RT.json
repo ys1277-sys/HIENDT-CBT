@@ -5,9 +5,14 @@
     "method": "RT",
     "category": "Method",
     "question": "You are radiographing a 1/2\" thick specimen using a 24\" SFD, 200KVP, 10mA, 1.2 minute, with an X-Ray tube with a 4mm focal spot. What is the Ug?\n시편두께가 1/2인치이고 24인치 SFD, 200KVP, 10mA, 1.2분, 초점 크기가 4mm일 때 기하학적 불선명도(Ug)는?",
-    "options": [],
-    "answer": "Ug = 0.084 inch",
-    "note": "원본이 서술형인 문항이다. 객관식으로 옮기며 보기 2~4번이 비어 있던 것을, 원본대로 주관식으로 되돌렸다. 정답은 원본 답지 그대로다."
+    "options": [
+      "Ug = 0.084 mm\nUg = 0.084 mm",
+      "Ug = 0.042 mm\nUg = 0.042 mm",
+      "Ug = 0.168 mm\nUg = 0.168 mm",
+      "Ug = 0.84 mm\nUg = 0.84 mm"
+    ],
+    "answer": 0,
+    "note": "원본이 서술형인 문항이다. 객관식으로 옮기며 보기 2~4번이 비어 있던 것을, 원본대로 주관식으로 되돌렸다. 정답은 원본 답지 그대로다.\n원본은 주관식이고 정답이 「Ug = 0.084 inch」였다. 4지선다로 바꾸며 오답 「Ug = 0.042 mm」 · 「Ug = 0.168 mm」 · 「Ug = 0.84 mm」 을 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 7,
@@ -34,10 +39,13 @@
     "question": "The surface of the quality grade PSL2 is inspected by RT. A round indication of 1/4in.(6mm) appeared. Is it acceptable?\n품질등급 PSL2 용접부를 RT 검사할 때 6mm 원형 지시가 나타났다. 합격인가?",
     "options": [
       "Accept\n합격",
-      "Reject\n불합격"
+      "Reject\n불합격",
+      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
+      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
     ],
     "answer": 0,
-    "groupNote": "* The following questions refer to API 6A\nAPI 6A에 따라 물음에 답하시오."
+    "groupNote": "* The following questions refer to API 6A\nAPI 6A에 따라 물음에 답하시오.",
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 9,
@@ -183,9 +191,14 @@
     "method": "RT",
     "category": "Method",
     "question": "The welds that is shown by radiography to have 1/16\" crack is acceptable (Yes or No)?\n방사선 투과사진에서 1/16인치 균열이 보이는 용접부는 합격인가?",
-    "options": [],
-    "answer": "No",
-    "note": "원본이 서술형인 문항이다. 객관식으로 옮기며 보기 2~4번이 비어 있던 것을, 원본대로 주관식으로 되돌렸다. 정답은 원본 답지 그대로다."
+    "options": [
+      "No\n불합격",
+      "Yes\n합격",
+      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
+      "The referencing code gives no acceptance criterion for cracks\n적용 규격에는 균열에 대한 합격 기준이 없다"
+    ],
+    "answer": 0,
+    "note": "원본이 서술형인 문항이다. 객관식으로 옮기며 보기 2~4번이 비어 있던 것을, 원본대로 주관식으로 되돌렸다. 정답은 원본 답지 그대로다.\n원본은 주관식이고 정답이 「No」였다. 4지선다로 바꾸며 오답 「Yes」 · 「It shall be re-examined by another method before judging」 · 「The referencing code gives no acceptance criterion for cracks」 을 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 20,
@@ -283,9 +296,14 @@
     "method": "RT",
     "category": "Method",
     "question": "There is no exposure advantage to the use of ______ in. front and back lead screens below 125 KV in the radiograph of 1/4 in. or lesser thickness steel.\n1/4인치 이하 두께의 강재를 125KV 이하에서 촬영할 때 전·후면 납 증감지를 몇 인치 사용하는 것은 노출상 이점이 없는가?",
-    "options": [],
-    "answer": "0.005 inch",
-    "note": "원본이 서술형인 문항이다. 객관식으로 옮기며 보기 2~4번이 비어 있던 것을, 원본대로 주관식으로 되돌렸다. 정답은 원본 답지 그대로다."
+    "options": [
+      "0.005 inch\n0.005인치",
+      "0.010 inch\n0.010인치",
+      "0.001 inch\n0.001인치",
+      "0.020 inch\n0.020인치"
+    ],
+    "answer": 0,
+    "note": "원본이 서술형인 문항이다. 객관식으로 옮기며 보기 2~4번이 비어 있던 것을, 원본대로 주관식으로 되돌렸다. 정답은 원본 답지 그대로다.\n원본은 주관식이고 정답이 「0.005 inch」였다. 4지선다로 바꾸며 오답 「0.010 inch」 · 「0.001 inch」 · 「0.020 inch」 을 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 27,
@@ -1056,9 +1074,12 @@
     "question": "(ASME Sec.I) - There is a single rounded indication of porosity that is one-sixteenth (1/16) inch in diameter. The weld is acceptable.\n(ASME Sec. I) 지름 1/16인치인 원형 기공 지시가 하나 있다. 이 용접부는 합격이다.",
     "options": [
       "True",
-      "False"
+      "False",
+      "True only if the referencing code section permits it\n적용 규격이 허용할 때만 맞다",
+      "Not addressed by the referencing code\n적용 규격에서 다루지 않는다"
     ],
-    "answer": 1
+    "answer": 1,
+    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 78,
@@ -1069,9 +1090,12 @@
     "question": "(ASME Section Ⅲ-NB) - There is a single rounded indication of porosity that is one-sixteenth (1/16) inch in diameter. The weld is acceptable.\n(ASME Section Ⅲ-NB) 지름 1/16인치인 원형 기공 지시가 하나 있다. 이 용접부는 합격이다.",
     "options": [
       "True",
-      "False"
+      "False",
+      "True only if the referencing code section permits it\n적용 규격이 허용할 때만 맞다",
+      "Not addressed by the referencing code\n적용 규격에서 다루지 않는다"
     ],
-    "answer": 0
+    "answer": 0,
+    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 79,
@@ -1082,9 +1106,12 @@
     "question": "(ANSI B31.1) - There is a single rounded indication of porosity that is one- sixteenth (1/16) inch in diameter. The weld is acceptable.\n(ANSI B31.1) 지름 1/16인치인 원형 기공 지시가 하나 있다. 이 용접부는 합격이다.",
     "options": [
       "True",
-      "False"
+      "False",
+      "True only if the referencing code section permits it\n적용 규격이 허용할 때만 맞다",
+      "Not addressed by the referencing code\n적용 규격에서 다루지 않는다"
     ],
-    "answer": 0
+    "answer": 0,
+    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 80,
@@ -1125,9 +1152,12 @@
     "question": "(API-1104) - The radiographs show the following sequence of single indications and sound weld metal. Elongated slag inclusion two(2) inches long, 10inches sound weld metal, incomplete fusion due to cold lap one(1) inch long, 10inches sound weld metal and elongated slag inclusion three-sixteenths (3/16) inch long. The remainder of the weld is sound. The weld is:\n(API-1104) 방사선사진에 단일 지시와 건전한 용접금속이 다음 순서로 나타났다. 길이 2인치 가늘고 긴 슬래그 개재물, 건전부 10인치, 콜드랩에 의한 융합불량 1인치, 건전부 10인치, 길이 3/16인치 가늘고 긴 슬래그 개재물. 나머지는 모두 건전하다. 이 용접부는?",
     "options": [
       "Acceptable",
-      "Unacceptable"
+      "Unacceptable",
+      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
+      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
     ],
-    "answer": 0
+    "answer": 0,
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 83,
@@ -1138,9 +1168,12 @@
     "question": "(ASME Section Ⅲ-ND-5321) - The radiographs show the following sequence of single indications and sound weld metal. Elongated slag inclusion one-quarter(1/4) inch long, nine and one-half(91/2)inches of sound weld metal and a gas pocket one-quarter (1/4)inch in diameter. The remainder of the weld is sound. The weld is:\n(ASME Section Ⅲ-ND-5321) 방사선사진에 단일 지시와 건전한 용접금속이 다음 순서로 나타났다. 길이 1/4인치 가늘고 긴 슬래그 개재물, 건전부 9½인치, 지름 1/4인치 기공. 나머지는 모두 건전하다. 이 용접부는?",
     "options": [
       "Acceptable",
-      "Unacceptable"
+      "Unacceptable",
+      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
+      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
     ],
-    "answer": 0
+    "answer": 0,
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 84,
@@ -1151,9 +1184,12 @@
     "question": "(ASME Section Ⅷ-UW51) - The radiographs show two(2) indications of slag, each one-quarter (1/4) inch long, and separated by 1.5 inches of sound weld metal. The weld is:\n(ASME Section Ⅷ-UW51) 방사선사진에 각각 길이 1/4인치인 슬래그 지시 2개가 건전한 용접금속 1.5인치를 사이에 두고 나타났다. 이 용접부는?",
     "options": [
       "Acceptable",
-      "Unacceptable"
+      "Unacceptable",
+      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
+      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
     ],
-    "answer": 0
+    "answer": 0,
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 85,
@@ -1164,9 +1200,12 @@
     "question": "(ASME Section Ⅲ-NG) - The radiographs show the following sequence of single indications and sound weld metal. One-quarter(1/4) inch of slag, 10inches of sound weld metal, one-quarter(1/4)inch of slag, 10inches of sound weld metal, and onequarter(1/4)inch of slag. The weld is:\n(ASME Section Ⅲ-NG) 방사선사진에 단일 지시와 건전한 용접금속이 다음 순서로 나타났다. 슬래그 1/4인치, 건전부 10인치, 슬래그 1/4인치, 건전부 10인치, 슬래그 1/4인치. 이 용접부는?",
     "options": [
       "Acceptable",
-      "Unacceptable"
+      "Unacceptable",
+      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
+      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
     ],
-    "answer": 0
+    "answer": 0,
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 86,
@@ -1177,9 +1216,12 @@
     "question": "(ASME Section Ⅲ-NB) - There is a single indication of incomplete fusion one- sixteenth(1/16) inch long. The weld is:\n(ASME Section Ⅲ-NB) 길이 1/16인치인 융합불량 지시가 하나 있다. 이 용접부는?",
     "options": [
       "Acceptable",
-      "Unacceptable"
+      "Unacceptable",
+      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
+      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
     ],
-    "answer": 1
+    "answer": 1,
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 87,
@@ -1190,9 +1232,12 @@
     "question": "(ASME Section V) - The use of fluorescent intensifying screens is prohibited.\n(ASME Section V) 형광 증감지의 사용은 금지되어 있다.",
     "options": [
       "True",
-      "False"
+      "False",
+      "True only if the referencing code section permits it\n적용 규격이 허용할 때만 맞다",
+      "Not addressed by the referencing code\n적용 규격에서 다루지 않는다"
     ],
-    "answer": 1
+    "answer": 1,
+    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 88,
@@ -1203,9 +1248,12 @@
     "question": "(ANSI B31.1) - When a girth weld performing radiography, it shall be done in accordance with Article 2 of Section V of ASME.\n(ANSI B31.1) 원주 용접부를 방사선투과검사할 때는 ASME Section V의 Article 2에 따라야 한다.",
     "options": [
       "True",
-      "False"
+      "False",
+      "True only if the referencing code section permits it\n적용 규격이 허용할 때만 맞다",
+      "Not addressed by the referencing code\n적용 규격에서 다루지 않는다"
     ],
-    "answer": 0
+    "answer": 0,
+    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 89,
@@ -1216,9 +1264,12 @@
     "question": "(API-1104) - When reporting the results of radiographic interpretation, all discontinuities observed must be reported.\n(API-1104) 방사선투과 판독 결과를 보고할 때는 관찰된 모든 불연속을 보고해야 한다.",
     "options": [
       "True",
-      "False"
+      "False",
+      "True only if the referencing code section permits it\n적용 규격이 허용할 때만 맞다",
+      "Not addressed by the referencing code\n적용 규격에서 다루지 않는다"
     ],
-    "answer": 1
+    "answer": 1,
+    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 90,
@@ -1260,9 +1311,12 @@
     "question": "(ASME Section V) - When shims are used under penetrameters, the shim material need not be exactly the same as the material being radiographed. It only needs to be radiographically similar.\n(ASME Section V) 투과도계 아래에 심(shim)을 쓸 때, 심 재료가 촬영 대상 재료와 정확히 같을 필요는 없고 방사선적으로 유사하기만 하면 된다.",
     "options": [
       "True",
-      "False"
+      "False",
+      "True only if the referencing code section permits it\n적용 규격이 허용할 때만 맞다",
+      "Not addressed by the referencing code\n적용 규격에서 다루지 않는다"
     ],
-    "answer": 0
+    "answer": 0,
+    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 93,
@@ -1273,9 +1327,12 @@
     "question": "Carbon steel and stainless steel are radiographically similar.\n탄소강과 스테인리스강은 방사선적으로 유사하다.",
     "options": [
       "True",
-      "False"
+      "False",
+      "True only if the referencing code section permits it\n적용 규격이 허용할 때만 맞다",
+      "Not addressed by the referencing code\n적용 규격에서 다루지 않는다"
     ],
-    "answer": 0
+    "answer": 0,
+    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 94,
@@ -1286,9 +1343,12 @@
     "question": "(ASME Section V) - Film identification, other than location markers, can be accomplished by using flashers or writing the numbers on with an indelible ink. Lead numbers need not be used during the exposure to accomplish identification.\n(ASME Section V) 위치 표시자를 제외한 필름 식별은 플래셔를 쓰거나 지워지지 않는 잉크로 번호를 적어 할 수 있다. 식별을 위해 촬영 중에 납 숫자를 쓸 필요는 없다.",
     "options": [
       "True",
-      "False"
+      "False",
+      "True only if the referencing code section permits it\n적용 규격이 허용할 때만 맞다",
+      "Not addressed by the referencing code\n적용 규격에서 다루지 않는다"
     ],
-    "answer": 0
+    "answer": 0,
+    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 95,
@@ -1299,9 +1359,12 @@
     "question": "(ASME Section Ⅷ-Div.2) - The radiograph shows two(2) indications of slag, each one-quarter (1/4) inch long, and separated by 1.5 inches, in 2 inch thickness of sound weld metal. The weld is:\n(ASME Section Ⅷ-Div.2) 방사선사진에 각각 길이 1/4인치인 슬래그 지시 2개가 1.5인치 간격으로, 두께 2인치의 건전한 용접금속에 나타났다. 이 용접부는?",
     "options": [
       "Acceptable",
-      "Unacceptable"
+      "Unacceptable",
+      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
+      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
     ],
-    "answer": 0
+    "answer": 0,
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 96,
@@ -1358,10 +1421,12 @@
     "question": "(ASME Section Ⅷ-Div.1) - When all butt welds in the shell and heads of vessels used to contain lethal substances should be examined radiographically, they shall be radiographed for their full length in the manner prescribed in UW-51\n(ASME Section Ⅷ-Div.1) 치명적 물질을 담는 용기의 동체와 경판에 있는 모든 맞대기 용접부를 방사선투과검사해야 할 때는, UW-51에 규정된 방법으로 전 길이를 촬영해야 한다.",
     "options": [
       "True",
-      "False"
+      "False",
+      "True only if the referencing code section permits it\n적용 규격이 허용할 때만 맞다",
+      "Not addressed by the referencing code\n적용 규격에서 다루지 않는다"
     ],
     "answer": 0,
-    "note": "원본 시험지의 철자 「radiographicall,」을 「radiographically,」로 바로잡음 (2026-08-27)"
+    "note": "원본 시험지의 철자 「radiographicall,」을 「radiographically,」로 바로잡음 (2026-08-27)\n원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 100,
@@ -1372,9 +1437,12 @@
     "question": "(ASME Section Ⅷ-Div.1) - The radiograph shows the aligned rounded indications that the summation of the diameters of the indications is 11 mm in a length of 130 mm, in 12 mm thickness of weld metal. The weld is:\n(ASME Section Ⅷ-Div.1) 두께 12mm 용접금속에서 길이 130mm 구간에 정렬된 원형 지시들의 지름 합이 11mm로 나타났다. 이 용접부는?",
     "options": [
       "Acceptable",
-      "Unacceptable"
+      "Unacceptable",
+      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
+      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
     ],
-    "answer": 1
+    "answer": 1,
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 101,
@@ -1385,9 +1453,12 @@
     "question": "(ASME Section Ⅷ-Div.1) - The radiograph shows the lack of side wall fusion indications of the 12 mm length in 25 mm thickness of weld metal. The weld is:\n(ASME Section Ⅷ-Div.1) 두께 25mm 용접금속에서 길이 12mm의 측벽 융합불량 지시가 나타났다. 이 용접부는?",
     "options": [
       "Acceptable",
-      "Unacceptable"
+      "Unacceptable",
+      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
+      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
     ],
-    "answer": 1
+    "answer": 1,
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 102,
@@ -1398,9 +1469,12 @@
     "question": "(ASME Section Ⅷ-Div.1) - The rewelded joint, or the weld repaired ares, shall be full radiographically examined at one location in accordance with the foregoing requirements of UW-52.\n(ASME Section Ⅷ-Div.1) 재용접한 이음부 또는 보수용접한 부위는 UW-52의 앞선 요구사항에 따라 한 곳에서 전체 방사선투과검사를 해야 한다.",
     "options": [
       "True",
-      "False"
+      "False",
+      "True only if the referencing code section permits it\n적용 규격이 허용할 때만 맞다",
+      "Not addressed by the referencing code\n적용 규격에서 다루지 않는다"
     ],
-    "answer": 1
+    "answer": 1,
+    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 103,
@@ -1411,9 +1485,12 @@
     "question": "(ASME Section Ⅷ-Div.2) - The radiograph shows the three clustered indications that the sum of length lengths of them is 35 mm in 140 mm length weld on 30 mm thickness of weld metal. The weld is:\n(ASME Section Ⅷ-Div.2) 두께 30mm 용접금속의 길이 140mm 용접부에서 군집 지시 3개가 나타났고 그 길이의 합은 35mm이다. 이 용접부는?",
     "options": [
       "Acceptable",
-      "Unacceptable"
+      "Unacceptable",
+      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
+      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
     ],
-    "answer": 1
+    "answer": 1,
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 104,

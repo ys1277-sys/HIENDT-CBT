@@ -165,10 +165,13 @@
     "question": "What method is used for fine-finish machined surfaces or after final heat treatment?\n연삭된 표면 또는 최종 열처리, 최종기계 가공이나 수압시험 후에 사용되는 시험 방법은",
     "options": [
       "Yoke",
-      "Prod"
+      "Prod",
+      "Coil\n코일",
+      "Central conductor\n중심도체"
     ],
     "answer": 0,
-    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-MT-P11 (Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅷ Div.1 & Div.2(2023 Edition).\n(문제는 HIE절차서에 따라 언급한다.)"
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-MT-P11 (Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec.Ⅷ Div.1 & Div.2(2023 Edition).\n(문제는 HIE절차서에 따라 언급한다.)",
+    "note": "원본 시험지에 보기가 2개뿐이어서 4지선다로 맞추려고 오답 「Coil」 · 「Central conductor」 을 더했다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 12,
@@ -211,10 +214,13 @@
     "question": "A length 1/4in.(6mm) rounded indication is; This indication acceptable?\n길이 1/4(6mm)인치의 원형지시는? 이 지시는 합격인가?",
     "options": [
       "Accept\n합격",
-      "Reject\n불합격"
+      "Reject\n불합격",
+      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
+      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
     ],
     "answer": 1,
-    "groupNote": "* The following questions refer to ASME Code Section. I\nASME Sec. I.에 따라 30번 물음에 답하시오."
+    "groupNote": "* The following questions refer to ASME Code Section. I\nASME Sec. I.에 따라 30번 물음에 답하시오.",
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 15,
@@ -287,9 +293,12 @@
     "question": "2mm crack found on welds by MT prod method. Is it acceptable (Ref. : Sect.Ⅷ Div.1)\n2mm 균열이 용접물에서 자분 탐상법(요-크)에 의해 발견되었다. 이것은 합격이냐?",
     "options": [
       "Acceptable\n합격",
-      "Unacceptable\n불합격"
+      "Unacceptable\n불합격",
+      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
+      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
     ],
-    "answer": 1
+    "answer": 1,
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 26,
@@ -300,9 +309,12 @@
     "question": "1/8 in. round indications in a line separated by 1/16\" edge found on welds by MT Yoke method Is it acceptable? (Ref. : ASME B 31.1)\n1/8 in. 크기의 원형지시가 자분탐상법 (요크)에 의해 용접물에서 발견되었다. 이것은 합격이냐?",
     "options": [
       "Acceptable\n합격",
-      "Unacceptable\n불합격"
+      "Unacceptable\n불합격",
+      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
+      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
     ],
-    "answer": 0
+    "answer": 0,
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 27,
@@ -415,8 +427,11 @@
     "question": "Five rounded indications in a line, separated by 1/16 in. edge-to-edge, were found on a weld by the MT yoke technique. Is it acceptable? (Ref.: ASME B31.1)\n요크법 자분탐상에서 원형 지시 5개가 가장자리 간격 1/16인치로 일렬로 발견되었다. 합격인가? (ASME B31.1 기준)",
     "options": [
       "Acceptable\n합격",
-      "Unacceptable\n불합격"
+      "Unacceptable\n불합격",
+      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
+      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
     ],
-    "answer": 1
+    "answer": 1,
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   }
 ]

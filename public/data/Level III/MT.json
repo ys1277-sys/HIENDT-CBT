@@ -5,9 +5,14 @@
     "method": "MT",
     "category": "Method",
     "question": "When using the wet method of MT, what is the particle concentration for?\n습식 자분탐상을 할 때 자분 농도는?",
-    "options": [],
-    "answer": "1.2 ml to 2.4 ml per 100 ml",
-    "note": "원본이 서술형인 문항이다. 객관식으로 옮기며 보기 2~4번이 비어 있던 것을, 원본대로 주관식으로 되돌렸다. 정답은 원본 답지 그대로다."
+    "options": [
+      "1.2 ml to 2.4 ml per 100 ml\n100 mL 당 1.2~2.4 mL",
+      "0.1 ml to 0.4 ml per 100 ml\n100 mL 당 0.1~0.4 mL",
+      "2.4 ml to 4.8 ml per 100 ml\n100 mL 당 2.4~4.8 mL",
+      "10 ml to 20 ml per 100 ml\n100 mL 당 10~20 mL"
+    ],
+    "answer": 0,
+    "note": "원본이 서술형인 문항이다. 객관식으로 옮기며 보기 2~4번이 비어 있던 것을, 원본대로 주관식으로 되돌렸다. 정답은 원본 답지 그대로다.\n원본은 주관식이고 정답이 「1.2 ml to 2.4 ml per 100 ml」였다. 4지선다로 바꾸며 오답 「0.1 ml to 0.4 ml per 100 ml」 · 「2.4 ml to 4.8 ml per 100 ml」 · 「10 ml to 20 ml per 100 ml」 을 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 3,
@@ -31,9 +36,14 @@
     "method": "MT",
     "category": "Method",
     "question": "How much is minimum lifting power at the maximum pole spacing that will be used of alternating current electromagnetic yoke?\n교류 전자 요크 사용 시 최대 극간 간격에서 최소 리프팅 파워는?",
-    "options": [],
-    "answer": "10 lb (4.5 kg)",
-    "note": "원본이 서술형인 문항이다. 객관식으로 옮기며 보기 2~4번이 비어 있던 것을, 원본대로 주관식으로 되돌렸다. 정답은 원본 답지 그대로다."
+    "options": [
+      "10 lb (4.5 kg)\n10 lb (4.5 kg)",
+      "40 lb (18 kg)\n40 lb (18 kg)",
+      "25 lb (11 kg)\n25 lb (11 kg)",
+      "5 lb (2.3 kg)\n5 lb (2.3 kg)"
+    ],
+    "answer": 0,
+    "note": "원본이 서술형인 문항이다. 객관식으로 옮기며 보기 2~4번이 비어 있던 것을, 원본대로 주관식으로 되돌렸다. 정답은 원본 답지 그대로다.\n원본은 주관식이고 정답이 「10 lb (4.5 kg)」였다. 4지선다로 바꾸며 오답 「40 lb (18 kg)」 · 「25 lb (11 kg)」 · 「5 lb (2.3 kg)」 을 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 6,
@@ -303,9 +313,12 @@
     "question": "1.3 mm linear indication was found on weld edge surface by MT yoke method, is it acceptable?\nMT Yoke 방법으로 용접부 끝 표면에서 1.3mm 선형 지시가 발견되었다. 합격인가?",
     "options": [
       "Yes\n예",
-      "No\n아니오"
+      "No\n아니오",
+      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
+      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
     ],
-    "answer": 0
+    "answer": 0,
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 25,
@@ -346,9 +359,12 @@
     "question": "2 mm round indication was found on weld edge preparation surface by MT yoke method, is it acceptable?\nMT Yoke 장비로 용접부 끝단 준비면에서 2mm 원형 지시가 발견되었다. 합격인가?",
     "options": [
       "Yes\n예",
-      "No\n아니오"
+      "No\n아니오",
+      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
+      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
     ],
-    "answer": 0
+    "answer": 0,
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 29,
@@ -375,10 +391,13 @@
     "question": "A length 1/4 in (6mm) rounded indication is; This indication acceptable?\n길이 1/4인치(6mm) 원형 지시는 합격인가?",
     "options": [
       "Accept\n합격",
-      "Reject\n불합격"
+      "Reject\n불합격",
+      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
+      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
     ],
     "answer": 1,
-    "groupNote": "* The following questions refer to ASME Code Section. I\nASME Sec. I.에 따라 30번 물음에 답하시오."
+    "groupNote": "* The following questions refer to ASME Code Section. I\nASME Sec. I.에 따라 30번 물음에 답하시오.",
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 31,

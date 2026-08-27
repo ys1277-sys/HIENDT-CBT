@@ -88,10 +88,13 @@
     "question": "The following rounded indications are in the weld ; (3ea) 1/16in. indications ; (3ea) 7/64in. indications and (4ea) 1/8in. indications. All are separated by 1/16in. from each other. Is the weld acceptable?\n용접부에 원형지시가 다음과 같이 나타났다. 1/16인치 3개, 7/64인치 3개, 1/8인치 4개의 지시가 서로 1/16인치 떨어져 있다. 이 용접부는 합격인가?",
     "options": [
       "Accept\n합격",
-      "Reject\n불합격"
+      "Reject\n불합격",
+      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
+      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
     ],
     "answer": 1,
-    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-PT-N21 (Rev.1) for liquid penetrant examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec Ⅲ. 2021 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격에 따른 압력용기 제작의 액체침투탐상 시험에 대한 절차서(HIE-NDT-PT-N21,Rev.1)"
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-PT-N21 (Rev.1) for liquid penetrant examination of pressure vessels fabricated in accordance with ASME B & PV Code Sec Ⅲ. 2021 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격에 따른 압력용기 제작의 액체침투탐상 시험에 대한 절차서(HIE-NDT-PT-N21,Rev.1)",
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 7,
@@ -102,10 +105,13 @@
     "question": "A length 1/8in.(3mm) rounded indication is; This indication acceptable?\n길이 1/8인치(3mm)의 원형지시는? 이 지시는 합격인가?",
     "options": [
       "Accept\n합격",
-      "Reject\n불합격"
+      "Reject\n불합격",
+      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
+      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
     ],
     "answer": 0,
-    "groupNote": "* The following questions refer to ASME Code Sec.I\nASME Sec.I에 따라 7번 물음에 답하시오."
+    "groupNote": "* The following questions refer to ASME Code Sec.I\nASME Sec.I에 따라 7번 물음에 답하시오.",
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 8,
@@ -116,10 +122,13 @@
     "question": "In Fig. 1, A is acceptable.(Ref. : Sect.Ⅲ subsect.NB)\n그림 1에서 결함 A는 합격이다",
     "options": [
       "True\n맞다",
-      "False (틀리다)\n\nA\n4/16“\n2/16“"
+      "False\n틀리다",
+      "True only if the referencing code section permits it\n적용 규격이 허용할 때만 맞다",
+      "Not addressed by the referencing code\n적용 규격에서 다루지 않는다"
     ],
     "answer": 1,
-    "image": "PT_SPECIFIC_Q8_FIG1.svg"
+    "image": "PT_SPECIFIC_Q8_FIG1.svg",
+    "note": "보기 2번에 그림 속 글자가 딸려 들어와 있던 것을 덜어냈다 (2026-08-27)\n원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 9,
@@ -192,10 +201,13 @@
     "question": "A 18mm linear indication was found during inspection of a 50mm thick casting. What is the pass/fail decision?\n50mm 두께의 주조품 검사시 선형 결함(Linear Indication) 18mm가 발견되었습니다. 합부는?",
     "options": [
       "Accept\n합격",
-      "Reject\n불합격"
+      "Reject\n불합격",
+      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
+      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
     ],
     "answer": 1,
-    "groupNote": "* The following questions refer to ASME B16.34\nASME B16.34에 따라 물음에 답하시오."
+    "groupNote": "* The following questions refer to ASME B16.34\nASME B16.34에 따라 물음에 답하시오.",
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 14,
@@ -206,10 +218,13 @@
     "question": "A 15mm linear indication was found during inspection of a 30mm thick forging. What is the pass/fail decision?\n15mm 두께의 단조품 검사시 선형 결함(Linear Indication) 30mm가 발견되었습니다. 합부는?",
     "options": [
       "Accept\n합격",
-      "Reject\n불합격"
+      "Reject\n불합격",
+      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
+      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
     ],
     "answer": 1,
-    "groupNote": "* The following questions refer to ASME B16.34\nASME B16.34에 따라 물음에 답하시오."
+    "groupNote": "* The following questions refer to ASME B16.34\nASME B16.34에 따라 물음에 답하시오.",
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 15,
@@ -265,10 +280,13 @@
     "question": "The surface of the quality grade PSL2 is inspected by PT. A round indication of 1/4in.(6mm) appeared. Is it acceptable?\n품질등급 PSL2 제품의 표면을 PT검사할 때 1/4in(6mm)의 원형지시가 나타났다 합격인가?",
     "options": [
       "Accept\n합격",
-      "Reject\n불합격"
+      "Reject\n불합격",
+      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
+      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
     ],
     "answer": 1,
-    "groupNote": "* Refer to HIE-NDT-PT-P6A(SKB) written in accordance with API 6A and answer question.\n(API 6A에 따라 작성된 HIE-NDT-PT-P6A(SKB)를 참고하여 물음에 답하시오.)"
+    "groupNote": "* Refer to HIE-NDT-PT-P6A(SKB) written in accordance with API 6A and answer question.\n(API 6A에 따라 작성된 HIE-NDT-PT-P6A(SKB)를 참고하여 물음에 답하시오.)",
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 19,
@@ -279,10 +297,13 @@
     "question": "When inspecting quality grade PSL2 products with a weld depth of 3/4 in.(19 mm) by PT, a round indication of 1/4in.(6mm) appeared. Is it acceptable?\n용접부 깊이가 20mm인 품질등급 PSL2 제품을 PT검사할 때 1/4in(6mm)의 원형지시가 나타났다 합격인가?",
     "options": [
       "Accept\n합격",
-      "Reject\n불합격"
+      "Reject\n불합격",
+      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
+      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
     ],
     "answer": 1,
-    "groupNote": "* Refer to HIE-NDT-PT-P6A(SKB) written in accordance with API 6A and answer question.\n(API 6A에 따라 작성된 HIE-NDT-PT-P6A(SKB)를 참고하여 물음에 답하시오.)"
+    "groupNote": "* Refer to HIE-NDT-PT-P6A(SKB) written in accordance with API 6A and answer question.\n(API 6A에 따라 작성된 HIE-NDT-PT-P6A(SKB)를 참고하여 물음에 답하시오.)",
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 21,
@@ -293,9 +314,12 @@
     "question": "Only 5/32\" rounded indication was found on forgings of which thickness is 1\". Is it acceptable? (Ref. : Sec.Ⅲ subsec. NB)\n1인치 두께의 단조물에서 5/32인치의 원형지시가 발견되었다. 이것은 합격인가?",
     "options": [
       "Accept\n합격",
-      "Reject\n불합격"
+      "Reject\n불합격",
+      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
+      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
     ],
-    "answer": 0
+    "answer": 0,
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 22,
@@ -306,9 +330,12 @@
     "question": "When doing liquid penetrant examination on weld edge preparation, 3/4\" laminar type discontinuities are found. Is this acceptable? (Ref. : Sec.Ⅲ subsec. NB)\n용접 개선 부위에 침투탐상검사를 하여 3/4인치의 라미나 형태 불연속이 발견되었다. 합격인가?",
     "options": [
       "Accept\n합격",
-      "Reject\n불합격"
+      "Reject\n불합격",
+      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
+      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
     ],
-    "answer": 0
+    "answer": 0,
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 23,
@@ -319,9 +346,12 @@
     "question": "Surface preparation before liquid penetrant examination : shot or sand blasting can be used.\n침투탐상검사 전 표면처리로 숏 또는 샌드 블라스팅을 사용할 수 있다.",
     "options": [
       "True\n맞다",
-      "False\n틀리다"
+      "False\n틀리다",
+      "True only if the referencing code section permits it\n적용 규격이 허용할 때만 맞다",
+      "Not addressed by the referencing code\n적용 규격에서 다루지 않는다"
     ],
-    "answer": 1
+    "answer": 1,
+    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 24,
@@ -361,9 +391,12 @@
     "question": "A 5/16 in. rounded indication was found on a weld. Is this acceptable? (Ref.: ASME Sec. Ⅷ Div. 2)\n용접부에서 5/16인치 원형 지시가 발견되었다. 합격인가? (ASME Sec. Ⅷ Div. 2 기준)",
     "options": [
       "Acceptable\n합격",
-      "Unacceptable\n불합격"
+      "Unacceptable\n불합격",
+      "It shall be re-examined by another method before judging\n판정하기 전에 다른 검사법으로 재검사해야 한다",
+      "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
     ],
-    "answer": 1
+    "answer": 1,
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 27,

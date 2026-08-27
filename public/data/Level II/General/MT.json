@@ -130,9 +130,11 @@
     "options": [
       "before\n전",
       "before and after\n전후",
-      "after\n후"
+      "after\n후",
+      "during / 시험 중"
     ],
-    "answer": 2
+    "answer": 2,
+    "note": "원본 시험지(MTG-II(A) 10번 · (B) 20번)에는 보기가 before / before and after / after 셋뿐이었다. 4지선다로 맞추려고 오답 「during (시험 중)」을 더했다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 10,
@@ -557,9 +559,12 @@
     "question": "Detects in brass parts can be detected with wet fluorescent magnetic particle inspection.\n습식 형광 자분 시험으로 황동 내의 결함을 찾을 수 있다.",
     "options": [
       "True\n맞다",
-      "False\n틀리다"
+      "False\n틀리다",
+      "True only if the referencing code section permits it\n적용 규격이 허용할 때만 맞다",
+      "Not addressed by the referencing code\n적용 규격에서 다루지 않는다"
     ],
-    "answer": 1
+    "answer": 1,
+    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 갈래로 채웠다 (2026-08-27). 문장이 다른 문항과 비슷하니 다듬을 몫이 남아 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
   },
   {
     "id": 38,
