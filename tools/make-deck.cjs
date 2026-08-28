@@ -32,6 +32,7 @@ const INK = "000000";
 const MUT = "595959";
 const LINE = "BFBFBF";
 const OK = "00B050";       /* 이주경 발표가 쓰는 초록 */
+const WARN = "BF8F00";     /* 눈여겨볼 것 — 어긋났다고 단정하지 않는 자리 */
 
 const SHOT = "docs/shots";
 const has = (f) => fs.existsSync(path.join(SHOT, f));
@@ -435,70 +436,234 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
 }
 
 /* ══════════════════════════════════════════
-    8  관리자 ② 자격 이력
+    1  관리자 화면 ②  자격 이력 — 무엇을 보나
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
   banner(s, "관리자 화면 ②  자격 이력");
-  sub(s, "이 한 화면이 여섯 사람의 자격을 판정합니다. 한 줄씩 보겠습니다");
+  sub(s, "사람 한 명이 친 시험을 전부 묶어, 자격이 지금 어떤지 판정합니다");
 
-  shot(s, "06-history.png", 0.62, 1.52, 7.55, 5.15);
+  shot(s, "06-history.png", 0.62, 1.5, 8.5, 4.6);
 
-  /*
-   * 화면에 실제로 찍혀 있는 여섯 줄을 하나씩 풀어 준다.
-   * 미리보기 자료(src/HistoryPreview.jsx)의 값이므로 화면과 정확히 맞는다.
-   */
-  const CASE = [
-    ["김철수", "Level Ⅲ RT", "기초 88 · 종목 92 · 전문 종이 시행",
-     "미완", "전문시험이 아직 종이라 점수가 없다.\n임의로 합격 처리하지 않고 「미완」으로 둔다."],
-    ["박민수", "Level Ⅱ MT", "일반 75 · 전문 80 → 종합 77.5",
-     "불합격", "개별은 둘 다 70%를 넘겼다. 종합이 80%에\n못 미쳐 불합격이다. (E01 7.4.5)"],
-    ["이영희", "Level Ⅱ PT", "자격 만료 2026-09-30",
-     "만료 33일 전", "3개월 안에 드는 순간 색이 바뀐다.\n시력검사는 이미 만료됐다. (E03 6.2.1)"],
-    ["정수빈", "Level Ⅱ VT", "일반 면제 · 전문 75",
-     "불합격", "ISO 9712 Level Ⅱ 소지자다. 면제받은 사람의\n합격선은 80%다 — 75점은 미달. (E01 7.3.7)"],
-    ["최윤석", "Level Ⅱ PT", "일반 면제 · 전문 85",
-     "필기 합격", "같은 면제자라도 80%를 넘겨 합격.\n만료일 2029-08-31 이 자동으로 잡힌다."],
-    ["홍길동", "Level Ⅱ UT", "불합격 뒤 18일 만에 재응시",
-     "규정 위반", "재시험은 30일이 지나야 한다. 화면 아래에\n언제부터인지 적어 준다. (E01 7.5)"],
+  const WHAT = [
+    ["시험별 점수", "그 사람이 친 시험을 등급·종목별로 모은다"],
+    ["종합", "요구되는 시험의 평균 — 규정이 정한 방식 그대로"],
+    ["판정", "합격 · 불합격 · 미완을 가른다"],
+    ["인증일자 · 만료일자", "언제까지 유효한지"],
+    ["상태", "유효 · 만료 임박 · 만료를 색으로"],
   ];
 
-  CASE.forEach((c, i) => {
-    const y = 1.55 + i * 0.87;
+  WHAT.forEach((t, i) => {
+    const y = 1.6 + i * 0.9;
     s.addShape(p.ShapeType.ellipse, {
-      x: 8.35, y: y + 0.04, w: 0.3, h: 0.3,
-      fill: { color: /합격$|미완/.test(c[3]) && c[3] !== "불합격" ? OK : RED },
+      x: 9.35, y: y + 0.04, w: 0.3, h: 0.3, fill: { color: BLU },
     });
     s.addText(String(i + 1), {
-      x: 8.35, y: y + 0.04, w: 0.3, h: 0.3, isTextBox: true, margin: 0,
+      x: 9.35, y: y + 0.04, w: 0.3, h: 0.3, isTextBox: true, margin: 0,
       fontFace: F, fontSize: 11, bold: true, color: "FFFFFF",
       align: "center", valign: "middle",
     });
-    s.addText([
-      { text: c[0] + "  ", options: { bold: true, color: INK } },
-      { text: c[1] + "   ", options: { color: MUT, fontSize: 11.5 } },
-      { text: c[3], options: { bold: true, color: c[3] === "필기 합격" ? OK : RED } },
-    ], {
-      x: 8.75, y, w: 4.4, h: 0.3, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 13.5,
+    s.addText(t[0], {
+      x: 9.75, y, w: 3.43, h: 0.32, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 15, bold: true, color: INK,
     });
-    s.addText(c[2], {
-      x: 8.75, y: y + 0.28, w: 4.4, h: 0.24, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 11.5, color: BLU,
-    });
-    s.addText(c[4], {
-      x: 8.75, y: y + 0.5, w: 4.4, h: 0.36, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 11, color: MUT, lineSpacing: 14,
+    s.addText(t[1], {
+      x: 9.75, y: y + 0.32, w: 3.43, h: 0.5, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 11.5, color: MUT, lineSpacing: 15,
     });
   });
 
-  s.addText("자격이 만료된 사람이 검사를 나가면 고객 감사에서 바로 지적됩니다. 이제 사람이 기억하지 않아도 됩니다.", {
-    x: 0.62, y: 6.82, w: 12.55, h: 0.35, isTextBox: true, margin: 0,
+  s.addText("여섯 사람이 각각 다른 경우입니다. 한 줄씩 보겠습니다.", {
+    x: 0.62, y: 6.3, w: 8.5, h: 0.4, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 15, bold: true, color: BLU,
+  });
+
+  page(s);
+  s.addNotes("이 한 화면이 자격 판정을 다 합니다. 다음 장부터 한 사람씩 뜯어 보겠습니다.");
+}
+
+/* ══════════════════════════════════════════
+    2  자격 이력 ②  점수 판정
+   ══════════════════════════════════════════ */
+{
+  const s = p.addSlide();
+  banner(s, "자격 이력 ②  점수를 어떻게 판정하나");
+  sub(s, "개별 시험은 70% 이상, 전 과목 평균은 80% 이상이어야 합니다");
+
+  /* 박민수 — 개별은 통과인데 종합에서 걸린다 */
+  shot(s, "21-박민수.png", 0.62, 1.5, 12.55, 2.15);
+  s.addShape(p.ShapeType.rect, {
+    x: 0.62, y: 3.75, w: 12.55, h: 0.95,
+    fill: { color: "FFF2F2" }, line: { color: RED, width: 1 },
+  });
+  s.addText("일반 75 · 전문 80  →  평균 77.5  →  불합격", {
+    x: 0.95, y: 3.85, w: 6.5, h: 0.36, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 17, bold: true, color: RED,
+  });
+  s.addText("두 시험 다 70%를 넘겼습니다. 그런데 평균이 80%에 못 미쳐 불합격입니다.\n한 과목만 잘 봐서는 자격이 나오지 않습니다.", {
+    x: 0.95, y: 4.2, w: 11.9, h: 0.5, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 13, color: INK, lineSpacing: 17,
+  });
+
+  /* 김철수 — 점수가 다 있는데도 판정을 미룬다 */
+  shot(s, "20-김철수.png", 0.62, 4.9, 12.55, 1.55);
+  s.addShape(p.ShapeType.rect, {
+    x: 0.62, y: 6.5, w: 12.55, h: 0.72,
+    fill: { color: "FFFBF2" }, line: { color: WARN, width: 1 },
+  });
+  s.addText("기초 88 · 종목 92 · 전문 「종이 시행」  →  미완", {
+    x: 0.95, y: 6.55, w: 6.5, h: 0.32, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 15, bold: true, color: WARN,
+  });
+  s.addText("Level Ⅲ 전문시험은 아직 종이로 칩니다. 점수가 안 들어오니 임의로 합격시키지 않고 「미완」으로 둡니다.", {
+    x: 0.95, y: 6.86, w: 11.9, h: 0.3, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 12.5, color: INK,
+  });
+
+  page(s);
+  s.addNotes("빠진 시험이 있으면 무엇이 빠졌는지 적어 보여줍니다. 사람이 착각해서 합격시킬 일이 없습니다.");
+}
+
+/* ══════════════════════════════════════════
+    3  자격 이력 ③  만료
+   ══════════════════════════════════════════ */
+{
+  const s = p.addSlide();
+  banner(s, "자격 이력 ③  만료를 먼저 알려 준다");
+  sub(s, "자격이 만료된 사람이 검사를 나가면 고객 감사에서 바로 지적됩니다");
+
+  shot(s, "22-이영희.png", 0.62, 1.5, 12.55, 2.15);
+
+  const M = [
+    ["자격 만료", "2026-09-30", "만료되는 달의 마지막 날에 끝난다.\nLevel Ⅱ 는 3년, Level Ⅲ 는 5년마다 다시 받는다."],
+    ["지금 상태", "만료 33일 전", "3개월 안에 드는 순간 색이 바뀐다.\n명단을 뽑아 본인과 소속 부서에 알린다."],
+    ["시력검사", "2026-04-30 만료", "자격이 살아 있어도 시력검사가 만료되면 잡힌다.\n검사일로부터 1년이다."],
+  ];
+
+  const cw = (12.55 - 0.4 * 2) / 3;
+  M.forEach((m, i) => {
+    const x = 0.62 + i * (cw + 0.4);
+    s.addShape(p.ShapeType.rect, {
+      x, y: 3.9, w: cw, h: 2.1,
+      fill: { color: i === 1 ? "FFF2F2" : "FFFFFF" },
+      line: { color: i === 1 ? RED : LINE, width: 1 },
+    });
+    s.addText(m[0], {
+      x: x + 0.25, y: 4.1, w: cw - 0.5, h: 0.34, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 15, bold: true, color: MUT,
+    });
+    s.addText(m[1], {
+      x: x + 0.25, y: 4.45, w: cw - 0.5, h: 0.5, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 23, bold: true, color: i === 1 ? RED : INK,
+    });
+    s.addText(m[2], {
+      x: x + 0.25, y: 5.05, w: cw - 0.5, h: 0.85, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 12.5, color: INK, lineSpacing: 18,
+    });
+  });
+
+  s.addText("예전에는 달력에 적어 두고 사람이 챙겼습니다. 이제 명단이 저절로 나옵니다.", {
+    x: 0.62, y: 6.25, w: 12.55, h: 0.4, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 15, bold: true, color: BLU,
+  });
+
+  page(s);
+  s.addNotes("자격 만료를 놓치는 것이 가장 큰 위험이었습니다.");
+}
+
+/* ══════════════════════════════════════════
+    4  자격 이력 ④  바깥 자격 면제
+   ══════════════════════════════════════════ */
+{
+  const s = p.addSlide();
+  banner(s, "자격 이력 ④  바깥 자격이 있으면");
+  sub(s, "ASNT·ISO 9712 자격이 있으면 일부 시험을 면제받습니다. 대신 합격선이 80%입니다");
+
+  s.addText("같은 ISO 9712 Level Ⅱ 소지자, 같은 전문시험 — 점수만 다릅니다", {
+    x: 0.62, y: 1.5, w: 12.55, h: 0.34, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 14, color: MUT,
+  });
+
+  /* 정약용 75 → 불합격 */
+  shot(s, "23-정약용.png", 0.62, 1.92, 12.55, 1.95);
+  s.addShape(p.ShapeType.rect, {
+    x: 0.62, y: 3.95, w: 12.55, h: 0.72,
+    fill: { color: "FFF2F2" }, line: { color: RED, width: 1 },
+  });
+  s.addText("전문 75  →  불합격", {
+    x: 0.95, y: 4.0, w: 3.2, h: 0.32, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 16, bold: true, color: RED,
+  });
+  s.addText("면제받지 않았다면 개별 70%를 넘겨 통과였을 점수입니다. 면제자는 80%가 기준입니다.", {
+    x: 4.3, y: 4.02, w: 8.6, h: 0.3, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 13, color: INK,
+  });
+  s.addText("일반시험은 「면제」로 뜨고, 옆에 ISO9712 II 표가 붙습니다. 미응시와 헷갈리지 않게 색을 달리했습니다.", {
+    x: 0.95, y: 4.33, w: 11.9, h: 0.3, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 12.5, color: MUT,
+  });
+
+  /* 강감찬 85 → 합격 */
+  shot(s, "24-강감찬.png", 0.62, 4.85, 12.55, 1.95);
+  s.addShape(p.ShapeType.rect, {
+    x: 0.62, y: 6.88, w: 12.55, h: 0.42,
+    fill: { color: "F2FBF5" }, line: { color: OK, width: 1 },
+  });
+  s.addText("전문 85  →  필기 합격 · 만료일 2029-08-31 이 저절로 잡힙니다", {
+    x: 0.95, y: 6.88, w: 11.9, h: 0.42, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 14, bold: true, color: OK, valign: "middle",
+  });
+
+  page(s);
+  s.addNotes("이 10점 차이를 사람이 판정하면 놓치기 쉽습니다. 면제자인 줄 모르고 70%로 보면 그대로 잘못 합격시킵니다.");
+}
+
+/* ══════════════════════════════════════════
+    5  자격 이력 ⑤  규정 위반
+   ══════════════════════════════════════════ */
+{
+  const s = p.addSlide();
+  banner(s, "자격 이력 ⑤  규정에 어긋난 것을 잡는다");
+  sub(s, "불합격한 뒤 30일이 지나야 다시 칠 수 있습니다");
+
+  shot(s, "25-홍길동.png", 0.62, 1.5, 12.55, 3.3);
+
+  s.addShape(p.ShapeType.rect, {
+    x: 0.62, y: 5.0, w: 12.55, h: 1.05,
+    fill: { color: "FFFBF2" }, line: { color: WARN, width: 1 },
+  });
+  s.addText("확인  UT — 불합격 뒤 18일 만에 다시 쳤습니다. 규정대로면 2026-06-01부터입니다.", {
+    x: 0.95, y: 5.12, w: 11.9, h: 0.36, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 16, bold: true, color: WARN,
+  });
+  s.addText("추가 훈련 증거가 있으면 30일 이전에도 칠 수 있습니다. 그런 경우인지 사람이 확인하라고 알려 줍니다.", {
+    x: 0.95, y: 5.5, w: 11.9, h: 0.36, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 13, color: INK,
+  });
+
+  const NOTE = [
+    ["UT 일반 60점 → 불합격", "2026-05-02"],
+    ["다시 침 88점 → 합격", "2026-05-20   18일 뒤"],
+  ];
+  NOTE.forEach((n, i) => {
+    const x = 0.62 + i * 6.5;
+    s.addText(n[0], {
+      x, y: 6.3, w: 6.2, h: 0.3, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 14, bold: true, color: INK,
+    });
+    s.addText(n[1], {
+      x, y: 6.6, w: 6.2, h: 0.3, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 13, color: i === 1 ? RED : MUT,
+    });
+  });
+
+  s.addText("사람이 날짜를 세지 않아도 프로그램이 먼저 짚어 줍니다.", {
+    x: 0.62, y: 6.95, w: 12.55, h: 0.35, isTextBox: true, margin: 0,
     fontFace: F, fontSize: 13.5, bold: true, color: BLU,
   });
 
   page(s);
-  s.addNotes("여섯 줄이 각각 다른 규정을 보여줍니다. 4번과 5번은 같은 면제자인데 80% 하나로 갈립니다.");
+  s.addNotes("이런 것이 나중에 감사에서 나오면 곤란합니다. 그때그때 잡습니다.");
 }
 
 /* ══════════════════════════════════════════

@@ -34,6 +34,13 @@ const SHOTS = [
   ["11-paper",    "?preview=paper",                [1180, 1000]],
   ["12-forms",    "?preview=form",                 [1180, 1000]],
   ["14-proc",     "?preview=proc",                 [1440, 940]],
+  /* 자격 이력을 한 사람씩 — 발표에서 크게 보여 주려는 것 */
+  ["20-김철수",   "?preview=history&only=김철수",   [1400, 330]],
+  ["21-박민수",   "?preview=history&only=박민수",   [1400, 330]],
+  ["22-이영희",   "?preview=history&only=이영희",   [1400, 330]],
+  ["23-정약용",   "?preview=history&only=정약용",   [1400, 330]],
+  ["24-강감찬",   "?preview=history&only=강감찬",   [1400, 330]],
+  ["25-홍길동",   "?preview=history&only=홍길동",   [1400, 430]],
 ];
 
 fs.mkdirSync(OUT, { recursive: true });

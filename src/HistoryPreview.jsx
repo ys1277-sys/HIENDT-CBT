@@ -65,10 +65,20 @@ export function ReportPreview() {
 }
 
 export default function HistoryPreview() {
+  /*
+   * ?preview=history&only=이름  으로 한 사람만 그린다.
+   *
+   * 여섯 사람이 한 화면에 다 나오면 발표 자료에 넣었을 때 글씨가 작아
+   * 안 읽힌다. 한 사람씩 따로 찍어 크게 보여 주려는 것이다.
+   */
+  const only = new URLSearchParams(window.location.search).get("only") || "";
+  const recs = only ? 기록.filter(r => r.name === only) : 기록;
+  const ppl  = only ? 명부.filter(p => p.name === only) : 명부;
+
   return (
     <History
-      results={기록}
-      people={명부}
+      results={recs}
+      people={ppl}
       onPrintUnit={(p, u) => console.log("채점결과보고서", p.name, u.key)}
     />
   );
