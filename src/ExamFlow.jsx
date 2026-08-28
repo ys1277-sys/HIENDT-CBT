@@ -3,19 +3,38 @@ import Home from "./Home.jsx";
 import Quiz from "./Quiz.jsx";
 import Admin from "./Admin.jsx";
 
+/*
+ * ?shot= 으로 그 화면부터 그린다.
+ *
+ *   ?shot=quiz    시험 화면 (MT 일반)
+ *   ?shot=admin   관리자 화면
+ *
+ * 발표자료에 넣을 화면 그림을 헤드리스 브라우저로 찍기 위한 것이다
+ * (tools/shots.cjs). 헤드리스는 주소를 열고 바로 찍으므로, 눌러서
+ * 들어가야 하는 화면은 주소로 바로 열 수 있어야 한다.
+ *
+ * App.jsx 의 ?preview= 와 같은 방식이다. 값이 없으면 평소대로 돈다.
+ */
+function shotMode() {
+  if (typeof window === "undefined") return "";
+  return new URLSearchParams(window.location.search).get("shot") || "";
+}
+
 function ExamFlow(){
 
-const [name,setName] = useState("");
+const shot = shotMode();
 
-const [level,setLevel] = useState("");
+const [name,setName] = useState(shot ? "홍길동" : "");
 
-const [method,setMethod] = useState("");
+const [level,setLevel] = useState(shot ? "Level II" : "");
 
-const [subject,setSubject] = useState("");
+const [method,setMethod] = useState(shot ? "MT" : "");
 
-const [start,setStart] = useState(false);
+const [subject,setSubject] = useState(shot ? "General" : "");
 
-const [admin,setAdmin] = useState(false);
+const [start,setStart] = useState(shot === "quiz");
+
+const [admin,setAdmin] = useState(shot === "admin");
 
 
 
