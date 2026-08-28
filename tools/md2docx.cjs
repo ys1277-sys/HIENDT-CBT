@@ -130,12 +130,19 @@ function makeTable(rows) {
 
   const trs = rows.map((cells, ri) =>
     new TableRow({
+      /* 머리행은 표가 쪽을 넘어갈 때 다음 장에도 다시 찍힌다 */
       tableHeader: ri === 0,
+      /*
+       * 한 행이 쪽 경계에서 위아래로 쪼개지지 않게 한다. 규정 표는
+       * 한 줄이 곧 하나의 약속이라 갈라지면 읽기 나쁘다.
+       */
+      cantSplit: true,
       children: Array.from({ length: cols }, (_, ci) =>
         new TableCell({
           width: { size: widths[ci], type: WidthType.DXA },
           borders,
-          shading: ri === 0 ? { type: ShadingType.CLEAR, fill: "EFEFEF" } : undefined,
+          /* 머리행 바탕도 회사 파랑 계열로 아주 옅게 (#EAF2F9) */
+          shading: ri === 0 ? { type: ShadingType.CLEAR, fill: "EAF2F9" } : undefined,
           margins: { top: 60, bottom: 60, left: 90, right: 90 },
           children: cellParas(cells[ci], { bold: ri === 0 }),
         })
@@ -177,9 +184,21 @@ function convert(md) {
     if (h) {
       const lvl = h[1].length;
       out.push(new Paragraph({
-        children: runs(h[2], { size: [30, 26, 22, 20][lvl - 1], bold: true, color: "003B73" }),
+        /*
+         * 제목 색을 회사 진파랑(#075F9E)으로 맞춘다. 예전 값 003B73 은
+         * 어디서도 안 쓰는 남색이었다. 로고와 워터마크, 화면이 모두
+         * 회사 파랑을 쓰므로 문서도 같은 색으로 둔다.
+         */
+        children: runs(h[2], { size: [30, 26, 22, 20][lvl - 1], bold: true, color: "075F9E" }),
         heading: [HeadingLevel.HEADING_1, HeadingLevel.HEADING_2, HeadingLevel.HEADING_3, HeadingLevel.HEADING_4][lvl - 1],
         spacing: { before: lvl === 1 ? 320 : 240, after: 120 },
+        /*
+         * 제목만 쪽 맨 아래 남고 내용이 다음 장으로 넘어가는 것을 막는다.
+         * keepNext 는 뒤 문단을 붙들고, keepLines 는 제목 자체가 두 줄로
+         * 쪼개져 쪽을 넘는 것을 막는다.
+         */
+        keepNext: true,
+        keepLines: true,
       }));
       i++;
       continue;
@@ -311,6 +330,11 @@ function convert(md) {
       out.push(new Paragraph({
         children: runs(sub),
         spacing: { before: 60, after: 60, line: 300 },
+        /*
+         * 문단의 첫 줄이나 마지막 줄이 혼자 쪽을 넘어가지 않게 한다.
+         * 한 줄만 덩그러니 남은 쪽이 없어진다.
+         */
+        widowControl: true,
         alignment: AlignmentType.JUSTIFIED,
       }));
     }
