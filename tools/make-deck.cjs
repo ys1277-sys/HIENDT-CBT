@@ -163,6 +163,59 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
 }
 
 /* ══════════════════════════════════════════
+    1  한 장으로
+   ══════════════════════════════════════════ */
+{
+  const s = p.addSlide();
+  banner(s, "그래서 이걸 만들었습니다");
+  sub(s, "3주 동안, 사 온 것 없이, 유지비 없이");
+
+  /* 큰 숫자 여섯 — 이 발표에서 기억에 남길 것들 */
+  const BIG = [
+    ["1,369", "문항", "종이 시험지를 전부 옮겨 담고\n규정 수보다 넉넉히 채웠다"],
+    ["4,200조", "가지 시험지", "같은 시험을 두 번 쳐도\n문제가 다르다"],
+    ["32", "개 조항", "자격인정 규정의 시험 관련 조항을\n하나도 빠짐없이 옮겼다"],
+    ["15", "가지 자동 검사", "고칠 때마다 어디가 틀어졌는지\n프로그램이 스스로 찾는다"],
+    ["20만", "줄", "3주 동안 고친 양.\nVS Code 로 직접 짰다"],
+    ["0", "원", "서버를 사지 않았다.\n유지비가 들지 않는다"],
+  ];
+
+  const cw = (12.55 - 0.42 * 2) / 3;
+  const ch = 2.25;
+
+  BIG.forEach((b, i) => {
+    const col = i % 3, row = Math.floor(i / 3);
+    const x = 0.62 + col * (cw + 0.42);
+    const y = 1.72 + row * (ch + 0.42);
+
+    s.addShape(p.ShapeType.rect, {
+      x, y, w: cw, h: ch,
+      fill: { color: "FFFFFF" }, line: { color: LINE, width: 1 },
+    });
+    s.addText(b[0], {
+      x: x + 0.15, y: y + 0.28, w: cw - 0.3, h: 0.92, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 46, bold: true, color: RED, align: "center",
+    });
+    s.addText(b[1], {
+      x: x + 0.15, y: y + 1.2, w: cw - 0.3, h: 0.36, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 17, bold: true, color: INK, align: "center",
+    });
+    s.addText(b[2], {
+      x: x + 0.15, y: y + 1.6, w: cw - 0.3, h: 0.6, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 12.5, color: MUT, align: "center", lineSpacing: 17,
+    });
+  });
+
+  s.addText("그리고 옮기는 동안, 규정과 어긋나 있던 것 셋을 찾아 바로잡았습니다.", {
+    x: 0.62, y: 6.9, w: 12.55, h: 0.35, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 15, bold: true, color: BLU,
+  });
+
+  page(s);
+  s.addNotes("이 여섯 개만 기억하셔도 됩니다. 뒤에서 하나씩 보여 드리겠습니다.");
+}
+
+/* ══════════════════════════════════════════
     3  응시자 ① 첫 화면
    ══════════════════════════════════════════ */
 {
@@ -259,16 +312,16 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
-  banner(s, "응시자 화면 ③  절차서");
-  sub(s, "전문시험은 장비와 검사 절차를 묻습니다. 그래서 절차서를 보며 풀 수 있게 했습니다");
+  banner(s, "응시자 화면 ③  검사절차서");
+  sub(s, "전문시험은 장비와 검사 절차를 묻습니다. 그래서 회사 검사절차서를 보며 풀 수 있게 했습니다");
 
   shot(s, "14-proc.png", 0.62, 1.52, 8.3, 5.15);
 
   const PROC = [
-    ["10종", "검사절차서 아홉과 자격인정절차서 E01"],
+    ["10종", "MT·PT·RT·UT·VT·ECT·RFT·TOFD·PAUT 검사절차서와 자격인정 규정"],
     ["179장", "한글 파일에서 뽑아 그대로 옮긴 그림"],
-    ["찾기", "절차서 안에서 낱말을 넣어 그 자리로 간다"],
-    ["문항에서 바로", "지시문의 절차서 이름을 누르면 열린다"],
+    ["찾기", "절차서 안에서 낱말을 넣으면 그 자리로 간다"],
+    ["문제에서 바로", "문제에 적힌 절차서 이름을 누르면 열린다"],
   ];
 
   PROC.forEach((t, i) => {
@@ -299,7 +352,7 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
   });
 
   page(s);
-  s.addNotes("현장에서도 같은 화면에서 절차서를 펴 볼 수 있습니다.");
+  s.addNotes("현장에서도 같은 화면에서 검사절차서를 펴 볼 수 있습니다. 사무실로 찾으러 가지 않아도 됩니다.");
 }
 
 /* ══════════════════════════════════════════
@@ -634,8 +687,8 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
-  banner(s, "만든 방법 ②  절차서를 코드로");
-  sub(s, "우리 절차서를 펴 놓고, 조항 하나하나를 프로그램의 어느 자리에 넣을지 정했습니다");
+  banner(s, "만든 방법 ②  규정을 코드로");
+  sub(s, "자격인정 규정을 펴 놓고, 조항 하나하나가 프로그램의 어느 자리가 될지 정했습니다");
 
   /*
    * 규정 → 프로그램. 어느 조항이 어느 파일의 어느 값이 되었는지.
@@ -711,7 +764,7 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
 
   const STEP = [
     ["규정을 먼저 읽었다",
-     "자격인정 절차서(E01)를 처음부터 끝까지 읽고, 시험에 관한 조항을 뽑아 표로\n" +
+     "자격인정 규정(HIE-QP-E01)를 처음부터 끝까지 읽고, 시험에 관한 조항을 뽑아 표로\n" +
      "만들었습니다. 어느 값이 어디서 오는지 먼저 정리한 것입니다.",
      "7월"],
     ["종이 시험지를 옮겨 담았다",
@@ -719,7 +772,7 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
      "뽑아 냈습니다. 옮긴 뒤 원본과 한 문제씩 맞춰 봤습니다.",
      "7~8월"],
     ["규칙 문서를 새로 썼다",
-     "E01 을 시행하려면 세부 규칙이 있어야 했습니다. 필기시험 시행 규칙(E02)과 자격증\n" +
+     "규정만 있고 시행 규칙이 없었습니다. 필기시험 시행 규칙(E02)과 자격증\n" +
      "발행·관리 규칙(E03)을 지어, 조항마다 E01 어디서 왔는지 달았습니다.",
      "8월"],
     ["화면과 채점을 만들었다",
@@ -843,7 +896,7 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
     fontFace: F, fontSize: 15, bold: true, color: RED,
   });
   s.addText("영문 오타 14가지 (Mamgetic → Magnetic 등)   ·   잘못된 정답 4건   ·   겹친 보기 1건   ·   " +
-            "절차서 번호 오기 3건 (ET-P11 → ET-P99)   ·   보기가 2~3개뿐이던 86문항을 4지선다로", {
+            "검사절차서 번호 오기 3건   ·   보기가 2~3개뿐이던 86문항을 4지선다로", {
     x: 0.95, y: 6.22, w: 11.9, h: 0.5, isTextBox: true, margin: 0,
     fontFace: F, fontSize: 13, color: INK,
   });
@@ -950,8 +1003,8 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
     x: 1.0, y: 5.05, w: 11.8, h: 0.4, isTextBox: true, margin: 0,
     fontFace: F, fontSize: 19, bold: true, color: BLU,
   });
-  s.addText("자격인정 절차서(HIE-QP-E01)의 한글 파일을 프로그램이 직접 읽습니다. 거기 적힌 숫자와\n" +
-            "우리 규칙 문서, 그리고 시험 프로그램이 같은 값을 쓰는지 19가지 잣대로 맞춰 봅니다.\n" +
+  s.addText("자격인정 규정(HIE-QP-E01)의 한글 파일을 프로그램이 직접 읽습니다. 거기 적힌 숫자와\n" +
+            "우리 시행 규칙, 그리고 시험 프로그램이 같은 값을 쓰는지 19가지 잣대로 맞춰 봅니다.\n" +
             "규정을 인용한 101군데를 원문과 한 줄씩 대조했습니다.", {
     x: 1.0, y: 5.5, w: 11.8, h: 0.95, isTextBox: true, margin: 0,
     fontFace: F, fontSize: 14, color: INK, lineSpacing: 22,
@@ -1018,7 +1071,7 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
 }
 
 /* ══════════════════════════════════════════
-   10  만든 방법 ⑥ 굴러가는 법
+    2  만든 방법 ⑥ 굴러가는 법
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
@@ -1085,7 +1138,7 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
 }
 
 /* ══════════════════════════════════════════
-   11  찾아낸 것 ①
+    3  찾아낸 것 ①
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
@@ -1133,7 +1186,7 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
     });
   });
 
-  s.addText("원본 시험지에서도 영문 오타 14가지 · 잘못된 정답 4건 · 겹친 보기 1건 · 절차서 번호 오기 3건을 찾아 바로잡았습니다.", {
+  s.addText("원본 시험지에서도 영문 오타 14가지 · 잘못된 정답 4건 · 겹친 보기 1건 · 검사절차서 번호 오기 3건을 찾아 바로잡았습니다.", {
     x: 0.62, y: 6.5, w: 12.55, h: 0.4, isTextBox: true, margin: 0,
     fontFace: F, fontSize: 14, bold: true, color: BLU,
   });
@@ -1143,7 +1196,7 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
 }
 
 /* ══════════════════════════════════════════
-   12  앞으로
+    4  앞으로
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
@@ -1233,7 +1286,53 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
 }
 
 /* ══════════════════════════════════════════
-   13  감사합니다
+    5  맺음 — 한 문장으로
+   ══════════════════════════════════════════ */
+{
+  const s = p.addSlide();
+
+  s.addText("규정을 사람이 기억하는 대신,\n프로그램이 지키게 했습니다.", {
+    x: 0.62, y: 1.9, w: 12.55, h: 2.1, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 42, bold: true, color: RED,
+    align: "center", valign: "middle", lineSpacing: 60,
+  });
+
+  const END = [
+    ["시험 한 번에 사람이 하던 일", "10 단계  →  3 단계"],
+    ["같은 시험을 두 번 쳐도", "문제가 다르다"],
+    ["자격 만료·시력 만료", "프로그램이 먼저 알려 준다"],
+    ["규정이 바뀌면", "그 자리만 고치면 된다"],
+  ];
+
+  const cw = (12.55 - 0.4 * 3) / 4;
+  END.forEach((e, i) => {
+    const x = 0.62 + i * (cw + 0.4);
+    s.addShape(p.ShapeType.rect, {
+      x, y: 4.4, w: cw, h: 1.5,
+      fill: { color: "F2F8FD" }, line: { color: BLU, width: 1 },
+    });
+    s.addText(e[0], {
+      x: x + 0.15, y: 4.6, w: cw - 0.3, h: 0.5, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 12.5, color: MUT, align: "center", lineSpacing: 17,
+    });
+    s.addText(e[1], {
+      x: x + 0.15, y: 5.15, w: cw - 0.3, h: 0.6, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 17, bold: true, color: BLU,
+      align: "center", valign: "middle",
+    });
+  });
+
+  s.addText("값 하나하나가 규정 어느 조항에서 왔는지 적혀 있습니다. 사 온 프로그램이 아니라 우리가 만든 것이라, 우리가 고칠 수 있습니다.", {
+    x: 0.62, y: 6.2, w: 12.55, h: 0.4, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 14, color: INK, align: "center",
+  });
+
+  page(s);
+  s.addNotes("이 한 문장이 이 발표의 전부입니다.");
+}
+
+/* ══════════════════════════════════════════
+    6  감사합니다
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
