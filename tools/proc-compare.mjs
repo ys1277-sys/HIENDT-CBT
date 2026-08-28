@@ -9,7 +9,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { readRich } from "./hwprich.mjs";
 
-const SRC = "D:/Visual Studio Code/절차서";
+const SRC = "D:/Visual Studio Code/원본자료/절차서";
 const OUT = "public/data/procedures";
 
 /* 원본 파일 이름 → 문서번호 */

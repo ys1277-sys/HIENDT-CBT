@@ -80,7 +80,7 @@ function toIndex(ans, n) {
 }
 
 const papers = [];
-for (const f of walk("D:/Visual Studio Code/Level II 문제")) {
+for (const f of walk("D:/Visual Studio Code/원본자료/Level II 문제")) {
   const rel = path.relative("D:/Visual Studio Code", f).replace(/\\/g, "/");
   const base = path.basename(f);
   const method = METHODS.find((m) => base.toUpperCase().startsWith(m));

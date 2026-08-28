@@ -24,8 +24,8 @@ const BROKEN = [
 ];
 
 const files = [
-  ...walk("D:/Visual Studio Code/Level II 문제"),
-  ...walk("D:/Visual Studio Code/Level III 문제"),
+  ...walk("D:/Visual Studio Code/원본자료/Level II 문제"),
+  ...walk("D:/Visual Studio Code/원본자료/Level III 문제"),
 ];
 
 let log = "";

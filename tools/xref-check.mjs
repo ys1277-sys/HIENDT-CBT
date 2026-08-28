@@ -34,7 +34,7 @@ function exhibitsOf(md) {
 /* E01 의 조항 */
 function e01Clauses() {
   const doc = readRich(
-    "D:/Visual Studio Code/절차서/비파괴시험요원 자격인정 절차서(HIE-QP-E01(Rev.8).hwp"
+    "D:/Visual Studio Code/원본자료/절차서/비파괴시험요원 자격인정 절차서(HIE-QP-E01(Rev.8).hwp"
   );
   const lines = [];
   (function w(bs) {

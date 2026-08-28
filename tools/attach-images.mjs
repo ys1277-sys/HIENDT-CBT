@@ -21,7 +21,7 @@ const IMG = path.join(PUB, "images");
 let log = "";
 
 /* ---------- 1) MT 자기이력 곡선 추출 ---------- */
-const MT_SRC = "D:/Visual Studio Code/Level II 문제/Genernal(40문항)/MTG-II(A).hwp";
+const MT_SRC = "D:/Visual Studio Code/원본자료/Level II 문제/Genernal(40문항)/MTG-II(A).hwp";
 const MT_NAME = "MT_GENERAL_FIG1.jpg";
 {
   const { images } = readHwp(MT_SRC);
@@ -36,7 +36,7 @@ const MT_NAME = "MT_GENERAL_FIG1.jpg";
 }
 
 /* ---------- 1-2) RFT 지지판 신호 그림 추출 ---------- */
-const RFT_SRC = "D:/Visual Studio Code/Level II 문제/Genernal(40문항)/RFTG-II(B).hwp";
+const RFT_SRC = "D:/Visual Studio Code/원본자료/Level II 문제/Genernal(40문항)/RFTG-II(B).hwp";
 const RFT_NAME = "RFT_GENERAL_SUPPORT_PLATE.png";
 {
   const { images } = readHwp(RFT_SRC);

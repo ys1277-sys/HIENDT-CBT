@@ -13,7 +13,7 @@ import fs from "node:fs";
 import path from "node:path";
 import XLSX from "xlsx";
 
-const SRC = process.argv[2] || "D:/Visual Studio Code/01_직원현황(24.01.17).xlsx";
+const SRC = process.argv[2] || "D:/Visual Studio Code/원본자료/01_직원현황(24.01.17).xlsx";
 const SHEET = "열람(사내레벨포함)";     /* 사내 Level 이 들어 있는 시트 */
 const OUT = path.join(process.cwd(), "docs", "요원-붙여넣기.csv");
 

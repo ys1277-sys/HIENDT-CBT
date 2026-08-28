@@ -25,9 +25,9 @@ import fs from "node:fs";
 import { readHwp, parseExam } from "./hwplib.mjs";
 import { parseAnswerKey } from "./anskey.mjs";
 
-const G = "D:/Visual Studio Code/Level II 문제/Genernal(40문항)/";
-const S = "D:/Visual Studio Code/Level II 문제/Specific(25문항)/";
-const T = "D:/Visual Studio Code/Level III 문제/";
+const G = "D:/Visual Studio Code/원본자료/Level II 문제/Genernal(40문항)/";
+const S = "D:/Visual Studio Code/원본자료/Level II 문제/Specific(25문항)/";
+const T = "D:/Visual Studio Code/원본자료/Level III 문제/";
 
 const JOBS = [
   ["일반/ECT",  "public/data/Level II/General/ECT.json",  [G+"ECTG-II(B).hwp"]],

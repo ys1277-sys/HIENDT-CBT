@@ -14,7 +14,7 @@ import path from "node:path";
 import { readHwp } from "./hwplib.mjs";
 
 const PUB = "D:/Visual Studio Code/HIENDT-CBT/public/data";
-const SRC = ["D:/Visual Studio Code/Level II 문제", "D:/Visual Studio Code/Level III 문제"];
+const SRC = ["D:/Visual Studio Code/원본자료/Level II 문제", "D:/Visual Studio Code/원본자료/Level III 문제"];
 
 const walk = (d, ext) =>
   fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => {

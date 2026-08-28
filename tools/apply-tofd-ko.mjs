@@ -12,7 +12,7 @@ import fs from "node:fs";
 import { readRich } from "./hwprich.mjs";
 import { KO } from "./tofd-ko.mjs";
 
-const SRC = "D:/Visual Studio Code/절차서/p11-2-TOFD.hwp";
+const SRC = "D:/Visual Studio Code/원본자료/절차서/p11-2-TOFD.hwp";
 const OUT = "D:/Visual Studio Code/HIENDT-CBT/tools/tofd-ko.json";
 
 const HANGUL = /[가-힣]/;

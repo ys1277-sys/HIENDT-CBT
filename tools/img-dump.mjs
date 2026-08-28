@@ -9,7 +9,7 @@ import path from "node:path";
 import { readHwp } from "./hwplib.mjs";
 import { toWebImage } from "./img.mjs";
 
-const ROOTS = ["D:/Visual Studio Code/Level II 문제", "D:/Visual Studio Code/Level III 문제"];
+const ROOTS = ["D:/Visual Studio Code/원본자료/Level II 문제", "D:/Visual Studio Code/원본자료/Level III 문제"];
 const walk = (d) =>
   fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => {
     const p = path.join(d, e.name);

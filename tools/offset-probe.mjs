@@ -11,7 +11,7 @@ import zlib from "node:zlib";
 import cfb from "cfb";
 import { inflate, magic } from "./hwplib.mjs";
 
-const F = process.argv[2] || "D:/Visual Studio Code/Level II 문제/Genernal(40문항)/MTG-II(A).hwp";
+const F = process.argv[2] || "D:/Visual Studio Code/원본자료/Level II 문제/Genernal(40문항)/MTG-II(A).hwp";
 
 const doc = cfb.read(fs.readFileSync(F), { type: "buffer" });
 const paths = doc.FullPaths;

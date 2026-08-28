@@ -17,7 +17,7 @@ import path from "node:path";
 import { readHwp, parseExam } from "./hwplib.mjs";
 import { parseAutoNum } from "./parse-autonum.mjs";
 
-const SRC = "D:/Visual Studio Code/Level II 문제";
+const SRC = "D:/Visual Studio Code/원본자료/Level II 문제";
 const PUB = "D:/Visual Studio Code/HIENDT-CBT/public/data/Level II";
 
 /* 자동 번호를 쓴 시험지는 따로 읽는다 */

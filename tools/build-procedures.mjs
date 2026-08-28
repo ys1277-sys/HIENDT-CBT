@@ -1,7 +1,7 @@
 ﻿/*
  * 절차서 hwp 를 앱이 읽을 수 있는 꼴로 바꾼다.
  *
- * D:/Visual Studio Code/절차서/*.hwp 를 읽어
+ * D:/Visual Studio Code/원본자료/절차서/*.hwp 를 읽어
  * public/data/procedures/ 에 문서 json 과 그림을 쓰고 index.json 을 갱신한다.
  *
  * 원본 그대로 옮긴다
@@ -27,7 +27,7 @@ import { wmfToPng, isWmf } from "./wmf2png.mjs";
 import { oleToImage, isOle } from "./ole2png.mjs";
 import { PROC_KO_FIX } from "./proc-ko-fix.mjs";
 
-const SRC = "D:/Visual Studio Code/절차서";
+const SRC = "D:/Visual Studio Code/원본자료/절차서";
 const OUT = "D:/Visual Studio Code/HIENDT-CBT/public/data/procedures";
 
 /*

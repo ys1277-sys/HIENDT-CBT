@@ -38,7 +38,7 @@ function readKo(name) {
   }
 }
 
-const SRC = "D:/Visual Studio Code/절차서";
+const SRC = "D:/Visual Studio Code/원본자료/절차서";
 const OUT = "D:/Visual Studio Code/HIENDT-CBT/public/data/procedures";
 
 const norm = (s) => String(s || "").replace(/\s+/g, " ").trim();

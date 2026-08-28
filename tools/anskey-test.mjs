@@ -11,8 +11,8 @@ const walk = (d) =>
   });
 
 const files = [
-  ...walk("D:/Visual Studio Code/Level II 문제"),
-  ...walk("D:/Visual Studio Code/Level III 문제"),
+  ...walk("D:/Visual Studio Code/원본자료/Level II 문제"),
+  ...walk("D:/Visual Studio Code/원본자료/Level III 문제"),
 ];
 
 let log = "파일".padEnd(46) + "문항  답지  방식    매칭  범위밖\n" + "-".repeat(92) + "\n";

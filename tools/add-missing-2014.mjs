@@ -16,9 +16,9 @@ import { parseAnswerKey } from "./anskey.mjs";
 import { readHwp } from "./hwplib.mjs";
 
 const DRY = process.argv.includes("--dry");
-const S = "D:/Visual Studio Code/Level II 문제/Specific(25문항)/";
+const S = "D:/Visual Studio Code/원본자료/Level II 문제/Specific(25문항)/";
 
-const G = "D:/Visual Studio Code/Level II 문제/Genernal(40문항)/";
+const G = "D:/Visual Studio Code/원본자료/Level II 문제/Genernal(40문항)/";
 
 const JOBS = [
   ["PAUT", "Specific", "public/data/Level II/Specific/PAUT.json", S + "PAUTSpec-II-A-type(2014).hwp"],

@@ -6,8 +6,8 @@
 원본 시험지 위치 (경로가 코드에 박혀 있다)
 
 ```
-D:\Visual Studio Code\Level II 문제\      Genernal(40문항) / Specific(25문항) / B16.34(밸브)
-D:\Visual Studio Code\Level III 문제\     basic / B16.34(밸브) / 문항추가
+D:\Visual Studio Code\원본자료/Level II 문제\      Genernal(40문항) / Specific(25문항) / B16.34(밸브)
+D:\Visual Studio Code\원본자료/Level III 문제\     basic / B16.34(밸브) / 문항추가
 ```
 
 ## 왜 직접 만들었나

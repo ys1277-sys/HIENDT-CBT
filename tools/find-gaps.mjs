@@ -10,7 +10,7 @@ import { readHwp, parseExam } from "./hwplib.mjs";
 import { parseAnswerKey } from "./anskey.mjs";
 
 const PUB = "D:/Visual Studio Code/HIENDT-CBT/public/data";
-const SRC = "D:/Visual Studio Code/Level II 문제";
+const SRC = "D:/Visual Studio Code/원본자료/Level II 문제";
 
 /* 은행 -> 원본 파일들 */
 const MAP = {
