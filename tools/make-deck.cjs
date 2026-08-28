@@ -481,7 +481,7 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
 }
 
 /* ══════════════════════════════════════════
-   10  관리자 ④ 빈 서식
+    1  관리자 ④ 빈 서식
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
@@ -524,7 +524,7 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
 }
 
 /* ══════════════════════════════════════════
-   11  관리자 ⑤ 종이 시험
+    2  관리자 ⑤ 종이 시험
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
@@ -571,7 +571,7 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
 }
 
 /* ══════════════════════════════════════════
-   12  만든 방법 ① VS Code
+    3  만든 방법 ① VS Code
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
@@ -607,13 +607,17 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
     x: 8.5, y: 5.35, w: 4.68, h: 1.3,
     fill: { color: "F2F8FD" }, line: { color: BLU, width: 1 },
   });
-  s.addText("205 번 고쳐 올렸습니다", {
+  /*
+   * 커밋 수(207)를 내세우면 실제로 한 일보다 작아 보인다. 한 번 올릴
+   * 때마다 수십 번 고치고 돌려 본다. 고친 줄 수가 실상에 가깝다.
+   */
+  s.addText("20만 줄을 고쳤습니다", {
     x: 8.78, y: 5.5, w: 4.2, h: 0.34, isTextBox: true, margin: 0,
-    fontFace: F, fontSize: 15, bold: true, color: BLU,
+    fontFace: F, fontSize: 16, bold: true, color: BLU,
   });
-  s.addText("2026년 7월 23일부터 8월 28일까지, 14일 동안.\n고친 것마다 왜 고쳤는지 적어 남겼습니다.", {
+  s.addText("2026년 7월 23일부터 8월 28일까지 3주 동안,\n고쳐서 올린 것만 207번. 그 사이 수천 번 고쳤습니다.", {
     x: 8.78, y: 5.88, w: 4.2, h: 0.65, isTextBox: true, margin: 0,
-    fontFace: F, fontSize: 12, color: INK, lineSpacing: 17,
+    fontFace: F, fontSize: 11.5, color: INK, lineSpacing: 17,
   });
 
   s.addText("위 화면은 실제 파일입니다. 숫자 하나하나 옆에 「이건 규정 몇 조에서 온 값이다」를 적어 두었습니다.", {
@@ -626,11 +630,151 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
 }
 
 /* ══════════════════════════════════════════
-   13  만든 방법 ② 문제은행
+    4  만든 방법 ②  절차서를 코드로
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
-  banner(s, "만든 방법 ②  문제은행");
+  banner(s, "만든 방법 ②  절차서를 코드로");
+  sub(s, "우리 절차서를 펴 놓고, 조항 하나하나를 프로그램의 어느 자리에 넣을지 정했습니다");
+
+  /*
+   * 규정 → 프로그램. 어느 조항이 어느 파일의 어느 값이 되었는지.
+   * 전부 실제로 있는 파일과 이름이다.
+   */
+  const MAP = [
+    ["E01 표 3", "종목마다 몇 문제를 낼지", "ExamData.jsx", "QUESTION_COUNT"],
+    ["E01 7.3.4", "Level Ⅲ 기초 55 · 종목 65", "ExamData.jsx", "Level III"],
+    ["E01 7.4.4", "종합점수는 단순 평균", "history.js", "average()"],
+    ["E01 7.4.5", "개별 70% · 종합 80%", "history.js", "PASS_EACH / PASS_TOTAL"],
+    ["E01 7.5", "재시험은 30일 지나서", "history.js", "RETAKE_DAYS"],
+    ["E01 7.9.2", "재자격 Ⅰ·Ⅱ 3년 · Ⅲ 5년", "history.js", "RECERT_YEARS"],
+    ["E01 7.3.2", "시력검사는 1년", "history.js", "EYE_YEARS"],
+    ["E01 7.3.5·7.3.7", "바깥 자격이 있으면 면제", "history.js", "exemptKinds()"],
+    ["E03 6.2.1", "만료 3개월 전에 알린다", "history.js", "WARN_MONTHS"],
+    ["E02 7.3.1", "보기 차례를 시험마다 섞는다", "optionShuffle.js", "shuffleOptions()"],
+    ["E02 5.3.2", "시험지 NOTE 다섯 유형", "examNote.js", "examNote()"],
+    ["E02 8.0", "빈 서식 아홉 가지", "blankForms.jsx", "BLANK_FORMS"],
+  ];
+
+  const rh = 0.42;
+  const y0 = 1.62;
+
+  /* 머리줄 */
+  ["규정 조항", "무엇을 정하나", "어느 파일", "어느 값"].forEach((h, i) => {
+    const x = [0.62, 2.85, 7.55, 10.0][i];
+    const w = [2.2, 4.65, 2.4, 3.18][i];
+    s.addShape(p.ShapeType.rect, {
+      x, y: y0, w, h: rh,
+      fill: { color: "F2F8FD" }, line: { color: BLU, width: 1 },
+    });
+    s.addText(h, {
+      x: x + 0.12, y: y0, w: w - 0.24, h: rh, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 13, bold: true, color: BLU, valign: "middle",
+    });
+  });
+
+  MAP.forEach((r, i) => {
+    const y = y0 + rh + i * rh;
+    if (i % 2 === 0) {
+      s.addShape(p.ShapeType.rect, {
+        x: 0.62, y, w: 12.56, h: rh,
+        fill: { color: "F9F9F9" }, line: { color: "F9F9F9", width: 0 },
+      });
+    }
+    [[0.62, 2.2, r[0], 12.5, RED, true],
+     [2.85, 4.65, r[1], 13, INK, false],
+     [7.55, 2.4, r[2], 12, MUT, false],
+     [10.0, 3.18, r[3], 12, BLU, false]].forEach(([x, w, t, sz, col, bold]) => {
+      s.addText(t, {
+        x: x + 0.12, y, w: w - 0.24, h: rh, isTextBox: true, margin: 0,
+        fontFace: F, fontSize: sz, color: col, bold, valign: "middle",
+      });
+    });
+  });
+
+  s.addText("숫자를 코드 안에 그냥 적어 두지 않았습니다. 이름을 붙여 한자리에 모으고, 그 옆에 「이건 규정 몇 조에서 온 값이다」를 적었습니다.", {
+    x: 0.62, y: 6.9, w: 12.55, h: 0.35, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 13.5, bold: true, color: BLU,
+  });
+
+  page(s);
+  s.addNotes("규정이 개정되면 이 표를 보고 그 자리만 고치면 됩니다. 프로그램 전체를 뒤질 필요가 없습니다.");
+}
+
+/* ══════════════════════════════════════════
+    5  만든 방법 ③  어떤 차례로
+   ══════════════════════════════════════════ */
+{
+  const s = p.addSlide();
+  banner(s, "만든 방법 ③  어떤 차례로");
+  sub(s, "규정을 먼저 읽고, 시험지를 옮기고, 그 다음에 화면을 만들었습니다");
+
+  const STEP = [
+    ["규정을 먼저 읽었다",
+     "자격인정 절차서(E01)를 처음부터 끝까지 읽고, 시험에 관한 조항을 뽑아 표로\n" +
+     "만들었습니다. 어느 값이 어디서 오는지 먼저 정리한 것입니다.",
+     "7월"],
+    ["종이 시험지를 옮겨 담았다",
+     "한글 시험지 49개를 프로그램이 읽을 수 있는 꼴로 바꿨습니다. 그림 28장도 함께\n" +
+     "뽑아 냈습니다. 옮긴 뒤 원본과 한 문제씩 맞춰 봤습니다.",
+     "7~8월"],
+    ["규칙 문서를 새로 썼다",
+     "E01 을 시행하려면 세부 규칙이 있어야 했습니다. 필기시험 시행 규칙(E02)과 자격증\n" +
+     "발행·관리 규칙(E03)을 지어, 조항마다 E01 어디서 왔는지 달았습니다.",
+     "8월"],
+    ["화면과 채점을 만들었다",
+     "시험 화면, 채점, 자격 이력, 인쇄까지. 규정 값은 앞에서 정리한 표를 그대로\n" +
+     "옮겨 넣었습니다.",
+     "8월"],
+    ["검사를 만들어 붙였다",
+     "고칠 때마다 사람이 다 확인할 수 없어, 확인하는 일 자체를 프로그램으로\n" +
+     "만들었습니다. 지금 열다섯 가지가 돕니다.",
+     "8월"],
+  ];
+
+  STEP.forEach((t, i) => {
+    const y = 1.62 + i * 1.06;
+    s.addShape(p.ShapeType.rect, {
+      x: 0.62, y, w: 12.55, h: 0.94,
+      fill: { color: "FFFFFF" }, line: { color: LINE, width: 1 },
+    });
+    s.addShape(p.ShapeType.ellipse, {
+      x: 0.92, y: y + 0.25, w: 0.44, h: 0.44, fill: { color: BLU },
+    });
+    s.addText(String(i + 1), {
+      x: 0.92, y: y + 0.25, w: 0.44, h: 0.44, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 15, bold: true, color: "FFFFFF",
+      align: "center", valign: "middle",
+    });
+    s.addText(t[0], {
+      x: 1.5, y: y + 0.1, w: 5.2, h: 0.36, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 18, bold: true, color: INK,
+    });
+    s.addText(t[2], {
+      x: 11.9, y: y + 0.14, w: 1.0, h: 0.3, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 13, bold: true, color: RED, align: "right",
+    });
+    s.addText(t[1], {
+      x: 1.5, y: y + 0.44, w: 10.2, h: 0.46, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 12.5, color: MUT, lineSpacing: 17,
+    });
+  });
+
+  s.addText("화면부터 만들지 않았습니다. 규정을 먼저 읽고 값을 정리한 뒤에 만들었기 때문에, 나중에 뜯어고칠 일이 없었습니다.", {
+    x: 0.62, y: 6.95, w: 12.55, h: 0.35, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 13.5, bold: true, color: BLU,
+  });
+
+  page(s);
+  s.addNotes("규정을 먼저 읽은 것이 가장 큰 차이였습니다. TOFD·PAUT 문항 수가 어긋난 것도 그때 찾았습니다.");
+}
+
+/* ══════════════════════════════════════════
+    6  만든 방법 ② 문제은행
+   ══════════════════════════════════════════ */
+{
+  const s = p.addSlide();
+  banner(s, "만든 방법 ④  문제은행");
   sub(s, "종이 시험지를 한 문제씩 옮겨 담고, 규정이 요구하는 수보다 넉넉히 채웠습니다");
 
   const BANK = [
@@ -709,11 +853,11 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
 }
 
 /* ══════════════════════════════════════════
-   14  만든 방법 ③ 문제가 다르다
+    7  만든 방법 ③ 문제가 다르다
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
-  banner(s, "만든 방법 ③  문제가 매번 다르다");
+  banner(s, "만든 방법 ⑤  문제가 매번 다르다");
   sub(s, "문제와 보기 차례를 시험마다 바꿉니다 — 규정이 그렇게 하라고 정하고 있습니다");
 
   /* 큰 숫자 하나로 못 박는다 */
@@ -764,11 +908,11 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
 }
 
 /* ══════════════════════════════════════════
-   15  만든 방법 ④ 규정
+    8  만든 방법 ④ 규정
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
-  banner(s, "만든 방법 ④  규정을 그대로");
+  banner(s, "만든 방법 ⑥  규정을 그대로");
   sub(s, "프로그램 안의 숫자는 전부 규정에서 가져온 것입니다. 제가 정한 것이 없습니다");
 
   const rows = [
@@ -818,11 +962,11 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
 }
 
 /* ══════════════════════════════════════════
-   16  만든 방법 ⑤ 검사
+    9  만든 방법 ⑤ 검사
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
-  banner(s, "만든 방법 ⑤  스스로 검사");
+  banner(s, "만든 방법 ⑦  스스로 검사");
   sub(s, "문제를 하나라도 고치면, 어디가 틀어졌는지 프로그램이 스스로 찾아냅니다");
 
   const CHK = [
@@ -874,11 +1018,11 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
 }
 
 /* ══════════════════════════════════════════
-   17  만든 방법 ⑥ 굴러가는 법
+   10  만든 방법 ⑥ 굴러가는 법
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
-  banner(s, "만든 방법 ⑥  어떻게 굴러가나");
+  banner(s, "만든 방법 ⑧  어떻게 굴러가나");
   sub(s, "고친 것이 응시자 화면까지 어떻게 가는지, 푼 결과가 어디에 쌓이는지");
 
   const N = [
@@ -941,11 +1085,11 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
 }
 
 /* ══════════════════════════════════════════
-   18  찾아낸 것 ①
+   11  찾아낸 것 ①
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
-  banner(s, "찾아낸 것 ①  규정과 어긋나 있던 것");
+  banner(s, "찾아낸 것 — 규정과 어긋나 있던 것");
   sub(s, "옮기려면 규정을 한 줄씩 다시 읽어야 했습니다. 그러다 드러난 것들입니다");
 
   const GAP = [
@@ -999,58 +1143,7 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
 }
 
 /* ══════════════════════════════════════════
-   19  찾아낸 것 ②
-   ══════════════════════════════════════════ */
-{
-  const s = p.addSlide();
-  banner(s, "찾아낸 것 ②  계산기가 틀리고 있었다");
-  sub(s, "시험 볼 때 쓰는 계산기가 틀린 값을 내고 있었습니다");
-
-  shot(s, "03-calc.png", 0.62, 1.55, 6.2, 4.6);
-
-  const BUG = [
-    ["sin(30) = −0.988",
-     "0.5 가 나와야 한다. 라디안 기준이었다.",
-     "굴절각과 스넬의 법칙 계산이 전부 틀린 값"],
-    ["log 가 자연로그",
-     "상용로그 log₁₀ 여야 한다.",
-     "dB = 20·log₁₀(A₁/A₂) 가 조용히 틀렸다"],
-    ["ln 은 누르면 오류",
-     "함수 자체가 없었다.",
-     "쓰려던 사람은 그냥 못 썼다"],
-  ];
-
-  BUG.forEach((b, i) => {
-    const y = 1.72 + i * 1.62;
-    s.addShape(p.ShapeType.rect, {
-      x: 7.15, y, w: 6.0, h: 1.38,
-      fill: { color: "FFF2F2" }, line: { color: RED, width: 1 },
-    });
-    s.addText(b[0], {
-      x: 7.45, y: y + 0.12, w: 5.4, h: 0.38, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 19, bold: true, color: RED,
-    });
-    s.addText(b[1], {
-      x: 7.45, y: y + 0.53, w: 5.4, h: 0.3, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 13.5, color: INK,
-    });
-    s.addText("→ " + b[2], {
-      x: 7.45, y: y + 0.86, w: 5.4, h: 0.36, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 12.5, color: MUT,
-    });
-  });
-
-  s.addText("셋 다 바로잡고 도(°) 모드를 기본으로 두었습니다. 시험지에서만 쓰는 계산기라 아무도 눈치채지 못했습니다.", {
-    x: 0.62, y: 6.55, w: 12.55, h: 0.4, isTextBox: true, margin: 0,
-    fontFace: F, fontSize: 14, bold: true, color: BLU,
-  });
-
-  page(s);
-  s.addNotes("응시자가 계산해서 낸 답이 틀렸다면 계산기 탓이었을 수 있습니다.");
-}
-
-/* ══════════════════════════════════════════
-   20  앞으로
+   12  앞으로
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
@@ -1140,7 +1233,7 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
 }
 
 /* ══════════════════════════════════════════
-   21  감사합니다
+   13  감사합니다
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
