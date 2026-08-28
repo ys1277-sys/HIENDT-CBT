@@ -2075,10 +2075,17 @@ body.paper-preview .print-area {
 @media print {
 
   /*
-   * 인쇄할 때도 연한 그대로 둔다. 브라우저가 opacity 를 무시하는 일은
-   * 없지만, 색을 그대로 찍으라고 못 박아 둔다.
+   * 회사 마크는 색을 그대로 찍는다.
+   *
+   * 워터마크에만 걸어 두었더니 머리글의 회사 마크가 색 없이 나오는
+   * 일이 있었다. 브라우저·드라이버가 「배경 그래픽 끄기」나 잉크 절약을
+   * 걸면 색이 빠진다. 두 자리 다 못 박아 세 가지 출력
+   * (문제은행 · 답안지 · 관리자)이 같은 색으로 나오게 한다.
+   *
+   * 부록 종이도 같은 마크를 쓰므로 함께 걸린다.
    */
-  .paper-watermark {
+  .paper-watermark,
+  .dh-logo-img {
     print-color-adjust: exact;
     -webkit-print-color-adjust: exact;
   }

@@ -9,6 +9,7 @@
  */
 import React, { useEffect, useState } from "react";
 import { loadProcedures, pickProcedures, pageSrc } from "./procedures.js";
+import Watermark from "./Watermark.jsx";
 
 /*
  * 문제은행·관리자 출력에 절차서를 부록으로 붙일지.
@@ -88,6 +89,16 @@ function ProcedureAppendix({ procs, onPageSettled, startPage = 1, header }) {
               className="print-paper procedure-paper"
               key={proc.key + "-" + i}
             >
+              {/*
+                갑지·문항 종이와 같이 워터마크를 깐다.
+
+                예전에는 부록에만 없어서, 한 묶음을 인쇄하면 앞쪽에는
+                로고가 비치고 절차서 부록부터 안 비쳤다. 같은 시험지인데
+                장마다 달라 보였다. 시험지 세 가지(문제은행·답안지·관리자)가
+                모두 이 부록을 쓰므로 여기 한 곳만 고치면 셋 다 맞는다.
+              */}
+              <Watermark />
+
               {header ? header({ page: pageNumber }) : null}
 
               <div className="procedure-title">
