@@ -255,6 +255,87 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
 }
 
 /* ══════════════════════════════════════════
+   4-2  문제은행
+   ══════════════════════════════════════════ */
+{
+  const s = p.addSlide();
+  banner(s, "문제은행");
+  sub(s, "원본 시험지를 한 문항씩 옮기고, 규정 수보다 넉넉히 채웠습니다");
+
+  const BANK = [
+    ["Level Ⅱ 일반", "9종목", "528", "종목마다 60문항 — 규정은 40"],
+    ["Level Ⅱ 전문", "9종목", "274", "종목마다 26~45문항 — 규정은 20 (TOFD·PAUT 30)"],
+    ["Level Ⅲ", "기초 + 5종목", "567", "기초 85 · 종목 65~107 — 규정은 55 · 65"],
+  ];
+
+  BANK.forEach((b, i) => {
+    const y = 1.68 + i * 1.28;
+    s.addShape(p.ShapeType.rect, {
+      x: 0.62, y, w: 8.6, h: 1.1,
+      fill: { color: "FFFFFF" }, line: { color: LINE, width: 1 },
+    });
+    s.addText(b[0], {
+      x: 0.95, y: y + 0.14, w: 3.0, h: 0.4, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 19, bold: true, color: INK,
+    });
+    s.addText(b[1], {
+      x: 3.95, y: y + 0.2, w: 1.6, h: 0.32, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 13.5, color: MUT,
+    });
+    s.addText(b[2], {
+      x: 5.5, y: y + 0.1, w: 1.5, h: 0.5, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 26, bold: true, color: BLU, align: "right",
+    });
+    s.addText("문항", {
+      x: 7.05, y: y + 0.26, w: 0.7, h: 0.3, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 13, color: MUT,
+    });
+    s.addText(b[3], {
+      x: 0.95, y: y + 0.6, w: 8.0, h: 0.36, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 12.5, color: MUT,
+    });
+  });
+
+  s.addShape(p.ShapeType.rect, {
+    x: 9.55, y: 1.68, w: 3.62, h: 3.9,
+    fill: { color: "F2F8FD" }, line: { color: BLU, width: 1 },
+  });
+  s.addText("1,369", {
+    x: 9.55, y: 2.1, w: 3.62, h: 0.95, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 46, bold: true, color: BLU, align: "center",
+  });
+  s.addText("문항 · 은행 24개", {
+    x: 9.55, y: 3.05, w: 3.62, h: 0.35, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 15, bold: true, color: INK, align: "center",
+  });
+  s.addText("원본 시험지    1,110\n새로 지어 채움     259", {
+    x: 9.85, y: 3.6, w: 3.0, h: 0.7, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 14, color: INK, lineSpacing: 22,
+  });
+  s.addText("그림이 들어가는 문항 28개.\n지어 넣은 문항은 근거 조항을\n하나하나 적어 두었습니다.\n(종목 NDE Level Ⅲ 승인 —\nE02 6.1.2)", {
+    x: 9.85, y: 4.4, w: 3.0, h: 1.05, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 11.5, color: MUT, lineSpacing: 16,
+  });
+
+  s.addShape(p.ShapeType.rect, {
+    x: 0.62, y: 5.72, w: 12.55, h: 1.15,
+    fill: { color: "FFF2F2" }, line: { color: RED, width: 1 },
+  });
+  s.addText("원본 시험지에서 찾아 바로잡은 것", {
+    x: 0.95, y: 5.85, w: 6.0, h: 0.34, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 15, bold: true, color: RED,
+  });
+  s.addText("영문 오타 14가지 (Mamgetic → Magnetic 등)   ·   잘못된 정답 4건   ·   겹친 보기 1건   ·   " +
+            "절차서 번호 오기 3건 (ET-P11 → ET-P99)   ·   보기가 2~3개뿐이던 86문항을 4지선다로", {
+    x: 0.95, y: 6.22, w: 11.9, h: 0.5, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 13, color: INK,
+  });
+
+  page(s);
+  s.addNotes("규정 수와 은행 수가 같으면 뽑을 것이 없어 같은 문제가 나갑니다. 그래서 넉넉히 채웠습니다.");
+}
+
+/* ══════════════════════════════════════════
    5  회차마다 다른 시험지
    ══════════════════════════════════════════ */
 {
@@ -491,6 +572,53 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
 }
 
 /* ══════════════════════════════════════════
+   8-2  종이로도 그대로
+   ══════════════════════════════════════════ */
+{
+  const s = p.addSlide();
+  banner(s, "종이로도 그대로");
+  sub(s, "단말이 모자라거나 정전일 때는 시험지를 뽑아 씁니다");
+
+  shot(s, "11-paper.png", 0.62, 1.52, 6.4, 5.15);
+
+  const PAPER = [
+    ["머리글", "회사 로고와 이름, 시험 종목, NDE Level,\n쪽 번호가 모든 장에 붙는다"],
+    ["갑지", "NAME · DATE · Start · Finish · SCORE ·\nEXAMINER 기입란과 NOTE"],
+    ["NOTE", "그 시험에 제공되는 참고자료를 밝힌다.\n다섯 유형으로 나눠 두었다 (E02 5.3.2)"],
+    ["워터마크", "회사 로고를 가운데에 옅게 깐다.\n글씨를 가리지 않는 농도로 맞췄다"],
+    ["Approved by", "대표 NDE Level Ⅲ 승인란 (E01 7.4.1)"],
+  ];
+
+  PAPER.forEach((t, i) => {
+    const y = 1.6 + i * 1.02;
+    s.addShape(p.ShapeType.ellipse, {
+      x: 7.25, y: y + 0.05, w: 0.32, h: 0.32, fill: { color: BLU },
+    });
+    s.addText(String(i + 1), {
+      x: 7.25, y: y + 0.05, w: 0.32, h: 0.32, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 12, bold: true, color: "FFFFFF",
+      align: "center", valign: "middle",
+    });
+    s.addText(t[0], {
+      x: 7.68, y, w: 5.5, h: 0.34, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 16, bold: true, color: INK,
+    });
+    s.addText(t[1], {
+      x: 7.68, y: y + 0.34, w: 5.5, h: 0.6, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 12.5, color: MUT, lineSpacing: 17,
+    });
+  });
+
+  s.addText("출력은 세 가지 — 시험지(백지) · 응시자가 푼 답안지 · 정답과 근거가 함께 나오는 관리자용.", {
+    x: 0.62, y: 6.82, w: 12.55, h: 0.35, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 13.5, bold: true, color: BLU,
+  });
+
+  page(s);
+  s.addNotes("종이로 시행하면 폐기 대장(E02-04)도 함께 뽑습니다.");
+}
+
+/* ══════════════════════════════════════════
    9  빈 서식도 바로 뽑는다
    ══════════════════════════════════════════ */
 {
@@ -531,6 +659,54 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
 
   page(s);
   s.addNotes("서식은 사람이 손으로 채우는 것이지만, 양식을 찾아 헤맬 일은 없앴습니다.");
+}
+
+/* ══════════════════════════════════════════
+   9-2  관리자 화면
+   ══════════════════════════════════════════ */
+{
+  const s = p.addSlide();
+  banner(s, "관리자 화면");
+  sub(s, "누가 언제 몇 점을 받았는지 한자리에서 봅니다");
+
+  shot(s, "05-admin.png", 0.62, 1.52, 8.0, 5.15);
+
+  const COL = [
+    ["이름 · 등급 · 종목 · 구분", "어느 시험을 쳤는지"],
+    ["응시 시작 ~ 종료 · 소요", "시험시간을 지켰는지 나중에 확인할 수 있다"],
+    ["정답 / 출제 · 점수", "16 / 27 처럼 몇 문항 중 몇 개인지 함께"],
+    ["결과", "합격 · 불합격을 색으로 가른다"],
+    ["결과지 출력", "그 회차의 채점결과보고서(E02-07)를 뽑는다"],
+    ["자격 이력", "사람 단위로 묶어 보는 화면으로 넘어간다"],
+  ];
+
+  COL.forEach((c, i) => {
+    const y = 1.6 + i * 0.86;
+    s.addShape(p.ShapeType.ellipse, {
+      x: 8.85, y: y + 0.04, w: 0.3, h: 0.3, fill: { color: BLU },
+    });
+    s.addText(String(i + 1), {
+      x: 8.85, y: y + 0.04, w: 0.3, h: 0.3, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 11, bold: true, color: "FFFFFF",
+      align: "center", valign: "middle",
+    });
+    s.addText(c[0], {
+      x: 9.25, y, w: 3.9, h: 0.32, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 14, bold: true, color: INK,
+    });
+    s.addText(c[1], {
+      x: 9.25, y: y + 0.32, w: 3.9, h: 0.46, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 11.5, color: MUT, lineSpacing: 15,
+    });
+  });
+
+  s.addText("이름으로 찾거나 등급·검사법으로 거를 수 있습니다. 응시 기록은 구글 시트에 쌓이므로 어느 컴퓨터에서 봐도 같습니다.", {
+    x: 0.62, y: 6.82, w: 12.55, h: 0.35, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 13.5, bold: true, color: BLU,
+  });
+
+  page(s);
+  s.addNotes("화면에 보이는 이름은 예시입니다.");
 }
 
 /* ══════════════════════════════════════════

@@ -10,6 +10,7 @@ import History from "./History.jsx";
 import PrintScoreReport from "./PrintScoreReport.jsx";
 import PrintExpirySchedule from "./PrintExpirySchedule.jsx";
 import PrintCertLog from "./PrintCertLog.jsx";
+import PrintExam from "./PrintExam.jsx";
 import { BlankForm, BLANK_FORMS } from "./blankForms.jsx";
 import { buildHistory, buildSessions, expiringSoon, eyeExpiringSoon, certLogRows } from "./history.js";
 
@@ -31,8 +32,8 @@ const 기록 = [
    * 치르는 시험의 합격선이 80% 라 75점은 불합격이다 — 면제가 아니었다면
    * 개별 70% 를 넘으니 통과였을 점수다. 화면에서 그 차이가 보여야 한다.
    */
-  { name: "정수빈", level: "Level II", method: "VT", subject: "Specific", score: 75, total: 20, correct: 15, startedAt: "2026-08-03T09:10:00+09:00" },
-  { name: "최윤석", level: "Level II", method: "PT", subject: "Specific", score: 85, total: 20, correct: 17, startedAt: "2026-08-04T09:10:00+09:00" },
+  { name: "정약용", level: "Level II", method: "VT", subject: "Specific", score: 75, total: 20, correct: 15, startedAt: "2026-08-03T09:10:00+09:00" },
+  { name: "강감찬", level: "Level II", method: "PT", subject: "Specific", score: 85, total: 20, correct: 17, startedAt: "2026-08-04T09:10:00+09:00" },
 ];
 
 const 명부 = [
@@ -40,9 +41,9 @@ const 명부 = [
   { name: "이영희", dept: "검사2팀", eyeExamDate: "2025-04-01", certifiedAt: "2023-09-10" },
 
   /* 일반시험 면제 — 전문시험만 치르고 80% 여야 한다 */
-  { name: "정수빈", dept: "검사1팀", eyeExamDate: "2026-05-10",
+  { name: "정약용", dept: "검사1팀", eyeExamDate: "2026-05-10",
     exempt: "ISO 9712 Level II", exemptNo: "ISO-9712-2-0041", exemptExpiry: "2029-06-30" },
-  { name: "최윤석", dept: "검사2팀", eyeExamDate: "2026-05-10", certifiedAt: "2026-08-04",
+  { name: "강감찬", dept: "검사2팀", eyeExamDate: "2026-05-10", certifiedAt: "2026-08-04",
     exempt: "ISO9712 II", exemptNo: "ISO-9712-2-0077", exemptExpiry: "2030-01-31" },
 ];
 
@@ -139,3 +140,40 @@ export const AllFormsPreview = onPaper(() => {
     </>
   );
 });
+
+/*
+ * ?preview=paper — 시험지를 종이로 뽑았을 때의 모습.
+ *
+ * 갑지와 문항 종이, 그리고 가운데에 옅게 깔리는 회사 로고 워터마크를
+ * 화면에서 볼 수 있다. 인쇄 대화상자를 띄우지 않고도 확인할 수 있고,
+ * 발표자료에 넣을 그림을 찍는 데도 쓴다 (tools/shots.cjs).
+ *
+ * 문항은 MT 일반 은행에서 앞의 몇 개만 가져온다 — 종이 두어 장이면
+ * 갑지·머리글·워터마크가 어떻게 나오는지 다 보인다.
+ */
+export function PaperPreview() {
+  const [qs, setQs] = React.useState(null);
+
+  React.useEffect(() => {
+    document.body.classList.add("paper-preview");
+    fetch(import.meta.env.BASE_URL + "data/Level II/General/MT.json")
+      .then(r => r.json())
+      .then(list => setQs(list.slice(0, 6)))
+      .catch(() => setQs([]));
+    return () => document.body.classList.remove("paper-preview");
+  }, []);
+
+  if (!qs) return null;
+
+  return (
+    <PrintExam
+      showAnswers={false}
+      name=""
+      level="Level II"
+      method="MT"
+      subject="General"
+      questions={qs}
+      date={new Date(2026, 11, 23).toLocaleDateString()}
+    />
+  );
+}

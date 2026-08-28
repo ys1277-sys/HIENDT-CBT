@@ -31,6 +31,8 @@ const SHOTS = [
   ["08-report",   "?preview=report",               [1180, 1000]],
   ["09-form",     "?preview=form&code=HIE-QP-E02-01", [1180, 1000]],
   ["10-certlog",  "?preview=certlog",              [1180, 1000]],
+  ["11-paper",    "?preview=paper",                [1180, 1000]],
+  ["12-forms",    "?preview=form",                 [1180, 1000]],
 ];
 
 fs.mkdirSync(OUT, { recursive: true });
