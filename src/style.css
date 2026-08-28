@@ -71,7 +71,7 @@ body{
 
   background:white;
 
-  padding:40px;
+  padding:30px 32px;
 
   border-radius:12px;
 
@@ -104,11 +104,114 @@ body{
 }
 
 
-.home-box button.active{
-  background:var(--acc-soft);
+/*
+ * 고른 것과 안 고른 것.
+ *
+ * 예전에는 거꾸로였다 — 안 고른 단추가 진한 파랑으로 채워져 있고,
+ * 고른 단추가 연한 바탕으로 바뀌었다. 눈에는 안 고른 쪽이 더 세게
+ * 들어와, Level 을 골랐는지 안 골랐는지 알 수 없었다.
+ */
+/* 이름칸·종목칸과 같은 폭으로 둔다 — 가운데 작게 놓이면 건너뛰기 쉽다 */
+.home-box .pick-row{
+  display:flex;
+  gap:8px;
+  margin:10px 0;
+}
+
+.home-box .pick-row button{
+  flex:1;
+  margin:0;
+  padding:12px;
+  font-size:15px;
+  background:#fff;
+  color:var(--mut);
+  border:1px solid var(--line);
+  font-weight:normal;
+}
+
+.home-box .pick-row button:hover{
+  border-color:var(--acc);
   color:var(--acc-deep);
-  border:2px solid var(--acc-deep);
+}
+
+.home-box .pick-row button.active,
+.home-box button.active{
+  background:var(--acc);
+  color:#fff;
+  border:1px solid var(--acc-deep);
   font-weight:bold;
+  box-shadow:0 1px 3px rgba(1,121,207,.35);
+}
+
+/* 회사 로고 — 절차서 머리글과 같은 것 */
+.home-logo{
+  display:block;
+  width:84px;
+  margin:0 auto 10px;
+}
+
+/*
+ * 로고가 늘어난 만큼 나머지를 줄인다.
+ * h1·h2·h3 의 기본 margin 은 위아래 0.67~1em 씩이라, 넷을 합치면
+ * 100px 을 넘는다. 1366x768 노트북에서 카드가 잘렸다.
+ */
+.home-box h1{
+  margin:0 0 4px;
+  font-size:28px;
+}
+
+.home-box h2{
+  margin:0 0 16px;
+  font-size:17px;
+}
+
+.home-box h3{
+  margin:16px 0 0;
+  font-size:15px;
+}
+
+/* 그래도 모자란 화면에서는 잘리지 말고 밀려 내려가게 둔다 */
+.home-container{
+  padding:24px 0;
+  align-items:safe center;
+  overflow-y:auto;
+}
+
+/*
+ * 「시험 시작」만 크게 둔다. 응시자가 누를 것은 이것 하나다.
+ */
+.home-box button.go{
+  display:block;
+  width:100%;
+  margin:18px 0 0;
+  padding:15px;
+  font-size:17px;
+  font-weight:bold;
+  letter-spacing:.02em;
+}
+
+.home-sub{
+  display:flex;
+  gap:8px;
+  margin-top:10px;
+}
+
+.home-sub button{
+  flex:1;
+  margin:0;
+}
+
+/* 한 단계 낮춘 단추 — 테두리만 */
+button.ghost{
+  background:#fff;
+  color:var(--acc-deep);
+  border:1px solid var(--line);
+  font-weight:normal;
+}
+
+button.ghost:hover{
+  border-color:var(--acc);
+  background:var(--acc-soft);
 }
 
 /*
@@ -135,9 +238,21 @@ button{
 
 
 
+/*
+ * 못 누르는 단추.
+ *
+ * #999 는 회색이라도 꽉 찬 덩어리여서, 1번 문항의 「이전」이 파란
+ * 「다음」만큼 눈에 들어왔다. 못 누른다는 것은 옅게 알리면 된다.
+ */
 button:disabled{
 
-  background:#999;
+  background:#eef2f6;
+
+  color:#a8b4c0;
+
+  border:1px solid var(--line);
+
+  cursor:default;
 
 }
 
@@ -835,7 +950,7 @@ button:disabled{
 
 .admin-container{
 
-  padding:40px;
+  padding:30px 32px;
 
 }
 
@@ -1061,6 +1176,140 @@ button:disabled{
 
   margin-bottom:10px;
 
+}
+
+
+/* 「42 / 60 표기함」 — 제목 아래 한 줄 */
+.answer-sheet-title em{
+  display:block;
+  margin-top:3px;
+  font-style:normal;
+  font-weight:normal;
+  font-size:12px;
+  font-variant-numeric:tabular-nums;
+  color:var(--acc-edge);
+}
+
+
+/* ── 남은 시간 ─────────────────────────────
+   E02 5.2 의 「2시간 이내」를 응시자가 볼 수 있게 한다.
+   ───────────────────────────────────────── */
+
+/*
+ * 머리글이 세 칸이 되었다. space-between 이면 이름이 한가운데로
+ * 밀려나므로, 이름 앞에 빈자리를 몰아 이름과 시계를 오른쪽에 붙인다.
+ */
+.cbt-header .cbt-who{
+  margin-left:auto;
+}
+
+.cbt-clock{
+  display:flex;
+  align-items:baseline;
+  gap:8px;
+  margin-left:18px;
+  padding:4px 12px;
+  border-radius:8px;
+  background:rgba(255,255,255,.14);
+  white-space:nowrap;
+}
+
+.cbt-clock-label{
+  font-size:12px;
+  opacity:.85;
+}
+
+.cbt-clock b{
+  font-size:20px;
+  font-weight:bold;
+  font-variant-numeric:tabular-nums;
+  letter-spacing:.02em;
+}
+
+/* 10분을 끊으면 — 흰 바탕에 빨강. 머리글 파랑 위에서 가장 세게 보인다 */
+.cbt-clock.low{
+  background:#fff;
+  color:#c0261d;
+}
+
+.cbt-clock.low .cbt-clock-label{
+  color:#c0261d;
+  opacity:1;
+}
+
+
+/* ── 몇 번째 문항인가 ───────────────────── */
+.question-number{
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+
+.qn-now{
+  font-size:20px;
+  font-weight:bold;
+  color:var(--acc-deep);
+  font-variant-numeric:tabular-nums;
+}
+
+.qn-total{
+  font-size:14px;
+  color:var(--mut);
+  font-variant-numeric:tabular-nums;
+}
+
+/* 남은 분량을 눈으로 — 글자만 있을 때는 어디쯤인지 안 잡혔다 */
+.qn-bar{
+  flex:1;
+  height:5px;
+  margin-left:6px;
+  border-radius:3px;
+  background:var(--line);
+  overflow:hidden;
+}
+
+.qn-bar i{
+  display:block;
+  height:100%;
+  border-radius:3px;
+  background:var(--acc);
+  transition:width .18s ease;
+}
+
+
+/* ── 아래 단추 ─────────────────────────── */
+.control{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+}
+
+.control-main{
+  display:flex;
+  align-items:center;
+}
+
+/* 마지막 문항의 「제출」 — 여기서는 이것이 할 일이다 */
+.control button.submit{
+  background:#0a8f4d;
+  font-weight:bold;
+}
+
+/*
+ * 「종료」는 답을 버리고 나가는 단추다. 푸는 단추들과 멀리 떼어 놓고
+ * 채우지 않는다. 눌러야 할 것처럼 보이면 안 된다.
+ */
+.control button.quit{
+  background:#fff;
+  color:#c0261d;
+  border:1px solid #e6b6b1;
+  font-weight:normal;
+}
+
+.control button.quit:hover{
+  background:#fdf3f2;
+  border-color:#c0261d;
 }
 
 

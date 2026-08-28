@@ -36,6 +36,29 @@ import { shuffle, shuffleOptions } from "./optionShuffle.js";
 export const DRAW_IN_ORDER = true;
 
 /*
+ * 시험시간(분).
+ *
+ * E02 5.2.1 은 Level Ⅱ 일반·전문을, 5.2.2 는 Level Ⅲ 기초·종목·전문을
+ * 모두 「2시간 이내」로 정한다. 지금은 어느 시험이든 같은 값이므로
+ * 한자리에 둔다. 종목마다 달라지면 ExamData 로 옮긴다.
+ */
+export const LIMIT_MIN = 120;
+
+/* 남은 시간을 1:59:03 꼴로 */
+export function hhmmss(sec) {
+
+  const h = Math.floor(sec / 3600);
+  const m = Math.floor((sec % 3600) / 60);
+  const s = sec % 60;
+
+  return (
+    h + ":" +
+    String(m).padStart(2, "0") + ":" +
+    String(s).padStart(2, "0")
+  );
+}
+
+/*
  * 문항을 "묶음" 단위로 나눈다.
  *
  * 같은 조건문(groupNote)을 공유하는 문항들은 한 덩어리다.
@@ -150,6 +173,50 @@ function Quiz({
    */
   const [startedAt, setStartedAt] = useState(null);
   const [finishedAt, setFinishedAt] = useState(null);
+
+  /*
+   * 남은 시간.
+   *
+   * E02 5.2 가 일반·전문 모두 「2시간 이내」로 정한다. 시험지 갑지에도
+   * 그렇게 찍힌다. 그런데 화면에는 시계가 없어 응시자는 얼마나 남았는지
+   * 알 수 없었고, 감독자도 E02 7.4.8 의 「남은 시험시간을 보장」을
+   * 지킬 근거가 없었다.
+   *
+   * 1초마다 다시 그린다. 시작 시각은 문항을 다 읽어 화면에 띄운 때다.
+   */
+  const [nowTick, setNowTick] = useState(() => Date.now());
+
+  useEffect(() => {
+
+    if (!startedAt || finishedAt) return;
+
+    const t = setInterval(
+      () => setNowTick(Date.now()),
+      1000
+    );
+
+    return () => clearInterval(t);
+
+  }, [startedAt, finishedAt]);
+
+  const leftSec =
+    startedAt && !finishedAt
+      ? Math.max(
+          0,
+          LIMIT_MIN * 60 -
+            Math.floor((nowTick - startedAt.getTime()) / 1000)
+        )
+      : null;
+
+  /*
+   * 시간이 다 되면 그때까지 표기한 답으로 자동 제출한다.
+   * 감독자가 없는 자리에서 창을 켜 둔 채 넘어가는 것을 막는다.
+   */
+  useEffect(() => {
+
+    if (leftSec === 0) submitExam();
+
+  }, [leftSec]);
 
   /*
    * 보기 번호는 src/optionMark.js 에서 뽑는다.
@@ -632,6 +699,26 @@ function Quiz({
 
           </div>
 
+          {/*
+            남은 시간. 10분을 끊으면 빨강으로 바뀐다.
+            숫자가 자리마다 흔들리지 않게 tabular-nums 를 쓴다.
+          */}
+          {leftSec === null ? null : (
+            <div
+              className={
+                leftSec <= 600
+                  ? "cbt-clock low"
+                  : "cbt-clock"
+              }
+            >
+
+              <span className="cbt-clock-label">남은 시간</span>
+
+              <b>{hhmmss(leftSec)}</b>
+
+            </div>
+          )}
+
         </header>
 
 
@@ -639,11 +726,29 @@ function Quiz({
 
           <main className="cbt-body">
 
+            {/*
+              「Question 1/60」 은 이 화면에서 혼자 영어였다. 그리고 글자만
+              있어 어디쯤 왔는지 눈에 안 들어왔다. 한글로 바꾸고 막대를
+              깔아 남은 분량이 보이게 한다.
+            */}
             <div className="question-number">
 
-              Question {current + 1}
-              /
-              {questions.length}
+              <span className="qn-now">
+                {current + 1}
+              </span>
+
+              <span className="qn-total">
+                / {questions.length} 번
+              </span>
+
+              <span className="qn-bar">
+                <i
+                  style={{
+                    width:
+                      ((current + 1) / questions.length) * 100 + "%",
+                  }}
+                />
+              </span>
 
             </div>
 
@@ -861,9 +966,17 @@ function Quiz({
             </div>
 
 
+            {/*
+              「종료」는 시험을 끝내는 단추다. 예전에는 「다음」과 같은 크기,
+              같은 파랑으로 바로 옆에 붙어 있어 잘못 누르기 쉬웠다.
+              푸는 단추들과 갈라 놓고 생김새도 다르게 한다.
+            */}
             <div className="control">
 
+              <div className="control-main">
+
               <button
+                className="ghost"
                 onClick={() =>
                   setShowCalc(true)
                 }
@@ -916,6 +1029,7 @@ function Quiz({
                   :
 
                   <button
+                    className="submit"
                     onClick={submitExam}
                   >
 
@@ -924,8 +1038,11 @@ function Quiz({
                   </button>
               }
 
+              </div>
+
 
               <button
+                className="quit"
                 onClick={exitExam}
               >
 
@@ -940,9 +1057,23 @@ function Quiz({
 
           <aside className="answer-sheet">
 
+            {/*
+              몇 개를 표기했는지 세어 준다. 60문항을 오르내리며 푸는 동안
+              「빠뜨린 게 있나」를 확인하려면 목록을 끝까지 훑어야 했다.
+            */}
             <div className="answer-sheet-title">
 
               답안 표기란
+
+              <em>
+                {
+                  questions.filter(
+                    (item, index) => isAnswered(item, answers[index])
+                  ).length
+                }
+                {" / "}
+                {questions.length} 표기함
+              </em>
 
             </div>
 

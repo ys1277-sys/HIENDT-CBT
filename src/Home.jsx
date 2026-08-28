@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import PrintExam from "./PrintExam.jsx";
 import { openPaper } from "./paperPreview.js";
 import ExamData from "./ExamData.jsx";
+import logo from "./logo.svg";
 
 function Home({
 
@@ -240,6 +241,17 @@ return (
       <div className="home-box">
 
 
+        {/*
+          절차서 머리글과 시험지 갑지는 이미 이 로고를 쓴다.
+          응시자가 처음 보는 화면에만 없어 회사 것으로 안 보였다.
+        */}
+        <img
+          className="home-logo"
+          src={logo}
+          alt="(주)한국공업엔지니어링"
+        />
+
+
         <h1>
           HIENDT-CBT
         </h1>
@@ -278,6 +290,9 @@ return (
 
 
 
+
+        {/* 고른 쪽이 진하게 보이도록 한 줄로 묶는다 */}
+        <div className="pick-row">
 
         <button
 
@@ -342,8 +357,7 @@ return (
 
         </button>
 
-
-
+        </div>
 
 
         <h3>
@@ -448,7 +462,14 @@ return (
 
 
 
+        {/*
+          단추 셋이 같은 크기, 같은 파랑이라 어느 것을 눌러야 하는지가
+          드러나지 않았다. 응시자가 누를 것은 「시험 시작」 하나뿐이므로
+          그것만 크게 두고, 나머지 둘은 한 단계 낮춘다.
+        */}
         <button
+
+          className="go"
 
           onClick={onStart}
 
@@ -459,32 +480,34 @@ return (
         </button>
 
 
+        <div className="home-sub">
+
+          <button
+
+            className="ghost"
+
+            onClick={printBank}
+
+          >
+
+            문제은행 출력
+
+          </button>
 
 
+          <button
 
-        <button
+            className="ghost"
 
-          onClick={printBank}
+            onClick={onAdmin}
 
-        >
+          >
 
-          문제은행 출력
+            관리자
 
-        </button>
+          </button>
 
-
-
-
-
-        <button
-
-          onClick={onAdmin}
-
-        >
-
-          관리자
-
-        </button>
+        </div>
 
 
 
