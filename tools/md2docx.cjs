@@ -23,6 +23,7 @@ const {
   Document, Packer, Paragraph, TextRun, HeadingLevel, AlignmentType,
   Table, TableRow, TableCell, WidthType, BorderStyle, ShadingType,
   PageBreak, convertMillimetersToTwip,
+  Footer, PageNumber, NumberFormat,
 } = require("docx");
 
 /* A4 세로. 여백 20mm */
@@ -330,12 +331,45 @@ if (!files.length) {
   for (const f of files) {
     const md = fs.readFileSync(f, "utf8");
 
+    /*
+     * 바닥글 — 문서번호와 「n / 전체」.
+     *
+     * 관리본 문서에 쪽 번호가 없으면 한 장이 빠져도 모른다. 상위
+     * 절차서 HIE-QP-E01 도 머리글에 "Page of 37" 을 단다. 여기서는
+     * 본문 표가 종이 폭을 꽉 채우므로 머리글 대신 바닥글에 둔다.
+     *
+     * 문서번호는 원고 머리의 표에서 읽는다. 못 찾으면 파일 이름에서
+     * 딴다 — 빈 채로 내보내지 않는다.
+     */
+    const docNo =
+      (md.match(/^\|\s*Document No\.?\s*\|\s*([A-Za-z0-9-]+)\s*\|/mi) || [])[1] ||
+      (path.basename(f).match(/HIE-[A-Za-z0-9-]+/) || [])[0] ||
+      "";
+
+    const footer = new Footer({
+      children: [
+        new Paragraph({
+          alignment: AlignmentType.CENTER,
+          children: [
+            new TextRun({ text: docNo ? docNo + "      " : "", font: FONT, size: 16, color: "555555" }),
+            new TextRun({ children: [PageNumber.CURRENT], font: FONT, size: 16, color: "555555" }),
+            new TextRun({ text: " / ", font: FONT, size: 16, color: "555555" }),
+            new TextRun({ children: [PageNumber.TOTAL_PAGES], font: FONT, size: 16, color: "555555" }),
+          ],
+        }),
+      ],
+    });
+
     const doc = new Document({
       styles: { default: { document: { run: { font: FONT, size: 20 } } } },
       sections: [{
         properties: {
-          page: { margin: { top: MARGIN, bottom: MARGIN, left: MARGIN, right: MARGIN } },
+          page: {
+            margin: { top: MARGIN, bottom: MARGIN, left: MARGIN, right: MARGIN },
+            pageNumbers: { formatType: NumberFormat.DECIMAL },
+          },
         },
+        footers: { default: footer },
         children: convert(md),
       }],
     });
