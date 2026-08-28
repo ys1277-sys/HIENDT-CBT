@@ -2,9 +2,12 @@
  * 시험지 워터마크 — 종이 한가운데에 회사 로고를 연하게 깐다.
  *
  * 세 가지 출력에 다 들어간다.
- *   문제지 출력            PrintQuestion.jsx
- *   시험 보고 답안지 출력   PrintExam.jsx
- *   관리자 모드 출력        PrintAdminExam.jsx
+ *   문제은행 출력          PrintExam.jsx  (첫 화면)
+ *   답안지 출력            PrintExam.jsx  (결과 화면)
+ *   관리자 결과지 출력      PrintAdminExam.jsx
+ *
+ * 셋이 뒤에 붙이는 절차서 부록(ProcedureAppendix.jsx)에도 같이 깐다.
+ * 한 묶음 안에서 장마다 달라 보이면 안 된다.
  *
  * 배경이미지(background-image)로 하지 않는다. 브라우저 인쇄 설정에
  * 「배경 그래픽」이 꺼져 있으면 그냥 안 찍히기 때문이다. 진짜 <img> 는
