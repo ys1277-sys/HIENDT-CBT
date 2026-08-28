@@ -207,27 +207,51 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
   banner(s, "시험 화면");
   sub(s, "영문 원문과 우리말을 함께 보여줍니다");
 
-  shot(s, "02-quiz.png", 1.55, 1.55, 10.7, 4.75);
+  shot(s, "02-quiz.png", 0.62, 1.52, 7.55, 5.15);
 
-  const NOTE = [
-    ["Question 1/40", "규정이 정한 문항 수만큼만 뽑는다"],
-    ["답안 표기란", "지금까지 고른 답을 한눈에"],
-    ["계산기", "화면 안에서 열고 닫는다"],
+  /* 화면에 실제로 찍혀 있는 것들을 하나씩 풀어 준다 */
+  const PART = [
+    ["Question 1/40",
+     "HIE-QP-E01 표 3이 정한 문항 수만큼만 뽑는다.\n은행에 60문항이 있어도 40문항만 나간다."],
+    ["영문 문항 + 우리말",
+     "원본 시험지가 영문이라 그대로 두고 아래에\n우리말을 붙였다. 보기도 두 줄로 같이 보여준다."],
+    ["보기 번호 ①②③④",
+     "보기 순서를 회차마다 섞는다. 다만 「위 모두\n정답」처럼 자리를 옮기면 안 되는 것은 묶어 둔다."],
+    ["답안 표기란",
+     "지금까지 고른 답이 오른쪽에 쭉 보인다.\n번호를 눌러 그 문항으로 바로 건너뛴다."],
+    ["계산기 · 이전 · 다음 · 종료",
+     "계산기는 화면 안에서 열고 닫는다.\n종료를 누르면 입력한 답이 사라진다고 먼저 알린다."],
+    ["제출",
+     "안 푼 문제가 있으면 「풀지 않은 문제가 N개\n있습니다」 하고 한 번 더 묻는다."],
   ];
-  NOTE.forEach((n, i) => {
-    const x = 1.55 + i * 3.62;
-    s.addText(n[0], {
-      x, y: 6.45, w: 3.4, h: 0.3, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 15, bold: true, color: BLU,
+
+  PART.forEach((t, i) => {
+    const y = 1.55 + i * 0.87;
+    s.addShape(p.ShapeType.ellipse, {
+      x: 8.35, y: y + 0.04, w: 0.3, h: 0.3, fill: { color: BLU },
     });
-    s.addText(n[1], {
-      x, y: 6.75, w: 3.4, h: 0.3, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 12.5, color: MUT,
+    s.addText(String(i + 1), {
+      x: 8.35, y: y + 0.04, w: 0.3, h: 0.3, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 11, bold: true, color: "FFFFFF",
+      align: "center", valign: "middle",
+    });
+    s.addText(t[0], {
+      x: 8.75, y, w: 4.4, h: 0.3, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 14, bold: true, color: INK,
+    });
+    s.addText(t[1], {
+      x: 8.75, y: y + 0.3, w: 4.4, h: 0.5, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 11.5, color: MUT, lineSpacing: 15,
     });
   });
 
+  s.addText("문항 유형은 셋이다 — 사지선다, 복수 정답(모두 고르세요), 주관식(답을 입력하세요).", {
+    x: 0.62, y: 6.82, w: 12.55, h: 0.35, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 13.5, bold: true, color: BLU,
+  });
+
   page(s);
-  s.addNotes("원본 시험지가 영문이라 그대로 두고 아래에 우리말을 붙였습니다.");
+  s.addNotes("보기가 두세 개뿐이던 86문항도 모두 넷으로 맞췄습니다. 찍어서 맞힐 확률이 종목마다 다르면 안 되니까요.");
 }
 
 /* ══════════════════════════════════════════
@@ -322,31 +346,116 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
 {
   const s = p.addSlide();
   banner(s, "자격을 놓치지 않는다");
-  sub(s, "응시 기록을 사람 단위로 묶어 만료까지 봅니다");
+  sub(s, "이 한 화면이 여섯 사람의 자격을 전부 판정합니다");
 
-  shot(s, "06-history.png", 0.62, 1.5, 12.55, 4.35);
+  shot(s, "06-history.png", 0.62, 1.52, 7.55, 5.15);
 
-  const P = [
-    ["만료 3개월 전", "명단이 자동으로 나온다 (E03 6.2.1)"],
-    ["시력검사 1년", "자격이 살아 있어도 시력이 만료되면 잡힌다"],
-    ["재시험 30일", "규정보다 일찍 친 것을 찾아낸다 (E01 7.5)"],
-    ["바깥 자격 면제", "ASNT·ISO 9712 소지자는 합격선이 80%"],
+  /*
+   * 화면에 실제로 찍혀 있는 여섯 줄을 하나씩 풀어 준다.
+   * 미리보기 자료(src/HistoryPreview.jsx)의 값이므로 화면과 정확히 맞는다.
+   */
+  const CASE = [
+    ["김철수", "Level Ⅲ RT", "기초 88 · 종목 92 · 전문 종이 시행",
+     "미완", "전문시험이 아직 종이라 점수가 없다.\n임의로 합격 처리하지 않고 「미완」으로 둔다."],
+    ["박민수", "Level Ⅱ MT", "일반 75 · 전문 80 → 종합 77.5",
+     "불합격", "개별은 둘 다 70%를 넘겼다. 종합이 80%에\n못 미쳐 불합격이다. (E01 7.4.5)"],
+    ["이영희", "Level Ⅱ PT", "자격 만료 2026-09-30",
+     "만료 33일 전", "3개월 안에 드는 순간 색이 바뀐다.\n시력검사는 이미 만료됐다. (E03 6.2.1)"],
+    ["정수빈", "Level Ⅱ VT", "일반 면제 · 전문 75",
+     "불합격", "ISO 9712 Level Ⅱ 소지자다. 면제받은 사람의\n합격선은 80%다 — 75점은 미달. (E01 7.3.7)"],
+    ["최윤석", "Level Ⅱ PT", "일반 면제 · 전문 85",
+     "필기 합격", "같은 면제자라도 80%를 넘겨 합격.\n만료일 2029-08-31 이 자동으로 잡힌다."],
+    ["홍길동", "Level Ⅱ UT", "불합격 뒤 18일 만에 재응시",
+     "규정 위반", "재시험은 30일이 지나야 한다. 화면 아래에\n언제부터인지 적어 준다. (E01 7.5)"],
   ];
-  const cw = (12.55 - 0.35 * 3) / 4;
-  P.forEach((t, i) => {
-    const x = 0.62 + i * (cw + 0.35);
-    s.addText(t[0], {
-      x, y: 6.05, w: cw, h: 0.32, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 15, bold: true, color: RED,
+
+  CASE.forEach((c, i) => {
+    const y = 1.55 + i * 0.87;
+    s.addShape(p.ShapeType.ellipse, {
+      x: 8.35, y: y + 0.04, w: 0.3, h: 0.3,
+      fill: { color: /합격$|미완/.test(c[3]) && c[3] !== "불합격" ? OK : RED },
     });
-    s.addText(t[1], {
-      x, y: 6.38, w: cw, h: 0.6, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 12.5, color: INK, lineSpacing: 17,
+    s.addText(String(i + 1), {
+      x: 8.35, y: y + 0.04, w: 0.3, h: 0.3, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 11, bold: true, color: "FFFFFF",
+      align: "center", valign: "middle",
+    });
+    s.addText([
+      { text: c[0] + "  ", options: { bold: true, color: INK } },
+      { text: c[1] + "   ", options: { color: MUT, fontSize: 11.5 } },
+      { text: c[3], options: { bold: true, color: c[3] === "필기 합격" ? OK : RED } },
+    ], {
+      x: 8.75, y, w: 4.4, h: 0.3, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 13.5,
+    });
+    s.addText(c[2], {
+      x: 8.75, y: y + 0.28, w: 4.4, h: 0.24, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 11.5, color: BLU,
+    });
+    s.addText(c[4], {
+      x: 8.75, y: y + 0.5, w: 4.4, h: 0.36, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 11, color: MUT, lineSpacing: 14,
     });
   });
 
+  s.addText("자격이 만료된 사람이 검사를 나가면 고객 감사에서 바로 지적됩니다. 이제 사람이 기억하지 않아도 됩니다.", {
+    x: 0.62, y: 6.82, w: 12.55, h: 0.35, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 13.5, bold: true, color: BLU,
+  });
+
   page(s);
-  s.addNotes("자격이 만료된 사람이 검사하면 고객 감사에서 바로 지적됩니다. 그걸 사람이 기억하지 않아도 됩니다.");
+  s.addNotes("여섯 줄이 각각 다른 규정을 보여줍니다. 4번과 5번은 같은 면제자인데 80% 하나로 갈립니다.");
+}
+
+/* ══════════════════════════════════════════
+   7-2  계산기 — 조용히 틀리던 것
+   ══════════════════════════════════════════ */
+{
+  const s = p.addSlide();
+  banner(s, "덤으로 잡은 것");
+  sub(s, "시험 화면 안의 공학용 계산기가 틀린 값을 내고 있었습니다");
+
+  shot(s, "03-calc.png", 0.62, 1.55, 6.2, 4.6);
+
+  const BUG = [
+    ["sin(30) = −0.988",
+     "0.5 가 나와야 한다. 라디안 기준이었다.",
+     "굴절각과 스넬의 법칙 계산이 전부 틀린 값"],
+    ["log 가 자연로그",
+     "상용로그 log₁₀ 여야 한다.",
+     "dB = 20·log₁₀(A₁/A₂) 가 조용히 틀렸다"],
+    ["ln 은 누르면 오류",
+     "함수 자체가 없었다.",
+     "쓰려던 사람은 그냥 못 썼다"],
+  ];
+
+  BUG.forEach((b, i) => {
+    const y = 1.72 + i * 1.62;
+    s.addShape(p.ShapeType.rect, {
+      x: 7.15, y, w: 6.0, h: 1.38,
+      fill: { color: "FFF2F2" }, line: { color: RED, width: 1 },
+    });
+    s.addText(b[0], {
+      x: 7.45, y: y + 0.12, w: 5.4, h: 0.38, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 19, bold: true, color: RED,
+    });
+    s.addText(b[1], {
+      x: 7.45, y: y + 0.53, w: 5.4, h: 0.3, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 13.5, color: INK,
+    });
+    s.addText("→ " + b[2], {
+      x: 7.45, y: y + 0.86, w: 5.4, h: 0.36, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 12.5, color: MUT,
+    });
+  });
+
+  s.addText("셋 다 바로잡고 도(°) 모드를 기본으로 두었습니다. 시험지에서만 쓰는 계산기라 아무도 눈치채지 못했습니다.", {
+    x: 0.62, y: 6.55, w: 12.55, h: 0.4, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 14, bold: true, color: BLU,
+  });
+
+  page(s);
+  s.addNotes("응시자가 계산해서 낸 답이 틀렸다면 계산기 탓이었을 수 있습니다.");
 }
 
 /* ══════════════════════════════════════════
@@ -492,55 +601,65 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
 }
 
 /* ══════════════════════════════════════════
-   11  옮기다 찾아낸 것
+   10-2  규정과 어긋나 있던 것
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
-  banner(s, "옮기다 찾아낸 것");
-  sub(s, "규정을 한 줄씩 다시 읽어야 했습니다. 그러다 드러났습니다");
+  banner(s, "규정과 어긋나 있던 것");
+  sub(s, "옮기려면 규정을 한 줄씩 다시 읽어야 했습니다. 그러다 드러났습니다");
 
-  const FIND = [
-    ["TOFD · PAUT 전문시험이 규정보다 5문항 적게 나갔다",
-     "전 종목을 일반 40 · 전문 25로 못 박아 두었는데 E01 표 3은 종목마다 다르다"],
+  const GAP = [
+    ["TOFD · PAUT 전문시험이 5문항 적게 나갔다",
+     "전 종목을 일반 40 · 전문 25로 못 박아 두었다.",
+     "E01 표 3은 종목마다 다르다 — TOFD·PAUT·CR·DR·FMC 는 전문 30문항"],
     ["Level Ⅲ 종목시험이 104문항으로 나갔다",
-     "은행 전체가 나갔다. 시험시간 2시간에 문항당 69초였다"],
-    ["원본 시험지에 오타와 잘못된 정답이 있었다",
-     "영문 오타 14가지 · 잘못된 정답 4건 · 겹친 보기 1건 · 절차서 번호 오기 3건"],
-    ["계산기가 조용히 틀린 값을 냈다",
-     "sin(30)이 라디안이라 −0.988, log가 자연로그라 dB 계산이 전부 틀렸다"],
+     "출제 수를 정하지 않아 은행 전체가 나갔다.",
+     "규정은 65문항, 시험시간 2시간 — 104문항이면 한 문항에 69초"],
+    ["회차마다 같은 문제가 나갔다",
+     "은행에 든 문항이 규정 출제 수와 똑같았다.",
+     "뽑을 것이 없으니 있는 문항이 전부 나간다"],
   ];
 
-  FIND.forEach((f, i) => {
-    const y = 1.72 + i * 1.28;
+  GAP.forEach((g, i) => {
+    const y = 1.7 + i * 1.55;
     s.addShape(p.ShapeType.rect, {
-      x: 0.62, y, w: 12.55, h: 1.1,
+      x: 0.62, y, w: 12.55, h: 1.34,
       fill: { color: "FFFFFF" }, line: { color: LINE, width: 1 },
     });
     s.addShape(p.ShapeType.rect, {
-      x: 11.85, y: y + 0.3, w: 1.0, h: 0.44,
+      x: 11.75, y: y + 0.42, w: 1.1, h: 0.48,
       fill: { color: "E8F7EE" }, line: { color: OK, width: 1 },
     });
     s.addText("고침", {
-      x: 11.85, y: y + 0.3, w: 1.0, h: 0.44, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 13, bold: true, color: OK,
+      x: 11.75, y: y + 0.42, w: 1.1, h: 0.48, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 14, bold: true, color: OK,
       align: "center", valign: "middle",
     });
-    s.addText(f[0], {
-      x: 0.95, y: y + 0.14, w: 10.7, h: 0.42, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 18, bold: true, color: RED,
+    s.addText(g[0], {
+      x: 0.95, y: y + 0.14, w: 10.6, h: 0.42, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 19, bold: true, color: RED,
     });
-    s.addText(f[1], {
-      x: 0.95, y: y + 0.58, w: 10.7, h: 0.42, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 13.5, color: MUT,
+    s.addText(g[1], {
+      x: 0.95, y: y + 0.58, w: 10.6, h: 0.32, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 14, color: INK,
+    });
+    s.addText("→ " + g[2], {
+      x: 0.95, y: y + 0.9, w: 10.6, h: 0.32, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 13, color: BLU,
     });
   });
 
+  s.addText("원본 시험지에서도 영문 오타 14가지 · 잘못된 정답 4건 · 겹친 보기 1건 · 절차서 번호 오기 3건을 찾아 바로잡았습니다.", {
+    x: 0.62, y: 6.5, w: 12.55, h: 0.4, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 14, bold: true, color: BLU,
+  });
+
   page(s);
-  s.addNotes("옮기지 않았으면 몰랐을 것들입니다. 첫 번째는 감사 지적 대상입니다.");
+  s.addNotes("첫 번째는 고객 감사에서 지적될 수 있는 것이었습니다. 옮기지 않았으면 몰랐습니다.");
 }
 
 /* ══════════════════════════════════════════
-   12  규정을 그대로 옮겼다
+   11  규정을 그대로 옮겼다
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
@@ -593,7 +712,7 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
 }
 
 /* ══════════════════════════════════════════
-   13  스스로 검사한다
+   12  스스로 검사한다
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
@@ -647,63 +766,97 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
 }
 
 /* ══════════════════════════════════════════
-   14  남은 일
+   12-2  앞으로
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
-  banner(s, "남은 일");
-  sub(s, "솔직하게 말씀드립니다");
+  banner(s, "앞으로");
+  sub(s, "지금 할 것과, 규정을 손봐야 되는 것을 나눴습니다");
 
-  const L = [
-    ["검토 모드를 시행 모드로 바꿔야 한다",
-     "지금은 은행 문항이 전부 보이게 해 두었습니다. 실제 시험 전에 무작위 출제로 바꿉니다.", true],
-    ["Level Ⅲ VT 는 여유 문항이 없다",
-     "규정 65문항에 은행도 65문항이라 회차마다 같은 문항이 나갑니다.", false],
-    ["Level Ⅲ 전문시험은 아직 종이다",
-     "규정이 종이로 시행하도록 정하고 있습니다 (E02 5.2.3). 옮기려면 규정부터 고쳐야 합니다.", false],
-    ["관리자 비밀번호를 제대로 막아야 한다",
-     "지금은 화면 쪽에 들어 있어 마음먹으면 들여다볼 수 있습니다.", false],
-    ["실기시험과 실증은 다루지 않는다",
-     "필기 결과만으로 합격 처리하지 않도록 화면에 밝혀 적습니다 (E01 7.3.1).", false],
+  const NOW = [
+    ["검토 모드를 시행 모드로", "은행 문항이 전부 보이게 해 둔 것을 무작위 출제로 바꾼다", "시험 전"],
+    ["Level Ⅲ VT 문항 보강", "규정 65문항에 은행도 65문항 — 20문항쯤 더 지으면 된다", "올해 안"],
+    ["관리자 비밀번호를 서버로", "지금은 화면 쪽에 들어 있다. 구글 쪽으로 옮긴다", "올해 안"],
+    ["요원 명부 시력검사일 채우기", "비어 있으면 시력 만료를 계산할 수 없다", "바로"],
+  ];
+  const LATER = [
+    ["Level Ⅲ 전문시험을 CBT 로", "규정이 종이로 시행하도록 정하고 있다 (E02 5.2.3)"],
+    ["실기시험과 실증", "이 시스템은 필기만 다룬다 (E01 7.3.1)"],
   ];
 
-  L.forEach((l, i) => {
-    const y = 1.72 + i * 1.02;
+  s.addText("지금 할 것", {
+    x: 0.62, y: 1.62, w: 7.6, h: 0.38, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 20, bold: true, color: RED,
+  });
+  NOW.forEach((n, i) => {
+    const y = 2.1 + i * 1.12;
     s.addShape(p.ShapeType.rect, {
-      x: 0.62, y, w: 12.55, h: 0.88,
-      fill: { color: l[2] ? "FFF2F2" : "FFFFFF" },
-      line: { color: l[2] ? RED : LINE, width: 1 },
+      x: 0.62, y, w: 7.6, h: 0.98,
+      fill: { color: i === 0 ? "FFF2F2" : "FFFFFF" },
+      line: { color: i === 0 ? RED : LINE, width: 1 },
     });
-    s.addShape(p.ShapeType.ellipse, {
-      x: 0.9, y: y + 0.22, w: 0.42, h: 0.42, fill: { color: l[2] ? RED : "808080" },
+    s.addText(n[0], {
+      x: 0.9, y: y + 0.12, w: 5.5, h: 0.36, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 16, bold: true, color: i === 0 ? RED : INK,
     });
-    s.addText(String(i + 1), {
-      x: 0.9, y: y + 0.22, w: 0.42, h: 0.42, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 14, bold: true, color: "FFFFFF",
-      align: "center", valign: "middle",
+    s.addText(n[2], {
+      x: 6.5, y: y + 0.14, w: 1.5, h: 0.32, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 13, bold: true, color: i === 0 ? RED : BLU, align: "right",
     });
-    s.addText(l[0], {
-      x: 1.45, y: y + 0.08, w: 8.2, h: 0.38, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 17, bold: true, color: l[2] ? RED : INK,
-    });
-    if (l[2]) {
-      s.addText("시행 전 필수", {
-        x: 11.6, y: y + 0.24, w: 1.4, h: 0.36, isTextBox: true, margin: 0,
-        fontFace: F, fontSize: 13, bold: true, color: RED, align: "right",
-      });
-    }
-    s.addText(l[1], {
-      x: 1.45, y: y + 0.46, w: 11.4, h: 0.36, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 13, color: MUT,
+    s.addText(n[1], {
+      x: 0.9, y: y + 0.5, w: 7.0, h: 0.36, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 12.5, color: MUT,
     });
   });
 
+  s.addText("규정을 손봐야 되는 것", {
+    x: 8.55, y: 1.62, w: 4.6, h: 0.38, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 20, bold: true, color: MUT,
+  });
+  LATER.forEach((l, i) => {
+    const y = 2.1 + i * 1.35;
+    s.addShape(p.ShapeType.rect, {
+      x: 8.55, y, w: 4.62, h: 1.2,
+      fill: { color: "F7F7F7" }, line: { color: LINE, width: 1 },
+    });
+    s.addText(l[0], {
+      x: 8.82, y: y + 0.15, w: 4.1, h: 0.4, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 15, bold: true, color: INK,
+    });
+    s.addText(l[1], {
+      x: 8.82, y: y + 0.58, w: 4.1, h: 0.5, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 12, color: MUT, lineSpacing: 16,
+    });
+  });
+
+  s.addShape(p.ShapeType.rect, {
+    x: 8.55, y: 4.95, w: 4.62, h: 1.6,
+    fill: { color: "F2F8FD" }, line: { color: BLU, width: 1 },
+  });
+  s.addText("유지비", {
+    x: 8.82, y: 5.1, w: 4.1, h: 0.34, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 15, bold: true, color: BLU,
+  });
+  s.addText("0 원", {
+    x: 8.82, y: 5.42, w: 4.1, h: 0.6, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 36, bold: true, color: BLU,
+  });
+  s.addText("GitHub Pages + 구글 시트\n둘 다 회사가 이미 쓰는 것", {
+    x: 8.82, y: 6.0, w: 4.1, h: 0.5, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 11.5, color: MUT, lineSpacing: 15,
+  });
+
+  s.addText("첫 줄 — 실제 시험을 치기 전에 반드시 바꿔야 합니다.", {
+    x: 0.62, y: 6.72, w: 7.6, h: 0.35, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 13.5, bold: true, color: RED,
+  });
+
   page(s);
-  s.addNotes("첫 번째는 실제 시험을 치기 전에 반드시 바꿔야 합니다.");
+  s.addNotes("검토 모드는 지금 켜져 있습니다. 시험 전에 끄면 됩니다 — 한 줄만 바꾸면 됩니다.");
 }
 
 /* ══════════════════════════════════════════
-   15  감사합니다 — 양식 3장 그대로
+   13  감사합니다 — 양식 3장 그대로
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
