@@ -25,11 +25,25 @@ const 기록 = [
   { name: "이영희", level: "Level II", method: "PT", subject: "Specific", score: 90, total: 20, correct: 18, startedAt: "2023-09-02T13:10:00+09:00" },
   { name: "박민수", level: "Level II", method: "MT", subject: "General",  score: 75, total: 40, correct: 30, startedAt: "2026-07-02T09:10:00+09:00" },
   { name: "박민수", level: "Level II", method: "MT", subject: "Specific", score: 80, total: 20, correct: 16, startedAt: "2026-07-02T13:10:00+09:00" },
+
+  /*
+   * 바깥 자격으로 면제받은 두 사람 (E01 7.3.5 · 7.3.7).
+   * 치르는 시험의 합격선이 80% 라 75점은 불합격이다 — 면제가 아니었다면
+   * 개별 70% 를 넘으니 통과였을 점수다. 화면에서 그 차이가 보여야 한다.
+   */
+  { name: "정수빈", level: "Level II", method: "VT", subject: "Specific", score: 75, total: 20, correct: 15, startedAt: "2026-08-03T09:10:00+09:00" },
+  { name: "최윤석", level: "Level II", method: "PT", subject: "Specific", score: 85, total: 20, correct: 17, startedAt: "2026-08-04T09:10:00+09:00" },
 ];
 
 const 명부 = [
   { name: "홍길동", dept: "검사1팀", eyeExamDate: "2026-06-01", certifiedAt: "2026-03-10", "certifiedAt:UT": "2026-05-25" },
   { name: "이영희", dept: "검사2팀", eyeExamDate: "2025-04-01", certifiedAt: "2023-09-10" },
+
+  /* 일반시험 면제 — 전문시험만 치르고 80% 여야 한다 */
+  { name: "정수빈", dept: "검사1팀", eyeExamDate: "2026-05-10",
+    exempt: "ISO 9712 Level II", exemptNo: "ISO-9712-2-0041", exemptExpiry: "2029-06-30" },
+  { name: "최윤석", dept: "검사2팀", eyeExamDate: "2026-05-10", certifiedAt: "2026-08-04",
+    exempt: "ISO9712 II", exemptNo: "ISO-9712-2-0077", exemptExpiry: "2030-01-31" },
 ];
 
 /*

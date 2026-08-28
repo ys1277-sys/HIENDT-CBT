@@ -46,14 +46,23 @@ function ScoreLine({ unit }) {
     <span className="hist-scores">
       {kinds.map((k, i) => {
         const s = unit.scores[k];
-        const low = s !== null && s < PASS_EACH;
+        /*
+         * 합격선은 사람마다 다르다. 바깥 자격으로 면제받은 사람이 치르는
+         * 시험은 80% 다 (E01 7.3.5 · 7.3.7). unit.passEach 를 그대로 쓴다.
+         */
+        const low = s !== null && s < (unit.passEach || PASS_EACH);
         const paper = unit.paperOnly.includes(k);
+        const free = (unit.exempted || []).includes(k);
 
         return (
           <span key={k}>
             {i > 0 ? <span className="sep"> · </span> : null}
             <span className="kind">{k}</span>{" "}
-            {s === null ? (
+            {free ? (
+              <span className="free" title={`${unit.badge} 자격으로 면제 (E01 7.3.5·7.3.7)`}>
+                면제
+              </span>
+            ) : s === null ? (
               <span className="none">{paper ? "종이 시행" : "미응시"}</span>
             ) : (
               <span className={low ? "low" : ""}>{s}</span>
@@ -61,6 +70,11 @@ function ScoreLine({ unit }) {
           </span>
         );
       })}
+      {unit.badge ? (
+        <span className="badge" title="바깥 기관 자격 — 치르는 시험의 합격선은 80%">
+          {unit.badge}
+        </span>
+      ) : null}
     </span>
   );
 }
@@ -257,6 +271,13 @@ function History({
         .hist-scores .sep { color: #c3cbd1; }
         .hist-scores .low { color: #c0392b; font-weight: 700; }
         .hist-scores .none { color: #99a5ad; font-style: italic; }
+
+        /* 바깥 자격으로 면제받은 자리 — 미응시와 헷갈리면 안 된다 */
+        .hist-scores .free { color: #0179cf; font-weight: 700; }
+        .hist-scores .badge { margin-left: 8px; padding: 1px 6px;
+          border: 1px solid #b9dcf3; border-radius: 99px;
+          background: #e4f1fb; color: #075f9e;
+          font-size: 11px; font-weight: 700; white-space: nowrap; }
         .guess { color: #99a5ad; font-size: 11px; }
 
         .verdict { font-weight: 700; }

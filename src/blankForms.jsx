@@ -190,7 +190,14 @@ function E0201() {
             <th className="n8">시력검사<br />만료일</th>
             <th className="n9">UT Lv.Ⅱ<br />선수 자격</th>
             <th className="n10">응시 구분</th>
-            <th className="n11">비 고</th>
+            {/*
+              바깥 기관 자격으로 일부 필기시험을 면제받는 사람이 있다
+              (E01 7.3.5 · 7.3.7 · E02 5.1.5). 자격증 원본을 확인한 뒤
+              자격 이름과 번호, 만료일을 여기 적는다. 적어 두기만 해서
+              면제되는 것이 아니다.
+            */}
+            <th className="n11">면제 자격<br />(번호 · 만료일)</th>
+            <th className="n12">비 고</th>
           </tr>
         </thead>
         <tbody>
@@ -200,7 +207,7 @@ function E0201() {
               <td /><td /><td /><td /><td /><td /><td />
               <td className="c rp-done"><Box>해당없음</Box><Box>확인</Box></td>
               <td className="c rp-done"><Box>신규</Box><Box>재자격</Box></td>
-              <td />
+              <td /><td />
             </tr>
           ))}
         </tbody>

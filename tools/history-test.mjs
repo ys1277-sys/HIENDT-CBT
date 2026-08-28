@@ -11,6 +11,7 @@ import {
   daysLeft, expiryState, examKind, unitKey, requiredKinds,
   average, judgeUnit, pickAttempt, retakeIssues,
   buildHistory, expiringSoon, ymd,
+  exemptBadge, exemptOf, exemptKinds, PASS_EXEMPT,
 } from "../src/history.js";
 
 let pass = 0, fail = 0;
@@ -277,6 +278,101 @@ section("인증일자 — 등급 + 종목 칸이 우선");
   eq(et.certifiedAt, "2021-01-29", "Level Ⅲ ET");
   eq(et.expiry, "2026-01-31", "Level Ⅲ 5년");
   eq(ut.certifiedFrom, "명부", "출처는 명부");
+}
+
+/* ─────────────────────────────────────────────
+   바깥 기관 자격에 따른 면제 (E01 7.3.5 · 7.3.7)
+
+   여기가 틀리면 70점 받은 ASNT Level Ⅲ 소지자가 합격으로 나온다.
+   ───────────────────────────────────────────── */
+console.log("\n── 바깥 자격 면제 ──");
+
+{
+  /* 적어 넣는 꼴이 제각각이어도 읽어야 한다 */
+  eq(exemptBadge("ASNT III"), "ASNT III", "ASNT III");
+  eq(exemptBadge("asnt level 3"), "ASNT III", "소문자·Level 3 꼴");
+  eq(exemptBadge("ASNT Ⅲ"), "ASNT III", "로마자 Ⅲ");
+  eq(exemptBadge("ISO 9712 Level II"), "ISO9712 II", "ISO 9712 Level Ⅱ");
+  eq(exemptBadge("ISO9712-III"), "ISO9712 III", "붙임표가 낀 꼴");
+  eq(exemptBadge(""), "null", "빈 칸은 없는 것");
+  eq(exemptBadge("SNT-TC-1A"), "null", "자격 이름이 아니면 안 읽는다");
+  eq(exemptBadge("ASNT II"), "null", "ASNT Level Ⅱ 는 면제 대상이 아니다");
+}
+
+{
+  /* 어느 시험이 면제되나 */
+  eq(exemptKinds("Level III", "ASNT III").join(","), "기초,종목", "LⅢ ASNT — 기초·종목");
+  eq(exemptKinds("Level III", "ISO9712 III").join(","), "기초,종목", "LⅢ ISO Ⅲ — 기초·종목");
+  eq(exemptKinds("Level II", "ISO9712 II").join(","), "일반", "LⅡ ISO Ⅱ — 일반");
+  eq(exemptKinds("Level II", "ASNT III").join(","), "", "등급이 안 맞으면 면제 없음");
+  eq(exemptKinds("Level III", null).join(","), "", "자격이 없으면 면제 없음");
+}
+
+{
+  /* 종목마다 따진다 */
+  const p = { exempt: "ISO9712 II", "exempt:Level III/UT": "ASNT III", "exempt:MT": "ISO9712 III" };
+  eq(exemptOf(p, "Level III", "UT"), "ASNT III", "등급+종목 칸이 먼저");
+  eq(exemptOf(p, "Level III", "MT"), "ISO9712 III", "종목 칸이 그 다음");
+  eq(exemptOf(p, "Level II", "PT"), "ISO9712 II", "둘 다 없으면 기본값");
+  eq(exemptOf(null, "Level II", "PT"), "null", "명부가 없으면 없는 것");
+}
+
+{
+  /* ★ 합격선이 80 이다 — 70 이 아니다 */
+  const 전문70 = { score: 70, startedAt: "2026-03-02" };
+  const r = judgeUnit("Level II", { 전문: 전문70 }, "ISO9712 II");
+
+  eq(r.passEach, String(PASS_EXEMPT), "면제자의 개별 합격선은 80");
+  eq(r.exempted.join(","), "일반", "일반시험은 면제");
+  eq(r.scores["일반"], "null", "면제된 시험은 점수를 안 본다");
+  eq(r.missing.join(","), "", "면제된 시험을 미응시로 세지 않는다");
+  eq(r.belowEach.join(","), "전문", "70점은 면제자에게 미달이다");
+  eq(r.verdict, "fail", "70점 받은 ISO 9712 Ⅱ 소지자는 불합격");
+  eq(r.total, "70", "종합은 실제로 친 시험만 평균낸다");
+}
+
+{
+  /* 같은 70점이라도 면제가 아니면 개별은 통과다 */
+  const r = judgeUnit("Level II", {
+    일반: { score: 90, startedAt: "2026-03-01" },
+    전문: { score: 70, startedAt: "2026-03-02" },
+  });
+  eq(r.passEach, "70", "면제가 없으면 개별 합격선은 70");
+  eq(r.belowEach.join(","), "", "70점은 개별 통과");
+  eq(r.total, "80", "종합 (90+70)/2 = 80");
+  eq(r.verdict, "pass", "종합 80 이면 합격");
+}
+
+{
+  /* 80점이면 면제자도 합격 */
+  const r = judgeUnit("Level II", { 전문: { score: 80, startedAt: "2026-03-02" } }, "ISO9712 II");
+  eq(r.verdict, "pass", "80점 받은 ISO 9712 Ⅱ 소지자는 합격");
+  eq(ymd(r.passedAt), "2026-03-02", "합격일은 실제로 친 시험 날");
+}
+
+{
+  /* Level Ⅲ ASNT — 기초·종목이 빠지고 전문만 남는다.
+     전문은 종이 시행이라 아직 점수가 없다 (E02 5.2.3) */
+  const r = judgeUnit("Level III", {}, "ASNT III");
+  eq(r.exempted.join(","), "기초,종목", "기초·종목 면제");
+  eq(r.missing.join(","), "전문", "전문시험만 남는다");
+  eq(r.paperOnly.join(","), "전문", "그마저 종이 시행이다");
+  eq(r.verdict, "incomplete", "아직 판정할 수 없다");
+}
+
+{
+  /* 명부에 적으면 이력에도 그대로 나와야 한다 */
+  const recs = [
+    { name: "박서준", level: "Level II", method: "PT", subject: "Specific", score: 75, startedAt: "2026-04-10" },
+  ];
+  const 명부 = [{ name: "박서준", exempt: "ISO 9712 Level II", certifiedAt: "2026-04-10" }];
+
+  const h = buildHistory(recs, 명부, 오늘);
+  const u = h[0].units[0];
+
+  eq(u.badge, "ISO9712 II", "이력에 자격이 실린다");
+  eq(u.exempted.join(","), "일반", "일반시험 면제");
+  eq(u.verdict, "fail", "75점은 면제자에게 미달 — 80% 여야 한다");
 }
 
 console.log(`\n${"-".repeat(56)}\n확인 ${pass + fail}건 · 통과 ${pass} · 실패 ${fail}\n`);

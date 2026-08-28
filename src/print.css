@@ -1915,17 +1915,25 @@ body.paper-preview .print-area {
   font-size: 6pt;
   line-height: 1.15;
 }
+/*
+ * 응시자 명단 — 칸 열둘, 합쳐서 166mm.
+ *
+ * 「면제 자격」칸(n11)이 늘면서 앞칸들을 조금씩 줄였다. 자격 이름과
+ * 번호, 만료일을 한 칸에 적어야 해서 여기가 가장 넓다.
+ * 합이 바뀌면 종이 밖으로 나가니 고칠 때 다시 더해 볼 것.
+ */
 .rp-cand .n1 { width: 7mm; }
-.rp-cand .n2 { width: 15mm; }
-.rp-cand .n3 { width: 15mm; }
-.rp-cand .n4 { width: 15mm; }
-.rp-cand .n5 { width: 9mm; }
-.rp-cand .n6 { width: 15mm; }
-.rp-cand .n7 { width: 11mm; }
-.rp-cand .n8 { width: 17mm; }
-.rp-cand .n9 { width: 20mm; }
-.rp-cand .n10 { width: 22mm; }
-.rp-cand .n11 { width: 20mm; }
+.rp-cand .n2 { width: 14mm; }
+.rp-cand .n3 { width: 13mm; }
+.rp-cand .n4 { width: 13mm; }
+.rp-cand .n5 { width: 8mm; }
+.rp-cand .n6 { width: 14mm; }
+.rp-cand .n7 { width: 10mm; }
+.rp-cand .n8 { width: 15mm; }
+.rp-cand .n9 { width: 17mm; }
+.rp-cand .n10 { width: 19mm; }
+.rp-cand .n11 { width: 24mm; }
+.rp-cand .n12 { width: 12mm; }
 
 /* 확인란(✔)이 붙는 점검표 */
 .rp-check th,

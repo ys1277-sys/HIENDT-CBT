@@ -92,6 +92,12 @@ var SHEETS = {
       "name", "dept", "empNo", "eyeExamDate", "certifiedAt",
       "hiredAt", "terminatedAt", "education", "experience", "training",
       "approvedBy", "employerSign",
+      /*
+       * 바깥 기관 자격 — 필기시험 면제에 쓴다 (E01 7.3.5 · 7.3.7).
+       * 값은 "ASNT III" · "ISO9712 III" · "ISO9712 II" 중 하나다.
+       * 종목마다 다르면 exempt:UT 나 exempt:Level III/UT 칸을 더 만든다.
+       */
+      "exempt", "exemptNo", "exemptExpiry",
     ],
   },
 };

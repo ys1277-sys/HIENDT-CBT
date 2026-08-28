@@ -178,6 +178,66 @@ export function requiredKinds(level) {
     : ["일반", "전문"];
 }
 
+/* ─────────────────────────────────────────────
+   바깥 기관 자격에 따른 면제 (E01 7.3.5 · 7.3.7)
+
+   유효한 ASNT NDE Level Ⅲ 또는 ISO 9712 Level Ⅲ 를 가진 사람은
+   기초시험과 종목시험을 만족한 것으로 본다. ISO 9712 Level Ⅱ 를 가진
+   사람은 일반시험을 만족한 것으로 본다. (E01 7.3.7 은 실기시험도 함께
+   면제하지만 실기는 CBT 밖이라 여기서 다루지 않는다.)
+
+   면제받은 사람이 실제로 치르는 시험은 합격선이 80% 다. 개별 70% 가
+   아니다 — 이것을 놓치면 70점 받은 ASNT Level Ⅲ 소지자가 합격으로
+   나온다. (HIE-QP-E02 5.1.5 · 7.7.4)
+
+   면제는 종목마다 따진다. 요원 명부에 이렇게 적는다.
+
+     exempt:Level III/UT   등급 + 종목
+     exempt:UT             종목만
+     exempt                그 사람의 기본값
+
+   값은 자격 이름이다 — "ASNT III", "ISO9712 III", "ISO9712 II".
+   ───────────────────────────────────────────── */
+
+export const PASS_EXEMPT = 80;       /* 면제자가 치르는 시험의 합격선 (%) */
+
+/* 적어 넣은 자격 이름을 갈래로 읽는다. 띄어쓰기나 대소문자는 안 따진다 */
+export function exemptBadge(v) {
+  const s = String(v == null ? "" : v).replace(/\s|-|_/g, "").toUpperCase();
+  if (!s) return null;
+
+  const three = /(III|Ⅲ|LEVEL3|LV3|L3)/.test(s);
+  const two = /(II|Ⅱ|LEVEL2|LV2|L2)/.test(s) && !three;
+
+  if (/ASNT/.test(s) && three) return "ASNT III";
+  if (/(ISO9712|ISO)/.test(s) && three) return "ISO9712 III";
+  if (/(ISO9712|ISO)/.test(s) && two) return "ISO9712 II";
+  return null;
+}
+
+/* 그 사람이 이 등급·종목에서 내세운 바깥 자격 */
+export function exemptOf(person, level, method) {
+  const p = person || {};
+  return (
+    exemptBadge(p[`exempt:${level}/${method}`]) ||
+    exemptBadge(p[`exempt:${method}`]) ||
+    exemptBadge(p.exempt)
+  );
+}
+
+/* 그 자격이 면제해 주는 필기시험 갈래 */
+export function exemptKinds(level, badge) {
+  if (!badge) return [];
+
+  if (level === "Level III" && (badge === "ASNT III" || badge === "ISO9712 III")) {
+    return ["기초", "종목"];        /* E01 7.3.5 — 전문시험은 그대로 친다 */
+  }
+  if (level === "Level II" && badge === "ISO9712 II") {
+    return ["일반"];                /* E01 7.3.7 — 전문시험은 그대로 친다 */
+  }
+  return [];
+}
+
 /*
  * CBT 에 실려 있지 않아 점수가 들어올 수 없는 시험.
  * Level Ⅲ 전문시험은 시험지를 출력해 종이로 시행한다 (E02 5.2.3).
@@ -289,8 +349,19 @@ export function average(scores) {
  * verdict 가 pass 라도 자격 취득이 확정된 것은 아니다. 실기시험이
  * 남아 있고(E01 7.3.1) 대표 NDE Level Ⅲ 의 승인이 있어야 한다(E02 7.9.2).
  */
-export function judgeUnit(level, byKind) {
-  const need = requiredKinds(level);
+export function judgeUnit(level, byKind, badge = null) {
+  /*
+   * 바깥 자격으로 면제받은 갈래는 「요구되는 시험」에서 뺀다.
+   * E01 7.4.4 의 종합점수는 요구되는 시험의 평균이므로, 면제된 것은
+   * 평균에도 안 들어간다.
+   */
+  const exempted = exemptKinds(level, badge);
+  const all = requiredKinds(level);
+  const need = all.filter(k => !exempted.includes(k));
+
+  /* 면제받은 사람이 치르는 시험은 80% 다 (E01 7.3.5 · 7.3.7) */
+  const passEach = exempted.length ? PASS_EXEMPT : PASS_EACH;
+  const passTotal = exempted.length ? PASS_EXEMPT : PASS_TOTAL;
 
   const kinds = {};
   const scores = {};
@@ -298,9 +369,15 @@ export function judgeUnit(level, byKind) {
   const paperOnly = [];
   const belowEach = [];
 
-  for (const kind of need) {
+  for (const kind of all) {
     const rec = byKind[kind] || null;
     kinds[kind] = rec;
+
+    /* 면제된 갈래는 점수를 안 본다. 안 쳤다고 흠잡지도 않는다 */
+    if (exempted.includes(kind)) {
+      scores[kind] = null;
+      continue;
+    }
 
     const s = rec ? scoreOf(rec) : null;
     scores[kind] = s;
@@ -310,7 +387,7 @@ export function judgeUnit(level, byKind) {
       if (isPaperOnly(level, kind)) paperOnly.push(kind);
       continue;
     }
-    if (s < PASS_EACH) belowEach.push(kind);
+    if (s < passEach) belowEach.push(kind);
   }
 
   const total = average(need.map(k => scores[k]));
@@ -318,7 +395,7 @@ export function judgeUnit(level, byKind) {
   let verdict;
   if (belowEach.length) verdict = "fail";
   else if (missing.length) verdict = "incomplete";
-  else verdict = total !== null && total >= PASS_TOTAL ? "pass" : "fail";
+  else verdict = total !== null && total >= passTotal ? "pass" : "fail";
 
   /* 필기를 다 채운 날 — 가장 나중에 친 시험의 날짜 */
   let passedAt = null;
@@ -329,7 +406,11 @@ export function judgeUnit(level, byKind) {
     }
   }
 
-  return { kinds, scores, missing, paperOnly, belowEach, total, verdict, passedAt };
+  return {
+    kinds, scores, missing, paperOnly, belowEach, total, verdict, passedAt,
+    /* 화면과 서식이 「왜 안 쳤는지」를 밝혀 적을 수 있게 함께 돌려준다 */
+    badge, exempted, passEach, passTotal,
+  };
 }
 
 /* ─────────────────────────────────────────────
@@ -397,7 +478,10 @@ export function buildHistory(records, people = [], today = new Date()) {
       /* 기초시험은 그 등급의 모든 종목에 함께 쓰인다 */
       if (level === "Level III") picked["기초"] = pickAttempt(basic);
 
-      const judged = judgeUnit(level, picked);
+      /* 바깥 자격은 종목마다 다를 수 있다 (E01 7.3.5 · 7.3.7) */
+      const badge = exemptOf(entry.person, level, method);
+
+      const judged = judgeUnit(level, picked, badge);
 
       /*
        * 인증일자는 명부가 우선이다. 없으면 필기를 다 채운 날로 어림한다.
