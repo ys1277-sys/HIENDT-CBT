@@ -11,6 +11,7 @@ import PrintScoreReport from "./PrintScoreReport.jsx";
 import PrintExpirySchedule from "./PrintExpirySchedule.jsx";
 import PrintCertLog from "./PrintCertLog.jsx";
 import PrintExam from "./PrintExam.jsx";
+import ProcedureViewer, { useManifest, availableProcedures } from "./ProcedureViewer.jsx";
 import { BlankForm, BLANK_FORMS } from "./blankForms.jsx";
 import { buildHistory, buildSessions, expiringSoon, eyeExpiringSoon, certLogRows } from "./history.js";
 
@@ -176,4 +177,26 @@ export function PaperPreview() {
       date={new Date(2026, 11, 23).toLocaleDateString()}
     />
   );
+}
+
+/*
+ * ?preview=proc — 시험 중에 펴 보는 절차서 창.
+ *
+ * 평소에는 문항 지시문의 절차서 이름을 눌러야 열린다. 화면을 찍거나
+ * 눈으로 확인하려면 주소로 바로 열 수 있어야 한다 (tools/shots.cjs).
+ *
+ * 어느 절차서를 열지는 ?code= 로 고른다. 없으면 MT 절차서를 편다.
+ */
+export function ProcPreview() {
+  const manifest = useManifest();
+  const want =
+    new URLSearchParams(window.location.search).get("code") || "HIE-NDT-MT-P11";
+
+  if (!manifest) return null;
+
+  /* 문항이 그 절차서를 부르는 것처럼 꾸며 목록을 얻는다 */
+  const procs = availableProcedures(manifest, { groupNote: want });
+  if (!procs.length) return null;
+
+  return <ProcedureViewer proc={procs[0]} onClose={() => {}} />;
 }

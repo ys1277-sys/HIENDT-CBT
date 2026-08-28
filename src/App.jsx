@@ -1,6 +1,6 @@
 import React from "react";
 import ExamFlow from "./ExamFlow.jsx";
-import HistoryPreview, { ReportPreview, ExpiryPreview, CertLogPreview, BlankFormPreview, AllFormsPreview, PaperPreview } from "./HistoryPreview.jsx";
+import HistoryPreview, { ReportPreview, ExpiryPreview, CertLogPreview, BlankFormPreview, AllFormsPreview, PaperPreview, ProcPreview } from "./HistoryPreview.jsx";
 
 function App() {
   /*
@@ -25,6 +25,7 @@ function App() {
   if (preview === "form") return <BlankFormPreview />;
   if (preview === "all") return <AllFormsPreview />;
   if (preview === "paper") return <PaperPreview />;
+  if (preview === "proc") return <ProcPreview />;
 
   return (
     <ExamFlow />

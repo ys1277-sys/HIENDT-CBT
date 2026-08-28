@@ -255,6 +255,61 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
 }
 
 /* ══════════════════════════════════════════
+   3-2  어떻게 만들었나 — VS Code
+   ══════════════════════════════════════════ */
+{
+  const s = p.addSlide();
+  banner(s, "어떻게 만들었나");
+  sub(s, "VS Code 로 직접 짰습니다. 산 프로그램도, 외주도 아닙니다");
+
+  shot(s, "15-code.png", 0.62, 1.52, 7.6, 5.05);
+
+  const MADE = [
+    ["11,027", "줄", "화면과 기능 — 시험·채점·이력·인쇄"],
+    ["18,300", "줄", "도구 131개 — 문항을 옮기고 검사한다"],
+    ["2,100", "줄", "인쇄 서식 — 시험지·답안지·규정 서식"],
+    ["1,709", "줄", "규칙 문서 두 건 — E02 · E03"],
+  ];
+
+  MADE.forEach((m, i) => {
+    const y = 1.6 + i * 0.92;
+    s.addText(m[0], {
+      x: 8.5, y, w: 1.85, h: 0.5, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 26, bold: true, color: BLU, align: "right",
+    });
+    s.addText(m[1], {
+      x: 10.4, y: y + 0.16, w: 0.5, h: 0.3, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 14, color: MUT,
+    });
+    s.addText(m[2], {
+      x: 8.5, y: y + 0.5, w: 4.68, h: 0.34, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 12.5, color: INK,
+    });
+  });
+
+  s.addShape(p.ShapeType.rect, {
+    x: 8.5, y: 5.35, w: 4.68, h: 1.3,
+    fill: { color: "F2F8FD" }, line: { color: BLU, width: 1 },
+  });
+  s.addText("205 번 고쳐 올렸습니다", {
+    x: 8.78, y: 5.5, w: 4.2, h: 0.34, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 15, bold: true, color: BLU,
+  });
+  s.addText("2026년 7월 23일부터 8월 28일까지, 14일 동안.\n고친 것마다 왜 고쳤는지 적어 남겼습니다.", {
+    x: 8.78, y: 5.88, w: 4.2, h: 0.65, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 12, color: INK, lineSpacing: 17,
+  });
+
+  s.addText("값 하나하나가 규정 어느 조항에서 왔는지 코드 안에 적어 두었습니다. 위 화면이 그 보기입니다.", {
+    x: 0.62, y: 6.78, w: 12.55, h: 0.35, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 13.5, bold: true, color: BLU,
+  });
+
+  page(s);
+  s.addNotes("사서 쓴 것이 아니라 우리 규정에 맞춰 직접 짠 것입니다. 그래서 규정이 바뀌면 우리가 고칠 수 있습니다.");
+}
+
+/* ══════════════════════════════════════════
    4-2  문제은행
    ══════════════════════════════════════════ */
 {
@@ -296,24 +351,26 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
     });
   });
 
+  shot(s, "16-bank.png", 9.55, 1.68, 3.62, 2.4);
+
   s.addShape(p.ShapeType.rect, {
-    x: 9.55, y: 1.68, w: 3.62, h: 3.9,
+    x: 9.55, y: 4.2, w: 3.62, h: 1.38,
     fill: { color: "F2F8FD" }, line: { color: BLU, width: 1 },
   });
   s.addText("1,369", {
-    x: 9.55, y: 2.1, w: 3.62, h: 0.95, isTextBox: true, margin: 0,
-    fontFace: F, fontSize: 46, bold: true, color: BLU, align: "center",
+    x: 9.55, y: 4.3, w: 3.62, h: 0.72, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 34, bold: true, color: BLU, align: "center",
   });
   s.addText("문항 · 은행 24개", {
-    x: 9.55, y: 3.05, w: 3.62, h: 0.35, isTextBox: true, margin: 0,
+    x: 9.55, y: 5.02, w: 3.62, h: 0.32, isTextBox: true, margin: 0,
     fontFace: F, fontSize: 15, bold: true, color: INK, align: "center",
   });
   s.addText("원본 시험지    1,110\n새로 지어 채움     259", {
     x: 9.85, y: 3.6, w: 3.0, h: 0.7, isTextBox: true, margin: 0,
-    fontFace: F, fontSize: 14, color: INK, lineSpacing: 22,
+    fontFace: F, fontSize: 11.5, color: MUT, align: "center",
   });
   s.addText("그림이 들어가는 문항 28개.\n지어 넣은 문항은 근거 조항을\n하나하나 적어 두었습니다.\n(종목 NDE Level Ⅲ 승인 —\nE02 6.1.2)", {
-    x: 9.85, y: 4.4, w: 3.0, h: 1.05, isTextBox: true, margin: 0,
+    x: 9.55, y: 9.9, w: 3.0, h: 1.05, isTextBox: true, margin: 0,
     fontFace: F, fontSize: 11.5, color: MUT, lineSpacing: 16,
   });
 
@@ -569,6 +626,54 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
 
   page(s);
   s.addNotes("감사 때 바로 뽑아 낼 수 있습니다. 기록은 퇴사 후 5년 보존입니다.");
+}
+
+/* ══════════════════════════════════════════
+   7-2  절차서를 시험 중에
+   ══════════════════════════════════════════ */
+{
+  const s = p.addSlide();
+  banner(s, "절차서를 시험 중에 펴 본다");
+  sub(s, "전문시험은 사양서·장치·검사기법·절차서를 묻습니다 (E01 7.3.3-2)");
+
+  shot(s, "14-proc.png", 0.62, 1.52, 8.3, 5.15);
+
+  const PROC = [
+    ["10종", "검사절차서 아홉과 자격인정절차서 E01"],
+    ["179장", "한글 파일에서 뽑아 그대로 옮긴 그림"],
+    ["찾기", "절차서 안에서 낱말을 넣어 그 자리로 간다"],
+    ["문항에서 바로", "지시문의 절차서 이름을 누르면 열린다"],
+  ];
+
+  PROC.forEach((t, i) => {
+    const y = 1.6 + i * 1.15;
+    s.addText(t[0], {
+      x: 9.2, y, w: 3.98, h: 0.42, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 22, bold: true, color: BLU,
+    });
+    s.addText(t[1], {
+      x: 9.2, y: y + 0.44, w: 3.98, h: 0.6, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 13, color: INK, lineSpacing: 18,
+    });
+  });
+
+  s.addShape(p.ShapeType.rect, {
+    x: 9.2, y: 6.15, w: 3.98, h: 0.52,
+    fill: { color: "F2F8FD" }, line: { color: BLU, width: 1 },
+  });
+  s.addText("사무실로 찾으러 가지 않는다", {
+    x: 9.2, y: 6.15, w: 3.98, h: 0.52, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 13.5, bold: true, color: BLU,
+    align: "center", valign: "middle",
+  });
+
+  s.addText("표지 양식이 문서마다 제각각이던 것을 하나로 맞추고, 기계 번역투 58군데를 다시 썼습니다.", {
+    x: 0.62, y: 6.82, w: 8.3, h: 0.35, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 13, color: MUT,
+  });
+
+  page(s);
+  s.addNotes("현장에서도 같은 화면에서 절차서를 펴 볼 수 있습니다.");
 }
 
 /* ══════════════════════════════════════════
@@ -906,39 +1011,41 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
     ["겹치는 조항", "같은 말을 두 번"],
   ];
 
-  const cw = (12.55 - 0.35 * 3) / 4;
+  shot(s, "13-checks.png", 0.62, 1.52, 7.3, 4.7);
+
+  const cw = (12.55 - 7.3 - 0.4 - 0.3) / 2;
   CHK.forEach((c, i) => {
-    const col = i % 4, row = Math.floor(i / 4);
-    const x = 0.62 + col * (cw + 0.35);
-    const y = 1.85 + row * 1.85;
+    const col = i % 2, row = Math.floor(i / 2);
+    const x = 8.32 + col * (cw + 0.3);
+    const y = 1.55 + row * 1.3;
     s.addShape(p.ShapeType.rect, {
-      x, y, w: cw, h: 1.55, fill: { color: "FFFFFF" }, line: { color: LINE, width: 1 },
+      x, y, w: cw, h: 1.15, fill: { color: "FFFFFF" }, line: { color: LINE, width: 1 },
     });
     s.addShape(p.ShapeType.ellipse, {
-      x: x + 0.28, y: y + 0.26, w: 0.38, h: 0.38, fill: { color: OK },
+      x: x + 0.2, y: y + 0.18, w: 0.32, h: 0.32, fill: { color: OK },
     });
     s.addText("✓", {
-      x: x + 0.28, y: y + 0.26, w: 0.38, h: 0.38, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 14, bold: true, color: "FFFFFF",
+      x: x + 0.2, y: y + 0.18, w: 0.32, h: 0.32, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 12, bold: true, color: "FFFFFF",
       align: "center", valign: "middle",
     });
     s.addText(c[0], {
-      x: x + 0.76, y: y + 0.26, w: cw - 1.0, h: 0.38, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 17, bold: true, color: INK, valign: "middle",
+      x: x + 0.6, y: y + 0.18, w: cw - 0.8, h: 0.32, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 14, bold: true, color: INK, valign: "middle",
     });
     s.addText(c[1], {
-      x: x + 0.28, y: y + 0.82, w: cw - 0.56, h: 0.55, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 13, color: MUT, lineSpacing: 18,
+      x: x + 0.2, y: y + 0.58, w: cw - 0.4, h: 0.5, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 11, color: MUT, lineSpacing: 18,
     });
   });
 
   s.addText("검사 15가지가 모두 통과합니다. 위는 그 가운데 여덟 가지 — 문항을 하나라도 손대면 다시 돌립니다.", {
-    x: 0.62, y: 5.72, w: 12.55, h: 0.4, isTextBox: true, margin: 0,
-    fontFace: F, fontSize: 15, bold: true, color: BLU,
+    x: 0.62, y: 6.42, w: 12.55, h: 0.4, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 14, bold: true, color: BLU,
   });
 
   page(s);
-  s.addNotes("검사를 사람이 아니라 프로그램이 합니다.");
+  s.addNotes("왼쪽은 방금 돌린 결과입니다. 꾸며 낸 화면이 아닙니다.");
 }
 
 /* ══════════════════════════════════════════
