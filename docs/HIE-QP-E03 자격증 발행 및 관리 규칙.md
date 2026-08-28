@@ -2,6 +2,8 @@
 
 **HANKUK INDUSTRIAL ENGINEERING CO., LTD.**
 
+**(주)한국공업엔지니어링**
+
 | | |
 |---|---|
 | Document No. | HIE-QP-E03 |
@@ -149,7 +151,7 @@ HIE-QP-E01에 따라 수행되고 있는지 검토하고 승인할 책임이 있
 | Technique &nbsp; 기법 | TOFD, PAUT |
 | Certified &nbsp; 인증 일자 | 2026. 08. 25. |
 | Expires &nbsp; 만료 일자 | 2029. 08. 31. |
-| Certified by &nbsp; 인증한 사람 | 한국공업엔지니어링㈜ |
+| Certified by &nbsp; 인증한 사람 | (주)한국공업엔지니어링 |
 | NDE Level Ⅲ (성명 풀네임) | (대표 NDE Level Ⅲ 성명) |
 | ASNT 자격 사항 | ASNT NDT Level Ⅲ No. (해당하는 경우) |
 | 인증 기관 | 해당 없음 |
@@ -425,7 +427,7 @@ Level Ⅲ의 승인을 받고, 폐기 일자·승인 기록·폐기 대상 기�
 
 **HANKUK INDUSTRIAL ENGINEERING CO., LTD.**
 
-**한국공업엔지니어링㈜**
+**(주)한국공업엔지니어링**
 
 **CERTIFICATE OF NDE PERSONNEL QUALIFICATION**
 
@@ -544,7 +546,7 @@ Level Ⅲ의 승인을 받고, 폐기 일자·승인 기록·폐기 대상 기�
 
 신청인 : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (서명 또는 인)
 
-**한국공업엔지니어링㈜ 대표 NDE Level Ⅲ 귀중**
+**(주)한국공업엔지니어링 대표 NDE Level Ⅲ 귀중**
 
 > 재발급하는 자격증의 **인증 일자와 만료 일자는 최초 발행한 것과 같다.**
 > 재발급으로 유효기간이 연장되지 않는다. (HIE-QP-E03 5.5.3)

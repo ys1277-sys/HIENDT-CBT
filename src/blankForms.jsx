@@ -790,7 +790,7 @@ function E0302() {
         <div>위와 같이 자격증 재발급을 신청합니다.</div>
         <div className="rp-apply-date">년          월          일</div>
         <div className="rp-apply-sign">신청인 :                              (서명 또는 인)</div>
-        <div className="rp-apply-to">한국공업엔지니어링㈜ 대표 NDE Level Ⅲ 귀중</div>
+        <div className="rp-apply-to">(주)한국공업엔지니어링 대표 NDE Level Ⅲ 귀중</div>
       </div>
 
       <div className="rp-quote">
