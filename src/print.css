@@ -1113,10 +1113,35 @@
     background: #fff !important;
   }
 
+  /*
+   * 화면을 감춘다 — 감출 이름을 하나씩 적어 둔 자리.
+   *
+   * 이 방식은 화면을 새로 만들 때마다 빠뜨린다. 실제로 자격 이력
+   * 화면(.hist-page)이 빠져 있어, 「E02-07 출력」을 누르면 목록이
+   * 1쪽으로 딸려 찍히고 보고서가 2쪽에 나왔다. 빈 서식 출력도 같았다.
+   *
+   * 아래 :has() 규칙이 이름을 세지 않고 가리므로 그쪽이 본체다.
+   * 여기 목록은 :has() 를 모르는 낡은 브라우저를 위한 대비책이다.
+   */
   .home-container,
   .admin-controls,
   .admin-results,
+  .hist-page,
   .cbt-page {
+    display: none !important;
+  }
+
+  /*
+   * 인쇄할 종이를 품지 않은 가지는 통째로 감춘다.
+   *
+   * 남는 것은 셋뿐이다 — 종이(.print-area) 자신, 그 안의 모든 것,
+   * 그리고 종이를 감싸고 있는 조상. 조상은 :has(.print-area) 로 걸러진다.
+   *
+   * 종이가 #root 의 직계 자식이 아니어도 되므로(Admin 안에서는 이력
+   * 화면과 형제다) 화면 구조가 바뀌어도 새지 않는다.
+   */
+  body:has(.print-area)
+    #root *:not(.print-area):not(.print-area *):not(:has(.print-area)) {
     display: none !important;
   }
 
@@ -1440,6 +1465,18 @@
    ========================================================= */
 
 body.paper-preview > #root > *:not(.print-area) {
+  display: none !important;
+}
+
+/*
+ * 종이가 #root 의 직계 자식이 아닐 때도 같이 가린다.
+ *
+ * 위 규칙은 종이가 #root 바로 밑에 있을 때만 듣는다. 관리자 화면
+ * 안에서는 이력 화면과 형제로 놓여 한 단 더 들어가 있어, 목록이
+ * 같이 펼쳐졌다. 인쇄할 때와 같은 잣대로 가린다.
+ */
+body.paper-preview:has(.print-area)
+  #root *:not(.print-area):not(.print-area *):not(:has(.print-area)) {
   display: none !important;
 }
 
