@@ -184,6 +184,75 @@ const CHECKS = [
   },
 ];
 
+/*
+ * 표 3 — 필기시험의 최소 문제 수.
+ *
+ * 이 시스템에서 가장 무거운 숫자다. 여기가 틀리면 규정보다 적게, 또는
+ * 많게 시험이 나간다. 실제로 예전에 TOFD·PAUT 전문시험이 5문항 적게
+ * 나간 적이 있다.
+ *
+ * E01 원본의 표 3 을 그대로 적어 두고, 원문과 src/ExamData.jsx 양쪽에
+ * 맞는지 본다. 셋 가운데 하나라도 어긋나면 걸린다.
+ */
+const TABLE3 = {
+  RT:   [40, 20],  CR:  [40, 30],  DR:   [40, 30],
+  MT:   [40, 20],  UT:  [40, 20],
+  TOFD: [40, 30],  PAUT:[40, 30],  FMC:  [40, 30],
+  PT:   [40, 20],  VT:  [40, 20],
+  ECT:  [40, 20],  RFT: [40, 20],
+};
+
+/*
+ * 원문 표 3 의 줄. 종목 이름이 영문이고, 칸은 공백으로만 이어진다.
+ *
+ * 「Level Ⅰ 일반 · Level Ⅰ 전문 · Level Ⅱ 일반 · Level Ⅱ 전문」 네 값이
+ * 이 차례로 온다. 표 1A(교육훈련·경력)에도 같은 종목 이름이 나오므로,
+ * 표 3 이 시작하는 자리부터 잘라서 그 안에서만 찾는다.
+ */
+const TABLE3_HEAD = "Minimum Number of Test Questions";
+
+const TABLE3_ROW = {
+  RT:   /(?:^|\s)Radiography\s+40\s+20\s+40\s+20/,
+  CR:   /Computed Radiography\(CR\)\s+40\s+30\s+40\s+30/,
+  DR:   /Digital Radiography\(DR\)\s+40\s+30\s+40\s+30/,
+  MT:   /Magnetic Particle Testing\s+40\s+20\s+40\s+20/,
+  UT:   /Ultrasonic Testing\s+40\s+20\s+40\s+20/,
+  TOFD: /Time of Flight Diffraction\(TOFD\)\s+-\s+-\s+40\s+30/,
+  PAUT: /Phased Array\(PAUT\)\s+-\s+-\s+40\s+30/,
+  FMC:  /Full Matrix Capture\(FMC\)\s+-\s+-\s+40\s+30/,
+  PT:   /Liquid Penetrant Testing\s+40\s+20\s+40\s+20/,
+  VT:   /Visual Testing\s+40\s+20\s+40\s+20/,
+  ECT:  /Eddy Current Testing\s+40\s+20\s+40\s+20/,
+  RFT:  /Remote Field Testing\s+40\s+20\s+40\s+20/,
+};
+
+/* src/ExamData.jsx 에서 출제 수를 읽는다 */
+function examData() {
+  const src = fs
+    .readFileSync("src/ExamData.jsx", "utf8")
+    .replace(/\/\*[\s\S]*?\*\//g, "");
+
+  const block = (name) => {
+    const i = src.indexOf(name + ":");
+    if (i < 0) return "";
+    const a = src.indexOf("{", i);
+    let d = 0, j = a;
+    for (; j < src.length; j++) {
+      if (src[j] === "{") d++;
+      else if (src[j] === "}") { d--; if (!d) break; }
+    }
+    return src.slice(a + 1, j);
+  };
+
+  const read = (blk) => {
+    const o = {};
+    for (const m of blk.matchAll(/([A-Z]+)\s*:\s*(\d+)/g)) o[m[1]] = +m[2];
+    return o;
+  };
+
+  return { G: read(block("General")), S: read(block("Specific")) };
+}
+
 /* ───────────────────────────────────────── */
 
 function flat(blocks, out = []) {
@@ -234,11 +303,48 @@ for (const c of CHECKS) {
   console.log(`  ${hit ? "○" : "✗"}  ${c.at.padEnd(14)} ${c.what}`);
 }
 
+/* ── 표 3 — 원문 · 코드 양쪽과 맞는지 ─────── */
+
+console.log("");
+console.log("  표 3 — 필기시험의 최소 문제 수");
+
+const { G, S } = examData();
+const t3 = [];
+
+/* 표 1A 에도 같은 종목 이름이 있다. 표 3 자리부터 잘라 그 안에서만 본다 */
+const at3 = e01.indexOf(TABLE3_HEAD);
+const table3 = at3 < 0 ? "" : e01.slice(at3, at3 + 1200);
+
+if (at3 < 0) {
+  t3.push({ at: "E01 표 3", what: "표 3 을 원문에서 못 찾았다", why: "제목이 바뀌었거나 원본이 다르다" });
+}
+
+for (const [k, [gen, spe]] of Object.entries(TABLE3)) {
+  const inE01 = TABLE3_ROW[k].test(table3);
+  const run = G[k] !== undefined || S[k] !== undefined;
+  const inCode = !run || (G[k] === gen && S[k] === spe);
+
+  const mark = !inE01 ? "✗" : !inCode ? "✗" : "○";
+  const what = !run
+    ? "시행 안 함"
+    : `${G[k]} / ${S[k]}`;
+
+  console.log(
+    `  ${mark}  ${k.padEnd(6)} 원문 ${String(gen).padStart(2)} / ${String(spe).padStart(2)}` +
+    `   코드 ${what}`
+  );
+
+  if (!inE01) t3.push({ at: `E01 표 3`, what: `${k} 줄을 원문에서 못 찾았다`, why: "표 3 이 개정됐거나 잣대가 낡았다" });
+  else if (!inCode) t3.push({ at: `E01 표 3`, what: `${k} — 원문 ${gen}/${spe} 인데 코드는 ${G[k]}/${S[k]}`, why: "src/ExamData.jsx 를 표 3 에 맞춰야 한다" });
+}
+
+bad.push(...t3);
+
 console.log("");
 console.log("=".repeat(74));
 
 if (!bad.length) {
-  console.log(`잣대 ${CHECKS.length}가지 — 어긋난 곳이 없다`);
+  console.log(`잣대 ${CHECKS.length}가지 + 표 3 ${Object.keys(TABLE3).length}종목 — 어긋난 곳이 없다`);
 } else {
   console.log(`잣대 ${CHECKS.length}가지 중 ${bad.length}가지가 어긋난다`);
   console.log("");
