@@ -724,21 +724,21 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
   });
 
   s.addText("9종", {
-    x: 0.62, y: 5.9, w: 3.2, h: 0.6, isTextBox: true, margin: 0,
-    fontFace: F, fontSize: 40, bold: true, color: RED,
+    x: 0.62, y: 5.86, w: 3.2, h: 0.64, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 34, bold: true, color: RED,
   });
   s.addText("서식 번호가 붙어 있고\n늘 최신입니다", {
     x: 0.62, y: 6.5, w: 3.2, h: 0.6, isTextBox: true, margin: 0,
     fontFace: F, fontSize: 13, color: MUT, lineSpacing: 18,
   });
 
-  s.addText("바깥 기관 자격으로 면제받는 사람을 적는 칸을\nE02-01 에 새로 냈습니다 (E01 7.3.5 · 7.3.7)", {
+  s.addText("면제받는 사람을 적는 칸을\nE02-01 에 새로 냈습니다", {
     x: 10.1, y: 2.2, w: 3.1, h: 0.9, isTextBox: true, margin: 0,
     fontFace: F, fontSize: 13, color: INK, lineSpacing: 19,
   });
 
   page(s);
-  s.addNotes("서식은 사람이 손으로 채우는 것이지만, 양식을 찾아 헤맬 일은 없앴습니다.");
+  s.addNotes("서식은 사람이 손으로 채우는 것이지만, 양식을 찾아 헤맬 일은 없앴습니다. 면제 칸의 근거는 E01 7.3.5 와 7.3.7 입니다.");
 }
 
 /* ══════════════════════════════════════════
@@ -1806,8 +1806,8 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
     fontFace: F, fontSize: 15, bold: true, color: BLU,
   });
   s.addText("0 원", {
-    x: 8.82, y: 5.42, w: 4.1, h: 0.6, isTextBox: true, margin: 0,
-    fontFace: F, fontSize: 36, bold: true, color: BLU,
+    x: 8.82, y: 5.42, w: 4.1, h: 0.56, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 30, bold: true, color: BLU,
   });
   s.addText("GitHub Pages + 구글 시트\n둘 다 회사가 이미 쓰는 것", {
     x: 8.82, y: 6.0, w: 4.1, h: 0.5, isTextBox: true, margin: 0,
@@ -1854,7 +1854,7 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
       fontFace: F, fontSize: 12.5, color: MUT, align: "center", lineSpacing: 17,
     });
     s.addText(e[1], {
-      x: x + 0.15, y: 5.15, w: cw - 0.3, h: 0.6, isTextBox: true, margin: 0,
+      x: x + 0.15, y: 5.12, w: cw - 0.3, h: 0.72, isTextBox: true, margin: 0,
       fontFace: F, fontSize: 17, bold: true, color: BLU,
       align: "center", valign: "middle",
     });
