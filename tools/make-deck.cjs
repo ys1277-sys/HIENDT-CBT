@@ -848,181 +848,11 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
 }
 
 /* ══════════════════════════════════════════
-   만든 방법 ①-2  왜 VS Code 였나
-   ══════════════════════════════════════════ */
-{
-  const s = p.addSlide();
-  banner(s, "만든 방법 ①-2  왜 VS Code 였나");
-  sub(s, "고를 것이 여럿이었는데 이걸 골랐습니다. 까닭이 있습니다");
-
-  const WHY = [
-    ["돈이 안 든다",
-     "마이크로소프트가 무료로 내놓은 것입니다. 회사가 사 줄 것을\n" +
-     "기다릴 필요가 없었습니다. 집에서도 같은 것을 씁니다."],
-    ["회사 PC 에 그냥 깔린다",
-     "관리자 권한 없이도 깔립니다. 전산에 요청하고 결재를 올릴\n" +
-     "일이 없었습니다."],
-    ["한글이 안 깨진다",
-     "문항도 규정도 우리말입니다. 글자가 깨지면 옮기는 일 자체가\n" +
-     "안 됩니다. 이건 생각보다 중요한 조건이었습니다."],
-    ["쓰는 사람이 많다",
-     "막히면 찾아볼 데가 많습니다. 다음 사람이 이어받을 때도\n" +
-     "낯선 물건이 아닙니다."],
-    ["한 창에서 다 된다",
-     "글 고치기 · 명령 넣기 · 바뀐 데 보기가 한 창에 있습니다.\n" +
-     "프로그램을 여럿 띄워 오갈 일이 없었습니다."],
-  ];
-
-  WHY.forEach((w, i) => {
-    const y = 1.62 + i * 0.9;
-    s.addShape(p.ShapeType.rect, {
-      x: 0.62, y, w: 7.9, h: 0.8,
-      fill: { color: "FFFFFF" }, line: { color: LINE, width: 1 },
-    });
-    s.addShape(p.ShapeType.ellipse, {
-      x: 0.88, y: y + 0.19, w: 0.42, h: 0.42, fill: { color: BLU },
-    });
-    s.addText(String(i + 1), {
-      x: 0.88, y: y + 0.19, w: 0.42, h: 0.42, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 14, bold: true, color: "FFFFFF",
-      align: "center", valign: "middle",
-    });
-    s.addText(w[0], {
-      x: 1.44, y: y + 0.08, w: 6.8, h: 0.3, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 15.5, bold: true, color: INK,
-    });
-    s.addText(w[1], {
-      x: 1.44, y: y + 0.38, w: 6.8, h: 0.4, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 11, color: MUT, lineSpacing: 14,
-    });
-  });
-
-  /* 무엇을 안 샀나 — 이 발표에서 임원분들이 가장 궁금해하실 대목 */
-  s.addShape(p.ShapeType.rect, {
-    x: 8.78, y: 1.62, w: 4.39, h: 4.28,
-    fill: { color: "F2FBF5" }, line: { color: OK, width: 1 },
-  });
-  s.addText("그리고 무엇을 안 샀나", {
-    x: 9.04, y: 1.82, w: 3.9, h: 0.34, isTextBox: true, margin: 0,
-    fontFace: F, fontSize: 16, bold: true, color: OK,
-  });
-
-  const NOT = [
-    ["프로그램 값", "VS Code · 쓰는 도구 전부 무료"],
-    ["서버", "GitHub Pages — 회사가 이미 씀"],
-    ["데이터베이스", "구글 시트 — 회사가 이미 씀"],
-    ["외주비", "직접 짰습니다"],
-    ["달마다 나가는 돈", "없습니다"],
-  ];
-  NOT.forEach((t, i) => {
-    const y = 2.3 + i * 0.62;
-    s.addText(t[0], {
-      x: 9.04, y, w: 1.7, h: 0.28, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 12.5, bold: true, color: INK,
-    });
-    s.addText("0 원", {
-      x: 10.8, y, w: 0.8, h: 0.28, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 13, bold: true, color: OK, align: "right",
-    });
-    s.addText(t[1], {
-      x: 9.04, y: y + 0.28, w: 3.9, h: 0.26, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 10.5, color: MUT,
-    });
-  });
-
-  s.addText("들어간 것은 3주라는 시간뿐입니다.", {
-    x: 8.78, y: 6.02, w: 4.39, h: 0.4, isTextBox: true, margin: 0,
-    fontFace: F, fontSize: 14, bold: true, color: OK,
-    align: "center", valign: "middle",
-  });
-
-  s.addText("고르는 데 오래 걸리지 않았습니다. 회사 컴퓨터에서 결재 없이 바로 시작할 수 있는 것이 이것뿐이었습니다.", {
-    x: 0.62, y: 6.62, w: 12.55, h: 0.35, isTextBox: true, margin: 0,
-    fontFace: F, fontSize: 13.5, bold: true, color: BLU,
-  });
-
-  page(s);
-  s.addNotes("무료라는 것이 가장 컸습니다. 결재를 올리고 기다렸으면 3주 안에 못 끝냈을 것입니다.");
-}
-
-/* ══════════════════════════════════════════
-   만든 방법 ①-3  폴더가 이렇게 나뉘어 있다
-   ══════════════════════════════════════════ */
-{
-  const s = p.addSlide();
-  banner(s, "만든 방법 ①-3  폴더가 이렇게 나뉘어 있다");
-  sub(s, "파일 454개를 다섯 자리로 갈라 두었습니다. 무엇을 고칠지에 따라 열 곳이 정해집니다");
-
-  /*
-   * 실제로 세어 온 값이다 (git ls-files + 줄 수).
-   * 「많다」가 아니라 「어디에 무엇이 있다」를 보여 주려는 것이다.
-   */
-  const DIR = [
-    ["src", "37", "16,396", "시험 화면 · 채점 · 자격 이력 · 인쇄",
-     "여기만 고치면 화면이 바뀝니다"],
-    ["tools", "137", "19,970", "만들면서 쓴 도구",
-     "시험지를 옮기고 틀린 데를 찾는 것들"],
-    ["public/data", "234", "21,227", "문제은행과 검사절차서",
-     "문항 1,369개와 절차서 15종이 여기 있습니다"],
-    ["docs", "31", "2,642", "규칙 문서와 화면 그림",
-     "E02 · E03 원본이 여기 있습니다"],
-    ["held", "1", "229", "아직 못 채운 문항",
-     "Level Ⅲ 승인이 있어야 채울 수 있는 것들"],
-  ];
-
-  const y0 = 1.66, rh = 0.86;
-  DIR.forEach((d, i) => {
-    const y = y0 + i * rh;
-    s.addShape(p.ShapeType.rect, {
-      x: 0.62, y, w: 12.55, h: 0.78,
-      fill: { color: i % 2 ? "FFFFFF" : "F9F9F9" }, line: { color: LINE, width: 1 },
-    });
-    s.addText(d[0], {
-      x: 0.86, y: y + 0.1, w: 2.4, h: 0.32, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 16, bold: true, color: BLU,
-    });
-    s.addText(d[1] + "개 · " + d[2] + "줄", {
-      x: 0.86, y: y + 0.44, w: 2.4, h: 0.26, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 11, color: MUT,
-    });
-    s.addText(d[3], {
-      x: 3.5, y: y + 0.1, w: 4.6, h: 0.3, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 14, bold: true, color: INK,
-    });
-    s.addText(d[4], {
-      x: 3.5, y: y + 0.42, w: 9.4, h: 0.28, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 11.5, color: MUT,
-    });
-  });
-
-  s.addShape(p.ShapeType.rect, {
-    x: 0.62, y: 6.06, w: 12.55, h: 0.62,
-    fill: { color: "F2F8FD" }, line: { color: BLU, width: 1 },
-  });
-  s.addText("모두  파일 454개 · 60,464줄", {
-    x: 0.9, y: 6.06, w: 4.0, h: 0.62, isTextBox: true, margin: 0,
-    fontFace: F, fontSize: 15, bold: true, color: BLU, valign: "middle",
-  });
-  s.addText("문제 하나를 고치려면 public/data, 화면을 고치려면 src, 규정을 고치려면 docs. 헤맬 일이 없습니다.", {
-    x: 4.9, y: 6.06, w: 8.0, h: 0.62, isTextBox: true, margin: 0,
-    fontFace: F, fontSize: 13, color: INK, valign: "middle",
-  });
-
-  s.addText("도구가 소스보다 많습니다. 옮기고 맞대어 보는 일이 화면을 만드는 일보다 컸다는 뜻입니다.", {
-    x: 0.62, y: 6.86, w: 12.55, h: 0.35, isTextBox: true, margin: 0,
-    fontFace: F, fontSize: 13.5, bold: true, color: BLU,
-  });
-
-  page(s);
-  s.addNotes("도구 137개가 tools 에 있습니다. 이게 이 일에서 가장 손이 많이 간 곳입니다.");
-}
-
-/* ══════════════════════════════════════════
    만든 방법 ①-2  화면은 이렇게 생겼습니다
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
-  banner(s, "만든 방법 ①-4  VS Code 화면은 이렇게 생겼다");
+  banner(s, "만든 방법 ①-2  VS Code 화면은 이렇게 생겼다");
   sub(s, "VS Code 라는 프로그램입니다. 창이 세 칸으로 나뉘고, 옆에 시험 화면을 띄워 둡니다");
 
   shot(s, "17-vscode.png", 0.62, 1.58, 7.5, 4.95);
@@ -1068,94 +898,11 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
 }
 
 /* ══════════════════════════════════════════
-   만든 방법 ①-3  VS Code 를 이렇게 쓴다
-   ══════════════════════════════════════════ */
-{
-  const s = p.addSlide();
-  banner(s, "만든 방법 ①-5  VS Code 를 이렇게 쓴다");
-  sub(s, "다섯 가지만 쓸 줄 알면 됩니다. 나머지는 쓰면서 익혔습니다");
-
-  /*
-   * 「썼습니다」로 끝내면 무엇을 했는지가 안 보인다.
-   * 실제로 손이 어떻게 움직였는지를 그대로 적는다.
-   * 자판까지 적어 두면 발표 뒤에 따라 해 볼 수 있다.
-   */
-  const HOW = [
-    ["폴더를 통째로 연다",
-     "파일 하나가 아니라 프로그램이 든 폴더를 통째로 엽니다.\n" +
-     "그래야 왼쪽에 452개가 다 펼쳐지고 서로 오갈 수 있습니다.",
-     "파일 → 폴더 열기"],
-
-    ["이름 몇 글자로 파일을 찾는다",
-     "452개를 눈으로 뒤지지 않습니다. 「hist」만 쳐도\n" +
-     "history.js 가 바로 뜹니다. 폴더를 헤맬 일이 없습니다.",
-     "Ctrl + P"],
-
-    ["452개에서 낱말을 한 번에 찾는다",
-     "「Level 2」가 어디어디 쓰였는지 한 번에 훑고,\n" +
-     "「Level Ⅱ」로 한꺼번에 바꿉니다. 빠뜨리는 곳이 없습니다.",
-     "Ctrl + Shift + F"],
-
-    ["아래에서 검사 도구를 돌린다",
-     "창을 옮기지 않습니다. 화면 아래가 열리고 거기에\n" +
-     "명령을 넣으면 결과가 그 자리에 뜹니다.",
-     "Ctrl + `"],
-
-    ["무엇이 바뀌었는지 줄 단위로 본다",
-     "고친 자리가 초록·빨강으로 표시됩니다. 아니다 싶으면\n" +
-     "그 줄만 되돌립니다. 파일을 통째로 버리지 않습니다.",
-     "왼쪽 「소스 제어」"],
-  ];
-
-  HOW.forEach((h, i) => {
-    const y = 1.6 + i * 1.04;
-    s.addShape(p.ShapeType.rect, {
-      x: 0.62, y, w: 12.55, h: 0.92,
-      fill: { color: "FFFFFF" }, line: { color: LINE, width: 1 },
-    });
-    s.addShape(p.ShapeType.ellipse, {
-      x: 0.9, y: y + 0.24, w: 0.44, h: 0.44, fill: { color: BLU },
-    });
-    s.addText(String(i + 1), {
-      x: 0.9, y: y + 0.24, w: 0.44, h: 0.44, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 15, bold: true, color: "FFFFFF",
-      align: "center", valign: "middle",
-    });
-    s.addText(h[0], {
-      x: 1.48, y: y + 0.1, w: 4.5, h: 0.34, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 16.5, bold: true, color: INK,
-    });
-    s.addText(h[1], {
-      x: 1.48, y: y + 0.42, w: 8.3, h: 0.44, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 12, color: MUT, lineSpacing: 16,
-    });
-    /* 자판 */
-    s.addShape(p.ShapeType.rect, {
-      x: 10.05, y: y + 0.24, w: 2.85, h: 0.44,
-      fill: { color: "F2F8FD" }, line: { color: BLU, width: 1 },
-    });
-    s.addText(h[2], {
-      x: 10.05, y: y + 0.24, w: 2.85, h: 0.44, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 12.5, bold: true, color: BLU,
-      align: "center", valign: "middle",
-    });
-  });
-
-  s.addText("배우는 데 며칠 걸리지 않았습니다. 어려운 것은 프로그램이 아니라 우리 규정을 정확히 옮기는 일이었습니다.", {
-    x: 0.62, y: 6.86, w: 12.55, h: 0.35, isTextBox: true, margin: 0,
-    fontFace: F, fontSize: 13.5, bold: true, color: BLU,
-  });
-
-  page(s);
-  s.addNotes("자판까지 적어 두었으니 관심 있는 분은 따라 해 보셔도 됩니다. VS Code 는 무료로 내려받아 쓸 수 있습니다.");
-}
-
-/* ══════════════════════════════════════════
    만든 방법 ①-4  하루를 따라가 보면
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
-  banner(s, "만든 방법 ①-6  하루를 따라가 보면");
+  banner(s, "만든 방법 ①-3  하루를 따라가 보면");
   sub(s, "「시험 화면에 시계를 달았다」 한 줄이 실제로는 이 여섯 걸음이었습니다");
 
   /*
@@ -1232,137 +979,11 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
 }
 
 /* ══════════════════════════════════════════
-   만든 방법 ①-5  검사 도구가 잡아내는 것
-   ══════════════════════════════════════════ */
-{
-  const s = p.addSlide();
-  banner(s, "만든 방법 ①-7  검사 도구가 잡아내는 것");
-  sub(s, "고칠 때마다 사람이 다 볼 수 없어, 확인하는 일 자체를 프로그램으로 만들었습니다");
-
-  shot(s, "17-vscode.png", 0.62, 1.58, 7.3, 4.6);
-  s.addText("아래 칸에 명령을 넣으면 결과가 그 자리에 뜹니다. 창을 옮기지 않습니다.", {
-    x: 0.62, y: 6.24, w: 7.3, h: 0.3, isTextBox: true, margin: 0,
-    fontFace: F, fontSize: 11.5, color: MUT,
-  });
-
-  const CHK = [
-    ["채점이 맞는지", "은행 24개 1,369문항을 다 풀어 만점이 100점인지"],
-    ["보기를 섞어도", "219,200번 섞어 채점이 어긋나지 않는지"],
-    ["겹친 보기", "한 문항에 같은 보기가 두 번 들어갔는지"],
-    ["날짜 계산", "자격·시력 만료 116가지를 미리 맞춰 둔 답과"],
-    ["규정과 같은지", "절차서 원본의 숫자와 프로그램의 값이 같은지"],
-    ["철자 · 받침", "규칙 문서 두 건의 우리말"],
-    ["종이에 넘치는지", "표가 쪽을 어색하게 넘어가지 않는지"],
-    ["겹치는 조항", "같은 말을 두 군데 적어 두지 않았는지"],
-  ];
-
-  CHK.forEach((c, i) => {
-    const y = 1.58 + i * 0.63;
-    s.addShape(p.ShapeType.rect, {
-      x: 8.18, y, w: 4.99, h: 0.55,
-      fill: { color: i % 2 ? "FFFFFF" : "F9F9F9" }, line: { color: LINE, width: 1 },
-    });
-    s.addText(c[0], {
-      x: 8.36, y: y + 0.04, w: 2.0, h: 0.24, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 12.5, bold: true, color: RED,
-    });
-    s.addText(c[1], {
-      x: 8.36, y: y + 0.28, w: 4.6, h: 0.24, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 10.5, color: MUT,
-    });
-  });
-
-  s.addShape(p.ShapeType.rect, {
-    x: 8.18, y: 6.62, w: 4.99, h: 0.6,
-    fill: { color: "F2FBF5" }, line: { color: OK, width: 1 },
-  });
-  s.addText("열다섯 가지 · 명령 한 줄", {
-    x: 8.18, y: 6.62, w: 4.99, h: 0.6, isTextBox: true, margin: 0,
-    fontFace: F, fontSize: 14, bold: true, color: OK,
-    align: "center", valign: "middle",
-  });
-
-  s.addText("사람이 놓친 것을 프로그램이 잡습니다. TOFD·PAUT 문항 수가 어긋난 것도 이렇게 드러났습니다.", {
-    x: 0.62, y: 6.62, w: 7.3, h: 0.6, isTextBox: true, margin: 0,
-    fontFace: F, fontSize: 13, bold: true, color: BLU, valign: "middle",
-  });
-
-  page(s);
-  s.addNotes("왼쪽 그림의 아래 칸이 실제로 검사를 돌린 결과입니다. 「전체 통과」가 뜨면 올려도 됩니다.");
-}
-
-/* ══════════════════════════════════════════
-   만든 방법 ①-6  틀리면 어디서 걸리나
-   ══════════════════════════════════════════ */
-{
-  const s = p.addSlide();
-  banner(s, "만든 방법 ①-8  틀리면 어디서 걸리나");
-  sub(s, "그물을 세 겹으로 쳤습니다. 앞에서 놓쳐도 뒤에서 걸립니다");
-
-  const NET = [
-    ["첫째 그물", "고치는 그 순간", BLU,
-     ["따옴표를 안 닫으면 글자 색이 그 자리에서 바뀝니다",
-      "괄호 짝이 안 맞으면 빨간 줄이 그어집니다",
-      "이름을 잘못 적으면 바로 표시됩니다"],
-     "VS Code 가"],
-    ["둘째 그물", "올리기 전", WARN,
-     ["채점이 맞는지 은행 24개를 다 풀어 봅니다",
-      "규정 원본의 숫자와 프로그램 값을 맞대어 봅니다",
-      "종이에 넘치는지, 철자가 틀렸는지까지"],
-     "검사 도구 15가지가"],
-    ["셋째 그물", "올린 뒤", OK,
-     ["시험 화면을 직접 열어 눈으로 봅니다",
-      "인쇄를 걸어 종이에 어떻게 나오는지 봅니다",
-      "이상하면 그 덩이만 되돌립니다"],
-     "사람이"],
-  ];
-
-  const cw = (12.55 - 0.4 * 2) / 3;
-  NET.forEach((n, i) => {
-    const x = 0.62 + i * (cw + 0.4);
-    s.addShape(p.ShapeType.rect, {
-      x, y: 1.66, w: cw, h: 4.5,
-      fill: { color: "FFFFFF" }, line: { color: n[2], width: 1.25 },
-    });
-    s.addText(n[0], {
-      x: x + 0.2, y: 1.86, w: cw - 0.4, h: 0.3, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 13, bold: true, color: n[2],
-    });
-    s.addText(n[1], {
-      x: x + 0.2, y: 2.16, w: cw - 0.4, h: 0.44, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 22, bold: true, color: INK,
-    });
-    s.addText(n[4], {
-      x: x + 0.2, y: 2.64, w: cw - 0.4, h: 0.3, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 12.5, bold: true, color: n[2],
-    });
-    n[3].forEach((t, k) => {
-      s.addText("·  " + t, {
-        x: x + 0.2, y: 3.06 + k * 0.62, w: cw - 0.4, h: 0.56, isTextBox: true, margin: 0,
-        fontFace: F, fontSize: 11.5, color: MUT, lineSpacing: 15,
-      });
-    });
-  });
-
-  s.addShape(p.ShapeType.rect, {
-    x: 0.62, y: 6.3, w: 12.55, h: 0.66,
-    fill: { color: "FFF2F2" }, line: { color: RED, width: 1 },
-  });
-  s.addText("그래도 놓친 것이 있었습니다 — 규정과 어긋나 있던 셋은 사람이 규정을 다시 읽다가 찾았습니다.", {
-    x: 0.95, y: 6.3, w: 12.0, h: 0.66, isTextBox: true, margin: 0,
-    fontFace: F, fontSize: 14, bold: true, color: RED, valign: "middle",
-  });
-
-  page(s);
-  s.addNotes("그물이 촘촘할수록 겁내지 않고 고칠 수 있습니다. 되돌릴 수 있다는 것이 가장 큽니다.");
-}
-
-/* ══════════════════════════════════════════
    만든 방법 ①-4  기록이 남아 있습니다
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
-  banner(s, "만든 방법 ①-9  고친 기록이 남아 있다");
+  banner(s, "만든 방법 ①-4  고친 기록이 남아 있다");
   sub(s, "고칠 때마다 무엇을 왜 고쳤는지 적어 두었습니다. 217덩이가 남아 있습니다");
 
   /*
@@ -1445,7 +1066,7 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
-  banner(s, "만든 방법 ①-10  한 벌을 옮긴다는 것");
+  banner(s, "만든 방법 ①-5  한 벌을 옮긴다는 것");
   sub(s, "앞에서 「시험지를 옮겼습니다」라고 한 줄로 지나갔는데, 실제로는 이런 일이었습니다");
 
   /*
@@ -2172,6 +1793,348 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
   });
   page(s);
   s.addNotes("질문 받겠습니다.");
+}
+
+/* ══════════════════════════════════════════
+   부록 표지
+   ══════════════════════════════════════════ */
+{
+  const s = p.addSlide();
+
+  s.addText("부 록", {
+    x: 0.5, y: 2.5, w: 12.78, h: 1.2, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 54, bold: true, color: RED,
+    align: "center", valign: "middle",
+  });
+  s.addText("만든 방법을 더 알고 싶으신 분을 위해", {
+    x: 0.5, y: 3.8, w: 12.78, h: 0.4, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 18, bold: true, color: BLU, align: "center",
+  });
+  s.addText("왜 VS Code 였나  ·  폴더가 이렇게 나뉘어 있다  ·  VS Code 를 이렇게 쓴다  ·  틀리면 어디서 걸리나", {
+    x: 0.5, y: 4.35, w: 12.78, h: 0.4, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 14, color: MUT, align: "center",
+  });
+
+  s.addNotes("시간이 넉넉하면 이어서, 짧으면 여기서 마치고 질문 받으시면 됩니다.");
+}
+
+/* ══════════════════════════════════════════
+   만든 방법 ①-2  왜 VS Code 였나
+   ══════════════════════════════════════════ */
+{
+  const s = p.addSlide();
+  banner(s, "부록 ①  왜 VS Code 였나");
+  sub(s, "고를 것이 여럿이었는데 이걸 골랐습니다. 까닭이 있습니다");
+
+  const WHY = [
+    ["돈이 안 든다",
+     "마이크로소프트가 무료로 내놓은 것입니다. 회사가 사 줄 것을\n" +
+     "기다릴 필요가 없었습니다. 집에서도 같은 것을 씁니다."],
+    ["회사 PC 에 그냥 깔린다",
+     "관리자 권한 없이도 깔립니다. 전산에 요청하고 결재를 올릴\n" +
+     "일이 없었습니다."],
+    ["한글이 안 깨진다",
+     "문항도 규정도 우리말입니다. 글자가 깨지면 옮기는 일 자체가\n" +
+     "안 됩니다. 이건 생각보다 중요한 조건이었습니다."],
+    ["쓰는 사람이 많다",
+     "막히면 찾아볼 데가 많습니다. 다음 사람이 이어받을 때도\n" +
+     "낯선 물건이 아닙니다."],
+    ["한 창에서 다 된다",
+     "글 고치기 · 명령 넣기 · 바뀐 데 보기가 한 창에 있습니다.\n" +
+     "프로그램을 여럿 띄워 오갈 일이 없었습니다."],
+  ];
+
+  WHY.forEach((w, i) => {
+    const y = 1.62 + i * 0.9;
+    s.addShape(p.ShapeType.rect, {
+      x: 0.62, y, w: 7.9, h: 0.8,
+      fill: { color: "FFFFFF" }, line: { color: LINE, width: 1 },
+    });
+    s.addShape(p.ShapeType.ellipse, {
+      x: 0.88, y: y + 0.19, w: 0.42, h: 0.42, fill: { color: BLU },
+    });
+    s.addText(String(i + 1), {
+      x: 0.88, y: y + 0.19, w: 0.42, h: 0.42, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 14, bold: true, color: "FFFFFF",
+      align: "center", valign: "middle",
+    });
+    s.addText(w[0], {
+      x: 1.44, y: y + 0.08, w: 6.8, h: 0.3, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 15.5, bold: true, color: INK,
+    });
+    s.addText(w[1], {
+      x: 1.44, y: y + 0.38, w: 6.8, h: 0.4, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 11, color: MUT, lineSpacing: 14,
+    });
+  });
+
+  /* 무엇을 안 샀나 — 이 발표에서 임원분들이 가장 궁금해하실 대목 */
+  s.addShape(p.ShapeType.rect, {
+    x: 8.78, y: 1.62, w: 4.39, h: 4.28,
+    fill: { color: "F2FBF5" }, line: { color: OK, width: 1 },
+  });
+  s.addText("그리고 무엇을 안 샀나", {
+    x: 9.04, y: 1.82, w: 3.9, h: 0.34, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 16, bold: true, color: OK,
+  });
+
+  const NOT = [
+    ["프로그램 값", "VS Code · 쓰는 도구 전부 무료"],
+    ["서버", "GitHub Pages — 회사가 이미 씀"],
+    ["데이터베이스", "구글 시트 — 회사가 이미 씀"],
+    ["외주비", "직접 짰습니다"],
+    ["달마다 나가는 돈", "없습니다"],
+  ];
+  NOT.forEach((t, i) => {
+    const y = 2.3 + i * 0.62;
+    s.addText(t[0], {
+      x: 9.04, y, w: 1.7, h: 0.28, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 12.5, bold: true, color: INK,
+    });
+    s.addText("0 원", {
+      x: 10.8, y, w: 0.8, h: 0.28, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 13, bold: true, color: OK, align: "right",
+    });
+    s.addText(t[1], {
+      x: 9.04, y: y + 0.28, w: 3.9, h: 0.26, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 10.5, color: MUT,
+    });
+  });
+
+  s.addText("들어간 것은 3주라는 시간뿐입니다.", {
+    x: 8.78, y: 6.02, w: 4.39, h: 0.4, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 14, bold: true, color: OK,
+    align: "center", valign: "middle",
+  });
+
+  s.addText("고르는 데 오래 걸리지 않았습니다. 회사 컴퓨터에서 결재 없이 바로 시작할 수 있는 것이 이것뿐이었습니다.", {
+    x: 0.62, y: 6.62, w: 12.55, h: 0.35, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 13.5, bold: true, color: BLU,
+  });
+
+  page(s);
+  s.addNotes("무료라는 것이 가장 컸습니다. 결재를 올리고 기다렸으면 3주 안에 못 끝냈을 것입니다.");
+}
+
+/* ══════════════════════════════════════════
+   만든 방법 ①-3  폴더가 이렇게 나뉘어 있다
+   ══════════════════════════════════════════ */
+{
+  const s = p.addSlide();
+  banner(s, "부록 ②  폴더가 이렇게 나뉘어 있다");
+  sub(s, "파일 454개를 다섯 자리로 갈라 두었습니다. 무엇을 고칠지에 따라 열 곳이 정해집니다");
+
+  /*
+   * 실제로 세어 온 값이다 (git ls-files + 줄 수).
+   * 「많다」가 아니라 「어디에 무엇이 있다」를 보여 주려는 것이다.
+   */
+  const DIR = [
+    ["src", "37", "16,396", "시험 화면 · 채점 · 자격 이력 · 인쇄",
+     "여기만 고치면 화면이 바뀝니다"],
+    ["tools", "137", "19,970", "만들면서 쓴 도구",
+     "시험지를 옮기고 틀린 데를 찾는 것들"],
+    ["public/data", "234", "21,227", "문제은행과 검사절차서",
+     "문항 1,369개와 절차서 15종이 여기 있습니다"],
+    ["docs", "31", "2,642", "규칙 문서와 화면 그림",
+     "E02 · E03 원본이 여기 있습니다"],
+    ["held", "1", "229", "아직 못 채운 문항",
+     "Level Ⅲ 승인이 있어야 채울 수 있는 것들"],
+  ];
+
+  const y0 = 1.66, rh = 0.86;
+  DIR.forEach((d, i) => {
+    const y = y0 + i * rh;
+    s.addShape(p.ShapeType.rect, {
+      x: 0.62, y, w: 12.55, h: 0.78,
+      fill: { color: i % 2 ? "FFFFFF" : "F9F9F9" }, line: { color: LINE, width: 1 },
+    });
+    s.addText(d[0], {
+      x: 0.86, y: y + 0.1, w: 2.4, h: 0.32, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 16, bold: true, color: BLU,
+    });
+    s.addText(d[1] + "개 · " + d[2] + "줄", {
+      x: 0.86, y: y + 0.44, w: 2.4, h: 0.26, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 11, color: MUT,
+    });
+    s.addText(d[3], {
+      x: 3.5, y: y + 0.1, w: 4.6, h: 0.3, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 14, bold: true, color: INK,
+    });
+    s.addText(d[4], {
+      x: 3.5, y: y + 0.42, w: 9.4, h: 0.28, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 11.5, color: MUT,
+    });
+  });
+
+  s.addShape(p.ShapeType.rect, {
+    x: 0.62, y: 6.06, w: 12.55, h: 0.62,
+    fill: { color: "F2F8FD" }, line: { color: BLU, width: 1 },
+  });
+  s.addText("모두  파일 454개 · 60,464줄", {
+    x: 0.9, y: 6.06, w: 4.0, h: 0.62, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 15, bold: true, color: BLU, valign: "middle",
+  });
+  s.addText("문제 하나를 고치려면 public/data, 화면을 고치려면 src, 규정을 고치려면 docs. 헤맬 일이 없습니다.", {
+    x: 4.9, y: 6.06, w: 8.0, h: 0.62, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 13, color: INK, valign: "middle",
+  });
+
+  s.addText("도구가 소스보다 많습니다. 옮기고 맞대어 보는 일이 화면을 만드는 일보다 컸다는 뜻입니다.", {
+    x: 0.62, y: 6.86, w: 12.55, h: 0.35, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 13.5, bold: true, color: BLU,
+  });
+
+  page(s);
+  s.addNotes("도구 137개가 tools 에 있습니다. 이게 이 일에서 가장 손이 많이 간 곳입니다.");
+}
+
+/* ══════════════════════════════════════════
+   만든 방법 ①-3  VS Code 를 이렇게 쓴다
+   ══════════════════════════════════════════ */
+{
+  const s = p.addSlide();
+  banner(s, "부록 ③  VS Code 를 이렇게 쓴다");
+  sub(s, "다섯 가지만 쓸 줄 알면 됩니다. 나머지는 쓰면서 익혔습니다");
+
+  /*
+   * 「썼습니다」로 끝내면 무엇을 했는지가 안 보인다.
+   * 실제로 손이 어떻게 움직였는지를 그대로 적는다.
+   * 자판까지 적어 두면 발표 뒤에 따라 해 볼 수 있다.
+   */
+  const HOW = [
+    ["폴더를 통째로 연다",
+     "파일 하나가 아니라 프로그램이 든 폴더를 통째로 엽니다.\n" +
+     "그래야 왼쪽에 452개가 다 펼쳐지고 서로 오갈 수 있습니다.",
+     "파일 → 폴더 열기"],
+
+    ["이름 몇 글자로 파일을 찾는다",
+     "452개를 눈으로 뒤지지 않습니다. 「hist」만 쳐도\n" +
+     "history.js 가 바로 뜹니다. 폴더를 헤맬 일이 없습니다.",
+     "Ctrl + P"],
+
+    ["452개에서 낱말을 한 번에 찾는다",
+     "「Level 2」가 어디어디 쓰였는지 한 번에 훑고,\n" +
+     "「Level Ⅱ」로 한꺼번에 바꿉니다. 빠뜨리는 곳이 없습니다.",
+     "Ctrl + Shift + F"],
+
+    ["아래에서 검사 도구를 돌린다",
+     "창을 옮기지 않습니다. 화면 아래가 열리고 거기에\n" +
+     "명령을 넣으면 결과가 그 자리에 뜹니다.",
+     "Ctrl + `"],
+
+    ["무엇이 바뀌었는지 줄 단위로 본다",
+     "고친 자리가 초록·빨강으로 표시됩니다. 아니다 싶으면\n" +
+     "그 줄만 되돌립니다. 파일을 통째로 버리지 않습니다.",
+     "왼쪽 「소스 제어」"],
+  ];
+
+  HOW.forEach((h, i) => {
+    const y = 1.6 + i * 1.04;
+    s.addShape(p.ShapeType.rect, {
+      x: 0.62, y, w: 12.55, h: 0.92,
+      fill: { color: "FFFFFF" }, line: { color: LINE, width: 1 },
+    });
+    s.addShape(p.ShapeType.ellipse, {
+      x: 0.9, y: y + 0.24, w: 0.44, h: 0.44, fill: { color: BLU },
+    });
+    s.addText(String(i + 1), {
+      x: 0.9, y: y + 0.24, w: 0.44, h: 0.44, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 15, bold: true, color: "FFFFFF",
+      align: "center", valign: "middle",
+    });
+    s.addText(h[0], {
+      x: 1.48, y: y + 0.1, w: 4.5, h: 0.34, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 16.5, bold: true, color: INK,
+    });
+    s.addText(h[1], {
+      x: 1.48, y: y + 0.42, w: 8.3, h: 0.44, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 12, color: MUT, lineSpacing: 16,
+    });
+    /* 자판 */
+    s.addShape(p.ShapeType.rect, {
+      x: 10.05, y: y + 0.24, w: 2.85, h: 0.44,
+      fill: { color: "F2F8FD" }, line: { color: BLU, width: 1 },
+    });
+    s.addText(h[2], {
+      x: 10.05, y: y + 0.24, w: 2.85, h: 0.44, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 12.5, bold: true, color: BLU,
+      align: "center", valign: "middle",
+    });
+  });
+
+  s.addText("배우는 데 며칠 걸리지 않았습니다. 어려운 것은 프로그램이 아니라 우리 규정을 정확히 옮기는 일이었습니다.", {
+    x: 0.62, y: 6.86, w: 12.55, h: 0.35, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 13.5, bold: true, color: BLU,
+  });
+
+  page(s);
+  s.addNotes("자판까지 적어 두었으니 관심 있는 분은 따라 해 보셔도 됩니다. VS Code 는 무료로 내려받아 쓸 수 있습니다.");
+}
+
+/* ══════════════════════════════════════════
+   만든 방법 ①-6  틀리면 어디서 걸리나
+   ══════════════════════════════════════════ */
+{
+  const s = p.addSlide();
+  banner(s, "부록 ④  틀리면 어디서 걸리나");
+  sub(s, "그물을 세 겹으로 쳤습니다. 앞에서 놓쳐도 뒤에서 걸립니다");
+
+  const NET = [
+    ["첫째 그물", "고치는 그 순간", BLU,
+     ["따옴표를 안 닫으면 글자 색이 그 자리에서 바뀝니다",
+      "괄호 짝이 안 맞으면 빨간 줄이 그어집니다",
+      "이름을 잘못 적으면 바로 표시됩니다"],
+     "VS Code 가"],
+    ["둘째 그물", "올리기 전", WARN,
+     ["채점이 맞는지 은행 24개를 다 풀어 봅니다",
+      "규정 원본의 숫자와 프로그램 값을 맞대어 봅니다",
+      "종이에 넘치는지, 철자가 틀렸는지까지"],
+     "검사 도구 15가지가"],
+    ["셋째 그물", "올린 뒤", OK,
+     ["시험 화면을 직접 열어 눈으로 봅니다",
+      "인쇄를 걸어 종이에 어떻게 나오는지 봅니다",
+      "이상하면 그 덩이만 되돌립니다"],
+     "사람이"],
+  ];
+
+  const cw = (12.55 - 0.4 * 2) / 3;
+  NET.forEach((n, i) => {
+    const x = 0.62 + i * (cw + 0.4);
+    s.addShape(p.ShapeType.rect, {
+      x, y: 1.66, w: cw, h: 4.5,
+      fill: { color: "FFFFFF" }, line: { color: n[2], width: 1.25 },
+    });
+    s.addText(n[0], {
+      x: x + 0.2, y: 1.86, w: cw - 0.4, h: 0.3, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 13, bold: true, color: n[2],
+    });
+    s.addText(n[1], {
+      x: x + 0.2, y: 2.16, w: cw - 0.4, h: 0.44, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 22, bold: true, color: INK,
+    });
+    s.addText(n[4], {
+      x: x + 0.2, y: 2.64, w: cw - 0.4, h: 0.3, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 12.5, bold: true, color: n[2],
+    });
+    n[3].forEach((t, k) => {
+      s.addText("·  " + t, {
+        x: x + 0.2, y: 3.06 + k * 0.62, w: cw - 0.4, h: 0.56, isTextBox: true, margin: 0,
+        fontFace: F, fontSize: 11.5, color: MUT, lineSpacing: 15,
+      });
+    });
+  });
+
+  s.addShape(p.ShapeType.rect, {
+    x: 0.62, y: 6.3, w: 12.55, h: 0.66,
+    fill: { color: "FFF2F2" }, line: { color: RED, width: 1 },
+  });
+  s.addText("그래도 놓친 것이 있었습니다 — 규정과 어긋나 있던 셋은 사람이 규정을 다시 읽다가 찾았습니다.", {
+    x: 0.95, y: 6.3, w: 12.0, h: 0.66, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 14, bold: true, color: RED, valign: "middle",
+  });
+
+  page(s);
+  s.addNotes("그물이 촘촘할수록 겁내지 않고 고칠 수 있습니다. 되돌릴 수 있다는 것이 가장 큽니다.");
 }
 
 /*
