@@ -572,12 +572,133 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
 }
 
 /* ══════════════════════════════════════════
+   자격 이력 ④  바깥 자격이란 무엇인가
+   ══════════════════════════════════════════ */
+{
+  const s = p.addSlide();
+  banner(s, "자격 이력 ④  바깥 자격이란 무엇인가");
+  sub(s, "우리가 낸 자격이 아니라, 밖에서 받아 온 자격입니다. 두 가지를 인정합니다");
+
+  /*
+   * 앞서 「바깥 기관 자격」이라고만 하고 그게 뭔지 안 밝혔다.
+   * 무엇을 인정하는지, 무엇이 면제되는지, 근거가 어디인지를 표로 둔다.
+   * 표는 우리 필기시험 시행 규칙 5.1.5 의 것을 그대로 옮긴 것이다.
+   */
+  const WHO = [
+    ["ASNT NDE Level Ⅲ", "미국비파괴검사학회(ASNT)가 낸 Level Ⅲ"],
+    ["ISO 9712 Level Ⅲ", "국제표준 ISO 9712 로 받은 Level Ⅲ"],
+    ["ISO 9712 Level Ⅱ", "국제표준 ISO 9712 로 받은 Level Ⅱ"],
+  ];
+
+  s.addText("인정하는 자격", {
+    x: 0.62, y: 1.6, w: 5.6, h: 0.3, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 14, bold: true, color: BLU,
+  });
+  WHO.forEach((w, i) => {
+    const y = 1.98 + i * 0.66;
+    s.addShape(p.ShapeType.rect, {
+      x: 0.62, y, w: 5.6, h: 0.58,
+      fill: { color: "FFFFFF" }, line: { color: LINE, width: 1 },
+    });
+    s.addText(w[0], {
+      x: 0.84, y: y + 0.05, w: 5.2, h: 0.26, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 14, bold: true, color: INK,
+    });
+    s.addText(w[1], {
+      x: 0.84, y: y + 0.29, w: 5.2, h: 0.24, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 11, color: MUT,
+    });
+  });
+
+  /* 무엇이 면제되고 무엇을 치르나 — 규칙 5.1.5 의 표 */
+  s.addText("무엇이 면제되나", {
+    x: 6.5, y: 1.6, w: 6.67, h: 0.3, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 14, bold: true, color: BLU,
+  });
+
+  const COLS = [["가진 자격", 2.5], ["면제되는 시험", 2.0], ["그래도 치르는 시험", 2.17]];
+  let cx = 6.5;
+  COLS.forEach(([t, w]) => {
+    s.addShape(p.ShapeType.rect, {
+      x: cx, y: 1.98, w, h: 0.42,
+      fill: { color: "F2F8FD" }, line: { color: BLU, width: 1 },
+    });
+    s.addText(t, {
+      x: cx + 0.1, y: 1.98, w: w - 0.2, h: 0.42, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 11.5, bold: true, color: BLU, valign: "middle",
+    });
+    cx += w;
+  });
+
+  const ROWS = [
+    ["ASNT Level Ⅲ\n또는 ISO 9712 Level Ⅲ", "기초시험\n종목시험", "전문시험\n실기 · 실증"],
+    ["ISO 9712 Level Ⅱ", "일반시험\n실기시험", "전문시험"],
+  ];
+  ROWS.forEach((r, i) => {
+    const y = 2.4 + i * 0.92;
+    let x = 6.5;
+    COLS.forEach(([, w], k) => {
+      s.addShape(p.ShapeType.rect, {
+        x, y, w, h: 0.88,
+        fill: { color: i % 2 ? "F9F9F9" : "FFFFFF" }, line: { color: LINE, width: 1 },
+      });
+      s.addText(r[k], {
+        x: x + 0.1, y, w: w - 0.2, h: 0.88, isTextBox: true, margin: 0,
+        fontFace: F, fontSize: 11.5, bold: k === 2, color: k === 2 ? RED : INK,
+        valign: "middle", lineSpacing: 15,
+      });
+      x += w;
+    });
+  });
+
+  s.addShape(p.ShapeType.rect, {
+    x: 6.5, y: 4.34, w: 6.67, h: 0.62,
+    fill: { color: "FFF2F2" }, line: { color: RED, width: 1 },
+  });
+  s.addText("치르는 시험의 합격선은 80% — 개별 70% 를 적용하지 않습니다", {
+    x: 6.72, y: 4.34, w: 6.3, h: 0.62, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 13, bold: true, color: RED, valign: "middle",
+  });
+
+  /* 놓치기 쉬운 두 가지 */
+  const NOTE = [
+    ["종목마다 따로 봅니다",
+     "UT 자격이 있다고 RT 까지 면제되지 않습니다.\n다른 종목에 응시하면 전 과목을 다 칩니다."],
+    ["자격증 원본을 확인합니다",
+     "대표 NDE Level Ⅲ 또는 QA 가 원본으로 확인하고,\n자격 종류 · 번호 · 만료일을 응시자 명단에 적습니다."],
+  ];
+  NOTE.forEach((n, i) => {
+    const y = 5.14 + i * 0.86;
+    s.addShape(p.ShapeType.rect, {
+      x: 0.62, y, w: 12.55, h: 0.78,
+      fill: { color: "FFFFFF" }, line: { color: LINE, width: 1 },
+    });
+    s.addText(n[0], {
+      x: 0.88, y: y + 0.08, w: 3.4, h: 0.3, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 14, bold: true, color: WARN,
+    });
+    s.addText(n[1], {
+      x: 4.4, y: y + 0.08, w: 8.5, h: 0.62, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 12, color: MUT, lineSpacing: 16,
+    });
+  });
+
+  s.addText("근거 — 자격인정 절차서(HIE-QP-E01) 7.3.5 · 7.3.7, 필기시험 시행 규칙 5.1.5 ~ 5.1.8", {
+    x: 0.62, y: 6.9, w: 12.55, h: 0.32, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 12, color: MUT,
+  });
+
+  page(s);
+  s.addNotes("표는 우리 필기시험 시행 규칙 5.1.5 의 것을 그대로 옮긴 것입니다. 「종목마다 따로」와 「원본 확인」이 실무에서 놓치기 쉬운 두 가지입니다.");
+}
+
+/* ══════════════════════════════════════════
     4  자격 이력 ④  바깥 자격 면제
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
-  banner(s, "자격 이력 ④  바깥 자격이 있으면 면제된다");
-  sub(s, "바깥 기관 자격이 있으면 몇 과목은 면제받습니다. 대신 치르는 시험의 합격선이 80%로 올라갑니다");
+  banner(s, "자격 이력 ④-2  그래서 이렇게 갈립니다");
+  sub(s, "같은 자격을 가진 두 사람입니다. 80% 라는 선이 실제로 어떻게 갈리는지 보겠습니다");
 
   s.addText("두 사람 다 같은 자격을 가졌고 같은 전문시험을 쳤습니다. 다른 것은 점수뿐입니다", {
     x: 0.62, y: 1.5, w: 12.55, h: 0.34, isTextBox: true, margin: 0,
