@@ -90,7 +90,7 @@
     "method": "PT",
     "category": "Method",
     "topic": "ASME Sec.VIII",
-    "question": "What kind of technique shall be used in this process specification?\n이 공정 사양서에서 쓰는 기법의 종류는?",
+    "question": "What kind of technique shall be used in this process specification?\n본 절차서에서 쓰는 기술의 종류는?",
     "options": [
       "Water washable fluorescent penetrant\n수세성 형광침투액",
       "Solvent removed visible penetrant\n용제제거성 염색침투액",
