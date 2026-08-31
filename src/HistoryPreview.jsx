@@ -16,26 +16,35 @@ import { BlankForm, BLANK_FORMS } from "./blankForms.jsx";
 import { buildHistory, buildSessions, expiringSoon, eyeExpiringSoon, certLogRows } from "./history.js";
 
 const 기록 = [
-  { name: "홍길동", level: "Level II", method: "RT", subject: "General",  score: 85, total: 40, correct: 34, startedAt: "2026-03-02T09:10:00+09:00" },
-  { name: "홍길동", level: "Level II", method: "RT", subject: "Specific", score: 90, total: 20, correct: 18, startedAt: "2026-03-02T13:10:00+09:00" },
-  { name: "홍길동", level: "Level II", method: "UT", subject: "General",  score: 60, total: 40, correct: 24, startedAt: "2026-05-02T09:10:00+09:00" },
-  { name: "홍길동", level: "Level II", method: "UT", subject: "General",  score: 88, total: 40, correct: 35, startedAt: "2026-05-20T09:10:00+09:00" },
-  { name: "홍길동", level: "Level II", method: "UT", subject: "Specific", score: 95, total: 20, correct: 19, startedAt: "2026-05-20T13:10:00+09:00" },
-  { name: "김철수", level: "Level III", method: "Basic", score: 88, total: 55, correct: 48, startedAt: "2026-01-15T09:10:00+09:00" },
-  { name: "김철수", level: "Level III", method: "RT",    score: 92, total: 65, correct: 60, startedAt: "2026-02-20T09:10:00+09:00" },
-  { name: "이영희", level: "Level II", method: "PT", subject: "General",  score: 85, total: 40, correct: 34, startedAt: "2023-09-02T09:10:00+09:00" },
-  { name: "이영희", level: "Level II", method: "PT", subject: "Specific", score: 90, total: 20, correct: 18, startedAt: "2023-09-02T13:10:00+09:00" },
-  { name: "박민수", level: "Level II", method: "MT", subject: "General",  score: 75, total: 40, correct: 30, startedAt: "2026-07-02T09:10:00+09:00" },
-  { name: "박민수", level: "Level II", method: "MT", subject: "Specific", score: 80, total: 20, correct: 16, startedAt: "2026-07-02T13:10:00+09:00" },
+  { name: "홍길동", level: "Level II", method: "RT", subject: "General",  score: 85, total: 40, correct: 34, startedAt: "2026-03-02T09:10:00+09:00", finishedAt: "2026-03-02T10:12:00+09:00", durationSec: 3720 },
+  { name: "홍길동", level: "Level II", method: "RT", subject: "Specific", score: 90, total: 20, correct: 18, startedAt: "2026-03-02T13:10:00+09:00", finishedAt: "2026-03-02T13:48:00+09:00", durationSec: 2280 },
+  { name: "홍길동", level: "Level II", method: "UT", subject: "General",  score: 60, total: 40, correct: 24, startedAt: "2026-05-02T09:10:00+09:00", finishedAt: "2026-05-02T10:12:00+09:00", durationSec: 3720 },
+  { name: "홍길동", level: "Level II", method: "UT", subject: "General",  score: 88, total: 40, correct: 35, startedAt: "2026-05-20T09:10:00+09:00", finishedAt: "2026-05-20T10:12:00+09:00", durationSec: 3720 },
+  { name: "홍길동", level: "Level II", method: "UT", subject: "Specific", score: 95, total: 20, correct: 19, startedAt: "2026-05-20T13:10:00+09:00", finishedAt: "2026-05-20T13:48:00+09:00", durationSec: 2280 },
+  { name: "김철수", level: "Level III", method: "Basic", score: 88, total: 55, correct: 48, startedAt: "2026-01-15T09:10:00+09:00", finishedAt: "2026-01-15T10:28:00+09:00", durationSec: 4680 },
+  { name: "김철수", level: "Level III", method: "RT",    score: 92, total: 65, correct: 60, startedAt: "2026-02-20T09:10:00+09:00", finishedAt: "2026-02-20T10:38:00+09:00", durationSec: 5280 },
+  { name: "이영희", level: "Level II", method: "PT", subject: "General",  score: 85, total: 40, correct: 34, startedAt: "2023-09-02T09:10:00+09:00", finishedAt: "2023-09-02T10:12:00+09:00", durationSec: 3720 },
+  { name: "이영희", level: "Level II", method: "PT", subject: "Specific", score: 90, total: 20, correct: 18, startedAt: "2023-09-02T13:10:00+09:00", finishedAt: "2023-09-02T13:48:00+09:00", durationSec: 2280 },
+  { name: "박민수", level: "Level II", method: "MT", subject: "General",  score: 75, total: 40, correct: 30, startedAt: "2026-07-02T09:10:00+09:00", finishedAt: "2026-07-02T10:12:00+09:00", durationSec: 3720 },
+  { name: "박민수", level: "Level II", method: "MT", subject: "Specific", score: 80, total: 20, correct: 16, startedAt: "2026-07-02T13:10:00+09:00", finishedAt: "2026-07-02T13:48:00+09:00", durationSec: 2280 },
 
   /*
    * 바깥 자격으로 면제받은 두 사람 (E01 7.3.5 · 7.3.7).
    * 치르는 시험의 합격선이 80% 라 75점은 불합격이다 — 면제가 아니었다면
    * 개별 70% 를 넘으니 통과였을 점수다. 화면에서 그 차이가 보여야 한다.
    */
-  { name: "정약용", level: "Level II", method: "VT", subject: "Specific", score: 75, total: 20, correct: 15, startedAt: "2026-08-03T09:10:00+09:00" },
-  { name: "강감찬", level: "Level II", method: "PT", subject: "Specific", score: 85, total: 20, correct: 17, startedAt: "2026-08-04T09:10:00+09:00" },
+  { name: "정약용", level: "Level II", method: "VT", subject: "Specific", score: 75, total: 20, correct: 15, startedAt: "2026-08-03T09:10:00+09:00", finishedAt: "2026-08-03T09:48:00+09:00", durationSec: 2280 },
+  { name: "강감찬", level: "Level II", method: "PT", subject: "Specific", score: 85, total: 20, correct: 17, startedAt: "2026-08-04T09:10:00+09:00", finishedAt: "2026-08-04T09:48:00+09:00", durationSec: 2280 },
 ];
+
+/*
+ * 발표자료 화면을 찍을 때 관리자 목록도 이 사람들로 그린다.
+ *
+ * 예전에는 관리자 화면만 실제 기록을 읽어 와서, 발표자료 그림에 직원
+ * 이름과 점수가 그대로 실렸다. 뒤따르는 「자격 이력」 장은 이 예시로
+ * 그리므로, 목록과 이력에 같은 사람이 나와 이야기도 이어진다.
+ */
+export const 예시기록 = 기록;
 
 const 명부 = [
   { name: "홍길동", dept: "검사1팀", eyeExamDate: "2026-06-01", certifiedAt: "2026-03-10", "certifiedAt:UT": "2026-05-25" },

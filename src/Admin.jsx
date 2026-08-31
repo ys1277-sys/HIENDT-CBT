@@ -6,6 +6,8 @@ import PrintCertLog from "./PrintCertLog.jsx";
 import { BlankForm } from "./blankForms.jsx";
 import History from "./History.jsx";
 import { openPaper } from "./paperPreview.js";
+/* 발표자료 화면을 찍을 때만 쓰는 예시 기록 — 아래 SHOT_MODE 참고 */
+import { 예시기록 } from "./HistoryPreview.jsx";
 
 /*
  * 기록 저장소.
@@ -20,6 +22,14 @@ import { openPaper } from "./paperPreview.js";
  */
 const SHEET_URL =
   "https://script.google.com/macros/s/AKfycbxos_9mG8dlc9a6ccSDZJr8O8vrxuAxITYa8VNX8jJmiNld8jJ-FYBtfUaPJU3EGlL1/exec";
+
+/*
+ * 발표자료 화면을 찍는 중인가 (tools/shots.cjs 가 ?shot=admin 으로 연다).
+ * 이때는 실제 기록을 읽지 않는다 — 아래 결과 불러오기 참고.
+ */
+const SHOT_MODE =
+  typeof window !== "undefined" &&
+  new URLSearchParams(window.location.search).get("shot") === "admin";
 
 /*
  * 응시 시작 ~ 종료를 한 칸에 적는다.
@@ -141,6 +151,20 @@ function Admin({ onBack }) {
   // Google Sheet 결과 불러오기
   // =====================================================
   useEffect(() => {
+
+    /*
+     * 발표자료 화면을 찍을 때(?shot=admin)는 실제 기록 대신 예시를 쓴다.
+     *
+     * 예전에는 이 화면만 구글 시트를 그대로 읽어 와서, 발표자료 그림에
+     * 직원 이름과 불합격 점수가 그대로 실렸다. 뒤따르는 「자격 이력」
+     * 장들은 예시로 그리므로 사람도 서로 맞지 않았다.
+     */
+    if (SHOT_MODE) {
+      setResults(예시기록);
+      setLoading(false);
+      return;
+    }
+
     fetch(SHEET_URL)
       .then((res) => {
         if (!res.ok) {
