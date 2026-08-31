@@ -848,67 +848,221 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
 }
 
 /* ══════════════════════════════════════════
-    3-2  만든 방법 ①-2  VS Code 로 한 일
+   만든 방법 ①-2  화면은 이렇게 생겼습니다
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
-  banner(s, "만든 방법 ①-2  VS Code 로 한 일");
-  sub(s, "글만 적는 프로그램이 아닙니다. 고치고, 바로 돌려 보고, 잘못됐으면 되돌리는 일을 한자리에서 합니다");
+  banner(s, "만든 방법 ①-2  화면은 이렇게 생겼습니다");
+  sub(s, "VS Code 라는 프로그램입니다. 창 하나가 네 칸으로 나뉘어 있습니다");
 
-  /*
-   * 임원분들은 VS Code 가 무엇인지 모르신다. 「편집기」라고만 하면
-   * 메모장처럼 들린다. 무엇을 어떻게 했는지를 일로 풀어 적는다.
-   * 힘들었다는 말은 넣지 않는다 — 숫자가 대신 말한다.
-   */
-  const WORK = [
-    ["파일 452개를 한 화면에",
-     "화면 왼쪽에 파일이 나무처럼 펼쳐집니다. 시험 화면 · 문제은행 · 규칙\n" +
-     "문서 · 도구가 다 한 창에 있어, 오가며 고칠 수 있습니다."],
-    ["고치면 그 자리에서 바뀝니다",
-     "저장하는 순간 옆에 띄워 둔 시험 화면이 다시 그려집니다. 「고쳤으니\n" +
-     "다시 켜 보자」가 없습니다. 하루에도 수백 번 눈으로 확인했습니다."],
-    ["452개에서 한 번에 찾아 바꿉니다",
-     "「Level 2」를 「Level Ⅱ」로 바꾸는 일 하나에도 파일 수십 개가 걸립니다.\n" +
-     "한 곳만 빠뜨리면 그 시험만 이름이 다르게 나갑니다."],
-    ["터미널이 안에 붙어 있습니다",
-     "만든 검사 도구를 창을 옮기지 않고 그 자리에서 돌립니다.\n" +
-     "고친다 → 검사한다 → 다시 고친다 가 한 화면에서 끝납니다."],
-    ["잘못 고쳐도 되돌립니다",
-     "고친 것을 215번 나눠 저장해 두었습니다. 무엇을 왜 고쳤는지 함께\n" +
-     "적어 두어, 어디서 어긋났는지 되짚어 찾아 들어갈 수 있습니다."],
+  shot(s, "15-code.png", 0.62, 1.58, 7.5, 4.95);
+
+  const AREA = [
+    ["왼쪽 — 파일 목록",
+     "452개 파일이 나무처럼 펼쳐집니다. 시험 화면도,\n" +
+     "문제은행도, 규칙 문서도 다 여기 한 창에 있습니다."],
+    ["가운데 — 글을 고치는 곳",
+     "지금 보이는 것이 실제 파일입니다. 규정에서 온 숫자\n" +
+     "옆에 「어느 조항에서 왔는지」를 함께 적어 두었습니다."],
+    ["아래 — 명령을 넣는 칸",
+     "만들어 둔 검사 도구를 창을 옮기지 않고 그 자리에서\n" +
+     "돌립니다. 결과가 바로 아래에 뜹니다."],
+    ["오른쪽 — 시험 화면",
+     "고친 것을 저장하는 순간 여기가 다시 그려집니다.\n" +
+     "다른 창을 열어 확인할 일이 없습니다."],
   ];
 
-  WORK.forEach((w, i) => {
-    const y = 1.62 + i * 1.06;
+  AREA.forEach((a, i) => {
+    const y = 1.58 + i * 1.26;
     s.addShape(p.ShapeType.rect, {
-      x: 0.62, y, w: 12.55, h: 0.94,
+      x: 8.42, y, w: 4.75, h: 1.12,
       fill: { color: "FFFFFF" }, line: { color: LINE, width: 1 },
     });
-    s.addShape(p.ShapeType.ellipse, {
-      x: 0.92, y: y + 0.25, w: 0.44, h: 0.44, fill: { color: BLU },
+    s.addText(a[0], {
+      x: 8.66, y: y + 0.12, w: 4.3, h: 0.32, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 15, bold: true, color: BLU,
     });
-    s.addText(String(i + 1), {
-      x: 0.92, y: y + 0.25, w: 0.44, h: 0.44, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 15, bold: true, color: "FFFFFF",
-      align: "center", valign: "middle",
-    });
-    s.addText(w[0], {
-      x: 1.5, y: y + 0.1, w: 4.6, h: 0.36, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 17, bold: true, color: INK,
-    });
-    s.addText(w[1], {
-      x: 1.5, y: y + 0.44, w: 11.4, h: 0.46, isTextBox: true, margin: 0,
-      fontFace: F, fontSize: 12.5, color: MUT, lineSpacing: 17,
+    s.addText(a[1], {
+      x: 8.66, y: y + 0.46, w: 4.3, h: 0.56, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 11.5, color: MUT, lineSpacing: 15,
     });
   });
 
-  s.addText("사람이 다 기억할 수 없는 것을 이 프로그램이 대신 붙들어 줍니다. 그 덕에 혼자서도 끝까지 갈 수 있었습니다.", {
-    x: 0.62, y: 6.95, w: 12.55, h: 0.35, isTextBox: true, margin: 0,
+  s.addText("마이크로소프트가 무료로 내놓은 것입니다. 사는 데 든 돈이 없습니다.", {
+    x: 0.62, y: 6.72, w: 12.55, h: 0.35, isTextBox: true, margin: 0,
     fontFace: F, fontSize: 13.5, bold: true, color: BLU,
   });
 
   page(s);
-  s.addNotes("VS Code 는 마이크로소프트가 무료로 내놓은 것입니다. 사는 데 든 돈이 없습니다.");
+  s.addNotes("왼쪽 그림은 실제로 제가 보던 화면입니다. 지금 열려 있는 파일이 종목마다 몇 문항을 낼지 정해 둔 자리입니다.");
+}
+
+/* ══════════════════════════════════════════
+   만든 방법 ①-3  고치고 · 보고 · 되돌리고
+   ══════════════════════════════════════════ */
+{
+  const s = p.addSlide();
+  banner(s, "만든 방법 ①-3  고치고 · 보고 · 되돌리고");
+  sub(s, "하루가 이 네 걸음으로 돌아갔습니다. 한 바퀴가 몇 초입니다");
+
+  /*
+   * 「무엇을 했다」보다 「어떻게 돌아갔다」가 더 와닿는다.
+   * 시계를 붙인 일을 예로 들어 한 바퀴를 그대로 보여 준다.
+   */
+  const LOOP = [
+    ["고친다", "값을 하나 바꾼다", BLU,
+     "시험시간을 120분으로 두는 줄 하나를 고칩니다."],
+    ["본다", "저장하면 바로 뜬다", OK,
+     "옆 화면에 시계가 나타납니다. 눈으로 그 자리에서 확인합니다."],
+    ["검사한다", "어긋난 데가 없는지", WARN,
+     "아래 칸에서 검사 도구를 돌립니다. 은행 24개가 다 통과하는지 봅니다."],
+    ["남긴다", "왜 고쳤는지 적어서", RED,
+     "「시험 화면에 시계를 달았다」처럼 까닭을 적어 한 덩이로 묶어 둡니다."],
+  ];
+
+  const cw = (12.55 - 0.38 * 3) / 4;
+  LOOP.forEach((l, i) => {
+    const x = 0.62 + i * (cw + 0.38);
+    s.addShape(p.ShapeType.rect, {
+      x, y: 1.66, w: cw, h: 2.35,
+      fill: { color: "FFFFFF" }, line: { color: LINE, width: 1 },
+    });
+    s.addShape(p.ShapeType.ellipse, {
+      x: x + cw / 2 - 0.26, y: 1.88, w: 0.52, h: 0.52, fill: { color: l[2] },
+    });
+    s.addText(String(i + 1), {
+      x: x + cw / 2 - 0.26, y: 1.88, w: 0.52, h: 0.52, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 15, bold: true, color: "FFFFFF",
+      align: "center", valign: "middle",
+    });
+    s.addText(l[0], {
+      x: x + 0.12, y: 2.5, w: cw - 0.24, h: 0.4, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 21, bold: true, color: l[2], align: "center",
+    });
+    s.addText(l[1], {
+      x: x + 0.12, y: 2.92, w: cw - 0.24, h: 0.3, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 12, color: INK, align: "center",
+    });
+    s.addText(l[3], {
+      x: x + 0.14, y: 3.26, w: cw - 0.28, h: 0.68, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 11.5, color: MUT, align: "center", lineSpacing: 15,
+    });
+    if (i < 3) {
+      s.addText("▶", {
+        x: x + cw + 0.02, y: 2.58, w: 0.34, h: 0.34, isTextBox: true, margin: 0,
+        fontFace: F, fontSize: 15, bold: true, color: LINE, align: "center",
+      });
+    }
+  });
+
+  s.addShape(p.ShapeType.rect, {
+    x: 0.62, y: 4.26, w: 12.55, h: 2.28,
+    fill: { color: "F2F8FD" }, line: { color: BLU, width: 1 },
+  });
+  s.addText("이 한 바퀴가 빨라야 끝까지 갈 수 있었습니다", {
+    x: 0.95, y: 4.44, w: 11.9, h: 0.38, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 18, bold: true, color: BLU,
+  });
+  s.addText(
+    "고쳐 놓고 화면을 다시 켜서 확인해야 했다면, 하루에 몇 번 못 고쳤을 것입니다.\n" +
+    "저장하는 순간 눈앞에서 바뀌니 마음 놓고 고쳐 볼 수 있었습니다. 아니다 싶으면 되돌리면 그만이었습니다.\n\n" +
+    "그렇게 3주 동안 파일 674개를 건드렸고, 파일을 연 횟수로는 1,780번이 되었습니다.",
+    {
+      x: 0.95, y: 4.9, w: 11.9, h: 1.4, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 14, color: INK, lineSpacing: 22,
+    }
+  );
+
+  s.addText("규정 값 하나를 고치면 시험 화면·인쇄물·자격 이력이 한꺼번에 따라옵니다. 그래서 한 군데만 고치면 됩니다.", {
+    x: 0.62, y: 6.72, w: 12.55, h: 0.35, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 13.5, bold: true, color: BLU,
+  });
+
+  page(s);
+  s.addNotes("이 네 걸음이 하루에 수백 번 돌았습니다. 빠르게 도니까 겁내지 않고 고칠 수 있었습니다.");
+}
+
+/* ══════════════════════════════════════════
+   만든 방법 ①-4  기록이 남아 있습니다
+   ══════════════════════════════════════════ */
+{
+  const s = p.addSlide();
+  banner(s, "만든 방법 ①-4  기록이 남아 있습니다");
+  sub(s, "고칠 때마다 무엇을 왜 고쳤는지 적어 두었습니다. 217덩이가 남아 있습니다");
+
+  /*
+   * 실제 기록에서 그대로 가져온 것들이다. 지어내지 않는다.
+   */
+  const LOG = [
+    "E01 인용 98군데를 한 줄씩 원문과 대조 — 틀린 곳 셋을 바로잡음",
+    "표 3 을 기계 검사에 넣음 — 원문·규칙·코드 셋을 한자리에서 본다",
+    "시험 화면에 시계를 달고, 눌러야 할 단추와 아닌 것을 갈랐다",
+    "회사 마크를 원본 .ai 에서 다시 꺼냈다",
+    "E02 5.1.5 를 규정 말투로 고치고, 중복된 5.2.4 를 뺌",
+    "규칙 문서 서식을 다듬음 — 쪽이 어색하게 끊기지 않게",
+  ];
+
+  s.addShape(p.ShapeType.rect, {
+    x: 0.62, y: 1.62, w: 8.3, h: 3.62,
+    fill: { color: "FFFFFF" }, line: { color: LINE, width: 1 },
+  });
+  s.addText("실제로 남아 있는 기록에서", {
+    x: 0.88, y: 1.76, w: 7.8, h: 0.3, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 13, bold: true, color: MUT,
+  });
+
+  LOG.forEach((t, i) => {
+    const y = 2.18 + i * 0.5;
+    s.addText("·", {
+      x: 0.9, y, w: 0.24, h: 0.4, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 15, bold: true, color: BLU, valign: "middle",
+    });
+    s.addText(t, {
+      x: 1.18, y, w: 7.5, h: 0.4, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 12.5, color: INK, valign: "middle",
+    });
+  });
+
+  const WHY = [
+    ["되돌릴 수 있습니다",
+     "잘못 고친 것이 있으면 그 덩이만 빼면\n됩니다. 처음부터 다시 하지 않습니다."],
+    ["까닭이 남습니다",
+     "반년 뒤에 「이 숫자는 왜 이렇게 두었나」\n하고 물으면 답이 적혀 있습니다."],
+    ["넘겨줄 수 있습니다",
+     "다음 사람이 이 기록만 따라 읽어도\n무엇을 왜 그렇게 했는지 알 수 있습니다."],
+  ];
+
+  WHY.forEach((w, i) => {
+    const y = 1.62 + i * 1.24;
+    s.addShape(p.ShapeType.rect, {
+      x: 9.2, y, w: 3.97, h: 1.1,
+      fill: { color: "FFFFFF" }, line: { color: LINE, width: 1 },
+    });
+    s.addText(w[0], {
+      x: 9.44, y: y + 0.12, w: 3.5, h: 0.32, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 15, bold: true, color: RED,
+    });
+    s.addText(w[1], {
+      x: 9.44, y: y + 0.46, w: 3.5, h: 0.54, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 11.5, color: MUT, lineSpacing: 15,
+    });
+  });
+
+  s.addShape(p.ShapeType.rect, {
+    x: 0.62, y: 5.46, w: 12.55, h: 1.06,
+    fill: { color: "F2F8FD" }, line: { color: BLU, width: 1 },
+  });
+  s.addText("혼자 만든 것이지만, 혼자만 아는 것으로 두지 않았습니다.", {
+    x: 0.95, y: 5.62, w: 11.9, h: 0.34, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 17, bold: true, color: BLU,
+  });
+  s.addText("코드에는 「이 값은 규정 몇 조에서 왔다」를, 기록에는 「왜 이렇게 고쳤다」를 적어 두었습니다.", {
+    x: 0.95, y: 5.98, w: 11.9, h: 0.34, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 13.5, color: INK,
+  });
+
+  page(s);
+  s.addNotes("제가 없어도 다음 사람이 이어받을 수 있게 두는 것이 마지막까지 신경 쓴 부분입니다.");
 }
 
 /* ══════════════════════════════════════════
@@ -916,7 +1070,7 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
-  banner(s, "만든 방법 ①-3  한 벌을 옮기는 데");
+  banner(s, "만든 방법 ①-5  한 벌을 옮기는 데");
   sub(s, "앞에서 「시험지를 옮겼습니다」라고 한 줄로 지나갔는데, 실제로는 이런 일이었습니다");
 
   /*
