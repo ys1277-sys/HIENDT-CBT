@@ -164,8 +164,8 @@
     "source": "MTS-II(2020)(A)",
     "question": "What method is used for fine-finish machined surfaces or after final heat treatment?\n연삭된 표면 또는 최종 열처리, 최종기계 가공이나 수압시험 후에 사용되는 시험 방법은",
     "options": [
-      "Yoke",
-      "Prod",
+      "Yoke\n요크",
+      "Prod\n프로드",
       "Coil\n코일",
       "Central conductor\n중심도체"
     ],

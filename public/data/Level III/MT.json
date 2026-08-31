@@ -1203,10 +1203,10 @@
     "source": "MTM-III.HWP",
     "question": "Prior to magnetic particle examination, the surface to be examined and all adjacent areas within at least ____ in. shall be dry and free of all dirt, grease, lint, scale, welding flux and spatter, oil, or other extraneous matter that could interfere with the examination.(ASME Sec. V)\n자분탐상 전에 검사면과 그 인접부 최소 몇 인치 이내는 건조하고, 검사를 방해할 수 있는 흙, 그리스, 보풀, 스케일, 용접 플럭스와 스패터, 기름 등 이물질이 없어야 하는가? (ASME Sec. V)",
     "options": [
-      "1",
-      "1.5",
-      "0.5",
-      "2"
+      "1 in.\n1인치",
+      "1.5 in.\n1.5인치",
+      "0.5 in.\n0.5인치",
+      "2 in.\n2인치"
     ],
     "answer": 0,
     "part": "c"
@@ -1251,10 +1251,10 @@
     "source": "MTM-III.HWP",
     "question": "With Visible (Color Contrast) Magnetic Particles are used , A minimum light intensity of ____ Lx is required on the surface to be examined to ensure adequate sensitivity during the examination and evaluation of indications.(ASME Sec. V)\n가시광(색대비) 자분을 사용할 때, 지시의 검사와 평가에서 충분한 감도를 확보하려면 검사면에 최소 몇 Lx의 조도가 필요한가? (ASME Sec. V)",
     "options": [
-      "500",
-      "750",
-      "1000",
-      "2000"
+      "500 Lx\n500 Lx",
+      "750 Lx\n750 Lx",
+      "1000 Lx\n1000 Lx",
+      "2000 Lx\n2000 Lx"
     ],
     "answer": 2,
     "part": "c"
@@ -1267,10 +1267,10 @@
     "source": "MTM-III.HWP",
     "question": "With Fluorescent Magnetic Particles, Black lights shall achieve a minimum of ____ μW/cm2 on the surface of the part being examined throughout the examination. (ASME Sec. V)\n형광 자분을 사용할 때, 자외선등은 검사하는 동안 부품 표면에서 최소 몇 μW/cm²를 확보해야 하는가? (ASME Sec. V)",
     "options": [
-      "500",
-      "1000",
-      "1500",
-      "2000"
+      "500 μW/cm²\n500 μW/cm²",
+      "1000 μW/cm²\n1000 μW/cm²",
+      "1500 μW/cm²\n1500 μW/cm²",
+      "2000 μW/cm²\n2000 μW/cm²"
     ],
     "answer": 1,
     "part": "c"

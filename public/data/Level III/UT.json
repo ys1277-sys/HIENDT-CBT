@@ -1602,9 +1602,9 @@
     "source": "UTM-III.HWP",
     "question": "Personnel conducting UT shall be certified in accordance with ______.\n초음파 검사를 수행하는 요원은 무엇에 따라 자격을 인증받아야 하는가?",
     "options": [
-      "SNT-TC-1a",
+      "SNT-TC-1A\nSNT-TC-1A",
       "the referencing Code section\n참조하는 코드 섹션",
-      "the vender's written practice\n공급자의 절차서",
+      "the vendor's written practice\n공급자의 절차서",
       "the Code of Ethics for ASME\nASME 윤리강령"
     ],
     "answer": 1,
@@ -1690,7 +1690,7 @@
       "ACCP and CP-189\nACCP와 CP-189",
       "SNT-TC-1A and ASTM E165\nSNT-TC-1A와 ASTM E165",
       "ISO 9712 and EN 473\nISO 9712와 EN 473",
-      "ASME Section Ⅴ, Article 5"
+      "ASME Section Ⅴ, Article 5\nASME Section Ⅴ Article 5"
     ],
     "answer": 0,
     "groupNote": "* Question pertain to requirement in ASME Section Ⅷ.\n(다음 문제는 ASME Sec.Ⅷ 의 요구사항에 따라 답하시오.)",

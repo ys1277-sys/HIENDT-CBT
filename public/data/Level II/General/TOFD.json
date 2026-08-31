@@ -52,7 +52,7 @@
     "source": "TOFD General - A 20200317",
     "question": "What is NOT a recommended requirement of probes used for TOFD?\nTOFD에 사용되는 프로브의 권장 요구 사항이 아닌 것은?",
     "options": [
-      "Matched size/frequency (and usually angle) for Tx/Rx\n송수신 탐촉자의 크기/주파수(각도)가 일치해야한다.",
+      "Matched size/frequency (and usually angle) for Tx/Rx\n송수신 탐촉자의 크기/주파수(각도)가 일치해야 한다.",
       "Wide divergence\n넓은 빔퍼짐",
       "Highly damped (broadband)\n높은 감쇠(광대역)",
       "Built-in electrical impedance matching circuits\n내장된 전기 임피던스 정합회로"
@@ -560,7 +560,7 @@
     "method": "TOFD",
     "category": "General",
     "source": "TOFD General - A 20200317",
-    "question": "Probes used for TOFD must deliver the performance:\nTOFD에 사용되는 프로브는 다음성능을 제공해야한다",
+    "question": "Probes used for TOFD must deliver the performance:\nTOFD에 쓰는 탐촉자가 갖추어야 할 성능은?",
     "options": [
       "Low Frequency\n저주파수",
       "High Frequency\n저주파수 고주파수",

@@ -37,10 +37,10 @@
     "source": "TOFDSpec-II-A-type(2014)",
     "question": "The basic setup for a TOFD configuration uses how many probes?\nTOFD 구성에 대한 기본 설정은 몇 개의 프로브를 사용하나?",
     "options": [
-      "1",
-      "2",
-      "3",
-      "4"
+      "1\n1개",
+      "2\n2개",
+      "3\n3개",
+      "4\n4개"
     ],
     "answer": 1
   },
@@ -451,7 +451,7 @@
     "source": "TOFDSpec-II-A-type(2014)",
     "question": "What is NOT a recommended requirement of probes used for TOFD?\nTOFD에 사용되는 프로브의 권장 요구 사항이 아닌 것은?",
     "options": [
-      "Matched size/frequency (and usually angle) for Tx/Rx\n송수신 탐촉자의 크기/주파수(각도)가 일치해야한다.",
+      "Matched size/frequency (and usually angle) for Tx/Rx\n송수신 탐촉자의 크기/주파수(각도)가 일치해야 한다.",
       "Wide divergence\n넓은 빔퍼짐",
       "highly damped (broadband)\n높은 감쇠(광대역)",
       "Built-in electrical impedance matching circuits\n내장된 전기 임피던스 정합회로"

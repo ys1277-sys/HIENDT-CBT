@@ -90,7 +90,7 @@
     "method": "PT",
     "category": "Method",
     "topic": "ASME Sec.VIII",
-    "question": "What kind of technique shall be used in this process specification?\n본 절차서에 사용되어진 기술의 종류는?",
+    "question": "What kind of technique shall be used in this process specification?\n이 공정 사양서에서 쓰는 기법의 종류는?",
     "options": [
       "Water washable fluorescent penetrant\n수세성 형광침투액",
       "Solvent removed visible penetrant\n용제제거성 염색침투액",
@@ -1218,9 +1218,9 @@
     "question": "For liquid penetrant examination, procedural requirements on castings, ASME Section I refers to:\n침투탐상에서 주조품에 대한 절차 요구사항으로 ASME Section I이 참조하는 것은?",
     "options": [
       "Article 6 of ASME Section V.\nASME Section Ⅴ Article 6",
-      "ASTM E125.",
-      "ASTM E165.",
-      "Appendix Ⅷ."
+      "ASTM E125.\nASTM E125",
+      "ASTM E165.\nASTM E165",
+      "Appendix Ⅷ.\n부록 Ⅷ"
     ],
     "answer": 1,
     "note": "보기를 넷으로 맞추면서 오답 「none of the above.」을 덜어냈다. 정답과 묻는 내용은 그대로다.",
@@ -1268,10 +1268,10 @@
     "source": "PTM-III.HWP",
     "question": "What is the maximum acceptable number of relevant rounded indications in the weld?\n이 용접부에서 허용되는 관련 원형 지시의 최대 개수는?",
     "options": [
-      "6",
-      "9",
-      "12",
-      "18"
+      "6\n6개",
+      "9\n9개",
+      "12\n12개",
+      "18\n18개"
     ],
     "answer": 1,
     "groupNote": "A weld that is ½ inch wide and 6 inches long has been liquid penetrant tested in accordance with ASME Section Ⅲ Div. 1, Subsection NB.\n폭 ½인치, 길이 6인치인 용접부를 ASME Section Ⅲ Div. 1, Subsection NB에 따라 침투탐상한 상황입니다.",
@@ -1582,7 +1582,7 @@
     "options": [
       "SNT-TC-1A and CP-189\nSNT-TC-1A와 CP-189",
       "ISO 9712 and EN 473\nISO 9712와 EN 473",
-      "ASME Section Ⅴ, Article 6",
+      "ASME Section Ⅴ, Article 6\nASME Section Ⅴ Article 6",
       "ASTM E165 and E1417\nASTM E165와 E1417"
     ],
     "answer": 0,

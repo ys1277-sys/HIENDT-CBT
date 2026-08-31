@@ -277,7 +277,7 @@
     "method": "PT",
     "category": "General",
     "source": "PTG-II(A)",
-    "question": "A black light lamp should not be used with a cracked filter or without the filter in place because of the harmful effects to the human eyes caused by ______ emitted from such a lamp.\n흑광은 금이간 필터나 필터 없이 사용하면 안된다. 왜냐하면 램프로부터 ______ 을 방출하여 눈에 해를 미치기 때문이다.",
+    "question": "A black light lamp should not be used with a cracked filter or without the filter in place because of the harmful effects to the human eyes caused by ______ emitted from such a lamp.\n흑광은 금이 간 필터를 끼우거나 필터 없이 쓰면 안 된다. 램프에서 나오는 ______ 이 눈에 해롭기 때문이다.",
     "options": [
       "black light\n흑광",
       "Ultraviolet light\n자외선",

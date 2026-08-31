@@ -103,10 +103,10 @@
     "source": "ECTS-II.hwp",
     "question": "For Level II, minimum number of questions of general examination is :\nLevel II에 대해, 일반 시험의 최소 문항 수는?",
     "options": [
-      "20",
-      "30",
-      "40",
-      "50"
+      "20 questions\n20문항",
+      "30 questions\n30문항",
+      "40 questions\n40문항",
+      "50 questions\n50문항"
     ],
     "answer": 2,
     "groupNote": "* Answers to questions 5 through 8 may use the supplement QM Procedure (HIE-QP-E01)\n(5번부터 8번까지 품질경영 절차서 중 HIE-QP-E01에 관한 질문이다.)"

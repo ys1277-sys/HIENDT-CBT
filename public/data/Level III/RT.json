@@ -1210,10 +1210,10 @@
     "source": "RTM-III.HWP",
     "question": "(ASME Section Ⅲ-NB) - The maximum acceptable length of elongated slag (single indication) is_________inches\n(ASME Section Ⅲ-NB) 가늘고 긴 슬래그(단일 지시)의 허용 최대 길이는 몇 인치인가?",
     "options": [
-      "0.13",
-      "0.26",
-      "0.38",
-      "0.50"
+      "0.13 in.\n0.13인치",
+      "0.26 in.\n0.26인치",
+      "0.38 in.\n0.38인치",
+      "0.50 in.\n0.50인치"
     ],
     "answer": 1,
     "part": "c"
@@ -1362,10 +1362,10 @@
     "source": "RTM-III.HWP",
     "question": "(API-1104) - A 24 inch O. D. pipe butt weld is radiographed by the double wall exposure, single wall viewing technique using an x-ray machine. When positioned for the exposure, the focal spot of the x-ray tube is three(3) inches above the surface of the pipe. The maximum diagnostic film length (length of acceptable radiograph) is_______inches.\n(API-1104) 외경 24인치 배관 맞대기 용접부를 X선 장치로 이중벽 투과 단일벽 관찰법으로 촬영한다. 촬영 위치에서 X선관의 초점은 배관 표면 위 3인치에 있다. 최대 유효 필름 길이(합격 가능한 방사선사진의 길이)는 몇 인치인가?",
     "options": [
-      "12.6",
-      "18.8",
-      "23.1",
-      "31.4"
+      "12.6 in.\n12.6인치",
+      "18.8 in.\n18.8인치",
+      "23.1 in.\n23.1인치",
+      "31.4 in.\n31.4인치"
     ],
     "answer": 2,
     "part": "b"

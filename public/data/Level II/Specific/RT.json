@@ -86,7 +86,7 @@
     "method": "RT",
     "category": "Specific",
     "source": "RTS-II(2020)(A)",
-    "question": "What is the part of the γ-ray machine which is used to move the radiographic isotope to the objects?\n방사성 동위원소를 피사체까지 이동시키는데 사용되어지는 γ-선 장치의 부품은 무엇인가?",
+    "question": "What is the part of the γ-ray machine which is used to move the radiographic isotope to the objects?\n방사성 동위원소를 피사체까지 옮기는 데 쓰는 γ선 장치의 부품은?",
     "options": [
       "Front guiding\n전방 가이드 튜브",
       "Connector\n연결부",

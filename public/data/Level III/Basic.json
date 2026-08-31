@@ -23,7 +23,7 @@
     "topic": "SNT-TC-1A",
     "question": "The document that outlines the specific training required for NDT certification is:\nNDT 자격 인증에 필요한 특정 교육을 규정하는 문서는?",
     "options": [
-      "SNT-TC-1A",
+      "SNT-TC-1A\nSNT-TC-1A",
       "U.S. Nuclear Regulatory Commission Regulatory Guide\n미국 원자력규제위원회 규제지침",
       "the employer's written practice\n사업주의 절차서(written practice)",
       "the American National Standard for Nondestructive Testing\n미국 비파괴검사 국가표준"
@@ -151,10 +151,10 @@
     "topic": "SNT-TC-1A",
     "question": "Recommended maximum recertification intervals are ____ years for all certification levels.\n모든 인증 레벨의 권장 최대 재인증 기간은 몇 년인가?",
     "options": [
-      "5",
-      "6",
-      "8",
-      "10"
+      "5 years\n5년",
+      "6 years\n6년",
+      "8 years\n8년",
+      "10 years\n10년"
     ],
     "answer": 0,
     "part": "a"

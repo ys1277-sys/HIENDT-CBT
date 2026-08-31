@@ -154,8 +154,8 @@
     "question": "For precleaning, this procedure states ;\n전처리에 대해 설명한 것이다. 맞는 것은?",
     "options": [
       "acetone shall be used\n아세톤이 사용돼야 한다.",
-      "1 in. adjacent to the area to be examined, shall be clean\n시험부위의 주변 1인치를 전처리 해야한다.",
-      "1/2 inch, adjacent to the area to be examined, shall be clean.\n시험부위의 주변 1/2인치를 전처리 해야한다.",
+      "1 in. adjacent to the area to be examined, shall be clean\n시험 부위 둘레 1인치를 전처리해야 한다.",
+      "1/2 inch, adjacent to the area to be examined, shall be clean.\n시험 부위 둘레 1/2인치를 전처리해야 한다.",
       "a light coating of oil on the test surface, that is compatible with the penetrant, is acceptable\n표면상의 얇은 오일코팅은 허용된다."
     ],
     "answer": 1
