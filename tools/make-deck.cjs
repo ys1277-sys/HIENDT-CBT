@@ -789,20 +789,132 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
 }
 
 /* ══════════════════════════════════════════
+   만든 방법 ①  먼저 혼자 여기까지 만들었다
+   ══════════════════════════════════════════ */
+{
+  const s = p.addSlide();
+  banner(s, "만든 방법 ①  먼저 혼자 여기까지 만들었다");
+  sub(s, "7월 13일부터 8월 12일까지 한 달. 빈 화면에서 시작해 시험을 칠 수 있는 데까지 갔습니다");
+
+  /*
+   * 이 장이 없으면 「누가 만들었나」가 흐려진다.
+   * 아래 파일과 줄 수는 그때 그 폴더를 그대로 센 것이다
+   * (D:\Visual Studio Code\보관\HIENDT-CBT - 복사본 유료쓰기전 최종).
+   */
+  const MINE = [
+    ["Home.jsx", "548", "첫 화면 — 이름 넣고 등급·종목 고르기"],
+    ["Quiz.jsx", "643", "문제 푸는 화면 — 보기 고르기, 답안 표기란"],
+    ["Result.jsx", "445", "결과 화면 — 점수와 틀린 문항"],
+    ["Admin.jsx", "326", "관리자 화면 — 누가 몇 점"],
+    ["Calculator.jsx", "282", "시험 중에 쓰는 계산기"],
+    ["ExamData.jsx", "91", "종목마다 몇 문제를 낼지"],
+    ["PrintExam.jsx", "971", "시험지를 종이에 뽑는 모양"],
+    ["PrintAdminExam.jsx", "920", "정답과 근거가 함께 나오는 관리자용"],
+    ["print.css", "1,198", "종이에 어떻게 앉힐지"],
+    ["style.css", "685", "화면 색과 자리"],
+  ];
+
+  const y0 = 1.6, rh = 0.44;
+  ["파일", "줄", "무엇을 하는 자리"].forEach((h, i) => {
+    const x = [0.62, 3.1, 4.3][i], w = [2.48, 1.2, 4.6][i];
+    s.addShape(p.ShapeType.rect, {
+      x, y: y0, w, h: rh,
+      fill: { color: "F2F8FD" }, line: { color: BLU, width: 1 },
+    });
+    s.addText(h, {
+      x: x + 0.12, y: y0, w: w - 0.24, h: rh, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 12.5, bold: true, color: BLU, valign: "middle",
+      align: i === 1 ? "right" : "left",
+    });
+  });
+
+  MINE.forEach((m, i) => {
+    const y = y0 + rh + i * rh;
+    if (i % 2 === 0) {
+      s.addShape(p.ShapeType.rect, {
+        x: 0.62, y, w: 8.28, h: rh,
+        fill: { color: "F9F9F9" }, line: { color: "F9F9F9", width: 0 },
+      });
+    }
+    s.addText(m[0], {
+      x: 0.74, y, w: 2.36, h: rh, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 12.5, bold: true, color: INK, valign: "middle",
+    });
+    s.addText(m[1], {
+      x: 3.1, y, w: 1.08, h: rh, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 12.5, color: BLU, valign: "middle", align: "right",
+    });
+    s.addText(m[2], {
+      x: 4.42, y, w: 4.4, h: rh, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 11.5, color: MUT, valign: "middle",
+    });
+  });
+
+  s.addText("그 밖에 화면을 넘기는 자리, 문제 그림, 답안지 인쇄까지 — 파일 46개.", {
+    x: 0.62, y: 6.12, w: 8.28, h: 0.3, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 11.5, color: MUT,
+  });
+
+  /* 오른쪽 — 그때의 크기와 갈아엎은 흔적 */
+  const BIG = [
+    ["46", "개 파일", "화면 · 인쇄 · 문제은행"],
+    ["22,143", "줄", "문항 14,226줄을 빼면 화면이 7,917줄"],
+    ["한 달", "7.13 ~ 8.12", "그 사이 통째로 두 번 갈아엎음"],
+  ];
+  BIG.forEach((b, i) => {
+    const y = 1.6 + i * 1.34;
+    s.addShape(p.ShapeType.rect, {
+      x: 9.1, y, w: 4.07, h: 1.2,
+      fill: { color: "FFFFFF" }, line: { color: LINE, width: 1 },
+    });
+    s.addText(b[0], {
+      x: 9.3, y: y + 0.12, w: 2.2, h: 0.5, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 26, bold: true, color: RED,
+    });
+    s.addText(b[1], {
+      x: 11.5, y: y + 0.28, w: 1.5, h: 0.3, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 12.5, bold: true, color: INK, align: "right",
+    });
+    s.addText(b[2], {
+      x: 9.3, y: y + 0.68, w: 3.6, h: 0.42, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 11, color: MUT, lineSpacing: 14,
+    });
+  });
+
+  s.addShape(p.ShapeType.rect, {
+    x: 9.1, y: 5.62, w: 4.07, h: 0.8,
+    fill: { color: "FFF2F2" }, line: { color: RED, width: 1 },
+  });
+  s.addText("이 상태로 이미 시험을 칠 수 있었습니다", {
+    x: 9.3, y: 5.62, w: 3.7, h: 0.8, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 13.5, bold: true, color: RED, valign: "middle",
+  });
+
+  s.addText("화면도 채점도 인쇄도 다 돌아갔습니다. 뒤에 이야기하는 것들은 여기서부터 더 얹은 것입니다.", {
+    x: 0.62, y: 6.62, w: 12.55, h: 0.35, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 13.5, bold: true, color: BLU,
+  });
+
+  page(s);
+  s.addNotes("7월 13일에 빈 폴더에서 시작했습니다. 중간에 두 번 통째로 갈아엎었고, 그 판들이 아직 보관 폴더에 남아 있습니다. 8월 12일 판으로 이미 시험을 칠 수 있었습니다.");
+}
+
+/* ══════════════════════════════════════════
     3  만든 방법 ① VS Code
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
-  banner(s, "만든 방법 ①  VS Code 로 직접 짰다");
-  sub(s, "어디서 사 온 것이 아닙니다. 빈 화면에서 시작해 한 줄씩 쌓아 올린 것입니다");
+  banner(s, "만든 방법 ①-2  그 뒤에 더 얹은 것");
+  sub(s, "혼자 만들어 둔 것 위에, 규정을 맞추고 검사를 붙이고 규칙 문서를 지었습니다");
 
   shot(s, "15-code.png", 0.62, 1.52, 7.6, 5.05);
 
+  /* 혼자 만든 22,143줄 위에 무엇이 더해졌는지 */
   const MADE = [
-    ["11,027", "줄", "시험 보는 화면과 채점, 자격 이력, 인쇄까지"],
-    ["18,300", "줄", "도구 131개 — 시험지를 옮기고 틀린 데를 찾는 것들"],
-    ["2,100", "줄", "종이에 뽑았을 때의 모양 — 시험지와 답안지, 서식"],
-    ["1,709", "줄", "새로 지은 규칙 문서 두 건"],
+    ["1,369", "문항", "은행 24개로 늘리고 답을 원본과 한 문제씩 맞대어 봄"],
+    ["137", "개", "도구 — 옮기고 · 맞대어 보고 · 틀린 데를 찾는 것들"],
+    ["2", "건", "규칙 문서 — 필기시험 시행 규칙과 자격증 발행·관리 규칙"],
+    ["15", "가지", "고칠 때마다 스스로 도는 검사"],
   ];
 
   MADE.forEach((m, i) => {
@@ -829,16 +941,16 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
    * 커밋 수(207)를 내세우면 실제로 한 일보다 작아 보인다. 한 번 올릴
    * 때마다 수십 번 고치고 돌려 본다. 고친 줄 수가 실상에 가깝다.
    */
-  s.addText("20만 줄을 고쳤습니다", {
+  s.addText("혼자 22,143줄 → 지금 60,464줄", {
     x: 8.78, y: 5.5, w: 4.2, h: 0.34, isTextBox: true, margin: 0,
     fontFace: F, fontSize: 16, bold: true, color: BLU,
   });
-  s.addText("7월 23일에 시작해 8월 28일에 지금 모습이 되었습니다.\n고쳐서 올린 것만 207번이고, 그 사이에 고친 것은 셀 수 없습니다.", {
+  s.addText("8월 12일까지 혼자 만들고, 그 뒤 3주 동안 규정에 맞추고\n검사를 붙였습니다. 고쳐서 올린 것만 217번입니다.", {
     x: 8.78, y: 5.88, w: 4.2, h: 0.65, isTextBox: true, margin: 0,
     fontFace: F, fontSize: 11.5, color: INK, lineSpacing: 17,
   });
 
-  s.addText("왼쪽은 실제 화면입니다. 숫자마다 옆에 「이건 규정 몇 조에서 온 값이다」를 적어 두었습니다.", {
+  s.addText("왼쪽은 실제 파일입니다. 혼자 짜 둔 자리에, 뒤에 「이건 규정 몇 조에서 온 값이다」를 달았습니다.", {
     x: 0.62, y: 6.78, w: 12.55, h: 0.35, isTextBox: true, margin: 0,
     fontFace: F, fontSize: 13.5, bold: true, color: BLU,
   });
@@ -852,7 +964,7 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
-  banner(s, "만든 방법 ①-2  VS Code 화면은 이렇게 생겼다");
+  banner(s, "만든 방법 ①-3  VS Code 화면은 이렇게 생겼다");
   sub(s, "VS Code 라는 프로그램입니다. 창이 세 칸으로 나뉘고, 옆에 시험 화면을 띄워 둡니다");
 
   shot(s, "17-vscode.png", 0.62, 1.58, 7.5, 4.95);
@@ -902,7 +1014,7 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
-  banner(s, "만든 방법 ①-3  하루를 따라가 보면");
+  banner(s, "만든 방법 ①-4  하루를 따라가 보면");
   sub(s, "「시험 화면에 시계를 달았다」 한 줄이 실제로는 이 여섯 걸음이었습니다");
 
   /*
@@ -983,7 +1095,7 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
-  banner(s, "만든 방법 ①-4  고친 기록이 남아 있다");
+  banner(s, "만든 방법 ①-5  고친 기록이 남아 있다");
   sub(s, "고칠 때마다 무엇을 왜 고쳤는지 적어 두었습니다. 217덩이가 남아 있습니다");
 
   /*
@@ -1066,7 +1178,7 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
-  banner(s, "만든 방법 ①-5  한 벌을 옮긴다는 것");
+  banner(s, "만든 방법 ①-6  한 벌을 옮긴다는 것");
   sub(s, "앞에서 「시험지를 옮겼습니다」라고 한 줄로 지나갔는데, 실제로는 이런 일이었습니다");
 
   /*
