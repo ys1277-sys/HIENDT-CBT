@@ -848,6 +848,135 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
 }
 
 /* ══════════════════════════════════════════
+    3-2  만든 방법 ①-2  VS Code 로 한 일
+   ══════════════════════════════════════════ */
+{
+  const s = p.addSlide();
+  banner(s, "만든 방법 ①-2  VS Code 로 한 일");
+  sub(s, "글만 쓰는 프로그램이 아닙니다. 고치고 · 돌려 보고 · 되돌리는 일을 한자리에서 합니다");
+
+  /*
+   * 임원분들은 VS Code 가 무엇인지 모르신다. 「편집기」라고만 하면
+   * 메모장처럼 들린다. 무엇을 어떻게 했는지를 일로 풀어 적는다.
+   * 힘들었다는 말은 넣지 않는다 — 숫자가 대신 말한다.
+   */
+  const WORK = [
+    ["파일 452개를 한 화면에",
+     "화면 왼쪽에 파일이 나무처럼 펼쳐집니다. 시험 화면 · 문제은행 · 규칙\n" +
+     "문서 · 도구가 다 한 창에 있어, 오가며 고칠 수 있습니다."],
+    ["고치면 그 자리에서 바뀝니다",
+     "저장하는 순간 옆에 띄워 둔 시험 화면이 다시 그려집니다. 「고쳤으니\n" +
+     "다시 켜 보자」가 없습니다. 하루에도 수백 번 눈으로 확인했습니다."],
+    ["452개에서 한 번에 찾아 바꿉니다",
+     "「Level 2」를 「Level Ⅱ」로 바꾸는 일 하나에도 파일 수십 개가 걸립니다.\n" +
+     "한 곳만 빠뜨리면 그 시험만 이름이 다르게 나갑니다."],
+    ["터미널이 안에 붙어 있습니다",
+     "만든 검사 도구를 창을 옮기지 않고 그 자리에서 돌립니다.\n" +
+     "고친다 → 검사한다 → 다시 고친다 가 한 화면에서 끝납니다."],
+    ["잘못 고쳐도 되돌립니다",
+     "고친 것을 215번 나눠 저장해 두었습니다. 무엇을 왜 고쳤는지 함께\n" +
+     "적어 두어, 어디서 어긋났는지 되짚어 찾아 들어갈 수 있습니다."],
+  ];
+
+  WORK.forEach((w, i) => {
+    const y = 1.62 + i * 1.06;
+    s.addShape(p.ShapeType.rect, {
+      x: 0.62, y, w: 12.55, h: 0.94,
+      fill: { color: "FFFFFF" }, line: { color: LINE, width: 1 },
+    });
+    s.addShape(p.ShapeType.ellipse, {
+      x: 0.92, y: y + 0.25, w: 0.44, h: 0.44, fill: { color: BLU },
+    });
+    s.addText(String(i + 1), {
+      x: 0.92, y: y + 0.25, w: 0.44, h: 0.44, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 15, bold: true, color: "FFFFFF",
+      align: "center", valign: "middle",
+    });
+    s.addText(w[0], {
+      x: 1.5, y: y + 0.1, w: 4.6, h: 0.36, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 17, bold: true, color: INK,
+    });
+    s.addText(w[1], {
+      x: 1.5, y: y + 0.44, w: 11.4, h: 0.46, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 12.5, color: MUT, lineSpacing: 17,
+    });
+  });
+
+  s.addText("사람이 다 기억할 수 없는 일을 프로그램이 대신 붙들어 줍니다. 그래서 혼자서도 끝까지 갈 수 있었습니다.", {
+    x: 0.62, y: 6.95, w: 12.55, h: 0.35, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 13.5, bold: true, color: BLU,
+  });
+
+  page(s);
+  s.addNotes("VS Code 는 마이크로소프트가 무료로 내놓은 것입니다. 사는 데 든 돈이 없습니다.");
+}
+
+/* ══════════════════════════════════════════
+    3-3  만든 방법 ①-3  한 벌을 옮기는 데
+   ══════════════════════════════════════════ */
+{
+  const s = p.addSlide();
+  banner(s, "만든 방법 ①-3  한 벌을 옮기는 데");
+  sub(s, "「한글 시험지를 옮겼습니다」 한 줄이 실제로는 이런 일이었습니다");
+
+  /*
+   * 고생했다고 말하는 대신, 실제로 무슨 일이 있었는지를 그대로 적는다.
+   * 읽는 분이 스스로 「간단한 일이 아니었구나」 하게 두는 편이 낫다.
+   */
+  const STORY = [
+    ["1", "답지가 세 가지 꼴이었습니다",
+     "49벌을 열어 보니 답을 적어 둔 모양이 제각각이었습니다. 표로 묶은 것,\n" +
+     "칸을 그린 것, 아래에 각주로 단 것. 읽어 내는 도구를 세 번 다시 짰습니다.",
+     "47 / 49 자동"],
+    ["2", "번호가 서로 어긋나 있었습니다",
+     "원본 시험지의 번호와 문제은행의 번호가 맞지 않는 데가 있었습니다.\n" +
+     "번호로 짝지으면 엉뚱한 답이 붙습니다. 문제 글로 짝지어 맞췄습니다.",
+     "1,369문항"],
+    ["3", "같은 문제가 두 벌에 걸쳐 있었습니다",
+     "원본이 A형·B형으로 나뉘어 있어 합치면 겹칩니다. 겹친 것을 찾아내는\n" +
+     "도구를 따로 만들어 훑었습니다.",
+     "은행 24개"],
+    ["4", "답을 그대로 믿지 않았습니다",
+     "원본에 적힌 답을 옮기기만 하면 원본의 잘못까지 따라옵니다.\n" +
+     "직접 풀어 맞대 보았고, 그러다 영문 오타 14가지를 찾았습니다.",
+     "오타 14가지"],
+  ];
+
+  STORY.forEach((t, i) => {
+    const y = 1.66 + i * 1.30;
+    s.addShape(p.ShapeType.rect, {
+      x: 0.62, y, w: 12.55, h: 1.18,
+      fill: { color: "FFFFFF" }, line: { color: LINE, width: 1 },
+    });
+    s.addText(t[0], {
+      x: 0.9, y: y + 0.3, w: 0.6, h: 0.6, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 30, bold: true, color: LINE, align: "center",
+    });
+    s.addText(t[1], {
+      x: 1.62, y: y + 0.16, w: 7.4, h: 0.36, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 17, bold: true, color: INK,
+    });
+    s.addText(t[2], {
+      x: 1.62, y: y + 0.56, w: 9.3, h: 0.5, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 12.5, color: MUT, lineSpacing: 17,
+    });
+    s.addText(t[3], {
+      x: 11.05, y: y + 0.38, w: 1.9, h: 0.4, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 14, bold: true, color: RED,
+      align: "center", valign: "middle",
+    });
+  });
+
+  s.addText("옮겨 담는 일이 아니라 맞대어 보는 일이었습니다. 그래서 지금 은행에 든 답은 원본보다 앞서 있습니다.", {
+    x: 0.62, y: 6.95, w: 12.55, h: 0.35, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 13.5, bold: true, color: BLU,
+  });
+
+  page(s);
+  s.addNotes("문제은행이 원본보다 앞서 있습니다. 원본을 고칠 때 이 은행을 근거로 쓰시면 됩니다.");
+}
+
+/* ══════════════════════════════════════════
     4  만든 방법 ②  절차서를 코드로
    ══════════════════════════════════════════ */
 {
