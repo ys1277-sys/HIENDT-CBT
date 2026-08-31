@@ -12,7 +12,8 @@
       "10 ml to 20 ml per 100 ml\n100 mL 당 10~20 mL"
     ],
     "answer": 0,
-    "note": "원본이 서술형인 문항이다. 객관식으로 옮기며 보기 2~4번이 비어 있던 것을, 원본대로 주관식으로 되돌렸다. 정답은 원본 답지 그대로다.\n원본은 주관식이고 정답이 「1.2 ml to 2.4 ml per 100 ml」였다. 4지선다로 바꾸며 오답 「0.1 ml to 0.4 ml per 100 ml」 · 「2.4 ml to 4.8 ml per 100 ml」 · 「10 ml to 20 ml per 100 ml」 을 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본이 서술형인 문항이다. 객관식으로 옮기며 보기 2~4번이 비어 있던 것을, 원본대로 주관식으로 되돌렸다. 정답은 원본 답지 그대로다.\n원본은 주관식이고 정답이 「1.2 ml to 2.4 ml per 100 ml」였다. 4지선다로 바꾸며 오답 「0.1 ml to 0.4 ml per 100 ml」 · 「2.4 ml to 4.8 ml per 100 ml」 · 「10 ml to 20 ml per 100 ml」 을 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2",
+    "part": "a"
   },
   {
     "id": 3,
@@ -28,7 +29,8 @@
       "2000 lux"
     ],
     "answer": 2,
-    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-MT-P11(Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 자분탐상검사에 대한 절차서(HIE-NDT-MT-P11.Rev.2)"
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-MT-P11(Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 자분탐상검사에 대한 절차서(HIE-NDT-MT-P11.Rev.2)",
+    "part": "a"
   },
   {
     "id": 4,
@@ -43,7 +45,8 @@
       "5 lb (2.3 kg)\n5 lb (2.3 kg)"
     ],
     "answer": 0,
-    "note": "원본이 서술형인 문항이다. 객관식으로 옮기며 보기 2~4번이 비어 있던 것을, 원본대로 주관식으로 되돌렸다. 정답은 원본 답지 그대로다.\n원본은 주관식이고 정답이 「10 lb (4.5 kg)」였다. 4지선다로 바꾸며 오답 「40 lb (18 kg)」 · 「25 lb (11 kg)」 · 「5 lb (2.3 kg)」 을 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본이 서술형인 문항이다. 객관식으로 옮기며 보기 2~4번이 비어 있던 것을, 원본대로 주관식으로 되돌렸다. 정답은 원본 답지 그대로다.\n원본은 주관식이고 정답이 「10 lb (4.5 kg)」였다. 4지선다로 바꾸며 오답 「40 lb (18 kg)」 · 「25 lb (11 kg)」 · 「5 lb (2.3 kg)」 을 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2",
+    "part": "a"
   },
   {
     "id": 6,
@@ -59,7 +62,8 @@
       "Artificial Flaw Shims · Hall-Effect Tangential-Field Probe · Lifting power block\n인공결함 심(shim) · 홀효과 접선자장 탐촉자 · 흡인력 시험편"
     ],
     "answer": 2,
-    "note": "원본 물음이 「(tree method)」— three methods 의 오타 — 로 세 가지를 묻고 답지도 a,b,c 다. 은행이 하나만 정답으로 두고 있었다. 복수정답으로 바로잡고 세 가지임을 물음에 밝혔다(E02 6.2.3). 넷 가운데 3개가 정답인 복수정답 문항이라 찍어도 맞을 확률이 높았다. 항목을 묶어 조합형 단일정답으로 바꿨다. 정답 조합은 원본 정답 그대로다. ★ 오답 조합은 해당 종목 NDE Level Ⅲ 의 확인이 필요하다 (HIE-QP-E02 6.1.2, 6.3.1)."
+    "note": "원본 물음이 「(tree method)」— three methods 의 오타 — 로 세 가지를 묻고 답지도 a,b,c 다. 은행이 하나만 정답으로 두고 있었다. 복수정답으로 바로잡고 세 가지임을 물음에 밝혔다(E02 6.2.3). 넷 가운데 3개가 정답인 복수정답 문항이라 찍어도 맞을 확률이 높았다. 항목을 묶어 조합형 단일정답으로 바꿨다. 정답 조합은 원본 정답 그대로다. ★ 오답 조합은 해당 종목 NDE Level Ⅲ 의 확인이 필요하다 (HIE-QP-E02 6.1.2, 6.3.1).",
+    "part": "b"
   },
   {
     "id": 8,
@@ -75,7 +79,8 @@
       "3/64 in"
     ],
     "answer": 2,
-    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-MT-P11(Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 자분탐상검사에 대한 절차서(HIE-NDT-MT-P11.Rev.2)"
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-MT-P11(Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 자분탐상검사에 대한 절차서(HIE-NDT-MT-P11.Rev.2)",
+    "part": "a"
   },
   {
     "id": 9,
@@ -91,7 +96,8 @@
       "Yoke with wet fluorescent magnetic particle\n요크 + 습식 형광 자분"
     ],
     "answer": 3,
-    "groupNote": "* Refer to HIE-NDT-MT-P6A(SKB) written in accordance with API 6A and answer question.(API 6A에 따라 작성된 HIE-NDT-MT-P6A(SKB)를 참고하여 9번 물음에 답하시오.)"
+    "groupNote": "* Refer to HIE-NDT-MT-P6A(SKB) written in accordance with API 6A and answer question.(API 6A에 따라 작성된 HIE-NDT-MT-P6A(SKB)를 참고하여 9번 물음에 답하시오.)",
+    "part": "a"
   },
   {
     "id": 10,
@@ -106,7 +112,8 @@
       "1.5 mm (0.06 in)",
       "8 mm (0.3 in)"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "a"
   },
   {
     "id": 11,
@@ -121,7 +128,8 @@
       "Both 1 and 2\n1번과 2번 모두",
       "Cannot be changed, because the yoke always puts out the same amount of flux\n요크는 항상 같은 양의 자속을 내므로 바꿀 수 없다"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 12,
@@ -136,7 +144,8 @@
       "Are the prod tips clean and bright?\n프로드 팁이 깨끗하고 광택이 있는가?",
       "All of the above shall be considered\n위의 모두를 고려해야 한다"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "a"
   },
   {
     "id": 13,
@@ -151,7 +160,8 @@
       "Direct current\n직류",
       "Half-wave alternating current\n반파 교류"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 14,
@@ -166,7 +176,8 @@
       "Stringer\n스트링거",
       "Heat-treat crack\n열처리 균열"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 15,
@@ -181,7 +192,8 @@
       "Stringer\n스트링거",
       "Lack of root penetration\n루트 용입부족"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "a"
   },
   {
     "id": 16,
@@ -196,7 +208,8 @@
       "Fatigue cracks\n피로 균열",
       "Linear porosity\n선상 기공"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 17,
@@ -211,7 +224,8 @@
       "A master current transformer and a calibrated AC ammeter\n표준 변류기와 교정된 교류 전류계",
       "No check is necessary if not damaged\n손상되지 않았다면 점검할 필요 없다"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "b"
   },
   {
     "id": 18,
@@ -226,7 +240,8 @@
       "If parts are for railroad applications\n부품이 철도용일 때",
       "To increase speed and reliability of detecting very small defects\n아주 작은 결함을 더 빠르고 확실하게 검출하려고"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "a"
   },
   {
     "id": 19,
@@ -241,7 +256,8 @@
       "Should somewhat exceed the original magnetizing current\n원래 자화전류보다 어느 정도 커야 한다",
       "Is irrelevant since demagnetization is not necessary\n탈자가 필요 없으므로 상관없다"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 20,
@@ -256,7 +272,8 @@
       "Small localized areas\n작고 국부적인 부위",
       "All of the above\n위의 모두"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 21,
@@ -272,7 +289,8 @@
       "2.4 kAm-1 to 4.8 kAm-1\n2.4 kA/m ~ 4.8 kA/m"
     ],
     "answer": 1,
-    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-MT-N21 (Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME Code Section Ⅲ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅲ(2023 Edition)에 따른 압력용기 제작의 자분탐상검사에 대한 절차서(HIE-NDT-MT-N21.Rev.3)"
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-MT-N21 (Rev.2) for magnetic particle examination of pressure vessels fabricated in accordance with ASME Code Section Ⅲ, 2023 Edition.\n문제는 HIE 절차서에 언급되었다. 즉 ASME 규격 Sec.Ⅲ(2023 Edition)에 따른 압력용기 제작의 자분탐상검사에 대한 절차서(HIE-NDT-MT-N21.Rev.3)",
+    "part": "a"
   },
   {
     "id": 22,
@@ -287,7 +305,8 @@
       "Technical performance evaluation of Level I personnel can be done through a written examination.\nLevel I 요원의 기술 수행 평가는 필기시험으로 할 수 있다",
       "The practical examination for technical performance evaluation follows Level I or II practical examination requirements.\n기술 수행 평가를 위한 실기시험은 Level I 또는 II 실기시험 요구사항을 따른다"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 23,
@@ -302,7 +321,8 @@
       "Training requirements for Level III are satisfied by holding current ASNT Level III certificate.\n유효한 ASNT Level III 자격증을 가지면 Level III 교육 요건을 충족한다",
       "Vision examination requires near distance acuity and color vision.\n시력검사는 근거리 시력과 색각을 요구한다"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 24,
@@ -318,7 +338,8 @@
       "This criterion applies to castings only, so it cannot be judged\n이 기준은 주조품에만 적용되므로 판정할 수 없다"
     ],
     "answer": 0,
-    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2",
+    "part": "c"
   },
   {
     "id": 25,
@@ -333,7 +354,8 @@
       "Half-wave Direct Current\n반파 직류",
       "All of the above\n위의 모두"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 26,
@@ -348,7 +370,8 @@
       "Volumetric test and either PT or MT\n체적검사와 PT 또는 MT 중 하나",
       "PT or MT"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "c"
   },
   {
     "id": 28,
@@ -364,7 +387,8 @@
       "It shall be ground out and re-examined without evaluation\n평가하지 않고 연마해 없앤 뒤 재검사한다"
     ],
     "answer": 0,
-    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2",
+    "part": "c"
   },
   {
     "id": 29,
@@ -380,7 +404,8 @@
       "All of the above\n위의 모두"
     ],
     "answer": 2,
-    "groupNote": "* The following questions refer to ASME B 31.1.\nASME B31.1에 따라 29번 물음에 답하시오."
+    "groupNote": "* The following questions refer to ASME B 31.1.\nASME B31.1에 따라 29번 물음에 답하시오.",
+    "part": "c"
   },
   {
     "id": 30,
@@ -397,7 +422,8 @@
     ],
     "answer": 1,
     "groupNote": "* The following questions refer to ASME Code Section. I\nASME Sec. I.에 따라 30번 물음에 답하시오.",
-    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2",
+    "part": "c"
   },
   {
     "id": 31,
@@ -412,7 +438,8 @@
       "aligned in a random position and may become aligned to attract a magnetic\nmaterial\n무작위로 놓여 있으며 자성체를 끌어당기도록 정렬될 수 있다",
       "aligned in the same direction as the metal's grain structure\n금속의 결정 조직과 같은 방향으로 정렬되어 있다"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 32,
@@ -427,7 +454,8 @@
       "When it is desired to use the fluorescent lighting provided in many plants\n여러 공장에 갖춰진 형광등을 쓰고자 할 때",
       "When the parts being inspected are to be field welded\n검사 대상 부품을 현장 용접할 예정일 때"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "b"
   },
   {
     "id": 33,
@@ -442,7 +470,8 @@
       "Castings\n주조품",
       "Heat treatment\n열처리"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 34,
@@ -457,7 +486,8 @@
       "Residual magnetism could interfere with the operation or accuracy of instruments\nplaced on or near the part during service\n잔류자기가 사용 중 부품 위나 근처에 놓인 계기의 작동이나 정확도를 방해할 수 있다",
       "Residual magnetism can disturb the welding are path on parts to be welded\n잔류자기가 용접할 부품의 아크 경로를 흐트러뜨릴 수 있다"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "a"
   },
   {
     "id": 35,
@@ -472,7 +502,8 @@
       "Increases the strength of the retained magnetic field\n잔류자장의 세기를 키운다",
       "Helps to locate deep lying defects\n깊이 있는 결함을 찾는 데 도움이 된다"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 36,
@@ -487,7 +518,8 @@
       "By permitting the solids to settle out of suspension\n고형분을 가라앉혀서",
       "By measuring the pull on a magnet\n자석에 걸리는 흡인력을 재서"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 37,
@@ -502,7 +534,8 @@
       "permeability of the part\n부품의 투자율",
       "b and c above\n위의 2번과 3번"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "b"
   },
   {
     "id": 38,
@@ -517,7 +550,8 @@
       "material's Curie point\n재료의 퀴리점",
       "a and b above\n위의 1번과 2번"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "b"
   },
   {
     "id": 39,
@@ -532,7 +566,8 @@
       "It becomes nonmagnetic\n비자성체가 된다",
       "It becomes radioactive\n방사성을 띤다"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 40,
@@ -547,7 +582,8 @@
       "transparent lacquer\n투명 래커",
       "all of the above\n위의 모두"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "a"
   },
   {
     "id": 41,
@@ -562,7 +598,8 @@
       "the parts are painted\n부품에 도장이 되어 있을 때",
       "a and c above\n위의 1번과 3번"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "b"
   },
   {
     "id": 42,
@@ -577,7 +614,8 @@
       "Slightly magnetic\n약한 자성",
       "A demonstrated lack of electron mobility\n전자 이동성이 없는 것으로 확인됨"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 43,
@@ -592,7 +630,8 @@
       "Move the coil further away form the part\n코일을 부품에서 더 멀리 옮긴다",
       "All of the above\n위의 모두"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "a"
   },
   {
     "id": 44,
@@ -607,7 +646,8 @@
       "While the magnetizing current is applied\n자화전류가 흐르는 동안",
       "When the magnetic particle powder is applied\n자분을 뿌릴 때"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 45,
@@ -622,7 +662,8 @@
       "Half wave, rectified AC\n반파 정류 교류",
       "Full wave, rectified\n전파 정류"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "a"
   },
   {
     "id": 46,
@@ -637,7 +678,8 @@
       "distorted circular field\n일그러진 원형 자장",
       "residual field\n잔류 자장"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 47,
@@ -653,7 +695,8 @@
       "The strength of the magnetic field at the surfaces of the 1 inch bar will be\none-half that of the 1 inch bar\n1인치 봉 표면의 자장 세기가 1인치 봉의 절반이 된다"
     ],
     "answer": 2,
-    "note": "원본 시험지(MTM-III.HWP 17번)의 d 보기가 「the 1 inch bar will be one-half that of the 1 inch bar」로 되어 있다 — 1인치를 1인치와 견주는 말이 안 되는 문장이다. 2 inch bar 의 오기로 보이나 원본대로 두었다. 정답은 3번이라 채점에는 영향이 없다. 해당 종목 NDE Level Ⅲ 확인 필요."
+    "note": "원본 시험지(MTM-III.HWP 17번)의 d 보기가 「the 1 inch bar will be one-half that of the 1 inch bar」로 되어 있다 — 1인치를 1인치와 견주는 말이 안 되는 문장이다. 2 inch bar 의 오기로 보이나 원본대로 두었다. 정답은 3번이라 채점에는 영향이 없다. 해당 종목 NDE Level Ⅲ 확인 필요.",
+    "part": "a"
   },
   {
     "id": 48,
@@ -668,7 +711,8 @@
       "The strength of the magnetic field in the center of both bars will be zero\n두 봉 모두 중심의 자장 세기는 0이다",
       "The strength of the magnetic field in the center of the 1 inch bar will be\napproximately one-fourth the value for the 2 inch bar\n1인치 봉 중심의 자장 세기가 2인치 봉의 약 1/4이 된다"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 49,
@@ -683,7 +727,8 @@
       "the continuous method\n연속법",
       "the surge method\n서지법"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "a"
   },
   {
     "id": 50,
@@ -698,7 +743,8 @@
       "the material alloy\n재료의 합금 성분",
       "all of the above\n위의 모두"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "a"
   },
   {
     "id": 51,
@@ -713,7 +759,8 @@
       "the orientation and shape of the indication\n지시의 방향과 형상",
       "all of the above\n위의 모두"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "a"
   },
   {
     "id": 52,
@@ -728,7 +775,8 @@
       "Reinspect at higher amperage\n더 높은 전류로 재검사한다",
       "Reinspect using AC\n교류로 재검사한다"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "c"
   },
   {
     "id": 53,
@@ -743,7 +791,8 @@
       "Half wave, rectified, alternating current\n반파 정류 교류",
       "Full wave, rectified current\n전파 정류 전류"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 54,
@@ -758,7 +807,8 @@
       "configuration of the part\n부품의 형상",
       "all of the above\n위의 모두"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "b"
   },
   {
     "id": 55,
@@ -773,7 +823,8 @@
       "a relevant indication\n관련 지시",
       "a nonrelevant indication\n비관련 지시"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 56,
@@ -788,7 +839,8 @@
       "enter the south pole and leave the north pole\nS극으로 들어가 N극으로 나온다",
       "in all cases produce a longitudinal field\n어떤 경우에도 길이방향 자장을 만든다"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 57,
@@ -803,7 +855,8 @@
       "Vector magnetization\n벡터 자화",
       "Parallel magnetization\n평행 자화"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "b"
   },
   {
     "id": 58,
@@ -818,7 +871,8 @@
       "processed through a demagnetization cycle one at a time\n한 개씩 탈자 공정을 거친다",
       "loaded in a steel basket for better field distribution\n자장 분포를 좋게 하려고 강철 바구니에 담는다"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 59,
@@ -833,7 +887,8 @@
       "long and slender\n길고 가는 형상",
       "A mixture of 2 and 3\n2번과 3번의 혼합"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "a"
   },
   {
     "id": 60,
@@ -848,7 +903,8 @@
       "two head shots along the X and Y axis\nX축과 Y축을 따라 축통전 2회",
       "induced current shots along X, Y and Z axis, rotating 360 degrees during each\nshot\nX·Y·Z축을 따라 매회 360도 회전시키며 유도전류 통전"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "a"
   },
   {
     "id": 61,
@@ -863,7 +919,8 @@
       "in demagnetization\n탈자할 때",
       "All of the above\n위의 모두"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 62,
@@ -878,7 +935,8 @@
       "Parallel",
       "Vectored"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 63,
@@ -893,7 +951,8 @@
       "Porosity\n기공",
       "Quench cracks\n담금질 균열"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "a"
   },
   {
     "id": 64,
@@ -908,7 +967,8 @@
       "wet AC",
       "wet DC"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 65,
@@ -923,7 +983,8 @@
       "no indications\n지시 없음",
       "Both 1 and 2 above\n1번과 2번 모두"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "a"
   },
   {
     "id": 66,
@@ -938,7 +999,8 @@
       "reluctance\n자기저항",
       "decay\n붕괴"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 67,
@@ -953,7 +1015,8 @@
       "possess low retentivity\n낮은 보자력을 가진다",
       "have all of the above characteristics\n위의 성질을 모두 가진다"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "a"
   },
   {
     "id": 68,
@@ -968,7 +1031,8 @@
       "Pipe",
       "Lamination"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "a"
   },
   {
     "id": 69,
@@ -984,7 +1048,8 @@
       "magnetic writing\n자기 라이팅(magnetic writing)"
     ],
     "answer": 2,
-    "note": "원본 시험지의 철자 「magnetic witing」을 「magnetic writing」로 바로잡음 (2026-08-27)"
+    "note": "원본 시험지의 철자 「magnetic witing」을 「magnetic writing」로 바로잡음 (2026-08-27)",
+    "part": "a"
   },
   {
     "id": 70,
@@ -999,7 +1064,8 @@
       "Dust the surface with chalk or talc then wipe with dry, clean cloth\n표면에 분필이나 탤크를 뿌린 뒤 마르고 깨끗한 헝겊으로 닦는다",
       "Brush the surface with power, wire brush\n전동 와이어 브러시로 표면을 닦는다"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "b"
   },
   {
     "id": 71,
@@ -1014,7 +1080,8 @@
       "Bursts",
       "Flakes"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 72,
@@ -1029,7 +1096,8 @@
       "Cracks open to the surface\n표면으로 열린 균열",
       "All of the above\n위의 모두"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 73,
@@ -1044,7 +1112,8 @@
       "weaker in the one inch diameter bar\n지름 1인치 봉에서 더 약하다",
       "stronger in the one inch diameter bar\n지름 1인치 봉에서 더 강하다"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "a"
   },
   {
     "id": 74,
@@ -1059,7 +1128,8 @@
       "shrinkage\n수축",
       "decarburization\n탈탄"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "a"
   },
   {
     "id": 75,
@@ -1074,7 +1144,8 @@
       "retested in the opposite direction\n반대 방향으로 재검사한다",
       "remagnetized at a higher amperage\n더 높은 전류로 다시 자화한다"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 76,
@@ -1089,7 +1160,8 @@
       "SE-747",
       "SE-709"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "c"
   },
   {
     "id": 77,
@@ -1104,7 +1176,8 @@
       "Personnel qualification requirements\n요원 자격 요구사항",
       "Minimum light intensity\n최소 조도"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "c"
   },
   {
     "id": 78,
@@ -1119,7 +1192,8 @@
       "Method of excess particle removal\n잉여 자분 제거 방법",
       "Post-examination cleaning technique\n검사 후 세척 기법"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "c"
   },
   {
     "id": 79,
@@ -1134,7 +1208,8 @@
       "0.5",
       "2"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "c"
   },
   {
     "id": 80,
@@ -1149,7 +1224,8 @@
       "A: 8, B: 3",
       "A: 3, B: 3"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "c"
   },
   {
     "id": 81,
@@ -1164,7 +1240,8 @@
       "Grinding\n연삭",
       "Shaking\n흔들기"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "c"
   },
   {
     "id": 82,
@@ -1179,7 +1256,8 @@
       "1000",
       "2000"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "c"
   },
   {
     "id": 83,
@@ -1194,7 +1272,8 @@
       "1500",
       "2000"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "c"
   },
   {
     "id": 84,
@@ -1209,7 +1288,8 @@
       "embedded in the materials.\n재료 안에 묻혀 있는",
       "pores.\n기공"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "c"
   },
   {
     "id": 85,
@@ -1224,7 +1304,8 @@
       "reference to the procedure qualification records\n절차 인증 기록에 대한 참조",
       "method of measuring coating thickness\n도막 두께 측정 방법"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "c"
   },
   {
     "id": 86,
@@ -1239,7 +1320,8 @@
       "a Strip Chart\n스트립 차트",
       "a Pie Chart\n파이 차트"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "c"
   },
   {
     "id": 87,
@@ -1254,7 +1336,8 @@
       "1/8",
       "1/16"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "c"
   },
   {
     "id": 88,
@@ -1269,7 +1352,8 @@
       "4",
       "5"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 89,
@@ -1284,7 +1368,8 @@
       "3",
       "4"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 90,
@@ -1299,7 +1384,8 @@
       "four or more relevant rounded indications in a line separated by 1/16 or less\n1/16인치 이하 간격으로 일렬인 관련 원형 지시 4개 이상",
       "two or more relevant rounded indications in a line separated by 1/16 or less\n1/16인치 이하 간격으로 일렬인 관련 원형 지시 2개 이상"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 91,
@@ -1314,7 +1400,8 @@
       "a irrelevant indication\n비관련 지시",
       "a flaw\n결함"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "a"
   },
   {
     "id": 92,
@@ -1329,7 +1416,8 @@
       "400 to 600",
       "600 to 800"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 93,
@@ -1345,7 +1433,8 @@
       "Residual method\n잔류법"
     ],
     "answer": 0,
-    "note": "보기를 넷으로 맞추면서 오답 「None of the above」을 덜어냈다. 정답과 묻는 내용은 그대로다."
+    "note": "보기를 넷으로 맞추면서 오답 「None of the above」을 덜어냈다. 정답과 묻는 내용은 그대로다.",
+    "part": "a"
   },
   {
     "id": 94,
@@ -1361,7 +1450,8 @@
       "0.1 to 0.4 ml per 100 ml\n100mL당 0.1~0.4mL"
     ],
     "answer": 3,
-    "note": "보기를 넷으로 맞추면서 오답 「none of the above」을 덜어냈다. 정답과 묻는 내용은 그대로다."
+    "note": "보기를 넷으로 맞추면서 오답 「none of the above」을 덜어냈다. 정답과 묻는 내용은 그대로다.",
+    "part": "a"
   },
   {
     "id": 95,
@@ -1377,7 +1467,8 @@
       "1 minute\n1분"
     ],
     "answer": 1,
-    "note": "보기를 넷으로 맞추면서 오답 「None of the above」을 덜어냈다. 정답과 묻는 내용은 그대로다."
+    "note": "보기를 넷으로 맞추면서 오답 「None of the above」을 덜어냈다. 정답과 묻는 내용은 그대로다.",
+    "part": "a"
   },
   {
     "id": 96,
@@ -1394,7 +1485,8 @@
     ],
     "answer": 1,
     "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다.",
-    "note": "원본 시험지의 철자 「Jeager」을 「Jaeger」로 바로잡음 (2026-08-27)"
+    "note": "원본 시험지의 철자 「Jeager」을 「Jaeger」로 바로잡음 (2026-08-27)",
+    "part": "c"
   },
   {
     "id": 97,
@@ -1410,7 +1502,8 @@
       "Doubtful indications shall be reexamined to determine whether or not they are relevant.\n의심스러운 지시는 관련 지시인지 판정하기 위해 재검사해야 한다"
     ],
     "answer": 3,
-    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다."
+    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다.",
+    "part": "c"
   },
   {
     "id": 98,
@@ -1427,7 +1520,8 @@
     ],
     "answer": 1,
     "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다.",
-    "note": "은행이 맞다. 원본 답지 b = ASTM E 125 이고 은행도 ASTM E 125 다. 대조기가 다르다고 잡는 것은 원본 .hwp 에서 보기 a 와 b 가 「a. ASTM E 150b. ASTM E 125」로 한 줄에 붙어 읽히기 때문이다. 글자 문제지 답 문제가 아니다."
+    "note": "은행이 맞다. 원본 답지 b = ASTM E 125 이고 은행도 ASTM E 125 다. 대조기가 다르다고 잡는 것은 원본 .hwp 에서 보기 a 와 b 가 「a. ASTM E 150b. ASTM E 125」로 한 줄에 붙어 읽히기 때문이다. 글자 문제지 답 문제가 아니다.",
+    "part": "c"
   },
   {
     "id": 99,
@@ -1443,7 +1537,8 @@
       "Hot tears 1\n고온균열 등급 1"
     ],
     "answer": 3,
-    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다."
+    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다.",
+    "part": "a"
   },
   {
     "id": 100,
@@ -1459,7 +1554,8 @@
       "3/16 in. (5 mm)"
     ],
     "answer": 1,
-    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다."
+    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다.",
+    "part": "a"
   },
   {
     "id": 101,
@@ -1475,7 +1571,8 @@
       "1/4 in. (6 mm)"
     ],
     "answer": 2,
-    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다."
+    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 1.\n다음 문항은 ASME Section Ⅷ Div. 1 기준입니다.",
+    "part": "a"
   },
   {
     "id": 102,
@@ -1491,7 +1588,8 @@
       "MT Level Ⅲ only\nMT Level Ⅲ만"
     ],
     "answer": 2,
-    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 2.\n다음 문항은 ASME Section Ⅷ Div. 2 기준입니다."
+    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 2.\n다음 문항은 ASME Section Ⅷ Div. 2 기준입니다.",
+    "part": "a"
   },
   {
     "id": 103,
@@ -1507,7 +1605,8 @@
       "crack of 2 mm length\n길이 2mm 균열"
     ],
     "answer": 1,
-    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 2.\n다음 문항은 ASME Section Ⅷ Div. 2 기준입니다."
+    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 2.\n다음 문항은 ASME Section Ⅷ Div. 2 기준입니다.",
+    "part": "a"
   },
   {
     "id": 104,
@@ -1523,7 +1622,8 @@
       "Ultrasonic testing (UT)\n초음파탐상검사(UT)"
     ],
     "answer": 1,
-    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 2.\n다음 문항은 ASME Section Ⅷ Div. 2 기준입니다."
+    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 2.\n다음 문항은 ASME Section Ⅷ Div. 2 기준입니다.",
+    "part": "a"
   },
   {
     "id": 105,
@@ -1539,7 +1639,8 @@
       "E 125"
     ],
     "answer": 0,
-    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 2.\n다음 문항은 ASME Section Ⅷ Div. 2 기준입니다."
+    "groupNote": "The following questions apply to ASME Section Ⅷ Div. 2.\n다음 문항은 ASME Section Ⅷ Div. 2 기준입니다.",
+    "part": "a"
   },
   {
     "id": 106,
@@ -1555,7 +1656,8 @@
       "At least 30 minutes\n최소 30분"
     ],
     "answer": 0,
-    "note": "원본이 서술형이라 held/ 로 빼 두었던 문항(원본 2번)이다. 정답은 원본 그대로 두고 오답 셋을 지어 넣어 4지선다로 되돌렸다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "원본이 서술형이라 held/ 로 빼 두었던 문항(원본 2번)이다. 정답은 원본 그대로 두고 오답 셋을 지어 넣어 4지선다로 되돌렸다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "a"
   },
   {
     "id": 107,
@@ -1571,7 +1673,8 @@
       "Not exceed 212°F (100℃)\n212°F(100℃)를 넘지 않을 것"
     ],
     "answer": 0,
-    "note": "원본이 서술형이라 held/ 로 빼 두었던 문항(원본 5번)이다. 정답은 원본 그대로 두고 오답 셋을 지어 넣어 4지선다로 되돌렸다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "원본이 서술형이라 held/ 로 빼 두었던 문항(원본 5번)이다. 정답은 원본 그대로 두고 오답 셋을 지어 넣어 4지선다로 되돌렸다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "a"
   },
   {
     "id": 108,
@@ -1587,6 +1690,7 @@
       "Minimum 100 to maximum 300 mm\n최소 100 mm 에서 최대 300 mm"
     ],
     "answer": 0,
-    "note": "원본이 서술형이라 held/ 로 빼 두었던 문항(원본 7번)이다. 정답은 원본 그대로 두고 오답 셋을 지어 넣어 4지선다로 되돌렸다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "원본이 서술형이라 held/ 로 빼 두었던 문항(원본 7번)이다. 정답은 원본 그대로 두고 오답 셋을 지어 넣어 4지선다로 되돌렸다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "a"
   }
 ]

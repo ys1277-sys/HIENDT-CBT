@@ -13,7 +13,8 @@
       "24 inches"
     ],
     "answer": 3,
-    "groupNote": "* Question pertain to requirement in BPVC. Sec V(Latest Edition).\n(다음 문제는 ASME BPVC Sec.Ⅴ 최신판의 요구사항에 따라 답하시오.)"
+    "groupNote": "* Question pertain to requirement in BPVC. Sec V(Latest Edition).\n(다음 문제는 ASME BPVC Sec.Ⅴ 최신판의 요구사항에 따라 답하시오.)",
+    "part": "a"
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
       "30 degrees"
     ],
     "answer": 3,
-    "groupNote": "* Question pertain to requirement in BPVC. Sec V(Latest Edition).\n(다음 문제는 ASME BPVC Sec.Ⅴ 최신판의 요구사항에 따라 답하시오.)"
+    "groupNote": "* Question pertain to requirement in BPVC. Sec V(Latest Edition).\n(다음 문제는 ASME BPVC Sec.Ⅴ 최신판의 요구사항에 따라 답하시오.)",
+    "part": "a"
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@
       "none of the above\n위의 어느 것도 아님"
     ],
     "answer": 2,
-    "groupNote": "* Question pertain to requirement in BPVC. Sec V(Latest Edition).\n(다음 문제는 ASME BPVC Sec.Ⅴ 최신판의 요구사항에 따라 답하시오.)"
+    "groupNote": "* Question pertain to requirement in BPVC. Sec V(Latest Edition).\n(다음 문제는 ASME BPVC Sec.Ⅴ 최신판의 요구사항에 따라 답하시오.)",
+    "part": "c"
   },
   {
     "id": 4,
@@ -60,7 +63,8 @@
       "2-1/2 times",
       "equivalent to"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "a"
   },
   {
     "id": 5,
@@ -76,7 +80,8 @@
       "all of the above\n위의 모두"
     ],
     "answer": 3,
-    "groupNote": "* Question pertain to requirement in BPVC. Sec V(Latest Edition).\n(다음 문제는 ASME BPVC Sec.Ⅴ 최신판의 요구사항에 따라 답하시오.)"
+    "groupNote": "* Question pertain to requirement in BPVC. Sec V(Latest Edition).\n(다음 문제는 ASME BPVC Sec.Ⅴ 최신판의 요구사항에 따라 답하시오.)",
+    "part": "b"
   },
   {
     "id": 6,
@@ -92,7 +97,8 @@
       "demonstrate a visual examination procedure\n육안검사 절차서를 실증하기 위해"
     ],
     "answer": 1,
-    "groupNote": "* Question pertain to requirement in BPVC. Sec V(Latest Edition).\n(다음 문제는 ASME BPVC Sec.Ⅴ 최신판의 요구사항에 따라 답하시오.)"
+    "groupNote": "* Question pertain to requirement in BPVC. Sec V(Latest Edition).\n(다음 문제는 ASME BPVC Sec.Ⅴ 최신판의 요구사항에 따라 답하시오.)",
+    "part": "c"
   },
   {
     "id": 7,
@@ -108,7 +114,8 @@
       "NG-5300"
     ],
     "answer": 3,
-    "groupNote": "* Questions pertain to requirement in B & PV Code, Sec Ⅲ.(Latest Edition)\n(다음 문제는 ASME B & PV Code Sec.Ⅲ 최신판의 요구사항에 따라 답하시오.)"
+    "groupNote": "* Questions pertain to requirement in B & PV Code, Sec Ⅲ.(Latest Edition)\n(다음 문제는 ASME B & PV Code Sec.Ⅲ 최신판의 요구사항에 따라 답하시오.)",
+    "part": "c"
   },
   {
     "id": 8,
@@ -124,7 +131,8 @@
       "undercut depth · weld reinforcement · undercut length\n언더컷 깊이 · 용접 덧살 · 언더컷 길이"
     ],
     "answer": 0,
-    "note": "넷 가운데 3개가 정답인 복수정답 문항이라 찍어도 맞을 확률이 높았다. 항목을 묶어 조합형 단일정답으로 바꿨다. 정답 조합은 원본 정답 그대로다. ★ 오답 조합은 해당 종목 NDE Level Ⅲ 의 확인이 필요하다 (HIE-QP-E02 6.1.2, 6.3.1)."
+    "note": "넷 가운데 3개가 정답인 복수정답 문항이라 찍어도 맞을 확률이 높았다. 항목을 묶어 조합형 단일정답으로 바꿨다. 정답 조합은 원본 정답 그대로다. ★ 오답 조합은 해당 종목 NDE Level Ⅲ 의 확인이 필요하다 (HIE-QP-E02 6.1.2, 6.3.1).",
+    "part": "c"
   },
   {
     "id": 9,
@@ -140,7 +148,8 @@
       "None of above\n위의 어느 것도 아님"
     ],
     "answer": 3,
-    "groupNote": "* Questions pertain to requirement in B & PV Code, Sec Ⅲ.(Latest Edition)\n(다음 문제는 ASME B & PV Code Sec.Ⅲ 최신판의 요구사항에 따라 답하시오.)"
+    "groupNote": "* Questions pertain to requirement in B & PV Code, Sec Ⅲ.(Latest Edition)\n(다음 문제는 ASME B & PV Code Sec.Ⅲ 최신판의 요구사항에 따라 답하시오.)",
+    "part": "a"
   },
   {
     "id": 10,
@@ -155,7 +164,8 @@
       "1/32 inch",
       "1/4 inch"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "a"
   },
   {
     "id": 11,
@@ -171,7 +181,8 @@
       "Weld undercut 1/8 inch deep\n깊이 1/8인치 용접 언더컷"
     ],
     "answer": 1,
-    "groupNote": "* Questions pertain to requirement in B & PV Code, Sec Ⅲ.(Latest Edition)\n(다음 문제는 ASME B & PV Code Sec.Ⅲ 최신판의 요구사항에 따라 답하시오.)"
+    "groupNote": "* Questions pertain to requirement in B & PV Code, Sec Ⅲ.(Latest Edition)\n(다음 문제는 ASME B & PV Code Sec.Ⅲ 최신판의 요구사항에 따라 답하시오.)",
+    "part": "a"
   },
   {
     "id": 12,
@@ -187,7 +198,8 @@
       "Fillet weld width\n필릿 용접 폭"
     ],
     "answer": 3,
-    "groupNote": "* Questions pertain to visual examination equipment.\n(12번에서 13번은 육안검사용 장비와 관련한 문제임)"
+    "groupNote": "* Questions pertain to visual examination equipment.\n(12번에서 13번은 육안검사용 장비와 관련한 문제임)",
+    "part": "c"
   },
   {
     "id": 13,
@@ -203,7 +215,8 @@
       "The fibers are generally about 30 microns each in diameter\n광섬유는 보통 가닥마다 지름이 약 30마이크론이다"
     ],
     "answer": 1,
-    "groupNote": "* Questions pertain to visual examination equipment.\n(12번에서 13번은 육안검사용 장비와 관련한 문제임)"
+    "groupNote": "* Questions pertain to visual examination equipment.\n(12번에서 13번은 육안검사용 장비와 관련한 문제임)",
+    "part": "b"
   },
   {
     "id": 14,
@@ -219,7 +232,8 @@
       "When employee leaves the employer where certified\n자격을 받은 사업장을 떠났을 때"
     ],
     "answer": 3,
-    "groupNote": "* Questions pertain to HIE-QP-E01.\n(다음 문제는 HIE 비파괴시험요원 자격인정 절차서[HIE-QP-E01]에 관한 것이다.)"
+    "groupNote": "* Questions pertain to HIE-QP-E01.\n(다음 문제는 HIE 비파괴시험요원 자격인정 절차서[HIE-QP-E01]에 관한 것이다.)",
+    "part": "a"
   },
   {
     "id": 15,
@@ -235,7 +249,8 @@
       "Shall be submitted to ASNT for approval\n승인을 받기 위해 ASNT에 제출해야 한다"
     ],
     "answer": 0,
-    "groupNote": "* Questions pertain to HIE-QP-E01.\n(다음 문제는 HIE 비파괴시험요원 자격인정 절차서[HIE-QP-E01]에 관한 것이다.)"
+    "groupNote": "* Questions pertain to HIE-QP-E01.\n(다음 문제는 HIE 비파괴시험요원 자격인정 절차서[HIE-QP-E01]에 관한 것이다.)",
+    "part": "a"
   },
   {
     "id": 16,
@@ -250,7 +265,8 @@
       "May waive examination\n시험을 면제할 수 있다",
       "May waive written examination if oral examination is given\n구술시험을 실시하면 필기시험을 면제할 수 있다"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "b"
   },
   {
     "id": 17,
@@ -265,7 +281,8 @@
       "Employer",
       "QA Manager"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 18,
@@ -281,7 +298,8 @@
       "Verifying valve body markings\n밸브 몸체 각인 확인"
     ],
     "answer": 0,
-    "groupNote": "* The following questions refer to ASME B16.34\nASME B16.34에 따라 18번 물음에 답하시오."
+    "groupNote": "* The following questions refer to ASME B16.34\nASME B16.34에 따라 18번 물음에 답하시오.",
+    "part": "c"
   },
   {
     "id": 19,
@@ -297,7 +315,8 @@
       "Overheating\n과열"
     ],
     "answer": 1,
-    "note": "은행이 맞고 원본 답지가 틀렸다. 원본 답지는 c(Creep)인데 피로파괴의 직접 원인은 반복 하중이다. 크리프는 고온에서 일정 하중이 오래 걸릴 때 일어나는 다른 현상이다. 은행의 ②(Repeated loading)를 유지한다."
+    "note": "은행이 맞고 원본 답지가 틀렸다. 원본 답지는 c(Creep)인데 피로파괴의 직접 원인은 반복 하중이다. 크리프는 고온에서 일정 하중이 오래 걸릴 때 일어나는 다른 현상이다. 은행의 ②(Repeated loading)를 유지한다.",
+    "part": "a"
   },
   {
     "id": 20,
@@ -312,7 +331,8 @@
       "ASME Section XI",
       "ASME Section V"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "c"
   },
   {
     "id": 21,
@@ -327,7 +347,8 @@
       "1/2 inch\n1/2인치",
       "one weld bead width\n용접 비드 폭 1배"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 22,
@@ -343,7 +364,8 @@
       "Profile\n형상"
     ],
     "answer": 0,
-    "groupNote": "* Questions pertain to visual examination equipment.\n(다음 문제는 육안검사 장비에 관한 것이다.)"
+    "groupNote": "* Questions pertain to visual examination equipment.\n(다음 문제는 육안검사 장비에 관한 것이다.)",
+    "part": "a"
   },
   {
     "id": 23,
@@ -359,7 +381,8 @@
       "None of the above\n위의 어느 것도 아님"
     ],
     "answer": 2,
-    "groupNote": "* Questions pertain to materials.\n(23번에서 25번은 재료와 관련된 문제임.)"
+    "groupNote": "* Questions pertain to materials.\n(23번에서 25번은 재료와 관련된 문제임.)",
+    "part": "a"
   },
   {
     "id": 24,
@@ -375,7 +398,8 @@
       "A casting\n주조품"
     ],
     "answer": 2,
-    "groupNote": "* Questions pertain to materials.\n(23번에서 25번은 재료와 관련된 문제임.)"
+    "groupNote": "* Questions pertain to materials.\n(23번에서 25번은 재료와 관련된 문제임.)",
+    "part": "a"
   },
   {
     "id": 25,
@@ -391,7 +415,8 @@
       "Forging laps\n단조 겹침(랩)"
     ],
     "answer": 1,
-    "groupNote": "* Questions pertain to materials.\n(23번에서 25번은 재료와 관련된 문제임.)"
+    "groupNote": "* Questions pertain to materials.\n(23번에서 25번은 재료와 관련된 문제임.)",
+    "part": "a"
   },
   {
     "id": 26,
@@ -406,7 +431,8 @@
       "1/8 inch",
       "3/16 inch"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "a"
   },
   {
     "id": 27,
@@ -421,7 +447,8 @@
       "1/4 inch",
       "5/16 inch"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 28,
@@ -436,7 +463,8 @@
       "48 hours",
       "72 hours"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "c"
   },
   {
     "id": 29,
@@ -451,7 +479,8 @@
       "3/16 inch",
       "1/4 inch"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 30,
@@ -466,7 +495,8 @@
       "3/16 inch",
       "1/4 inch"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 31,
@@ -481,7 +511,8 @@
       "The general, specific, and practical\n일반, 전문, 실기",
       "Only the general\n일반만"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 32,
@@ -496,7 +527,8 @@
       "ultraviolet\n자외선"
     ],
     "answer": 0,
-    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 밝은 곳에서 사람 눈은 파장 555 nm 언저리의 황록색에 가장 민감하다. 검사장 조명과 대비 색을 고를 때 바탕이 되는 성질이다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 밝은 곳에서 사람 눈은 파장 555 nm 언저리의 황록색에 가장 민감하다. 검사장 조명과 대비 색을 고를 때 바탕이 되는 성질이다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "a"
   },
   {
     "id": 33,
@@ -511,7 +543,8 @@
       "the angle of view\n보는 각도"
     ],
     "answer": 1,
-    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 아무리 밝아도 바탕과 구별되지 않으면 안 보인다. 그래서 조도만이 아니라 대비를 함께 따지고, 필요하면 빛의 방향을 바꾸거나 대비 표준을 쓴다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 아무리 밝아도 바탕과 구별되지 않으면 안 보인다. 그래서 조도만이 아니라 대비를 함께 따지고, 필요하면 빛의 방향을 바꾸거나 대비 표준을 쓴다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "a"
   },
   {
     "id": 34,
@@ -526,7 +559,8 @@
       "changes the colour of the surface\n표면의 색을 바꾸기 때문"
     ],
     "answer": 2,
-    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 빛이 매끄러운 면에서 곧바로 눈으로 되쏘이면 눈이 부셔 잔 것을 못 본다. 빛의 각도를 바꾸거나 산란광을 써서 없앤다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 빛이 매끄러운 면에서 곧바로 눈으로 되쏘이면 눈이 부셔 잔 것을 못 본다. 빛의 각도를 바꾸거나 산란광을 써서 없앤다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "a"
   },
   {
     "id": 35,
@@ -541,7 +575,8 @@
       "cast shadows that reveal surface relief such as cracks and undercut\n그림자를 지워 균열이나 언더컷 같은 표면 굴곡을 드러내려고"
     ],
     "answer": 3,
-    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 정면에서 비추면 굴곡이 평평해 보인다. 비스듬히 비추면 파인 자리에 그림자가 져서 눈에 든다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 정면에서 비추면 굴곡이 평평해 보인다. 비스듬히 비추면 파인 자리에 그림자가 져서 눈에 든다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "a"
   },
   {
     "id": 36,
@@ -556,7 +591,8 @@
       "the hardness of the base metal\n모재의 경도"
     ],
     "answer": 0,
-    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : VT-1 은 균열 같은 표면 결함을, VT-2 는 누설 흔적을, VT-3 은 부품·지지물의 전반 상태를 본다. 무엇을 찾는지가 다르므로 요구되는 조도와 거리도 다르다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : VT-1 은 균열 같은 표면 결함을, VT-2 는 누설 흔적을, VT-3 은 부품·지지물의 전반 상태를 본다. 무엇을 찾는지가 다르므로 요구되는 조도와 거리도 다르다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "c"
   },
   {
     "id": 37,
@@ -571,7 +607,8 @@
       "15 ft-cd (161 lux)\n15 ft-cd (161 lux)"
     ],
     "answer": 1,
-    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 4.2. 최소 100 ft-cd(1,076 lux)다. 자분탐상·침투탐상의 가시광 조건 100 fc 와 같은 값이다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 4.2. 최소 100 ft-cd(1,076 lux)다. 자분탐상·침투탐상의 가시광 조건 100 fc 와 같은 값이다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "b"
   },
   {
     "id": 38,
@@ -586,7 +623,8 @@
       "only before first use\n처음 쓰기 전에만"
     ],
     "answer": 2,
-    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 4.2. 1년마다 또는 수리될 때마다 교정한다. 1년 넘게 안 썼으면 쓰기 전에 교정한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 4.2. 1년마다 또는 수리될 때마다 교정한다. 1년 넘게 안 썼으면 쓰기 전에 교정한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "b"
   },
   {
     "id": 39,
@@ -601,7 +639,8 @@
       "annually\n해마다"
     ],
     "answer": 3,
-    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 3.3. 자연 시력이든 교정 시력이든 재거 차트의 표준 J-1 문자를 읽을 수 있는지 해마다 확인한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 3.3. 자연 시력이든 교정 시력이든 재거 차트의 표준 J-1 문자를 읽을 수 있는지 해마다 확인한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "b"
   },
   {
     "id": 40,
@@ -616,7 +655,8 @@
       "the purchaser\n발주자"
     ],
     "answer": 0,
-    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 3.2. 자격인정은 SNT-TC-1A 를 따르는 HIE-QP-E01 에 따른다. 검사는 자격자가, 평가는 VT Level Ⅱ 이상이 한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 3.2. 자격인정은 SNT-TC-1A 를 따르는 HIE-QP-E01 에 따른다. 검사는 자격자가, 평가는 VT Level Ⅱ 이상이 한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "b"
   },
   {
     "id": 41,
@@ -631,7 +671,8 @@
       "magnetized\n자화한다"
     ],
     "answer": 1,
-    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 5.1.1. 이물질이 결함을 가린다. 다만 기계가공으로 결함을 덮어 가리는 불규칙한 지시는 없애야 한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 5.1.1. 이물질이 결함을 가린다. 다만 기계가공으로 결함을 덮어 가리는 불규칙한 지시는 없애야 한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "b"
   },
   {
     "id": 42,
@@ -646,7 +687,8 @@
       "a hardness test\n경도 시험"
     ],
     "answer": 2,
-    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 3.4. 그 폭의 선을 볼 수 있으면 그 조건에서 검사할 수 있다고 본다. 조도·거리·각도·기구를 다 갖춘 상태에서 확인한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 3.4. 그 폭의 선을 볼 수 있으면 그 조건에서 검사할 수 있다고 본다. 조도·거리·각도·기구를 다 갖춘 상태에서 확인한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "b"
   },
   {
     "id": 43,
@@ -661,7 +703,8 @@
       "take a permanent, removable record of the surface condition for examination elsewhere\n표면 상태를 떼어 낼 수 있는 기록으로 떠서 다른 데서 살펴보려고"
     ],
     "answer": 3,
-    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 쓰던 설비를 뜯어 올 수 없을 때 그 자리에서 표면을 떠 온다. 현미경으로 크리프 공동이나 미세 균열을 보는 데 쓴다. 표면을 곱게 다듬고 부식시킨 뒤 떠야 한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 쓰던 설비를 뜯어 올 수 없을 때 그 자리에서 표면을 떠 온다. 현미경으로 크리프 공동이나 미세 균열을 보는 데 쓴다. 표면을 곱게 다듬고 부식시킨 뒤 떠야 한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "a"
   },
   {
     "id": 44,
@@ -676,7 +719,8 @@
       "no need for illumination\n조명이 필요 없다"
     ],
     "answer": 0,
-    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 경성은 렌즈로 상을 넘겨 또렷하지만 곧은 길로만 들어간다. 연성은 광섬유 다발이라 굽은 데를 지날 수 있으나 섬유 수만큼만 상이 잡혀 거칠다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 경성은 렌즈로 상을 넘겨 또렷하지만 곧은 길로만 들어간다. 연성은 광섬유 다발이라 굽은 데를 지날 수 있으나 섬유 수만큼만 상이 잡혀 거칠다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "a"
   },
   {
     "id": 45,
@@ -691,7 +735,8 @@
       "the light intensity\n조도"
     ],
     "answer": 1,
-    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 눈으로 「많다·적다」를 말하면 사람마다 다르다. 게이지로 재어 숫자로 남겨야 합격기준과 견줄 수 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 눈으로 「많다·적다」를 말하면 사람마다 다르다. 게이지로 재어 숫자로 남겨야 합격기준과 견줄 수 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "a"
   },
   {
     "id": 46,
@@ -706,7 +751,8 @@
       "only welds designated by the purchaser\n발주자가 지정한 용접부만"
     ],
     "answer": 2,
-    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 4.1. 전수 검사다. 육안검사는 값이 싸고 빠르므로 다른 방법을 하기 전에 전부 훑는 것이 원칙이다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 4.1. 전수 검사다. 육안검사는 값이 싸고 빠르므로 다른 방법을 하기 전에 전부 훑는 것이 원칙이다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "b"
   },
   {
     "id": 47,
@@ -721,7 +767,8 @@
       "plan the examination and confirm that the required observations were made\n검사를 계획하고 요구된 관찰이 실제로 이루어졌는지 확인하려고"
     ],
     "answer": 3,
-    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 5.2.2. 점검표는 제작자가 공정 중 수행할 최소 검사 요건을 정한다. 최대 요건을 정하는 것은 아니므로 더 볼 수 있으면 본다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 5.2.2. 점검표는 제작자가 공정 중 수행할 최소 검사 요건을 정한다. 최대 요건을 정하는 것은 아니므로 더 볼 수 있으면 본다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "c"
   },
   {
     "id": 48,
@@ -736,7 +783,8 @@
       "replaces all other NDT methods\n다른 모든 비파괴검사를 대신하기 때문"
     ],
     "answer": 0,
-    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 루트 패스의 용입불량이나 덜 걷어낸 슬래그는 다음 패스가 덮으면 표면에서 안 보인다. 그때그때 보아야 고칠 수 있고 재작업 비용도 준다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 루트 패스의 용입불량이나 덜 걷어낸 슬래그는 다음 패스가 덮으면 표면에서 안 보인다. 그때그때 보아야 고칠 수 있고 재작업 비용도 준다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "a"
   },
   {
     "id": 49,
@@ -751,7 +799,8 @@
       "the examiner is replaced\n검사자가 바뀔 때"
     ],
     "answer": 1,
-    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 3.4 · 표 6. 필수변수가 벗어나면 실증으로 다시 인정해야 한다. 비필수변수가 바뀌면 절차서를 고치기만 하면 된다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 3.4 · 표 6. 필수변수가 벗어나면 실증으로 다시 인정해야 한다. 비필수변수가 바뀌면 절차서를 고치기만 하면 된다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "b"
   },
   {
     "id": 50,
@@ -766,7 +815,8 @@
       "doubles the required light intensity\n필요한 조도가 두 배가 된다"
     ],
     "answer": 2,
-    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 5.2 · ASME Sec.V Art.9 T-952. 거울과 확대경은 직접 육안검사에서 쓸 수 있다. 눈과 표면 사이에 상을 옮기는 장치(보어스코프·카메라)가 끼면 원격이 된다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 5.2 · ASME Sec.V Art.9 T-952. 거울과 확대경은 직접 육안검사에서 쓸 수 있다. 눈과 표면 사이에 상을 옮기는 장치(보어스코프·카메라)가 끼면 원격이 된다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "a"
   },
   {
     "id": 51,
@@ -781,7 +831,8 @@
       "1/32 in. (0.8 mm)\n1/32 in.(0.8 mm)"
     ],
     "answer": 3,
-    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 6.2 (ASME B31.1 136.4.2). 1/32 in.(0.8 mm)를 넘거나, 최소 요구 단면 두께를 넘어 파이면 불합격이다. 두 잣대 가운데 어느 하나만 걸려도 안 된다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 6.2 (ASME B31.1 136.4.2). 1/32 in.(0.8 mm)를 넘거나, 최소 요구 단면 두께를 넘어 파이면 불합격이다. 두 잣대 가운데 어느 하나만 걸려도 안 된다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "c"
   },
   {
     "id": 52,
@@ -796,7 +847,8 @@
       "1/4 in. (6.0 mm)\n1/4 in.(6.0 mm)"
     ],
     "answer": 0,
-    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 6.2 (ASME B31.1 136.4.2 (7)). 3/16 in.(5.0 mm)를 넘는 선형지시는 불합격이다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 6.2 (ASME B31.1 136.4.2 (7)). 3/16 in.(5.0 mm)를 넘는 선형지시는 불합격이다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "c"
   },
   {
     "id": 53,
@@ -811,7 +863,8 @@
       "1/4 in. (6.0 mm) or less\n1/4 in.(6.0 mm) 이하"
     ],
     "answer": 1,
-    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 6.2 (ASME B31.1 136.4.2 (8)). 임의의 방향으로 간격이 1/16 in.(1.5 mm) 이하인 구형지시가 네 개 이상이면 불합격이다. 치수가 3/16 in.(5.0 mm)를 넘는 구형지시 하나도 불합격이다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 6.2 (ASME B31.1 136.4.2 (8)). 임의의 방향으로 간격이 1/16 in.(1.5 mm) 이하인 구형지시가 네 개 이상이면 불합격이다. 치수가 3/16 in.(5.0 mm)를 넘는 구형지시 하나도 불합격이다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "c"
   },
   {
     "id": 54,
@@ -826,7 +879,8 @@
       "equal to its width\n폭과 같은 것"
     ],
     "answer": 2,
-    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 6.2. 길이가 폭의 3배 이하면 구형지시, 넘으면 선형지시다. 합격기준이 둘에 따라 다르므로 분류가 먼저다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 6.2. 길이가 폭의 3배 이하면 구형지시, 넘으면 선형지시다. 합격기준이 둘에 따라 다르므로 분류가 먼저다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "c"
   },
   {
     "id": 55,
@@ -841,7 +895,8 @@
       "only when the inside surface is readily accessible\n내면에 쉽게 접근할 수 있을 때만"
     ],
     "answer": 3,
-    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 6.2 (ASME B31.1 136.4.2 (6)). 눈이 닿아야 볼 수 있다. 안쪽에 못 들어가면 방사선이나 초음파로 본다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 6.2 (ASME B31.1 136.4.2 (6)). 눈이 닿아야 볼 수 있다. 안쪽에 못 들어가면 방사선이나 초음파로 본다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "c"
   },
   {
     "id": 56,
@@ -856,7 +911,8 @@
       "referred to the welder for a decision\n용접사에게 판정을 맡긴다"
     ],
     "answer": 0,
-    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 6.1. 표 1 에 주어진 기준을 넘는 지시가 관찰되면 불합격이다. 검사 결과는 적용 기술기준의 합격기준에 따라 평가한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 6.1. 표 1 에 주어진 기준을 넘는 지시가 관찰되면 불합격이다. 검사 결과는 적용 기술기준의 합격기준에 따라 평가한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "c"
   },
   {
     "id": 57,
@@ -871,7 +927,8 @@
       "only if a rejectable indication is found\n불합격 지시가 나왔을 때만"
     ],
     "answer": 1,
-    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 7.0. 양식을 정해 두면 빠뜨리는 항목이 없고 나중에 견주기 쉽다. 합격이어도 기록은 남긴다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 7.0. 양식을 정해 두면 빠뜨리는 항목이 없고 나중에 견주기 쉽다. 합격이어도 기록은 남긴다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "b"
   },
   {
     "id": 58,
@@ -886,7 +943,8 @@
       "ISO 5817 only\nISO 5817 만"
     ],
     "answer": 2,
-    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 1.0. 저합금강이나 탄소강 배관으로 만든 것에 적용하며, 시험부 형상은 맞대기 용접부와 필렛 용접부, 재료 형태는 배관과 판재다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 1.0. 저합금강이나 탄소강 배관으로 만든 것에 적용하며, 시험부 형상은 맞대기 용접부와 필렛 용접부, 재료 형태는 배관과 판재다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "c"
   },
   {
     "id": 59,
@@ -901,7 +959,8 @@
       "is weld metal lying on the base metal without fusion, forming a sharp notch\n모재에 붙지 않고 얹혀 있어 날카로운 노치를 만들기 때문"
     ],
     "answer": 3,
-    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 붙지 않았으므로 그 경계가 곧 균열과 같다. 게다가 지단부가 날카로워 응력이 몰린다. 갈아 없애고 필요하면 다시 용접한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 붙지 않았으므로 그 경계가 곧 균열과 같다. 게다가 지단부가 날카로워 응력이 몰린다. 갈아 없애고 필요하면 다시 용접한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "a"
   },
   {
     "id": 60,
@@ -916,7 +975,8 @@
       "are always removed by the welder\n용접사가 늘 없애기 때문"
     ],
     "answer": 0,
-    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 모재가 순간 녹았다 둘레 금속에 열을 빼앗겨 급랭한다. 그 자리가 굳고 물러져 균열이 시작된다. 갈아 없애고 두께가 모자라지 않는지 확인한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 모재가 순간 녹았다 둘레 금속에 열을 빼앗겨 급랭한다. 그 자리가 굳고 물러져 균열이 시작된다. 갈아 없애고 두께가 모자라지 않는지 확인한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "a"
   },
   {
     "id": 61,
@@ -931,7 +991,8 @@
       "prevents radiographic examination\n방사선투과검사를 못 하게 하기 때문"
     ],
     "answer": 1,
-    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 덧살 자체가 약한 것이 아니라 지단부의 급한 꺾임이 문제다. 그래서 규격이 높이를 제한하고, 피로를 받는 부재는 매끄럽게 갈아 낸다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 덧살 자체가 약한 것이 아니라 지단부의 급한 꺾임이 문제다. 그래서 규격이 높이를 제한하고, 피로를 받는 부재는 매끄럽게 갈아 낸다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "a"
   },
   {
     "id": 62,
@@ -946,7 +1007,8 @@
       "the height of the weld reinforcement\n덧살의 높이"
     ],
     "answer": 2,
-    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 면이 어긋난 채 용접하면 그 단차에 응력이 몰리고 방사선 판독도 어려워진다. 조립 검사에서 미리 잡아야 하므로 공정 중 육안검사의 주요 항목이다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 면이 어긋난 채 용접하면 그 단차에 응력이 몰리고 방사선 판독도 어려워진다. 조립 검사에서 미리 잡아야 하므로 공정 중 육안검사의 주요 항목이다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "a"
   },
   {
     "id": 63,
@@ -961,7 +1023,8 @@
       "at the point where the arc was broken at the end of a bead\n비드 끝에서 아크를 끊은 자리"
     ],
     "answer": 3,
-    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 아크를 갑자기 끊으면 마지막 쇳물이 오목하게 굳으면서 가운데로 당겨져 갈라진다. 별 모양으로 나기도 한다. 크레이터를 채우고 끊으면 막을 수 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 아크를 갑자기 끊으면 마지막 쇳물이 오목하게 굳으면서 가운데로 당겨져 갈라진다. 별 모양으로 나기도 한다. 크레이터를 채우고 끊으면 막을 수 있다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "a"
   },
   {
     "id": 64,
@@ -976,7 +1039,8 @@
       "requires the part to be magnetic\n부재가 자성체여야 하는 것"
     ],
     "answer": 0,
-    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 눈에 보이는 것만 본다. 그래서 속에 있는 결함은 방사선·초음파로 따로 본다. 대신 값이 싸고 빨라 다른 방법에 앞서 전수로 한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : 눈에 보이는 것만 본다. 그래서 속에 있는 결함은 방사선·초음파로 따로 본다. 대신 값이 싸고 빨라 다른 방법에 앞서 전수로 한다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "a"
   },
   {
     "id": 65,
@@ -991,6 +1055,7 @@
       "the ambient temperature\n둘레 온도"
     ],
     "answer": 1,
-    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 6.2. 깊이 1/32 in. 를 안 넘어도, 그만큼 파여 최소 요구 두께 아래로 내려가면 불합격이다. 두 잣대를 함께 본다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "2026-08-27 에 새로 지은 문항이다. 은행이 규정 출제 수와 같아 회차마다 같은 문항이 나가던 것을 늘리려는 것이다(HIE-QP-E02 6.1.3). 근거 : HIE-NDT-VT-P11 6.2. 깊이 1/32 in. 를 안 넘어도, 그만큼 파여 최소 요구 두께 아래로 내려가면 불합격이다. 두 잣대를 함께 본다. 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "c"
   }
 ]

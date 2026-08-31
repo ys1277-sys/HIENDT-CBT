@@ -12,7 +12,8 @@
       "Ug = 0.84 mm\nUg = 0.84 mm"
     ],
     "answer": 0,
-    "note": "원본이 서술형인 문항이다. 객관식으로 옮기며 보기 2~4번이 비어 있던 것을, 원본대로 주관식으로 되돌렸다. 정답은 원본 답지 그대로다.\n원본은 주관식이고 정답이 「Ug = 0.084 inch」였다. 4지선다로 바꾸며 오답 「Ug = 0.042 mm」 · 「Ug = 0.168 mm」 · 「Ug = 0.84 mm」 을 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본이 서술형인 문항이다. 객관식으로 옮기며 보기 2~4번이 비어 있던 것을, 원본대로 주관식으로 되돌렸다. 정답은 원본 답지 그대로다.\n원본은 주관식이고 정답이 「Ug = 0.084 inch」였다. 4지선다로 바꾸며 오답 「Ug = 0.042 mm」 · 「Ug = 0.168 mm」 · 「Ug = 0.84 mm」 을 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2",
+    "part": "a"
   },
   {
     "id": 7,
@@ -28,7 +29,8 @@
       "Minimum equivalent sensitivity of 4% and a 4-4T quality level\n최소 등가감도 4%, 상질 4-4T"
     ],
     "answer": 1,
-    "groupNote": "* The following questions refer to API 6A\nAPI 6A에 따라 물음에 답하시오."
+    "groupNote": "* The following questions refer to API 6A\nAPI 6A에 따라 물음에 답하시오.",
+    "part": "a"
   },
   {
     "id": 8,
@@ -45,7 +47,8 @@
     ],
     "answer": 0,
     "groupNote": "* The following questions refer to API 6A\nAPI 6A에 따라 물음에 답하시오.",
-    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2",
+    "part": "c"
   },
   {
     "id": 9,
@@ -60,7 +63,8 @@
       "ASME Section VIII Div.1 UW-51",
       "ASME B31.3"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "c"
   },
   {
     "id": 11,
@@ -76,7 +80,8 @@
       "In\n내부"
     ],
     "answer": 0,
-    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-N21(Rev.3) for radiographic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅲ, 2023 Edition\n문제는 ASME 규격 Sec.Ⅲ(2023 Edition)에 따른 압력용기 제작의 방사선 투과 시험에 대한 절차서 HIE-NDT-RT-N21.(Rev.3)를 참조하시오."
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-N21(Rev.3) for radiographic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅲ, 2023 Edition\n문제는 ASME 규격 Sec.Ⅲ(2023 Edition)에 따른 압력용기 제작의 방사선 투과 시험에 대한 절차서 HIE-NDT-RT-N21.(Rev.3)를 참조하시오.",
+    "part": "a"
   },
   {
     "id": 12,
@@ -92,7 +97,8 @@
       "1, source"
     ],
     "answer": 3,
-    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-N21(Rev.3) for radiographic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅲ, 2023 Edition\n문제는 ASME 규격 Sec.Ⅲ(2023 Edition)에 따른 압력용기 제작의 방사선 투과 시험에 대한 절차서 HIE-NDT-RT-N21.(Rev.3)를 참조하시오."
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-N21(Rev.3) for radiographic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅲ, 2023 Edition\n문제는 ASME 규격 Sec.Ⅲ(2023 Edition)에 따른 압력용기 제작의 방사선 투과 시험에 대한 절차서 HIE-NDT-RT-N21.(Rev.3)를 참조하시오.",
+    "part": "a"
   },
   {
     "id": 13,
@@ -108,7 +114,8 @@
       "All of above is not correct\n위의 어느 것도 옳지 않다"
     ],
     "answer": 0,
-    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-N21(Rev.3) for radiographic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅲ, 2023 Edition\n문제는 ASME 규격 Sec.Ⅲ(2023 Edition)에 따른 압력용기 제작의 방사선 투과 시험에 대한 절차서 HIE-NDT-RT-N21.(Rev.3)를 참조하시오."
+    "groupNote": "* The following questions refer to : HIE procedure, HIE-NDT-RT-N21(Rev.3) for radiographic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅲ, 2023 Edition\n문제는 ASME 규격 Sec.Ⅲ(2023 Edition)에 따른 압력용기 제작의 방사선 투과 시험에 대한 절차서 HIE-NDT-RT-N21.(Rev.3)를 참조하시오.",
+    "part": "b"
   },
   {
     "id": 14,
@@ -123,7 +130,8 @@
       "3-1/2, double",
       "3-1/2, single"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "a"
   },
   {
     "id": 15,
@@ -138,7 +146,8 @@
       "Three exposure, apart 120°\n120° 간격 3회 촬영",
       "Three exposure, apart 90°\n90° 간격 3회 촬영"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "b"
   },
   {
     "id": 16,
@@ -153,7 +162,8 @@
       "Because the slag inclusion has a higher density than steel.\n슬래그 개재물이 강보다 밀도가 높기 때문",
       "Because a slag inclusion is always combined with a misalignment.\n슬래그 개재물에는 항상 어긋남이 따르기 때문"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 17,
@@ -168,7 +178,8 @@
       "Increasing the source to film distance\n선원-필름 거리를 늘린다",
       "Increasing the specimen to film distance\n시험체-필름 거리를 늘린다"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 18,
@@ -183,7 +194,8 @@
       "1 %",
       "4 %"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "a"
   },
   {
     "id": 19,
@@ -198,7 +210,8 @@
       "The referencing code gives no acceptance criterion for cracks\n적용 규격에는 균열에 대한 합격 기준이 없다"
     ],
     "answer": 0,
-    "note": "원본이 서술형인 문항이다. 객관식으로 옮기며 보기 2~4번이 비어 있던 것을, 원본대로 주관식으로 되돌렸다. 정답은 원본 답지 그대로다.\n원본은 주관식이고 정답이 「No」였다. 4지선다로 바꾸며 오답 「Yes」 · 「It shall be re-examined by another method before judging」 · 「The referencing code gives no acceptance criterion for cracks」 을 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본이 서술형인 문항이다. 객관식으로 옮기며 보기 2~4번이 비어 있던 것을, 원본대로 주관식으로 되돌렸다. 정답은 원본 답지 그대로다.\n원본은 주관식이고 정답이 「No」였다. 4지선다로 바꾸며 오답 「Yes」 · 「It shall be re-examined by another method before judging」 · 「The referencing code gives no acceptance criterion for cracks」 을 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2",
+    "part": "c"
   },
   {
     "id": 20,
@@ -213,7 +226,8 @@
       "No image of the scratch\n긁힘의 상이 나타나지 않는다",
       "The film may nearly be burned at the surface by the intensive rays.\n강한 방사선에 필름 표면이 거의 타버릴 수 있다"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 21,
@@ -228,7 +242,8 @@
       "1 : 3",
       "1 : 4"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "a"
   },
   {
     "id": 22,
@@ -243,7 +258,8 @@
       "7 Min",
       "10 Min"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "a"
   },
   {
     "id": 23,
@@ -258,7 +274,8 @@
       "30,000 cd/㎡",
       "300,000 cd/㎡"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 24,
@@ -273,7 +290,8 @@
       "0.05",
       "0.01"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 25,
@@ -288,7 +306,8 @@
       "Shrinkage groove\n수축 홈",
       "Incomplete root penetration\n루트 용입부족"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "a"
   },
   {
     "id": 26,
@@ -303,7 +322,8 @@
       "0.020 inch\n0.020인치"
     ],
     "answer": 0,
-    "note": "원본이 서술형인 문항이다. 객관식으로 옮기며 보기 2~4번이 비어 있던 것을, 원본대로 주관식으로 되돌렸다. 정답은 원본 답지 그대로다.\n원본은 주관식이고 정답이 「0.005 inch」였다. 4지선다로 바꾸며 오답 「0.010 inch」 · 「0.001 inch」 · 「0.020 inch」 을 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본이 서술형인 문항이다. 객관식으로 옮기며 보기 2~4번이 비어 있던 것을, 원본대로 주관식으로 되돌렸다. 정답은 원본 답지 그대로다.\n원본은 주관식이고 정답이 「0.005 inch」였다. 4지선다로 바꾸며 오답 「0.010 inch」 · 「0.001 inch」 · 「0.020 inch」 을 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2",
+    "part": "a"
   },
   {
     "id": 27,
@@ -318,7 +338,8 @@
       "Candidates shall pass a Vision examination.\n응시자는 시력검사에 합격해야 한다",
       "A valid endorsement on an ASNT NDE Level III certificate fulfills Basic and Method examination requirements.\nASNT NDE Level III 자격증의 유효한 배서는 기초·방법 시험 요구를 충족한다"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "a"
   },
   {
     "id": 28,
@@ -333,7 +354,8 @@
       "The near distance vision examination shall be administered annually.\n근거리 시력검사는 매년 시행해야 한다",
       "The near distance vision acuity requirement is to read Number 2 on Jaeger card at not less than 12 inches.\n근거리 시력 요구조건은 최소 12인치 거리에서 Jaeger 카드의 2번을 읽는 것이다"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "b"
   },
   {
     "id": 29,
@@ -348,7 +370,8 @@
       "A slag inclusion 1/2 inch in length in a weldment with thickness 2 inch\n두께 2인치 용접부의 길이 1/2인치 슬래그 개재물",
       "All of the above are rejectable\n위의 모두 불합격이다"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "c"
   },
   {
     "id": 30,
@@ -363,7 +386,8 @@
       "An elongated indication 1/2 inch in length in a weldment with thickness 3 inch\n두께 3인치 용접부의 길이 1/2인치 가늘고 긴 지시",
       "An elongated indication 2/5 inch in length in a weldment with thickness 1/2 inch\n두께 1/2인치 용접부의 길이 2/5인치 가늘고 긴 지시"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "c"
   },
   {
     "id": 31,
@@ -378,7 +402,8 @@
       "directly proportional to the object-to-film distance and directly proportional\nto the source-to object distance\n시험체-필름 거리에 비례하고 선원-시험체 거리에도 비례한다",
       "inversely proportional to the size of the focal spot and the object-to-film\ndistance\n초점 크기와 시험체-필름 거리에 반비례한다"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 32,
@@ -394,7 +419,8 @@
       "the parallax method\n시차법"
     ],
     "answer": 3,
-    "note": "보기를 넷으로 맞추면서 오답 「none of the above」을 덜어냈다. 정답과 묻는 내용은 그대로다.\n원본 시험지의 철자 「zeroradiography」을 「xeroradiography」로 바로잡음 (2026-08-27)"
+    "note": "보기를 넷으로 맞추면서 오답 「none of the above」을 덜어냈다. 정답과 묻는 내용은 그대로다.\n원본 시험지의 철자 「zeroradiography」을 「xeroradiography」로 바로잡음 (2026-08-27)",
+    "part": "a"
   },
   {
     "id": 33,
@@ -410,7 +436,8 @@
       "density variations in specimen · scattered radiation · source-to-film distance\n시험체의 밀도 변화 · 산란 방사선 · 선원-필름 거리"
     ],
     "answer": 0,
-    "note": "원본은 보기 여러 개 가운데 복수정답을 고르는 문항이었다. 오답 보기를 지워 넷으로 줄이면 정답 비율이 올라가 문제가 쉬워지므로, 항목을 묶어 조합형 4지선다로 바꿨다. 정답 조합은 원본 정답 그대로이고 오답 조합은 새로 만든 것이다. 네 보기의 항목 수를 같게 맞춰 개수로 답이 드러나지 않게 했다. ★ 오답 조합은 해당 종목 NDE Level Ⅲ 의 확인이 필요하다 (HIE-QP-E02 6.1.2, 6.3.1)."
+    "note": "원본은 보기 여러 개 가운데 복수정답을 고르는 문항이었다. 오답 보기를 지워 넷으로 줄이면 정답 비율이 올라가 문제가 쉬워지므로, 항목을 묶어 조합형 4지선다로 바꿨다. 정답 조합은 원본 정답 그대로이고 오답 조합은 새로 만든 것이다. 네 보기의 항목 수를 같게 맞춰 개수로 답이 드러나지 않게 했다. ★ 오답 조합은 해당 종목 NDE Level Ⅲ 의 확인이 필요하다 (HIE-QP-E02 6.1.2, 6.3.1).",
+    "part": "a"
   },
   {
     "id": 34,
@@ -426,7 +453,8 @@
       "Pair production · K-capture · disintegration\n쌍생성 · K 포획 · 붕괴"
     ],
     "answer": 2,
-    "note": "원본은 보기 여러 개 가운데 복수정답을 고르는 문항이었다. 오답 보기를 지워 넷으로 줄이면 정답 비율이 올라가 문제가 쉬워지므로, 항목을 묶어 조합형 4지선다로 바꿨다. 정답 조합은 원본 정답 그대로이고 오답 조합은 새로 만든 것이다. 네 보기의 항목 수를 같게 맞춰 개수로 답이 드러나지 않게 했다. ★ 오답 조합은 해당 종목 NDE Level Ⅲ 의 확인이 필요하다 (HIE-QP-E02 6.1.2, 6.3.1)."
+    "note": "원본은 보기 여러 개 가운데 복수정답을 고르는 문항이었다. 오답 보기를 지워 넷으로 줄이면 정답 비율이 올라가 문제가 쉬워지므로, 항목을 묶어 조합형 4지선다로 바꿨다. 정답 조합은 원본 정답 그대로이고 오답 조합은 새로 만든 것이다. 네 보기의 항목 수를 같게 맞춰 개수로 답이 드러나지 않게 했다. ★ 오답 조합은 해당 종목 NDE Level Ⅲ 의 확인이 필요하다 (HIE-QP-E02 6.1.2, 6.3.1).",
+    "part": "a"
   },
   {
     "id": 35,
@@ -441,7 +469,8 @@
       "442 mR/hr",
       "4,425 mR/hr"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 36,
@@ -456,7 +485,8 @@
       "shorter wavelength, less penetrating radiation to be generated\n파장이 짧고 투과력이 약한 방사선이 발생한다",
       "shorter wavelength, more penetrating radiation to be generated\n파장이 짧고 투과력이 강한 방사선이 발생한다"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "a"
   },
   {
     "id": 37,
@@ -473,7 +503,8 @@
     ],
     "answer": 1,
     "image": "RT_LEVEL3_M_Q7.jpg",
-    "note": "원본은 보기 여러 개 가운데 복수정답을 고르는 문항이었다. 오답 보기를 지워 넷으로 줄이면 정답 비율이 올라가 문제가 쉬워지므로, 항목을 묶어 조합형 4지선다로 바꿨다. 정답 조합은 원본 정답 그대로이고 오답 조합은 새로 만든 것이다. 네 보기의 항목 수를 같게 맞춰 개수로 답이 드러나지 않게 했다. ★ 오답 조합은 해당 종목 NDE Level Ⅲ 의 확인이 필요하다 (HIE-QP-E02 6.1.2, 6.3.1)."
+    "note": "원본은 보기 여러 개 가운데 복수정답을 고르는 문항이었다. 오답 보기를 지워 넷으로 줄이면 정답 비율이 올라가 문제가 쉬워지므로, 항목을 묶어 조합형 4지선다로 바꿨다. 정답 조합은 원본 정답 그대로이고 오답 조합은 새로 만든 것이다. 네 보기의 항목 수를 같게 맞춰 개수로 답이 드러나지 않게 했다. ★ 오답 조합은 해당 종목 NDE Level Ⅲ 의 확인이 필요하다 (HIE-QP-E02 6.1.2, 6.3.1).",
+    "part": "a"
   },
   {
     "id": 38,
@@ -488,7 +519,8 @@
       "with thin, coarse grained specimens\n얇고 결정립이 조대한 시험체에서",
       "with thick, coarse grained specimens\n두껍고 결정립이 조대한 시험체에서"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 39,
@@ -503,7 +535,8 @@
       "improves sharpness\n선명도를 높인다",
       "reduces sharpness\n선명도를 떨어뜨린다"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "a"
   },
   {
     "id": 40,
@@ -518,7 +551,8 @@
       "the range of thickness of material that can be recorded on the radiograph\nwithin the useful reading range of film density\n필름농도의 판독 가능 범위 안에 기록할 수 있는 재료 두께의 범위",
       "the size of the smallest detail which can be seen on the radiograph\n방사선사진에서 볼 수 있는 가장 작은 세부의 크기"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "a"
   },
   {
     "id": 41,
@@ -533,7 +567,8 @@
       "File copies of duplicate radiographs made at the customer's request\n고객 요청으로 만든 복제 사진의 보관본",
       "File copies of radiographs of your employer's products\n사업주 제품 사진의 보관본"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 42,
@@ -549,7 +584,8 @@
       "high thermal conductivity · low atomic number · high atomic number\n높은 열전도율 · 낮은 원자번호 · 높은 원자번호"
     ],
     "answer": 2,
-    "note": "원본은 여러 보기 가운데 복수정답을 고르는 문항이었다. 오답 보기를 지워 넷으로 줄이면 정답 비율이 올라가 문제가 쉬워지므로, 항목을 묶어 조합형 4지선다로 바꿨다. 정답 조합은 원본 정답 그대로이고 오답 조합은 새로 만든 것이다. 네 보기의 항목 수를 같게 맞춰 개수로 답이 드러나지 않게 했다. ★ 오답 조합은 해당 종목 NDE Level Ⅲ 의 확인이 필요하다 (HIE-QP-E02 6.1.2, 6.3.1)."
+    "note": "원본은 여러 보기 가운데 복수정답을 고르는 문항이었다. 오답 보기를 지워 넷으로 줄이면 정답 비율이 올라가 문제가 쉬워지므로, 항목을 묶어 조합형 4지선다로 바꿨다. 정답 조합은 원본 정답 그대로이고 오답 조합은 새로 만든 것이다. 네 보기의 항목 수를 같게 맞춰 개수로 답이 드러나지 않게 했다. ★ 오답 조합은 해당 종목 NDE Level Ⅲ 의 확인이 필요하다 (HIE-QP-E02 6.1.2, 6.3.1).",
+    "part": "a"
   },
   {
     "id": 43,
@@ -565,7 +601,8 @@
       "good sensitivity\n좋은 감도"
     ],
     "answer": 1,
-    "note": "보기를 넷으로 맞추면서 오답 「none of the above」을 덜어냈다. 정답과 묻는 내용은 그대로다."
+    "note": "보기를 넷으로 맞추면서 오답 「none of the above」을 덜어냈다. 정답과 묻는 내용은 그대로다.",
+    "part": "a"
   },
   {
     "id": 44,
@@ -580,7 +617,8 @@
       "a change in the silver bromide emulsion\n브롬화은 유제의 변화",
       "an increase in contrast\n대비의 증가"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 45,
@@ -595,7 +633,8 @@
       "radiographic resolution\n방사선사진 분해능",
       "latitude\n관용도"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "a"
   },
   {
     "id": 46,
@@ -610,7 +649,8 @@
       "Decrease the wavelength of the radiation\n방사선의 파장을 짧게 한다",
       "Use a slower film\n감도가 느린 필름을 쓴다"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 47,
@@ -625,7 +665,8 @@
       "static charges caused by friction of the film with other objects\n필름이 다른 물체와 마찰해 생긴 정전기",
       "inadequate rinsing after fixing\n정착 후 수세 부족"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 48,
@@ -640,7 +681,8 @@
       "H & D units\nH & D 단위",
       "roentgens per unit of time\n단위시간당 뢴트겐"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "a"
   },
   {
     "id": 49,
@@ -655,7 +697,8 @@
       "greater amounts of scattered radiation relative to primary beam intensity\n1차 빔 강도에 비해 더 많은 산란선",
       "none of the above\n위의 어느 것도 아님"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "a"
   },
   {
     "id": 50,
@@ -670,7 +713,8 @@
       "filter out short wavelength radiation to provide “softer” radiation\n짧은 파장을 걸러 더 연질인 방사선을 만든다",
       "provide the most readily adjusted means of modifying x-ray intensity\nX선 강도를 조절하는 가장 손쉬운 수단이 된다"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "b"
   },
   {
     "id": 51,
@@ -685,7 +729,8 @@
       "3,600 mR/hr",
       "13,333 mR/hr"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "a"
   },
   {
     "id": 52,
@@ -700,7 +745,8 @@
       "1 min 15 sec\n1분 15초",
       "1 min 34 sec\n1분 34초"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "a"
   },
   {
     "id": 53,
@@ -715,7 +761,8 @@
       "provide an extra film to establish the developing time necessary to obtain an\nacceptable density\n적정 농도를 얻는 데 필요한 현상시간을 정하기 위한 여분 필름을 둔다",
       "compare and verify indications or for reading superimposed film.\n지시를 대조·확인하거나 필름을 겹쳐 판독하기 위해"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "a"
   },
   {
     "id": 54,
@@ -730,7 +777,8 @@
       "the amount of usage of a source\n선원의 사용량",
       "the ratio of the number of curies to the physical size of source\n선원의 퀴리 수와 물리적 크기의 비"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "a"
   },
   {
     "id": 55,
@@ -746,7 +794,8 @@
       "Use a slower film · Increase the KV of the x-ray machine used · Add shielding for back scatter\n감도가 느린 필름을 쓴다 · 사용하는 X선 장치의 관전압을 높인다 · 후방산란용 차폐를 추가한다"
     ],
     "answer": 1,
-    "note": "원본은 여러 보기 가운데 복수정답을 고르는 문항이었다. 오답 보기를 지워 넷으로 줄이면 정답 비율이 올라가 문제가 쉬워지므로, 항목을 묶어 조합형 4지선다로 바꿨다. 정답 조합은 원본 정답 그대로이고 오답 조합은 새로 만든 것이다. 네 보기의 항목 수를 같게 맞춰 개수로 답이 드러나지 않게 했다. ★ 오답 조합은 해당 종목 NDE Level Ⅲ 의 확인이 필요하다 (HIE-QP-E02 6.1.2, 6.3.1)."
+    "note": "원본은 여러 보기 가운데 복수정답을 고르는 문항이었다. 오답 보기를 지워 넷으로 줄이면 정답 비율이 올라가 문제가 쉬워지므로, 항목을 묶어 조합형 4지선다로 바꿨다. 정답 조합은 원본 정답 그대로이고 오답 조합은 새로 만든 것이다. 네 보기의 항목 수를 같게 맞춰 개수로 답이 드러나지 않게 했다. ★ 오답 조합은 해당 종목 NDE Level Ⅲ 의 확인이 필요하다 (HIE-QP-E02 6.1.2, 6.3.1).",
+    "part": "a"
   },
   {
     "id": 56,
@@ -761,7 +810,8 @@
       "milliampere\n밀리암페어",
       "source-to-film distance\n선원-필름 거리"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "a"
   },
   {
     "id": 57,
@@ -777,7 +827,8 @@
       "The energy level or quality of the radiation beam · The length of the film used\n방사선 빔의 에너지 준위 또는 선질 · 사용한 필름의 길이"
     ],
     "answer": 0,
-    "note": "원본은 여러 보기 가운데 복수정답을 고르는 문항이었다. 오답 보기를 지워 넷으로 줄이면 정답 비율이 올라가 문제가 쉬워지므로, 항목을 묶어 조합형 4지선다로 바꿨다. 정답 조합은 원본 정답 그대로이고 오답 조합은 새로 만든 것이다. 네 보기의 항목 수를 같게 맞춰 개수로 답이 드러나지 않게 했다. ★ 오답 조합은 해당 종목 NDE Level Ⅲ 의 확인이 필요하다 (HIE-QP-E02 6.1.2, 6.3.1)."
+    "note": "원본은 여러 보기 가운데 복수정답을 고르는 문항이었다. 오답 보기를 지워 넷으로 줄이면 정답 비율이 올라가 문제가 쉬워지므로, 항목을 묶어 조합형 4지선다로 바꿨다. 정답 조합은 원본 정답 그대로이고 오답 조합은 새로 만든 것이다. 네 보기의 항목 수를 같게 맞춰 개수로 답이 드러나지 않게 했다. ★ 오답 조합은 해당 종목 NDE Level Ⅲ 의 확인이 필요하다 (HIE-QP-E02 6.1.2, 6.3.1).",
+    "part": "a"
   },
   {
     "id": 58,
@@ -792,7 +843,8 @@
       "within a distance, equal to the thickness, from the end of the casting\n주조품 끝에서 두께만큼 떨어진 거리 안에",
       "in sections of uniform thickness\n두께가 일정한 부위에"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 59,
@@ -807,7 +859,8 @@
       "4 : 1",
       "8 : 1"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 60,
@@ -823,7 +876,8 @@
       "a beryllium window · a source of free electrons · a copper anode\n베릴륨 창 · 자유전자의 공급원 · 구리 양극"
     ],
     "answer": 2,
-    "note": "원본은 여러 보기 가운데 복수정답을 고르는 문항이었다. 오답 보기를 지워 넷으로 줄이면 정답 비율이 올라가 문제가 쉬워지므로, 항목을 묶어 조합형 4지선다로 바꿨다. 정답 조합은 원본 정답 그대로이고 오답 조합은 새로 만든 것이다. 네 보기의 항목 수를 같게 맞춰 개수로 답이 드러나지 않게 했다. ★ 오답 조합은 해당 종목 NDE Level Ⅲ 의 확인이 필요하다 (HIE-QP-E02 6.1.2, 6.3.1)."
+    "note": "원본은 여러 보기 가운데 복수정답을 고르는 문항이었다. 오답 보기를 지워 넷으로 줄이면 정답 비율이 올라가 문제가 쉬워지므로, 항목을 묶어 조합형 4지선다로 바꿨다. 정답 조합은 원본 정답 그대로이고 오답 조합은 새로 만든 것이다. 네 보기의 항목 수를 같게 맞춰 개수로 답이 드러나지 않게 했다. ★ 오답 조합은 해당 종목 NDE Level Ⅲ 의 확인이 필요하다 (HIE-QP-E02 6.1.2, 6.3.1).",
+    "part": "a"
   },
   {
     "id": 61,
@@ -838,7 +892,8 @@
       "15.8 curie source\n15.8퀴리 선원",
       "20.7 curie source\n20.7퀴리 선원"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 62,
@@ -853,7 +908,8 @@
       "0.18 in.",
       "0.225 in."
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "c"
   },
   {
     "id": 63,
@@ -868,7 +924,8 @@
       "anywhere in the weld\n용접부 어디든",
       "between the root pass and hot pass\n루트 패스와 핫 패스 사이에"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 64,
@@ -883,7 +940,8 @@
       "welds",
       "extrusions"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "a"
   },
   {
     "id": 65,
@@ -898,7 +956,8 @@
       "irregularly shaped areas that are usually not as dark as gas holes\n보통 기공만큼 어둡지는 않은 불규칙한 모양의 부위",
       "dark, lacy network of lines\n레이스처럼 얽힌 검은 선 무늬"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 66,
@@ -913,7 +972,8 @@
       "2 hr 40 min",
       "5 hr 20 min"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 67,
@@ -928,7 +988,8 @@
       "half-life\n반감기",
       "kilo-electron volts (KV) or millions or electron volts (mev)\n킬로전자볼트(keV) 또는 메가전자볼트(MeV)"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "a"
   },
   {
     "id": 68,
@@ -943,7 +1004,8 @@
       "the cassette may be loaded with two film each of different speeds\n카세트에 감도가 다른 필름 두 장을 넣을 수 있다",
       "none of the above are practical\n위의 어느 것도 실용적이지 않다"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 69,
@@ -958,7 +1020,8 @@
       "x-ray intensity too high\nX선 강도가 너무 높음",
       "back scatter\n후방산란"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "a"
   },
   {
     "id": 70,
@@ -973,7 +1036,8 @@
       "zoning the drawing and using different quality levels\n도면을 구역으로 나누어 상질을 달리 적용",
       "recommending redesign\n재설계를 권고"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "c"
   },
   {
     "id": 71,
@@ -988,7 +1052,8 @@
       "become matted\n엉겨붙는다",
       "show tree-shaped light areas in the finished radiograph\n완성된 사진에 나뭇가지 모양의 밝은 부위가 나타난다"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 72,
@@ -1003,7 +1068,8 @@
       "0.36 inch",
       "1.40 inch"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 73,
@@ -1018,7 +1084,8 @@
       "the voltage difference between the cathode and anode\n음극과 양극 사이의 전압 차",
       "the current flow in the rectifier circuit\n정류 회로의 전류"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 74,
@@ -1033,7 +1100,8 @@
       "15 min",
       "22.5 min"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "a"
   },
   {
     "id": 75,
@@ -1048,7 +1116,8 @@
       "Wire type\n선형(wire type)",
       "Step type\n계단형(step type)"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "c"
   },
   {
     "id": 76,
@@ -1063,7 +1132,8 @@
       "Over 1/4 in.",
       "Over 3/8 in."
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "c"
   },
   {
     "id": 77,
@@ -1079,7 +1149,8 @@
       "It can be judged only after re-examination\n재검사한 뒤에만 판정할 수 있다"
     ],
     "answer": 1,
-    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2",
+    "part": "c"
   },
   {
     "id": 78,
@@ -1095,7 +1166,8 @@
       "True only when the thickness is outside the code range\n두께가 규격 범위를 벗어날 때만 맞다"
     ],
     "answer": 0,
-    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2",
+    "part": "c"
   },
   {
     "id": 79,
@@ -1111,7 +1183,8 @@
       "It depends on the certification level of the examiner\n검사자의 자격 등급에 따라 달라진다"
     ],
     "answer": 0,
-    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2",
+    "part": "c"
   },
   {
     "id": 80,
@@ -1126,7 +1199,8 @@
       "2",
       "3"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 81,
@@ -1141,7 +1215,8 @@
       "0.38",
       "0.50"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "c"
   },
   {
     "id": 82,
@@ -1157,7 +1232,8 @@
       "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
     ],
     "answer": 0,
-    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2",
+    "part": "c"
   },
   {
     "id": 83,
@@ -1173,7 +1249,8 @@
       "It can be judged only after stress-relief heat treatment\n응력제거 열처리를 한 뒤에만 판정할 수 있다"
     ],
     "answer": 0,
-    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2",
+    "part": "c"
   },
   {
     "id": 84,
@@ -1189,7 +1266,8 @@
       "Judgment is deferred until the next scheduled examination\n다음 정기검사 때까지 판정을 미룬다"
     ],
     "answer": 0,
-    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2",
+    "part": "c"
   },
   {
     "id": 85,
@@ -1205,7 +1283,8 @@
       "It is judged after the manufacturer and the purchaser agree\n제작자와 발주자가 합의한 뒤에 판정한다"
     ],
     "answer": 0,
-    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2",
+    "part": "c"
   },
   {
     "id": 86,
@@ -1221,7 +1300,8 @@
       "The referencing code gives no acceptance criterion for this\n적용 규격에는 이 경우에 대한 합격 기준이 없다"
     ],
     "answer": 1,
-    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2",
+    "part": "c"
   },
   {
     "id": 87,
@@ -1237,7 +1317,8 @@
       "It cannot be judged from the information given\n주어진 조건만으로는 판정할 수 없다"
     ],
     "answer": 1,
-    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2",
+    "part": "c"
   },
   {
     "id": 88,
@@ -1253,7 +1334,8 @@
       "True if the manufacturer and the purchaser agree\n제작자와 발주자가 합의하면 맞다"
     ],
     "answer": 0,
-    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2",
+    "part": "c"
   },
   {
     "id": 89,
@@ -1269,7 +1351,8 @@
       "True only if the referencing code section permits it\n적용 규격이 허용할 때만 맞다"
     ],
     "answer": 1,
-    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2",
+    "part": "c"
   },
   {
     "id": 90,
@@ -1284,7 +1367,8 @@
       "23.1",
       "31.4"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "b"
   },
   {
     "id": 91,
@@ -1300,7 +1384,8 @@
       "1,000 kV"
     ],
     "answer": 2,
-    "note": "정답 ③ 400 kV 유지. ASME Sec. V Article 2 는 관전압 상한을 직접 정하지 않고 투과도계 감도로 규정한다. 「최대 허용 kV」의 근거 표를 원본에서 찾지 못했다. 근거를 못 댄 채 다른 값으로 바꾸면 원본 답지보다 나을 것이 없어 그대로 두었다. 출제 근거를 아는 Level III 가 확인하면 바로 고칠 수 있다."
+    "note": "정답 ③ 400 kV 유지. ASME Sec. V Article 2 는 관전압 상한을 직접 정하지 않고 투과도계 감도로 규정한다. 「최대 허용 kV」의 근거 표를 원본에서 찾지 못했다. 근거를 못 댄 채 다른 값으로 바꾸면 원본 답지보다 나을 것이 없어 그대로 두었다. 출제 근거를 아는 Level III 가 확인하면 바로 고칠 수 있다.",
+    "part": "c"
   },
   {
     "id": 92,
@@ -1316,7 +1401,8 @@
       "It can be judged only after re-examination\n재검사한 뒤에만 판정할 수 있다"
     ],
     "answer": 0,
-    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2",
+    "part": "c"
   },
   {
     "id": 93,
@@ -1332,7 +1418,8 @@
       "True if the examination method is changed\n검사 방법을 바꾸면 맞다"
     ],
     "answer": 0,
-    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2",
+    "part": "c"
   },
   {
     "id": 94,
@@ -1348,7 +1435,8 @@
       "Not addressed by the referencing code\n적용 규격에서 다루지 않는다"
     ],
     "answer": 0,
-    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2",
+    "part": "c"
   },
   {
     "id": 95,
@@ -1364,7 +1452,8 @@
       "Another examiner shall re-examine the same area before judging\n다른 검사자가 같은 부위를 다시 검사해야 판정할 수 있다"
     ],
     "answer": 0,
-    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2",
+    "part": "c"
   },
   {
     "id": 96,
@@ -1379,7 +1468,8 @@
       "RT 3",
       "RT 4"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "c"
   },
   {
     "id": 97,
@@ -1395,7 +1485,8 @@
       "RT 4"
     ],
     "answer": 2,
-    "note": "원본 답지 c(RT 3)로 바로잡았다. ASME Sec.Ⅷ Div.1 UW-11 에서 「전 용기가 spot radiography 요구를 만족」하면 표시는 RT 3 이다. RT 4 는 용기의 일부만 촬영한 경우다. 은행이 RT 4 로 되어 있었다."
+    "note": "원본 답지 c(RT 3)로 바로잡았다. ASME Sec.Ⅷ Div.1 UW-11 에서 「전 용기가 spot radiography 요구를 만족」하면 표시는 RT 3 이다. RT 4 는 용기의 일부만 촬영한 경우다. 은행이 RT 4 로 되어 있었다.",
+    "part": "c"
   },
   {
     "id": 98,
@@ -1410,7 +1501,8 @@
       "Category C",
       "Category D"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "c"
   },
   {
     "id": 99,
@@ -1426,7 +1518,8 @@
       "True if the examination method is changed\n검사 방법을 바꾸면 맞다"
     ],
     "answer": 0,
-    "note": "원본 시험지의 철자 「radiographicall,」을 「radiographically,」로 바로잡음 (2026-08-27)\n원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지의 철자 「radiographicall,」을 「radiographically,」로 바로잡음 (2026-08-27)\n원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2",
+    "part": "c"
   },
   {
     "id": 100,
@@ -1442,7 +1535,8 @@
       "It shall be evaluated as a linear indication regardless of its shape\n모양과 상관없이 선형지시로 평가한다"
     ],
     "answer": 1,
-    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2",
+    "part": "c"
   },
   {
     "id": 101,
@@ -1458,7 +1552,8 @@
       "It can be judged only after the surface is cleaned and re-examined\n검사 면을 다시 세척하고 재검사해야만 판정할 수 있다"
     ],
     "answer": 1,
-    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2",
+    "part": "c"
   },
   {
     "id": 102,
@@ -1474,7 +1569,8 @@
       "It depends on the surface condition of the part\n부재의 표면 상태에 따라 달라진다"
     ],
     "answer": 1,
-    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2",
+    "part": "c"
   },
   {
     "id": 103,
@@ -1490,7 +1586,8 @@
       "It is a nonrelevant indication and need not be evaluated\n비관련지시이므로 평가하지 않는다"
     ],
     "answer": 1,
-    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2",
+    "part": "c"
   },
   {
     "id": 104,
@@ -1505,7 +1602,8 @@
       "3 mm",
       "4 mm"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "c"
   },
   {
     "id": 105,
@@ -1521,7 +1619,8 @@
       "Exposure time and tube current\n노출 시간과 관전류"
     ],
     "answer": 0,
-    "note": "원본이 서술형이라 held/ 로 빼 두었던 문항(원본 1번)이다. 정답은 원본 그대로 두고 오답 셋을 지어 넣어 4지선다로 되돌렸다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "원본이 서술형이라 held/ 로 빼 두었던 문항(원본 1번)이다. 정답은 원본 그대로 두고 오답 셋을 지어 넣어 4지선다로 되돌렸다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "b"
   },
   {
     "id": 106,
@@ -1537,7 +1636,8 @@
       "Six exposures 60° apart\n60° 간격으로 6회 촬영"
     ],
     "answer": 0,
-    "note": "원본이 서술형이라 held/ 로 빼 두었던 문항(원본 2번)이다. 정답은 원본 그대로 두고 오답 셋을 지어 넣어 4지선다로 되돌렸다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "원본이 서술형이라 held/ 로 빼 두었던 문항(원본 2번)이다. 정답은 원본 그대로 두고 오답 셋을 지어 넣어 4지선다로 되돌렸다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "a"
   },
   {
     "id": 107,
@@ -1553,7 +1653,8 @@
       "Maximum film density 4.0 for X-ray, 3.0 for γ-ray\n최대 필름농도 X선 4.0, 감마선 3.0"
     ],
     "answer": 0,
-    "note": "원본이 서술형이라 held/ 로 빼 두었던 문항(원본 4번)이다. 정답은 원본 그대로 두고 오답 셋을 지어 넣어 4지선다로 되돌렸다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "원본이 서술형이라 held/ 로 빼 두었던 문항(원본 4번)이다. 정답은 원본 그대로 두고 오답 셋을 지어 넣어 4지선다로 되돌렸다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "b"
   },
   {
     "id": 108,
@@ -1569,7 +1670,8 @@
       "The penetrameter image cannot be seen\n투과도계 상이 보이지 않는다"
     ],
     "answer": 0,
-    "note": "원본이 서술형이라 held/ 로 빼 두었던 문항(원본 5번)이다. 정답은 원본 그대로 두고 오답 셋을 지어 넣어 4지선다로 되돌렸다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "원본이 서술형이라 held/ 로 빼 두었던 문항(원본 5번)이다. 정답은 원본 그대로 두고 오답 셋을 지어 넣어 4지선다로 되돌렸다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "a"
   },
   {
     "id": 109,
@@ -1585,7 +1687,8 @@
       "X-ray single 1.3~4.0 · composite 1.3~4.0 · γ-ray single 1.3~4.0\nX선 단일필름 1.3~4.0 · 다중필름 겹쳐 관찰 1.3~4.0 · 감마선 단일필름 1.3~4.0"
     ],
     "answer": 0,
-    "note": "원본이 서술형이라 held/ 로 빼 두었던 문항(원본 6번)이다. 정답은 원본 그대로 두고 오답 셋을 지어 넣어 4지선다로 되돌렸다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "원본이 서술형이라 held/ 로 빼 두었던 문항(원본 6번)이다. 정답은 원본 그대로 두고 오답 셋을 지어 넣어 4지선다로 되돌렸다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "a"
   },
   {
     "id": 110,
@@ -1601,6 +1704,7 @@
       "Reinforcement 3/32 in. · #10 wire (0.025 in., 0.64 mm)\n덧살 3/32인치 · #10 와이어(0.025인치, 0.64 mm)"
     ],
     "answer": 0,
-    "note": "원본이 서술형이라 held/ 로 빼 두었던 문항(원본 10번)이다. 정답은 원본 그대로 두고 오답 셋을 지어 넣어 4지선다로 되돌렸다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1"
+    "note": "원본이 서술형이라 held/ 로 빼 두었던 문항(원본 10번)이다. 정답은 원본 그대로 두고 오답 셋을 지어 넣어 4지선다로 되돌렸다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2, 6.3.1",
+    "part": "b"
   }
 ]

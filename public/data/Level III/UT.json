@@ -13,7 +13,8 @@
       "20%"
     ],
     "answer": 1,
-    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-N21 (Rev.3) for ultrasonic examination of pressure vessels fabricated in accordance with ASME B & PV Code Section Ⅲ(2023 Edition).\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격 Sec.Ⅲ(2023년판)에 따른 압력용기 제작의 초음파 시험에 대한 절차서(HIE-NDT-UT-N21, Rev.3)"
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-N21 (Rev.3) for ultrasonic examination of pressure vessels fabricated in accordance with ASME B & PV Code Section Ⅲ(2023 Edition).\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격 Sec.Ⅲ(2023년판)에 따른 압력용기 제작의 초음파 시험에 대한 절차서(HIE-NDT-UT-N21, Rev.3)",
+    "part": "b"
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
       "Every 1 week\n매주"
     ],
     "answer": 0,
-    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-N21 (Rev.3) for ultrasonic examination of pressure vessels fabricated in accordance with ASME B & PV Code Section Ⅲ(2023 Edition).\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격 Sec.Ⅲ(2023년판)에 따른 압력용기 제작의 초음파 시험에 대한 절차서(HIE-NDT-UT-N21, Rev.3)"
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-N21 (Rev.3) for ultrasonic examination of pressure vessels fabricated in accordance with ASME B & PV Code Section Ⅲ(2023 Edition).\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격 Sec.Ⅲ(2023년판)에 따른 압력용기 제작의 초음파 시험에 대한 절차서(HIE-NDT-UT-N21, Rev.3)",
+    "part": "b"
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@
       "12 in/sec (300 mm/s)"
     ],
     "answer": 1,
-    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-N21 (Rev.3) for ultrasonic examination of pressure vessels fabricated in accordance with ASME B & PV Code Section Ⅲ(2023 Edition).\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격 Sec.Ⅲ(2023년판)에 따른 압력용기 제작의 초음파 시험에 대한 절차서(HIE-NDT-UT-N21, Rev.3)"
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-N21 (Rev.3) for ultrasonic examination of pressure vessels fabricated in accordance with ASME B & PV Code Section Ⅲ(2023 Edition).\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격 Sec.Ⅲ(2023년판)에 따른 압력용기 제작의 초음파 시험에 대한 절차서(HIE-NDT-UT-N21, Rev.3)",
+    "part": "b"
   },
   {
     "id": 4,
@@ -61,7 +64,8 @@
       "Scanning speed only\n주사 속도만"
     ],
     "answer": 0,
-    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-N21 (Rev.3) for ultrasonic examination of pressure vessels fabricated in accordance with ASME B & PV Code Section Ⅲ(2023 Edition).\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격 Sec.Ⅲ(2023년판)에 따른 압력용기 제작의 초음파 시험에 대한 절차서(HIE-NDT-UT-N21, Rev.3)"
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-N21 (Rev.3) for ultrasonic examination of pressure vessels fabricated in accordance with ASME B & PV Code Section Ⅲ(2023 Edition).\n(다음 문제는 HIE 절차서에 언급된다. ASME B & PV 규격 Sec.Ⅲ(2023년판)에 따른 압력용기 제작의 초음파 시험에 대한 절차서(HIE-NDT-UT-N21, Rev.3)",
+    "part": "b"
   },
   {
     "id": 5,
@@ -76,7 +80,8 @@
       "ASTM A609",
       "ASME Section V Article 4"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "c"
   },
   {
     "id": 6,
@@ -93,7 +98,8 @@
     ],
     "answer": 1,
     "groupNote": "* The following questions refer to API 6A\nAPI 6A에 따라 물음에 답하시오.",
-    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2",
+    "part": "c"
   },
   {
     "id": 7,
@@ -110,7 +116,8 @@
     ],
     "answer": 0,
     "groupNote": "* The following questions refer to API 6A\nAPI 6A에 따라 물음에 답하시오.",
-    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2",
+    "part": "c"
   },
   {
     "id": 8,
@@ -125,7 +132,8 @@
       "Crack indications are unacceptable regardless of length.\n균열 지시는 길이와 관계없이 불합격이다",
       "Lack of fusion indications are unacceptable regardless of length.\n융합불량 지시는 길이와 관계없이 불합격이다"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "c"
   },
   {
     "id": 9,
@@ -140,7 +148,8 @@
       "The block for straight beam examination shall have 1/4in. diameter flat-bottomed holes.\n수직탐상용 블록에는 지름 1/4인치 평저공이 있어야 한다",
       "The block shall have two holes at one-fourth and one-half thickness.\n블록에는 두께의 1/4과 1/2 위치에 구멍 두 개가 있어야 한다"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "b"
   },
   {
     "id": 10,
@@ -156,7 +165,8 @@
       "Depth: 2%T, Length: 1in\n깊이 2%T, 길이 1인치"
     ],
     "answer": 3,
-    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-P11 (Rev.3) for ultrasonic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME 규격Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 초음파 시험에 대한 절차서(HIE-NDT-UT-P11, Rev.3)"
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-P11 (Rev.3) for ultrasonic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME 규격Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 초음파 시험에 대한 절차서(HIE-NDT-UT-P11, Rev.3)",
+    "part": "b"
   },
   {
     "id": 11,
@@ -173,7 +183,8 @@
     ],
     "answer": 1,
     "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-P11 (Rev.3) for ultrasonic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME 규격Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 초음파 시험에 대한 절차서(HIE-NDT-UT-P11, Rev.3)",
-    "note": "절차서로 확정했다. HIE-NDT-UT-P11 「(a) Distance Amplitude Technique - All indications greater than 20% of the reference level shall be investigated」. 원본 답지 b(20%)와 같다. 은행에 있던 40%는 바로 다음 줄 「(b) Non Distance Amplitude Technique - All indications longer than 40% of the rejectable flaw size」를 잘못 읽은 것이다. 40%는 대비수준이 아니라 불합격 결함 크기에 대한 값이다."
+    "note": "절차서로 확정했다. HIE-NDT-UT-P11 「(a) Distance Amplitude Technique - All indications greater than 20% of the reference level shall be investigated」. 원본 답지 b(20%)와 같다. 은행에 있던 40%는 바로 다음 줄 「(b) Non Distance Amplitude Technique - All indications longer than 40% of the rejectable flaw size」를 잘못 읽은 것이다. 40%는 대비수준이 아니라 불합격 결함 크기에 대한 값이다.",
+    "part": "b"
   },
   {
     "id": 12,
@@ -189,7 +200,8 @@
       "0.6 in."
     ],
     "answer": 2,
-    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-P11 (Rev.3) for ultrasonic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME 규격Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 초음파 시험에 대한 절차서(HIE-NDT-UT-P11, Rev.3)"
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-P11 (Rev.3) for ultrasonic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME 규격Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 초음파 시험에 대한 절차서(HIE-NDT-UT-P11, Rev.3)",
+    "part": "a"
   },
   {
     "id": 13,
@@ -205,7 +217,8 @@
       "All of the above\n위의 모두"
     ],
     "answer": 0,
-    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-P11 (Rev.3) for ultrasonic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME 규격Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 초음파 시험에 대한 절차서(HIE-NDT-UT-P11, Rev.3)"
+    "groupNote": "* The following questions refer to HIE procedure, HIE-NDT-UT-P11 (Rev.3) for ultrasonic examination of pressure vessels fabricated in accordance with ASME Code Section Ⅷ, 2023 Edition.\n(다음 문제는 HIE 절차서에 언급된다. ASME 규격Sec.Ⅷ(2023 Edition)에 따른 압력용기 제작의 초음파 시험에 대한 절차서(HIE-NDT-UT-P11, Rev.3)",
+    "part": "b"
   },
   {
     "id": 14,
@@ -220,7 +233,8 @@
       "4 inch",
       "5 inch"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 15,
@@ -235,7 +249,8 @@
       "Reference-block calibration\n대비시험편 교정",
       "A1 Block Calibration\nA1 블록 교정"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "b"
   },
   {
     "id": 16,
@@ -250,7 +265,8 @@
       "Cluster\n군집",
       "All of the above\n위의 모두"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 17,
@@ -265,7 +281,8 @@
       "3%",
       "4%"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 18,
@@ -280,7 +297,8 @@
       "3/4 in.",
       "1/3 in."
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 19,
@@ -295,7 +313,8 @@
       "10/32",
       "32/64"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "b"
   },
   {
     "id": 20,
@@ -310,7 +329,8 @@
       "100% ARL",
       "AVG"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "a"
   },
   {
     "id": 21,
@@ -326,7 +346,8 @@
       "Opposite ends of reference block shall be flat and parallel within 0.01 inch\n대비시험편의 양 끝면은 0.01인치 이내로 평평하고 나란해야 한다"
     ],
     "answer": 3,
-    "note": "★ Level III 확인 필요 — 규격집이 있어야 가린다. 절차서에서 찾을 수 있는 것은 여기까지다. (1) 원본 갑지가 「19~21번은 ASME 규격 Sec.V SA-609 에 의해 준비되었다」고 적는다. (2) HIE-NDT-UT-P11 2.2 는 「주조품은 ASTM A-609에 따라 검사한다」로 규격을 가리키기만 하고 품질수준 표를 싣지 않는다. (3) 다만 답지가 가리키는 a(1~3 MHz)는 틀렸다. HIE-NDT-UT-P11 5.1 이 「장치는 최소한 1MHz~5MHz 범위에서 작동할 수 있어야 한다」로 적는다. 그래서 답지를 따르지 않고 은행 값(d)을 두었다. b(품질수준 2의 면적 1.5 제곱인치)가 A 609 의 면적 기준 품질수준과 맞아 보이나 규격 원문 확인이 필요하다."
+    "note": "★ Level III 확인 필요 — 규격집이 있어야 가린다. 절차서에서 찾을 수 있는 것은 여기까지다. (1) 원본 갑지가 「19~21번은 ASME 규격 Sec.V SA-609 에 의해 준비되었다」고 적는다. (2) HIE-NDT-UT-P11 2.2 는 「주조품은 ASTM A-609에 따라 검사한다」로 규격을 가리키기만 하고 품질수준 표를 싣지 않는다. (3) 다만 답지가 가리키는 a(1~3 MHz)는 틀렸다. HIE-NDT-UT-P11 5.1 이 「장치는 최소한 1MHz~5MHz 범위에서 작동할 수 있어야 한다」로 적는다. 그래서 답지를 따르지 않고 은행 값(d)을 두었다. b(품질수준 2의 면적 1.5 제곱인치)가 A 609 의 면적 기준 품질수준과 맞아 보이나 규격 원문 확인이 필요하다.",
+    "part": "a"
   },
   {
     "id": 22,
@@ -341,7 +362,8 @@
       "Two-year college graduate requires at least 2 years Level II experience\n2년제 대학 졸업자는 Level II 경력 2년 이상이 필요하다",
       "High school graduate requires at least 4 years Level II experience\n고졸자는 Level II 경력 4년 이상이 필요하다"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 23,
@@ -356,7 +378,8 @@
       "Candidate shall hold current ASNT Level III certificate with valid endorsement\n응시자는 유효한 배서가 있는 ASNT Level III 자격증을 보유해야 한다",
       "Vision examination requires far-distance acuity and color vision\n시력검사는 원거리 시력과 색각을 요구한다"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "a"
   },
   {
     "id": 24,
@@ -371,7 +394,8 @@
       "By the length of the initial pulse\n초기 펄스의 길이로",
       "By the echo width\n에코의 폭으로"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "c"
   },
   {
     "id": 25,
@@ -386,7 +410,8 @@
       "Cannot be determined\n판정할 수 없다",
       "100% full screen height\n전체 화면높이의 100%"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "c"
   },
   {
     "id": 26,
@@ -401,7 +426,8 @@
       "15 mm",
       "60 mm"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "b"
   },
   {
     "id": 27,
@@ -416,7 +442,8 @@
       "Gain control or attenuator\n게인 조정 또는 감쇠기",
       "No adjustments are allowed\n어떤 조정도 허용되지 않는다"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "b"
   },
   {
     "id": 28,
@@ -431,7 +458,8 @@
       "12 times",
       "16 times"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 29,
@@ -446,7 +474,8 @@
       "Increasing ultrasonic frequency\n초음파 주파수를 높인다",
       "Using longitudinal waves instead of transverse waves\n횡파 대신 종파를 쓴다"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "a"
   },
   {
     "id": 30,
@@ -462,7 +491,8 @@
       "Accept indication\n합격 지시"
     ],
     "answer": 1,
-    "image": "UT_LEVEL3_V_Q30.png"
+    "image": "UT_LEVEL3_V_Q30.png",
+    "part": "c"
   },
   {
     "id": 31,
@@ -477,7 +507,8 @@
       "All of above are accepted\n위의 모두 합격이다",
       "All of above are rejected\n위의 모두 불합격이다"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "c"
   },
   {
     "id": 32,
@@ -493,7 +524,8 @@
       "4.18mm high x 6.4mm long\n높이 4.18mm × 길이 6.4mm"
     ],
     "answer": 2,
-    "note": "절차서로 확정했다. HIE-NDT-PAUT-P11 9.0 합격기준 「Table 9. Flaw Acceptance Criteria for Welds With Thicknesses Between 13 ㎜ and Less Than 25 ㎜」는 표면결함을 a/t ≤ 0.087, l ≤ 6.4 ㎜ 로 정한다. 두께 24㎜ 는 이 구간이므로 a = 0.087 × 24 = 2.09㎜, 길이 6.4㎜ 다. 원본 답지의 d(4.18㎜)는 두 배 값이고 은행에 있던 b(1.04㎜)는 표 8 의 t=10㎜ 값이다. 오답 보기가 그렇게 만들어져 있다 — ①0.087 은 비(比)를 ㎜ 로 착각한 것."
+    "note": "절차서로 확정했다. HIE-NDT-PAUT-P11 9.0 합격기준 「Table 9. Flaw Acceptance Criteria for Welds With Thicknesses Between 13 ㎜ and Less Than 25 ㎜」는 표면결함을 a/t ≤ 0.087, l ≤ 6.4 ㎜ 로 정한다. 두께 24㎜ 는 이 구간이므로 a = 0.087 × 24 = 2.09㎜, 길이 6.4㎜ 다. 원본 답지의 d(4.18㎜)는 두 배 값이고 은행에 있던 b(1.04㎜)는 표 8 의 t=10㎜ 값이다. 오답 보기가 그렇게 만들어져 있다 — ①0.087 은 비(比)를 ㎜ 로 착각한 것.",
+    "part": "c"
   },
   {
     "id": 33,
@@ -508,7 +540,8 @@
       "5 times the examination frequency\n검사 주파수의 5배",
       "10 times the examination frequency\n검사 주파수의 10배"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "c"
   },
   {
     "id": 34,
@@ -524,7 +557,8 @@
       "Porosity\n기공"
     ],
     "answer": 2,
-    "image": "UT_LEVEL3_V_Q34.png"
+    "image": "UT_LEVEL3_V_Q34.png",
+    "part": "a"
   },
   {
     "id": 35,
@@ -540,7 +574,8 @@
       "It cannot be evaluated\n평가할 수 없다"
     ],
     "answer": 1,
-    "image": "UT_LEVEL3_V_Q35.png"
+    "image": "UT_LEVEL3_V_Q35.png",
+    "part": "c"
   },
   {
     "id": 36,
@@ -555,7 +590,8 @@
       "10% of thickness",
       "2% of thickness"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 37,
@@ -570,7 +606,8 @@
       "the dynamic range of the system is decreased\n계통의 동적범위가 줄어든다",
       "the effect of amplification threshold is avoided\n증폭 문턱값의 영향을 피할 수 있다"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 38,
@@ -585,7 +622,8 @@
       "compensate for the unavoidable effects of material attenuation losses\n피할 수 없는 재료 감쇠 손실을 보정한다",
       "provide distance-amplitude correction automatically\n거리진폭 보정을 자동으로 해준다"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "b"
   },
   {
     "id": 39,
@@ -600,7 +638,8 @@
       "broaden the frequency range\n주파수 범위를 넓힌다",
       "attenuate the voltage applied to the transducer\n탐촉자에 걸리는 전압을 줄인다"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "b"
   },
   {
     "id": 40,
@@ -615,7 +654,8 @@
       "is a manual contact test of the finished part\n완성품을 수동 접촉법으로 검사하는 것",
       "is an automated immersion test of the billet prior to forging\n단조 전 빌릿을 자동 수침 검사하는 것"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "b"
   },
   {
     "id": 41,
@@ -630,7 +670,8 @@
       "the piezoelectric element should be driven at its fundamental resonant frequency\n압전소자를 기본 공진주파수로 구동해야 한다",
       "the band width of the transducer should be as large as possible\n탐촉자의 대역폭이 가능한 한 넓어야 한다"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 42,
@@ -645,7 +686,8 @@
       "is primarily related to the thickness of the part under inspection\n주로 검사 부품의 두께와 관계있다",
       "is usually improved by using a larger diameter search unit\n보통 지름이 더 큰 탐촉자를 쓰면 좋아진다"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "a"
   },
   {
     "id": 43,
@@ -660,7 +702,8 @@
       "comparing it to a similar search unit made by the same manufacturer\n같은 제조사의 비슷한 탐촉자와 비교",
       "determining the ringing time of search unit\n탐촉자의 링잉 시간 측정"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 44,
@@ -675,7 +718,8 @@
       "weld porosity\n용접부 기공",
       "internal inclusions\n내부 개재물"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 45,
@@ -690,7 +734,8 @@
       "qualitative measure\n정성적 척도",
       "amplitude\n진폭"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 46,
@@ -705,7 +750,8 @@
       "directly proportional to the square of the distance to the reflector\n반사체까지 거리의 제곱에 비례한다",
       "inversely proportional to the square of the distance from the reflector\n반사체까지 거리의 제곱에 반비례한다"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "a"
   },
   {
     "id": 47,
@@ -720,7 +766,8 @@
       "remain unchanged\n변하지 않는다",
       "cannot be predicted as the response is material dependent\n응답이 재료에 따라 달라 예측할 수 없다"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "a"
   },
   {
     "id": 48,
@@ -735,7 +782,8 @@
       "the length of the near field increases\n근거리음장의 길이가 길어진다",
       "the sensitivity increases\n감도가 높아진다"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 49,
@@ -750,7 +798,8 @@
       "2.25 MHz",
       "5 MHz"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "a"
   },
   {
     "id": 50,
@@ -765,7 +814,8 @@
       "resolving range is obtained\n분해 범위를 얻는다",
       "horizontal range is obtained\n수평 범위를 얻는다"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "c"
   },
   {
     "id": 51,
@@ -780,7 +830,8 @@
       "a distance/amplitude set of blocks\n거리/진폭 시험편 세트",
       "steel balls of varying diameter\n지름이 다른 강구"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "b"
   },
   {
     "id": 52,
@@ -795,7 +846,8 @@
       "acoustical mismatch\n음향 부정합",
       "asymmetrical modes\n비대칭 모드"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 53,
@@ -810,7 +862,8 @@
       "not change\n변하지 않는다",
       "change frequency\n주파수가 바뀐다"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 54,
@@ -825,7 +878,8 @@
       "Both 1 and 2 above\n1번과 2번 모두",
       "large and with a frequency as high as possible\n크고 주파수는 가능한 한 높게"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "a"
   },
   {
     "id": 55,
@@ -840,7 +894,8 @@
       "Both 1 and 2 above\n1번과 2번 모두",
       "Neither 1 nor 2 above\n1번도 2번도 아님"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 56,
@@ -855,7 +910,8 @@
       "barium titanate\n티탄산바륨",
       "lead meta-niobate\n메타니오브산납"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 57,
@@ -870,7 +926,8 @@
       "is the same at the outer edges as in the center of the beam\n빔의 가장자리와 중심이 같다",
       "is directly proportional to beam width\n빔 폭에 비례한다"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 58,
@@ -885,7 +942,8 @@
       "increase\n증가",
       "decrease by half with double thickness\n두께가 2배가 되면 절반으로 줄어든다"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "a"
   },
   {
     "id": 59,
@@ -900,7 +958,8 @@
       "definition",
       "gain"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 60,
@@ -915,7 +974,8 @@
       "31°",
       "53°"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 61,
@@ -930,7 +990,8 @@
       "elasticity and density\n탄성과 밀도",
       "chemistry and permeability\n화학 조성과 투자율"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 62,
@@ -945,7 +1006,8 @@
       "acoustic impedance ratio\n음향 임피던스 비",
       "acoustic frequency\n음향 주파수"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 63,
@@ -960,7 +1022,8 @@
       "one wavelength\n1 파장",
       "even multiples of one-half wavelength\n1/2 파장의 짝수 배"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "a"
   },
   {
     "id": 64,
@@ -975,7 +1038,8 @@
       "production of a surface wave\n표면파의 발생",
       "none of the above\n위의 어느 것도 아님"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 65,
@@ -990,7 +1054,8 @@
       "Snell field\n스넬 영역",
       "shadow zone\n그림자 영역"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 66,
@@ -1005,7 +1070,8 @@
       "temperature of the wave\n파동의 온도",
       "all of the above\n위의 모두"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "a"
   },
   {
     "id": 67,
@@ -1020,7 +1086,8 @@
       "is less than the time required for the sound to travel through the test piece\n음파가 시험체를 통과하는 데 걸리는 시간보다 짧다",
       "None of the above\n위의 어느 것도 아님"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "b"
   },
   {
     "id": 68,
@@ -1035,7 +1102,8 @@
       "set the proper index function\n적절한 인덱스 위치를 맞춘다",
       "Both 1 and 2\n1번과 2번 모두"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "a"
   },
   {
     "id": 69,
@@ -1050,7 +1118,8 @@
       "to provide assurance that all discontinuities, smaller than a certain specified reference reflector, are capable of being detected by the test\n정해진 대비반사체보다 작은 모든 불연속이 검출될 수 있음을 보증하기 위해",
       "to provide a standard reflector which exactly simulates natural discontinuities of a critical size\n임계 크기의 자연 불연속을 정확히 모사하는 표준 반사체를 주기 위해"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "c"
   },
   {
     "id": 70,
@@ -1065,7 +1134,8 @@
       "an echo amplitude larger in magnitude than the back surface reflection\n저면반사보다 큰 에코 진폭",
       "all of the above\n위의 모두"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "a"
   },
   {
     "id": 71,
@@ -1080,7 +1150,8 @@
       "test piece geometry\n시험체의 형상",
       "all of the above\n위의 모두"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "a"
   },
   {
     "id": 72,
@@ -1095,7 +1166,8 @@
       "exponential average\n지수 평균",
       "exponential decay\n지수 감쇠"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "a"
   },
   {
     "id": 73,
@@ -1110,7 +1182,8 @@
       "equal to the water travel distance used in setting up on the reference standards\n대비시험편에서 설정할 때 쓴 수거리와 같게",
       "equal to the thickness of the material\n재료의 두께와 같게"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "c"
   },
   {
     "id": 74,
@@ -1125,7 +1198,8 @@
       "dependent on the frequency used\n사용한 주파수에 따라 달라진다",
       "equal to the angle of refraction\n굴절각과 같다"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "a"
   },
   {
     "id": 75,
@@ -1140,7 +1214,8 @@
       "a CRT screen\nCRT 화면",
       "an electron counter\n전자 계수기"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 76,
@@ -1155,7 +1230,8 @@
       "pulse recovery rate of sound energy\n음향 에너지의 펄스 회복률",
       "ultrasonic response of sound energy\n음향 에너지의 초음파 응답"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "a"
   },
   {
     "id": 77,
@@ -1170,7 +1246,8 @@
       "the type of discontinuity\n불연속의 종류",
       "all of the above\n위의 모두"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "a"
   },
   {
     "id": 78,
@@ -1185,7 +1262,8 @@
       "equal to the angle of incidence\n입사각과 같다",
       "0.256 times the angle of incidence\n입사각의 0.256배"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "a"
   },
   {
     "id": 79,
@@ -1200,7 +1278,8 @@
       "water is employed as a couplant between the transducer and the part being measured\n탐촉자와 측정 부품 사이에 물을 접촉매질로 쓸 때",
       "None of the above should cause errors\n위의 어느 것도 오차를 일으키지 않는다"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 80,
@@ -1215,7 +1294,8 @@
       "marker circuit or range marker circuit\n마커 회로 또는 범위 마커 회로",
       "synchronizer, clock or timer\n동기부, 클록 또는 타이머"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "a"
   },
   {
     "id": 81,
@@ -1230,7 +1310,8 @@
       "the angles of maximum reflection\n최대 반사각",
       "none of the above\n위의 어느 것도 아님"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "a"
   },
   {
     "id": 82,
@@ -1245,7 +1326,8 @@
       "placing a spherical, acoustic lens on the face of the transducer\n탐촉자 면에 구면 음향렌즈를 붙인다",
       "using a transducer mounted on a plastic wedge so that sound enters the part at an angle\n플라스틱 웨지에 탐촉자를 붙여 음파가 비스듬히 들어가게 한다"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "a"
   },
   {
     "id": 83,
@@ -1260,7 +1342,8 @@
       "2.5 MHz",
       "2.25 MHz"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "c"
   },
   {
     "id": 84,
@@ -1275,7 +1358,8 @@
       "10 percent\n10%",
       "None required\n필요 없음"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "c"
   },
   {
     "id": 85,
@@ -1290,7 +1374,8 @@
       "SA-387",
       "SA-388"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "c"
   },
   {
     "id": 86,
@@ -1305,7 +1390,8 @@
       "1 inch square\n한 변 1인치 정사각형",
       "Any of the above\n위의 어느 것이든"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "a"
   },
   {
     "id": 87,
@@ -1321,7 +1407,8 @@
       "80 percent of the reference level\n기준레벨의 80%"
     ],
     "answer": 1,
-    "note": "정답 ② 기준레벨의 50% 유지. 20%는 ASME Sec. Ⅷ Div.1 Appendix 12 의 조사(investigate) 기준이고, 이 물음은 기록(record) 기준을 묻는다. 둘은 다른 문턱값이라 20%로 바꾸면 오히려 어긋난다."
+    "note": "정답 ② 기준레벨의 50% 유지. 20%는 ASME Sec. Ⅷ Div.1 Appendix 12 의 조사(investigate) 기준이고, 이 물음은 기록(record) 기준을 묻는다. 둘은 다른 문턱값이라 20%로 바꾸면 오히려 어긋난다.",
+    "part": "c"
   },
   {
     "id": 88,
@@ -1336,7 +1423,8 @@
       "ASME Section Ⅷ",
       "ASME Section XI"
     ],
-    "answer": 1
+    "answer": 1,
+    "part": "c"
   },
   {
     "id": 89,
@@ -1351,7 +1439,8 @@
       "2",
       "100"
     ],
-    "answer": 0
+    "answer": 0,
+    "part": "c"
   },
   {
     "id": 90,
@@ -1366,7 +1455,8 @@
       "5",
       "None of the above\n위의 어느 것도 아님"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "c"
   },
   {
     "id": 91,
@@ -1384,7 +1474,8 @@
     "answer": [
       0,
       1
-    ]
+    ],
+    "part": "c"
   },
   {
     "id": 92,
@@ -1400,7 +1491,8 @@
       "True if the purchaser approves it\n발주자가 승인하면 맞다"
     ],
     "answer": 1,
-    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2",
+    "part": "c"
   },
   {
     "id": 93,
@@ -1415,7 +1507,8 @@
       "5",
       "2"
     ],
-    "answer": 3
+    "answer": 3,
+    "part": "c"
   },
   {
     "id": 94,
@@ -1430,7 +1523,8 @@
       "8 hours",
       "40 hours"
     ],
-    "answer": 2
+    "answer": 2,
+    "part": "c"
   },
   {
     "id": 95,
@@ -1446,7 +1540,8 @@
       "True if the examination method is changed\n검사 방법을 바꾸면 맞다"
     ],
     "answer": 1,
-    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2",
+    "part": "c"
   },
   {
     "id": 96,
@@ -1462,7 +1557,8 @@
       "It depends on the certification level of the examiner\n검사자의 자격 등급에 따라 달라진다"
     ],
     "answer": 1,
-    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2",
+    "part": "c"
   },
   {
     "id": 97,
@@ -1478,7 +1574,8 @@
       "It depends on the edition of the referencing code\n적용 규격의 판(edition)에 따라 달라진다"
     ],
     "answer": 0,
-    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지에 보기가 2개(참·거짓)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2",
+    "part": "c"
   },
   {
     "id": 98,
@@ -1494,7 +1591,8 @@
       "are of the same thickness as the test parts\n시험 부품과 두께가 같은 것"
     ],
     "answer": 2,
-    "groupNote": "The following questions pertain to requirements in ASME Section Ⅴ, Article 5.\n다음 문항은 ASME Section Ⅴ, Article 5 요구사항에 관한 것입니다."
+    "groupNote": "The following questions pertain to requirements in ASME Section Ⅴ, Article 5.\n다음 문항은 ASME Section Ⅴ, Article 5 요구사항에 관한 것입니다.",
+    "part": "c"
   },
   {
     "id": 99,
@@ -1510,7 +1608,8 @@
       "the Code of Ethics for ASME\nASME 윤리강령"
     ],
     "answer": 1,
-    "groupNote": "The following questions pertain to requirements in ASME Section Ⅴ, Article 5.\n다음 문항은 ASME Section Ⅴ, Article 5 요구사항에 관한 것입니다."
+    "groupNote": "The following questions pertain to requirements in ASME Section Ⅴ, Article 5.\n다음 문항은 ASME Section Ⅴ, Article 5 요구사항에 관한 것입니다.",
+    "part": "c"
   },
   {
     "id": 100,
@@ -1526,7 +1625,8 @@
       "none of the above\n위의 어느 것도 아님"
     ],
     "answer": 3,
-    "groupNote": "The following questions pertain to requirements in ASME Section Ⅴ, Article 5.\n다음 문항은 ASME Section Ⅴ, Article 5 요구사항에 관한 것입니다."
+    "groupNote": "The following questions pertain to requirements in ASME Section Ⅴ, Article 5.\n다음 문항은 ASME Section Ⅴ, Article 5 요구사항에 관한 것입니다.",
+    "part": "b"
   },
   {
     "id": 101,
@@ -1542,7 +1642,8 @@
       "none of the above\n위의 어느 것도 아님"
     ],
     "answer": 1,
-    "groupNote": "The following questions pertain to requirements in ASME Section Ⅴ, Article 5.\n다음 문항은 ASME Section Ⅴ, Article 5 요구사항에 관한 것입니다."
+    "groupNote": "The following questions pertain to requirements in ASME Section Ⅴ, Article 5.\n다음 문항은 ASME Section Ⅴ, Article 5 요구사항에 관한 것입니다.",
+    "part": "b"
   },
   {
     "id": 102,
@@ -1558,7 +1659,8 @@
       "45, 44, 33, 18, 9"
     ],
     "answer": 1,
-    "groupNote": "The following questions pertain to requirements in ASME Section Ⅴ, Article 5.\n다음 문항은 ASME Section Ⅴ, Article 5 요구사항에 관한 것입니다."
+    "groupNote": "The following questions pertain to requirements in ASME Section Ⅴ, Article 5.\n다음 문항은 ASME Section Ⅴ, Article 5 요구사항에 관한 것입니다.",
+    "part": "b"
   },
   {
     "id": 103,
@@ -1574,7 +1676,8 @@
       "Arc strikes, spatter, and overlap\n아크 스트라이크, 스패터, 오버랩"
     ],
     "answer": 0,
-    "groupNote": "* Question pertain to requirement in ASME Section Ⅷ.\n(다음 문제는 ASME Sec.Ⅷ 의 요구사항에 따라 답하시오.)"
+    "groupNote": "* Question pertain to requirement in ASME Section Ⅷ.\n(다음 문제는 ASME Sec.Ⅷ 의 요구사항에 따라 답하시오.)",
+    "part": "c"
   },
   {
     "id": 104,
@@ -1590,7 +1693,8 @@
       "ASME Section Ⅴ, Article 5"
     ],
     "answer": 0,
-    "groupNote": "* Question pertain to requirement in ASME Section Ⅷ.\n(다음 문제는 ASME Sec.Ⅷ 의 요구사항에 따라 답하시오.)"
+    "groupNote": "* Question pertain to requirement in ASME Section Ⅷ.\n(다음 문제는 ASME Sec.Ⅷ 의 요구사항에 따라 답하시오.)",
+    "part": "c"
   },
   {
     "id": 105,
@@ -1607,7 +1711,8 @@
     ],
     "answer": 1,
     "groupNote": "* Question pertain to requirement in ASME Section Ⅷ.\n(다음 문제는 ASME Sec.Ⅷ 의 요구사항에 따라 답하시오.)",
-    "note": "원본 시험지의 철자 「Accpetable」을 「Acceptable」로 바로잡음 (2026-08-27)\n원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2"
+    "note": "원본 시험지의 철자 「Accpetable」을 「Acceptable」로 바로잡음 (2026-08-27)\n원본 시험지에 보기가 2개(합격·불합격)뿐이어서 4지선다로 맞추려고 오답 두 개를 지어 넣었다 (2026-08-27). 종목 NDE Level Ⅲ 승인 필요 — HIE-QP-E02 6.1.2",
+    "part": "c"
   },
   {
     "id": 106,
@@ -1623,7 +1728,8 @@
       "80 percent of the reference level\n기준레벨의 80%"
     ],
     "answer": 1,
-    "groupNote": "* Question pertain to requirement in ASME Section Ⅷ.\n(다음 문제는 ASME Sec.Ⅷ 의 요구사항에 따라 답하시오.)"
+    "groupNote": "* Question pertain to requirement in ASME Section Ⅷ.\n(다음 문제는 ASME Sec.Ⅷ 의 요구사항에 따라 답하시오.)",
+    "part": "c"
   },
   {
     "id": 107,
@@ -1639,6 +1745,7 @@
       "4t"
     ],
     "answer": 3,
-    "groupNote": "* Question pertain to requirement in ASME Section Ⅷ.\n(다음 문제는 ASME Sec.Ⅷ 의 요구사항에 따라 답하시오.)"
+    "groupNote": "* Question pertain to requirement in ASME Section Ⅷ.\n(다음 문제는 ASME Sec.Ⅷ 의 요구사항에 따라 답하시오.)",
+    "part": "c"
   }
 ]

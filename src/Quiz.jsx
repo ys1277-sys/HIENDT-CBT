@@ -118,7 +118,56 @@ function fillGroups(groups, count) {
   return picked;
 }
 
-function drawQuestions(bank, count) {
+/*
+ * Level Ⅲ 시험의 갈래별 문항 수 (E01 7.3.4).
+ *
+ * 규정은 몇 문제인지만이 아니라 무엇을 몇 문제인지까지 정한다.
+ * 갈래를 안 나누고 55개를 그냥 뽑으면, 운이 나쁠 때 SNT-TC-1A 문제가
+ * 하나도 없는 시험지가 나온다. 문항 수는 맞아도 규정이 요구한 시험이
+ * 아니다. 문항마다 붙은 part 로 갈래별로 따로 뽑는다.
+ */
+export const LEVEL3_PARTS = {
+  Basic:  { a: 15, b: 20, c: 20 },   /* SNT-TC-1A / 재질·제작 / 다른 종목 */
+  Method: { a: 30, b: 15, c: 20 },   /* 기본 원리 / 기법·절차 / 코드·규격 */
+};
+
+/*
+ * 갈래별로 뽑는다. 은행이 모자라면 있는 만큼 뽑고 나머지는 다른
+ * 갈래에서 채운 뒤 무엇이 모자랐는지 알린다 — 규정 수를 못 채웠다고
+ * 시험을 아예 못 치게 하는 것보다, 알고 치는 편이 낫다.
+ */
+function drawByPart(bank, want) {
+  const pool = { a: [], b: [], c: [], "": [] };
+  for (const q of bank) (pool[q.part] || pool[""]).push(q);
+
+  const picked = [];
+  const short = [];
+
+  for (const k of ["a", "b", "c"]) {
+    const need = want[k];
+    const got = shuffle(pool[k]).slice(0, need);
+    picked.push(...got);
+    if (got.length < need) short.push(k + ") " + (need - got.length) + "개");
+  }
+
+  /* 모자란 만큼은 남은 것에서 채운다 */
+  const total = want.a + want.b + want.c;
+  if (picked.length < total) {
+    const used = new Set(picked.map((q) => q.id));
+    const rest = shuffle(bank.filter((q) => !used.has(q.id)));
+    picked.push(...rest.slice(0, total - picked.length));
+  }
+
+  if (short.length) {
+    console.warn(
+      "★ 갈래가 모자라 다른 갈래에서 채웠습니다 — " + short.join(" · ") +
+      " (E01 7.3.4). 문제은행을 채워야 규정대로 낼 수 있습니다."
+    );
+  }
+  return shuffle(picked);
+}
+
+function drawQuestions(bank, count, parts) {
 
   /*
    * 검토 모드 — 은행에 적힌 차례 그대로 전부 낸다.
@@ -126,6 +175,11 @@ function drawQuestions(bank, count) {
    * 보기 자리도 안 바꾼다. 은행에 적힌 그대로여야 대조가 된다.
    */
   if (DRAW_IN_ORDER) return [...bank];
+
+  /* Level Ⅲ 는 갈래별로 뽑는다. 문항에 part 가 다 붙어 있어야 한다 */
+  if (parts && bank.every((q) => q.part)) {
+    return drawByPart(bank, parts).map(shuffleOptions);
+  }
 
   const groups = toGroups(bank);
 
@@ -373,7 +427,16 @@ function Quiz({
         /* 표 3 은 종목마다 문항 수가 달라 종목까지 넘긴다 */
         const want = questionCount(level, subject, method);
 
-        const drawn = drawQuestions(list, want);
+        /*
+         * Level Ⅲ 는 갈래별 문항 수까지 규정이 정한다 (E01 7.3.4).
+         * 기초시험은 Basic, 종목시험(RT·UT·MT·PT·VT)은 Method 를 따른다.
+         */
+        const parts =
+          level === "Level III"
+            ? (method === "Basic" ? LEVEL3_PARTS.Basic : LEVEL3_PARTS.Method)
+            : null;
+
+        const drawn = drawQuestions(list, want, parts);
 
         console.log(
           "출제:",
