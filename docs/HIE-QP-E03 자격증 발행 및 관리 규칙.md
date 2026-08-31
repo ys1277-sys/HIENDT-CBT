@@ -361,6 +361,8 @@ Level Ⅲ의 승인을 받고, 폐기 일자·승인 기록·폐기 대상 기�
 
 ## 9.0 EXHIBITS (양 식)
 
+9.1 이 규칙에서 쓰는 양식은 다음과 같다.
+
 | 번호 | 양식 |
 |---|---|
 | HIE-QP-E03-01 | 자격증 발급대장 |
@@ -368,6 +370,23 @@ Level Ⅲ의 승인을 받고, 폐기 일자·승인 기록·폐기 대상 기�
 | HIE-QP-E03-03 | 자격증 재발급 대장 |
 | HIE-QP-E03-04 | 자격 만료 예정자 명단 |
 | HIE-QP-E03-05 | 자격종료·복권 기록 |
+
+9.2 **HIE-QP-E01 8.0의 양식은 그대로 쓴다.** 이 규칙의 양식은 그것을
+대체하지 않으며, 발행·재발급·만료·종료를 관리하기 위하여 더한 것이다.
+(E01 8.0)
+
+| 번호 | 양식 | 이 규칙과의 관계 |
+|---|---|---|
+| TH-001 | Certification (자격증) | **자격증 서식은 이것을 쓴다.** 5.2의 기재 사항은 이 서식을 채우는 방법이다 |
+| TH-002 | Summary of NDE Personnel Qualification (Ⅰ·Ⅱ) | 8.0 기록 관리에서 함께 보관한다 |
+| TH-003 | Summary of NDE Personnel Qualification (Ⅲ) | 〃 |
+| TH-004 | NDE Personnel Qualification Record | 5.1의 발행 조건을 확인하는 근거 기록이다 |
+| TH-005 | NDE Personnel Experience Status Record | 〃 |
+| TH-006 | Certificate of Training | 〃 |
+| TH-007 | Physical Examination Record | **6.1의 시력검사 결과를 이 서식에 남긴다** |
+
+> 두 벌의 양식 번호가 서로 다르므로 발급대장(HIE-QP-E03-01)에는 자격증
+> 서식(TH-001)의 일련번호를 함께 적어 둘을 잇는다.
 
 ## 10.0 ATTACHMENTS (첨 부)
 
