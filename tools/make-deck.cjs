@@ -793,7 +793,7 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
-  banner(s, "만든 방법 ①  직접 짰다");
+  banner(s, "만든 방법 ①  VS Code 로 직접 짰다");
   sub(s, "어디서 사 온 것이 아닙니다. 빈 화면에서 시작해 한 줄씩 쌓아 올린 것입니다");
 
   shot(s, "15-code.png", 0.62, 1.52, 7.6, 5.05);
@@ -852,7 +852,7 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
-  banner(s, "만든 방법 ①-2  화면은 이렇게 생겼다");
+  banner(s, "만든 방법 ①-2  VS Code 화면은 이렇게 생겼다");
   sub(s, "VS Code 라는 프로그램입니다. 창 하나가 네 칸으로 나뉘어 있습니다");
 
   shot(s, "15-code.png", 0.62, 1.58, 7.5, 4.95);
@@ -898,11 +898,94 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
 }
 
 /* ══════════════════════════════════════════
+   만든 방법 ①-3  VS Code 를 이렇게 쓴다
+   ══════════════════════════════════════════ */
+{
+  const s = p.addSlide();
+  banner(s, "만든 방법 ①-3  VS Code 를 이렇게 쓴다");
+  sub(s, "다섯 가지만 쓸 줄 알면 됩니다. 나머지는 쓰면서 익혔습니다");
+
+  /*
+   * 「썼습니다」로 끝내면 무엇을 했는지가 안 보인다.
+   * 실제로 손이 어떻게 움직였는지를 그대로 적는다.
+   * 자판까지 적어 두면 발표 뒤에 따라 해 볼 수 있다.
+   */
+  const HOW = [
+    ["폴더를 통째로 연다",
+     "파일 하나가 아니라 프로그램이 든 폴더를 통째로 엽니다.\n" +
+     "그래야 왼쪽에 452개가 다 펼쳐지고 서로 오갈 수 있습니다.",
+     "파일 → 폴더 열기"],
+
+    ["이름 몇 글자로 파일을 찾는다",
+     "452개를 눈으로 뒤지지 않습니다. 「hist」만 쳐도\n" +
+     "history.js 가 바로 뜹니다. 폴더를 헤맬 일이 없습니다.",
+     "Ctrl + P"],
+
+    ["452개에서 낱말을 한 번에 찾는다",
+     "「Level 2」가 어디어디 쓰였는지 한 번에 훑고,\n" +
+     "「Level Ⅱ」로 한꺼번에 바꿉니다. 빠뜨리는 곳이 없습니다.",
+     "Ctrl + Shift + F"],
+
+    ["아래에서 검사 도구를 돌린다",
+     "창을 옮기지 않습니다. 화면 아래가 열리고 거기에\n" +
+     "명령을 넣으면 결과가 그 자리에 뜹니다.",
+     "Ctrl + `"],
+
+    ["무엇이 바뀌었는지 줄 단위로 본다",
+     "고친 자리가 초록·빨강으로 표시됩니다. 아니다 싶으면\n" +
+     "그 줄만 되돌립니다. 파일을 통째로 버리지 않습니다.",
+     "왼쪽 「소스 제어」"],
+  ];
+
+  HOW.forEach((h, i) => {
+    const y = 1.6 + i * 1.04;
+    s.addShape(p.ShapeType.rect, {
+      x: 0.62, y, w: 12.55, h: 0.92,
+      fill: { color: "FFFFFF" }, line: { color: LINE, width: 1 },
+    });
+    s.addShape(p.ShapeType.ellipse, {
+      x: 0.9, y: y + 0.24, w: 0.44, h: 0.44, fill: { color: BLU },
+    });
+    s.addText(String(i + 1), {
+      x: 0.9, y: y + 0.24, w: 0.44, h: 0.44, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 15, bold: true, color: "FFFFFF",
+      align: "center", valign: "middle",
+    });
+    s.addText(h[0], {
+      x: 1.48, y: y + 0.1, w: 4.5, h: 0.34, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 16.5, bold: true, color: INK,
+    });
+    s.addText(h[1], {
+      x: 1.48, y: y + 0.42, w: 8.3, h: 0.44, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 12, color: MUT, lineSpacing: 16,
+    });
+    /* 자판 */
+    s.addShape(p.ShapeType.rect, {
+      x: 10.05, y: y + 0.24, w: 2.85, h: 0.44,
+      fill: { color: "F2F8FD" }, line: { color: BLU, width: 1 },
+    });
+    s.addText(h[2], {
+      x: 10.05, y: y + 0.24, w: 2.85, h: 0.44, isTextBox: true, margin: 0,
+      fontFace: F, fontSize: 12.5, bold: true, color: BLU,
+      align: "center", valign: "middle",
+    });
+  });
+
+  s.addText("배우는 데 며칠 걸리지 않았습니다. 어려운 것은 프로그램이 아니라 우리 규정을 정확히 옮기는 일이었습니다.", {
+    x: 0.62, y: 6.86, w: 12.55, h: 0.35, isTextBox: true, margin: 0,
+    fontFace: F, fontSize: 13.5, bold: true, color: BLU,
+  });
+
+  page(s);
+  s.addNotes("자판까지 적어 두었으니 관심 있는 분은 따라 해 보셔도 됩니다. VS Code 는 무료로 내려받아 쓸 수 있습니다.");
+}
+
+/* ══════════════════════════════════════════
    만든 방법 ①-3  고치고 · 보고 · 되돌리고
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
-  banner(s, "만든 방법 ①-3  고치고 · 보고 · 되돌린다");
+  banner(s, "만든 방법 ①-4  고치고 · 보고 · 되돌린다");
   sub(s, "하루가 이 네 걸음으로 돌아갔습니다. 한 바퀴가 몇 초입니다");
 
   /*
@@ -987,7 +1070,7 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
-  banner(s, "만든 방법 ①-4  기록이 남아 있다");
+  banner(s, "만든 방법 ①-5  고친 기록이 남아 있다");
   sub(s, "고칠 때마다 무엇을 왜 고쳤는지 적어 두었습니다. 217덩이가 남아 있습니다");
 
   /*
@@ -1070,7 +1153,7 @@ function bullet(s, t, x, y, w, size = 15, color = INK) {
    ══════════════════════════════════════════ */
 {
   const s = p.addSlide();
-  banner(s, "만든 방법 ①-5  한 벌을 옮긴다는 것");
+  banner(s, "만든 방법 ①-6  한 벌을 옮긴다는 것");
   sub(s, "앞에서 「시험지를 옮겼습니다」라고 한 줄로 지나갔는데, 실제로는 이런 일이었습니다");
 
   /*
